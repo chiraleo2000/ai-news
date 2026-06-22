@@ -1,0 +1,86 @@
+{
+  "article_id": "greensarc-c3d4e5f6",
+  "schema_version": "1.0",
+  "source_info": {
+    "category": "Research",
+    "source_name": "ArXiv cs.AI/cs.SE",
+    "registry_key": "Research/ArXiv",
+    "domain": "AI-research",
+    "main_url": "https://arxiv.org/list/cs.AI/recent"
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2606.15954",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-22T00:30:00Z",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-16T00:00:00Z",
+    "scraped_at": "2026-06-22T00:30:00Z",
+    "run_date": "2026-06-22",
+    "target_date": "2026-06-22",
+    "within_24h": false,
+    "status": "published",
+    "batch": "3",
+    "category": "AI-RESEARCH",
+    "category_label": "AI Research",
+    "news_type": "วิจัย",
+    "tags": [
+      "agentic-AI",
+      "carbon-governance",
+      "cost-management",
+      "green-AI",
+      "sustainability",
+      "AI-systems"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "Green SARC: Predictive Cost and Carbon Governance for Agentic AI Systems",
+    "slug": "green-sarc-carbon-governance-agentic-ai-2606-15954",
+    "summary": "Green SARC provides a predictive framework for monitoring and governing both financial cost and carbon emissions in agentic AI systems, enabling organizations to set budget and sustainability constraints before deployment rather than discovering overruns after the fact.",
+    "summary_1": "As agentic AI systems become more autonomous and take longer chains of actions, their computational cost and carbon footprint become difficult to predict and control. Green SARC (Predictive Cost and Carbon Governance for Agentic AI Systems) introduces a predictive governance framework with 19 figures of analysis that enables operators to set cost and carbon budgets for AI agent workflows before execution. The system monitors resource consumption across distributed and parallel agent executions, providing closed-loop feedback to interrupt or constrain agents that are approaching budget limits. Code is available on GitHub (besanson/Greensarc) with a software DOI via Zenodo. This work sits at the intersection of Software Engineering (cs.SE), Artificial Intelligence (cs.AI), Distributed Computing (cs.DC), and Machine Learning (cs.LG), addressing the growing concern that unconstrained agentic systems can incur unexpected costs and environmental impact.",
+    "body_text": "Green SARC: Predictive Cost and Carbon Governance for Agentic AI Systems by Gaston Besanson introduces a framework for predictive cost and carbon governance of agentic AI workflows. As AI agents execute long multi-step tasks autonomously, they can consume unexpected amounts of compute, API calls, and energy. Green SARC provides 19 figures of analysis demonstrating predictive modeling of resource consumption, enabling budget-constrained deployment of agentic systems. The framework supports governance policies that pause or redirect agents before they exceed financial or carbon budgets. Software is open-sourced at github.com/besanson/Greensarc with a permanent DOI at doi.org/10.5281/zenodo.20692196. Subjects: Software Engineering (cs.SE); Artificial Intelligence (cs.AI); Distributed, Parallel, and Cluster Computing (cs.DC); Machine Learning (cs.LG).",
+    "language": "en",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "Green SARC addresses the emerging organizational challenge of cost overruns and sustainability compliance in agentic AI deployments—directly relevant as enterprises scale AI agents for production use. Carbon governance is increasingly required for ESG compliance in corporate AI strategies.",
+    "actions_developer": [
+      "Integrate Green SARC governance hooks into agentic pipelines to enforce cost/carbon budgets before agent runaway occurs",
+      "Fork the open-source code at github.com/besanson/Greensarc to add organization-specific governance policies"
+    ],
+    "actions_business": [
+      "Add predictive cost and carbon governance requirements to AI agent procurement and deployment standards",
+      "Use Green SARC methodology for ESG reporting on AI system energy consumption and carbon footprint"
+    ],
+    "urgency": "medium",
+    "related_domains": [
+      "agentic AI",
+      "green AI",
+      "AI governance",
+      "cost management",
+      "sustainability",
+      "MLOps"
+    ],
+    "breakthrough_potential": false
+  },
+  "media_links": {
+    "youtube_channel": null,
+    "youtube_video": null
+  },
+  "paths": {
+    "relative": "Research/ArXiv/2026-06-22/green-sarc-carbon-governance-agentic-ai-2606-15954",
+    "article_md": "article.md",
+    "article_json": "article.json"
+  }
+}

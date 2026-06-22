@@ -1,0 +1,80 @@
+{
+  "article_id": "tw22409dr",
+  "schema_version": "1.0",
+  "source_info": {
+    "category": "Thai",
+    "source_name": "Thaiware",
+    "registry_key": "Thai/Thaiware",
+    "domain": "AI-safety",
+    "main_url": "https://news.thaiware.com"
+  },
+  "source": {
+    "url": "https://www.antivirus.in.th/news/22409.html",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-22T00:00:00Z",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-22T00:00:00+07:00",
+    "scraped_at": "2026-06-22T00:00:00Z",
+    "run_date": "2026-06-22",
+    "target_date": "2026-06-22",
+    "within_24h": true,
+    "status": "published",
+    "batch": "1",
+    "category": "AI-SAFETY",
+    "category_label": "ความปลอดภัย / Cybersecurity",
+    "news_type": "ข่าว",
+    "tags": [
+      "Malware",
+      "GitHub",
+      "SourceForge",
+      "Deno RAT",
+      "DinDoor",
+      "Security"
+    ],
+    "language": "th"
+  },
+  "content": {
+    "title": "ระวังซอฟต์แวร์ปลอมบน GitHub กับ SourceForge โหลดแล้วอาจติดมัลแวร์ Deno RAT ได้",
+    "slug": "fake-software-github-sourceforge-deno-rat",
+    "summary": "พบแคมเปญมัลแวร์ที่แอบซุกมาพร้อมซอฟต์แวร์ปลอมบน GitHub และ SourceForge ติดตั้ง DinDoor backdoor แล้วตามด้วย Deno RAT เพื่อเข้าควบคุมเครื่องเหยื่อ",
+    "summary_1": "มีการค้นพบแคมเปญมัลแวร์ใหม่ที่แฝงซอฟต์แวร์ปลอมไว้บนแพลตฟอร์ม GitHub และ SourceForge ซึ่งเป็นแหล่งดาวน์โหลดซอฟต์แวร์ที่นักพัฒนาและผู้ใช้ทั่วไปไว้ใจ กระบวนการโจมตีเริ่มจากการติดตั้ง DinDoor backdoor เพื่อเปิดช่องทางเข้าออกให้แฮกเกอร์ก่อน จากนั้นจึงติดตั้ง Deno RAT (Remote Access Trojan) เพื่อเข้าควบคุมเครื่องเหยื่อได้อย่างสมบูรณ์ แนะนำให้ผู้ใช้ตรวจสอบความถูกต้องของซอฟต์แวร์ก่อนดาวน์โหลดทุกครั้ง และหลีกเลี่ยงซอฟต์แวร์จากแหล่งที่ไม่น่าเชื่อถือ",
+    "body_text": "พบแคมเปญมัลแวร์ที่ฝังซอฟต์แวร์ปลอมบน GitHub กับ SourceForge แคมเปญนี้จะทำการติดตั้ง DinDoor เพื่อเปิดทางเข้าออกให้แฮกเกอร์ แล้วจึงติด Deno RAT เข้าควบคุมเครื่องเบ็ดเสร็จ ทั้งสองแพลตฟอร์มเป็นที่เชื่อถือสำหรับ developer ทั่วไป ทำให้ผู้ใช้ไม่ระวัง แนะนำให้ตรวจสอบ digital signature และ checksum ก่อนดาวน์โหลดทุกครั้ง",
+    "language": "th",
+    "original_language": "th"
+  },
+  "tech_insights": {
+    "impact_summary": "การใช้แพลตฟอร์มที่น่าเชื่อถืออย่าง GitHub เป็นช่องทางกระจายมัลแวร์เป็นภัยคุกคามระดับสูง เพราะผู้ใช้มักไม่ระวัง",
+    "actions_developer": [
+      "ตรวจสอบ digital signature และ hash ของซอฟต์แวร์ทุกครั้งก่อน install โดยเฉพาะจาก third-party repos",
+      "ใช้ software composition analysis (SCA) tools เพื่อตรวจจับ malicious packages ในโปรเจกต์"
+    ],
+    "actions_business": [
+      "กำหนด policy การดาวน์โหลดซอฟต์แวร์ในองค์กรและใช้ approved software repository เท่านั้น",
+      "อบรม developer ให้ตระหนักถึงภัยมัลแวร์บน open-source platforms"
+    ],
+    "urgency": "high",
+    "related_domains": [
+      "Cybersecurity",
+      "Supply Chain Security",
+      "Developer Security"
+    ],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "Thai/Thaiware/2026-06-22/fake-software-github-sourceforge-deno-rat",
+    "article_md": "article.md",
+    "article_json": "article.json"
+  }
+}

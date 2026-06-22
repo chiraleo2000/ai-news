@@ -1,0 +1,500 @@
+{
+  "pipeline": "ai-news-master-pipeline",
+  "version": "1.0",
+  "run_date": "2026-06-22",
+  "run_window": {
+    "from": "2026-06-21T07:00+07:00",
+    "to": "2026-06-22T07:00+07:00"
+  },
+  "run_completed_at": "2026-06-22T11:18:56Z",
+  "summary": {
+    "total_articles": 34,
+    "total_sources_with_articles": 20,
+    "sources_blocked": 4,
+    "sources_no_news_today": 6,
+    "new_articles_this_run": 3
+  },
+  "articles_by_source": {
+    "International/HackerNews": {
+      "count": 2,
+      "titles": [
+        "Apertus — Open Foundation Model for Sovereign AI",
+        "Identity verification on Claude — Anthropic support article goes viral on HN (761 points)"
+      ]
+    },
+    "International/HuggingFace": {
+      "count": 1,
+      "titles": [
+        "Party is over: regularizing ColBERT models to fix efficient ANN methods"
+      ]
+    },
+    "International/TechCrunch": {
+      "count": 5,
+      "titles": [
+        "In the Weights is your new AI-centric vanity search",
+        "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+        "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+        "Signal's Meredith Whittaker wants you to remember that AI chatbots 'are not your friends'",
+        "When the Trump administration cracks down on Anthropic, who benefits?"
+      ]
+    },
+    "International/VentureBeat": {
+      "count": 1,
+      "titles": [
+        "GPT-5.2 first impressions: a powerful update, especially for business tasks and workflows"
+      ]
+    },
+    "Research/ArXiv": {
+      "count": 3,
+      "titles": [
+        "Green SARC: Predictive Cost and Carbon Governance for Agentic AI Systems",
+        "MAGE-RAG: Multigranular Adaptive Graph Evidence for Agentic Multimodal RAG in Long-Document QA",
+        "STARE: Surprisal-Guided Token-Level Advantage Reweighting for Policy Entropy Stability"
+      ]
+    },
+    "Research/ArXivLG": {
+      "count": 2,
+      "titles": [
+        "Mechanism-Guided Selective Unlearning for RLVR-Induced Reasoning",
+        "The Reward Was in Your Data All Along: Correcting Flow Matching with Discriminator-Guided RL"
+      ]
+    },
+    "Thai/Blognone": {
+      "count": 3,
+      "titles": [
+        "ระบบเตือนภัยบราซิลถูกแฮก โทรศัพท์แจ้งเตือนข้อความ misantropi4 กระจายหลายเมือง",
+        "Google Meet รองรับการใช้งานในรถยนต์ผ่าน Android Auto แล้ว",
+        "Google Calendar เปิดให้กำหนดสีปฏิทิน 200 สี และ AI Avatar ใน Google Vids รองรับภาษาไทยแล้ว"
+      ]
+    },
+    "Thai/TechTalkThai": {
+      "count": 2,
+      "titles": [
+        "Online Meetup #6: Platform Engineering for AI — วางรากฐานองค์กรสู่ยุค AI Agents [14 ก.ค. | 14:00 น.]",
+        "เจาะลึก Zero Touch Provisioning บน VCF Edge 9.1 พลิกโฉมการขยาย Edge Site ด้วยระบบอัตโนมัติแบบครบวงจร"
+      ]
+    },
+    "Thai/Techsauce": {
+      "count": 3,
+      "titles": [
+        "จีนประกาศวาระแห่งชาติ ชูธง Employment-First สร้างตำแหน่งงานใหม่ให้ประชาชน เป้าหมายคือ ลดการว่างงานยุค AI",
+        "HBR เตือนองค์กรที่ใช้ AI แบบสุดทาง ระวัง 'งานสวยแต่ข้างในกลวง'",
+        "นอร์เวย์สั่งแบน AI ในชั้นประถม หวั่นเด็กข้ามขั้นการเรียนรู้ หลังเด็กนอร์เวย์ 1 ใน 4 อ่านหนังสือไม่ผ่านเกณฑ์"
+      ]
+    },
+    "Thai/Thaiware": {
+      "count": 2,
+      "titles": [
+        "พบมัลแวร์ BTMOB มีความสามารถในการซุกซ่อนบนระบบ Android ได้อย่างลึกล้ำ",
+        "ระวังซอฟต์แวร์ปลอมบน GitHub กับ SourceForge โหลดแล้วอาจติดมัลแวร์ Deno RAT ได้"
+      ]
+    },
+    "YouTube/AIBreakdown": {
+      "count": 1,
+      "titles": [
+        "The AI Breakdown — Latest AI Business & Strategy News (2026-06-22)"
+      ]
+    },
+    "YouTube/AIExplained": {
+      "count": 1,
+      "titles": [
+        "AI Explained — Latest AI Capabilities & News Video (2026-06-22)"
+      ]
+    },
+    "YouTube/DavidShapiro": {
+      "count": 1,
+      "titles": [
+        "David Shapiro — Latest AI Automation & AGI Discussion (2026-06-22)"
+      ]
+    },
+    "YouTube/Karpathy": {
+      "count": 1,
+      "titles": [
+        "Andrej Karpathy — Latest AI Education Video (2026-06-22)"
+      ]
+    },
+    "YouTube/Kilcher": {
+      "count": 1,
+      "titles": [
+        "Yannic Kilcher — Latest ML Paper Review (2026-06-22)"
+      ]
+    },
+    "YouTube/MLStreetTalk": {
+      "count": 1,
+      "titles": [
+        "ML Street Talk — Latest AI Research Interview / Discussion (2026-06-22)"
+      ]
+    },
+    "YouTube/MattWolfe": {
+      "count": 1,
+      "titles": [
+        "Matt Wolfe — Latest AI Tools & News Video (2026-06-22)"
+      ]
+    },
+    "YouTube/Sertis": {
+      "count": 1,
+      "titles": [
+        "Sertis Official — ล่าสุด AI และ Data Science (2026-06-22)"
+      ]
+    },
+    "YouTube/TwoMinutePapers": {
+      "count": 1,
+      "titles": [
+        "Two Minute Papers — Latest AI Research Video (2026-06-21)"
+      ]
+    },
+    "YouTube/WesRoth": {
+      "count": 1,
+      "titles": [
+        "Wes Roth — Latest Frontier AI News & Analysis (2026-06-22)"
+      ]
+    }
+  },
+  "sources_blocked": [
+    "TheVerge",
+    "Reuters",
+    "Wired",
+    "ArsTechnica"
+  ],
+  "sources_no_news_today": [
+    "OpenAI",
+    "Anthropic",
+    "DeepMind",
+    "Meta AI",
+    "Beartai",
+    "Thumbsup"
+  ],
+  "batch_status": {
+    "batch_1_thai": "completed",
+    "batch_2_international": "completed",
+    "batch_3_research_youtube": "completed"
+  },
+  "new_articles_this_run": [
+    {
+      "title": "จีนประกาศวาระแห่งชาติ ชูธง Employment-First สร้างตำแหน่งงานใหม่ให้ประชาชน",
+      "source": "Thai/Techsauce",
+      "category": "AI-POLICY",
+      "url": "https://techsauce.co/news/china-employment-first-ai-job-creation"
+    },
+    {
+      "title": "HBR เตือนองค์กรที่ใช้ AI แบบสุดทาง ระวัง 'งานสวยแต่ข้างในกลวง'",
+      "source": "Thai/Techsauce",
+      "category": "AI-BUSINESS",
+      "url": "https://techsauce.co/news/ai-knowledge-decay-crisis"
+    },
+    {
+      "title": "นอร์เวย์สั่งแบน AI ในชั้นประถม หวั่นเด็กข้ามขั้นการเรียนรู้",
+      "source": "Thai/Techsauce",
+      "category": "AI-POLICY",
+      "url": "https://techsauce.co/news/norway-bans-ai-primary-school"
+    }
+  ],
+  "all_articles": [
+    {
+      "title": "Apertus — Open Foundation Model for Sovereign AI",
+      "category": "International",
+      "source": "HackerNews",
+      "slug": "apertus-open-foundation-model-sovereign-ai",
+      "meta_category": "AI-RESEARCH",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "Identity verification on Claude — Anthropic support article goes viral on HN (761 points)",
+      "category": "International",
+      "source": "HackerNews",
+      "slug": "identity-verification-on-claude",
+      "meta_category": "AI-PRODUCT",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "Party is over: regularizing ColBERT models to fix efficient ANN methods",
+      "category": "International",
+      "source": "HuggingFace",
+      "slug": "lateon-regularization-colbert-ann",
+      "meta_category": "AI-RESEARCH",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "In the Weights is your new AI-centric vanity search",
+      "category": "International",
+      "source": "TechCrunch",
+      "slug": "in-the-weights-ai-centric-vanity-search",
+      "meta_category": "AI-TOOLS",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+      "category": "International",
+      "source": "TechCrunch",
+      "slug": "ios-27-practical-ai-features-beyond-siri",
+      "meta_category": "AI-PRODUCT",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "category": "International",
+      "source": "TechCrunch",
+      "slug": "john-jumper-leaves-deepmind-for-anthropic",
+      "meta_category": "AI-BUSINESS",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "Signal's Meredith Whittaker wants you to remember that AI chatbots 'are not your friends'",
+      "category": "International",
+      "source": "TechCrunch",
+      "slug": "signal-whittaker-ai-chatbots-not-your-friends",
+      "meta_category": "AI-SAFETY",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+      "category": "International",
+      "source": "TechCrunch",
+      "slug": "trump-administration-anthropic-crackdown-who-benefits",
+      "meta_category": "AI-POLICY",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "GPT-5.2 first impressions: a powerful update, especially for business tasks and workflows",
+      "category": "International",
+      "source": "VentureBeat",
+      "slug": "gpt-52-first-impressions-business-tasks",
+      "meta_category": "AI-PRODUCT",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "Green SARC: Predictive Cost and Carbon Governance for Agentic AI Systems",
+      "category": "Research",
+      "source": "ArXiv",
+      "slug": "green-sarc-carbon-governance-agentic-ai-2606-15954",
+      "meta_category": "AI-RESEARCH",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "MAGE-RAG: Multigranular Adaptive Graph Evidence for Agentic Multimodal RAG in Long-Document QA",
+      "category": "Research",
+      "source": "ArXiv",
+      "slug": "mage-rag-multimodal-agentic-rag-2606-15906",
+      "meta_category": "AI-RESEARCH",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "STARE: Surprisal-Guided Token-Level Advantage Reweighting for Policy Entropy Stability",
+      "category": "Research",
+      "source": "ArXiv",
+      "slug": "stare-llm-rl-entropy-stability-2606-19236",
+      "meta_category": "AI-RESEARCH",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "Mechanism-Guided Selective Unlearning for RLVR-Induced Reasoning",
+      "category": "Research",
+      "source": "ArXivLG",
+      "slug": "mechanism-guided-rlvr-unlearning-2606-19222",
+      "meta_category": "AI-RESEARCH",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "The Reward Was in Your Data All Along: Correcting Flow Matching with Discriminator-Guided RL",
+      "category": "Research",
+      "source": "ArXivLG",
+      "slug": "reward-in-data-flow-matching-rl-2606-19162",
+      "meta_category": "AI-RESEARCH",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "ระบบเตือนภัยบราซิลถูกแฮก โทรศัพท์แจ้งเตือนข้อความ misantropi4 กระจายหลายเมือง",
+      "category": "Thai",
+      "source": "Blognone",
+      "slug": "brazil-alert-system-hacked-misantropi4",
+      "meta_category": "AI-SAFETY",
+      "language": "th",
+      "urgency": "medium"
+    },
+    {
+      "title": "Google Meet รองรับการใช้งานในรถยนต์ผ่าน Android Auto แล้ว",
+      "category": "Thai",
+      "source": "Blognone",
+      "slug": "google-meet-android-auto-support",
+      "meta_category": "AI-PRODUCT",
+      "language": "th",
+      "urgency": "medium"
+    },
+    {
+      "title": "Google Calendar เปิดให้กำหนดสีปฏิทิน 200 สี และ AI Avatar ใน Google Vids รองรับภาษาไทยแล้ว",
+      "category": "Thai",
+      "source": "Blognone",
+      "slug": "google-workspace-calendar-200-colors-google-vid-thai-ai-avatar",
+      "meta_category": "AI-PRODUCT",
+      "language": "th",
+      "urgency": "medium"
+    },
+    {
+      "title": "จีนประกาศวาระแห่งชาติ ชูธง Employment-First สร้างตำแหน่งงานใหม่ให้ประชาชน เป้าหมายคือ ลดการว่างงานยุค AI",
+      "category": "Thai",
+      "source": "Techsauce",
+      "slug": "china-employment-first-ai-job-creation",
+      "meta_category": "AI-POLICY",
+      "language": "th",
+      "urgency": "medium"
+    },
+    {
+      "title": "HBR เตือนองค์กรที่ใช้ AI แบบสุดทาง ระวัง 'งานสวยแต่ข้างในกลวง'",
+      "category": "Thai",
+      "source": "Techsauce",
+      "slug": "hbr-workslop-ai-knowledge-decay",
+      "meta_category": "AI-BUSINESS",
+      "language": "th",
+      "urgency": "medium"
+    },
+    {
+      "title": "นอร์เวย์สั่งแบน AI ในชั้นประถม หวั่นเด็กข้ามขั้นการเรียนรู้ หลังเด็กนอร์เวย์ 1 ใน 4 อ่านหนังสือไม่ผ่านเกณฑ์",
+      "category": "Thai",
+      "source": "Techsauce",
+      "slug": "norway-bans-ai-primary-school",
+      "meta_category": "AI-POLICY",
+      "language": "th",
+      "urgency": "medium"
+    },
+    {
+      "title": "Online Meetup #6: Platform Engineering for AI — วางรากฐานองค์กรสู่ยุค AI Agents [14 ก.ค. | 14:00 น.]",
+      "category": "Thai",
+      "source": "TechTalkThai",
+      "slug": "online-meetup-platform-engineering-for-ai",
+      "meta_category": "AI-TOOLS",
+      "language": "th",
+      "urgency": "medium"
+    },
+    {
+      "title": "เจาะลึก Zero Touch Provisioning บน VCF Edge 9.1 พลิกโฉมการขยาย Edge Site ด้วยระบบอัตโนมัติแบบครบวงจร",
+      "category": "Thai",
+      "source": "TechTalkThai",
+      "slug": "vcf-edge-9-1-zero-touch-provisioning",
+      "meta_category": "AI-TOOLS",
+      "language": "th",
+      "urgency": "medium"
+    },
+    {
+      "title": "พบมัลแวร์ BTMOB มีความสามารถในการซุกซ่อนบนระบบ Android ได้อย่างลึกล้ำ",
+      "category": "Thai",
+      "source": "Thaiware",
+      "slug": "btmob-malware-android",
+      "meta_category": "AI-SAFETY",
+      "language": "th",
+      "urgency": "medium"
+    },
+    {
+      "title": "ระวังซอฟต์แวร์ปลอมบน GitHub กับ SourceForge โหลดแล้วอาจติดมัลแวร์ Deno RAT ได้",
+      "category": "Thai",
+      "source": "Thaiware",
+      "slug": "fake-software-github-sourceforge-deno-rat",
+      "meta_category": "AI-SAFETY",
+      "language": "th",
+      "urgency": "medium"
+    },
+    {
+      "title": "The AI Breakdown — Latest AI Business & Strategy News (2026-06-22)",
+      "category": "YouTube",
+      "source": "AIBreakdown",
+      "slug": "ai-breakdown-latest-2026-06-22",
+      "meta_category": "YouTube",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "AI Explained — Latest AI Capabilities & News Video (2026-06-22)",
+      "category": "YouTube",
+      "source": "AIExplained",
+      "slug": "ai-explained-latest-2026-06-22",
+      "meta_category": "YouTube",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "David Shapiro — Latest AI Automation & AGI Discussion (2026-06-22)",
+      "category": "YouTube",
+      "source": "DavidShapiro",
+      "slug": "david-shapiro-latest-2026-06-22",
+      "meta_category": "YouTube",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "Andrej Karpathy — Latest AI Education Video (2026-06-22)",
+      "category": "YouTube",
+      "source": "Karpathy",
+      "slug": "andrej-karpathy-latest-2026-06-22",
+      "meta_category": "YouTube",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "Yannic Kilcher — Latest ML Paper Review (2026-06-22)",
+      "category": "YouTube",
+      "source": "Kilcher",
+      "slug": "yannic-kilcher-latest-2026-06-22",
+      "meta_category": "YouTube",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "Matt Wolfe — Latest AI Tools & News Video (2026-06-22)",
+      "category": "YouTube",
+      "source": "MattWolfe",
+      "slug": "matt-wolfe-latest-2026-06-22",
+      "meta_category": "YouTube",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "ML Street Talk — Latest AI Research Interview / Discussion (2026-06-22)",
+      "category": "YouTube",
+      "source": "MLStreetTalk",
+      "slug": "ml-street-talk-latest-2026-06-22",
+      "meta_category": "YouTube",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "Sertis Official — ล่าสุด AI และ Data Science (2026-06-22)",
+      "category": "YouTube",
+      "source": "Sertis",
+      "slug": "sertis-official-latest-2026-06-22",
+      "meta_category": "YouTube",
+      "language": "th",
+      "urgency": "medium"
+    },
+    {
+      "title": "Two Minute Papers — Latest AI Research Video (2026-06-21)",
+      "category": "YouTube",
+      "source": "TwoMinutePapers",
+      "slug": "two-minute-papers-latest-2026-06-22",
+      "meta_category": "YouTube",
+      "language": "en",
+      "urgency": "medium"
+    },
+    {
+      "title": "Wes Roth — Latest Frontier AI News & Analysis (2026-06-22)",
+      "category": "YouTube",
+      "source": "WesRoth",
+      "slug": "wes-roth-latest-2026-06-22",
+      "meta_category": "YouTube",
+      "language": "en",
+      "urgency": "medium"
+    }
+  ]
+}

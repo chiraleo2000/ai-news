@@ -1,0 +1,123 @@
+{
+  "run_date": "2026-06-22",
+  "target_date": "2026-06-22",
+  "pipeline": "ai-news-master-v1.0",
+  "strategy": "source-first",
+  "time_window": "2026-06-21T07:00:00+07:00 → 2026-06-22T07:00:00+07:00",
+  "execution_mode": "parallel (3 agents)",
+  "batches": {
+    "1": {
+      "label": "Thai Sources",
+      "attempted": 20,
+      "articles_created": 7,
+      "articles_skipped_duplicate": 0,
+      "direct_success": 10,
+      "aggregator_fallback": 0,
+      "skipped_older_24h": 42,
+      "sources_with_news": ["Thai/Blognone", "Thai/TechTalkThai", "Thai/Thaiware"],
+      "sources_failed": ["Thai/PrachachatAI (403)", "Thai/EnTechReview (budget)"],
+      "sources_no_news": ["Thai/Beartai", "Thai/Techsauce", "Thai/Thumbsup", "Thai/BangkokBizAI", "Thai/ThairathAI", "Thai/SpringNews", "Thai/ThaiPBS"],
+      "youtube_deferred_to_batch3": true
+    },
+    "2": {
+      "label": "International Sources",
+      "attempted": 25,
+      "articles_created": 9,
+      "articles_skipped_duplicate": 0,
+      "direct_success": 8,
+      "aggregator_fallback": 0,
+      "skipped_older_24h": 4,
+      "sources_with_news": ["Intl/TechCrunch", "Digest/HackerNews", "Digest/HuggingFace", "Intl/VentureBeat"],
+      "sources_no_news_24h": ["Digest/OpenAI (last: Jun 1)", "Digest/Anthropic (last: Jun 17)", "Digest/Google (last: Jun 18)", "Digest/Meta (last: Apr 8)"],
+      "sources_blocked": ["Intl/TheVerge (403)", "Intl/Reuters (403)", "Intl/Axios (empty)"],
+      "secondary_not_fetched": 13
+    },
+    "3": {
+      "label": "Research + YouTube International",
+      "attempted": 15,
+      "articles_created": 15,
+      "articles_skipped_duplicate": 0,
+      "direct_success": 5,
+      "youtube_metadata_fetched": 10,
+      "skipped_older_24h": 0,
+      "note": "ArXiv weekend — most recent papers from Jun 17-19. YouTube exact video URLs not confirmed (fetch budget).",
+      "sources_with_news": [
+        "Research/ArXiv (3 papers)", "Research/ArXivLG (2 papers)",
+        "YT-Intl/TwoMinutePapers", "YT-Intl/Karpathy", "YT-Intl/Kilcher",
+        "YT-Intl/AIExplained", "YT-Intl/MattWolfe", "YT-Intl/WesRoth",
+        "YT-Intl/MLStreetTalk", "YT-Intl/DavidShapiro", "YT-Intl/AIBreakdown", "YT-Intl/Sertis"
+      ],
+      "sources_no_news": ["Research/PapersWithCode", "Research/Semantic", "Research/AIIndex"]
+    }
+  },
+  "articles_total": 31,
+  "articles_skipped_duplicate_total": 0,
+  "skipped_older_than_24h_total": 46,
+  "fetch_stats": {
+    "direct_attempted": 27,
+    "direct_success": 23,
+    "aggregator_attempted": 0,
+    "aggregator_success": 0,
+    "youtube_metadata_fetched": 10,
+    "total_web_fetch": 35,
+    "success_rate": "85%"
+  },
+  "top_stories": [
+    {
+      "title": "Trump Administration Moves Against Anthropic — Who Benefits?",
+      "source": "TechCrunch",
+      "category": "AI-POLICY",
+      "urgency": "high"
+    },
+    {
+      "title": "Identity Verification on Claude (Hacker News viral, 761 pts)",
+      "source": "HackerNews",
+      "category": "AI-PRODUCT",
+      "urgency": "high"
+    },
+    {
+      "title": "Apertus: Open Foundation Model for Sovereign AI",
+      "source": "HackerNews",
+      "category": "AI-RESEARCH",
+      "urgency": "high"
+    },
+    {
+      "title": "Google Workspace AI Avatar รองรับภาษาไทย",
+      "source": "Blognone",
+      "category": "AI-PRODUCT",
+      "urgency": "medium"
+    },
+    {
+      "title": "STARE: Surprisal-Guided Token-Level Advantage Reweighting (arXiv:2606.19236)",
+      "source": "ArXiv/cs.AI",
+      "category": "AI-RESEARCH",
+      "urgency": "high",
+      "note": "4-8% AIME gains on LLM RL training stability"
+    },
+    {
+      "title": "Fake Software on GitHub/SourceForge spreading Deno RAT",
+      "source": "Thaiware",
+      "category": "AI-SAFETY",
+      "urgency": "high"
+    },
+    {
+      "title": "Nobel laureate John Jumper leaves DeepMind for Anthropic",
+      "source": "TechCrunch",
+      "category": "AI-BUSINESS",
+      "urgency": "medium"
+    }
+  ],
+  "output_paths": {
+    "thai": "News/Articles/Thai/*/2026-06-22/",
+    "international": "News/Articles/International/*/2026-06-22/",
+    "research": "News/Articles/Research/*/2026-06-22/",
+    "youtube": "News/Articles/YouTube/*/2026-06-22/"
+  },
+  "files_written": {
+    "article_json": 31,
+    "article_md": 31,
+    "total": 62
+  },
+  "next_step": "run ai-news-publisher",
+  "status": "completed"
+}
