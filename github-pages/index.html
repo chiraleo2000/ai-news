@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI News Daily — Cyberpunk Briefing</title>
+  <title>AI News Daily — Cyberpunk Intelligence Briefing</title>
   <link rel="stylesheet" href="assets/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,67 +30,88 @@
     </div>
   </header>
 
-  <!-- Navigation Tabs (4 Topics) -->
-  <nav class="topic-nav">
+  <!-- Filter Bar -->
+  <section class="filter-bar">
     <div class="container">
-      <button class="topic-tab active" data-topic="all">
-        <span class="tab-icon">◈</span> ALL FEEDS
-      </button>
-      <button class="topic-tab" data-topic="ai-trends">
-        <span class="tab-icon">🧠</span> AI TRENDS
-      </button>
-      <button class="topic-tab" data-topic="tech-trends">
-        <span class="tab-icon">⚙️</span> TECH TRENDS
-      </button>
-      <button class="topic-tab" data-topic="thailand">
-        <span class="tab-icon">🇹🇭</span> THAILAND AI & TECH
-      </button>
-      <button class="topic-tab" data-topic="global">
-        <span class="tab-icon">🌐</span> GLOBAL AI & TECH
-      </button>
-    </div>
-  </nav>
-
-  <!-- Stats Bar -->
-  <section class="stats-bar">
-    <div class="container">
-      <div class="stat-item">
-        <span class="stat-value" id="statTotal">0</span>
-        <span class="stat-label">TOTAL</span>
+      <div class="filter-group">
+        <label class="filter-label">ARCHIVE</label>
+        <select id="dateSelect" class="filter-select"></select>
       </div>
-      <div class="stat-item">
-        <span class="stat-value" id="statAI">0</span>
-        <span class="stat-label">AI TRENDS</span>
+      <div class="filter-group">
+        <label class="filter-label">URGENCY</label>
+        <select id="urgencyFilter" class="filter-select">
+          <option value="all">ALL</option>
+          <option value="high">⚠️ HIGH</option>
+          <option value="medium">MEDIUM</option>
+          <option value="low">LOW</option>
+        </select>
       </div>
-      <div class="stat-item">
-        <span class="stat-value" id="statTech">0</span>
-        <span class="stat-label">TECH</span>
+      <div class="filter-group">
+        <label class="filter-label">SOURCE</label>
+        <select id="sourceFilter" class="filter-select">
+          <option value="all">ALL SOURCES</option>
+        </select>
       </div>
-      <div class="stat-item">
-        <span class="stat-value" id="statThai">0</span>
-        <span class="stat-label">THAILAND</span>
+      <div class="filter-group">
+        <label class="filter-label">SEARCH</label>
+        <input type="text" id="searchInput" class="filter-input" placeholder="Search articles...">
       </div>
-      <div class="stat-item">
-        <span class="stat-value" id="statGlobal">0</span>
-        <span class="stat-label">GLOBAL</span>
+      <div class="filter-stats">
+        <span id="filterCount">0 results</span>
       </div>
     </div>
   </section>
 
-  <!-- Main Content -->
+  <!-- Main: 4 Topic Columns -->
   <main class="main-content">
     <div class="container">
-      <!-- Date Selector -->
-      <div class="date-selector">
-        <label for="dateSelect">ARCHIVE:</label>
-        <select id="dateSelect"></select>
-      </div>
+      <div class="columns-grid">
+        <!-- Column 1: AI Trends -->
+        <div class="topic-column" data-topic="ai-trends">
+          <div class="column-header column-ai">
+            <span class="column-icon">🧠</span>
+            <h2 class="column-title">AI TRENDS</h2>
+            <span class="column-count" id="countAI">0</span>
+          </div>
+          <div class="column-body" id="colAI">
+            <div class="column-empty">No articles</div>
+          </div>
+        </div>
 
-      <!-- Articles Grid -->
-      <div class="articles-grid" id="articlesGrid">
-        <div class="loading-state">
-          <div class="loader"></div>
-          <p>INITIALIZING DATA STREAM...</p>
+        <!-- Column 2: Tech Trends -->
+        <div class="topic-column" data-topic="tech-trends">
+          <div class="column-header column-tech">
+            <span class="column-icon">⚙️</span>
+            <h2 class="column-title">TECH TRENDS</h2>
+            <span class="column-count" id="countTech">0</span>
+          </div>
+          <div class="column-body" id="colTech">
+            <div class="column-empty">No articles</div>
+          </div>
+        </div>
+
+        <!-- Column 3: Thailand AI & Tech -->
+        <div class="topic-column" data-topic="thailand">
+          <div class="column-header column-thai">
+            <span class="column-icon">🇹🇭</span>
+            <h2 class="column-title">THAILAND</h2>
+            <span class="column-count" id="countThai">0</span>
+          </div>
+          <div class="column-body" id="colThai">
+            <div class="column-empty">No articles</div>
+          </div>
+        </div>
+
+        <!-- Column 4: Global AI & Tech -->
+        <div class="topic-column" data-topic="global">
+          <div class="column-header column-global">
+            <span class="column-icon">🌐</span>
+            <h2 class="column-title">GLOBAL AI & TECH</h2>
+            <span class="column-count" id="countGlobal">0</span>
+          </div>
+          <div class="column-body" id="colGlobal">
+            <div class="column-empty">No articles</div>
+          </div>
         </div>
       </div>
     </div>
@@ -108,7 +129,7 @@
   <footer class="site-footer">
     <div class="container">
       <p>AI NEWS DAILY — Automated Intelligence Briefing System</p>
-      <p class="footer-sub">Data pipeline v1.0 | Cyberpunk Light Theme</p>
+      <p class="footer-sub">Pipeline v2.0 | Light Cyberpunk Theme | 4-Column Layout</p>
     </div>
   </footer>
 

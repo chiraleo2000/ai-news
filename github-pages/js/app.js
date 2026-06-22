@@ -1,34 +1,34 @@
 /**
- * AI NEWS DAILY — Main Application
- * Light Cyberpunk Theme | 4 Topic Categories
+ * AI NEWS DAILY — 4-Column Topic Layout with Filters
+ * Light Cyberpunk Theme
  */
 
 (function () {
   'use strict';
 
-  // ═══ Topic Classification ═══
-  // Maps articles into 4 main topics based on their content/tags/category
+  // ═══ Topic Classification Rules ═══
   const TOPIC_RULES = {
     'ai-trends': {
       keywords: ['LLM', 'GPT', 'Claude', 'AI-research', 'foundation-model', 'reasoning',
         'transformer', 'RLHF', 'fine-tuning', 'RAG', 'retrieval', 'embeddings',
         'training', 'benchmark', 'SOTA', 'open-source', 'open-weights',
-        'AI Research', 'AI Safety', 'entropy', 'reinforcement-learning',
-        'ColBERT', 'agentic-AI', 'multimodal', 'NLP', 'alignment'],
+        'entropy', 'reinforcement-learning', 'ColBERT', 'multimodal', 'NLP',
+        'alignment', 'safety', 'model', 'paper', 'arxiv', 'research'],
       categories: ['Research'],
       topics: ['AI Research', 'AI Safety']
     },
     'tech-trends': {
-      keywords: ['AI-tools', 'AI-product', 'AI Products', 'coding', 'workflow',
-        'developer', 'API', 'platform', 'software', 'automation',
-        'iOS', 'apple', 'on-device', 'vanity-search', 'vector-search'],
+      keywords: ['AI-tools', 'AI-product', 'coding', 'workflow', 'developer',
+        'API', 'platform', 'software', 'automation', 'iOS', 'apple',
+        'on-device', 'vanity-search', 'vector-search', 'tool', 'product',
+        'app', 'feature', 'release', 'update', 'launch'],
       categories: [],
       topics: ['AI Tools', 'AI Products']
     },
     'thailand': {
       keywords: ['Thailand', 'Thai', 'ไทย', 'กรุงเทพ', 'Blognone', 'Beartai',
         'Techsauce', 'TechTalkThai', 'Thumbsup', 'DEPA', 'EEC',
-        'Bangkok', 'NECTEC', 'ดีป้า'],
+        'Bangkok', 'NECTEC', 'ดีป้า', 'Sertis'],
       categories: ['Thai'],
       topics: []
     },
@@ -36,7 +36,7 @@
       keywords: ['AI-policy', 'AI-business', 'export-control', 'regulation',
         'talent', 'startup', 'investment', 'IPO', 'acquisition',
         'geopolitical', 'sovereignty', 'compliance', 'KYC',
-        'anthropic', 'openai', 'google', 'meta', 'trump', 'policy'],
+        'policy', 'business', 'government', 'ban', 'crackdown'],
       categories: [],
       topics: ['AI Policy', 'AI Business']
     }
@@ -44,52 +44,71 @@
 
   // ═══ State ═══
   let allPosts = [];
-  let currentTopic = 'all';
   let manifest = [];
 
-  // ═══ DOM Elements ═══
-  const $grid = document.getElementById('articlesGrid');
+  // ═══ DOM refs ═══
   const $dateSelect = document.getElementById('dateSelect');
+  const $urgencyFilter = document.getElementById('urgencyFilter');
+  const $sourceFilter = document.getElementById('sourceFilter');
+  const $searchInput = document.getElementById('searchInput');
+  const $filterCount = document.getElementById('filterCount');
+  const $headerDate = document.getElementById('headerDate');
+  const $headerCount = document.getElementById('headerCount');
   const $modal = document.getElementById('articleModal');
   const $modalBody = document.getElementById('modalBody');
   const $modalClose = document.getElementById('modalClose');
-  const $headerDate = document.getElementById('headerDate');
-  const $headerCount = document.getElementById('headerCount');
+
+  const columns = {
+    'ai-trends': document.getElementById('colAI'),
+    'tech-trends': document.getElementById('colTech'),
+    'thailand': document.getElementById('colThai'),
+    'global': document.getElementById('colGlobal')
+  };
+
+  const counts = {
+    'ai-trends': document.getElementById('countAI'),
+    'tech-trends': document.getElementById('countTech'),
+    'thailand': document.getElementById('countThai'),
+    'global': document.getElementById('countGlobal')
+  };
 
   // ═══ Init ═══
   async function init() {
     try {
       manifest = await fetchJSON('data/manifest.json');
       if (!manifest || manifest.length === 0) {
-        showEmpty('No data available yet');
+        showAllEmpty('No data available');
         return;
       }
       populateDateSelect(manifest);
       await loadDate(manifest[0]);
     } catch (err) {
-      showEmpty('Failed to load data: ' + err.message);
+      showAllEmpty('Failed to load: ' + err.message);
     }
-
     bindEvents();
   }
 
-  // ═══ Data Loading ═══
+  // ═══ Data ═══
   async function fetchJSON(path) {
     const res = await fetch(path);
-    if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return res.json();
   }
 
   async function loadDate(filename) {
-    showLoading();
+    showAllLoading();
     try {
       const data = await fetchJSON('data/' + filename);
-      allPosts = data.posts || [];
-      updateHeader(data.date, allPosts.length);
-      updateStats(allPosts);
-      renderArticles();
+      allPosts = (data.posts || []).map(p => ({
+        ...p,
+        _topic: classifyPost(p)
+      }));
+      $headerDate.textContent = data.date || filename.replace('_news.json', '');
+      $headerCount.textContent = `${allPosts.length} articles`;
+      populateSourceFilter(allPosts);
+      renderColumns();
     } catch (err) {
-      showEmpty('Error loading ' + filename);
+      showAllEmpty('Error: ' + err.message);
     }
   }
 
@@ -103,140 +122,186 @@
     });
   }
 
+  function populateSourceFilter(posts) {
+    const sources = [...new Set(posts.map(p => p.source_name).filter(Boolean))].sort();
+    $sourceFilter.innerHTML = '<option value="all">ALL SOURCES</option>';
+    sources.forEach(s => {
+      const opt = document.createElement('option');
+      opt.value = s;
+      opt.textContent = s;
+      $sourceFilter.appendChild(opt);
+    });
+  }
+
   // ═══ Topic Classification ═══
   function classifyPost(post) {
-    // Direct category match (Thai)
+    // Use pre-assigned topic_group if available
+    if (post.topic_group && TOPIC_RULES[post.topic_group]) return post.topic_group;
+
+    // Direct category match
     if (post.category === 'Thai') return 'thailand';
 
-    // Score each topic
     const scores = { 'ai-trends': 0, 'tech-trends': 0, 'thailand': 0, 'global': 0 };
 
     for (const [topic, rules] of Object.entries(TOPIC_RULES)) {
-      // Check category
       if (rules.categories.includes(post.category)) scores[topic] += 3;
-
-      // Check topic field
       if (rules.topics.includes(post.topic)) scores[topic] += 3;
 
-      // Check tags
-      const postTags = (post.tags || []).join(' ').toLowerCase();
-      const postTitle = (post.title || '').toLowerCase();
-      const postContent = (post.content || '').toLowerCase();
-      const combined = postTags + ' ' + postTitle + ' ' + postContent;
+      const blob = [
+        ...(post.tags || []),
+        post.title || '',
+        post.topic || '',
+        post.source_name || ''
+      ].join(' ').toLowerCase();
 
       for (const kw of rules.keywords) {
-        if (combined.includes(kw.toLowerCase())) scores[topic] += 1;
+        if (blob.includes(kw.toLowerCase())) scores[topic]++;
       }
     }
 
-    // Return highest scoring topic
     const sorted = Object.entries(scores).sort((a, b) => b[1] - a[1]);
     return sorted[0][1] > 0 ? sorted[0][0] : 'global';
   }
 
-  // ═══ Rendering ═══
-  function renderArticles() {
-    const filtered = currentTopic === 'all'
-      ? allPosts
-      : allPosts.filter(p => classifyPost(p) === currentTopic);
+  // ═══ Filtering ═══
+  function getFilteredPosts() {
+    const urgency = $urgencyFilter.value;
+    const source = $sourceFilter.value;
+    const search = $searchInput.value.toLowerCase().trim();
 
-    if (filtered.length === 0) {
-      showEmpty('No articles in this category');
-      return;
-    }
-
-    $grid.innerHTML = '';
-    filtered.forEach((post, idx) => {
-      const card = createCard(post, idx);
-      $grid.appendChild(card);
+    return allPosts.filter(p => {
+      if (urgency !== 'all' && p.urgency !== urgency) return false;
+      if (source !== 'all' && p.source_name !== source) return false;
+      if (search) {
+        const blob = [p.title, p.content, p.source_name, ...(p.tags || [])].join(' ').toLowerCase();
+        if (!blob.includes(search)) return false;
+      }
+      return true;
     });
   }
 
-  function createCard(post, idx) {
-    const topic = classifyPost(post);
-    const card = document.createElement('article');
-    card.className = 'article-card';
-    card.setAttribute('data-topic-color', topic);
-    card.setAttribute('data-index', idx);
+  // ═══ Rendering ═══
+  function renderColumns() {
+    const filtered = getFilteredPosts();
 
-    const urgencyClass = `badge-urgency-${post.urgency || 'low'}`;
-    const tags = (post.tags || []).slice(0, 3).map(t => `<span class="tag">${t}</span>`).join('');
+    // Group by topic
+    const groups = { 'ai-trends': [], 'tech-trends': [], 'thailand': [], 'global': [] };
+    filtered.forEach(p => {
+      const topic = p._topic || 'global';
+      if (groups[topic]) groups[topic].push(p);
+      else groups['global'].push(p);
+    });
+
+    // Render each column
+    for (const [topic, posts] of Object.entries(groups)) {
+      const col = columns[topic];
+      const count = counts[topic];
+      count.textContent = posts.length;
+
+      if (posts.length === 0) {
+        col.innerHTML = '<div class="column-empty">No articles match filters</div>';
+      } else {
+        col.innerHTML = '';
+        posts.forEach(post => {
+          col.appendChild(createBlogCard(post));
+        });
+      }
+    }
+
+    $filterCount.textContent = `${filtered.length} results`;
+  }
+
+  function createBlogCard(post) {
+    const card = document.createElement('article');
+    card.className = 'blog-card';
+    card.setAttribute('data-urgency', post.urgency || 'low');
+
+    const tags = (post.tags || []).slice(0, 3).map(t =>
+      `<span class="card-tag">${esc(t)}</span>`
+    ).join('');
+
+    const breakthroughBadge = post.breakthrough_potential
+      ? '<span class="card-badge breakthrough">★ BREAKTHROUGH</span>'
+      : '';
 
     card.innerHTML = `
-      <div class="card-header">
-        <div class="card-badges">
-          <span class="badge badge-topic">${topicLabel(topic)}</span>
-          <span class="badge ${urgencyClass}">${(post.urgency || 'low').toUpperCase()}</span>
-        </div>
+      <div class="card-top-row">
+        <span class="card-source">
+          <span class="card-urgency-dot ${post.urgency || 'low'}"></span>
+          ${esc(post.source_name || '')}
+        </span>
+        ${breakthroughBadge}
       </div>
-      <h3 class="card-title">${escapeHtml(post.title)}</h3>
-      <p class="card-summary">${escapeHtml(truncate(post.content || post.summary || '', 150))}</p>
-      <div class="card-footer">
-        <span class="card-source">${escapeHtml(post.source_name || '')}</span>
-        <div class="card-tags">${tags}</div>
-      </div>
+      <h3 class="card-title">${esc(post.title)}</h3>
+      <p class="card-excerpt">${esc(truncate(post.content || post.summary || '', 100))}</p>
+      <div class="card-tags">${tags}</div>
     `;
 
-    card.addEventListener('click', () => openModal(post, topic));
+    card.addEventListener('click', () => openModal(post));
     return card;
   }
 
-  function topicLabel(topic) {
-    const labels = {
+  // ═══ Modal ═══
+  function openModal(post) {
+    const topic = post._topic || 'global';
+    const topicLabels = {
       'ai-trends': 'AI TRENDS',
       'tech-trends': 'TECH TRENDS',
-      'thailand': 'THAILAND',
-      'global': 'GLOBAL'
+      'thailand': 'THAILAND AI & TECH',
+      'global': 'GLOBAL AI & TECH'
     };
-    return labels[topic] || 'NEWS';
-  }
 
-  // ═══ Modal ═══
-  function openModal(post, topic) {
-    const devActions = (post.actions_developer || []).map(a => `<li>${escapeHtml(a)}</li>`).join('');
-    const bizActions = (post.actions_business || []).map(a => `<li>${escapeHtml(a)}</li>`).join('');
-    const tags = (post.tags || []).map(t => `<span class="badge badge-topic">${t}</span>`).join(' ');
+    const devActions = (post.actions_developer || []).map(a => `<li>${esc(a)}</li>`).join('');
+    const bizActions = (post.actions_business || []).map(a => `<li>${esc(a)}</li>`).join('');
+    const tags = (post.tags || []).map(t => `<span class="modal-tag">${esc(t)}</span>`).join('');
+    const domains = (post.related_domains || []).map(d => `<span class="modal-tag">${esc(d)}</span>`).join('');
 
     $modalBody.innerHTML = `
-      <h2 class="modal-title">${escapeHtml(post.title)}</h2>
+      <span class="modal-topic-badge ${topic}">${topicLabels[topic]}</span>
+      <h2 class="modal-title">${esc(post.title)}</h2>
       <div class="modal-meta">
-        <span class="badge badge-topic">${topicLabel(topic)}</span>
-        <span class="badge badge-source">${escapeHtml(post.source_name || '')}</span>
-        <span class="badge badge-urgency-${post.urgency || 'low'}">${(post.urgency || 'low').toUpperCase()}</span>
+        <span class="modal-meta-item">📰 ${esc(post.source_name || 'Unknown')}</span>
+        <span class="modal-meta-item">⚡ ${(post.urgency || 'low').toUpperCase()}</span>
+        <span class="modal-meta-item">📅 ${esc(post.published_at ? post.published_at.slice(0, 10) : '')}</span>
+        ${post.breakthrough_potential ? '<span class="modal-meta-item">★ Breakthrough</span>' : ''}
       </div>
 
       <div class="modal-section">
         <div class="modal-section-title">CONTENT</div>
-        <p class="modal-content-text">${escapeHtml(post.content || post.summary || '')}</p>
+        <p class="modal-text">${esc(post.content || post.summary || '')}</p>
       </div>
 
       ${post.tech_impact ? `
       <div class="modal-section">
         <div class="modal-section-title">TECH IMPACT</div>
-        <div class="modal-impact">${escapeHtml(post.tech_impact)}</div>
-      </div>
-      ` : ''}
+        <div class="modal-impact">${esc(post.tech_impact)}</div>
+      </div>` : ''}
 
       ${devActions ? `
       <div class="modal-section">
         <div class="modal-section-title">DEVELOPER ACTIONS</div>
-        <ul class="modal-actions">${devActions}</ul>
-      </div>
-      ` : ''}
+        <ul class="modal-actions-list">${devActions}</ul>
+      </div>` : ''}
 
       ${bizActions ? `
       <div class="modal-section">
         <div class="modal-section-title">BUSINESS ACTIONS</div>
-        <ul class="modal-actions">${bizActions}</ul>
-      </div>
-      ` : ''}
+        <ul class="modal-actions-list">${bizActions}</ul>
+      </div>` : ''}
 
+      ${domains ? `
+      <div class="modal-section">
+        <div class="modal-section-title">RELATED DOMAINS</div>
+        <div class="modal-tags">${domains}</div>
+      </div>` : ''}
+
+      ${tags ? `
       <div class="modal-section">
         <div class="modal-section-title">TAGS</div>
-        <div>${tags || '<span class="tag">—</span>'}</div>
-      </div>
+        <div class="modal-tags">${tags}</div>
+      </div>` : ''}
 
-      ${post.source_url ? `<a href="${escapeHtml(post.source_url)}" target="_blank" rel="noopener" class="modal-link">⟶ VIEW ORIGINAL SOURCE</a>` : ''}
+      ${post.source_url ? `<a href="${esc(post.source_url)}" target="_blank" rel="noopener" class="modal-link">⟶ VIEW ORIGINAL SOURCE</a>` : ''}
     `;
 
     $modal.classList.add('active');
@@ -248,77 +313,42 @@
     document.body.style.overflow = '';
   }
 
-  // ═══ UI Updates ═══
-  function updateHeader(date, count) {
-    $headerDate.textContent = date || '—';
-    $headerCount.textContent = `${count} articles`;
-  }
-
-  function updateStats(posts) {
-    const stats = { total: posts.length, ai: 0, tech: 0, thai: 0, global: 0 };
-    posts.forEach(p => {
-      const t = classifyPost(p);
-      if (t === 'ai-trends') stats.ai++;
-      else if (t === 'tech-trends') stats.tech++;
-      else if (t === 'thailand') stats.thai++;
-      else stats.global++;
+  // ═══ UI States ═══
+  function showAllLoading() {
+    Object.values(columns).forEach(col => {
+      col.innerHTML = '<div class="loading-spinner"><div class="spinner"></div><p>Loading...</p></div>';
     });
-    document.getElementById('statTotal').textContent = stats.total;
-    document.getElementById('statAI').textContent = stats.ai;
-    document.getElementById('statTech').textContent = stats.tech;
-    document.getElementById('statThai').textContent = stats.thai;
-    document.getElementById('statGlobal').textContent = stats.global;
   }
 
-  function showLoading() {
-    $grid.innerHTML = `
-      <div class="loading-state">
-        <div class="loader"></div>
-        <p>INITIALIZING DATA STREAM...</p>
-      </div>`;
-  }
-
-  function showEmpty(msg) {
-    $grid.innerHTML = `
-      <div class="empty-state">
-        <div class="empty-icon">◇</div>
-        <p>${escapeHtml(msg)}</p>
-      </div>`;
+  function showAllEmpty(msg) {
+    Object.values(columns).forEach(col => {
+      col.innerHTML = `<div class="column-empty">${esc(msg)}</div>`;
+    });
   }
 
   // ═══ Events ═══
   function bindEvents() {
-    // Topic tabs
-    document.querySelectorAll('.topic-tab').forEach(tab => {
-      tab.addEventListener('click', () => {
-        document.querySelectorAll('.topic-tab').forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-        currentTopic = tab.dataset.topic;
-        renderArticles();
-      });
+    $dateSelect.addEventListener('change', () => loadDate($dateSelect.value));
+    $urgencyFilter.addEventListener('change', renderColumns);
+    $sourceFilter.addEventListener('change', renderColumns);
+
+    let searchTimeout;
+    $searchInput.addEventListener('input', () => {
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(renderColumns, 250);
     });
 
-    // Date selector
-    $dateSelect.addEventListener('change', () => {
-      loadDate($dateSelect.value);
-    });
-
-    // Modal
     $modalClose.addEventListener('click', closeModal);
-    $modal.addEventListener('click', (e) => {
-      if (e.target === $modal) closeModal();
-    });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') closeModal();
-    });
+    $modal.addEventListener('click', (e) => { if (e.target === $modal) closeModal(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
   }
 
   // ═══ Helpers ═══
-  function escapeHtml(str) {
+  function esc(str) {
     if (!str) return '';
-    const div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
+    const d = document.createElement('div');
+    d.textContent = str;
+    return d.innerHTML;
   }
 
   function truncate(str, len) {
