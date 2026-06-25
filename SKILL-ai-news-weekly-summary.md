@@ -1,10 +1,15 @@
 ---
 name: ai-news-weekly-summary
 description: >
-  AI News Weekly Summary — รวมข่าว AI ทั้งสัปดาห์เป็นไฟล์เดียว
-  อ่าน JSON จาก data/ (ล่าสุด 7 ไฟล์หรือ 7 วัน) → สรุปรวมเป็น
-  1) Weekly Summary TXT (สำหรับใช้กับ ChatGPT Image สร้าง Poster)
-  2) Weekly Summary PDF (printable version)
+  AI News Weekly Summary v2.0 — รวมข่าว AI ทั้งสัปดาห์เป็นไฟล์เดียว
+  อ่าน JSON จาก data/ (ล่าสุด 7 ไฟล์หรือ 7 วัน) → สร้าง 2 ส่วนใน output:
+  
+  PART A: FULL ORIGINAL CONTENT — เนื้อหาต้นฉบับทั้งหมดจาก JSON (ไม่จำกัดความยาว)
+           ประกอบด้วย title, content, source_url, tags, tech_impact, actions ครบทุก article
+           เพื่อให้ ChatGPT มี context ครบถ้วนสำหรับสร้าง poster
+  
+  PART B: CURATED SUMMARY — สรุปเชิงวิเคราะห์ 1500-2000 คำ
+           Headlines, Trends, Key Numbers, Poster Prompt
   
   Output: Document/Weekly/{YYYY}-W{WW}_weekly_summary.txt + .pdf
   ใช้สำหรับ generate AI poster ผ่าน ChatGPT Image Generation
@@ -20,19 +25,19 @@ requires:
   - ai-news-publisher
 ---
 
-# SKILL: ai-news-weekly-summary v1.0
+# SKILL: ai-news-weekly-summary v2.0
 
-> **รวมข่าว AI ทั้งสัปดาห์** จาก daily JSON → ไฟล์เดียว (TXT + PDF)
-> ออกแบบมาเพื่อใช้เป็น **input สำหรับ ChatGPT Image Generation** สร้าง poster
-> อ่าน **ล่าสุด 7 ไฟล์** จาก `data/manifest.json` หรือ **7 วันย้อนหลัง**
-> Output: สรุปครบ จัดหมวดหมู่ พร้อมใช้ copy-paste ไปสร้างภาพ
+> **2-Part Output:** Full Original Content + Curated Summary
+> ส่วนที่ 1 ให้ข้อมูลดิบครบถ้วน (no word limit) สำหรับ ChatGPT
+> ส่วนที่ 2 เป็นสรุปวิเคราะห์ 1500-2000 คำ พร้อม poster prompt
+> อ่าน **ล่าสุด 7 ไฟล์** จาก `data/manifest.json`
 
 ---
 
 ## 🎯 Skill Prompt
 
 ```
-<skill>ai-news-weekly-summary v1.0</skill>
+<skill>ai-news-weekly-summary v2.0</skill>
 
 วันที่: {RUN_DATE} | week_ending: {TARGET_DATE}
 
@@ -42,35 +47,51 @@ requires:
   - รวม posts ทั้งหมดจากทุกวัน
 
 ⛔ OUTPUT (2 ไฟล์):
-  Document/Weekly/{YYYY}-W{WW}_weekly_summary.txt   ← ✦ MAIN: plain text สำหรับ ChatGPT
+  Document/Weekly/{YYYY}-W{WW}_weekly_summary.txt   ← ✦ MAIN: 2-part text สำหรับ ChatGPT
   Document/Weekly/{YYYY}-W{WW}_weekly_summary.pdf   ← PDF version (printable)
 
-⛔ TXT FORMAT (ออกแบบสำหรับ ChatGPT Image Poster):
-  - Section 1: HEADLINE — ข่าวที่สำคัญที่สุด 1-3 เรื่อง (urgency=high + breakthrough)
-  - Section 2: AI TRENDS — สรุปแนวโน้ม AI ของสัปดาห์ (3-5 bullet points)
-  - Section 3: TECH TRENDS — เครื่องมือ/ผลิตภัณฑ์ AI ใหม่ (3-5 bullet points)
-  - Section 4: THAILAND — ข่าว AI ในไทย (ถ้ามี)
-  - Section 5: GLOBAL — นโยบาย/ธุรกิจ AI ระดับโลก (3-5 bullet points)
-  - Section 6: KEY NUMBERS — ตัวเลขสำคัญของสัปดาห์
-  - Section 7: POSTER PROMPT — prompt สำเร็จรูปสำหรับสร้าง poster ใน ChatGPT Image
+⛔ TWO-PART STRUCTURE:
 
-⛔ CONTENT RULES:
+  ┌──────────────────────────────────────────────────────────┐
+  │  PART A: FULL ORIGINAL CONTENT (ไม่จำกัดความยาว)          │
+  │  - ดึง content ต้นฉบับจาก JSON ทุก article               │
+  │  - ทุก article มี: title, date, source_url, content,     │
+  │    tech_impact, tags, urgency, actions_developer,         │
+  │    actions_business, related_domains                      │
+  │  - จัดกลุ่มตาม topic_group                               │
+  │  - ใส่ source_url ทุก article (เพื่อ reference)          │
+  │  - NO WORD LIMIT — ใส่ทุกอย่างที่มี                      │
+  │  - เป้าหมาย: ให้ ChatGPT มี full context                 │
+  └──────────────────────────────────────────────────────────┘
+  ┌──────────────────────────────────────────────────────────┐
+  │  PART B: CURATED SUMMARY (1500-2000 คำ)                   │
+  │  - Headlines 3-5 ข่าวเด่น                                │
+  │  - AI Trends สรุป                                        │
+  │  - Tech Trends สรุป                                      │
+  │  - Thailand สรุป                                         │
+  │  - Global สรุป                                           │
+  │  - Key Numbers (ตัวเลขสำคัญ)                             │
+  │  - Poster Prompt (ready-to-use)                          │
+  └──────────────────────────────────────────────────────────┘
+
+⛔ PART A RULES (Full Original Content):
+  - ดึงจาก JSON fields โดยตรง — ห้ามย่อ ห้ามตัด
+  - ทุก article ต้องมี: title + date + source_url + content (full paragraph)
+  - เพิ่ม: tech_impact, tags, urgency, actions ถ้ามี
+  - จัดกลุ่มตาม topic_group (ai-trends → tech-trends → thailand → global)
+  - ภายในกลุ่ม sort ตาม date (newest first)
+  - ไม่จำกัดความยาว — content field ต้นฉบับ 100-150 คำต่อ article
+  - ถ้า 50 articles × 130 คำ = ~6500 คำ → ยอมรับ
+
+⛔ PART B RULES (Curated Summary):
   - ภาษา: ผสม Thai + English (หัวข้อ English, เนื้อหาสรุป Thai-friendly)
-  - แต่ละ bullet = 1-2 ประโยคกระชับ
-  - เน้น WHAT + WHO + WHY MATTERS
-  - ตัวเลขสำคัญ (funding, users, %, ราคา) ต้องใส่ทุกที่ที่มี
-  - Total word count: 800-1500 คำ (พอดีสำหรับ poster content)
-  - ห้ามยาวเกิน — ต้องอ่านจบได้ใน 3-5 นาที
-
-⛔ POSTER PROMPT SECTION:
-  - สร้าง ready-to-use prompt สำหรับ ChatGPT Image Generation
-  - Style: Light cyberpunk / neon infographic / modern tech poster
-  - ระบุ: headlines, key stats, color scheme, layout suggestion
-  - ผู้ใช้ copy-paste prompt นี้ไปใช้ได้เลย
+  - Word count: 1500-2000 คำ (STRICT — นับก่อนเขียน)
+  - แต่ละ bullet = 1-2 ประโยคกระชับ (WHAT + WHO + WHY MATTERS)
+  - ตัวเลขสำคัญ (funding, users, %, ราคา) ต้องใส่ครบ
+  - Poster prompt ต้องมีเสมอ — ready-to-use for ChatGPT Image
 
 ⛔ PDF GENERATION:
   - สร้าง HTML temp → convert ด้วย msedge/chrome headless
-  - หรือ ใช้ text-based PDF generation
   - Font: system fonts (Segoe UI / Arial / Tahoma สำหรับ Thai)
 ```
 
@@ -82,71 +103,130 @@ requires:
 [Project_Path]/
 ├── Document/
 │   └── Weekly/
-│       ├── 2026-W26_weekly_summary.txt    ← Plain text (ChatGPT input)
+│       ├── 2026-W26_weekly_summary.txt    ← 2-part text (Full + Summary)
 │       ├── 2026-W26_weekly_summary.pdf    ← PDF version
-│       ├── 2026-W25_weekly_summary.txt
 │       └── ...
 ```
 
 ---
 
-## 📋 TXT Template
+## 📋 TXT Template (2-Part Structure)
 
 ```
 ══════════════════════════════════════════════════════════════
-  ⚡ AI NEWS WEEKLY SUMMARY
+  ⚡ AI NEWS WEEKLY — FULL CONTENT + SUMMARY
   Week {YYYY}-W{WW} | {START_DATE} → {END_DATE}
   Total: {N} articles from {M} sources
 ══════════════════════════════════════════════════════════════
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  PART A: FULL ORIGINAL CONTENT                              ║
+║  (เนื้อหาต้นฉบับครบทุก article — ใช้เป็น context สำหรับ AI)   ║
+╚══════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 AI TRENDS ({count} articles)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+---
+📰 {title}
+📅 {date} | 🏷️ {source_name} | ⚡ {urgency}
+🔗 {source_url}
+
+{content — full paragraph from JSON, 100-150 words}
+
+💡 Impact: {tech_impact}
+🏷️ Tags: {tag1}, {tag2}, {tag3}
+👨‍💻 Dev Actions: {actions_developer[0]} | {actions_developer[1]}
+🏢 Biz Actions: {actions_business[0]} | {actions_business[1]}
+🔬 Domains: {related_domains}
+---
+
+[repeat for each article in ai-trends]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚙️ TECH TRENDS ({count} articles)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[same format per article]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🇹🇭 THAILAND AI & TECH ({count} articles)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[same format per article]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 GLOBAL AI & TECH ({count} articles)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[same format per article]
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  PART B: CURATED WEEKLY SUMMARY (1500-2000 words)           ║
+║  (สรุปเชิงวิเคราะห์ — พร้อม Poster Prompt)                   ║
+╚══════════════════════════════════════════════════════════════╝
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🔥 TOP HEADLINES (สำคัญที่สุดของสัปดาห์)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 1. {HEADLINE_1_TITLE}
-   {1-2 sentence summary — what happened + why it matters}
-   Source: {source_name} | {date}
+   {2-3 sentence summary — what happened, key numbers, why it matters}
+   Source: {source_name} | {date} | {source_url}
 
 2. {HEADLINE_2_TITLE}
-   {1-2 sentence summary}
-   Source: {source_name} | {date}
+   {2-3 sentence summary}
+   Source: {source_name} | {date} | {source_url}
 
 3. {HEADLINE_3_TITLE}
-   {1-2 sentence summary}
-   Source: {source_name} | {date}
+   {2-3 sentence summary}
+   Source: {source_name} | {date} | {source_url}
+
+4. {HEADLINE_4_TITLE} (optional)
+   {2-3 sentence summary}
+   Source: {source_name} | {date} | {source_url}
+
+5. {HEADLINE_5_TITLE} (optional)
+   {2-3 sentence summary}
+   Source: {source_name} | {date} | {source_url}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🧠 AI TRENDS (แนวโน้ม AI ของสัปดาห์)
+🧠 AI TRENDS SUMMARY (แนวโน้ม AI ของสัปดาห์)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-• {trend_1 — 1-2 sentences}
+• {trend_1 — 2-3 sentences with context and numbers}
 • {trend_2}
 • {trend_3}
 • {trend_4}
 • {trend_5}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⚙️ TECH TRENDS (เครื่องมือ & ผลิตภัณฑ์ AI ใหม่)
+⚙️ TECH TRENDS SUMMARY (เครื่องมือ & ผลิตภัณฑ์ AI ใหม่)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-• {tech_1}
+• {tech_1 — 2-3 sentences}
 • {tech_2}
 • {tech_3}
 • {tech_4}
+• {tech_5}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🇹🇭 THAILAND AI & TECH
+🇹🇭 THAILAND AI & TECH SUMMARY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-• {thai_1}
+• {thai_1 — 2-3 sentences}
 • {thai_2}
 • {thai_3}
+• {thai_4}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🌐 GLOBAL AI & TECH (นโยบาย / ธุรกิจ / Regulation)
+🌐 GLOBAL AI & TECH SUMMARY (นโยบาย / ธุรกิจ / Regulation)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-• {global_1}
+• {global_1 — 2-3 sentences}
 • {global_2}
 • {global_3}
 • {global_4}
@@ -155,6 +235,11 @@ requires:
 📊 KEY NUMBERS (ตัวเลขสำคัญของสัปดาห์)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+• ${AMOUNT} — {what it represents}
+• ${AMOUNT} — {what it represents}
+• ${AMOUNT} — {what it represents}
+• ${AMOUNT} — {what it represents}
+• ${AMOUNT} — {what it represents}
 • ${AMOUNT} — {what it represents}
 • ${AMOUNT} — {what it represents}
 • ${AMOUNT} — {what it represents}
@@ -174,40 +259,35 @@ TITLE: "AI WEEK IN REVIEW — {START_DATE} to {END_DATE}"
 SUBTITLE: "{N} stories that shaped AI this week"
 
 HEADLINE SECTION (top 1/3):
-{headline_1_short}
-{headline_2_short}
-{headline_3_short}
+🔥 {headline_1_short}
+🔥 {headline_2_short}
+🔥 {headline_3_short}
 
-KEY STATS (middle band):
+KEY STATS (middle band, monospace, neon numbers):
 {stat_1} | {stat_2} | {stat_3} | {stat_4}
 
-CATEGORY ICONS (bottom 1/3):
-🧠 AI Trends: {count} stories
-⚙️ Tech: {count} stories
-🇹🇭 Thailand: {count} stories
-🌐 Global: {count} stories
+CATEGORY BREAKDOWN (bottom section, 4 colored blocks):
+🧠 AI Trends: {count} stories (cyan #00d4ff)
+⚙️ Tech Trends: {count} stories (purple #a855f7)
+🇹🇭 Thailand: {count} stories (orange #ff6b35)
+🌐 Global: {count} stories (green #00cc6a)
 
-FOOTER: "AI News Daily — Week {WW}, {YEAR}"
+VISUAL ELEMENTS:
+- Circuit board / neural network pattern in background
+- Neon glow effects on headlines and numbers
+- Category color-coded borders/blocks
+- Small tech icons (chip, brain, globe, flag)
 
-Layout: vertical poster (3:4 ratio), bold headlines, glowing accents,
-tech-grid background texture, Share Tech Mono font for stats.
+FOOTER: "AI News Daily — Week {WW}, {YEAR} | chiraleo2000.github.io/ai-news"
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📁 ALL ARTICLES THIS WEEK (Full List)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-{date_1}:
-  [{urgency}] {title} — {source_name}
-  [{urgency}] {title} — {source_name}
-  ...
-
-{date_2}:
-  [{urgency}] {title} — {source_name}
-  ...
+Layout: vertical poster (3:4 ratio or 1080x1440px), bold Orbitron headlines, 
+Rajdhani body text, glowing accents, dark background with light text.
 
 ══════════════════════════════════════════════════════════════
-Generated by AI News Weekly Summary Pipeline v1.0
+Generated by AI News Weekly Summary Pipeline v2.0
 Run: {RUN_DATE} | Source: data/manifest.json (last 7 files)
+Part A: Full original content ({X} words — no limit)
+Part B: Curated summary ({Y} words — target 1500-2000)
 ══════════════════════════════════════════════════════════════
 ```
 
@@ -226,26 +306,31 @@ Step 2: LOAD ALL JSON
   - รวม posts ทั้งหมดเป็น array เดียว
   - Sort by published_at (newest first)
 
-Step 3: CLASSIFY & ANALYZE
-  - แบ่ง posts ตาม topic_group (ai-trends/tech-trends/thailand/global)
-  - หา top headlines (urgency=high + breakthrough_potential=true)
-  - หา key numbers (funding amounts, %, user counts, etc.)
-  - นับ stats: total articles, unique sources, topic breakdown
+Step 3: GENERATE PART A (Full Original Content)
+  - จัดกลุ่มตาม topic_group
+  - ทุก article เขียนแบบ full: title, date, source_url, content, 
+    tech_impact, tags, actions_developer, actions_business, related_domains
+  - ไม่ย่อ ไม่ตัด — ใส่ทุกอย่างจาก JSON
+  - ผลลัพธ์: ~5000-10000 คำ (ขึ้นกับจำนวน articles)
 
-Step 4: GENERATE TXT
-  - ใช้ template ด้านบน
+Step 4: GENERATE PART B (Curated Summary)
+  - วิเคราะห์ all posts → หา top headlines (urgency=high + breakthrough)
+  - สรุปแนวโน้มแต่ละหมวด (2-3 sentences per bullet)
+  - หา key numbers (funding, %, users, headcount)
+  - สร้าง poster prompt (ready-to-use)
+  - Word count: 1500-2000 คำ (STRICT — count before writing)
+
+Step 5: COMBINE → TXT
+  - รวม Part A + Part B เป็นไฟล์เดียว
   - เขียนลง Document/Weekly/{YYYY}-W{WW}_weekly_summary.txt
-  - ตรวจ word count อยู่ใน 800-1500 คำ
 
-Step 5: GENERATE PDF
-  - สร้าง temp HTML จาก TXT content
-  - ใช้ msedge --headless --print-to-pdf
-  - หรือ chrome headless
+Step 6: GENERATE PDF
+  - สร้าง temp HTML → convert ด้วย msedge --headless --print-to-pdf
   - Output: Document/Weekly/{YYYY}-W{WW}_weekly_summary.pdf
 
-Step 6: REPORT
-  - แจ้งผล: จำนวน articles, dates covered, file paths
-  - แนะนำ: copy TXT ไปใช้ใน ChatGPT Image
+Step 7: REPORT
+  - แจ้งผล: จำนวน articles, Part A word count, Part B word count
+  - แนะนำ: copy ทั้งไฟล์หรือเฉพาะ Part B ไปใช้ใน ChatGPT
 ```
 
 ---
@@ -253,18 +338,21 @@ Step 6: REPORT
 ## 🔄 How to Use Output for Poster Generation
 
 ```
-วิธีใช้:
+วิธีที่ 1 (Full Context — แนะนำ):
+  1. Copy ทั้งไฟล์ .txt (Part A + B)
+  2. Paste ใน ChatGPT
+  3. บอก: "สร้าง poster จากข้อมูลนี้ ใช้ poster prompt ที่อยู่ใน Part B"
+  4. ChatGPT มี full context จาก Part A → สร้าง poster ที่ครอบคลุม
 
-1. รัน skill นี้ → ได้ไฟล์ .txt
-2. เปิดไฟล์ .txt
-3. Copy section "🎨 POSTER GENERATION PROMPT" ทั้งหมด
-4. Paste ใน ChatGPT (พร้อม Image Generation)
-5. ChatGPT จะสร้าง poster ให้ทันที
+วิธีที่ 2 (Quick — เฉพาะ summary):
+  1. Copy เฉพาะ Part B
+  2. Paste ใน ChatGPT
+  3. สร้าง poster จาก curated summary
 
-หรือ:
-1. Copy ทั้ง TXT file
-2. Paste ใน ChatGPT แล้วบอก "สร้าง poster จากข้อมูลนี้"
-3. ChatGPT อ่านสรุปทั้งหมดแล้วสร้าง poster ที่เหมาะสม
+วิธีที่ 3 (Poster Prompt Only):
+  1. Copy เฉพาะ section "🎨 POSTER GENERATION PROMPT"
+  2. Paste ตรงใน ChatGPT Image
+  3. ได้ poster ทันที
 ```
 
 ---
@@ -277,22 +365,32 @@ Step 6: REPORT
   "week": "{YYYY}-W{WW}",
   "date_range": "{START_DATE} → {END_DATE}",
   "files_read": 7,
-  "total_articles": 35,
+  "total_articles": 75,
   "topic_breakdown": {
-    "ai_trends": 12,
-    "tech_trends": 8,
-    "thailand": 10,
-    "global": 5
+    "ai_trends": 17,
+    "tech_trends": 12,
+    "thailand": 6,
+    "global": 6
   },
-  "top_headlines_count": 3,
-  "key_numbers_extracted": 5,
+  "part_a": {
+    "type": "full_original_content",
+    "word_count": 7500,
+    "articles_included": 75,
+    "fields_per_article": ["title", "date", "source_url", "content", "tech_impact", "tags", "actions", "domains"]
+  },
+  "part_b": {
+    "type": "curated_summary",
+    "word_count": 1800,
+    "headlines": 5,
+    "key_numbers": 10,
+    "poster_prompt": true
+  },
   "output_files": [
     "Document/Weekly/{YYYY}-W{WW}_weekly_summary.txt",
     "Document/Weekly/{YYYY}-W{WW}_weekly_summary.pdf"
   ],
-  "word_count": 1200,
   "status": "SUCCESS ✅",
-  "next_step": "Copy POSTER PROMPT section → paste in ChatGPT Image"
+  "next_step": "Copy full TXT → paste in ChatGPT → generate poster"
 }
 ```
 
@@ -302,9 +400,11 @@ Step 6: REPORT
 
 | Rule | Description |
 |------|-------------|
-| ⛔ ห้ามสร้างไฟล์เกิน 2 ไฟล์ | แค่ .txt + .pdf เท่านั้น |
-| ⛔ Word count 800-1500 | ห้ามสั้นเกินไป ห้ามยาวเกินไป |
-| ⛔ Poster prompt ต้องมีเสมอ | Section สุดท้ายก่อน full list |
-| ⛔ ตัวเลขต้องครบ | funding, %, users, headcount — ห้ามข้าม |
-| ⛔ Thai-friendly | หัวข้อ English, bullet points ผสม Thai ได้ |
+| ⛔ Part A = FULL CONTENT | ห้ามย่อ ห้ามตัด ดึง content จาก JSON ตรงๆ |
+| ⛔ Part A ต้องมี source_url ทุก article | เพื่อ reference และ attribution |
+| ⛔ Part B = 1500-2000 คำ STRICT | นับคำก่อนเขียน ห้ามสั้นกว่า 1500 |
+| ⛔ Poster prompt ต้องมีเสมอ | อยู่ท้ายสุดของ Part B |
+| ⛔ Key Numbers ≥ 8 ตัว | funding, %, users, headcount — ห้ามน้อยกว่า 8 |
+| ⛔ Thai-friendly | หัวข้อ English, content ผสม Thai ได้ |
 | ⛔ ทำให้จบ ไม่ถาม | อ่าน manifest → สร้าง output → รายงาน |
+| ⛔ Output 2 ไฟล์เท่านั้น | .txt + .pdf (HTML เป็น temp ลบได้) |
