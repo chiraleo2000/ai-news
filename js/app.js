@@ -1,5 +1,5 @@
 /**
- * AI NEWS DAILY — 4-Column Topic Layout with Filters
+ * AI NEWS DAILY — 4-Column Topic Layout with Time Range Filter
  * Light Cyberpunk Theme
  */
 
@@ -23,7 +23,7 @@
         'on-device', 'vanity-search', 'vector-search', 'tool', 'product',
         'app', 'feature', 'release', 'update', 'launch'],
       categories: [],
-      topics: ['AI Tools', 'AI Products']
+      topics: ['AI Tools', 'AI Products', 'AI Product']
     },
     'thailand': {
       keywords: ['Thailand', 'Thai', 'ไทย', 'กรุงเทพ', 'Blognone', 'Beartai',
@@ -45,6 +45,7 @@
   // ═══ State ═══
   let allPosts = [];
   let manifest = [];
+  let loadedData = {}; // cache: filename -> posts array
 
   // ═══ DOM refs ═══
   const $dateSelect = document.getElementById('dateSelect');
@@ -80,8 +81,7 @@
         showAllEmpty('No data available');
         return;
       }
-      populateDateSelect(manifest);
-      await loadDate(manifest[0]);
+      await loadByRange($dateSelect.value);
     } catch (err) {
       showAllEmpty('Failed to load: ' + err.message);
     }
@@ -95,16 +95,93 @@
     return res.json();
   }
 
-  async function loadDate(filename) {
+  // ═══ Date Range Logic ═══
+  function getDateFromFilename(filename) {
+    // Extract date string from "2026-06-24_news.json" → "2026-06-24"
+    const match = filename.match(/^(\d{4}-\d{2}-\d{2})/);
+    return match ? match[1] : null;
+  }
+
+  function getToday() {
+    const now = new Date();
+    return now.toISOString().slice(0, 10);
+  }
+
+  function subtractDays(dateStr, days) {
+    const d = new Date(dateStr + 'T00:00:00');
+    d.setDate(d.getDate() - days);
+    return d.toISOString().slice(0, 10);
+  }
+
+  function getFilesInRange(range) {
+    const today = getToday();
+
+    if (range === 'all') {
+      return manifest;
+    }
+
+    let startDate;
+    if (range === 'today') {
+      startDate = today;
+    } else if (range === 'yesterday') {
+      startDate = subtractDays(today, 1);
+      // Only yesterday, not today
+      return manifest.filter(f => {
+        const d = getDateFromFilename(f);
+        return d === startDate;
+      });
+    } else {
+      const days = parseInt(range, 10);
+      startDate = subtractDays(today, days - 1);
+    }
+
+    return manifest.filter(f => {
+      const d = getDateFromFilename(f);
+      if (!d) return false;
+      if (range === 'today') return d === today;
+      return d >= startDate && d <= today;
+    });
+  }
+
+  async function loadByRange(range) {
     showAllLoading();
     try {
-      const data = await fetchJSON('data/' + filename);
-      allPosts = (data.posts || []).map(p => ({
-        ...p,
-        _topic: classifyPost(p)
+      const files = getFilesInRange(range);
+
+      if (files.length === 0) {
+        allPosts = [];
+        updateHeader(range, 0);
+        populateSourceFilter([]);
+        renderColumns();
+        return;
+      }
+
+      // Load all files in range (use cache)
+      const results = await Promise.all(files.map(async (f) => {
+        if (loadedData[f]) return loadedData[f];
+        try {
+          const data = await fetchJSON('data/' + f);
+          const posts = (data.posts || []).map(p => ({
+            ...p,
+            _date: data.date || getDateFromFilename(f),
+            _topic: classifyPost(p)
+          }));
+          loadedData[f] = posts;
+          return posts;
+        } catch (e) {
+          return [];
+        }
       }));
-      $headerDate.textContent = data.date || filename.replace('_news.json', '');
-      $headerCount.textContent = `${allPosts.length} articles`;
+
+      allPosts = results.flat();
+      // Sort by published_at descending (newest first)
+      allPosts.sort((a, b) => {
+        const da = a.published_at || a._date || '';
+        const db = b.published_at || b._date || '';
+        return db.localeCompare(da);
+      });
+
+      updateHeader(range, allPosts.length);
       populateSourceFilter(allPosts);
       renderColumns();
     } catch (err) {
@@ -112,14 +189,18 @@
     }
   }
 
-  function populateDateSelect(files) {
-    $dateSelect.innerHTML = '';
-    files.forEach(f => {
-      const opt = document.createElement('option');
-      opt.value = f;
-      opt.textContent = f.replace('_news.json', '');
-      $dateSelect.appendChild(opt);
-    });
+  function updateHeader(range, count) {
+    const labels = {
+      'today': 'Today',
+      'yesterday': 'Yesterday',
+      '3': 'Last 3 Days',
+      '7': 'Last 7 Days',
+      '14': 'Last 14 Days',
+      '30': 'Last 30 Days',
+      'all': 'All News'
+    };
+    $headerDate.textContent = labels[range] || range;
+    $headerCount.textContent = `${count} articles`;
   }
 
   function populateSourceFilter(posts) {
@@ -135,10 +216,7 @@
 
   // ═══ Topic Classification ═══
   function classifyPost(post) {
-    // Use pre-assigned topic_group if available
     if (post.topic_group && TOPIC_RULES[post.topic_group]) return post.topic_group;
-
-    // Direct category match
     if (post.category === 'Thai') return 'thailand';
 
     const scores = { 'ai-trends': 0, 'tech-trends': 0, 'thailand': 0, 'global': 0 };
@@ -184,7 +262,6 @@
   function renderColumns() {
     const filtered = getFilteredPosts();
 
-    // Group by topic
     const groups = { 'ai-trends': [], 'tech-trends': [], 'thailand': [], 'global': [] };
     filtered.forEach(p => {
       const topic = p._topic || 'global';
@@ -192,7 +269,6 @@
       else groups['global'].push(p);
     });
 
-    // Render each column
     for (const [topic, posts] of Object.entries(groups)) {
       const col = columns[topic];
       const count = counts[topic];
@@ -224,6 +300,8 @@
       ? '<span class="card-badge breakthrough">★ BREAKTHROUGH</span>'
       : '';
 
+    const dateLabel = post._date ? `<span class="card-date">${post._date}</span>` : '';
+
     card.innerHTML = `
       <div class="card-top-row">
         <span class="card-source">
@@ -234,7 +312,10 @@
       </div>
       <h3 class="card-title">${esc(post.title)}</h3>
       <p class="card-excerpt">${esc(truncate(post.content || post.summary || '', 100))}</p>
-      <div class="card-tags">${tags}</div>
+      <div class="card-bottom-row">
+        <div class="card-tags">${tags}</div>
+        ${dateLabel}
+      </div>
     `;
 
     card.addEventListener('click', () => openModal(post));
@@ -262,7 +343,7 @@
       <div class="modal-meta">
         <span class="modal-meta-item">📰 ${esc(post.source_name || 'Unknown')}</span>
         <span class="modal-meta-item">⚡ ${(post.urgency || 'low').toUpperCase()}</span>
-        <span class="modal-meta-item">📅 ${esc(post.published_at ? post.published_at.slice(0, 10) : '')}</span>
+        <span class="modal-meta-item">📅 ${esc(post.published_at ? post.published_at.slice(0, 10) : (post._date || ''))}</span>
         ${post.breakthrough_potential ? '<span class="modal-meta-item">★ Breakthrough</span>' : ''}
       </div>
 
@@ -328,7 +409,7 @@
 
   // ═══ Events ═══
   function bindEvents() {
-    $dateSelect.addEventListener('change', () => loadDate($dateSelect.value));
+    $dateSelect.addEventListener('change', () => loadByRange($dateSelect.value));
     $urgencyFilter.addEventListener('change', renderColumns);
     $sourceFilter.addEventListener('change', renderColumns);
 
