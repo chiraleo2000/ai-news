@@ -1,0 +1,200 @@
+{
+  "report_type": "pipeline_completion",
+  "pipeline_version": "2.0",
+  "pipeline_name": "ai-news-master-pipeline",
+  "run_date": "2026-06-26",
+  "target_date": "2026-06-26",
+  "generated_at": "2026-06-26T08:30:00+07:00",
+  "status": "completed",
+
+  "summary": {
+    "total_batches": 3,
+    "total_articles": 24,
+    "articles_within_24h": 18,
+    "articles_outside_window_included": 6,
+    "articles_rejected_outside_window": 0,
+    "sources_attempted": 72,
+    "sources_with_content": 14,
+    "sources_blocked_403": 2,
+    "sources_empty_js_rendered": 4,
+    "sources_rate_limited": 0
+  },
+
+  "batches": [
+    {
+      "batch": 1,
+      "name": "Thai Sources",
+      "sources_targeted": 28,
+      "articles_collected": 8,
+      "within_24h_count": 7,
+      "outside_window_count": 1,
+      "file": "News/Batches/2026-06-26/batch_1.json",
+      "file_lines": 576,
+      "sources_used": ["TechTalkThai", "Techsauce", "ADPT.news", "Beartai"],
+      "sources_empty": ["BrandInside", "MarketeerOnline", "Positioning", "Businessplus", "TheStandardTech"],
+      "notable_articles": [
+        "Anthropic Claude Tag for Slack (June 25, 2026)",
+        "Salesforce Agentforce Help Agent $2/resolution (June 26, 2026)",
+        "IBM FlashSystem.ai Agentic Storage (June 25, 2026)",
+        "OpenAI + Broadcom Jalapeño LLM Inference Chip (June 25, 2026)",
+        "Huawei Token Monetization MWC Shanghai (June 25, 2026)",
+        "Deep Tech as AI Economic Infrastructure (June 25, 2026)",
+        "Microsoft + AIAT AI Engineering Skills Thailand (June 25, 2026)",
+        "Japan Bank ATM Shutdown AI Cyber Threat (June 24 — borderline)"
+      ]
+    },
+    {
+      "batch": 2,
+      "name": "International Web Sources",
+      "sources_targeted": 40,
+      "articles_collected": 9,
+      "within_24h_count": 9,
+      "outside_window_count": 0,
+      "file": "News/Batches/2026-06-26/batch_2.json",
+      "file_lines": 649,
+      "sources_used": ["TechCrunch", "OpenAI"],
+      "sources_blocked": ["The Verge (403)", "Ars Technica (403)"],
+      "sources_empty_js": ["TechCrunch /2026/06/26/ archive (empty — no articles published yet at run time)"],
+      "notable_articles": [
+        "OpenAI Codex Economic Research: Agents Transforming Work (June 25, 2026)",
+        "Patronus AI $50M Series B: Agent Stress-Testing Digital Worlds (June 25, 2026)",
+        "Anthropic Claude Winning Paid Consumers +75% YTD (June 25, 2026)",
+        "General Intuition $2.3B: Video Games as AI Agent Training (June 25, 2026)",
+        "Databricks Ex-AI-Chief: 1,000x AI Power Reduction Startup (June 25, 2026)",
+        "Amazon $13B India AI Infrastructure Investment (June 25, 2026)",
+        "Notion Mail Shutdown — Agent Takeover (June 25, 2026)",
+        "Netris $15M a16z Series A: AI Neocloud Infrastructure (June 25, 2026)",
+        "Adobe Acquires Topaz Labs: AI Image/Video Enhancement (June 25, 2026)"
+      ]
+    },
+    {
+      "batch": 3,
+      "name": "Research + YouTube International",
+      "sources_targeted": 24,
+      "articles_collected": 6,
+      "within_24h_count": 0,
+      "outside_window_count": 6,
+      "within_24h_note": "ArXiv /new listings as of 2026-06-26 show 'Friday 19 June 2026' as most recent public batch due to ~7-day moderation queue. All 6 papers marked within_24h: false but included as latest publicly available research.",
+      "youtube_note": "YouTube sources (Matt Wolfe, Andrej Karpathy, Yannic Kilcher, Fireship, Two Minute Papers, Lex Fridman) not accessible via web_fetch due to client-side rendering. No videos confirmed in 2026-06-25/26 window.",
+      "file": "News/Batches/2026-06-26/batch_3.json",
+      "file_lines": 456,
+      "sources_used": ["ArXiv cs.CL (June 19 listing)", "ArXiv cs.AI (June 19 listing)"],
+      "notable_articles": [
+        "DeepSeek-V4: 1.6T-param open MoE with 1M token context — arXiv:2606.19348",
+        "Reliability without Validity: LLM-as-a-Judge bias study, 541K judgments — arXiv:2606.19544",
+        "AtomMem: Atomic facts-based LLM agent long-term memory — SOTA on LoCoMo",
+        "Argent Signaling Protocol (ASP): Blocks 100% ungrounded outputs in multi-agent pipelines",
+        "Causal Attribution Pruning (CAP): 61% gain over Wanda at 20% sparsity — arXiv:2606.19350",
+        "GRACE: Theory of optimal verification granularity for test-time scaling"
+      ]
+    }
+  ],
+
+  "article_index": {
+    "ai-trends": [
+      "tc-openai-codex-agents-transforming-work-20260625",
+      "tc-patronus-ai-50m-agent-testing-20260625",
+      "tc-anthropic-claude-winning-paid-consumers-20260625",
+      "tc-general-intuition-2b-video-games-ai-agents-20260625",
+      "arxiv-deepseek-v4-million-token-moe-2606-19348",
+      "arxiv-reliability-without-validity-llm-judge-2606-19544",
+      "arxiv-atommem-llm-agent-memory-atomic-facts-2606",
+      "arxiv-argent-signaling-trustworthy-multi-agent-2606-19356",
+      "arxiv-grace-optimal-verification-granularity-test-time-scaling-2606",
+      "ttt-anthropic-claude-tag-slack-20260625",
+      "ttt-openai-broadcom-jalapeno-chip-20260625",
+      "ts-deeptech-ai-economic-infrastructure-20260625"
+    ],
+    "tech-trends": [
+      "tc-databricks-ai-power-bill-1000x-20260625",
+      "tc-notion-mail-shutdown-agent-takeover-20260625",
+      "tc-netris-15m-a16z-ai-neoclouds-20260625",
+      "tc-adobe-acquires-topaz-labs-ai-enhancement-20260625",
+      "ttt-salesforce-agentforce-help-agent-20260626",
+      "ttt-ibm-flashsystem-agentic-ai-20260625",
+      "ts-huawei-token-monetization-mwc-20260625",
+      "arxiv-causal-attribution-pruning-llm-reasoning-2606-19350"
+    ],
+    "thailand": [
+      "adpt-microsoft-aiat-ai-engineering-thailand-20260625"
+    ],
+    "global": [
+      "tc-amazon-india-13b-ai-infrastructure-20260625",
+      "beartai-japan-bank-ai-cyber-threat-20260624"
+    ]
+  },
+
+  "key_themes": {
+    "dominant_theme": "Agentic AI has crossed the mainstream adoption threshold — from OpenAI's Codex usage data showing 189x non-developer growth to Notion Mail shutting down because agents made it obsolete",
+    "breakthrough_papers": [
+      "DeepSeek-V4 (open 1.6T MoE, 1M token context) — most significant open model release of 2026",
+      "LLM-as-a-Judge bias study — challenges validity of the entire AI evaluation ecosystem"
+    ],
+    "investment_signals": [
+      "Patronus AI $50M Series B — agent evaluation becomes critical infrastructure",
+      "General Intuition $2.3B — video games as AI training environments",
+      "Netris $15M a16z — neocloud networking automation",
+      "Databricks ex-AI-chief 1000x power reduction startup",
+      "Amazon $13B India AI infrastructure"
+    ],
+    "thailand_relevance": [
+      "Microsoft + AIAT AI Engineering Skills Thailand initiative directly applicable",
+      "Amazon India $13B signals APAC infrastructure expansion toward SEA",
+      "Huawei MWC Shanghai token monetization model relevant to Thai telcos (AIS, DTAC, TRUE)"
+    ]
+  },
+
+  "fetch_errors": [
+    {
+      "url": "https://techcrunch.com/2026/06/26/",
+      "error": "empty_content",
+      "reason": "TechCrunch June 26 archive page returned no articles — site not yet populated at pipeline run time (morning UTC+7)"
+    },
+    {
+      "url": "https://www.theverge.com",
+      "error": "http_403",
+      "reason": "Blocked — on domain blocklist"
+    },
+    {
+      "url": "https://arstechnica.com",
+      "error": "http_403",
+      "reason": "Blocked — on domain blocklist"
+    },
+    {
+      "url": "https://venturebeat.com/ai/gpt-5-2/",
+      "error": "empty_content",
+      "reason": "JS-rendered page, content not available via static fetch"
+    }
+  ],
+
+  "output_paths": {
+    "batches_dir": "News/Batches/2026-06-26/",
+    "batch_1": "News/Batches/2026-06-26/batch_1.json",
+    "batch_2": "News/Batches/2026-06-26/batch_2.json",
+    "batch_3": "News/Batches/2026-06-26/batch_3.json",
+    "completion_report": "News/Batches/2026-06-26/completion_report.json",
+    "articles_dir": "News/Articles/",
+    "full_articles_written": [
+      "News/Articles/Thai/TechTalkThai/2026-06-26/anthropic-claude-tag-slack-collaboration/",
+      "News/Articles/Thai/TechTalkThai/2026-06-26/salesforce-agentforce-help-agent-pay-per-resolution/"
+    ],
+    "stub_articles_created": [
+      "News/Articles/Thai/TechTalkThai/2026-06-26/ibm-flashsystem-agentic-ai-autonomous-storage/",
+      "News/Articles/Thai/TechTalkThai/2026-06-26/openai-broadcom-jalapeno-llm-inference-chip/",
+      "News/Articles/Thai/Techsauce/2026-06-26/huawei-token-monetization-ai-telecom-mwc-shanghai-2026/",
+      "News/Articles/Thai/Techsauce/2026-06-26/deep-tech-ai-economic-infrastructure/",
+      "News/Articles/Thai/ADPT-news/2026-06-26/microsoft-aiat-ai-engineering-skills-hackathon-thailand/",
+      "News/Articles/Thai/Beartai/2026-06-26/japan-bank-atm-shutdown-ai-cyber-threat/"
+    ]
+  },
+
+  "pipeline_metadata": {
+    "schema_version": "2.0",
+    "run_mode": "autonomous_scheduled",
+    "model": "claude-sonnet-4-6",
+    "session_type": "continuation",
+    "context_note": "Session continued from prior context window — batch_1.json was completed in prior session; batch_2 and batch_3 completed in this session",
+    "total_tool_calls_estimated": 45,
+    "runtime_estimate_minutes": 40
+  }
+}

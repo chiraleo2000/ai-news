@@ -1,0 +1,180 @@
+{
+  "batch_id": "batch_2",
+  "run_date": "2026-06-25",
+  "target_date": "2026-06-25",
+  "window_start": "2026-06-24T07:00:00+07:00",
+  "window_end": "2026-06-25T07:00:00+07:00",
+  "generated_at": "2026-06-25T02:30:00+07:00",
+  "batch_type": "international",
+  "article_count": 7,
+  "articles": [
+    {
+      "id": "2026-06-25-b2-001",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip 'Jalapeño'",
+      "title_th": "OpenAI และ Broadcom เปิดตัวชิป AI ประมวลผล 'Jalapeño' ที่ออกแบบเฉพาะสำหรับ LLM",
+      "slug": "openai-broadcom-jalapeno-inference-chip",
+      "source": {
+        "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+        "domain": "openai.com",
+        "name": "OpenAI Blog",
+        "language": "en"
+      },
+      "published_at": "2026-06-24T00:00:00+00:00",
+      "fetched_at": "2026-06-25T01:00:00+07:00",
+      "topic_group": "ai-trends",
+      "category": "AI Hardware / Chips",
+      "tags": ["OpenAI", "Broadcom", "Jalapeno", "AI chip", "inference", "ASIC", "LLM hardware", "compute"],
+      "summary_1": "OpenAI and Broadcom have unveiled 'Jalapeño,' OpenAI's first custom AI inference accelerator, developed in just nine months — the fastest ASIC development timeline for high-performance compute on record. Designed exclusively for large language model inference (not general-purpose compute), engineering samples are already running GPT-5.3-Codex-Spark at production target performance. The chip delivers substantially better performance-per-watt than current state-of-the-art alternatives, positioning OpenAI to dramatically reduce the cost of serving its models at scale. OpenAI plans to deploy Jalapeño at gigawatt scale by end-2026 in partnership with Microsoft and other infrastructure partners. Celestica is named as a manufacturing partner alongside Broadcom. This is part of a multi-generation chip roadmap, signaling OpenAI's shift toward full-stack infrastructure control. Greg Brockman framed the move as a 'full-stack infrastructure strategy to make compute more abundant' for AI development globally.",
+      "tech_insights": "Custom silicon for inference (not training) reflects the industry's maturing understanding that inference efficiency — not just training capability — is the primary cost driver at scale. The 9-month development timeline suggests significant pre-investment in design work prior to announcement. Deploying at 'gigawatt scale' implies this is not a lab experiment but a production infrastructure commitment.",
+      "fetch": {
+        "method": "web_fetch",
+        "status": "success",
+        "notes": "Full content retrieved from openai.com official blog post"
+      }
+    },
+    {
+      "id": "2026-06-25-b2-002",
+      "title": "Qualcomm to Acquire Modular — $3.9B deal to accelerate AI software for edge-to-cloud",
+      "title_th": "Qualcomm ประกาศซื้อกิจการ Modular มูลค่า 3.9 พันล้านดอลลาร์ เพื่อเสริมแพลตฟอร์ม AI จาก Edge ถึง Cloud",
+      "slug": "qualcomm-acquires-modular-3-9b-mojo-max-platform",
+      "source": {
+        "url": "https://www.modular.com/blog/qualcomm-to-acquire-modular",
+        "domain": "modular.com",
+        "name": "Modular Blog",
+        "language": "en"
+      },
+      "published_at": "2026-06-24T00:00:00+00:00",
+      "fetched_at": "2026-06-25T01:30:00+07:00",
+      "topic_group": "ai-trends",
+      "category": "AI Infrastructure / M&A",
+      "tags": ["Qualcomm", "Modular", "Mojo", "MAX platform", "LLVM", "Chris Lattner", "AI infrastructure", "acquisition", "edge AI"],
+      "summary_1": "Qualcomm announced a definitive agreement to acquire Modular Inc., the AI software infrastructure company behind the Mojo programming language and the MAX AI platform, for approximately $3.9 billion. Founded by Chris Lattner — creator of LLVM, Clang, MLIR, and the Swift programming language — Modular built a platform enabling AI models to run efficiently across heterogeneous hardware (CPU, GPU, NPU, custom ASICs) without per-accelerator rewrites. For Qualcomm, the acquisition strengthens its software foundation for generative and agentic AI across data center and edge environments, deepening its data center strategy alongside its established edge silicon leadership. Qualcomm CEO Cristiano Amon called it 'a pivotal moment' as the industry moves toward disaggregated, multi-vendor architectures that demand open, modern software foundations. The deal is expected to close in the second half of 2026 subject to regulatory approvals.",
+      "tech_insights": "This acquisition represents Qualcomm's most significant software bet: Modular's 'write once, run anywhere' approach for AI models is the AI equivalent of what LLVM did for compilers. Lattner's pedigree (LLVM, Swift, Google TPU, Tesla Autopilot) makes this a rare acqui-hire of a world-class compiler/systems team. Mojo's integration into Qualcomm's chip ecosystem could create a compelling open alternative to CUDA.",
+      "fetch": {
+        "method": "web_fetch",
+        "status": "success",
+        "notes": "Full press release content retrieved from modular.com official blog"
+      }
+    },
+    {
+      "id": "2026-06-25-b2-003",
+      "title": "AI researchers continue to leave Google for its rivals",
+      "title_th": "นักวิจัย AI ระดับแนวหน้าไหลออกจาก Google ต่อเนื่อง ล่าสุดสองคนย้ายไป Anthropic",
+      "slug": "google-ai-researcher-exodus-adler-pritzel-anthropic",
+      "source": {
+        "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+        "domain": "techcrunch.com",
+        "name": "TechCrunch",
+        "language": "en"
+      },
+      "published_at": "2026-06-24T21:42:07+00:00",
+      "fetched_at": "2026-06-25T02:00:00+07:00",
+      "topic_group": "ai-trends",
+      "category": "AI Industry / Talent",
+      "tags": ["Google", "Anthropic", "OpenAI", "AI talent", "Jonas Adler", "Alexander Pritzel", "Noam Shazeer", "John Jumper", "Gemini", "IPO"],
+      "summary_1": "Top Google AI researchers Jonas Adler and Alexander Pritzel are leaving to join Anthropic, deepening a talent exodus from Google DeepMind that has accelerated dramatically in June 2026. Adler and Pritzel played key roles in developing Google's Gemini model. This follows the departure of legendary researcher Noam Shazeer — at Google since 2000, briefly at Character.AI — to OpenAI last week, and Nobel Prize-winning DeepMind director John Jumper's move to Anthropic just days earlier. Analysts note that the upcoming IPOs of both OpenAI and Anthropic are creating powerful equity-based recruiting incentives, making it an unusually attractive time for researchers to switch companies. The pattern raises systemic questions about Google's ability to retain frontier AI talent as its rivals prepare for public listings that could yield enormous equity windfalls for early employees.",
+      "tech_insights": "The concentration of departures in June 2026 — immediately preceding Anthropic's IPO — suggests pre-IPO equity grants are the primary driver. Google's structure as a large public company makes it structurally disadvantaged vs. pre-IPO competitors in talent retention during this period. Gemini's competitive positioning deserves monitoring given the departure of key architects.",
+      "fetch": {
+        "method": "web_fetch",
+        "status": "success",
+        "notes": "Full article content retrieved from TechCrunch; published_time confirmed from meta tags"
+      }
+    },
+    {
+      "id": "2026-06-25-b2-004",
+      "title": "Anthropic accuses Alibaba of campaign to 'brazenly' and 'illicitly' extract Claude AI capabilities",
+      "title_th": "Anthropic แฉ Alibaba ใช้บัญชีผี 25,000 บัญชี ดูดข้อมูล Claude ไปเทรน AI ของตัวเองกว่า 28 ล้านครั้ง",
+      "slug": "anthropic-alibaba-25000-accounts-claude-distillation-attack",
+      "source": {
+        "url": "https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html",
+        "domain": "cnbc.com",
+        "name": "CNBC",
+        "language": "en"
+      },
+      "published_at": "2026-06-24T00:00:00+00:00",
+      "fetched_at": "2026-06-25T02:15:00+07:00",
+      "topic_group": "ai-trends",
+      "category": "AI Safety / Policy / China",
+      "tags": ["Anthropic", "Alibaba", "Qwen", "distillation", "AI theft", "national security", "Claude", "AI policy", "China tech"],
+      "summary_1": "Anthropic sent a formal letter to the U.S. Senate Committee on Banking, Housing, and Urban Affairs accusing Alibaba's AI lab Qwen of orchestrating the largest known model distillation attack on Claude to date. Between April 22 and June 5, 2026, approximately 25,000 fraudulent accounts linked to Alibaba-affiliated operators conducted 28.8 million exchanges with Claude, specifically targeting its most commercially valuable capabilities: software engineering and advanced agentic reasoning. Anthropic called the campaign 'brazen' and 'illicit,' noting it occurred after the White House had publicly warned about distillation attacks as a national security threat. Alibaba's ADR shares fell more than 3% on the news. The letter urges Congress to strengthen antitrust information-sharing rules, tighten AI chip export controls, and impose sanctions on companies conducting distillation attacks. Senators Bill Hagerty and Andy Kim are reportedly preparing legislation in response.",
+      "tech_insights": "Distillation at this scale (28.8M exchanges via 25K accounts) represents a systematic, industrial-grade attack rather than opportunistic scraping. The specific targeting of software engineering and agentic reasoning — the highest-value Claude capabilities — suggests sophisticated adversarial actors with deep knowledge of Claude's capability profile. The legislative response could significantly reshape AI export control frameworks.",
+      "fetch": {
+        "method": "web_search",
+        "status": "partial",
+        "notes": "CNBC URL confirmed via web search with June 24 dateline; full article content verified via multiple corroborating sources including Techsauce Thai summary citing thenextweb.com"
+      }
+    },
+    {
+      "id": "2026-06-25-b2-005",
+      "title": "Facebook rolls out an AI companion app for creators",
+      "title_th": "Facebook เปิดตัวแอป AI companion สำหรับ Creator — reimagine Creator Studio เป็นแอปแยกพร้อม AI assistant",
+      "slug": "facebook-ai-creator-companion-app-studio",
+      "source": {
+        "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
+        "domain": "techcrunch.com",
+        "name": "TechCrunch",
+        "language": "en"
+      },
+      "published_at": "2026-06-24T17:16:24+00:00",
+      "fetched_at": "2026-06-25T02:00:00+07:00",
+      "topic_group": "ai-trends",
+      "category": "AI Products / Social Media",
+      "tags": ["Meta", "Facebook", "creator economy", "AI assistant", "Creator Studio", "social media AI"],
+      "summary_1": "Facebook announced it is reimagining its Creator Studio tool as a standalone AI companion app designed to help creators grow their audiences on the platform. Currently in testing with select creators, the app features an AI assistant that provides personalized recommendations based on content style, performance metrics, audience engagement, and creator goals. Creators can ask conversational questions like 'When should I post?' or 'What are people saying in my comments?' and get instant contextual answers without navigating complex dashboards. The app also includes an AI-powered comment tool that surfaces important responses and drafts replies in the creator's own voice. Meta CEO Mark Zuckerberg has said AI-driven efficiencies are enabling the company to build more apps than historically possible, with recent launches including Forum (a Reddit-like community app) and Instants (a disappearing-photos Instagram app). The Creator Studio companion follows the previously reported 'Arena' prediction market app still in development.",
+      "tech_insights": "This is Meta's AI-native product strategy at work: embedding AI into the creator workflow to reduce reliance on third-party tools (ChatGPT for content ideas, third-party analytics) that pull creators outside the Meta ecosystem. The personalized-tone reply drafting feature is a direct competitive response to similar features in LinkedIn and X's Creator tools.",
+      "fetch": {
+        "method": "web_fetch",
+        "status": "success",
+        "notes": "Full article content retrieved from TechCrunch; published_time confirmed from meta tags"
+      }
+    },
+    {
+      "id": "2026-06-25-b2-006",
+      "title": "Figma adds code layers, support for animations, more AI features in new update",
+      "title_th": "Figma อัปเดตครั้งใหญ่: Code Layers บน Canvas, Animation Native, AI Skills และ Plugin สร้างด้วย AI",
+      "slug": "figma-config-2026-code-layers-animation-ai-features",
+      "source": {
+        "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+        "domain": "techcrunch.com",
+        "name": "TechCrunch",
+        "language": "en"
+      },
+      "published_at": "2026-06-24T16:15:00+00:00",
+      "fetched_at": "2026-06-25T02:00:00+07:00",
+      "topic_group": "tech-trends",
+      "category": "Developer Tools / Design",
+      "tags": ["Figma", "AI design", "code layers", "animation", "Claude Code", "Codex", "design tools", "developer tools"],
+      "summary_1": "Figma unveiled a major product update at its annual Config conference, introducing code layers directly to the collaborative canvas — enabling designers, PMs, and engineers to clone repositories and extract code flows into design layers for rapid iteration without worrying about production-quality code. The update adds native support for animations, transitions, and 3D transforms, eliminating the need to build motion in separate tools. AI is now deeply integrated throughout: shader effects can be generated with prompts, and users can create repeatable AI agent skills for custom tasks. Figma is also deepening integration with its Weavy acquisition, letting users run multi-model comparison workflows directly within the canvas. New connections to Notion, Granola, Excel, and GitHub give the AI assistant more context. CPO Yuhki Yamashita framed the changes as enabling rapid spatial exploration rather than pristine code production.",
+      "tech_insights": "Figma's integration of Claude Code and Codex (announced earlier in 2026) now matures into 'code layers' — a direct bridge between design and code in a multiplayer spatial context. The ability for PMs and designers to work with live code in Figma without engineering handoff is a meaningful shift in product development workflows, potentially compressing design-to-prototype cycles from days to hours.",
+      "fetch": {
+        "method": "web_fetch",
+        "status": "success",
+        "notes": "Full article content retrieved from TechCrunch; published_time confirmed from meta tags"
+      }
+    },
+    {
+      "id": "2026-06-25-b2-007",
+      "title": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
+      "title_th": "Agility Robotics เตรียม IPO ผ่าน SPAC มูลค่า 2.5 พันล้านดอลลาร์ หุ่นยนต์ Digit ใช้งานในโรงงานจริงแล้ว 9 แห่ง",
+      "slug": "agility-robotics-spac-ipo-2-5b-digit-humanoid",
+      "source": {
+        "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+        "domain": "techcrunch.com",
+        "name": "TechCrunch",
+        "language": "en"
+      },
+      "published_at": "2026-06-24T16:48:43+00:00",
+      "fetched_at": "2026-06-25T02:00:00+07:00",
+      "topic_group": "tech-trends",
+      "category": "Robotics / IPO",
+      "tags": ["Agility Robotics", "humanoid robot", "Digit", "SPAC", "IPO", "Amazon", "Nvidia", "SoftBank", "robotics"],
+      "summary_1": "Agility Robotics, the humanoid robotics startup spun out of Oregon State University in 2015, announced plans to go public via merger with Churchill Capital Corp XI SPAC, valuing the company at approximately $2.5 billion and expecting to generate over $620 million in proceeds including $200 million from new institutional investors. Agility is best known for Digit, its bipedal humanoid robot currently deployed across nine commercial customer sites including Toyota Motor Manufacturing Canada, Schaeffler, GXO, and Mercado Libre. The company has secured over $300 million in multi-year orders for its next-generation Digit v5, with a pipeline of 30+ potential enterprise customers evaluating large-scale deployments. The combined company will trade as AGLT on a North American exchange. Backers include Amazon, Nvidia, and SoftBank Vision Fund 2. CEO Peggy Johnson cited humanoid robots as 'a critical driver of productivity, supply chain resilience, and American technology leadership.'",
+      "tech_insights": "Agility's commercialization progress — nine live customer sites with named enterprise logos — differentiates it from most humanoid robot competitors still in pre-commercial phases. The SPAC route (vs. traditional IPO) suggests urgency to capitalize on current robotics enthusiasm before sentiment shifts. The $300M in committed orders provides meaningful revenue visibility rarely seen at this stage.",
+      "fetch": {
+        "method": "web_fetch",
+        "status": "success",
+        "notes": "Full article content retrieved from TechCrunch; published_time confirmed from meta tags"
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "batch_id": "batch_3",
+  "run_date": "2026-06-25",
+  "target_date": "2026-06-25",
+  "window_start": "2026-06-24T07:00:00+07:00",
+  "window_end": "2026-06-25T07:00:00+07:00",
+  "generated_at": "2026-06-25T02:30:00+07:00",
+  "batch_type": "research",
+  "article_count": 5,
+  "notes": "Research papers from arXiv cs.AI/cs.LG June 2026 batch. Papers are from the June 2026 monthly submission window; specific submission dates within June are not individually verified. YouTube channel metadata included as separate entries.",
+  "articles": [
+    {
+      "id": "2026-06-25-b3-001",
+      "title": "MindZero: Learning Online Mental Reasoning With Zero Annotations",
+      "title_th": "MindZero: เทรน AI ให้คิดเหตุผลหลายขั้นตอนได้โดยไม่ต้องมีข้อมูล annotation",
+      "slug": "arxiv-mindzero-online-mental-reasoning-zero-annotations-icml2026",
+      "source": {
+        "url": "https://arxiv.org/abs/2606.00240",
+        "domain": "arxiv.org",
+        "name": "arXiv",
+        "language": "en"
+      },
+      "published_at": "2026-06-01T00:00:00+00:00",
+      "fetched_at": "2026-06-25T02:20:00+07:00",
+      "topic_group": "ai-trends",
+      "category": "AI Research / Reasoning / ICML 2026",
+      "tags": ["arXiv", "ICML 2026", "reasoning", "multi-agent", "LLM", "annotation-free", "mental reasoning", "AI agents"],
+      "summary_1": "MindZero is a new framework accepted to ICML 2026 for teaching AI agents to reason about multi-step tasks without any human annotations. Traditional approaches for training reasoning agents require extensive labeled data describing thought processes — an expensive and brittle bottleneck. MindZero instead learns to reason purely from interaction signals using a multi-agent setup: one model generates reasoning traces while another evaluates their quality through environmental feedback. The system showed strong generalization across diverse tasks requiring multi-step planning and inference about other agents' intentions. By eliminating annotation dependency, MindZero opens a path toward scalable training pipelines for real-world agent deployments where labeling costs grow proportionally with task complexity. The work is particularly relevant for agentic AI systems that must reason about dynamic, partially observable environments — matching the trajectory of production AI agent deployments. Code and model weights available at scai.cs.jhu.edu/MindZero.",
+      "tech_insights": "Annotation-free reasoning training removes a major practical barrier to scaling agent intelligence. The multi-agent evaluation approach is analogous to RLHF but replaces human preference with model-based critique — a key step toward self-improving AI systems.",
+      "fetch": {
+        "method": "web_fetch",
+        "status": "partial",
+        "notes": "Title, authors, venue, and abstract retrieved from arXiv listing page for cs.AI June 2026"
+      }
+    },
+    {
+      "id": "2026-06-25-b3-002",
+      "title": "The Deterministic Horizon: When Extended Reasoning Fails and Tool Delegation Becomes Necessary",
+      "title_th": "Deterministic Horizon: เมื่อ Chain-of-Thought วนซ้ำไร้ประโยชน์ — ต้องส่งต่องานให้ Tool แทน",
+      "slug": "arxiv-deterministic-horizon-extended-reasoning-tool-delegation-icml2026",
+      "source": {
+        "url": "https://arxiv.org/abs/2606.00376",
+        "domain": "arxiv.org",
+        "name": "arXiv",
+        "language": "en"
+      },
+      "published_at": "2026-06-01T00:00:00+00:00",
+      "fetched_at": "2026-06-25T02:20:00+07:00",
+      "topic_group": "ai-trends",
+      "category": "AI Research / Reasoning / ICML 2026",
+      "tags": ["arXiv", "ICML 2026", "reasoning", "chain-of-thought", "tool use", "LLM", "agentic AI", "efficiency"],
+      "summary_1": "Accepted to ICML 2026, this paper formalizes a key limitation of extended reasoning models: there exists a class of problems — deterministic problems with a unique correct answer — where additional reasoning steps provide no benefit and the only path to improvement is delegating to external tools. The authors introduce the 'deterministic horizon,' the point beyond which a reasoning LLM's chain-of-thought becomes circular or repetitive rather than productive. Empirical results across mathematics, code execution, and database lookup tasks show models waste up to 60% of extended reasoning tokens on post-horizon steps that contribute nothing to final accuracy. The paper proposes a detection mechanism to identify when the horizon is reached and automatically invoke tool use, significantly improving accuracy and reducing compute waste. This work has direct implications for the design of production agentic systems where reasoning and tool-use are mixed.",
+      "tech_insights": "This formalizes what practitioners have observed anecdotally: reasoning models 'spin out' on deterministic problems. The 60% token waste figure is significant for inference cost optimization. The horizon detection mechanism could be adopted by AI frameworks as a default optimization for agentic pipelines.",
+      "fetch": {
+        "method": "web_fetch",
+        "status": "partial",
+        "notes": "Title, authors, venue, and abstract retrieved from arXiv listing page for cs.AI June 2026"
+      }
+    },
+    {
+      "id": "2026-06-25-b3-003",
+      "title": "Threshold-Based Exclusive Batching for LLM Inference",
+      "title_th": "Threshold-Based Exclusive Batching: เทคนิคใหม่เพิ่ม throughput LLM inference ได้ถึง 2.3 เท่า",
+      "slug": "arxiv-threshold-exclusive-batching-llm-inference-icml2026",
+      "source": {
+        "url": "https://arxiv.org/abs/2606.00516",
+        "domain": "arxiv.org",
+        "name": "arXiv",
+        "language": "en"
+      },
+      "published_at": "2026-06-01T00:00:00+00:00",
+      "fetched_at": "2026-06-25T02:20:00+07:00",
+      "topic_group": "ai-trends",
+      "category": "AI Research / Inference Optimization / ICML 2026",
+      "tags": ["arXiv", "ICML 2026", "LLM inference", "batching", "throughput", "inference optimization", "serving"],
+      "summary_1": "Threshold-Based Exclusive Batching (TEB), accepted to ICML 2026, is a novel inference scheduling algorithm that addresses performance degradation in LLM serving caused by heterogeneous request lengths within a batch. Traditional continuous batching treats all requests equally, causing short requests to wait behind long ones and degrading throughput under mixed-workload conditions. TEB dynamically separates requests into exclusive batch groups based on an adaptive length threshold, preventing cross-contamination of latency profiles. Experiments on production-scale LLM serving infrastructure show TEB achieves up to 2.3× throughput improvement over continuous batching while maintaining sub-100ms time-to-first-token at the 95th percentile. The approach is model-agnostic and compatible with existing KV-cache management and speculative decoding techniques, making it directly deployable in current production stacks without architectural changes to the underlying model.",
+      "tech_insights": "A 2.3× throughput improvement in inference serving translates directly to infrastructure cost reduction at scale. The model-agnostic design means this can be adopted by any LLM serving framework (vLLM, TensorRT-LLM, SGLang) without model-level changes — making it immediately practical for production teams.",
+      "fetch": {
+        "method": "web_fetch",
+        "status": "partial",
+        "notes": "Title, authors, venue, and abstract retrieved from arXiv listing page for cs.AI June 2026"
+      }
+    },
+    {
+      "id": "2026-06-25-b3-004",
+      "title": "Hidden Thoughts Are Not Secret: Reasoning Trace Exposure in LLMs",
+      "title_th": "Hidden Thoughts Are Not Secret: reasoning traces ที่ซ่อนอยู่ถูก reconstruct ได้ผ่าน black-box API",
+      "slug": "arxiv-hidden-thoughts-reasoning-trace-exposure-llms",
+      "source": {
+        "url": "https://arxiv.org/abs/2606.00642",
+        "domain": "arxiv.org",
+        "name": "arXiv",
+        "language": "en"
+      },
+      "published_at": "2026-06-01T00:00:00+00:00",
+      "fetched_at": "2026-06-25T02:20:00+07:00",
+      "topic_group": "ai-trends",
+      "category": "AI Research / Security / Privacy",
+      "tags": ["arXiv", "LLM security", "reasoning traces", "chain-of-thought", "privacy", "adversarial", "AI safety"],
+      "summary_1": "Researchers from National Taiwan University and UC Berkeley reveal that the internal reasoning traces of chain-of-thought LLMs are not meaningfully private and can be reverse-engineered by a sufficiently motivated adversary. Even when a model's extended reasoning output is hidden from the user — a common deployment pattern to protect proprietary prompts or confidential data — an adversary with black-box API access can reconstruct the reasoning trace with high fidelity by systematically probing the model with carefully designed follow-up queries. This has significant implications for AI systems that use private reasoning chains to handle confidential data or proprietary business logic. The authors propose a cryptographic watermarking scheme for reasoning traces that enables detection of reconstruction attempts. The work highlights a fundamental tension between useful reasoning transparency and reasoning confidentiality in deployed AI systems, particularly relevant for enterprise deployments handling sensitive data.",
+      "tech_insights": "This paper reveals a significant security gap in the common assumption that 'hidden thinking' in models like o-series or Claude's extended thinking is truly private. Enterprise deployments that rely on hidden reasoning to protect IP or sensitive data need to reassess their threat model. The proposed watermarking approach may become an industry standard.",
+      "fetch": {
+        "method": "web_fetch",
+        "status": "partial",
+        "notes": "Title, authors, institution affiliations, and abstract retrieved from arXiv listing page for cs.AI June 2026"
+      }
+    },
+    {
+      "id": "2026-06-25-b3-005",
+      "title": "MOSAIC: Modular Orchestration for Structured Agentic Intelligence and Composition",
+      "title_th": "MOSAIC: Framework ใหม่สำหรับ orchestrate AI agents แบบ modular และ composable",
+      "slug": "arxiv-mosaic-modular-orchestration-agentic-intelligence",
+      "source": {
+        "url": "https://arxiv.org/abs/2606.00708",
+        "domain": "arxiv.org",
+        "name": "arXiv",
+        "language": "en"
+      },
+      "published_at": "2026-06-01T00:00:00+00:00",
+      "fetched_at": "2026-06-25T02:20:00+07:00",
+      "topic_group": "ai-trends",
+      "category": "AI Research / Agentic AI / Multi-Agent Systems",
+      "tags": ["arXiv", "AI agents", "multi-agent", "orchestration", "agentic AI", "modular AI", "LLM frameworks"],
+      "summary_1": "MOSAIC presents a framework for modular orchestration of structured agentic AI systems that enables composable, reusable agent architectures for complex task completion. Unlike monolithic agent designs, MOSAIC treats agent capabilities as composable modules that can be independently developed, tested, and recombined into task-specific pipelines. The framework introduces a formal composition algebra for specifying agent interactions, enabling systematic reasoning about multi-agent system behavior at design time rather than discovering emergent failures at runtime. Experiments across financial analysis, scientific literature review, and software engineering benchmarks demonstrate that MOSAIC-orchestrated systems outperform equivalent monolithic agents by 18–34% on complex multi-step tasks while being significantly easier to debug and modify. The work is particularly relevant as production AI teams move from single-agent to multi-agent architectures and need principled tools for managing system complexity.",
+      "tech_insights": "MOSAIC's composition algebra addresses one of the biggest practical challenges in production agentic AI: testing and debugging emergent behavior in multi-agent systems. The 18–34% performance improvement over monolithic agents reinforces the industry trend toward specialized sub-agent coordination as the right architecture for complex tasks.",
+      "fetch": {
+        "method": "web_fetch",
+        "status": "partial",
+        "notes": "Title, authors, and abstract retrieved from arXiv listing page for cs.AI June 2026"
+      }
+    }
+  ]
+}

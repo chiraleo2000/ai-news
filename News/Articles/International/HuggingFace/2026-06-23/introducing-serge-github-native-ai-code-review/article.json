@@ -1,0 +1,67 @@
+{
+  "article_id": "introducing-serge-github-native-ai-code-review-huggingface-2026-06-18",
+  "schema_version": "2.0",
+  "topic_group": "tech-trends",
+  "source_info": {
+    "category": "International",
+    "source_name": "HuggingFace",
+    "registry_key": "International/HuggingFace",
+    "domain": "AI-tools",
+    "main_url": "https://huggingface.co/blog"
+  },
+  "source": {
+    "url": "https://huggingface.co/blog/huggingface/serge",
+    "type": "direct",
+    "origin": "direct",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-23T00:22:00+07:00",
+    "fetch_mode": "truncated"
+  },
+  "meta": {
+    "published_at": "2026-06-18T00:00:00Z",
+    "scraped_at": "2026-06-23T00:22:00+07:00",
+    "run_date": "2026-06-23",
+    "target_date": "2026-06-23",
+    "within_24h": false,
+    "status": "scraped",
+    "batch": "2",
+    "category": "AI-TOOLS",
+    "category_label": "AI Tools",
+    "news_type": "announcement",
+    "tags": ["HuggingFace", "code-review", "GitHub", "developer-tools", "open-source"],
+    "language": "en"
+  },
+  "content": {
+    "title": "Introducing Serge: GitHub-Native AI Code Review",
+    "slug": "introducing-serge-github-native-ai-code-review",
+    "summary": "Hugging Face introduces Serge, a GitHub-native AI code review tool that integrates directly into pull request workflows to provide automated, context-aware code reviews.",
+    "summary_1": "Hugging Face launched Serge, a new GitHub-native AI code review tool designed to integrate seamlessly into existing pull request workflows. Serge provides automated code reviews with context-awareness, understanding project-specific patterns and codebases rather than giving generic feedback. The tool is positioned as an open-source-friendly alternative to proprietary code review AI, built by Hugging Face to integrate with the Hub ecosystem. It appeared as a featured blog post on HuggingFace.co around June 18, 2026, with 9 upvotes on the community blog within 5 days of posting.",
+    "body_text": "Hugging Face introduced Serge, a GitHub-native AI code review tool that integrates directly into pull request workflows. Key highlights from the announcement:\n\n- Native GitHub integration: works directly within PR workflows without requiring external tools or context switching\n- Context-aware reviews: understands project-specific patterns and codebase conventions\n- Open-source aligned: built by Hugging Face to align with open-source development workflows\n- Hub integration: connects with Hugging Face models and infrastructure\n\nSerge is positioned as part of Hugging Face's broader push to offer developer infrastructure tools alongside its model hub, competing with proprietary AI code review tools from established vendors. The launch aligns with the trend of AI-assisted developer workflows becoming standard in professional software development.",
+    "language": "en",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "Hugging Face enters the AI code review market with a GitHub-native tool, expanding its developer tooling beyond model hosting.",
+    "actions_developer": [
+      "Test Serge in your GitHub repositories for automated PR code review",
+      "Evaluate Serge versus existing tools (GitHub Copilot PR Review, CodeRabbit) for open-source projects",
+      "Explore Hugging Face Hub integration with Serge for custom model-backed code review"
+    ],
+    "actions_business": [
+      "Engineering managers: pilot Serge for automated code review at scale to reduce reviewer bottlenecks",
+      "Consider open-source-friendly AI code review tools as alternatives to proprietary vendors",
+      "Track Hugging Face's developer tooling expansion as it broadens beyond model hosting"
+    ],
+    "urgency": "medium",
+    "related_domains": ["AI-tools", "developer-tools", "code-review", "open-source"],
+    "breakthrough_potential": false
+  },
+  "paths": {
+    "relative": "International/HuggingFace/2026-06-23/introducing-serge-github-native-ai-code-review",
+    "batch_file": "News/Batches/2026-06-23/batch_2.json"
+  }
+}

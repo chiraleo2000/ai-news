@@ -1,0 +1,576 @@
+{
+  "batch": 1,
+  "target_date": "2026-06-26",
+  "generated_at": "2026-06-26T07:00:00+07:00",
+  "total_articles": 8,
+  "articles": [
+    {
+      "article_id": "ttt-anthropic-claude-tag-slack-20260625",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "Thai",
+        "source_name": "TechTalkThai",
+        "registry_key": "Thai/TechTalkThai",
+        "domain": "AI-tools",
+        "main_url": "https://www.techtalkthai.com"
+      },
+      "source": {
+        "url": "https://www.techtalkthai.com/anthropic-introduces-claude-tag-team-collaboration-slack/",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-06-26T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-25T06:22:59+07:00",
+        "scraped_at": "2026-06-26T07:00:00+07:00",
+        "run_date": "2026-06-26",
+        "target_date": "2026-06-26",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "1",
+        "category": "AI-TOOLS",
+        "category_label": "เครื่องมือ AI",
+        "news_type": "ข่าว",
+        "tags": ["Anthropic", "Claude", "Slack", "AI Agent", "Enterprise AI", "LLM", "Opus 4.8"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Anthropic เปิดตัว Claude Tag ให้ทีมแท็ก @Claude เป็นเพื่อนร่วมงานบน Slack",
+        "slug": "anthropic-claude-tag-slack-collaboration",
+        "summary": "Anthropic เปิดตัว Claude Tag ฟีเจอร์ใหม่ที่ทำให้ทีมแท็ก @Claude บน Slack เพื่อมอบหมายงานได้เหมือนเพื่อนร่วมงาน รองรับลูกค้า Claude Enterprise และ Team",
+        "summary_1": "Anthropic เปิดตัว Claude Tag วิธีใหม่ในการผสาน AI เข้ากับการทำงานเป็นทีมบนแพลตฟอร์ม Slack โดยผู้ใช้งานสามารถแท็ก @Claude ใน channel เพื่อมอบหมายงานได้เหมือนเพื่อนร่วมงานจริง ๆ ฟีเจอร์นี้ทำงานในรูปแบบ multiplayer ที่ทีมเห็นและรับช่วงงานต่อจากกันได้ พร้อม ambient mode ที่ Claude จะอัปเดตข้อมูลสำคัญเชิงรุกโดยอัตโนมัติ ภายใน Anthropic เองนั้น 65% ของโค้ดจากทีมผลิตภัณฑ์ถูกสร้างโดย Claude Tag เวอร์ชันภายใน Claude Tag ทำงานบนโมเดล Opus 4.8 มีระบบ RBAC ควบคุมการเข้าถึงข้อมูลอย่างเข้มงวด เปิดให้ลูกค้า Claude Enterprise และ Team ใช้งานแบบ beta แล้ววันนี้ และจะมาแทนที่แอป Claude in Slack เดิมโดยสมบูรณ์ภายใน 30 วัน",
+        "body_text": "Anthropic เปิดตัว Claude Tag เชื่อมต่อ Claude เข้ากับ Slack ในฐานะสมาชิกทีม แท็ก @Claude เพื่อมอบหมายงานได้ทันที Claude จดจำบริบทจาก channel สะสมตามเวลา รองรับการทำงานแบบ asynchronous และ parallel tasks หลายงานพร้อมกัน ทำงานบน Opus 4.8 เปิด beta สำหรับ Enterprise และ Team customers",
+        "language": "th",
+        "original_language": "th"
+      },
+      "tech_insights": {
+        "impact_summary": "Claude Tag เปลี่ยนโมเดลการทำงานกับ AI จาก one-on-one chat เป็น multiplayer team collaboration ซึ่งจะเร่งการ adoption ของ AI ในองค์กรอย่างมีนัยสำคัญ",
+        "actions_developer": [
+          "ทดลองใช้ Claude Tag beta บน Slack ขององค์กรโดยเร็ว เพื่อสำรวจการ integrate @Claude เข้ากับ workflow ของทีม engineering",
+          "ศึกษา Agent Identity and Access Model ของ Anthropic เพื่อออกแบบ permission structure ที่ปลอดภัยก่อน deploy ใน production"
+        ],
+        "actions_business": [
+          "ประเมิน use case ที่ Claude Tag จะลด overhead ของทีม เช่น งาน research, drafting, หรือ code review เพื่อวางแผน pilot program",
+          "ขอ launch credit จาก Anthropic สำหรับลูกค้า Enterprise/Team เพื่อเริ่ม trial โดยไม่มีค่าใช้จ่ายเพิ่มเติม"
+        ],
+        "urgency": "high",
+        "related_domains": ["LLM", "AI Agent", "Enterprise Software", "Collaboration Tools"],
+        "breakthrough_potential": true
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Thai/TechTalkThai/2026-06-26/anthropic-claude-tag-slack-collaboration",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-06-26/batch_1.json"
+      }
+    },
+    {
+      "article_id": "ttt-salesforce-agentforce-help-pay-per-resolution-20260626",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "Thai",
+        "source_name": "TechTalkThai",
+        "registry_key": "Thai/TechTalkThai",
+        "domain": "AI-product",
+        "main_url": "https://www.techtalkthai.com"
+      },
+      "source": {
+        "url": "https://www.techtalkthai.com/salesforce-ai-help-agent-pay-per-resolution/",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-06-26T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-26T09:49:04+07:00",
+        "scraped_at": "2026-06-26T07:00:00+07:00",
+        "run_date": "2026-06-26",
+        "target_date": "2026-06-26",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "1",
+        "category": "AI-PRODUCT",
+        "category_label": "ผลิตภัณฑ์ AI",
+        "news_type": "ข่าว",
+        "tags": ["Salesforce", "Agentforce", "AI Help Agent", "Pay-per-resolution", "Customer Service AI"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Salesforce เปิดตัว AI Help Agent ปรับโมเดลคิดเงินรูปแบบใหม่ จ่าย 2 ดอลลาร์เมื่อแก้ปัญหาลูกค้าสำเร็จเท่านั้น",
+        "slug": "salesforce-agentforce-help-agent-pay-per-resolution",
+        "summary": "Salesforce เปิดตัว Agentforce Help Agent สำหรับ Customer Service พร้อมโมเดลคิดเงินแบบ Pay-per-resolution $2 ต่อ 1 เคสที่แก้ได้สำเร็จโดยอัตโนมัติ",
+        "summary_1": "Salesforce ประกาศเปิดตัว Agentforce Help Agent โซลูชัน AI สำหรับงานบริการลูกค้าที่เชื่อมต่อกับฐานข้อมูลองค์กรและให้ความช่วยเหลือผ่านทั้งข้อความและเสียง จุดเด่นคือโมเดลคิดค่าใช้จ่ายแบบ Pay-per-resolution ราคา $2 ต่อเคส องค์กรจ่ายเงินเฉพาะเมื่อ AI แก้ปัญหาได้สำเร็จตั้งแต่ต้นจนจบโดยอัตโนมัติ ไม่จ่ายหากต้องส่งเรื่องต่อให้พนักงาน แพลตฟอร์ม Help.Salesforce.com ได้จัดการคำถามกว่า 4.3 ล้านรายการแล้ว โดยแก้ปัญหาได้ด้วยตนเอง 70% ฟีเจอร์รองรับการจัดการคำสั่งซื้อ นัดหมาย และบัญชี พร้อม Agentforce Trust Layer ที่ปกป้องข้อมูลลูกค้าและตรวจสอบการกระทำทุกอย่างย้อนหลังได้ กำหนดเปิดให้บริการทั่วไปเดือนกรกฎาคม 2026",
+        "body_text": "Salesforce Agentforce Help Agent ใช้โมเดลธุรกิจ Pay-per-resolution $2/เคส รองรับ text และ voice มี Agentforce Trust Layer ปกป้องข้อมูล แก้ปัญหาอัตโนมัติ 70% เปิด GA กรกฎาคม 2026",
+        "language": "th",
+        "original_language": "th"
+      },
+      "tech_insights": {
+        "impact_summary": "โมเดล Pay-per-resolution เป็น game changer สำหรับ AI business model ที่จะกดดันให้คู่แข่งทุกรายต้องปรับ pricing strategy ตาม และเร่ง adoption ในองค์กรที่เคยลังเลเรื่อง ROI",
+        "actions_developer": [
+          "ศึกษา Agentforce Builder API เพื่อออกแบบ integration กับ backend system ขององค์กรก่อนเปิด GA ในเดือนกรกฎาคม",
+          "วางแผน testing framework สำหรับวัด resolution rate จริง เพื่อ optimize cost ภายใต้โมเดล Pay-per-resolution"
+        ],
+        "actions_business": [
+          "ประเมิน volume ของ customer support tickets ปัจจุบัน เพื่อคำนวณ ROI จากการเปลี่ยนมาใช้ Agentforce Help Agent ที่ราคา $2/เคส",
+          "ติดต่อ Salesforce เพื่อสั่งซื้อ Resolutions package ขั้นต่ำ 1,000 เคส และวาง pilot program ก่อน GA"
+        ],
+        "urgency": "high",
+        "related_domains": ["AI Agent", "Customer Service", "Enterprise Software", "Agentic AI"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Thai/TechTalkThai/2026-06-26/salesforce-agentforce-help-agent-pay-per-resolution",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-06-26/batch_1.json"
+      }
+    },
+    {
+      "article_id": "ttt-ibm-flashsystem-agentic-ai-storage-20260625",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "Thai",
+        "source_name": "TechTalkThai",
+        "registry_key": "Thai/TechTalkThai",
+        "domain": "AI-product",
+        "main_url": "https://www.techtalkthai.com"
+      },
+      "source": {
+        "url": "https://www.techtalkthai.com/ibm-flashsystem-ai-agentic-ai-autonomous-storage/",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-06-26T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-25T00:00:00+07:00",
+        "scraped_at": "2026-06-26T07:00:00+07:00",
+        "run_date": "2026-06-26",
+        "target_date": "2026-06-26",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "1",
+        "category": "AI-PRODUCT",
+        "category_label": "ผลิตภัณฑ์ AI",
+        "news_type": "ข่าว",
+        "tags": ["IBM", "FlashSystem", "Agentic AI", "Enterprise Storage", "AI Infrastructure"],
+        "language": "th"
+      },
+      "content": {
+        "title": "IBM FlashSystem.ai พลิกโฉมสตอเรจองค์กรสู่ระบบอัตโนมัติด้วย Agentic AI ลดภาระ เพิ่มประสิทธิภาพแอดมินได้ถึง 90%",
+        "slug": "ibm-flashsystem-agentic-ai-autonomous-storage",
+        "summary": "IBM เปิดตัว FlashSystem.ai ที่ฝัง Agentic AI ในระบบ enterprise storage โดยตรง ลดภาระงานผู้ดูแลระบบได้สูงถึง 90%",
+        "summary_1": "IBM เปิดตัว FlashSystem.ai ตระกูล x600 ที่ฝัง Agentic AI เข้าไปใน enterprise storage โดยตรง แทนที่จะเป็นแค่ hardware upgrade ระบบใหม่นี้สามารถบริหารจัดการ ดูแลรักษา และแก้ไขปัญหาระบบ storage ได้โดยอัตโนมัติ ลดภาระงานของผู้ดูแลระบบได้ถึง 90% Agentic AI ใน FlashSystem.ai จะตรวจจับ anomaly คาดการณ์ปัญหาล่วงหน้า และแก้ไขโดยไม่ต้องรอให้แอดมินสั่ง นอกจากนี้ยังมีความสามารถตรวจจับ ransomware ได้ภายใน 60 วินาที ซึ่งเป็นครั้งแรกในวงการ enterprise storage ที่ AI กลายเป็นส่วนหนึ่งของ hardware infrastructure โดยตรง ไม่ใช่ add-on layer ภายนอก",
+        "body_text": "IBM FlashSystem x600 มี Agentic AI built-in บริหาร storage อัตโนมัติ ลดภาระแอดมิน 90% ตรวจ ransomware ใน 60 วินาที บนโครงสร้าง hardware ใหม่",
+        "language": "th",
+        "original_language": "th"
+      },
+      "tech_insights": {
+        "impact_summary": "การฝัง Agentic AI ใน enterprise storage hardware โดยตรงเป็น paradigm shift ที่จะทำให้ infrastructure management เปลี่ยนจาก human-driven เป็น AI-driven อย่างถาวร",
+        "actions_developer": [
+          "ศึกษา IBM FlashSystem.ai API เพื่อ integrate autonomous storage management เข้ากับ existing DevOps pipeline",
+          "ทดสอบ ransomware detection ใน lab environment ก่อน deploy ใน production เพื่อวัด false positive rate"
+        ],
+        "actions_business": [
+          "ประเมิน TCO ของ FlashSystem x600 เทียบกับ manual storage management ปัจจุบัน โดยคำนวณรวมเวลา admin ที่ประหยัดได้",
+          "ติดต่อ Ingram Micro Thailand หรือ IBM partner เพื่อขอ demo และ POC สำหรับ use case ของ enterprise"
+        ],
+        "urgency": "medium",
+        "related_domains": ["Agentic AI", "Enterprise Storage", "AI Infrastructure", "Cybersecurity"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Thai/TechTalkThai/2026-06-26/ibm-flashsystem-agentic-ai-autonomous-storage",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-06-26/batch_1.json"
+      }
+    },
+    {
+      "article_id": "ttt-openai-broadcom-jalapeno-llm-chip-20260625",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "Thai",
+        "source_name": "TechTalkThai",
+        "registry_key": "Thai/TechTalkThai",
+        "domain": "AI-research",
+        "main_url": "https://www.techtalkthai.com"
+      },
+      "source": {
+        "url": "https://www.techtalkthai.com/openai-broadcom-jalapeno-llm-inference-chip/",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-06-26T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-25T00:00:00+07:00",
+        "scraped_at": "2026-06-26T07:00:00+07:00",
+        "run_date": "2026-06-26",
+        "target_date": "2026-06-26",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "1",
+        "category": "AI-RESEARCH",
+        "category_label": "วิจัย AI / ชิป AI",
+        "news_type": "ข่าว",
+        "tags": ["OpenAI", "Broadcom", "Jalapeño", "LLM Chip", "Inference", "AI Hardware"],
+        "language": "th"
+      },
+      "content": {
+        "title": "OpenAI จับมือ Broadcom เปิดตัว Jalapeño ชิป Inference สำหรับ LLM โดยเฉพาะ",
+        "slug": "openai-broadcom-jalapeno-llm-inference-chip",
+        "summary": "OpenAI ร่วมกับ Broadcom พัฒนาชิป Jalapeño สำหรับงาน LLM Inference โดยเฉพาะ เป็นก้าวสำคัญในการลดการพึ่งพา NVIDIA GPU",
+        "summary_1": "OpenAI ประกาศความร่วมมือกับ Broadcom ในการพัฒนาชิป Jalapeño ที่ออกแบบมาเพื่องาน Inference ของ LLM โดยเฉพาะ การเคลื่อนไหวนี้สะท้อนกลยุทธ์การลดการพึ่งพา NVIDIA GPU ซึ่งมีราคาสูงและ supply จำกัด โดย Jalapeño เน้นประสิทธิภาพด้าน inference ที่สูงกว่า general-purpose AI accelerators เดิม ซึ่งเหมาะกับการ serve LLM models ในระดับ production ที่ต้องการ throughput และ latency ต่ำ ความร่วมมือนี้ถือเป็นส่วนหนึ่งของเทรนด์ custom silicon ที่บริษัท AI ชั้นนำกำลังพัฒนา hardware ของตัวเองเพื่อควบคุมต้นทุนและ performance",
+        "body_text": "OpenAI + Broadcom พัฒนา Jalapeño ชิป LLM Inference เฉพาะทาง ลดพึ่งพา NVIDIA แนวโน้ม custom AI silicon กำลังเติบโต",
+        "language": "th",
+        "original_language": "th"
+      },
+      "tech_insights": {
+        "impact_summary": "Jalapeño chip เป็นสัญญาณชัดที่สุดว่า custom AI silicon กำลังมาแทนที่ general-purpose GPU ในงาน LLM inference ซึ่งจะกดดัน NVIDIA ในระยะยาวและลดต้นทุน AI infrastructure ลงอย่างมีนัย",
+        "actions_developer": [
+          "ติดตามเอกสาร technical spec ของ Jalapeño เพื่อประเมินความเข้ากันได้กับ model serving framework ที่ใช้อยู่ เช่น vLLM หรือ TensorRT-LLM",
+          "ศึกษา roadmap ของ custom AI chip จาก Amazon (Trainium), Google (TPU), และ OpenAI เพื่อวางแผน infrastructure ระยะยาว"
+        ],
+        "actions_business": [
+          "ประเมินผลกระทบต่อ cloud pricing และ AI API cost ในระยะ 12-24 เดือน เมื่อ custom silicon เริ่ม mass production",
+          "วางแผน diversify AI compute supplier เพื่อลด lock-in กับ NVIDIA และรับประโยชน์จาก custom silicon ที่ราคาต่ำกว่า"
+        ],
+        "urgency": "medium",
+        "related_domains": ["AI Hardware", "LLM", "AI Infrastructure", "Semiconductors"],
+        "breakthrough_potential": true
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Thai/TechTalkThai/2026-06-26/openai-broadcom-jalapeno-llm-inference-chip",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-06-26/batch_1.json"
+      }
+    },
+    {
+      "article_id": "techsauce-huawei-token-monetization-ai-telecom-20260625",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "Thai",
+        "source_name": "Techsauce",
+        "registry_key": "Thai/Techsauce",
+        "domain": "AI-business",
+        "main_url": "https://techsauce.co"
+      },
+      "source": {
+        "url": "https://techsauce.co/news/huawei-token-monetization-ai-telecom-mwc-shanghai-2026",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-06-26T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-25T00:00:00+07:00",
+        "scraped_at": "2026-06-26T07:00:00+07:00",
+        "run_date": "2026-06-26",
+        "target_date": "2026-06-26",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "1",
+        "category": "AI-BUSINESS",
+        "category_label": "ธุรกิจ AI / Telecom",
+        "news_type": "ข่าว",
+        "tags": ["Huawei", "Token Monetization", "AI Telecom", "MWC Shanghai 2026", "5G-A"],
+        "language": "th"
+      },
+      "content": {
+        "title": "'จากการขายอินเทอร์เน็ต สู่การขายพลัง AI' Huawei ชี้อนาคตของโทรคมนาคมจะขับเคลื่อนด้วยโมเดลรายได้จาก Token Monetization",
+        "slug": "huawei-token-monetization-ai-telecom-mwc-shanghai-2026",
+        "summary": "Huawei เปิดวิสัยทัศน์ในงาน MWC Shanghai 2026 ว่าอนาคตของธุรกิจโทรคมนาคมจะเปลี่ยนจาก data bandwidth เป็น AI token monetization",
+        "summary_1": "Huawei นำเสนอวิสัยทัศน์ Token Monetization ในงาน MWC Shanghai 2026 โดยชี้ว่าอุตสาหกรรมโทรคมนาคมกำลังเข้าสู่ยุคการเปลี่ยนโมเดลธุรกิจจากการขาย data bandwidth ไปสู่การสร้างรายได้จากบริการ AI โดยใช้ token เป็นหน่วยวัด แนวคิดนี้สะท้อนถึงการที่ AI กำลังกลายเป็น commodity service ผ่านเครือข่าย 5G-A ซึ่งเทเลคอมสามารถ monetize ได้เหมือนกับที่เคย monetize data ในยุค 4G วิธีนี้จะช่วยให้ operator สร้าง differentiated services และ revenue stream ใหม่นอกเหนือจาก connectivity พื้นฐาน เป็นแนวทางที่ Huawei กำลัง pilot กับ telecom partners ทั่วโลก",
+        "body_text": "Huawei เสนอ Token Monetization model ใน MWC Shanghai 2026 ให้ telecom ขาย AI services ผ่าน token แทน data สร้าง revenue stream ใหม่บน 5G-A",
+        "language": "th",
+        "original_language": "th"
+      },
+      "tech_insights": {
+        "impact_summary": "Token Monetization จะเปลี่ยน business model ของ telecom ทั่วโลกอย่างพื้นฐาน หากแนวคิดนี้ถูก adopt จะเห็น operator ไทยเช่น AIS, True, DTAC ต้องปรับกลยุทธ์การสร้างรายได้ใหม่ทั้งหมด",
+        "actions_developer": [
+          "ศึกษา API architecture ของ 5G-A ที่รองรับ AI service delivery เพื่อเตรียม integration กับ token-based billing system",
+          "ทดลอง build proof-of-concept service ที่ monetize บน AI token unit เพื่อสำรวจ business model ใหม่"
+        ],
+        "actions_business": [
+          "ติดตามแนวทาง Token Monetization จาก AIS, True, และ DTAC ว่าจะ adopt วิสัยทัศน์นี้เมื่อไหร่ เพื่อวางแผน partnership หรือ integration",
+          "ประเมินโอกาสทางธุรกิจใหม่ใน AI-as-a-Service บนโครงสร้างพื้นฐาน 5G-A ของไทยที่กำลังขยาย"
+        ],
+        "urgency": "medium",
+        "related_domains": ["AI Business", "Telecom", "5G", "AI-as-a-Service"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Thai/Techsauce/2026-06-26/huawei-token-monetization-ai-telecom-mwc-shanghai-2026",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-06-26/batch_1.json"
+      }
+    },
+    {
+      "article_id": "techsauce-deep-tech-ai-economic-infrastructure-20260625",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "Thai",
+        "source_name": "Techsauce",
+        "registry_key": "Thai/Techsauce",
+        "domain": "AI-research",
+        "main_url": "https://techsauce.co"
+      },
+      "source": {
+        "url": "https://techsauce.co/ai/deep-tech-ai-economic-infrastructure",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-06-26T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-25T00:00:00+07:00",
+        "scraped_at": "2026-06-26T07:00:00+07:00",
+        "run_date": "2026-06-26",
+        "target_date": "2026-06-26",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "1",
+        "category": "AI-RESEARCH",
+        "category_label": "วิเคราะห์ AI / Deep Tech",
+        "news_type": "บทความ",
+        "tags": ["Deep Tech", "AI Infrastructure", "Economic Infrastructure", "WEF", "Summer Davos"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Deep Tech อาจกลายเป็นโครงสร้างพื้นฐานเศรษฐกิจ และ AI อาจเป็นเพียงหนึ่งในตัวเร่งของการเปลี่ยนแปลงครั้งนี้",
+        "slug": "deep-tech-ai-economic-infrastructure",
+        "summary": "บทวิเคราะห์จากเวที Deep Tech, Shallow Markets ใน Summer Davos ชี้ว่า Deep Tech กำลังก้าวเป็นโครงสร้างพื้นฐานเศรษฐกิจใหม่ โดย AI เป็นตัวเร่ง",
+        "summary_1": "จากเวทีเสวนา 'Deep Tech, Shallow Markets' ในงาน Summer Davos 2026 ผู้เชี่ยวชาญระดับโลกชี้ว่าเราอยู่ในจุดเปลี่ยนที่ Deep Tech กำลังก้าวจากนวัตกรรมเฉพาะทางสู่การเป็นโครงสร้างพื้นฐานทางเศรษฐกิจเหมือนกับไฟฟ้าและอินเทอร์เน็ต AI ในมุมมองนี้ไม่ใช่จุดหมายปลายทาง แต่เป็นหนึ่งในตัวเร่งสำคัญที่ทำให้ Deep Tech เช่น Biotech, Quantum Computing, Advanced Materials สามารถ commercialize ได้เร็วขึ้น บทวิเคราะห์ยังตั้งคำถามว่านักลงทุนและองค์กรควรมองภาพรวมให้ไกลกว่า AI cycle ปัจจุบัน เพื่อ position ตัวเองในยุคที่เทคโนโลยีกลายเป็น economic foundation",
+        "body_text": "Summer Davos: Deep Tech กำลังกลายเป็น economic infrastructure ใหม่ AI เป็นตัวเร่ง Biotech-Quantum-Materials จะ commercialize ได้เร็วขึ้น",
+        "language": "th",
+        "original_language": "th"
+      },
+      "tech_insights": {
+        "impact_summary": "การมองว่า Deep Tech เป็น economic infrastructure จะเปลี่ยนวิธีที่รัฐบาลและนักลงทุนจัดสรรงบประมาณ ซึ่งจะส่งผลต่อ funding landscape ของ AI startup ในไทยอย่างมีนัยสำคัญ",
+        "actions_developer": [
+          "มองหา intersection ระหว่าง AI tools ที่ถนัดกับ Deep Tech domains อื่น เช่น AI for drug discovery หรือ AI for materials science เพื่อสร้าง differentiated value",
+          "ติดตาม research papers ใน AI-accelerated Deep Tech เพื่อเตรียม skill set สำหรับ career opportunity ในทศวรรษหน้า"
+        ],
+        "actions_business": [
+          "ประเมิน long-term investment thesis ในมุม Deep Tech infrastructure ไม่ใช่แค่ AI application layer เพื่อสร้าง moat ที่ยั่งยืน",
+          "ศึกษาโอกาส partnership กับ Deep Tech startup ที่ใช้ AI เป็น core technology เพื่อ position ก่อน market formation"
+        ],
+        "urgency": "low",
+        "related_domains": ["AI Trends", "Deep Tech", "Investment", "Economic Policy"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Thai/Techsauce/2026-06-26/deep-tech-ai-economic-infrastructure",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-06-26/batch_1.json"
+      }
+    },
+    {
+      "article_id": "adpt-microsoft-aiat-ai-engineering-thailand-20260625",
+      "schema_version": "2.0",
+      "topic_group": "thailand",
+      "source_info": {
+        "category": "Thai",
+        "source_name": "ADPT.news (via TechTalkThai RSS)",
+        "registry_key": "Thai/TechTalkThai",
+        "domain": "AI-policy",
+        "main_url": "https://www.adpt.news"
+      },
+      "source": {
+        "url": "https://www.adpt.news/2026/06/25/microsoft-aiat-ai-engineering-skills-and-hackathon-for-employment-pr/",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "medium",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-06-26T07:00:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-25T00:00:00+07:00",
+        "scraped_at": "2026-06-26T07:00:00+07:00",
+        "run_date": "2026-06-26",
+        "target_date": "2026-06-26",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "1",
+        "category": "AI-POLICY",
+        "category_label": "นโยบาย AI ไทย / พัฒนาบุคลากร",
+        "news_type": "ข่าว",
+        "tags": ["Microsoft", "AIAT", "AI Engineering", "Thailand", "Workforce Development", "AI Talent"],
+        "language": "th"
+      },
+      "content": {
+        "title": "ไมโครซอฟท์ ผนึก AIAT ปั้นบุคลากร AI ยุคใหม่รับ New S-Curve ในโครงการ 'AI Engineering Skills and Hackathon for Employment'",
+        "slug": "microsoft-aiat-ai-engineering-skills-hackathon-thailand",
+        "summary": "Microsoft จับมือ AIAT เปิดโครงการพัฒนาทักษะ AI Engineering สำหรับบุคลากรไทย รองรับ New S-Curve ของประเทศ",
+        "summary_1": "ไมโครซอฟท์ ประเทศไทย ร่วมมือกับ สมาคมปัญญาประดิษฐ์ไทย (AIAT) เปิดตัวโครงการ 'AI Engineering Skills and Hackathon for Employment' มุ่งพัฒนาทักษะ AI Engineering ให้กับบุคลากรไทยเพื่อรองรับการเปลี่ยนแปลงทางเศรษฐกิจในยุค New S-Curve โครงการนี้มุ่งเน้นการสร้าง practical skills ด้าน AI ที่ตรงกับความต้องการของตลาดแรงงานไทย ทั้ง AI development, AI deployment และ AI application ในอุตสาหกรรมต่าง ๆ นับเป็นหนึ่งในความพยายามของภาคเอกชนในการแก้ปัญหาการขาดแคลน AI talent ในประเทศไทย ซึ่งเป็นอุปสรรคสำคัญต่อการเติบโตของ digital economy",
+        "body_text": "Microsoft + AIAT ร่วมพัฒนา AI Engineering skills บุคลากรไทย ผ่านโครงการ Hackathon for Employment รองรับ New S-Curve",
+        "language": "th",
+        "original_language": "th"
+      },
+      "tech_insights": {
+        "impact_summary": "โครงการ Microsoft-AIAT เป็นสัญญาณที่ดีว่าภาคเอกชนกำลังรับมือปัญหา AI talent gap ในไทย แต่ scale ต้องใหญ่กว่านี้มากเพื่อให้ทันการแข่งขันระดับภูมิภาค",
+        "actions_developer": [
+          "สมัครเข้าร่วมโครงการ AI Engineering Skills and Hackathon เพื่อรับการฝึกอบรมและ certificate ที่ตลาดแรงงานให้ความสำคัญ",
+          "ศึกษา Microsoft AI curriculum ที่เกี่ยวข้อง เช่น Azure AI Engineering Associate เพื่อเสริม portfolio"
+        ],
+        "actions_business": [
+          "ประสานงานกับ AIAT และ Microsoft เพื่อ co-design หลักสูตรที่ตรงกับ use cases จริงขององค์กรใน Hackathon",
+          "พิจารณา hire talent ที่ผ่านโครงการ Hackathon for Employment เพื่อ fill AI engineering positions ในองค์กร"
+        ],
+        "urgency": "medium",
+        "related_domains": ["AI Policy", "Education", "Thailand", "Workforce Development"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Thai/ADPT-news/2026-06-26/microsoft-aiat-ai-engineering-skills-hackathon-thailand",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-06-26/batch_1.json"
+      }
+    },
+    {
+      "article_id": "beartai-japan-bank-ai-cyber-threat-20260624",
+      "schema_version": "2.0",
+      "topic_group": "global",
+      "source_info": {
+        "category": "Thai",
+        "source_name": "Beartai",
+        "registry_key": "Thai/Beartai",
+        "domain": "AI-safety",
+        "main_url": "https://www.beartai.com"
+      },
+      "source": {
+        "url": "https://www.beartai.com/read/1502339/",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-06-26T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-24T00:00:00+07:00",
+        "scraped_at": "2026-06-26T07:00:00+07:00",
+        "run_date": "2026-06-26",
+        "target_date": "2026-06-26",
+        "within_24h": false,
+        "status": "scraped",
+        "batch": "1",
+        "category": "AI-SAFETY",
+        "category_label": "ความปลอดภัย AI / AI Policy",
+        "news_type": "ข่าว",
+        "tags": ["AI Safety", "Japan", "Banking", "Cybersecurity", "Anthropic Mythos", "AI Threat"],
+        "language": "th"
+      },
+      "content": {
+        "title": "ญี่ปุ่นเล็งสั่งปิด ATM/แอปฯ ธนาคารชั่วคราว หลังกังวล AI ขั้นสูงก่อม็อบไซเบอร์",
+        "slug": "japan-bank-atm-shutdown-ai-cyber-threat",
+        "summary": "สมาคมธนาคารญี่ปุ่นเตือนอาจปิด ATM และบริการออนไลน์ชั่วคราว หลัง AI ขั้นสูงอย่าง Anthropic Mythos แสดงศักยภาพสูงในการค้นหาช่องโหว่ซอฟต์แวร์",
+        "summary_1": "สมาคมธนาคารญี่ปุ่นออกมาเตือนว่าอาจต้องปิด ATM และบริการธนาคารออนไลน์ชั่วคราวหากพบว่า AI ขั้นสูงกลายเป็นภัยคุกคามร้ายแรงต่อระบบการเงิน โดยมาซาฮิโกะ คาโตะ ประธานสมาคมธนาคารญี่ปุ่น ระบุว่าการโจมตีทางไซเบอร์มีความซับซ้อนเกินกว่าที่คาดการณ์ เนื่องจาก AI เช่น Mythos ของ Anthropic สามารถค้นหาช่องโหว่ในซอฟต์แวร์ ระบบปฏิบัติการ และเบราว์เซอร์หลักได้อย่างรวดเร็ว ซึ่งเสี่ยงต่อการถูกใช้โจมตีในวงกว้าง ธนาคารหลายแห่งเริ่มเพิ่มความเข้มงวดในการตรวจสอบ AI tools และรัฐบาลสหรัฐฯ ได้ห้ามต่างชาติเข้าถึง AI ของ Anthropic แล้ว",
+        "body_text": "ญี่ปุ่นเตรียมปิด ATM ชั่วคราวหาก AI Mythos ของ Anthropic ถูกใช้โจมตีไซเบอร์ ธนาคารเพิ่มมาตรการ AI security",
+        "language": "th",
+        "original_language": "th"
+      },
+      "tech_insights": {
+        "impact_summary": "ความกังวลของธนาคารญี่ปุ่นสะท้อนให้เห็นว่า frontier AI กำลังเปลี่ยน threat landscape ของ critical infrastructure อย่างรุนแรง และธนาคารกลางทั่วโลกรวมถึงไทยจะต้องปรับ cybersecurity framework ใหม่",
+        "actions_developer": [
+          "ประเมิน attack surface ของระบบ banking ที่อาจถูก AI-powered tools ค้นหาช่องโหว่ และเร่ง patch management",
+          "ศึกษา AI-driven vulnerability scanning tools เพื่อใช้เป็น proactive defense mechanism ก่อนที่ threat actors จะใช้ AI โจมตี"
+        ],
+        "actions_business": [
+          "ทบทวน incident response plan โดยเพิ่ม scenario สำหรับ AI-assisted cyberattack และ drills สำหรับการปิดบริการชั่วคราว",
+          "ประสานงานกับ Bank of Thailand และ สำนักงาน กสทช. เพื่อรับมือกฎระเบียบ AI security ที่อาจออกมาในอนาคตอันใกล้"
+        ],
+        "urgency": "high",
+        "related_domains": ["AI Safety", "Cybersecurity", "Banking", "AI Policy", "Critical Infrastructure"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Thai/Beartai/2026-06-26/japan-bank-atm-shutdown-ai-cyber-threat",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-06-26/batch_1.json"
+      }
+    }
+  ]
+}

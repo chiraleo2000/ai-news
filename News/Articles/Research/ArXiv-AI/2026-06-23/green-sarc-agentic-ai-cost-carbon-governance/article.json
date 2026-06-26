@@ -1,0 +1,53 @@
+{
+  "article_id": "green-sarc-agentic-ai-cost-carbon-governance-arxiv-ai-2026-06-23",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "Research",
+    "source_name": "ArXiv-AI",
+    "registry_key": "Research/ArXiv-AI",
+    "domain": "AI-research",
+    "main_url": "https://arxiv.org/list/cs.AI/recent"
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2606.15954",
+    "type": "direct",
+    "origin": "direct"
+  },
+  "meta": {
+    "published_at": "2026-06-14T18:26:43Z",
+    "scraped_at": "2026-06-23T07:10:00+07:00",
+    "run_date": "2026-06-23",
+    "target_date": "2026-06-23",
+    "within_24h": false,
+    "status": "scraped",
+    "batch": "3",
+    "category": "AI-RESEARCH",
+    "category_label": "งานวิจัย",
+    "news_type": "วิจัย",
+    "tags": ["agentic AI", "cost governance", "carbon footprint", "FinOps", "GreenOps", "LLM safety"],
+    "language": "en"
+  },
+  "content": {
+    "title": "Green SARC: Predictive Cost and Carbon Governance for Agentic AI Systems",
+    "slug": "green-sarc-agentic-ai-cost-carbon-governance",
+    "summary": "Green SARC proposes an architecture-level governance framework that enforces financial and carbon budgets inside the agentic AI loop before execution, achieving 47-55% token/cost/carbon savings with zero budget breaches.",
+    "summary_1": "Agentic AI systems that act through tools and sub-agents create unpredictable financial and environmental costs that current dashboards only catch after the fact. Green SARC applies a governance-by-architecture (SARC) framework with four enforcement sites embedded directly in the agent loop for FinOps and GreenOps. The system demonstrates that the 'State Snowball' cost growth is quadratic (Θ(n²)) in loop depth. An architectural gate achieves 0% budget breach rate versus 91.5% for a soft Lagrangian penalty, while delivering 47-55% end-to-end token/USD/carbon savings. The open-source library is dependency-free and ships with full reproducibility scripts.",
+    "body_text": "Agentic AI systems act through tools and sub-agents, yet the controls meant to bound their financial and environmental cost still sit on dashboards evaluated beside or after execution. Green SARC applies the SARC governance-by-architecture framework with four enforcement sites in the agent loop for FinOps and GreenOps. The unconstrained 'State Snowball' is Θ(n²) in loop depth on 3,000 real multi-step plans. A soft Lagrangian penalty breaches budget on 91.5% of seeds; the architectural gate breaches 0%. End-to-end token/USD/carbon savings of 47-55% are delivered. Code: https://github.com/besanson/Greensarc",
+    "language": "en",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "First architectural governance framework to enforce financial and carbon budgets inside agentic AI loops with provably zero breach rate.",
+    "actions_developer": ["Integrate SARC gate as middleware in agent orchestration frameworks", "Use split-conformal calibration for token budget prediction", "Replace soft Lagrangian penalties with hard architectural gates"],
+    "actions_business": ["Adopt for AI carbon reporting compliance", "Use FinOps enforcement to cap runaway API costs", "Evaluate before next agentic AI deployment"],
+    "urgency": "high",
+    "related_domains": ["Agentic AI", "LLM", "FinOps", "Sustainability", "AI Governance"],
+    "breakthrough_potential": true
+  },
+  "media_links": {"youtube_channel": null, "youtube_video": null},
+  "paths": {
+    "relative": "Research/ArXiv-AI/2026-06-23/green-sarc-agentic-ai-cost-carbon-governance",
+    "batch_file": "News/Batches/2026-06-23/batch_3.json"
+  }
+}
