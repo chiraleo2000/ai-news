@@ -141,11 +141,17 @@ d:\ai-news\                              ← THIS IS THE GIT REPO ROOT
 ## ⚡ EXECUTION SEQUENCE
 
 ```
-Step 0: CLEAR GIT LOCK
+Step 0: CLEAR ALL GIT LOCKS + FIX SANDBOX ISSUES
   execute_pwsh:
-    if (Test-Path "d:\ai-news\.git\index.lock") {
-      Remove-Item "d:\ai-news\.git\index.lock" -Force
-    }
+    # Remove ALL lock files (critical for scheduled/automated runs)
+    Get-ChildItem "d:\ai-news\.git" -Recurse -Filter "*.lock" -ErrorAction SilentlyContinue | Remove-Item -Force
+    
+    # Reset any half-finished operations
+    git -C "d:\ai-news" reset HEAD --quiet 2>$null
+    
+    # Ensure git user config exists (required for automated commits)
+    git -C "d:\ai-news" config user.email "ai-news-bot@chiraleo2000.github.io"
+    git -C "d:\ai-news" config user.name "AI News Bot"
 
 Step 1: CHECK/CREATE SOURCE JSON
   - ตรวจว่า Document/{DATE}_News/{DATE}_news.json มีอยู่
@@ -193,20 +199,52 @@ Step 3.7: ✅ VERIFY 4-TOPIC JSON STRUCTURE
   - Topic classification (client-side): ai-trends | tech-trends | thailand | global
   - The JS app auto-classifies posts into 4 columns using keywords + category
 
-Step 4: GIT ADD + COMMIT + PUSH (⛔ MANDATORY)
+Step 4: GIT ADD + COMMIT + PUSH (⛔ MANDATORY — AUTOMATED-SAFE)
+  ⛔ AUTOMATED/SCHEDULED RUN STRATEGY:
+  - ใช้ single PowerShell block ที่จัดการ error เอง
+  - ห้ามแยกเป็นหลาย execute_pwsh calls (ป้องกัน state issues)
+  - รวม add + commit + push + retry ในก้อนเดียว
+
   execute_pwsh (cwd: d:\ai-news):
-    git add data/{DATE}_news.json data/manifest.json
-    git commit -m "Add AI news {DATE}"
-    git push origin master
-
-  ถ้า push fail:
-    execute_pwsh:
-      git pull --rebase origin master
-      git push origin master
-
-  ยังไม่ได้อีก:
-    execute_pwsh:
-      git push -f origin master
+    # Clear locks AGAIN before git operations
+    Get-ChildItem ".git" -Recurse -Filter "*.lock" -ErrorAction SilentlyContinue | Remove-Item -Force
+    
+    # Stage files
+    git add "data/{DATE}_news.json" "data/manifest.json"
+    
+    # Check if there are changes to commit
+    $status = git status --porcelain "data/"
+    if (-not $status) { Write-Output "Nothing to commit"; exit 0 }
+    
+    # Commit
+    git commit -m "Add AI news {DATE}" --allow-empty-message
+    
+    # Push with retry logic (ALL IN ONE BLOCK)
+    $maxRetries = 5
+    $pushed = $false
+    for ($i = 1; $i -le $maxRetries; $i++) {
+      Write-Output "Push attempt $i..."
+      git push origin master 2>&1
+      if ($LASTEXITCODE -eq 0) { $pushed = $true; break }
+      
+      Write-Output "Push failed, trying rebase..."
+      git pull --rebase origin master 2>&1
+      if ($LASTEXITCODE -ne 0) {
+        git rebase --abort 2>$null
+        git pull origin master --strategy-option=theirs 2>&1
+      }
+      Start-Sleep -Seconds 2
+    }
+    
+    # Force push as last resort
+    if (-not $pushed) {
+      Write-Output "Force pushing..."
+      git push -f origin master 2>&1
+    }
+    
+    # Final verification
+    if ($LASTEXITCODE -eq 0) { Write-Output "PUSH SUCCESS" }
+    else { Write-Output "PUSH FAILED after all retries"; exit 1 }
 
 Step 5: VERIFY PUSH SUCCESS
   - ตรวจ exit code = 0
@@ -311,24 +349,44 @@ Articles are auto-classified into topics by `js/app.js` based on keywords, tags,
 | Error | วิธีแก้ |
 |-------|---------|
 | manifest.json invalid JSON | Fix closing bracket → validate → commit |
-| `.git/index.lock` exists | `Remove-Item d:\ai-news\.git\index.lock -Force` |
-| Push rejected | `git pull --rebase origin master` → push ใหม่ |
+| `.git/index.lock` exists | `Get-ChildItem .git -Recurse -Filter *.lock \| Remove-Item -Force` |
+| `.git/HEAD.lock` exists | Same — remove ALL *.lock recursively |
+| Push rejected (non-fast-forward) | `git pull --rebase origin master` → push ใหม่ |
+| Push rejected (diverged) | `git pull --strategy-option=theirs origin master` → push |
 | Source JSON not found | สร้างจาก Articles/Batches folder (Fallback) |
-| Network timeout | retry 3 ครั้ง (รอ 5 วิ) |
+| Network timeout | retry 3 ครั้ง (รอ 2 วิ) |
 | 404 after deploy | Check index.html exists at repo root |
 | Data not showing | Check data/manifest.json has the new entry |
+| "another git process running" | Remove ALL .git/*.lock files recursively |
+| Authentication failure | Use stored credentials / git credential manager |
+| Sandbox/container state issues | Clear locks + reset HEAD + fresh add/commit |
 
-### ⛔ RETRY ESCALATION:
+### ⛔ RETRY ESCALATION (v3.0 — Automated-Safe):
 ```
 Attempt 1: git push origin master
   → fail? ↓
 Attempt 2: git pull --rebase origin master → git push origin master
+  → rebase conflict? → git rebase --abort → git pull --strategy-option=theirs
   → fail? ↓
-Attempt 3: git fetch origin ; git reset --soft origin/master ; git add . ; git commit ; git push
+Attempt 3: git fetch origin → git reset --soft origin/master → git add data/ → git commit → git push
   → fail? ↓
 Attempt 4: git pull origin master --allow-unrelated-histories → resolve → push
   → fail? ↓
 Attempt 5 (FORCE): git push -f origin master
+```
+
+### ⛔ AUTOMATED/SCHEDULED RUN SAFEGUARDS:
+```
+เมื่อรันจาก Claude Scheduled Task หรือ automated script:
+
+1. ALWAYS clear all locks first (index.lock, HEAD.lock, refs/*.lock)
+2. ALWAYS set git user.email + user.name (อาจหายในแต่ละ session)
+3. NEVER use interactive commands (no -i flags, no editor opens)
+4. COMBINE git operations in single PowerShell block (prevent state loss)
+5. ALWAYS have force-push as final fallback
+6. Set timeout: ถ้า push ไม่สำเร็จใน 60 วินาที → force push ทันที
+7. ห้ามสร้าง background process สำหรับ git (ใช้ execute_pwsh เท่านั้น)
+8. ถ้า git status แสดงว่า "nothing to commit" → ถือว่า SUCCESS (ไม่ต้อง push)
 ```
 
 ---

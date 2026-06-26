@@ -112,6 +112,20 @@ mode: batch-sequential (1 → 2 → 3) หรือ parallel (Haiku 4.5 × 3)
   - ADD ONLY — ห้ามลบ article เก่า ห้ามเขียนทับ
   - ทุก article ต้องมี topic_group field
 
+⛔ LANGUAGE RULE (v2.0 — บังคับ):
+  - ⛔⛔⛔ เนื้อหา OUTPUT ทั้งหมดต้องเป็นภาษาไทยเป็นหลัก ⛔⛔⛔
+  - content.summary_1 = ภาษาไทย (แม้ต้นฉบับเป็นภาษาอังกฤษ → แปลเป็นไทย)
+  - content.title = เก็บชื่อต้นฉบับ (EN/TH ตามแหล่ง) + เพิ่ม title_th ถ้าต้นฉบับ EN
+  - tech_insights.impact_summary = ภาษาไทย
+  - tech_insights.actions_developer = ภาษาไทย
+  - tech_insights.actions_business = ภาษาไทย
+  - article.md = เขียนเป็นภาษาไทยทั้งหมด
+  - ศัพท์เทคนิค (LLM, API, GPU, inference, etc.) คงเป็น English ได้
+  - ชื่อบริษัท/ผลิตภัณฑ์ คงเป็น English ได้ (OpenAI, Claude, Gemini, etc.)
+  - ตัวเลข/สถิติ คงรูปแบบ English ($3.9B, 85.6%, 152 tok/s)
+  - หลักการ: เขียนเหมือนนักข่าว AI ไทยเขียนให้คนไทยอ่าน
+  - ⛔ ห้ามเขียน summary เป็น English ถ้าเป็นข่าวจากแหล่ง International
+
 ⛔ SAME-DAY RE-RUN RULES (รันวันเดียวกันซ้ำ):
   - กรณีรัน batch ซ้ำในวันเดียวกัน (TARGET_DATE เดิม):
     1. SCAN ก่อนสร้าง — ตรวจ existing articles ใน News/Articles/**/{TARGET_DATE}/
@@ -301,12 +315,13 @@ This batch format means:
     "language": "th|en"
   },
   "content": {
-    "title": "หัวข้อข่าว",
+    "title": "หัวข้อข่าว (คงภาษาต้นฉบับ)",
+    "title_th": "หัวข้อข่าวภาษาไทย (แปลจาก EN ถ้าต้นฉบับเป็น EN)",
     "slug": "url-friendly-slug",
-    "summary": "สรุป 1-2 ประโยค",
-    "summary_1": "สรุป paragraph เดียว (100-150 คำ STRICT — count words)",
-    "body_text": "เนื้อหาย่อ (ห้ามเกิน 500 คำ)",
-    "language": "th|en",
+    "summary": "สรุป 1-2 ประโยค (ภาษาไทย)",
+    "summary_1": "สรุป paragraph เดียว (100-150 คำ ภาษาไทย — แม้ต้นฉบับ EN ก็ต้องแปล)",
+    "body_text": "เนื้อหาย่อ (ห้ามเกิน 500 คำ ภาษาไทย)",
+    "language": "th",
     "original_language": "th|en"
   },
   "tech_insights": {
