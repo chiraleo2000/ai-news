@@ -1,0 +1,291 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T16:06:46Z",
+  "schema_version": "3.0",
+  "stats": {
+    "total": 7,
+    "by_topic": {
+      "ai_trends": 2,
+      "tech_trends": 0,
+      "thailand": 1,
+      "global": 4
+    },
+    "by_source_category": {
+      "thai": 3,
+      "international": 2,
+      "research": 2,
+      "youtube": 0
+    }
+  },
+  "posts": [
+    {
+      "id": "8632f4c7",
+      "slug": "google-gemini-meta-infrastructure-limit",
+      "title": "[ไม่ยืนยัน] Google จำกัดการใช้ Gemini Enterprise สำหรับ Meta เพราะขยาย infrastructure ให้ไม่ทัน",
+      "topic": "Thailand AI & Tech",
+      "topic_group": "thailand",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "มีรายงานจาก The Information อ้างแหล่งข่าวที่เกี่ยวข้องระบุว่า ในเดือนมีนาคม 2026 ที่ผ่านมา Google ได้แจ้ง Meta ว่าไม่สามารถจัดสรรทรัพยากรสำหรับการรัน Gemini Enterprise ให้เพียงพอตามคำสั่งซื้อที่ Meta ต้องการได้ ปัญหาดังกล่าวเกิดจากการที่ Google ขยาย infrastructure ไม่ทันกับความต้องการที่พุ่งสูงขึ้นอย่างรวดเร็ว ส่งผลให้ Meta ต้องเลื่อนแผนโครงการ AI หลายอย่างออกไป รวมถึงต้องจำกัดการใช้โทเค็นซึ่งเคยมีรายงานออกมาก่อนหน้า ทั้งนี้ปัญหาดังกล่าวไม่ได้จำกัดเฉพาะ Meta เท่านั้น แต่ลูกค้า Google หลายรายก็ประสบปัญหาเช่นกัน เพียงแต่ผลกระทบอาจน้อยกว่า เนื่องจากคำสั่งซื้อของ Meta นั้นสูงกว่าลูกค้ารายอื่นมาก นับเป็นสัญญาณสำคัญที่บ่งชี้ว่าความต้องการ AI ระดับองค์กรกำลังเติบโตเร็วกว่าที่ผู้ให้บริการ Cloud รายใหญ่สามารถรองรับได้",
+      "source_url": "https://www.blognone.com/node/151009",
+      "tech_impact": "ความต้องการ AI ระดับองค์กรเติบโตเร็วกว่า infrastructure ของ Cloud providers ทำให้เกิดความเสี่ยงด้านความพร้อมใช้งาน",
+      "tags": [
+        "Gemini",
+        "Google",
+        "Meta",
+        "Artificial Intelligence",
+        "Cloud"
+      ],
+      "published_at": "2026-06-28T20:27:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "Cloud",
+        "AI Infrastructure",
+        "Enterprise AI"
+      ],
+      "actions_developer": [
+        "วางแผนสำรองผู้ให้บริการ AI หลายรายเพื่อลดความเสี่ยงด้านความพร้อมใช้งาน",
+        "ติดตามข้อตกลง SLA และ capacity ของผู้ให้บริการ Cloud ก่อนทำสัญญาขนาดใหญ่"
+      ],
+      "actions_business": [
+        "วางแผน AI roadmap โดยคำนึงถึงความเสี่ยงจากข้อจำกัดด้าน infrastructure ของผู้ให้บริการ",
+        "พิจารณา multi-cloud strategy สำหรับโครงการ AI ที่สำคัญ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "d5200ad9",
+      "slug": "anthropic-mythos5-us-government-approval",
+      "title": "รัฐบาลสหรัฐอนุญาตให้ Anthropic เผยแพร่โมเดล Mythos 5 ได้อีกครั้ง แต่จำกัดเฉพาะหน่วยงานที่อนุญาต",
+      "topic": "Global AI & Tech",
+      "topic_group": "global",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Anthropic เปิดเผยว่าหลังจากที่รัฐบาลสหรัฐเคยออกคำสั่งระงับการเผยแพร่โมเดล AI รุ่นใหม่ Claude Mythos 5 และ Fable 5 ตั้งแต่วันที่ 13 มิถุนายนที่ผ่านมา ล่าสุดรัฐบาลสหรัฐได้แจ้งว่าโมเดลรุ่นใหญ่ที่สุดอย่าง Mythos 5 สามารถนำกลับมาเผยแพร่ได้อีกครั้งแล้ว โดยมีเงื่อนไขว่าจะจำกัดการเข้าถึงเฉพาะองค์กรในสหรัฐอเมริกาที่มีหน้าที่ดูแลและป้องกันโครงสร้างพื้นฐานสำคัญของประเทศเท่านั้น นับเป็นการกลับมาอย่างมีเงื่อนไขของโมเดล AI ระดับสูงที่รัฐบาลสหรัฐกังวลเรื่องความปลอดภัยทางไซเบอร์ และสะท้อนให้เห็นถึงแนวโน้มที่รัฐบาลสหรัฐจะควบคุมการเข้าถึง AI ระดับสูงมากขึ้น โดยใช้กลไกการอนุญาตเฉพาะหน่วยงานที่เชื่อถือได้",
+      "source_url": "https://www.blognone.com/node/150998",
+      "tech_impact": "นโยบายควบคุมการเข้าถึง AI ระดับสูงของสหรัฐสร้างบรรทัดฐานใหม่ในการกำกับดูแล AI ที่ประเทศอื่นอาจนำไปปรับใช้",
+      "tags": [
+        "Anthropic",
+        "AI Policy",
+        "Cybersecurity",
+        "USA",
+        "Mythos 5"
+      ],
+      "published_at": "2026-06-27T15:44:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Safety",
+        "AI Policy",
+        "Government AI",
+        "Cybersecurity"
+      ],
+      "actions_developer": [
+        "ศึกษาข้อกำหนดการเข้าถึง AI ระดับสูงสำหรับภาครัฐและโครงสร้างพื้นฐานสำคัญ",
+        "เตรียมระบบ compliance สำหรับการใช้งาน AI ในองค์กรที่อาจต้องได้รับการรับรอง"
+      ],
+      "actions_business": [
+        "ติดตามนโยบาย AI ของสหรัฐและผลกระทบต่อการเข้าถึงโมเดล AI ระดับสูง",
+        "พิจารณาการสร้างความสัมพันธ์กับหน่วยงานกำกับดูแล AI เพื่อรักษาสิทธิ์การเข้าถึง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "c83d09fe",
+      "slug": "paul-meade-apple-openai-hardware",
+      "title": "Paul Meade ผู้บริหารโครงการ Vision Pro และแว่นตาอัจฉริยะของ Apple ลาออกไปอยู่ OpenAI",
+      "topic": "Global AI & Tech",
+      "topic_group": "global",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "Mark Gurman แห่ง Bloomberg รายงานว่า Paul Meade ผู้บริหารระดับสูงของ Apple ที่ดูแลโครงการพัฒนาเฮดเซต Vision Pro และโครงการพัฒนาแว่นตาอัจฉริยะของบริษัท เตรียมลาออกจากตำแหน่งภายในสัปดาห์หน้า เพื่อย้ายไปร่วมงานกับ OpenAI ในฝ่ายฮาร์ดแวร์ ซึ่งรายงานระบุว่า Meade จะเข้าไปช่วยพัฒนาอุปกรณ์ฮาร์ดแวร์หลายอย่างของ OpenAI ที่มี AI เป็นแกนหลัก แม้จะยังไม่มีรายละเอียดว่าเป็นฮาร์ดแวร์ประเภทใด การเคลื่อนไหวครั้งนี้สะท้อนให้เห็นถึงความพยายามของ OpenAI ในการขยายธุรกิจไปสู่ฮาร์ดแวร์หลังจากที่เคยมีรายงานเกี่ยวกับโครงการอุปกรณ์ AI ต่างๆ รวมถึงการซื้อกิจการ io ของ Jony Ive อดีต Chief Design Officer ของ Apple",
+      "source_url": "https://www.blognone.com/node/150999",
+      "tech_impact": "การย้ายผู้บริหารฮาร์ดแวร์ระดับสูงจาก Apple สู่ OpenAI สะท้อนทิศทางการรุกตลาดฮาร์ดแวร์ AI อย่างจริงจังของ OpenAI",
+      "tags": [
+        "Apple",
+        "OpenAI",
+        "Hardware",
+        "AI"
+      ],
+      "published_at": "2026-06-27T15:59:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Hardware",
+        "Wearable AI",
+        "OpenAI"
+      ],
+      "actions_developer": [
+        "ติดตามความคืบหน้าของ OpenAI Hardware เพื่อประเมินโอกาสในการพัฒนา ecosystem",
+        "ศึกษาทิศทาง AI-first hardware design เพื่อเตรียมพัฒนาแอปพลิเคชันรองรับ"
+      ],
+      "actions_business": [
+        "วางแผนรองรับอุปกรณ์ AI รูปแบบใหม่ที่อาจออกมาจาก OpenAI",
+        "ติดตามพัฒนาการด้าน AI Hardware เพื่อปรับกลยุทธ์การลงทุนด้านเทคโนโลยี"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "a5817294",
+      "slug": "asian-ai-startups-mythos-export-ban",
+      "title": "Asian AI startups launch Mythos-like models as Anthropic's export ban drags on",
+      "topic": "Global AI & Tech",
+      "topic_group": "global",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "high",
+      "content": "ท่ามกลางมาตรการควบคุมการส่งออก AI ของรัฐบาลสหรัฐฯ ที่บังคับให้ Anthropic ระงับการเข้าถึง Mythos 5 และ Fable 5 สำหรับผู้ใช้ต่างชาติ บริษัทสตาร์ทอัปในเอเชียได้รีบคว้าโอกาสนี้ทันที Sakana AI สตาร์ทอัปจากโตเกียวที่ก่อตั้งโดยอดีตนักวิจัย Google ได้เปิดตัว Fugu โมเดล AI ที่ออกแบบมาสำหรับ agentic use และอ้างว่ามีความสามารถเทียบเท่า Fable 5 โดยไม่มีความเสี่ยงด้าน export controls ขณะที่บริษัทความปลอดภัยไซเบอร์จีน 360 เปิดตัวเครื่องมือ AI สองตัวคือ Tulongfeng สำหรับค้นหาช่องโหว่ซอฟต์แวร์ และ Yitianzhen สำหรับป้องกันไซเบอร์ ทั้งสองบริษัทเปิดตัวในช่วงเวลาที่ Anthropic กำลังขยายตัวอย่างรวดเร็วด้วย run-rate revenue กว่า 47 พันล้านดอลลาร์ต่อปี การแบนครั้งนี้อาจเปิดช่องว่างถาวรในตลาดเอเชียให้คู่แข่งท้องถิ่นเข้ามาแทนที่",
+      "source_url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "tech_impact": "การแบนส่งออก AI ของสหรัฐฯ เร่งให้เอเชียพัฒนา AI model ของตัวเอง อาจนำไปสู่การกระจายตัวของระบบนิเวศ AI โลก",
+      "tags": [
+        "asia",
+        "anthropic",
+        "export-ban",
+        "mythos",
+        "sakana-ai",
+        "china"
+      ],
+      "published_at": "2026-06-27T12:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "AI-policy",
+        "export-control",
+        "AI-safety"
+      ],
+      "actions_developer": [
+        "ติดตามและทดสอบ Sakana Fugu API สำหรับงาน orchestration หลายโมเดล",
+        "เตรียมสถาปัตยกรรม multi-vendor AI เพื่อลดความเสี่ยงจาก export controls"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงด้าน AI supply chain หากพึ่งพา US AI providers เป็นหลัก",
+        "สำรวจทางเลือก AI จากเอเชียที่เข้าใจบริบทท้องถิ่นดีกว่า"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "578c0e17",
+      "slug": "softbank-orbital-data-center-elon-musk",
+      "title": "SoftBank's CEO isn't the only one with questions about Elon Musk's orbital data center hype",
+      "topic": "Global AI & Tech",
+      "topic_group": "global",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Masayoshi Son ผู้ก่อตั้งและ CEO ของ SoftBank ออกมาตั้งคำถามต่อวิสัยทัศน์ของ Elon Musk ในการสร้าง data center ในวงโคจรอวกาศ โดยระบุว่าในการแข่งขัน AI นั้น ไม่กี่ปีข้างหน้าสำคัญกว่าสิ่งที่อาจเกิดขึ้นในทศวรรษหน้า แม้ SoftBank จะมีประวัติการเดิมพันครั้งใหญ่มากมาย แต่ Son ชี้ให้เห็นว่าต้นทุนจะสูงมากและใช้เวลานานเกินไป ทีมของ TechCrunch ยังวิเคราะห์ว่า SpaceX มีประโยชน์ทับซ้อนชัดเจน เพราะการสร้าง orbital data center หมายถึงการสร้างรายได้เพิ่มให้ธุรกิจ launch และ satellite ของ SpaceX เอง นอกจากนี้ OpenAI ก็เพิ่งเปิดตัวชิป AI แบบ custom ร่วมกับ Broadcom และ Groq ได้รับเงินทุน 650 ล้านดอลลาร์ ทั้งหมดนี้สะท้อนการแข่งขันด้าน compute infrastructure ที่ร้อนแรงในวงการ AI",
+      "source_url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+      "tech_impact": "ความสงสัยต่อ orbital data center บ่งชี้ว่าการแข่งขัน AI infrastructure กำลังเข้มข้นบนพื้นดินก่อน การลงทุน compute ระยะสั้นยังสำคัญกว่า",
+      "tags": [
+        "softbank",
+        "elon-musk",
+        "spacex",
+        "orbital-data-center",
+        "ai-infrastructure"
+      ],
+      "published_at": "2026-06-27T20:42:36+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-infrastructure",
+        "GPU",
+        "compute",
+        "data-center"
+      ],
+      "actions_developer": [
+        "ติดตามการพัฒนา cloud compute ทางเลือก เช่น Groq และ Baseten สำหรับ inference ราคาถูก",
+        "วางแผนสถาปัตยกรรมที่รองรับหลาย compute providers เพื่อความยืดหยุ่น"
+      ],
+      "actions_business": [
+        "ประเมินต้นทุน compute ระยะยาวก่อนเลือก provider หลัก",
+        "ติดตามการพัฒนา custom AI chip เช่น Jalapeño ของ OpenAI ที่อาจลดต้นทุน inference"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b40c148b",
+      "slug": "cat-q-ternary-quantization-llm",
+      "title": "CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs",
+      "topic": "AI Trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.CL",
+      "category": "Research",
+      "urgency": "high",
+      "content": "ทีมวิจัยจาก Intel นำเสนอ CAT-Q ซึ่งย่อมาจาก Cost-efficient and Accurate Ternary Quantization วิธีการ Post-training Quantization แบบใหม่ที่ออกแบบมาเพื่อบีบอัด LLM ให้เป็น Ternary หรือ 3-bit โดยไม่ต้องพึ่งพา Quantization-aware Training ที่ใช้ข้อมูลมากและมีต้นทุนสูง CAT-Q มีสององค์ประกอบหลักคือ Learnable Modulation (LM) และ Softened Ternarization (ST) ที่ทำงานร่วมกันจากมุมมองการ Optimization โมเดลนี้สามารถ Quantize LLM ขนาด 1.7B ถึง 8B พารามิเตอร์ได้โดยใช้เพียง 512 ตัวอย่างในการ Calibrate ขณะที่ให้ประสิทธิภาพสูงกว่า BitNet 1.58-bit v1 และ v2 ซึ่งต้องใช้ข้อมูลฝึก 100 พันล้าน Token โดยลดจำนวน Token ที่ต้องฝึกลงถึง 100,000 เท่า นอกจากนี้ยังสามารถ Quantize โมเดลขนาด 14B ถึง 235B พารามิเตอร์ได้ใน 8-60 ชั่วโมงบน GPU 8 ตัว งานนี้ได้รับการยอมรับเป็น Oral Paper ใน ICML 2026",
+      "source_url": "https://arxiv.org/abs/2606.26650",
+      "tech_impact": "CAT-Q เปิดประตูสู่การ Deploy LLM ขนาดใหญ่บนฮาร์ดแวร์ที่จำกัดด้วยต้นทุนต่ำมาก การลด Training Token ลง 100,000 เท่าเมื่อเทียบ BitNet อาจเปลี่ยนแนวทางการพัฒนา Ternary LLM",
+      "tags": [
+        "arxiv",
+        "research",
+        "quantization",
+        "LLM",
+        "ICML2026",
+        "compression"
+      ],
+      "published_at": "2026-06-25T06:24:02Z",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "LLM",
+        "Model Compression",
+        "Quantization",
+        "Edge AI",
+        "BitNet"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ CAT-Q (BitTern) จาก GitHub ของ Intel เพื่อบีบอัดโมเดลที่มีอยู่เป็น Ternary",
+        "ทดสอบ CAT-Q กับ LLM ขนาด 7B-8B ที่ใช้งานอยู่เพื่อดูผลลัพธ์ด้าน Accuracy และ Throughput"
+      ],
+      "actions_business": [
+        "ประเมิน CAT-Q สำหรับการ Deploy LLM บน Edge Device และ IoT เพื่อลดต้นทุนฮาร์ดแวร์",
+        "ติดตามงานวิจัย Ternary Quantization จาก Intel และ ICML 2026 เพื่อนำมาปรับใช้ในกระบวนการ MLOps"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "0c24acfb",
+      "slug": "nemotron-twotower-diffusion-lm",
+      "title": "Nemotron-TwoTower: Diffusion Language Modeling with Pretrained Autoregressive Context",
+      "topic": "AI Trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.CL",
+      "category": "Research",
+      "urgency": "high",
+      "content": "NVIDIA Research นำเสนองานวิจัยชื่อ Nemotron-TwoTower ซึ่งเป็นสถาปัตยกรรม Diffusion Language Model แนวใหม่ที่แก้ปัญหาสำคัญของโมเดล Diffusion ภาษาในปัจจุบัน โดยแยกบทบาทการทำงานออกเป็นสองส่วนชัดเจน ได้แก่ AR Context Tower ที่แช่แข็งไว้สำหรับประมวลผล Token ที่สะอาด และ Diffusion Denoiser Tower ที่ฝึกได้สำหรับกำจัดสัญญาณรบกวน โมเดลนี้สร้างขึ้นบนพื้นฐานของ Nemotron-3-Nano-30B-A3B ซึ่งเป็น Hybrid Mamba-Transformer MoE ขนาด 30 พันล้านพารามิเตอร์ และฝึกด้วยข้อมูลประมาณ 2.1 ล้านล้าน Token ผลลัพธ์แสดงให้เห็นว่า Nemotron-TwoTower รักษาคุณภาพไว้ได้ 98.7% เมื่อเทียบกับ Baseline แบบ Autoregressive ขณะเดียวกันมีความเร็วในการสร้างข้อความสูงกว่าถึง 2.42 เท่า ทีมวิจัยได้เผยแพร่โค้ดและน้ำหนักโมเดลทั้งหมดสู่สาธารณะบน Hugging Face",
+      "source_url": "https://arxiv.org/abs/2606.26493",
+      "tech_impact": "สถาปัตยกรรม TwoTower เปิดทางให้ Diffusion Language Model เข้าสู่ระดับ Production ได้จริง ด้วยความเร็ว 2.42 เท่าโดยแทบไม่สูญเสียคุณภาพ",
+      "tags": [
+        "arxiv",
+        "research",
+        "diffusion",
+        "LLM",
+        "NVIDIA",
+        "generation"
+      ],
+      "published_at": "2026-06-25T00:52:44Z",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "LLM",
+        "Diffusion Models",
+        "NLP",
+        "Inference Optimization",
+        "MoE"
+      ],
+      "actions_developer": [
+        "ทดลองโมเดล Nemotron-TwoTower จาก Hugging Face เพื่อประเมินความเร็วและคุณภาพในงานของตัวเอง",
+        "ศึกษาสถาปัตยกรรม TwoTower เป็นแนวทางสำหรับการออกแบบ Inference-efficient LLM ในอนาคต"
+      ],
+      "actions_business": [
+        "ติดตามความคืบหน้าของ Diffusion LLM เพื่อประเมินการนำไปใช้ลดต้นทุน Inference",
+        "พิจารณา Throughput 2.42x สำหรับแอปพลิเคชันที่ต้องการความเร็วสูงในการสร้างข้อความ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
