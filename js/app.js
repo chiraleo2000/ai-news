@@ -174,11 +174,11 @@
       }));
 
       allPosts = results.flat();
-      // Sort by published_at descending (newest first)
+      // Sort by published_at descending (newest first), using Date parsing for accuracy
       allPosts.sort((a, b) => {
-        const da = a.published_at || a._date || '';
-        const db = b.published_at || b._date || '';
-        return db.localeCompare(da);
+        const da = new Date(a.published_at || (a._date ? a._date + 'T00:00:00' : 0)).getTime();
+        const db = new Date(b.published_at || (b._date ? b._date + 'T00:00:00' : 0)).getTime();
+        return db - da;
       });
 
       updateHeader(range, allPosts.length);
@@ -268,6 +268,15 @@
       if (groups[topic]) groups[topic].push(p);
       else groups['global'].push(p);
     });
+
+    // Sort each topic group by published_at descending (latest first)
+    for (const posts of Object.values(groups)) {
+      posts.sort((a, b) => {
+        const da = new Date(a.published_at || (a._date ? a._date + 'T00:00:00' : 0)).getTime();
+        const db = new Date(b.published_at || (b._date ? b._date + 'T00:00:00' : 0)).getTime();
+        return db - da;
+      });
+    }
 
     for (const [topic, posts] of Object.entries(groups)) {
       const col = columns[topic];

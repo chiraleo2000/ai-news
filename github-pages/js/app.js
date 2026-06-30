@@ -192,6 +192,15 @@
       else groups['global'].push(p);
     });
 
+    // Sort each topic group by published_at descending (latest first)
+    for (const posts of Object.values(groups)) {
+      posts.sort((a, b) => {
+        const da = new Date(a.published_at || 0).getTime();
+        const db = new Date(b.published_at || 0).getTime();
+        return db - da;
+      });
+    }
+
     // Render each column
     for (const [topic, posts] of Object.entries(groups)) {
       const col = columns[topic];
