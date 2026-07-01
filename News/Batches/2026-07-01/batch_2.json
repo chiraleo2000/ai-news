@@ -1,0 +1,767 @@
+{
+  "batch": 2,
+  "target_date": "2026-07-01",
+  "generated_at": "2026-07-01T09:00:00+07:00",
+  "total_articles": 9,
+  "articles": [
+    {
+      "article_id": "anthropic-claude-sonnet-5-2026-07-01",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "Anthropic",
+        "registry_key": "Intl/Anthropic",
+        "domain": "AI-PRODUCT",
+        "main_url": "https://www.anthropic.com/news"
+      },
+      "source": {
+        "url": "https://www.anthropic.com/news/claude-sonnet-5",
+        "type": "direct",
+        "origin": "direct",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-01T10:02:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-30T00:00:00Z",
+        "scraped_at": "2026-07-01T10:02:00+07:00",
+        "run_date": "2026-07-01",
+        "target_date": "2026-07-01",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-PRODUCT",
+        "category_label": "ผลิตภัณฑ์ AI",
+        "news_type": "ข่าว",
+        "tags": [
+          "LLM",
+          "Claude",
+          "Agentic AI",
+          "Coding",
+          "API"
+        ],
+        "language": "en"
+      },
+      "content": {
+        "title": "Introducing Claude Sonnet 5",
+        "title_th": "Anthropic เปิดตัว Claude Sonnet 5 โมเดล Sonnet ที่ agentic ที่สุดเท่าที่เคยมี",
+        "slug": "anthropic-claude-sonnet-5-2026-07-01",
+        "summary": "Anthropic เปิดตัว Claude Sonnet 5 โมเดลตระกูล Sonnet ที่มีความสามารถแบบ agentic สูงสุด ใกล้เคียง Opus 4.8 แต่ราคาถูกกว่า พร้อมมาตรการความปลอดภัยด้าน cyber ที่เปิดใช้งานเป็นค่าเริ่มต้น",
+        "summary_1": "Anthropic เปิดตัว Claude Sonnet 5 โมเดลตระกูล Sonnet ที่มีความสามารถ agentic สูงที่สุดเท่าที่เคยพัฒนา สามารถวางแผน ใช้เครื่องมือ เช่น browser และ terminal และทำงานอัตโนมัติได้ในระดับที่เมื่อไม่กี่เดือนก่อนต้องใช้โมเดลขนาดใหญ่กว่าและแพงกว่า โมเดลใหม่นี้มีประสิทธิภาพใกล้เคียง Opus 4.8 แต่ราคาต่ำกว่ามาก และพัฒนาขึ้นอย่างมากจาก Sonnet 4.6 รุ่นก่อนหน้าในด้าน reasoning, tool use, coding และงานที่ต้องใช้ความรู้ ผลการประเมินความปลอดภัยพบว่า Sonnet 5 มีอัตราพฤติกรรมที่ไม่พึงประสงค์ต่ำกว่า Sonnet 4.6 โดยรวม แต่มีความสามารถด้าน cybersecurity ที่ต่ำกว่าโมเดลระดับ Opus มาก จึงเปิดใช้งานมาตรการป้องกันด้าน cyber เป็นค่าเริ่มต้น Sonnet 5 พร้อมใช้งานทันทีในทุกแพ็กเกจ ทั้ง Free, Pro, Max, Team และ Enterprise รวมถึงผ่าน Claude API ในราคาเริ่มต้นพิเศษ $2 ต่อ 1M input tokens และ $10 ต่อ 1M output tokens จนถึงวันที่ 31 สิงหาคม 2026 ก่อนปรับเป็นราคาปกติที่ $3/$15",
+        "body_text": "",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Claude Sonnet 5 ลดช่องว่างด้านความสามารถ agentic กับ Opus 4.8 ในราคาที่ถูกกว่า ทำให้ developer และองค์กรเข้าถึงโมเดลระดับสูงได้ง่ายขึ้นทันที",
+        "actions_developer": [
+          "ทดสอบ Claude Sonnet 5 ผ่าน Claude API หรือ Claude Code เพื่อเปรียบเทียบ cost-performance กับ Opus 4.8 ในงาน coding และ agentic tasks",
+          "ปรับ effort level ให้เหมาะกับงานเพื่อบาลานซ์ต้นทุนกับความแม่นยำ โดยใช้ประโยชน์จากราคา introductory pricing ก่อนหมดโปรโมชันสิงหาคมนี้"
+        ],
+        "actions_business": [
+          "ประเมินการย้ายงานที่ใช้ Sonnet 4.6 หรือ Opus มาใช้ Sonnet 5 เพื่อลดต้นทุนโดยไม่เสียประสิทธิภาพมากนัก",
+          "ตรวจสอบมาตรการ cyber safeguards ที่เปิดใช้งานเป็นค่าเริ่มต้น ก่อนนำไปใช้ในงานที่มีความเสี่ยงด้านความปลอดภัย"
+        ],
+        "urgency": "high",
+        "related_domains": [
+          "LLM",
+          "Claude",
+          "Agentic AI",
+          "Coding",
+          "API"
+        ],
+        "breakthrough_potential": false
+      },
+      "media_links": {
+        "youtube_channel": null,
+        "youtube_video": null
+      },
+      "paths": {
+        "relative": "International/Anthropic/2026-07-01/anthropic-claude-sonnet-5-2026-07-01",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-01/batch_2.json"
+      }
+    },
+    {
+      "article_id": "anthropic-claude-science-workbench-2026-07-01",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "Anthropic",
+        "registry_key": "Intl/Anthropic",
+        "domain": "AI-TOOLS",
+        "main_url": "https://www.anthropic.com/news"
+      },
+      "source": {
+        "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+        "type": "direct",
+        "origin": "direct",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-01T10:02:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-30T00:00:00Z",
+        "scraped_at": "2026-07-01T10:02:00+07:00",
+        "run_date": "2026-07-01",
+        "target_date": "2026-07-01",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-TOOLS",
+        "category_label": "เครื่องมือ AI",
+        "news_type": "ข่าว",
+        "tags": [
+          "AI for Science",
+          "Research Tools",
+          "Claude",
+          "Biology",
+          "Agentic AI"
+        ],
+        "language": "en"
+      },
+      "content": {
+        "title": "Claude Science, an AI workbench for scientists, is now available",
+        "title_th": "Anthropic เปิดตัว Claude Science เวิร์กเบนช์ AI สำหรับนักวิจัยวิทยาศาสตร์",
+        "slug": "anthropic-claude-science-workbench-2026-07-01",
+        "summary": "Anthropic เปิด Claude Science แอปที่รวมเครื่องมือวิจัยวิทยาศาสตร์ไว้ในที่เดียว พร้อม agent ผู้ช่วยกว่า 60 skills และระบบตรวจสอบผลลัพธ์อัตโนมัติ เปิดให้ใช้แบบ beta แล้ว",
+        "summary_1": "Anthropic เปิดตัว Claude Science ซึ่งเป็นความพยายามครั้งสำคัญที่สุดในการขยายงานด้าน life sciences โดยเป็นแอป AI workbench ที่รวมเครื่องมือและแพ็กเกจที่นักวิจัยใช้บ่อยที่สุดไว้ในที่เดียว เช่น PubMed, Jupyter, R และ cluster terminal ช่วยลดความยุ่งยากจากการสลับใช้งานหลายเครื่องมือ ตัว agent หลักมี skills และ connectors กว่า 60 รายการที่ปรับแต่งไว้สำหรับ genomics, proteomics, cheminformatics และ structural biology พร้อม reviewer agent ที่ตรวจสอบการอ้างอิงและการคำนวณโดยอัตโนมัติ ทุกผลลัพธ์มีประวัติที่ตรวจสอบและทำซ้ำได้ ระบบยังจัดการ compute ให้อัตโนมัติ ตั้งแต่แล็ปท็อปไปจนถึง HPC cluster หรือ GPU ตามความต้องการ มีกรณีศึกษาจาก Manifold Bio, Allen Institute และ UCSF ที่ใช้เร่งงานวิจัยได้เร็วขึ้นมาก Claude Science เปิดให้ใช้แบบ beta สำหรับผู้ใช้แพ็กเกจ Pro, Max, Team และ Enterprise พร้อมประกาศสนับสนุนทุนวิจัยสูงสุด 50 โครงการ AI for Science โดยเปิดรับสมัครถึงวันที่ 15 กรกฎาคม 2026",
+        "body_text": "",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Claude Science รวมเครื่องมือวิจัยและ compute ไว้ในที่เดียว ช่วยเร่งงานวิจัยวิทยาศาสตร์และลดเวลาทำงานที่ซ้ำซ้อนได้อย่างมาก",
+        "actions_developer": [
+          "ศึกษาการสร้าง custom skills และ connectors สำหรับ pipeline วิจัยของตนเองเพื่อใช้งานร่วมกับ Claude Science",
+          "ทดลองเชื่อมต่อ Claude Science กับ HPC cluster หรือ Modal เพื่อทดสอบการสเกล compute แบบ on-demand"
+        ],
+        "actions_business": [
+          "ประเมินการนำ Claude Science ไปใช้ในทีมวิจัยหรือแล็ปเพื่อลดเวลาทำงานวิเคราะห์ข้อมูลและเขียนรายงานทางวิทยาศาสตร์",
+          "พิจารณาสมัครทุน AI for Science ก่อนปิดรับสมัคร 15 กรกฎาคม 2026 สำหรับโครงการวิจัยที่ต้องใช้ AI เร่งความเร็ว"
+        ],
+        "urgency": "medium",
+        "related_domains": [
+          "AI for Science",
+          "Research Tools",
+          "Claude",
+          "Biology",
+          "Agentic AI"
+        ],
+        "breakthrough_potential": true
+      },
+      "media_links": {
+        "youtube_channel": null,
+        "youtube_video": null
+      },
+      "paths": {
+        "relative": "International/Anthropic/2026-07-01/anthropic-claude-science-workbench-2026-07-01",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-01/batch_2.json"
+      }
+    },
+    {
+      "article_id": "anthropic-claude-small-business-2026-07-01",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "Anthropic",
+        "registry_key": "Intl/Anthropic",
+        "domain": "AI-PRODUCT",
+        "main_url": "https://www.anthropic.com/news"
+      },
+      "source": {
+        "url": "https://www.anthropic.com/news/claude-for-small-business",
+        "type": "direct",
+        "origin": "aggregator",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-01T10:02:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-01T02:00:00Z",
+        "scraped_at": "2026-07-01T10:02:00+07:00",
+        "run_date": "2026-07-01",
+        "target_date": "2026-07-01",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-PRODUCT",
+        "category_label": "ผลิตภัณฑ์ AI",
+        "news_type": "ข่าว",
+        "tags": [
+          "Claude",
+          "Small Business",
+          "SMB",
+          "Automation"
+        ],
+        "language": "en"
+      },
+      "content": {
+        "title": "Claude for Small Business",
+        "title_th": "Anthropic เปิดตัว Claude for Small Business เจาะกลุ่มธุรกิจขนาดเล็ก",
+        "slug": "anthropic-claude-small-business-2026-07-01",
+        "summary": "Anthropic เปิดตัวผลิตภัณฑ์ Claude for Small Business มุ่งช่วยธุรกิจขนาดเล็กใช้ Claude ทำงานอัตโนมัติ เช่น บัญชี อีเมล และงานเอกสารประจำวัน ข่าวนี้ได้รับความสนใจสูงบน Hacker News ทันทีที่เผยแพร่",
+        "summary_1": "Anthropic เปิดตัวผลิตภัณฑ์ใหม่ Claude for Small Business ซึ่งออกแบบมาเพื่อให้ธุรกิจขนาดเล็กสามารถใช้ Claude จัดการงานประจำวันที่ใช้เวลานาน เช่น การจับคู่ใบแจ้งหนี้กับรายการธุรกรรมทางบัญชี การจัดหมวดหมู่ค่าใช้จ่าย และการทำงานอัตโนมัติแบบ end-to-end อย่างการอัปเดตข้อมูลลูกค้าใน CRM พร้อมส่งอีเมลประกาศให้ลูกค้าองค์กร ข่าวนี้ขึ้นเป็นอันดับหนึ่งบนหน้าแรกของ Hacker News ไม่นานหลังเผยแพร่ พร้อมการพูดคุยจากผู้ใช้จริงที่เชื่อมต่อ Claude Code กับระบบอีเมลและบัญชีของตนเพื่อจัดการงานที่ตรวจสอบได้ง่ายและลดงานที่ต้องทำมือ ผู้ใช้ชี้ว่าจุดแข็งของผลิตภัณฑ์นี้คือช่วยแก้ปัญหาการเข้าถึงตลาด (market penetration) ของ AI ในกลุ่มธุรกิจขนาดเล็กที่ยังไม่คุ้นเคยกับการใช้ AI ในงานประจำวัน คล้ายกับที่ผู้ให้บริการซอฟต์แวร์อื่นเริ่มโปรโมทด้วยการยกตัวอย่าง use case ที่จับต้องได้มากกว่าการโฆษณาแค่ฟีเจอร์",
+        "body_text": "",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Claude for Small Business ขยายฐานผู้ใช้ AI agentic ไปสู่กลุ่มธุรกิจขนาดเล็กที่มีทรัพยากรจำกัด ผ่าน use case ที่จับต้องได้อย่างงานบัญชีและอีเมล",
+        "actions_developer": [
+          "ศึกษาการเชื่อมต่อ Claude กับระบบบัญชีและอีเมลผ่าน API หรือ MCP เพื่อสร้าง workflow อัตโนมัติสำหรับลูกค้าธุรกิจขนาดเล็ก",
+          "ทดสอบ use case ง่ายๆ ที่ตรวจสอบผลลัพธ์ได้ชัดเจน เช่น การจับคู่ใบแจ้งหนี้กับธุรกรรม ก่อนขยายไปงานที่ซับซ้อนขึ้น"
+        ],
+        "actions_business": [
+          "ประเมินการนำ Claude for Small Business มาใช้ลดภาระงานเอกสารและบัญชีในทีมขนาดเล็กที่ไม่มีแผนก IT เฉพาะทาง",
+          "ศึกษาโมเดลการตั้งราคาแบบ use-case-based ที่เน้นโชว์ตัวอย่างการใช้งานจริงมากกว่าแค่ฟีเจอร์ทางเทคนิค"
+        ],
+        "urgency": "medium",
+        "related_domains": [
+          "Claude",
+          "Small Business",
+          "SMB",
+          "Automation"
+        ],
+        "breakthrough_potential": false
+      },
+      "media_links": {
+        "youtube_channel": null,
+        "youtube_video": null
+      },
+      "paths": {
+        "relative": "International/Anthropic/2026-07-01/anthropic-claude-small-business-2026-07-01",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-01/batch_2.json"
+      }
+    },
+    {
+      "article_id": "glm-52-vs-opus-2026-07-01",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "Hacker News",
+        "registry_key": "Intl/HackerNews",
+        "domain": "AI-RESEARCH",
+        "main_url": "https://news.ycombinator.com/?q=AI"
+      },
+      "source": {
+        "url": "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
+        "type": "aggregator",
+        "origin": "aggregator",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-01T10:02:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-01T02:00:00Z",
+        "scraped_at": "2026-07-01T10:02:00+07:00",
+        "run_date": "2026-07-01",
+        "target_date": "2026-07-01",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-RESEARCH",
+        "category_label": "งานวิจัย AI",
+        "news_type": "บทความ",
+        "tags": [
+          "GLM-5.2",
+          "Claude Opus",
+          "Benchmark",
+          "Open Weight Models",
+          "Coding"
+        ],
+        "language": "en"
+      },
+      "content": {
+        "title": "GLM 5.2 vs. Opus",
+        "title_th": "เปรียบเทียบ GLM 5.2 กับ Claude Opus 4.8 ในงาน coding แบบ one-shot",
+        "slug": "glm-52-vs-opus-2026-07-01",
+        "summary": "บทความเปรียบเทียบ GLM-5.2 ของ Zhipu AI กับ Claude Opus 4.8 ในงานสร้างเกม 3D WebGL ด้วยพรอมป์เดียว พบว่า Opus เร็วกว่าและผลลัพธ์ดีกว่า ขณะที่ GLM-5.2 ถูกกว่าราวห้าเท่า",
+        "summary_1": "บทความจาก techstackups.com เปรียบเทียบโมเดล open-weight GLM-5.2 ของ Zhipu AI กับ Claude Opus 4.8 ของ Anthropic ด้วยการทดสอบแบบ one-shot คือให้ทั้งสองโมเดลสร้างเกมแพลตฟอร์ม 3D ด้วย raw WebGL จากพรอมป์เดียวกัน ผลการทดสอบพบว่า Opus 4.8 ทำงานเสร็จเร็วกว่าและได้ผลลัพธ์ที่สะอาดและสมบูรณ์กว่า ขณะที่ GLM-5.2 มีต้นทุนถูกกว่าราวหนึ่งในห้าของ Opus เมื่อคิดจาก output token pricing บทความนี้กลายเป็นหัวข้อถกเถียงอย่างกว้างขวางบน Hacker News โดยผู้ใช้จำนวนมากตั้งคำถามว่าการทดสอบแบบ one-shot prompt เพียงครั้งเดียวเป็นตัวชี้วัดที่มีความหมายสำหรับความสามารถของ coding agent หรือไม่ เนื่องจากงานจริงส่วนใหญ่เป็นการทำงานแบบ collaborative หลายรอบ อย่างไรก็ตาม ผู้ใช้จำนวนมากยืนยันจากประสบการณ์ตรงว่า GLM-5.2 กำลังได้รับความนิยมเพิ่มขึ้นในฐานะโมเดล open-weight ราคาถูกที่ใกล้เคียงระดับ frontier แม้จะยังมีข้อจำกัดด้าน UI/UX และความเร็วในการประมวลผลเมื่อเทียบกับโมเดลชั้นนำ",
+        "body_text": "",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "การทดสอบชี้ให้เห็นว่าโมเดล open-weight จากจีนอย่าง GLM-5.2 ไล่ตามความสามารถ coding ของโมเดล frontier ได้ใกล้ขึ้นมาก ในต้นทุนที่ต่ำกว่าอย่างมีนัยสำคัญ",
+        "actions_developer": [
+          "ทดลองใช้ GLM-5.2 กับงาน coding ที่ไม่ต้องการความแม่นยำสูงสุด เพื่อประเมินความคุ้มค่าด้านต้นทุนเทียบกับ Opus",
+          "อย่าตัดสินใจเลือกโมเดลจากการทดสอบ one-shot เพียงอย่างเดียว ควรทดสอบ workflow แบบ multi-turn และ agentic ที่ตรงกับการใช้งานจริง"
+        ],
+        "actions_business": [
+          "ประเมินการใช้โมเดล open-weight ราคาถูกสำหรับงานปริมาณมากที่ไม่ต้องการคุณภาพสูงสุด เพื่อลดต้นทุนรวมของระบบ",
+          "ติดตามพัฒนาการของโมเดลจีนอย่าง GLM ต่อเนื่อง เนื่องจากกำลังลดช่องว่างด้านคุณภาพกับโมเดลตะวันตกในราคาที่แข่งขันได้"
+        ],
+        "urgency": "medium",
+        "related_domains": [
+          "GLM-5.2",
+          "Claude Opus",
+          "Benchmark",
+          "Open Weight Models",
+          "Coding"
+        ],
+        "breakthrough_potential": false
+      },
+      "media_links": {
+        "youtube_channel": null,
+        "youtube_video": null
+      },
+      "paths": {
+        "relative": "International/HackerNews/2026-07-01/glm-52-vs-opus-2026-07-01",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-01/batch_2.json"
+      }
+    },
+    {
+      "article_id": "sakana-fugu-2026-07-01",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "Hacker News",
+        "registry_key": "Intl/HackerNews",
+        "domain": "AI-PRODUCT",
+        "main_url": "https://news.ycombinator.com/?q=AI"
+      },
+      "source": {
+        "url": "https://sakana.ai/fugu/",
+        "type": "aggregator",
+        "origin": "aggregator",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-01T10:02:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-01T01:30:00Z",
+        "scraped_at": "2026-07-01T10:02:00+07:00",
+        "run_date": "2026-07-01",
+        "target_date": "2026-07-01",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-PRODUCT",
+        "category_label": "ผลิตภัณฑ์ AI",
+        "news_type": "ข่าว",
+        "tags": [
+          "Sakana AI",
+          "Multi-Agent",
+          "Model Routing",
+          "API",
+          "Orchestration"
+        ],
+        "language": "en"
+      },
+      "content": {
+        "title": "Sakana Fugu",
+        "title_th": "Sakana AI เปิดตัว Fugu ระบบ orchestration หลายโมเดลผ่าน API เดียว",
+        "slug": "sakana-fugu-2026-07-01",
+        "summary": "Sakana AI เปิดตัว Fugu ผลิตภัณฑ์ที่จัดสรรคำขอไปยังโมเดล LLM ที่เหมาะสมที่สุดโดยอัตโนมัติ ผ่าน API เดียวแบบ OpenAI-compatible พร้อมระดับ Fugu Ultra ที่สร้าง workflow หลายขั้นตอนข้ามโมเดล",
+        "summary_1": "Sakana AI เปิดตัวผลิตภัณฑ์ใหม่ชื่อ Fugu ซึ่งเป็นระบบ orchestration และ routing หลายโมเดล โดยจะวิเคราะห์คำขอที่ส่งเข้ามาแล้วเลือกส่งต่อไปยัง LLM ที่เหมาะสมที่สุดโดยอัตโนมัติ และสามารถเชื่อมโยงหลายโมเดลทำงานร่วมกันได้ เช่น ให้โมเดลหนึ่งคิดคำตอบ อีกโมเดลตรวจสอบ และอีกโมเดลสังเคราะห์ผลลัพธ์สุดท้าย ทั้งหมดผ่าน endpoint เดียวที่รองรับมาตรฐาน OpenAI-compatible ผลิตภัณฑ์ระดับสูงกว่าคือ Fugu Ultra ซึ่งสร้าง workflow ขนาดเล็กหลายขั้นตอนข้ามโมเดลต่างๆ แทนการเลือกเพียงโมเดลเดียว ข่าวนี้ได้รับความสนใจบน Hacker News ทันที โดยผู้ใช้จำนวนมากเปรียบเทียบ Fugu กับฟีเจอร์ Fusion ของ OpenRouter และตั้งคำถามเชิงวิจารณ์ว่าการสร้างระบบที่พึ่งพา orchestrator ตัวเดียวนี้ช่วยลดการพึ่งพา vendor เดียวได้จริงหรือไม่ในเมื่อผู้ใช้ยังต้องพึ่งพา Sakana เป็น single point of dependency ใหม่แทน บางคนมองว่า Fugu Ultra มีความซับซ้อนและอาจช้ากว่า Fusion ของ OpenRouter",
+        "body_text": "",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Fugu สะท้อนเทรนด์ multi-model orchestration ที่กำลังเติบโต ซึ่งช่วยให้นักพัฒนาลดความเสี่ยงจากการพึ่งพาโมเดลเดียว แต่ก็สร้างจุดพึ่งพาใหม่กับผู้ให้บริการ orchestration",
+        "actions_developer": [
+          "ทดลองเปรียบเทียบ Fugu กับโซลูชันคล้ายกันอย่าง OpenRouter Fusion เพื่อดูว่า routing logic แบบใดเหมาะกับ use case ของตน",
+          "พิจารณา latency และต้นทุน token ที่เพิ่มขึ้นจากการเรียกหลายโมเดลต่อ request ก่อนนำ multi-agent orchestration ไปใช้ใน production"
+        ],
+        "actions_business": [
+          "ประเมินความเสี่ยงของการพึ่งพา orchestration layer จากผู้ให้บริการรายเดียว แทนที่จะพึ่งพา LLM vendor รายเดียวโดยตรง",
+          "ติดตามพัฒนาการของผลิตภัณฑ์ multi-model routing เพื่อเปรียบเทียบความคุ้มค่าก่อนเลือกใช้ในระบบที่ต้องพึ่งพาความน่าเชื่อถือสูง"
+        ],
+        "urgency": "low",
+        "related_domains": [
+          "Sakana AI",
+          "Multi-Agent",
+          "Model Routing",
+          "API",
+          "Orchestration"
+        ],
+        "breakthrough_potential": false
+      },
+      "media_links": {
+        "youtube_channel": null,
+        "youtube_video": null
+      },
+      "paths": {
+        "relative": "International/HackerNews/2026-07-01/sakana-fugu-2026-07-01",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-01/batch_2.json"
+      }
+    },
+    {
+      "article_id": "d847e44ff01a",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "TechCrunch",
+        "registry_key": "International/TechCrunch",
+        "domain": "AI-robotics",
+        "main_url": "https://techcrunch.com"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-01T09:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-29T14:00:00+00:00",
+        "scraped_at": "2026-07-01T09:00:00+07:00",
+        "run_date": "2026-07-01",
+        "target_date": "2026-07-01",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-ROBOTICS",
+        "category_label": "หุ่นยนต์ AI",
+        "news_type": "ข่าว",
+        "tags": [
+          "Robotics",
+          "Tesla",
+          "Proception",
+          "robot hand",
+          "trade secret"
+        ],
+        "language": "th"
+      },
+      "content": {
+        "title": "บริษัทหุ่นยนต์มือ Proception ยอมความคดี Tesla ล้วงความลับทางธุรกิจ พร้อมระดมทุน $11M",
+        "title_th": "บริษัทหุ่นยนต์มือ Proception ยอมความคดี Tesla ล้วงความลับทางธุรกิจ พร้อมระดมทุน $11M",
+        "slug": "proception-tesla-trade-secret-settlement-11m",
+        "summary": "Proception บริษัทพัฒนามือหุ่นยนต์ยอมความ Tesla ในคดีขโมยความลับทางการค้า และระดมทุน Series A ได้ $11M",
+        "summary_1": "Proception สตาร์ทอัพด้านมือหุ่นยนต์ (dexterous robot hand) ประกาศยอมความในคดีที่ Tesla ฟ้องร้องว่าขโมยความลับทางการค้าเกี่ยวกับระบบมือหุ่นยนต์ขั้นสูง พร้อมกันนั้นยังประกาศระดมทุน Series A ได้ 11 ล้านดอลลาร์ Proception พัฒนาระบบ tactile sensing และ dexterous manipulation สำหรับหุ่นยนต์ humanoid โดยอ้างว่าเทคโนโลยีพัฒนาอิสระจาก Tesla คดีนี้สะท้อนการแข่งขันที่รุนแรงในตลาดหุ่นยนต์ฮิวแมนอยด์ซึ่งบริษัทใหญ่อย่าง Tesla (Optimus) กำลังลงทุนอย่างหนัก การที่ Proception ยังระดมทุนได้ $11M หลังยอมความแสดงให้เห็นว่านักลงทุนยังคงเชื่อมั่นในเทคโนโลยีมือหุ่นยนต์ที่จับวัตถุได้อย่างละเอียด",
+        "body_text": "Proception ยอมความ Tesla คดี trade secret ระดมทุน $11M ยืนยัน dexterous robot hand เป็นสนามแข่งขันสำคัญ",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "การแข่งขันด้าน robot hand และ tactile sensing รุนแรงขึ้น บริษัทใหญ่อย่าง Tesla ปกป้อง IP อย่างแข็งขัน",
+        "actions_developer": [
+          "ติดตามพัฒนาการ tactile sensing API จาก Proception สำหรับ robot control applications",
+          "ศึกษา dexterous manipulation algorithms ที่กำลังเป็นที่ต้องการในอุตสาหกรรม humanoid robot"
+        ],
+        "actions_business": [
+          "ประเมิน IP risk ก่อนจ้างวิศวกรจาก Tesla หรือ Google Robotics เพื่อป้องกันคดี trade secret",
+          "ติดตามการลงทุนในสตาร์ทอัพ robot hand เพราะ dexterous manipulation เป็น bottleneck สำคัญของหุ่นยนต์ humanoid"
+        ],
+        "urgency": "medium",
+        "related_domains": [
+          "Robotics",
+          "Humanoid",
+          "AI Hardware",
+          "Legal"
+        ],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "International/TechCrunch/2026-06-29/proception-tesla-trade-secret-settlement-11m",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-01/batch_2.json"
+      }
+    },
+    {
+      "article_id": "85c3f90dcf40",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "TechCrunch",
+        "registry_key": "International/TechCrunch",
+        "domain": "AI-infrastructure",
+        "main_url": "https://techcrunch.com"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-01T09:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-29T13:00:00+00:00",
+        "scraped_at": "2026-07-01T09:00:00+07:00",
+        "run_date": "2026-07-01",
+        "target_date": "2026-07-01",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-INFRASTRUCTURE",
+        "category_label": "โครงสร้างพื้นฐาน AI",
+        "news_type": "ข่าว",
+        "tags": [
+          "Omen AI",
+          "data center",
+          "liquid cooling",
+          "AI infrastructure",
+          "energy"
+        ],
+        "language": "th"
+      },
+      "content": {
+        "title": "Omen AI เดิมพันระบบ liquid cooling อัจฉริยะเพื่อประหยัดพลังงาน AI data center",
+        "title_th": "Omen AI เดิมพันระบบ liquid cooling อัจฉริยะเพื่อประหยัดพลังงาน AI data center",
+        "slug": "omen-ai-liquid-cooling-data-center",
+        "summary": "Omen AI พัฒนาระบบ AI-driven liquid cooling สำหรับ data center เพื่อลดการใช้พลังงานและน้ำในการระบายความร้อน",
+        "summary_1": "Omen AI สตาร์ทอัพด้าน AI infrastructure นำเสนอแนวทางใหม่ในการจัดการพลังงานศูนย์ข้อมูล AI โดยใช้ระบบ liquid cooling ที่ควบคุมด้วย AI เพื่อเพิ่มประสิทธิภาพการระบายความร้อนของเซิร์ฟเวอร์ GPU ซึ่งกินพลังงานสูงมาก แนวทางของ Omen AI ต่างจาก air cooling แบบดั้งเดิมตรงที่ใช้น้ำหมุนเวียนโดยตรงที่ชิป และใช้ ML เพื่อทำนายและควบคุมอุณหภูมิแบบ real-time ลดการใช้พลังงานได้ 30-40% ตามที่บริษัทอ้าง ท่ามกลางวิกฤต power และ water consumption ของ AI data center ทั่วโลก Omen AI กำลังพยายามเจาะตลาดที่กำลังเติบโตอย่างรวดเร็วนี้",
+        "body_text": "Omen AI ใช้ AI ควบคุม liquid cooling ลดพลังงาน data center 30-40% แก้ปัญหา power crisis ของ AI infrastructure",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "ปัญหาพลังงานและน้ำของ AI data center เปิดตลาดใหม่สำหรับ infrastructure optimization startups",
+        "actions_developer": [
+          "ศึกษา liquid cooling APIs สำหรับการออกแบบ server rack ที่รองรับ AI workloads หนัก",
+          "พิจารณา power efficiency metrics เมื่อเลือก cloud provider สำหรับ training AI models"
+        ],
+        "actions_business": [
+          "ประเมิน data center PUE และ water consumption ก่อนขยาย AI infrastructure",
+          "ติดตาม Omen AI และ competitors ในตลาด liquid cooling สำหรับโอกาสลดต้นทุน operation"
+        ],
+        "urgency": "medium",
+        "related_domains": [
+          "AI Infrastructure",
+          "Data Center",
+          "Energy",
+          "Hardware"
+        ],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "International/TechCrunch/2026-06-29/omen-ai-liquid-cooling-data-center",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-01/batch_2.json"
+      }
+    },
+    {
+      "article_id": "66a122702bc0",
+      "schema_version": "2.0",
+      "topic_group": "global",
+      "source_info": {
+        "category": "International",
+        "source_name": "TechCrunch",
+        "registry_key": "International/TechCrunch",
+        "domain": "AI-business",
+        "main_url": "https://techcrunch.com"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-01T09:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-28T16:00:00+00:00",
+        "scraped_at": "2026-07-01T09:00:00+07:00",
+        "run_date": "2026-07-01",
+        "target_date": "2026-07-01",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-BUSINESS",
+        "category_label": "ธุรกิจ AI",
+        "news_type": "ข่าว",
+        "tags": [
+          "Ford",
+          "AI automation",
+          "engineering",
+          "workforce",
+          "automotive"
+        ],
+        "language": "th"
+      },
+      "content": {
+        "title": "Ford ดึงวิศวกรอาวุโสกลับมาทำงาน หลัง AI ทำงานแทนได้ไม่ดีอย่างที่หวัง",
+        "title_th": "Ford ดึงวิศวกรอาวุโสกลับมาทำงาน หลัง AI ทำงานแทนได้ไม่ดีอย่างที่หวัง",
+        "slug": "ford-rehires-engineers-ai-automation-falls-short",
+        "summary": "Ford ดึงวิศวกรอาวุโสที่เกษียณกลับมาทำงาน เพราะ AI ยังทำงานด้านวิศวกรรมซับซ้อนแทนมนุษย์ได้ไม่สมบูรณ์",
+        "summary_1": "Ford Motor ถูกรายงานว่ากำลังดึงวิศวกรอาวุโส (gray-beard engineers) ที่เกษียณหรือลาออกไปกลับเข้ามาทำงานชั่วคราว หลังจากที่การใช้ AI automation ในสายการผลิตและวิศวกรรมไม่ได้ผลตามที่หวัง ปัญหาสำคัญคือ AI ยังขาด tacit knowledge และประสบการณ์เชิงปฏิบัติที่วิศวกรอาวุโสสะสมมาหลายสิบปี โดยเฉพาะในงานที่ต้องการการตัดสินใจในสถานการณ์ผิดปกติ เหตุการณ์นี้เป็นตัวอย่างสำคัญของ AI Adoption Backlash ที่กำลังเกิดขึ้นในหลายอุตสาหกรรม การที่ Ford ยอมรับว่า AI ยังไม่พอก็เพื่อรักษาคุณภาพ ซึ่งเป็นบทเรียนที่องค์กรทั่วโลกควรนำไปพิจารณา",
+        "body_text": "Ford ดึงวิศวกรอาวุโสกลับ เพราะ AI ยังขาด tacit knowledge และ troubleshooting expertise ที่วิศวกรมีประสบการณ์มี",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "AI ยังไม่สามารถทดแทน tacit knowledge ของผู้เชี่ยวชาญในงานวิศวกรรมซับซ้อน เป็นบทเรียนสำหรับ AI automation adoption",
+        "actions_developer": [
+          "ออกแบบ AI tools ให้ augment ผู้เชี่ยวชาญแทนที่จะ replace โดยเน้น knowledge capture",
+          "สร้างระบบ human-in-the-loop ที่ชัดเจนสำหรับ AI automation ในงานวิศวกรรมที่ซับซ้อน"
+        ],
+        "actions_business": [
+          "ทบทวน AI automation roadmap เพื่อระบุงานที่ยังต้องการ human expertise โดยเฉพาะงานที่ใช้ tacit knowledge",
+          "พิจารณาโปรแกรม knowledge transfer จากผู้เชี่ยวชาญอาวุโสก่อน retire เพื่อลด knowledge gap ที่ AI ยังปิดไม่ได้"
+        ],
+        "urgency": "high",
+        "related_domains": [
+          "AI Automation",
+          "Workforce",
+          "Manufacturing",
+          "AI Limitations"
+        ],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "International/TechCrunch/2026-06-28/ford-rehires-engineers-ai-automation-falls-short",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-01/batch_2.json"
+      }
+    },
+    {
+      "article_id": "c954eb691633",
+      "schema_version": "2.0",
+      "topic_group": "global",
+      "source_info": {
+        "category": "International",
+        "source_name": "TechCrunch",
+        "registry_key": "International/TechCrunch",
+        "domain": "AI-semiconductor",
+        "main_url": "https://techcrunch.com"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-01T09:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-28T12:00:00+00:00",
+        "scraped_at": "2026-07-01T09:00:00+07:00",
+        "run_date": "2026-07-01",
+        "target_date": "2026-07-01",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-SEMICONDUCTOR",
+        "category_label": "เซมิคอนดักเตอร์ AI",
+        "news_type": "ข่าว",
+        "tags": [
+          "Micron",
+          "HBM",
+          "memory",
+          "AI chips",
+          "Wall Street",
+          "Nvidia"
+        ],
+        "language": "th"
+      },
+      "content": {
+        "title": "Wall Street เชื่อ Micron อาจเป็น Nvidia รายต่อไป เพราะ HBM memory กลายเป็นสิ่งขาดแคลนใหม่ของ AI",
+        "title_th": "Wall Street เชื่อ Micron อาจเป็น Nvidia รายต่อไป เพราะ HBM memory กลายเป็นสิ่งขาดแคลนใหม่ของ AI",
+        "slug": "micron-next-nvidia-hbm-memory-ai",
+        "summary": "นักวิเคราะห์ Wall Street มองว่า Micron อาจโตแรงเหมือน Nvidia เพราะ HBM (High Bandwidth Memory) กลายเป็น bottleneck ใหม่ของ AI",
+        "summary_1": "นักวิเคราะห์การเงิน Wall Street หลายรายออกรายงานระบุว่า Micron Technology อาจกลายเป็น Nvidia รายต่อไปในแง่ของการเติบโตของมูลค่าหุ้น เนื่องจาก HBM (High Bandwidth Memory) ซึ่ง Micron ผลิตกำลังกลายเป็น bottleneck สำคัญในการสร้าง AI accelerators รุ่นใหม่ เมื่อ GPU compute ไม่ใช่ปัจจัยจำกัดอีกต่อไป memory bandwidth กลับกลายเป็นข้อจำกัดหลัก โดยเฉพาะสำหรับ LLM inference ที่ต้องการ memory I/O สูงมาก Micron เป็นหนึ่งในสามผู้ผลิต HBM รายใหญ่ (ร่วมกับ SK Hynix และ Samsung) แต่ถือว่าเป็น US company เพียงรายเดียว ซึ่งเป็นข้อได้เปรียบในยุค geopolitics AI",
+        "body_text": "Micron อาจโตเหมือน Nvidia เพราะ HBM memory เป็น bottleneck ใหม่ของ AI inference และ training",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "HBM memory กำลังกลายเป็น constraint สำคัญของ AI performance ส่งผลให้ผู้ผลิต memory อย่าง Micron มีอำนาจตลาดสูงขึ้น",
+        "actions_developer": [
+          "ออกแบบ model architecture ที่คำนึงถึง memory bandwidth constraint ไม่ใช่แค่ FLOPS",
+          "ติดตาม HBM availability เมื่อวางแผน AI infrastructure expansion เพราะอาจมี lead time ยาว"
+        ],
+        "actions_business": [
+          "ประเมิน supply chain risk ของ AI hardware โดยเพิ่ม HBM memory ใน risk matrix",
+          "ติดตาม Micron, SK Hynix, Samsung สำหรับข้อมูล HBM supply ที่อาจกระทบ AI project timeline"
+        ],
+        "urgency": "medium",
+        "related_domains": [
+          "Semiconductor",
+          "AI Hardware",
+          "HBM",
+          "Memory",
+          "Investment"
+        ],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "International/TechCrunch/2026-06-28/micron-next-nvidia-hbm-memory-ai",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-01/batch_2.json"
+      }
+    }
+  ],
+  "articles_added_this_run": 4
+}

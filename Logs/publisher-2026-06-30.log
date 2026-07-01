@@ -1,0 +1,46 @@
+{
+  "run_date": "2026-06-30",
+  "target_date": "2026-06-30",
+  "pipeline_version": "2.0",
+  "document_path": "Document/2026-06-30_News/",
+  "files_created": [
+    "2026-06-30_news.json",
+    "2026-06-30_news.html",
+    "2026-06-30_news.pdf",
+    "_index.json"
+  ],
+  "files_removed_from_v1": [
+    "_by_source.json (merged into main JSON)",
+    "_tech_summary.json (merged into main JSON)",
+    "fonts/ (using Google Fonts)"
+  ],
+  "manifest_updated": true,
+  "github_pages_json_copied": true,
+  "articles_scanned": 16,
+  "articles_skipped_stubs": 4,
+  "articles_included": 12,
+  "stats": {
+    "total_articles": 12,
+    "topic_breakdown": {
+      "ai_trends": 7,
+      "tech_trends": 1,
+      "thailand": 3,
+      "global": 1
+    },
+    "by_source_category": {
+      "Research": 5,
+      "Thai": 7
+    },
+    "urgency_breakdown": {
+      "high": 6,
+      "medium": 5,
+      "low": 1
+    },
+    "breakthrough_count": 7
+  },
+  "coverage": "100% — all pass articles included with full insights",
+  "pdf_method": "weasyprint",
+  "pdf_size_bytes": 78170,
+  "notes": "4 TechCrunch stub articles skipped (no content — batch_file stubs only). 5 ArXiv Research articles included despite no fetch.status field (all have full content).",
+  "next_step": "run ai-news-github-deploy"
+}

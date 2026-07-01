@@ -1,0 +1,72 @@
+{
+  "article_id": "b1-bn-whitehouse-gpt56-005",
+  "schema_version": "2.0",
+  "topic_group": "global",
+  "source_info": {
+    "category": "Thai",
+    "source_name": "Blognone",
+    "registry_key": "Thai/Blognone",
+    "domain": "AI-policy",
+    "main_url": "https://www.blognone.com"
+  },
+  "source": {
+    "url": "https://www.blognone.com/node/150992",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-28T12:00:00+07:00",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-26T18:17:00+07:00",
+    "scraped_at": "2026-06-28T12:00:00+07:00",
+    "run_date": "2026-06-28",
+    "target_date": "2026-06-28",
+    "within_24h": false,
+    "status": "scraped",
+    "batch": "1",
+    "category": "AI-POLICY",
+    "category_label": "นโยบาย AI",
+    "news_type": "ข่าว",
+    "tags": ["OpenAI", "Whitehouse", "AI Policy", "GPT-5.6", "USA"],
+    "language": "th"
+  },
+  "content": {
+    "title": "เผยทำเนียบขาวสั่ง OpenAI ให้จำกัดการเผยแพร่โมเดลรุ่นใหม่ GPT-5.6 เฉพาะหน่วยงานที่รัฐบาลอนุญาตก่อนเท่านั้น",
+    "title_th": "ทำเนียบขาวสั่ง OpenAI ให้จำกัดการเผยแพร่โมเดลรุ่นใหม่ GPT-5.6 เฉพาะหน่วยงานที่รัฐบาลอนุญาต",
+    "slug": "whitehouse-openai-gpt56-restrict",
+    "summary": "CNN รายงานว่าทำเนียบขาวส่งคำร้องไปยัง OpenAI ให้จำกัดการเผยแพร่ GPT-5.6 เฉพาะกลุ่มที่รัฐบาลอนุมัติก่อน เนื่องจากกังวลเรื่องความสามารถขั้นสูงของโมเดล",
+    "summary_1": "CNN อ้างแหล่งข่าวที่เกี่ยวข้องระบุว่าทำเนียบขาวได้ติดต่อไปยัง OpenAI แจ้งขอให้จำกัดการเผยแพร่โมเดลปัญญาประดิษฐ์เวอร์ชันใหม่ GPT-5.6 เฉพาะกลุ่มที่รัฐบาลอนุมัติเท่านั้นก่อน เนื่องจากกังวลเรื่องความสามารถที่ก้าวหน้าขึ้นมากของโมเดลใหม่นี้ คำร้องขอนี้คล้ายกับที่รัฐบาลสหรัฐได้แจ้งให้ Anthropic ระงับการเผยแพร่โมเดลความสามารถสูงตัวใหม่ Mythos และ Fable ก่อนหน้า ด้วยเหตุผลเรื่องความสามารถในการจัดการความปลอดภัยทางไซเบอร์ที่อาจมีความเสี่ยงหากถูกนำไปใช้ในทางที่ผิด สถานการณ์นี้สะท้อนให้เห็นว่ารัฐบาลสหรัฐกำลังใช้นโยบายควบคุม AI เชิงรุกมากขึ้น เพื่อจัดการกับความเสี่ยงด้านความมั่นคงที่มาพร้อมกับโมเดล AI ขั้นสูง",
+    "body_text": "ทำเนียบขาวส่งคำร้องไปยัง OpenAI ขอให้จำกัดการเผยแพร่ GPT-5.6 เฉพาะกลุ่มที่รัฐบาลอนุมัติ คล้ายกับที่ขอให้ Anthropic ระงับ Mythos และ Fable ก่อนหน้า สะท้อนนโยบายควบคุม AI ขั้นสูงของสหรัฐที่เข้มข้นขึ้น",
+    "language": "th",
+    "original_language": "th"
+  },
+  "tech_insights": {
+    "impact_summary": "รัฐบาลสหรัฐกำลังสร้างบรรทัดฐานการควบคุม AI ขั้นสูงที่อาจกระทบห่วงโซ่อุปทานและการเข้าถึง AI ทั่วโลก รวมถึงประเทศไทยที่พึ่งพา AI จากบริษัทสหรัฐ",
+    "actions_developer": [
+      "เตรียมแผนสำรองหากการเข้าถึง API ของโมเดล AI ขั้นสูงถูกจำกัด",
+      "ติดตามนโยบาย AI ของสหรัฐเพื่อประเมินผลกระทบต่อโปรเจกต์"
+    ],
+    "actions_business": [
+      "วิเคราะห์ความเสี่ยงจากการพึ่งพาโมเดล AI ขั้นสูงของสหรัฐในการดำเนินธุรกิจ",
+      "พิจารณาทางเลือกโมเดล AI จากผู้ให้บริการหลายรายเพื่อลดความเสี่ยง"
+    ],
+    "urgency": "high",
+    "related_domains": ["AI Safety", "AI Policy", "GPT", "LLM"],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "Thai/Blognone/2026-06-28/whitehouse-openai-gpt56-restrict",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-06-28/batch_1.json"
+  }
+}

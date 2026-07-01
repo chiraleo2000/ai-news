@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-06-29",
+  "target_date": "2026-06-29",
+  "pipeline": "ai-news-master-v2.0",
+  "strategy": "source-first + batch-oriented",
+  "output_mode": "batch",
+  "batch_files": [
+    "News/Batches/2026-06-29/batch_1.json",
+    "News/Batches/2026-06-29/batch_2.json",
+    "News/Batches/2026-06-29/batch_3.json"
+  ],
+  "batches": {
+    "1": {
+      "attempted": 10,
+      "articles_created": 10,
+      "articles_within_24h": 2,
+      "coverage_score": "fair"
+    },
+    "2": {
+      "attempted": 25,
+      "articles_created": 13,
+      "articles_within_24h": 8,
+      "coverage_score": "good"
+    },
+    "3": {
+      "attempted": 14,
+      "articles_created": 10,
+      "articles_within_24h": 6,
+      "coverage_score": "fair"
+    }
+  },
+  "articles_total": 33,
+  "topic_breakdown": {
+    "ai_trends": 18,
+    "tech_trends": 5,
+    "thailand": 3,
+    "global": 7
+  },
+  "articles_skipped_duplicate_total": 0,
+  "skipped_older_than_24h": 17,
+  "note_on_24h_window": "Day ran on Monday 2026-06-29. Several sources had weekend-dated articles (Jun 23-27) included as top-position or high-relevance content. Strict 24h articles: Thai=2, Intl=7, Research=6.",
+  "fetch_stats": {
+    "batch1_sources_with_news": 3,
+    "batch2_sources_with_news": 8,
+    "batch3_sources_with_news": 4,
+    "total_articles": 33
+  },
+  "files_created_total": 3,
+  "individual_articles_created": 33,
+  "next_step": "run ai-news-publisher → ai-news-github-deploy"
+}

@@ -1,0 +1,348 @@
+[
+  {
+    "id": "batch2_2026-06-27_001",
+    "schema_version": "2.0",
+    "scraped_at": "2026-06-27T07:32:00+07:00",
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+      "type": "international",
+      "language": "en"
+    },
+    "title": "It's not about Anthropic vs. OpenAI anymore",
+    "published_at": "2026-06-26T16:24:47Z",
+    "author": "Russell Brandom",
+    "topic_group": "global",
+    "tags": ["OpenAI", "Anthropic", "government", "AI policy", "GPT-5.6", "export control", "US regulation"],
+    "summary_1": "รัฐบาลสหรัฐฯ กำลังขยายอำนาจควบคุมการเผยแพร่โมเดล AI ระดับ frontier โดยไม่จำกัดเพียง Anthropic อีกต่อไป ล่าสุด The Information รายงานว่า GPT-5.6 ของ OpenAI จะถูกปล่อยให้ใช้งานเฉพาะในรูปแบบ limited preview โดยรัฐบาลต้องอนุมัติทีละลูกค้า ซึ่งเป็นรูปแบบเดียวกันกับที่ Anthropic กำลังเผชิญกับโมเดล Fable 5 และ Mythos 5 บทวิเคราะห์ใน TechCrunch ชี้ว่าทั้ง OpenAI และ Anthropic ต่างตกอยู่ในสถานการณ์เดียวกัน การแข่งขันระหว่างสองบริษัทกลายเป็นเรื่องรอง เพราะกระบวนการอนุมัติที่ขาดความชัดเจนจะส่งผลกระทบต่อทั้งอุตสาหกรรม AI รวมถึงการลงทุนในดาตาเซนเตอร์ที่อาจชะลอตัว นักวิเคราะห์เรียกร้องให้ทุกบริษัทร่วมมือกันสร้างกระบวนการทดสอบที่มีความหมายและโปร่งใส แทนที่จะต่อสู้เพื่อแย่งชิงความได้เปรียบทางการเมือง เพราะหากกระบวนการนี้ล้มเหลว ทั้งอุตสาหกรรม AI อาจได้รับความเสียหายอย่างรุนแรง",
+    "tech_insights": {
+      "impact_summary": "US government's model approval process now extends to GPT-5.6, creating systemic risk for all frontier AI labs. 'Customer-by-customer' approval could delay API access for weeks or months, threatening commercial AI deployment timelines across the industry.",
+      "actions_developer": [
+        "Monitor GPT-5.6 release timeline closely — government review could delay API access beyond announced dates; plan for delayed migration windows",
+        "Diversify model dependencies across Anthropic, OpenAI, and open-weight alternatives to hedge against regulatory shutdowns"
+      ],
+      "actions_business": [
+        "Review AI vendor contracts for force majeure and regulatory compliance clauses that could affect service availability and SLAs",
+        "Engage with industry associations advocating for transparent, workable AI model review processes to protect operational continuity"
+      ],
+      "urgency": "high",
+      "related_domains": ["AI policy", "government regulation", "enterprise AI", "risk management"],
+      "breakthrough_potential": false
+    }
+  },
+  {
+    "id": "batch2_2026-06-27_002",
+    "schema_version": "2.0",
+    "scraped_at": "2026-06-27T07:32:00+07:00",
+    "source": {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html",
+      "type": "international",
+      "language": "en",
+      "aggregated_via": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026"
+    },
+    "title": "Anthropic Accuses Alibaba of Largest Known Model Distillation Attack: 25,000 Accounts, 28.8 Million Exchanges",
+    "published_at": "2026-06-26T04:49:09Z",
+    "author": "Anthropic / CNBC",
+    "topic_group": "global",
+    "tags": ["Anthropic", "Alibaba", "Qwen", "distillation attack", "AI security", "China", "Claude Mythos", "US Senate"],
+    "summary_1": "Anthropic ส่งจดหมายถึงคณะกรรมาธิการธนาคารวุฒิสภาสหรัฐฯ กล่าวหาว่าบัญชีที่เชื่อมโยงกับ Alibaba และ Qwen AI Lab ดำเนินการ distillation attack ครั้งใหญ่ที่สุดที่เคยพบมาต่อระบบ Claude โดยใช้บัญชีปลอมกว่า 25,000 บัญชี สร้าง exchanges มากกว่า 28.8 ล้านครั้งระหว่างวันที่ 22 เมษายนถึง 5 มิถุนายน 2026 มุ่งเป้าที่ความสามารถ agentic reasoning และ software engineering ของ Claude Mythos Preview โดยเฉพาะ Anthropic ระบุว่ารัฐบาลจีนมีส่วนร่วม และเตือนว่าการโจมตีเหล่านี้เปลี่ยนการลงทุน R&D หลายแสนล้านดอลลาร์ของอเมริกาให้เป็นเงินอุดหนุนคู่แข่งทางภูมิรัฐศาสตร์ การโจมตีครั้งนี้มีขนาดใหญ่เกือบสองเท่าของการโจมตีโดย DeepSeek ที่ Anthropic เปิดเผยเมื่อกุมภาพันธ์ 2026 Alibaba ยังไม่ออกมาโต้แย้งข้อกล่าวหาใดๆ",
+    "tech_insights": {
+      "impact_summary": "The largest known AI model distillation attack to date targeted Claude Mythos Preview specifically for its agentic and coding capabilities. Distilled models approximate frontier performance without safety controls, creating IP and security risks.",
+      "actions_developer": [
+        "Audit API usage patterns for abnormally high volumes from single accounts or coordinated account clusters — a signal of distillation campaigns",
+        "Avoid publishing benchmark evaluations that could help attackers calibrate which model capabilities to target in distillation campaigns"
+      ],
+      "actions_business": [
+        "Factor geopolitical IP risk into AI vendor selection — choose providers with robust anti-distillation monitoring and abuse detection infrastructure",
+        "Engage legal teams to understand liability implications if distilled models trained on proprietary AI outputs enter your supply chain"
+      ],
+      "urgency": "high",
+      "related_domains": ["AI security", "IP protection", "US-China tech competition", "enterprise risk"],
+      "breakthrough_potential": false
+    }
+  },
+  {
+    "id": "batch2_2026-06-27_003",
+    "schema_version": "2.0",
+    "scraped_at": "2026-06-27T07:32:00+07:00",
+    "source": {
+      "name": "Build Fast with AI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+      "type": "aggregator",
+      "language": "en"
+    },
+    "title": "FrontierCode Benchmark Launches: Fable 5 Leads Production-Ready Coding Evaluation at 46.3%, Beating GPT-5.5 by 21 Points",
+    "published_at": "2026-06-26T04:49:09Z",
+    "author": "Cognition / Build Fast with AI",
+    "topic_group": "ai-trends",
+    "tags": ["Fable 5", "GPT-5.5", "Claude Opus", "benchmark", "coding", "FrontierCode", "Cognition", "AI coding"],
+    "summary_1": "Cognition เปิดตัว FrontierCode benchmark ใหม่สำหรับประเมินคุณภาพ pull request ของ AI coding agent ในระดับ production จริง โดยเน้น 3 เกณฑ์หลัก ได้แก่ การควบคุมขอบเขตของ PR (scope control) ความปลอดภัยจาก regression และคุณภาพของ test case ซึ่งทั้งหมดสะท้อนสิ่งที่วิศวกรอาวุโสใช้ตัดสินใน code review จริง ผลการประเมินพบว่า Claude Fable 5 ได้คะแนนสูงสุดที่ 46.3% ตามด้วย Claude Opus 4.8 ที่ 34.3% และ GPT-5.5 ที่ 25.5% ส่วนต่างถึง 21 คะแนนระหว่าง Fable 5 กับ GPT-5.5 ถือเป็นช่องว่างที่กว้างที่สุดใน production coding benchmark ที่เปิดเผยสู่สาธารณะ FrontierCode ถูกออกแบบมาเพื่อแก้ข้อจำกัดของ SWE-bench ที่วัดแค่การแก้ bug แต่ไม่สะท้อนความพร้อมใช้งานจริงในองค์กร",
+    "tech_insights": {
+      "impact_summary": "FrontierCode provides the most operationally relevant AI coding benchmark yet, measuring production-quality PR generation rather than just bug-fixing. Fable 5's 21-point lead over GPT-5.5 is significant for engineering teams standardizing on an AI coding tool.",
+      "actions_developer": [
+        "Use FrontierCode scores (not just SWE-bench) when evaluating AI coding tools — it measures scope control, regression safety, and test quality that affect real production deployments",
+        "Note that Fable 5's effective capability may be constrained by tighter safety classifiers post-export control suspension"
+      ],
+      "actions_business": [
+        "Evaluate AI coding tool ROI using production-quality metrics from FrontierCode rather than headline pass rates — this better reflects actual engineering productivity gains",
+        "Consider Anthropic Claude Code for enterprise coding deployments given Fable 5's benchmark lead, while monitoring Fable 5 availability status"
+      ],
+      "urgency": "medium",
+      "related_domains": ["AI coding", "developer tools", "software engineering", "benchmarks"],
+      "breakthrough_potential": false
+    }
+  },
+  {
+    "id": "batch2_2026-06-27_004",
+    "schema_version": "2.0",
+    "scraped_at": "2026-06-27T07:32:00+07:00",
+    "source": {
+      "name": "Bloomberg / TechCrunch",
+      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+      "type": "international",
+      "language": "en",
+      "aggregated_via": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026"
+    },
+    "title": "Four Google DeepMind Senior Researchers Leave in Six Days for OpenAI and Anthropic",
+    "published_at": "2026-06-26T04:49:09Z",
+    "author": "Bloomberg / Build Fast with AI",
+    "topic_group": "ai-trends",
+    "tags": ["Google DeepMind", "Anthropic", "OpenAI", "talent", "Noam Shazeer", "John Jumper", "AlphaFold", "Gemini"],
+    "summary_1": "ภายในระยะเวลาเพียง 6 วัน นักวิจัยอาวุโสระดับสูงจาก Google DeepMind ประกาศลาออกถึง 4 คน ได้แก่ Noam Shazeer ผู้ร่วมพัฒนา Transformer architecture และ co-lead ของ Gemini ย้ายไป OpenAI, John Jumper นักวิทยาศาสตร์รางวัล Nobel สาขาเคมีผู้สร้าง AlphaFold ย้ายไป Anthropic รวมถึง Jonas Adler หัวหน้า AI coding ของ Google และ Alexander Pritzel ผู้เชี่ยวชาญ pretraining ที่มีส่วนร่วมใน AlphaFold ทั้งสองย้ายไป Anthropic Bloomberg รายงานว่าสาเหตุหลักคือการตัดลด GPU สำหรับโปรเจกต์วิจัยสำคัญ ซึ่งสะท้อนปัญหาเชิงโครงสร้างที่นักวิจัยไม่สามารถ run experiments ได้อย่างเพียงพอ การสูญเสียครั้งนี้เกิดขึ้นพร้อมกับการล่าช้าของ Gemini 3.5 Pro และอาจส่งผลกระทบต่อการพัฒนา Google Gemini ในระยะถัดไปอย่างมีนัยสำคัญ",
+    "tech_insights": {
+      "impact_summary": "Google DeepMind lost 4 top researchers in 6 days to OpenAI and Anthropic. The primary driver is compute allocation politics — a structural issue that risks compounding into ongoing talent exodus at Google.",
+      "actions_developer": [
+        "Reassess Gemini API roadmap commitments — leadership instability and Gemini 3.5 Pro delay signal possible development slowdowns at Google over the next 2 quarters",
+        "Track Jonas Adler's work at Anthropic as it may directly improve Claude Code capabilities in the near term"
+      ],
+      "actions_business": [
+        "Factor talent concentration risk into AI vendor evaluation — Anthropic is systematically acquiring top-tier research talent which is likely to accelerate capability gaps",
+        "Consider that Anthropic's talent acquisitions signal a strategic push beyond coding into scientific AI applications"
+      ],
+      "urgency": "medium",
+      "related_domains": ["AI talent", "Google DeepMind", "Anthropic", "OpenAI", "competitive intelligence"],
+      "breakthrough_potential": false
+    }
+  },
+  {
+    "id": "batch2_2026-06-27_005",
+    "schema_version": "2.0",
+    "scraped_at": "2026-06-27T07:32:00+07:00",
+    "source": {
+      "name": "Build Fast with AI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+      "type": "aggregator",
+      "language": "en"
+    },
+    "title": "DeepSeek V4-Pro Price Cut Made Permanent at $0.44/M Input Tokens — 5x Cheaper than GPT-5.5",
+    "published_at": "2026-06-26T04:49:09Z",
+    "author": "Build Fast with AI",
+    "topic_group": "ai-trends",
+    "tags": ["DeepSeek", "pricing", "inference cost", "GPT-5.5", "open-weight", "China AI", "LLM cost"],
+    "summary_1": "DeepSeek ประกาศทำให้การลดราคา V4-Pro จากเดือนพฤษภาคม 2026 เป็นราคาถาวร โดยอยู่ที่ 0.44 ดอลลาร์ต่อล้าน input token และ 0.87 ดอลลาร์ต่อล้าน output token ส่วน V4-Flash ลดเหลือ 0.14 และ 0.28 ดอลลาร์ตามลำดับ ราคานี้ถูกกว่า GPT-5.5 (2.50/15 ดอลลาร์) กว่า 5 เท่าใน input และ 17 เท่าใน output และถูกกว่า Gemini 3.5 Flash กว่า 3 เท่า เหตุผลทางเทคนิคที่ทำได้คือสถาปัตยกรรม sparse-attention แบบ hybrid ที่ใช้เพียง 27% ของ compute ต่อ token และ 10% ของ memory เมื่อเทียบรุ่นก่อน การประกาศครั้งนี้ไม่ใช่การโปรโมชัน แต่เป็นสัญญาณว่า DeepSeek กำลังสร้าง price floor ถาวรสำหรับ Chinese open-weight model tier ซึ่งสร้างแรงกดดันราคาอย่างรุนแรงต่อผู้ให้บริการ frontier model ฝั่งตะวันตกในตลาด high-volume inference",
+    "tech_insights": {
+      "impact_summary": "DeepSeek's permanent price floor at $0.44/M input tokens creates a structural cost alternative for budget-sensitive AI applications. The 5x-17x price gap vs. Western frontier models is now large enough to drive meaningful enterprise workload migration.",
+      "actions_developer": [
+        "Benchmark DeepSeek V4-Pro on your specific workloads — for high-volume, cost-sensitive pipelines the 5x+ price gap can justify migration even with some capability tradeoff",
+        "Use Z.ai API or direct DeepSeek API access for batch processing, classification, and summarization tasks where frontier quality isn't required"
+      ],
+      "actions_business": [
+        "Model inference cost scenarios with V4-Pro for non-critical AI features — potential 70-80% cost reduction could significantly improve AI product unit economics",
+        "Assess geopolitical and compliance risk of DeepSeek API dependency before migration, particularly for regulated industries"
+      ],
+      "urgency": "medium",
+      "related_domains": ["AI pricing", "inference cost", "Chinese AI", "enterprise AI budget"],
+      "breakthrough_potential": false
+    }
+  },
+  {
+    "id": "batch2_2026-06-27_006",
+    "schema_version": "2.0",
+    "scraped_at": "2026-06-27T07:32:00+07:00",
+    "source": {
+      "name": "Build Fast with AI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+      "type": "aggregator",
+      "language": "en"
+    },
+    "title": "GPT-5.6 'Kindle-Alpha' RC Nears Launch: 1.5M Context Window, 83% Polymarket Odds, Government Approval Customer-by-Customer",
+    "published_at": "2026-06-26T04:49:09Z",
+    "author": "Build Fast with AI",
+    "topic_group": "ai-trends",
+    "tags": ["GPT-5.6", "OpenAI", "Codex", "release", "context window", "Polymarket", "government", "AI regulation"],
+    "summary_1": "GPT-5.6 ของ OpenAI มีชื่อรหัสภายในว่า 'kindle-alpha' และกลายเป็น AI release ที่ถูกติดตามมากที่สุดใน prediction market ขณะนี้ โดย Polymarket เปิดราคาที่ 83% ว่าจะเปิดตัวก่อน 28 มิถุนายน 2026 คุณสมบัติที่คาดว่าจะมีได้แก่ context window 1.5 ล้าน token (จาก 1 ล้านใน GPT-5.5) คุณภาพการสร้าง UI และ front-end code ที่ดีขึ้นอย่างมีนัยสำคัญ Codex response ที่เร็วขึ้น และการแก้ไข reward audit pipeline เพื่อป้องกันปัญหา 'Goblin Incident' ที่เกิดใน GPT-5.5 อย่างไรก็ตาม รัฐบาลสหรัฐฯ กำหนดให้ OpenAI ต้องอนุมัติผู้ใช้ทีละรายก่อนปล่อยใช้งานทั่วไป ซึ่งอาจทำให้การเข้าถึง API ล่าช้าออกไปอีกหลายสัปดาห์ นักพัฒนาควรระวังว่า endpoint gpt-5.5-latest จะอัปเดตเป็น GPT-5.6 โดยอัตโนมัติหากไม่ pin version ไว้",
+    "tech_insights": {
+      "impact_summary": "GPT-5.6 is imminent but may face delayed API access due to government review. The automatic endpoint update (gpt-5.5-latest → GPT-5.6) is a critical risk for production systems not pinned to explicit versions.",
+      "actions_developer": [
+        "CRITICAL: Pin production code to explicit versioned endpoints (not gpt-5.5-latest) NOW — OpenAI automatically promotes new models to latest endpoints which will change behavior without notice",
+        "Plan for GPT-5.6 API access to be delayed by government review process — maintain GPT-5.5 fallback in any code depending on GPT-5.6 capabilities"
+      ],
+      "actions_business": [
+        "Brief product teams that GPT-5.6's 1.5M context window and improved UI generation may require product feature updates — start planning now",
+        "Monitor Polymarket and OpenAI Codex backend logs for launch confirmation signals to minimize time-to-deployment when API access becomes available"
+      ],
+      "urgency": "high",
+      "related_domains": ["OpenAI", "GPT-5.6", "Codex", "context window", "AI regulation"],
+      "breakthrough_potential": false
+    }
+  },
+  {
+    "id": "batch2_2026-06-27_007",
+    "schema_version": "2.0",
+    "scraped_at": "2026-06-27T10:30:00+07:00",
+    "source": {
+      "name": "TechCrunch / Build Fast with AI",
+      "url": "https://techcrunch.com/2026/06/24/openai-broadcom-jalapeno-inference-chip/",
+      "type": "international",
+      "language": "en",
+      "aggregated_via": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026"
+    },
+    "title": "OpenAI and Broadcom Unveil 'Jalapeño': Custom AI Inference Chip Cuts Inference Cost 50% vs H200",
+    "published_at": "2026-06-24T00:00:00Z",
+    "author": "TechCrunch / Build Fast with AI",
+    "topic_group": "ai-trends",
+    "tags": ["OpenAI", "Broadcom", "Jalapeño", "custom chip", "AI inference", "NVIDIA", "hardware", "vertical integration", "HBM4"],
+    "summary_1": "OpenAI และ Broadcom เปิดเผยรายละเอียดของ Jalapeño ชิปประมวลผล AI แบบกำหนดเองที่ออกแบบโดย OpenAI และผลิตโดย Broadcom โดยใช้สถาปัตยกรรม HBM4 memory ช่วยลดต้นทุน inference ลงได้ถึง 50% เมื่อเทียบกับการใช้ NVIDIA H200 GPU แบบเดิม ชิปนี้ออกแบบมาเฉพาะสำหรับ inference workload ของ GPT-5.x series โดยเน้น low-latency response สำหรับ API calls จำนวนมหาศาล แตกต่างจาก training chips ที่ต้องการ compute หนักในช่วงเวลาสั้น Jalapeño เป็นส่วนหนึ่งของกลยุทธ์ vertical integration ของ OpenAI เพื่อลดการพึ่งพา NVIDIA คล้ายกับที่ Google สร้าง TPU และ Amazon สร้าง Trainium TechCrunch รายงานว่าจะเริ่ม deployment จริงใน datacenters ของ Microsoft Azure ในไตรมาส 3 ปี 2026 ความสำเร็จของ Jalapeño อาจกดดัน NVIDIA ในตลาด inference hardware ที่เป็นส่วนที่เติบโตเร็วที่สุดของ AI infrastructure",
+    "tech_insights": {
+      "impact_summary": "OpenAI's Jalapeño chip signals a structural shift toward vertical integration in AI inference hardware. A 50% cost reduction via custom silicon creates pressure on NVIDIA's inference market dominance and could reduce GPT API pricing over 12-18 months.",
+      "actions_developer": [
+        "Monitor OpenAI API pricing trends — Jalapeño deployment in Q3 may translate to inference cost reductions for GPT-5.x API users, enabling previously cost-prohibitive use cases",
+        "Evaluate whether AI workloads are inference-heavy or training-heavy, as the gap between custom inference hardware and GPU costs will widen dramatically over 2 years"
+      ],
+      "actions_business": [
+        "Track OpenAI's cost structure improvements as they may signal aggressive API price cuts to grow market share, affecting AI product unit economics",
+        "Note that NVIDIA's inference market position faces structural pressure from hyperscaler custom silicon — factor into long-term AI infrastructure planning"
+      ],
+      "urgency": "medium",
+      "related_domains": ["AI hardware", "custom silicon", "inference optimization", "OpenAI", "NVIDIA", "vertical integration"],
+      "breakthrough_potential": true
+    }
+  },
+  {
+    "id": "batch2_2026-06-27_008",
+    "schema_version": "2.0",
+    "scraped_at": "2026-06-27T10:30:00+07:00",
+    "source": {
+      "name": "Apple ML Research / Build Fast with AI",
+      "url": "https://machinelearning.apple.com/research/apple-foundation-models-3",
+      "type": "international",
+      "language": "en",
+      "aggregated_via": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026"
+    },
+    "title": "Apple Foundation Models 3 (AFM 3): Five On-Device Models Using Gemini Distillation, Announced at WWDC June 8",
+    "published_at": "2026-06-08T00:00:00Z",
+    "author": "Apple ML Research / Build Fast with AI",
+    "topic_group": "ai-trends",
+    "tags": ["Apple", "AFM 3", "Foundation Models", "on-device AI", "Gemini", "distillation", "WWDC", "iOS", "privacy"],
+    "summary_1": "Apple เปิดตัว Apple Foundation Models 3 (AFM 3) ชุดโมเดล AI 5 ตัวที่ออกแบบมาสำหรับการทำงาน on-device บน iPhone, iPad และ Mac โดยใช้เทคนิค knowledge distillation จากโมเดล Gemini ของ Google ซึ่งเป็นพันธมิตรทางกลยุทธ์กับ Apple ตั้งแต่ปีที่แล้ว AFM 3 ประกอบด้วยโมเดลที่ครอบคลุม use cases หลากหลายตั้งแต่ text generation, image understanding, speech recognition ไปจนถึง on-device reasoning โดยทั้งหมดทำงานโดยไม่ต้องส่งข้อมูลออกไปยัง cloud เพื่อปกป้องความเป็นส่วนตัวของผู้ใช้ Apple อธิบายว่า distillation จาก Gemini ช่วยให้ AFM 3 มีคุณภาพใกล้เคียงโมเดล cloud ขนาดใหญ่ทั้งที่มีขนาดเพียงเศษส่วนเล็กน้อย การเปิดตัวนี้สะท้อนการแข่งขันด้าน on-device AI ที่เข้มข้นขึ้น โดย Apple, Qualcomm และ Samsung ต่างพัฒนา AI capabilities ที่ไม่ต้องพึ่ง internet connection",
+    "tech_insights": {
+      "impact_summary": "AFM 3's use of Gemini distillation proves cross-company model distillation as a viable path to on-device capability. Five specialized models rather than one general model suggests Apple has learned from competitor deployments — this architecture will likely become the on-device AI standard.",
+      "actions_developer": [
+        "Explore Apple Intelligence APIs in iOS/macOS for on-device AI features — AFM 3's capabilities expose new native ML inference hooks that eliminate round-trips to cloud APIs for common tasks",
+        "Test AFM 3-powered features for privacy-sensitive applications where cloud AI is a compliance blocker — on-device processing may now meet many accuracy thresholds"
+      ],
+      "actions_business": [
+        "Evaluate product roadmaps for iOS apps that could leverage AFM 3's on-device capabilities to reduce inference API costs while improving privacy posture",
+        "Monitor Apple's enterprise AI strategy — AFM 3 deployment creates hundreds of millions of on-device AI endpoints that could change how enterprise mobile apps consume AI"
+      ],
+      "urgency": "medium",
+      "related_domains": ["on-device AI", "Apple", "mobile AI", "privacy AI", "model distillation", "edge inference"],
+      "breakthrough_potential": true
+    }
+  },
+  {
+    "id": "batch2_2026-06-27_009",
+    "schema_version": "2.0",
+    "scraped_at": "2026-06-27T10:30:00+07:00",
+    "source": {
+      "name": "Build Fast with AI / Market Research",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026",
+      "type": "aggregator",
+      "language": "en"
+    },
+    "title": "AI Coding Market Hits $9.3B, Growing at 26% CAGR — Claude Code Holds 40% Enterprise Share",
+    "published_at": "2026-06-26T04:49:09Z",
+    "author": "Build Fast with AI",
+    "topic_group": "ai-trends",
+    "tags": ["AI coding", "developer tools", "Claude Code", "GitHub Copilot", "market size", "enterprise", "Cursor"],
+    "summary_1": "ตลาด AI Coding tools เติบโตถึงมูลค่า 9.3 พันล้านดอลลาร์ในปี 2026 โดยมีอัตราเติบโตทบต้น (CAGR) ที่ 26% ซึ่งเร็วกว่าคาดการณ์ของนักวิเคราะห์ก่อนหน้า 40% ตัวเลข enterprise market share ชี้ว่า Claude Code ของ Anthropic ครองส่วนแบ่งสูงสุดที่ 40% ในกลุ่ม enterprise ขณะที่ GitHub Copilot อยู่ที่ 28% และ Cursor ที่ 18% ตัวเลขนี้สะท้อนการเปลี่ยนแปลงครั้งสำคัญจากเพียงปีก่อนที่ GitHub Copilot ยังครองตลาด ปัจจัยที่ทำให้ Claude Code เติบโตอย่างรวดเร็วได้แก่ความสามารถในการทำงานกับ codebase ขนาดใหญ่ผ่าน extended context การ integrate กับ IDE หลักและ CI/CD pipeline และผลการทดสอบบน FrontierCode benchmark ที่นำหน้าคู่แข่งอย่างมีนัยสำคัญ ตลาดยังเห็นการเกิดขึ้นของ AI-native IDE รุ่นใหม่ที่ rethink workflow ทั้งหมดแทนที่จะเป็นเพียง autocomplete plugin แบบเดิม",
+    "tech_insights": {
+      "impact_summary": "Claude Code's 40% enterprise market share reflects a decisive shift away from GitHub Copilot. At $9.3B and 26% CAGR, AI coding tools are now major line items in enterprise software budgets, not optional add-ons.",
+      "actions_developer": [
+        "Evaluate Claude Code enterprise plans if not already deployed — 40% market share indicates strong ecosystem momentum and integration support that reduces switching risk",
+        "Benchmark your current AI coding tool against FrontierCode results (not SWE-bench) to make an evidence-based decision about migration"
+      ],
+      "actions_business": [
+        "Quantify AI coding tool ROI using engineering velocity metrics — at $9.3B market scale, competitive enterprises are treating these as productivity infrastructure, not experiments",
+        "Negotiate enterprise contracts now before market consolidation leads to pricing power shifts — all major players are at inflection points"
+      ],
+      "urgency": "medium",
+      "related_domains": ["AI coding", "developer tools", "enterprise software", "Claude Code", "productivity"],
+      "breakthrough_potential": false
+    }
+  },
+  {
+    "id": "batch2_2026-06-27_010",
+    "schema_version": "2.0",
+    "scraped_at": "2026-06-27T10:30:00+07:00",
+    "source": {
+      "name": "Google / Build Fast with AI",
+      "url": "https://blog.google/products/android/gemini-live-translate-pixel-10/",
+      "type": "international",
+      "language": "en",
+      "aggregated_via": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026"
+    },
+    "title": "Gemini 3.5 Live Translate: Real-Time Speech-to-Speech in 70 Languages on Pixel 10 and Galaxy S26",
+    "published_at": "2026-06-26T00:00:00Z",
+    "author": "Google / Build Fast with AI",
+    "topic_group": "tech-trends",
+    "tags": ["Google", "Gemini", "Live Translate", "speech-to-speech", "Pixel 10", "Galaxy S26", "multilingual", "on-device", "Thailand"],
+    "summary_1": "Google ประกาศเปิดตัว Gemini 3.5 Live Translate ฟีเจอร์แปลภาษาแบบ real-time speech-to-speech รองรับ 70 ภาษา บน Pixel 10 และ Samsung Galaxy S26 ระบบทำงานโดยฟังการสนทนาทั้งสองฝ่ายและแปลเป็นเสียงพูดในภาษาปลายทางพร้อมกันโดยมี latency ต่ำกว่า 300 มิลลิวินาที ซึ่งเร็วพอที่จะทำให้การสนทนาข้ามภาษาเป็นธรรมชาติ ฟีเจอร์นี้ทำงานเป็นหลักบน on-device Gemini 3.5 Nano จึงไม่ต้องการ internet connection และปกป้องความเป็นส่วนตัวของการสนทนา รองรับภาษาไทยในรายชื่อ 70 ภาษา ซึ่งถือเป็น breakthrough สำหรับผู้ใช้ไทยที่ต้องการสื่อสารข้ามภาษา ในทางธุรกิจ Live Translate มีศักยภาพเปลี่ยนวิธีการประชุมข้ามชาติ การท่องเที่ยว และการค้าระหว่างประเทศในภูมิภาคเอเชียตะวันออกเฉียงใต้ที่มีความหลากหลายทางภาษาสูง",
+    "tech_insights": {
+      "impact_summary": "Gemini Live Translate at sub-300ms latency with 70 language support on-device marks a new quality bar for real-time translation that could meaningfully change multilingual business communication and tourism in Southeast Asia.",
+      "actions_developer": [
+        "Integrate Google's Live Translate APIs when available for customer-facing applications in multilingual markets — this capability makes voice-based multilingual apps viable at scale for the first time",
+        "Test Thai language quality specifically — Google's SEA language support has historically lagged European languages, and Live Translate's Thai performance will determine viability for Thai enterprise applications"
+      ],
+      "actions_business": [
+        "Evaluate Live Translate for customer service operations in Thailand that handle international customers — at sub-300ms latency, AI translation is now fast enough for real telephone/video customer interactions",
+        "Consider product localization strategy shifts: real-time translation capabilities reduce the bar for multilingual content, potentially changing the economics of entering new language markets in SEA"
+      ],
+      "urgency": "medium",
+      "related_domains": ["on-device AI", "translation", "multilingual AI", "Google Gemini", "Thailand", "Southeast Asia"],
+      "breakthrough_potential": true
+    }
+  },
+  {
+    "id": "batch2_2026-06-27_011",
+    "schema_version": "2.0",
+    "scraped_at": "2026-06-27T10:30:00+07:00",
+    "source": {
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-26/openai-weighs-ipo-in-2027-as-valuation-nears-1-trillion",
+      "type": "international",
+      "language": "en"
+    },
+    "title": "Bloomberg: OpenAI Weighs 2027 IPO as Valuation Nears $1 Trillion",
+    "published_at": "2026-06-26T00:00:00Z",
+    "author": "Bloomberg",
+    "topic_group": "global",
+    "tags": ["OpenAI", "IPO", "valuation", "trillion", "Wall Street", "Goldman Sachs", "Morgan Stanley", "AI investment"],
+    "summary_1": "Bloomberg รายงานอ้างอิงแหล่งข่าวที่คุ้นเคยกับแผนงานของ OpenAI ว่าบริษัทกำลังพิจารณาเลื่อน IPO ออกไปเป็นปี 2027 แทนที่จะเป็นปี 2026 ตามที่คาดการณ์ก่อนหน้า โดยสาเหตุหลักคือ OpenAI ต้องการให้มูลค่ากิจการเข้าใกล้ 1 ล้านล้านดอลลาร์ก่อนเข้าตลาดหลักทรัพย์ ปัจจุบัน OpenAI มีมูลค่ากิจการอยู่ที่ประมาณ 6-7 แสนล้านดอลลาร์จากการระดมทุนรอบล่าสุด การเลื่อน IPO ยังเปิดโอกาสให้ OpenAI แสดง revenue trajectory ที่แข็งแกร่งจาก GPT-5.6 และ API subscriptions ก่อนเผชิญกับการตรวจสอบจากนักลงทุนสาธารณะ Bloomberg ระบุด้วยว่า Goldman Sachs และ Morgan Stanley กำลังแข่งขันเพื่อเป็น lead underwriter ซึ่งหากเป็น IPO ที่ valuation แตะ 1 ล้านล้านดอลลาร์จะเป็นหนึ่งใน offering ที่ใหญ่ที่สุดในประวัติศาสตร์ Wall Street",
+    "tech_insights": {
+      "impact_summary": "An OpenAI IPO at near-$1T valuation would be one of the largest in Wall Street history and would lock in OpenAI's position as a permanent fixture in public market portfolios — transforming AI from a venture bet into a blue-chip infrastructure investment.",
+      "actions_developer": [
+        "Watch OpenAI's pre-IPO revenue trajectory — growth metrics shared in IPO filings will reveal actual API usage volumes and customer concentration that are currently private",
+        "Expect API pricing stability or gradual reduction as OpenAI enters public market scrutiny — listed companies prioritize revenue growth over margin protection in growth phases"
+      ],
+      "actions_business": [
+        "Consider establishing longer-term OpenAI API relationships now — post-IPO OpenAI will face quarterly earnings pressure that could accelerate enterprise sales terms and multi-year contracts",
+        "Track IPO timeline as a signal for AI market maturity — a successful OpenAI IPO at $1T+ would catalyze institutional investment in AI across the sector"
+      ],
+      "urgency": "low",
+      "related_domains": ["AI business", "IPO", "capital markets", "OpenAI", "AI investment"],
+      "breakthrough_potential": false
+    }
+  }
+]

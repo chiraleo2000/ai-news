@@ -1,0 +1,78 @@
+{
+  "pipeline": "ai-news-master-v2.0",
+  "run_date": "2026-06-30",
+  "generated_at": "2026-06-30T05:50:26.425914",
+  "time_window": {
+    "start": "2026-06-29T00:00:00+07:00",
+    "end": "2026-06-30T23:59:59+07:00"
+  },
+  "summary": {
+    "total_articles": 46,
+    "batch_1_articles": 18,
+    "batch_2_articles": 15,
+    "batch_3_articles": 13,
+    "topic_distribution": {
+      "ai-trends": 21,
+      "tech-trends": 6,
+      "thailand": 14,
+      "global": 5
+    }
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "label": "Thai Sources (Blognone, TechTalkThai, Thumbsup, Beartai)",
+      "articles": 18,
+      "coverage_score": "good",
+      "file": "News/Batches/2026-06-30/batch_1.json"
+    },
+    {
+      "batch": 2,
+      "label": "International (OpenAI, Anthropic, Google DeepMind, Mistral, HuggingFace, etc.)",
+      "articles": 15,
+      "coverage_score": "good",
+      "file": "News/Batches/2026-06-30/batch_2.json"
+    },
+    {
+      "batch": 3,
+      "label": "Research (ArXiv) + YouTube",
+      "articles": 13,
+      "coverage_score": "fair",
+      "file": "News/Batches/2026-06-30/batch_3.json"
+    }
+  ],
+  "sources_checked": {
+    "thai_sources": {
+      "blognone": "success_14_articles",
+      "techtalkthai": "success_2_articles",
+      "thumbsup": "success_1_article",
+      "techsauce": "existing_7_articles_from_prior_run",
+      "beartai": "success_2_articles"
+    },
+    "international_sources": {
+      "openai_blog": "success_2_articles",
+      "anthropic_news": "success_2_articles",
+      "google_deepmind": "success_2_articles",
+      "mistral_ai": "success_1_article",
+      "simonwillison": "success_1_article",
+      "marktechpost": "success_2_articles",
+      "huggingface_blog": "success_1_article",
+      "techcrunch": "existing_4_articles_from_prior_run"
+    },
+    "research_sources": {
+      "arxiv_cs_ai": "success_4_articles",
+      "arxiv_cs_lg": "success_1_article",
+      "youtube_two_minute_papers": "metadata_fetched",
+      "youtube_matt_wolfe": "metadata_fetched",
+      "youtube_fireship": "metadata_fetched"
+    }
+  },
+  "fetch_stats": {
+    "articles_added_this_run": 30,
+    "articles_from_prior_run": 16,
+    "articles_skipped_duplicate": 0,
+    "direct_fetch_success": 35,
+    "youtube_metadata": 3
+  },
+  "next_step": "run ai-news-publisher → ai-news-github-deploy"
+}

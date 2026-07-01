@@ -1,0 +1,152 @@
+{
+  "batch_id": "batch_3_2026-06-29",
+  "batch_date": "2026-06-29",
+  "schema_version": "2.0",
+  "generated_at": "2026-06-29T07:30:00+07:00",
+  "pipeline_version": "2.0",
+  "window_start": "2026-06-28T07:00:00+07:00",
+  "window_end": "2026-06-29T07:00:00+07:00",
+  "sources_attempted": 14,
+  "articles_total": 10,
+  "articles_within_24h": 6,
+  "articles_outside_24h_kept": 4,
+  "coverage_score": "fair",
+  "topic_breakdown": {
+    "ai_trends": 9,
+    "tech_trends": 1,
+    "thailand": 0,
+    "global": 0
+  },
+  "category_breakdown": {},
+  "sources_with_news": [
+    "ArXiv cs.AI",
+    "ArXiv cs.LG",
+    "ArXiv cs.CL",
+    "MarkTechPost"
+  ],
+  "sources_no_news": [
+    "Two Minute Papers",
+    "AI Explained",
+    "Matt Wolfe",
+    "Yannic Kilcher",
+    "Wes Roth",
+    "Fireship",
+    "Lex Fridman",
+    "Andrej Karpathy",
+    "ML Street Talk",
+    "Papers with Code"
+  ],
+  "coverage_note": "YouTube channels could not be confirmed as posting within 24h window. Most recent available ArXiv submissions included.",
+  "articles": [
+    {
+      "article_id": "gui-agent-hindsight-experience-acl2026-2606-27330",
+      "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
+      "source_name": "ArXiv cs.CL",
+      "url": "https://arxiv.org/abs/2606.27330",
+      "published_at": "2026-06-26T00:00:00Z",
+      "within_24h": true,
+      "category": "AI-RESEARCH",
+      "topic_group": "ai-trends",
+      "path": "Research/ArXiv/2026-06-29/gui-agent-hindsight-experience-acl2026"
+    },
+    {
+      "article_id": "cat-q-ternary-quantization-llm-icml2026-2606-26650",
+      "title": "CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs",
+      "source_name": "ArXiv cs.CL",
+      "url": "https://arxiv.org/abs/2606.26650",
+      "published_at": "2026-06-26T00:00:00Z",
+      "within_24h": true,
+      "category": "AI-RESEARCH",
+      "topic_group": "ai-trends",
+      "path": "Research/ArXiv/2026-06-29/cat-q-ternary-quantization-llm-icml2026"
+    },
+    {
+      "article_id": "information-aware-kv-cache-compression-long-reasoning-2606-26875",
+      "title": "Information-Aware KV Cache Compression for Long Reasoning",
+      "source_name": "ArXiv cs.CL",
+      "url": "https://arxiv.org/abs/2606.26875",
+      "published_at": "2026-06-26T00:00:00Z",
+      "within_24h": true,
+      "category": "AI-RESEARCH",
+      "topic_group": "ai-trends",
+      "path": "Research/ArXiv/2026-06-29/information-aware-kv-cache-compression-long-reasoning"
+    },
+    {
+      "article_id": "deepseek-dspark-speculative-decoding-marktechpost-2026-06-27",
+      "title": "DeepSeek Releases DSpark, a Speculative Decoding Framework That Accelerates DeepSeek-V4 Per-User Generation 60-85% Over MTP-1",
+      "source_name": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1/",
+      "published_at": "2026-06-27T16:59:58Z",
+      "within_24h": true,
+      "category": "AI-PRODUCT",
+      "topic_group": "ai-trends",
+      "path": "Research/MarkTechPost/2026-06-29/deepseek-dspark-speculative-decoding"
+    },
+    {
+      "article_id": "liquid-ai-lfm25-230m-on-device-marktechpost-2026-06-28",
+      "title": "Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference",
+      "source_name": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/",
+      "published_at": "2026-06-28T04:58:20Z",
+      "within_24h": true,
+      "category": "AI-PRODUCT",
+      "topic_group": "tech-trends",
+      "path": "Research/MarkTechPost/2026-06-29/liquid-ai-lfm25-230m-on-device"
+    },
+    {
+      "article_id": "tapered-language-models-2606-23670",
+      "title": "Tapered Language Models",
+      "source_name": "ArXiv cs.LG",
+      "url": "https://arxiv.org/abs/2606.23670",
+      "published_at": "2026-06-23T00:00:00Z",
+      "within_24h": false,
+      "category": "AI-RESEARCH",
+      "topic_group": "ai-trends",
+      "path": "Research/ArXiv/2026-06-29/tapered-language-models"
+    },
+    {
+      "article_id": "on-policy-distillation-multi-turn-agents-2606-15912",
+      "title": "On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents",
+      "source_name": "ArXiv cs.LG",
+      "url": "https://arxiv.org/abs/2606.15912",
+      "published_at": "2026-06-16T00:00:00Z",
+      "within_24h": false,
+      "category": "AI-RESEARCH",
+      "topic_group": "ai-trends",
+      "path": "Research/ArXiv/2026-06-29/on-policy-distillation-multi-turn-agents"
+    },
+    {
+      "article_id": "mage-rag-multimodal-agentic-rag-2606-15906",
+      "title": "MAGE-RAG: Multigranular Adaptive Graph Evidence for Agentic Multimodal RAG in Long-Document QA",
+      "source_name": "ArXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.15906",
+      "published_at": "2026-06-16T00:00:00Z",
+      "within_24h": false,
+      "category": "AI-RESEARCH",
+      "topic_group": "ai-trends",
+      "path": "Research/ArXiv/2026-06-29/mage-rag-multimodal-agentic-rag"
+    },
+    {
+      "article_id": "mas-promptbench-multi-agent-llm-2606-23664",
+      "title": "MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?",
+      "source_name": "ArXiv cs.LG",
+      "url": "https://arxiv.org/abs/2606.23664",
+      "published_at": "2026-06-23T00:00:00Z",
+      "within_24h": false,
+      "category": "AI-RESEARCH",
+      "topic_group": "ai-trends",
+      "path": "Research/ArXiv/2026-06-29/mas-promptbench-multi-agent-llm"
+    },
+    {
+      "article_id": "opid-on-policy-skill-distillation-agentic-rl-2606-26790",
+      "title": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning",
+      "source_name": "ArXiv cs.CL",
+      "url": "https://arxiv.org/abs/2606.26790",
+      "published_at": "2026-06-26T00:00:00Z",
+      "within_24h": true,
+      "category": "AI-RESEARCH",
+      "topic_group": "ai-trends",
+      "path": "Research/ArXiv/2026-06-29/opid-on-policy-skill-distillation-agentic-rl"
+    }
+  ]
+}

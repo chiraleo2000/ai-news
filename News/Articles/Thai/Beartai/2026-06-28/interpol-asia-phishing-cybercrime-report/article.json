@@ -1,0 +1,72 @@
+{
+  "article_id": "b1-bt-interpol-phishing-010",
+  "schema_version": "2.0",
+  "topic_group": "thailand",
+  "source_info": {
+    "category": "Thai",
+    "source_name": "Beartai",
+    "registry_key": "Thai/Beartai",
+    "domain": "AI-safety",
+    "main_url": "https://www.beartai.com"
+  },
+  "source": {
+    "url": "https://www.beartai.com/read/1502470",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-28T12:00:00+07:00",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-26T00:00:00+07:00",
+    "scraped_at": "2026-06-28T12:00:00+07:00",
+    "run_date": "2026-06-28",
+    "target_date": "2026-06-28",
+    "within_24h": false,
+    "status": "scraped",
+    "batch": "1",
+    "category": "AI-SAFETY",
+    "category_label": "ความปลอดภัย AI",
+    "news_type": "ข่าว",
+    "tags": ["INTERPOL", "Cybercrime", "Phishing", "AI", "Asia Pacific", "Deepfake"],
+    "language": "th"
+  },
+  "content": {
+    "title": "ตำรวจสากลเผยเอเชียแชมป์กดลิงก์ปลอม สูงกว่าโลก 2 เท่า !",
+    "title_th": "ตำรวจสากลเผยเอเชียแชมป์กดลิงก์ปลอม สูงกว่าโลก 2 เท่า",
+    "slug": "interpol-asia-phishing-cybercrime-report",
+    "summary": "รายงานอาชญากรรมไซเบอร์เอเชียแปซิฟิกของ INTERPOL เผยว่า Phishing และ Deepfake ขับเคลื่อนด้วย AI กำลังพุ่งสูงในภูมิภาค โดย 1 ใน 3 ประเทศมีคดี Phishing เกิน 10,000 เคส",
+    "summary_1": "รายงานอาชญากรรมไซเบอร์เอเชียแปซิฟิกของ INTERPOL ปี 2025-2026 เผยให้เห็นภาพที่น่าตกใจว่าการหลอกลวงออนไลน์หรือ Phishing กลายเป็นอาชญากรรมทางไซเบอร์ที่แพร่ระบาดวงกว้างและสร้างความสูญเสียทางการเงินมากที่สุดในปัจจุบัน โดย 1 ใน 3 ของประเทศในภูมิภาคมีการแจ้งความคดี Phishing สูงเกินกว่า 10,000 เคสในช่วงมกราคม 2024 ถึงมีนาคม 2025 นอกจากนี้ยังพบว่าคดีอาชญากรรมบนโลกออนไลน์คิดเป็นอย่างน้อย 30% ของคดีทั้งหมดในระดับประเทศสำหรับกว่าครึ่งหนึ่งของประเทศสมาชิก เครื่องมือหลักที่สแกมเมอร์ใช้ได้แก่ AI, RaaS (Ransomware-as-a-Service) และเทคนิคทางจิตวิทยา โดยประเทศเช่นเมียนมาและกัมพูชาเป็นศูนย์กลางของขบวนการโกงออนไลน์ขนาดใหญ่",
+    "body_text": "INTERPOL รายงานอาชญากรรมไซเบอร์เอเชียแปซิฟิก 2025-2026 ระบุ Phishing สร้างความเสียหายสูงสุด 1 ใน 3 ประเทศมีคดีเกิน 10,000 เคส/ปี สแกมเมอร์ใช้ AI, Deepfake และ RaaS เป็นเครื่องมือหลัก เอเชียอ่อนแอต่อ Phishing สูงกว่าค่าเฉลี่ยโลก 2 เท่า",
+    "language": "th",
+    "original_language": "th"
+  },
+  "tech_insights": {
+    "impact_summary": "การใช้ AI และ Deepfake ในการก่ออาชญากรรมไซเบอร์กำลังทวีความรุนแรงในเอเชีย รวมถึงไทย ซึ่งต้องการการลงทุนด้าน AI-powered cybersecurity อย่างเร่งด่วน",
+    "actions_developer": [
+      "พัฒนาระบบ AI anti-phishing และ Deepfake detection เพื่อป้องกันผู้ใช้",
+      "ผสานรวมการตรวจสอบ multi-factor authentication และ behavioral analytics ในแอปพลิเคชัน"
+    ],
+    "actions_business": [
+      "ฝึกอบรมพนักงานเกี่ยวกับการรับรู้ Phishing และภัยคุกคามที่ขับเคลื่อนด้วย AI",
+      "ลงทุนในโซลูชัน cybersecurity ที่ใช้ AI ตรวจจับและป้องกันการโจมตีขั้นสูง"
+    ],
+    "urgency": "high",
+    "related_domains": ["AI Safety", "Cybersecurity", "Phishing", "Deepfake"],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "Thai/Beartai/2026-06-28/interpol-asia-phishing-cybercrime-report",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-06-28/batch_1.json"
+  }
+}

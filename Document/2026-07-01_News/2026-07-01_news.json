@@ -1,0 +1,1140 @@
+{
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T19:00:00+07:00",
+  "schema_version": "2.0",
+  "stats": {
+    "total": 27,
+    "by_topic": {
+      "ai_trends": 12,
+      "tech_trends": 6,
+      "thailand": 3,
+      "global": 6
+    },
+    "by_source_category": {
+      "thai": 12,
+      "international": 9,
+      "research": 6,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 7,
+      "medium": 17,
+      "low": 3
+    },
+    "breakthrough_count": 6
+  },
+  "top_insights": [
+    {
+      "title": "Anthropic ดึงนักเศรษฐศาสตร์วิเคราะห์ความเสี่ยง AI ชี้โอกาสกระทบการอยู่รอดของมนุษย์ 1 ใน 3",
+      "impact_summary": "ชี้ให้เห็นว่าการประเมินความเสี่ยง AI เชิงเศรษฐศาสตร์อาจกลายเป็นกรอบสำคัญสำหรับผู้กำหนดนโยบาย AI ทั่วโลก",
+      "urgency": "high",
+      "related_domains": [
+        "AI-SAFETY",
+        "AI-POLICY"
+      ],
+      "article_id": "anthropic-ai-risk-human-survival-2026-07-01"
+    },
+    {
+      "title": "Meituan เปิดตัว LongCat-2.0 โมเดล AI เทียบชั้น Gemini 3.1 Pro, GPT-5.5 แต่ใช้ชิปจีนทั้งหมด",
+      "impact_summary": "จีนพิสูจน์ว่าสามารถผลิต frontier LLM ด้วยชิปในประเทศได้ ลดผลกระทบมาตรการส่งออกชิปของสหรัฐ",
+      "urgency": "high",
+      "related_domains": [
+        "LLM",
+        "China AI",
+        "Semiconductor",
+        "Geopolitics"
+      ],
+      "article_id": "e29adb8b13ed"
+    },
+    {
+      "title": "Claude Fable 5 และ Mythos 5 จะเริ่มกลับมาใช้งานได้ตั้งแต่วันนี้",
+      "impact_summary": "การยกเลิกคำสั่งห้ามส่งสัญญาณว่ารัฐบาลสหรัฐยังคงพยายามสมดุลระหว่างความปลอดภัย AI กับการรักษาความสามารถแข่งขันทางเทคโนโลยี",
+      "urgency": "high",
+      "related_domains": [
+        "LLM",
+        "AI Safety",
+        "AI Policy",
+        "Anthropic"
+      ],
+      "article_id": "7628ab8e874d"
+    },
+    {
+      "title": "Anthropic เปิดตัว Claude Sonnet 5 โมเดล Sonnet ที่ agentic ที่สุดเท่าที่เคยมี",
+      "impact_summary": "Claude Sonnet 5 ลดช่องว่างด้านความสามารถ agentic กับ Opus 4.8 ในราคาที่ถูกกว่า ทำให้ developer และองค์กรเข้าถึงโมเดลระดับสูงได้ง่ายขึ้นทันที",
+      "urgency": "high",
+      "related_domains": [
+        "LLM",
+        "Claude",
+        "Agentic AI",
+        "Coding",
+        "API"
+      ],
+      "article_id": "anthropic-claude-sonnet-5-2026-07-01"
+    },
+    {
+      "title": "Anthropic เปิดตัว Claude Science เวิร์กเบนช์ AI สำหรับนักวิจัยวิทยาศาสตร์",
+      "impact_summary": "Claude Science รวมเครื่องมือวิจัยและ compute ไว้ในที่เดียว ช่วยเร่งงานวิจัยวิทยาศาสตร์และลดเวลาทำงานที่ซ้ำซ้อนได้อย่างมาก",
+      "urgency": "medium",
+      "related_domains": [
+        "AI for Science",
+        "Research Tools",
+        "Claude",
+        "Biology",
+        "Agentic AI"
+      ],
+      "article_id": "anthropic-claude-science-workbench-2026-07-01"
+    }
+  ],
+  "posts": [
+    {
+      "id": "ai-model-corn-disease-line-2026-07-01",
+      "slug": "ai-model-corn-disease-line",
+      "title": "จากไร่ข้าวโพดสู่ AI Model เคส Applied AI ไทยที่ใช้ Computer Vision วิเคราะห์โรคพืชผ่าน LINE",
+      "topic": "เครื่องมือ AI",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "บริษัท ฟิวชั่น โซลูชั่น จำกัด ร่วมกับมหาวิทยาลัยเกษตรศาสตร์พัฒนาโครงการ Intelligent AgriDiagnose ซึ่งเป็น Applied AI ที่ใช้เทคโนโลยี Computer Vision และ Deep Learning วิเคราะห์อาการผิดปกติของใบข้าวโพดจากภาพถ่าย โดยเกษตรกรสามารถถ่ายภาพใบพืชที่มีความผิดปกติส่งผ่านแอปพลิเคชัน LINE เพื่อให้ระบบวิเคราะห์อาการเบื้องต้นและตอบกลับได้ทันที ระบบถูกฝึกให้รู้จักโรคข้าวโพดที่พบบ่อยในไทย 5 ชนิดในระยะแรก และขยายเป็น 11 โรคพร้อมอาการขาดธาตุอาหารอีก 5 รูปแบบในระยะถัดมา จุดเด่นสำคัญคือระบบจะไม่รีบสรุปผลหากภาพไม่ชัดเจนหรือความมั่นใจยังไม่พอ แต่จะแนะนำให้ถ่ายภาพใหม่ เพื่อลดความเสี่ยงจากการวินิจฉัยผิดพลาด โครงการนี้ได้รับรางวัล Silver Award ในเวที ASEAN Digital Awards 2026 สะท้อนว่า AI ไทยสามารถก้าวจากงานวิจัยสู่การใช้งานจริงในภาคเกษตรได้อย่างเป็นรูปธรรม และมีผลกระทบเชิงบวกต่อเกษตรกรในภูมิภาค",
+      "source_url": "https://techsauce.co/sustainable-focus/ai-model-corn-disease-line",
+      "tech_impact": "แสดงให้เห็นว่า Applied AI ของไทยสามารถแก้ปัญหาจริงในภาคเกษตรได้ผ่านแพลตฟอร์มที่เกษตรกรใช้งานอยู่แล้วอย่าง LINE",
+      "tags": [
+        "AI",
+        "เกษตรกร",
+        "Computer Vision",
+        "เกษตรเทค",
+        "LINE",
+        "sustainability"
+      ],
+      "category_label": "เครื่องมือ AI",
+      "published_at": "2026-06-30T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-TOOLS",
+        "AI-BUSINESS"
+      ],
+      "actions_developer": [
+        "ศึกษาการออกแบบระบบ Computer Vision ที่คำนึงถึงความน่าเชื่อถือ ไม่รีบสรุปผลเมื่อข้อมูลไม่พอ",
+        "พิจารณาการต่อยอด Applied AI บนแพลตฟอร์มที่ผู้ใช้งานคุ้นเคยอยู่แล้วเพื่อลดอุปสรรคการใช้งาน"
+      ],
+      "actions_business": [
+        "ประเมินโอกาสร่วมมือกับหน่วยงานวิจัยเพื่อพัฒนา Applied AI เฉพาะอุตสาหกรรมของตนเอง",
+        "ติดตามกรณีศึกษา AI เกษตรไทยที่ได้รับการยอมรับระดับภูมิภาคเพื่อประกอบการวางแผนลงทุนด้านเทคโนโลยี"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "anthropic-prompting-playbook-debug-prompt-2026-07-01",
+      "slug": "anthropic-prompting-playbook-debug-prompt",
+      "title": "คู่มือไล่แก้ Prompt ที่พังจากโมเดลเก่า ฉบับวิศวกร Anthropic",
+      "topic": "เครื่องมือ AI",
+      "topic_group": "ai-trends",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "ในงาน Code with Claude เซสชัน The Prompting Playbook คุณ Margot van Laar วิศวกรจาก Anthropic ประจำลอนดอน สาธิตวิธีแก้ปัญหา Prompt ที่ใช้งานได้ดีในโปรดักชันแต่กลับพังหลังย้ายไปใช้โมเดลใหม่ที่เก่งกว่าเดิม โดยชี้ว่าต้องเริ่มจากการสร้างชุดทดสอบประเมินผลหรือ Eval เพื่อวัดผลกระทบของการแก้ Prompt อย่างเข้มงวด จากนั้นเก็บกวาดโครงสร้าง Prompt ด้วยแท็ก XML แยกบทบาท นโยบาย และโทนการพูดให้ชัดเจน ก่อนไล่แก้ปัญหาเฉพาะจุด เช่น การที่โมเดลหวงข้อมูลที่เข้าถึงได้ การให้เครื่องมือคำนวณแทนให้โมเดลคิดเลขในใจ และการเล่าข้อแลกเปลี่ยนทั้งสองด้านแทนการสั่งห้ามเพียงด้านเดียว บทเรียนสำคัญคือคำสั่งไม่ได้เพิ่มความสามารถให้โมเดล และยิ่งโมเดลฉลาดขึ้นต้องให้ข้อมูลที่สมดุลมากขึ้นเพื่อให้ตัดสินใจได้ถูกต้อง",
+      "source_url": "https://techsauce.co/ai/anthropic-prompting-playbook-debug-prompt",
+      "tech_impact": "ให้แนวทางปฏิบัติที่เป็นรูปธรรมสำหรับวิศวกร AI ในการดูแลและแก้ไข Prompt เมื่อต้องย้ายไปใช้โมเดลใหม่",
+      "tags": [
+        "AI",
+        "LLM",
+        "Claude",
+        "Prompting",
+        "AI Agents",
+        "Anthropic",
+        "Code with Claude",
+        "Prompt Engineering"
+      ],
+      "category_label": "เครื่องมือ AI",
+      "published_at": "2026-06-30T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-TOOLS"
+      ],
+      "actions_developer": [
+        "สร้างชุด Eval ที่ครอบคลุม Control case, Edge case และขอบเขตความสามารถของโมเดลก่อนแก้ Prompt ใดๆ",
+        "ใช้แท็ก XML จัดโครงสร้าง Prompt แยกบทบาท นโยบาย และโทนการพูดให้ชัดเจนเพื่อลดความสับสนของโมเดล"
+      ],
+      "actions_business": [
+        "วางระบบควบคุมเวอร์ชันสำหรับ Prompt ที่ใช้ในโปรดักชัน พร้อมบันทึกเหตุผลของคำสั่งเชิงป้องกันแต่ละข้อ",
+        "ประเมินความเสี่ยงก่อนย้ายระบบ AI ไปใช้โมเดลใหม่ โดยเทียบผลจาก Eval แทนความรู้สึกว่าน่าจะดีขึ้น"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "china-ai-schools-2026-07-01",
+      "slug": "china-ai-schools",
+      "title": "จีนดัน AI เข้าหลักสูตรทุกระดับชั้น หวังปั้นคนรุ่นใหม่ให้มี AI เป็นทักษะพื้นฐาน",
+      "topic": "นโยบาย AI",
+      "topic_group": "global",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "รัฐบาลจีนประกาศแผนผลักดันวิชา AI เข้าไปอยู่ในระบบการศึกษาแบบครบวงจร ให้เด็กเริ่มเรียนรู้ตั้งแต่ชั้นอนุบาลไปจนถึงระดับมหาวิทยาลัย โดยเป็นส่วนหนึ่งของแผนพัฒนาระยะ 5 ปีของรัฐบาลและสอดคล้องกับเป้าหมายของประธานาธิบดีสี จิ้นผิงที่ต้องการให้จีนเป็นผู้นำด้านเทคโนโลยีขั้นสูงของโลก เป้าหมายหลักคือให้เด็กนักเรียนนักศึกษารู้เท่าทัน AI และประยุกต์ใช้เป็น ไม่ใช่เรียนแค่ทฤษฎี โดยสั่งให้หน่วยงานท้องถิ่นทั่วประเทศนำแผนไปปรับใช้ให้เกิดผลจริง แรงจูงใจส่วนหนึ่งมาจากการที่สหรัฐฯ พยายามสกัดกั้นไม่ให้จีนเข้าถึงเทคโนโลยีขั้นสูง ทำให้จีนต้องเร่งปั้นนักวิจัยและวิศวกรในประเทศ พร้อมกันนี้รัฐบาลยังคุมเข้มไม่ให้บริษัทไล่พนักงานออกเพื่อแทนที่ด้วย AI แบบไม่มีการควบคุม สะท้อนความพยายามเปลี่ยนผ่านประเทศเข้าสู่ยุค AI อย่างค่อยเป็นค่อยไป",
+      "source_url": "https://techsauce.co/ai/china-ai-schools",
+      "tech_impact": "สะท้อนการแข่งขันระดับชาติที่เปลี่ยนจากการแข่งฮาร์ดแวร์ AI ไปสู่การแข่งสร้างบุคลากรที่เข้าใจ AI อย่างเป็นระบบ",
+      "tags": [
+        "AI",
+        "จีน",
+        "การศึกษา",
+        "ประเทศจีน"
+      ],
+      "category_label": "นโยบาย AI",
+      "published_at": "2026-06-30T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-POLICY",
+        "AI-BUSINESS"
+      ],
+      "actions_developer": [
+        "ติดตามแนวทางหลักสูตร AI ของจีนเพื่อเปรียบเทียบกับมาตรฐานการพัฒนาทักษะ AI ในไทย",
+        "พิจารณาการเรียนรู้ต่อเนื่องด้าน AI Literacy เพื่อรักษาความสามารถในการแข่งขันในตลาดแรงงาน"
+      ],
+      "actions_business": [
+        "ประเมินผลกระทบเชิงนโยบายจากการที่จีนเร่งผลิตบุคลากร AI ต่อความได้เปรียบทางเทคโนโลยีในระยะยาว",
+        "พิจารณาลงทุนในโครงการฝึกอบรม AI ให้พนักงานเพื่อรับมือกับการเปลี่ยนผ่านสู่ยุค AI อย่างมีความรับผิดชอบ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "anthropic-ai-risk-human-survival-2026-07-01",
+      "slug": "anthropic-ai-risk-human-survival",
+      "title": "Anthropic ดึงนักเศรษฐศาสตร์วิเคราะห์ความเสี่ยง AI ชี้โอกาสกระทบการอยู่รอดของมนุษย์ 1 ใน 3",
+      "topic": "ความปลอดภัย AI",
+      "topic_group": "global",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Charles I. Jones ศาสตราจารย์ด้านเศรษฐศาสตร์จาก Stanford เข้าร่วม Anthropic Institute เมื่อวันที่ 30 มิถุนายน 2026 เพื่อศึกษาว่า AI จะพลิกโฉมเศรษฐกิจอย่างไรและอาจนำไปสู่การสูญพันธุ์ของมนุษย์หรือไม่ งานวิจัยล่าสุดของเขาจำลองสถานการณ์ที่ AI เป็นตัวเร่งการวิจัยและนวัตกรรม พบว่ามนุษย์มีโอกาส 1 ใน 3 ที่จะสูญพันธุ์เพราะ AI แต่ในทางกลับกันก็มีโอกาส 2 ใน 3 ที่คุณภาพชีวิตจะก้าวกระโดดดีขึ้นถึง 55 เท่า งานวิจัยนี้ไม่ได้เรียกร้องให้หยุดพัฒนา AI แต่เตือนว่ายิ่งเร่งพัฒนานวัตกรรมเร็วเท่าไร ความเสี่ยงหายนะก็ยิ่งสูงตามไปด้วย เนื่องจากความเร็วกับความเสี่ยงผูกติดกันโดยโครงสร้าง Anthropic Institute เปิดตัวเมื่อ 11 มีนาคม 2026 นำโดย Jack Clark เพื่อศึกษาผลกระทบเชิงระบบของ AI ต่อสังคม เศรษฐกิจ และการกำกับดูแล การดึงนักเศรษฐศาสตร์ระดับสูงเข้าร่วมอาจส่งผลต่อการออกกฎหมาย AI ทั้งในสหรัฐฯ และยุโรปในอนาคต",
+      "source_url": "https://techsauce.co/ai/anthropic-ai-risk-human-survival",
+      "tech_impact": "ชี้ให้เห็นว่าการประเมินความเสี่ยง AI เชิงเศรษฐศาสตร์อาจกลายเป็นกรอบสำคัญสำหรับผู้กำหนดนโยบาย AI ทั่วโลก",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Anthropic Institute",
+        "ความเสี่ยง AI"
+      ],
+      "category_label": "ความปลอดภัย AI",
+      "published_at": "2026-06-30T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-SAFETY",
+        "AI-POLICY"
+      ],
+      "actions_developer": [
+        "ติดตามงานวิจัยด้านเศรษฐศาสตร์ความเสี่ยง AI เพื่อทำความเข้าใจ trade-off ระหว่างความเร็วในการพัฒนาและความปลอดภัย",
+        "ผสานแนวคิดด้านความปลอดภัยเข้ากับการพัฒนาโมเดล AI ตั้งแต่ขั้นออกแบบ ไม่ใช่แค่แก้ไขภายหลัง"
+      ],
+      "actions_business": [
+        "ติดตามทิศทางการกำกับดูแล AI ระดับโลกที่อาจได้รับอิทธิพลจากกรอบวิเคราะห์ความเสี่ยงเชิงเศรษฐศาสตร์นี้",
+        "ประเมินความเสี่ยงและผลตอบแทนของการเร่งใช้ AI ในองค์กรอย่างรอบคอบมากขึ้น"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "microsoft-365-copilot-force-install-again-2026-07-01",
+      "slug": "microsoft-365-copilot-force-install-again",
+      "title": "ผู้ใช้ Microsoft 365 จะถูกบังคับให้ติดตั้ง Copilot อีกครั้ง หลังถูกเว้นวรรคเพราะบั๊ก และข้อติติงจำนวนมาก",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "thailand",
+      "source_name": "Thaiware",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "ไมโครซอฟท์มีแผนกลับมาบังคับติดตั้ง Copilot สำหรับผู้ใช้งาน Microsoft 365 อีกครั้งในวันที่ 1 กรกฎาคม 2026 หลังจากที่ประกาศเว้นวรรคการบังคับติดตั้งแบบอัตโนมัติไปตั้งแต่เดือนมีนาคมที่ผ่านมา สาเหตุที่ต้องหยุดชั่วคราวมาจากปัญหาบั๊กจำนวนมาก เช่น การที่ Copilot แอบอ่านอีเมลลับของผู้ใช้งาน รวมถึงเสียงวิจารณ์อย่างหนักจากผู้ใช้ที่รู้สึกว่าถูกยัดเยียดเครื่องมือ AI นี้มาตั้งแต่เปิดตัวในเดือนตุลาคม 2025 ทั้งนี้การกลับมาบังคับติดตั้งครั้งนี้ ผู้ดูแลด้านไอทีในระดับองค์กรจะมีอิสระมากขึ้น โดยสามารถเลือก Opt-Out เพื่อหยุดการติดตั้งอัตโนมัติได้ นอกจากนี้ไมโครซอฟท์ยังทดลองปุ่มถอนการติดตั้ง Copilot บน Windows 11 เวอร์ชันทดสอบแบบวงในอยู่ด้วย สะท้อนความพยายามของไมโครซอฟท์ที่จะผลักดันให้ Windows ถูกขับเคลื่อนด้วย AI อย่างเต็มรูปแบบ แม้จะเผชิญกับความไม่พอใจของผู้ใช้งานจำนวนมากก็ตาม",
+      "source_url": "https://news.thaiware.com/22435.html",
+      "tech_impact": "สะท้อนแรงตึงระหว่างกลยุทธ์ผลักดัน AI แบบเต็มรูปแบบของไมโครซอฟท์กับความต้องการควบคุมของผู้ใช้งานและองค์กร",
+      "tags": [
+        "Microsoft",
+        "Microsoft 365",
+        "Copilot",
+        "AI",
+        "Windows 11"
+      ],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-06-30T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-PRODUCT",
+        "AI-SAFETY"
+      ],
+      "actions_developer": [
+        "ตรวจสอบนโยบาย Opt-Out ของ Copilot ในองค์กรตนเองก่อนวันที่ 1 กรกฎาคม เพื่อป้องกันการติดตั้งที่ไม่พึงประสงค์",
+        "ติดตามประเด็นความปลอดภัยของ Copilot โดยเฉพาะกรณีการเข้าถึงอีเมลลับที่เคยเป็นปัญหาก่อนหน้านี้"
+      ],
+      "actions_business": [
+        "แจ้งทีมไอทีให้เตรียมมาตรการควบคุมการติดตั้ง Copilot ระดับองค์กรก่อนถูกบังคับติดตั้งอัตโนมัติ",
+        "ประเมินความเสี่ยงด้านความเป็นส่วนตัวของข้อมูลก่อนอนุญาตให้พนักงานใช้งาน Copilot เต็มรูปแบบ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "e29adb8b13ed",
+      "slug": "meituan-longcat-2-china-chip",
+      "title": "Meituan เปิดตัว LongCat-2.0 โมเดล AI เทียบชั้น Gemini 3.1 Pro, GPT-5.5 แต่ใช้ชิปจีนทั้งหมด",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "ai-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "ทีมวิจัย Meituan LongCat เปิดตัวโมเดล LLM รุ่นใหม่ชื่อ LongCat-2.0 ที่มีความสามารถระดับใกล้เคียงกับโมเดลชั้นนำอย่าง Gemini 3.1 Pro, GPT-5.5 และ Claude Opus 4.6 จุดน่าสนใจที่สุดของโมเดลนี้ไม่ใช่เพียงความสามารถ แต่คือข้อเท็จจริงที่ว่าทีมงานฝึกโมเดล LongCat-2.0 ด้วยชิปจีนทั้งหมดโดยไม่ต้องพึ่งพา GPU จาก NVIDIA การพัฒนาครั้งนี้แสดงให้เห็นว่าห่วงโซ่การผลิตชิป AI ของจีนกำลังก้าวขึ้นมาอย่างจริงจัง และอาจสั่นคลอนสมมติฐานที่ว่าการจำกัดการส่งออกชิปของสหรัฐจะหยุดยั้งการพัฒนา AI ในจีนได้ การที่บริษัทแพลตฟอร์ม E-commerce ขนาดใหญ่อย่าง Meituan สามารถผลิตโมเดล frontier-class ด้วยชิปในประเทศ ถือเป็นสัญญาณสำคัญของการเปลี่ยนแปลงทางภูมิรัฐศาสตร์ AI ที่อุตสาหกรรมต้องจับตามอง",
+      "source_url": "https://www.blognone.com/node/151026",
+      "tech_impact": "จีนพิสูจน์ว่าสามารถผลิต frontier LLM ด้วยชิปในประเทศได้ ลดผลกระทบมาตรการส่งออกชิปของสหรัฐ",
+      "tags": [
+        "Meituan",
+        "LLM",
+        "China AI",
+        "LongCat"
+      ],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-07-01T09:20:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "LLM",
+        "China AI",
+        "Semiconductor",
+        "Geopolitics"
+      ],
+      "actions_developer": [
+        "ทดสอบ LongCat-2.0 API สำหรับ use cases ที่ต้องการ data residency ในเอเชีย",
+        "ติดตามการพัฒนา China-made AI chips เพื่อประเมิน inference cost ในอนาคต"
+      ],
+      "actions_business": [
+        "พิจารณา diversify LLM vendor risk โดยไม่พึ่งพาผู้ให้บริการจากสหรัฐเพียงอย่างเดียว",
+        "ประเมิน geopolitical risk ของ AI supply chain โดยเฉพาะสำหรับองค์กรในเอเชีย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "7628ab8e874d",
+      "slug": "claude-fable5-mythos5-export-ban-lifted",
+      "title": "Claude Fable 5 และ Mythos 5 จะเริ่มกลับมาใช้งานได้ตั้งแต่วันนี้",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "ai-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Anthropic ประกาศว่าบริษัทได้รับการแจ้งจากกระทรวงพาณิชย์สหรัฐว่ายกเลิกคำสั่งห้ามเผยแพร่โมเดล AI ขั้นสูง Claude Fable 5 และ Mythos 5 แล้ว และเริ่มทยอยเปิดการใช้งานกลับคืน เหตุการณ์นี้เกิดขึ้นหลัง Anthropic เปิดตัวโมเดลทั้งสองในต้นเดือนมิถุนายน แต่ถูกระงับไม่กี่วันต่อมาเนื่องจากหน่วยงานความมั่นคงสหรัฐแสดงความกังวลต่อความสามารถที่สูงเกินไปของโมเดล Mythos 5 ถูกจำกัดเฉพาะหน่วยงานที่ได้รับอนุมัติ ขณะที่ Fable 5 ออกแบบสำหรับผู้ใช้ทั่วไปที่ต้องการความสามารถสูงสุด เหตุการณ์นี้สะท้อนความตึงเครียดระหว่างนวัตกรรม AI กับการกำกับดูแลความปลอดภัยในระดับชาติที่กำลังเป็นประเด็นร้อน",
+      "source_url": "https://www.blognone.com/node/151025",
+      "tech_impact": "การยกเลิกคำสั่งห้ามส่งสัญญาณว่ารัฐบาลสหรัฐยังคงพยายามสมดุลระหว่างความปลอดภัย AI กับการรักษาความสามารถแข่งขันทางเทคโนโลยี",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "Fable 5",
+        "Mythos 5",
+        "export ban"
+      ],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-07-01T07:55:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "AI Safety",
+        "AI Policy",
+        "Anthropic"
+      ],
+      "actions_developer": [
+        "ทดสอบ Claude Fable 5 สำหรับ agentic use cases ที่ต้องการความสามารถสูงสุด",
+        "ติดตามสถานะ Mythos 5 API access สำหรับองค์กรที่มีสิทธิ์เข้าถึง"
+      ],
+      "actions_business": [
+        "ทบทวนนโยบาย AI governance เพื่อรองรับโมเดลระดับ frontier ที่อาจถูกระงับได้ทุกเมื่อ",
+        "จัดทำ contingency plan สำหรับกรณีที่ AI models ที่ใช้งานอยู่ถูกระงับโดยหน่วยงานกำกับ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "f14216d24553",
+      "slug": "gemini-free-personal-intelligence-google-photos",
+      "title": "Gemini แบบฟรี เริ่มได้ฟีเจอร์ Personal Intelligence สร้างภาพตัวเราที่ดึงจาก Google Photos",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "ai-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Google ขยายการเข้าถึงฟีเจอร์ Personal Intelligence บน Gemini ให้กับผู้ใช้แบบฟรีในสหรัฐอเมริกา หลังจากก่อนหน้านี้จำกัดเฉพาะผู้ใช้แบบเสียเงิน ฟีเจอร์นี้ช่วยให้ Gemini เข้าถึงข้อมูลส่วนตัวของผู้ใช้จาก Gmail, Google Photos และ YouTube เพื่อสร้างประสบการณ์ที่ปรับแต่งได้เฉพาะบุคคล เช่น การถามข้อมูลในอีเมล การแนะนำคลิปที่ตรงใจ หรือการสร้างรูปของผู้ใช้จาก Google Photos การขยายให้ผู้ใช้ฟรีเข้าถึงได้ถือเป็นการเปลี่ยนแปลงสำคัญในการแข่งขัน AI Personalization ที่ Google พยายามดึงความสนใจจากผู้ให้บริการ AI รายอื่น แม้ยังจำกัดเฉพาะสหรัฐอเมริกาในขณะนี้ก็ตาม",
+      "source_url": "https://www.blognone.com/node/151020",
+      "tech_impact": "Google เร่งแข่งขัน personalized AI โดยใช้ข้อมูลจาก Google ecosystem เป็นข้อได้เปรียบที่คู่แข่งไม่มี",
+      "tags": [
+        "Google",
+        "Gemini",
+        "Personal Intelligence",
+        "Google Photos"
+      ],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-06-30T17:38:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "AI Personalization",
+        "Google",
+        "Privacy"
+      ],
+      "actions_developer": [
+        "ทดสอบ Gemini API ที่เชื่อมกับ Google Workspace data สำหรับ enterprise applications",
+        "ประเมินผลกระทบด้านความเป็นส่วนตัวจากการให้ AI เข้าถึง user data ก่อน deploy"
+      ],
+      "actions_business": [
+        "พิจารณา Gemini Personal Intelligence สำหรับ employee productivity tools ที่ใช้ Google Workspace",
+        "จัดทำ data governance policy สำหรับการใช้ AI ที่เข้าถึงข้อมูลองค์กรใน Google ecosystem"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "7a3792b19c71",
+      "slug": "amazon-openai-anthropic-price-increase",
+      "title": "[ลือ] Amazon อาจหันไปใช้โมเดล OpenAI บ้าง หลัง Anthropic ขึ้นราคา",
+      "topic": "ธุรกิจ AI",
+      "topic_group": "global",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "รายงานจาก The Information อ้างแหล่งข่าว ระบุว่า Amazon กำลังพิจารณาเพิ่มการพึ่งพา OpenAI มากขึ้น หลังจาก Anthropic ขึ้นราคาโมเดล Claude ใหม่ซึ่งทำให้การลงทุนหลายพันล้านดอลลาร์ที่ Amazon ใส่ใน Anthropic ดูตั้งคำถามได้ สถานการณ์นี้น่าสนใจเพราะในปีที่แล้ว Microsoft นักลงทุนหลักของ OpenAI กลับหันมาใช้ Claude แทน และตอนนี้อาจเกิดสถานการณ์ตรงกันข้าม เหตุการณ์นี้สะท้อนให้เห็นว่าในตลาด AI เชิงพาณิชย์ ความสัมพันธ์ทางธุรกิจยังคงเปลี่ยนแปลงได้ตามปัจจัยด้านราคาและประสิทธิภาพ ข้อมูลยังไม่ได้รับการยืนยันอย่างเป็นทางการ",
+      "source_url": "https://www.blognone.com/node/151019",
+      "tech_impact": "ความสัมพันธ์เชิงพาณิชย์ระหว่าง hyperscaler กับ AI labs ยังคงเปลี่ยนแปลงได้ตามราคาและ performance",
+      "tags": [
+        "Amazon",
+        "Anthropic",
+        "OpenAI",
+        "LLM pricing"
+      ],
+      "category_label": "ธุรกิจ AI",
+      "published_at": "2026-06-30T16:57:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "AI Business",
+        "Amazon",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "actions_developer": [
+        "ติดตามการเปลี่ยนแปลง pricing ของ Claude และ GPT API เพื่อปรับ cost model ของ application",
+        "พิจารณา multi-vendor LLM strategy เพื่อลดการพึ่งพา vendor รายเดียว"
+      ],
+      "actions_business": [
+        "เตรียม vendor flexibility ใน AI contracts โดยไม่ lock-in เฉพาะ Anthropic หรือ OpenAI รายเดียว",
+        "ประเมิน total cost of ownership เมื่อ AI pricing เปลี่ยน รวมถึง switching cost"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "7af54a069486",
+      "slug": "cline-clinepass-subscription",
+      "title": "Cline ส่วนขยาย AI ช่วยเขียนโค้ด เปิดบริการรายเดือนของตัวเอง",
+      "topic": "เครื่องมือ AI",
+      "topic_group": "tech-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Cline ส่วนขยาย VSCode ที่ให้ AI Coding Agent คล้าย GitHub Copilot ประกาศเปิดบริการ ClinePass subscription ในราคาเดือนละ 9.99 ดอลลาร์ โดยให้เข้าถึงโมเดล AI เปิดยอดนิยมหลายตัว ได้แก่ GLM 5.2, Kimi K2.7 และ DeepSeek v4 ซึ่งล้วนเป็นโมเดลที่มีประสิทธิภาพสูงในงานเขียนโค้ด การเปิดบริการ subscription ของตัวเองถือเป็นก้าวสำคัญสำหรับ Cline ที่ต้องการสร้างรายได้โดยตรงแทนการพึ่งพา API key ของผู้ใช้แต่ละราย ตลาด AI Coding Tool กำลังเปลี่ยนจากโมเดลฟรีหรือ API-based มาเป็นบริการ all-inclusive subscription มากขึ้น ทำให้ developer มีทางเลือกมากขึ้นนอกจาก GitHub Copilot",
+      "source_url": "https://www.blognone.com/node/151017",
+      "tech_impact": "ตลาด AI Coding Tools เปลี่ยนสู่ subscription model เพิ่ม ทำให้ developer มีทางเลือกมากขึ้นนอกจาก Copilot",
+      "tags": [
+        "Cline",
+        "AI coding",
+        "VSCode",
+        "subscription"
+      ],
+      "category_label": "เครื่องมือ AI",
+      "published_at": "2026-06-30T08:18:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Tools",
+        "Developer Tools",
+        "LLM",
+        "Coding Assistant"
+      ],
+      "actions_developer": [
+        "ทดลอง ClinePass เพื่อเปรียบเทียบกับ GitHub Copilot ด้านคุณภาพโค้ดและราคา",
+        "ประเมิน DeepSeek v4 และ GLM 5.2 สำหรับ coding tasks ที่ต้องการ context window ยาว"
+      ],
+      "actions_business": [
+        "ทบทวน AI coding tool stack ขององค์กร เปรียบเทียบ Cline, Copilot, Cursor เพื่อหาตัวเลือกที่คุ้มค่าที่สุด",
+        "พิจารณา budget impact จากการที่ developer อาจต้องการ subscription หลายบริการพร้อมกัน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "45b59d3f7d38",
+      "slug": "south-korea-3-mega-projects-samsung-skhynix",
+      "title": "เกาหลีใต้ประกาศ 3 เมกะโปรเจกต์ด้านเซมิคอนดักเตอร์และ AI มี Samsung, SK hynix ร่วมลงทุน",
+      "topic": "นโยบาย AI",
+      "topic_group": "global",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "รัฐบาลเกาหลีใต้ประกาศโครงการลงทุนขนาดใหญ่ 3 เมกะโปรเจกต์ด้านเซมิคอนดักเตอร์ Physical AI และศูนย์ข้อมูล AI ในพื้นที่ตะวันตกเฉียงใต้ของประเทศ โดยมี Samsung และ SK hynix ร่วมลงทุนมูลค่ารวมกว่า 800 ล้านล้านวอน (ประมาณ 17.3 ล้านล้านบาท) ระยะเวลา 15 ปี ส่วนรัฐบาลร่วมลงทุน 30 ล้านล้านวอน โครงการครอบคลุมการสร้าง hub การผลิตชิป ศูนย์ข้อมูล AI ขนาดใหญ่ และระบบหุ่นยนต์อัจฉริยะ เพื่อรับมือกับการเปลี่ยนแปลงของอุตสาหกรรมโลกในอีก 20-30 ปีข้างหน้า นับเป็นหนึ่งในแผนลงทุนด้านเทคโนโลยีขนาดใหญ่ที่สุดในประวัติศาสตร์เกาหลีใต้",
+      "source_url": "https://www.blognone.com/node/151016",
+      "tech_impact": "เกาหลีใต้ลงทุนขนาดใหญ่ด้าน semiconductor AI ส่งสัญญาณการแข่งขันโครงสร้างพื้นฐาน AI ระดับชาติที่รุนแรงขึ้น",
+      "tags": [
+        "South Korea",
+        "Samsung",
+        "SK Hynix",
+        "semiconductor",
+        "AI data center"
+      ],
+      "category_label": "นโยบาย AI",
+      "published_at": "2026-06-30T07:18:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Semiconductor",
+        "AI Infrastructure",
+        "Data Center",
+        "Geopolitics"
+      ],
+      "actions_developer": [
+        "ติดตามการพัฒนา AI chip ใหม่จาก Samsung และ SK Hynix ที่อาจลดต้นทุน inference ในอนาคต",
+        "ประเมิน Korean AI ecosystem สำหรับ partnership หรือ technology acquisition"
+      ],
+      "actions_business": [
+        "พิจารณา semiconductor supply chain risk สำหรับองค์กรที่ต้องการ HBM และ advanced memory",
+        "ติดตามโอกาสธุรกิจในโครงการ AI infrastructure ของเกาหลีใต้สำหรับบริษัทไทยในห่วงโซ่อุปทาน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b8f35f03dece",
+      "slug": "story-thailand-forum-2026-ai-future",
+      "title": "The Story Thailand Forum 2026 เปิดเวทีถก AI จากโครงสร้างพื้นฐานสู่อนาคตธุรกิจและสังคม",
+      "topic": "ธุรกิจ AI ไทย",
+      "topic_group": "thailand",
+      "source_name": "Beartai",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "The Story Thailand เตรียมจัดงานสัมมนา 'The Future of AI: When Intelligence Meets Reality' ในวันที่ 8 กรกฎาคม 2569 ที่ SCBX Next Tech ชั้น 4 สยามพารากอน เวลา 10.00-17.30 น. โดยรวบรวมผู้บริหาร นักวิชาการ และผู้นำด้านเทคโนโลยีมาแลกเปลี่ยนมุมมองเกี่ยวกับอนาคต AI ในบริบทธุรกิจและสังคมไทย คำถามสำคัญที่งานนี้จะตอบคือ infrastructure ใดจะเป็นตัวกำหนดความสามารถแข่งขันในยุค AI economy และองค์กรไทยควรปรับตัวอย่างไรให้ทันกระแสลงทุน AI ที่เร่งตัวทั่วโลก งานนี้เหมาะสำหรับ decision makers และนักลงทุนที่ต้องการ strategic insights เกี่ยวกับ AI ในบริบทไทย",
+      "source_url": "https://www.beartai.com/read/1502586/",
+      "tech_impact": "การจัดงาน AI Forum ระดับนี้สะท้อน ecosystem ที่กำลังเติบโตในไทยและความต้องการ AI knowledge sharing",
+      "tags": [
+        "Thailand",
+        "AI Forum",
+        "The Story Thailand",
+        "SCBX"
+      ],
+      "category_label": "ธุรกิจ AI ไทย",
+      "published_at": "2026-06-30T09:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Policy",
+        "Thailand",
+        "AI Business",
+        "AI Ecosystem"
+      ],
+      "actions_developer": [
+        "ลงทะเบียนเข้าร่วมงาน The Story Thailand Forum 2026 เพื่อ network กับ AI leaders ในไทย",
+        "ติดตาม insights จากงานเพื่อเข้าใจ AI strategy ของบริษัทชั้นนำในไทย"
+      ],
+      "actions_business": [
+        "ส่งทีม leadership เข้าร่วมงาน AI Forum เพื่อรับ perspectives เกี่ยวกับ AI infrastructure ที่ไทยต้องการ",
+        "ใช้งานเป็นโอกาส network กับ potential partners ในการพัฒนา AI solutions สำหรับตลาดไทย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "anthropic-claude-sonnet-5-2026-07-01",
+      "slug": "anthropic-claude-sonnet-5-2026-07-01",
+      "title": "Anthropic เปิดตัว Claude Sonnet 5 โมเดล Sonnet ที่ agentic ที่สุดเท่าที่เคยมี",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "ai-trends",
+      "source_name": "Anthropic",
+      "category": "International",
+      "urgency": "high",
+      "content": "Anthropic เปิดตัว Claude Sonnet 5 โมเดลตระกูล Sonnet ที่มีความสามารถ agentic สูงที่สุดเท่าที่เคยพัฒนา สามารถวางแผน ใช้เครื่องมือ เช่น browser และ terminal และทำงานอัตโนมัติได้ในระดับที่เมื่อไม่กี่เดือนก่อนต้องใช้โมเดลขนาดใหญ่กว่าและแพงกว่า โมเดลใหม่นี้มีประสิทธิภาพใกล้เคียง Opus 4.8 แต่ราคาต่ำกว่ามาก และพัฒนาขึ้นอย่างมากจาก Sonnet 4.6 รุ่นก่อนหน้าในด้าน reasoning, tool use, coding และงานที่ต้องใช้ความรู้ ผลการประเมินความปลอดภัยพบว่า Sonnet 5 มีอัตราพฤติกรรมที่ไม่พึงประสงค์ต่ำกว่า Sonnet 4.6 โดยรวม แต่มีความสามารถด้าน cybersecurity ที่ต่ำกว่าโมเดลระดับ Opus มาก จึงเปิดใช้งานมาตรการป้องกันด้าน cyber เป็นค่าเริ่มต้น Sonnet 5 พร้อมใช้งานทันทีในทุกแพ็กเกจ ทั้ง Free, Pro, Max, Team และ Enterprise รวมถึงผ่าน Claude API ในราคาเริ่มต้นพิเศษ $2 ต่อ 1M input tokens และ $10 ต่อ 1M output tokens จนถึงวันที่ 31 สิงหาคม 2026 ก่อนปรับเป็นราคาปกติที่ $3/$15",
+      "source_url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "tech_impact": "Claude Sonnet 5 ลดช่องว่างด้านความสามารถ agentic กับ Opus 4.8 ในราคาที่ถูกกว่า ทำให้ developer และองค์กรเข้าถึงโมเดลระดับสูงได้ง่ายขึ้นทันที",
+      "tags": [
+        "LLM",
+        "Claude",
+        "Agentic AI",
+        "Coding",
+        "API"
+      ],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-06-30T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "Claude",
+        "Agentic AI",
+        "Coding",
+        "API"
+      ],
+      "actions_developer": [
+        "ทดสอบ Claude Sonnet 5 ผ่าน Claude API หรือ Claude Code เพื่อเปรียบเทียบ cost-performance กับ Opus 4.8 ในงาน coding และ agentic tasks",
+        "ปรับ effort level ให้เหมาะกับงานเพื่อบาลานซ์ต้นทุนกับความแม่นยำ โดยใช้ประโยชน์จากราคา introductory pricing ก่อนหมดโปรโมชันสิงหาคมนี้"
+      ],
+      "actions_business": [
+        "ประเมินการย้ายงานที่ใช้ Sonnet 4.6 หรือ Opus มาใช้ Sonnet 5 เพื่อลดต้นทุนโดยไม่เสียประสิทธิภาพมากนัก",
+        "ตรวจสอบมาตรการ cyber safeguards ที่เปิดใช้งานเป็นค่าเริ่มต้น ก่อนนำไปใช้ในงานที่มีความเสี่ยงด้านความปลอดภัย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "anthropic-claude-science-workbench-2026-07-01",
+      "slug": "anthropic-claude-science-workbench-2026-07-01",
+      "title": "Anthropic เปิดตัว Claude Science เวิร์กเบนช์ AI สำหรับนักวิจัยวิทยาศาสตร์",
+      "topic": "เครื่องมือ AI",
+      "topic_group": "tech-trends",
+      "source_name": "Anthropic",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Anthropic เปิดตัว Claude Science ซึ่งเป็นความพยายามครั้งสำคัญที่สุดในการขยายงานด้าน life sciences โดยเป็นแอป AI workbench ที่รวมเครื่องมือและแพ็กเกจที่นักวิจัยใช้บ่อยที่สุดไว้ในที่เดียว เช่น PubMed, Jupyter, R และ cluster terminal ช่วยลดความยุ่งยากจากการสลับใช้งานหลายเครื่องมือ ตัว agent หลักมี skills และ connectors กว่า 60 รายการที่ปรับแต่งไว้สำหรับ genomics, proteomics, cheminformatics และ structural biology พร้อม reviewer agent ที่ตรวจสอบการอ้างอิงและการคำนวณโดยอัตโนมัติ ทุกผลลัพธ์มีประวัติที่ตรวจสอบและทำซ้ำได้ ระบบยังจัดการ compute ให้อัตโนมัติ ตั้งแต่แล็ปท็อปไปจนถึง HPC cluster หรือ GPU ตามความต้องการ มีกรณีศึกษาจาก Manifold Bio, Allen Institute และ UCSF ที่ใช้เร่งงานวิจัยได้เร็วขึ้นมาก Claude Science เปิดให้ใช้แบบ beta สำหรับผู้ใช้แพ็กเกจ Pro, Max, Team และ Enterprise พร้อมประกาศสนับสนุนทุนวิจัยสูงสุด 50 โครงการ AI for Science โดยเปิดรับสมัครถึงวันที่ 15 กรกฎาคม 2026",
+      "source_url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "tech_impact": "Claude Science รวมเครื่องมือวิจัยและ compute ไว้ในที่เดียว ช่วยเร่งงานวิจัยวิทยาศาสตร์และลดเวลาทำงานที่ซ้ำซ้อนได้อย่างมาก",
+      "tags": [
+        "AI for Science",
+        "Research Tools",
+        "Claude",
+        "Biology",
+        "Agentic AI"
+      ],
+      "category_label": "เครื่องมือ AI",
+      "published_at": "2026-06-30T00:00:00Z",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI for Science",
+        "Research Tools",
+        "Claude",
+        "Biology",
+        "Agentic AI"
+      ],
+      "actions_developer": [
+        "ศึกษาการสร้าง custom skills และ connectors สำหรับ pipeline วิจัยของตนเองเพื่อใช้งานร่วมกับ Claude Science",
+        "ทดลองเชื่อมต่อ Claude Science กับ HPC cluster หรือ Modal เพื่อทดสอบการสเกล compute แบบ on-demand"
+      ],
+      "actions_business": [
+        "ประเมินการนำ Claude Science ไปใช้ในทีมวิจัยหรือแล็ปเพื่อลดเวลาทำงานวิเคราะห์ข้อมูลและเขียนรายงานทางวิทยาศาสตร์",
+        "พิจารณาสมัครทุน AI for Science ก่อนปิดรับสมัคร 15 กรกฎาคม 2026 สำหรับโครงการวิจัยที่ต้องใช้ AI เร่งความเร็ว"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "anthropic-claude-small-business-2026-07-01",
+      "slug": "anthropic-claude-small-business-2026-07-01",
+      "title": "Anthropic เปิดตัว Claude for Small Business เจาะกลุ่มธุรกิจขนาดเล็ก",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "tech-trends",
+      "source_name": "Anthropic",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Anthropic เปิดตัวผลิตภัณฑ์ใหม่ Claude for Small Business ซึ่งออกแบบมาเพื่อให้ธุรกิจขนาดเล็กสามารถใช้ Claude จัดการงานประจำวันที่ใช้เวลานาน เช่น การจับคู่ใบแจ้งหนี้กับรายการธุรกรรมทางบัญชี การจัดหมวดหมู่ค่าใช้จ่าย และการทำงานอัตโนมัติแบบ end-to-end อย่างการอัปเดตข้อมูลลูกค้าใน CRM พร้อมส่งอีเมลประกาศให้ลูกค้าองค์กร ข่าวนี้ขึ้นเป็นอันดับหนึ่งบนหน้าแรกของ Hacker News ไม่นานหลังเผยแพร่ พร้อมการพูดคุยจากผู้ใช้จริงที่เชื่อมต่อ Claude Code กับระบบอีเมลและบัญชีของตนเพื่อจัดการงานที่ตรวจสอบได้ง่ายและลดงานที่ต้องทำมือ ผู้ใช้ชี้ว่าจุดแข็งของผลิตภัณฑ์นี้คือช่วยแก้ปัญหาการเข้าถึงตลาด (market penetration) ของ AI ในกลุ่มธุรกิจขนาดเล็กที่ยังไม่คุ้นเคยกับการใช้ AI ในงานประจำวัน คล้ายกับที่ผู้ให้บริการซอฟต์แวร์อื่นเริ่มโปรโมทด้วยการยกตัวอย่าง use case ที่จับต้องได้มากกว่าการโฆษณาแค่ฟีเจอร์",
+      "source_url": "https://www.anthropic.com/news/claude-for-small-business",
+      "tech_impact": "Claude for Small Business ขยายฐานผู้ใช้ AI agentic ไปสู่กลุ่มธุรกิจขนาดเล็กที่มีทรัพยากรจำกัด ผ่าน use case ที่จับต้องได้อย่างงานบัญชีและอีเมล",
+      "tags": [
+        "Claude",
+        "Small Business",
+        "SMB",
+        "Automation"
+      ],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-07-01T02:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Claude",
+        "Small Business",
+        "SMB",
+        "Automation"
+      ],
+      "actions_developer": [
+        "ศึกษาการเชื่อมต่อ Claude กับระบบบัญชีและอีเมลผ่าน API หรือ MCP เพื่อสร้าง workflow อัตโนมัติสำหรับลูกค้าธุรกิจขนาดเล็ก",
+        "ทดสอบ use case ง่ายๆ ที่ตรวจสอบผลลัพธ์ได้ชัดเจน เช่น การจับคู่ใบแจ้งหนี้กับธุรกรรม ก่อนขยายไปงานที่ซับซ้อนขึ้น"
+      ],
+      "actions_business": [
+        "ประเมินการนำ Claude for Small Business มาใช้ลดภาระงานเอกสารและบัญชีในทีมขนาดเล็กที่ไม่มีแผนก IT เฉพาะทาง",
+        "ศึกษาโมเดลการตั้งราคาแบบ use-case-based ที่เน้นโชว์ตัวอย่างการใช้งานจริงมากกว่าแค่ฟีเจอร์ทางเทคนิค"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "glm-52-vs-opus-2026-07-01",
+      "slug": "glm-52-vs-opus-2026-07-01",
+      "title": "เปรียบเทียบ GLM 5.2 กับ Claude Opus 4.8 ในงาน coding แบบ one-shot",
+      "topic": "งานวิจัย AI",
+      "topic_group": "ai-trends",
+      "source_name": "Hacker News",
+      "category": "International",
+      "urgency": "medium",
+      "content": "บทความจาก techstackups.com เปรียบเทียบโมเดล open-weight GLM-5.2 ของ Zhipu AI กับ Claude Opus 4.8 ของ Anthropic ด้วยการทดสอบแบบ one-shot คือให้ทั้งสองโมเดลสร้างเกมแพลตฟอร์ม 3D ด้วย raw WebGL จากพรอมป์เดียวกัน ผลการทดสอบพบว่า Opus 4.8 ทำงานเสร็จเร็วกว่าและได้ผลลัพธ์ที่สะอาดและสมบูรณ์กว่า ขณะที่ GLM-5.2 มีต้นทุนถูกกว่าราวหนึ่งในห้าของ Opus เมื่อคิดจาก output token pricing บทความนี้กลายเป็นหัวข้อถกเถียงอย่างกว้างขวางบน Hacker News โดยผู้ใช้จำนวนมากตั้งคำถามว่าการทดสอบแบบ one-shot prompt เพียงครั้งเดียวเป็นตัวชี้วัดที่มีความหมายสำหรับความสามารถของ coding agent หรือไม่ เนื่องจากงานจริงส่วนใหญ่เป็นการทำงานแบบ collaborative หลายรอบ อย่างไรก็ตาม ผู้ใช้จำนวนมากยืนยันจากประสบการณ์ตรงว่า GLM-5.2 กำลังได้รับความนิยมเพิ่มขึ้นในฐานะโมเดล open-weight ราคาถูกที่ใกล้เคียงระดับ frontier แม้จะยังมีข้อจำกัดด้าน UI/UX และความเร็วในการประมวลผลเมื่อเทียบกับโมเดลชั้นนำ",
+      "source_url": "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
+      "tech_impact": "การทดสอบชี้ให้เห็นว่าโมเดล open-weight จากจีนอย่าง GLM-5.2 ไล่ตามความสามารถ coding ของโมเดล frontier ได้ใกล้ขึ้นมาก ในต้นทุนที่ต่ำกว่าอย่างมีนัยสำคัญ",
+      "tags": [
+        "GLM-5.2",
+        "Claude Opus",
+        "Benchmark",
+        "Open Weight Models",
+        "Coding"
+      ],
+      "category_label": "งานวิจัย AI",
+      "published_at": "2026-07-01T02:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "GLM-5.2",
+        "Claude Opus",
+        "Benchmark",
+        "Open Weight Models",
+        "Coding"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ GLM-5.2 กับงาน coding ที่ไม่ต้องการความแม่นยำสูงสุด เพื่อประเมินความคุ้มค่าด้านต้นทุนเทียบกับ Opus",
+        "อย่าตัดสินใจเลือกโมเดลจากการทดสอบ one-shot เพียงอย่างเดียว ควรทดสอบ workflow แบบ multi-turn และ agentic ที่ตรงกับการใช้งานจริง"
+      ],
+      "actions_business": [
+        "ประเมินการใช้โมเดล open-weight ราคาถูกสำหรับงานปริมาณมากที่ไม่ต้องการคุณภาพสูงสุด เพื่อลดต้นทุนรวมของระบบ",
+        "ติดตามพัฒนาการของโมเดลจีนอย่าง GLM ต่อเนื่อง เนื่องจากกำลังลดช่องว่างด้านคุณภาพกับโมเดลตะวันตกในราคาที่แข่งขันได้"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "sakana-fugu-2026-07-01",
+      "slug": "sakana-fugu-2026-07-01",
+      "title": "Sakana AI เปิดตัว Fugu ระบบ orchestration หลายโมเดลผ่าน API เดียว",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "tech-trends",
+      "source_name": "Hacker News",
+      "category": "International",
+      "urgency": "low",
+      "content": "Sakana AI เปิดตัวผลิตภัณฑ์ใหม่ชื่อ Fugu ซึ่งเป็นระบบ orchestration และ routing หลายโมเดล โดยจะวิเคราะห์คำขอที่ส่งเข้ามาแล้วเลือกส่งต่อไปยัง LLM ที่เหมาะสมที่สุดโดยอัตโนมัติ และสามารถเชื่อมโยงหลายโมเดลทำงานร่วมกันได้ เช่น ให้โมเดลหนึ่งคิดคำตอบ อีกโมเดลตรวจสอบ และอีกโมเดลสังเคราะห์ผลลัพธ์สุดท้าย ทั้งหมดผ่าน endpoint เดียวที่รองรับมาตรฐาน OpenAI-compatible ผลิตภัณฑ์ระดับสูงกว่าคือ Fugu Ultra ซึ่งสร้าง workflow ขนาดเล็กหลายขั้นตอนข้ามโมเดลต่างๆ แทนการเลือกเพียงโมเดลเดียว ข่าวนี้ได้รับความสนใจบน Hacker News ทันที โดยผู้ใช้จำนวนมากเปรียบเทียบ Fugu กับฟีเจอร์ Fusion ของ OpenRouter และตั้งคำถามเชิงวิจารณ์ว่าการสร้างระบบที่พึ่งพา orchestrator ตัวเดียวนี้ช่วยลดการพึ่งพา vendor เดียวได้จริงหรือไม่ในเมื่อผู้ใช้ยังต้องพึ่งพา Sakana เป็น single point of dependency ใหม่แทน บางคนมองว่า Fugu Ultra มีความซับซ้อนและอาจช้ากว่า Fusion ของ OpenRouter",
+      "source_url": "https://sakana.ai/fugu/",
+      "tech_impact": "Fugu สะท้อนเทรนด์ multi-model orchestration ที่กำลังเติบโต ซึ่งช่วยให้นักพัฒนาลดความเสี่ยงจากการพึ่งพาโมเดลเดียว แต่ก็สร้างจุดพึ่งพาใหม่กับผู้ให้บริการ orchestration",
+      "tags": [
+        "Sakana AI",
+        "Multi-Agent",
+        "Model Routing",
+        "API",
+        "Orchestration"
+      ],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-07-01T01:30:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Sakana AI",
+        "Multi-Agent",
+        "Model Routing",
+        "API",
+        "Orchestration"
+      ],
+      "actions_developer": [
+        "ทดลองเปรียบเทียบ Fugu กับโซลูชันคล้ายกันอย่าง OpenRouter Fusion เพื่อดูว่า routing logic แบบใดเหมาะกับ use case ของตน",
+        "พิจารณา latency และต้นทุน token ที่เพิ่มขึ้นจากการเรียกหลายโมเดลต่อ request ก่อนนำ multi-agent orchestration ไปใช้ใน production"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงของการพึ่งพา orchestration layer จากผู้ให้บริการรายเดียว แทนที่จะพึ่งพา LLM vendor รายเดียวโดยตรง",
+        "ติดตามพัฒนาการของผลิตภัณฑ์ multi-model routing เพื่อเปรียบเทียบความคุ้มค่าก่อนเลือกใช้ในระบบที่ต้องพึ่งพาความน่าเชื่อถือสูง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "d847e44ff01a",
+      "slug": "proception-tesla-trade-secret-settlement-11m",
+      "title": "บริษัทหุ่นยนต์มือ Proception ยอมความคดี Tesla ล้วงความลับทางธุรกิจ พร้อมระดมทุน $11M",
+      "topic": "หุ่นยนต์ AI",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Proception สตาร์ทอัพด้านมือหุ่นยนต์ (dexterous robot hand) ประกาศยอมความในคดีที่ Tesla ฟ้องร้องว่าขโมยความลับทางการค้าเกี่ยวกับระบบมือหุ่นยนต์ขั้นสูง พร้อมกันนั้นยังประกาศระดมทุน Series A ได้ 11 ล้านดอลลาร์ Proception พัฒนาระบบ tactile sensing และ dexterous manipulation สำหรับหุ่นยนต์ humanoid โดยอ้างว่าเทคโนโลยีพัฒนาอิสระจาก Tesla คดีนี้สะท้อนการแข่งขันที่รุนแรงในตลาดหุ่นยนต์ฮิวแมนอยด์ซึ่งบริษัทใหญ่อย่าง Tesla (Optimus) กำลังลงทุนอย่างหนัก การที่ Proception ยังระดมทุนได้ $11M หลังยอมความแสดงให้เห็นว่านักลงทุนยังคงเชื่อมั่นในเทคโนโลยีมือหุ่นยนต์ที่จับวัตถุได้อย่างละเอียด",
+      "source_url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+      "tech_impact": "การแข่งขันด้าน robot hand และ tactile sensing รุนแรงขึ้น บริษัทใหญ่อย่าง Tesla ปกป้อง IP อย่างแข็งขัน",
+      "tags": [
+        "Robotics",
+        "Tesla",
+        "Proception",
+        "robot hand",
+        "trade secret"
+      ],
+      "category_label": "หุ่นยนต์ AI",
+      "published_at": "2026-06-29T14:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Robotics",
+        "Humanoid",
+        "AI Hardware",
+        "Legal"
+      ],
+      "actions_developer": [
+        "ติดตามพัฒนาการ tactile sensing API จาก Proception สำหรับ robot control applications",
+        "ศึกษา dexterous manipulation algorithms ที่กำลังเป็นที่ต้องการในอุตสาหกรรม humanoid robot"
+      ],
+      "actions_business": [
+        "ประเมิน IP risk ก่อนจ้างวิศวกรจาก Tesla หรือ Google Robotics เพื่อป้องกันคดี trade secret",
+        "ติดตามการลงทุนในสตาร์ทอัพ robot hand เพราะ dexterous manipulation เป็น bottleneck สำคัญของหุ่นยนต์ humanoid"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "85c3f90dcf40",
+      "slug": "omen-ai-liquid-cooling-data-center",
+      "title": "Omen AI เดิมพันระบบ liquid cooling อัจฉริยะเพื่อประหยัดพลังงาน AI data center",
+      "topic": "โครงสร้างพื้นฐาน AI",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Omen AI สตาร์ทอัพด้าน AI infrastructure นำเสนอแนวทางใหม่ในการจัดการพลังงานศูนย์ข้อมูล AI โดยใช้ระบบ liquid cooling ที่ควบคุมด้วย AI เพื่อเพิ่มประสิทธิภาพการระบายความร้อนของเซิร์ฟเวอร์ GPU ซึ่งกินพลังงานสูงมาก แนวทางของ Omen AI ต่างจาก air cooling แบบดั้งเดิมตรงที่ใช้น้ำหมุนเวียนโดยตรงที่ชิป และใช้ ML เพื่อทำนายและควบคุมอุณหภูมิแบบ real-time ลดการใช้พลังงานได้ 30-40% ตามที่บริษัทอ้าง ท่ามกลางวิกฤต power และ water consumption ของ AI data center ทั่วโลก Omen AI กำลังพยายามเจาะตลาดที่กำลังเติบโตอย่างรวดเร็วนี้",
+      "source_url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
+      "tech_impact": "ปัญหาพลังงานและน้ำของ AI data center เปิดตลาดใหม่สำหรับ infrastructure optimization startups",
+      "tags": [
+        "Omen AI",
+        "data center",
+        "liquid cooling",
+        "AI infrastructure",
+        "energy"
+      ],
+      "category_label": "โครงสร้างพื้นฐาน AI",
+      "published_at": "2026-06-29T13:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Infrastructure",
+        "Data Center",
+        "Energy",
+        "Hardware"
+      ],
+      "actions_developer": [
+        "ศึกษา liquid cooling APIs สำหรับการออกแบบ server rack ที่รองรับ AI workloads หนัก",
+        "พิจารณา power efficiency metrics เมื่อเลือก cloud provider สำหรับ training AI models"
+      ],
+      "actions_business": [
+        "ประเมิน data center PUE และ water consumption ก่อนขยาย AI infrastructure",
+        "ติดตาม Omen AI และ competitors ในตลาด liquid cooling สำหรับโอกาสลดต้นทุน operation"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "66a122702bc0",
+      "slug": "ford-rehires-engineers-ai-automation-falls-short",
+      "title": "Ford ดึงวิศวกรอาวุโสกลับมาทำงาน หลัง AI ทำงานแทนได้ไม่ดีอย่างที่หวัง",
+      "topic": "ธุรกิจ AI",
+      "topic_group": "global",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "high",
+      "content": "Ford Motor ถูกรายงานว่ากำลังดึงวิศวกรอาวุโส (gray-beard engineers) ที่เกษียณหรือลาออกไปกลับเข้ามาทำงานชั่วคราว หลังจากที่การใช้ AI automation ในสายการผลิตและวิศวกรรมไม่ได้ผลตามที่หวัง ปัญหาสำคัญคือ AI ยังขาด tacit knowledge และประสบการณ์เชิงปฏิบัติที่วิศวกรอาวุโสสะสมมาหลายสิบปี โดยเฉพาะในงานที่ต้องการการตัดสินใจในสถานการณ์ผิดปกติ เหตุการณ์นี้เป็นตัวอย่างสำคัญของ AI Adoption Backlash ที่กำลังเกิดขึ้นในหลายอุตสาหกรรม การที่ Ford ยอมรับว่า AI ยังไม่พอก็เพื่อรักษาคุณภาพ ซึ่งเป็นบทเรียนที่องค์กรทั่วโลกควรนำไปพิจารณา",
+      "source_url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "tech_impact": "AI ยังไม่สามารถทดแทน tacit knowledge ของผู้เชี่ยวชาญในงานวิศวกรรมซับซ้อน เป็นบทเรียนสำหรับ AI automation adoption",
+      "tags": [
+        "Ford",
+        "AI automation",
+        "engineering",
+        "workforce",
+        "automotive"
+      ],
+      "category_label": "ธุรกิจ AI",
+      "published_at": "2026-06-28T16:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Automation",
+        "Workforce",
+        "Manufacturing",
+        "AI Limitations"
+      ],
+      "actions_developer": [
+        "ออกแบบ AI tools ให้ augment ผู้เชี่ยวชาญแทนที่จะ replace โดยเน้น knowledge capture",
+        "สร้างระบบ human-in-the-loop ที่ชัดเจนสำหรับ AI automation ในงานวิศวกรรมที่ซับซ้อน"
+      ],
+      "actions_business": [
+        "ทบทวน AI automation roadmap เพื่อระบุงานที่ยังต้องการ human expertise โดยเฉพาะงานที่ใช้ tacit knowledge",
+        "พิจารณาโปรแกรม knowledge transfer จากผู้เชี่ยวชาญอาวุโสก่อน retire เพื่อลด knowledge gap ที่ AI ยังปิดไม่ได้"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "c954eb691633",
+      "slug": "micron-next-nvidia-hbm-memory-ai",
+      "title": "Wall Street เชื่อ Micron อาจเป็น Nvidia รายต่อไป เพราะ HBM memory กลายเป็นสิ่งขาดแคลนใหม่ของ AI",
+      "topic": "เซมิคอนดักเตอร์ AI",
+      "topic_group": "global",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "นักวิเคราะห์การเงิน Wall Street หลายรายออกรายงานระบุว่า Micron Technology อาจกลายเป็น Nvidia รายต่อไปในแง่ของการเติบโตของมูลค่าหุ้น เนื่องจาก HBM (High Bandwidth Memory) ซึ่ง Micron ผลิตกำลังกลายเป็น bottleneck สำคัญในการสร้าง AI accelerators รุ่นใหม่ เมื่อ GPU compute ไม่ใช่ปัจจัยจำกัดอีกต่อไป memory bandwidth กลับกลายเป็นข้อจำกัดหลัก โดยเฉพาะสำหรับ LLM inference ที่ต้องการ memory I/O สูงมาก Micron เป็นหนึ่งในสามผู้ผลิต HBM รายใหญ่ (ร่วมกับ SK Hynix และ Samsung) แต่ถือว่าเป็น US company เพียงรายเดียว ซึ่งเป็นข้อได้เปรียบในยุค geopolitics AI",
+      "source_url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+      "tech_impact": "HBM memory กำลังกลายเป็น constraint สำคัญของ AI performance ส่งผลให้ผู้ผลิต memory อย่าง Micron มีอำนาจตลาดสูงขึ้น",
+      "tags": [
+        "Micron",
+        "HBM",
+        "memory",
+        "AI chips",
+        "Wall Street",
+        "Nvidia"
+      ],
+      "category_label": "เซมิคอนดักเตอร์ AI",
+      "published_at": "2026-06-28T12:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Semiconductor",
+        "AI Hardware",
+        "HBM",
+        "Memory",
+        "Investment"
+      ],
+      "actions_developer": [
+        "ออกแบบ model architecture ที่คำนึงถึง memory bandwidth constraint ไม่ใช่แค่ FLOPS",
+        "ติดตาม HBM availability เมื่อวางแผน AI infrastructure expansion เพราะอาจมี lead time ยาว"
+      ],
+      "actions_business": [
+        "ประเมิน supply chain risk ของ AI hardware โดยเพิ่ม HBM memory ใน risk matrix",
+        "ติดตาม Micron, SK Hynix, Samsung สำหรับข้อมูล HBM supply ที่อาจกระทบ AI project timeline"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "83f4dcacc7eb",
+      "slug": "ai-model-network-internet-like-collaboration",
+      "title": "AI-Model Network: กรอบ Internet-Like สำหรับโมเดล AI หลายตัวทำงานร่วมกัน",
+      "topic": "งานวิจัย AI",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยนี้เสนอแนวคิด AI-Model Network ซึ่งเป็นกรอบการทำงานที่ให้โมเดล AI หลายตัวจากผู้พัฒนาต่างกันสามารถสื่อสาร ประสานงาน และทำงานร่วมกันได้แบบ distributed คล้ายกับอินเทอร์เน็ตที่ให้คอมพิวเตอร์หลายล้านเครื่องเชื่อมต่อกัน แนวคิดนี้แก้ปัญหาที่ว่าโมเดล AI ในปัจจุบันทำงานแบบ siloed โดยไม่มีกลไกมาตรฐานในการ delegate งาน แบ่งปัน context หรือตรวจสอบผลลัพธ์ระหว่างกัน กรอบที่เสนอมี protocol สำหรับ model discovery, task routing, result verification และ trust management ระหว่างโมเดล เปิดทางสู่ ecosystem ของ AI agents ที่ทำงานร่วมกันข้ามองค์กรและผู้พัฒนา ซึ่งอาจเปลี่ยนแปลงรูปแบบ AI infrastructure ในอนาคต",
+      "source_url": "https://arxiv.org/abs/2606.27382",
+      "tech_impact": "กรอบ AI-Model Network อาจเปลี่ยนรูปแบบ multi-agent AI จาก centralized orchestration เป็น decentralized collaboration",
+      "tags": [
+        "AI Model Network",
+        "distributed AI",
+        "model collaboration",
+        "internet AI"
+      ],
+      "category_label": "งานวิจัย AI",
+      "published_at": "2026-06-29T00:00:00+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Multi-Agent AI",
+        "AI Architecture",
+        "Distributed Systems",
+        "LLM"
+      ],
+      "actions_developer": [
+        "ศึกษา protocol ที่เสนอสำหรับ model interoperability เพื่อออกแบบ multi-agent system ที่ extend ได้",
+        "ประเมินว่า AI-Model Network concepts สามารถ apply กับ agentic pipeline ที่กำลังพัฒนาได้อย่างไร"
+      ],
+      "actions_business": [
+        "ติดตาม standardization ของ AI agent communication protocols เพราะอาจกลายเป็น de facto standard",
+        "พิจารณา AI vendor strategy ที่รองรับ interoperability ระหว่างโมเดลจากผู้พัฒนาต่างกัน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "255089f4a6a1",
+      "slug": "internalizing-future-agentic-world-model-planning",
+      "title": "Internalizing the Future: เทรน Agentic AI ด้วย World Model Planning แบบ 3 ขั้นตอน",
+      "topic": "งานวิจัย AI",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยนี้เสนอวิธีฝึก AI agent ให้มีความสามารถ long-term planning โดยให้โมเดล internalize world model ไว้ภายในแทนที่จะต้องพึ่ง external simulator กระบวนการฝึกแบ่งเป็น 3 ขั้นตอน ได้แก่ WM-AMT (World Model Agentic Multi-Task) ที่ฝึก agent เข้าใจโลก FE-SFT (Future Emulation Supervised Fine-Tuning) ที่สอน agent จำลองอนาคต และ FC-RL (Future-Conditioned Reinforcement Learning) ที่ใช้ภาพอนาคตที่จำลองได้เป็นสัญญาณนำทางการตัดสินใจปัจจุบัน แนวทางนี้ช่วยให้ agent ตัดสินใจโดยคำนึงถึงผลลัพธ์ระยะยาว แทนที่จะตอบสนองต่อ reward ทันทีเพียงอย่างเดียว ซึ่งเป็นก้าวสำคัญสู่ AI ที่วางแผนได้จริง",
+      "source_url": "https://arxiv.org/abs/2606.27483",
+      "tech_impact": "การที่ AI agent มี world model ภายในอาจลดความจำเป็นใน explicit planning modules ทำให้ agentic AI มีประสิทธิภาพสูงขึ้น",
+      "tags": [
+        "agentic AI",
+        "world model",
+        "reinforcement learning",
+        "planning",
+        "WM-AMT",
+        "FE-SFT",
+        "FC-RL"
+      ],
+      "category_label": "งานวิจัย AI",
+      "published_at": "2026-06-29T00:00:00+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Agentic AI",
+        "Reinforcement Learning",
+        "World Models",
+        "LLM Planning"
+      ],
+      "actions_developer": [
+        "ศึกษา WM-AMT/FE-SFT/FC-RL framework สำหรับ agent training ที่ต้องวางแผนระยะยาว",
+        "ทดสอบ future-conditioned RL ในสภาพแวดล้อมที่ agent ต้องการ multi-step planning"
+      ],
+      "actions_business": [
+        "ติดตามงานวิจัยนี้เพราะอาจนำไปสู่ AI agent ที่จัดการ complex workflows ได้โดยไม่ต้องกำหนด steps ทุกอย่าง",
+        "ประเมิน readiness ขององค์กรสำหรับ autonomous AI agents ที่วางแผนระยะยาวได้ด้วยตัวเอง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "6beb155694f0",
+      "slug": "gilp-hallucinated-state-reduction-llm-agent",
+      "title": "GILP: ลด Hallucinated-State ของ LLM Agent จาก 17.6% เหลือ 3.5% เพิ่ม Success Rate 66.8%→83.8%",
+      "topic": "งานวิจัย AI",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv",
+      "category": "Research",
+      "urgency": "high",
+      "content": "งานวิจัย GILP (Grounded Iterative Language Planning) นำเสนอวิธีแก้ปัญหา hallucinated states ในการวางแผนของ LLM agent ซึ่งเกิดเมื่อ agent สร้าง action plan โดยอ้างอิงสถานะที่ไม่มีอยู่จริงในสภาพแวดล้อม ทำให้ execution ล้มเหลว GILP แก้โดยให้ agent ตรวจสอบแต่ละ state กับ ground truth ของสภาพแวดล้อมแบบ iterative ก่อนที่จะ execute ผลการทดสอบแสดงให้เห็นว่า GILP ลด hallucinated-state rate จาก 0.176 (17.6%) เหลือเพียง 0.035 (3.5%) ซึ่งเป็นการลดลงถึง 80% และเพิ่ม task success rate จาก 0.668 เป็น 0.838 นับเป็นหนึ่งในงานวิจัยที่มีตัวเลขพัฒนาการชัดเจนที่สุดในการแก้ hallucination ของ AI agent",
+      "source_url": "https://arxiv.org/abs/2606.27806",
+      "tech_impact": "GILP แสดงให้เห็นว่า grounding verification ระหว่าง planning สามารถลด agent hallucination ได้ 80% ซึ่งเป็นตัวเลขที่น่าประทับใจมาก",
+      "tags": [
+        "GILP",
+        "hallucination",
+        "LLM agent",
+        "task planning",
+        "grounding"
+      ],
+      "category_label": "งานวิจัย AI",
+      "published_at": "2026-06-29T00:00:00+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "LLM Agent",
+        "Hallucination",
+        "Task Planning",
+        "AI Reliability"
+      ],
+      "actions_developer": [
+        "ทดสอบ GILP approach ใน agentic pipeline ที่มีปัญหา hallucinated states บ่อย",
+        "implement iterative state verification ก่อน execute ใน agent framework เพื่อเพิ่ม reliability"
+      ],
+      "actions_business": [
+        "ประเมิน business impact ของ agent hallucination ใน production และพิจารณา GILP-like verification",
+        "คำนึงถึง cost-benefit ของ iterative verification ที่เพิ่ม latency แต่เพิ่ม reliability อย่างมีนัยสำคัญ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "6e952688b24c",
+      "slug": "normact-social-norm-compliance-llm-benchmark",
+      "title": "NormAct: GPT-5.4, Claude Opus 4.7, Gemini 3 Pro ปฏิบัติตาม Social Norms เพียง 26.4% ในสถานการณ์ซับซ้อน",
+      "topic": "งานวิจัย AI",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv",
+      "category": "Research",
+      "urgency": "high",
+      "content": "งานวิจัย NormAct นำเสนอ benchmark ใหม่สำหรับวัดความสามารถของ LLM ในการเข้าใจและปฏิบัติตาม social norms ที่ไม่ได้ระบุไว้ชัดเจน (hidden norms) ซึ่งมนุษย์เข้าใจโดยปริยายจากบริบทสังคม ผลการทดสอบพบว่าแม้แต่โมเดล frontier รุ่นล่าสุดอย่าง GPT-5.4, Claude Opus 4.7 และ Gemini 3 Pro สามารถปฏิบัติตาม social norms ในสถานการณ์ซับซ้อนได้เพียง 26.4% เท่านั้น สะท้อนว่า LLMs ยังขาดความเข้าใจเชิงลึกเกี่ยวกับบรรทัดฐานทางสังคมที่มีความละเอียดอ่อน การค้นพบนี้มีนัยสำคัญต่อการ deploy AI ในสถานการณ์ที่ต้องการความเข้าใจวัฒนธรรมและสังคม เช่น healthcare, customer service และ social robotics",
+      "source_url": "https://arxiv.org/abs/2606.27826",
+      "tech_impact": "LLMs ชั้นนำยังขาด social norm compliance อย่างมีนัยสำคัญ ส่งผลให้ deployment ในบริบทที่ต้องการ cultural sensitivity ยังมีความเสี่ยงสูง",
+      "tags": [
+        "NormAct",
+        "social norms",
+        "AI alignment",
+        "GPT-5.4",
+        "Claude Opus 4.7",
+        "Gemini 3 Pro"
+      ],
+      "category_label": "งานวิจัย AI",
+      "published_at": "2026-06-29T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Alignment",
+        "LLM Evaluation",
+        "Social AI",
+        "AI Safety"
+      ],
+      "actions_developer": [
+        "เพิ่ม social norm testing ใน evaluation suite ก่อน deploy LLM ในบริบทที่ต้องการ cultural sensitivity",
+        "ออกแบบ system prompts ที่ระบุ social context ชัดเจนแทนการหวังให้โมเดล infer เอง"
+      ],
+      "actions_business": [
+        "ทบทวน AI deployment ใน customer-facing applications โดยเพิ่ม human oversight สำหรับ culturally sensitive interactions",
+        "ลงทุนใน cultural/social norm fine-tuning ของ AI models ที่ใช้ในตลาดเฉพาะกลุ่ม เช่น ไทย เอเชียตะวันออกเฉียงใต้"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "9d0b678deef9",
+      "slug": "tandem-rl-verifiable-rewards-rlvr-weak-models",
+      "title": "Tandem RL with Verifiable Rewards: RLVR ที่ทำงานร่วมกับโมเดลอ่อนแอและมนุษย์ได้",
+      "topic": "งานวิจัย AI",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยนี้เสนอ framework Tandem RL with Verifiable Rewards ที่ขยาย RLVR (Reinforcement Learning with Verifiable Rewards) ให้ทำงานร่วมกับโมเดลที่อ่อนแอกว่า (weaker models) หรือมนุษย์ในการตรวจสอบความถูกต้องของ rewards แทนที่จะต้องพึ่งพา reward model ขนาดใหญ่หรือโมเดลที่แข็งแกร่งกว่าเพียงอย่างเดียว แนวทางนี้แก้ปัญหา scalability ของ RLVR ดั้งเดิมที่ต้องใช้ทรัพยากรสูงมาก Tandem RL ใช้การตรวจสอบแบบ ensemble จากแหล่งต่างๆ เพื่อสร้าง verifiable signal ที่น่าเชื่อถือ ทำให้สามารถ train โมเดลด้วย RL ได้ในสภาพแวดล้อมที่ ground truth หายากหรือมีค่าใช้จ่ายสูง เช่น scientific research หรือ code verification",
+      "source_url": "https://arxiv.org/abs/2606.28166",
+      "tech_impact": "Tandem RL เปิดทาง RLVR training ในสถานการณ์ที่ไม่มี strong reward model ซึ่งสำคัญมากสำหรับ domain-specific AI",
+      "tags": [
+        "RLVR",
+        "Tandem RL",
+        "reinforcement learning",
+        "verifiable rewards",
+        "weak models"
+      ],
+      "category_label": "งานวิจัย AI",
+      "published_at": "2026-06-29T00:00:00+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Reinforcement Learning",
+        "RLVR",
+        "AI Training",
+        "LLM Fine-tuning"
+      ],
+      "actions_developer": [
+        "ศึกษา Tandem RL framework สำหรับ fine-tuning domain-specific models ที่ไม่มี large reward model พร้อม",
+        "พิจารณา human-in-the-loop verification approach สำหรับ RLVR ใน niche domains ที่ automated checking ทำได้ยาก"
+      ],
+      "actions_business": [
+        "ประเมิน feasibility ของ domain-specific RLVR ด้วย Tandem approach สำหรับ enterprise AI use cases",
+        "ลงทุนใน human annotation infrastructure สำหรับ reward verification ในงานที่ AI ยังไม่สามารถตรวจสอบตัวเองได้"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "e1f39a1cc89b",
+      "slug": "jd-oxygen-aiic-ecommerce-llm-vlm-production",
+      "title": "JD Oxygen AIIC: ระบบ LLM/VLM สำหรับ E-Commerce 700 ล้านผู้ใช้ สินค้าหลายหมื่นล้าน SKU ความแม่นยำ 94.2%",
+      "topic": "งานวิจัย AI",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "JD.com เปิดเผยรายละเอียดของระบบ Oxygen AIIC (AI Infrastructure and Intelligence Core) ที่ใช้งานจริงสำหรับ e-commerce ขนาดใหญ่ที่สุดในโลก ระบบนี้รองรับผู้ใช้งาน 700 ล้านคน และจัดการสินค้าหลายหมื่นล้าน SKU โดยใช้ LLM และ VLM (Vision Language Model) ผสมผสานกันสำหรับงาน product search, recommendation, image understanding และ customer service ผลการประเมินในสภาวะ production จริงแสดง precision 94.2% ในงาน product classification ซึ่งถือเป็นตัวเลขที่สูงมากสำหรับระบบที่รองรับ traffic ขนาดนี้ งานวิจัยนี้เป็นตัวอย่างที่หายากของการ deploy AI ใน hyperscale e-commerce จริง ที่แบ่งปันรายละเอียดทางเทคนิคอย่างเป็นจริงเป็นจัง",
+      "source_url": "https://arxiv.org/abs/2606.28070",
+      "tech_impact": "JD Oxygen AIIC แสดงให้เห็นว่า LLM/VLM สามารถ deploy ใน hyperscale production ได้จริง พร้อมตัวเลข precision ที่น่าเชื่อถือ",
+      "tags": [
+        "JD Oxygen",
+        "AIIC",
+        "e-commerce AI",
+        "VLM",
+        "LLM",
+        "700M users",
+        "product search"
+      ],
+      "category_label": "งานวิจัย AI",
+      "published_at": "2026-06-29T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "E-Commerce AI",
+        "LLM",
+        "VLM",
+        "Production AI",
+        "Product Search"
+      ],
+      "actions_developer": [
+        "ศึกษา JD Oxygen AIIC architecture สำหรับ design patterns ของ multi-modal AI ใน e-commerce scale",
+        "เปรียบเทียบ VLM approaches ที่ JD ใช้กับ implementation ปัจจุบัน เพื่อปรับปรุง product understanding"
+      ],
+      "actions_business": [
+        "ใช้ JD Oxygen AIIC เป็น benchmark สำหรับ AI ROI ใน e-commerce เพื่อ justify investment ในไทย",
+        "ประเมิน feasibility ของ LLM/VLM สำหรับ product catalog management และ search ในแพลตฟอร์มไทย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}

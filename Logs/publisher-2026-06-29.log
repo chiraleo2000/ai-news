@@ -1,0 +1,37 @@
+{
+  "run_date": "2026-06-29",
+  "target_date": "2026-06-29",
+  "pipeline_version": "2.0",
+  "document_path": "Document/2026-06-29_News/",
+  "files_created": [
+    "2026-06-29_news.json",
+    "2026-06-29_news.html",
+    "2026-06-29_news.pdf",
+    "_index.json"
+  ],
+  "files_removed_from_v1": [
+    "_by_source.json (merged into main JSON)",
+    "_tech_summary.json (merged into main JSON)",
+    "fonts/ (using Google Fonts)"
+  ],
+  "manifest_updated": true,
+  "github_pages_json_copied": true,
+  "stats": {
+    "total_articles": 33,
+    "topic_breakdown": {
+      "ai_trends": 18,
+      "tech_trends": 5,
+      "thailand": 3,
+      "global": 7
+    },
+    "urgency_breakdown": {
+      "medium": 18,
+      "high": 13,
+      "low": 2
+    },
+    "breakthrough_count": 15
+  },
+  "coverage": "100% — all 33 pass articles included",
+  "word_count_note": "Thai articles: avg 67-107 space-separated tokens (Thai text structure); combined from summary_1 + tech_impact + actions",
+  "next_step": "run ai-news-github-deploy"
+}
