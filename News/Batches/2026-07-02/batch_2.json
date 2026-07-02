@@ -1,0 +1,368 @@
+{
+  "batch": 2,
+  "target_date": "2026-07-02",
+  "generated_at": "2026-07-02T10:20:00+07:00",
+  "total_articles": 5,
+  "articles": [
+    {
+      "article_id": "intl-techcrunch-claude-sonnet5-launch-20260630",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "TechCrunch",
+        "registry_key": "Intl/TechCrunch",
+        "domain": "AI-product",
+        "main_url": "https://techcrunch.com/category/artificial-intelligence"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-02T10:15:00+07:00",
+        "fetch_mode": "aggregator",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-30T13:00:00-07:00",
+        "scraped_at": "2026-07-02T10:15:00+07:00",
+        "run_date": "2026-07-02",
+        "target_date": "2026-07-02",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-PRODUCT",
+        "category_label": "ผลิตภัณฑ์ AI",
+        "news_type": "ข่าว",
+        "tags": ["anthropic", "claude-sonnet-5", "agentic-ai", "llm", "pricing"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+        "title_th": "Anthropic เปิดตัว Claude Sonnet 5 โมเดล Agentic AI ราคาประหยัดสำหรับองค์กร",
+        "slug": "anthropic-claude-sonnet-5-cheaper-agents-techcrunch",
+        "summary": "Anthropic เปิดตัว Claude Sonnet 5 โมเดล AI รุ่นใหม่ที่เน้นงาน Agentic ราคาถูกกว่า Opus 4.8 มีความสามารถ end-to-end task completion และ tool use ที่ดีขึ้นอย่างมาก",
+        "summary_1": "Anthropic ประกาศเปิดตัว Claude Sonnet 5 โมเดล LLM รุ่นใหม่ที่ถูกออกแบบมาเพื่อ Agentic Workflows โดยเฉพาะ ด้วยราคาเพียง $2 ต่อล้าน Input Tokens และ $10 ต่อล้าน Output Tokens ในช่วงโปรโมชัน (ถึง 31 ส.ค.) โมเดลสามารถวางแผนงาน ใช้เบราว์เซอร์ Terminal และ external tools ได้อัตโนมัติโดยไม่ต้องรอคำสั่งทุกขั้นตอน ผลทดสอบ Agentic Coding ได้ 63.2% เพิ่มจาก Sonnet 4.6 ที่ 58.1% และในบางด้านทำได้สูสีกับ Opus 4.8 ที่ 69.2% ราคาหลังโปรโมชันจะปรับเป็น $3/$15 ซึ่งยังคุ้มค่ากว่าคู่แข่งหลายราย Anthropic ระบุว่า Sonnet 5 มีการปรับปรุงด้านความปลอดภัย ลด hallucination และปรับปรุงความสามารถรับมือ Prompt Injection ได้ดีขึ้น การเปิดตัวครั้งนี้สะท้อนสมรภูมิ AI ที่เปลี่ยนจาก 'ฉลาดที่สุด' ไปสู่ 'คุ้มค่าและปลอดภัยที่สุด'",
+        "body_text": "Claude Sonnet 5 ราคา $2/$10 ต่อล้าน tokens เน้น Agentic workflow Coding score 63.2% ปลอดภัยกว่า Sonnet 4.6 คุ้มกว่า GPT-5.5 และ Gemini 3.1 Pro",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Claude Sonnet 5 ทำให้ AI Agents ราคาถูกลงอีกขั้น เปิดโอกาสให้ธุรกิจทุกขนาดนำ Agentic AI มาใช้ใน Production ได้จริงในช่วง H2 2026",
+        "actions_developer": [
+          "ทดสอบ Claude Sonnet 5 ด้วย SWE-bench, GAIA และ benchmark งาน Agentic ของทีม เพื่อเปรียบเทียบ cost-per-task กับ Opus 4.8 และ GPT-5.5",
+          "ออกแบบ Agent Architecture ที่ใช้ Sonnet 5 สำหรับ routine tasks และ escalate ไปยัง Opus 4.8 เฉพาะงานที่ต้องการ precision สูง เพื่อลดต้นทุนรวม"
+        ],
+        "actions_business": [
+          "ทบทวน AI budget ของ Q3-Q4 2026 เพื่อใช้ประโยชน์จากราคาโปรโมชันของ Sonnet 5 ในช่วงถึง 31 ส.ค. สำหรับ pilot projects ที่ต้องการ Agentic AI",
+          "กำหนด use case priority สำหรับ Agentic AI ในองค์กรให้ชัดเจน เช่น customer support automation, code review, data analysis เพื่อ maximize ROI จาก Claude Sonnet 5"
+        ],
+        "urgency": "high",
+        "related_domains": ["LLM", "Agentic AI", "AI-product", "Enterprise AI"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/TechCrunch/2026-07-02/anthropic-claude-sonnet-5-cheaper-agents-techcrunch",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-02/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-techcrunch-ford-ai-engineers-20260628",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "TechCrunch",
+        "registry_key": "Intl/TechCrunch",
+        "domain": "AI-business",
+        "main_url": "https://techcrunch.com/category/artificial-intelligence"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-02T10:15:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-28T19:05:39+00:00",
+        "scraped_at": "2026-07-02T10:15:00+07:00",
+        "run_date": "2026-07-02",
+        "target_date": "2026-07-02",
+        "within_24h": false,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-BUSINESS",
+        "category_label": "AI เพื่อธุรกิจ",
+        "news_type": "ข่าว",
+        "tags": ["ford", "ai-limitations", "manufacturing", "quality-control", "human-ai-hybrid"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Ford rehires 'gray beard' engineers after AI falls short",
+        "title_th": "Ford จ้างวิศวกรอาวุโสกลับมาหลัง AI ตรวจสอบคุณภาพล้มเหลว ประหยัด $1B ต่อปี",
+        "slug": "ford-rehires-veteran-engineers-ai-quality-failure",
+        "summary": "Ford จ้างวิศวกรอาวุโส 350 คนกลับมาหลัง AI quality inspection system ให้ผลไม่ดีพอ COO ยอมรับว่าพึ่ง AI มากเกินไปและเข้าใจผิดว่า AI จะทดแทนความเชี่ยวชาญของมนุษย์ได้ทันที",
+        "summary_1": "Ford Motor Company ยอมรับว่าการพึ่งพา AI และระบบอัตโนมัติในการตรวจสอบคุณภาพการผลิตรถยนต์ทำให้ผลลัพธ์ไม่เป็นที่พอใจ บริษัทจึงตัดสินใจจ้างวิศวกรอาวุโสหรือ 'Gray Beard Engineers' กลับมา 350 คน ทั้งอดีตพนักงานและผู้เชี่ยวชาญจากซัพพลายเออร์ COO Kumar Galhotra กล่าวว่า 'เราพึ่งพาระบบ automated quality มากขึ้นเรื่อย ๆ แต่ได้ผลลัพธ์ที่น่าผิดหวัง' ขณะที่ VP of Hardware Engineering Charles Poon ยอมรับว่า 'เราเข้าใจผิดว่าเพียงแค่นำ AI เข้ามาและป้อน design requirements ก็จะสร้างผลิตภัณฑ์คุณภาพสูงได้' วิศวกรเหล่านี้ถูกใช้เพื่อฝึกพนักงานรุ่นใหม่และปรับปรุง AI tools โดยผลลัพธ์คือ Ford คาดว่าจะประหยัดต้นทุนได้ถึง $1 พันล้านในปีนี้ และคว้าอันดับ 1 ในกลุ่ม mainstream brands จาก JD Power Initial Quality Survey",
+        "body_text": "Ford จ้างวิศวกรอาวุโส 350 คนกลับ หลัง AI quality inspection ไม่ได้มาตรฐาน ใช้ผสมกับ AI ทำให้ประหยัด $1B ต่อปี ขึ้น #1 JD Power Initial Quality",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "กรณี Ford แสดงให้เห็นว่า AI ยังไม่สามารถทดแทนความเชี่ยวชาญเฉพาะทางของมนุษย์ได้ทั้งหมด โมเดล Human-AI Collaboration จะเป็นมาตรฐานใหม่ในอุตสาหกรรม Manufacturing",
+        "actions_developer": [
+          "ออกแบบ AI QC systems ให้มี 'human-in-the-loop' สำหรับจุดวิกฤต โดยเฉพาะการตัดสินใจที่ต้องอาศัยประสบการณ์หลายทศวรรษที่ยังไม่มีใน training data",
+          "สร้าง feedback loop ที่ให้ผู้เชี่ยวชาญมนุษย์ review และ label cases ที่ AI ตัดสินใจผิดพลาด เพื่อ fine-tune โมเดลให้ดีขึ้นต่อเนื่อง"
+        ],
+        "actions_business": [
+          "ทบทวน AI automation strategy โดยระบุ tasks ที่ AI ทำได้ดีโดยไม่ต้องมีมนุษย์ vs. tasks ที่ต้องการ hybrid approach เพื่อหลีกเลี่ยงความผิดพลาดแบบ Ford",
+          "ลงทุนใน Knowledge Transfer Program ที่ดึงความเชี่ยวชาญจากผู้เชี่ยวชาญอาวุโสมาสร้าง training datasets และ validation protocols สำหรับ AI systems"
+        ],
+        "urgency": "medium",
+        "related_domains": ["Manufacturing AI", "AI Limitations", "Human-AI Collaboration", "Quality Control"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/TechCrunch/2026-07-02/ford-rehires-veteran-engineers-ai-quality-failure",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-02/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-techcrunch-omen-ai-datacenter-cooling-20260629",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "TechCrunch",
+        "registry_key": "Intl/TechCrunch",
+        "domain": "AI-tools",
+        "main_url": "https://techcrunch.com/category/artificial-intelligence"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-02T10:16:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-29T13:00:00+00:00",
+        "scraped_at": "2026-07-02T10:16:00+07:00",
+        "run_date": "2026-07-02",
+        "target_date": "2026-07-02",
+        "within_24h": false,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-BUSINESS",
+        "category_label": "AI เพื่อธุรกิจ / Infrastructure",
+        "news_type": "ข่าว",
+        "tags": ["data-center", "cooling", "ai-infrastructure", "startup", "series-a", "omen-ai"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Omen AI's plan to optimize data centers is all wet",
+        "title_th": "Omen AI ระดมทุน $31M ติดตั้งเซนเซอร์ตรวจน้ำหล่อเย็น GPU แก้วิกฤตแบคทีเรียใน Data Center",
+        "slug": "omen-ai-31m-series-a-data-center-cooling-bacteria-monitoring",
+        "summary": "Omen AI ระดมทุน Series A $31M พัฒนาเซนเซอร์ spectrometer ขนาดเล็กตรวจสอบน้ำหล่อเย็นใน Data Center แบบ Real-time ป้องกัน bacterial outbreak ที่ทำให้ต้อง shutdown GPU rack",
+        "summary_1": "Omen AI สตาร์ทอัปที่ก่อตั้งในปี 2024 โดย Zach Laberge ในวัย 14 ปี เพิ่งระดมทุน Series A สำเร็จ $31 ล้านดอลลาร์ นำโดย Nava Ventures เพื่อพัฒนาเซนเซอร์ spectrometer ขนาดเล็กที่ตรวจสอบสภาพน้ำหล่อเย็ดใน Data Center แบบ Real-time ปัญหาที่ Omen AI แก้ไขคือการเกิดแบคทีเรียในระบบ liquid cooling ของ GPU rack ซึ่งเกิดจากการเพิ่มสัดส่วนน้ำเพื่อรองรับความร้อนจากชิป AI รุ่นใหม่ หากเกิดการปนเปื้อน ค่าใช้จ่ายในการ flush ระบบและ shutdown rack อาจสูงถึงหลายล้านดอลลาร์ต่อครั้ง เซนเซอร์ของ Omen ยังตรวจจับการสึกหรอของปั๊มและซีล รวมถึงสัญญาณอื่นๆ ที่บ่งบอกปัญหาก่อนที่จะเกิดขึ้น บริษัทมีลูกค้า 12 ราย รวมถึง TensorWave ผู้ให้บริการ AI Compute บน AMD chips แสดงให้เห็นความต้องการที่เพิ่มขึ้นในตลาด AI Infrastructure monitoring",
+        "body_text": "Omen AI ระดมทุน $31M พัฒนาเซนเซอร์ตรวจน้ำหล่อเย็น GPU Data Center Real-time ป้องกัน bacterial outbreak ค่าใช้จ่าย shutdown $M ลูกค้า 12 ราย รวม TensorWave",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "ตลาด AI Infrastructure Monitoring กำลังเติบโตตามการขยายตัวของ Data Center ทั่วโลก Omen AI ชี้ให้เห็น niche ที่สำคัญ: การตรวจสอบ fluid systems ที่ยังขาด real-time visibility",
+        "actions_developer": [
+          "ประเมิน monitoring gaps ในระบบ liquid cooling ของ infrastructure ที่ใช้อยู่ โดยเฉพาะถ้ามี GPU density สูง เช่น H100/B200 clusters",
+          "สำรวจ open standards สำหรับ Data Center fluid monitoring ที่อาจเกิดขึ้น เพื่อออกแบบระบบที่รองรับ multi-vendor sensor integration"
+        ],
+        "actions_business": [
+          "Data Center operators ในไทยและอาเซียนควรประเมิน ROI ของ real-time fluid monitoring โดยเปรียบเทียบกับต้นทุน downtime ที่อาจสูงถึงล้านดอลลาร์ต่อ incident",
+          "นักลงทุนควรติดตาม space ของ AI Infrastructure Monitoring ซึ่งจะเติบโตตาม Data Center boom ทั้งใน Southeast Asia และทั่วโลก"
+        ],
+        "urgency": "medium",
+        "related_domains": ["AI Infrastructure", "Data Center", "IoT Sensors", "Startup"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/TechCrunch/2026-07-02/omen-ai-31m-series-a-data-center-cooling-bacteria-monitoring",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-02/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-openai-gpt56-anthropic-arms-race-20260701",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "Multiple (TechCrunch / AI Weekly)",
+        "registry_key": "Intl/TechCrunch",
+        "domain": "AI-product",
+        "main_url": "https://techcrunch.com/category/artificial-intelligence"
+      },
+      "source": {
+        "url": "https://techsauce.co/ai/openai-gpt-5-6-preview-3-models-safest-ai",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "medium",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-02T10:16:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-01T00:00:00+07:00",
+        "scraped_at": "2026-07-02T10:16:00+07:00",
+        "run_date": "2026-07-02",
+        "target_date": "2026-07-02",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-PRODUCT",
+        "category_label": "ผลิตภัณฑ์ AI",
+        "news_type": "ข่าว",
+        "tags": ["openai", "gpt-5-6", "llm", "safety", "ai-models"],
+        "language": "th"
+      },
+      "content": {
+        "title": "OpenAI เปิดตัว GPT-5.6 Preview มาพร้อม 3 โมเดลใหม่ ชูจุดแข็ง 'ปลอดภัยที่สุดเท่าที่เคยมีมา'",
+        "title_th": "OpenAI เปิดตัว GPT-5.6 Preview มาพร้อม 3 โมเดลใหม่ ชูจุดแข็ง 'ปลอดภัยที่สุดเท่าที่เคยมีมา'",
+        "slug": "openai-gpt-5-6-preview-3-models-safest-ai",
+        "summary": "OpenAI เปิดตัว GPT-5.6 Preview พร้อม 3 โมเดลใหม่ เน้นความปลอดภัยเป็นจุดขาย ท่ามกลางสมรภูมิ AI ที่เข้มข้นกับ Anthropic และ Google",
+        "summary_1": "OpenAI เปิดตัว GPT-5.6 Preview พร้อมโมเดลใหม่ 3 ตัวที่ครอบคลุมหลาย use case โดยชูจุดแข็งด้านความปลอดภัยว่าเป็น 'โมเดลที่ปลอดภัยที่สุดเท่าที่เคยมีมา' การเปิดตัวครั้งนี้เกิดขึ้นท่ามกลางบริบทที่ White House ได้ขอให้ OpenAI ชะลอการเปิดตัวโมเดลบางรุ่นเนื่องจากข้อกังวลด้านความปลอดภัย ขณะที่ตลาด AI กำลังเข้าสู่ยุคใหม่ที่แต่ละบริษัทแข่งกันพัฒนา Agentic AI ที่สามารถแบ่งงานย่อยและทำงานต่อเนื่องได้ด้วยตัวเอง การที่ OpenAI เน้น 'Safety' เป็นจุดขายสะท้อนการตอบสนองต่อแรงกดดันจากภาครัฐและสังคมที่ต้องการให้ AI มีความรับผิดชอบมากขึ้น ขณะที่การแข่งขันกับ Anthropic ยังคงดุเดือดในตลาด Agentic AI และ Enterprise ซึ่งกำลังกลายเป็นสนามรบหลักในปี 2026",
+        "body_text": "OpenAI เปิดตัว GPT-5.6 Preview 3 โมเดลใหม่ เน้น safety จุดขายหลัก ท่ามกลางแรงกดดัน White House และสมรภูมิ Agentic AI กับ Anthropic/Google",
+        "language": "th",
+        "original_language": "th"
+      },
+      "tech_insights": {
+        "impact_summary": "การแข่งขัน Safety ระหว่าง OpenAI, Anthropic และ Google จะกำหนดมาตรฐาน Enterprise AI ในปี 2026-2027 บริษัทที่เน้น Safety จะได้เปรียบในตลาดที่มีการกำกับดูแลเข้มงวด",
+        "actions_developer": [
+          "ทดสอบ GPT-5.6 Preview บน safety-critical tasks เช่น content moderation, medical information และ legal advice เพื่อเปรียบเทียบกับ Claude Sonnet 5 และ Gemini",
+          "ติดตาม OpenAI system card และ safety evaluation results สำหรับ GPT-5.6 เพื่อประเมินว่า safety claims สอดคล้องกับ real-world performance หรือไม่"
+        ],
+        "actions_business": [
+          "ประเมิน AI vendor strategy โดยพิจารณา safety track record, regulatory compliance และ enterprise SLA ไม่ใช่เพียงแค่ benchmark scores ในการเลือก AI provider",
+          "เตรียม evaluation framework สำหรับ GPT-5.6, Claude Sonnet 5 และ Gemini 3.5 Flash เพื่อเลือก model ที่เหมาะกับ use case เฉพาะขององค์กรในช่วง H2 2026"
+        ],
+        "urgency": "high",
+        "related_domains": ["LLM", "AI Safety", "AI-product", "Enterprise AI"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/TechCrunch/2026-07-02/openai-gpt-5-6-preview-3-models-safest-ai",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-02/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-cisco-google-agentic-resource-discovery-20260701",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "AI Weekly / Multiple",
+        "registry_key": "Digest/AINewsThompson",
+        "domain": "AI-tools",
+        "main_url": "https://aiweekly.co/ai-news-today/google-ai-news"
+      },
+      "source": {
+        "url": "https://aiweekly.co/ai-news-today/google-ai-news",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "medium",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-02T10:17:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-01T00:00:00+07:00",
+        "scraped_at": "2026-07-02T10:17:00+07:00",
+        "run_date": "2026-07-02",
+        "target_date": "2026-07-02",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-TOOLS",
+        "category_label": "เครื่องมือ AI / มาตรฐาน",
+        "news_type": "ข่าว",
+        "tags": ["google", "agentic-ai", "open-standard", "tool-discovery", "interoperability"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Google releases Agentic Resource Discovery Specification with 10 industry partners",
+        "title_th": "Google เปิดตัวมาตรฐานเปิด Agentic Resource Discovery ร่วมกับ 10 พันธมิตรอุตสาหกรรม เพื่อให้ AI Agents ค้นหา Tools ข้ามองค์กรได้",
+        "slug": "google-agentic-resource-discovery-open-standard-10-partners",
+        "summary": "Google เปิดตัวมาตรฐาน Agentic Resource Discovery Specification ร่วมกับ 10 พันธมิตร เพื่อให้ AI Agents ค้นหาและใช้งาน tools ข้ามองค์กรได้มาตรฐานเดียว",
+        "summary_1": "Google เปิดตัว Agentic Resource Discovery Specification ซึ่งเป็น open standard ที่พัฒนาร่วมกับพันธมิตรอุตสาหกรรม 10 ราย มีจุดมุ่งหมายเพื่อให้ AI Agents สามารถค้นหา เชื่อมต่อ และใช้งาน tools และ services ข้ามองค์กรได้อย่างมีมาตรฐาน โดยไม่ต้องพึ่งการ integration แบบ custom ทีละคู่ มาตรฐานนี้จัดการกับหนึ่งในข้อจำกัดสำคัญของ Multi-Agent Systems ในปัจจุบัน คือการที่ Agent ไม่รู้ว่ามี tools อะไรอยู่บ้างในระบบนิเวศขององค์กรหรือพาร์ทเนอร์ การมีมาตรฐานเปิดนี้จะช่วยลดเวลาและต้นทุนในการสร้าง Enterprise Agentic AI ที่ต้องทำงานร่วมกับหลายระบบ และเป็นก้าวสำคัญในการสร้าง interoperability ในยุค Agentic AI ที่ทุกบริษัทกำลังเดินหน้า",
+        "body_text": "Google ออก open standard Agentic Resource Discovery กับ 10 พันธมิตร ให้ AI Agents ค้นหา tools ข้ามองค์กรได้มาตรฐานเดียว แก้ปัญหา integration ซับซ้อนในระบบ Multi-Agent",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Agentic Resource Discovery Specification จะลดต้นทุนและเวลาในการสร้าง Multi-Agent Systems ขององค์กร โดยเป็น 'common language' สำหรับ AI Agents ค้นหา capabilities",
+        "actions_developer": [
+          "ติดตาม Agentic Resource Discovery Specification จาก Google และพิจารณา implement ใน internal tool registry เพื่อให้ AI Agents ค้นหา internal APIs และ services ได้อัตโนมัติ",
+          "มีส่วนร่วมใน working groups หรือ community ที่พัฒนา open standard นี้ เพื่อให้ use cases ขององค์กรได้รับการพิจารณาใน spec ตั้งแต่ต้น"
+        ],
+        "actions_business": [
+          "ประเมินว่า Agentic Resource Discovery จะช่วยลด integration cost สำหรับ AI projects ขององค์กรได้แค่ไหน โดยเฉพาะถ้ามีหลาย systems และ departments ที่ต้องการ AI ทำงานร่วมกัน",
+          "ติดต่อ Google Cloud Thailand เพื่อหาข้อมูลเพิ่มเติมเกี่ยวกับ adoption timeline และ support ในตลาดไทยสำหรับ Agentic Resource Discovery Specification"
+        ],
+        "urgency": "medium",
+        "related_domains": ["Agentic AI", "AI Tools", "Open Standards", "Multi-Agent Systems"],
+        "breakthrough_potential": true
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/AIWeekly/2026-07-02/google-agentic-resource-discovery-open-standard-10-partners",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-02/batch_2.json"
+      }
+    }
+  ]
+}

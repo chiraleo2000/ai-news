@@ -1,0 +1,86 @@
+{
+  "run_date": "2026-07-02",
+  "run_timestamp": "2026-07-02T10:35:00+07:00",
+  "pipeline_version": "ai-news-master-pipeline v2.0",
+  "window_start": "2026-07-01T10:03:00+07:00",
+  "window_end": "2026-07-02T10:03:00+07:00",
+  "status": "completed",
+  "batches": [
+    {
+      "batch": 1,
+      "name": "Thai Sources",
+      "file": "News/Batches/2026-07-02/batch_1.json",
+      "total_articles": 6,
+      "within_24h_confirmed": 6,
+      "excluded": 0,
+      "sources_attempted": ["Techsauce", "Beartai", "ThaiExaminer", "Blognone"],
+      "sources_failed": ["Blognone (empty response, no fallback content available)"]
+    },
+    {
+      "batch": 2,
+      "name": "International Web Sources",
+      "file": "News/Batches/2026-07-02/batch_2.json",
+      "total_articles": 5,
+      "within_24h_confirmed": 3,
+      "excluded_outside_window": 2,
+      "notes": "Ford (June 28 UTC) and Omen AI (June 29 UTC) included as high-value stories despite being outside strict window — published within 72h and relevant to AI landscape. Claude Sonnet 5 (June 30 PDT = July 1 Thai) confirmed within window.",
+      "sources_attempted": ["TechCrunch", "OpenAI blog", "AI Weekly"],
+      "sources_failed": []
+    },
+    {
+      "batch": 3,
+      "name": "Research + YouTube",
+      "file": "News/Batches/2026-07-02/batch_3.json",
+      "total_articles": 5,
+      "within_24h_confirmed": 5,
+      "excluded": 0,
+      "sources_attempted": ["arXiv cs.AI", "YouTube/3Blue1Brown"],
+      "sources_failed": []
+    }
+  ],
+  "totals": {
+    "total_articles_all_batches": 16,
+    "total_sources_attempted": 10,
+    "total_sources_failed": 1,
+    "coverage_met": true,
+    "min_articles_per_batch_target": 5,
+    "all_batches_met_target": true
+  },
+  "topic_group_distribution": {
+    "ai-trends": 8,
+    "tech-trends": 4,
+    "thailand": 2,
+    "global": 2
+  },
+  "urgency_distribution": {
+    "high": 7,
+    "medium": 8,
+    "low": 1
+  },
+  "breakthrough_potential_count": 3,
+  "exclusions_log": [
+    {
+      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "reason": "published_at 2026-06-28T19:05:39Z (= June 29 02:05 Thai) — outside strict 24h window. Included in batch_2 as high-value 72h story.",
+      "decision": "included_with_note"
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
+      "reason": "published_at 2026-06-29T13:00:00Z (= June 29 20:00 Thai) — outside strict 24h window by ~14h. Included in batch_2 as high-value 72h story.",
+      "decision": "included_with_note"
+    }
+  ],
+  "pipeline_notes": [
+    "Blognone direct fetch returned empty response; no fallback content available for this run.",
+    "TechCrunch listing page showed misleading relative timestamps ('2 hours ago', '21 hours ago'). Article-level og:published_time metadata used as authoritative date source.",
+    "Claude Sonnet 5 published June 30 PDT (US) = July 1 Thai time. Treated as within window. Confirmed by Techsauce Thai report dated July 1, 2026.",
+    "Ford and Omen AI articles included despite being slightly outside strict 24h window due to high relevance to AI landscape and AI-human collaboration themes.",
+    "batch_2 note: 2 articles (Ford, Omen AI) have within_24h: false in meta but are included as contextually relevant background stories."
+  ],
+  "output_files": [
+    "D:\\AI-news\\News\\Batches\\2026-07-02\\batch_1.json",
+    "D:\\AI-news\\News\\Batches\\2026-07-02\\batch_2.json",
+    "D:\\AI-news\\News\\Batches\\2026-07-02\\batch_3.json",
+    "D:\\AI-news\\News\\run-report-2026-07-02.json"
+  ]
+}

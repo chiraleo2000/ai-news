@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "generated_at": "2026-06-30T08:00:00+07:00",
+  "generated_at": "2026-06-30T19:00:00+07:00",
   "schema_version": "2.0",
   "stats": {
     "total": 12,
@@ -11,15 +11,17 @@
       "global": 1
     },
     "by_source_category": {
-      "Research": 5,
-      "Thai": 7
+      "thai": 7,
+      "international": 0,
+      "research": 5,
+      "youtube": 0
     },
     "urgency_breakdown": {
       "high": 6,
       "medium": 5,
       "low": 1
     },
-    "breakthrough_count": 7
+    "breakthrough_count": 3
   },
   "top_insights": [
     {
@@ -29,22 +31,18 @@
       "related_domains": [
         "agentic-ai",
         "world-model",
-        "planning",
-        "reinforcement-learning",
-        "llm"
+        "planning"
       ],
       "article_id": "arxiv-2606-27483-internalizing-future-agentic-world-model-2026-06-30"
     },
     {
-      "title": "Grounded Iterative Language Planning: How Parameterized World Models Reduce Hallucination Propagation in LLM Agents",
+      "title": "Grounded Iterative Language Planning: How Parameterized World Models Reduce Hallucination in LLM Agents",
       "impact_summary": "แนวทาง hybrid ที่ practical มาก — ใช้โมเดลเล็กเป็น symbolic anchor ให้ LLM ใหญ่ โดยไม่ต้องเปลี่ยนโมเดลหลัก",
       "urgency": "high",
       "related_domains": [
         "hallucination",
-        "llm-agents",
-        "world-model",
-        "planning",
-        "gpt-4o"
+        "LLM-agents",
+        "symbolic-AI"
       ],
       "article_id": "arxiv-2606-27806-gilp-reduce-hallucination-llm-agents-2026-06-30"
     },
@@ -53,13 +51,9 @@
       "impact_summary": "ชี้จุดบอดสำคัญของ frontier models ทั้งหมด — ความสามารถด้าน social intelligence ยังห่างไกลจากมนุษย์มาก",
       "urgency": "high",
       "related_domains": [
-        "benchmark",
+        "ai-safety",
         "embodied-ai",
-        "social-norms",
-        "gpt-5",
-        "claude",
-        "gemini",
-        "ai-safety"
+        "benchmark"
       ],
       "article_id": "arxiv-2606-27826-normact-social-norm-benchmark-2026-06-30"
     },
@@ -70,44 +64,50 @@
       "related_domains": [
         "ai-safety",
         "agentic-ai",
-        "security",
-        "multi-agent",
-        "alignment"
+        "security"
       ],
       "article_id": "arxiv-2606-28270-agent-native-immune-system-2026-06-30"
     },
     {
-      "title": "งานวิจัยจาก OpenAI ชี้ คนกำลังเลิกพิมพ์ถาม ChatGPT แต่เริ่มหันไปสั่งงานใน Codex แทน เพราะช่วยพนักงานสร้างงานมากขึ้น 50 เท่า!",
+      "title": "งานวิจัย OpenAI: คนเลิกถาม ChatGPT หันสั่งงาน Codex แทน ช่วยเพิ่ม productivity 50 เท่า",
       "impact_summary": "การเปลี่ยนแปลงจาก conversational สู่ agentic AI จะกำหนด ROI ของการลงทุน AI ในองค์กร ทีมที่เปลี่ยนรูปแบบการใช้งานก่อนจะได้เปรียบในการแข่งขันอย่างมีนัยสำคัญ",
       "urgency": "high",
       "related_domains": [
         "Agentic AI",
         "LLM",
-        "Productivity",
-        "Software Engineering",
-        "AI Tools"
+        "Productivity"
       ],
       "article_id": "techsauce-openai-codex-agentic-20260629"
     },
     {
-      "title": "OpenAI เปิดตัว GPT-5.6 Preview มาพร้อม 3 โมเดลใหม่ ชูจุดแข็ง 'ปลอดภัยที่สุดเท่าที่เคยมีมา'",
+      "title": "OpenAI เปิดตัว GPT-5.6 Preview พร้อม 3 โมเดลใหม่ 'ปลอดภัยที่สุดเท่าที่เคยมีมา'",
       "impact_summary": "GPT-5.6 เปลี่ยนโฉมการแข่งขัน AI จาก 'ฉลาดที่สุด' ไปสู่ 'ปลอดภัยและน่าเชื่อถือที่สุด' พร้อม Subagents architecture ที่จะกลายเป็น standard ของ enterprise AI",
       "urgency": "high",
       "related_domains": [
         "LLM",
         "AI Safety",
-        "Agentic AI",
-        "Cybersecurity",
-        "Foundation Models"
+        "Agentic AI"
       ],
       "article_id": "techsauce-openai-gpt56-preview-20260629"
+    },
+    {
+      "title": "VST ECS (Thailand) จับมือ AGIBOT เปิดตัวหุ่นยนต์ฮิวแมนนอยด์ ขับเคลื่อนอนาคตด้วย Embodied AI",
+      "impact_summary": "ความร่วมมือนี้เป็นสัญญาณว่าหุ่นยนต์ฮิวแมนนอยด์กำลังเข้าสู่ภาคอุตสาหกรรมไทยจริง ไม่ใช่แค่ proof-of-concept อีกต่อไป ส่งผลต่อแผนงาน automation ของโรงงานไทย",
+      "urgency": "medium",
+      "related_domains": [
+        "Robotics",
+        "Embodied AI",
+        "Computer Vision"
+      ],
+      "article_id": "techsauce-vst-ecs-agibot-humanoid-20260629"
     }
   ],
   "posts": [
     {
       "id": "arxiv-2606-27483-internalizing-future-agentic-world-model-2026-06-30",
-      "slug": "2606-27483-internalizing-future-agentic-world-model-2026-06-30",
+      "slug": "arxiv-2606-27483-internalizing-future-agentic-world-model",
       "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
+      "title_th": "Internalizing the Future: กระบวนทัศน์ฝึก Agentic AI แบบครบวงจรด้วย World Model Planning",
       "topic": "งานวิจัย AI",
       "topic_group": "ai-trends",
       "source_name": "ArXiv cs.AI",
@@ -124,24 +124,30 @@
         "llm"
       ],
       "category_label": "งานวิจัย AI",
-      "published_at": "2026-06-29T00:00:00Z",
-      "breakthrough_potential": true,
+      "published_at": "2026-06-29T00:00:00+07:00",
+      "breakthrough_potential": false,
       "related_domains": [
         "agentic-ai",
         "world-model",
         "planning",
-        "reinforcement-learning",
-        "llm"
+        "LLM"
       ],
-      "actions_developer": [],
-      "actions_business": [],
+      "actions_developer": [
+        "ศึกษา WM-AMT→FE-SFT→FC-RL pipeline เพื่อนำไปใช้ใน training stack ของ AI agents",
+        "ทดสอบ format-capability ordering ก่อน fine-tuning เพื่อหลีกเลี่ยง capability mimicry"
+      ],
+      "actions_business": [
+        "ลงทุนใน agentic AI ที่มี internal planning สำหรับ multi-step autonomous workflows",
+        "ประเมิน agent benchmarks ที่วัด planning depth ไม่ใช่เพียง accuracy เดี่ยวๆ"
+      ],
       "youtube_channel": "",
       "youtube_video": ""
     },
     {
       "id": "arxiv-2606-27806-gilp-reduce-hallucination-llm-agents-2026-06-30",
-      "slug": "2606-27806-gilp-reduce-hallucination-llm-agents-2026-06-30",
-      "title": "Grounded Iterative Language Planning: How Parameterized World Models Reduce Hallucination Propagation in LLM Agents",
+      "slug": "arxiv-2606-27806-gilp-reduce-hallucination-llm-agents",
+      "title": "Grounded Iterative Language Planning: How Parameterized World Models Reduce Hallucination in LLM Agents",
+      "title_th": "GILP: วิธีลด Hallucination ของ LLM Agents ด้วย Parameterized World Model",
       "topic": "งานวิจัย AI",
       "topic_group": "ai-trends",
       "source_name": "ArXiv cs.AI",
@@ -158,24 +164,30 @@
         "gpt-4o"
       ],
       "category_label": "งานวิจัย AI",
-      "published_at": "2026-06-29T00:00:00Z",
-      "breakthrough_potential": true,
+      "published_at": "2026-06-29T00:00:00+07:00",
+      "breakthrough_potential": false,
       "related_domains": [
         "hallucination",
-        "llm-agents",
-        "world-model",
-        "planning",
-        "gpt-4o"
+        "LLM-agents",
+        "symbolic-AI",
+        "planning"
       ],
-      "actions_developer": [],
-      "actions_business": [],
+      "actions_developer": [
+        "นำ GILP pattern มาประยุกต์ใช้โดยสร้าง lightweight rule-based world model คู่กับ LLM ใน agent pipeline",
+        "ทดสอบ consistency gate ก่อน execute plan เพื่อลด hallucination rate ใน production agents"
+      ],
+      "actions_business": [
+        "ลงทุนใน hybrid AI architecture (symbolic + neural) สำหรับ use cases ที่ต้องการ reliability สูง",
+        "วัด hallucination rate เป็น KPI หลักของ agent ไม่ใช่แค่ benchmark accuracy"
+      ],
       "youtube_channel": "",
       "youtube_video": ""
     },
     {
       "id": "arxiv-2606-27826-normact-social-norm-benchmark-2026-06-30",
-      "slug": "2606-27826-normact-social-norm-benchmark-2026-06-30",
+      "slug": "arxiv-2606-27826-normact-social-norm-benchmark",
       "title": "NormAct: A Benchmark for Hidden Social Norm Compliance in Embodied Planning",
+      "title_th": "NormAct: Benchmark ทดสอบว่า AI ปฏิบัติตามบรรทัดฐานสังคมที่ซ่อนอยู่ได้หรือไม่",
       "topic": "งานวิจัย AI",
       "topic_group": "ai-trends",
       "source_name": "ArXiv cs.AI",
@@ -194,26 +206,30 @@
         "ai-safety"
       ],
       "category_label": "งานวิจัย AI",
-      "published_at": "2026-06-29T00:00:00Z",
-      "breakthrough_potential": true,
+      "published_at": "2026-06-29T00:00:00+07:00",
+      "breakthrough_potential": false,
       "related_domains": [
-        "benchmark",
+        "ai-safety",
         "embodied-ai",
-        "social-norms",
-        "gpt-5",
-        "claude",
-        "gemini",
-        "ai-safety"
+        "benchmark",
+        "social-intelligence"
       ],
-      "actions_developer": [],
-      "actions_business": [],
+      "actions_developer": [
+        "รวม NormPerceptor-style pre-planning cue เข้าใน embodied agent prompt เพื่อ activate social norm awareness",
+        "ทดสอบ agent ด้วย NormAct benchmark ก่อน deploy ในสภาพแวดล้อมที่มีปฏิสัมพันธ์กับมนุษย์"
+      ],
+      "actions_business": [
+        "กำหนด social norm compliance requirement สำหรับ AI agents ที่จะ deploy ในพื้นที่สาธารณะ",
+        "ลงทุนใน evaluation framework ที่วัด social intelligence ไม่ใช่เพียง task completion"
+      ],
       "youtube_channel": "",
       "youtube_video": ""
     },
     {
       "id": "arxiv-2606-28166-tandem-rl-verifiable-rewards-2026-06-30",
-      "slug": "2606-28166-tandem-rl-verifiable-rewards-2026-06-30",
+      "slug": "arxiv-2606-28166-tandem-rl-verifiable-rewards",
       "title": "Tandem Reinforcement Learning with Verifiable Rewards",
+      "title_th": "Tandem RL: RLVR ที่ออกแบบมาให้มนุษย์และโมเดลอ่อนแอกว่าเข้าใจได้",
       "topic": "งานวิจัย AI",
       "topic_group": "ai-trends",
       "source_name": "ArXiv cs.AI",
@@ -230,24 +246,30 @@
         "qwen3"
       ],
       "category_label": "งานวิจัย AI",
-      "published_at": "2026-06-29T00:00:00Z",
+      "published_at": "2026-06-29T00:00:00+07:00",
       "breakthrough_potential": false,
       "related_domains": [
         "rlvr",
-        "reinforcement-learning",
+        "human-ai",
         "llm-training",
-        "human-ai-compatibility",
-        "qwen3"
+        "chain-of-thought"
       ],
-      "actions_developer": [],
-      "actions_business": [],
+      "actions_developer": [
+        "นำ TRL pattern มาพิจารณาใน fine-tuning pipeline สำหรับ models ที่ต้องการ human-interpretable reasoning",
+        "วัด cross-model compatibility เป็น metric หนึ่งเมื่อเลือก RLVR training strategy"
+      ],
+      "actions_business": [
+        "กำหนด requirement ว่า AI reasoning ต้องอ่านง่ายสำหรับ compliance และ audit trail",
+        "ลงทุนใน interpretable AI training ที่ช่วยให้ non-expert เข้าใจ decision process ของโมเดล"
+      ],
       "youtube_channel": "",
       "youtube_video": ""
     },
     {
       "id": "arxiv-2606-28270-agent-native-immune-system-2026-06-30",
-      "slug": "2606-28270-agent-native-immune-system-2026-06-30",
+      "slug": "arxiv-2606-28270-agent-native-immune-system",
       "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
+      "title_th": "Agent-Native Immune System: สถาปัตยกรรมความปลอดภัย AI แบบ Endogenous",
       "topic": "งานวิจัย AI",
       "topic_group": "ai-trends",
       "source_name": "ArXiv cs.AI",
@@ -264,17 +286,22 @@
         "alignment"
       ],
       "category_label": "งานวิจัย AI",
-      "published_at": "2026-06-29T00:00:00Z",
-      "breakthrough_potential": true,
+      "published_at": "2026-06-29T00:00:00+07:00",
+      "breakthrough_potential": false,
       "related_domains": [
         "ai-safety",
         "agentic-ai",
         "security",
-        "multi-agent",
         "alignment"
       ],
-      "actions_developer": [],
-      "actions_business": [],
+      "actions_developer": [
+        "ออกแบบ Immune Tower architecture เข้าใน agent framework โดยเพิ่ม runtime defense layer ใน cognitive loop",
+        "ทดสอบ agent ต่อ memory poisoning และ tool-chain manipulation attacks ก่อน deploy ใน production"
+      ],
+      "actions_business": [
+        "กำหนด AI security policy ที่แยก alignment (training-time) ออกจาก immunity (runtime) เพื่อครอบคลุมทั้งสองมิติ",
+        "ลงทุนใน endogenous AI security สำหรับ enterprise agent deployment ไม่ใช่เพียง perimeter protection"
+      ],
       "youtube_channel": "",
       "youtube_video": ""
     },
@@ -282,6 +309,7 @@
       "id": "techsauce-anthropic-prompting-playbook-20260630",
       "slug": "anthropic-prompting-playbook-debug-prompt",
       "title": "คู่มือไล่แก้ Prompt ที่พังจากโมเดลเก่า ฉบับวิศวกร Anthropic",
+      "title_th": "คู่มือไล่แก้ Prompt ที่พังจากโมเดลเก่า ฉบับวิศวกร Anthropic",
       "topic": "เครื่องมือ AI",
       "topic_group": "tech-trends",
       "source_name": "Techsauce",
@@ -321,7 +349,8 @@
     {
       "id": "techsauce-east-water-data-center-ai-20260629",
       "slug": "east-water-data-center-demand-supply-engagement",
-      "title": "'น้ำเอาแน่เอานอนไม่ได้ แต่บริหารได้' เปิดแนวคิดอีสท์ วอเตอร์ บริษัทที่พร้อมรับคลื่น AI และ Data Center อย่างยั่งยืน",
+      "title": "'น้ำเอาแน่เอานอนไม่ได้ แต่บริหารได้' เปิดแนวคิดอีสท์ วอเตอร์ รองรับ AI และ Data Center อย่างยั่งยืน",
+      "title_th": "'น้ำเอาแน่เอานอนไม่ได้ แต่บริหารได้' เปิดแนวคิดอีสท์ วอเตอร์ รองรับ AI และ Data Center อย่างยั่งยืน",
       "topic": "ธุรกิจ AI",
       "topic_group": "thailand",
       "source_name": "Techsauce",
@@ -353,7 +382,7 @@
         "ติดตามแผน Water Grid expansion ของอีสท์ วอเตอร์ เพื่อประเมิน capacity ที่รองรับ Data Center ขนาดใหญ่"
       ],
       "actions_business": [
-        "ติดต่ออีสท์ วอเตอร์ผ่านโปรแกรม Demand & Supply Engagement ก่อนการวางแผน Data Center ในพื้นที่ EEC เพื่อ lock-in supply",
+        "ติดต่ออีสท์ วอเตอร์ผ่านโปรแกรม Demand & Supply Engagement ก่อนการวางแผน Data Center ใน EEC เพื่อ lock-in supply",
         "นำ water reliability ของอีสท์ วอเตอร์ใน EEC เป็น selling point ในการดึงดูดผู้ลงทุน hyperscale Data Center"
       ],
       "youtube_channel": "",
@@ -362,7 +391,8 @@
     {
       "id": "techsauce-openai-codex-agentic-20260629",
       "slug": "openai-codex-agentic-ai-shift-research",
-      "title": "งานวิจัยจาก OpenAI ชี้ คนกำลังเลิกพิมพ์ถาม ChatGPT แต่เริ่มหันไปสั่งงานใน Codex แทน เพราะช่วยพนักงานสร้างงานมากขึ้น 50 เท่า!",
+      "title": "งานวิจัย OpenAI: คนเลิกถาม ChatGPT หันสั่งงาน Codex แทน ช่วยเพิ่ม productivity 50 เท่า",
+      "title_th": "งานวิจัย OpenAI: คนเลิกถาม ChatGPT หันสั่งงาน Codex แทน ช่วยเพิ่ม productivity 50 เท่า",
       "topic": "งานวิจัย AI",
       "topic_group": "ai-trends",
       "source_name": "Techsauce",
@@ -403,7 +433,8 @@
     {
       "id": "techsauce-openai-gpt56-preview-20260629",
       "slug": "openai-gpt-5-6-preview-3-models-safest-ai",
-      "title": "OpenAI เปิดตัว GPT-5.6 Preview มาพร้อม 3 โมเดลใหม่ ชูจุดแข็ง 'ปลอดภัยที่สุดเท่าที่เคยมีมา'",
+      "title": "OpenAI เปิดตัว GPT-5.6 Preview พร้อม 3 โมเดลใหม่ 'ปลอดภัยที่สุดเท่าที่เคยมีมา'",
+      "title_th": "OpenAI เปิดตัว GPT-5.6 Preview พร้อม 3 โมเดลใหม่ 'ปลอดภัยที่สุดเท่าที่เคยมีมา'",
       "topic": "ผลิตภัณฑ์ AI",
       "topic_group": "ai-trends",
       "source_name": "Techsauce",
@@ -445,7 +476,8 @@
     {
       "id": "techsauce-south-korea-ai-chip-20260629",
       "slug": "south-korea-ai-chip-mega-projects",
-      "title": "เกาหลีใต้ทุ่ม 800 ล้านล้านวอน ปั้นฐาน AI และชิปแห่งใหม่ ดึง Samsung กับ SK Hynix ร่วมขับเคลื่อน",
+      "title": "เกาหลีใต้ทุ่ม 800 ล้านล้านวอน (~$520B) ปั้นฐาน AI และชิปแห่งใหม่ ดึง Samsung-SK Hynix ขับเคลื่อน",
+      "title_th": "เกาหลีใต้ทุ่ม 800 ล้านล้านวอน (~$520B) ปั้นฐาน AI และชิปแห่งใหม่ ดึง Samsung-SK Hynix ขับเคลื่อน",
       "topic": "ธุรกิจ AI",
       "topic_group": "global",
       "source_name": "Techsauce",
@@ -486,7 +518,8 @@
     {
       "id": "techsauce-sv-academy-ai-class-20260629",
       "slug": "sv-academy-ai-class",
-      "title": "3 ผู้ก่อตั้งสตาร์ทอัพรุ่นใหม่ ผนึกกำลังสร้างคลาส AI จากประสบการณ์บริษัทชั้นนำระดับโลก ยกระดับศักยภาพคนไทยตั้งแต่ห้องเรียนสู่ภาคธุรกิจ",
+      "title": "3 ผู้ก่อตั้ง Startup รุ่นใหม่ ผนึกกำลังสร้างคลาส AI จากประสบการณ์ Google-Meta-Anthropic ยกระดับคนไทยสู่ AI",
+      "title_th": "3 ผู้ก่อตั้ง Startup รุ่นใหม่ ผนึกกำลังสร้างคลาส AI จากประสบการณ์ Google-Meta-Anthropic ยกระดับคนไทยสู่ AI",
       "topic": "เครื่องมือ AI",
       "topic_group": "thailand",
       "source_name": "Techsauce",
@@ -527,7 +560,8 @@
     {
       "id": "techsauce-vst-ecs-agibot-humanoid-20260629",
       "slug": "vst-ecs-agibot-partnership",
-      "title": "VST ECS (Thailand) จับมือ AGIBOT เปิดตัวความร่วมมือด้านหุ่นยนต์ฮิวแมนนอยด์ ขับเคลื่อนอนาคตผ่าน Embodied AI",
+      "title": "VST ECS (Thailand) จับมือ AGIBOT เปิดตัวหุ่นยนต์ฮิวแมนนอยด์ ขับเคลื่อนอนาคตด้วย Embodied AI",
+      "title_th": "VST ECS (Thailand) จับมือ AGIBOT เปิดตัวหุ่นยนต์ฮิวแมนนอยด์ ขับเคลื่อนอนาคตด้วย Embodied AI",
       "topic": "ผลิตภัณฑ์ AI",
       "topic_group": "thailand",
       "source_name": "Techsauce",

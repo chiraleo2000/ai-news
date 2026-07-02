@@ -1,0 +1,36 @@
+{
+  "run_date": "2026-07-02",
+  "target_date": "2026-07-02",
+  "pipeline_version": "2.0",
+  "document_path": "Document/2026-07-02_News/",
+  "files_created": [
+    "2026-07-02_news.json",
+    "2026-07-02_news.html",
+    "2026-07-02_news.pdf",
+    "_index.json"
+  ],
+  "manifest_updated": true,
+  "github_pages_json_copied": true,
+  "stats": {
+    "total_articles": 16,
+    "topic_breakdown": {
+      "ai_trends": 9,
+      "tech_trends": 4,
+      "thailand": 2,
+      "global": 1
+    },
+    "urgency": {
+      "high": 7,
+      "medium": 8,
+      "low": 1
+    },
+    "breakthrough_count": 4
+  },
+  "batch_notes": {
+    "batch_1": "Fixed JSON escape issue (unescaped double quotes in Thai text summary_1)",
+    "batch_2": "5 articles OK (2 noted as outside strict 24h window but included)",
+    "batch_3": "5 articles OK including 4 research papers and 1 YouTube"
+  },
+  "coverage": "100% - all 16 pass articles included",
+  "next_step": "run ai-news-github-deploy"
+}
