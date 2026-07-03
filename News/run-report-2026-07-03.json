@@ -1,0 +1,110 @@
+{
+  "run_date": "2026-07-03",
+  "pipeline_version": "2.0",
+  "generated_at": "2026-07-03T07:00:00+07:00",
+  "status": "completed",
+  "window": {
+    "start": "2026-07-02T00:00:00+07:00",
+    "end": "2026-07-03T23:59:59+07:00",
+    "note": "Primary window July 2-3. July 1 articles included when high-value and within 48h."
+  },
+  "summary": {
+    "total_articles": 21,
+    "by_batch": {
+      "batch_1_thai": 8,
+      "batch_2_international": 7,
+      "batch_3_research": 6
+    },
+    "by_topic_group": {
+      "ai-trends": 11,
+      "tech-trends": 5,
+      "thailand": 1,
+      "global": 4
+    },
+    "by_category": {
+      "AI-PRODUCT": 5,
+      "AI-SAFETY": 3,
+      "AI-INDUSTRY": 3,
+      "AI-RESEARCH": 3,
+      "AI-HARDWARE": 2,
+      "AI-POLICY": 1,
+      "AI-SUSTAINABILITY": 1,
+      "AI-INFRASTRUCTURE": 1,
+      "AI-THAILAND": 1,
+      "AI-WORKFORCE": 1
+    },
+    "breakthrough_potential_count": 5
+  },
+  "fetch_stats": {
+    "total_urls_attempted": 14,
+    "pass": 14,
+    "fail": 0,
+    "sources_used": [
+      "blognone.com",
+      "beartai.com",
+      "techsauce.co",
+      "techcrunch.com",
+      "anthropic.com",
+      "arxiv.org",
+      "web_search"
+    ],
+    "youtube_status": "skipped — no July 2-3 specific video metadata retrieved"
+  },
+  "dedup": {
+    "checked": true,
+    "previous_batch_dir": "D:\\AI-news\\News\\Batches\\2026-07-02",
+    "duplicates_found": 0,
+    "method": "title_similarity + source_url"
+  },
+  "output_files": {
+    "batch_1": "D:\\AI-news\\News\\Batches\\2026-07-03\\batch_1.json",
+    "batch_2": "D:\\AI-news\\News\\Batches\\2026-07-03\\batch_2.json",
+    "batch_3": "D:\\AI-news\\News\\Batches\\2026-07-03\\batch_3.json",
+    "run_report": "D:\\AI-news\\News\\run-report-2026-07-03.json"
+  },
+  "top_stories": [
+    {
+      "rank": 1,
+      "title_th": "Anthropic เผยรายละเอียดมาตรการ cyber safeguards 3 ชั้นและ jailbreak taxonomy 47 ประเภทของ Fable 5",
+      "article_id": "anthropic-fable5-safeguards-20260702",
+      "urgency": "high",
+      "breakthrough_potential": true
+    },
+    {
+      "rank": 2,
+      "title_th": "ช่องโหว่ Hidden Thoughts: reasoning traces ของ LLM สามารถถูก extract ได้แม้ไม่เปิดเผย",
+      "article_id": "arxiv-2606.00642-hidden-thoughts",
+      "urgency": "high",
+      "breakthrough_potential": true
+    },
+    {
+      "rank": 3,
+      "title_th": "Microsoft ตั้ง Frontier Company $2.5B เพื่อเร่ง AI deployment ใน enterprise",
+      "article_id": "techcrunch-microsoft-frontier-20260702",
+      "urgency": "high",
+      "breakthrough_potential": false
+    },
+    {
+      "rank": 4,
+      "title_th": "John Jumper ผู้สร้าง AlphaFold (Nobel 2024) ออกจาก DeepMind เข้าร่วม Anthropic",
+      "article_id": "websearch-john-jumper-anthropic-20260702",
+      "urgency": "medium",
+      "breakthrough_potential": true
+    },
+    {
+      "rank": 5,
+      "title_th": "AWS AgentCore เปิดในไทย — AI agent infrastructure ระดับ enterprise พร้อมใช้งาน",
+      "article_id": "blognone-aws-agentcore-th-20260702",
+      "urgency": "high",
+      "breakthrough_potential": false
+    }
+  ],
+  "pipeline_notes": [
+    "ArXiv /current endpoint returns June 2026 papers (most recently completed month batch) — selected ICML 2026 accepted papers and high-impact security research",
+    "July 1 articles (Fable 5 return, Gemini Spark) included as within 48h and highly newsworthy",
+    "YouTube metadata not retrieved — no July 2-3 specific videos confirmed; batch_3 contains research only",
+    "OpenAI 5% gov stake article sourced from Blognone summary; direct URL not confirmed",
+    "All summaries written in Thai per LANGUAGE RULE; English retained for tech terms, company names, model names"
+  ],
+  "next_run_scheduled": "2026-07-04T06:00:00+07:00"
+}
