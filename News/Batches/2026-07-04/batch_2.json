@@ -1,0 +1,587 @@
+{
+  "batch": 2,
+  "target_date": "2026-07-04",
+  "generated_at": "2026-07-04T07:00:00+07:00",
+  "total_articles": 7,
+  "sources_attempted": 23,
+  "sources_with_news": ["TechCrunch", "Reuters", "Bloomberg", "MarketingProfs", "Financial Times", "Wall Street Journal", "LLM-Stats"],
+  "sources_no_news_today": ["The Verge", "VentureBeat", "Wired", "Ars Technica", "MIT Tech Review", "Axios", "The Information", "Pandaily", "KrASIA", "NikkeiAsia", "TechInAsia", "RestOfWorld", "Semafor", "SCMP", "Forbes", "Fortune"],
+  "articles": [
+    {
+      "article_id": "intl-meta-elpaso-datacenter-10b",
+      "schema_version": "2.0",
+      "topic_group": "global",
+      "source_info": {
+        "category": "International",
+        "source_name": "Bloomberg",
+        "registry_key": "Intl/Bloomberg",
+        "domain": "AI-business",
+        "main_url": "https://www.bloomberg.com/technology"
+      },
+      "source": {
+        "url": "https://www.bloomberg.com/technology",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "medium",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-04T07:00:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-03T00:00:00+07:00",
+        "scraped_at": "2026-07-04T07:00:00+07:00",
+        "run_date": "2026-07-04",
+        "target_date": "2026-07-04",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-BUSINESS",
+        "category_label": "ธุรกิจ AI",
+        "news_type": "ข่าว",
+        "tags": ["Meta", "Data Center", "AI Infrastructure", "El Paso", "Capital Expenditure"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Meta Raises El Paso AI Data Center Investment from $1.5B to Over $10B",
+        "title_th": "Meta เพิ่มงบลงทุน Data Center AI ที่ El Paso จาก $1.5B เป็นมากกว่า $10B",
+        "slug": "meta-elpaso-datacenter-10b",
+        "summary": "Meta ขยายแผนลงทุน data center AI ที่ El Paso, Texas จาก $1.5B เป็นมากกว่า $10B ขยายกำลังถึง 1 กิกะวัตต์ภายในปี 2028",
+        "summary_1": "Meta ประกาศขยายการลงทุนด้านโครงสร้างพื้นฐาน AI ในศูนย์ข้อมูลที่เมือง El Paso รัฐ Texas อย่างมีนัยสำคัญ โดยเพิ่มงบลงทุนจากเดิม 1,500 ล้านดอลลาร์ เป็นมากกว่า 10,000 ล้านดอลลาร์ ซึ่งถือเป็นการเพิ่มขึ้นกว่า 6 เท่า พร้อมขยายกำลังการผลิตไฟฟ้าของศูนย์ข้อมูลดังกล่าวให้ถึง 1 กิกะวัตต์ภายในปี 2028 การขยายครั้งนี้เกิดขึ้นท่ามกลางความต้องการพลังประมวลผล AI ที่เพิ่มขึ้นอย่างรวดเร็ว โดย Meta ได้ประกาศแผนใช้จ่ายด้านโครงสร้างพื้นฐานทั้งปี 2026 สูงถึง 135,000 ล้านดอลลาร์ ซึ่งสะท้อนถึงการแข่งขันอย่างดุเดือดในสงคราม AI infrastructure ระหว่างบริษัทเทคโนโลยีชั้นนำ โดยตัวเลขเหล่านี้กำลังท้าทายขีดจำกัดด้านพลังงานและทรัพยากรทั่วโลก",
+        "body_text": "Meta เพิ่มงบลงทุน data center El Paso, Texas จาก $1.5B เป็น $10B+ ขยายกำลัง 1 GW ภายในปี 2028 ท่ามกลาง capex 2026 รวม $135B",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "การลงทุนระดับ $10B ใน data center เดียวสะท้อนว่า AI compute demand กำลังระเบิด องค์กรไทยที่ต้องการใช้ Meta AI services ในอนาคตจะได้รับประโยชน์จาก infrastructure ที่แข็งแกร่งขึ้น",
+        "actions_developer": [
+          "เตรียมรับมือกับ Meta AI API ที่จะมี capacity มากขึ้นและ latency ต่ำลง โดยเฉพาะสำหรับ Llama model family",
+          "ศึกษา energy-efficient AI development เพราะ cost ของ AI compute จะสัมพันธ์กับพลังงานที่ใช้มากขึ้น"
+        ],
+        "actions_business": [
+          "จับตา Meta's cloud computing offerings ที่อาจเปิดให้เช่าใช้งาน AI compute ส่วนเกินในอนาคตอันใกล้",
+          "ประเมิน sustainability impact ของการใช้ AI infrastructure ขนาดใหญ่ เพื่อรายงาน ESG ขององค์กร"
+        ],
+        "urgency": "medium",
+        "related_domains": ["AI Infrastructure", "Data Center", "Cloud Computing", "AI Investment"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/Bloomberg/2026-07-04/meta-elpaso-datacenter-10b",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-04/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-microsoft-190b-capex-ai",
+      "schema_version": "2.0",
+      "topic_group": "global",
+      "source_info": {
+        "category": "International",
+        "source_name": "Reuters",
+        "registry_key": "Intl/Reuters",
+        "domain": "AI-business",
+        "main_url": "https://www.reuters.com/technology/artificial-intelligence"
+      },
+      "source": {
+        "url": "https://www.reuters.com/technology/artificial-intelligence",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "medium",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-04T07:00:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-03T00:00:00+07:00",
+        "scraped_at": "2026-07-04T07:00:00+07:00",
+        "run_date": "2026-07-04",
+        "target_date": "2026-07-04",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-BUSINESS",
+        "category_label": "ธุรกิจ AI",
+        "news_type": "ข่าว",
+        "tags": ["Microsoft", "Capital Expenditure", "AI Infrastructure", "Memory", "Storage"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Microsoft Expects $190B in Total 2026 Capital Expenditure, $25B Driven by AI Memory Demand",
+        "title_th": "Microsoft คาดการณ์ capex ปี 2026 แตะ $190B เพิ่ม $25B จากความต้องการ memory และ storage เพื่อ AI",
+        "slug": "microsoft-190b-capex-ai",
+        "summary": "Microsoft ประกาศ capex 2026 รวม $190B โดย $25B เป็นผลจากราคา memory/storage ที่พุ่งสูงจากความต้องการ AI",
+        "summary_1": "Microsoft ประกาศว่าคาดการณ์ค่าใช้จ่ายด้านโครงสร้างพื้นฐาน (Capital Expenditure) สำหรับปี 2026 จะแตะระดับ 190,000 ล้านดอลลาร์ โดยมีส่วนที่เพิ่มขึ้นจากปีก่อน 25,000 ล้านดอลลาร์มาจากราคาชิป memory และ storage ที่พุ่งสูงขึ้นอย่างมากจากความต้องการโครงสร้างพื้นฐาน AI การเปิดเผยตัวเลขนี้เป็นสัญญาณชัดว่า AI infrastructure arms race กำลังทำให้ต้นทุนฮาร์ดแวร์ทั่วทั้งอุตสาหกรรมเพิ่มขึ้นอย่างมีนัยสำคัญ โดย Microsoft ไม่ได้เป็นบริษัทเดียวที่รับมือกับแรงกดดันนี้ ก่อนหน้า Meta ก็ได้ประกาศ capex 2026 สูงถึง $135B เช่นกัน แสดงให้เห็นว่าการแข่งขันด้าน AI กำลังทำให้บริษัทเทคโนโลยีรายใหญ่ทั้งหมดต้องเพิ่มการลงทุนด้านฮาร์ดแวร์อย่างต่อเนื่อง ซึ่งส่งผลต่อราคา semiconductor และ memory chip ทั่วโลก",
+        "body_text": "Microsoft คาด capex 2026 แตะ $190B เพิ่มขึ้น $25B จากราคา memory/storage ที่สูงขึ้นจากความต้องการ AI infrastructure",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "ต้นทุน AI hardware กำลังพุ่งสูง ส่งผลต่อ pricing ของ cloud AI services และอาจทำให้ SME ไทยเผชิญต้นทุน AI ที่แพงขึ้นในระยะสั้น",
+        "actions_developer": [
+          "วางแผน budget สำหรับ cloud AI API ให้ครอบคลุม cost escalation ที่อาจเกิดขึ้นเมื่อ providers ส่ง capex increase ให้ลูกค้า",
+          "พิจารณา on-premise AI deployment สำหรับ workload ที่ cost-sensitive เพื่อลดการพึ่งพา cloud API"
+        ],
+        "actions_business": [
+          "ตรวจสอบสัญญา cloud AI ที่มีอยู่ว่ามีการล็อกราคาได้นานแค่ไหน ก่อนที่ cost escalation จะมีผลกระทบ",
+          "พิจารณา multi-cloud strategy เพื่อสร้าง leverage ในการเจรจาราคากับ cloud provider"
+        ],
+        "urgency": "medium",
+        "related_domains": ["AI Infrastructure", "Cloud Computing", "Semiconductor", "AI Investment"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/Reuters/2026-07-04/microsoft-190b-capex-ai",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-04/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-openai-gpt56-delayed-gov",
+      "schema_version": "2.0",
+      "topic_group": "global",
+      "source_info": {
+        "category": "International",
+        "source_name": "The Information",
+        "registry_key": "Intl/TheInformation",
+        "domain": "AI-policy",
+        "main_url": "https://www.theinformation.com"
+      },
+      "source": {
+        "url": "https://www.theinformation.com",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "medium",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-04T07:00:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-03T00:00:00+07:00",
+        "scraped_at": "2026-07-04T07:00:00+07:00",
+        "run_date": "2026-07-04",
+        "target_date": "2026-07-04",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-POLICY",
+        "category_label": "นโยบาย AI",
+        "news_type": "ข่าว",
+        "tags": ["OpenAI", "GPT-5.6", "US Government", "AI Oversight", "Regulation"],
+        "language": "th"
+      },
+      "content": {
+        "title": "OpenAI Delays GPT-5.6 Public Launch After US Government Requests Early Access and Oversight",
+        "title_th": "OpenAI เลื่อนเปิดตัว GPT-5.6 ต่อสาธารณะ หลังรัฐบาลสหรัฐขอ early access และ oversight เพิ่มเติม",
+        "slug": "openai-gpt56-delayed-gov",
+        "summary": "OpenAI เลื่อน full public launch ของ GPT-5.6 เนื่องจากรัฐบาลสหรัฐขอเข้าถึงและตรวจสอบก่อนเผยแพร่วงกว้าง",
+        "summary_1": "OpenAI ได้เลื่อนการเปิดตัว GPT-5.6 ต่อสาธารณะอย่างเต็มรูปแบบ หลังจากรัฐบาลสหรัฐอเมริกายื่นขอ early access พร้อม oversight เพิ่มเติมก่อนที่โมเดลจะเผยแพร่ในวงกว้าง โดย OpenAI จะจำกัดการเข้าถึงโมเดลนี้เฉพาะพาร์ทเนอร์ที่ได้รับการคัดกรองแล้วเท่านั้นในระยะแรก และต้องแชร์รายละเอียดของพาร์ทเนอร์เหล่านั้นกับหน่วยงานรัฐบาล การเคลื่อนไหวนี้เกิดขึ้นในช่วงเวลาที่ OpenAI กำลังเจรจาเสนอมอบหุ้น 5% ให้รัฐบาลสหรัฐ ซึ่งสะท้อนถึงความสัมพันธ์ที่ซับซ้อนระหว่างบริษัท AI รายใหญ่กับรัฐบาล ที่ทั้งสองฝ่ายต่างต้องการอิทธิพลและการกำกับดูแลในทิศทางที่แตกต่างกัน นับเป็นสัญญาณสำคัญที่ชี้ให้เห็นว่า AI model releases กำลังอยู่ภายใต้การตรวจสอบจากรัฐบาลมากขึ้น",
+        "body_text": "OpenAI เลื่อน full public launch ของ GPT-5.6 เนื่องจากรัฐบาลสหรัฐขอ early access และ oversight เพิ่มเติม จำกัดเฉพาะ vetted partners ระยะแรก",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "รัฐบาลสหรัฐกำลังเข้ามา influence timeline การปล่อย frontier AI model อย่างจริงจัง ซึ่งอาจทำให้ release cycle ของโมเดลรุ่นใหม่ช้าลงในอนาคต",
+        "actions_developer": [
+          "วางแผนใช้ GPT-5.5 หรือ Claude ที่มีอยู่แล้วสำหรับ production ไม่ควรรอ GPT-5.6 ซึ่งยังไม่มีกำหนดปล่อยแน่นอน",
+          "ติดตาม AI governance developments เพราะ regulatory requirements อาจส่งผลต่อ API usage policies ในอนาคต"
+        ],
+        "actions_business": [
+          "หลีกเลี่ยงการผูกแผนธุรกิจกับ frontier AI model เฉพาะเจาะจงที่ยังไม่ได้ public launch เพราะ timeline อาจเปลี่ยนแปลงได้",
+          "ติดตาม AI regulation landscape ของสหรัฐและ EU เพราะอาจส่งผลต่อ AI tools ที่ธุรกิจไทยใช้งานอยู่"
+        ],
+        "urgency": "high",
+        "related_domains": ["AI Policy", "LLM", "AI Regulation", "US Government", "AI Safety"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/TheInformation/2026-07-04/openai-gpt56-delayed-gov",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-04/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-openai-5pct-equity-us-gov",
+      "schema_version": "2.0",
+      "topic_group": "global",
+      "source_info": {
+        "category": "International",
+        "source_name": "Financial Times",
+        "registry_key": "Intl/Reuters",
+        "domain": "AI-policy",
+        "main_url": "https://www.reuters.com/technology/artificial-intelligence"
+      },
+      "source": {
+        "url": "https://www.ft.com/content/7c803eab-8e80-4431-9a87-e943bf00e00b",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-04T07:00:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-02T19:05:00+07:00",
+        "scraped_at": "2026-07-04T07:00:00+07:00",
+        "run_date": "2026-07-04",
+        "target_date": "2026-07-04",
+        "within_24h": false,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-POLICY",
+        "category_label": "นโยบาย AI",
+        "news_type": "ข่าว",
+        "tags": ["OpenAI", "US Government", "Equity", "AI Regulation", "Partnership"],
+        "language": "th"
+      },
+      "content": {
+        "title": "OpenAI Offers US Government 5% Equity Stake Worth ~$42.6B",
+        "title_th": "OpenAI เสนอมอบหุ้น 5% มูลค่า ~$42.6B ให้รัฐบาลสหรัฐ เพื่อลดแรงกดดันการควบคุม AI",
+        "slug": "openai-5pct-equity-us-gov",
+        "summary": "OpenAI เสนอมอบหุ้น 5% มูลค่าราว $42.6B ให้รัฐบาลสหรัฐ เพื่อลดแรงกดดันจากการกำกับดูแล AI",
+        "summary_1": "Financial Times รายงานว่า OpenAI ได้เสนอมอบหุ้น 5% ของบริษัทให้กับรัฐบาลสหรัฐอเมริกา โดยมูลค่าหุ้นดังกล่าวอยู่ที่ประมาณ 42,600 ล้านดอลลาร์ คิดจากมูลค่ากิจการล่าสุด 852,000 ล้านดอลลาร์ ปัจจัยหลักที่ผลักดันข้อเสนอนี้คือความต้องการลดแรงกดดันจากการกำกับดูแล AI ของรัฐบาล และสร้างความสัมพันธ์เชิงบวกกับภาครัฐ การเสนอมอบหุ้นให้รัฐบาลเป็นกลยุทธ์ที่ไม่เคยเห็นมาก่อนในอุตสาหกรรม AI ซึ่งอาจเปิดนโยบายใหม่สำหรับ tech companies ที่ต้องการ diplomatic relationship กับหน่วยงานรัฐ หากสำเร็จ นี่จะเป็นการผนวก AI industry เข้ากับโครงสร้างการเมืองสหรัฐอย่างเป็นรูปธรรม",
+        "body_text": "Financial Times: OpenAI เสนอมอบหุ้น 5% (~$42.6B) ให้รัฐบาลสหรัฐ เพื่อลดแรงกดดันการกำกับดูแล AI",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "หาก OpenAI มอบหุ้นให้รัฐบาลสหรัฐสำเร็จ จะเป็น precedent ใหม่ที่ทำให้รัฐมีบทบาทโดยตรงในการกำกับ AI company ชั้นนำ",
+        "actions_developer": [
+          "ติดตามผลลัพธ์ว่า OpenAI-US Government deal จะส่งผลต่อ API policies และ model access policies อย่างไร",
+          "พิจารณา diversify AI providers เพื่อลดการพึ่งพา OpenAI เพียงรายเดียว ในกรณีที่ regulatory changes ส่งผลกระทบ"
+        ],
+        "actions_business": [
+          "ประเมินความเสี่ยงจาก geopolitical AI policies ที่อาจกระทบการเข้าถึง US-based AI services สำหรับธุรกิจไทย",
+          "ศึกษา EU AI Act และ US AI governance frameworks เพื่อเตรียมปรับ compliance ล่วงหน้า"
+        ],
+        "urgency": "high",
+        "related_domains": ["AI Policy", "AI Regulation", "Geopolitics", "AI Safety", "US Government"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/Reuters/2026-07-04/openai-5pct-equity-us-gov",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-04/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-california-anthropic-gov-deal",
+      "schema_version": "2.0",
+      "topic_group": "global",
+      "source_info": {
+        "category": "International",
+        "source_name": "TechCrunch",
+        "registry_key": "Intl/TechCrunch",
+        "domain": "AI-policy",
+        "main_url": "https://techcrunch.com/category/artificial-intelligence"
+      },
+      "source": {
+        "url": "https://techcrunch.com/category/artificial-intelligence",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "medium",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-04T07:00:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-03T00:00:00+07:00",
+        "scraped_at": "2026-07-04T07:00:00+07:00",
+        "run_date": "2026-07-04",
+        "target_date": "2026-07-04",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-POLICY",
+        "category_label": "นโยบาย AI",
+        "news_type": "ข่าว",
+        "tags": ["Anthropic", "California", "Government", "Claude", "Public Sector AI"],
+        "language": "th"
+      },
+      "content": {
+        "title": "California Reaches Discounted Claude Access Deal with Anthropic for State Agencies",
+        "title_th": "แคลิฟอร์เนียทำข้อตกลงกับ Anthropic ให้หน่วยงานรัฐใช้ Claude ในราคาส่วนลด",
+        "slug": "california-anthropic-gov-deal",
+        "summary": "รัฐแคลิฟอร์เนียทำข้อตกลงกับ Anthropic ให้หน่วยงานรัฐและรัฐบาลท้องถิ่นเข้าถึง Claude ในราคาส่วนลดพร้อมการฝึกอบรม",
+        "summary_1": "รัฐแคลิฟอร์เนียได้บรรลุข้อตกลงกับ Anthropic เพื่อให้หน่วยงานรัฐบาลของรัฐและรัฐบาลท้องถิ่นได้รับสิทธิ์เข้าถึงโมเดล AI Claude ในราคาส่วนลด พร้อมกับการฝึกอบรมเพื่อช่วยให้เจ้าหน้าที่ภาครัฐสามารถใช้ Claude ในการร่างเอกสาร วิเคราะห์ข้อมูล และทำงานอื่นๆ ได้อย่างมีประสิทธิภาพ ข้อตกลงนี้ถือเป็นก้าวสำคัญสำหรับ Anthropic ในการขยายฐานลูกค้าภาครัฐ และสำหรับแคลิฟอร์เนียในการนำ AI มาปรับปรุงประสิทธิภาพบริการภาครัฐ นับเป็นหนึ่งในข้อตกลง government AI deployment ที่ใหญ่ที่สุดของ Anthropic ณ ปัจจุบัน และอาจเป็น blueprint สำหรับรัฐอื่นๆ และประเทศอื่นที่ต้องการนำ AI มาใช้ในภาครัฐ",
+        "body_text": "แคลิฟอร์เนียทำข้อตกลงกับ Anthropic ให้หน่วยงานรัฐ/รัฐบาลท้องถิ่นเข้าถึง Claude ราคาส่วนลด พร้อมฝึกอบรมเจ้าหน้าที่",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "ข้อตกลงรัฐแคลิฟอร์เนีย-Anthropic เป็น model สำคัญที่ภาครัฐไทยสามารถศึกษาเพื่อนำ AI มาใช้ในหน่วยงานราชการได้อย่างมีประสิทธิภาพ",
+        "actions_developer": [
+          "ศึกษา use cases ที่รัฐแคลิฟอร์เนียนำ Claude ไปใช้ในงานภาครัฐ เพื่อต่อยอดพัฒนา government AI solutions ในประเทศไทย",
+          "เตรียม compliance framework สำหรับ government AI deployment เพราะภาครัฐมีข้อกำหนดด้านความปลอดภัยและความโปร่งใสสูงกว่าภาคเอกชน"
+        ],
+        "actions_business": [
+          "ติดตามโอกาสงานด้าน government AI consulting ในไทย เพราะแนวโน้มนำ AI มาใช้ในภาครัฐกำลังเร่งตัวทั่วโลก",
+          "ประเมินความเป็นไปได้ในการนำเสนอ AI solutions สำหรับหน่วยงานรัฐไทย โดยใช้ California model เป็น reference"
+        ],
+        "urgency": "medium",
+        "related_domains": ["AI Policy", "Government AI", "Public Sector", "AI Deployment"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/TechCrunch/2026-07-04/california-anthropic-gov-deal",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-04/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-zai-glm52-claude-gpt-rival",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "South China Morning Post",
+        "registry_key": "Intl/SCMP",
+        "domain": "AI-research",
+        "main_url": "https://www.scmp.com/technology"
+      },
+      "source": {
+        "url": "https://www.scmp.com/tech/tech-trends/article/3359170/zhipu-ai-releases-harness-glm-52-model-chinese-firm-takes-aim-anthropic",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-04T07:00:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-03T00:00:00+07:00",
+        "scraped_at": "2026-07-04T07:00:00+07:00",
+        "run_date": "2026-07-04",
+        "target_date": "2026-07-04",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-RESEARCH",
+        "category_label": "วิจัย AI",
+        "news_type": "ข่าว",
+        "tags": ["Z.ai", "GLM-5.2", "China AI", "LLM", "Coding AI"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Chinese Startup Z.ai's GLM-5.2 Matches Claude Opus 4.8 and GPT-5.5 Coding Ability at Fraction of Cost",
+        "title_th": "GLM-5.2 ของ Z.ai จีน ใกล้เคียง Claude Opus 4.8 และ GPT-5.5 ด้านการเขียนโค้ด ในราคาถูกกว่ามาก",
+        "slug": "zai-glm52-claude-gpt-rival",
+        "summary": "GLM-5.2 โมเดลจีนจาก Z.ai ทำ coding และ agentic AI ได้ใกล้เคียง Claude Opus 4.8 ในราคาต่ำกว่ามาก",
+        "summary_1": "โมเดล GLM-5.2 ของสตาร์ตอัป AI จากจีน Z.ai กำลังดึงดูดความสนใจอย่างรวดเร็วจากนักพัฒนาทั่วโลก จากความสามารถด้าน coding และ agentic AI ที่ใกล้เคียงกับ Claude Opus 4.8 ของ Anthropic และ GPT-5.5 ของ OpenAI ในราคาที่ถูกกว่ามาก GLM-5.2 เป็น open-weight model ทำให้นักพัฒนาสามารถนำไปใช้งานบน infrastructure ของตนเองได้ ลดการพึ่งพา cloud API ซึ่งมีต้นทุนสูง การเกิดขึ้นของ GLM-5.2 เป็นสัญญาณที่ชัดเจนว่า China AI ecosystem กำลังตีตลาดระดับสูงได้สำเร็จแม้จะเผชิญกับ US export controls ด้าน chip โดย startups ที่ต้องการ lower AI costs กำลังให้ความสนใจโมเดลนี้เป็นทางเลือกสำหรับงาน coding-intensive applications",
+        "body_text": "GLM-5.2 ของ Z.ai ประสิทธิภาพ coding ใกล้ Claude Opus 4.8 ราคาถูกกว่ามาก เป็น open-weight model ดึงดูด startups ที่ต้องการลดต้นทุน AI",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "GLM-5.2 เปิดทางเลือกใหม่สำหรับ developer ไทยที่ต้องการ coding AI ประสิทธิภาพสูงในราคาต่ำ อาจเปลี่ยน dynamics ตลาด AI coding assistant",
+        "actions_developer": [
+          "ทดสอบ GLM-5.2 บน benchmark ที่ใช้ในงานจริงของทีม เพื่อประเมินว่าเหมาะกับ use case หรือไม่ก่อนเปลี่ยน provider",
+          "ศึกษา open-weight deployment options สำหรับ GLM-5.2 เพื่อ self-host บน GPU server ของตัวเองหากต้องการ privacy และ cost control"
+        ],
+        "actions_business": [
+          "พิจารณา GLM-5.2 เป็นทางเลือกสำหรับลดต้นทุน AI coding assistant ในทีม engineering โดยเฉพาะถ้ามี workload สูง",
+          "ประเมิน vendor lock-in risk ของ US-based AI vs China-based AI และวางกลยุทธ์ multi-model เพื่อ business continuity"
+        ],
+        "urgency": "medium",
+        "related_domains": ["LLM", "China AI", "Open-weight Models", "Coding AI", "AI Competition"],
+        "breakthrough_potential": true
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/SCMP/2026-07-04/zai-glm52-claude-gpt-rival",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-04/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-anthropic-fable5-us-ban-lifted",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "TechCrunch",
+        "registry_key": "Intl/TechCrunch",
+        "domain": "AI-policy",
+        "main_url": "https://techcrunch.com/category/artificial-intelligence"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-04T07:00:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-01T00:00:00+07:00",
+        "scraped_at": "2026-07-04T07:00:00+07:00",
+        "run_date": "2026-07-04",
+        "target_date": "2026-07-04",
+        "within_24h": false,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-PRODUCT",
+        "category_label": "ผลิตภัณฑ์ AI",
+        "news_type": "ข่าว",
+        "tags": ["Anthropic", "Claude Sonnet 5", "Fable 5", "Mythos 5", "AI Safety", "Agentic AI"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Anthropic Launches Claude Sonnet 5, US Lifts Ban on Fable 5 and Mythos 5 Models",
+        "title_th": "Anthropic เปิดตัว Claude Sonnet 5 พร้อมรัฐบาลสหรัฐยกเลิกการแบน Fable 5 และ Mythos 5",
+        "slug": "anthropic-fable5-us-ban-lifted",
+        "summary": "Anthropic เปิดตัว Claude Sonnet 5 โมเดล agentic ที่ดีที่สุด และรัฐสหรัฐยกเลิกแบน Fable 5/Mythos 5 มีผลตั้งแต่ 1 ก.ค.",
+        "summary_1": "Anthropic เปิดตัว Claude Sonnet 5 โมเดล AI ที่มีความสามารถ agentic สูงที่สุดใน Sonnet family จนถึงปัจจุบัน รองรับ context window ขนาด 1 ล้าน token และมาพร้อมราคาโปรโมชัน $2/$10 ต่อ Mtok ถึง 31 สิงหาคม 2026 โมเดลนี้มีประสิทธิภาพใกล้เคียง Claude Opus 4.8 แต่ราคาต่ำกว่ามาก เหมาะสำหรับงาน agentic ที่ต้องการรัน multi-step task โดยอัตโนมัติ ในเวลาเดียวกัน รัฐบาลสหรัฐประกาศยกเลิกข้อจำกัดด้านความมั่นคงแห่งชาติสำหรับโมเดล Fable 5 และ Mythos 5 ของ Anthropic ทำให้โมเดลเหล่านี้กลับมาให้บริการได้อย่างเต็มรูปแบบตั้งแต่วันที่ 1 กรกฎาคม 2026 โดยมีโควต้าการใช้งานสำหรับ Pro/Max/Team/Enterprise สูงสุด 50% ของโควต้ารายสัปดาห์ถึง 7 กรกฎาคม",
+        "body_text": "Anthropic เปิดตัว Claude Sonnet 5 ประสิทธิภาพใกล้ Opus 4.8 ราคา $2/$10/Mtok พร้อมรัฐสหรัฐยกเลิกแบน Fable 5 และ Mythos 5 ตั้งแต่ 1 ก.ค.",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Claude Sonnet 5 เปลี่ยน economics ของ agentic AI applications โดยทำให้ performance ระดับ Opus เข้าถึงได้ในราคา Sonnet ซึ่งจะเร่ง adoption ของ AI agent ในองค์กร",
+        "actions_developer": [
+          "ทดสอบ Claude Sonnet 5 บน agentic workflows ที่เคยใช้ Opus 4.8 เพราะ performance/cost ratio ดีกว่ามาก โดยเฉพาะช่วงราคาโปรถึง 31 ส.ค.",
+          "ใช้ 1M token context window ของ Sonnet 5 สำหรับงานที่ต้องการ process เอกสารขนาดใหญ่หรือ codebase ทั้งหมดใน single context"
+        ],
+        "actions_business": [
+          "ประเมิน cost savings ของการ migrate จาก Opus 4.8 มา Sonnet 5 สำหรับงาน production agentic AI",
+          "วางแผนใช้งาน Fable 5 ก่อน 7 ก.ค. เพื่อใช้ประโยชน์จากโควต้าพิเศษ 50% ก่อนเปลี่ยนเป็นระบบเครดิต"
+        ],
+        "urgency": "high",
+        "related_domains": ["LLM", "Agentic AI", "Anthropic", "AI Pricing", "AI Safety"],
+        "breakthrough_potential": true
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/TechCrunch/2026-07-04/anthropic-fable5-us-ban-lifted",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-04/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-meta-zuckerberg-ai-agent-slow-reuters",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "Reuters",
+        "registry_key": "Intl/Reuters",
+        "domain": "AI-research",
+        "main_url": "https://www.reuters.com/technology/artificial-intelligence"
+      },
+      "source": {
+        "url": "https://www.reuters.com/technology/artificial-intelligence",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-04T07:00:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-03T17:51:00+07:00",
+        "scraped_at": "2026-07-04T07:00:00+07:00",
+        "run_date": "2026-07-04",
+        "target_date": "2026-07-04",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-PRODUCT",
+        "category_label": "ผลิตภัณฑ์ AI",
+        "news_type": "ข่าว",
+        "tags": ["Meta", "Zuckerberg", "AI Agent", "Town Hall", "Layoffs"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Zuckerberg Admits Meta's AI Agent Development Slower Than Expected in Town Hall Recording",
+        "title_th": "Zuckerberg ยอมรับในทาวน์ฮอลล์ว่า Meta พัฒนา AI Agent ช้ากว่าที่คาดใน 4 เดือนที่ผ่านมา",
+        "slug": "meta-zuckerberg-ai-agent-slow-reuters",
+        "summary": "Reuters ได้บันทึกเสียงทาวน์ฮอลล์ Meta: Zuckerberg ยอมรับ AI Agent ช้ากว่าที่หวัง และการปลดพนักงานไม่ราบรื่น",
+        "summary_1": "Reuters รายงานอ้างอิงบันทึกเสียงการประชุมทาวน์ฮอลล์ภายในของ Meta เมื่อวันพฤหัสบดีที่ผ่านมา โดย Mark Zuckerberg ยอมรับอย่างตรงไปตรงมาว่าการพัฒนา AI Agent ในช่วง 4 เดือนที่ผ่านมาไม่ได้พัฒนาเร็วอย่างที่เขาคาดหวัง แม้ Meta จะประกาศ capex 2026 สูงถึง $135 พันล้านดอลลาร์และลงทุนอย่างหนักในด้าน AI infrastructure Zuckerberg ยังยอมรับว่าการปลดพนักงาน 700 คนในช่วงที่ผ่านมาไม่ได้ราบรื่นอย่างที่ควร โดยผู้บริหารประเมิน timing ผิดพลาด Meta ปฏิเสธที่จะให้ความเห็นต่อรายงานนี้ คำยอมรับจาก Zuckerberg เป็นสัญญาณสำคัญที่ชี้ให้เห็นว่า agentic AI ยังคงเผชิญกับความท้าทายทางเทคนิคที่ยากกว่าที่คาด แม้แต่สำหรับบริษัทที่มีทรัพยากรมากที่สุดในโลก",
+        "body_text": "Reuters บันทึกเสียงทาวน์ฮอลล์ Meta: Zuckerberg ยอมรับ AI Agent พัฒนาช้ากว่าคาด 4 เดือน และการปลดพนักงานไม่ราบรื่น",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "แม้ Meta ลงทุน $135B ใน AI แต่ยังพัฒนา AI Agent ไม่ได้ตามคาด สะท้อนว่า agentic AI มีความซับซ้อนเกินที่เงินเพียงอย่างเดียวจะแก้ได้",
+        "actions_developer": [
+          "อย่าประมาทความซับซ้อนของ AI Agent development ให้เพิ่ม testing coverage สำหรับ edge cases และ failure modes",
+          "ศึกษา Meta's AI agent architecture patterns และ lessons learned จาก failure เพื่อหลีกเลี่ยงปัญหาเดียวกัน"
+        ],
+        "actions_business": [
+          "ปรับความคาดหวังของ stakeholders เกี่ยวกับ AI agent timeline ให้สมเหตุสมผลมากขึ้น",
+          "ลงทุนใน AI agent evaluation และ monitoring infrastructure ก่อน scale production deployment"
+        ],
+        "urgency": "high",
+        "related_domains": ["Agentic AI", "Meta AI", "AI Strategy", "LLM"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/Reuters/2026-07-04/meta-zuckerberg-ai-agent-slow-reuters",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-04/batch_2.json"
+      }
+    }
+  ]
+}
