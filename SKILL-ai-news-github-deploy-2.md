@@ -62,6 +62,10 @@ d:\AI-news\                          ← GIT REPO ROOT
 
 ## ⚡ EXECUTION — 5 STEPS, FULLY AUTOMATIC
 
+> ⛔ PAT AUTH IS MANDATORY: Always read `.github-pat` and set remote URL before `git push`.
+> Without this, scheduled pushes will fail with 403.
+> The push-to-github.ps1 script handles this automatically — prefer calling it directly.
+
 ### Step 1: Clear locks + detect today's date
 
 ```powershell
@@ -109,9 +113,18 @@ git commit -m "Update AI news ${today}"
 Only stage: `data/`, `github-pages/data/`, `Document/{date}_News/`, `Document/manifest.json`
 **Never stage**: Batches, Logs, run-reports, .push-trigger, scripts
 
-### Step 5: Push immediately
+### Step 5: Ensure PAT auth + Push immediately
 
+⛔ MUST set PAT before push — otherwise scheduled/auto runs will get 403:
 ```powershell
+# Read PAT from .github-pat and set remote URL
+$pat = (Get-Content "D:\AI-news\.github-pat" -Raw).Trim()
+$currentUrl = git remote get-url origin
+if ($currentUrl -notlike "*ghp_*") {
+    git remote set-url origin "https://${pat}@github.com/chiraleo2000/ai-news.git"
+}
+
+# Push
 git push origin master
 ```
 
@@ -131,6 +144,11 @@ git push origin master
 Last resort (after 5 failures):
 ```powershell
 git push -f origin master
+```
+
+**OR** just call the push script directly (handles all retry + PAT logic):
+```powershell
+pwsh -File "D:\AI-news\push-to-github.ps1"
 ```
 
 ---
