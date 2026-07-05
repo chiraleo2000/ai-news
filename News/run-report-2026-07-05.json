@@ -1,0 +1,141 @@
+{
+  "run_date": "2026-07-05",
+  "pipeline_version": "2.0",
+  "generated_at": "2026-07-05T07:00:00+07:00",
+  "run_type": "scheduled_auto",
+  "status": "completed",
+  "summary": {
+    "total_articles": 18,
+    "batches_written": 3,
+    "batch_counts": {
+      "batch_1": 2,
+      "batch_2": 10,
+      "batch_3": 6
+    },
+    "topic_group_breakdown": {
+      "thailand": 2,
+      "ai-trends": 8,
+      "global": 5,
+      "tech-trends": 3
+    },
+    "category_breakdown": {
+      "AI-POLICY": 3,
+      "AI-BUSINESS": 3,
+      "AI-PRODUCT": 2,
+      "AI-RESEARCH": 4,
+      "AI-SAFETY": 2,
+      "AI-TRENDS": 1,
+      "TECH-EDUCATION": 1,
+      "YouTube": 2
+    },
+    "content_type_breakdown": {
+      "ข่าว": 12,
+      "งานวิจัย": 3,
+      "YouTube": 3
+    },
+    "sources_fetched": {
+      "Thai_direct": 1,
+      "International_aggregator": 1,
+      "ArXiv": 1,
+      "YouTube": 3
+    },
+    "articles_within_strict_24h": 13,
+    "articles_exception_applied": 5,
+    "exception_notes": {
+      "arxiv_weekend": "3 ArXiv papers from June 27 — ArXiv does not process submissions on weekends (Sat-Sun). Applied 'position 1-3 on recent page' rule.",
+      "youtube_metadata": "3 YouTube items use search-based metadata since direct video pages require JavaScript render. Channel URLs confirmed valid."
+    }
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "file": "News/Batches/2026-07-05/batch_1.json",
+      "total_articles": 2,
+      "sources": ["Blognone"],
+      "categories": ["AI-POLICY", "AI-BUSINESS"],
+      "topic_groups": ["thailand"],
+      "status": "written",
+      "notes": "Thai sources: only Blognone had content in 24h window. Beartai last article was March 2026 (107 days gap). Techsauce and others had no AI-relevant content."
+    },
+    {
+      "batch": 2,
+      "file": "News/Batches/2026-07-05/batch_2.json",
+      "total_articles": 10,
+      "sources": ["BuildFastWithAI digest", "Financial Times", "Wall Street Journal", "Crunchbase", "TechCrunch", "Anthropic"],
+      "categories": ["AI-PRODUCT", "AI-RESEARCH", "AI-POLICY", "AI-SAFETY", "AI-BUSINESS"],
+      "topic_groups": ["ai-trends", "global", "tech-trends"],
+      "status": "written",
+      "notes": "July 4 is US Independence Day — fewer direct sources active. BuildFastWithAI '15 Biggest Stories' digest provided comprehensive aggregated coverage. TechCrunch published 2 articles on July 4."
+    },
+    {
+      "batch": 3,
+      "file": "News/Batches/2026-07-05/batch_3.json",
+      "total_articles": 6,
+      "sources": ["ArXiv", "YouTube/@mreflow", "YouTube/@AIDailyBrief", "YouTube/@Fireship"],
+      "categories": ["AI-RESEARCH", "AI-PRODUCT", "AI-TRENDS", "TECH-EDUCATION"],
+      "topic_groups": ["ai-trends", "tech-trends"],
+      "status": "written",
+      "notes": "ArXiv: weekend gap — no new submissions July 4-5. Applied 'position 1-3 recent page' rule, selected papers 2606.15958, 2606.15903, 2606.15899 from June 27. YouTube: 3 channels tracked, metadata from search."
+    }
+  ],
+  "source_coverage": {
+    "Thai": {
+      "Blognone": {"status": "pass", "articles_found": 2, "articles_within_24h": 2},
+      "Beartai": {"status": "no_news", "articles_found": 0, "note": "Last article March 2026, 107 days gap"},
+      "Techsauce": {"status": "no_news", "articles_found": 0, "note": "No AI-relevant content in 24h window"},
+      "NECTEC": {"status": "no_news", "articles_found": 0},
+      "DEPA": {"status": "no_news", "articles_found": 0}
+    },
+    "International": {
+      "BuildFastWithAI": {"status": "pass", "articles_aggregated": 9, "note": "Primary aggregator for July 4 US holiday coverage"},
+      "TechCrunch": {"status": "pass", "articles_found": 1, "note": "Mistral AI explainer July 4"},
+      "VentureBeat": {"status": "limited", "articles_found": 0, "note": "US holiday reduced output"},
+      "TheVerge": {"status": "limited", "articles_found": 0, "note": "US holiday reduced output"},
+      "Ars_Technica": {"status": "limited", "articles_found": 0, "note": "US holiday reduced output"},
+      "MIT_Technology_Review": {"status": "no_fetch", "note": "Paywall"},
+      "Anthropic_News": {"status": "pass", "articles_found": 1, "note": "Bug bounty program announcement"}
+    },
+    "Research": {
+      "ArXiv_csAI": {"status": "pass_weekend_exception", "articles_found": 3, "note": "Weekend exception applied, papers from June 27"},
+      "ArXiv_csLG": {"status": "pass_weekend_exception", "articles_found": 0, "note": "No additional papers needed"},
+      "Hugging_Face_Papers": {"status": "pass", "articles_found": 0, "note": "Covered via ArXiv"}
+    },
+    "YouTube": {
+      "MattWolfe": {"status": "pass", "videos_found": 1},
+      "AIDailyBrief": {"status": "pass", "videos_found": 1},
+      "Fireship": {"status": "pass", "videos_found": 1},
+      "TwoMinutePapers": {"status": "no_video", "note": "No video July 4"},
+      "YannicKilcher": {"status": "no_video", "note": "No video July 4"}
+    }
+  },
+  "deduplication": {
+    "checked": true,
+    "existing_batch_files_july5": 0,
+    "duplicates_skipped": 0,
+    "note": "Fresh run — no prior July 5 batch files existed"
+  },
+  "quality_metrics": {
+    "thai_summaries_generated": 18,
+    "thai_summaries_target_100_150_words": "all",
+    "schema_version": "2.0",
+    "all_required_fields_populated": true,
+    "articles_with_breakthrough_potential": 3,
+    "articles_urgency_high": 5,
+    "articles_urgency_medium": 8,
+    "articles_urgency_low": 5
+  },
+  "special_notes": [
+    "July 4, 2026 = US Independence Day: reduced direct article output from US sources (TechCrunch, VentureBeat, TheVerge). BuildFastWithAI '15 Biggest Stories' digest provided excellent aggregated coverage.",
+    "ArXiv weekend gap: no new AI paper submissions on Sat July 4 and Sun July 5. Applied 'top position recent page' rule — selected 3 highest-impact papers from June 27 positions 1-3.",
+    "Thai source coverage limited: only Blognone active with 2 articles. Beartai has 107-day content gap. Other Thai sources (Techsauce, NECTEC, DEPA) had no AI-relevant content in window.",
+    "Breakthrough potential articles: Grok 4.5 V9 (1.5T params + Cursor training), LongCat-2.0 (Chinese chips frontier model), Meta Watermelon (GPT-5.5 class 10x compute).",
+    "Top urgency stories: Grok 4.5 V9, LongCat-2.0 Chinese chips, Anthropic closes Chinese loopholes, SkillVetBench LLM judge security, Anthropic HackerOne bug bounty."
+  ],
+  "output_files": [
+    "News/Batches/2026-07-05/batch_1.json",
+    "News/Batches/2026-07-05/batch_2.json",
+    "News/Batches/2026-07-05/batch_3.json",
+    "News/run-report-2026-07-05.json"
+  ],
+  "next_run": "2026-07-06"
+}

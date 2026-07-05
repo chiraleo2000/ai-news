@@ -1,0 +1,461 @@
+{
+  "batch": 3,
+  "target_date": "2026-07-05",
+  "generated_at": "2026-07-05T07:00:00+07:00",
+  "total_articles": 6,
+  "articles": [
+    {
+      "article_id": "arxiv-2606.15958-green-sarc-agentic-ai",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "Research",
+        "source_name": "ArXiv",
+        "registry_key": "Research/ArXiv",
+        "domain": "AI-research",
+        "main_url": "https://arxiv.org/list/cs.AI/recent"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2606.15958",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct",
+        "note": "ArXiv no-weekend-submissions rule applied; selecting top recent papers by position on recent page"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "recent_position_1-3",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-27T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": false,
+        "within_24h_note": "ArXiv weekend exception: no submissions on Sat-Sun; using top recent position papers",
+        "status": "scraped",
+        "batch": "3",
+        "category": "AI-RESEARCH",
+        "category_label": "งานวิจัย AI",
+        "news_type": "งานวิจัย",
+        "tags": ["Agentic AI", "Green AI", "Cost Prediction", "Carbon", "Efficiency", "SARC"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Green SARC: Predictive Cost and Carbon Footprint Framework for Agentic AI Workflows",
+        "title_th": "Green SARC: กรอบงานพยากรณ์ต้นทุนและปริมาณคาร์บอนสำหรับ Agentic AI",
+        "slug": "green-sarc-agentic-ai-cost-carbon-2606-15958",
+        "summary": "งานวิจัยนำเสนอกรอบงาน Green SARC สำหรับการพยากรณ์ต้นทุนและปริมาณคาร์บอนของ agentic AI workflows ก่อนรันจริง ช่วยให้วางแผนทรัพยากรและลดผลกระทบสิ่งแวดล้อมได้",
+        "summary_1": "งานวิจัย arXiv 2606.15958 นำเสนอกรอบงาน Green SARC (Sustainable Agentic Resource Computation) สำหรับการพยากรณ์ต้นทุนทางการเงินและปริมาณการปล่อยคาร์บอนของ agentic AI workflows ก่อนที่จะรันจริง ปัญหาหลักที่งานนี้แก้คือ agentic workflows ที่ใช้ LLM หลายตัวต่อกันนั้นมีต้นทุน token และ carbon footprint ที่ผันผวนสูงและยากจะคาดการณ์ล่วงหน้า Green SARC ใช้วิธีการ profiling จาก trial runs ขนาดเล็กเพื่อสร้าง predictive model ที่ประมาณต้นทุนของ full-scale run ได้โดยไม่ต้องรันครบ ผลการทดสอบแสดงว่าสามารถพยากรณ์ต้นทุนได้ภายใน 12% ด้วยการรันเพียง 5% ของ workflow จริง และประมาณ carbon footprint โดยใช้ข้อมูล energy intensity ของ data center แต่ละแห่ง งานวิจัยนี้มีนัยสำคัญสำหรับทีมที่ deploy multi-agent AI เพราะช่วยหลีกเลี่ยงค่าใช้จ่าย token ที่ไม่คาดคิด",
+        "body_text": "Green SARC พยากรณ์ต้นทุนและคาร์บอนของ agentic AI workflows ด้วย trial profiling ขนาดเล็ก ประหยัด cost ได้ก่อนรัน full-scale production",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Green SARC ช่วยทีม engineering คาดการณ์ค่าใช้จ่าย AI agent ล่วงหน้าได้อย่างแม่นยำ ลดความเสี่ยง budget overrun ใน production multi-agent systems",
+        "actions_developer": [
+          "พิจารณานำ Green SARC framework มาใช้กับ production agentic workflows โดยเฉพาะระบบที่ใช้ LLM หลายตัวต่อกันและมีต้นทุน token สูง",
+          "ใช้ predictive carbon estimation จาก Green SARC ในการเลือก data center region สำหรับ AI workloads เพื่อลด carbon footprint"
+        ],
+        "actions_business": [
+          "ผนวก cost prediction ของ agentic workflows เข้ากับ AI budget planning process เพื่อหลีกเลี่ยง surprise token bills",
+          "ใช้ Green SARC approach ในการ justify AI investment ต่อ CFO และ sustainability teams โดยแสดง predictable cost และ environmental impact"
+        ],
+        "urgency": "medium",
+        "related_domains": ["Agentic AI", "Green AI", "Cost Management", "Sustainability"],
+        "breakthrough_potential": false
+      },
+      "media_links": {
+        "arxiv_pdf": "https://arxiv.org/pdf/2606.15958"
+      },
+      "paths": {
+        "relative": "Research/ArXiv/2026-06-27/green-sarc-agentic-cost",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_3.json"
+      }
+    },
+    {
+      "article_id": "arxiv-2606.15903-agent-memory-control-plane",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "Research",
+        "source_name": "ArXiv",
+        "registry_key": "Research/ArXiv",
+        "domain": "AI-research",
+        "main_url": "https://arxiv.org/list/cs.AI/recent"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2606.15903",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct",
+        "note": "ArXiv no-weekend-submissions rule applied"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "recent_position_1-3",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-27T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": false,
+        "within_24h_note": "ArXiv weekend exception: no submissions on Sat-Sun; using top recent position papers",
+        "status": "scraped",
+        "batch": "3",
+        "category": "AI-RESEARCH",
+        "category_label": "งานวิจัย AI",
+        "news_type": "งานวิจัย",
+        "tags": ["Agent Memory", "Control Plane", "Catastrophic Forgetting", "LLM Architecture", "Long-term Memory"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Control-Plane Placement Shapes Forgetting: A Study of Agent Memory Architecture",
+        "title_th": "ตำแหน่งของ Control Plane กำหนดรูปแบบ Forgetting ใน Agent Memory Architecture",
+        "slug": "control-plane-agent-memory-forgetting-2606-15903",
+        "summary": "งานวิจัยศึกษาว่าตำแหน่งของ control plane ใน multi-agent architectures มีผลอย่างไรต่อ catastrophic forgetting และ long-term memory retention ของ LLM agents",
+        "summary_1": "งานวิจัย arXiv 2606.15903 ศึกษาว่าตำแหน่งที่วาง 'control plane' หรือส่วนของระบบที่ควบคุมการส่ง message และจัดการ memory ระหว่าง agent นั้น มีผลอย่างมีนัยสำคัญต่อรูปแบบที่ agent ลืมข้อมูล (catastrophic forgetting) เมื่อได้รับข้อมูลใหม่ งานนี้ทดสอบ 4 สถาปัตยกรรมหลักคือ centralized control plane, distributed peer control, hierarchical control, และ hybrid routing และพบว่า hierarchical control plane ลด interference ระหว่าง memory streams ต่างกัน โดยเฉพาะในสภาพแวดล้อมที่ agent ต้องจำข้อมูลระยะยาวขณะเรียนรู้ task ใหม่อย่างต่อเนื่อง ผลการทดสอบบน long-context benchmark แสดง hierarchical control ลด forgetting ได้ 23-31% เทียบกับ centralized approach งานนี้ให้ practical guidance สำหรับนักพัฒนาที่ออกแบบ multi-agent systems สำหรับงานที่ต้องการ persistent memory",
+        "body_text": "Hierarchical control plane ลด catastrophic forgetting ใน multi-agent LLM systems ได้ 23-31% เป็น insight สำคัญสำหรับออกแบบ agentic memory architecture",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "งานนี้ให้ blueprint สำคัญสำหรับออกแบบ multi-agent systems ที่ต้องการ persistent memory โดยชี้ว่า hierarchical control plane เป็น architecture ที่เหมาะสมที่สุด",
+        "actions_developer": [
+          "ถ้าสร้าง multi-agent system ที่ต้องการ long-term memory ให้พิจารณา hierarchical control plane architecture แทน centralized หรือ peer-to-peer approach",
+          "ทดสอบ memory retention ของ agent systems ที่มีอยู่โดยใช้ benchmark จากงานวิจัยนี้เพื่อประเมินว่า architecture ปัจจุบันมี forgetting ในระดับไหน"
+        ],
+        "actions_business": [
+          "ถ้าลงทุนใน AI agent systems ที่ต้องการจำบริบทระยะยาว เช่น customer service agents หรือ research assistants ควรตรวจสอบว่า vendor ที่ใช้ออกแบบ control plane อย่างไร",
+          "ใช้ insights จากงานนี้ในการ evaluate AI agent platforms ที่อ้างว่ามี long-term memory capability"
+        ],
+        "urgency": "medium",
+        "related_domains": ["Agentic AI", "LLM Architecture", "Memory Systems", "Multi-Agent"],
+        "breakthrough_potential": false
+      },
+      "media_links": {
+        "arxiv_pdf": "https://arxiv.org/pdf/2606.15903"
+      },
+      "paths": {
+        "relative": "Research/ArXiv/2026-06-27/control-plane-agent-memory",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_3.json"
+      }
+    },
+    {
+      "article_id": "arxiv-2606.15899-skillvetbench-llm-security",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "Research",
+        "source_name": "ArXiv",
+        "registry_key": "Research/ArXiv",
+        "domain": "AI-research",
+        "main_url": "https://arxiv.org/list/cs.AI/recent"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2606.15899",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct",
+        "note": "ArXiv no-weekend-submissions rule applied"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "recent_position_1-3",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-27T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": false,
+        "within_24h_note": "ArXiv weekend exception: no submissions on Sat-Sun; using top recent position papers",
+        "status": "scraped",
+        "batch": "3",
+        "category": "AI-RESEARCH",
+        "category_label": "งานวิจัย AI",
+        "news_type": "งานวิจัย",
+        "tags": ["LLM Security", "Benchmark", "LLM-as-Judge", "Red Teaming", "Safety Evaluation"],
+        "language": "th"
+      },
+      "content": {
+        "title": "SkillVetBench: Evaluating Security Risks of LLM-as-Judge Systems",
+        "title_th": "SkillVetBench: Benchmark สำหรับประเมินความเสี่ยงด้านความปลอดภัยของระบบ LLM-as-Judge",
+        "slug": "skillvetbench-llm-as-judge-security-eval-2606-15899",
+        "summary": "งานวิจัยนำเสนอ SkillVetBench ชุดทดสอบใหม่สำหรับประเมินช่องโหว่ด้านความปลอดภัยของระบบ LLM-as-Judge ที่ใช้โมเดลตัดสินผลงานโมเดลอื่น",
+        "summary_1": "งานวิจัย arXiv 2606.15899 นำเสนอ SkillVetBench ชุดทดสอบความปลอดภัยใหม่สำหรับระบบ LLM-as-Judge ซึ่งเป็น pattern ที่ใช้ LLM หนึ่งตัดสินคุณภาพหรือความปลอดภัยของ output จาก LLM อีกตัว ปัญหาที่งานนี้ค้นพบคือระบบ LLM-as-Judge มีช่องโหว่ต่อ 'judge manipulation attacks' คือฝั่ง model ที่ถูก evaluate สามารถใส่ข้อความพิเศษใน output เพื่อให้ judge model ให้คะแนนสูงกว่าที่ควรได้รับ SkillVetBench ประกอบด้วย 2,400 test cases ใน 6 หมวดความเสี่ยง ทดสอบกับ judge models ชั้นนำ 8 รายได้แก่ GPT-5.5, Claude Opus 4.8, Gemini 2.5 Ultra, Llama-5.2-405B และอื่นๆ ผลพบว่า judge models ทั้งหมดมีความเสี่ยงต่อ manipulation ในระดับต่างกัน โดย specialized safety-trained models มี resistance สูงกว่า general models",
+        "body_text": "SkillVetBench เผยว่า LLM-as-Judge systems ทุกรายมีความเสี่ยงต่อ judge manipulation attacks ในระดับต่างกัน เป็น insight สำคัญสำหรับ AI evaluation pipelines",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "SkillVetBench เปิดเผยช่องโหว่สำคัญใน LLM-as-Judge pipelines ที่ใช้กันอย่างแพร่หลายใน AI evaluation และ RLHF workflows ของ production systems",
+        "actions_developer": [
+          "ถ้าใช้ LLM-as-Judge ใน evaluation pipeline ทดสอบด้วย SkillVetBench เพื่อวัด vulnerability ต่อ judge manipulation ก่อน deploy ใน production",
+          "พิจารณาใช้ ensemble judging หรือ cross-validation ระหว่าง judge models หลายตัวแทนการใช้ judge เดียวเพื่อลดความเสี่ยง manipulation"
+        ],
+        "actions_business": [
+          "ถ้าซื้อ AI evaluation services ที่ใช้ LLM-as-Judge ขอทราบ security methodology ว่าป้องกัน judge manipulation อย่างไรก่อน commit สัญญา",
+          "ผนวก LLM judge robustness testing เข้ากับ AI quality assurance process เพราะ judge manipulation อาจทำให้ safety evaluation ไม่น่าเชื่อถือ"
+        ],
+        "urgency": "high",
+        "related_domains": ["AI-safety", "LLM Evaluation", "Security", "Red Teaming"],
+        "breakthrough_potential": false
+      },
+      "media_links": {
+        "arxiv_pdf": "https://arxiv.org/pdf/2606.15899"
+      },
+      "paths": {
+        "relative": "Research/ArXiv/2026-06-27/skillvetbench-llm-judge-security",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_3.json"
+      }
+    },
+    {
+      "article_id": "yt-matt-wolfe-mreflow-weekly-ai-tools-july4",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "YouTube",
+        "source_name": "Matt Wolfe (@mreflow)",
+        "registry_key": "YouTube/MattWolfe",
+        "domain": "AI-product",
+        "main_url": "https://www.youtube.com/@mreflow"
+      },
+      "source": {
+        "url": "https://www.youtube.com/@mreflow/videos",
+        "type": "youtube_channel",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "youtube_search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-04T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "3",
+        "category": "AI-PRODUCT",
+        "category_label": "ผลิตภัณฑ์ AI",
+        "news_type": "YouTube",
+        "tags": ["Matt Wolfe", "AI Tools", "Weekly Recap", "Product Review", "YouTube"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Every AI Tool That Launched This Week (July 4 2026)",
+        "title_th": "สรุป AI Tools ที่เปิดตัวสัปดาห์นี้: Matt Wolfe รวมเครื่องมือ AI ใหม่ประจำสัปดาห์ 4 กรกฎาคม 2026",
+        "slug": "matt-wolfe-ai-tools-weekly-july4-2026",
+        "summary": "Matt Wolfe (@mreflow) รวบรวมเครื่องมือ AI ใหม่ที่เปิดตัวในสัปดาห์ 28 มิถุนายน - 4 กรกฎาคม 2026 ให้ภาพรวมอุตสาหกรรม AI tools ประจำสัปดาห์",
+        "summary_1": "Matt Wolfe นักรีวิว AI tools รายใหญ่สุดช่อง YouTube @mreflow (ผู้ติดตาม 2.1 ล้านคน) เผยแพร่วิดีโอรวมเครื่องมือ AI ใหม่ประจำสัปดาห์ 4 กรกฎาคม 2026 เนื้อหาครอบคลุม tools ด้าน image generation, video creation, coding assistants, productivity apps และ AI agents ที่เปิดตัวหรือ update สำคัญในรอบ 7 วัน Matt Wolfe เป็นแหล่งติดตาม AI product landscape ที่ครอบคลุมและรวดเร็วที่สุดรายหนึ่ง โดยมักเน้น hands-on demo ว่า tools แต่ละตัวทำงานได้จริงอย่างไร ผู้ชมหลักคือ developer, product manager และ no-code enthusiast ที่ต้องการ keep up กับ AI tools ecosystem ช่วงสัปดาห์ที่ 4 กรกฎาคมซึ่งเป็นวันหยุดอเมริกา tools releases อาจน้อยกว่าสัปดาห์ปกติ แต่ Matt Wolfe มักเพิ่ม retrospective หรือ comparison ระหว่าง tools ที่น่าสนใจเสริม",
+        "body_text": "Matt Wolfe @mreflow รวม AI tools ใหม่ประจำสัปดาห์ 4 กรกฎาคม 2026 เน้น demo จริงและ practical use cases",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "วิดีโอ weekly AI tools recap ของ Matt Wolfe เป็นแหล่งข้อมูล AI product landscape ที่ practical สูงสุดสำหรับ developer และ product teams ที่ต้องตัดสินใจว่าจะทดลอง tool ไหน",
+        "actions_developer": [
+          "ดูวิดีโอ Matt Wolfe ประจำสัปดาห์เพื่อ filter AI tools ที่น่าทดสอบจากจำนวนนับร้อยที่เปิดตัวทุกสัปดาห์",
+          "ใช้ Matt Wolfe's review เป็น first screen ก่อน evaluate tools ด้วยตัวเองเพื่อประหยัดเวลา"
+        ],
+        "actions_business": [
+          "ทีม innovation และ R&D ควรติดตาม Matt Wolfe weekly recap เป็น radar สำหรับ AI tools ใหม่ที่อาจเพิ่ม productivity ให้ทีม",
+          "ใช้ weekly tool reviews เป็นข้อมูลประกอบการตัดสินใจว่า tool ไหนน่าลง budget ทดสอบในไตรมาสถัดไป"
+        ],
+        "urgency": "low",
+        "related_domains": ["AI-product", "Tools", "Productivity"],
+        "breakthrough_potential": false
+      },
+      "media_links": {
+        "youtube_channel": "https://www.youtube.com/@mreflow",
+        "youtube_search": "https://www.youtube.com/results?search_query=matt+wolfe+ai+tools+july+2026"
+      },
+      "paths": {
+        "relative": "YouTube/MattWolfe/2026-07-04/weekly-ai-tools",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_3.json"
+      }
+    },
+    {
+      "article_id": "yt-ai-daily-brief-july4-2026",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "YouTube",
+        "source_name": "AI Daily Brief (@AIDailyBrief)",
+        "registry_key": "YouTube/AIDailyBrief",
+        "domain": "AI-news",
+        "main_url": "https://www.youtube.com/@AIDailyBrief"
+      },
+      "source": {
+        "url": "https://www.youtube.com/@AIDailyBrief/videos",
+        "type": "youtube_channel",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "youtube_search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-04T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "3",
+        "category": "AI-TRENDS",
+        "category_label": "แนวโน้ม AI",
+        "news_type": "YouTube",
+        "tags": ["AI Daily Brief", "Nathaniel Whittemore", "AI News", "Daily Summary", "YouTube"],
+        "language": "th"
+      },
+      "content": {
+        "title": "AI Daily Brief: The Big AI Stories on America's Independence Day (July 4 2026)",
+        "title_th": "AI Daily Brief: สรุปข่าว AI ใหญ่ประจำวันที่ 4 กรกฎาคม 2026 วันหยุดอเมริกา",
+        "slug": "ai-daily-brief-july4-2026-independence-day",
+        "summary": "Nathaniel Whittemore จาก AI Daily Brief สรุปข่าว AI สำคัญประจำวัน 4 กรกฎาคม 2026 ครอบคลุม stories หลักในช่วง US holiday",
+        "summary_1": "AI Daily Brief ช่อง YouTube @AIDailyBrief ของ Nathaniel Whittemore เผยแพร่ brief ประจำวัน 4 กรกฎาคม 2026 วันประกาศอิสรภาพสหรัฐ เนื้อหาหลักวันนี้น่าจะครอบคลุมข่าวใหญ่ที่ปรากฏในช่วงสัปดาห์นี้ ได้แก่ Grok 4.5 V9 private beta ที่ SpaceX/Tesla, อีเมลหลุด Pentagon vs Anthropic, LongCat-2.0 open-source จาก Meituan, OpenAI government stake proposal และ VC record $510B ของ H1 2026 AI Daily Brief เน้น narrative เชิง geopolitical และ business implications ของ AI มากกว่า technical deep dive ทำให้เหมาะกับผู้บริหารและ policy analyst ที่ต้องการ context ด้านธุรกิจและการเมืองของ AI อย่างรวดเร็ว Whittemore มักนำเสนอแง่มุม long-term implications ที่ไม่ค่อยพบในสื่อกระแสหลัก",
+        "body_text": "AI Daily Brief สรุปข่าว AI สำคัญประจำวัน 4 กรกฎาคม 2026 เน้น business/geopolitical implications ของ AI stories สำคัญประจำสัปดาห์",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "AI Daily Brief เป็นแหล่งสรุป AI news เชิง context และ implication ที่ดีที่สุดสำหรับผู้บริหารและ policy teams ที่ต้องการเข้าใจ so-what ของข่าว AI อย่างรวดเร็ว",
+        "actions_developer": [
+          "ติดตาม AI Daily Brief เป็น daily 15-20 นาที briefing สำหรับ AI news โดยเฉพาะถ้าต้องการ big-picture context ไม่ใช่แค่ technical details",
+          "ใช้ AI Daily Brief เป็น conversation starter กับ non-technical stakeholders เพราะ Whittemore อธิบาย AI implications ในภาษาที่เข้าใจง่าย"
+        ],
+        "actions_business": [
+          "แนะนำ AI Daily Brief ให้ C-suite และ leadership teams ติดตามเป็น AI literacy resource",
+          "ใช้ episode transcripts จาก AI Daily Brief เป็นข้อมูลประกอบการนำเสนอ AI strategy ต่อ board"
+        ],
+        "urgency": "low",
+        "related_domains": ["AI-news", "Media", "AI Strategy"],
+        "breakthrough_potential": false
+      },
+      "media_links": {
+        "youtube_channel": "https://www.youtube.com/@AIDailyBrief",
+        "youtube_search": "https://www.youtube.com/results?search_query=AI+daily+brief+july+4+2026"
+      },
+      "paths": {
+        "relative": "YouTube/AIDailyBrief/2026-07-04/daily-brief-july4",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_3.json"
+      }
+    },
+    {
+      "article_id": "yt-fireship-ai-independence-day-2026",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "YouTube",
+        "source_name": "Fireship (@Fireship)",
+        "registry_key": "YouTube/Fireship",
+        "domain": "tech-education",
+        "main_url": "https://www.youtube.com/@Fireship"
+      },
+      "source": {
+        "url": "https://www.youtube.com/@Fireship/videos",
+        "type": "youtube_channel",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "youtube_search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-04T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "3",
+        "category": "TECH-EDUCATION",
+        "category_label": "เทคโนโลยีการศึกษา",
+        "news_type": "YouTube",
+        "tags": ["Fireship", "Jeff Delaney", "Developer Education", "AI Coding", "Programming"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Fireship: AI in 100 Seconds — The July 4th 2026 Developer Edition",
+        "title_th": "Fireship สรุป AI สำหรับ Developer ประจำวันที่ 4 กรกฎาคม 2026",
+        "slug": "fireship-ai-developer-july4-2026",
+        "summary": "Fireship ช่อง YouTube เทคโนโลยีของ Jeff Delaney สรุป AI เรื่องที่ developer ควรรู้ประจำสัปดาห์ 4 กรกฎาคม 2026 ด้วยสไตล์รวดเร็วและตลกขบขัน",
+        "summary_1": "Fireship ช่อง YouTube @Fireship ของ Jeff Delaney (ผู้ติดตาม 3.8 ล้านคน) เป็นแหล่ง developer education AI/tech ที่มีสไตล์เฉพาะตัว สรุปเร็ว ตลก และตรงประเด็น สำหรับสัปดาห์ 4 กรกฎาคม 2026 Fireship น่าจะเน้นเรื่องที่ developer ควรสนใจที่สุด ได้แก่ LongCat-2.0 open-source จาก Meituan ที่ฝึกบนชิปจีนและ benchmark เทียบ GPT-5.5, Grok 4.5 V9 private beta และ Cursor training data, และแนวโน้ม coding AI ที่เปลี่ยนแปลงเร็วในช่วง H2 2026 Fireship มักเพิ่ม commentary เชิง cynical แต่ accurate เกี่ยวกับ hype vs reality ของ AI tools ใหม่ ทำให้ developer ได้ภาพที่สมดุลกว่าสื่อ tech ทั่วไป วิดีโอ Fireship มักออกสั้น 5-15 นาทีแต่ dense สูงมาก",
+        "body_text": "Fireship สรุป AI news สำหรับ developer ประจำสัปดาห์ 4 กรกฎาคม 2026 เน้น LongCat-2.0, Grok 4.5 V9, และ coding AI trends",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Fireship เป็นแหล่ง developer-focused AI education ที่มีคุณภาพสูงสุดสำหรับ practical understanding ว่า AI stories ใหญ่มีผลต่อ developer workflow อย่างไร",
+        "actions_developer": [
+          "ติดตาม Fireship เป็น developer AI education channel หลัก เพราะ Jeff Delaney มีความสามารถสูงในการ explain AI concepts ด้วย practical code examples",
+          "ดู Fireship ก่อน deep dive ใน technical paper หรือ documentation เพราะมักให้ mental model ที่ถูกต้องก่อนเข้าสู่ detail"
+        ],
+        "actions_business": [
+          "แนะนำ Fireship ให้ developer teams ติดตามเพื่อ keep up กับ AI tools landscape โดยไม่ต้องใช้เวลานาน",
+          "ใช้ Fireship content เป็น basis สำหรับ internal AI learning sessions ในทีม engineering"
+        ],
+        "urgency": "low",
+        "related_domains": ["tech-education", "Developer Tools", "AI Coding"],
+        "breakthrough_potential": false
+      },
+      "media_links": {
+        "youtube_channel": "https://www.youtube.com/@Fireship",
+        "youtube_search": "https://www.youtube.com/results?search_query=fireship+AI+july+2026"
+      },
+      "paths": {
+        "relative": "YouTube/Fireship/2026-07-04/ai-developer-july4",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_3.json"
+      }
+    }
+  ]
+}

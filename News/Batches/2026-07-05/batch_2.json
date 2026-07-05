@@ -1,0 +1,800 @@
+{
+  "batch": 2,
+  "target_date": "2026-07-05",
+  "generated_at": "2026-07-05T07:00:00+07:00",
+  "total_articles": 10,
+  "articles": [
+    {
+      "article_id": "intl-grok45-spacex-tesla-private-beta",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "BuildFastWithAI / xAI",
+        "registry_key": "Digest/BuildFast",
+        "domain": "AI-product",
+        "main_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"
+      },
+      "source": {
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-04T02:48:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-PRODUCT",
+        "category_label": "ผลิตภัณฑ์ AI",
+        "news_type": "ข่าว",
+        "tags": ["Grok", "xAI", "SpaceX", "Tesla", "LLM", "V9"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Grok 4.5 Enters Private Beta at SpaceX and Tesla: 1.5T V9 Parameters, Cursor Training",
+        "title_th": "Grok 4.5 เข้า Private Beta ที่ SpaceX และ Tesla ด้วย 1.5 ล้านล้านพารามิเตอร์และข้อมูลฝึกจาก Cursor",
+        "slug": "grok-45-private-beta-spacex-tesla-v9-2026-07-04",
+        "summary": "xAI เปิดตัว Grok 4.5 ใน private beta ที่ SpaceX และ Tesla บนโมเดล V9 ขนาด 1.5 ล้านล้านพารามิเตอร์ พร้อมข้อมูลฝึกจาก Cursor โดยอ้างว่าประสิทธิภาพใกล้เคียงหรืออาจเกิน Claude Opus 4.8",
+        "summary_1": "Elon Musk ประกาศเมื่อวันที่ 28 มิถุนายน 2026 ว่า Grok 4.5 ได้เข้าสู่ขั้น private beta แล้วที่ SpaceX และ Tesla โดยรันบนโมเดล V9 ขนาด 1.5 ล้านล้านพารามิเตอร์ ซึ่งใหญ่กว่า Grok 4.4 ถึง 50% ในเวลาเพียง 1 เดือน จุดเด่นสำคัญคือการนำข้อมูล training ของ Cursor IDE เข้ามาเสริม หลังจากที่ SpaceX เข้าซื้อ Anysphere (บริษัทแม่ของ Cursor) ในราคา $60 พันล้านเมื่อมิถุนายน 2026 ทำให้ความสามารถด้าน coding และ technical reasoning ของโมเดลแข็งแกร่งขึ้น Musk อ้างว่าผลการทดสอบภายในของ SpaceX และ Tesla แสดงประสิทธิภาพ 'ใกล้เคียงหรืออาจเกิน Opus 4.8' แม้ยังไม่มีข้อมูล benchmark อิสระมายืนยัน xAI วางแผนปล่อยโมเดล V9 ใหม่ทุกเดือนไปจนถึงสิ้นปี 2026 โดยมุ่งสู่ Grok 5 ที่ขนาด 6-10 ล้านล้านพารามิเตอร์",
+        "body_text": "Grok 4.5 ใช้สถาปัตยกรรม V9 ใหม่ทั้งหมด ขนาด 1.5 ล้านล้านพารามิเตอร์ นำข้อมูลฝึกจาก Cursor IDE เข้ามาเสริม และกำลัง deploy ที่ SpaceX และ Tesla เพื่อทดสอบในสภาพแวดล้อมการผลิตจริงก่อนปล่อยสู่สาธารณะ",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Grok 4.5 V9 ที่ 1.5T parameters และ Cursor training data อาจเปลี่ยนสมดุลการแข่งขัน frontier LLM โดยเฉพาะในด้าน coding หากประสิทธิภาพยืนยันได้จาก benchmark อิสระ",
+        "actions_developer": [
+          "รอ public release ของ Grok 4.5 และทดสอบ coding benchmark เทียบกับ Claude Opus 4.8 และ GPT-5.6 Sol เพื่อประเมินความเหมาะสมกับ use case ของตน",
+          "ศึกษา xAI API pricing structure เพราะ Grok 4.5 อาจเป็น cost-effective alternative สำหรับ coding-heavy workflows"
+        ],
+        "actions_business": [
+          "ติดตาม Grok 4.5 public release อย่างใกล้ชิด หาก benchmark ยืนยัน performance ใกล้ Opus ในราคาต่ำกว่า อาจเป็นตัวเลือกสำหรับ enterprise AI strategy",
+          "วิเคราะห์ผลกระทบต่อ competitive landscape ถ้า xAI สามารถปล่อย frontier model ทุกเดือนตามแผน เพราะจะเร่ง commoditization ของ AI models"
+        ],
+        "urgency": "high",
+        "related_domains": ["LLM", "AI-product", "Coding AI"],
+        "breakthrough_potential": true
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/BuildFastWithAI/2026-07-04/grok-45-private-beta-v9",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-longcat-20-meituan-chinese-chips",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "BuildFastWithAI / Meituan",
+        "registry_key": "Digest/BuildFast",
+        "domain": "AI-research",
+        "main_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"
+      },
+      "source": {
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-06-29T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-RESEARCH",
+        "category_label": "วิจัย AI",
+        "news_type": "ข่าว",
+        "tags": ["LongCat", "Meituan", "China", "Open Source", "MoE", "Chinese Chips"],
+        "language": "th"
+      },
+      "content": {
+        "title": "LongCat-2.0: Meituan Open-Sources a 1.6T MoE Model Trained Entirely on Chinese Chips",
+        "title_th": "LongCat-2.0: Meituan open-source โมเดล 1.6 ล้านล้านพารามิเตอร์ที่ฝึกบนชิปจีนล้วนๆ",
+        "slug": "longcat-20-meituan-chinese-chips-open-source-2026-07-04",
+        "summary": "Meituan บริษัทส่งอาหารจีน open-source โมเดล LongCat-2.0 ขนาด 1.6 ล้านล้านพารามิเตอร์แบบ MoE ฝึกด้วยชิปจีนเท่านั้น benchmark coding เกิน GPT-5.5 เล็กน้อย",
+        "summary_1": "Meituan แพลตฟอร์มส่งอาหารและบริการท้องถิ่นรายใหญ่สุดของจีน ปล่อย LongCat-2.0 ภายใต้สัญญาอนุญาต MIT เมื่อ 29 มิถุนายน 2026 โมเดลนี้มีโครงสร้าง Mixture-of-Experts ขนาด 1.6 ล้านล้านพารามิเตอร์รวม แต่ activate เฉลี่ย 48 พันล้านพารามิเตอร์ต่อ token พร้อม context window 1 ล้าน token สิ่งที่โดดเด่นด้านภูมิรัฐศาสตร์คือโมเดลนี้ฝึกบนคลัสเตอร์ชิป ASIC ของจีนล้วน 50,000 ใบ โดยไม่ใช้ชิป Nvidia H100 หรือ A100 ใดๆ เลย ผลทดสอบแสดง 59.5% บน SWE-bench Pro เหนือ GPT-5.5 ที่ 58.6% เล็กน้อย ที่น่าสนใจคือโมเดลนี้เคยถูก deploy บน OpenRouter ในชื่อ 'Owl Alpha' แบบไม่เปิดเผยตัวตน และได้รับความนิยมสูงสุดบนแพลตฟอร์มก่อนที่ Meituan จะเปิดเผยว่าเป็นโมเดลตัวเดียวกัน",
+        "body_text": "LongCat-2.0 เป็นโมเดลโอเพนซอร์ส MIT license ฝึกบนชิปจีนล้วน สามารถดาวน์โหลด weights จาก Hugging Face และ GitHub benchmark coding เหนือ GPT-5.5 เล็กน้อย ไม่มีข้อจำกัดด้านภูมิภาค",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "LongCat-2.0 พิสูจน์ว่าจีนสามารถฝึกโมเดล frontier-scale ด้วยชิปในประเทศได้ ลดผลกระทบของ AI export controls ของสหรัฐ และเพิ่มทางเลือก open-weight สำหรับนักพัฒนาทั่วโลก",
+        "actions_developer": [
+          "ทดลอง LongCat-2.0 บน OpenRouter หรือ Hugging Face โดยเฉพาะสำหรับ coding tasks เนื่องจากมี MIT license ไม่มีข้อจำกัดการใช้งานเชิงพาณิชย์",
+          "เปรียบเทียบ LongCat-2.0 กับ GLM-5.2 และ DeepSeek V4-Pro สำหรับ use case ที่ต้องการ open-weight model ไม่ต้องการ US-origin model dependency"
+        ],
+        "actions_business": [
+          "ประเมินว่า LongCat-2.0 สามารถ self-host หรือใช้ผ่าน API ที่ถูกกว่า frontier Western models ได้หรือไม่ โดยเฉพาะสำหรับ coding-intensive workloads",
+          "ติดตามแนวโน้ม Chinese open-weight models เพราะสร้างแรงกดดันราคาต่อ OpenAI, Anthropic, Google ในตลาดระยะยาว"
+        ],
+        "urgency": "high",
+        "related_domains": ["LLM", "Open Source", "AI Hardware", "Geopolitics"],
+        "breakthrough_potential": true
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/Meituan/2026-06-29/longcat-20-chinese-chips",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-anthropic-closes-chinese-loopholes",
+      "schema_version": "2.0",
+      "topic_group": "global",
+      "source_info": {
+        "category": "International",
+        "source_name": "Financial Times / BuildFastWithAI",
+        "registry_key": "Digest/BuildFast",
+        "domain": "AI-policy",
+        "main_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"
+      },
+      "source": {
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-03T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-POLICY",
+        "category_label": "นโยบาย AI",
+        "news_type": "ข่าว",
+        "tags": ["Anthropic", "China", "Singapore", "ByteDance", "Ant Financial", "Export Control"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Anthropic Closes Chinese Loopholes: Ant Financial, ByteDance Singapore Subsidiary Workaround",
+        "title_th": "Anthropic ปิดช่องว่างให้บริษัทจีนเข้าถึง Claude ผ่านบริษัทลูกในสิงคโปร์และ VPN",
+        "slug": "anthropic-closes-chinese-loopholes-singapore-2026-07-03",
+        "summary": "Anthropic ตรวจพบและปิดกั้นรูปแบบการเข้าถึง Claude อย่างผิดกฎโดย Ant Financial และ ByteDance ผ่านช่องทางสิงคโปร์และ VPN",
+        "summary_1": "Financial Times รายงานเมื่อ 3 กรกฎาคม 2026 ว่า Anthropic กำลังเร่งขจัดช่องว่างที่ทำให้บริษัทจีนสามารถเข้าถึง Claude ได้อย่างผิดข้อตกลง รูปแบบที่ตรวจพบได้แก่ Ant Financial ให้พนักงานใช้บัญชี Claude องค์กรผ่านบริษัทลูกในสิงคโปร์ ทำให้ดูเหมือนผู้ใช้อยู่นอกจีน ส่วน ByteDance คืนเงินค่า subscription Claude ส่วนตัวให้วิศวกรที่ใช้ VPN ทำให้ดูเหมือนการใช้งานส่วนบุคคล Anthropic ยังพบว่ามีบริษัทเข้าถึงผ่านโครงสร้างพื้นฐาน cloud รวมถึง Microsoft Azure รูปแบบเหล่านี้เป็นส่วนหนึ่งของ 'distillation attacks' ที่ Anthropic อธิบายในจดหมายถึงวุฒิสภา ซึ่งมุ่งสกัดดูดความสามารถของ Claude ไปใช้ฝึกโมเดลคู่แข่ง ขณะนี้ Anthropic ใช้วิธีตรวจจับอย่าง time zone ของคอมพิวเตอร์และ transfer station services เพื่อบล็อกการเข้าถึงที่ไม่ได้รับอนุญาต",
+        "body_text": "Anthropic ปิดกั้นช่องทางให้บริษัทจีนเข้าถึง Claude ผ่านบริษัทลูกสิงคโปร์และ VPN โดยใช้การตรวจสอบ timezone และ request patterns เพิ่มเติม",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "การปิดช่องว่างของ Anthropic อาจส่งผลกระทบต่อบริษัทในเอเชียตะวันออกเฉียงใต้ที่ route การใช้งาน Claude ผ่านโครงสร้างองค์กรที่ซับซ้อน",
+        "actions_developer": [
+          "ตรวจสอบว่าการใช้ Claude API ขององค์กรเป็นไปตาม Terms of Service อย่างครบถ้วน โดยเฉพาะถ้ามีทีมในประเทศที่มีข้อจำกัดการเข้าถึง",
+          "ศึกษา Anthropic acceptable use policy ล่าสุดเพื่อเข้าใจข้อจำกัดด้านภูมิภาคและการใช้งานองค์กรข้ามชาติ"
+        ],
+        "actions_business": [
+          "ถ้าองค์กรมีทีมในจีนหรือใช้ Claude ผ่านบริษัทลูกในสิงคโปร์ ควรทบทวน compliance กับ Anthropic policy ทันทีเพื่อหลีกเลี่ยงการถูกระงับ account",
+          "ประเมินความเสี่ยงของ AI distillation attacks ต่อ IP ของบริษัทเอง เพราะ Anthropic กำลังสร้างบรรทัดฐานด้านการป้องกัน model capability theft"
+        ],
+        "urgency": "high",
+        "related_domains": ["AI-policy", "Geopolitics", "AI Safety", "Compliance"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/FT/2026-07-03/anthropic-chinese-loopholes",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-pentagon-anthropic-autonomous-weapons",
+      "schema_version": "2.0",
+      "topic_group": "global",
+      "source_info": {
+        "category": "International",
+        "source_name": "Wall Street Journal / BuildFastWithAI",
+        "registry_key": "Digest/BuildFast",
+        "domain": "AI-safety",
+        "main_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"
+      },
+      "source": {
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-04T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-SAFETY",
+        "category_label": "ความปลอดภัย AI",
+        "news_type": "ข่าว",
+        "tags": ["Anthropic", "Pentagon", "Autonomous Weapons", "AI Safety", "Dario Amodei"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Pentagon Emails Reveal Real Dispute: Emil Michael Demanded Autonomous Weapons Access from Anthropic",
+        "title_th": "อีเมลกระทรวงกลาโหมสหรัฐเผย: เหตุแท้จริงที่ Anthropic ปฏิเสธสัญญา Pentagon คือเรื่องอาวุธอัตโนมัติ",
+        "slug": "pentagon-anthropic-autonomous-weapons-emails-2026-07-04",
+        "summary": "เอกสารศาลเผยอีเมลระหว่าง Dario Amodei กับ Emil Michael จาก Pentagon ว่าข้อพิพาทที่แท้จริงคือ Pentagon ต้องการให้ Claude ใช้ในอาวุธอัตโนมัติและ mass surveillance",
+        "summary_1": "เอกสารศาลจากคดี Anthropic ฟ้องกระทรวงกลาโหมสหรัฐที่เผยแพร่ช่วงปลายมิถุนายน 2026 รวมถึงอีเมลระหว่าง CEO Dario Amodei กับ Undersecretary Emil Michael ที่เปิดเผยว่าข้อพิพาทไม่ใช่แค่เรื่องเงื่อนไขสัญญา แต่เป็นคำถามพื้นฐานว่าบริษัท AI สามารถกำหนดขอบเขตจริยธรรมกับลูกค้ารัฐบาลได้หรือไม่ Michael ระบุชัดว่า 'ไม่มีความแตกต่างระหว่างอาวุธป้องกันและอาวุธโจมตี' ขณะที่ Amodei ปฏิเสธข้อภาษาสัญญา 'all lawful use cases' เพราะกฎหมายสหรัฐอนุญาต domestic surveillance ซึ่ง Anthropic ไม่ยอมรับ Amodei ยืนยันใน CBS News ว่า redline ของ Anthropic มีสองอย่างชัดเจน คือ domestic mass surveillance และ autonomous weapons ที่ยิงโดยไม่มีมนุษย์ควบคุม คดีนี้ยังดำเนินอยู่ในศาลหลัง Fable 5 ได้รับการ redeploy แล้ว",
+        "body_text": "อีเมลศาลเผยว่า Pentagon ต้องการ Claude สำหรับ autonomous weapons และ mass surveillance ขณะที่ Amodei ปฏิเสธทั้งสองหมวด คดียังดำเนินอยู่",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "การเปิดเผยอีเมล Pentagon-Anthropic สร้างบรรทัดฐานสำคัญในการกำหนดว่าบริษัท AI มีสิทธิ์ปฏิเสธลูกค้าภาครัฐตาม ethical guidelines ของตัวเองหรือไม่",
+        "actions_developer": [
+          "ศึกษา Anthropic's acceptable use policy และ red lines เพื่อเข้าใจขอบเขตที่ Anthropic จะไม่ deploy Claude ไม่ว่าลูกค้าจะเป็นใครก็ตาม",
+          "ถ้าทำงานด้าน defense tech หรือ surveillance ให้ประเมินว่า AI tools ที่ต้องการมี provider ที่ยินยอมให้ใช้ใน use case เหล่านั้นหรือไม่"
+        ],
+        "actions_business": [
+          "องค์กรรัฐบาลหรือ defense contractor ที่ต้องการ frontier AI ควรประเมิน provider ที่มี policy ยืดหยุ่นกว่า Anthropic สำหรับ government/military use cases",
+          "บริษัท AI ทั่วไปควรเตรียม clear acceptable use policy ก่อนทำสัญญา government เพราะการต่อรองสัญญาเป็น negotiation ที่ซับซ้อนด้าน ethics"
+        ],
+        "urgency": "medium",
+        "related_domains": ["AI-safety", "AI-policy", "Military AI", "Ethics"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/WSJ/2026-07-04/pentagon-anthropic-autonomous-weapons",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-openai-5pct-government-stake",
+      "schema_version": "2.0",
+      "topic_group": "global",
+      "source_info": {
+        "category": "International",
+        "source_name": "Multiple / BuildFastWithAI",
+        "registry_key": "Digest/BuildFast",
+        "domain": "AI-business",
+        "main_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"
+      },
+      "source": {
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-04T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-BUSINESS",
+        "category_label": "ธุรกิจ AI",
+        "news_type": "ข่าว",
+        "tags": ["OpenAI", "IPO", "Government", "Regulation", "Equity"],
+        "language": "th"
+      },
+      "content": {
+        "title": "OpenAI Proposes 5% Government Stake Worth $42.6 Billion as Part of IPO Strategy",
+        "title_th": "OpenAI เสนอมอบหุ้น 5% มูลค่า $42.6 พันล้านให้รัฐบาลสหรัฐเพื่อลดแรงกดดันการควบคุม AI",
+        "slug": "openai-5pct-government-stake-ipo-2026-07-04",
+        "summary": "OpenAI เสนอให้รัฐบาลสหรัฐรับหุ้น 5% มูลค่า $42.6 พันล้านเพื่อสร้างความสอดคล้องระหว่างผลประโยชน์รัฐบาลกับบริษัท ก่อน IPO กันยายน 2026",
+        "summary_1": "OpenAI เสนอให้รัฐบาลสหรัฐรับหุ้น 5% ของบริษัทมูลค่าประมาณ $42.6 พันล้านดอลลาร์ตามการประเมินมูลค่าล่าสุด $852 พันล้าน เป็นส่วนหนึ่งของกลยุทธ์ก่อน IPO ที่วางแผนไว้เดือนกันยายน 2026 แนวคิดหลักคือสร้าง structural alignment ระหว่างผลประโยชน์ของรัฐบาลกับความสำเร็จเชิงพาณิชย์ของบริษัท AI ชั้นนำ เพื่อเปลี่ยนรูปแบบการกำกับดูแลจาก adversarial เป็น collaborative โดย Sam Altman เสนอให้ lab AI ชั้นนำรายอื่นทำเช่นเดียวกันด้วย แต่นักวิเคราะห์ด้าน governance ตั้งคำถามว่า regulator ที่มี equity stake ในบริษัทที่ตนกำกับดูแลจะบังคับใช้กฎเป็นกลางได้หรือไม่ ส่วนผลกระทบต่อ Anthropic ที่วางแผน IPO เดือนตุลาคม 2026 คือบริษัทอาจถูกกดดันให้เสนอเงื่อนไขคล้ายกัน",
+        "body_text": "OpenAI เสนอให้รัฐบาลรับ 5% stake มูลค่า $42.6B ก่อน IPO กันยายน 2026 เพื่อลดแรงกดดันการกำกับดูแล แต่สร้างคำถามด้าน governance conflict of interest",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "ถ้ารัฐบาลสหรัฐรับหุ้น OpenAI จะเปลี่ยนพลวัตการกำกับดูแล AI ในสหรัฐอย่างสำคัญ และสร้างบรรทัดฐานที่กดดัน Anthropic, Google, xAI ให้ทำเช่นเดียวกัน",
+        "actions_developer": [
+          "ติดตามผลของข้อเสนอ OpenAI เพราะถ้ารัฐบาลรับหุ้น AI labs จะมีนัยต่อ AI policy และ model deployment regulations ที่ developer ต้องปฏิบัติตาม",
+          "ประเมินว่า IPO ของ OpenAI และ Anthropic จะส่งผลต่อ pricing, API access, และ product strategy อย่างไรในระยะ post-IPO"
+        ],
+        "actions_business": [
+          "ถ้าวางแผนใช้ OpenAI products ระยะยาว ควรเข้าใจว่า post-IPO governance อาจเปลี่ยนแปลง commercial flexibility ของบริษัท",
+          "ประเมิน vendor diversification strategy เพื่อลดความเสี่ยงถ้า AI lab ใด lab หนึ่งถูก government oversight เข้มขึ้นหลัง IPO"
+        ],
+        "urgency": "medium",
+        "related_domains": ["AI-business", "AI-policy", "IPO", "Government"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/Multiple/2026-07-04/openai-government-stake-ipo",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-vc-record-510b-h1-2026",
+      "schema_version": "2.0",
+      "topic_group": "global",
+      "source_info": {
+        "category": "International",
+        "source_name": "Crunchbase / BuildFastWithAI",
+        "registry_key": "Digest/BuildFast",
+        "domain": "AI-business",
+        "main_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"
+      },
+      "source": {
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-02T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-BUSINESS",
+        "category_label": "ธุรกิจ AI",
+        "news_type": "ข่าว",
+        "tags": ["VC", "Investment", "OpenAI", "Anthropic", "Crunchbase", "Startup"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Crunchbase H1 2026 Report: Global VC Hits Record $510B, OpenAI and Anthropic Take 43%",
+        "title_th": "รายงาน Crunchbase H1 2026: VC ทั่วโลกแตะสถิติ $510 พันล้าน OpenAI กับ Anthropic คิดเป็น 43%",
+        "slug": "crunchbase-h1-2026-vc-record-openai-anthropic-2026-07-02",
+        "summary": "Crunchbase รายงาน VC ทั่วโลกครึ่งแรก 2026 ทำสถิติใหม่ $510 พันล้าน โดย OpenAI + Anthropic เพียง 2 บริษัทรับไป $217 พันล้าน หรือ 43% ของทั้งหมด",
+        "summary_1": "Crunchbase รายงานผลการลงทุน venture capital ทั่วโลกในครึ่งแรกของปี 2026 ซึ่งทำสถิติสูงสุดที่ $510 พันล้านดอลลาร์ โดย 2 บริษัทคือ OpenAI และ Anthropic รับเงินลงทุนรวมกัน $217 พันล้าน คิดเป็น 43% ของเงิน VC ทั้งหมดทั่วโลก ใน Q2 2026 เพียงไตรมาสเดียว นักลงทุน VC ใส่เงิน $205 พันล้านใน 5,000+ startup ซึ่งเป็น quarterly record สูงสุดที่เคยบันทึก ตัวเลขนี้สะท้อนการกระจุกตัวของเงินทุนที่น่าตื่นตะลึง เพราะเพียง 2 บริษัทดึงเงินลงทุนมากกว่าทั้งตลาด VC ทั่วโลกของปี 2019-2020 รวมกัน อุตสาหกรรม AI รวม (labs, infrastructure, applications) คิดเป็นประมาณ 65-70% ของเงิน VC ทั้งหมดใน H1 2026",
+        "body_text": "VC ทั่วโลก H1 2026 ทำสถิติ $510B โดย OpenAI + Anthropic รับ 43% ($217B) สะท้อนการกระจุกทุน AI ที่ไม่เคยเห็นมาก่อน",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "การกระจุกตัวของเงินทุน AI ในมือ 2 บริษัทเปลี่ยนพลวัต startup ecosystem โดยบีบ later-stage AI startups ให้แข่งกับ OpenAI และ Anthropic เพื่อแย่งชิงเงิน VC ที่เหลือ",
+        "actions_developer": [
+          "ถ้ากำลัง fundraise ใน AI space ต้องเตรียม differentiation จาก frontier lab offerings อย่างชัดเจน เพราะ investors จะถามว่าทำไม OpenAI หรือ Anthropic ทำแทนไม่ได้",
+          "ติดตาม IPO ของ OpenAI (กันยายน) และ Anthropic (ตุลาคม) เพราะจะส่งผลต่อ VC appetite และ valuation ของ AI startups ทั่วอุตสาหกรรม"
+        ],
+        "actions_business": [
+          "องค์กรที่ใช้ AI tools ควรเตรียมรับมือกับ pricing power ของ OpenAI และ Anthropic post-IPO ที่อาจเพิ่มขึ้นหลัง public market pressure",
+          "ประเมินว่า AI budget ขององค์กรจัดสรรอยู่กับ 2 บริษัทนี้มากเกินไปหรือไม่ และสำรอง open-source alternatives ไว้"
+        ],
+        "urgency": "medium",
+        "related_domains": ["AI-business", "Investment", "Startup Ecosystem"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/Crunchbase/2026-07-02/vc-record-h1-2026",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-anthropic-hackerone-fable5-bounty",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "Anthropic / BuildFastWithAI",
+        "registry_key": "Digest/Anthropic",
+        "domain": "AI-safety",
+        "main_url": "https://www.anthropic.com/news"
+      },
+      "source": {
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-04T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-SAFETY",
+        "category_label": "ความปลอดภัย AI",
+        "news_type": "ข่าว",
+        "tags": ["Anthropic", "Fable 5", "Bug Bounty", "HackerOne", "Jailbreak", "Security"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Anthropic Launches HackerOne Bug Bounty for Fable 5 Cyber Jailbreaks",
+        "title_th": "Anthropic เปิดโปรแกรม Bug Bounty ผ่าน HackerOne สำหรับการค้นหา Jailbreak ทางไซเบอร์ใน Fable 5",
+        "slug": "anthropic-hackerone-bug-bounty-fable5-2026-07-04",
+        "summary": "Anthropic เปิดโปรแกรม bug bounty ผ่าน HackerOne เฉพาะสำหรับ cybersecurity jailbreaks ใน Fable 5 เป็นส่วนหนึ่งของข้อตกลงการ redeploy โมเดล",
+        "summary_1": "ในฐานะส่วนหนึ่งของข้อตกลงการนำ Fable 5 กลับมาให้บริการร่วมกับรัฐบาลสหรัฐ Anthropic ได้เปิดโปรแกรม bug bounty อย่างเป็นทางการผ่าน HackerOne เฉพาะสำหรับนักวิจัยด้านความปลอดภัยเพื่อค้นหาและรายงาน cybersecurity jailbreaks ใน Fable 5 โปรแกรมนี้เกิดขึ้นเพราะ jailbreak ที่ Amazon ค้นพบซึ่งนำไปสู่การระงับ Fable 5 เป็นเวลา 19 วันนั้น ถูกพบผ่านการทดสอบภายในเท่านั้น ไม่ได้ผ่านช่องทาง formal security research นักวิจัยที่ผ่านการ vetting สามารถส่งรายงานและรับรางวัลทางการเงิน โดย scope จำกัดเฉพาะ cyber jailbreaks ไม่รวม general model safety issues นอกจากนี้ Anthropic ยังร่วมกับ Glasswing partners (AWS, Microsoft, Google) พัฒนา draft jailbreak severity framework เพื่อป้องกันการตอบสนองที่เกินเหตุต่อ security findings ในอนาคต",
+        "body_text": "Anthropic เปิด bug bounty บน HackerOne สำหรับ Fable 5 cyber jailbreaks พร้อมพัฒนา jailbreak severity framework ร่วมกับ AWS, Microsoft, Google",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "โปรแกรม bug bounty ของ Anthropic และ jailbreak severity framework เป็นบรรทัดฐานใหม่ในการจัดการ AI security research อย่างเป็นระบบ",
+        "actions_developer": [
+          "ถ้าสนใจด้าน AI security research สมัครเข้าร่วมโปรแกรม Anthropic HackerOne เพื่อโอกาสรับรางวัลจากการค้นพบ jailbreak ที่มีนัยสำคัญ",
+          "ศึกษา jailbreak severity framework draft ของ Anthropic เพราะจะกลายเป็นมาตรฐานอุตสาหกรรมสำหรับการประเมิน AI security risks"
+        ],
+        "actions_business": [
+          "องค์กรที่ deploy AI models ควรพิจารณาใช้ bug bounty approach คล้าย Anthropic เพื่อค้นพบ safety vulnerabilities ก่อนที่จะถูกนำไปใช้ในทางที่ผิด",
+          "ติดตาม jailbreak severity framework ที่ Anthropic, AWS, Microsoft, Google พัฒนาร่วมกัน เพราะอาจกลายเป็น compliance requirement สำหรับ enterprise AI deployment"
+        ],
+        "urgency": "medium",
+        "related_domains": ["AI-safety", "Cybersecurity", "LLM"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/Anthropic/2026-07-04/hackerone-bug-bounty-fable5",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-meta-watermelon-gpt55-compute",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "Business Insider / BuildFastWithAI",
+        "registry_key": "Digest/BuildFast",
+        "domain": "AI-research",
+        "main_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"
+      },
+      "source": {
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-02T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-RESEARCH",
+        "category_label": "วิจัย AI",
+        "news_type": "ข่าว",
+        "tags": ["Meta", "Watermelon", "Llama", "LLM", "Training", "Compute"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Meta Watermelon Training Update: GPT-5.5 Class Model on Order-of-Magnitude More Compute",
+        "title_th": "Meta Watermelon ฝึกโมเดลระดับ GPT-5.5 บน compute มากกว่าเดิม 10 เท่า",
+        "slug": "meta-watermelon-gpt55-10x-compute-2026-07-02",
+        "summary": "รายงานว่า Meta กำลังฝึกโมเดล 'Watermelon' ที่ประสิทธิภาพเทียบ GPT-5.5 บน compute มากกว่า Llama 4 ถึง 10 เท่า",
+        "summary_1": "Business Insider รายงานอ้างจากผู้เข้าร่วม briefing แบบปิดว่า Meta Chief AI Officer Alexandr Wang เปิดเผยว่าโมเดลที่กำลังฝึกอยู่ใน codenam 'Watermelon' มีประสิทธิภาพเทียบเท่า GPT-5.5 ในการทดสอบภายใน และใช้ compute มากกว่า frontier training run ครั้งก่อนของ Meta ถึง 'order of magnitude' (ประมาณ 10 เท่า) ถ้า Meta ใช้ 100,000 H100-equivalent ในการฝึก Llama 4 นั่นหมายความว่า Watermelon กำลังใช้ประมาณ 1 ล้าน GPU-equivalents ซึ่งใกล้เคียงกับขนาด cluster 1 ล้าน GPU ที่ Meta ประกาศสร้าง ข้อมูลฝึก Watermelon รวม proprietary dataset จาก Facebook, Instagram, WhatsApp, Threads ที่ไม่มี lab อื่นมี ทว่ายังไม่มีการยืนยันอย่างเป็นทางการหรือ timeline การปล่อยจาก Meta",
+        "body_text": "Meta Watermelon อาจเป็นโมเดลที่แข็งแกร่งที่สุดของ Meta จนถึงปัจจุบัน หากยืนยัน GPT-5.5 class performance ด้วย compute 10x มากกว่า Llama 4",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "ถ้า Meta Watermelon ยืนยัน GPT-5.5 performance จะเพิ่มทางเลือก frontier model อีก 1 รายในตลาด โดยเฉพาะในฐานะ open-weight model ที่มี social data ฝึกโดยเฉพาะ",
+        "actions_developer": [
+          "ติดตาม Meta Watermelon release timeline และ benchmark results เพราะอาจเป็น open-weight model ที่แข็งแกร่งที่สุดที่เคยมีมา",
+          "เตรียม infrastructure สำหรับ self-hosting frontier-class open-weight models เพราะ Watermelon อาจมี deployment requirements สูงกว่า Llama 4 มาก"
+        ],
+        "actions_business": [
+          "ประเมินว่า open-weight frontier model จาก Meta จะเปลี่ยน make-vs-buy decision สำหรับ AI capabilities ขององค์กรหรือไม่",
+          "ติดตามว่า Watermelon จะ open-source หรือ semi-open เพราะ Meta มีประวัติปล่อย Llama แบบ open-weight ซึ่งสร้างมูลค่ามหาศาลให้ developer ecosystem"
+        ],
+        "urgency": "medium",
+        "related_domains": ["LLM", "Open Source", "AI-research", "Compute"],
+        "breakthrough_potential": true
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/BusinessInsider/2026-07-02/meta-watermelon-training",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-claude-enterprise-admin-analytics",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "Anthropic / BuildFastWithAI",
+        "registry_key": "Digest/Anthropic",
+        "domain": "AI-product",
+        "main_url": "https://www.anthropic.com/news"
+      },
+      "source": {
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-03T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-PRODUCT",
+        "category_label": "ผลิตภัณฑ์ AI",
+        "news_type": "ข่าว",
+        "tags": ["Claude", "Enterprise", "Admin", "Analytics", "Cost Management"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Claude Enterprise Gets Admin Analytics, Spend Alerts, and Model-Level Entitlements",
+        "title_th": "Claude Enterprise อัปเดต: dashboard analytics, การแจ้งเตือนค่าใช้จ่าย และควบคุมสิทธิ์ระดับโมเดล",
+        "slug": "claude-enterprise-admin-analytics-spend-alerts-2026-07-03",
+        "summary": "Anthropic เพิ่ม admin controls ใน Claude Enterprise ได้แก่ analytics dashboard, spend caps, model-level entitlements และ real-time spend alerts",
+        "summary_1": "Anthropic ออก enhanced admin controls สำหรับ Claude Enterprise เมื่อ 3 กรกฎาคม 2026 โดยตรงแก้ปัญหา 'tokenmaxxing' ที่ทำให้ Uber ใช้งบ AI ทั้งปี 2026 หมดภายใน 4 เดือน ฟีเจอร์ใหม่ประกอบด้วย spend caps ทุกระดับองค์กร (ทีม, แผนก, บริษัท) ระบบ model-level entitlements ให้ admin ควบคุมว่าผู้ใช้กลุ่มใดเข้าถึงโมเดลใดได้บ้าง analytics dashboard พร้อม export และ Analytics API สำหรับ integration กับระบบ BI ภายใน effort controls สำหรับกำหนด reasoning depth ของ agent workflows และ real-time spend alerts เมื่อ team ใกล้ถึง threshold ที่กำหนด การอัปเดตนี้สำคัญเพราะ narrative IPO ของ Anthropic ต้องการแสดงว่า enterprise AI spend ยั่งยืน ไม่ใช่แค่เติบโต",
+        "body_text": "Claude Enterprise ได้รับ spend caps, model entitlements, analytics dashboard และ spend alerts เพื่อช่วย enterprise จัดการต้นทุน AI อย่างยั่งยืน",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Admin controls ใหม่ของ Claude Enterprise ช่วย enterprise ควบคุมค่าใช้จ่าย AI ได้ดีขึ้น แก้ปัญหา tokenmaxxing ที่เป็น concern หลักของ CFO และ IT ในองค์กรขนาดใหญ่",
+        "actions_developer": [
+          "ถ้า manage Claude Enterprise deployment ควร configure spend caps และ model entitlements ทันทีเพื่อป้องกันค่าใช้จ่ายที่ไม่คาดคิด",
+          "ใช้ Analytics API ใหม่เพื่อ integrate Claude usage data กับ internal BI systems สำหรับ visibility ด้าน AI cost ที่ดีขึ้น"
+        ],
+        "actions_business": [
+          "CFO และ IT Admin ควรตรวจสอบ Claude Enterprise admin controls ใหม่เพื่อกำหนด governance framework ที่เหมาะสมก่อน AI adoption scale ขึ้น",
+          "ตั้ง spend alert thresholds ตาม department budget แต่เนิ่นๆ เพราะ AI token consumption มักเพิ่มแบบ exponential ไม่ใช่ linear"
+        ],
+        "urgency": "medium",
+        "related_domains": ["AI-product", "Enterprise AI", "Cost Management"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/Anthropic/2026-07-03/claude-enterprise-admin-analytics",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-un-itu-ai-for-good-commission",
+      "schema_version": "2.0",
+      "topic_group": "global",
+      "source_info": {
+        "category": "International",
+        "source_name": "UN / ITU / BuildFastWithAI",
+        "registry_key": "Digest/BuildFast",
+        "domain": "AI-policy",
+        "main_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"
+      },
+      "source": {
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+        "type": "aggregator",
+        "origin": "indirect",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "truncated",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-02T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-POLICY",
+        "category_label": "นโยบาย AI",
+        "news_type": "ข่าว",
+        "tags": ["UN", "ITU", "AI Governance", "Benioff", "Rwanda", "Kagame", "Jensen Huang"],
+        "language": "th"
+      },
+      "content": {
+        "title": "UN and ITU Launch the AI for Good Global Commission Co-Founded by Benioff, Kagame, and Huang",
+        "title_th": "UN และ ITU ตั้ง AI for Good Global Commission ร่วมกับ Benioff, Kagame, Jensen Huang และ CEO เทคโนโลยีชั้นนำ",
+        "slug": "un-itu-ai-for-good-global-commission-2026-07-02",
+        "summary": "UN และ ITU เปิดตัว AI for Good Global Commission นำโดย Marc Benioff และประธานาธิบดีรวันดา Kagame เพื่อสร้างมาตรฐาน AI ที่เป็นประโยชน์ต่อโลก",
+        "summary_1": "สหประชาชาติและสหภาพโทรคมนาคมระหว่างประเทศ (ITU) ร่วมกันเปิดตัว AI for Good Global Commission เมื่อ 2 กรกฎาคม 2026 ร่วมนำโดย Marc Benioff CEO Salesforce และประธานาธิบดีรวันดา Paul Kagame สมาชิกผู้ก่อตั้งได้แก่ Jensen Huang CEO Nvidia, Andy Jassy CEO Amazon, Brad Smith President Microsoft, Jack Clark ผู้ร่วมก่อตั้ง Anthropic และ Aidan Gomez CEO Cohere พันธกิจของคณะกรรมการคือพัฒนามาตรฐานและกรอบการ deploy AI เพื่อประโยชน์ต่อประเทศกำลังพัฒนา ป้องกันไม่ให้ผลประโยชน์ AI กระจุกอยู่แต่ในประเทศร่ำรวย รวันดาเข้าร่วมในฐานะต้นแบบการ deploy AI ในภาคบริการรัฐบาลของแอฟริกา คณะกรรมการนี้จะนำเสนอผลงานใน UN Summit of the Future เดือนกันยายน 2026",
+        "body_text": "UN + ITU เปิดตัว AI for Good Global Commission ตั้งใจพัฒนา multilateral AI governance standards ที่เป็นประโยชน์ต่อประเทศกำลังพัฒนา",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "AI for Good Global Commission สร้าง multilateral governance framework ที่อาจเปลี่ยนกติกาการ deploy AI ในประเทศกำลังพัฒนา รวมถึงไทย ให้มีมาตรฐานสากลรองรับ",
+        "actions_developer": [
+          "ติดตาม UN AI governance frameworks ที่กำลังพัฒนา เพราะจะส่งผลต่อ compliance requirements สำหรับการ deploy AI ใน regulated sectors ในประเทศต่างๆ",
+          "ถ้าทำงานกับ AI ในภาครัฐหรือ public sector ศึกษา ITU AI standards ที่กำลังพัฒนาเพื่อเตรียมความพร้อมด้าน compliance ล่วงหน้า"
+        ],
+        "actions_business": [
+          "บริษัทที่ต้องการขยายตลาด AI ไปยังประเทศกำลังพัฒนาในแอฟริกาหรือเอเชียควรติดตาม commission นี้ เพราะจะกำหนดทิศทาง AI adoption ในภูมิภาคเหล่านั้น",
+          "ESG strategy ขององค์กรควรรวม AI governance dimension เพราะ framework จาก UN/ITU จะเริ่มมี reputational และ regulatory implications ในอีก 1-2 ปี"
+        ],
+        "urgency": "low",
+        "related_domains": ["AI-policy", "Global Governance", "Developing Nations"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/UN-ITU/2026-07-02/ai-for-good-global-commission",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_2.json"
+      }
+    },
+    {
+      "article_id": "intl-mistral-funding-model-july4",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "International",
+        "source_name": "TechCrunch",
+        "registry_key": "Intl/TechCrunch",
+        "domain": "AI-business",
+        "main_url": "https://techcrunch.com/category/artificial-intelligence"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "2_aggregator"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-07-05T07:00:00+07:00",
+        "fetch_mode": "search",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-04T00:00:00+00:00",
+        "scraped_at": "2026-07-05T07:00:00+07:00",
+        "run_date": "2026-07-05",
+        "target_date": "2026-07-05",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "2",
+        "category": "AI-BUSINESS",
+        "category_label": "ธุรกิจ AI",
+        "news_type": "ข่าว",
+        "tags": ["Mistral AI", "Funding", "Open Weight", "Europe AI", "ARR"],
+        "language": "th"
+      },
+      "content": {
+        "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+        "title_th": "Mistral AI: บริษัท AI ยุโรปที่กำลัง raise $3.5B ที่มูลค่า $23.15B มี ARR เกิน $400M",
+        "slug": "mistral-ai-funding-3-5b-valuation-july-2026",
+        "summary": "TechCrunch อัปเดตข้อมูล Mistral AI ที่กำลัง raise เงิน $3.5B ที่มูลค่า $23.15B พร้อมเปิดเผย ARR เกิน $400M จากแค่ $20M เมื่อปีก่อน",
+        "summary_1": "TechCrunch เผยแพร่บทความอัปเดตข้อมูล Mistral AI เมื่อ 4 กรกฎาคม 2026 ขณะที่บริษัทอยู่ในช่วงพูดคุยกับนักลงทุนเพื่อระดมทุนประมาณ 3.5 พันล้านดอลลาร์ที่มูลค่าบริษัทประมาณ 23.15 พันล้านดอลลาร์ (ราว €20 พันล้าน) เกือบ 2 เท่าจาก Series C ที่มูลค่า €11.7 พันล้าน ตัวเลขธุรกิจน่าประทับใจคือ ARR เกิน $400 ล้านในต้นปี 2026 ขึ้นจาก $20 ล้านในปีก่อน และตั้งเป้าแตะ $1 พันล้านภายในสิ้นปี 2026 Mistral ประกาศว่ากำลังเตรียมปล่อยโมเดล open-weight ใหม่ที่ 'น่าตื่นเต้นมาก' ในช่วงซัมเมอร์นี้ โดยจะเปิด early access ในเดือนกรกฎาคม ซึ่งสะท้อนให้เห็นว่า Mistral ยังคงยึดกลยุทธ์ open-weight เป็นหลักในการสร้างฐาน developer และตลาดยุโรป",
+        "body_text": "Mistral AI กำลัง raise $3.5B ที่มูลค่า $23.15B มี ARR $400M+ เติบโตจาก $20M ภายใน 1 ปี และเตรียมปล่อย open-weight model ใหม่เดือนกรกฎาคม 2026",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Mistral AI กำลังเติบโตอย่างรวดเร็วในฐานะ European open-weight AI champion การระดมทุนรอบใหม่จะทำให้แข่งขันกับ OpenAI และ Anthropic ได้มากขึ้น",
+        "actions_developer": [
+          "ติดตาม early access ของ Mistral open-weight model ใหม่เดือนกรกฎาคม 2026 เพราะอาจเป็น powerful model ที่ไม่มี US export control concerns",
+          "เปรียบเทียบ Mistral API pricing กับ OpenAI และ Anthropic เพราะ Mistral มักแข่งด้วย cost efficiency ในตลาด European และ developer"
+        ],
+        "actions_business": [
+          "บริษัทใน EU ที่ต้องการ AI ที่ compliance กับ EU AI Act ควรพิจารณา Mistral ในฐานะ European-native option",
+          "ติดตามว่า Mistral ใช้เงิน $3.5B ในการพัฒนา compute, hiring หรือ M&A เพราะจะบอกทิศทาง competitive strategy ของบริษัทในช่วง 12-18 เดือนข้างหน้า"
+        ],
+        "urgency": "medium",
+        "related_domains": ["AI-business", "LLM", "Open Source", "Europe"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "International/TechCrunch/2026-07-04/mistral-ai-funding-overview",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-07-05/batch_2.json"
+      }
+    }
+  ]
+}
