@@ -32,11 +32,22 @@ $ts  = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 Get-ChildItem (Join-Path $RepoPath ".git") -Recurse -Filter "*.lock" -ErrorAction SilentlyContinue |
     Remove-Item -Force -ErrorAction SilentlyContinue
 
-# ── 2. Ensure git user config ────────────────────────────────
+# ── 2. Ensure git user config + PAT in remote URL ────────────
 $email = git config user.email 2>$null
 if (-not $email) {
     git config user.email "ai-news-bot@chiraleo2000.github.io"
     git config user.name "AI News Bot"
+}
+
+# Ensure PAT is embedded in remote URL (required for scheduled/auto push)
+$currentUrl = git remote get-url origin 2>$null
+if ($currentUrl -notlike "*ghp_*") {
+    $patFile = Join-Path $RepoPath ".github-pat"
+    if (Test-Path $patFile) {
+        $pat = (Get-Content $patFile -Raw).Trim()
+        git remote set-url origin "https://${pat}@github.com/chiraleo2000/ai-news.git"
+        Write-Host "  PAT set in remote URL"
+    }
 }
 
 # ── 3. Check if there are commits to push ────────────────────

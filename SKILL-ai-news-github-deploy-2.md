@@ -161,8 +161,23 @@ After push succeeds, the site updates within ~2 minutes via GitHub Actions.
 
 ## 🔐 Authentication
 
-PAT is embedded in git remote URL. If it needs resetting:
+**PAT is stored in `.github-pat` file** (excluded from git via .gitignore).
+
+**Remote URL must have PAT embedded for auto-push to work.**
+
+⛔ Before every push attempt, ensure remote URL has PAT:
 ```powershell
-$pat = Get-Content "D:\AI-news\.github-pat" -Raw
-git remote set-url origin "https://${pat}@github.com/chiraleo2000/ai-news.git"
+$pat = (Get-Content "D:\AI-news\.github-pat" -Raw).Trim()
+$currentUrl = git remote get-url origin
+if ($currentUrl -notlike "*ghp_*") {
+    git remote set-url origin "https://${pat}@github.com/chiraleo2000/ai-news.git"
+}
 ```
+
+**For Claude scheduled tasks (Linux sandbox):**
+```bash
+PAT=$(cat /path/to/.github-pat | tr -d '\n')
+git remote set-url origin "https://${PAT}@github.com/chiraleo2000/ai-news.git"
+```
+
+**If push gives 403 or auth error → re-read PAT from file and set remote URL.**
