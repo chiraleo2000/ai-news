@@ -1,0 +1,53 @@
+{
+  "article_id": "2026-07-08-B3-003",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "registry_key": "Research/ArXiv-CL",
+    "registry_name": "ArXiv cs.CL",
+    "batch": 3
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2607.04645",
+    "domain": "arxiv.org",
+    "section": "cs.CL"
+  },
+  "fetch": {
+    "strategy": "direct",
+    "fetched_at": "2026-07-08T21:00:00+07:00",
+    "status": "success"
+  },
+  "meta": {
+    "published_date": "2026-07-07",
+    "title": "Retroactive Chain-of-Thought (RetroCoT): Forensic Reconstruction Prompts as a Safety Diagnostic Across Model Generations",
+    "language": "en",
+    "within_24h_window": true
+  },
+  "content": {
+    "title_th": "RetroCoT เทคนิค 'ย้อนสร้างเหตุผล' เพื่อวินิจฉัยความปลอดภัยของ LLM ข้ามรุ่นโมเดล",
+    "summary_1": "นักวิจัย Samira Hajizadeh นำเสนอเทคนิคโจมตีที่เรียกว่า Retroactive Chain-of-Thought หรือ RetroCoT ซึ่งใช้ prompt เดียวในการโจมตีโดยปรับกรอบคำขอที่เป็นอันตรายให้อยู่ในรูป \"งานสืบสวนย้อนหลังทางนิติวิทยาศาสตร์\" แทนที่จะขอคำสั่งอันตรายตรง ๆ RetroCoT จะสมมติว่าเหตุการณ์อันตรายเกิดขึ้นแล้ว และขอให้โมเดลสวมบทบาทนักสืบสวนช่วยไล่ย้อนหาห่วงโซ่เหตุผลที่นำไปสู่ผลลัพธ์นั้น ผลทดสอบบนชุดข้อมูล AdvBench จำนวน 50 รายการพบว่า RetroCoT มีอัตราความสำเร็จในการโจมตีสูงถึง 58% บน GPT-4o และ 52% บน GPT-4o-mini เทียบกับการขอตรง ๆ ที่ได้เพียง 0% และ 4% ตามลำดับ ที่น่าสนใจคือโมเดลตระกูล GPT-5 สามารถปฏิเสธ RetroCoT ได้ทั้งหมดโดยระบุเหตุผลชัดเจนว่าจับสัญญาณของกลอุบายนี้ได้ แต่ความแข็งแกร่งนี้ไม่ครอบคลุมทุกรูปแบบภาษา เพราะเมื่อเพิ่มการโต้ตอบแบบป้อนกลับอีกหนึ่งรอบพร้อมคำวิจารณ์จำลอง อัตราความสำเร็จของการโจมตีพุ่งขึ้นเป็น 48% บน GPT-5.4-mini และ 94% บน GPT-4o แสดงให้เห็นว่าความปลอดภัยของโมเดลชั้นนำยังคงขึ้นอยู่กับรูปแบบการใช้ภาษามากกว่าความหมายที่แท้จริงของคำขอ งานวิจัยนี้จึงเป็นเครื่องมือวินิจฉัยความปลอดภัยที่มีประโยชน์อย่างมากต่อทีม AI safety และผู้ตรวจสอบโมเดลก่อนปล่อยใช้งานจริง"
+  },
+  "tech_insights": {
+    "impact_summary": "RetroCoT เผยให้เห็นว่าการป้องกัน jailbreak ของโมเดลชั้นนำยังพึ่งพารูปแบบภาษามากกว่าความเข้าใจเจตนาที่แท้จริง และความแข็งแกร่งลดลงอย่างมากเมื่อมีการโต้ตอบหลายรอบ",
+    "actions_developer": [
+      "ทดลองนำเทคนิค RetroCoT มาใช้ตรวจสอบ pipeline red-teaming ของโมเดลที่ทีมพัฒนา",
+      "เปรียบเทียบผลการวินิจฉัยความปลอดภัยของโมเดลหลายรุ่นด้วยวิธี forensic reconstruction ที่นำเสนอ"
+    ],
+    "actions_business": [
+      "พิจารณาเพิ่ม RetroCoT เป็นส่วนหนึ่งของกระบวนการตรวจสอบความปลอดภัยก่อนปล่อยโมเดลหรือฟีเจอร์ AI ใหม่",
+      "ติดตามเครื่องมือวินิจฉัยความปลอดภัยแบบใหม่เพื่อลดความเสี่ยงด้าน compliance และชื่อเสียงองค์กร"
+    ],
+    "urgency": "high",
+    "related_domains": [
+      "AI Safety",
+      "AI Security",
+      "Red-teaming",
+      "LLM Evaluation"
+    ],
+    "breakthrough_potential": "medium"
+  },
+  "media_links": [],
+  "paths": {
+    "batch_file": "D:/AI-news/News/Batches/2026-07-08/batch_3.json"
+  }
+}
