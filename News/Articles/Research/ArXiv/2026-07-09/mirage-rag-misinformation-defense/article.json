@@ -1,0 +1,57 @@
+{
+  "article_id": "2026-07-09-B3-002",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "registry_key": "Research/ArXiv-CL",
+    "registry_name": "ArXiv cs.CL",
+    "batch": 3
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2607.05069",
+    "domain": "arxiv.org",
+    "section": "cs.CL"
+  },
+  "fetch": {
+    "strategy": "direct",
+    "fetched_at": "2026-07-09T21:00:00+07:00",
+    "status": "success"
+  },
+  "meta": {
+    "published_date": "2026-07-06",
+    "title": "MIRAGE: Defending Long-Form RAG Against Misinformation Pollution",
+    "language": "en",
+    "within_24h_window": true
+  },
+  "content": {
+    "title_th": "MIRAGE ระบบป้องกัน RAG จากข้อมูลบิดเบือนที่ปนเปื้อนในเอกสารที่ดึงมา",
+    "summary_1": "ทีมวิจัยนำโดย Saadeldine Eletter และ Preslav Nakov เสนอ MIRAGE ระบบป้องกันสำหรับ Retrieval-Augmented Generation (RAG) แบบคำตอบยาว ที่ไม่ต้องฝึกโมเดลเพิ่มและใช้ได้กับโมเดลใดก็ได้ เพื่อแก้ปัญหาการดึงข้อมูลจริงในโลกจริงที่มักปนเปื้อนด้วยข้อมูลที่ดูเกี่ยวข้องทางความหมายแต่แท้จริงมีข้อมูลบิดเบือน การใส่ความหมายผิดเพี้ยน หรือข้อมูลที่แต่งขึ้น MIRAGE สร้างกราฟข้อกล่าวอ้างข้ามเอกสารด้วยเทคนิค NLI (Natural Language Inference) และใช้กลไก Defended-Claims Gate เพื่อเลือกว่าจะให้โมเดลตอบจากกลุ่มข้อมูลที่สอดคล้องกันและได้รับการยืนยันจากหลายแหล่ง หรือบล็อกการดึงข้อมูลแล้วให้โมเดลตอบจากความรู้ภายในของตัวเองแทน ทีมวิจัยยังเผยแพร่ minimal-edit pollution protocol ที่ครอบคลุมการปนเปื้อนสี่รูปแบบ ได้แก่ ข้อมูลไม่กำกวม ข้อมูลขัดแย้งกัน ข้อมูลชี้นำให้เข้าใจผิด และข้อมูลที่แต่งขึ้นทั้งหมด ผลทดสอบบนสี่ชุดข้อมูล QA แบบคำตอบยาวกับโมเดลทั้งเชิงพาณิชย์และโอเพนซอร์สหลายตัวพบว่าการปนเปื้อนทำให้ RAG แบบทั่วไปแม่นยำลดลงอย่างมาก ขณะที่ MIRAGE ยังคงรักษาความถูกต้องของข้อเท็จจริงไว้ได้ดีกว่าวิธี robust-RAG ก่อนหน้า พร้อมเผยแพร่โค้ดและชุดข้อมูลบน GitHub"
+  },
+  "tech_insights": {
+    "impact_summary": "MIRAGE ช่วยให้ระบบ RAG ทนทานต่อข้อมูลบิดเบือนที่ปนมากับเอกสารที่ดึงมา ซึ่งเป็นความเสี่ยงสำคัญของแอปพลิเคชัน AI ที่ต้องพึ่งพาข้อมูลจากอินเทอร์เน็ตหรือฐานความรู้ภายนอก",
+    "actions_developer": [
+      "ทดลองนำ MIRAGE จาก GitHub ไปครอบระบบ RAG ที่ใช้งานอยู่เพื่อเพิ่มความทนทานต่อข้อมูลปนเปื้อน",
+      "ใช้ minimal-edit pollution protocol ที่เผยแพร่ ทดสอบความเปราะบางของ pipeline RAG ของทีมต่อข้อมูลบิดเบือน"
+    ],
+    "actions_business": [
+      "ประเมินความเสี่ยงด้านข้อมูลบิดเบือนในระบบ RAG ที่องค์กรใช้งานกับลูกค้าหรือพนักงาน",
+      "พิจารณาลงทุนในเครื่องมือป้องกัน RAG เพื่อลดความเสี่ยงด้าน misinformation และชื่อเสียงองค์กร"
+    ],
+    "urgency": "high",
+    "related_domains": [
+      "RAG",
+      "AI Safety",
+      "Misinformation Defense",
+      "NLP",
+      "Fact-Checking"
+    ],
+    "breakthrough_potential": true
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "Research/ArXiv/2026-07-09/mirage-rag-misinformation-defense",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-07-09/batch_3.json"
+  }
+}

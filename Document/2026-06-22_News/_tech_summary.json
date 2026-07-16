@@ -1,0 +1,474 @@
+{
+  "date": "2026-06-22",
+  "total_insights": 34,
+  "high_urgency": 10,
+  "breakthrough_count": 4,
+  "insights": [
+    {
+      "title": "Apertus — Open Foundation Model for Sovereign AI",
+      "source_name": "HackerNews",
+      "impact_summary": "The launch of Apertus and its HN reception signals growing demand for sovereign, open-weights AI alternatives to US frontier labs — accelerated by recent US export control actions.",
+      "urgency": "high",
+      "related_domains": [
+        "AI-research",
+        "AI-policy",
+        "AI-business"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "b4d07e61"
+    },
+    {
+      "title": "Identity verification on Claude — Anthropic support article goes viral on HN (761 points)",
+      "source_name": "HackerNews",
+      "impact_summary": "Identity verification requirements on Claude signal a broader trend of AI services becoming KYC-gated due to export control regulations — with major implications for privacy, access equity, and developer workflows.",
+      "urgency": "high",
+      "related_domains": [
+        "AI-product",
+        "AI-policy"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "a9c15f73"
+    },
+    {
+      "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+      "source_name": "TechCrunch",
+      "impact_summary": "US government export control targeting Anthropic's frontier models sets a precedent for politically-driven AI restrictions, creating regulatory uncertainty for frontier AI labs and raising questions about digital sovereignty.",
+      "urgency": "high",
+      "related_domains": [
+        "AI-policy",
+        "AI-safety",
+        "AI-business"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "a3f1c2d4"
+    },
+    {
+      "title": "STARE: Surprisal-Guided Token-Level Advantage Reweighting for Policy Entropy Stability",
+      "source_name": "ArXiv cs.LG/cs.AI",
+      "impact_summary": "STARE provides a principled solution to LLM RL training instability that has blocked wider adoption of RLVR methods. The 4-8% accuracy gain on math reasoning benchmarks is significant, and the technique generalizes across model sizes and task types including multi-turn tool use—directly relevant to building production agentic AI systems.",
+      "urgency": "high",
+      "related_domains": [
+        "LLM post-training",
+        "reinforcement learning",
+        "AI reasoning",
+        "model training stability"
+      ],
+      "breakthrough_potential": true,
+      "article_id": "stare-a1b2c3d4"
+    },
+    {
+      "title": "ระบบเตือนภัยบราซิลถูกแฮก โทรศัพท์แจ้งเตือนข้อความ misantropi4 กระจายหลายเมือง",
+      "source_name": "Blognone",
+      "impact_summary": "การแฮกระบบเตือนภัยสาธารณะเป็นภัยคุกคามต่อความปลอดภัยของประชาชน แม้จะไม่ขโมยข้อมูล แต่สามารถสร้างความโกลาหลและความตื่นตระหนกได้",
+      "urgency": "high",
+      "related_domains": [
+        "Cybersecurity",
+        "Public Safety",
+        "Infrastructure Security"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "150954bf"
+    },
+    {
+      "title": "จีนประกาศวาระแห่งชาติ ชูธง Employment-First สร้างตำแหน่งงานใหม่ให้ประชาชน เป้าหมายคือ ลดการว่างงานยุค AI",
+      "source_name": "Techsauce",
+      "impact_summary": "นโยบาย Employment-First ของจีนกำหนดทิศทางที่ AI ต้องสร้างงาน ไม่ใช่แค่ทำลายงาน เป็นโมเดลที่นานาชาติจับตามอง",
+      "urgency": "high",
+      "related_domains": [
+        "AI Policy",
+        "LLM",
+        "Robotics",
+        "Labor Market"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "609a0cad4c4f"
+    },
+    {
+      "title": "HBR เตือนองค์กรที่ใช้ AI แบบสุดทาง ระวัง 'งานสวยแต่ข้างในกลวง'",
+      "source_name": "Techsauce",
+      "impact_summary": "Workslop เป็นปรากฏการณ์ใหม่ที่บั่นทอนคุณค่า AI ในองค์กร ต้องการระบบ QA และ human oversight ที่เข้มแข็ง",
+      "urgency": "high",
+      "related_domains": [
+        "Enterprise AI",
+        "Productivity",
+        "Knowledge Management"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "35d519730fd6"
+    },
+    {
+      "title": "นอร์เวย์สั่งแบน AI ในชั้นประถม หวั่นเด็กข้ามขั้นการเรียนรู้ หลังเด็กนอร์เวย์ 1 ใน 4 อ่านหนังสือไม่ผ่านเกณฑ์",
+      "source_name": "Techsauce",
+      "impact_summary": "นอร์เวย์เป็นประเทศแรกที่ออกกฎห้ามใช้ Generative AI ในชั้นประถมระดับชาติ อาจกลายเป็นโมเดลให้ EU และประเทศอื่นทำตาม",
+      "urgency": "high",
+      "related_domains": [
+        "AI Policy",
+        "EdTech",
+        "Generative AI",
+        "Regulation"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "152ce6c3266c"
+    },
+    {
+      "title": "พบมัลแวร์ BTMOB มีความสามารถในการซุกซ่อนบนระบบ Android ได้อย่างลึกล้ำ",
+      "source_name": "Thaiware",
+      "impact_summary": "BTMOB เป็นตัวอย่างของมัลแวร์รุ่นใหม่ที่ใช้เทคนิคซ่อนตัวขั้นสูง ข้ามผ่านการป้องกันมาตรฐานของ Android ได้",
+      "urgency": "high",
+      "related_domains": [
+        "Mobile Security",
+        "Android",
+        "Cybersecurity"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "tw22408bt"
+    },
+    {
+      "title": "ระวังซอฟต์แวร์ปลอมบน GitHub กับ SourceForge โหลดแล้วอาจติดมัลแวร์ Deno RAT ได้",
+      "source_name": "Thaiware",
+      "impact_summary": "การใช้แพลตฟอร์มที่น่าเชื่อถืออย่าง GitHub เป็นช่องทางกระจายมัลแวร์เป็นภัยคุกคามระดับสูง เพราะผู้ใช้มักไม่ระวัง",
+      "urgency": "high",
+      "related_domains": [
+        "Cybersecurity",
+        "Supply Chain Security",
+        "Developer Security"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "tw22409dr"
+    },
+    {
+      "title": "Party is over: regularizing ColBERT models to fix efficient ANN methods",
+      "source_name": "HuggingFace",
+      "impact_summary": "Lateon regularization could unblock ColBERT adoption at scale by making it compatible with ANN indexes, potentially improving accuracy/speed tradeoffs in production RAG and search systems.",
+      "urgency": "medium",
+      "related_domains": [
+        "AI-research",
+        "AI-tools"
+      ],
+      "breakthrough_potential": true,
+      "article_id": "f1b3e942"
+    },
+    {
+      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+      "source_name": "TechCrunch",
+      "impact_summary": "Apple Intelligence in iOS 27 demonstrates on-device agentic AI becoming mainstream — password managers, calendar, messaging and home automation all gain autonomous AI behaviors without cloud dependency.",
+      "urgency": "medium",
+      "related_domains": [
+        "AI-product",
+        "AI-tools"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "b7e29f31"
+    },
+    {
+      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "source_name": "TechCrunch",
+      "impact_summary": "The departure of a Nobel laureate from DeepMind to Anthropic signals intensifying talent competition at the frontier and may boost Anthropic's scientific AI and biotech research capabilities.",
+      "urgency": "medium",
+      "related_domains": [
+        "AI-business",
+        "AI-research"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "e5a17c28"
+    },
+    {
+      "title": "Signal's Meredith Whittaker wants you to remember that AI chatbots 'are not your friends'",
+      "source_name": "TechCrunch",
+      "impact_summary": "Growing pushback from privacy advocates against emotionally manipulative AI chatbot design signals incoming regulatory and reputational risk for AI companion products.",
+      "urgency": "medium",
+      "related_domains": [
+        "AI-safety",
+        "AI-policy"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "c9d4a871"
+    },
+    {
+      "title": "GPT-5.2 first impressions: a powerful update, especially for business tasks and workflows",
+      "source_name": "VentureBeat",
+      "impact_summary": "GPT-5.2 delivers meaningful gains for autonomous reasoning, coding, and business workflow automation — enterprises and developers stand to benefit most from upgrading.",
+      "urgency": "medium",
+      "related_domains": [
+        "AI-product",
+        "AI-business"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "c6e29a14"
+    },
+    {
+      "title": "Green SARC: Predictive Cost and Carbon Governance for Agentic AI Systems",
+      "source_name": "ArXiv cs.AI/cs.SE",
+      "impact_summary": "Green SARC addresses the emerging organizational challenge of cost overruns and sustainability compliance in agentic AI deployments—directly relevant as enterprises scale AI agents for production use. Carbon governance is increasingly required for ESG compliance in corporate AI strategies.",
+      "urgency": "medium",
+      "related_domains": [
+        "agentic AI",
+        "green AI",
+        "AI governance",
+        "cost management",
+        "sustainability",
+        "MLOps"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "greensarc-c3d4e5f6"
+    },
+    {
+      "title": "MAGE-RAG: Multigranular Adaptive Graph Evidence for Agentic Multimodal RAG in Long-Document QA",
+      "source_name": "ArXiv cs.AI/cs.IR",
+      "impact_summary": "MAGE-RAG advances the state of enterprise RAG systems for document-heavy workflows (legal, medical, financial) by combining graph-based multi-hop reasoning with multimodal content handling, directly enabling more accurate AI assistants over complex document repositories.",
+      "urgency": "medium",
+      "related_domains": [
+        "RAG",
+        "multimodal AI",
+        "document intelligence",
+        "knowledge graphs",
+        "enterprise AI"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "magerag-b2c3d4e5"
+    },
+    {
+      "title": "Mechanism-Guided Selective Unlearning for RLVR-Induced Reasoning",
+      "source_name": "ArXiv cs.LG",
+      "impact_summary": "Mechanism-guided selective unlearning is a critical capability for safely deploying RLVR-trained models in production—allowing post-deployment correction of undesired behaviors without full retraining. This directly enables safer iterative improvement of reasoning AI systems.",
+      "urgency": "medium",
+      "related_domains": [
+        "machine unlearning",
+        "AI safety",
+        "RLVR",
+        "LLM post-training",
+        "model correction"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "rlvrunlearn-d4e5f6a7"
+    },
+    {
+      "title": "The Reward Was in Your Data All Along: Correcting Flow Matching with Discriminator-Guided RL",
+      "source_name": "ArXiv cs.LG",
+      "impact_summary": "This work simplifies quality-aligned generative AI training by eliminating the need for separate reward models in flow matching pipelines—reducing training complexity and cost while improving generation quality. Highly relevant for image/video generation product teams.",
+      "urgency": "medium",
+      "related_domains": [
+        "generative AI",
+        "flow matching",
+        "image generation",
+        "reinforcement learning",
+        "diffusion models"
+      ],
+      "breakthrough_potential": true,
+      "article_id": "rewardindata-e5f6a7b8"
+    },
+    {
+      "title": "Google Calendar เปิดให้กำหนดสีปฏิทิน 200 สี และ AI Avatar ใน Google Vids รองรับภาษาไทยแล้ว",
+      "source_name": "Blognone",
+      "impact_summary": "AI Avatar ภาษาไทยใน Google Vids เป็นข่าวสำคัญสำหรับตลาดไทย เปิดโอกาสสร้าง video content ภาษาไทยด้วย AI ได้สะดวกขึ้น",
+      "urgency": "medium",
+      "related_domains": [
+        "AI-tools",
+        "Productivity",
+        "Thai Language AI"
+      ],
+      "breakthrough_potential": true,
+      "article_id": "150952gw"
+    },
+    {
+      "title": "Online Meetup #6: Platform Engineering for AI — วางรากฐานองค์กรสู่ยุค AI Agents [14 ก.ค. | 14:00 น.]",
+      "source_name": "TechTalkThai",
+      "impact_summary": "Platform Engineering for AI เป็นทักษะที่กำลังมีความสำคัญสูงขึ้นเรื่อยๆ เมื่อ AI Agents เริ่ม deploy จริงในองค์กร",
+      "urgency": "medium",
+      "related_domains": [
+        "Platform Engineering",
+        "AI Agents",
+        "DevOps",
+        "Cloud Infrastructure"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "tttonmeet6"
+    },
+    {
+      "title": "เจาะลึก Zero Touch Provisioning บน VCF Edge 9.1 พลิกโฉมการขยาย Edge Site ด้วยระบบอัตโนมัติแบบครบวงจร",
+      "source_name": "TechTalkThai",
+      "impact_summary": "Zero Touch Provisioning ช่วยลด operational cost และเวลา deployment สำหรับ Edge infrastructure ซึ่งสำคัญมากในยุค AI workload ที่ต้องการ edge processing",
+      "urgency": "medium",
+      "related_domains": [
+        "Edge Computing",
+        "Infrastructure Automation",
+        "Enterprise IT"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "vcfedge91"
+    },
+    {
+      "title": "The AI Breakdown — Latest AI Business & Strategy News (2026-06-22)",
+      "source_name": "The AI Breakdown",
+      "impact_summary": "The AI Breakdown is a high-frequency, business-focused AI news source ideal for executives and strategy teams needing daily AI intelligence briefings with strategic context.",
+      "urgency": "medium",
+      "related_domains": [
+        "AI business strategy",
+        "AI policy",
+        "AI news",
+        "competitive intelligence",
+        "AI investment"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "aibreakdown-b4c5d6e7"
+    },
+    {
+      "title": "In the Weights is your new AI-centric vanity search",
+      "source_name": "TechCrunch",
+      "impact_summary": "AI vanity search tools reveal a transparency gap in LLM knowledge — organizations now need to audit their AI presence just as they monitor their web presence.",
+      "urgency": "low",
+      "related_domains": [
+        "AI-tools",
+        "AI-policy"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "d2f8b539"
+    },
+    {
+      "title": "Google Meet รองรับการใช้งานในรถยนต์ผ่าน Android Auto แล้ว",
+      "source_name": "Blognone",
+      "impact_summary": "การรองรับ Android Auto ช่วยให้ประชุมขณะขับรถได้สะดวกขึ้น ลดการหยิบโทรศัพท์ขณะขับรถ เพิ่มความปลอดภัยบนท้องถนน",
+      "urgency": "low",
+      "related_domains": [
+        "Productivity",
+        "Automotive Tech",
+        "Enterprise Collaboration"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "150953gm"
+    },
+    {
+      "title": "AI Explained — Latest AI Capabilities & News Video (2026-06-22)",
+      "source_name": "AI Explained",
+      "impact_summary": "AI Explained provides rigorous, hype-free analysis of AI model capabilities and benchmark claims — critical for making accurate technical and business assessments of AI progress.",
+      "urgency": "low",
+      "related_domains": [
+        "AI capabilities",
+        "model benchmarks",
+        "AI safety",
+        "LLMs",
+        "AI news"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "aiexplained-c9d0e1f2"
+    },
+    {
+      "title": "David Shapiro — Latest AI Automation & AGI Discussion (2026-06-22)",
+      "source_name": "David Shapiro",
+      "impact_summary": "David Shapiro provides practical agentic AI content combined with AGI trajectory analysis — useful for teams building autonomous AI systems and thinking about longer-term AI safety considerations.",
+      "urgency": "low",
+      "related_domains": [
+        "agentic AI",
+        "AI automation",
+        "AGI",
+        "AI alignment",
+        "autonomous systems"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "davidshapiro-a3b4c5d6"
+    },
+    {
+      "title": "Andrej Karpathy — Latest AI Education Video (2026-06-22)",
+      "source_name": "Andrej Karpathy",
+      "impact_summary": "Karpathy's channel is among the highest-quality free resources for deep AI education—essential watching for anyone building LLM-based products or training custom models.",
+      "urgency": "low",
+      "related_domains": [
+        "deep learning",
+        "LLMs",
+        "neural networks",
+        "AI education"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "karpathy-a7b8c9d0"
+    },
+    {
+      "title": "Yannic Kilcher — Latest ML Paper Review (2026-06-22)",
+      "source_name": "Yannic Kilcher",
+      "impact_summary": "Kilcher's channel is a reference resource for rigorous understanding of important ML papers — essential for researchers and ML engineers tracking the frontier.",
+      "urgency": "low",
+      "related_domains": [
+        "ML research",
+        "NLP",
+        "paper reviews",
+        "AI critique",
+        "deep learning"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "kilcher-b8c9d0e1"
+    },
+    {
+      "title": "ML Street Talk — Latest AI Research Interview / Discussion (2026-06-22)",
+      "source_name": "ML Street Talk",
+      "impact_summary": "ML Street Talk is the premier long-form interview channel for deep technical AI research discussions — essential for researchers and senior engineers wanting researcher-level perspective on frontier topics.",
+      "urgency": "low",
+      "related_domains": [
+        "ML theory",
+        "AI safety",
+        "AI research",
+        "scaling laws",
+        "interpretability"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "mlstreettalk-f2a3b4c5"
+    },
+    {
+      "title": "Matt Wolfe — Latest AI Tools & News Video (2026-06-22)",
+      "source_name": "Matt Wolfe",
+      "impact_summary": "Matt Wolfe's channel is the go-to source for discovering new AI tools and staying current on AI product releases — ideal for business teams evaluating AI adoption opportunities.",
+      "urgency": "low",
+      "related_domains": [
+        "AI tools",
+        "generative AI",
+        "AI products",
+        "business AI",
+        "productivity"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "mattwolfe-d0e1f2a3"
+    },
+    {
+      "title": "Sertis Official — ล่าสุด AI และ Data Science (2026-06-22)",
+      "source_name": "Sertis Official",
+      "impact_summary": "Sertis provides AI and data science content tailored for Thai enterprise context — essential for Thai organizations evaluating AI adoption with local case studies and Thai-language education.",
+      "urgency": "low",
+      "related_domains": [
+        "AI Thailand",
+        "enterprise AI",
+        "data science",
+        "machine learning",
+        "Thai business"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "sertis-c5d6e7f8"
+    },
+    {
+      "title": "Two Minute Papers — Latest AI Research Video (2026-06-21)",
+      "source_name": "Two Minute Papers",
+      "impact_summary": "Two Minute Papers is a high-signal channel for quickly surveying impressive new AI research results. Ideal for developers and researchers wanting a visual preview before reading full papers.",
+      "urgency": "low",
+      "related_domains": [
+        "AI research",
+        "machine learning",
+        "generative AI",
+        "computer graphics"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "2mp-f6a7b8c9"
+    },
+    {
+      "title": "Wes Roth — Latest Frontier AI News & Analysis (2026-06-22)",
+      "source_name": "Wes Roth",
+      "impact_summary": "Wes Roth provides fast-turnaround analysis of major AI announcements — useful for staying current on frontier model capabilities and their business implications.",
+      "urgency": "low",
+      "related_domains": [
+        "frontier AI",
+        "AI news",
+        "LLMs",
+        "AI capabilities",
+        "AI business impact"
+      ],
+      "breakthrough_potential": false,
+      "article_id": "wesroth-e1f2a3b4"
+    }
+  ]
+}

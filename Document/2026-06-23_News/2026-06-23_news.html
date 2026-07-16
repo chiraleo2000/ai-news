@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⚡ AI News Daily — 2026-06-23</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-primary: #f0f2f8;
+  --bg-card: #ffffff;
+  --bg-header: #1a1a2e;
+  --neon-cyan: #00d4ff;
+  --neon-magenta: #ff00ff;
+  --neon-green: #00ff88;
+  --neon-purple: #a855f7;
+  --neon-orange: #ff6b35;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4a6a;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Rajdhani', 'Segoe UI', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+.header {
+  background: var(--bg-header);
+  color: #fff;
+  padding: 32px 40px;
+  border-bottom: 3px solid var(--neon-cyan);
+}
+.header h1 {
+  font-family: 'Orbitron', monospace;
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: var(--neon-cyan);
+  letter-spacing: 2px;
+  text-shadow: 0 0 20px rgba(0,212,255,0.5);
+}
+.header .subtitle {
+  font-family: 'Share Tech Mono', monospace;
+  color: #8888aa;
+  font-size: 0.85rem;
+  margin-top: 6px;
+}
+.stats-bar {
+  background: #16213e;
+  padding: 14px 40px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(0,212,255,0.2);
+}
+.stat-item {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.85rem;
+  color: #ccd;
+}
+.stat-item .num {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-right: 4px;
+}
+.stat-ai { color: var(--neon-cyan); }
+.stat-tech { color: var(--neon-purple); }
+.stat-th { color: var(--neon-orange); }
+.stat-global { color: var(--neon-green); }
+.top-insights {
+  background: #fff8e7;
+  border-left: 4px solid #f59e0b;
+  margin: 24px 40px;
+  padding: 16px 20px;
+  border-radius: 8px;
+}
+.top-insights h2 {
+  font-family: 'Orbitron', monospace;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: #92400e;
+  margin-bottom: 12px;
+}
+.top-insight-item {
+  padding: 6px 0;
+  border-bottom: 1px solid #fde68a;
+  font-size: 0.9rem;
+}
+.top-insight-item:last-child { border-bottom: none; }
+.insight-urgency {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.65rem;
+  padding: 2px 6px;
+  border-radius: 10px;
+  background: #ff4d4d;
+  color: #fff;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.main { padding: 0 40px 40px; }
+.section {
+  margin-top: 32px;
+}
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid currentColor;
+}
+.section-title {
+  font-family: 'Orbitron', monospace;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.section-count {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.75rem;
+  background: currentColor;
+  border-radius: 12px;
+  padding: 2px 10px;
+  opacity: 0.15;
+}
+.sec-ai { color: var(--neon-cyan); border-color: var(--neon-cyan); }
+.sec-tech { color: var(--neon-purple); border-color: var(--neon-purple); }
+.sec-th { color: var(--neon-orange); border-color: var(--neon-orange); }
+.sec-global { color: var(--neon-green); border-color: var(--neon-green); }
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: var(--bg-card);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  border-left: 4px solid transparent;
+  transition: box-shadow 0.2s;
+}
+.card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.14); }
+.topic-ai-trends { border-left-color: var(--neon-cyan); }
+.topic-tech-trends { border-left-color: var(--neon-purple); }
+.topic-thailand { border-left-color: var(--neon-orange); }
+.topic-global { border-left-color: var(--neon-green); }
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.source-badge {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.72rem;
+  background: #e8eaf6;
+  color: var(--text-secondary);
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-right: 6px;
+}
+.card-title {
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+.card-content {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+.insight-box {
+  background: #f8f9ff;
+  border: 1px solid #e0e3f0;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 0.83rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+.actions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  font-size: 0.8rem;
+}
+.action-col strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--text-primary);
+  font-size: 0.8rem;
+}
+.action-col ul {
+  padding-left: 16px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+.footer {
+  text-align: center;
+  padding: 24px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.75rem;
+  color: #8888aa;
+  border-top: 1px solid #dde;
+  margin-top: 40px;
+  background: var(--bg-header);
+  color: #6688aa;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>⚡ AI NEWS DAILY — 2026-06-23</h1>
+  <div class="subtitle">
+    📰 14 articles &nbsp;|&nbsp; 
+    AI Trends: 3 &nbsp;|&nbsp; 
+    Tech Trends: 4 &nbsp;|&nbsp; 
+    Thailand: 6 &nbsp;|&nbsp; 
+    Global: 1 &nbsp;|&nbsp;
+    🔴 High Urgency: 6 &nbsp;|&nbsp;
+    ✦ Breakthroughs: 4
+  </div>
+</div>
+
+<div class="stats-bar">
+  <div class="stat-item stat-ai"><span class="num">3</span> AI Trends</div>
+  <div class="stat-item stat-tech"><span class="num">4</span> Tech Trends</div>
+  <div class="stat-item stat-th"><span class="num">6</span> Thailand</div>
+  <div class="stat-item stat-global"><span class="num">1</span> Global</div>
+  <div class="stat-item"><span class="num">6</span> Thai Sources</div>
+  <div class="stat-item"><span class="num">8</span> International Sources</div>
+  <div class="stat-item"><span class="num">6</span> 🔴 High</div>
+  <div class="stat-item"><span class="num">4</span> ✦ Breakthroughs</div>
+</div>
+
+<div class="top-insights">
+  <h2>🔥 TOP INSIGHTS TODAY</h2>
+  
+<div class="top-insight-item">
+  <span class="insight-urgency" data-urgency="high">HIGH</span>
+  <strong>Securing the future of AI agents</strong>
+  <span style="color:#4a4a6a;font-size:0.85rem;"> — DeepMind's AI Control Roadmap provides the most detailed public framework yet for securing AI agent deployments — treati...</span>
+</div>
+<div class="top-insight-item">
+  <span class="insight-urgency" data-urgency="high">HIGH</span>
+  <strong>Daybreak: Tools for securing every organization in the world</strong>
+  <span style="color:#4a4a6a;font-size:0.85rem;"> — OpenAI launches a comprehensive AI cybersecurity ecosystem spanning enterprise tools, partner integrations, government a...</span>
+</div>
+<div class="top-insight-item">
+  <span class="insight-urgency" data-urgency="high">HIGH</span>
+  <strong>Patch the Planet: a Daybreak initiative to support open source maintainers</strong>
+  <span style="color:#4a4a6a;font-size:0.85rem;"> — OpenAI deploys frontier AI models to discover and patch critical vulnerabilities in foundational open-source software at...</span>
+</div>
+<div class="top-insight-item">
+  <span class="insight-urgency" data-urgency="high">HIGH</span>
+  <strong>When the Trump administration cracks down on Anthropic, who benefits?</strong>
+  <span style="color:#4a4a6a;font-size:0.85rem;"> — The US government's export control ban on Anthropic's most advanced models signals a new era of AI geopolitics where fro...</span>
+</div>
+<div class="top-insight-item">
+  <span class="insight-urgency" data-urgency="medium">MEDIUM</span>
+  <strong>Google ประกาศลงทุนในสตูดิโอ A24 เพื่อวิจัยพัฒนาเครื่องมือ AI รองรับงานสร้างสรรค์ด้านภาพยนตร์</strong>
+  <span style="color:#4a4a6a;font-size:0.85rem;"> — Google DeepMind เดินหน้าขยาย AI เข้าสู่อุตสาหกรรมภาพยนตร์ผ่านการลงทุนและพัฒนาเครื่องมือร่วมกับ A24...</span>
+</div>
+<div class="top-insight-item">
+  <span class="insight-urgency" data-urgency="high">HIGH</span>
+  <strong>Samsung นำ ChatGPT Enterprise และ Codex ให้พนักงานใช้ - OpenAI บอกเป็นดีลลูกค้าองค์กรใหญ่ที่สุดครั้งหนึ่ง</strong>
+  <span style="color:#4a4a6a;font-size:0.85rem;"> — ดีลซัมซุง-OpenAI แสดงว่า AI Enterprise ได้รับการยอมรับจากบริษัทอิเล็กทรอนิกส์ระดับโลก...</span>
+</div>
+<div class="top-insight-item">
+  <span class="insight-urgency" data-urgency="high">HIGH</span>
+  <strong>ผู้ขับ Tesla อ้างว่าใช้ Autopilot อยู่ หลังรถพุ่งเข้าชนบ้านจนหญิงสูงอายุเสียชีวิต</strong>
+  <span style="color:#4a4a6a;font-size:0.85rem;"> — อุบัติเหตุ Tesla Autopilot ยังคงตั้งคำถามต่อความรับผิดชอบทางกฎหมายและความปลอดภัยของ AI ในรถยนต์...</span>
+</div>
+</div>
+
+<div class="main">
+
+<div class="section">
+  <div class="section-header sec-ai">
+    <span class="section-title">🧠 AI TRENDS</span>
+    <span style="font-family:'Share Tech Mono',monospace;font-size:0.8rem;background:#e0f9ff;color:#007090;padding:2px 10px;border-radius:12px;">3 articles</span>
+  </div>
+  <div class="cards-grid">
+    
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <div>
+      <span class="source-badge">GoogleDeepMind</span>
+      <span style="background:#ff4d4d;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">high</span>
+      <span style="background:#00d4ff22;color:#00d4ff;padding:2px 8px;border-radius:12px;font-size:0.7rem;margin-left:6px;">✦ Breakthrough</span>
+    </div>
+    <a href="https://deepmind.google/blog/securing-the-future-of-ai-agents/" target="_blank" style="color:#00d4ff;text-decoration:none;font-size:0.75rem;">🔗 Source</a>
+  </div>
+  <h3 class="card-title">Securing the future of AI agents</h3>
+  <div class="tags" style="margin-bottom:10px;"><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">AI-safety</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">AI-agents</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">AI-control</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">DeepMind</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">alignment</span></div>
+  <p class="card-content">Google DeepMind has released its AI Control Roadmap, a comprehensive framework for securing enterprise systems against advanced AI agents that may be imperfectly aligned. Going beyond model alignment alone, the roadmap treats deployed AI agents as potential 'insider threats' — similar to rogue employees — and applies a defense-in-depth approach. Built on MITRE ATT&CK, the framework uses AI supervisor agents to monitor other agents' reasoning and block harmful actions. DeepMind analyzed one million coding agent trajectories to build the system, finding most flagged behaviors stem from agent over-eagerness rather than adversarial intent. The paper also proposes scaling security protocols as model capabilities increase.</p>
+  <div class="insight-box">
+    <strong>💡 Impact:</strong> DeepMind's AI Control Roadmap provides the most detailed public framework yet for securing AI agent deployments — treating agents as insider threats and scaling defenses with capability.
+  </div>
+  <div class="actions-grid">
+    <div class="action-col">
+      <strong>👨‍💻 Dev Actions</strong>
+      <ul><li>Study DeepMind's AI Control Roadmap PDF for building secure multi-agent system architectures</li><li>Implement supervisor AI agents to monitor working agents' reasoning and flag anomalies</li><li>Apply MITRE ATT&CK-based threat modeling when designing agentic systems with real-world access</li></ul>
+    </div>
+    <div class="action-col">
+      <strong>🏢 Business Actions</strong>
+      <ul><li>Enterprise AI teams: adopt defense-in-depth principles before deploying autonomous agents on critical systems</li><li>Use DeepMind's three-tier framework (individual, multi-agent, ecosystem) to assess organizational AI security posture</li><li>Engage with policymakers using the 'Three Layers of Agent Security' paper as a standards reference</li></ul>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <div>
+      <span class="source-badge">HuggingFace</span>
+      <span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">medium</span>
+      
+    </div>
+    <a href="https://huggingface.co/blog/openenv-agentic-rl" target="_blank" style="color:#00d4ff;text-decoration:none;font-size:0.75rem;">🔗 Source</a>
+  </div>
+  <h3 class="card-title">The Open Source Community is backing OpenEnv for Agentic RL</h3>
+  <div class="tags" style="margin-bottom:10px;"><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">open-source</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">RL</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">agentic-AI</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">reinforcement-learning</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">HuggingFace</span></div>
+  <p class="card-content">OpenEnv, an open-source environment framework specifically designed for training and evaluating AI agents via reinforcement learning (agentic RL), has received broad backing from the open-source community. The Hugging Face blog post announcing OpenEnv gathered 83 upvotes with support from 14+ contributing organizations, making it one of the most-engaged posts on the platform in June 2026. The project addresses a gap in open-source tooling for agentic RL — providing standardized environments where agents can practice long-horizon tasks. This aligns with a broader industry trend toward reinforcement learning as a key training method for capable AI agents.</p>
+  <div class="insight-box">
+    <strong>💡 Impact:</strong> OpenEnv fills a critical gap in open-source tooling for agentic RL training, enabling broader community participation in the race to build capable autonomous agents.
+  </div>
+  <div class="actions-grid">
+    <div class="action-col">
+      <strong>👨‍💻 Dev Actions</strong>
+      <ul><li>Explore OpenEnv on Hugging Face Hub for training agentic AI systems with RL</li><li>Contribute environments or benchmarks to OpenEnv if working on agentic RL research</li><li>Use OpenEnv as an evaluation framework for comparing agent performance on standardized tasks</li></ul>
+    </div>
+    <div class="action-col">
+      <strong>🏢 Business Actions</strong>
+      <ul><li>AI research teams: evaluate OpenEnv as a standard benchmark environment for agentic RL experiments</li><li>Consider contributing to OpenEnv to influence the emerging standard for agentic evaluation</li><li>Monitor OpenEnv adoption as an indicator of open-source agentic RL maturity</li></ul>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <div>
+      <span class="source-badge">OpenAI</span>
+      <span style="background:#ff4d4d;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">high</span>
+      <span style="background:#00d4ff22;color:#00d4ff;padding:2px 8px;border-radius:12px;font-size:0.7rem;margin-left:6px;">✦ Breakthrough</span>
+    </div>
+    <a href="https://openai.com/index/patch-the-planet/" target="_blank" style="color:#00d4ff;text-decoration:none;font-size:0.75rem;">🔗 Source</a>
+  </div>
+  <h3 class="card-title">Patch the Planet: a Daybreak initiative to support open source maintainers</h3>
+  <div class="tags" style="margin-bottom:10px;"><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">open-source</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">security</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Codex</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">vulnerability</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">cybersecurity</span></div>
+  <p class="card-content">OpenAI has introduced Patch the Planet under its Daybreak cybersecurity program, partnering with Trail of Bits to deploy AI-assisted vulnerability discovery and patch development across major open-source projects. Using GPT-5.5-Cyber and Codex Security, the initiative targets critical projects including cURL, Python, Go, Sigstore, and pyca/cryptography. In an initial five-day sprint, researchers discovered hundreds of security issues, merged dozens of patches, and found exploitable vulnerabilities in Chrome V8, Safari WebKit, Firefox, OpenBSD, FreeBSD, and Linux kernel. Every finding is reviewed by human security engineers before reaching maintainers, reducing false-positive noise. The goal is to move beyond vulnerability discovery toward a complete patch automation loop.</p>
+  <div class="insight-box">
+    <strong>💡 Impact:</strong> OpenAI deploys frontier AI models to discover and patch critical vulnerabilities in foundational open-source software at unprecedented scale and speed.
+  </div>
+  <div class="actions-grid">
+    <div class="action-col">
+      <strong>👨‍💻 Dev Actions</strong>
+      <ul><li>Open-source maintainers can apply to join Patch the Planet at trailofbits.com/patch-the-planet</li><li>Explore Codex Security plugin for automated vulnerability scanning and patching in your own codebases</li><li>Review GPT-5.5-Cyber benchmark results (85.6% CyberGym) when evaluating AI security tools</li></ul>
+    </div>
+    <div class="action-col">
+      <strong>🏢 Business Actions</strong>
+      <ul><li>Security teams: evaluate Daybreak Cyber Partner Program for enterprise vulnerability management</li><li>Consider AI-assisted security workflows that pair model discovery with human expert review to reduce false-positive burden</li><li>Monitor coordinated disclosure timelines for affected open-source dependencies (cURL, Python, Go, etc.)</li></ul>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header sec-tech">
+    <span class="section-title">⚙️ TECH TRENDS</span>
+    <span style="font-family:'Share Tech Mono',monospace;font-size:0.8rem;background:#f3e8ff;color:#6b21a8;padding:2px 10px;border-radius:12px;">4 articles</span>
+  </div>
+  <div class="cards-grid">
+    
+<div class="card topic-tech-trends">
+  <div class="card-header">
+    <div>
+      <span class="source-badge">HuggingFace</span>
+      <span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">medium</span>
+      
+    </div>
+    <a href="https://huggingface.co/blog/huggingface/serge" target="_blank" style="color:#00d4ff;text-decoration:none;font-size:0.75rem;">🔗 Source</a>
+  </div>
+  <h3 class="card-title">Introducing Serge: GitHub-Native AI Code Review</h3>
+  <div class="tags" style="margin-bottom:10px;"><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">HuggingFace</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">code-review</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">GitHub</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">developer-tools</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">open-source</span></div>
+  <p class="card-content">Hugging Face launched Serge, a new GitHub-native AI code review tool designed to integrate seamlessly into existing pull request workflows. Serge provides automated code reviews with context-awareness, understanding project-specific patterns and codebases rather than giving generic feedback. The tool is positioned as an open-source-friendly alternative to proprietary code review AI, built by Hugging Face to integrate with the Hub ecosystem. It appeared as a featured blog post on HuggingFace.co around June 18, 2026, with 9 upvotes on the community blog within 5 days of posting.</p>
+  <div class="insight-box">
+    <strong>💡 Impact:</strong> Hugging Face enters the AI code review market with a GitHub-native tool, expanding its developer tooling beyond model hosting.
+  </div>
+  <div class="actions-grid">
+    <div class="action-col">
+      <strong>👨‍💻 Dev Actions</strong>
+      <ul><li>Test Serge in your GitHub repositories for automated PR code review</li><li>Evaluate Serge versus existing tools (GitHub Copilot PR Review, CodeRabbit) for open-source projects</li><li>Explore Hugging Face Hub integration with Serge for custom model-backed code review</li></ul>
+    </div>
+    <div class="action-col">
+      <strong>🏢 Business Actions</strong>
+      <ul><li>Engineering managers: pilot Serge for automated code review at scale to reduce reviewer bottlenecks</li><li>Consider open-source-friendly AI code review tools as alternatives to proprietary vendors</li><li>Track Hugging Face's developer tooling expansion as it broadens beyond model hosting</li></ul>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-tech-trends">
+  <div class="card-header">
+    <div>
+      <span class="source-badge">OpenAI</span>
+      <span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">medium</span>
+      
+    </div>
+    <a href="https://openai.com/index/codex-maxxing-long-running-work/" target="_blank" style="color:#00d4ff;text-decoration:none;font-size:0.75rem;">🔗 Source</a>
+  </div>
+  <h3 class="card-title">Codex-Maxxing for Long-Running Work</h3>
+  <div class="tags" style="margin-bottom:10px;"><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Codex</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">coding-agent</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">long-running-tasks</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">agentic-AI</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">developer-tools</span></div>
+  <p class="card-content">OpenAI released a new AI Adoption guide titled 'Codex-Maxxing for Long-Running Work' — a whitepaper by Jason Liu that provides practical strategies for using Codex beyond single-prompt interactions. The guide focuses on Codex as a persistent, context-aware workspace for complex, multi-step projects. It covers how to break ambitious goals into verifiable steps, maintain continuity across workstreams, and determine when to delegate execution to Codex versus when human oversight is most valuable. This is a companion resource to the expanding Codex ecosystem announced alongside Daybreak on June 22.</p>
+  <div class="insight-box">
+    <strong>💡 Impact:</strong> OpenAI provides enterprise-grade guidance for deploying Codex on multi-day, complex projects — advancing the practical case for AI-driven software development at scale.
+  </div>
+  <div class="actions-grid">
+    <div class="action-col">
+      <strong>👨‍💻 Dev Actions</strong>
+      <ul><li>Read the full whitepaper at cdn.openai.com/pdf/codex-maxxing to improve multi-session Codex workflows</li><li>Structure long projects with verifiable checkpoints Codex can resume from</li><li>Identify which steps require human oversight vs. full Codex delegation in your workflows</li></ul>
+    </div>
+    <div class="action-col">
+      <strong>🏢 Business Actions</strong>
+      <ul><li>Use this guide to train engineering teams on agentic Codex deployment for complex projects</li><li>Evaluate Codex for long-running enterprise software tasks beyond single-session interactions</li><li>Build internal playbooks based on Codex-maxxing principles for consistent AI adoption</li></ul>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-tech-trends">
+  <div class="card-header">
+    <div>
+      <span class="source-badge">OpenAI</span>
+      <span style="background:#ff4d4d;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">high</span>
+      <span style="background:#00d4ff22;color:#00d4ff;padding:2px 8px;border-radius:12px;font-size:0.7rem;margin-left:6px;">✦ Breakthrough</span>
+    </div>
+    <a href="https://openai.com/index/daybreak-securing-the-world/" target="_blank" style="color:#00d4ff;text-decoration:none;font-size:0.75rem;">🔗 Source</a>
+  </div>
+  <h3 class="card-title">Daybreak: Tools for securing every organization in the world</h3>
+  <div class="tags" style="margin-bottom:10px;"><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Daybreak</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Codex Security</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">GPT-5.5-Cyber</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">cybersecurity</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">enterprise</span></div>
+  <p class="card-content">OpenAI is dramatically expanding Daybreak, its AI-powered cybersecurity platform, with several major announcements on June 22, 2026. The updated Codex Security plugin has already scanned 30M+ commits across 30,000+ codebases, with 500,000+ findings auto-resolved. GPT-5.5-Cyber — now released in full after limited preview — sets new state-of-the-art at 85.6% on CyberGym. A new Daybreak Cyber Partner Program brings in 28 major security vendors including CrowdStrike, Palo Alto Networks, Cisco, Cloudflare, SentinelOne, and Wiz, enabling them to offer GPT-5.5 with Trusted Access for Cyber in their products. OpenAI also establishes government Trusted Access partnerships with Australia, Canada, France, Germany, Japan, South Korea, and EU institutions (ENISA).</p>
+  <div class="insight-box">
+    <strong>💡 Impact:</strong> OpenAI launches a comprehensive AI cybersecurity ecosystem spanning enterprise tools, partner integrations, government alliances, and open-source protection — fundamentally shifting AI's role in cyber defense.
+  </div>
+  <div class="actions-grid">
+    <div class="action-col">
+      <strong>👨‍💻 Dev Actions</strong>
+      <ul><li>Integrate Codex Security plugin into your CI/CD pipeline for continuous vulnerability scanning</li><li>Apply for Trusted Access for Cyber if doing authorized security research requiring GPT-5.5-Cyber</li><li>Use Codex Security's SARIF export to integrate AI findings into existing security workflows</li></ul>
+    </div>
+    <div class="action-col">
+      <strong>🏢 Business Actions</strong>
+      <ul><li>Security product companies: apply to Daybreak Cyber Partner Program to offer GPT-5.5 to customers</li><li>Government/critical infrastructure operators: explore Trusted Access for Cyber national partnerships</li><li>Enterprise security teams: evaluate Codex Security for automated vulnerability backlog reduction</li></ul>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-tech-trends">
+  <div class="card-header">
+    <div>
+      <span class="source-badge">TechCrunch</span>
+      <span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">medium</span>
+      
+    </div>
+    <a href="https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/" target="_blank" style="color:#00d4ff;text-decoration:none;font-size:0.75rem;">🔗 Source</a>
+  </div>
+  <h3 class="card-title">Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27</h3>
+  <div class="tags" style="margin-bottom:10px;"><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Apple</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">iOS-27</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Apple-Intelligence</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Siri</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">WWDC</span></div>
+  <p class="card-content">While Apple's revamped Siri dominated WWDC 2026 headlines, iOS 27 is packed with smaller but highly practical AI features powered by Apple Intelligence. TechCrunch highlights key features now in developer beta: AI-powered bill splitting from receipt photos via Apple Cash; automated agentic password upgrades that navigate websites and change compromised credentials; one-tap message suggestions based on conversation context; Call Context that surfaces relevant info (like booking confirmation codes) during customer service calls; natural-language Shortcuts creation (vibe coding); intelligent Home app notification grouping; and AI-organized Safari tab groups. All features are designed to run on-device for privacy.</p>
+  <div class="insight-box">
+    <strong>💡 Impact:</strong> Apple Intelligence in iOS 27 demonstrates the most comprehensive integration of AI into a consumer OS to date — embedding agentic capabilities across payments, security, communication, and automation.
+  </div>
+  <div class="actions-grid">
+    <div class="action-col">
+      <strong>👨‍💻 Dev Actions</strong>
+      <ul><li>Explore Apple Intelligence APIs for building contextual, device-level AI integrations in iOS 27 apps</li><li>Study Apple's on-device AI approach as a privacy-preserving alternative to cloud AI for mobile features</li><li>Review iOS 27 developer beta to prepare apps for integration with new AI-powered system features</li></ul>
+    </div>
+    <div class="action-col">
+      <strong>🏢 Business Actions</strong>
+      <ul><li>Consumer product teams: plan for iOS 27's AI features reshaping user expectations for app intelligence</li><li>Enterprise mobile teams: evaluate Call Context and Shortcuts for productivity workflow automation</li><li>Marketing/UX: anticipate users expecting 'ambient AI' that works without explicit prompting</li></ul>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header sec-th">
+    <span class="section-title">🇹🇭 THAILAND AI &amp; TECH</span>
+    <span style="font-family:'Share Tech Mono',monospace;font-size:0.8rem;background:#fff3ed;color:#c2410c;padding:2px 10px;border-radius:12px;">6 articles</span>
+  </div>
+  <div class="cards-grid">
+    
+<div class="card topic-thailand">
+  <div class="card-header">
+    <div>
+      <span class="source-badge">Blognone</span>
+      <span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">medium</span>
+      
+    </div>
+    <a href="https://www.blognone.com/node/150961" target="_blank" style="color:#00d4ff;text-decoration:none;font-size:0.75rem;">🔗 Source</a>
+  </div>
+  <h3 class="card-title">Getty Images ทำข้อตกลงให้ OpenAI เข้าถึงคลังรูปภาพเพื่อแสดงผลใน ChatGPT</h3>
+  <div class="tags" style="margin-bottom:10px;"><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Getty Images</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">OpenAI</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">ChatGPT</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Content</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Copyright</span></div>
+  <p class="card-content">Getty Images ประกาศความร่วมมือเป็นระยะเวลาต่อเนื่องหลายปีกับ OpenAI ในการเข้าถึงคลังคอนเทนต์ ซึ่ง Getty บอกว่าภาพจากแพลตฟอร์มจะแสดงในระบบค้นหาของ OpenAI และ ChatGPT Craig Peters ซีอีโอ Getty บอกว่าเนื้อหาคุณภาพสูงที่ได้รับอนุญาตอย่างถูกต้องจะแสดงผลทำให้การใช้งาน AI มีประโยชน์และน่าเชื่อถือยิ่งขึ้น</p>
+  <div class="insight-box">
+    <strong>💡 Impact:</strong> ดีล Getty-OpenAI เป็นก้าวสำคัญในการสร้าง ecosystem ของเนื้อหา AI ที่ถูกลิขสิทธิ์อย่างถูกต้อง
+  </div>
+  <div class="actions-grid">
+    <div class="action-col">
+      <strong>👨‍💻 Dev Actions</strong>
+      <ul><li>ติดตามการพัฒนา API สำหรับการแสดงรูปภาพที่มีสิทธิ์จาก Getty ใน ChatGPT</li><li>พิจารณาโมเดลการขอสิทธิ์เนื้อหาสำหรับ AI applications</li></ul>
+    </div>
+    <div class="action-col">
+      <strong>🏢 Business Actions</strong>
+      <ul><li>พิจารณาโอกาสในการออกใบอนุญาตเนื้อหาให้แก่บริษัท AI</li><li>ทบทวนนโยบายการใช้สิทธิ์เนื้อหาในโซลูชัน AI ขององค์กร</li></ul>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-thailand">
+  <div class="card-header">
+    <div>
+      <span class="source-badge">Blognone</span>
+      <span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">medium</span>
+      <span style="background:#00d4ff22;color:#00d4ff;padding:2px 8px;border-radius:12px;font-size:0.7rem;margin-left:6px;">✦ Breakthrough</span>
+    </div>
+    <a href="https://www.blognone.com/node/150964" target="_blank" style="color:#00d4ff;text-decoration:none;font-size:0.75rem;">🔗 Source</a>
+  </div>
+  <h3 class="card-title">Google ประกาศลงทุนในสตูดิโอ A24 เพื่อวิจัยพัฒนาเครื่องมือ AI รองรับงานสร้างสรรค์ด้านภาพยนตร์</h3>
+  <div class="tags" style="margin-bottom:10px;"><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Google</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">DeepMind</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">A24</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">AI</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Film</span></div>
+  <p class="card-content">Google DeepMind หน่วยงานด้านปัญญาประดิษฐ์ของกูเกิล ประกาศความร่วมมือกับ A24 สตูดิโอภาพยนตร์ชื่อดัง โดยความร่วมมือนี้เน้นไปที่การวิจัยพัฒนาเครื่องมือสำหรับสตูดิโอภาพยนตร์ เพื่อช่วยในขั้นตอนการทำงานและเทคนิคพิเศษต่าง ๆ รองรับความคิดสร้างสรรค์ใหม่ในอนาคต กูเกิลยังได้ลงทุนใน A24 ด้วย โดยตัวเลขที่รายงานออกมาอยู่ที่ประมาณ 75 ล้านดอลลาร์</p>
+  <div class="insight-box">
+    <strong>💡 Impact:</strong> Google DeepMind เดินหน้าขยาย AI เข้าสู่อุตสาหกรรมภาพยนตร์ผ่านการลงทุนและพัฒนาเครื่องมือร่วมกับ A24
+  </div>
+  <div class="actions-grid">
+    <div class="action-col">
+      <strong>👨‍💻 Dev Actions</strong>
+      <ul><li>ติดตามเครื่องมือ AI สำหรับ visual effects และ post-production ที่กำลังพัฒนา</li><li>ศึกษาโอกาสในการพัฒนา AI tools สำหรับอุตสาหกรรมสร้างสรรค์</li></ul>
+    </div>
+    <div class="action-col">
+      <strong>🏢 Business Actions</strong>
+      <ul><li>พิจารณาโอกาสทางธุรกิจใน AI creative tools สำหรับอุตสาหกรรมสื่อบันเทิง</li><li>ติดตามผลการร่วมมือระหว่าง Tech Giants กับสตูดิโอภาพยนตร์</li></ul>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-thailand">
+  <div class="card-header">
+    <div>
+      <span class="source-badge">Blognone</span>
+      <span style="background:#ff4d4d;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">high</span>
+      
+    </div>
+    <a href="https://www.blognone.com/node/150960" target="_blank" style="color:#00d4ff;text-decoration:none;font-size:0.75rem;">🔗 Source</a>
+  </div>
+  <h3 class="card-title">Samsung นำ ChatGPT Enterprise และ Codex ให้พนักงานใช้ - OpenAI บอกเป็นดีลลูกค้าองค์กรใหญ่ที่สุดครั้งหนึ่ง</h3>
+  <div class="tags" style="margin-bottom:10px;"><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Samsung</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">OpenAI</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">ChatGPT</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Enterprise</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Codex</span></div>
+  <p class="card-content">OpenAI ประกาศว่าบริษัทได้ทำข้อตกลงกับซัมซุง เพื่อนำ ChatGPT Enterprise และ Codex ให้กับพนักงานของซัมซุงใช้งาน มีผลกับพนักงานที่อยู่ในเกาหลีใต้ทั้งหมด และพนักงานในฝ่าย Device eXperience (สมาร์ทโฟน) ทั่วโลก โดยมีพนักงานทั้งส่วนที่เกี่ยวกับการพัฒนาซอฟต์แวร์ ไปจนถึงฝ่ายวิจัยพัฒนาผลิตภัณฑ์ การตลาด และการผลิต OpenAI บอกว่าข้อตกลงนี้เป็นการใช้งาน ChatGPT Enterprise ในองค์กรขนาดใหญ่ที่สุดครั้งหนึ่งของบริษัท</p>
+  <div class="insight-box">
+    <strong>💡 Impact:</strong> ดีลซัมซุง-OpenAI แสดงว่า AI Enterprise ได้รับการยอมรับจากบริษัทอิเล็กทรอนิกส์ระดับโลก
+  </div>
+  <div class="actions-grid">
+    <div class="action-col">
+      <strong>👨‍💻 Dev Actions</strong>
+      <ul><li>พิจารณา ChatGPT Enterprise / Codex สำหรับ workflow การพัฒนาซอฟต์แวร์ในองค์กร</li><li>ศึกษา OpenAI API สำหรับการผสาน AI เข้าสู่กระบวนการผลิต</li></ul>
+    </div>
+    <div class="action-col">
+      <strong>🏢 Business Actions</strong>
+      <ul><li>พิจารณาแผน Enterprise AI adoption โดยเทียบกับดีลของ Samsung</li><li>ประเมิน ROI จากการลงทุนใน AI tools ในระดับองค์กร</li></ul>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-thailand">
+  <div class="card-header">
+    <div>
+      <span class="source-badge">Blognone</span>
+      <span style="background:#ff4d4d;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">high</span>
+      
+    </div>
+    <a href="https://www.blognone.com/node/150966" target="_blank" style="color:#00d4ff;text-decoration:none;font-size:0.75rem;">🔗 Source</a>
+  </div>
+  <h3 class="card-title">ผู้ขับ Tesla อ้างว่าใช้ Autopilot อยู่ หลังรถพุ่งเข้าชนบ้านจนหญิงสูงอายุเสียชีวิต</h3>
+  <div class="tags" style="margin-bottom:10px;"><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Tesla</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Autopilot</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Autonomous</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Safety</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Accident</span></div>
+  <p class="card-content">Michael Butler ผู้ขับ Tesla Model 3 ขับรถด้วยความเร็วสูงในย่านที่อยู่อาศัย และรถของเขาพุ่งเข้าชนบ้านหลังหนึ่งจนกระทั่ง Martha Avila หญิงวัย 76 ปีที่อยู่ในบ้านเสียชีวิต โดย Butler อ้างว่าขณะพุ่งชนรถ Tesla ขับแบบอัตโนมัติอยู่ กล้องวงจรปิดหลายตัวในบริเวณที่เกิดเหตุแสดงให้เห็นว่ารถของ Butler พุ่งไปด้วยความเร็วสูงจนกระทั่งเข้าชนกับตัวบ้านในที่สุด</p>
+  <div class="insight-box">
+    <strong>💡 Impact:</strong> อุบัติเหตุ Tesla Autopilot ยังคงตั้งคำถามต่อความรับผิดชอบทางกฎหมายและความปลอดภัยของ AI ในรถยนต์
+  </div>
+  <div class="actions-grid">
+    <div class="action-col">
+      <strong>👨‍💻 Dev Actions</strong>
+      <ul><li>พัฒนาระบบ failsafe และ override ที่ชัดเจนสำหรับ autonomous systems</li><li>ออกแบบ logging system ที่บันทึกสถานะการควบคุมรถได้อย่างละเอียด</li></ul>
+    </div>
+    <div class="action-col">
+      <strong>🏢 Business Actions</strong>
+      <ul><li>ติดตามกฎระเบียบด้านความปลอดภัยของ autonomous vehicles</li><li>ทบทวนนโยบายความรับผิดชอบของผู้ผลิตและผู้ขับขี่</li></ul>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-thailand">
+  <div class="card-header">
+    <div>
+      <span class="source-badge">TechTalkThai</span>
+      <span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">medium</span>
+      
+    </div>
+    <a href="https://www.techtalkthai.com/ntt-data-webinar-unlock-productivity-with-microsoft-365-copilot-video/" target="_blank" style="color:#00d4ff;text-decoration:none;font-size:0.75rem;">🔗 Source</a>
+  </div>
+  <h3 class="card-title">[Video Webinar] ปลดล็อกศักยภาพการทำงานยุคใหม่ด้วย Microsoft 365 Copilot โดย NTT DATA</h3>
+  <div class="tags" style="margin-bottom:10px;"><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Microsoft</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Copilot</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">NTT DATA</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">AI</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Enterprise</span></div>
+  <p class="card-content">NTT DATA เผยแพร่วิดีโอบันทึกย้อนหลัง Webinar เรื่อง 'ปลดล็อกศักยภาพการทำงานยุคใหม่ด้วย Microsoft 365 Copilot' ซึ่งเป็นผู้ช่วย AI ส่วนตัวระดับองค์กร พร้อมเจาะลึกฟีเจอร์ใหม่ล่าสุด และสาธิตการจัดการงานที่ยุ่งยากและซับซ้อนให้เสร็จเรียบร้อยในพริบตา สำหรับผู้ที่ไม่ได้เข้าฟังการบรรยายหรือต้องการรับชมซ้ำ</p>
+  <div class="insight-box">
+    <strong>💡 Impact:</strong> Microsoft 365 Copilot กำลังเป็น AI tool หลักในองค์กรไทย โดย NTT DATA ช่วยเร่งการ adoption ผ่าน webinar และ training
+  </div>
+  <div class="actions-grid">
+    <div class="action-col">
+      <strong>👨‍💻 Dev Actions</strong>
+      <ul><li>ทดลองใช้ Microsoft 365 Copilot API สำหรับ integration กับระบบภายในองค์กร</li><li>ศึกษา Copilot Studio สำหรับการสร้าง AI agent ที่ customize ได้</li></ul>
+    </div>
+    <div class="action-col">
+      <strong>🏢 Business Actions</strong>
+      <ul><li>ประเมิน ROI ของ Microsoft 365 Copilot สำหรับการ adopt ในองค์กร</li><li>ส่งทีมเข้าอบรม Copilot เพื่อเพิ่ม Productivity ในการทำงาน</li></ul>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-thailand">
+  <div class="card-header">
+    <div>
+      <span class="source-badge">Techsauce</span>
+      <span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">medium</span>
+      
+    </div>
+    <a href="https://techsauce.co/saucy-thoughts/gen-z-read-less" target="_blank" style="color:#00d4ff;text-decoration:none;font-size:0.75rem;">🔗 Source</a>
+  </div>
+  <h3 class="card-title">Gen Z อ่านหนังสือน้อยลง 40% ในรอบ 10 ปี ผู้เชี่ยวชาญเตือนเสี่ยงอ่านไว แต่ไม่เข้าใจ</h3>
+  <div class="tags" style="margin-bottom:10px;"><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Gen Z</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">AI</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Education</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Reading</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Critical Thinking</span></div>
+  <p class="card-content">วงการการศึกษาในสหรัฐฯ เริ่มตื่นตัวกับปัญหาการอ่านของ Gen Z มากขึ้น เมื่ออาจารย์มหาวิทยาลัยหลายคนออกมาบอกว่าเด็กยุคนี้รับมือกับการอ่านข้อมูลยาวๆ ไม่ไหว แถมหนักสุดคือถึงขั้นอ่านประโยคพื้นฐานไม่เข้าใจ สถิติชี้ว่า Gen Z อ่านหนังสือน้อยลง 40% ในรอบ 10 ปี ผู้เชี่ยวชาญชี้ว่าการพึ่งพา AI ในการสรุปและอ่านแทนอาจเป็นปัจจัยสำคัญที่ทำให้ทักษะการอ่านและการคิดวิเคราะห์ลดลง</p>
+  <div class="insight-box">
+    <strong>💡 Impact:</strong> การพึ่งพา AI มากเกินไปอาจกำลังส่งผลเสียต่อทักษะการอ่านและคิดวิเคราะห์ของ Gen Z
+  </div>
+  <div class="actions-grid">
+    <div class="action-col">
+      <strong>👨‍💻 Dev Actions</strong>
+      <ul><li>ออกแบบ AI education tools ที่ส่งเสริมการคิดวิเคราะห์ ไม่ใช่แทนที่</li><li>สร้าง AI learning companion ที่ช่วย scaffold การเรียนรู้แบบ progressive</li></ul>
+    </div>
+    <div class="action-col">
+      <strong>🏢 Business Actions</strong>
+      <ul><li>พิจารณาผลกระทบระยะยาวของการใช้ AI tools ในองค์กรต่อทักษะพนักงาน</li><li>ออกแบบนโยบาย AI usage ที่สร้างสมดุลระหว่างประสิทธิภาพและการพัฒนาทักษะ</li></ul>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header sec-global">
+    <span class="section-title">🌐 GLOBAL AI &amp; TECH</span>
+    <span style="font-family:'Share Tech Mono',monospace;font-size:0.8rem;background:#e8fff3;color:#065f46;padding:2px 10px;border-radius:12px;">1 articles</span>
+  </div>
+  <div class="cards-grid">
+    
+<div class="card topic-global">
+  <div class="card-header">
+    <div>
+      <span class="source-badge">TechCrunch</span>
+      <span style="background:#ff4d4d;color:#fff;padding:2px 8px;border-radius:12px;font-size:0.7rem;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">high</span>
+      
+    </div>
+    <a href="https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/" target="_blank" style="color:#00d4ff;text-decoration:none;font-size:0.75rem;">🔗 Source</a>
+  </div>
+  <h3 class="card-title">When the Trump administration cracks down on Anthropic, who benefits?</h3>
+  <div class="tags" style="margin-bottom:10px;"><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Anthropic</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Trump</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">export-controls</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Fable-5</span><span style="background:#e8eaf6;color:#4a4a6a;padding:2px 7px;border-radius:10px;font-size:0.68rem;margin-right:4px;">Mythos-5</span></div>
+  <p class="card-content">Following the Trump administration's export control directive that forced Anthropic to take its Fable 5 and Mythos 5 models offline, TechCrunch's Equity podcast hosts dissect the political and commercial implications. Amazon CEO Andy Jassy reportedly tipped off the White House after researchers found guardrail bypasses in Fable 5. Cybersecurity experts have signed an open letter calling the ban dangerous, saying it removes critical defensive AI capabilities from U.S. network defenders. Despite the hit to Anthropic operations, some analysts suggest the controversy may paradoxically boost Claude's brand — downloads surged after the previous Anthropic-Trump administration feud, as users flocked to the 'resistance AI.'</p>
+  <div class="insight-box">
+    <strong>💡 Impact:</strong> The US government's export control ban on Anthropic's most advanced models signals a new era of AI geopolitics where frontier model access can be switched off by government decree.
+  </div>
+  <div class="actions-grid">
+    <div class="action-col">
+      <strong>👨‍💻 Dev Actions</strong>
+      <ul><li>Monitor export control policy developments if building products dependent on frontier model APIs</li><li>Evaluate multi-model strategies to reduce dependency on any single provider that may face regulatory action</li><li>Track the Anthropic ban and its resolution timeline as a leading indicator for AI regulation trends</li></ul>
+    </div>
+    <div class="action-col">
+      <strong>🏢 Business Actions</strong>
+      <ul><li>Assess regulatory risk in AI vendor contracts, especially for frontier models subject to export controls</li><li>Develop contingency plans for rapid model switching if government action affects AI providers</li><li>Follow geopolitical AI policy developments — digital sovereignty is emerging as a key enterprise risk factor</li></ul>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+</div>
+
+<div class="footer">
+  AI News Pipeline v2.0 &nbsp;|&nbsp; Generated: 2026-06-23T10:00:00+07:00 &nbsp;|&nbsp; 14 articles processed &nbsp;|&nbsp; Coverage: 100%
+</div>
+</body>
+</html>

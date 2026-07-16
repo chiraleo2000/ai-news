@@ -1,0 +1,71 @@
+{
+  "article_id": "glm-52-vs-opus-2026-07-01",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "International",
+    "source_name": "Hacker News",
+    "registry_key": "Intl/HackerNews",
+    "domain": "AI-RESEARCH",
+    "main_url": "https://news.ycombinator.com/?q=AI"
+  },
+  "source": {
+    "url": "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
+    "type": "aggregator",
+    "origin": "aggregator",
+    "fetch_priority_used": "2_aggregator"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-07-01T10:02:00+07:00",
+    "fetch_mode": "search",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-07-01T02:00:00Z",
+    "scraped_at": "2026-07-01T10:02:00+07:00",
+    "run_date": "2026-07-01",
+    "target_date": "2026-07-01",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "2",
+    "category": "AI-RESEARCH",
+    "category_label": "งานวิจัย AI",
+    "news_type": "บทความ",
+    "tags": ["GLM-5.2", "Claude Opus", "Benchmark", "Open Weight Models", "Coding"],
+    "language": "en"
+  },
+  "content": {
+    "title": "GLM 5.2 vs. Opus",
+    "title_th": "เปรียบเทียบ GLM 5.2 กับ Claude Opus 4.8 ในงาน coding แบบ one-shot",
+    "slug": "glm-52-vs-opus-2026-07-01",
+    "summary": "บทความเปรียบเทียบ GLM-5.2 ของ Zhipu AI กับ Claude Opus 4.8 ในงานสร้างเกม 3D WebGL ด้วยพรอมป์เดียว พบว่า Opus เร็วกว่าและผลลัพธ์ดีกว่า ขณะที่ GLM-5.2 ถูกกว่าราวห้าเท่า",
+    "summary_1": "บทความจาก techstackups.com เปรียบเทียบโมเดล open-weight GLM-5.2 ของ Zhipu AI กับ Claude Opus 4.8 ของ Anthropic ด้วยการทดสอบแบบ one-shot คือให้ทั้งสองโมเดลสร้างเกมแพลตฟอร์ม 3D ด้วย raw WebGL จากพรอมป์เดียวกัน ผลการทดสอบพบว่า Opus 4.8 ทำงานเสร็จเร็วกว่าและได้ผลลัพธ์ที่สะอาดและสมบูรณ์กว่า ขณะที่ GLM-5.2 มีต้นทุนถูกกว่าราวหนึ่งในห้าของ Opus เมื่อคิดจาก output token pricing บทความนี้กลายเป็นหัวข้อถกเถียงอย่างกว้างขวางบน Hacker News โดยผู้ใช้จำนวนมากตั้งคำถามว่าการทดสอบแบบ one-shot prompt เพียงครั้งเดียวเป็นตัวชี้วัดที่มีความหมายสำหรับความสามารถของ coding agent หรือไม่ เนื่องจากงานจริงส่วนใหญ่เป็นการทำงานแบบ collaborative หลายรอบ อย่างไรก็ตาม ผู้ใช้จำนวนมากยืนยันจากประสบการณ์ตรงว่า GLM-5.2 กำลังได้รับความนิยมเพิ่มขึ้นในฐานะโมเดล open-weight ราคาถูกที่ใกล้เคียงระดับ frontier แม้จะยังมีข้อจำกัดด้าน UI/UX และความเร็วในการประมวลผลเมื่อเทียบกับโมเดลชั้นนำ",
+    "body_text": "",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "การทดสอบชี้ให้เห็นว่าโมเดล open-weight จากจีนอย่าง GLM-5.2 ไล่ตามความสามารถ coding ของโมเดล frontier ได้ใกล้ขึ้นมาก ในต้นทุนที่ต่ำกว่าอย่างมีนัยสำคัญ",
+    "actions_developer": [
+      "ทดลองใช้ GLM-5.2 กับงาน coding ที่ไม่ต้องการความแม่นยำสูงสุด เพื่อประเมินความคุ้มค่าด้านต้นทุนเทียบกับ Opus",
+      "อย่าตัดสินใจเลือกโมเดลจากการทดสอบ one-shot เพียงอย่างเดียว ควรทดสอบ workflow แบบ multi-turn และ agentic ที่ตรงกับการใช้งานจริง"
+    ],
+    "actions_business": [
+      "ประเมินการใช้โมเดล open-weight ราคาถูกสำหรับงานปริมาณมากที่ไม่ต้องการคุณภาพสูงสุด เพื่อลดต้นทุนรวมของระบบ",
+      "ติดตามพัฒนาการของโมเดลจีนอย่าง GLM ต่อเนื่อง เนื่องจากกำลังลดช่องว่างด้านคุณภาพกับโมเดลตะวันตกในราคาที่แข่งขันได้"
+    ],
+    "urgency": "medium",
+    "related_domains": ["GLM-5.2", "Claude Opus", "Benchmark", "Open Weight Models", "Coding"],
+    "breakthrough_potential": false
+  },
+  "media_links": { "youtube_channel": null, "youtube_video": null },
+  "paths": {
+    "relative": "International/HackerNews/2026-07-01/glm-52-vs-opus-2026-07-01",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-07-01/batch_2.json"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "article_id": "b2-openai-gpt56-gov-003",
+  "schema_version": "2.0",
+  "topic_group": "global",
+  "source_info": {
+    "category": "International",
+    "source_name": "TechCrunch",
+    "registry_key": "Intl/TechCrunch",
+    "domain": "AI-policy",
+    "main_url": "https://techcrunch.com"
+  },
+  "source": {
+    "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-28T10:00:00+07:00",
+    "fetch_mode": "rendered",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-26T18:32:14+00:00",
+    "scraped_at": "2026-06-28T10:00:00+07:00",
+    "run_date": "2026-06-28",
+    "target_date": "2026-06-28",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "2",
+    "category": "AI-POLICY",
+    "category_label": "นโยบาย AI",
+    "news_type": "ข่าว",
+    "tags": ["openai", "gpt-5.6", "trump", "government", "ai-regulation", "export-control"],
+    "language": "th"
+  },
+  "content": {
+    "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn't be the norm",
+    "title_th": "OpenAI จำกัดการเปิดตัว GPT-5.6 ตามคำขอรัฐบาลสหรัฐฯ แต่ยืนว่าไม่ควรเป็นมาตรฐาน",
+    "slug": "openai-limits-gpt56-rollout-government",
+    "summary": "OpenAI ยอมจำกัดการเผยแพร่ GPT-5.6 ให้เฉพาะพันธมิตรที่รัฐบาล Trump อนุมัติเท่านั้น แต่ประกาศชัดเจนว่าการแทรกแซงของรัฐบาลแบบนี้ไม่ควรกลายเป็นบรรทัดฐานระยะยาว",
+    "summary_1": "OpenAI ออกแถลงการณ์ว่าได้จำกัดการเปิดตัว GPT-5.6 ซึ่งประกอบด้วยสามโมเดลคือ Sol (โมเดลเรือธง), Terra (โมเดลสมดุล) และ Luna (โมเดลเร็วและถูก) โดยให้เข้าถึงได้เฉพาะ 'กลุ่มพันธมิตรที่เชื่อถือได้จำนวนน้อย' ตามคำร้องขอของรัฐบาล Trump ซึ่งกังวลเรื่องความปลอดภัยด้านไซเบอร์ GPT-5.6 Sol เป็นโมเดลที่แข็งแกร่งที่สุดของ OpenAI จนถึงปัจจุบัน มีความสามารถ agentic ด้าน coding, biology และ cybersecurity เหนือกว่า Claude Mythos 5 ในบางด้าน OpenAI ย้ำชัดเจนว่า 'เราไม่เชื่อว่ากระบวนการเข้าถึงของรัฐบาลแบบนี้ควรกลายเป็นค่าเริ่มต้นระยะยาว' เพราะจะทำให้เครื่องมือที่ดีที่สุดห่างไกลจากผู้ใช้ นักพัฒนา องค์กร และพันธมิตรทั่วโลกที่ต้องการมัน",
+    "body_text": "GPT-5.6 Sol มาพร้อม reasoning mode 'max' และ mode 'ultra' ที่ใช้ subagents หลายตัวพร้อมกัน ราคา Sol อยู่ที่ 5 ดอลลาร์ต่อล้าน input tokens และ 30 ดอลลาร์ต่อล้าน output tokens ส่วน Terra ราคาครึ่งหนึ่ง และ Luna ราคา 1 และ 6 ดอลลาร์ตามลำดับ OpenAI ออกแบบ Sol ให้มีความปลอดภัยสูง โดย built-in safety ไว้ใน core model แทนที่จะใช้ filter แยกต่างหาก เพื่อหลีกเลี่ยงปัญหาที่เกิดกับ Anthropic Fable 5 ที่ถูกวิจารณ์เรื่อง false positives การจำกัดครั้งนี้เป็นส่วนหนึ่งของ executive order ของ Trump ที่ให้บริษัท AI ส่งโมเดลขั้นสูงให้รัฐบาลตรวจสอบล่วงหน้า 30 วันก่อนเปิดตัว",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "การแทรกแซงของรัฐบาลสหรัฐฯ ต่อการเปิดตัว AI model กำลังสร้างบรรทัดฐานใหม่ที่อาจทำให้สหรัฐฯ เสียเปรียบในการแข่งขัน AI โลก ขณะที่บริษัท AI ต้องหาสมดุลระหว่างการปฏิบัติตามกฎและการรักษาความสามารถแข่งขัน",
+    "actions_developer": [
+      "ลงทะเบียนเป็น trusted partner ของ OpenAI เพื่อเข้าถึง GPT-5.6 Sol ได้เร็ว",
+      "ทดสอบ GPT-5.6 Terra และ Luna เมื่อเปิดกว้างมากขึ้น เพื่อเปรียบเทียบ cost-performance"
+    ],
+    "actions_business": [
+      "ติดตามนโยบาย AI ของรัฐบาลสหรัฐฯ ที่อาจกระทบการเข้าถึง frontier AI models",
+      "วางแผน AI strategy สำรองในกรณีที่ frontier models ถูกจำกัดการเข้าถึง"
+    ],
+    "urgency": "high",
+    "related_domains": ["LLM", "AI-policy", "API", "AI-safety"],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "International/TechCrunch/2026-06-28/openai-limits-gpt56-rollout-government",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-06-28/batch_2.json"
+  }
+}

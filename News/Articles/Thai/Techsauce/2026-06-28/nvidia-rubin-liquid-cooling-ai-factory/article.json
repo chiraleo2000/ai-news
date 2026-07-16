@@ -1,0 +1,72 @@
+{
+  "article_id": "b1-ts-nvidia-liquid-cooling-013",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "Thai",
+    "source_name": "Techsauce",
+    "registry_key": "Thai/Techsauce",
+    "domain": "AI-product",
+    "main_url": "https://techsauce.co"
+  },
+  "source": {
+    "url": "https://techsauce.co/news/nvidia-rubin-liquid-cooling-ai-factory",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-28T12:00:00+07:00",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-23T00:00:00+07:00",
+    "scraped_at": "2026-06-28T12:00:00+07:00",
+    "run_date": "2026-06-28",
+    "target_date": "2026-06-28",
+    "within_24h": false,
+    "status": "scraped",
+    "batch": "1",
+    "category": "AI-PRODUCT",
+    "category_label": "ผลิตภัณฑ์ AI",
+    "news_type": "ข่าว",
+    "tags": ["NVIDIA", "AI", "Data Center", "Cooling", "GPU", "Rubin"],
+    "language": "th"
+  },
+  "content": {
+    "title": "Data Center ที่ร้อนกว่าอ่างน้ำอุ่น NVIDIA กับแนวคิดระบบหล่อเย็น 45 องศา เปลี่ยนจากทำให้เย็น เป็นทำให้ร้อนอย่างมีประสิทธิภาพ",
+    "title_th": "NVIDIA เปิดแนวคิดระบบหล่อเย็น AI Factory ด้วยน้ำ 45 องศา ประหยัดทั้งน้ำและไฟ",
+    "slug": "nvidia-rubin-liquid-cooling-ai-factory",
+    "summary": "NVIDIA เปิดเผยแนวคิดระบบหล่อเย็นสำหรับ AI Factory ที่ใช้น้ำร้อน 45 องศา แทนการทำให้เย็น ช่วยประหยัดพลังงานและน้ำในการดูแล Data Center รุ่น Rubin",
+    "summary_1": "NVIDIA เปิดเผยแนวคิดใหม่สำหรับการบริหารจัดการความร้อนใน AI Factory โดยใช้ระบบหล่อเย็นด้วยน้ำที่อุณหภูมิ 45 องศาเซลเซียส ซึ่งเปลี่ยนปรัชญาจากการทำให้ระบบเย็นไปเป็นการจัดการความร้อนให้มีประสิทธิภาพ แนวทางนี้จะช่วยประหยัดทั้งน้ำและพลังงานไฟฟ้าในการดูแล Data Center ที่รัน GPU รุ่น Rubin สำหรับการประมวลผล AI ขั้นสูง ความร้อนที่เกิดขึ้นยังสามารถนำไปใช้ประโยชน์ในรูปแบบอื่นได้อีกด้วย เช่น การให้ความร้อนแก่อาคารใกล้เคียง สะท้อนแนวโน้มการออกแบบ Data Center ที่ยั่งยืนมากขึ้นในยุค AI",
+    "body_text": "NVIDIA เสนอแนวคิด liquid cooling AI Factory ด้วยน้ำ 45 องศา สำหรับ GPU Rubin แทนการทำให้เย็นแบบดั้งเดิม ช่วยประหยัดน้ำและไฟ พร้อมนำความร้อนที่เกิดไปใช้ประโยชน์ได้ สะท้อนทิศทาง sustainable AI infrastructure",
+    "language": "th",
+    "original_language": "th"
+  },
+  "tech_insights": {
+    "impact_summary": "การจัดการความร้อนอย่างมีประสิทธิภาพใน AI Data Center จะลดต้นทุนการดำเนินงานและผลกระทบต่อสิ่งแวดล้อม ซึ่งเป็นเรื่องสำคัญสำหรับการขยาย AI infrastructure ในไทย",
+    "actions_developer": [
+      "ศึกษา liquid cooling technology สำหรับ AI workload ในการออกแบบ infrastructure",
+      "ประเมินต้นทุนและประโยชน์ของ warm water cooling เทียบกับ air cooling แบบดั้งเดิม"
+    ],
+    "actions_business": [
+      "รวม sustainable cooling strategy ในการวางแผน AI Data Center ใหม่",
+      "พิจารณาความเป็นไปได้ของ warm water cooling สำหรับการลดต้นทุนพลังงานระยะยาว"
+    ],
+    "urgency": "low",
+    "related_domains": ["GPU", "Data Center", "AI Infrastructure", "Sustainability"],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "Thai/Techsauce/2026-06-28/nvidia-rubin-liquid-cooling-ai-factory",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-06-28/batch_1.json"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "article_id": "35d519730fd6",
+  "schema_version": "1.0",
+  "source_info": {
+    "category": "Thai",
+    "source_name": "Techsauce",
+    "registry_key": "Thai/Techsauce",
+    "domain": "AI-BUSINESS",
+    "main_url": "https://techsauce.co"
+  },
+  "source": {
+    "url": "https://techsauce.co/news/ai-knowledge-decay-crisis",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-22T11:12:28Z",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-22T00:00:00+07:00",
+    "scraped_at": "2026-06-22T11:12:28Z",
+    "run_date": "2026-06-22",
+    "target_date": "2026-06-22",
+    "within_24h": true,
+    "status": "published",
+    "batch": "1",
+    "category": "AI-BUSINESS",
+    "category_label": "AI ในธุรกิจ",
+    "news_type": "ข่าว",
+    "tags": [
+      "AI",
+      "HBR",
+      "Workslop",
+      "knowledge decay",
+      "productivity"
+    ],
+    "language": "th"
+  },
+  "content": {
+    "title": "HBR เตือนองค์กรที่ใช้ AI แบบสุดทาง ระวัง 'งานสวยแต่ข้างในกลวง'",
+    "slug": "hbr-workslop-ai-knowledge-decay",
+    "summary": "HBR เตือน 'Workslop' — ผลงาน AI ที่ดูดี แต่เนื้อในกลวง สร้างความเสียหาย $186/คน/เดือน พนักงาน 41% เจอปัญหา และ 95% องค์กรยังไม่เห็น ROI จาก AI",
+    "summary_1": "Harvard Business Review เตือนถึงปรากฏการณ์ที่เรียกว่า 'Workslop' — ผลงานจาก AI ที่ดูสวยงามจากภายนอกแต่ขาดสาระและมีข้อผิดพลาดซ่อนอยู่ ส่งผลให้เกิด 'ภาวะความรู้ถดถอย' ในองค์กร ผลสำรวจพบพนักงาน 41% เคยรับงานแบบ Workslop และต้องเสียเวลาเกือบ 2 ชั่วโมงต่อครั้งในการแก้ไข คิดเป็นต้นทุนเฉลี่ย $186/คน/เดือน หรือกว่า $9 ล้าน/ปีสำหรับองค์กร 10,000 คน นอกจากนี้ 95% ของบริษัทยังไม่เห็น ROI จาก AI (MIT Media Lab) และ Goldman Sachs ยืนยันว่าประสิทธิภาพภาพรวมยังไม่เพิ่มขึ้น ปัญหาลึกกว่า AI hallucination เพราะเป็นการสะสมความเสียหายระยะยาวจากการพึ่งพา AI โดยไม่ควบคุมคุณภาพ",
+    "body_text": "HBR ชี้ปัญหา Workslop — AI-generated content ที่ดูดีแต่กลวง พนักงาน 41% เจอปัญหา เสียเวลา 2 ชม./ครั้ง ต้นทุน $186/คน/เดือน 95% บริษัทไม่เห็น ROI จาก AI แนะใช้ AI อย่างมีระบบตรวจสอบคุณภาพ",
+    "language": "th",
+    "original_language": "th"
+  },
+  "tech_insights": {
+    "impact_summary": "Workslop เป็นปรากฏการณ์ใหม่ที่บั่นทอนคุณค่า AI ในองค์กร ต้องการระบบ QA และ human oversight ที่เข้มแข็ง",
+    "actions_developer": [
+      "สร้างระบบ review AI output โดยผู้เชี่ยวชาญก่อน deploy ในองค์กร",
+      "ฝึก AI ด้วย domain-specific knowledge เพื่อลด generic/hollow output"
+    ],
+    "actions_business": [
+      "วัด ROI จาก AI อย่างเป็นระบบ ไม่ใช่แค่ speed แต่รวม error correction cost",
+      "กำหนด AI usage policy ที่ชัดเจน บังคับให้ verify ก่อนส่งงาน"
+    ],
+    "urgency": "high",
+    "related_domains": [
+      "Enterprise AI",
+      "Productivity",
+      "Knowledge Management"
+    ],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "Thai/Techsauce/2026-06-22/hbr-workslop-ai-knowledge-decay",
+    "article_md": "article.md",
+    "article_json": "article.json"
+  }
+}
