@@ -1,0 +1,67 @@
+{
+  "article_id": "codex-maxxing-long-running-work-openai-2026-06-22",
+  "schema_version": "2.0",
+  "topic_group": "tech-trends",
+  "source_info": {
+    "category": "International",
+    "source_name": "OpenAI",
+    "registry_key": "International/OpenAI",
+    "domain": "AI-tools",
+    "main_url": "https://openai.com/news"
+  },
+  "source": {
+    "url": "https://openai.com/index/codex-maxxing-long-running-work/",
+    "type": "direct",
+    "origin": "direct",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-23T00:14:00+07:00",
+    "fetch_mode": "truncated"
+  },
+  "meta": {
+    "published_at": "2026-06-22T00:00:00Z",
+    "scraped_at": "2026-06-23T00:14:00+07:00",
+    "run_date": "2026-06-23",
+    "target_date": "2026-06-23",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "2",
+    "category": "AI-TOOLS",
+    "category_label": "AI Tools",
+    "news_type": "announcement",
+    "tags": ["Codex", "coding-agent", "long-running-tasks", "agentic-AI", "developer-tools"],
+    "language": "en"
+  },
+  "content": {
+    "title": "Codex-Maxxing for Long-Running Work",
+    "slug": "codex-maxxing-long-running-work",
+    "summary": "OpenAI publishes a practical whitepaper by Jason Liu on using Codex as a persistent workspace for long-running projects, covering context preservation, complex workflow management, and human-AI delegation strategies.",
+    "summary_1": "OpenAI released a new AI Adoption guide titled 'Codex-Maxxing for Long-Running Work' — a whitepaper by Jason Liu that provides practical strategies for using Codex beyond single-prompt interactions. The guide focuses on Codex as a persistent, context-aware workspace for complex, multi-step projects. It covers how to break ambitious goals into verifiable steps, maintain continuity across workstreams, and determine when to delegate execution to Codex versus when human oversight is most valuable. This is a companion resource to the expanding Codex ecosystem announced alongside Daybreak on June 22.",
+    "body_text": "OpenAI released a whitepaper focused on advanced Codex usage patterns for long-running, complex work. Written by Jason Liu, 'Codex-Maxxing for Long-Running Work' addresses a core challenge for enterprise AI adoption: how to use AI coding agents for work that spans days or weeks, not just a single prompt-response cycle.\n\nKey strategies covered:\n- Using Codex as a persistent workspace that preserves project context across sessions\n- Breaking ambitious goals into verifiable, checkpointable steps\n- Managing complex multi-stream workflows with multiple concurrent Codex agents\n- Knowing when to delegate to Codex vs. when human review is critical\n- Building documentation and structured outputs Codex can reference in future sessions\n\nThe guide complements the broader Codex ecosystem expansion announced on the same day, which included Codex Security for vulnerability management and the Daybreak Cyber Partner Program. It reflects OpenAI's push to position Codex not just as an autocomplete tool but as an autonomous long-horizon work partner for developers and enterprises.",
+    "language": "en",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "OpenAI provides enterprise-grade guidance for deploying Codex on multi-day, complex projects — advancing the practical case for AI-driven software development at scale.",
+    "actions_developer": [
+      "Read the full whitepaper at cdn.openai.com/pdf/codex-maxxing to improve multi-session Codex workflows",
+      "Structure long projects with verifiable checkpoints Codex can resume from",
+      "Identify which steps require human oversight vs. full Codex delegation in your workflows"
+    ],
+    "actions_business": [
+      "Use this guide to train engineering teams on agentic Codex deployment for complex projects",
+      "Evaluate Codex for long-running enterprise software tasks beyond single-session interactions",
+      "Build internal playbooks based on Codex-maxxing principles for consistent AI adoption"
+    ],
+    "urgency": "medium",
+    "related_domains": ["AI-tools", "coding-assistant", "agentic-AI", "developer-productivity"],
+    "breakthrough_potential": false
+  },
+  "paths": {
+    "relative": "International/OpenAI/2026-06-23/codex-maxxing-long-running-work",
+    "batch_file": "News/Batches/2026-06-23/batch_2.json"
+  }
+}

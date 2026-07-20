@@ -1,0 +1,56 @@
+{
+  "article_id": "2026-07-09-B3-003",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "registry_key": "Research/ArXiv-CL",
+    "registry_name": "ArXiv cs.CL",
+    "batch": 3
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2607.04525",
+    "domain": "arxiv.org",
+    "section": "cs.CL"
+  },
+  "fetch": {
+    "strategy": "direct",
+    "fetched_at": "2026-07-09T21:00:00+07:00",
+    "status": "success"
+  },
+  "meta": {
+    "published_date": "2026-07-05",
+    "title": "Language Models Represent and Transform Concepts with Shared Geometry",
+    "language": "en",
+    "within_24h_window": true
+  },
+  "content": {
+    "title_th": "โมเดลภาษาต่างสถาปัตยกรรมมี 'เรขาคณิตร่วม' ในการแปลงความหมายของแนวคิดตามบริบท",
+    "summary_1": "ทีมวิจัย Zhimin Hu, Lanhao Niu และ Sashank Varma นำเสนองานศึกษาที่ท้าทายมุมมองเดิมซึ่งมองว่าการแทนค่าแนวคิด (concept representation) ในโมเดลภาษาเป็นวัตถุเชิงเรขาคณิตที่นิ่งอยู่กับที่ ทั้งที่ในความเป็นจริงแนวคิดปรากฏอยู่ในบริบทและถูกบริบทปรับเปลี่ยนความหมายอยู่เสมอ ทีมวิจัยได้แรงบันดาลใจจาก neural population geometry มาสร้างกรอบทฤษฎีใหม่ที่มองการแทนค่าแนวคิดเป็น point-cloud manifold และมองการปรับเปลี่ยนตามบริบทเป็น vector field แล้วนำไปทดสอบกับโมเดลภาษาหกตระกูลที่มีขนาดต่างกัน ผลการทดลองพบว่าบริบทเคลื่อนย้ายแต่ละแนวคิดไปในทิศทางที่แตกต่างกัน และความแปรปรวนของการเคลื่อนย้ายนี้มีการจัดระเบียบเชิงความหมาย สัมพันธ์กับความเป็นรูปธรรม (concreteness) และความหนาแน่นทางศัพท์ของคำ ที่สำคัญคือทั้งแนวคิดที่ถูกแปลงและโครงสร้างความแปรปรวนนี้มีลักษณะร่วมกันข้ามโมเดล คือโครงสร้างการเคลื่อนย้ายที่ถ่ายโอนจากโมเดลหนึ่งสามารถทำนายการเคลื่อนย้ายของโมเดลอื่นที่ไม่เคยเห็นได้ดีกว่าโอกาสสุ่มอย่างมีนัยสำคัญ งานวิจัยนี้ชี้ว่าโมเดลภาษาต่าง ๆ มีเรขาคณิตร่วมกันไม่เพียงในการแทนค่าแนวคิด แต่รวมถึงวิธีที่บริบทปรับเปลี่ยนแนวคิดเหล่านั้นด้วย ซึ่งมีโครงสร้างที่ซับซ้อนกว่าที่งานวิจัยก่อนหน้าเคยรับรู้"
+  },
+  "tech_insights": {
+    "impact_summary": "การค้นพบเรขาคณิตร่วมของการแปลงความหมายตามบริบทข้ามโมเดลภาษา ช่วยให้เข้าใจกลไกภายในของ LLM ได้ลึกขึ้น และอาจนำไปสู่เทคนิคการถ่ายโอนความรู้เชิงตีความข้ามโมเดล",
+    "actions_developer": [
+      "ศึกษากรอบ point-cloud manifold และ vector field ที่นำเสนอเพื่อประยุกต์ใช้ในงานตีความโมเดล (interpretability) ของทีม",
+      "ทดลองถ่ายโอนโครงสร้างการแปลงความหมายข้ามโมเดลเพื่อลดต้นทุนการวิเคราะห์โมเดลใหม่"
+    ],
+    "actions_business": [
+      "ติดตามงานวิจัยด้าน interpretability เพื่อประเมินความน่าเชื่อถือและอธิบายได้ของโมเดล AI ที่องค์กรใช้งาน",
+      "พิจารณาสนับสนุนทีมวิจัยภายในให้ศึกษาโครงสร้างร่วมของโมเดลเพื่อลดความเสี่ยงจาก vendor lock-in"
+    ],
+    "urgency": "low",
+    "related_domains": [
+      "Mechanistic Interpretability",
+      "NLP",
+      "Representation Learning",
+      "Cognitive Science"
+    ],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "Research/ArXiv/2026-07-09/shared-geometry-concept-transformation",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-07-09/batch_3.json"
+  }
+}

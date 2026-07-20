@@ -1,0 +1,78 @@
+{
+  "article_id": "150953gm",
+  "schema_version": "1.0",
+  "source_info": {
+    "category": "Thai",
+    "source_name": "Blognone",
+    "registry_key": "Thai/Blognone",
+    "domain": "AI-product",
+    "main_url": "https://www.blognone.com"
+  },
+  "source": {
+    "url": "https://www.blognone.com/node/150953",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-22T00:00:00Z",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-21T19:41:00+07:00",
+    "scraped_at": "2026-06-22T00:00:00Z",
+    "run_date": "2026-06-22",
+    "target_date": "2026-06-22",
+    "within_24h": true,
+    "status": "published",
+    "batch": "1",
+    "category": "AI-PRODUCT",
+    "category_label": "ผลิตภัณฑ์ AI",
+    "news_type": "ข่าว",
+    "tags": [
+      "Google Meet",
+      "Android Auto",
+      "Google",
+      "Mobile"
+    ],
+    "language": "th"
+  },
+  "content": {
+    "title": "Google Meet รองรับการใช้งานในรถยนต์ผ่าน Android Auto แล้ว",
+    "slug": "google-meet-android-auto-support",
+    "summary": "Google Meet รองรับ Android Auto แล้ว สามารถเข้าประชุมเสียงจากหน้าจอในรถได้ แต่ไม่รองรับวิดีโอด้วยเหตุผลด้านความปลอดภัย ถือว่าช้ากว่า Zoom และ Webex ที่ทำได้มาตั้งแต่ปี 2023",
+    "summary_1": "Google Meet ได้เพิ่มการรองรับ Android Auto ทำให้ผู้ใช้สามารถกดเข้า Meet จากหน้าจอรถยนต์ได้โดยตรง พร้อมตารางการประชุมที่แสดงขึ้นมาล่วงหน้า อย่างไรก็ตามรองรับเฉพาะเสียงเท่านั้น ไม่มีกล้องจากฝั่งผู้ใช้และไม่เห็นวิดีโอของคนอื่น ด้วยเหตุผลด้านความปลอดภัย น่าสังเกตว่า Zoom และ Webex รองรับ Android Auto มาตั้งแต่ปี 2023 แล้ว แต่ Google Meet ซึ่งเป็นบริการของ Google เองกลับเพิ่งรองรับในปี 2026 ถือว่าล่าช้าไปถึง 3 ปี",
+    "body_text": "Google Meet รองรับการใช้งานในรถยนต์ระบบ Android Auto แล้ว สามารถกดปุ่มเข้า Meet จากหน้าจอรถยนต์ได้เลย มีตารางการประชุมนัดถัดๆ ไปขึ้นมาแจ้งไว้ให้ การประชุม Google Meet ผ่าน Android Auto รองรับเฉพาะเสียงเท่านั้น ไม่มีทั้งกล้องจากฝั่งเราเอง และเราจะไม่เห็นวิดีโอของคนอื่น ด้วยเหตุผลเรื่องความปลอดภัย ถึงแม้ Google Meet เป็นบริการของกูเกิลเอง แต่กลับไม่ใช่แอพประชุมตัวแรกที่รองรับ Android Auto เพราะมีคู่แข่ง Zoom และ Webex ทำได้ตั้งแต่ปี 2023",
+    "language": "th",
+    "original_language": "th"
+  },
+  "tech_insights": {
+    "impact_summary": "การรองรับ Android Auto ช่วยให้ประชุมขณะขับรถได้สะดวกขึ้น ลดการหยิบโทรศัพท์ขณะขับรถ เพิ่มความปลอดภัยบนท้องถนน",
+    "actions_developer": [
+      "ทดสอบ Google Meet บน Android Auto สำหรับ use case การประชุมแบบ voice-only",
+      "พิจารณา integrate calendar integration กับ automotive platforms สำหรับแอปประชุมในองค์กร"
+    ],
+    "actions_business": [
+      "แจ้งพนักงานที่ต้องขับรถบ่อยว่า Google Meet บน Android Auto พร้อมใช้งานแล้ว",
+      "ทบทวน policy การประชุมขณะขับรถให้ชัดเจน แม้จะเป็นแบบ audio-only"
+    ],
+    "urgency": "low",
+    "related_domains": [
+      "Productivity",
+      "Automotive Tech",
+      "Enterprise Collaboration"
+    ],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "Thai/Blognone/2026-06-22/google-meet-android-auto-support",
+    "article_md": "article.md",
+    "article_json": "article.json"
+  }
+}

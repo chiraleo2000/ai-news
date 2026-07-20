@@ -1,0 +1,48 @@
+{
+  "article_id": "2026-07-08-B2-001",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "registry_key": "Intl/Meta",
+    "registry_name": "Meta",
+    "batch": 2
+  },
+  "source": {
+    "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+    "domain": "ai.meta.com",
+    "section": "Research"
+  },
+  "fetch": {
+    "strategy": "direct",
+    "fetched_at": "2026-07-08T15:00:00+07:00",
+    "status": "success"
+  },
+  "meta": {
+    "published_date": "2026-07-07",
+    "title": "Introducing Muse Image and Muse Video",
+    "language": "en",
+    "within_24h_window": true
+  },
+  "content": {
+    "title_th": "Meta เปิดตัว Muse Image และ Muse Video โมเดลสร้างสื่อตัวแรกจาก Meta Superintelligence Labs",
+    "summary_1": "Meta Superintelligence Labs เปิดตัว Muse Image ซึ่งเป็นโมเดลสร้างภาพขั้นสูงที่สุดของ Meta พร้อมพรีวิว Muse Video โมเดลสร้างสื่อชุดแรกจากทีมนี้ Muse Image ทำงานแบบเอเจนต์ที่เรียกใช้เครื่องมือค้นหาเว็บและเขียนโค้ดเพื่อเพิ่มความแม่นยำของภาพ เช่น การวาดกราฟหรือคิวอาร์โค้ดที่ใช้งานได้จริง และแสดงพฤติกรรม self-refinement คือปรับแก้ผลงานของตัวเองซ้ำในกระบวนการคิด ซึ่ง Meta ระบุว่าไม่ได้ออกแบบไว้ล่วงหน้าแต่เกิดขึ้นเองระหว่างฝึกด้วย reinforcement learning เพราะช่วยให้ได้คะแนนรางวัลสูงขึ้น คุณภาพของโมเดลยังดีขึ้นตามการเพิ่ม test-time compute ในลักษณะ log-linear นอกจากนี้ Muse Image ยังรองรับการผสมองค์ประกอบจากภาพอ้างอิงหลายภาพ ผลการจัดอันดับบน Arena ณ วันที่ 5 กรกฎาคม 2026 ระบุว่า Muse Image อยู่อันดับ 2 ด้าน text-to-image และการแก้ไขภาพ ส่วน Muse Video อยู่อันดับ 3 ด้าน text-to-video Meta ยังติดตั้งระบบลายน้ำที่มองไม่เห็นชื่อ Content Seal เพื่อยืนยันแหล่งที่มาของภาพที่สร้างจาก AI แม้ถูกครอบตัด บีบอัด หรือแคปหน้าจอ Muse Image เปิดให้ใช้งานแล้วผ่าน Meta AI, meta.ai, Instagram Stories ในสหรัฐฯ และ WhatsApp บางประเทศ ส่วน Muse Video จะตามมาเร็ว ๆ นี้สำหรับครีเอเตอร์"
+  },
+  "tech_insights": {
+    "impact_summary": "การเปิดตัว Muse Image/Video แสดงให้เห็นว่า Meta กำลังผลักดันโมเดลสร้างสื่อแบบเอเจนต์ที่ใช้เครื่องมือและ test-time compute เพื่อแข่งขันกับผู้นำตลาดสร้างภาพและวิดีโอด้วย AI อย่าง Google และ OpenAI",
+    "actions_developer": [
+      "ทดลองใช้ Muse Image ผ่านแอป Meta AI เพื่อประเมินความสามารถด้าน agentic image generation และการแก้ไขภาพหลายรอบเทียบกับเครื่องมือที่ใช้อยู่",
+      "ศึกษาการผสาน tool use (search, coding) เข้ากับโมเดลสร้างภาพ เพื่อนำแนวคิด self-refinement ไปประยุกต์ใช้ในผลิตภัณฑ์ generative media ของตนเอง"
+    ],
+    "actions_business": [
+      "ธุรกิจที่ใช้ Instagram หรือ WhatsApp เพื่อการตลาดควรติดตามการเปิดตัว Muse Image เต็มรูปแบบ เนื่องจากอาจเปลี่ยนวิธีสร้างคอนเทนต์โฆษณาแบบ personalize",
+      "ประเมินความเสี่ยงด้านลิขสิทธิ์และแหล่งที่มาของภาพ โดยพิจารณาใช้เครื่องมือตรวจสอบ Content Seal เพื่อยืนยันว่าคอนเทนต์สร้างจาก AI หรือไม่"
+    ],
+    "urgency": "medium",
+    "related_domains": ["Generative AI", "Image Generation", "Video Generation", "Meta", "Agentic AI"],
+    "breakthrough_potential": "medium"
+  },
+  "media_links": [],
+  "paths": {
+    "batch_file": "D:/AI-news/News/Batches/2026-07-08/batch_2.json"
+  }
+}

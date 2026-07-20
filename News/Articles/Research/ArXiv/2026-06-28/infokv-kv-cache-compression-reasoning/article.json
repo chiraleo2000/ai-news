@@ -1,0 +1,72 @@
+{
+  "article_id": "b3-research-infokv-kv-cache-compression-reasoning",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "Research",
+    "source_name": "ArXiv cs.CL",
+    "registry_key": "Research/ArXiv",
+    "domain": "AI-research",
+    "main_url": "https://arxiv.org/list/cs.CL/recent"
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2606.26875",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-28T07:00:00+07:00",
+    "fetch_mode": "search",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-25T11:03:37Z",
+    "scraped_at": "2026-06-28T07:00:00+07:00",
+    "run_date": "2026-06-28",
+    "target_date": "2026-06-28",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "3",
+    "category": "AI-RESEARCH",
+    "category_label": "งานวิจัย AI",
+    "news_type": "วิจัย",
+    "tags": ["arxiv", "research", "KV-cache", "LLM", "reasoning", "inference"],
+    "language": "th"
+  },
+  "content": {
+    "title": "Information-Aware KV Cache Compression for Long Reasoning",
+    "title_th": "InfoKV: การบีบอัด KV Cache แบบตระหนักข้อมูลสำหรับการ Reasoning ระยะยาว",
+    "slug": "infokv-kv-cache-compression-reasoning",
+    "summary": "งานวิจัยใหม่นำเสนอ InfoKV กรอบการบีบอัด KV Cache แบบ Entropy-aware ที่รวมสัญญาณทฤษฎีข้อมูลเข้ากับ Attention Score เพื่อปรับปรุงประสิทธิภาพการ Reasoning ระยะยาวใน LLMs เช่น Llama-3 และ DeepSeek-R1",
+    "summary_1": "ทีมวิจัยนำเสนอ InfoKV กรอบการบีบอัด KV Cache ที่ตระหนักถึงข้อมูลเชิงทฤษฎี (Entropy-aware) สำหรับการ Reasoning ระยะยาวใน Large Language Models การวิจัยพบว่าวิธีการบีบอัด KV Cache ที่มีอยู่ส่วนใหญ่อาศัย Attention Weight ในการประมาณความสำคัญของ Token ซึ่งแม้จะดักจับความเกี่ยวข้องทางบริบทได้ดี แต่ละเลยสัญญาณทฤษฎีข้อมูลที่เกี่ยวข้องกับความไม่แน่นอนในการทำนายและความมีข้อมูลของ Token ทีมวิจัยแนะนำแนวคิด Forward Influence ซึ่งเป็น Metric ที่วัดว่า Token ที่ถูกบีบอัดส่งผลต่อบริบทในอนาคตอย่างไร การวิเคราะห์พบว่า Token ที่เลือกโดย Attention Score มีอิทธิพลต่อบริบทใกล้เคียงเป็นหลัก ในขณะที่ Token ที่มีความไม่แน่นอนในการทำนายสูงมีอิทธิพลต่อบริบทไกลออกไปในอนาคตมากกว่า การทดลองบน Llama-3.1, Llama-3.2 และ DeepSeek-R1 แสดงให้เห็นว่า InfoKV ให้ผลดีกว่าวิธีบีบอัด KV ที่อิงกับ Attention ทั้งในสถานการณ์ Prefilling และ Decoding ระยะยาว",
+    "body_text": "InfoKV แก้ปัญหาพื้นฐานของการบีบอัด KV Cache สำหรับ Long-context Reasoning ด้วยการผนวก Information-theoretic Signal เข้ากับกระบวนการคัดเลือก Token\n\nนวัตกรรมหลักของ InfoKV:\n- **Forward Influence Metric**: วัดผลกระทบของ Token ที่ถูกบีบอัดต่อบริบทอนาคต ไม่ใช่แค่บริบทปัจจุบัน\n- **Entropy-aware Scoring**: รวม Predictive Uncertainty ระดับ Token กับ Layer-wise Representation Evolution\n- **Integrated Framework**: ผสาน Entropy Score กับ Attention Score ระหว่าง Reasoning\n\nผลลัพธ์การทดสอบบน Long-context Reasoning Benchmark ทั้งกับ Llama-3.1, Llama-3.2 และ DeepSeek-R1 แสดงให้เห็นว่า InfoKV ให้ประสิทธิภาพดีกว่าวิธีการบีบอัด KV ที่อิงกับ Attention อย่างสม่ำเสมอ เป็นความก้าวหน้าสำคัญสำหรับการนำ Long-context LLM ไปใช้งานโดยมีข้อจำกัดด้าน Memory",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "InfoKV ช่วยให้ LLM สามารถ Reasoning บริบทยาวได้อย่างมีประสิทธิภาพมากขึ้นโดยใช้ Memory น้อยลง เป็นประโยชน์อย่างยิ่งสำหรับงาน RAG, Document Analysis และ Multi-step Reasoning ที่ต้องการบริบทยาว",
+    "actions_developer": [
+      "นำแนวคิด Forward Influence มาประยุกต์ใช้ในระบบที่ต้องการ Long-context LLM ที่มี Memory จำกัด",
+      "ทดสอบ InfoKV กับ DeepSeek-R1 สำหรับงาน Reasoning ที่ต้องการบริบทยาวในโปรเจกต์ของตัวเอง"
+    ],
+    "actions_business": [
+      "ประเมิน KV Cache Compression เพื่อลดต้นทุน Memory ในการ Deploy Long-context LLM",
+      "ติดตามความคืบหน้าของ InfoKV เพื่อนำไปใช้ในระบบ RAG และ Document Processing"
+    ],
+    "urgency": "medium",
+    "related_domains": ["LLM", "Inference Optimization", "KV Cache", "Reasoning", "Memory Efficiency"],
+    "breakthrough_potential": true
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "Research/ArXiv/2026-06-28/infokv-kv-cache-compression-reasoning",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-06-28/batch_3.json"
+  }
+}

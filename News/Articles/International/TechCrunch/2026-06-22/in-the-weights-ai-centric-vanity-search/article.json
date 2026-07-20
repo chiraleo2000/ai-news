@@ -1,0 +1,78 @@
+{
+  "article_id": "d2f8b539",
+  "schema_version": "1.0",
+  "source_info": {
+    "category": "International",
+    "source_name": "TechCrunch",
+    "registry_key": "Intl/TechCrunch",
+    "domain": "AI-tools",
+    "main_url": "https://techcrunch.com/category/artificial-intelligence"
+  },
+  "source": {
+    "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-22T00:00:00Z",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-20T03:00:00Z",
+    "scraped_at": "2026-06-22T00:00:00Z",
+    "run_date": "2026-06-22",
+    "target_date": "2026-06-22",
+    "within_24h": true,
+    "status": "published",
+    "batch": "2",
+    "category": "AI-TOOLS",
+    "category_label": "AI Tools",
+    "news_type": "article",
+    "tags": [
+      "in-the-weights",
+      "AI-search",
+      "LLM-knowledge",
+      "vanity-search",
+      "AI-tools"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "In the Weights is your new AI-centric vanity search",
+    "slug": "in-the-weights-ai-centric-vanity-search",
+    "summary": "A new tool called 'In the Weights' lets users search for how they or their work appear in AI model training data and knowledge — a new category of 'AI vanity search' that reveals what LLMs know about you.",
+    "summary_1": "A new tool called 'In the Weights' has launched as what TechCrunch describes as an AI-centric vanity search — letting people discover what large language models know about them, their companies, or their work based on what's embedded in model training data and weights. The tool represents a new genre of AI transparency product, addressing growing curiosity and concern about how public figures, researchers, developers, and companies are represented (or misrepresented) inside frontier AI models. As LLMs become gatekeepers of public knowledge, understanding your presence and portrayal in their weights becomes increasingly relevant for personal branding, reputation management, and research credibility.",
+    "body_text": "In the Weights is a new web tool that lets users perform what TechCrunch called an 'AI vanity search' — querying what major AI language models know and say about a person, organization, or topic. The tool taps into the growing awareness that AI models are now significant surfaces for how the world learns about people and entities. Unlike a Google search that shows what pages exist, In the Weights shows what an AI model has internalized from training. This matters because AI models may have outdated, biased, or simply incorrect information about individuals or organizations baked into their weights, with no easy correction mechanism. The tool raises questions about AI transparency and accountability: if a model has false or outdated information about you in its weights, how do you know and what do you do? For public figures, researchers, and companies, understanding their AI footprint is becoming a new form of digital due diligence.",
+    "language": "en",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "AI vanity search tools reveal a transparency gap in LLM knowledge — organizations now need to audit their AI presence just as they monitor their web presence.",
+    "actions_developer": [
+      "Use tools like In the Weights to check how your open-source projects and technical work are represented in major LLMs — inaccuracies affect discoverability and attribution.",
+      "Consider this category of tooling when building AI applications that need to surface accurate information about real people or organizations."
+    ],
+    "actions_business": [
+      "Run an AI vanity search audit on your brand and key executives to identify misrepresentations in major LLMs before they affect customer or partner trust.",
+      "Engage with AI model providers' feedback mechanisms if your organization is misrepresented in their training data knowledge."
+    ],
+    "urgency": "low",
+    "related_domains": [
+      "AI-tools",
+      "AI-policy"
+    ],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "International/TechCrunch/2026-06-22/in-the-weights-ai-centric-vanity-search",
+    "article_md": "article.md",
+    "article_json": "article.json"
+  }
+}

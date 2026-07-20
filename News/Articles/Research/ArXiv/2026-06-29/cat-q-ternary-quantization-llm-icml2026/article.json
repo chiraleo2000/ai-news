@@ -1,0 +1,80 @@
+{
+  "article_id": "cat-q-ternary-quantization-llm-icml2026-2606-26650",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "Research",
+    "source_name": "ArXiv cs.CL",
+    "registry_key": "Research/ArXivCL",
+    "domain": "AI-RESEARCH",
+    "main_url": "https://arxiv.org/list/cs.CL/recent"
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2606.26650",
+    "type": "direct",
+    "origin": "direct",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-29T07:00:00+07:00",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-26T00:00:00Z",
+    "scraped_at": "2026-06-29T07:00:00+07:00",
+    "run_date": "2026-06-29",
+    "target_date": "2026-06-29",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "3",
+    "category": "AI-RESEARCH",
+    "category_label": "งานวิจัย AI",
+    "news_type": "วิจัย",
+    "tags": [
+      "LLM",
+      "Quantization",
+      "Model Compression",
+      "Efficient AI",
+      "Edge AI"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs",
+    "title_th": "CAT-Q: การ Quantization แบบ Ternary ที่ประหยัดและแม่นยำสำหรับ LLMs (ICML 2026 Oral)",
+    "slug": "cat-q-ternary-quantization-llm-icml2026",
+    "summary": "CAT-Q นำเสนอวิธี ternary quantization สำหรับ LLM ที่ได้รับรางวัล ICML 2026 Oral ช่วยลด model size ลงอย่างมีนัยสำคัญ",
+    "summary_1": "CAT-Q เป็นงานวิจัยด้าน model compression ที่ได้รับการนำเสนอในรูปแบบ Oral presentation ใน ICML 2026 ซึ่งเป็นเกียรติยศสูงสุดในวงการ machine learning งานนี้เสนอวิธีการ quantization แบบ ternary (3-level: -1, 0, +1) ที่ออกแบบมาเพื่อบีบอัด LLM ขนาดใหญ่ให้มีขนาดเล็กลงอย่างมาก CAT-Q แก้ปัญหาสำคัญของ ternary quantization แบบเดิมที่มักสูญเสียความแม่นยำมากเกินไป โดยใช้การออกแบบ cost function ใหม่ที่สมดุลระหว่าง compression ratio กับ accuracy preservation โค้ดและ checkpoints เผยแพร่แล้วบน GitHub ผลการทดลองบน benchmark มาตรฐานแสดงให้เห็นว่า CAT-Q สามารถลด memory requirement ได้อย่างมีนัยสำคัญในขณะที่ยังคงประสิทธิภาพระดับใกล้เคียงกับ full-precision model",
+    "body_text": "",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "Ternary quantization ระดับ ICML Oral หมายความว่าการ deploy LLM ขนาดใหญ่บน edge device หรือ consumer hardware กำลังจะกลายเป็นความจริง ลด inference cost ได้หลายเท่าตัว",
+    "actions_developer": [
+      "ดาวน์โหลด CAT-Q จาก GitHub (IntelChina-AI/BitTern) และทดสอบกับโมเดลที่ใช้งานอยู่",
+      "เปรียบเทียบ CAT-Q กับ GPTQ และ AWQ ในแง่ของ throughput และ perplexity บน hardware เป้าหมาย"
+    ],
+    "actions_business": [
+      "ประเมินการลด cloud inference cost โดยใช้ ternary-quantized model แทน full-precision",
+      "วางแผน on-premise deployment สำหรับ LLM โดยใช้ quantization เพื่อลดต้นทุน GPU"
+    ],
+    "urgency": "high",
+    "related_domains": [
+      "LLM",
+      "Quantization",
+      "Model Compression",
+      "Efficient AI",
+      "Edge AI"
+    ],
+    "breakthrough_potential": true
+  },
+  "paths": {
+    "relative": "Research/ArXiv/2026-06-29/cat-q-ternary-quantization-llm-icml2026",
+    "batch_file": "News/Batches/2026-06-29/batch_3.json"
+  }
+}

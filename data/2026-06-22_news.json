@@ -1,0 +1,1307 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22T18:22:16+07:00",
+  "stats": {
+    "total": 34,
+    "thai": 10,
+    "international": 9,
+    "research": 5,
+    "youtube": 10
+  },
+  "posts": [
+    {
+      "id": "b4d07e61",
+      "slug": "apertus-open-foundation-model-sovereign-ai",
+      "title": "Apertus — Open Foundation Model for Sovereign AI",
+      "topic": "AI Research",
+      "source_name": "HackerNews",
+      "category": "International",
+      "urgency": "high",
+      "content": "Apertus (apertvs.ai) launched on Hacker News with 388 points and 129 comments, positioning itself as an open foundation model built specifically for 'Sovereign AI' — a term describing AI deployments where the operator maintains full data sovereignty, compute independence, and no dependency on foreign-controlled cloud infrastructure. The launch is highly timely given the Trump administration's export controls on Anthropic's frontier models, which have prompted widespread discussion about digital sovereignty and the risk of geopolitical disruption to AI access. Apertus targets governments, regulated industries, and organizations that need to run powerful open-weights models on their own infrastructure. The model and its open-weights approach represent a direct alternative to US frontier labs for nations and entities concerned about access reliability.",
+      "source_url": "https://apertvs.ai/",
+      "tech_impact": "The launch of Apertus and its HN reception signals growing demand for sovereign, open-weights AI alternatives to US frontier labs — accelerated by recent US export control actions.",
+      "tags": [
+        "apertus",
+        "open-source",
+        "sovereign-AI",
+        "foundation-model",
+        "open-weights"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-06-21T12:00:00Z",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-research",
+        "AI-policy",
+        "AI-business"
+      ],
+      "actions_developer": [
+        "Evaluate Apertus against Llama and Mistral for self-hosted deployments where data sovereignty or geopolitical access risk is a concern.",
+        "Track the open-weights sovereign AI ecosystem closely — export control developments are accelerating this space globally."
+      ],
+      "actions_business": [
+        "Organizations in regulated industries or government procurement should assess whether open sovereign AI models now meet their capability requirements.",
+        "Factor geopolitical AI supply chain risk into your AI strategy — the Anthropic ban demonstrates frontier model access can be disrupted without warning."
+      ]
+    },
+    {
+      "id": "a9c15f73",
+      "slug": "identity-verification-on-claude",
+      "title": "Identity verification on Claude — Anthropic support article goes viral on HN (761 points)",
+      "topic": "AI Products",
+      "source_name": "HackerNews",
+      "category": "International",
+      "urgency": "high",
+      "content": "A support article from Anthropic's help center explaining identity verification requirements for Claude.ai users hit the front page of Hacker News with 761 points and over 635 comments — making it the most discussed AI item of the day. The article, linked from support.claude.com, explains when and how Anthropic requires users to verify their identity to continue using Claude. The HN discussion was intense, with users debating the privacy implications of KYC (Know Your Customer) requirements being imposed on AI assistants, whether this was linked to the Trump administration's export control order requiring Anthropic to prevent foreign nationals from accessing its models, and the broader trend of AI services moving toward identity-gated access. The viral reaction reflects widespread concern in the developer community about surveillance and access restrictions being built into frontier AI tools.",
+      "source_url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "tech_impact": "Identity verification requirements on Claude signal a broader trend of AI services becoming KYC-gated due to export control regulations — with major implications for privacy, access equity, and developer workflows.",
+      "tags": [
+        "claude",
+        "anthropic",
+        "identity-verification",
+        "KYC",
+        "AI-access",
+        "compliance"
+      ],
+      "category_label": "AI Products",
+      "published_at": "2026-06-21T03:00:00Z",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-product",
+        "AI-policy"
+      ],
+      "actions_developer": [
+        "If you build on top of Claude API, review Anthropic's identity verification and access policies — downstream compliance requirements may affect your user onboarding flows.",
+        "Prepare contingency plans for AI service interruption or access restriction, particularly for international users or those using AI tools without identity verification."
+      ],
+      "actions_business": [
+        "Assess whether identity verification requirements on your AI vendors create compliance or operational risk for your international customers.",
+        "Factor identity verification requirements into your AI vendor selection criteria — not all frontier AI providers will impose the same access restrictions."
+      ]
+    },
+    {
+      "id": "f1b3e942",
+      "slug": "lateon-regularization-colbert-ann",
+      "title": "Party is over: regularizing ColBERT models to fix efficient ANN methods",
+      "topic": "AI Research",
+      "source_name": "HuggingFace",
+      "category": "International",
+      "urgency": "medium",
+      "content": "LightOn AI published a technical blog on HuggingFace introducing Lateon regularization, a technique that addresses a fundamental problem with ColBERT-style late-interaction retrieval models: they produce token embeddings that are incompatible with standard Approximate Nearest Neighbor (ANN) index structures used in production vector databases. ColBERT is widely considered among the most accurate dense retrieval architectures for RAG and information retrieval systems, but its efficiency has been limited by the fact that naive ANN methods degrade its accuracy significantly. Lateon applies a regularization step during training that clusters and constrains token embedding distributions, making them far more compatible with ANN indexes — reportedly closing the accuracy gap while enabling the speed benefits of ANN search. This development could unblock ColBERT adoption in large-scale production retrieval systems where brute-force search is too slow.",
+      "source_url": "https://huggingface.co/blog/lightonai/lateon-regularization",
+      "tech_impact": "Lateon regularization could unblock ColBERT adoption at scale by making it compatible with ANN indexes, potentially improving accuracy/speed tradeoffs in production RAG and search systems.",
+      "tags": [
+        "colbert",
+        "ANN",
+        "retrieval",
+        "regularization",
+        "lateon",
+        "RAG",
+        "vector-search"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-06-21T15:00:00Z",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI-research",
+        "AI-tools"
+      ],
+      "actions_developer": [
+        "Evaluate Lateon-regularized ColBERT models in your RAG pipeline if you are currently using bi-encoder models for speed — you may get meaningfully better retrieval accuracy with similar latency.",
+        "Test with your existing ANN index (HNSW, IVF-PQ) rather than switching infrastructure — Lateon is designed to work within standard vector DB tooling."
+      ],
+      "actions_business": [
+        "If your search or RAG product currently trades off accuracy for speed using bi-encoders, revisit the ColBERT stack — Lateon may close that gap.",
+        "Monitor LightOn AI and HuggingFace for Lateon model releases on the Hub that can be drop-in improved for retrieval tasks."
+      ]
+    },
+    {
+      "id": "d2f8b539",
+      "slug": "in-the-weights-ai-centric-vanity-search",
+      "title": "In the Weights is your new AI-centric vanity search",
+      "topic": "AI Tools",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "low",
+      "content": "A new tool called 'In the Weights' has launched as what TechCrunch describes as an AI-centric vanity search — letting people discover what large language models know about them, their companies, or their work based on what's embedded in model training data and weights. The tool represents a new genre of AI transparency product, addressing growing curiosity and concern about how public figures, researchers, developers, and companies are represented (or misrepresented) inside frontier AI models. As LLMs become gatekeepers of public knowledge, understanding your presence and portrayal in their weights becomes increasingly relevant for personal branding, reputation management, and research credibility.",
+      "source_url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+      "tech_impact": "AI vanity search tools reveal a transparency gap in LLM knowledge — organizations now need to audit their AI presence just as they monitor their web presence.",
+      "tags": [
+        "in-the-weights",
+        "AI-search",
+        "LLM-knowledge",
+        "vanity-search",
+        "AI-tools"
+      ],
+      "category_label": "AI Tools",
+      "published_at": "2026-06-20T03:00:00Z",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-tools",
+        "AI-policy"
+      ],
+      "actions_developer": [
+        "Use tools like In the Weights to check how your open-source projects and technical work are represented in major LLMs — inaccuracies affect discoverability and attribution.",
+        "Consider this category of tooling when building AI applications that need to surface accurate information about real people or organizations."
+      ],
+      "actions_business": [
+        "Run an AI vanity search audit on your brand and key executives to identify misrepresentations in major LLMs before they affect customer or partner trust.",
+        "Engage with AI model providers' feedback mechanisms if your organization is misrepresented in their training data knowledge."
+      ]
+    },
+    {
+      "id": "b7e29f31",
+      "slug": "ios-27-practical-ai-features-beyond-siri",
+      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+      "topic": "AI Products",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "While Apple's revamped Siri grabbed headlines at WWDC 2026, iOS 27 delivers a suite of smaller but highly practical AI features woven into existing apps. Apple Intelligence powers bill splitting via photo of a restaurant receipt, automated password upgrades for compromised credentials, one-tap contextual suggestions in Messages (add to calendar, find photos, set reminders), Call Context that surfaces reservation codes during customer service calls, and natural language Shortcuts creation. Safari gains AI-organized tab groups based on browsing context. The Home app consolidates related smart home events into single notifications. All features operate on-device for privacy, with the public beta arriving soon and general release expected in fall 2026. Apple's strategy emphasizes making software feel smarter rather than pushing users toward explicit chatbot interactions.",
+      "source_url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "tech_impact": "Apple Intelligence in iOS 27 demonstrates on-device agentic AI becoming mainstream — password managers, calendar, messaging and home automation all gain autonomous AI behaviors without cloud dependency.",
+      "tags": [
+        "apple",
+        "ios-27",
+        "apple-intelligence",
+        "siri",
+        "wwdc",
+        "on-device-ai"
+      ],
+      "category_label": "AI Products",
+      "published_at": "2026-06-21T14:40:28Z",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-product",
+        "AI-tools"
+      ],
+      "actions_developer": [
+        "Test your iOS apps against the iOS 27 developer beta now — Apple Intelligence may surface or interact with your app's data (emails, calendar events, contacts) in new ways.",
+        "Explore SiriKit and App Intents APIs to expose your app's functionality to Apple's new one-tap suggestion and Shortcuts natural language features."
+      ],
+      "actions_business": [
+        "Prepare customer communications explaining new iOS 27 AI features that may affect how users interact with your service (e.g., automated password resets, call context).",
+        "Audit your app's notification design — the Home App consolidation model suggests Apple may extend smart grouping to third-party apps in future releases."
+      ]
+    },
+    {
+      "id": "e5a17c28",
+      "slug": "john-jumper-leaves-deepmind-for-anthropic",
+      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "topic": "AI Business",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "John Jumper, the Nobel Prize laureate in Chemistry who co-created AlphaFold at Google DeepMind — the landmark protein structure prediction system — is leaving DeepMind to join rival AI safety company Anthropic. The move is a notable talent win for Anthropic, which has been under pressure following the Trump administration's export control order targeting its Fable 5 and Mythos 5 models. Jumper's expertise in biological AI and scientific applications would significantly strengthen Anthropic's research capabilities. His departure represents a high-profile talent loss for DeepMind and signals Anthropic's continued ability to attract world-class scientific talent despite ongoing regulatory turbulence.",
+      "source_url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "tech_impact": "The departure of a Nobel laureate from DeepMind to Anthropic signals intensifying talent competition at the frontier and may boost Anthropic's scientific AI and biotech research capabilities.",
+      "tags": [
+        "john-jumper",
+        "deepmind",
+        "anthropic",
+        "alphafold",
+        "talent",
+        "nobel-prize"
+      ],
+      "category_label": "AI Business",
+      "published_at": "2026-06-20T06:00:00Z",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-business",
+        "AI-research"
+      ],
+      "actions_developer": [
+        "Watch for Anthropic publications in scientific AI domains — Jumper's arrival may accelerate new tools at the biology-AI intersection.",
+        "Track similar talent movements at frontier labs as leading indicators of research direction shifts."
+      ],
+      "actions_business": [
+        "Organizations using AlphaFold or DeepMind science tools should monitor whether Jumper's departure affects long-term roadmap commitments.",
+        "Consider Anthropic as an emerging player in scientific AI applications — this hire signals strategic expansion beyond language models."
+      ]
+    },
+    {
+      "id": "c9d4a871",
+      "slug": "signal-whittaker-ai-chatbots-not-your-friends",
+      "title": "Signal's Meredith Whittaker wants you to remember that AI chatbots 'are not your friends'",
+      "topic": "AI Safety",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Signal president Meredith Whittaker is pushing back against the growing trend of AI companions and emotionally engaging chatbots, arguing that users are being misled about the nature of these tools. In public remarks covered by TechCrunch, Whittaker emphasized that AI chatbots are fundamentally commercial products built on surveillance business models — they collect data, optimize for engagement, and are designed to make users feel a false sense of intimacy. She called on the public to maintain critical awareness that chatbot 'friendships' are engineered experiences serving corporate interests, not the user's wellbeing. The comments come as the AI industry increasingly markets chatbots as emotional support tools, companions, and personalized assistants.",
+      "source_url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+      "tech_impact": "Growing pushback from privacy advocates against emotionally manipulative AI chatbot design signals incoming regulatory and reputational risk for AI companion products.",
+      "tags": [
+        "signal",
+        "meredith-whittaker",
+        "AI-chatbots",
+        "privacy",
+        "trust"
+      ],
+      "category_label": "AI Safety",
+      "published_at": "2026-06-20T04:00:00Z",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-safety",
+        "AI-policy"
+      ],
+      "actions_developer": [
+        "Audit your AI product's UX for patterns that manufacture false intimacy or dependency — these are increasingly under regulatory and public scrutiny.",
+        "Be transparent in your documentation about what user data your AI chatbot collects and how it is used."
+      ],
+      "actions_business": [
+        "Distinguish your AI products from 'companion AI' if your use case is professional — the companion AI backlash may create reputational blowback for adjacent products.",
+        "Monitor regulatory developments around AI emotional manipulation, especially in jurisdictions with strong consumer protection laws."
+      ]
+    },
+    {
+      "id": "a3f1c2d4",
+      "slug": "trump-administration-anthropic-crackdown-who-benefits",
+      "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+      "topic": "AI Policy",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "high",
+      "content": "The Trump administration issued an export control order requiring Anthropic to pull its two most powerful models — Fable 5 and Mythos 5 — offline due to vague 'national security concerns.' The directive was triggered after Amazon CEO Andy Jassy reportedly informed the White House that researchers had found a way to bypass Fable 5's safety guardrails. Anthropic, lacking the ability to verify users' nationality, took the models entirely offline. Cybersecurity experts have signed an open letter asking Trump to revoke the order, arguing the ban endangers network defenders in the U.S. Analysts note the crackdown may paradoxically benefit Anthropic by giving its models a reputation as the most powerful and dangerous — with some users eager to access what the government fears most.",
+      "source_url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+      "tech_impact": "US government export control targeting Anthropic's frontier models sets a precedent for politically-driven AI restrictions, creating regulatory uncertainty for frontier AI labs and raising questions about digital sovereignty.",
+      "tags": [
+        "anthropic",
+        "trump",
+        "export-controls",
+        "AI-policy",
+        "fable-5",
+        "mythos-5"
+      ],
+      "category_label": "AI Policy",
+      "published_at": "2026-06-21T15:28:17Z",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-policy",
+        "AI-safety",
+        "AI-business"
+      ],
+      "actions_developer": [
+        "Monitor regulatory developments around export controls on AI models — your product roadmap may be affected by geopolitical disputes.",
+        "Consider geographic compliance features that can restrict model access by region without requiring full takedowns."
+      ],
+      "actions_business": [
+        "Audit your AI vendor relationships for single-provider risk — forced model takedowns can disrupt services without warning.",
+        "Engage with policy discussions on AI export controls to protect business continuity and access to frontier tools."
+      ]
+    },
+    {
+      "id": "c6e29a14",
+      "slug": "gpt-52-first-impressions-business-tasks",
+      "title": "GPT-5.2 first impressions: a powerful update, especially for business tasks and workflows",
+      "topic": "AI Products",
+      "source_name": "VentureBeat",
+      "category": "International",
+      "urgency": "medium",
+      "content": "VentureBeat published first impressions of GPT-5.2 from early testers who received pre-release access from OpenAI days or weeks before public release. The picture is mixed: testers who use GPT for deep autonomous reasoning, long-horizon coding tasks, and complex business workflows describe a 'monumental leap forward,' praising improved multi-step reasoning, fewer hallucinations in structured tasks, and stronger agentic capabilities. Casual conversational users, however, may find the differences 'incremental' given GPT-5.1 already handled everyday queries well. The divergence in impressions reflects GPT-5.2's apparent positioning as an enterprise and developer-focused model — optimized for the high-value use cases where AI ROI is highest.",
+      "source_url": "https://venturebeat.com/category/ai",
+      "tech_impact": "GPT-5.2 delivers meaningful gains for autonomous reasoning, coding, and business workflow automation — enterprises and developers stand to benefit most from upgrading.",
+      "tags": [
+        "openai",
+        "gpt-5.2",
+        "reasoning",
+        "coding",
+        "business-AI",
+        "benchmark"
+      ],
+      "category_label": "AI Products",
+      "published_at": "2026-06-21T00:00:00Z",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-product",
+        "AI-business"
+      ],
+      "actions_developer": [
+        "Benchmark GPT-5.2 on your specific agentic and coding tasks before committing to an upgrade — gains are most pronounced in multi-step reasoning and autonomous workflows.",
+        "Review OpenAI's API pricing changes for GPT-5.2 and assess cost/performance tradeoffs against GPT-5.1 for your production workloads."
+      ],
+      "actions_business": [
+        "Prioritize GPT-5.2 evaluation for complex business workflow automation use cases where GPT-5.1 may have struggled with multi-step reasoning.",
+        "Brief internal AI champions on the differentiated capabilities — casual users may not notice improvements, but power users in finance, legal, and ops likely will."
+      ]
+    },
+    {
+      "id": "greensarc-c3d4e5f6",
+      "slug": "green-sarc-carbon-governance-agentic-ai-2606-15954",
+      "title": "Green SARC: Predictive Cost and Carbon Governance for Agentic AI Systems",
+      "topic": "AI Research",
+      "source_name": "ArXiv cs.AI/cs.SE",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "As agentic AI systems become more autonomous and take longer chains of actions, their computational cost and carbon footprint become difficult to predict and control. Green SARC (Predictive Cost and Carbon Governance for Agentic AI Systems) introduces a predictive governance framework with 19 figures of analysis that enables operators to set cost and carbon budgets for AI agent workflows before execution. The system monitors resource consumption across distributed and parallel agent executions, providing closed-loop feedback to interrupt or constrain agents that are approaching budget limits. Code is available on GitHub (besanson/Greensarc) with a software DOI via Zenodo. This work sits at the intersection of Software Engineering (cs.SE), Artificial Intelligence (cs.AI), Distributed Computing (cs.DC), and Machine Learning (cs.LG), addressing the growing concern that unconstrained agentic systems can incur unexpected costs and environmental impact.",
+      "source_url": "https://arxiv.org/abs/2606.15954",
+      "tech_impact": "Green SARC addresses the emerging organizational challenge of cost overruns and sustainability compliance in agentic AI deployments—directly relevant as enterprises scale AI agents for production use. Carbon governance is increasingly required for ESG compliance in corporate AI strategies.",
+      "tags": [
+        "agentic-AI",
+        "carbon-governance",
+        "cost-management",
+        "green-AI",
+        "sustainability",
+        "AI-systems"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-06-16T00:00:00Z",
+      "youtube_channel": null,
+      "youtube_video": null,
+      "breakthrough_potential": false,
+      "related_domains": [
+        "agentic AI",
+        "green AI",
+        "AI governance",
+        "cost management",
+        "sustainability",
+        "MLOps"
+      ],
+      "actions_developer": [
+        "Integrate Green SARC governance hooks into agentic pipelines to enforce cost/carbon budgets before agent runaway occurs",
+        "Fork the open-source code at github.com/besanson/Greensarc to add organization-specific governance policies"
+      ],
+      "actions_business": [
+        "Add predictive cost and carbon governance requirements to AI agent procurement and deployment standards",
+        "Use Green SARC methodology for ESG reporting on AI system energy consumption and carbon footprint"
+      ]
+    },
+    {
+      "id": "magerag-b2c3d4e5",
+      "slug": "mage-rag-multimodal-agentic-rag-2606-15906",
+      "title": "MAGE-RAG: Multigranular Adaptive Graph Evidence for Agentic Multimodal RAG in Long-Document QA",
+      "topic": "AI Research",
+      "source_name": "ArXiv cs.AI/cs.IR",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "Retrieval-Augmented Generation (RAG) systems for long documents face fundamental challenges when content spans multiple modalities (text, tables, figures) and requires multi-hop reasoning. MAGE-RAG (Multigranular Adaptive Graph Evidence for Agentic Multimodal RAG) proposes a graph-based evidence framework that operates at multiple granularity levels to capture both fine-grained and document-level relationships. The system builds adaptive evidence graphs that connect text, visual, and structured data, enabling agentic traversal for complex question answering tasks. By treating long-document QA as a graph retrieval and reasoning problem rather than a simple dense retrieval problem, MAGE-RAG addresses the cross-modal alignment challenge that degrades conventional RAG pipelines on complex real-world documents. The approach spans Information Retrieval (cs.IR), Computation and Language (cs.CL), Databases, and Multimedia domains.",
+      "source_url": "https://arxiv.org/abs/2606.15906",
+      "tech_impact": "MAGE-RAG advances the state of enterprise RAG systems for document-heavy workflows (legal, medical, financial) by combining graph-based multi-hop reasoning with multimodal content handling, directly enabling more accurate AI assistants over complex document repositories.",
+      "tags": [
+        "RAG",
+        "multimodal",
+        "agentic-AI",
+        "graph",
+        "long-document",
+        "question-answering"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-06-16T00:00:00Z",
+      "youtube_channel": null,
+      "youtube_video": null,
+      "breakthrough_potential": false,
+      "related_domains": [
+        "RAG",
+        "multimodal AI",
+        "document intelligence",
+        "knowledge graphs",
+        "enterprise AI"
+      ],
+      "actions_developer": [
+        "Explore MAGE-RAG's multigranular graph architecture for enterprise document QA systems requiring cross-modal reasoning",
+        "Evaluate adaptive graph evidence retrieval against dense vector search for long-document RAG benchmarks"
+      ],
+      "actions_business": [
+        "Assess MAGE-RAG for knowledge management and document intelligence products handling mixed-modality enterprise content",
+        "Consider graph-based RAG as an upgrade path for existing RAG pipelines struggling with long legal/financial documents"
+      ]
+    },
+    {
+      "id": "stare-a1b2c3d4",
+      "slug": "stare-llm-rl-entropy-stability-2606-19236",
+      "title": "STARE: Surprisal-Guided Token-Level Advantage Reweighting for Policy Entropy Stability",
+      "topic": "AI Research",
+      "source_name": "ArXiv cs.LG/cs.AI",
+      "category": "Research",
+      "urgency": "high",
+      "content": "Reinforcement Learning with Verifiable Rewards (RLVR) methods like GRPO have become the dominant post-training approach for improving LLM reasoning, but frequently suffer from policy entropy collapse during training—causing degraded output diversity. STARE (Surprisal-guided Token-level Advantage Reweighting for policy Entropy stability) addresses this through a first-order gradient analysis of GRPO's token-level entropy dynamics, identifying a key 'advantage-surprisal four-quadrant structure' where per-token entropy variation decomposes into trajectory-level advantage times an entropy sensitivity function. The method identifies entropy-critical token subsets via batch-internal surprisal quantiles, selectively reweights their effective advantages, and adds a closed-loop target-entropy gate. Evaluated on 1.5B to 32B models across Short CoT, Long CoT, and Multi-Turn Tool Use tasks, STARE outperforms DAPO by 4-8% on AIME24/AIME25 while sustaining stable training for thousands of steps. Code is open-sourced at github.com/hp-luo/STARE.",
+      "source_url": "https://arxiv.org/abs/2606.19236",
+      "tech_impact": "STARE provides a principled solution to LLM RL training instability that has blocked wider adoption of RLVR methods. The 4-8% accuracy gain on math reasoning benchmarks is significant, and the technique generalizes across model sizes and task types including multi-turn tool use—directly relevant to building production agentic AI systems.",
+      "tags": [
+        "LLM",
+        "reinforcement-learning",
+        "GRPO",
+        "policy-entropy",
+        "post-training",
+        "reasoning",
+        "RLVR"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-06-17T16:13:42Z",
+      "youtube_channel": null,
+      "youtube_video": null,
+      "breakthrough_potential": true,
+      "related_domains": [
+        "LLM post-training",
+        "reinforcement learning",
+        "AI reasoning",
+        "model training stability"
+      ],
+      "actions_developer": [
+        "Integrate STARE's surprisal-based token reweighting into existing GRPO/RLVR training pipelines to prevent entropy collapse",
+        "Test STARE on multi-turn agentic task training; open-source code available at github.com/hp-luo/STARE"
+      ],
+      "actions_business": [
+        "Prioritize STARE-enhanced post-training for math reasoning and complex problem-solving product features to gain accuracy edge",
+        "Evaluate STARE for internal LLM fine-tuning to reduce training instability costs and failed training runs"
+      ]
+    },
+    {
+      "id": "rlvrunlearn-d4e5f6a7",
+      "slug": "mechanism-guided-rlvr-unlearning-2606-19222",
+      "title": "Mechanism-Guided Selective Unlearning for RLVR-Induced Reasoning",
+      "topic": "AI Research",
+      "source_name": "ArXiv cs.LG",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "Reinforcement Learning with Verifiable Rewards (RLVR) produces powerful reasoning capabilities in LLMs, but can also induce undesired behaviors or biases that are difficult to remove post-training without destroying useful capabilities. This work introduces Mechanism-Guided Selective Unlearning, which identifies the internal mechanisms through which RLVR-induced reasoning patterns are encoded and uses those mechanistic insights to perform targeted unlearning—erasing specific undesired behaviors while preserving beneficial reasoning skills. The approach provides a principled framework for AI safety practitioners to correct undesired post-training artifacts in deployed reasoning models. With 15 pages, 4 figures, and 7 tables of results, the paper provides comprehensive empirical validation of selective unlearning effectiveness across different model architectures and reasoning task types.",
+      "source_url": "https://arxiv.org/abs/2606.19222",
+      "tech_impact": "Mechanism-guided selective unlearning is a critical capability for safely deploying RLVR-trained models in production—allowing post-deployment correction of undesired behaviors without full retraining. This directly enables safer iterative improvement of reasoning AI systems.",
+      "tags": [
+        "RLVR",
+        "machine-unlearning",
+        "LLM-reasoning",
+        "selective-unlearning",
+        "model-safety"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-06-18T00:00:00Z",
+      "youtube_channel": null,
+      "youtube_video": null,
+      "breakthrough_potential": false,
+      "related_domains": [
+        "machine unlearning",
+        "AI safety",
+        "RLVR",
+        "LLM post-training",
+        "model correction"
+      ],
+      "actions_developer": [
+        "Explore mechanism-guided unlearning to remove specific failure modes from RLVR-trained reasoning models without full retraining",
+        "Apply selective unlearning framework to audit and correct safety-relevant behaviors in deployed reasoning LLMs"
+      ],
+      "actions_business": [
+        "Factor selective unlearning capability into AI model lifecycle management policies for post-deployment correction",
+        "Evaluate mechanism-guided unlearning as a compliance tool for removing biased or restricted outputs from deployed reasoning models"
+      ]
+    },
+    {
+      "id": "rewardindata-e5f6a7b8",
+      "slug": "reward-in-data-flow-matching-rl-2606-19162",
+      "title": "The Reward Was in Your Data All Along: Correcting Flow Matching with Discriminator-Guided RL",
+      "topic": "AI Research",
+      "source_name": "ArXiv cs.LG",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "Flow matching has emerged as a powerful generative modeling paradigm, but the quality of generated samples can drift from desired distributions. This work proposes Discriminator-Guided RL for correcting flow matching models, arguing that reward signals for quality improvement are already embedded in the training data and can be extracted via a discriminator. The discriminator identifies deviations between generated samples and the true data manifold, providing RL reward signals that steer the flow matching process toward higher-quality outputs. The comprehensive 84-page paper (including appendices) covers theoretical foundations and empirical validation across image generation tasks. Authors include Nicolas Beltran-Velez, Felix Friedrich, Zhang Xiaofeng, Reyhane Askari-Hemmat, Xiaochuang Han, Adriana Romero-Soriano, and Michal Drozdzal. Subjects: Machine Learning (cs.LG); Computer Vision and Pattern Recognition (cs.CV).",
+      "source_url": "https://arxiv.org/abs/2606.19162",
+      "tech_impact": "This work simplifies quality-aligned generative AI training by eliminating the need for separate reward models in flow matching pipelines—reducing training complexity and cost while improving generation quality. Highly relevant for image/video generation product teams.",
+      "tags": [
+        "flow-matching",
+        "discriminator",
+        "reinforcement-learning",
+        "generative-models",
+        "image-generation"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-06-18T00:00:00Z",
+      "youtube_channel": null,
+      "youtube_video": null,
+      "breakthrough_potential": true,
+      "related_domains": [
+        "generative AI",
+        "flow matching",
+        "image generation",
+        "reinforcement learning",
+        "diffusion models"
+      ],
+      "actions_developer": [
+        "Integrate discriminator-guided RL correction into flow matching image/video generation pipelines to improve output quality without separate reward models",
+        "Experiment with this approach to replace expensive RLHF reward model training in generative model fine-tuning workflows"
+      ],
+      "actions_business": [
+        "Evaluate discriminator-guided flow matching correction for reducing alignment training costs in generative AI products",
+        "Monitor this technique for potential quality improvements in AI image/video generation platforms at lower training budget"
+      ]
+    },
+    {
+      "id": "150954bf",
+      "slug": "brazil-alert-system-hacked-misantropi4",
+      "title": "ระบบเตือนภัยบราซิลถูกแฮก โทรศัพท์แจ้งเตือนข้อความ misantropi4 กระจายหลายเมือง",
+      "topic": "ความปลอดภัย AI",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "ระบบแจ้งเตือนภัยพิบัติแห่งชาติบราซิล (National Civil Defense) ถูกแฮกเกอร์เจาะระบบและส่งข้อความแจ้งเตือนข้อความแปลกว่า 'misantropi4' ในระดับภัยสูงสุด (extreme alert) ไปยังหลายพื้นที่ เช่น São Paulo, Paraná และ Rio de Janeiro เจ้าหน้าที่ยืนยันว่าไม่ได้เป็นผู้ส่งข้อความดังกล่าว ทาง Anatel ซึ่งเป็นกสทช. ของบราซิลได้ปิดระบบแจ้งเตือนชั่วคราวเพื่อสอบสวน แม้ระบบนี้จะไม่สามารถขโมยข้อมูลได้ แต่หากคนร้ายใช้แจ้งเตือนภัยพิบัติปลอมก็อาจสร้างความโกลาหลได้ เหตุการณ์นี้เป็นสัญญาณเตือนถึงความสำคัญของการรักษาความปลอดภัยของระบบโครงสร้างพื้นฐานสาธารณะ",
+      "source_url": "https://www.blognone.com/node/150954",
+      "tech_impact": "การแฮกระบบเตือนภัยสาธารณะเป็นภัยคุกคามต่อความปลอดภัยของประชาชน แม้จะไม่ขโมยข้อมูล แต่สามารถสร้างความโกลาหลและความตื่นตระหนกได้",
+      "tags": [
+        "Security",
+        "Brazil",
+        "Mobile",
+        "Hack",
+        "Alert System"
+      ],
+      "category_label": "ความปลอดภัย AI",
+      "published_at": "2026-06-22T00:01:00+07:00",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Cybersecurity",
+        "Public Safety",
+        "Infrastructure Security"
+      ],
+      "actions_developer": [
+        "พัฒนาระบบ authentication ที่แข็งแกร่งสำหรับระบบ public alert",
+        "ออกแบบ audit trail และ anomaly detection สำหรับการส่งข้อความ mass notification"
+      ],
+      "actions_business": [
+        "ทบทวนความปลอดภัยของระบบแจ้งเตือนและ infrastructure สาธารณะที่องค์กรดูแลอยู่",
+        "เตรียมแผนรับมือกรณีระบบแจ้งเตือนถูกโจมตีหรือส่งข้อมูลเท็จ"
+      ]
+    },
+    {
+      "id": "150953gm",
+      "slug": "google-meet-android-auto-support",
+      "title": "Google Meet รองรับการใช้งานในรถยนต์ผ่าน Android Auto แล้ว",
+      "topic": "ผลิตภัณฑ์ AI",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "Google Meet ได้เพิ่มการรองรับ Android Auto ทำให้ผู้ใช้สามารถกดเข้า Meet จากหน้าจอรถยนต์ได้โดยตรง พร้อมตารางการประชุมที่แสดงขึ้นมาล่วงหน้า อย่างไรก็ตามรองรับเฉพาะเสียงเท่านั้น ไม่มีกล้องจากฝั่งผู้ใช้และไม่เห็นวิดีโอของคนอื่น ด้วยเหตุผลด้านความปลอดภัย น่าสังเกตว่า Zoom และ Webex รองรับ Android Auto มาตั้งแต่ปี 2023 แล้ว แต่ Google Meet ซึ่งเป็นบริการของ Google เองกลับเพิ่งรองรับในปี 2026 ถือว่าล่าช้าไปถึง 3 ปี",
+      "source_url": "https://www.blognone.com/node/150953",
+      "tech_impact": "การรองรับ Android Auto ช่วยให้ประชุมขณะขับรถได้สะดวกขึ้น ลดการหยิบโทรศัพท์ขณะขับรถ เพิ่มความปลอดภัยบนท้องถนน",
+      "tags": [
+        "Google Meet",
+        "Android Auto",
+        "Google",
+        "Mobile"
+      ],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-06-21T19:41:00+07:00",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Productivity",
+        "Automotive Tech",
+        "Enterprise Collaboration"
+      ],
+      "actions_developer": [
+        "ทดสอบ Google Meet บน Android Auto สำหรับ use case การประชุมแบบ voice-only",
+        "พิจารณา integrate calendar integration กับ automotive platforms สำหรับแอปประชุมในองค์กร"
+      ],
+      "actions_business": [
+        "แจ้งพนักงานที่ต้องขับรถบ่อยว่า Google Meet บน Android Auto พร้อมใช้งานแล้ว",
+        "ทบทวน policy การประชุมขณะขับรถให้ชัดเจน แม้จะเป็นแบบ audio-only"
+      ]
+    },
+    {
+      "id": "150952gw",
+      "slug": "google-workspace-calendar-200-colors-google-vid-thai-ai-avatar",
+      "title": "Google Calendar เปิดให้กำหนดสีปฏิทิน 200 สี และ AI Avatar ใน Google Vids รองรับภาษาไทยแล้ว",
+      "topic": "ผลิตภัณฑ์ AI",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Google Workspace ออกอัปเดตหลายฟีเจอร์สำคัญ ได้แก่ Google Calendar ที่เพิ่มตัวเลือกสีจาก 24 สีเป็น 200 สี ช่วยให้จัดการปฏิทินซับซ้อนได้ดีขึ้น, Google Voice เพิ่มความสามารถจดโน้ตด้วย AI หลังการโทร ส่งบันทึกทางอีเมล รองรับเฉพาะภาษาอังกฤษสำหรับลูกค้า Workspace ที่ซื้อส่วนเสริม Voice และที่สำคัญสำหรับคนไทยคือ AI Avatar ใน Google Vids รองรับภาษาไทยแล้ว ทำให้ผู้ใช้ไทยสามารถสร้างวิดีโอด้วย AI Avatar พูดภาษาไทยได้โดยตรง ถือเป็นก้าวสำคัญของการขยาย AI ภาษาไทยในระบบนิเวศ Google",
+      "source_url": "https://www.blognone.com/node/150952",
+      "tech_impact": "AI Avatar ภาษาไทยใน Google Vids เป็นข่าวสำคัญสำหรับตลาดไทย เปิดโอกาสสร้าง video content ภาษาไทยด้วย AI ได้สะดวกขึ้น",
+      "tags": [
+        "Google Calendar",
+        "Google Workspace",
+        "Google Vids",
+        "Gemini",
+        "AI Avatar",
+        "Thai language"
+      ],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-06-21T17:15:00+07:00",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI-tools",
+        "Productivity",
+        "Thai Language AI"
+      ],
+      "actions_developer": [
+        "ทดสอบ AI Avatar ภาษาไทยใน Google Vids สำหรับการสร้าง training content หรือ internal comms",
+        "ศึกษา Google Voice AI note-taking API สำหรับ integration กับระบบ CRM หรือ ticketing"
+      ],
+      "actions_business": [
+        "ทดลองใช้ AI Avatar ภาษาไทยใน Google Vids สำหรับ onboarding หรือ e-learning content",
+        "ประเมิน Google Voice AI note-taking สำหรับทีม sales หรือ customer service ที่โทรบ่อย"
+      ]
+    },
+    {
+      "id": "tttonmeet6",
+      "slug": "online-meetup-platform-engineering-for-ai",
+      "title": "Online Meetup #6: Platform Engineering for AI — วางรากฐานองค์กรสู่ยุค AI Agents [14 ก.ค. | 14:00 น.]",
+      "topic": "เครื่องมือ AI / Developer",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "TechTalkThai ประกาศจัด Online Meetup ครั้งที่ 6 ในหัวข้อ 'Platform Engineering for AI: วางรากฐานองค์กรสู่ยุค AI Agents' ในวันที่ 14 กรกฎาคม 2026 เวลา 14:00 น. เป็นงานที่มุ่งเน้น Developer, DevOps, SRE และ Software Engineer ที่ต้องการเตรียมองค์กรรับมือกับ AI Agents ที่กำลังเข้ามาเปลี่ยนแปลงรูปแบบการทำงาน งานนี้จะช่วยให้ผู้เข้าร่วมเข้าใจแนวทางการสร้าง platform infrastructure ที่รองรับ AI workload และ Agentic AI ในองค์กร",
+      "source_url": "https://www.techtalkthai.com/online-meetup-6-platform-engineering-for-ai/",
+      "tech_impact": "Platform Engineering for AI เป็นทักษะที่กำลังมีความสำคัญสูงขึ้นเรื่อยๆ เมื่อ AI Agents เริ่ม deploy จริงในองค์กร",
+      "tags": [
+        "Platform Engineering",
+        "AI Agents",
+        "Agentic AI",
+        "DevOps",
+        "Event",
+        "Online Meetup"
+      ],
+      "category_label": "เครื่องมือ AI / Developer",
+      "published_at": "2026-06-22T00:00:00+07:00",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Platform Engineering",
+        "AI Agents",
+        "DevOps",
+        "Cloud Infrastructure"
+      ],
+      "actions_developer": [
+        "ลงทะเบียนเข้าร่วม Online Meetup #6 วันที่ 14 ก.ค. 2026 เพื่ออัปเดตความรู้ด้าน Platform Engineering for AI",
+        "ศึกษาแนวคิด Internal Developer Platform (IDP) ที่รองรับ AI Agent workloads"
+      ],
+      "actions_business": [
+        "ส่ง DevOps และ Platform Engineer เข้าร่วม meetup เพื่อวางแผน AI infrastructure",
+        "ประเมินความพร้อมของ platform ปัจจุบันในการรองรับ AI Agents"
+      ]
+    },
+    {
+      "id": "vcfedge91",
+      "slug": "vcf-edge-9-1-zero-touch-provisioning",
+      "title": "เจาะลึก Zero Touch Provisioning บน VCF Edge 9.1 พลิกโฉมการขยาย Edge Site ด้วยระบบอัตโนมัติแบบครบวงจร",
+      "topic": "เครื่องมือ AI / Enterprise IT",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "บทความเจาะลึก Zero Touch Provisioning (ZTP) บน VMware Cloud Foundation (VCF) Edge 9.1 ซึ่งเป็นฟีเจอร์ที่ตอบโจทย์ความต้องการของงาน Edge Computing ที่ต้องการความรวดเร็ว ความสม่ำเสมอ และความแม่นยำในการติดตั้งระบบ ZTP ช่วยให้องค์กรสามารถขยาย Edge Site ได้โดยไม่ต้องส่งผู้เชี่ยวชาญไปประจำสถานที่ ลดเวลาและค่าใช้จ่ายในการ deploy infrastructure ณ สถานที่ห่างไกล ถือเป็นฟีเจอร์สำคัญสำหรับองค์กรที่มี branch หรือโรงงานกระจายตัวในหลายพื้นที่",
+      "source_url": "https://www.techtalkthai.com/vcf-edge-9-1-zero-touch-provisioning/",
+      "tech_impact": "Zero Touch Provisioning ช่วยลด operational cost และเวลา deployment สำหรับ Edge infrastructure ซึ่งสำคัญมากในยุค AI workload ที่ต้องการ edge processing",
+      "tags": [
+        "VCF Edge",
+        "VMware",
+        "Edge Computing",
+        "Zero Touch Provisioning",
+        "Automation"
+      ],
+      "category_label": "เครื่องมือ AI / Enterprise IT",
+      "published_at": "2026-06-22T00:00:00+07:00",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Edge Computing",
+        "Infrastructure Automation",
+        "Enterprise IT"
+      ],
+      "actions_developer": [
+        "ศึกษา ZTP pipeline ของ VCF Edge 9.1 เพื่อ automate การ deploy edge nodes ในองค์กร",
+        "ทดสอบ integration ระหว่าง ZTP กับ CI/CD pipeline สำหรับ edge application deployment"
+      ],
+      "actions_business": [
+        "ประเมิน VCF Edge 9.1 สำหรับองค์กรที่มีสาขาหรือโรงงานหลายแห่งที่ต้องการ local compute",
+        "คำนวณ ROI ของ ZTP เทียบกับการส่งวิศวกรไป deploy ระบบ on-site"
+      ]
+    },
+    {
+      "id": "609a0cad4c4f",
+      "slug": "china-employment-first-ai-job-creation",
+      "title": "จีนประกาศวาระแห่งชาติ ชูธง Employment-First สร้างตำแหน่งงานใหม่ให้ประชาชน เป้าหมายคือ ลดการว่างงานยุค AI",
+      "topic": "นโยบาย AI",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "รัฐบาลจีนภายใต้คณะมุขมนตรีแห่งรัฐประกาศแผนยุทธศาสตร์ Employment-First สำหรับปี 2026-2030 โดยมีเป้าหมายชัดเจนที่จะเปลี่ยน AI จาก 'ภัยคุกคามการจ้างงาน' ให้กลายเป็น 'เครื่องมือสร้างงาน' ท่ามกลางวิกฤตแรงงานที่คนหนุ่มสาวว่างงานสูงถึง 16.3% และแรงงานอพยพ 5.7% แผนครอบคลุม 9 ด้านหลัก เน้นสร้างตำแหน่งงาน AI โดยตรง อัพสกิลแรงงาน ควบคู่กับการเปิดอุตสาหกรรมใหม่ เช่น เศรษฐกิจทางทะเล โดรน EV และพลังงานสะอาด แผน AI Plus ตั้งเป้านำ AI ไปใช้ในภาคส่วนสำคัญถึง 90% ภายในปี 2030 แต่นักวิชาการเตือนว่า AI อาจทำลายทักษะเด็กจบใหม่และขยายช่องว่างดิจิทัลของแรงงานสูงอายุ",
+      "source_url": "https://techsauce.co/news/china-employment-first-ai-job-creation",
+      "tech_impact": "นโยบาย Employment-First ของจีนกำหนดทิศทางที่ AI ต้องสร้างงาน ไม่ใช่แค่ทำลายงาน เป็นโมเดลที่นานาชาติจับตามอง",
+      "tags": [
+        "AI",
+        "จีน",
+        "Employment-First",
+        "AI Policy",
+        "jobs"
+      ],
+      "category_label": "นโยบาย AI",
+      "published_at": "2026-06-22T00:00:00+07:00",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Policy",
+        "LLM",
+        "Robotics",
+        "Labor Market"
+      ],
+      "actions_developer": [
+        "ศึกษาทักษะ AI ที่รัฐบาลจีนต้องการ — ด้านทะเล โดรน EV เพื่อโอกาสตลาดจีน",
+        "เตรียม API/integration สำหรับอุตสาหกรรมที่ AI+ กำหนดเป้า 90%"
+      ],
+      "actions_business": [
+        "ติดตามนโยบาย Employment-First เพื่อวางแผนลงทุนในจีนที่เน้น AI สร้างงาน",
+        "ประเมินผลกระทบ AI+ ต่อ supply chain ที่เชื่อมกับจีน"
+      ]
+    },
+    {
+      "id": "35d519730fd6",
+      "slug": "hbr-workslop-ai-knowledge-decay",
+      "title": "HBR เตือนองค์กรที่ใช้ AI แบบสุดทาง ระวัง 'งานสวยแต่ข้างในกลวง'",
+      "topic": "AI ในธุรกิจ",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Harvard Business Review เตือนถึงปรากฏการณ์ที่เรียกว่า 'Workslop' — ผลงานจาก AI ที่ดูสวยงามจากภายนอกแต่ขาดสาระและมีข้อผิดพลาดซ่อนอยู่ ส่งผลให้เกิด 'ภาวะความรู้ถดถอย' ในองค์กร ผลสำรวจพบพนักงาน 41% เคยรับงานแบบ Workslop และต้องเสียเวลาเกือบ 2 ชั่วโมงต่อครั้งในการแก้ไข คิดเป็นต้นทุนเฉลี่ย $186/คน/เดือน หรือกว่า $9 ล้าน/ปีสำหรับองค์กร 10,000 คน นอกจากนี้ 95% ของบริษัทยังไม่เห็น ROI จาก AI (MIT Media Lab) และ Goldman Sachs ยืนยันว่าประสิทธิภาพภาพรวมยังไม่เพิ่มขึ้น ปัญหาลึกกว่า AI hallucination เพราะเป็นการสะสมความเสียหายระยะยาวจากการพึ่งพา AI โดยไม่ควบคุมคุณภาพ",
+      "source_url": "https://techsauce.co/news/ai-knowledge-decay-crisis",
+      "tech_impact": "Workslop เป็นปรากฏการณ์ใหม่ที่บั่นทอนคุณค่า AI ในองค์กร ต้องการระบบ QA และ human oversight ที่เข้มแข็ง",
+      "tags": [
+        "AI",
+        "HBR",
+        "Workslop",
+        "knowledge decay",
+        "productivity"
+      ],
+      "category_label": "AI ในธุรกิจ",
+      "published_at": "2026-06-22T00:00:00+07:00",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Enterprise AI",
+        "Productivity",
+        "Knowledge Management"
+      ],
+      "actions_developer": [
+        "สร้างระบบ review AI output โดยผู้เชี่ยวชาญก่อน deploy ในองค์กร",
+        "ฝึก AI ด้วย domain-specific knowledge เพื่อลด generic/hollow output"
+      ],
+      "actions_business": [
+        "วัด ROI จาก AI อย่างเป็นระบบ ไม่ใช่แค่ speed แต่รวม error correction cost",
+        "กำหนด AI usage policy ที่ชัดเจน บังคับให้ verify ก่อนส่งงาน"
+      ]
+    },
+    {
+      "id": "152ce6c3266c",
+      "slug": "norway-bans-ai-primary-school",
+      "title": "นอร์เวย์สั่งแบน AI ในชั้นประถม หวั่นเด็กข้ามขั้นการเรียนรู้ หลังเด็กนอร์เวย์ 1 ใน 4 อ่านหนังสือไม่ผ่านเกณฑ์",
+      "topic": "นโยบาย AI",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "รัฐบาลนอร์เวย์ภายใต้ PM Jonas Gahr Støre ประกาศห้ามใช้ AI (โดยเฉพาะ Generative AI) ในชั้นประถม ป.1-7 เริ่มเดือนสิงหาคม 2026 สำนักงาน Udir กำหนดแนวทาง 3 ระดับตามช่วงวัย โดยประถมเกือบห้ามทั้งหมด มัธยมต้นใช้ได้แบบระวัง มัธยมปลายเรียนรู้การใช้ AI เพื่อเตรียมอนาคต เหตุผลหลักคือเด็กนอร์เวย์ 1 ใน 4 อ่านต่ำกว่าเกณฑ์ OECD และคะแนน PISA/PIRLS ตกต่ำสุดในรอบ 20 ปี รัฐบาลอ้างบทเรียนจากนโยบายแจก iPad ปี 2016 ที่ไร้ระบบควบคุม ส่งผลให้เด็กรุ่นนั้นอ่านหนังสือไม่คล่อง นโยบายนี้อาจเป็นต้นแบบให้ประเทศในยุโรปพิจารณาตาม",
+      "source_url": "https://techsauce.co/news/norway-bans-ai-primary-school",
+      "tech_impact": "นอร์เวย์เป็นประเทศแรกที่ออกกฎห้ามใช้ Generative AI ในชั้นประถมระดับชาติ อาจกลายเป็นโมเดลให้ EU และประเทศอื่นทำตาม",
+      "tags": [
+        "AI Policy",
+        "Education",
+        "Norway",
+        "PISA",
+        "Generative AI",
+        "AI in Education"
+      ],
+      "category_label": "นโยบาย AI",
+      "published_at": "2026-06-22T00:00:00+07:00",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Policy",
+        "EdTech",
+        "Generative AI",
+        "Regulation"
+      ],
+      "actions_developer": [
+        "EdTech developers ต้องออกแบบ age-gating mechanism สำหรับตลาดยุโรปที่จะมีกฎระเบียบ AI เพิ่มขึ้น",
+        "พัฒนา AI tools ที่เหมาะกับ age-appropriate learning ตาม framework ของ Udir"
+      ],
+      "actions_business": [
+        "บริษัท EdTech ต้องปรับ product roadmap รับมือกฎระเบียบ AI ในโรงเรียนที่กำลังมาถึงทั่วยุโรป",
+        "ลงทุนใน AI literacy solutions สำหรับครูและนักเรียนมัธยมตาม framework ใหม่"
+      ]
+    },
+    {
+      "id": "tw22408bt",
+      "slug": "btmob-malware-android",
+      "title": "พบมัลแวร์ BTMOB มีความสามารถในการซุกซ่อนบนระบบ Android ได้อย่างลึกล้ำ",
+      "topic": "ความปลอดภัย / Cybersecurity",
+      "source_name": "Thaiware",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "นักวิจัยด้านความปลอดภัยค้นพบมัลแวร์ชนิดใหม่ที่ชื่อว่า BTMOB ซึ่งออกแบบมาเพื่อโจมตีระบบ Android โดยเฉพาะ จุดเด่นที่น่ากังวลคือความสามารถในการซ่อนตัวได้อย่างแนบเนียน ทำให้ antivirus ทั่วไปตรวจจับได้ยาก นอกจากนี้ยังสามารถขอสิทธิ์ต่างๆ จากเครื่องได้โดยที่ผู้ใช้ไม่ต้องกดอนุมัติด้วยตนเอง ซึ่งเป็นการข้ามผ่านมาตรการรักษาความปลอดภัยปกติของ Android ผู้ใช้ Android ควรอัปเดต OS และแอปอยู่เสมอ และหลีกเลี่ยงการติดตั้งแอปจากแหล่งที่ไม่รู้จัก",
+      "source_url": "https://www.antivirus.in.th/news/22408.html",
+      "tech_impact": "BTMOB เป็นตัวอย่างของมัลแวร์รุ่นใหม่ที่ใช้เทคนิคซ่อนตัวขั้นสูง ข้ามผ่านการป้องกันมาตรฐานของ Android ได้",
+      "tags": [
+        "BTMOB",
+        "Malware",
+        "Android",
+        "Mobile Security"
+      ],
+      "category_label": "ความปลอดภัย / Cybersecurity",
+      "published_at": "2026-06-21T00:00:00+07:00",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Mobile Security",
+        "Android",
+        "Cybersecurity"
+      ],
+      "actions_developer": [
+        "ตรวจสอบว่าแอปพลิเคชัน Android ที่พัฒนาไม่มีช่องโหว่ที่ BTMOB หรือมัลแวร์คล้ายกันสามารถใช้ประโยชน์ได้",
+        "ทดสอบแอปด้วย mobile security scanning tools เช่น MobSF ก่อน publish"
+      ],
+      "actions_business": [
+        "บังคับใช้ MDM solution เพื่อควบคุมแอปที่ติดตั้งบนอุปกรณ์ Android ขององค์กร",
+        "แจ้งเตือนพนักงานให้หลีกเลี่ยงการ sideload APK จากแหล่งภายนอก"
+      ]
+    },
+    {
+      "id": "tw22409dr",
+      "slug": "fake-software-github-sourceforge-deno-rat",
+      "title": "ระวังซอฟต์แวร์ปลอมบน GitHub กับ SourceForge โหลดแล้วอาจติดมัลแวร์ Deno RAT ได้",
+      "topic": "ความปลอดภัย / Cybersecurity",
+      "source_name": "Thaiware",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "มีการค้นพบแคมเปญมัลแวร์ใหม่ที่แฝงซอฟต์แวร์ปลอมไว้บนแพลตฟอร์ม GitHub และ SourceForge ซึ่งเป็นแหล่งดาวน์โหลดซอฟต์แวร์ที่นักพัฒนาและผู้ใช้ทั่วไปไว้ใจ กระบวนการโจมตีเริ่มจากการติดตั้ง DinDoor backdoor เพื่อเปิดช่องทางเข้าออกให้แฮกเกอร์ก่อน จากนั้นจึงติดตั้ง Deno RAT (Remote Access Trojan) เพื่อเข้าควบคุมเครื่องเหยื่อได้อย่างสมบูรณ์ แนะนำให้ผู้ใช้ตรวจสอบความถูกต้องของซอฟต์แวร์ก่อนดาวน์โหลดทุกครั้ง และหลีกเลี่ยงซอฟต์แวร์จากแหล่งที่ไม่น่าเชื่อถือ",
+      "source_url": "https://www.antivirus.in.th/news/22409.html",
+      "tech_impact": "การใช้แพลตฟอร์มที่น่าเชื่อถืออย่าง GitHub เป็นช่องทางกระจายมัลแวร์เป็นภัยคุกคามระดับสูง เพราะผู้ใช้มักไม่ระวัง",
+      "tags": [
+        "Malware",
+        "GitHub",
+        "SourceForge",
+        "Deno RAT",
+        "DinDoor",
+        "Security"
+      ],
+      "category_label": "ความปลอดภัย / Cybersecurity",
+      "published_at": "2026-06-22T00:00:00+07:00",
+      "youtube_channel": "",
+      "youtube_video": "",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Cybersecurity",
+        "Supply Chain Security",
+        "Developer Security"
+      ],
+      "actions_developer": [
+        "ตรวจสอบ digital signature และ hash ของซอฟต์แวร์ทุกครั้งก่อน install โดยเฉพาะจาก third-party repos",
+        "ใช้ software composition analysis (SCA) tools เพื่อตรวจจับ malicious packages ในโปรเจกต์"
+      ],
+      "actions_business": [
+        "กำหนด policy การดาวน์โหลดซอฟต์แวร์ในองค์กรและใช้ approved software repository เท่านั้น",
+        "อบรม developer ให้ตระหนักถึงภัยมัลแวร์บน open-source platforms"
+      ]
+    },
+    {
+      "id": "aibreakdown-b4c5d6e7",
+      "slug": "ai-breakdown-latest-2026-06-22",
+      "title": "The AI Breakdown — Latest AI Business & Strategy News (2026-06-22)",
+      "topic": "YouTube",
+      "source_name": "The AI Breakdown",
+      "category": "YouTube",
+      "urgency": "medium",
+      "content": "The AI Breakdown (youtube.com/@theaibreakdown) by Nathaniel Whittemore provides daily analysis of AI news with a focus on business strategy, policy implications, and the competitive landscape of AI. The channel publishes a daily AI briefing that synthesizes the most important AI news and contextualizes it for business leaders and strategists. Topics include major AI company announcements, AI policy and regulation, investment trends, and the strategic implications of new AI capabilities. The AI Breakdown is complemented by the NLW newsletter and podcast, making it a multi-channel AI business intelligence resource with consistent daily publishing.",
+      "source_url": "https://www.youtube.com/@theaibreakdown",
+      "tech_impact": "The AI Breakdown is a high-frequency, business-focused AI news source ideal for executives and strategy teams needing daily AI intelligence briefings with strategic context.",
+      "tags": [
+        "AI-news",
+        "AI-business",
+        "LLM-analysis",
+        "AI-daily-brief",
+        "AI-strategy"
+      ],
+      "category_label": "YouTube",
+      "published_at": "2026-06-21T00:00:00Z",
+      "youtube_channel": "https://www.youtube.com/@theaibreakdown",
+      "youtube_video": "https://www.youtube.com/@theaibreakdown/videos",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI business strategy",
+        "AI policy",
+        "AI news",
+        "competitive intelligence",
+        "AI investment"
+      ],
+      "actions_developer": [
+        "Use AI Breakdown daily briefings to stay current on major AI company announcements and policy changes affecting your work",
+        "Monitor channel for coverage of new AI regulatory developments that may affect product deployment"
+      ],
+      "actions_business": [
+        "Subscribe to daily AI Breakdown briefings for executive AI intelligence on competitive landscape shifts",
+        "Use channel analysis to inform board-level AI strategy discussions with current, contextualized AI news"
+      ]
+    },
+    {
+      "id": "aiexplained-c9d0e1f2",
+      "slug": "ai-explained-latest-2026-06-22",
+      "title": "AI Explained — Latest AI Capabilities & News Video (2026-06-22)",
+      "topic": "YouTube",
+      "source_name": "AI Explained",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "AI Explained (youtube.com/@aiexplained-official) is a channel that carefully evaluates AI model capabilities, benchmark results, and research claims with critical nuance. Rather than hype-driven coverage, the channel examines what new models actually demonstrate, what limitations remain, and how to interpret results accurately. Topics include GPT and Claude model comparisons, reasoning benchmark analysis, AI safety developments, and thorough evaluation of new AI product releases. The channel is known for its intellectual rigor and willingness to push back on overclaiming, making it an essential counterbalance to sensationalist AI coverage.",
+      "source_url": "https://www.youtube.com/@aiexplained-official",
+      "tech_impact": "AI Explained provides rigorous, hype-free analysis of AI model capabilities and benchmark claims — critical for making accurate technical and business assessments of AI progress.",
+      "tags": [
+        "AI-news",
+        "AI-explained",
+        "LLM-benchmarks",
+        "AI-capabilities",
+        "GPT"
+      ],
+      "category_label": "YouTube",
+      "published_at": "2026-06-21T00:00:00Z",
+      "youtube_channel": "https://www.youtube.com/@aiexplained-official",
+      "youtube_video": "https://www.youtube.com/@aiexplained-official/videos",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI capabilities",
+        "model benchmarks",
+        "AI safety",
+        "LLMs",
+        "AI news"
+      ],
+      "actions_developer": [
+        "Watch AI Explained benchmarks before adopting new AI models to understand actual performance vs. marketing claims",
+        "Use channel's critical analysis to calibrate expectations when evaluating new AI tools for integration"
+      ],
+      "actions_business": [
+        "Reference AI Explained assessments when evaluating AI vendor claims and model capabilities for procurement decisions",
+        "Use channel content to brief leadership on realistic AI capabilities and timelines"
+      ]
+    },
+    {
+      "id": "davidshapiro-a3b4c5d6",
+      "slug": "david-shapiro-latest-2026-06-22",
+      "title": "David Shapiro — Latest AI Automation & AGI Discussion (2026-06-22)",
+      "topic": "YouTube",
+      "source_name": "David Shapiro",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "David Shapiro (youtube.com/@DavidShapiroAutomator) produces content on AI automation frameworks, autonomous AI agents, AGI progression, and AI alignment topics. The channel covers practical LLM agent construction as well as philosophical and technical discussions about the trajectory toward more capable AI systems. Shapiro focuses particularly on topics like cognitive architectures for autonomous AI, heuristic imperatives and alignment approaches, and the practical building of agentic AI systems using LLMs. The channel publishes frequently and responds quickly to major AI developments, making it a useful source for tracking both agentic AI tooling and longer-term AGI considerations.",
+      "source_url": "https://www.youtube.com/@DavidShapiroAutomator",
+      "tech_impact": "David Shapiro provides practical agentic AI content combined with AGI trajectory analysis — useful for teams building autonomous AI systems and thinking about longer-term AI safety considerations.",
+      "tags": [
+        "AI-automation",
+        "AGI",
+        "AI-alignment",
+        "LLM-agents",
+        "autonomous-AI"
+      ],
+      "category_label": "YouTube",
+      "published_at": "2026-06-21T00:00:00Z",
+      "youtube_channel": "https://www.youtube.com/@DavidShapiroAutomator",
+      "youtube_video": "https://www.youtube.com/@DavidShapiroAutomator/videos",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "agentic AI",
+        "AI automation",
+        "AGI",
+        "AI alignment",
+        "autonomous systems"
+      ],
+      "actions_developer": [
+        "Watch David Shapiro's agentic AI videos for practical cognitive architecture patterns for autonomous LLM systems",
+        "Follow his alignment discussion series to incorporate safety thinking into autonomous agent design"
+      ],
+      "actions_business": [
+        "Monitor channel for analysis of how autonomous AI agents are evolving and what capabilities to expect near-term",
+        "Use channel content to inform organizational AI governance frameworks for agentic deployments"
+      ]
+    },
+    {
+      "id": "karpathy-a7b8c9d0",
+      "slug": "andrej-karpathy-latest-2026-06-22",
+      "title": "Andrej Karpathy — Latest AI Education Video (2026-06-22)",
+      "topic": "YouTube",
+      "source_name": "Andrej Karpathy",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "Andrej Karpathy (former Tesla AI Director and OpenAI co-founder) runs a YouTube channel focused on deep learning education. His videos include multi-hour lecture series on neural networks from scratch, LLM internals, and the mathematics behind modern AI systems. The channel is known for its exceptional pedagogical depth and clarity. Key series include 'Neural Networks: Zero to Hero' (covering backpropagation, GPT from scratch, tokenization) and detailed explorations of transformer architecture and training dynamics. His videos attract millions of views and are widely recommended as the best self-study resource for understanding modern AI from first principles.",
+      "source_url": "https://www.youtube.com/@AndrejKarpathy",
+      "tech_impact": "Karpathy's channel is among the highest-quality free resources for deep AI education—essential watching for anyone building LLM-based products or training custom models.",
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "LLM",
+        "education",
+        "Karpathy"
+      ],
+      "category_label": "YouTube",
+      "published_at": "2026-06-21T00:00:00Z",
+      "youtube_channel": "https://www.youtube.com/@AndrejKarpathy",
+      "youtube_video": "https://www.youtube.com/@AndrejKarpathy/videos",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "deep learning",
+        "LLMs",
+        "neural networks",
+        "AI education"
+      ],
+      "actions_developer": [
+        "Watch Karpathy's 'Neural Networks: Zero to Hero' series for foundational understanding of transformer internals and training",
+        "Check channel for new tutorial uploads covering emerging topics in LLM training and scaling"
+      ],
+      "actions_business": [
+        "Use Karpathy videos in internal AI upskilling programs for engineering teams",
+        "Monitor channel releases for signals on important technical directions in LLM development"
+      ]
+    },
+    {
+      "id": "kilcher-b8c9d0e1",
+      "slug": "yannic-kilcher-latest-2026-06-22",
+      "title": "Yannic Kilcher — Latest ML Paper Review (2026-06-22)",
+      "topic": "YouTube",
+      "source_name": "Yannic Kilcher",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "Yannic Kilcher's YouTube channel (youtube.com/@YannicKilcher) is known for rigorous, technical paper reviews covering machine learning research from NLP and computer vision to reinforcement learning and AI safety. Kilcher reads and explains landmark papers such as the original Attention Is All You Need transformer paper, GPT series, DALL-E, and safety-relevant work with depth and critical commentary. His videos are aimed at researchers and advanced practitioners who want more than surface-level summaries. The channel also features discussions on AI ethics, open-source model releases, and the broader AI research landscape.",
+      "source_url": "https://www.youtube.com/@YannicKilcher",
+      "tech_impact": "Kilcher's channel is a reference resource for rigorous understanding of important ML papers — essential for researchers and ML engineers tracking the frontier.",
+      "tags": [
+        "ML-papers",
+        "paper-review",
+        "NLP",
+        "deep-learning",
+        "AI-critique"
+      ],
+      "category_label": "YouTube",
+      "published_at": "2026-06-21T00:00:00Z",
+      "youtube_channel": "https://www.youtube.com/@YannicKilcher",
+      "youtube_video": "https://www.youtube.com/@YannicKilcher/videos",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "ML research",
+        "NLP",
+        "paper reviews",
+        "AI critique",
+        "deep learning"
+      ],
+      "actions_developer": [
+        "Check Kilcher's latest video for detailed breakdown of significant new ML research papers",
+        "Use paper review videos to build intuition on complex topics like diffusion models and RLHF before implementation"
+      ],
+      "actions_business": [
+        "Follow channel to understand which ML research papers have practical near-term implications",
+        "Share Kilcher reviews in ML reading group sessions for efficient paper discussion"
+      ]
+    },
+    {
+      "id": "mlstreettalk-f2a3b4c5",
+      "slug": "ml-street-talk-latest-2026-06-22",
+      "title": "ML Street Talk — Latest AI Research Interview / Discussion (2026-06-22)",
+      "topic": "YouTube",
+      "source_name": "ML Street Talk",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "Machine Learning Street Talk (youtube.com/@MachineLearningStreetTalk) is a long-form interview and discussion podcast covering advanced ML research topics. The channel features conversations with prominent researchers and practitioners across topics including: neural scaling laws, mechanistic interpretability, AI safety, cognitive science and AI, graph neural networks, and theoretical machine learning. Episodes typically run 1-3 hours and target an audience of ML researchers, PhD students, and advanced practitioners. Guests have included top researchers from DeepMind, OpenAI, academic institutions, and AI safety organizations. The channel is known for going deeper into technical and philosophical aspects of AI than most mainstream coverage.",
+      "source_url": "https://www.youtube.com/@MachineLearningStreetTalk",
+      "tech_impact": "ML Street Talk is the premier long-form interview channel for deep technical AI research discussions — essential for researchers and senior engineers wanting researcher-level perspective on frontier topics.",
+      "tags": [
+        "ML-podcast",
+        "AI-research",
+        "AI-interviews",
+        "deep-learning",
+        "ML-theory"
+      ],
+      "category_label": "YouTube",
+      "published_at": "2026-06-21T00:00:00Z",
+      "youtube_channel": "https://www.youtube.com/@MachineLearningStreetTalk",
+      "youtube_video": "https://www.youtube.com/@MachineLearningStreetTalk/videos",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "ML theory",
+        "AI safety",
+        "AI research",
+        "scaling laws",
+        "interpretability"
+      ],
+      "actions_developer": [
+        "Listen to ML Street Talk episodes on mechanistic interpretability and AI safety for deep theoretical grounding",
+        "Use interview episodes to understand the thinking of key AI researchers before engaging with their papers"
+      ],
+      "actions_business": [
+        "Use ML Street Talk discussions to understand long-term research trajectories for strategic planning",
+        "Monitor channel for interviews with leading AI safety researchers to inform responsible AI governance"
+      ]
+    },
+    {
+      "id": "mattwolfe-d0e1f2a3",
+      "slug": "matt-wolfe-latest-2026-06-22",
+      "title": "Matt Wolfe — Latest AI Tools & News Video (2026-06-22)",
+      "topic": "YouTube",
+      "source_name": "Matt Wolfe",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "Matt Wolfe (youtube.com/@mreflow) is a high-frequency AI news and tools channel covering new AI product releases, feature updates, and weekly roundups of the most significant AI developments. The channel focuses on practical, accessible coverage of AI tools—image generators, LLM apps, automation tools, and creative AI—making it ideal for non-technical audiences and entrepreneurs exploring AI adoption. Matt publishes multiple videos per week and maintains futurepedia.io, one of the largest AI tool directories. His 'This Week in AI' series and tool reviews attract large audiences seeking to stay current with the fast-moving AI products landscape.",
+      "source_url": "https://www.youtube.com/@mreflow",
+      "tech_impact": "Matt Wolfe's channel is the go-to source for discovering new AI tools and staying current on AI product releases — ideal for business teams evaluating AI adoption opportunities.",
+      "tags": [
+        "AI-tools",
+        "AI-news",
+        "generative-AI",
+        "no-code-AI",
+        "AI-weekly"
+      ],
+      "category_label": "YouTube",
+      "published_at": "2026-06-21T00:00:00Z",
+      "youtube_channel": "https://www.youtube.com/@mreflow",
+      "youtube_video": "https://www.youtube.com/@mreflow/videos",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI tools",
+        "generative AI",
+        "AI products",
+        "business AI",
+        "productivity"
+      ],
+      "actions_developer": [
+        "Check Matt Wolfe's latest video for new AI tool releases and demos worth evaluating for your workflow",
+        "Use his tool reviews to shortlist AI products before deeper technical evaluation"
+      ],
+      "actions_business": [
+        "Watch weekly AI roundup videos to maintain awareness of new AI tools relevant to business operations",
+        "Use futurepedia.io (Wolfe's AI directory) alongside his videos for systematic AI tool discovery"
+      ]
+    },
+    {
+      "id": "sertis-c5d6e7f8",
+      "slug": "sertis-official-latest-2026-06-22",
+      "title": "Sertis Official — ล่าสุด AI และ Data Science (2026-06-22)",
+      "topic": "YouTube",
+      "source_name": "Sertis Official",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "Sertis Official (youtube.com/@SertisOfficial) เป็นช่อง YouTube ของบริษัท Sertis ผู้ให้บริการ AI และ Data Science ชั้นนำของประเทศไทย เนื้อหาครอบคลุมการประยุกต์ใช้ AI ในธุรกิจไทย, กรณีศึกษาจากลูกค้าองค์กร, บทความวิชาการ Data Science, และการอัปเดตเทคโนโลยี AI ใหม่ๆ ที่เกี่ยวข้องกับบริบทไทย ช่องนี้เหมาะสำหรับนักพัฒนาและผู้ประกอบการไทยที่ต้องการติดตามความก้าวหน้าของ AI ในมุมมองที่ใกล้เคียงกับการใช้งานจริงในประเทศไทย",
+      "source_url": "https://www.youtube.com/@SertisOfficial",
+      "tech_impact": "Sertis provides AI and data science content tailored for Thai enterprise context — essential for Thai organizations evaluating AI adoption with local case studies and Thai-language education.",
+      "tags": [
+        "AI-Thailand",
+        "data-science",
+        "Sertis",
+        "enterprise-AI",
+        "machine-learning"
+      ],
+      "category_label": "YouTube",
+      "published_at": "2026-06-21T00:00:00Z",
+      "youtube_channel": "https://www.youtube.com/@SertisOfficial",
+      "youtube_video": "https://www.youtube.com/@SertisOfficial/videos",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Thailand",
+        "enterprise AI",
+        "data science",
+        "machine learning",
+        "Thai business"
+      ],
+      "actions_developer": [
+        "ติดตามช่อง Sertis สำหรับเนื้อหา Data Science และ AI ที่เหมาะกับบริบทธุรกิจไทย",
+        "ใช้กรณีศึกษาจาก Sertis เป็นแนวทางในการออกแบบโซลูชัน AI สำหรับองค์กรไทย"
+      ],
+      "actions_business": [
+        "ติดตามวิดีโอ Sertis เพื่อเรียนรู้แนวทางการนำ AI มาใช้ในธุรกิจไทยจากกรณีศึกษาจริง",
+        "พิจารณาติดต่อ Sertis สำหรับบริการ AI consulting และ Data Science สำหรับองค์กรในไทย"
+      ]
+    },
+    {
+      "id": "2mp-f6a7b8c9",
+      "slug": "two-minute-papers-latest-2026-06-22",
+      "title": "Two Minute Papers — Latest AI Research Video (2026-06-21)",
+      "topic": "YouTube",
+      "source_name": "Two Minute Papers",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "Two Minute Papers is a long-running YouTube channel by Karoly Zsolnai-Feher that distills cutting-edge AI and computer science research papers into engaging 2-4 minute video summaries. The channel covers topics ranging from generative models and neural rendering to robotics and scientific simulation. Each video provides a concise explanation of a recent paper's key contributions, methodology, and results, making frontier research accessible to a broad technical audience. The channel publishes multiple times per week and has become a key resource for staying current with AI research trends without reading full papers.",
+      "source_url": "https://www.youtube.com/@TwoMinutePapers",
+      "tech_impact": "Two Minute Papers is a high-signal channel for quickly surveying impressive new AI research results. Ideal for developers and researchers wanting a visual preview before reading full papers.",
+      "tags": [
+        "AI-research",
+        "papers-explained",
+        "two-minute-papers",
+        "Karoly-Zsolnai-Feher"
+      ],
+      "category_label": "YouTube",
+      "published_at": "2026-06-21T00:00:00Z",
+      "youtube_channel": "https://www.youtube.com/@TwoMinutePapers",
+      "youtube_video": "https://www.youtube.com/@TwoMinutePapers/videos",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI research",
+        "machine learning",
+        "generative AI",
+        "computer graphics"
+      ],
+      "actions_developer": [
+        "Subscribe to Two Minute Papers for quick visual surveys of frontier AI research papers published each week",
+        "Use video topics as a signal for which new papers deserve deeper reading attention"
+      ],
+      "actions_business": [
+        "Share Two Minute Papers videos in team channels to maintain broad AI research awareness without time overhead",
+        "Use channel content to identify emerging research themes for strategic technology roadmaps"
+      ]
+    },
+    {
+      "id": "wesroth-e1f2a3b4",
+      "slug": "wes-roth-latest-2026-06-22",
+      "title": "Wes Roth — Latest Frontier AI News & Analysis (2026-06-22)",
+      "topic": "YouTube",
+      "source_name": "Wes Roth",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "Wes Roth (youtube.com/@WesRoth) covers the latest frontier AI developments including major model releases from OpenAI, Anthropic, Google, and others. The channel provides timely analysis of new AI capabilities, demos of frontier models, and commentary on the implications of rapid AI progress. Wes posts frequently in response to breaking AI news, making the channel a good real-time tracker of significant AI announcements. His content bridges technical AI developments and their broader societal and business implications, appealing to both technical practitioners and informed general audiences following AI progress.",
+      "source_url": "https://www.youtube.com/@WesRoth",
+      "tech_impact": "Wes Roth provides fast-turnaround analysis of major AI announcements — useful for staying current on frontier model capabilities and their business implications.",
+      "tags": [
+        "AI-news",
+        "LLM",
+        "AI-demos",
+        "frontier-AI",
+        "GPT-analysis"
+      ],
+      "category_label": "YouTube",
+      "published_at": "2026-06-21T00:00:00Z",
+      "youtube_channel": "https://www.youtube.com/@WesRoth",
+      "youtube_video": "https://www.youtube.com/@WesRoth/videos",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "frontier AI",
+        "AI news",
+        "LLMs",
+        "AI capabilities",
+        "AI business impact"
+      ],
+      "actions_developer": [
+        "Check Wes Roth for same-day video coverage when major new AI models or features are announced",
+        "Use his demos to quickly assess new AI capabilities before building integrations"
+      ],
+      "actions_business": [
+        "Monitor Wes Roth for rapid AI news analysis to brief leadership on significant AI announcements",
+        "Use channel as early signal for new AI capabilities that could affect competitive landscape"
+      ]
+    }
+  ]
+}

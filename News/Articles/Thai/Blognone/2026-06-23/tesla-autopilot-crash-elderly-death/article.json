@@ -1,0 +1,59 @@
+{
+  "article_id": "tesla-autopilot-crash-elderly-death-blognone-20260623",
+  "schema_version": "2.0",
+  "topic_group": "thailand",
+  "source_info": {
+    "category": "Thai",
+    "source_name": "Blognone",
+    "registry_key": "Thai/Blognone",
+    "domain": "AI-safety",
+    "main_url": "https://www.blognone.com"
+  },
+  "source": {
+    "url": "https://www.blognone.com/node/150966",
+    "type": "direct",
+    "origin": "direct",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-23T09:00:00+07:00",
+    "fetch_mode": "truncated"
+  },
+  "meta": {
+    "published_at": "2026-06-23T08:15:00+07:00",
+    "scraped_at": "2026-06-23T09:00:00+07:00",
+    "run_date": "2026-06-23",
+    "target_date": "2026-06-23",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "1",
+    "category": "AI-SAFETY",
+    "category_label": "AI ความปลอดภัย",
+    "news_type": "ข่าว",
+    "tags": ["Tesla", "Autopilot", "Autonomous", "Safety", "Accident"],
+    "language": "th"
+  },
+  "content": {
+    "title": "ผู้ขับ Tesla อ้างว่าใช้ Autopilot อยู่ หลังรถพุ่งเข้าชนบ้านจนหญิงสูงอายุเสียชีวิต",
+    "slug": "tesla-autopilot-crash-elderly-death",
+    "summary": "Michael Butler ขับ Tesla Model 3 ความเร็วสูงพุ่งชนบ้านจน Martha Avila วัย 76 ปีเสียชีวิต โดย Butler อ้างว่ารถอยู่ในโหมด Autopilot ขณะเกิดเหตุ แต่กล้องวงจรปิดบันทึกภาพรถวิ่งด้วยความเร็วสูงผิดปกติ",
+    "summary_1": "Michael Butler ผู้ขับ Tesla Model 3 ขับรถด้วยความเร็วสูงในย่านที่อยู่อาศัย และรถของเขาพุ่งเข้าชนบ้านหลังหนึ่งจนกระทั่ง Martha Avila หญิงวัย 76 ปีที่อยู่ในบ้านเสียชีวิต โดย Butler อ้างว่าขณะพุ่งชนรถ Tesla ขับแบบอัตโนมัติอยู่ กล้องวงจรปิดหลายตัวในบริเวณที่เกิดเหตุแสดงให้เห็นว่ารถของ Butler พุ่งไปด้วยความเร็วสูงจนกระทั่งเข้าชนกับตัวบ้านในที่สุด",
+    "body_text": "Michael Butler ผู้ขับ Tesla Model 3 ขับรถด้วยความเร็วสูงในย่านที่อยู่อาศัย และรถของเขาพุ่งเข้าชนบ้านหลังหนึ่งจนกระทั่ง Martha Avila หญิงวัย 76 ปีที่อยู่ในบ้านเสียชีวิต โดย Butler อ้างว่าขณะพุ่งชนรถ Tesla ขับแบบอัตโนมัติอยู่ กล้องวงจรปิดหลายตัวในบริเวณที่เกิดเหตุแสดงให้เห็นว่ารถของ Butler พุ่งไปด้วยความเร็วสูงจนกระทั่งเข้าชนกับตัวบ้านในที่สุด คดีนี้เป็นหนึ่งในคดีสำคัญที่ตั้งคำถามต่อความรับผิดชอบทางกฎหมายของระบบ Autopilot และผู้ขับขี่ในกรณีที่รถที่มีระบบช่วยขับเกิดอุบัติเหตุ ซึ่ง NHTSA และหน่วยงานกำกับดูแลในสหรัฐฯ กำลังพิจารณาข้อกำหนดที่ชัดเจนยิ่งขึ้น",
+    "language": "th",
+    "original_language": "th"
+  },
+  "tech_insights": {
+    "impact_summary": "อุบัติเหตุ Tesla Autopilot ยังคงตั้งคำถามต่อความรับผิดชอบทางกฎหมายและความปลอดภัยของ AI ในรถยนต์",
+    "actions_developer": ["พัฒนาระบบ failsafe และ override ที่ชัดเจนสำหรับ autonomous systems", "ออกแบบ logging system ที่บันทึกสถานะการควบคุมรถได้อย่างละเอียด"],
+    "actions_business": ["ติดตามกฎระเบียบด้านความปลอดภัยของ autonomous vehicles", "ทบทวนนโยบายความรับผิดชอบของผู้ผลิตและผู้ขับขี่"],
+    "urgency": "high",
+    "related_domains": ["Autonomous Vehicles", "AI Safety", "Computer Vision"],
+    "breakthrough_potential": false
+  },
+  "paths": {
+    "relative": "Thai/Blognone/2026-06-23/tesla-autopilot-crash-elderly-death",
+    "batch_file": "News/Batches/2026-06-23/batch_1.json"
+  }
+}
