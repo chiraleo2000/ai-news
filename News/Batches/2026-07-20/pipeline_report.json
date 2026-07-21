@@ -1,0 +1,64 @@
+{
+  "run_date": "2026-07-20T08:00:00+07:00",
+  "target_date": "2026-07-20",
+  "pipeline": "ai-news-master-v2.0",
+  "strategy": "source-first + batch-oriented",
+  "output_mode": "batch",
+  "batch_files": [
+    "News/Batches/2026-07-20/batch_1.json",
+    "News/Batches/2026-07-20/batch_2.json",
+    "News/Batches/2026-07-20/batch_3.json"
+  ],
+  "batches": {
+    "1": {
+      "attempted": 5,
+      "articles_created": 8,
+      "coverage_score": "good",
+      "topic_breakdown": { "ai_trends": 3, "tech_trends": 2, "global": 3, "thailand": 0 }
+    },
+    "2": {
+      "attempted": 12,
+      "articles_created": 10,
+      "coverage_score": "good",
+      "topic_breakdown": { "ai_trends": 4, "tech_trends": 3, "global": 3, "thailand": 0 }
+    },
+    "3": {
+      "attempted": 10,
+      "articles_created": 7,
+      "coverage_score": "fair",
+      "topic_breakdown": { "ai_trends": 5, "tech_trends": 1, "global": 0, "youtube": 2 }
+    }
+  },
+  "articles_total": 25,
+  "topic_breakdown": {
+    "ai_trends": 12,
+    "tech_trends": 6,
+    "global": 6,
+    "thailand": 0
+  },
+  "articles_skipped_duplicate_total": 0,
+  "skipped_older_than_24h": 25,
+  "top_stories": [
+    "Alibaba Qwen3.8-Max Preview (2.4T params) — second only to Claude Fable",
+    "Anthropic Fable 5 policy change effective July 20 (Max/Premium 50% quota, others credit)",
+    "China launches WAICO: 29-nation Global South AI governance alliance",
+    "EU DMA orders Google to open Android to AI rivals (ChatGPT, Claude) by July 2027",
+    "Databricks raises at $188B valuation (Coatue-led ~$3B round)",
+    "Apple Intelligence approved in China with Alibaba Qwen + Baidu",
+    "Anthropic-Meta data center deal in negotiations ($10B/2yr)",
+    "DeepMind + Isomorphic Labs announce Bioresilience AI biosecurity framework",
+    "OpenAI GPT-Red: self-improvement for AI safety robustness",
+    "DebunkBot (MIT/Cornell): AI reduces conspiracy belief by ~20%"
+  ],
+  "fetch_stats": {
+    "direct_attempted": 11,
+    "direct_success": 8,
+    "aggregator_attempted": 12,
+    "aggregator_success": 12,
+    "youtube_metadata_fetched": 2,
+    "total_web_fetch": 23,
+    "success_rate": "87%"
+  },
+  "files_created_total": 4,
+  "next_step": "git push to GitHub"
+}
