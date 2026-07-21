@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⚡ AI NEWS DAILY — 2026-07-21</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-primary: #f0f2f8;
+  --bg-card: #ffffff;
+  --bg-header: #1a1a2e;
+  --bg-section: #e8eaf6;
+  --neon-cyan: #00d4ff;
+  --neon-magenta: #ff00ff;
+  --neon-green: #00ff88;
+  --neon-purple: #a855f7;
+  --neon-orange: #ff6b35;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4a6a;
+  --text-muted: #8888aa;
+  --border: #d0d4e8;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Rajdhani', 'Segoe UI', Tahoma, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 15px;
+  line-height: 1.6;
+}
+/* HEADER */
+.site-header {
+  background: var(--bg-header);
+  color: #fff;
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.site-title {
+  font-family: 'Orbitron', monospace;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--neon-cyan);
+  text-shadow: 0 0 20px rgba(0,212,255,0.5);
+  letter-spacing: 2px;
+}
+.site-date {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-left: auto;
+}
+/* STATS BAR */
+.stats-bar {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 16px 32px;
+  background: #fff;
+  border-bottom: 2px solid var(--border);
+}
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: var(--bg-primary);
+  min-width: 80px;
+}
+.stat-num {
+  font-family: 'Orbitron', monospace;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.stat-label {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Share Tech Mono', monospace;
+}
+.stat-ai { color: var(--neon-cyan); }
+.stat-tech { color: var(--neon-purple); }
+.stat-thai { color: var(--neon-orange); }
+.stat-global { color: var(--neon-green); }
+.stat-total { color: var(--bg-header); }
+/* TOP INSIGHTS */
+.top-insights {
+  margin: 20px 32px;
+  background: #1a1a2e;
+  border-radius: 12px;
+  padding: 20px 24px;
+  border: 1px solid rgba(0,212,255,0.3);
+}
+.top-insights h2 {
+  font-family: 'Orbitron', monospace;
+  color: var(--neon-cyan);
+  font-size: 1rem;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+.insight-item {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.insight-item:last-child { border-bottom: none; }
+.insight-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  flex: 1;
+  min-width: 0;
+}
+.insight-impact {
+  color: #aaa;
+  font-size: 0.8rem;
+  flex: 1.5;
+}
+/* SECTIONS */
+.content { padding: 0 32px 48px; }
+.topic-section {
+  margin-bottom: 40px;
+}
+.section-header {
+  padding: 12px 0;
+  margin-bottom: 16px;
+  border-bottom: 2px solid;
+}
+.topic-ai-trends-header { border-color: var(--neon-cyan); }
+.topic-ai-trends-header h2 { color: var(--neon-cyan); font-family: 'Orbitron', monospace; font-size: 1.1rem; letter-spacing: 1px; }
+.topic-tech-trends-header { border-color: var(--neon-purple); }
+.topic-tech-trends-header h2 { color: var(--neon-purple); font-family: 'Orbitron', monospace; font-size: 1.1rem; letter-spacing: 1px; }
+.topic-thailand-header { border-color: var(--neon-orange); }
+.topic-thailand-header h2 { color: var(--neon-orange); font-family: 'Orbitron', monospace; font-size: 1.1rem; letter-spacing: 1px; }
+.topic-global-header { border-color: var(--neon-green); }
+.topic-global-header h2 { color: var(--neon-green); font-family: 'Orbitron', monospace; font-size: 1.1rem; letter-spacing: 1px; }
+.section-count {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-left: 8px;
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 16px;
+}
+/* CARDS */
+.news-card {
+  background: var(--bg-card);
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  padding: 16px;
+  border-left-width: 4px;
+  transition: box-shadow 0.2s;
+}
+.news-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+.topic-ai-trends { border-left-color: var(--neon-cyan); }
+.topic-tech-trends { border-left-color: var(--neon-purple); }
+.topic-thailand { border-left-color: var(--neon-orange); }
+.topic-global { border-left-color: var(--neon-green); }
+.card-header { margin-bottom: 10px; }
+.card-meta { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-bottom: 8px; }
+.urgency-badge {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.65rem;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.bt-badge {
+  font-size: 0.65rem;
+  background: linear-gradient(135deg, #ffd700, #ff6b35);
+  color: #fff;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-family: 'Share Tech Mono', monospace;
+}
+.source-badge {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  background: var(--bg-section);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-family: 'Share Tech Mono', monospace;
+}
+.cat-badge {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  font-family: 'Share Tech Mono', monospace;
+}
+.card-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+.card-title a { color: inherit; text-decoration: none; }
+.card-title a:hover { color: var(--neon-cyan); }
+.card-body { margin-bottom: 10px; }
+.card-content {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-bottom: 8px;
+}
+.tech-impact {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: italic;
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+  margin-top: 8px;
+}
+.card-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px; }
+.tag {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.65rem;
+  padding: 2px 7px;
+  border-radius: 3px;
+  background: var(--bg-section);
+  color: var(--text-muted);
+}
+.card-actions {
+  display: flex;
+  gap: 12px;
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+  margin-top: 8px;
+}
+.actions-col {
+  flex: 1;
+  font-size: 0.78rem;
+}
+.actions-col strong { color: var(--text-primary); display: block; margin-bottom: 4px; }
+.actions-col ul { padding-left: 14px; color: var(--text-secondary); }
+.actions-col li { margin-bottom: 2px; }
+/* FOOTER */
+.site-footer {
+  background: var(--bg-header);
+  color: #666;
+  text-align: center;
+  padding: 16px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.75rem;
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-top">
+    <div class="site-title">⚡ AI NEWS DAILY</div>
+    <div class="site-date">2026-07-21 | Pipeline v2.0</div>
+  </div>
+</header>
+
+<div class="stats-bar">
+  <div class="stat-item"><span class="stat-num stat-total">29</span><span class="stat-label">Total</span></div>
+  <div class="stat-item"><span class="stat-num stat-ai">15</span><span class="stat-label">AI Trends</span></div>
+  <div class="stat-item"><span class="stat-num stat-tech">1</span><span class="stat-label">Tech</span></div>
+  <div class="stat-item"><span class="stat-num stat-thai">10</span><span class="stat-label">Thailand</span></div>
+  <div class="stat-item"><span class="stat-num stat-global">3</span><span class="stat-label">Global</span></div>
+  <div class="stat-item"><span class="stat-num" style="color:#ff4757">12</span><span class="stat-label">High</span></div>
+  <div class="stat-item"><span class="stat-num" style="color:#ffd700">5</span><span class="stat-label">Breakthroughs</span></div>
+</div>
+
+<div class="top-insights">
+  <h2>⚡ TOP STORIES TODAY</h2>
+  
+      <div class="insight-item">
+        <span class="insight-title">ตลาด AI เปิดจากจีนระอุ Alibaba เปิดตัว Qwen 3.8 ระบุเป็นรองแค่ Claude Fable</span>
+        <span class="insight-impact">Qwen 3.8 จาก Alibaba อ้างสมรรถนะระดับ frontier รองแค่ Claude Fable เป็นสัญญาณว่าการแข่งขัน LLM ระหว่าง US และจีนร้อนแรงขึ้น</span>
+      </div>
+      <div class="insight-item">
+        <span class="insight-title">Fable 5 ตั้งแต่ 20 กรกฎาคม ยังได้โควต้า 50% เฉพาะ Max และ Team Premium กลุ่มอื่นต้องซื้อเครดิตเพิ่มเท่านั้น</span>
+        <span class="insight-impact">นโยบาย credit-based สำหรับ Claude Fable 5 เพิ่มต้นทุนสำหรับผู้ใช้ Pro/Standard ที่ต้องการใช้ frontier model ส่งผลต่อการวางแผนงบประมาณ AI ขององค์กร</span>
+      </div>
+      <div class="insight-item">
+        <span class="insight-title">[ลือ] Anthropic เจรจาขอเช่าศูนย์ข้อมูลของ Meta มารัน AI มูลค่า $10B/2 ปี</span>
+        <span class="insight-impact">ดีล Anthropic-Meta ด้าน compute มูลค่า $10B บ่งชี้ว่า AI infrastructure cost กำลังกลายเป็น competitive moat สำคัญสำหรับ frontier labs</span>
+      </div>
+      <div class="insight-item">
+        <span class="insight-title">EU ออกคำสั่ง Google ต้องเปิดให้ AI ค่ายอื่นเข้าถึงฟังก์ชัน Android ได้เท่ากับ Gemini</span>
+        <span class="insight-impact">EU DMA mandate เปิดโอกาสให้ Claude และ ChatGPT แข่งขันบน Android ใน EU ได้เท่าเทียม Gemini เปลี่ยนโครงสร้างตลาด mobile AI</span>
+      </div>
+      <div class="insight-item">
+        <span class="insight-title">จีนอนุมัติ Apple Intelligence แล้ว ใช้โมเดล Qwen ของ Alibaba เป็นหลัก</span>
+        <span class="insight-impact">Apple Intelligence เข้าตลาดจีนด้วย Qwen+Baidu เปิด 300M iPhone ให้ใช้ on-device AI สัญญาณว่า China AI market จะเติบโตระเบิด</span>
+      </div>
+</div>
+
+<main class="content">
+  
+  <section class="topic-section" id="ai-trends">
+    <div class="section-header topic-ai-trends-header">
+      <h2>🧠 AI Trends <span class="section-count">15</span></h2>
+    </div>
+    <div class="cards-grid">
+      
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ff4757">🔴 HIGH</span>
+          
+          <span class="source-badge">TechCrunch</span>
+          <span class="cat-badge">International</span>
+        </div>
+        <h3 class="card-title"><a href="https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/" target="_blank" rel="noopener">Anthropic's landmark $1.5B copyright settlement is approved</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">ศาลได้อนุมัติข้อตกลงคดีลิขสิทธิ์มูลค่า 1.5 พันล้านดอลลาร์ของ Anthropic ซึ่งถือเป็น landmark สำหรับวงการ AI โดยเฉพาะในด้านการใช้ข้อมูล copyrighted content ในการ training AI models คดีนี้มีนัยยะสำคัญต่ออุตสาหกรรม AI เนื่องจากเป็นหนึ่งในการตกลงคดี AI copyright ที่มีมูลค่าสูงที่สุด และจะเป็นบรรทัดฐานสำหรับคดีอื่นๆ ที่ยังอยู่ระหว่างดำเนินการ รวมถึงกรณีของ OpenAI และ Meta</p>
+        <p class="tech-impact"><strong>Impact:</strong> การอนุมัติ Anthropic settlement $1.5B สร้างบรรทัดฐานสำหรับคดี AI copyright ทั่วโลก ส่งผลต่อต้นทุนและแนวทาง training data ของ AI labs</p>
+      </div>
+      <div class="card-tags"><span class="tag">Anthropic</span><span class="tag">Copyright</span><span class="tag">Settlement</span><span class="tag">Legal</span><span class="tag">AI Training Data</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ทบทวนการใช้ training data ในโปรเจกต์ ML ให้มีเอกสารกำกับดูแลที่ชัดเจนเพื่อลดความเสี่ยงทางกฎหมาย</li><li>ติดตามบรรทัดฐาน Anthropic settlement ที่จะกระทบต่อ data licensing frameworks ในอุตสาหกรรม</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ประเมินความเสี่ยง IP ของ AI systems ที่ใช้งานในองค์กรและจัดทำ due diligence documentation</li><li>ติดตามพัฒนาการ AI copyright law เพื่อปรับ data governance policy ให้สอดคล้องกับกฎหมายใหม่</li></ul></div></div>
+    </article>
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ff4757">🔴 HIGH</span>
+          
+          <span class="source-badge">TechCrunch</span>
+          <span class="cat-badge">International</span>
+        </div>
+        <h3 class="card-title"><a href="https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/" target="_blank" rel="noopener">AI's most important protocol is getting a little bit easier to use</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">Model Context Protocol (MCP) ซึ่งถือเป็นโปรโตคอลที่สำคัญที่สุดในวงการ AI agents กำลังได้รับการอัปเดตให้ใช้งานง่ายขึ้น MCP เป็นมาตรฐานที่ช่วยให้ AI models สามารถเชื่อมต่อกับ tools, APIs และ data sources ต่างๆ ได้ การทำให้ MCP ใช้งานง่ายขึ้นจะเร่งการ adoption ของ AI agents ในองค์กรและช่วยให้นักพัฒนาสร้าง agentic applications ได้รวดเร็วขึ้น</p>
+        <p class="tech-impact"><strong>Impact:</strong> MCP ที่ใช้งานง่ายขึ้นจะเร่ง adoption ของ AI agents อย่างมีนัยยะ นักพัฒนาที่เชี่ยวชาญ MCP จะได้เปรียบในตลาดงาน agentic AI</p>
+      </div>
+      <div class="card-tags"><span class="tag">MCP</span><span class="tag">Model Context Protocol</span><span class="tag">AI Protocol</span><span class="tag">Agentic AI</span><span class="tag">Developer Tools</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>เรียนรู้ MCP specification ใหม่และทดสอบ integration กับ AI agents ที่กำลังพัฒนา</li><li>ประเมิน MCP-compatible tools ในตลาดเพื่อขยาย capabilities ของ AI applications</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ลงทุนใน MCP training สำหรับทีม developers เพื่อรับ early mover advantage ใน agentic AI</li><li>วางแผน AI agent architecture ให้รองรับ MCP standard เพื่อความยืดหยุ่นในการเพิ่ม capabilities</li></ul></div></div>
+    </article>
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ff4757">🔴 HIGH</span>
+          
+          <span class="source-badge">TechCrunch</span>
+          <span class="cat-badge">International</span>
+        </div>
+        <h3 class="card-title"><a href="https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/" target="_blank" rel="noopener">OpenAI is scared of open-weight models. Should the US be?</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">TechCrunch นำเสนอบทวิเคราะห์เกี่ยวกับความกังวลของ OpenAI ต่อ open-weight AI models โดยเฉพาะจากจีน เช่น Qwen 3.8 และ Kimi K3 ที่อ้างว่ามีสมรรถนะทัดเทียม frontier models ตะวันตก บทวิเคราะห์นี้ตั้งคำถามว่า ในขณะที่ OpenAI กังวล US โดยรวมควรเป็นห่วงมากน้อยเพียงใด โดยแยกระหว่างความเสี่ยงด้านความมั่นคงที่แท้จริงกับการปกป้องผลประโยชน์เชิงพาณิชย์</p>
+        <p class="tech-impact"><strong>Impact:</strong> การถกเถียงเรื่อง open-weight AI risks จะกำหนดทิศทาง US AI policy และ regulation ที่ส่งผลต่อการใช้งาน open source AI ใน enterprise</p>
+      </div>
+      <div class="card-tags"><span class="tag">OpenAI</span><span class="tag">Open Source AI</span><span class="tag">Open-weight Models</span><span class="tag">China AI</span><span class="tag">AI Policy</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ประเมิน risk/benefit ของการใช้ open-weight Chinese models (Qwen, Kimi) ใน production systems</li><li>ติดตาม US AI export controls ที่อาจส่งผลต่อการเข้าถึงและใช้งาน open-weight models</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>พัฒนา AI model sourcing policy ที่คำนึงถึงทั้ง performance, cost และ geopolitical risk</li><li>ติดตามผลกระทบจาก US policy ต่อ Chinese AI models ก่อนนำไปใช้ใน critical systems</li></ul></div></div>
+    </article>
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ff4757">🔴 HIGH</span>
+          <span class="bt-badge">⚡ BREAKTHROUGH</span>
+          <span class="source-badge">VentureBeat</span>
+          <span class="cat-badge">International</span>
+        </div>
+        <h3 class="card-title"><a href="https://venturebeat.com/ai/gpt-5-2-first-impressions/" target="_blank" rel="noopener">GPT-5.2 first impressions: a powerful update, especially for business tasks and workflows</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">VentureBeat รวบรวม first impressions จาก early testers ของ GPT-5.2 ซึ่ง OpenAI ปล่อยให้ทดสอบก่อน public release ผลออกมาเป็นสองทาง: ฝั่งหนึ่งเห็นว่าเป็นก้าวกระโดดใหญ่ด้าน autonomous reasoning และ coding สำหรับงานธุรกิจ ขณะที่อีกฝั่งมองว่าเป็น 'incremental' update สำหรับการสนทนาทั่วไป สะท้อนว่า GPT-5.2 ถูก optimize สำหรับ business workflows มากกว่า general conversation</p>
+        <p class="tech-impact"><strong>Impact:</strong> GPT-5.2 optimize สำหรับ business workflows และ autonomous reasoning ผู้ใช้ enterprise จะได้ประโยชน์มากกว่า casual users</p>
+      </div>
+      <div class="card-tags"><span class="tag">GPT-5.2</span><span class="tag">OpenAI</span><span class="tag">LLM</span><span class="tag">AI Model Review</span><span class="tag">Business AI</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ทดสอบ GPT-5.2 กับ coding และ agentic workflows เพื่อประเมิน performance gain จริงในงานของคุณ</li><li>เปรียบเทียบ GPT-5.2 กับ Claude Fable 5 ในด้าน business tasks เพื่อเลือก model ที่คุ้มค่าที่สุด</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ทดลอง GPT-5.2 กับ business process automation workflows เพื่อวัด ROI ที่แท้จริง</li><li>วางแผน model upgrade path สำหรับ enterprise AI tools ที่ใช้ GPT-4/5 อยู่</li></ul></div></div>
+    </article>
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ff4757">🔴 HIGH</span>
+          
+          <span class="source-badge">ArXiv cs.AI</span>
+          <span class="cat-badge">Research</span>
+        </div>
+        <h3 class="card-title"><a href="https://arxiv.org/abs/2607.15267" target="_blank" rel="noopener">Pretraining Data Can Be Poisoned through Computational Propaganda</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">งานวิจัยจาก University of Washington และทีม (arXiv:2607.15267) เผยว่าข้อมูล pretraining ของ LLMs มีความเสี่ยงถูก poisoning ผ่าน Computational Propaganda กล่าวคือผู้ไม่ประสงค์ดีสามารถสร้างเนื้อหาออนไลน์ด้วย automation ในปริมาณมากเพื่อ bias พฤติกรรมของ LLM ที่ถูก train บนข้อมูลเหล่านั้น งานวิจัยนี้แสดงว่า training data poisoning ผ่าน web content เป็นภัยคุกคามที่เป็นจริง ไม่ใช่แค่ theoretical risk</p>
+        <p class="tech-impact"><strong>Impact:</strong> Pretraining data poisoning ผ่าน propaganda content เป็นภัยจริง กระทบความน่าเชื่อถือของ LLM ที่ train จาก web data โดยไม่มี strong filtering</p>
+      </div>
+      <div class="card-tags"><span class="tag">AI Safety</span><span class="tag">Data Poisoning</span><span class="tag">Pretraining</span><span class="tag">LLM Security</span><span class="tag">Computational Propaganda</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ศึกษา data filtering techniques เพื่อป้องกัน poisoned content ในกระบวนการ training หรือ fine-tuning</li><li>ตรวจสอบ data provenance ของ models ที่ใช้งานว่ามีมาตรการป้องกัน data poisoning หรือไม่</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>กำหนด AI procurement policy ที่รวมการประเมิน training data quality และ poisoning resistance</li><li>ลงทุนใน AI audit และ red-teaming สำหรับ models ที่ใช้ใน high-stakes decisions</li></ul></div></div>
+    </article>
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ff4757">🔴 HIGH</span>
+          
+          <span class="source-badge">ArXiv cs.AI</span>
+          <span class="cat-badge">Research</span>
+        </div>
+        <h3 class="card-title"><a href="https://arxiv.org/abs/2607.15218" target="_blank" rel="noopener">When Words Are Safe But Actions Kill: Probing Physical Danger Beyond Text Safety in Hidden-State Risk Space</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">งานวิจัย (arXiv:2607.15218) เผยช่องว่างสำคัญใน AI safety: LLM อาจผ่านการตรวจสอบด้าน text safety ได้ แต่ยังคงสามารถสั่งการกระทำที่เป็นอันตรายต่อ physical world ได้ผ่าน hidden states ในโมเดล งานวิจัยนี้มีความสำคัญอย่างยิ่งสำหรับ agentic AI ที่มีการเชื่อมต่อกับ physical systems เช่น robotics หรือ IoT เนื่องจาก safety evaluation ปัจจุบันอาจไม่เพียงพอ</p>
+        <p class="tech-impact"><strong>Impact:</strong> ช่องว่าง text safety vs physical safety ใน LLM เป็นความเสี่ยงสูงสำหรับ agentic AI ที่ควบคุม physical systems ต้องการ safety evaluation frameworks ใหม่</p>
+      </div>
+      <div class="card-tags"><span class="tag">AI Safety</span><span class="tag">LLM Safety</span><span class="tag">Physical Danger</span><span class="tag">Hidden-State Risk</span><span class="tag">AI Alignment</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>เพิ่ม physical safety evaluation layer สำหรับ AI agents ที่มีการเชื่อมต่อกับ physical systems หรือ IoT</li><li>ออกแบบ safety testing ที่ครอบคลุมทั้ง text safety และ action safety สำหรับ agentic AI applications</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>กำหนด safety standards ที่ครอบคลุม physical risks สำหรับ AI deployments ในโรงงาน ระบบขนส่ง หรือ critical infrastructure</li><li>ลงทุนใน specialized AI safety testing สำหรับ agentic systems ก่อน production deployment</li></ul></div></div>
+    </article>
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ff4757">🔴 HIGH</span>
+          <span class="bt-badge">⚡ BREAKTHROUGH</span>
+          <span class="source-badge">HuggingFace Blog</span>
+          <span class="cat-badge">Research</span>
+        </div>
+        <h3 class="card-title"><a href="https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai" target="_blank" rel="noopener">Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">NVIDIA เปิดตัว Cosmos 3 บน HuggingFace ซึ่งเป็น open omni-model ตัวแรกที่ออกแบบมาสำหรับ physical AI reasoning และ action โดยเฉพาะ Cosmos 3 สามารถเข้าใจและใช้เหตุผลเกี่ยวกับ physical world ได้ ทำให้เหมาะสำหรับ robotics, autonomous vehicles และ industrial AI ที่ต้องการ AI ที่เข้าใจกฎฟิสิกส์และสามารถวางแผนการกระทำได้ โพสต์นี้ได้รับ 80 upvotes บน HuggingFace</p>
+        <p class="tech-impact"><strong>Impact:</strong> NVIDIA Cosmos 3 เป็น open physical AI model ที่สำคัญสำหรับ robotics และ industrial AI ช่วย democratize การพัฒนา physical world AI applications</p>
+      </div>
+      <div class="card-tags"><span class="tag">NVIDIA</span><span class="tag">Cosmos 3</span><span class="tag">Physical AI</span><span class="tag">Robotics</span><span class="tag">Omni-model</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ทดสอบ NVIDIA Cosmos 3 บน HuggingFace สำหรับ robotics simulation และ physical reasoning tasks</li><li>ศึกษา Cosmos 3 architecture สำหรับ applications ที่ต้องการ AI เข้าใจ physical constraints</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ประเมิน Cosmos 3 สำหรับ industrial automation และ robotics projects ที่ต้องการ physical AI reasoning</li><li>ติดตาม NVIDIA Cosmos ecosystem เพื่อเตรียมรับมาตรฐานใหม่ใน physical AI development</li></ul></div></div>
+    </article>
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">TechCrunch</span>
+          <span class="cat-badge">International</span>
+        </div>
+        <h3 class="card-title"><a href="https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/" target="_blank" rel="noopener">Google is working on a new AI chip designed to make Gemini more efficient</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">Google กำลังพัฒนาชิป AI รุ่นใหม่ที่ออกแบบมาโดยเฉพาะเพื่อทำให้ Gemini models มีประสิทธิภาพสูงขึ้น สิ่งนี้บ่งชี้ว่า Google กำลังลงทุนในการลดต้นทุน inference ของ Gemini อย่างจริงจัง นับเป็นส่วนหนึ่งของ custom silicon strategy ที่ Google พัฒนา TPU มาหลายปีแล้ว การพัฒนาชิปเฉพาะทางนี้อาจช่วยให้ Google สามารถลดราคา Gemini API และเพิ่ม competitiveness เมื่อเทียบกับ Claude และ GPT</p>
+        <p class="tech-impact"><strong>Impact:</strong> ชิป AI ใหม่ของ Google สำหรับ Gemini อาจลดต้นทุน inference อย่างมีนัยยะ ส่งผลให้ Gemini API ถูกลงและแข่งขันกับ Claude/GPT ได้ดีขึ้น</p>
+      </div>
+      <div class="card-tags"><span class="tag">Google</span><span class="tag">AI Chip</span><span class="tag">Gemini</span><span class="tag">TPU</span><span class="tag">AI Efficiency</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>เฝ้าติดตามการเปลี่ยนแปลงราคา Gemini API ที่อาจลดลงเมื่อชิปใหม่ deploy</li><li>ประเมิน latency และ throughput ของ Gemini เมื่อชิปใหม่ออก เทียบกับ Claude และ GPT-5</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>เตรียมประเมิน TCO (Total Cost of Ownership) ของ Gemini API ใหม่เมื่อชิปใหม่ทำให้ราคาลด</li><li>พิจารณา multi-model strategy ที่ผสม Gemini (ราคาต่ำ) กับ Claude/GPT (คุณภาพสูง) ตามงาน</li></ul></div></div>
+    </article>
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          <span class="bt-badge">⚡ BREAKTHROUGH</span>
+          <span class="source-badge">TechCrunch</span>
+          <span class="cat-badge">International</span>
+        </div>
+        <h3 class="card-title"><a href="https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/" target="_blank" rel="noopener">Nonprofit Current AI is racing to build the World Wide Web of AI, free for all</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">Current AI องค์กร nonprofit กำลังแข่งพัฒนา open AI network ที่เปรียบเสมือน World Wide Web ของ AI ซึ่งจะเปิดให้ทุกคนเข้าถึงได้ฟรี โปรเจกต์นี้มุ่งสร้างโครงสร้างพื้นฐาน AI สาธารณะที่ไม่ถูกครอบครองโดยบริษัทใดบริษัทหนึ่ง เพื่อ democratize การเข้าถึง AI สำหรับทุกคนทั่วโลก ซึ่งสวนทางกับแนวโน้มปัจจุบันที่ AI power กระจุกอยู่ที่ Big Tech</p>
+        <p class="tech-impact"><strong>Impact:</strong> Open AI network จาก Current AI อาจเปลี่ยนโครงสร้างการเข้าถึง AI ลดการกระจุกตัวของ AI power ที่ Big Tech labs</p>
+      </div>
+      <div class="card-tags"><span class="tag">Current AI</span><span class="tag">Open AI Network</span><span class="tag">Nonprofit</span><span class="tag">AI Democratization</span><span class="tag">Open Source AI</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ติดตาม Current AI protocol specifications เพื่อเตรียม integration กับ open AI network ในอนาคต</li><li>ประเมินโอกาสในการ contribute หรือใช้ประโยชน์จาก open AI infrastructure สำหรับ projects ที่มีงบจำกัด</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ติดตามพัฒนาการของ open AI network ที่อาจลดต้นทุน AI access สำหรับ SMEs</li><li>พิจารณาสนับสนุน open AI initiatives เพื่อสร้าง goodwill และเข้าถึง open AI resources ก่อนคนอื่น</li></ul></div></div>
+    </article>
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">TechCrunch</span>
+          <span class="cat-badge">International</span>
+        </div>
+        <h3 class="card-title"><a href="https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/" target="_blank" rel="noopener">Databricks hits $188B valuation, extending its run as AI's favorite second act</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">Databricks ประกาศรับเงินลงทุนรอบใหม่มูลค่า $3B นำโดย Coatue Management ทำให้มูลค่ากิจการพุ่งขึ้นเป็น 1.88 แสนล้านดอลลาร์ เพิ่มขึ้นจาก 1.34 แสนล้านดอลลาร์ TechCrunch ชี้ว่า Databricks กำลังกลายเป็น 'second act' ที่ AI อุตสาหกรรมชื่นชอบ คือ data + AI infrastructure layer ที่ทุก enterprise ต้องการ ทำให้มูลค่าบริษัทใกล้เคียงกับ OpenAI และ Anthropic</p>
+        <p class="tech-impact"><strong>Impact:</strong> มูลค่า $188B ของ Databricks ยืนยันว่า AI data infrastructure เป็น category ที่มีมูลค่าสูงมาก นักลงทุนเชื่อว่า data layer จะเป็น moat สำคัญ</p>
+      </div>
+      <div class="card-tags"><span class="tag">Databricks</span><span class="tag">Startup</span><span class="tag">Valuation</span><span class="tag">AI Data</span><span class="tag">Enterprise AI</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ศึกษา Databricks Unity Catalog และ MLflow สำหรับ enterprise AI data pipeline ที่มีมาตรฐาน</li><li>เปรียบเทียบ Databricks กับ Snowflake และ BigQuery เพื่อเลือก AI data platform ที่เหมาะสม</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>พิจารณา Databricks เป็น strategic AI data platform partner หากยังไม่มี enterprise data layer</li><li>ติดตาม Databricks roadmap หลังระดมทุน $3B เพื่อประเมิน features ใหม่ที่จะตามมา</li></ul></div></div>
+    </article>
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">ArXiv cs.AI</span>
+          <span class="cat-badge">Research</span>
+        </div>
+        <h3 class="card-title"><a href="https://arxiv.org/abs/2607.14782" target="_blank" rel="noopener">Global Index on Responsible AI: 2026 Report</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">รายงาน Global Index on Responsible AI ประจำปี 2026 (arXiv:2607.14782) นำเสนอการประเมินระดับ AI governance และ responsible AI practices ของประเทศต่างๆ ทั่วโลก รายงานนี้เป็น resource สำคัญสำหรับองค์กรที่ต้องการเข้าใจ regulatory landscape ด้าน AI ในแต่ละประเทศ และสำหรับ policymakers ที่ต้องการเปรียบเทียบมาตรฐาน responsible AI ระหว่างประเทศ</p>
+        <p class="tech-impact"><strong>Impact:</strong> รายงาน Global Responsible AI Index 2026 เป็น reference สำคัญสำหรับองค์กรที่ต้องการเข้าใจ AI regulatory differences ระหว่างประเทศ</p>
+      </div>
+      <div class="card-tags"><span class="tag">AI Governance</span><span class="tag">Responsible AI</span><span class="tag">Global AI Index</span><span class="tag">AI Policy</span><span class="tag">AI Ethics</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>อ่านรายงาน Global Responsible AI Index เพื่อเข้าใจ regulatory requirements ของตลาดที่วางแผนจะ deploy AI</li><li>ใช้ดัชนีเปรียบเทียบ AI governance maturity ระหว่างประเทศในการวางแผน global AI product strategy</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ใช้ Global Responsible AI Index เป็น baseline สำหรับประเมิน AI compliance readiness ขององค์กร</li><li>อ้างอิงรายงานในการพัฒนา internal AI governance frameworks ให้สอดคล้องกับ global standards</li></ul></div></div>
+    </article>
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">ArXiv cs.AI</span>
+          <span class="cat-badge">Research</span>
+        </div>
+        <h3 class="card-title"><a href="https://arxiv.org/abs/2607.14642" target="_blank" rel="noopener">MCPEvol-Bench: Benchmarking LLM Agent Performance Across Dynamic Evolutions of MCP Servers</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">งานวิจัย (arXiv:2607.14642) นำเสนอ MCPEvol-Bench ซึ่งเป็น benchmark ใหม่สำหรับประเมิน LLM agents ในสภาพแวดล้อมที่ MCP (Model Context Protocol) servers มีการเปลี่ยนแปลงตามเวลา เนื่องจากการ evaluate AI agents บน static MCP configurations ไม่สะท้อนสภาพแวดล้อมจริงที่ APIs และ tools เปลี่ยนแปลงบ่อยครั้ง งานวิจัยนี้เชื่อมโยงโดยตรงกับการพัฒนา robust agentic AI systems ที่ต้องปรับตัวต่อ dynamic tool environments</p>
+        <p class="tech-impact"><strong>Impact:</strong> MCPEvol-Bench เป็น benchmark ที่สำคัญสำหรับทีมพัฒนา agentic AI ที่ต้องการวัด robustness ของ AI agents ต่อ dynamic MCP environments</p>
+      </div>
+      <div class="card-tags"><span class="tag">MCP</span><span class="tag">Benchmark</span><span class="tag">LLM Agent</span><span class="tag">Model Context Protocol</span><span class="tag">Evaluation</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ทดสอบ AI agents ด้วย MCPEvol-Bench เพื่อวัด robustness ต่อ MCP tool changes ก่อน production</li><li>ออกแบบ agentic systems ที่ gracefully handle MCP server version changes และ API evolution</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>กำหนด testing standards ที่รวม dynamic MCP evaluation สำหรับ AI agents ที่ใช้ใน enterprise</li><li>ประเมินความเสี่ยงจาก MCP server changes ต่อ production AI agents ขององค์กร</li></ul></div></div>
+    </article>
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">ArXiv cs.AI</span>
+          <span class="cat-badge">Research</span>
+        </div>
+        <h3 class="card-title"><a href="https://arxiv.org/abs/2607.14541" target="_blank" rel="noopener">Are LLM-Generated GPU Kernels Production-Ready? A Trace-Driven Benchmark and Optimization Agent</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">งานวิจัย (arXiv:2607.14541) จาก Alibaba ตั้งคำถามสำคัญว่า GPU kernels ที่ LLM สร้างขึ้นมีความพร้อมสำหรับ production จริงหรือไม่ โดยนำเสนอ Atrex-Bench (trace-driven benchmark) และ Atrex-Kernel-Agent (optimization agent) ที่เปิดเป็น open source ทั้งสองเครื่องมือนี้ช่วยให้นักพัฒนาสามารถประเมินและปรับปรุง LLM-generated GPU code ให้มีประสิทธิภาพสูงพอสำหรับ production workloads</p>
+        <p class="tech-impact"><strong>Impact:</strong> งานวิจัยนี้ address ปัญหาสำคัญที่ developer ต้องการทราบ: AI-generated GPU code มีคุณภาพพอสำหรับ production ไหม เครื่องมือ open source ช่วยตรวจสอบได้</p>
+      </div>
+      <div class="card-tags"><span class="tag">LLM</span><span class="tag">GPU</span><span class="tag">Code Generation</span><span class="tag">AI Coding</span><span class="tag">Production-Ready AI</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ใช้ Atrex-Bench ทดสอบ GPU kernels ที่ LLM/AI coding tools สร้างขึ้นก่อน deploy ใน production</li><li>ศึกษา Atrex-Kernel-Agent เป็น tool เพิ่ม efficiency ของ AI-generated CUDA code</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>กำหนด QA process สำหรับ AI-generated GPU code ที่รวม benchmark evaluation ก่อน production</li><li>ประเมินความเสี่ยงและ performance implications ของการใช้ LLM-generated code ใน GPU-intensive systems</li></ul></div></div>
+    </article>
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">HuggingFace Blog</span>
+          <span class="cat-badge">Research</span>
+        </div>
+        <h3 class="card-title"><a href="https://huggingface.co/blog/CohereLabs/introducing-north-mini-code" target="_blank" rel="noopener">Introducing North Mini Code: Cohere's First Model For Developers</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">Cohere (CohereLabs) เปิดตัว North Mini Code ซึ่งเป็นโมเดล AI สำหรับ coding ตัวแรกของ Cohere ที่ออกแบบมาโดยเฉพาะสำหรับนักพัฒนา โมเดลนี้เน้นประสิทธิภาพสูงในขนาดที่เล็กและมีประสิทธิภาพในการใช้ computational resources โพสต์นี้ได้รับ 66 upvotes บน HuggingFace สะท้อนความสนใจสูงจาก developer community</p>
+        <p class="tech-impact"><strong>Impact:</strong> Cohere เข้าสู่ตลาด coding AI ด้วย North Mini Code เพิ่มตัวเลือกให้ developers ที่ต้องการ efficient coding model ขนาดเล็กสำหรับ local deployment</p>
+      </div>
+      <div class="card-tags"><span class="tag">Cohere</span><span class="tag">North Mini Code</span><span class="tag">Code LLM</span><span class="tag">Developer AI</span><span class="tag">Open Source</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ทดสอบ North Mini Code บน HuggingFace เพื่อเปรียบเทียบกับ Codex, Gemini Code และ Qwen Coder</li><li>ประเมิน North Mini Code สำหรับ local deployment หรือ edge scenarios ที่ต้องการ small efficient model</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>พิจารณา Cohere North Mini Code เป็นทางเลือกสำหรับ enterprise coding assistant ที่ต้องการ data privacy</li><li>เปรียบเทียบราคาและ performance ของ North Mini Code กับ OpenAI Codex สำหรับ coding workflows</li></ul></div></div>
+    </article>
+    <article class="news-card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">ArXiv cs.AI</span>
+          <span class="cat-badge">Research</span>
+        </div>
+        <h3 class="card-title"><a href="https://arxiv.org/abs/2607.15247" target="_blank" rel="noopener">AutoSynthesis: An agentic system for automated meta-analysis</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">งานวิจัย (arXiv:2607.15247) นำเสนอ AutoSynthesis ซึ่งเป็นระบบ agentic AI ที่ออกแบบมาสำหรับทำ meta-analysis ของงานวิจัยวิทยาศาสตร์แบบอัตโนมัติ ระบบนี้สามารถรวบรวม วิเคราะห์ และสังเคราะห์ผลงานวิจัยหลายชิ้นได้โดยอัตโนมัติ ซึ่งปกติใช้เวลานักวิจัยเป็นสัปดาห์หรือเดือน AutoSynthesis เป็นตัวอย่างของ AI ที่ช่วยเร่งกระบวนการวิทยาศาสตร์และการสังเคราะห์ความรู้</p>
+        <p class="tech-impact"><strong>Impact:</strong> AutoSynthesis เป็นตัวอย่างของ AI ที่เร่งการวิจัยวิทยาศาสตร์ลดงาน meta-analysis จากเดือนเป็นชั่วโมง มีผลต่อทุกสาขาที่ต้องการ literature review</p>
+      </div>
+      <div class="card-tags"><span class="tag">Agentic AI</span><span class="tag">Meta-Analysis</span><span class="tag">Research AI</span><span class="tag">Automation</span><span class="tag">Scientific AI</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ศึกษา AutoSynthesis architecture สำหรับ design agentic research assistants ในองค์กรหรือ academic settings</li><li>ประเมินการนำ AutoSynthesis approach มาใช้กับ competitive intelligence หรือ market research workflows</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ประเมิน agentic research synthesis tools สำหรับลด time-to-insight ใน R&D และ market analysis</li><li>ลงทุนใน AI research assistant ที่สามารถ synthesize knowledge จากหลาย sources เพื่อ strategic decision making</li></ul></div></div>
+    </article>
+    </div>
+  </section>
+  
+  <section class="topic-section" id="tech-trends">
+    <div class="section-header topic-tech-trends-header">
+      <h2>⚙️ Tech Trends <span class="section-count">1</span></h2>
+    </div>
+    <div class="cards-grid">
+      
+    <article class="news-card topic-tech-trends">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#2ed573">🟢 LOW</span>
+          
+          <span class="source-badge">TechCrunch</span>
+          <span class="cat-badge">International</span>
+        </div>
+        <h3 class="card-title"><a href="https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai/" target="_blank" rel="noopener">Adobe camera app's new feature will critique your photos using AI</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">Adobe เปิดตัวฟีเจอร์ใหม่ใน Project Indigo ซึ่งเป็น camera app ของ Adobe โดยฟีเจอร์ใหม่จะใช้ AI วิจารณ์และให้ feedback เชิงสร้างสรรค์เกี่ยวกับภาพถ่ายของผู้ใช้ ฟีเจอร์นี้ช่วยให้ช่างภาพทั้งมืออาชีพและมือใหม่ได้รับคำแนะนำเชิง objective จาก AI เกี่ยวกับการจัดองค์ประกอบ แสง และสไตล์ภาพ สะท้อนแนวโน้มของ AI ที่เข้ามาเป็น 'creative coach' ให้กับมนุษย์</p>
+        <p class="tech-impact"><strong>Impact:</strong> AI photo critique จาก Adobe เป็น signal ว่า creative AI กำลังเปลี่ยนบทบาทจาก generator เป็น mentor/coach ให้กับ content creators</p>
+      </div>
+      <div class="card-tags"><span class="tag">Adobe</span><span class="tag">AI Photo</span><span class="tag">Camera App</span><span class="tag">Generative AI</span><span class="tag">Creative AI</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ศึกษา Adobe Firefly API สำหรับ AI-powered creative feedback features ใน photography/design apps</li><li>ออกแบบ AI feedback loops สำหรับ creative tools ที่ช่วยพัฒนาทักษะผู้ใช้</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ประเมิน Adobe Creative Cloud subscription สำหรับทีม creative ที่จะได้ประโยชน์จาก AI critique tools</li><li>พิจารณา AI coaching features เป็น differentiator สำหรับ creative software products ขององค์กร</li></ul></div></div>
+    </article>
+    </div>
+  </section>
+  
+  <section class="topic-section" id="thailand">
+    <div class="section-header topic-thailand-header">
+      <h2>🇹🇭 Thailand AI & Tech <span class="section-count">10</span></h2>
+    </div>
+    <div class="cards-grid">
+      
+    <article class="news-card topic-thailand">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ff4757">🔴 HIGH</span>
+          <span class="bt-badge">⚡ BREAKTHROUGH</span>
+          <span class="source-badge">Blognone</span>
+          <span class="cat-badge">Thai</span>
+        </div>
+        <h3 class="card-title"><a href="https://www.blognone.com/node/151192" target="_blank" rel="noopener">ตลาด AI เปิดจากจีนระอุ Alibaba เปิดตัว Qwen 3.8 ระบุเป็นรองแค่ Claude Fable</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">Alibaba Cloud ประกาศเปิดตัวโมเดล Qwen 3.8 รุ่นใหม่ โดยอ้างว่ามีความสามารถในระดับที่เป็นรองเพียง Claude Fable ของ Anthropic เท่านั้น ข่าวนี้เกิดขึ้นหลังจาก Moonshot AI เพิ่งเปิดตัว Kimi K3 ที่แสดงผลได้เหนือกว่า Claude Opus ส่งสัญญาณว่าห้องวิจัย AI จากจีนกำลังไล่กวด Frontier models ตะวันตกอย่างจริงจัง นอกจากนี้ ผู้ให้บริการ GLM-5.2 ยังประกาศลดราคาถึง 80% สะท้อนการแข่งขันด้านราคาที่รุนแรงในตลาด AI จีน</p>
+        <p class="tech-impact"><strong>Impact:</strong> Qwen 3.8 จาก Alibaba อ้างสมรรถนะระดับ frontier รองแค่ Claude Fable เป็นสัญญาณว่าการแข่งขัน LLM ระหว่าง US และจีนร้อนแรงขึ้น</p>
+      </div>
+      <div class="card-tags"><span class="tag">Qwen</span><span class="tag">Alibaba Cloud</span><span class="tag">LLM</span><span class="tag">China AI</span><span class="tag">Open Source</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ทดสอบ Qwen 3.8 บน HuggingFace เพื่อเปรียบเทียบสมรรถนะกับ Claude Fable และ GPT-5</li><li>ติดตามการเปิด API ของ Qwen 3.8 เพื่อประเมินราคาและความเร็วสำหรับ use cases ในโปรเจกต์</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ประเมิน Qwen 3.8 เป็นทางเลือกต้นทุนต่ำสำหรับงาน enterprise AI โดยเฉพาะในตลาดเอเชีย</li><li>ติดตามการลดราคาใน AI API ตลาดจีนที่อาจส่งผลต่อราคา AI ทั่วโลก</li></ul></div></div>
+    </article>
+    <article class="news-card topic-thailand">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ff4757">🔴 HIGH</span>
+          
+          <span class="source-badge">Blognone</span>
+          <span class="cat-badge">Thai</span>
+        </div>
+        <h3 class="card-title"><a href="https://www.blognone.com/node/151185" target="_blank" rel="noopener">Fable 5 ตั้งแต่ 20 กรกฎาคม ยังได้โควต้า 50% เฉพาะ Max และ Team Premium กลุ่มอื่นต้องซื้อเครดิตเพิ่มเท่านั้น</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">Anthropic ประกาศนโยบายใหม่สำหรับการใช้งาน Claude Fable 5 ที่มีผลตั้งแต่วันที่ 20 กรกฎาคม 2026 ลูกค้า Max และ Team Premium จะยังได้รับโควต้าการใช้งาน 50% ของโควต้าต่อสัปดาห์ตามเดิม แต่ลูกค้า Pro และ Team Standard จะเปลี่ยนระบบเป็นการใช้งานผ่านเครดิต โดย Anthropic จะให้เครดิตฟรี 100 ดอลลาร์ในครั้งแรก การเปลี่ยนแปลงนี้สะท้อนการปรับกลยุทธ์ทางธุรกิจของ Anthropic ในการจัดการทรัพยากรการประมวลผล Fable 5 ซึ่งเป็น frontier model ที่มีต้นทุนสูง</p>
+        <p class="tech-impact"><strong>Impact:</strong> นโยบาย credit-based สำหรับ Claude Fable 5 เพิ่มต้นทุนสำหรับผู้ใช้ Pro/Standard ที่ต้องการใช้ frontier model ส่งผลต่อการวางแผนงบประมาณ AI ขององค์กร</p>
+      </div>
+      <div class="card-tags"><span class="tag">Claude</span><span class="tag">Anthropic</span><span class="tag">Fable 5</span><span class="tag">AI Pricing</span><span class="tag">Enterprise AI</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ประเมินปริมาณการใช้งาน Claude Fable 5 และคำนวณต้นทุนเครดิตที่ต้องซื้อเพิ่มในระบบใหม่</li><li>พิจารณาอัปเกรดเป็น Max/Team Premium หากใช้ Fable 5 เกิน 100 ดอลลาร์ต่อเดือน</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ทบทวนสัญญา Claude ขององค์กรและเปรียบเทียบต้นทุนระหว่างแผน Max กับ Pro+credits</li><li>วางแผนงบประมาณ AI ประจำปีโดยคำนึงถึงค่าใช้จ่ายเครดิต Fable 5 ที่อาจเพิ่มขึ้น</li></ul></div></div>
+    </article>
+    <article class="news-card topic-thailand">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ff4757">🔴 HIGH</span>
+          
+          <span class="source-badge">Blognone</span>
+          <span class="cat-badge">Thai</span>
+        </div>
+        <h3 class="card-title"><a href="https://www.blognone.com/node/151182" target="_blank" rel="noopener">[ลือ] Anthropic เจรจาขอเช่าศูนย์ข้อมูลของ Meta มารัน AI มูลค่า $10B/2 ปี</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">New York Times รายงานโดยอ้างแหล่งข่าว 3 รายว่า Anthropic กำลังเจรจากับ Meta เพื่อเช่าศูนย์ข้อมูล (data center) ของ Meta สำหรับการรัน AI models โดย Anthropic เป็นฝ่ายเสนอเข้ามาเองในเดือนมิถุนายน มูลค่าดีลอาจสูงถึง 1 หมื่นล้านดอลลาร์ในระยะเวลา 2 ปี ข่าวนี้สะท้อนความต้องการ compute ที่มหาศาลของ Anthropic ในการรัน frontier models อย่าง Claude Fable และการพัฒนา models รุ่นต่อไป</p>
+        <p class="tech-impact"><strong>Impact:</strong> ดีล Anthropic-Meta ด้าน compute มูลค่า $10B บ่งชี้ว่า AI infrastructure cost กำลังกลายเป็น competitive moat สำคัญสำหรับ frontier labs</p>
+      </div>
+      <div class="card-tags"><span class="tag">Anthropic</span><span class="tag">Meta</span><span class="tag">Data Center</span><span class="tag">Infrastructure</span><span class="tag">AI Compute</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ติดตามว่า Anthropic จะขยายกำลัง compute ส่งผลต่อ availability และ latency ของ Claude API อย่างไร</li><li>พิจารณากระจายการใช้ AI providers เพื่อลดความเสี่ยงจากความไม่แน่นอนด้าน infrastructure</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ประเมินความเสี่ยงจากการที่ Anthropic พึ่งพา Meta compute ซึ่งอาจกระทบ SLA และราคา</li><li>ติดตามพัฒนาการ AI infrastructure deals เพื่อคาดการณ์ทิศทางราคา cloud AI ในอนาคต</li></ul></div></div>
+    </article>
+    <article class="news-card topic-thailand">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ff4757">🔴 HIGH</span>
+          
+          <span class="source-badge">Blognone</span>
+          <span class="cat-badge">Thai</span>
+        </div>
+        <h3 class="card-title"><a href="https://www.blognone.com/node/151180" target="_blank" rel="noopener">EU ออกคำสั่ง Google ต้องเปิดให้ AI ค่ายอื่นเข้าถึงฟังก์ชัน Android ได้เท่ากับ Gemini</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">คณะกรรมาธิการยุโรปออกคำสั่งภายใต้กฎหมาย DMA ให้ Google เปิด Android ให้ผู้ช่วย AI จากค่ายอื่น เช่น Claude และ ChatGPT เข้าถึงฟังก์ชันพื้นฐานได้ในระดับเดียวกับ Gemini ของ Google เอง นอกจากนี้ Search Engine ค่ายอื่นต้องสามารถเข้าถึงข้อมูลในระดับเดียวกับ Google Search Google ต้องปฏิบัติตามคำสั่งภายใน 1 สิงหาคม 2027 ซึ่งจะเปลี่ยนโครงสร้างการแข่งขัน mobile AI ใน EU อย่างมีนัยสำคัญ</p>
+        <p class="tech-impact"><strong>Impact:</strong> EU DMA mandate เปิดโอกาสให้ Claude และ ChatGPT แข่งขันบน Android ใน EU ได้เท่าเทียม Gemini เปลี่ยนโครงสร้างตลาด mobile AI</p>
+      </div>
+      <div class="card-tags"><span class="tag">EU</span><span class="tag">DMA</span><span class="tag">Google</span><span class="tag">Gemini</span><span class="tag">Android</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ศึกษา DMA technical requirements เพื่อเตรียม apps ที่ใช้ AI assistants ให้รองรับ interoperability ใหม่</li><li>ติดตาม Android API ที่ Google จะต้องเปิดให้ third-party AI เข้าถึงตาม DMA mandate</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ประเมินโอกาสทางธุรกิจจาก DMA mandate ที่เปิดพื้นที่ mobile AI ใน EU สำหรับ Claude/ChatGPT</li><li>วางแผน EU market strategy โดยคำนึงถึงการแข่งขัน AI ที่จะเพิ่มขึ้นใน Android ecosystem</li></ul></div></div>
+    </article>
+    <article class="news-card topic-thailand">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ff4757">🔴 HIGH</span>
+          <span class="bt-badge">⚡ BREAKTHROUGH</span>
+          <span class="source-badge">Blognone</span>
+          <span class="cat-badge">Thai</span>
+        </div>
+        <h3 class="card-title"><a href="https://www.blognone.com/node/151172" target="_blank" rel="noopener">จีนอนุมัติ Apple Intelligence แล้ว ใช้โมเดล Qwen ของ Alibaba เป็นหลัก</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">หน่วยงานกำกับดูแลด้านไซเบอร์ของจีนอนุมัติให้ Apple Intelligence ใช้งานได้ในจีนแล้ว โดยใช้โมเดล Qwen ของ Alibaba เป็นหลักสำหรับ on-device AI และ Baidu เป็น provider รอง ข่าวนี้เป็นไปตามคำแนะนำของจีนที่ต้องการให้ Apple ใช้ AI models จากบริษัทจีน การอนุมัตินี้เปิดตลาด iPhone ในจีนกว่า 300 ล้านเครื่องให้ใช้ Apple Intelligence ได้เป็นครั้งแรกหลังรอมา 22 เดือน</p>
+        <p class="tech-impact"><strong>Impact:</strong> Apple Intelligence เข้าตลาดจีนด้วย Qwen+Baidu เปิด 300M iPhone ให้ใช้ on-device AI สัญญาณว่า China AI market จะเติบโตระเบิด</p>
+      </div>
+      <div class="card-tags"><span class="tag">Apple Intelligence</span><span class="tag">China</span><span class="tag">Qwen</span><span class="tag">Alibaba</span><span class="tag">Baidu</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ศึกษา Qwen on-device capabilities เพื่อเตรียมพัฒนา apps ที่ใช้ Apple Intelligence บน iOS จีน</li><li>ติดตาม Apple Intelligence API ที่จะรองรับ Qwen integration สำหรับ Chinese market specific apps</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ประเมินโอกาสทางธุรกิจในตลาดจีนจากการที่ Apple Intelligence เปิดใช้ได้แล้ว</li><li>วางแผน localization strategy สำหรับ AI features ที่ใช้ Qwen แทน default Apple models</li></ul></div></div>
+    </article>
+    <article class="news-card topic-thailand">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">Blognone</span>
+          <span class="cat-badge">Thai</span>
+        </div>
+        <h3 class="card-title"><a href="https://www.blognone.com/node/151176" target="_blank" rel="noopener">1Password ออกเครื่องมือเชื่อมต่อกับ Claude ช่วยล็อกอินแทนผู้ใช้งาน</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">1Password ประกาศความร่วมมือกับ Anthropic เปิดตัว 1Password for Claude ระบบที่ช่วยให้ Claude สามารถเข้าถึงบริการต่างๆ แทนผู้ใช้งานได้โดยไม่จำเป็นต้องเผยรหัสผ่านโดยตรง ระบบทำงานผ่านเบราว์เซอร์ โดย Claude จะแสดงคำขอเข้าถึงที่ผู้ใช้ต้องอนุมัติผ่าน 1Password ก่อนเสมอ นับเป็นก้าวสำคัญในการพัฒนา AI agents ที่สามารถทำงานแทนมนุษย์ในโลกดิจิทัลได้อย่างปลอดภัย</p>
+        <p class="tech-impact"><strong>Impact:</strong> 1Password for Claude เป็นก้าวสำคัญในการพัฒนา agentic AI ที่สามารถทำงานแทนมนุษย์บนเว็บได้อย่างปลอดภัยโดยไม่ต้องเผย credentials</p>
+      </div>
+      <div class="card-tags"><span class="tag">1Password</span><span class="tag">Claude</span><span class="tag">Anthropic</span><span class="tag">Authentication</span><span class="tag">AI Agent</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ศึกษา 1Password for Claude API เพื่อเพิ่ม secure authentication flow ใน AI agent applications ที่กำลังพัฒนา</li><li>ออกแบบ agentic workflows ที่ใช้ credential management ผ่าน password managers เพื่อความปลอดภัย</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ประเมิน 1Password for Claude สำหรับ automation workflows ในองค์กรที่ต้องการ AI agent ทำงานบนระบบต่างๆ</li><li>กำหนดนโยบาย governance สำหรับ AI agents ที่มีสิทธิ์เข้าถึงระบบขององค์กรผ่าน credential managers</li></ul></div></div>
+    </article>
+    <article class="news-card topic-thailand">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">Blognone</span>
+          <span class="cat-badge">Thai</span>
+        </div>
+        <h3 class="card-title"><a href="https://www.blognone.com/node/151177" target="_blank" rel="noopener">Roblox ออกฟีเจอร์ Build ป้อน prompt สร้างเกมด้วย AI ได้จากแอปมือถือ</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">Roblox เปิดตัว Build เครื่องมือสร้างเกมด้วย AI ผ่านแอปมือถือ ผู้เล่นสามารถป้อน prompt ธรรมชาติแล้ว AI จะสร้างเกมต้นแบบให้ รวมถึงกลไกเกม ฉาก ตัวละคร และบรรยากาศ จากนั้นสามารถแก้ไขและแชร์ได้ ระบบใช้โมเดล AI ผสมผสานทั้ง open-source และโมเดลที่ Roblox ฝึกเอง นับเป็นตัวอย่างของ democratization ในการสร้างเกมผ่าน generative AI</p>
+        <p class="tech-impact"><strong>Impact:</strong> Roblox Build เปิด game creation ด้วย AI ให้คนทั่วไปสร้างเกมบนมือถือ เป็นสัญญาณว่า generative AI กำลัง democratize การพัฒนาเนื้อหาดิจิทัล</p>
+      </div>
+      <div class="card-tags"><span class="tag">Roblox</span><span class="tag">AI Game Creation</span><span class="tag">LLM</span><span class="tag">Mobile Games</span><span class="tag">Generative AI</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ศึกษาการออกแบบ AI game creation system ของ Roblox เป็น reference สำหรับพัฒนา content generation tools</li><li>ติดตาม Roblox AI API หากเปิดให้ developers ใช้งานเพื่อสร้าง AI-assisted game tools</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ประเมินโอกาส user-generated content business ที่ AI ช่วยลดอุปสรรคในการสร้างเนื้อหา</li><li>ศึกษาโมเดลธุรกิจของ Roblox Build เพื่อนำมาประยุกต์กับ platform ที่ต้องการ AI content creation</li></ul></div></div>
+    </article>
+    <article class="news-card topic-thailand">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">Blognone</span>
+          <span class="cat-badge">Thai</span>
+        </div>
+        <h3 class="card-title"><a href="https://www.blognone.com/node/151174" target="_blank" rel="noopener">Google AI Mode สามารถเชื่อมต่อกับ Canva, YouTube และ Instacart เพื่อทำงานต่อเนื่อง</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">Google เพิ่ม AI Mode ใน Search ให้รองรับการเชื่อมต่อกับแอปภายนอก ได้แก่ Instacart (เพิ่มสินค้าลงตะกร้าและจ่ายเงินได้เลย), Canva (เชื่อมโยงไอเดียเทมเพลตไปออกแบบต่อ) และ YouTube Music (สร้าง playlist จากคำตอบ AI) ฟีเจอร์นี้แสดงให้เห็นทิศทางของ Search ที่กำลังเปลี่ยนจาก information retrieval เป็น action execution ตอนนี้รองรับเฉพาะสหรัฐอเมริกา</p>
+        <p class="tech-impact"><strong>Impact:</strong> Google AI Mode กำลังเปลี่ยน Search จากการค้นหาข้อมูลเป็นการลงมือทำได้เลย บ่งชี้ทิศทาง agentic search ที่จะส่งผลต่อพฤติกรรมผู้ใช้</p>
+      </div>
+      <div class="card-tags"><span class="tag">Google AI Mode</span><span class="tag">Canva</span><span class="tag">YouTube</span><span class="tag">Instacart</span><span class="tag">AI Integration</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ศึกษา Google AI Mode integration APIs เพื่อเตรียม apps ให้รองรับการเชื่อมต่อจาก Search AI Mode</li><li>ออกแบบ deep link และ action endpoints ที่ AI Mode จะเรียกใช้เพื่อเพิ่ม discoverability</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>สมัครเข้าร่วม Google AI Mode partner program เพื่อให้ธุรกิจปรากฏในผลการค้นหา AI Mode</li><li>ปรับ product catalog และ pricing ให้พร้อมสำหรับ frictionless purchase จาก Search AI Mode</li></ul></div></div>
+    </article>
+    <article class="news-card topic-thailand">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">Blognone</span>
+          <span class="cat-badge">Thai</span>
+        </div>
+        <h3 class="card-title"><a href="https://www.blognone.com/node/151173" target="_blank" rel="noopener">OpenAI เปิดตัวคีย์แพด Codex Micro ไว้เรียกคำสั่งลัดสำหรับนักพัฒนาที่ใช้ AI coding</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">OpenAI เปิดตัวผลิตภัณฑ์ฮาร์ดแวร์ตัวแรกของบริษัทในชื่อ Codex Micro คีย์แพดที่พัฒนาร่วมกับ Work Louder สำหรับนักพัฒนาที่ใช้ AI coding tool Codex แต่ละปุ่มสามารถปรับแต่งได้ เช่น Accept/Reject code, เรียก workflow, เปิดแชทใหม่ หรือคำสั่งเสียง ราคา $230 นี้สะท้อนการที่ OpenAI พยายามขยายเข้าสู่ hardware market ท่ามกลางการฟ้องร้องของ Apple</p>
+        <p class="tech-impact"><strong>Impact:</strong> Codex Micro เป็นสัญญาณว่า OpenAI กำลังขยายจาก software ไปสู่ hardware ecosystem เพื่อ lock-in นักพัฒนาให้ใช้ Codex tools</p>
+      </div>
+      <div class="card-tags"><span class="tag">OpenAI</span><span class="tag">Codex Micro</span><span class="tag">Hardware</span><span class="tag">Keyboard</span><span class="tag">AI Developer Tools</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ประเมิน Codex Micro ว่าช่วยเพิ่ม productivity ในงาน AI coding ได้คุ้มค่า $230 หรือไม่</li><li>ติดตาม OpenAI hardware roadmap หลัง Codex Micro เปิดตัว อาจมี AI devices อื่นตามมา</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>พิจารณาจัดหา Codex Micro ให้ทีม developers ที่ใช้ Claude/ChatGPT สำหรับ coding เพื่อเพิ่มประสิทธิภาพ</li><li>ประเมินผลกระทบจากการที่ OpenAI เข้าสู่ hardware ต่อ competitive landscape ของ AI tools</li></ul></div></div>
+    </article>
+    <article class="news-card topic-thailand">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">Blognone</span>
+          <span class="cat-badge">Thai</span>
+        </div>
+        <h3 class="card-title"><a href="https://www.blognone.com/node/151169" target="_blank" rel="noopener">[ไม่ยืนยัน] Gemini 3.5 Pro เลื่อนเปิดตัวไม่มีกำหนด เนื่องจากความสามารถเขียนโค้ดยังไม่ได้ตามเป้า</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">มีข่าวลือว่า Gemini 3.5 Pro ซึ่ง Google ประกาศว่าจะออกในเดือนมิถุนายน 2026 ยังคงไม่ถูกปล่อยออกมาในเดือนกรกฎาคม สาเหตุที่ทราบกันคือความสามารถในการเขียนโค้ด (coding capability) ของ Gemini 3.5 Pro ยังไม่ถึงเป้าที่ Google ตั้งไว้ ข่าวนี้น่าสนใจในแง่ที่ว่า Google ยืนยันเป้าหมายสาธารณะแต่กลับต้องเลื่อนออกไป ท่ามกลางการแข่งขันที่ Qwen 3.8 และ Kimi K3 จากจีนกำลังท้าชิง</p>
+        <p class="tech-impact"><strong>Impact:</strong> Gemini 3.5 Pro ล่าช้า ขณะที่ Qwen 3.8 และ Kimi K3 จากจีนอ้างสมรรถนะสูง สะท้อนแรงกดดันการแข่งขัน frontier AI ที่รุนแรง</p>
+      </div>
+      <div class="card-tags"><span class="tag">Gemini</span><span class="tag">Google</span><span class="tag">Gemini 3.5 Pro</span><span class="tag">LLM Delay</span><span class="tag">AI Model</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ชะลอการวางแผน migration ไป Gemini 3.5 Pro จนกว่าจะมีข้อมูลยืนยันวันเปิดตัว</li><li>ทดสอบ Qwen 3.8 หรือ Kimi K3 เป็นทางเลือก coding AI ในช่วงที่ Gemini 3.5 Pro ล่าช้า</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>หลีกเลี่ยงการผูกมัด roadmap กับ Gemini 3.5 Pro โดยยังไม่มีกำหนดเปิดตัวชัดเจน</li><li>ประเมิน multi-model strategy เพื่อลดความเสี่ยงจากการล่าช้าของ AI models จาก single provider</li></ul></div></div>
+    </article>
+    </div>
+  </section>
+  
+  <section class="topic-section" id="global">
+    <div class="section-header topic-global-header">
+      <h2>🌐 Global AI & Tech <span class="section-count">3</span></h2>
+    </div>
+    <div class="cards-grid">
+      
+    <article class="news-card topic-global">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">TechCrunch</span>
+          <span class="cat-badge">International</span>
+        </div>
+        <h3 class="card-title"><a href="https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/" target="_blank" rel="noopener">Trump's latest AI czar has already resigned</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">AI Czar คนล่าสุดที่ Trump แต่งตั้งให้ดูแลนโยบาย AI ของสหรัฐได้ลาออกแล้ว โดยยังไม่ชัดเจนว่าสาเหตุที่แท้จริงคืออะไร ข่าวนี้สะท้อนถึงความไม่มั่นคงของทิศทางนโยบาย AI ของสหรัฐในช่วงที่การแข่งขัน AI ระหว่างสหรัฐและจีนรุนแรงที่สุด ในขณะที่จีนกำลังเปิดตัว WAICO และ AI models ที่แข่งขันกับ frontier models ตะวันตกได้</p>
+        <p class="tech-impact"><strong>Impact:</strong> การลาออกของ US AI Czar สร้างความไม่แน่นอนต่อทิศทาง US AI policy ท่ามกลางการแข่งขันกับจีน อาจส่งผลต่อ AI regulation timeline</p>
+      </div>
+      <div class="card-tags"><span class="tag">Trump</span><span class="tag">AI Policy</span><span class="tag">US Government</span><span class="tag">AI Czar</span><span class="tag">AI Governance</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ติดตามทิศทาง US AI policy ที่อาจเปลี่ยนแปลงเนื่องจากการเปลี่ยนผู้นำ AI Czar</li><li>เตรียมรับมือกับความไม่แน่นอนของ US AI regulation ที่อาจกระทบ product development</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>หลีกเลี่ยงการผูกยึด compliance strategy กับ US AI policies ที่ยังไม่มีทิศทางชัดเจน</li><li>กระจาย market strategy ไปทั้ง US, EU และ Asia เพื่อลดความเสี่ยงจาก policy instability</li></ul></div></div>
+    </article>
+    <article class="news-card topic-global">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">TechCrunch</span>
+          <span class="cat-badge">International</span>
+        </div>
+        <h3 class="card-title"><a href="https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/" target="_blank" rel="noopener">What to watch for after Jensen Huang's Japan visit</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">TechCrunch วิเคราะห์สิ่งที่ควรจับตาหลังจาก Jensen Huang ซีอีโอ NVIDIA เดินทางเยือนญี่ปุ่น การเยือนครั้งนี้รวมถึงการพบปะกับ Softbank, Sony, Toyota และผู้นำอุตสาหกรรมญี่ปุ่นอื่นๆ ซึ่งอาจนำไปสู่ความร่วมมือใหม่ด้าน AI infrastructure และ robotics ในญี่ปุ่น บทวิเคราะห์ยังแตะประเด็นเรื่องแหล่งผลิตชิปและความสัมพันธ์กับ TSMC Japan</p>
+        <p class="tech-impact"><strong>Impact:</strong> การเยือนญี่ปุ่นของ Jensen Huang อาจนำไปสู่ NVIDIA-Japan partnerships ใหม่ด้าน AI infrastructure และ robotics ส่งผลต่อ AI supply chain</p>
+      </div>
+      <div class="card-tags"><span class="tag">NVIDIA</span><span class="tag">Jensen Huang</span><span class="tag">Japan</span><span class="tag">AI Infrastructure</span><span class="tag">TSMC</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ติดตาม NVIDIA Japan partnerships ที่อาจออกมา เพื่อประเมินผลกระทบต่อราคา GPU และ AI hardware</li><li>ศึกษาโอกาสในการเข้าร่วม Japan AI ecosystem ที่กำลังเติบโตด้วยการสนับสนุนจาก NVIDIA</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ประเมินโอกาสเข้าตลาด Japan AI ที่กำลังได้รับการลงทุนจาก NVIDIA และ global tech giants</li><li>ติดตาม NVIDIA Japan announcements สำหรับ data center และ robotics deals ที่อาจสร้างโอกาสใหม่</li></ul></div></div>
+    </article>
+    <article class="news-card topic-global">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="urgency-badge" style="background:#ffa502">🟡 MED</span>
+          
+          <span class="source-badge">TechCrunch</span>
+          <span class="cat-badge">International</span>
+        </div>
+        <h3 class="card-title"><a href="https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/" target="_blank" rel="noopener">YouTube clarifies policies around AI slop and upsetting videos</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-content">YouTube ออกมาชี้แจงและทำให้นโยบายเกี่ยวกับ AI-generated content ที่ไม่มีคุณค่า (AI slop) และวิดีโอที่สร้างความไม่สบายใจมีความชัดเจนมากขึ้น นโยบายใหม่กำหนดขอบเขตที่ชัดเจนขึ้นว่า AI-generated content ประเภทใดที่ไม่ได้รับอนุญาตบน YouTube และจะจัดการกับการ spam ด้วย AI-generated videos อย่างไร นับเป็นก้าวสำคัญในการกำกับดูแล AI content บน platform ขนาดใหญ่</p>
+        <p class="tech-impact"><strong>Impact:</strong> YouTube AI content policy ใหม่จะกระทบ AI content creators และ channels ที่ใช้ AI mass-generate videos ต้องปรับตัวหรือเสี่ยงถูก remove</p>
+      </div>
+      <div class="card-tags"><span class="tag">YouTube</span><span class="tag">AI Content</span><span class="tag">Content Policy</span><span class="tag">AI Slop</span><span class="tag">Generative AI</span></div>
+      <div class="card-actions"><div class="actions-col"><strong>👨‍💻 Dev:</strong><ul><li>ศึกษา YouTube AI content policy updates เพื่อ design AI video generation tools ที่ compliant</li><li>เพิ่ม quality filters และ human review steps ในกระบวนการ AI video production</li></ul></div><div class="actions-col"><strong>🏢 Biz:</strong><ul><li>ทบทวน YouTube content strategy ที่ใช้ AI-generated videos ให้สอดคล้องกับ policy ใหม่</li><li>ลงทุนใน human curation layer สำหรับ AI content เพื่อหลีกเลี่ยงการถูก flag ว่าเป็น AI slop</li></ul></div></div>
+    </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  AI News Pipeline v2.0 | Generated: 2026-07-21T19:00:00+07:00 | 29 articles
+</footer>
+
+</body>
+</html>
