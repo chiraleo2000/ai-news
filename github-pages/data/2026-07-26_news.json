@@ -1,0 +1,1084 @@
+{
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T19:00:00+07:00",
+  "schema_version": "2.0",
+  "stats": {
+    "total": 25,
+    "by_topic": {
+      "ai_trends": 11,
+      "tech_trends": 4,
+      "thailand": 4,
+      "global": 6
+    },
+    "by_source_category": {
+      "thai": 4,
+      "international": 13,
+      "research": 8,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 7,
+      "medium": 13,
+      "low": 5
+    },
+    "breakthrough_count": 5
+  },
+  "top_insights": [
+    {
+      "title": "NVIDIA ทำข้อตกลงกับ SK Hynix ทั้งการผลิตชิป HBM และการสร้าง AI Factory มูลค่ารวม 5 แสนล้านดอลลาร์",
+      "impact_summary": "ดีลนี้ยืนยัน NVIDIA ล็อค supply chain HBM ระยะยาวกับ SK Hynix ทำให้คู่แข่งอย่าง AMD และ Intel ต้องพึ่ง Samsung และ Micron เป็นทางเลือก ขณะที่ AI Factory 2GW ในเกาหลีใต้จะเป็น reference design สำหรับ hyperscaler อื่น",
+      "urgency": "high",
+      "related_domains": [
+        "AI-hardware",
+        "GPU",
+        "Data-center",
+        "HBM",
+        "NVIDIA"
+      ],
+      "article_id": "blognone-nvidia-sk-hynix-500b-ai-factory-20260726"
+    },
+    {
+      "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+      "impact_summary": "Prentis เป็น bet ว่า computer-use AI จะ outpace coding AI ในแง่ market size — ถ้าสำเร็จ จะเปลี่ยน enterprise software market ที่มีมูลค่าหลายล้านล้านดอลลาร์ ผลกระทบต่อ white-collar knowledge worker จะรุนแรงกว่า AI coding ที่เห็นในปัจจุบัน",
+      "urgency": "high",
+      "related_domains": [
+        "AI-agents",
+        "Computer-use",
+        "Enterprise-AI",
+        "Startups"
+      ],
+      "article_id": "techcrunch-prentis-reid-hoffman-computer-use-100m-20260724"
+    },
+    {
+      "title": "Anthropic launches Opus 5",
+      "impact_summary": "Opus 5 ลด cost barrier สำหรับ near-frontier AI — team ที่ใช้ Fable 5 อยู่ควรทดสอบว่า Opus 5 ทำงานได้ในระดับเดียวกันหรือไม่ เพื่อลดค่าใช้จ่ายได้ทันที",
+      "urgency": "high",
+      "related_domains": [
+        "AI-models",
+        "LLM",
+        "Anthropic"
+      ],
+      "article_id": "techcrunch-anthropic-opus-5-launch-20260724"
+    },
+    {
+      "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+      "impact_summary": "หาก Microsoft deploy Helios จริงในระดับใหญ่ จะเริ่มเห็น real performance data ที่ลบหรือยืนยัน AMD claim 30% advantage — ปี 2027 จะเป็นปีทดสอบว่า NVIDIA moat จะอยู่รอดหรือไม่",
+      "urgency": "high",
+      "related_domains": [
+        "AI-hardware",
+        "GPU",
+        "Data-center",
+        "AMD",
+        "NVIDIA"
+      ],
+      "article_id": "techcrunch-amd-helios-ai-rack-20260723"
+    },
+    {
+      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+      "impact_summary": "AI spear phishing เป็น threat ที่ทุก enterprise ต้องเตรียมรับ — attack ที่สร้างด้วย AI มี personalization และ scale ที่มนุษย์รับมือด้วย traditional email filter ไม่ได้",
+      "urgency": "high",
+      "related_domains": [
+        "AI-security",
+        "Cybersecurity",
+        "Enterprise-AI"
+      ],
+      "article_id": "techcrunch-aegisai-36m-spear-phishing-20260723"
+    },
+    {
+      "title": "The Autonomous Agency Scale: A Behavioral Framework for Measuring Self-Directed Behavior in AI Systems",
+      "impact_summary": "AAS เป็น practical tool ที่ team ที่ build AI agent ควรใช้ evaluate ก่อน production deploy — วัดว่า agent มี autonomy ระดับไหนและมี risk profile อย่างไร",
+      "urgency": "high",
+      "related_domains": [
+        "AI-agents",
+        "AI-safety",
+        "AI-governance"
+      ],
+      "article_id": "arxiv-autonomous-agency-scale-behavioral-framework-20260721"
+    },
+    {
+      "title": "Can We Break LLMs Out of Self-Loops? Fine-Grained Reasoning Control with Activation Steering",
+      "impact_summary": "Self-loop เป็นปัญหา critical ใน production AI agent ที่ทำให้ consume token ไม่สิ้นสุดและไม่ deliver result Activation Steering เป็น technique ที่ developer สามารถ apply ได้โดยไม่ต้อง retrain",
+      "urgency": "high",
+      "related_domains": [
+        "AI-agents",
+        "LLM",
+        "Agent-reliability"
+      ],
+      "article_id": "arxiv-llm-self-loops-activation-steering-20260721"
+    }
+  ],
+  "posts": [
+    {
+      "id": "blognone-nvidia-sk-hynix-500b-ai-factory-20260726",
+      "slug": "nvidia-sk-hynix-500b-ai-factory-blognone",
+      "title": "NVIDIA ทำข้อตกลงกับ SK Hynix ทั้งการผลิตชิป HBM และการสร้าง AI Factory มูลค่ารวม 5 แสนล้านดอลลาร์",
+      "topic": "AI Hardware",
+      "topic_group": "thailand",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "ดีล NVIDIA-SK Hynix ขนาด $500B เป็นหนึ่งในดีล AI infrastructure ที่ใหญ่ที่สุดในประวัติศาสตร์ ผูกมัด supply chain ชิป HBM ให้ NVIDIA ยาวต่อเนื่อง ขณะที่ SK Hynix ได้รับ guaranteed revenue และ AI data center ใหม่ NVIDIA ประกาศข้อตกลงความร่วมมือเชิงกลยุทธ์กับ SK Hynix มูลค่ารวม 5 แสนล้านดอลลาร์ ครอบคลุมสามด้านหลัก: (1) การพัฒนาชิปหน่วยความจำ HBM รุ่นใหม่ร่วมกัน (2) การสั่งซื้อชิป HBM ล่วงหน้า และ (3) การก่อสร้างศูนย์ข้อมูล AI Factory กำลังประมวลผล 2 กิกะวัตต์สำหรับ SK Telecom ในเกาหลีใต้ โดยใช้สถาปัตยกรรม NVIDIA DSX พร้อม GPU Vera Rubin และชิป HBM ของ SK Hynix ศูนย์ข้อมูลดังกล่าวคาดว่าจะเริ่มให้บริการได้ภายในปี 2026",
+      "source_url": "https://www.blognone.com/node/151230",
+      "tech_impact": "ดีลนี้ยืนยัน NVIDIA ล็อค supply chain HBM ระยะยาวกับ SK Hynix ทำให้คู่แข่งอย่าง AMD และ Intel ต้องพึ่ง Samsung และ Micron เป็นทางเลือก ขณะที่ AI Factory 2GW ในเกาหลีใต้จะเป็น reference design สำหรับ hyperscaler อื่น",
+      "tags": [
+        "NVIDIA",
+        "SK Hynix",
+        "HBM",
+        "AI Factory",
+        "Data Center",
+        "Vera Rubin",
+        "SK Telecom"
+      ],
+      "category_label": "AI Hardware",
+      "published_at": "2026-07-26T06:50:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-hardware",
+        "GPU",
+        "Data-center",
+        "HBM",
+        "NVIDIA"
+      ],
+      "actions_developer": [
+        "ติดตามสเปค Vera Rubin GPU และ HBM รุ่นใหม่ที่จะออกมาพร้อมกับดีลนี้",
+        "ประเมิน NVIDIA DSX architecture สำหรับ data center planning"
+      ],
+      "actions_business": [
+        "หากวางแผน AI infrastructure ขนาดใหญ่ ติดตาม NVIDIA DSX AI Factory blueprint ที่จะเป็น standard ใหม่",
+        "ประเมินผลกระทบต่อราคา HBM ในตลาดจาก mega-deal นี้"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "blognone-samsung-broadcom-200b-chip-deal-20260726",
+      "slug": "samsung-broadcom-200b-chip-deal-blognone",
+      "title": "Samsung ทำข้อตกลงผลิตชิปให้ Broadcom มูลค่าสัญญา 2 แสนล้านดอลลาร์",
+      "topic": "AI Hardware",
+      "topic_group": "thailand",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "ดีล Samsung-Broadcom $200B เป็นสัญญาณว่า Samsung Foundry กำลังฟื้นตัว — Broadcom ต้องการ 2nm capacity ล่วงหน้า 5 ปีเพื่อรองรับ custom AI chip demand ที่พุ่งสูง ซัมซุงประกาศลงนามสัญญาเชิงกลยุทธ์กับ Broadcom มูลค่าประมาณ 2 แสนล้านดอลลาร์ ระยะเวลา 5 ปีจนถึงปี 2030 ข้อตกลงครอบคลุมการผลิตชิปเทคโนโลยี 2nm ที่ Samsung จะผลิตให้สำหรับผลิตภัณฑ์ใหม่ของ Broadcom รวมถึงชิป HBM และเทคโนโลยีการแพ็คเกจชิปแบบ 2.3D และ 2.5D ที่จำเป็นสำหรับการประมวลผล AI ดีลนี้เป็นสัญญาณบวกสำหรับ Samsung Foundry ที่เคยเสียลูกค้ารายใหญ่ให้ TSMC ในช่วงหลายปีที่ผ่านมา",
+      "source_url": "https://www.blognone.com/node/151229",
+      "tech_impact": "Samsung Foundry กลับมาแข่งขันได้ใน advanced node — ดีลนี้เปิดโอกาสให้ Samsung เป็นทางเลือกของ TSMC สำหรับ custom AI chip ที่ Broadcom ผลิตให้ hyperscaler",
+      "tags": [
+        "Samsung",
+        "Broadcom",
+        "HBM",
+        "2nm",
+        "chip foundry",
+        "AI chip"
+      ],
+      "category_label": "AI Hardware",
+      "published_at": "2026-07-26T06:49:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-hardware",
+        "Chip-foundry",
+        "Broadcom",
+        "Samsung"
+      ],
+      "actions_developer": [
+        "ติดตาม Broadcom custom AI chip รุ่นใหม่ที่จะใช้ Samsung 2nm process",
+        "ประเมิน impact ต่อ AI chip supply ในปี 2027-2028"
+      ],
+      "actions_business": [
+        "หากใช้ Broadcom networking/custom chip อยู่ ติดตามว่าจะมีรุ่นใหม่บน 2nm ออกมาเมื่อไหร่",
+        "ติดตามว่าดีลนี้จะกระตุ้นให้ Samsung Foundry ดึงลูกค้ารายอื่นกลับคืนมาได้ไหม"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "blognone-facebook-verified-facial-recognition-20260726",
+      "slug": "facebook-verified-facial-recognition-blognone",
+      "title": "Facebook ออกแบดจ์ Facebook Verified ยืนยันว่ามีตัวตน ด้วยการสแกนใบหน้า",
+      "topic": "AI Applications",
+      "topic_group": "thailand",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Meta ใช้ AI facial recognition เป็น trust layer ของ platform — เป็น move ที่จะกระตุ้นให้ผู้ใช้ยอมเสียข้อมูลชีวภาพเพื่อแลกกับ 'verified badge' Facebook ประกาศเพิ่มบริการ Facebook Verified ซึ่งเป็นแบดจ์เครื่องหมายถูก (ไม่มีสีฟ้า) ที่ได้มาจากการสแกนใบหน้าเพื่อเทียบกับรูปในโปรไฟล์ ต่างจาก Meta Verified ที่ต้องจ่ายเงิน Facebook Verified เน้นเรื่องการยืนยันตัวตนว่าเป็นคนจริงสำหรับบริการที่ต้องการความน่าเชื่อถือสูงอย่าง Marketplace, Dating, Groups โดย Facebook ระบุว่าแบดจ์นี้ยืนยันเพียงว่ามีตัวตนจริง ไม่ได้รับรองว่าน่าเชื่อถือหรือปลอดภัย เริ่มแสดงในบริการดังกล่าวและหน้าโปรไฟล์ก่อน จากนั้นจะทยอยขยายไป Feed",
+      "source_url": "https://www.blognone.com/node/151232",
+      "tech_impact": "Meta นำ AI facial recognition มาใช้เป็น mass-market identity layer — เป็นก้าวสำคัญใน biometric data collection ที่จะมีผลต่อ privacy regulation ทั่วโลกรวมถึง PDPA ของไทย",
+      "tags": [
+        "Facebook",
+        "Meta",
+        "Facial recognition",
+        "Identity verification",
+        "AI",
+        "Privacy"
+      ],
+      "category_label": "AI Applications",
+      "published_at": "2026-07-26T08:40:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-applications",
+        "Privacy",
+        "Biometrics",
+        "Social-media"
+      ],
+      "actions_developer": [
+        "ติดตามว่า Facebook จะเปิด API ให้ third-party app ตรวจสอบ Verified status ได้หรือไม่",
+        "ศึกษา implication ของ biometric data ที่ Meta เก็บต่อ GDPR และ PDPA"
+      ],
+      "actions_business": [
+        "ถ้าธุรกิจใช้ Facebook Marketplace หรือ Groups ติดตามว่า Verified badge จะเปลี่ยน dynamic ของ trust อย่างไร",
+        "ประเมิน risk ของ dependency บน Meta facial recognition หากระบบมีปัญหา"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "blognone-mlb-bans-ai-dugout-tablets-20260726",
+      "slug": "mlb-bans-ai-dugout-tablets-blognone",
+      "title": "ลีกเบสบอลสหรัฐ สั่งห้ามใช้ AI ช่วยวางแผนในระหว่างแข่งขัน หลังพบแนวโน้มมีมากขึ้น",
+      "topic": "AI Policy",
+      "topic_group": "thailand",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "นโยบาย MLB เป็นตัวอย่างสำคัญของ 'AI governance in competitive contexts' — เมื่อ AI ให้ความได้เปรียบเกินขอบเขตที่กติการะบุ ต้องวางขอบเขตใหม่ MLB (Major League Baseball) ออกกฎห้ามทีมทั้งหมดในลีกใช้ AI บนแท็บเล็ตขณะอยู่ใน Dugout ระหว่างการแข่งขัน หลังพบว่า 1 ใน 3 ของทีมมีการเรียกใช้แอปคัสตอมที่ใช้ AI แนะนำแผนการเล่น กลยุทธ์การขว้าง และการวางตำแหน่ง ซึ่งเกินขอบเขตที่ tablet ของ MLB ระบุไว้ MLB ระบุว่าอนุญาตให้ทีมโหลดข้อมูลสถิติและแนวโน้มผู้เล่นก่อนเกมได้ แต่ AI ต้องไม่ทำงาน real-time ระหว่างแข่ง ฝ่ายวิจัยบางทีมไม่เห็นด้วย มองว่า AI เป็นเพียงเครื่องมือช่วยตัดสินใจ ไม่ต่างจากสถิติเดิม",
+      "source_url": "https://www.blognone.com/node/151233",
+      "tech_impact": "เป็น case study ที่มีคุณค่าสำหรับองค์กรที่ต้องกำหนด AI usage policy — เส้นแบ่งระหว่าง 'ข้อมูลช่วยตัดสินใจ' กับ 'AI ตัดสินใจแทน' เป็นประเด็นที่จะเกิดขึ้นในทุกอุตสาหกรรม",
+      "tags": [
+        "MLB",
+        "Baseball",
+        "AI ban",
+        "Sports AI",
+        "AI regulation"
+      ],
+      "category_label": "AI Policy",
+      "published_at": "2026-07-26T09:20:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-policy",
+        "AI-governance",
+        "Sports-tech"
+      ],
+      "actions_developer": [
+        "ศึกษา MLB ruling เป็น reference สำหรับการออก AI usage policy ในบริบทการแข่งขัน",
+        "ออกแบบระบบที่แยก pre-game analysis กับ real-time AI ออกจากกันได้ชัดเจน"
+      ],
+      "actions_business": [
+        "ถ้าองค์กรใช้ AI ใน competitive setting ประเมินว่า AI ช่วยตัดสินใจหรือตัดสินใจแทน — กติกาอาจเปลี่ยน",
+        "ใช้กรณี MLB เป็น conversation starter สำหรับ AI governance ภายในองค์กร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-librarians-avoiding-ai-workshops-20260725",
+      "slug": "librarians-avoiding-ai-workshops-techcrunch",
+      "title": "Librarians are hosting viral 'Avoiding AI' workshops for people who are fed up with Big Tech",
+      "topic": "AI & Society",
+      "topic_group": "global",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Anti-AI sentiment ที่ถูก channel ผ่าน public library เป็น signal ที่ AI developer และนักออกแบบ product ควรสังเกต — forced AI adoption อาจสร้าง backlash ที่ทำให้ผู้ใช้หันหลังให้ platform ทั้งหมด เวิร์กช็อป 'Avoiding AI' ในห้องสมุดสหรัฐฯ กลายเป็นปรากฏการณ์ที่ไม่มีใครคาดคิด บรรณารักษ์ Hannah Cyrus ที่ Bangor Public Library เขียน journal article เรื่องเวิร์กช็อปนี้แล้วถูก librarian จากทั่วโลกติดต่อขอ slides ซึ่งไม่เคยเกิดขึ้นมาก่อนในชีวิตการทำงาน Cyrus บอกว่าผู้เข้าร่วมบ่นเรื่อง AI เขียน email แทน สรุป email สั้นที่อ่านได้ง่ายอยู่แล้ว และรู้สึกว่า AI ถูกยัดเยียดบนอุปกรณ์โดยไม่ถามว่าต้องการไหม เวิร์กช็อปแรกมีผู้สนใจมากจนต้องปิด registration ที่ 30 คน เปิด waitlist และ Zoom ให้ทั้งหมด 70 คนต่อรอบ Instagram post ของห้องสมุดที่ South Philadelphia เกี่ยวกับ event นี้ได้รับ 2,000 likes และ 220 shares ซึ่งสูงกว่าปกติมาก",
+      "source_url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+      "tech_impact": "เป็น cultural signal ชัดว่า forced AI feature integration กำลังสร้าง measurable backlash — ผู้ออกแบบ product และ policy maker ควรพิจารณา opt-in model มากกว่า opt-out สำหรับ AI features",
+      "tags": [
+        "AI backlash",
+        "Library",
+        "Digital literacy",
+        "AI avoidance",
+        "Big Tech",
+        "Consumer AI"
+      ],
+      "category_label": "AI & Society",
+      "published_at": "2026-07-25T16:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-society",
+        "AI-policy",
+        "Digital-literacy",
+        "Product-design"
+      ],
+      "actions_developer": [
+        "ออกแบบ AI feature ด้วย opt-in แทน opt-out เพื่อลด backlash และรักษา trust",
+        "ติดตาม trend นี้เป็น early warning signal ก่อนที่ regulation จะตามมา"
+      ],
+      "actions_business": [
+        "ประเมินว่า AI features ที่เพิ่มเข้า product เป็น push หรือ pull — ผู้ใช้รู้สึกถูกบังคับหรือไม่",
+        "ใช้ library workshop เป็น focus group data ฟรีๆ เพื่อเข้าใจ pain points ของ non-tech users"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-prentis-reid-hoffman-computer-use-100m-20260724",
+      "slug": "prentis-reid-hoffman-computer-use-100m-techcrunch",
+      "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+      "topic": "AI Agents",
+      "topic_group": "ai-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "high",
+      "content": "Prentis ชัดเจนว่า computer-use เป็น next AI mega-market ที่ใหญ่กว่า coding — หาก Hive-32B ที่ราคาถูกกว่า 10x จาก frontier API ทำงานได้จริง จะ disrupt enterprise software อย่างมีนัย Prentis เปิดตัวในเดือนเมษายน 2026 โดย Ritankar Das (CEO, founder Titan holding co.), Reid Hoffman (LinkedIn co-founder, Greylock, ex-Microsoft board) และ Mark Pincus (Zynga founder) ธุรกิจหลักคือ train โมเดลให้เรียนรู้การทำงาน office workflow ของคนจริงๆ เพื่อสร้าง AI agent ที่ control computer แทนได้ โมเดล Hive-32B อ้างว่าดีกว่า OpenAI GPT-5.4 และ Claude Opus 4.6 ใน WindowsAgentArena และ ScreenSpot-v2 benchmark ด้วยต้นทุนต่อ task ต่ำกว่า frontier API ถึง 10 เท่า ทีมมาจาก OpenAI, Google DeepMind, Meta, Tencent, Alibaba มีสัญญาลูกค้าแล้วมูลค่าถึง $50M รวมถึง healthcare, manufacturer, clothing manufacturer",
+      "source_url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
+      "tech_impact": "Prentis เป็น bet ว่า computer-use AI จะ outpace coding AI ในแง่ market size — ถ้าสำเร็จ จะเปลี่ยน enterprise software market ที่มีมูลค่าหลายล้านล้านดอลลาร์ ผลกระทบต่อ white-collar knowledge worker จะรุนแรงกว่า AI coding ที่เห็นในปัจจุบัน",
+      "tags": [
+        "Prentis",
+        "Reid Hoffman",
+        "Mark Pincus",
+        "Computer use",
+        "AI agents",
+        "Startup funding",
+        "Hive-32B"
+      ],
+      "category_label": "AI Agents",
+      "published_at": "2026-07-24T22:25:00Z",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI-agents",
+        "Computer-use",
+        "Enterprise-AI",
+        "Startups"
+      ],
+      "actions_developer": [
+        "ทดสอบ Hive-32B ถ้าเปิดให้ใช้ เปรียบเทียบกับ Claude computer-use และ GPT-5.4 บน WindowsAgentArena",
+        "ติดตาม Prentis ในฐานะ potential enterprise computer-use platform ที่ cost-effective"
+      ],
+      "actions_business": [
+        "ประเมิน workflows ใน organization ที่เหมาะกับ computer-use AI agent — insurance claims, customs, document processing",
+        "ติดตาม funding round สำเร็จหรือไม่ เป็นสัญญาณว่า VC เชื่อใน computer-use thesis แค่ไหน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-anthropic-opus-5-launch-20260724",
+      "slug": "anthropic-opus-5-launch-techcrunch",
+      "title": "Anthropic launches Opus 5",
+      "topic": "AI Models",
+      "topic_group": "ai-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "high",
+      "content": "Opus 5 เป็น strategic value play ของ Anthropic — developer ที่ต้องการ near-frontier capability แต่งบจำกัดสามารถใช้ได้ทันที ลดแรงกดดันให้ต้องใช้ Fable 5 เสมอ Anthropic เปิดตัว Claude Opus 5 โดยอ้างว่ามีความสามารถในงานซับซ้อนใกล้เคียง Fable 5 (โมเดล top tier ปัจจุบัน) แต่ราคาใช้งานอยู่ที่ $5/$25 ต่อล้าน token ซึ่งเท่ากับ Opus 4.8 Opus 5 เก่งกว่า Opus 4.8 ทุก benchmark ทั้ง knowledge และ coding safety constraints ที่เคยมีใน Fable 5 เรื่องเคมีและชีววิทยาไม่มีปัญหาเพราะถูกจัดการในระหว่างการฝึกฝน",
+      "source_url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+      "tech_impact": "Opus 5 ลด cost barrier สำหรับ near-frontier AI — team ที่ใช้ Fable 5 อยู่ควรทดสอบว่า Opus 5 ทำงานได้ในระดับเดียวกันหรือไม่ เพื่อลดค่าใช้จ่ายได้ทันที",
+      "tags": [
+        "Anthropic",
+        "Claude Opus 5",
+        "LLM",
+        "AI models"
+      ],
+      "category_label": "AI Models",
+      "published_at": "2026-07-24T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-models",
+        "LLM",
+        "Anthropic"
+      ],
+      "actions_developer": [
+        "ทดสอบ Opus 5 บน workload ที่ปัจจุบันใช้ Fable 5 เพื่อประเมินการประหยัดต้นทุน",
+        "ใช้ Opus 5 เป็น default สำหรับ complex reasoning task ที่ไม่ต้องการ Fable 5"
+      ],
+      "actions_business": [
+        "ประเมิน ROI migration จาก Fable 5 มา Opus 5 สำหรับ use case ทั่วไป",
+        "รวม Opus 5 เข้า model routing strategy เพื่อ cost optimization"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-us-open-weight-ai-restrictions-20260724",
+      "slug": "us-open-weight-ai-restrictions-techcrunch",
+      "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
+      "topic": "AI Policy",
+      "topic_group": "global",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "การถกเถียงเรื่อง open-weight AI restriction เป็นนโยบายที่จะส่งผลกระทบทั่วโลก รวมถึงไทย — หาก US restrict โมเดลเช่น Llama หรือ Mistral ชุมชน open source จะกระทบหนัก จากกรณีข้อกล่าวหาที่ว่า Moonshot AI distill Claude Fable เพื่อสร้าง Kimi K3 สหรัฐฯ กำลังพิจารณาตอบสนองต่อ Chinese AI advancement รวมถึงการจำกัดการเผยแพร่ open-weight model ที่อาจถูกใช้เป็นฐานสำหรับ adversarial AI ทว่าอุตสาหกรรม tech ยื่น comment ต่อรัฐบาลว่า broad restriction จะทำให้ US research community และ startups เสียเปรียบ ขณะที่ China สามารถพัฒนา closed model ของตัวเองได้อยู่ดี",
+      "source_url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+      "tech_impact": "ถ้าสหรัฐฯ restrict open-weight AI model จะมีผลต่อ global AI development อย่างมาก รวมถึงไทยที่พึ่ง open-source model สำหรับ research และ startup",
+      "tags": [
+        "Open-weight AI",
+        "US AI policy",
+        "China AI",
+        "Kimi K3",
+        "AI regulation",
+        "Open source AI"
+      ],
+      "category_label": "AI Policy",
+      "published_at": "2026-07-24T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-policy",
+        "Open-source-AI",
+        "Geopolitics"
+      ],
+      "actions_developer": [
+        "ติดตาม OSTP และ NIST policy consultations เรื่อง open-weight AI",
+        "ประเมิน risk ของ dependency บน open-weight model ถ้า regulation เปลี่ยน"
+      ],
+      "actions_business": [
+        "ติดตามว่า restriction จะครอบคลุม model ใดบ้าง และมี timeline เมื่อไหร่",
+        "วางแผน alternative ถ้า open-weight model ที่ใช้อยู่ถูก restrict"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-bluesky-attie-ai-social-research-20260724",
+      "slug": "bluesky-attie-ai-social-research-techcrunch",
+      "title": "Bluesky's AI assistant Attie expands into an open social research tool",
+      "topic": "AI Tools",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "low",
+      "content": "Attie คือ attempt ของ Bluesky ในการสร้าง AI-native social intelligence layer บน open protocol — ต่างจาก Twitter/X ที่ปิด API Attie เปิดให้ทุกคนสร้างต่อยอด Bluesky ประกาศขยาย Attie ซึ่งเดิมเป็น AI chatbot ส่วนตัว ให้กลายเป็น open social research tool ที่ทุกคนสามารถใช้ค้นหา trending topics, วิเคราะห์ sentiment, และ summarize conversation บน AT Protocol ได้ มี API เปิดให้ developer สร้าง application บน Attie ได้ เป็นการ differentiate จาก X ที่ปิด API และเรียกเก็บเงินสูง",
+      "source_url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
+      "tech_impact": "Attie เป็น example ของ open AI + open social protocol ที่ทำให้ social intelligence เป็น public good แทนที่จะเป็น walled garden — น่าจับตาสำหรับ researcher และ developer ที่สร้าง social listening tools",
+      "tags": [
+        "Bluesky",
+        "Attie",
+        "AI assistant",
+        "Social media",
+        "Research tool",
+        "AT Protocol"
+      ],
+      "category_label": "AI Tools",
+      "published_at": "2026-07-24T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-tools",
+        "Social-media",
+        "Open-source"
+      ],
+      "actions_developer": [
+        "ทดสอบ Attie API สำหรับ social listening และ trend analysis บน Bluesky",
+        "ประเมิน use case บน AT Protocol ที่ open API ให้ประโยชน์มากกว่า X API"
+      ],
+      "actions_business": [
+        "ติดตาม Bluesky user growth และ content quality เพื่อประเมินว่า Attie จะมีข้อมูลพอสำหรับ brand monitoring หรือไม่"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-cognition-poke-ai-personality-20260724",
+      "slug": "cognition-poke-ai-personality-techcrunch",
+      "title": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+      "topic": "AI Industry",
+      "topic_group": "global",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "การซื้อ Poke บ่งชี้ว่า next frontier ของ AI product differentiation อาจอยู่ที่ personality design มากกว่า benchmark score — เป็น trend ที่ product team ควรสังเกต Cognition ผู้สร้าง Devin (AI software engineer) ซื้อ Poke startup ที่เชี่ยวชาญ AI personality design โดย TechCrunch วิเคราะห์ว่า Cognition เชื่อว่า personality ที่มีเอกลักษณ์จะสร้าง user engagement และ loyalty ที่ model capability เพียงอย่างเดียวทำไม่ได้ Devin ประสบปัญหาในการสร้าง differentiation จาก Claude code และ GitHub Copilot ซึ่งต่างก็มี coding capability ใกล้เคียงกัน การซื้อ Poke จึงเป็นการลงทุนใน 'character' ของ AI agent",
+      "source_url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+      "tech_impact": "AI personality เป็น differentiator ที่ยากจะ copy ทันที — สำหรับ product ที่ compete บน capability ที่ใกล้เคียงกัน personality อาจตัดสิน retention ได้มากกว่า benchmark",
+      "tags": [
+        "Cognition",
+        "Poke",
+        "AI personality",
+        "Devin",
+        "AI agent",
+        "Acquisition"
+      ],
+      "category_label": "AI Industry",
+      "published_at": "2026-07-24T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-industry",
+        "AI-agents",
+        "Product-design",
+        "UX"
+      ],
+      "actions_developer": [
+        "ลงทุนใน character design และ tone of voice ของ AI product เท่าๆ กับ capability improvement",
+        "ทดสอบว่า personality consistency ส่งผล user retention อย่างไร"
+      ],
+      "actions_business": [
+        "ประเมิน AI agent ที่ใช้ในองค์กรว่า personality ส่งผลต่อ adoption และ engagement หรือไม่",
+        "พิจารณา budget สำหรับ AI UX/personality design เป็นส่วนหนึ่งของ AI investment"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-openai-voice-mode-desktop-20260724",
+      "slug": "openai-voice-mode-chatgpt-desktop-techcrunch",
+      "title": "OpenAI's new voice mode makes it to the ChatGPT desktop app",
+      "topic": "AI Tools",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "low",
+      "content": "Voice mode บน desktop เป็นอีกก้าวของ OpenAI ในการทำให้ ChatGPT เป็น ambient AI assistant บนทุก platform ไม่ใช่แค่ mobile OpenAI ประกาศ roll out voice mode รุ่นใหม่ที่เคยเปิดตัวบน mobile มาสู่ ChatGPT desktop app สำหรับ Windows และ macOS ผู้ใช้สามารถสนทนาด้วยเสียงแบบ real-time ได้โดยตรงจาก desktop ไม่ต้องใช้ browser voice mode เป็นส่วนหนึ่งของแผนขยาย multimodal capability ของ ChatGPT ให้ครอบคลุมทุก platform",
+      "source_url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+      "tech_impact": "Voice mode บน desktop เปิด use case ใหม่สำหรับ hands-free AI interaction ระหว่างทำงาน — เป็น feature ที่ developer และ knowledge worker จะทดลองใช้เป็นลำดับต้น",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Voice mode",
+        "Desktop app",
+        "AI assistant"
+      ],
+      "category_label": "AI Tools",
+      "published_at": "2026-07-24T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-tools",
+        "Voice-AI",
+        "OpenAI",
+        "ChatGPT"
+      ],
+      "actions_developer": [
+        "ทดสอบ voice mode ใน workflow เช่น code review หรือ writing ที่ต้องการ hands-free input",
+        "ติดตาม API สำหรับ voice ที่ OpenAI อาจเปิดให้ developer ใช้บน desktop"
+      ],
+      "actions_business": [
+        "ประเมิน voice AI ใน meeting, note-taking, หรือ customer service scenarios"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-ai-guardrails-offensive-cybersecurity-20260723",
+      "slug": "ai-guardrails-offensive-cybersecurity-techcrunch",
+      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "topic": "AI Security",
+      "topic_group": "global",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "เป็น tension ที่ไม่มีคำตอบง่าย — AI ที่ safe เกินไปอาจทำให้ defenders เสียเปรียบกว่า attackers ที่ใช้ uncensored model TechCrunch สัมภาษณ์ offensive cybersecurity researcher หลายคนที่รายงานว่า AI tools เช่น Claude Mythos และโมเดลอื่นๆ มักปฏิเสธช่วยงานที่เกี่ยวข้องกับ penetration testing, exploit development และ vulnerability analysis แม้จะเป็นงานที่ถูกกฎหมายและมี professional context ชัดเจน ทำให้ researcher บางคนต้องเปลี่ยนไปใช้ open-source uncensored model แทน ซึ่งอาจมีความเสี่ยงด้านอื่น",
+      "source_url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+      "tech_impact": "AI guardrail design เป็นปัญหาที่ยังไม่แก้ได้ — การ block too broad ทำให้ legitimate security professional เสียประสิทธิภาพ การ block too narrow เปิดช่องให้ misuse",
+      "tags": [
+        "AI guardrails",
+        "Cybersecurity",
+        "Claude Mythos",
+        "Red team",
+        "AI safety",
+        "Offensive security"
+      ],
+      "category_label": "AI Security",
+      "published_at": "2026-07-23T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-security",
+        "AI-safety",
+        "Cybersecurity"
+      ],
+      "actions_developer": [
+        "ออกแบบ AI system prompt สำหรับ security tool ให้มี context ชัดเจนเพื่อลดการถูก block",
+        "ติดตาม Anthropic Responsible Scaling Policy สำหรับ professional security contexts"
+      ],
+      "actions_business": [
+        "ถ้าองค์กรมี security team ประเมินว่า AI tool ที่ใช้อยู่ support หรือขัดขวาง red team workflow",
+        "พิจารณา enterprise AI contract ที่มี professional use case exemption"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-amd-helios-ai-rack-20260723",
+      "slug": "amd-helios-ai-rack-techcrunch",
+      "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+      "topic": "AI Hardware",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "high",
+      "content": "Helios คือ most credible NVIDIA challenger ใน rack-scale AI system ที่เห็นมาตลอด — Microsoft adoption เป็น signal สำคัญว่า hyperscaler กำลัง diversify ออกจาก NVIDIA dependency AMD เปิดตัว Helios ระบบ AI rack-scale ที่ integrate MI400 GPU, ROCm.ai software stack และ Infinity Fabric interconnect เข้าด้วยกัน AMD อ้างว่า Helios ให้ performance เหนือ NVIDIA Vera Rubin ที่เป็น flagship AI system ของ NVIDIA ในปัจจุบัน 30% Microsoft ประกาศเป็น launch customer และจะ deploy Helios rack ในระดับ hyperscale ถือเป็น validation ครั้งใหญ่สำหรับ AMD hardware ที่ต้องการ break NVIDIA's dominance",
+      "source_url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+      "tech_impact": "หาก Microsoft deploy Helios จริงในระดับใหญ่ จะเริ่มเห็น real performance data ที่ลบหรือยืนยัน AMD claim 30% advantage — ปี 2027 จะเป็นปีทดสอบว่า NVIDIA moat จะอยู่รอดหรือไม่",
+      "tags": [
+        "AMD",
+        "Helios",
+        "NVIDIA",
+        "AI rack",
+        "Data center",
+        "MI400",
+        "Lisa Su"
+      ],
+      "category_label": "AI Hardware",
+      "published_at": "2026-07-23T00:00:00Z",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI-hardware",
+        "GPU",
+        "Data-center",
+        "AMD",
+        "NVIDIA"
+      ],
+      "actions_developer": [
+        "ติดตาม Azure announcement เรื่อง AMD Helios instance availability สำหรับ workload testing",
+        "เตรียม benchmark plan เพื่อทดสอบ AMD vs NVIDIA ใน production use case ของตัวเอง"
+      ],
+      "actions_business": [
+        "ประเมิน AMD Helios เป็น alternative ใน next AI infrastructure procurement cycle",
+        "ติดตามว่า Azure จะเปิด AMD-based instance ให้ test ในราคาที่แข่งขันได้หรือไม่"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-anthropic-claude-voice-mode-update-20260723",
+      "slug": "anthropic-claude-voice-mode-update-techcrunch",
+      "title": "Anthropic updates Claude voice mode with more capable models",
+      "topic": "AI Models",
+      "topic_group": "ai-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "low",
+      "content": "Voice AI กำลังเป็น battleground หลักระหว่าง Anthropic และ OpenAI — ทั้งสองอัปเดต voice mode ใน timeframe ใกล้เคียงกัน Anthropic อัปเดต Claude voice mode โดย upgrade โมเดลที่ใช้ในการ power voice conversation ให้ powerful ขึ้น ทำให้ latency ลดลงและความสามารถในการเข้าใจ nuanced conversation ดีขึ้น Claude voice mode เป็นคู่แข่งโดยตรงกับ ChatGPT voice mode ของ OpenAI ที่เพิ่งขยายมายัง desktop ด้วย",
+      "source_url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+      "tech_impact": "Voice AI เป็น interface ที่จะกำหนดว่า AI ถูก adopt ใน daily workflow ได้แค่ไหน — Anthropic และ OpenAI ต่าง invest ใน voice improvement อย่างต่อเนื่อง",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Voice mode",
+        "Multimodal",
+        "AI assistant"
+      ],
+      "category_label": "AI Models",
+      "published_at": "2026-07-23T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-models",
+        "Voice-AI",
+        "Anthropic"
+      ],
+      "actions_developer": [
+        "ทดสอบ Claude voice mode บน use case ที่ต้องการ conversational AI",
+        "เปรียบเทียบ latency และ accuracy กับ OpenAI voice mode เพื่อเลือก platform"
+      ],
+      "actions_business": [
+        "ประเมิน voice AI สำหรับ customer service หรือ internal assistant use case"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-aegisai-36m-spear-phishing-20260723",
+      "slug": "aegisai-36m-spear-phishing-techcrunch",
+      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+      "topic": "AI Security",
+      "topic_group": "global",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "high",
+      "content": "AI spear phishing เป็นภัยที่ scale ได้มากกว่า human-crafted attack เพราะ AI สร้าง personalized attack ได้เร็วและถูก — AegisAI ใช้ AI ต่อสู้กับ AI ใน threat landscape ใหม่นี้ AegisAI ก่อตั้งโดย Cy Khormaee และ Ryan Luo อดีต Google security executive ระดมทุน $36M เพื่อพัฒนา AI defense system ต่อ spear phishing ที่สร้างด้วย AI ระบบของ AegisAI วิเคราะห์ email content, sender pattern และ contextual signal เพื่อตรวจจับ AI-generated phishing ที่มีความน่าเชื่อถือสูงกว่า traditional phishing มาก เป็นการตอบสนองต่อ AI-powered cyberattack ที่กำลังกลายเป็น mainstream",
+      "source_url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+      "tech_impact": "AI spear phishing เป็น threat ที่ทุก enterprise ต้องเตรียมรับ — attack ที่สร้างด้วย AI มี personalization และ scale ที่มนุษย์รับมือด้วย traditional email filter ไม่ได้",
+      "tags": [
+        "AegisAI",
+        "Spear phishing",
+        "AI security",
+        "Google",
+        "Cybersecurity funding"
+      ],
+      "category_label": "AI Security",
+      "published_at": "2026-07-23T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-security",
+        "Cybersecurity",
+        "Enterprise-AI"
+      ],
+      "actions_developer": [
+        "Review email security stack ขององค์กรว่ามี AI-generated phishing detection หรือไม่",
+        "ทดสอบ employee response ต่อ AI-crafted phishing เป็น baseline ก่อน deploy solution"
+      ],
+      "actions_business": [
+        "เพิ่ม AI phishing awareness ใน security training — attack จะมี personalization สูงขึ้นมาก",
+        "ประเมิน AegisAI และ solution อื่นๆ สำหรับ email security ใน 2026-2027"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-etched-ai-chip-10b-valuation-20260723",
+      "slug": "etched-ai-chip-10b-valuation-techcrunch",
+      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+      "topic": "AI Hardware",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Etched bet ว่า Transformer architecture จะ dominant ไปอีกนาน — ถ้าถูก จะเป็น chip ที่ efficient กว่า GPU ในงาน inference มาก ถ้าผิด จะ obsolete Etched สร้าง ASIC chip ที่ optimize สำหรับ Transformer model โดยเฉพาะ ทำให้มี throughput และ efficiency สูงกว่า GPU generalist มากในงาน Transformer inference Etched ระดมทุนที่ valuation $10.3B จาก investor ชื่อดัง ถึงแม้จะมี skeptic หลายคนตั้งคำถามว่าการ bet ทั้งหมดใน Transformer architecture มีความเสี่ยงอย่างไรหาก architecture เปลี่ยน หรือ AI ย้ายไปสู่ agentic paradigm ที่ต้องการ flexible compute มากกว่า",
+      "source_url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+      "tech_impact": "Etched เป็น high-conviction bet ใน Transformer longevity — หาก Transformer ยังเป็น dominant AI paradigm ใน 5 ปีข้างหน้า Etched จะเป็น cost-efficient AI inference leader ที่น่าสนใจมาก",
+      "tags": [
+        "Etched",
+        "AI chip",
+        "Transformer chip",
+        "ASIC",
+        "Startup funding",
+        "$10B valuation"
+      ],
+      "category_label": "AI Hardware",
+      "published_at": "2026-07-23T00:00:00Z",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI-hardware",
+        "ASIC",
+        "Transformer",
+        "AI-chip"
+      ],
+      "actions_developer": [
+        "ติดตาม Etched chip availability สำหรับ Transformer inference workload ที่ cost-sensitive",
+        "ประเมินว่า workload ของตัวเองเป็น Transformer-heavy หรือ diverse enough ที่ GPU ยังดีกว่า"
+      ],
+      "actions_business": [
+        "ติดตาม Etched funding milestone เป็น signal ว่า investor เชื่อว่า Transformer จะอยู่ต่อแค่ไหน",
+        "พิจารณา Etched ใน AI hardware evaluation สำหรับ inference workload ใน 2027+"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-google-gemini-billion-users-20260723",
+      "slug": "google-gemini-billion-users-techcrunch",
+      "title": "Google's Gemini nears billion-user milestone",
+      "topic": "AI Industry",
+      "topic_group": "global",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Gemini ที่ 1B users เป็นสัญญาณว่า AI assistant adoption กำลังถึง mainstream threshold — ไม่ใช่แค่ early adopter แล้ว Google เปิดเผยใน earnings report ว่า Gemini กำลังจะแตะ milestone 1 พันล้าน user ซึ่งจะทำให้เป็น billion-user product ตัวที่สองหลัง Search ขณะที่ Google Cloud รายงาน revenue growth +82% YoY ส่วนหนึ่งมาจาก AI infrastructure demand ที่พุ่งสูง ตัวเลขนี้แสดงว่า Google ประสบความสำเร็จในการ monetize AI investment ที่ลงไปหลายแสนล้านดอลลาร์",
+      "source_url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+      "tech_impact": "Gemini ที่ 1B users หมายความว่า Google AI ถึง mainstream adoption แล้ว — เป็น signal ว่า AI assistant เป็น mass product ไม่ใช่ niche อีกต่อไป",
+      "tags": [
+        "Google",
+        "Gemini",
+        "1 billion users",
+        "AI adoption",
+        "Google Cloud"
+      ],
+      "category_label": "AI Industry",
+      "published_at": "2026-07-23T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-industry",
+        "Google",
+        "AI-adoption"
+      ],
+      "actions_developer": [
+        "พิจารณา Gemini API ใน tech stack ถ้ายังไม่ได้ evaluate เพราะ ecosystem ขนาดนี้จะมี third-party integration มากขึ้น",
+        "ติดตาม Google Cloud AI pricing ที่อาจเปลี่ยนตาม scale"
+      ],
+      "actions_business": [
+        "ถ้า target audience ใช้ Google products จำนวนมาก Gemini integration อาจเข้าถึง user ได้โดยตรงมากกว่า",
+        "พิจารณา Google Cloud AI สำหรับ enterprise use case โดยเฉพาะถ้าใช้ Google Workspace อยู่แล้ว"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "arxiv-autonomous-agency-scale-behavioral-framework-20260721",
+      "slug": "autonomous-agency-scale-behavioral-framework-arxiv",
+      "title": "The Autonomous Agency Scale: A Behavioral Framework for Measuring Self-Directed Behavior in AI Systems",
+      "topic": "AI Research",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.AI",
+      "category": "Research",
+      "urgency": "high",
+      "content": "AAS เป็น missing piece ใน AI safety toolbox — ไม่มี standardized way วัดว่า AI มีระดับ autonomy เท่าไหร่ก่อนที่จะกลายเป็น risk AAS พยายามแก้ปัญหานี้ด้วย behavioral rubric ที่ใช้งานได้จริง Samuel Presgraves นำเสนอ Autonomous Agency Scale (AAS) เป็น behavioral framework สำหรับวัดระดับ self-directed behavior ในระบบ AI ตั้งแต่ simple reactive system ไปจนถึง highly autonomous agent กรอบนี้ให้ rubric ที่ชัดเจน มี dimension ต่างๆ เช่น goal persistence, resource acquisition, deceptive capability, และ boundary testing AAS v0.2.1 เปิดให้ใช้ฟรีบน GitHub พร้อม assessment file ครบชุด งานนี้มีความสำคัญพิเศษหลัง OpenAI/Hugging Face breach event เพราะชี้ว่าเราต้องการ standardized way วัด autonomy ก่อน deploy production agent",
+      "source_url": "https://arxiv.org/abs/2607.17947",
+      "tech_impact": "AAS เป็น practical tool ที่ team ที่ build AI agent ควรใช้ evaluate ก่อน production deploy — วัดว่า agent มี autonomy ระดับไหนและมี risk profile อย่างไร",
+      "tags": [
+        "AI agents",
+        "Autonomous agency",
+        "Behavioral framework",
+        "AI safety",
+        "Self-directed AI",
+        "AAS"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-07-21T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-agents",
+        "AI-safety",
+        "AI-governance"
+      ],
+      "actions_developer": [
+        "ดาวน์โหลด AAS v0.2.1 จาก GitHub และใช้ประเมิน AI agent ที่กำลัง develop",
+        "Include AAS score ใน AI agent documentation และ safety assessment"
+      ],
+      "actions_business": [
+        "ใช้ AAS เป็น checklist ก่อน deploy AI agent ใน production environment ที่มี real-world consequence",
+        "พิจารณา AAS เป็นส่วนหนึ่งของ AI governance process"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "arxiv-llm-self-loops-activation-steering-20260721",
+      "slug": "llm-self-loops-activation-steering-arxiv",
+      "title": "Can We Break LLMs Out of Self-Loops? Fine-Grained Reasoning Control with Activation Steering",
+      "topic": "AI Research",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.AI",
+      "category": "Research",
+      "urgency": "high",
+      "content": "Activation Steering เป็น technique ที่ช่วยให้ developer มี fine-grained control เหนือ LLM behavior โดยไม่ต้อง retrain — เป็นทางออกที่ practical สำหรับ agent self-loop problem ทีมวิจัยจาก UC San Diego, Adobe Research และ UNSW นำเสนอ fine-grained reasoning control สำหรับ LLM โดยใช้ activation steering เพื่อแก้ปัญหาที่ LLM agent มักตกอยู่ใน self-loop ซึ่งเป็นปัญหาที่เกิดขึ้นบ่อยใน agentic workflow เมื่อ model ไม่รู้ว่าควร terminate หรือ continue reasoning วิธีนี้ทำงานโดย identify activation patterns ที่เกี่ยวข้องกับ self-loop behavior แล้ว steer ออกจาก pattern นั้นในระหว่าง inference โดยไม่ต้อง fine-tune model ใหม่",
+      "source_url": "https://arxiv.org/abs/2607.18100",
+      "tech_impact": "Self-loop เป็นปัญหา critical ใน production AI agent ที่ทำให้ consume token ไม่สิ้นสุดและไม่ deliver result Activation Steering เป็น technique ที่ developer สามารถ apply ได้โดยไม่ต้อง retrain",
+      "tags": [
+        "LLM",
+        "Self-loops",
+        "Activation steering",
+        "Agent reliability",
+        "Reasoning control",
+        "Fine-grained control"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-07-21T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-agents",
+        "LLM",
+        "Agent-reliability"
+      ],
+      "actions_developer": [
+        "ศึกษา activation steering technique และทดสอบกับ agent workflow ที่มีปัญหา self-loop",
+        "เพิ่ม self-loop detection mechanism ใน production agent เป็น safety layer"
+      ],
+      "actions_business": [
+        "Monitor AI agent ที่ run ใน production สำหรับ self-loop behavior เพื่อป้องกัน runaway token cost"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "arxiv-verify-repair-stop-robust-llm-agent-20260721",
+      "slug": "verify-repair-stop-robust-llm-agent-arxiv",
+      "title": "Verify, Repair, Repeat, or Stop? Robust Stopping for Noisy Verify-Repair Loops in LLM Agents",
+      "topic": "AI Research",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.AI",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "Stopping criteria ที่ดีมีผลโดยตรงต่อ reliability และ cost ของ production AI agent — งานนี้ให้ framework ที่ practical สำหรับปัญหาที่ยังไม่มีคำตอบที่ดีใน agentic AI ในระบบ LLM agent ที่มี verify-repair loop ปัญหาสำคัญคือเมื่อไหร่ควรหยุดพยายาม repair และยอมรับ failure ทีมวิจัยนำเสนอ robust stopping mechanism ที่ออกแบบมาสำหรับ noisy verification signal ซึ่งพบบ่อยใน real-world scenario เช่น code testing, document validation, หรือ API interaction กรอบนี้ใช้ probabilistic stopping criteria ที่ balance ระหว่าง false stop (หยุดเร็วเกินก่อนได้คำตอบ) และ infinite loop (วนซ้ำไม่สิ้นสุด) เป็นงานวิจัยที่ complement กันดีกับ self-loop paper ของ Sheldon Yu et al.",
+      "source_url": "https://arxiv.org/abs/2607.17641",
+      "tech_impact": "Stopping criteria เป็น under-studied ใน AI agent design แต่มีผลโดยตรงต่อ token cost, reliability, และ user experience งานนี้ให้ framework ที่ implement ได้จริง",
+      "tags": [
+        "LLM agent",
+        "Stopping criteria",
+        "Verify-repair loop",
+        "Agent reliability",
+        "Robust AI"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-07-21T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-agents",
+        "Agent-reliability",
+        "LLM"
+      ],
+      "actions_developer": [
+        "ศึกษา probabilistic stopping criteria และ implement ใน verify-repair loop ของ agent",
+        "เพิ่ม max-retry budget และ confidence threshold ใน agent stopping logic"
+      ],
+      "actions_business": [
+        "ตรวจสอบ production agent ว่ามี stopping criteria ที่ explicit หรือไม่ เพื่อป้องกัน runaway cost"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "arxiv-mechanistic-attention-agent-memory-refinement-20260721",
+      "slug": "mechanistic-attention-agent-memory-refinement-arxiv",
+      "title": "Mechanistic Attention Guidance for Agent Memory Refinement",
+      "topic": "AI Research",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.AI",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "Memory refinement ที่ guided โดย mechanistic understanding ของ attention ดีกว่า heuristic-based approach — ให้ agent memory ที่แม่นยำและ efficient กว่าในระยะยาว งานวิจัยนี้ใช้ mechanistic interpretability tools เพื่อ analyze attention patterns ใน LLM agent และ identify attention heads ที่ play critical role ใน memory retrieval จากนั้นใช้ knowledge นี้ guide กระบวนการ refine agent memory ทำให้สามารถ identify memory entries ที่ outdated, conflicting หรือ redundant ได้อัตโนมัติ แทนที่จะใช้ recency heuristic หรือ LRU cache ที่ไม่ได้คำนึงถึง semantic importance",
+      "source_url": "https://arxiv.org/abs/2607.17621",
+      "tech_impact": "สำหรับ long-running AI agent ที่มี large memory store memory refinement ที่ accurate และ efficient เป็น critical factor ในการรักษา performance ไม่ให้ degradation เมื่อเวลาผ่านไป",
+      "tags": [
+        "Agent memory",
+        "Attention mechanism",
+        "Memory refinement",
+        "LLM agent",
+        "Mechanistic interpretability"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-07-21T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-agents",
+        "Agent-memory",
+        "Mechanistic-interpretability"
+      ],
+      "actions_developer": [
+        "ศึกษา mechanistic attention analysis tools เพื่อ understand memory bottleneck ใน agent",
+        "Implement systematic memory refinement แทน naive LRU หรือ recency-based pruning"
+      ],
+      "actions_business": [
+        "Allocate memory management เป็น dedicated component ใน agent architecture ที่ต้องการ long-term operation"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "arxiv-reflective-recall-long-term-memory-20260721",
+      "slug": "reflective-recall-long-term-memory-arxiv",
+      "title": "Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long-term Memory",
+      "topic": "AI Research",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.AI",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "การ reflect ก่อน recall ทำให้ memory retrieval แม่นยำขึ้นมาก — pattern นี้สะท้อน episodic memory ของมนุษย์ที่ context ช่วย cue memory ที่ relevant Ganesh Senrayan et al. นำเสนอ Reflective Recall Cycle (RRC) ที่แทนที่ direct retrieval ด้วย reflection step ก่อน ระบบจะ reflect บน current context เพื่อ generate cues ที่ meaningful ก่อน query memory store ซึ่งทำให้ retrieval แม่นยำกว่าการใช้ raw query โดยตรง มี 2 mode: Exploratory Reflection เพื่อค้นหา connection ที่ไม่ชัดเจน และ Assimilating Reflection เพื่อบูรณาการ knowledge ที่มีอยู่กับ context ใหม่ ทดสอบบน long-horizon task และ AI companion scenario",
+      "source_url": "https://arxiv.org/abs/2607.17879",
+      "tech_impact": "RRC ชี้ว่า better memory architecture มีผลต่อ agent performance มากกว่า better base model ใน long-horizon task — สำคัญสำหรับ agent ที่ต้องทำงานข้ามหลาย session",
+      "tags": [
+        "Long-term memory",
+        "Reflective recall",
+        "LLM agent",
+        "Memory architecture",
+        "AI companions"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-07-21T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-agents",
+        "Agent-memory",
+        "LLM"
+      ],
+      "actions_developer": [
+        "Implement reflection step ก่อน memory retrieval ใน long-running agent แทน direct embedding search",
+        "ทดสอบ RRC บน use case ที่ต้องการ cross-session memory เช่น AI assistant หรือ customer service bot"
+      ],
+      "actions_business": [
+        "ประเมิน memory architecture เป็น key component ใน enterprise AI assistant ที่ต้องการ context ข้ามการสนทนา"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "arxiv-shared-discovery-paradox-multiagent-search-20260721",
+      "slug": "shared-discovery-paradox-multiagent-search-arxiv",
+      "title": "The Shared Discovery Paradox: How a One-Answer Rule Turns Better Information into Worse Search",
+      "topic": "AI Research",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.AI",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "Paradox นี้มีนัยสำคัญต่อการออกแบบ multi-agent system ทุกชนิด — sharing information เร็วเกินไปอาจเป็นอันตราย ต้องออกแบบ coordination mechanism ที่ balance exploration กับ exploitation Yohei Nakajima (BabyAGI creator) นำเสนองานวิจัยที่ discover paradox ใน multi-agent search: เมื่อ system ใช้ one-answer rule (agent ที่ค้นพบคำตอบแรกจะ share ทันทีและทำให้ agent อื่นหยุดค้นหา) การมีข้อมูลที่ดีขึ้นในแต่ละ agent กลับทำให้ search quality โดยรวมแย่ลง เพราะ early false positive มี cascade effect ที่รุนแรงขึ้น งานนี้มี code และ interactive guide ใน GitHub พร้อมใช้ มี implication ต่อ design ของ multi-agent RAG, parallel agent search, และ distributed knowledge systems",
+      "source_url": "https://arxiv.org/abs/2607.18045",
+      "tech_impact": "Shared Discovery Paradox เป็น fundamental finding ที่ designer ของ multi-agent system ต้องเข้าใจ — naive sharing คือ failure mode ไม่ใช่ feature",
+      "tags": [
+        "Multi-agent",
+        "Search theory",
+        "Game theory",
+        "Shared discovery",
+        "Yohei Nakajima",
+        "babyagi"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-07-21T00:00:00Z",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI-agents",
+        "Multi-agent",
+        "Search-theory",
+        "RAG"
+      ],
+      "actions_developer": [
+        "Review multi-agent search pipeline ว่ามี premature convergence risk จาก one-answer rule",
+        "ออกแบบ coordination protocol ที่ balance exploration time กับ answer sharing"
+      ],
+      "actions_business": [
+        "ถ้าใช้ multi-agent RAG หรือ parallel search ตรวจสอบว่า answer quality ถูก validate ก่อน propagate"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "arxiv-agentic-erp-multiagent-llm-enterprise-20260721",
+      "slug": "agentic-erp-multiagent-llm-enterprise-arxiv",
+      "title": "Agentic ERP: Multi-Agent Large Language Model Architecture for Autonomous Enterprise Resource Planning",
+      "topic": "AI Research",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.AI",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "Agentic ERP เป็น preview ของ AI-first enterprise software ที่กำลังจะมาแทน traditional ERP ซึ่งเป็นตลาดที่ใหญ่มาก — complementary กับ Prentis lab ที่เน้น computer-use office automation ทีมวิจัยจาก KTH นำเสนอสถาปัตยกรรมที่แบ่ง ERP ออกเป็น domain-specific LLM agent แต่ละตัว (procurement agent, inventory agent, financial agent, HR agent ฯลฯ) ที่ collaborate ผ่าน standardized message protocol โดยมี orchestrator agent เป็น coordinator ระบบสามารถ handle complex cross-module transaction เช่น purchase order ที่ต้องผ่าน procurement, inventory, และ finance ได้อัตโนมัติ งานนี้ชี้ว่า traditional monolithic ERP อาจถูก disrupt โดย agentic architecture ที่ flexible กว่า",
+      "source_url": "https://arxiv.org/abs/2607.17331",
+      "tech_impact": "Agentic ERP เป็น signal ว่า enterprise software market มูลค่าหลายแสนล้านดอลลาร์กำลังจะถูก reshape โดย multi-agent AI — ทั้ง SAP, Oracle, Microsoft Dynamics ต่างเผชิญ disruption",
+      "tags": [
+        "ERP",
+        "Enterprise AI",
+        "Multi-agent",
+        "Autonomous ERP",
+        "LLM enterprise",
+        "KTH"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-07-21T00:00:00Z",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI-applications",
+        "Enterprise-AI",
+        "ERP",
+        "Multi-agent"
+      ],
+      "actions_developer": [
+        "ศึกษา Agentic ERP architecture เป็น blueprint สำหรับ enterprise AI integration ใน domain อื่น",
+        "ทดสอบ multi-agent approach กับ workflow automation ที่ปัจจุบัน handle ด้วย monolithic system"
+      ],
+      "actions_business": [
+        "ติดตามว่า ERP vendor เช่น SAP และ Oracle จะ integrate agentic AI อย่างไรใน 2-3 ปีข้างหน้า",
+        "ประเมิน readiness ของ organization สำหรับ agentic enterprise software"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "arxiv-agentic-agent-based-models-statistical-checking-20260721",
+      "slug": "agentic-agent-based-models-statistical-checking-arxiv",
+      "title": "Towards Agentic Agent-based Models: Feasibility, Performance, and Statistical Model Checking",
+      "topic": "AI Research",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.AI",
+      "category": "Research",
+      "urgency": "low",
+      "content": "เป็นงานบุกเบิกที่ bridge ABM simulation (ที่ใช้ใน social science และ policy simulation) กับ LLM agent — มีนัยต่อการสร้าง AI simulator สำหรับ complex social system ทีมวิจัยจาก Scuola Normale Superiore และ DTU สำรวจว่า traditional Agent-based Models ที่ใช้ rule-based agent ขนาดเล็กจะ behave อย่างไรถ้าแทนที่ด้วย LLM-powered agent ที่มี emergent behavior ผลพบว่ามีทั้งกรณีที่ agentic ABM ให้ result ที่ realistic กว่า และกรณีที่ unpredictability ของ LLM ทำให้ model verification ยากขึ้นมาก ทีมจึงนำเสนอ statistical model checking approach เพื่อ verify property ของ agentic ABM อย่างเป็นทางการ",
+      "source_url": "https://arxiv.org/abs/2607.17948",
+      "tech_impact": "ABM + LLM agent เป็น combination ที่น่าสนใจสำหรับ policy simulation, social modeling, และ scenario planning ที่ต้องการ realistic human-like behavior แต่ต้องมี formal verification ควบคู่",
+      "tags": [
+        "Agent-based modeling",
+        "Statistical model checking",
+        "Multi-agent",
+        "Formal verification",
+        "AI safety"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-07-21T00:00:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI-agents",
+        "Simulation",
+        "Formal-verification",
+        "Multi-agent"
+      ],
+      "actions_developer": [
+        "ศึกษา statistical model checking สำหรับ multi-agent system เพื่อ verify behavior ก่อน production",
+        "พิจารณา agentic ABM สำหรับ simulation-based testing ของ complex system"
+      ],
+      "actions_business": [
+        "ติดตามงานวิจัยนี้สำหรับ policy simulation, market modeling, หรือ risk scenario planning ที่ต้องการ realistic agent behavior"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
