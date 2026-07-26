@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI News Daily — 2026-06-29</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-primary: #f0f2f8;
+  --bg-card: #ffffff;
+  --bg-header: #1a1a2e;
+  --neon-cyan: #00d4ff;
+  --neon-magenta: #ff00ff;
+  --neon-green: #00ff88;
+  --neon-purple: #a855f7;
+  --neon-orange: #ff6b35;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4a6a;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg-primary); color: var(--text-primary); font-family: 'Rajdhani', 'Segoe UI', Tahoma, sans-serif; font-size: 15px; line-height: 1.6; }
+a { color: var(--neon-cyan); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header */
+.site-header {
+  background: var(--bg-header);
+  color: #fff;
+  padding: 24px 32px;
+  border-bottom: 3px solid var(--neon-cyan);
+}
+.site-header h1 {
+  font-family: 'Orbitron', monospace;
+  font-size: 2rem;
+  color: var(--neon-cyan);
+  text-shadow: 0 0 20px rgba(0,212,255,0.5);
+  letter-spacing: 2px;
+}
+.site-header .subtitle {
+  font-family: 'Share Tech Mono', monospace;
+  color: #aaa;
+  margin-top: 6px;
+  font-size: 0.9rem;
+}
+.header-stats {
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.stat-item {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(0,212,255,0.3);
+  border-radius: 6px;
+  padding: 8px 16px;
+  text-align: center;
+}
+.stat-num { font-family: 'Orbitron', monospace; font-size: 1.4rem; color: var(--neon-cyan); }
+.stat-label { font-size: 0.75rem; color: #aaa; font-family: 'Share Tech Mono', monospace; }
+
+/* Top Insights */
+.top-insights {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border: 1px solid rgba(0,212,255,0.2);
+  border-radius: 12px;
+  padding: 24px;
+  margin: 24px 32px;
+}
+.top-insights h2 {
+  font-family: 'Orbitron', monospace;
+  color: var(--neon-cyan);
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+.insights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px;
+}
+.insight-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  padding: 12px;
+  color: #ddd;
+}
+.insight-card strong { color: #fff; display: block; margin: 6px 0 4px; font-size: 0.9rem; }
+.insight-card p { font-size: 0.8rem; color: #aaa; }
+.insight-urgency { font-family: 'Share Tech Mono', monospace; font-size: 0.7rem; padding: 2px 8px; border-radius: 3px; }
+.urgency-high { background: #ff4444; color: #fff; }
+.urgency-medium { background: #ffaa00; color: #000; }
+.urgency-low { background: #44aa44; color: #fff; }
+.insight-domains { margin-top: 8px; }
+.domain-tag { display: inline-block; background: rgba(0,212,255,0.15); color: var(--neon-cyan); font-size: 0.7rem; padding: 1px 6px; border-radius: 3px; margin: 2px 2px 0 0; font-family: 'Share Tech Mono', monospace; }
+
+/* Main */
+.main-content { padding: 0 32px 48px; }
+
+/* Section */
+.topic-section { margin-bottom: 48px; }
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: #fff;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 2px;
+}
+.section-header h2 { font-family: 'Orbitron', monospace; font-size: 1rem; color: var(--text-primary); letter-spacing: 1px; }
+.section-count { font-family: 'Share Tech Mono', monospace; font-size: 0.85rem; color: var(--text-secondary); background: var(--bg-primary); padding: 3px 10px; border-radius: 12px; }
+
+/* Cards Grid */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 16px;
+  padding-top: 16px;
+}
+.card {
+  background: var(--bg-card);
+  border-radius: 10px;
+  padding: 18px;
+  border: 1px solid #e0e4f0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s;
+}
+.card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.12); }
+.topic-ai-trends { border-left: 4px solid #00d4ff; }
+.topic-tech-trends { border-left: 4px solid #a855f7; }
+.topic-thailand { border-left: 4px solid #ff6b35; }
+.topic-global { border-left: 4px solid #00ff88; }
+
+.card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; }
+.source-badge { font-family: 'Share Tech Mono', monospace; font-size: 0.72rem; background: #f0f2f8; color: var(--text-secondary); padding: 2px 8px; border-radius: 4px; }
+.badge { font-family: 'Share Tech Mono', monospace; font-size: 0.68rem; padding: 2px 6px; border-radius: 3px; color: #fff; }
+.breakthrough-badge { font-family: 'Share Tech Mono', monospace; font-size: 0.68rem; padding: 2px 8px; border-radius: 3px; background: linear-gradient(90deg, #ff6b35, #ffaa00); color: #fff; }
+
+.card-title { font-family: 'Rajdhani', sans-serif; font-size: 1rem; font-weight: 700; color: var(--text-primary); margin-bottom: 4px; line-height: 1.4; }
+.card-title-th { font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 10px; line-height: 1.4; }
+.card-content { font-size: 0.88rem; color: #333; line-height: 1.65; margin-bottom: 12px; }
+.card-meta { border-top: 1px solid #eee; padding-top: 10px; }
+.tags { margin-bottom: 8px; }
+.tag { display: inline-block; background: #eef2ff; color: #6366f1; font-size: 0.72rem; padding: 2px 7px; border-radius: 4px; margin: 2px 2px 0 0; font-family: 'Share Tech Mono', monospace; }
+.insights { font-size: 0.82rem; color: var(--text-secondary); margin-bottom: 8px; background: #f8f9ff; padding: 8px; border-radius: 6px; }
+.actions { font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 6px; }
+.actions ul { padding-left: 16px; margin-top: 4px; }
+.actions li { margin-bottom: 3px; }
+.card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; }
+.source-link { font-family: 'Share Tech Mono', monospace; font-size: 0.78rem; color: var(--neon-cyan); }
+.pub-date { font-family: 'Share Tech Mono', monospace; font-size: 0.75rem; color: #aaa; }
+
+/* Footer */
+.site-footer {
+  background: var(--bg-header);
+  color: #666;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.8rem;
+  border-top: 2px solid rgba(0,212,255,0.2);
+}
+
+/* Nav */
+.topic-nav {
+  display: flex;
+  gap: 12px;
+  padding: 16px 32px;
+  background: #fff;
+  border-bottom: 1px solid #e0e4f0;
+  flex-wrap: wrap;
+}
+.nav-btn {
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.82rem;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: all 0.2s;
+}
+.nav-btn:hover { border-color: var(--neon-cyan); color: var(--neon-cyan); }
+.nav-ai { border-color: #00d4ff; color: #00d4ff; }
+.nav-tech { border-color: #a855f7; color: #a855f7; }
+.nav-thai { border-color: #ff6b35; color: #ff6b35; }
+.nav-global { border-color: #00ff88; color: #00aa55; }
+
+@media print {
+  .top-insights { break-inside: avoid; }
+  .card { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <h1>⚡ AI NEWS DAILY</h1>
+  <div class="subtitle">🗓️ 2026-06-29 &nbsp;|&nbsp; Generated: 2026-06-29T03:55 ICT &nbsp;|&nbsp; Pipeline v2.0</div>
+  <div class="header-stats">
+    <div class="stat-item">
+      <div class="stat-num">33</div>
+      <div class="stat-label">TOTAL ARTICLES</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" style="color:#00d4ff">18</div>
+      <div class="stat-label">AI TRENDS</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" style="color:#a855f7">5</div>
+      <div class="stat-label">TECH TRENDS</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" style="color:#ff6b35">3</div>
+      <div class="stat-label">THAILAND</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" style="color:#00ff88">7</div>
+      <div class="stat-label">GLOBAL</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" style="color:#ff4444">13</div>
+      <div class="stat-label">HIGH URGENCY</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" style="color:#ffaa00">15</div>
+      <div class="stat-label">BREAKTHROUGHS</div>
+    </div>
+  </div>
+</header>
+
+<nav class="topic-nav">
+  <a href="#ai-trends" class="nav-btn nav-ai">🧠 AI Trends (18)</a>
+  <a href="#tech-trends" class="nav-btn nav-tech">⚙️ Tech Trends (5)</a>
+  <a href="#thailand" class="nav-btn nav-thai">🇹🇭 Thailand (3)</a>
+  <a href="#global" class="nav-btn nav-global">🌐 Global (7)</a>
+</nav>
+
+<div class="top-insights">
+  <h2>🔥 TOP INSIGHTS — HIGH URGENCY</h2>
+  <div class="insights-grid">
+    
+<div class="insight-card">
+  <span class="insight-urgency urgency-high">HIGH</span>
+  <strong>Introducing computer use in Gemini 3.5 Flash</strong>
+  <p>Computer use ใน Gemini 3.5 Flash เปิดโอกาส agentic automation ราคาประหยัด แข่งขันกับ Anthropic ในตลาด browser automation</p>
+  <div class="insight-domains"><span class="domain-tag">Agentic AI</span> <span class="domain-tag">Computer Use</span> <span class="domain-tag">RPA</span></div>
+</div>
+<div class="insight-card">
+  <span class="insight-urgency urgency-high">HIGH</span>
+  <strong>Previewing GPT-5.6 Sol: a next-generation model series</strong>
+  <p>OpenAI เปิดตัว GPT-5.6 ในสามระดับราคา Sol/Terra/Luna พร้อม cache ที่คาดเดาได้ดีขึ้น ส่งผลต่อการวางแผนต้นทุนของ developer และ enterprise ทันที</p>
+  <div class="insight-domains"><span class="domain-tag">LLM</span> <span class="domain-tag">API</span> <span class="domain-tag">Cost Optimization</span></div>
+</div>
+<div class="insight-card">
+  <span class="insight-urgency urgency-high">HIGH</span>
+  <strong>OpenAI previewing GPT-5.6 Sol: prompt injection resistance and new pricing</strong>
+  <p>GPT-5.6 Sol แสดงความก้าวหน้าด้าน prompt injection resistance ที่สำคัญ ส่งผลต่อการออกแบบระบบ agentic AI</p>
+  <div class="insight-domains"><span class="domain-tag">AI Safety</span> <span class="domain-tag">Prompt Injection</span> <span class="domain-tag">Security</span></div>
+</div>
+<div class="insight-card">
+  <span class="insight-urgency urgency-high">HIGH</span>
+  <strong>When the Trump administration cracks down on Anthropic, who benefits?</strong>
+  <p>Export control ต่อ Anthropic สร้าง competitive advantage ให้ผู้เล่นที่รัฐบาลสหรัฐฯ ไว้วางใจ และกำหนด geopolitical risk ใหม่สำหรับ AI industry</p>
+  <div class="insight-domains"><span class="domain-tag">AI Policy</span> <span class="domain-tag">Export Control</span> <span class="domain-tag">Geopolitics</span></div>
+</div>
+<div class="insight-card">
+  <span class="insight-urgency urgency-high">HIGH</span>
+  <strong>CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs</strong>
+  <p>Ternary quantization ระดับ ICML Oral หมายความว่าการ deploy LLM ขนาดใหญ่บน edge device หรือ consumer hardware กำลังจะกลายเป็นความจริง ลด inference cost ได้หลายเท่าตัว</p>
+  <div class="insight-domains"><span class="domain-tag">LLM</span> <span class="domain-tag">Quantization</span> <span class="domain-tag">Model Compression</span></div>
+</div>
+<div class="insight-card">
+  <span class="insight-urgency urgency-high">HIGH</span>
+  <strong>Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning</strong>
+  <p>แนวทาง hindsight learning สำหรับ GUI agent ลดการพึ่งพา human annotation และเพิ่มความสามารถในการทำงานบนหน้าจอจริง ซึ่งมีผลโดยตรงต่อ automation workflow</p>
+  <div class="insight-domains"><span class="domain-tag">GUI Agents</span> <span class="domain-tag">Agents</span> <span class="domain-tag">LLM</span></div>
+</div>
+  </div>
+</div>
+
+<main class="main-content">
+  
+<section class="topic-section" id="ai-trends">
+  <div class="section-header" style="border-left: 6px solid #00d4ff">
+    <h2>🧠 AI TRENDS</h2>
+    <span class="section-count">18 articles</span>
+  </div>
+  <div class="cards-grid">
+    
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">Google DeepMind</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">DiffusionGemma: 4x faster text generation</h3>
+  <p class="card-title-th">DiffusionGemma: การสร้างข้อความเร็วขึ้น 4 เท่า</p>
+  <p class="card-content">Google DeepMind ประกาศ DiffusionGemma โมเดลใหม่ที่นำเทคนิค diffusion มาใช้ในการสร้างข้อความ ซึ่งแตกต่างจาก autoregressive approach แบบดั้งเดิมของ LLM ทั่วไป โดยอ้างว่าสามารถสร้างข้อความได้เร็วกว่าถึง 4 เท่า DiffusionGemma สร้างข้อความทั้งชุดพร้อมกันแทนที่จะสร้างทีละ token ซึ่งเป็นวิธีที่มีศักยภาพในการลด latency อย่างมีนัยสำคัญ โดยเฉพาะสำหรับ use case ที่ต้องการ real-time response การพัฒนานี้สอดคล้องกับความพยายามของอุตสาหกรรม AI ในการค้นหาสถาปัตยกรรมทางเลือกที่มีประสิทธิภาพมากกว่า transformer แบบดั้งเดิม
+
+--- DiffusionGemma แสดงทิศทางวิจัยใหม่นอกเหนือจาก autoregressive LLM ที่อาจเปลี่ยน inference cost และ latency ของอุตสาหกรรม ทดลองใช้ DiffusionGemma ใน latency-sensitive applications เช่น real-time chat เปรียบเทียบ output quality ระหว่าง diffusion approach กับ autoregressive model ติดตามพัฒนาการของ diffusion text models ที่อาจลด inference cost ในระยะยาว ประเมิน use case ที่ 4x speed improvement มีผลกระทบต่อ user experience อย่างมีนัยสำคัญ ความสำคัญ: medium — เกี่ยวข้องกับ LLM Architecture, Diffusion Models, Inference Speed</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">LLM Architecture</span><span class="tag">Diffusion Models</span><span class="tag">Inference Speed</span><span class="tag">Research</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> DiffusionGemma แสดงทิศทางวิจัยใหม่นอกเหนือจาก autoregressive LLM ที่อาจเปลี่ยน inference cost และ latency ของอุตสาหกรรม</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ทดลองใช้ DiffusionGemma ใน latency-sensitive applications เช่น real-time chat</li><li>เปรียบเทียบ output quality ระหว่าง diffusion approach กับ autoregressive model</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ติดตามพัฒนาการของ diffusion text models ที่อาจลด inference cost ในระยะยาว</li><li>ประเมิน use case ที่ 4x speed improvement มีผลกระทบต่อ user experience อย่างมีนัยสำคัญ</li></ul></div>
+    <div class="card-footer">
+      <a href="https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-01</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">Google DeepMind</span>
+    <span class="badge" style="background:#ff4444">HIGH</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">Introducing computer use in Gemini 3.5 Flash</h3>
+  <p class="card-title-th">Google DeepMind เปิดตัวฟีเจอร์ Computer Use ใน Gemini 3.5 Flash</p>
+  <p class="card-content">Google DeepMind ประกาศเปิดตัวฟีเจอร์ computer use ใน Gemini 3.5 Flash ซึ่งเป็นความสามารถที่ให้โมเดล AI สามารถโต้ตอบและควบคุมระบบคอมพิวเตอร์ได้โดยตรง คล้ายกับความสามารถที่ Anthropic เปิดตัวใน Claude ก่อนหน้านี้ ฟีเจอร์นี้ช่วยให้ Gemini 3.5 Flash สามารถทำงานอัตโนมัติบนหน้าจอ เช่น การกรอกแบบฟอร์ม การคลิกปุ่ม และการนำทางในเว็บไซต์ได้เอง เป็นก้าวสำคัญในการพัฒนา agentic AI ที่ทำงานได้จริงในสภาพแวดล้อม real-world การเปิดตัวใน Flash ซึ่งเป็นรุ่นที่รวดเร็วและประหยัดต้นทุน บ่งชี้ว่า Google ต้องการให้ computer use กลายเป็น capability ที่เข้าถึงได้ในวงกว้างสำหรับ developer
+
+--- Computer use ใน Gemini 3.5 Flash เปิดโอกาส agentic automation ราคาประหยัด แข่งขันกับ Anthropic ในตลาด browser automation ทดสอบ Gemini 3.5 Flash computer use API สำหรับ RPA และ browser automation use cases เปรียบเทียบ accuracy และ cost ระหว่าง Gemini 3.5 Flash กับ Claude computer use ประเมิน use cases ที่ computer use AI สามารถทดแทน manual desktop workflow ได้ จัดทำ security policy สำหรับการอนุญาตให้ AI agent ควบคุมระบบขององค์กร</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">Agentic AI</span><span class="tag">Computer Use</span><span class="tag">RPA</span><span class="tag">Browser Automation</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> Computer use ใน Gemini 3.5 Flash เปิดโอกาส agentic automation ราคาประหยัด แข่งขันกับ Anthropic ในตลาด browser automation</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ทดสอบ Gemini 3.5 Flash computer use API สำหรับ RPA และ browser automation use cases</li><li>เปรียบเทียบ accuracy และ cost ระหว่าง Gemini 3.5 Flash กับ Claude computer use</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมิน use cases ที่ computer use AI สามารถทดแทน manual desktop workflow ได้</li><li>จัดทำ security policy สำหรับการอนุญาตให้ AI agent ควบคุมระบบขององค์กร</li></ul></div>
+    <div class="card-footer">
+      <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-01</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">OpenAI</span>
+    <span class="badge" style="background:#ff4444">HIGH</span>
+    
+  </div>
+  <h3 class="card-title">Previewing GPT-5.6 Sol: a next-generation model series</h3>
+  <p class="card-title-th">OpenAI เปิดตัว GPT-5.6 Sol ซีรีส์โมเดลรุ่นใหม่ล่าสุด</p>
+  <p class="card-content">OpenAI ประกาศเปิดตัวซีรีส์โมเดลใหม่ GPT-5.6 ในรูปแบบ limited preview แบ่งเป็นสามรุ่น ได้แก่ Sol ซึ่งเป็น flagship model ราคา $5 input / $30 output ต่อ 1M tokens, Terra รุ่นกลางสำหรับงานทั่วไปราคา $2.50 / $15 และ Luna รุ่นประหยัดสำหรับความต้องการต่ำในราคา $1 / $6 นอกจากนี้ GPT-5.6 ยังแนะนำระบบ prompt caching แบบใหม่ที่คาดเดาได้มากขึ้น รองรับ explicit cache breakpoints และ minimum cache life 30 นาที โดย cache writes คิดราคาที่ 1.25x ของอัตรา input ปกติ ขณะที่ cache reads ยังคงส่วนลด 90% ก่อนเปิดให้ใช้งานทั่วไป OpenAI ได้แจ้งแผนการและความสามารถของโมเดลกับรัฐบาลสหรัฐฯ ล่วงหน้า และเริ่มเปิดให้กลุ่ม trusted partners ที่ได้รับการอนุมัติก่อน
+
+--- OpenAI เปิดตัว GPT-5.6 ในสามระดับราคา Sol/Terra/Luna พร้อม cache ที่คาดเดาได้ดีขึ้น ส่งผลต่อการวางแผนต้นทุนของ developer และ enterprise ทันที ทดสอบ GPT-5.6 Terra เพื่อเปรียบเทียบประสิทธิภาพกับ GPT-5.5 ในราคาที่ถูกลง 2 เท่า วางแผน cache breakpoints ในระบบ production เพื่อลดต้นทุน token ระยะยาว ประเมิน tier ของโมเดลที่เหมาะสมกับ use case ก่อนเปิดให้ใช้งานทั่วไป</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">LLM</span><span class="tag">API</span><span class="tag">Cost Optimization</span><span class="tag">Caching</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> OpenAI เปิดตัว GPT-5.6 ในสามระดับราคา Sol/Terra/Luna พร้อม cache ที่คาดเดาได้ดีขึ้น ส่งผลต่อการวางแผนต้นทุนของ developer และ enterprise ทันที</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ทดสอบ GPT-5.6 Terra เพื่อเปรียบเทียบประสิทธิภาพกับ GPT-5.5 ในราคาที่ถูกลง 2 เท่า</li><li>วางแผน cache breakpoints ในระบบ production เพื่อลดต้นทุน token ระยะยาว</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมิน tier ของโมเดลที่เหมาะสมกับ use case ก่อนเปิดให้ใช้งานทั่วไป</li><li>ติดตามรายชื่อ trusted partners เพื่อขอเข้าร่วม limited preview โดยเร็ว</li></ul></div>
+    <div class="card-footer">
+      <a href="https://openai.com/index/previewing-gpt-5-6-sol/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-26</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">Simon Willison</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    
+  </div>
+  <h3 class="card-title">GLM-5.2 is probably the most powerful text-only open weights LLM</h3>
+  <p class="card-title-th">GLM-5.2 อาจเป็น open weights LLM ที่ทรงพลังที่สุดสำหรับงาน text-only</p>
+  <p class="card-content">Simon Willison วิเคราะห์ GLM-5.2 โมเดลจาก Z.ai บริษัท AI จากประเทศจีน ที่ release open weights ภายใต้ MIT license โมเดลนี้มีขนาด 753 billion parameters แบบ Mixture of Experts (MoE) ที่มี 40 active parameters และ context window 1 million tokens ซึ่งเพิ่มขึ้นจาก GLM-5.1 ที่มี 200,000 tokens Willison ชี้ว่า GLM-5.2 น่าจะเป็น open weights LLM ที่ทรงพลังที่สุดสำหรับงาน text-only ในขณะนี้ แม้จะไม่รองรับ visual input ก็ตาม การที่ Z.ai release ภายใต้ MIT license เปิดโอกาสให้ developer ทั่วโลกสามารถใช้งาน commercial ได้อย่างเสรี ซึ่งสร้างแรงกดดันเพิ่มเติมต่อ closed model providers
+
+--- GLM-5.2 เป็น open weights model ที่ทรงพลังจากจีน ภายใต้ MIT license ที่ท้าทาย frontier models ของสหรัฐฯ ทดลอง GLM-5.2 ผ่าน OpenRouter เพื่อเปรียบเทียบ performance กับ frontier models ประเมินความเป็นไปได้ในการ self-host GLM-5.2 MoE บน infrastructure ขององค์กร พิจารณา GLM-5.2 เป็นทางเลือกสำหรับองค์กรที่ต้องการลดการพึ่งพา US-based AI providers</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">Open Source AI</span><span class="tag">LLM</span><span class="tag">MoE Architecture</span><span class="tag">China AI</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> GLM-5.2 เป็น open weights model ที่ทรงพลังจากจีน ภายใต้ MIT license ที่ท้าทาย frontier models ของสหรัฐฯ</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ทดลอง GLM-5.2 ผ่าน OpenRouter เพื่อเปรียบเทียบ performance กับ frontier models</li><li>ประเมินความเป็นไปได้ในการ self-host GLM-5.2 MoE บน infrastructure ขององค์กร</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>พิจารณา GLM-5.2 เป็นทางเลือกสำหรับองค์กรที่ต้องการลดการพึ่งพา US-based AI providers</li><li>ตรวจสอบข้อกำหนด compliance และ data residency ก่อนใช้งาน model จากจีน</li></ul></div>
+    <div class="card-footer">
+      <a href="https://simonwillison.net/2026/Jun/17/glm-52/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-17</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">Simon Willison</span>
+    <span class="badge" style="background:#ff4444">HIGH</span>
+    
+  </div>
+  <h3 class="card-title">OpenAI previewing GPT-5.6 Sol: prompt injection resistance and new pricing</h3>
+  <p class="card-title-th">Simon Willison วิเคราะห์ GPT-5.6 Sol: ความต้านทาน prompt injection และราคาใหม่</p>
+  <p class="card-content">Simon Willison บล็อกเกอร์ด้าน AI และ developer tools ชื่อดัง รายงานและวิเคราะห์การเปิดตัว GPT-5.6 Sol โดยเน้นไปที่ประเด็นด้านความปลอดภัยและ prompt injection resistance โดยเชื่อมโยงกับ system card ที่ OpenAI เผยแพร่พร้อมกัน Willison ยังอ้างถึงกรณีทดสอบที่ Fernando Irarrázaval ทำ challenge ให้คน 2,000 คนลองโจมตี AI assistant ผ่าน email โดยผลปรากฏว่า Opus 4.6 ต้านทานได้ทุก 6,000 ครั้งที่พยายาม ซึ่งสะท้อนว่า AI labs กำลังพัฒนา training ที่ทำให้ frontier models ต้านทาน injection attack ได้ดีขึ้นอย่างมีนัยสำคัญ
+
+--- GPT-5.6 Sol แสดงความก้าวหน้าด้าน prompt injection resistance ที่สำคัญ ส่งผลต่อการออกแบบระบบ agentic AI ทดสอบ GPT-5.6 Sol กับ prompt injection scenarios ในระบบที่รับ input จาก external sources อ่าน GPT-5.6 system card เพื่อทำความเข้าใจขอบเขตความสามารถและข้อจำกัดด้านความปลอดภัย ประเมินว่า improved injection resistance เปิดโอกาสให้ deploy agentic system ที่ปลอดภัยมากขึ้น อัปเดต security policy สำหรับ AI deployment โดยอ้างอิง best practices จาก system card ใหม่</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">AI Safety</span><span class="tag">Prompt Injection</span><span class="tag">Security</span><span class="tag">Agentic AI</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> GPT-5.6 Sol แสดงความก้าวหน้าด้าน prompt injection resistance ที่สำคัญ ส่งผลต่อการออกแบบระบบ agentic AI</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ทดสอบ GPT-5.6 Sol กับ prompt injection scenarios ในระบบที่รับ input จาก external sources</li><li>อ่าน GPT-5.6 system card เพื่อทำความเข้าใจขอบเขตความสามารถและข้อจำกัดด้านความปลอดภัย</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมินว่า improved injection resistance เปิดโอกาสให้ deploy agentic system ที่ปลอดภัยมากขึ้น</li><li>อัปเดต security policy สำหรับ AI deployment โดยอ้างอิง best practices จาก system card ใหม่</li></ul></div>
+    <div class="card-footer">
+      <a href="https://simonwillison.net/2026/Jun/26/openai/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-26</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">VentureBeat</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    
+  </div>
+  <h3 class="card-title">GPT-5.2 first impressions: a powerful update, especially for business tasks and workflows</h3>
+  <p class="card-title-th">ความประทับใจแรก GPT-5.2: อัปเดตทรงพลังโดยเฉพาะสำหรับงานธุรกิจ</p>
+  <p class="card-content">VentureBeat รวบรวมความเห็นจาก early testers ของ GPT-5.2 ซึ่ง OpenAI ส่งให้ทดสอบก่อน public release ภาพรวมที่ได้มีสองด้าน ด้านหนึ่งคือความสามารถที่ก้าวกระโดดครั้งใหญ่ในด้าน deep autonomous reasoning และ coding ซึ่งเหมาะกับงานธุรกิจและ workflow ที่ซับซ้อน แต่อีกด้านหนึ่งนักพูดคุยทั่วไปอาจมองว่าเป็นการอัปเดตแบบ incremental ที่ไม่ dramatic มากนัก บทความสะท้อนให้เห็น pattern ที่น่าสนใจว่า LLM รุ่นใหม่มักมีการกระจายคุณค่าที่ไม่เท่ากันตาม use case โดย power users และ enterprise ได้ประโยชน์มากกว่าผู้ใช้ทั่วไปอย่างมีนัยสำคัญ ซึ่งเป็นสัญญาณของการเจริญเติบโตของตลาด AI เข้าสู่ช่วง enterprise-focused
+
+--- GPT-5.2 แสดงถึง trend ที่ LLM รุ่นใหม่มุ่งเน้น enterprise reasoning มากกว่า general chat ทดสอบ GPT-5.2 กับ complex autonomous reasoning tasks เพื่อวัด improvement เชิงปริมาณ เปรียบเทียบ GPT-5.2 กับ Claude Tag และ Gemini 3.5 ในงาน multi-step workflow ประเมิน ROI ของการอัปเกรดเป็น GPT-5.2 สำหรับ use case ด้าน business automation ทำ proof of concept กับงาน deep reasoning เพื่อวัดผลลัพธ์ก่อนตัดสินใจ migrate ความสำคัญ: medium — เกี่ยวข้องกับ LLM, Enterprise AI, Reasoning</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">LLM</span><span class="tag">Enterprise AI</span><span class="tag">Reasoning</span><span class="tag">Business Automation</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> GPT-5.2 แสดงถึง trend ที่ LLM รุ่นใหม่มุ่งเน้น enterprise reasoning มากกว่า general chat</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ทดสอบ GPT-5.2 กับ complex autonomous reasoning tasks เพื่อวัด improvement เชิงปริมาณ</li><li>เปรียบเทียบ GPT-5.2 กับ Claude Tag และ Gemini 3.5 ในงาน multi-step workflow</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมิน ROI ของการอัปเกรดเป็น GPT-5.2 สำหรับ use case ด้าน business automation</li><li>ทำ proof of concept กับงาน deep reasoning เพื่อวัดผลลัพธ์ก่อนตัดสินใจ migrate</li></ul></div>
+    <div class="card-footer">
+      <a href="https://venturebeat.com/ai/gpt-5-2-first-impressions-a-powerful-update-especially-for-business-tasks-and-workflows/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-28</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">ArXiv cs.CL</span>
+    <span class="badge" style="background:#ff4444">HIGH</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs</h3>
+  <p class="card-title-th">CAT-Q: การ Quantization แบบ Ternary ที่ประหยัดและแม่นยำสำหรับ LLMs (ICML 2026 Oral)</p>
+  <p class="card-content">CAT-Q เป็นงานวิจัยด้าน model compression ที่ได้รับการนำเสนอในรูปแบบ Oral presentation ใน ICML 2026 ซึ่งเป็นเกียรติยศสูงสุดในวงการ machine learning งานนี้เสนอวิธีการ quantization แบบ ternary (3-level: -1, 0, +1) ที่ออกแบบมาเพื่อบีบอัด LLM ขนาดใหญ่ให้มีขนาดเล็กลงอย่างมาก CAT-Q แก้ปัญหาสำคัญของ ternary quantization แบบเดิมที่มักสูญเสียความแม่นยำมากเกินไป โดยใช้การออกแบบ cost function ใหม่ที่สมดุลระหว่าง compression ratio กับ accuracy preservation โค้ดและ checkpoints เผยแพร่แล้วบน GitHub ผลการทดลองบน benchmark มาตรฐานแสดงให้เห็นว่า CAT-Q สามารถลด memory requirement ได้อย่างมีนัยสำคัญในขณะที่ยังคงประสิทธิภาพระดับใกล้เคียงกับ full-precision model
+
+--- Ternary quantization ระดับ ICML Oral หมายความว่าการ deploy LLM ขนาดใหญ่บน edge device หรือ consumer hardware กำลังจะกลายเป็นความจริง ลด inference cost ได้หลายเท่าตัว ดาวน์โหลด CAT-Q จาก GitHub (IntelChina-AI/BitTern) และทดสอบกับโมเดลที่ใช้งานอยู่ เปรียบเทียบ CAT-Q กับ GPTQ และ AWQ ในแง่ของ throughput และ perplexity บน hardware เป้าหมาย ประเมินการลด cloud inference cost โดยใช้ ternary-quantized model แทน full-precision</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">LLM</span><span class="tag">Quantization</span><span class="tag">Model Compression</span><span class="tag">Efficient AI</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> Ternary quantization ระดับ ICML Oral หมายความว่าการ deploy LLM ขนาดใหญ่บน edge device หรือ consumer hardware กำลังจะกลายเป็นความจริง ลด inference cost ได้หลายเท่าตัว</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ดาวน์โหลด CAT-Q จาก GitHub (IntelChina-AI/BitTern) และทดสอบกับโมเดลที่ใช้งานอยู่</li><li>เปรียบเทียบ CAT-Q กับ GPTQ และ AWQ ในแง่ของ throughput และ perplexity บน hardware เป้าหมาย</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมินการลด cloud inference cost โดยใช้ ternary-quantized model แทน full-precision</li><li>วางแผน on-premise deployment สำหรับ LLM โดยใช้ quantization เพื่อลดต้นทุน GPU</li></ul></div>
+    <div class="card-footer">
+      <a href="https://arxiv.org/abs/2606.26650" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-26</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">ArXiv cs.CL</span>
+    <span class="badge" style="background:#ff4444">HIGH</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning</h3>
+  <p class="card-title-th">เสริมพลัง GUI Agents ด้วยการสำรวจประสบการณ์อัตโนมัติและการใช้ Hindsight Experience สำหรับการวางแผนงาน (ACL 2026)</p>
+  <p class="card-content">GUI agent คือระบบ AI ที่สามารถควบคุมหน้าจอคอมพิวเตอร์ได้โดยตรง ซึ่งเป็น frontier สำคัญในการพัฒนา agentic AI งานวิจัยนี้ซึ่งได้รับการตอบรับจาก ACL 2026 เสนอแนวทางใหม่ที่ผสาน Autonomous Experience Exploration กับ Hindsight Experience Utilization เพื่อให้ agent สามารถเรียนรู้จากทั้งประสบการณ์ที่ประสบความสำเร็จและล้มเหลว กลไก hindsight ช่วยให้ agent ตีความผลลัพธ์ที่ไม่พึงประสงค์ว่าเป็น feedback เชิงบวกได้ในบริบทที่เหมาะสม การสำรวจอัตโนมัติช่วยให้ agent สร้าง training data ของตนเองโดยไม่ต้องพึ่ง human annotation มากนัก ผลการทดลองบน benchmark GUI planning แสดงให้เห็นการปรับปรุงที่ชัดเจนเมื่อเทียบกับ baseline แนวทางนี้เปิดทางสู่ computer-use agent ที่สามารถฝึกตนเองได้จากการลองผิดลองถูก
+
+--- แนวทาง hindsight learning สำหรับ GUI agent ลดการพึ่งพา human annotation และเพิ่มความสามารถในการทำงานบนหน้าจอจริง ซึ่งมีผลโดยตรงต่อ automation workflow ศึกษา hindsight experience replay เพื่อนำมาประยุกต์กับ computer-use agent ในงาน RPA ทดลอง autonomous exploration pipeline เพื่อสร้าง training data สำหรับ GUI task ประเมินความเป็นไปได้ในการใช้ GUI agent แทน manual process ในงาน back-office ติดตามพัฒนาการของ computer-use AI เพื่อวางกลยุทธ์ automation ในระยะ 12 เดือน ความสำคัญ: high — เกี่ยวข้องกับ GUI Agents, Agents, LLM</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">GUI Agents</span><span class="tag">Agents</span><span class="tag">LLM</span><span class="tag">Automation</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> แนวทาง hindsight learning สำหรับ GUI agent ลดการพึ่งพา human annotation และเพิ่มความสามารถในการทำงานบนหน้าจอจริง ซึ่งมีผลโดยตรงต่อ automation workflow</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ศึกษา hindsight experience replay เพื่อนำมาประยุกต์กับ computer-use agent ในงาน RPA</li><li>ทดลอง autonomous exploration pipeline เพื่อสร้าง training data สำหรับ GUI task</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมินความเป็นไปได้ในการใช้ GUI agent แทน manual process ในงาน back-office</li><li>ติดตามพัฒนาการของ computer-use AI เพื่อวางกลยุทธ์ automation ในระยะ 12 เดือน</li></ul></div>
+    <div class="card-footer">
+      <a href="https://arxiv.org/abs/2606.27330" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-26</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">ArXiv cs.CL</span>
+    <span class="badge" style="background:#ff4444">HIGH</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">Information-Aware KV Cache Compression for Long Reasoning</h3>
+  <p class="card-title-th">การบีบอัด KV Cache แบบ Information-Aware สำหรับ Long Reasoning</p>
+  <p class="card-content">การ reasoning แบบ long-chain ใน LLM นำไปสู่ปัญหา KV cache ที่ขยายตัวอย่างรวดเร็ว ส่งผลให้ memory เต็มและความเร็วลดลงอย่างมีนัยสำคัญ งานวิจัยนี้เสนอแนวทาง Information-Aware KV Cache Compression ที่ประเมินความสำคัญของ token แต่ละตัวโดยใช้ข้อมูลเชิง information-theoretic เพื่อตัดสินใจว่า key-value pair ใดควรเก็บไว้หรือทิ้ง แนวทางนี้แตกต่างจาก attention-score-based compression แบบเดิมตรงที่คำนึงถึงปริมาณข้อมูลที่ token นั้นๆ ถ่ายทอดมากกว่าแค่ attention weight ผลการทดลองบน long-form reasoning benchmark แสดงให้เห็นว่าสามารถลด KV cache size ได้อย่างมีนัยสำคัญในขณะที่รักษาความแม่นยำของการ reasoning ไว้ได้ งานนี้มีความสำคัญสูงในยุคที่ reasoning model อย่าง o3 และ DeepSeek-R2 ใช้ chain-of-thought ยาวมาก
+
+--- การบีบอัด KV cache ที่ฉลาดขึ้นช่วยให้ reasoning model ทำงานได้นานขึ้นโดยไม่เพิ่ม memory budget ซึ่งสำคัญมากสำหรับการ deploy LLM reasoning ในระดับ production ทดสอบ information-aware KV cache compression บน reasoning workload ที่มี chain-of-thought ยาว ผสาน KV cache compression เข้ากับ inference engine เช่น vLLM หรือ SGLang ประเมินการลดต้นทุน GPU memory เมื่อใช้ KV cache compression สำหรับ reasoning-heavy application</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">LLM</span><span class="tag">Reasoning</span><span class="tag">KV Cache</span><span class="tag">Inference Optimization</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> การบีบอัด KV cache ที่ฉลาดขึ้นช่วยให้ reasoning model ทำงานได้นานขึ้นโดยไม่เพิ่ม memory budget ซึ่งสำคัญมากสำหรับการ deploy LLM reasoning ในระดับ production</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ทดสอบ information-aware KV cache compression บน reasoning workload ที่มี chain-of-thought ยาว</li><li>ผสาน KV cache compression เข้ากับ inference engine เช่น vLLM หรือ SGLang</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมินการลดต้นทุน GPU memory เมื่อใช้ KV cache compression สำหรับ reasoning-heavy application</li><li>วางแผน scaling ระบบ AI reasoning โดยคำนึงถึง memory efficiency ที่ดีขึ้น</li></ul></div>
+    <div class="card-footer">
+      <a href="https://arxiv.org/abs/2606.26875" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-26</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">ArXiv cs.AI</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">MAGE-RAG: Multigranular Adaptive Graph Evidence for Agentic Multimodal RAG in Long-Document QA</h3>
+  <p class="card-title-th">MAGE-RAG: หลักฐานกราฟปรับตัวได้หลายระดับเพื่อ Agentic Multimodal RAG ใน Long-Document QA</p>
+  <p class="card-content">MAGE-RAG เป็นระบบ Retrieval-Augmented Generation แบบ Agentic ที่ออกแบบมาเพื่อจัดการกับเอกสารขนาดยาวที่มีเนื้อหาหลายรูปแบบ (multimodal) ได้แก่ ข้อความ ภาพ และตาราง งานวิจัยนี้เสนอแนวทาง Multigranular Adaptive Graph Evidence ที่สร้างกราฟหลักฐานในหลายระดับความละเอียด ตั้งแต่ระดับย่อหน้า หน้า ไปจนถึงระดับเอกสาร กราฟดังกล่าวช่วยให้ agent สามารถสืบค้นข้อมูลที่เกี่ยวข้องได้อย่างมีประสิทธิภาพมากขึ้น โดยเฉพาะในงาน Long-Document Question Answering ที่ต้องการการอนุมานข้ามหน้าและข้ามสื่อ ระบบนี้ผ่านการทดสอบบน benchmark มาตรฐานและแสดงผลลัพธ์ที่เหนือกว่า baseline ของ RAG แบบดั้งเดิม แนวทางนี้มีศักยภาพสูงในการนำไปใช้กับ enterprise document processing และ research assistant
+
+--- MAGE-RAG ยกระดับความสามารถของ RAG ในการจัดการเอกสารยาวและหลายสื่อ เปิดทางสู่ระบบ document intelligence ที่แม่นยำขึ้นสำหรับองค์กร ศึกษา multigranular graph construction เพื่อนำมาใช้เสริมระบบ RAG pipeline ที่มีอยู่ ทดสอบ integration ของ MAGE-RAG กับ long-context LLM สำหรับงาน document QA ประเมินการนำ multimodal RAG มาใช้ใน knowledge management system ขององค์กร พิจารณาใช้แนวทาง graph-based evidence สำหรับการวิเคราะห์รายงานทางการเงินและกฎหมาย ความสำคัญ: medium — เกี่ยวข้องกับ RAG, Multimodal AI, Agents</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">RAG</span><span class="tag">Multimodal AI</span><span class="tag">Agents</span><span class="tag">LLM</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> MAGE-RAG ยกระดับความสามารถของ RAG ในการจัดการเอกสารยาวและหลายสื่อ เปิดทางสู่ระบบ document intelligence ที่แม่นยำขึ้นสำหรับองค์กร</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ศึกษา multigranular graph construction เพื่อนำมาใช้เสริมระบบ RAG pipeline ที่มีอยู่</li><li>ทดสอบ integration ของ MAGE-RAG กับ long-context LLM สำหรับงาน document QA</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมินการนำ multimodal RAG มาใช้ใน knowledge management system ขององค์กร</li><li>พิจารณาใช้แนวทาง graph-based evidence สำหรับการวิเคราะห์รายงานทางการเงินและกฎหมาย</li></ul></div>
+    <div class="card-footer">
+      <a href="https://arxiv.org/abs/2606.15906" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-16</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">ArXiv cs.LG</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    
+  </div>
+  <h3 class="card-title">MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?</h3>
+  <p class="card-title-th">MAS-PromptBench: Prompt Optimization ช่วยปรับปรุง Multi-Agent LLM Systems ได้เมื่อไหร่?</p>
+  <p class="card-content">เมื่อ multi-agent LLM system กลายเป็น paradigm หลักในการพัฒนา AI application คำถามสำคัญคือ prompt optimization มีผลต่อประสิทธิภาพของระบบเหล่านี้มากน้อยแค่ไหน MAS-PromptBench เสนอ framework มาตรฐานสำหรับวัดผลกระทบของการปรับ prompt ในระบบ multi-agent โดยครอบคลุมสถาปัตยกรรม agent หลากหลายรูปแบบ งานวิจัยนี้ค้นพบว่าประสิทธิภาพของ prompt optimization ขึ้นอยู่กับปัจจัยหลายอย่าง เช่น ความซับซ้อนของ task ประเภทของ agent topology และวิธีการ communication ระหว่าง agent ผลการทดลองพบว่าในบาง configuration prompt optimization กลับทำให้ประสิทธิภาพลดลง ซึ่งเป็นข้อค้นพบสำคัญสำหรับผู้พัฒนาที่ต้องการ optimize multi-agent pipeline
+
+--- ผลการศึกษานี้ช่วยให้นักพัฒนาตัดสินใจได้ว่าเมื่อใดควรลงทุนกับ prompt optimization ใน multi-agent system ใช้ MAS-PromptBench เป็น baseline สำหรับ evaluate prompt optimization strategy ใน multi-agent pipeline ศึกษา agent topology ที่ได้ประโยชน์สูงสุดจาก prompt optimization ก่อนลงทุน ทบทวนกลยุทธ์ prompt engineering ในระบบ multi-agent ขององค์กรโดยอ้างอิงจาก benchmark นี้ จัดสรร budget สำหรับ prompt optimization อย่างมีเป้าหมายมากขึ้น ความสำคัญ: medium — เกี่ยวข้องกับ Multi-Agent Systems, LLM, Prompt Engineering</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">Multi-Agent Systems</span><span class="tag">LLM</span><span class="tag">Prompt Engineering</span><span class="tag">Agents</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> ผลการศึกษานี้ช่วยให้นักพัฒนาตัดสินใจได้ว่าเมื่อใดควรลงทุนกับ prompt optimization ใน multi-agent system</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ใช้ MAS-PromptBench เป็น baseline สำหรับ evaluate prompt optimization strategy ใน multi-agent pipeline</li><li>ศึกษา agent topology ที่ได้ประโยชน์สูงสุดจาก prompt optimization ก่อนลงทุน</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ทบทวนกลยุทธ์ prompt engineering ในระบบ multi-agent ขององค์กรโดยอ้างอิงจาก benchmark นี้</li><li>จัดสรร budget สำหรับ prompt optimization อย่างมีเป้าหมายมากขึ้น</li></ul></div>
+    <div class="card-footer">
+      <a href="https://arxiv.org/abs/2606.23664" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-23</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">ArXiv cs.LG</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents</h3>
+  <p class="card-title-th">การ Distillation แบบ On-Policy พร้อม Curriculum Turn-level Guidance สำหรับ Multi-turn Agents</p>
+  <p class="card-content">การฝึก LLM agent ในสถานการณ์แบบ multi-turn นั้นเป็นความท้าทายสำคัญ เนื่องจาก agent ต้องตัดสินใจให้ถูกต้องในทุก turn ของการสนทนา งานวิจัยนี้เสนอแนวทาง On-Policy Distillation ที่ใช้ Curriculum Turn-level Guidance เป็นสัญญาณแนะนำในการฝึก โดย agent นักเรียนจะได้รับคำแนะนำจาก teacher model ในระดับ turn แทนที่จะเป็นระดับ trajectory ทั้งหมด Curriculum ถูกออกแบบให้เรียนรู้จาก turn ที่ง่ายไปยากอย่างค่อยเป็นค่อยไป ส่งผลให้ agent สามารถเรียนรู้การตัดสินใจได้เร็วขึ้นและมีประสิทธิภาพมากขึ้น ผลการทดลองแสดงให้เห็นการปรับปรุงที่มีนัยสำคัญบน benchmark มาตรฐานสำหรับ agentic task แนวทางนี้มีความสำคัญสำหรับการพัฒนา AI agent ในงานที่ต้องการการโต้ตอบหลายรอบ เช่น customer service หรือ coding assistant
+
+--- วิธีการฝึก agent ใหม่นี้ช่วยลดต้นทุนการ training และเพิ่มคุณภาพของ multi-turn agent โดยไม่จำเป็นต้องมี reward model ขนาดใหญ่ นำ curriculum-based distillation มาประยุกต์กับการฝึก coding agent หรือ customer service agent ทดลองใช้ turn-level guidance แทน trajectory-level reward ในระบบ RLHF ที่มีอยู่ ประเมินต้นทุนการฝึก multi-turn agent ด้วยแนวทางนี้เทียบกับ RLHF แบบเดิม วางแผนนำ agent ที่ฝึกด้วย on-policy distillation มาใช้ใน chatbot สำหรับลูกค้า ความสำคัญ: medium — เกี่ยวข้องกับ LLM, Agents, Reinforcement Learning</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">LLM</span><span class="tag">Agents</span><span class="tag">Reinforcement Learning</span><span class="tag">Distillation</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> วิธีการฝึก agent ใหม่นี้ช่วยลดต้นทุนการ training และเพิ่มคุณภาพของ multi-turn agent โดยไม่จำเป็นต้องมี reward model ขนาดใหญ่</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>นำ curriculum-based distillation มาประยุกต์กับการฝึก coding agent หรือ customer service agent</li><li>ทดลองใช้ turn-level guidance แทน trajectory-level reward ในระบบ RLHF ที่มีอยู่</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมินต้นทุนการฝึก multi-turn agent ด้วยแนวทางนี้เทียบกับ RLHF แบบเดิม</li><li>วางแผนนำ agent ที่ฝึกด้วย on-policy distillation มาใช้ใน chatbot สำหรับลูกค้า</li></ul></div>
+    <div class="card-footer">
+      <a href="https://arxiv.org/abs/2606.15912" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-16</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">ArXiv cs.CL</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning</h3>
+  <p class="card-title-th">OPID: On-Policy Skill Distillation สำหรับ Agentic Reinforcement Learning</p>
+  <p class="card-content">การฝึก agent ด้วย reinforcement learning มักประสบปัญหา sample efficiency ต่ำและ reward signal ที่ sparse ทำให้ agent เรียนรู้ได้ช้า OPID (On-Policy Skill Distillation) เสนอแนวทางแก้ไขโดยการดึง skill knowledge จาก expert หรือ teacher policy มาช่วยนำทาง agent ในระหว่างการฝึก ความโดดเด่นของ OPID คือการทำ distillation แบบ on-policy ซึ่งหมายความว่า skill ที่ดึงมาจะตรงกับ distribution ของ state ที่ agent กำลังพบอยู่จริง แทนที่จะเป็น off-policy skill จาก static dataset การออกแบบนี้ช่วยลดปัญหา distribution shift ที่มักเกิดขึ้นใน imitation learning แบบเดิม ผลการทดลองบน agentic task หลากหลายแสดงให้เห็นว่า OPID เร่งการเรียนรู้และปรับปรุง final performance เมื่อเทียบกับ baseline RL ล้วน
+
+--- OPID เร่งการพัฒนา agent ที่มีทักษะสูงขึ้นด้วย sample ที่น้อยลง ซึ่งลดทั้งเวลาและ compute ที่ต้องใช้ในการฝึก agentic system ทดลอง on-policy skill distillation เพื่อ bootstrap การฝึก RL agent สำหรับ domain เฉพาะทาง ผสม OPID กับ RLHF หรือ GRPO pipeline เพื่อเร่งการ convergence ของ LLM agent</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">Reinforcement Learning</span><span class="tag">Agents</span><span class="tag">LLM</span><span class="tag">Skill Learning</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> OPID เร่งการพัฒนา agent ที่มีทักษะสูงขึ้นด้วย sample ที่น้อยลง ซึ่งลดทั้งเวลาและ compute ที่ต้องใช้ในการฝึก agentic system</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ทดลอง on-policy skill distillation เพื่อ bootstrap การฝึก RL agent สำหรับ domain เฉพาะทาง</li><li>ผสม OPID กับ RLHF หรือ GRPO pipeline เพื่อเร่งการ convergence ของ LLM agent</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ลงทุนสร้าง expert demonstration data สำหรับ domain สำคัญเพื่อใช้ใน skill distillation</li><li>ประเมิน ROI ของการใช้ skill distillation ในการฝึก agent เทียบกับ pure RL ที่ใช้ compute มากกว่า</li></ul></div>
+    <div class="card-footer">
+      <a href="https://arxiv.org/abs/2606.26790" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-26</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">ArXiv cs.LG</span>
+    <span class="badge" style="background:#44aa44">LOW</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">Tapered Language Models</h3>
+  <p class="card-title-th">Tapered Language Models: โมเดลภาษาแบบ Tapered Architecture</p>
+  <p class="card-content">Tapered Language Models นำเสนอแนวคิดสถาปัตยกรรมใหม่สำหรับ LLM โดยออกแบบให้ขนาดของ layer ค่อยๆ ลดลงจาก input layer ไปยัง output layer คล้ายกับรูปทรง taper แทนที่จะมีขนาดสม่ำเสมอตลอดทั้งโมเดลแบบ transformer ทั่วไป แนวทางนี้มีเป้าหมายเพื่อลดต้นทุนการ inference และ memory footprint ในขณะที่ยังคงรักษาความสามารถในการสร้างภาษาและการอนุมานที่ดี การออกแบบดังกล่าวสอดคล้องกับแนวคิดที่ว่า computation ที่ต้องการในแต่ละ layer ของโมเดลนั้นไม่เท่ากัน ผลการทดลองเบื้องต้นแสดงให้เห็นว่า tapered architecture สามารถลดจำนวน parameter ที่ใช้งานจริงได้อย่างมีนัยสำคัญ งานนี้มีความสำคัญสำหรับการพัฒนา efficient LLM ในอนาคต
+
+--- Tapered architecture อาจเป็นทิศทางใหม่ในการออกแบบ LLM ที่ประหยัด compute และ memory มากขึ้น ติดตามผลการทดลองจาก Tapered LM และพิจารณานำสถาปัตยกรรมนี้มาทดสอบกับ task เฉพาะทาง ศึกษาการออกแบบ non-uniform layer size เพื่อ optimize inference latency ประเมินว่า tapered model สามารถลด cloud inference cost ได้เท่าไร ติดตามความก้าวหน้าของงานวิจัยนี้เพื่อวางแผน upgrade ระบบ LLM ความสำคัญ: low — เกี่ยวข้องกับ LLM, Architecture, Efficient AI</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">LLM</span><span class="tag">Architecture</span><span class="tag">Efficient AI</span><span class="tag">Inference Optimization</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> Tapered architecture อาจเป็นทิศทางใหม่ในการออกแบบ LLM ที่ประหยัด compute และ memory มากขึ้น</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ติดตามผลการทดลองจาก Tapered LM และพิจารณานำสถาปัตยกรรมนี้มาทดสอบกับ task เฉพาะทาง</li><li>ศึกษาการออกแบบ non-uniform layer size เพื่อ optimize inference latency</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมินว่า tapered model สามารถลด cloud inference cost ได้เท่าไร</li><li>ติดตามความก้าวหน้าของงานวิจัยนี้เพื่อวางแผน upgrade ระบบ LLM</li></ul></div>
+    <div class="card-footer">
+      <a href="https://arxiv.org/abs/2606.23670" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-23</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">MarkTechPost</span>
+    <span class="badge" style="background:#ff4444">HIGH</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">DeepSeek Releases DSpark, a Speculative Decoding Framework That Accelerates DeepSeek-V4 Per-User Generation 60-85% Over MTP-1</h3>
+  <p class="card-title-th">DeepSeek เปิดตัว DSpark: Framework Speculative Decoding ที่เร่งความเร็วการสร้างข้อความสูงสุด 85%</p>
+  <p class="card-content">DeepSeek เปิดเผย DSpark ซึ่งเป็น framework สำหรับ speculative decoding ที่ออกแบบมาเพื่อเร่งความเร็วการ inference ของ DeepSeek-V4 โดยไม่สูญเสียคุณภาพผลลัพธ์แม้แต่น้อย หลักการทำงานคือ draft module ขนาดเล็กจะทำนาย token หลายตัวล่วงหน้า แล้วให้ target model ตรวจสอบพร้อมกันในครั้งเดียว DSpark ใช้ parallel draft backbone ร่วมกับ sequential Markov head เพื่อแก้ปัญหา suffix decay ที่พบใน parallel drafter แบบเดิม นอกจากนี้ยังมี confidence-scheduled verification ที่ปรับจำนวน token ที่ตรวจสอบตามภาระของ GPU ในขณะนั้น ผลการทดสอบในสภาพแวดล้อม production จริงแสดงว่าความเร็วการสร้างข้อความต่อผู้ใช้เพิ่มขึ้น 60-85% สำหรับ V4-Flash และ 57-78% สำหรับ V4-Pro
+
+--- DSpark ลด inference latency ของ LLM ขนาดใหญ่ได้ถึง 85% โดยไม่ต้องเปลี่ยน model weight ส่งผลโดยตรงต่อ user experience และ cost ของ API provider ดาวน์โหลด DeepSpec จาก GitHub และทดลองฝึก draft model สำหรับ target model ของตนเอง ทดสอบ DSpark-5 checkpoint บน DeepSeek-V4 เพื่อวัด latency improvement ในสภาพแวดล้อม production จริง คำนวณ ROI ของการเปลี่ยนไปใช้ DSpark-based serving เพื่อลด GPU cost</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">LLM</span><span class="tag">Inference Optimization</span><span class="tag">Speculative Decoding</span><span class="tag">DeepSeek</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> DSpark ลด inference latency ของ LLM ขนาดใหญ่ได้ถึง 85% โดยไม่ต้องเปลี่ยน model weight ส่งผลโดยตรงต่อ user experience และ cost ของ API provider</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ดาวน์โหลด DeepSpec จาก GitHub และทดลองฝึก draft model สำหรับ target model ของตนเอง</li><li>ทดสอบ DSpark-5 checkpoint บน DeepSeek-V4 เพื่อวัด latency improvement ในสภาพแวดล้อม production จริง</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>คำนวณ ROI ของการเปลี่ยนไปใช้ DSpark-based serving เพื่อลด GPU cost</li><li>พิจารณาใช้ open-source DeepSpec สำหรับฝึก draft model เฉพาะทางธุรกิจ</li></ul></div>
+    <div class="card-footer">
+      <a href="https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-27</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">Techsauce</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    
+  </div>
+  <h3 class="card-title">มนุษย์ถูกมองเป็น 'ม้างาน' ในยุค AI ถอดบทเรียนโลกธุรกิจจากมุมมอง Cory Doctorow</h3>
+  <p class="card-title-th">มนุษย์ถูกมองเป็น 'ม้างาน' ในยุค AI ถอดบทเรียนโลกธุรกิจจากมุมมอง Cory Doctorow</p>
+  <p class="card-content">Cory Doctorow นักเขียนและนักวิจารณ์เทคโนโลยีชื่อดัง นำเสนอมุมมองที่แหลมคมเกี่ยวกับความสัมพันธ์ระหว่างมนุษย์กับ AI ในโลกธุรกิจ โดยชี้ว่าแทนที่ AI จะ 'ปลดปล่อย' มนุษย์จากงานซ้ำซาก กลับมีการนำมนุษย์มาใช้เป็น 'ม้างาน' ในกระบวนการ AI ในรูปแบบใหม่ที่ซับซ้อนและล่องหนกว่าเดิม เช่น การ Label Data, การตรวจสอบผลลัพธ์ AI ในราคาถูก หรือการทำงานที่ AI ยังทำไม่ได้โดยไม่ถูกยอมรับว่าเป็นผู้สร้างคุณค่า ธุรกิจควรตั้งคำถามว่า AI ที่ใช้อยู่นั้น 'เพิ่มคุณค่าให้มนุษย์' หรือ 'ใช้มนุษย์เพื่อหนุน AI' เพื่อให้เกิดการใช้ AI อย่างมีจริยธรรมและยั่งยืน
+
+--- การตั้งคำถามเชิงจริยธรรมเกี่ยวกับ AI และแรงงานมนุษย์กลายเป็นประเด็นสำคัญที่ผู้นำธุรกิจต้องพิจารณา ออกแบบ AI System ที่โปร่งใสและให้ผลตอบแทนที่เป็นธรรมแก่ผู้ Label Data นำ Ethical AI Framework มาใช้รวมถึง Fair Labor Practices สำหรับ AI Training ทบทวน AI Workflow ขององค์กรเพื่อระบุว่ามีการใช้แรงงานมนุษย์ในลักษณะที่ไม่เป็นธรรมหรือไม่ สร้าง AI Governance Policy ที่ครอบคลุมประเด็นความเป็นธรรมทางสังคมและการปฏิบัติต่อแรงงาน ความสำคัญ: medium — เกี่ยวข้องกับ AI Ethics, Future of Work, AI Governance</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">AI Ethics</span><span class="tag">Future of Work</span><span class="tag">AI Governance</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> การตั้งคำถามเชิงจริยธรรมเกี่ยวกับ AI และแรงงานมนุษย์กลายเป็นประเด็นสำคัญที่ผู้นำธุรกิจต้องพิจารณา</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ออกแบบ AI System ที่โปร่งใสและให้ผลตอบแทนที่เป็นธรรมแก่ผู้ Label Data</li><li>นำ Ethical AI Framework มาใช้รวมถึง Fair Labor Practices สำหรับ AI Training</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ทบทวน AI Workflow ขององค์กรเพื่อระบุว่ามีการใช้แรงงานมนุษย์ในลักษณะที่ไม่เป็นธรรมหรือไม่</li><li>สร้าง AI Governance Policy ที่ครอบคลุมประเด็นความเป็นธรรมทางสังคมและการปฏิบัติต่อแรงงาน</li></ul></div>
+    <div class="card-footer">
+      <a href="https://techsauce.co/saucy-thoughts/ai-human-workhorse" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-26</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">Techsauce</span>
+    <span class="badge" style="background:#ff4444">HIGH</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">เปิดตัว Claude Tag เพิ่ม AI เป็นพนักงานได้บน Slack รับคำสั่ง ตามงานแทน</h3>
+  <p class="card-title-th">เปิดตัว Claude Tag เพิ่ม AI เป็นพนักงานได้บน Slack รับคำสั่ง ตามงานแทน เช็กข้อมูลให้ แค่พิมพ์ @Claude</p>
+  <p class="card-content">Anthropic เปิดตัวฟีเจอร์ 'Claude Tag' บนแพลตฟอร์มสื่อสารในองค์กรอย่าง Slack โดยผู้ใช้เพียงพิมพ์ @Claude ในกลุ่มแชทก็สามารถมอบหมายงาน รับข้อมูล และติดตามผลได้แบบ Automated ราวกับมีพนักงานเสมือนคอยช่วยเหลือตลอดเวลา นวัตกรรมนี้ถือเป็นก้าวสำคัญในการเปลี่ยน AI จากเครื่องมือส่วนบุคคลให้กลายเป็น 'AI Teammate' ที่รับและส่งต่องานระหว่างสมาชิกในทีมได้อย่างราบรื่น Claude Tag รองรับการทำงานแบบ Agentic หมายความว่า AI สามารถวางแผน แบ่งงาน และประมวลผลแบบ Multi-step โดยไม่ต้องรอคำสั่งใหม่ตลอดเวลา ผู้นำองค์กรที่ต้องการเพิ่มประสิทธิภาพการทำงานทีมควรพิจารณาทดสอบฟีเจอร์นี้ทันที เพราะการประยุกต์ใช้ AI ใน Workflow จริงจะเป็นปัจจัยแข่งขันสำคัญในยุคถัดไป
+
+--- Claude Tag เปลี่ยน Slack จาก Messaging App เป็น AI-powered Work Hub ที่ทีมงานสามารถใช้ประโยชน์จาก LLM ได้โดยตรงในกระบวนการทำงานจริง ทดสอบ Claude API สำหรับ Slack Integration เพื่อสร้าง Custom Workflow Automation ในองค์กร ศึกษาการออกแบบ Agentic AI System ที่สามารถทำงานแบบ Multi-step Task ภายใน Chat Platform นำ Claude Tag มาทดลองใช้กับทีม Customer Support หรือ Project Management เพื่อวัดผลลัพธ์ วางแผน Upskill พนักงานให้สามารถมอบหมายงานให้ AI Agents ได้อย่างมีประสิทธิผล ความสำคัญ: high — เกี่ยวข้องกับ LLM, Agentic AI, Enterprise Software</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">LLM</span><span class="tag">Agentic AI</span><span class="tag">Enterprise Software</span><span class="tag">Slack</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> Claude Tag เปลี่ยน Slack จาก Messaging App เป็น AI-powered Work Hub ที่ทีมงานสามารถใช้ประโยชน์จาก LLM ได้โดยตรงในกระบวนการทำงานจริง</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ทดสอบ Claude API สำหรับ Slack Integration เพื่อสร้าง Custom Workflow Automation ในองค์กร</li><li>ศึกษาการออกแบบ Agentic AI System ที่สามารถทำงานแบบ Multi-step Task ภายใน Chat Platform</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>นำ Claude Tag มาทดลองใช้กับทีม Customer Support หรือ Project Management เพื่อวัดผลลัพธ์</li><li>วางแผน Upskill พนักงานให้สามารถมอบหมายงานให้ AI Agents ได้อย่างมีประสิทธิผล</li></ul></div>
+    <div class="card-footer">
+      <a href="https://techsauce.co/ai/anthropic-claude-tag-slack-ai-teammate" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-24</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-ai-trends">
+  <div class="card-header">
+    <span class="source-badge">Techsauce</span>
+    <span class="badge" style="background:#ff4444">HIGH</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">AI-first Operating System เมื่อบริษัทต้องออกแบบองค์กรใหม่ให้ฉลาดขึ้นทุกวัน</h3>
+  <p class="card-title-th">AI-first Operating System เมื่อบริษัทต้องออกแบบองค์กรใหม่ให้ฉลาดขึ้นทุกวัน</p>
+  <p class="card-content">จากเวที WEF Summer Davos 2026 แนวคิด 'AI-first Operating System' กำลังเปลี่ยนกรอบความคิดขององค์กรทั่วโลก โดยไม่ใช่แค่การนำ AI มาช่วยงานบางส่วน แต่เป็นการออกแบบ DNA ขององค์กรใหม่ทั้งหมดให้ AI เป็นศูนย์กลางของทุกกระบวนการตัดสินใจ แนวคิดนี้เปรียบเทียบกับการเปลี่ยนจากระบบปฏิบัติการแบบเดิม (Traditional OS) เป็น AI-powered OS ที่องค์กรสามารถเรียนรู้ ปรับตัว และฉลาดขึ้นแบบ Real-time ทุกวัน ธุรกิจที่ยังมองว่า AI เป็นเพียง 'ของเสริม' จะเสียเปรียบอย่างมากเมื่อเทียบกับคู่แข่งที่ Redesign องค์กรอย่างจริงจัง การปรับเปลี่ยนนี้ครอบคลุมทั้งด้าน Data Infrastructure, Talent Strategy และ Decision-making Framework
+
+--- การ Redesign องค์กรให้เป็น AI-first จะกลายเป็นปัจจัยแบ่งขั้วระหว่างบริษัทที่ประสบความสำเร็จและล้มเหลวในทศวรรษหน้า ออกแบบ Data Pipeline และ AI Infrastructure ที่รองรับการตัดสินใจแบบ Real-time ในระดับองค์กร พัฒนา AI Orchestration Layer ที่เชื่อม AI Models หลายตัวเข้าด้วยกัน ประเมิน AI Readiness ขององค์กรและวางแผน Transformation Roadmap ที่ชัดเจนภายใน 12-18 เดือน จัดตั้ง Chief AI Officer หรือทีม AI Center of Excellence เพื่อขับเคลื่อนการเปลี่ยนผ่านสู่ AI-first Organization ความสำคัญ: high — เกี่ยวข้องกับ AI Strategy, Digital Transformation, Enterprise AI</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">AI Strategy</span><span class="tag">Digital Transformation</span><span class="tag">Enterprise AI</span><span class="tag">WEF</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> การ Redesign องค์กรให้เป็น AI-first จะกลายเป็นปัจจัยแบ่งขั้วระหว่างบริษัทที่ประสบความสำเร็จและล้มเหลวในทศวรรษหน้า</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ออกแบบ Data Pipeline และ AI Infrastructure ที่รองรับการตัดสินใจแบบ Real-time ในระดับองค์กร</li><li>พัฒนา AI Orchestration Layer ที่เชื่อม AI Models หลายตัวเข้าด้วยกัน</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมิน AI Readiness ขององค์กรและวางแผน Transformation Roadmap ที่ชัดเจนภายใน 12-18 เดือน</li><li>จัดตั้ง Chief AI Officer หรือทีม AI Center of Excellence เพื่อขับเคลื่อนการเปลี่ยนผ่านสู่ AI-first Organization</li></ul></div>
+    <div class="card-footer">
+      <a href="https://techsauce.co/ai/wef-ai-first-operating-system" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-23</span>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+  
+<section class="topic-section" id="tech-trends">
+  <div class="section-header" style="border-left: 6px solid #a855f7">
+    <h2>⚙️ TECH TRENDS</h2>
+    <span class="section-count">5 articles</span>
+  </div>
+  <div class="cards-grid">
+    
+<div class="card topic-tech-trends">
+  <div class="card-header">
+    <span class="source-badge">Cohere</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    
+  </div>
+  <h3 class="card-title">Introducing North Mini Code: Cohere's first model for developers</h3>
+  <p class="card-title-th">Cohere เปิดตัว North Mini Code โมเดลสำหรับ developer รุ่นแรก</p>
+  <p class="card-content">Cohere ประกาศเปิดตัว North Mini Code ซึ่งเป็น coding model รุ่นแรกของบริษัทที่ออกแบบมาสำหรับ developer โดยเฉพาะ โมเดลนี้เน้นความสามารถในงาน practical software engineering มากกว่า benchmark score โดยทำงานในลักษณะ agentic coding เช่น การเขียน code ตาม requirements การ debug และการทำ code review การเปิดตัวนี้ถือเป็นก้าวสำคัญของ Cohere ในการขยายจากตลาด enterprise NLP สู่ coding tools market ซึ่งกำลังแข่งขันสูง North Mini Code ยังปรากฏใน HuggingFace community blog สะท้อนให้เห็นการสร้าง community presence ของ Cohere ในโลก open source
+
+--- North Mini Code ขยาย Cohere จาก enterprise NLP สู่ coding tools และเพิ่มตัวเลือกสำหรับ developer ที่ต้องการ enterprise-grade coding AI ทดสอบ North Mini Code ใน real coding tasks เปรียบเทียบกับ Claude Code และ GitHub Copilot ตรวจสอบ API pricing และ enterprise license terms ของ North Mini Code สำหรับ team usage</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">Coding AI</span><span class="tag">Developer Tools</span><span class="tag">Enterprise AI</span><span class="tag">Agentic Coding</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> North Mini Code ขยาย Cohere จาก enterprise NLP สู่ coding tools และเพิ่มตัวเลือกสำหรับ developer ที่ต้องการ enterprise-grade coding AI</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ทดสอบ North Mini Code ใน real coding tasks เปรียบเทียบกับ Claude Code และ GitHub Copilot</li><li>ตรวจสอบ API pricing และ enterprise license terms ของ North Mini Code สำหรับ team usage</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมิน North Mini Code สำหรับ developer tools stack ขององค์กรที่ใช้ Cohere อยู่แล้ว</li><li>เปรียบเทียบ security และ compliance features กับ GitHub Copilot Enterprise</li></ul></div>
+    <div class="card-footer">
+      <a href="https://cohere.com/blog/north-mini-code" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-09</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-tech-trends">
+  <div class="card-header">
+    <span class="source-badge">HuggingFace</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    
+  </div>
+  <h3 class="card-title">Introducing Serge: GitHub-Native AI Code Review</h3>
+  <p class="card-title-th">HuggingFace เปิดตัว Serge เครื่องมือ AI Code Review ที่ทำงานบน GitHub โดยตรง</p>
+  <p class="card-content">HuggingFace เปิดตัว Serge เครื่องมือ AI code review ที่ออกแบบให้ทำงานบน GitHub โดยตรงในแบบ native integration บทความในบล็อกของ HuggingFace อธิบายว่า Serge แตกต่างจาก code review tools อื่นตรงที่ทำงานภายใน GitHub ecosystem โดยตรงโดยไม่ต้องติดตั้งหรือ configure service ภายนอก ซึ่งช่วยลดความซับซ้อนในการ setup และเพิ่มความปลอดภัยของ code เนื่องจากไม่ต้องส่งข้อมูลออกไปยัง external service Serge เป็นหนึ่งใน tool ที่มุ่งเน้นการเพิ่มประสิทธิภาพของ developer workflow ด้วย AI และสะท้อนให้เห็น trend ที่ AI กำลังถูกฝังเข้าไปใน development tools ที่มีอยู่แล้วมากกว่าการสร้าง standalone product ใหม่
+
+--- Serge เพิ่ม native AI code review ใน GitHub workflow โดยไม่ต้องพึ่ง external service ลดความกังวลด้าน security สำหรับ developer teams ทดลองติดตั้ง Serge ใน GitHub repo ขนาดเล็กก่อนเพื่อทดสอบ quality ของ review feedback เปรียบเทียบ Serge กับ GitHub Copilot code review และ CodeRabbit ประเมินว่า Serge สามารถลดเวลา code review ของทีมได้เท่าใด ตรวจสอบ data privacy policy ของ Serge ก่อนนำมาใช้กับ codebase ที่มีข้อมูลสำคัญ</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">Developer Tools</span><span class="tag">Code Review</span><span class="tag">GitHub</span><span class="tag">AI Coding</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> Serge เพิ่ม native AI code review ใน GitHub workflow โดยไม่ต้องพึ่ง external service ลดความกังวลด้าน security สำหรับ developer teams</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ทดลองติดตั้ง Serge ใน GitHub repo ขนาดเล็กก่อนเพื่อทดสอบ quality ของ review feedback</li><li>เปรียบเทียบ Serge กับ GitHub Copilot code review และ CodeRabbit</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมินว่า Serge สามารถลดเวลา code review ของทีมได้เท่าใด</li><li>ตรวจสอบ data privacy policy ของ Serge ก่อนนำมาใช้กับ codebase ที่มีข้อมูลสำคัญ</li></ul></div>
+    <div class="card-footer">
+      <a href="https://huggingface.co/blog/huggingface/serge" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-24</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-tech-trends">
+  <div class="card-header">
+    <span class="source-badge">Mistral AI</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    
+  </div>
+  <h3 class="card-title">Introducing Mistral OCR 4: State of the art document intelligence model</h3>
+  <p class="card-title-th">Mistral เปิดตัว OCR 4 โมเดลความเข้าใจเอกสารระดับ state-of-the-art</p>
+  <p class="card-content">Mistral AI ประกาศเปิดตัว Mistral OCR 4 โมเดล document intelligence รุ่นที่สี่ซึ่งอ้างสถานะ state of the art ในการประมวลผลเอกสาร OCR 4 พัฒนาต่อจากซีรีส์ก่อนหน้าซึ่งเริ่มจาก Mistral OCR ที่เปิดตัวในเดือนมีนาคม 2025 ตามด้วย OCR 3 และล่าสุด OCR 4 ในเดือนมิถุนายน 2026 โมเดลนี้มุ่งเป้าที่การอ่านและเข้าใจเอกสารที่มีความซับซ้อน เช่น ตาราง แผนภูมิ และเนื้อหาหลายภาษา ซึ่งเป็นความต้องการสำคัญสำหรับองค์กรในอุตสาหกรรมทางการเงิน กฎหมาย และสาธารณสุข การเปิดตัวพร้อมกับฟีเจอร์ connector control สะท้อนถึงการขยาย ecosystem ของ Mistral สำหรับ enterprise
+
+--- Mistral OCR 4 เสริมความสามารถ document processing สำหรับ enterprise workflows ที่ต้องการ accuracy สูงในการอ่านเอกสารซับซ้อน ทดสอบ Mistral OCR 4 กับเอกสารที่มีตาราง แผนภูมิ และเนื้อหาผสม ผสาน Mistral OCR 4 เข้ากับ RAG pipeline สำหรับ document-heavy enterprise applications ประเมินการนำ OCR 4 ไปใช้ใน document digitization workflow ขององค์กร เปรียบเทียบราคาและความแม่นยำของ Mistral OCR 4 กับ Azure Document Intelligence ความสำคัญ: medium — เกี่ยวข้องกับ OCR, Document Intelligence, Enterprise AI</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">OCR</span><span class="tag">Document Intelligence</span><span class="tag">Enterprise AI</span><span class="tag">RAG</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> Mistral OCR 4 เสริมความสามารถ document processing สำหรับ enterprise workflows ที่ต้องการ accuracy สูงในการอ่านเอกสารซับซ้อน</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ทดสอบ Mistral OCR 4 กับเอกสารที่มีตาราง แผนภูมิ และเนื้อหาผสม</li><li>ผสาน Mistral OCR 4 เข้ากับ RAG pipeline สำหรับ document-heavy enterprise applications</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมินการนำ OCR 4 ไปใช้ใน document digitization workflow ขององค์กร</li><li>เปรียบเทียบราคาและความแม่นยำของ Mistral OCR 4 กับ Azure Document Intelligence</li></ul></div>
+    <div class="card-footer">
+      <a href="https://mistral.ai/news/ocr-4/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-23</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-tech-trends">
+  <div class="card-header">
+    <span class="source-badge">TechCrunch</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    
+  </div>
+  <h3 class="card-title">Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27</h3>
+  <p class="card-title-th">เกินกว่า Siri: ฟีเจอร์ AI ใหม่ที่จะมาใน iOS 27</p>
+  <p class="card-content">TechCrunch รายงานรายละเอียดฟีเจอร์ AI ที่ Apple เตรียมปล่อยใน iOS 27 โดยเน้นไปที่ฟีเจอร์ที่ใช้งานได้จริงในชีวิตประจำวัน ไม่ใช่เพียงการอัปเกรด Siri เพียงอย่างเดียว บทความระบุว่า Apple กำลังพัฒนา AI capabilities ที่ฝังอยู่ในแอปพลิเคชันหลักของ iPhone รวมถึงการประมวลผล on-device ที่ให้ความเป็นส่วนตัวสูง การอัปเดตนี้ถือเป็นส่วนหนึ่งของกลยุทธ์ Apple Intelligence ที่บริษัทประกาศไว้ก่อนหน้า โดยมุ่งเน้นความสามารถ AI ที่ทำงานได้อย่างราบรื่นในระบบนิเวศของ Apple และแยกตัวเองออกจาก chatbot ทั่วไป ฟีเจอร์ที่คาดว่าจะรวมถึงการสรุปอีเมล การแก้ไขรูปภาพด้วย AI และการค้นหาอัจฉริยะทั่วทั้งอุปกรณ์ ซึ่งจะส่งผลต่อพฤติกรรมผู้ใช้ iPhone ทั่วโลก
+
+--- iOS 27 จะนำ AI ฝังตัวเข้ามาในแอปพลิเคชัน Apple หลัก ส่งผลต่อพฤติกรรมผู้ใช้ iPhone ทั่วโลก ติดตาม Apple Developer documentation สำหรับ AI API ใหม่ใน iOS 27 SDK ทดสอบ on-device model integration เพื่อพัฒนาฟีเจอร์ที่ใช้ประโยชน์จาก Apple Intelligence ประเมินว่าฟีเจอร์ iOS 27 AI ส่งผลต่อ app strategy ขององค์กรบน Apple platform อย่างไร วางแผน update แอปพลิเคชันให้รองรับ Apple Intelligence features ก่อน iOS 27 release ความสำคัญ: medium — เกี่ยวข้องกับ Mobile AI, On-device AI, Apple Intelligence</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">Mobile AI</span><span class="tag">On-device AI</span><span class="tag">Apple Intelligence</span><span class="tag">iOS</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> iOS 27 จะนำ AI ฝังตัวเข้ามาในแอปพลิเคชัน Apple หลัก ส่งผลต่อพฤติกรรมผู้ใช้ iPhone ทั่วโลก</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ติดตาม Apple Developer documentation สำหรับ AI API ใหม่ใน iOS 27 SDK</li><li>ทดสอบ on-device model integration เพื่อพัฒนาฟีเจอร์ที่ใช้ประโยชน์จาก Apple Intelligence</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมินว่าฟีเจอร์ iOS 27 AI ส่งผลต่อ app strategy ขององค์กรบน Apple platform อย่างไร</li><li>วางแผน update แอปพลิเคชันให้รองรับ Apple Intelligence features ก่อน iOS 27 release</li></ul></div>
+    <div class="card-footer">
+      <a href="https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-29</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-tech-trends">
+  <div class="card-header">
+    <span class="source-badge">MarkTechPost</span>
+    <span class="badge" style="background:#ff4444">HIGH</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference</h3>
+  <p class="card-title-th">Liquid AI เปิดตัว LFM2.5-230M: โมเดล 230M พารามิเตอร์สำหรับ On-Device Inference รองรับ llama.cpp, MLX, vLLM</p>
+  <p class="card-content">Liquid AI เปิดตัว LFM2.5-230M โมเดลภาษาขนาด 230 ล้านพารามิเตอร์ที่เป็น open-weight โดยถือเป็นโมเดลเล็กที่สุดของบริษัทจนถึงปัจจุบัน โมเดลนี้สร้างบนสถาปัตยกรรม LFM2 ที่ผสม LIV convolution 8 layer กับ Grouped-Query Attention 6 layer เพื่อให้ inference บน CPU มีความเร็วสูง ด้านความเร็วสามารถประมวลผลได้ 213 token ต่อวินาทีบน Samsung Galaxy S25 Ultra และ 42 token/s บน Raspberry Pi 5 โมเดลถูก pre-train ด้วย 19 ล้านล้าน token และผ่าน post-training 3 ขั้นตอนได้แก่ SFT ด้วย distillation จาก LFM2.5-350M, DPO และ multi-domain reinforcement learning รองรับทุก framework หลักได้แก่ llama.cpp, MLX, vLLM, SGLang และ ONNX ด้วย memory footprint เพียง 293-375 MB เปิดโอกาสใหม่สำหรับ agentic AI บน edge device และ mobile
+
+--- LFM2.5-230M ทำให้ agentic AI บนอุปกรณ์พกพาและ edge device กลายเป็นความจริงในเชิงพาณิชย์ ลดการพึ่งพา cloud API สำหรับ tool use และ data extraction</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">Edge AI</span><span class="tag">On-Device AI</span><span class="tag">LLM</span><span class="tag">Agents</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> LFM2.5-230M ทำให้ agentic AI บนอุปกรณ์พกพาและ edge device กลายเป็นความจริงในเชิงพาณิชย์ ลดการพึ่งพา cloud API สำหรับ tool use และ data extraction</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ดาวน์โหลด LFM2.5-230M จาก Hugging Face และทดสอบ function calling สำหรับ use case เฉพาะ</li><li>ใช้ Unsloth/TRL LoRA fine-tuning recipe ที่ Liquid AI จัดเตรียมไว้สำหรับ domain adaptation</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมินการแทนที่ API calls ด้วย on-device LFM2.5-230M สำหรับงาน data extraction ที่มี volume สูง</li><li>พิจารณา deployment บน edge device หรือ IoT เพื่อลด latency และ protect data privacy</li></ul></div>
+    <div class="card-footer">
+      <a href="https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-28</span>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+  
+<section class="topic-section" id="thailand">
+  <div class="section-header" style="border-left: 6px solid #ff6b35">
+    <h2>🇹🇭 THAILAND AI & TECH</h2>
+    <span class="section-count">3 articles</span>
+  </div>
+  <div class="cards-grid">
+    
+<div class="card topic-thailand">
+  <div class="card-header">
+    <span class="source-badge">Beartai</span>
+    <span class="badge" style="background:#ff4444">HIGH</span>
+    
+  </div>
+  <h3 class="card-title">ตำรวจสากลเผยเอเชียแชมป์กดลิงก์ปลอม สูงกว่าโลก 2 เท่า !</h3>
+  <p class="card-title-th">ตำรวจสากลเผยเอเชียแชมป์กดลิงก์ปลอม สูงกว่าโลก 2 เท่า !</p>
+  <p class="card-content">รายงานอาชญากรรมไซเบอร์เอเชียแปซิฟิกประจำปี 2025-2026 ขององค์การตำรวจสากล (INTERPOL) เผยให้เห็นภาพที่น่าตกใจ คือประชากรในภูมิภาคนี้ตกเป็นเหยื่อการหลอกลวงออนไลน์หรือ Phishing สูงกว่าค่าเฉลี่ยทั่วโลกถึง 2 เท่า โดย 1 ใน 3 ของประเทศในภูมิภาคมีคดี Phishing เกิน 10,000 เคสในช่วงปี 2024-2025 อาชญากรไซเบอร์ใช้ AI ขั้นสูง เทคโนโลยี Deepfake เพื่อปลอมแปลงอัตลักษณ์ และ RaaS (Ransomware-as-a-Service) เป็นเครื่องมือหลัก ประเทศเพื่อนบ้านอย่างเมียนมาและกัมพูชายังเป็นศูนย์กลางของขบวนการต้มตุ๋นข้ามชาติ ส่งผลให้หลายประเทศรวมถึงไทยต้องเร่งปรับกลยุทธ์การรับมือภัยคุกคามรูปแบบใหม่ที่ขับเคลื่อนด้วย AI
+
+--- AI และ Deepfake กลายเป็นอาวุธหลักของอาชญากรไซเบอร์ในเอเชีย ส่งผลกระทบโดยตรงต่อความปลอดภัยทางการเงินและข้อมูลส่วนบุคคลของผู้บริโภคไทย พัฒนาระบบ AI Detection สำหรับตรวจจับ Deepfake และ Phishing Links ในแอปพลิเคชัน นำ Zero Trust Architecture มาใช้ในการออกแบบระบบ Authentication เพื่อลดความเสี่ยงจาก AI-powered Attacks จัดอบรม Cybersecurity Awareness ให้พนักงานเน้นเรื่อง AI-generated Phishing และ Deepfake Scams ลงทุนในระบบ AI-powered Fraud Detection เพื่อป้องกันธุรกรรมและข้อมูลลูกค้า ความสำคัญ: high — เกี่ยวข้องกับ Cybersecurity, AI Safety, Deepfake Detection</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">Cybersecurity</span><span class="tag">AI Safety</span><span class="tag">Deepfake Detection</span><span class="tag">Asia</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> AI และ Deepfake กลายเป็นอาวุธหลักของอาชญากรไซเบอร์ในเอเชีย ส่งผลกระทบโดยตรงต่อความปลอดภัยทางการเงินและข้อมูลส่วนบุคคลของผู้บริโภคไทย</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>พัฒนาระบบ AI Detection สำหรับตรวจจับ Deepfake และ Phishing Links ในแอปพลิเคชัน</li><li>นำ Zero Trust Architecture มาใช้ในการออกแบบระบบ Authentication เพื่อลดความเสี่ยงจาก AI-powered Attacks</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>จัดอบรม Cybersecurity Awareness ให้พนักงานเน้นเรื่อง AI-generated Phishing และ Deepfake Scams</li><li>ลงทุนในระบบ AI-powered Fraud Detection เพื่อป้องกันธุรกรรมและข้อมูลลูกค้า</li></ul></div>
+    <div class="card-footer">
+      <a href="https://www.beartai.com/read/1502470/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-26</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-thailand">
+  <div class="card-header">
+    <span class="source-badge">Beartai</span>
+    <span class="badge" style="background:#44aa44">LOW</span>
+    
+  </div>
+  <h3 class="card-title">ไทยพีบีเอส ชวนคนรุ่นใหม่ประกวดหนังสั้นและสารคดีสั้น ชิงรางวัลรวมกว่า 8 แสนบาท</h3>
+  <p class="card-title-th">ไทยพีบีเอส ชวนคนรุ่นใหม่ประกวดหนังสั้นและสารคดีสั้น ชิงรางวัลรวมกว่า 8 แสนบาท ยกระดับ 'VIPA International Film Festival 2026' สู่เวทีสากล</p>
+  <p class="card-content">องค์การกระจายเสียงและแพร่ภาพสาธารณะแห่งประเทศไทย (ไทยพีบีเอส) ร่วมกับมูลนิธิไทยพีบีเอส สำนักสื่อดิจิทัล แพลตฟอร์ม VIPA และภาคีภาครัฐเอกชนอีกหลายองค์กร เปิดตัวเทศกาลภาพยนตร์ระดับนานาชาติ 'VIPA International Film Festival 2026' (VIFF2026) อย่างเป็นทางการ โครงการนี้มุ่งยกระดับจากเทศกาลภาพยนตร์ในประเทศที่จัดต่อเนื่องมาแล้ว 3 ปี ไปสู่เวทีสากลอย่างเต็มรูปแบบ เปิดรับสมัครผลงานจากนักสร้างภาพยนตร์รุ่นใหม่ ผู้กำกับอิสระ นักศึกษา และประชาชนทั่วไปทั่วประเทศ ชิงรางวัลรวมมูลค่ากว่า 8 แสนบาท ภายในโครงการยังมี 'VIPA Pitching Project 2026' เพื่อพัฒนาศักยภาพเยาวชน ครอบคลุมตั้งแต่กระบวนการพัฒนาแนวคิด การฝึกอบรม การประกวด การจัดฉาย ไปจนถึงการต่อยอดสู่เครือข่ายอุตสาหกรรมภาพยนตร์ระดับโลก ถือเป็นการลงทุนเชิงนโยบายสาธารณะด้านสื่อดิจิทัลและเทคโนโลยีคอนเทนต์ครีเอชัน
+
+--- ภาครัฐไทยลงทุนสร้างระบบนิเวศผู้สร้างคอนเทนต์ดิจิทัลระดับนานาชาติผ่านเทศกาลภาพยนตร์ นักพัฒนาแอปพลิเคชันด้านสื่อดิจิทัลควรพิจารณาเป็น Tech Partner ของเทศกาลระดับนานาชาติที่รัฐสนับสนุน ศึกษาแนวทางการสร้าง Content Distribution Platform สำหรับภาพยนตร์สั้นที่เชื่อมกับเครือข่ายต่างประเทศ บริษัทด้าน Media Tech ควรเข้าร่วมเป็นสปอนเซอร์เพื่อเข้าถึงนักสร้างสรรค์รุ่นใหม่ องค์กรที่ต้องการ Brand Content ควรพิจารณาโปรแกรม Pitching เพื่อค้นหา Creator ที่มีศักยภาพ ความสำคัญ: low — เกี่ยวข้องกับ Digital Media, Content Creation, EdTech</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">Digital Media</span><span class="tag">Content Creation</span><span class="tag">EdTech</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> ภาครัฐไทยลงทุนสร้างระบบนิเวศผู้สร้างคอนเทนต์ดิจิทัลระดับนานาชาติผ่านเทศกาลภาพยนตร์</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>นักพัฒนาแอปพลิเคชันด้านสื่อดิจิทัลควรพิจารณาเป็น Tech Partner ของเทศกาลระดับนานาชาติที่รัฐสนับสนุน</li><li>ศึกษาแนวทางการสร้าง Content Distribution Platform สำหรับภาพยนตร์สั้นที่เชื่อมกับเครือข่ายต่างประเทศ</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>บริษัทด้าน Media Tech ควรเข้าร่วมเป็นสปอนเซอร์เพื่อเข้าถึงนักสร้างสรรค์รุ่นใหม่</li><li>องค์กรที่ต้องการ Brand Content ควรพิจารณาโปรแกรม Pitching เพื่อค้นหา Creator ที่มีศักยภาพ</li></ul></div>
+    <div class="card-footer">
+      <a href="https://www.beartai.com/read/1502496/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-28</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-thailand">
+  <div class="card-header">
+    <span class="source-badge">Thumbsup</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    
+  </div>
+  <h3 class="card-title">เมื่อความ 'จริงใจ' คือกุญแจสำคัญสู่การเติบโตที่ยั่งยืนในปี 2026 กลยุทธ์จากงาน SME x Influencer EP 6</h3>
+  <p class="card-title-th">เมื่อความ 'จริงใจ' คือกุญแจสำคัญสู่การเติบโตที่ยั่งยืนในปี 2026 กลยุทธ์จากงาน SME x Influencer EP 6</p>
+  <p class="card-content">งาน SME x Influencer EP 6 รวบรวมข้อมูลเชิงลึกจากผู้เชี่ยวชาญด้านการตลาดดิจิทัลและ SME ไทย โดยสรุปว่าในยุคที่ผู้บริโภคมีความฉลาดทางดิจิทัลสูงขึ้นและใช้ AI ในการตัดสินใจซื้อ ความ 'จริงใจ' ของแบรนด์กลายเป็นปัจจัยแข่งขันสำคัญที่ AI ยังไม่สามารถสร้างแทนได้อย่างสมบูรณ์ Influencer Marketing ที่มีประสิทธิผลต้องมาจาก Authentic Connection ระหว่าง Creator กับ Audience ไม่ใช่การซื้อ Engagement หรือการใช้ AI Generated Content เพียงอย่างเดียว SME ที่ลงทุนในการสร้างความสัมพันธ์ที่แท้จริงกับลูกค้าผ่าน Social Proof และ Community Building จะมีความได้เปรียบในระยะยาว แม้ในสภาพแวดล้อมที่ AI Content กำลังท่วมตลาด
+
+--- ในยุค AI-generated Content ล้นตลาด ความจริงใจและ Authentic Brand Voice กลายเป็น Competitive Advantage ที่สำคัญสำหรับ SME ไทย พัฒนา AI Tools สำหรับตรวจสอบ Authenticity ของ Influencer Content และ Fake Engagement Detection สร้าง Platform ที่ช่วย SME วัดผลลัพธ์ของ Authentic Marketing Campaign SME ควรลงทุนสร้าง Brand Story ที่จริงแท้และ Community ที่ผู้บริโภคมีส่วนร่วม เลือก Influencer ที่มี Micro-community ที่ Engaged จริงมากกว่า Macro Influencer ที่ Followers มากแต่ Engagement ต่ำ</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">Digital Marketing</span><span class="tag">AI Content</span><span class="tag">SME</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> ในยุค AI-generated Content ล้นตลาด ความจริงใจและ Authentic Brand Voice กลายเป็น Competitive Advantage ที่สำคัญสำหรับ SME ไทย</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>พัฒนา AI Tools สำหรับตรวจสอบ Authenticity ของ Influencer Content และ Fake Engagement Detection</li><li>สร้าง Platform ที่ช่วย SME วัดผลลัพธ์ของ Authentic Marketing Campaign</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>SME ควรลงทุนสร้าง Brand Story ที่จริงแท้และ Community ที่ผู้บริโภคมีส่วนร่วม</li><li>เลือก Influencer ที่มี Micro-community ที่ Engaged จริงมากกว่า Macro Influencer ที่ Followers มากแต่ Engagement ต่ำ</li></ul></div>
+    <div class="card-footer">
+      <a href="https://www.thumbsup.in.th/cp-sme-influencer-2026" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-28</span>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+  
+<section class="topic-section" id="global">
+  <div class="section-header" style="border-left: 6px solid #00ff88">
+    <h2>🌐 GLOBAL AI & TECH</h2>
+    <span class="section-count">7 articles</span>
+  </div>
+  <div class="cards-grid">
+    
+<div class="card topic-global">
+  <div class="card-header">
+    <span class="source-badge">TechCrunch</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    
+  </div>
+  <h3 class="card-title">Billionaire Ambani wants AI in every call, app, and home</h3>
+  <p class="card-title-th">มหาเศรษฐี Ambani ต้องการ AI ในทุกสาย ทุกแอป และทุกบ้าน</p>
+  <p class="card-content">TechCrunch รายงานว่า Mukesh Ambani มหาเศรษฐีผู้ก่อตั้ง Reliance Industries ประกาศวิสัยทัศน์ AI ที่ทะเยอทะยาน โดยต้องการให้ AI เป็นส่วนหนึ่งของทุกการโทรศัพท์ ทุกแอปพลิเคชัน และทุกบ้านในอินเดีย วิสัยทัศน์นี้สอดคล้องกับความพยายามของ Reliance Jio ที่เป็น telecom รายใหญ่ของอินเดียที่ต้องการขยายบทบาทสู่ AI infrastructure และ service provider Ambani มองว่า AI จะเป็นตัวเปลี่ยนเกมสำหรับการพัฒนาเศรษฐกิจดิจิทัลของอินเดีย โดยเฉพาะการเข้าถึงประชากรกว่า 1.4 พันล้านคน ซึ่งถือเป็นตลาด AI ขนาดใหญ่ที่มีศักยภาพสูงที่สุดแห่งหนึ่งของโลก
+
+--- Reliance Jio's AI push เปิดตลาด AI-embedded telecom ขนาดใหญ่ในอินเดีย ที่อาจเป็น blueprint สำหรับตลาดเกิดใหม่อื่น ๆ รวมถึงเอเชียตะวันออกเฉียงใต้ ติดตาม API และ platform ที่ Reliance Jio จะเปิดให้ developer เข้าถึง AI infrastructure ของอินเดีย ศึกษา use case AI สำหรับตลาดมวลชนที่มี connectivity จำกัด ประเมินโอกาสตลาด B2B AI ในอินเดียที่จะเติบโตภายใต้การผลักดันของ Reliance พิจารณาการสร้าง partnership กับ ecosystem ของ Jio สำหรับการ distribute AI products ในอินเดีย ความสำคัญ: medium — เกี่ยวข้องกับ AI Market, India Tech, Telecom AI</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">AI Market</span><span class="tag">India Tech</span><span class="tag">Telecom AI</span><span class="tag">Emerging Markets</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> Reliance Jio's AI push เปิดตลาด AI-embedded telecom ขนาดใหญ่ในอินเดีย ที่อาจเป็น blueprint สำหรับตลาดเกิดใหม่อื่น ๆ รวมถึงเอเชียตะวันออกเฉียงใต้</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ติดตาม API และ platform ที่ Reliance Jio จะเปิดให้ developer เข้าถึง AI infrastructure ของอินเดีย</li><li>ศึกษา use case AI สำหรับตลาดมวลชนที่มี connectivity จำกัด</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมินโอกาสตลาด B2B AI ในอินเดียที่จะเติบโตภายใต้การผลักดันของ Reliance</li><li>พิจารณาการสร้าง partnership กับ ecosystem ของ Jio สำหรับการ distribute AI products ในอินเดีย</li></ul></div>
+    <div class="card-footer">
+      <a href="https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-28</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-global">
+  <div class="card-header">
+    <span class="source-badge">TechCrunch</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    
+  </div>
+  <h3 class="card-title">Nobel laureate John Jumper is leaving DeepMind for rival Anthropic</h3>
+  <p class="card-title-th">นักวิทยาศาสตร์รางวัลโนเบล John Jumper ลาออกจาก DeepMind ไปร่วมงาน Anthropic</p>
+  <p class="card-content">TechCrunch รายงานว่า John Jumper นักวิทยาศาสตร์ผู้ได้รับรางวัลโนเบลสาขาเคมีปี 2024 จากผลงาน AlphaFold ที่ Google DeepMind ได้ตัดสินใจลาออกจาก DeepMind เพื่อไปร่วมงานกับ Anthropic ซึ่งเป็นคู่แข่งในอุตสาหกรรม AI การเคลื่อนไหวนี้มีความสำคัญอย่างยิ่งต่อ Anthropic เพราะ Jumper นับเป็นหนึ่งในนักวิจัย AI ที่มีชื่อเสียงที่สุดในโลก โดยเฉพาะในด้าน AI สำหรับวิทยาศาสตร์ชีวภาพ การย้ายครั้งนี้เกิดขึ้นในบริบทที่ Anthropic กำลังเผชิญกับแรงกดดันจากรัฐบาลสหรัฐฯ เกี่ยวกับ export control ต่อโมเดล Fable 5 และ Mythos 5 ซึ่งนักวิเคราะห์มองว่าอาจส่งสัญญาณถึงความเชื่อมั่นในอนาคตของ Anthropic ในระยะยาว
+
+--- การย้ายของ Jumper จาก DeepMind สู่ Anthropic เสริมความแข็งแกร่งด้าน AI for Science และสะท้อน talent war ที่รุนแรงในอุตสาหกรรม ติดตามทิศทางงานวิจัย AI for Science ของ Anthropic ที่อาจเปลี่ยนแปลงภายใต้ Jumper ศึกษา paper และผลงานของ Jumper เพื่อเตรียมรับ research direction ใหม่จาก Anthropic ประเมินผลกระทบของ talent acquisition ต่อกลยุทธ์การเลือกพันธมิตรเทคโนโลยี ติดตามทิศทาง biotech AI จาก Anthropic ที่อาจเพิ่มขึ้น ความสำคัญ: medium — เกี่ยวข้องกับ AI Research, Talent Acquisition, AI for Science</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">AI Research</span><span class="tag">Talent Acquisition</span><span class="tag">AI for Science</span><span class="tag">Biotech AI</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> การย้ายของ Jumper จาก DeepMind สู่ Anthropic เสริมความแข็งแกร่งด้าน AI for Science และสะท้อน talent war ที่รุนแรงในอุตสาหกรรม</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ติดตามทิศทางงานวิจัย AI for Science ของ Anthropic ที่อาจเปลี่ยนแปลงภายใต้ Jumper</li><li>ศึกษา paper และผลงานของ Jumper เพื่อเตรียมรับ research direction ใหม่จาก Anthropic</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ประเมินผลกระทบของ talent acquisition ต่อกลยุทธ์การเลือกพันธมิตรเทคโนโลยี</li><li>ติดตามทิศทาง biotech AI จาก Anthropic ที่อาจเพิ่มขึ้น</li></ul></div>
+    <div class="card-footer">
+      <a href="https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-28</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-global">
+  <div class="card-header">
+    <span class="source-badge">TechCrunch</span>
+    <span class="badge" style="background:#ff4444">HIGH</span>
+    
+  </div>
+  <h3 class="card-title">When the Trump administration cracks down on Anthropic, who benefits?</h3>
+  <p class="card-title-th">เมื่อรัฐบาล Trump กดดัน Anthropic ใครได้ประโยชน์?</p>
+  <p class="card-content">TechCrunch เผยแพร่บทวิเคราะห์เกี่ยวกับผลกระทบจากการที่รัฐบาล Trump ออกคำสั่งควบคุมการส่งออก (export control) เพื่อระงับการเข้าถึง Fable 5 และ Mythos 5 ของ Anthropic โดยตั้งคำถามว่าใครได้รับประโยชน์จากนโยบายนี้ จากข้อมูลที่รวบรวมได้ การแบนดังกล่าวเกิดจากรายงานที่อ้างว่าโมเดล Fable 5 สามารถถูกใช้สำหรับการโจมตีทางไซเบอร์ได้ แม้ผู้เชี่ยวชาญด้านความปลอดภัยอย่าง Kate Moussouris จะชี้แจงว่าสิ่งที่โมเดลทำนั้นเป็นเพียงการซ่อมโค้ดทั่วไปในงาน defensive security นักวิเคราะห์มองว่า OpenAI ซึ่งอยู่ในกลุ่มที่รัฐบาลไว้วางใจมากกว่า อาจเป็นผู้ได้เปรียบโดยตรงจากการกดดัน Anthropic ครั้งนี้ และส่งสัญญาณถึงความเสี่ยงเชิงภูมิรัฐศาสตร์ของอุตสาหกรรม AI
+
+--- Export control ต่อ Anthropic สร้าง competitive advantage ให้ผู้เล่นที่รัฐบาลสหรัฐฯ ไว้วางใจ และกำหนด geopolitical risk ใหม่สำหรับ AI industry ประเมินความเสี่ยงด้าน regulatory ในการพึ่งพา AI model ใด model หนึ่งเป็นหลัก เตรียม fallback model strategy หากมีการระงับการเข้าถึงโมเดลใดในอนาคต ติดตามพัฒนาการ export control policy ที่อาจกระทบการใช้งาน AI ในระดับนานาชาติ พิจารณากระจายความเสี่ยงโดยใช้โมเดลจากหลายผู้ให้บริการเพื่อความต่อเนื่อง ความสำคัญ: high — เกี่ยวข้องกับ AI Policy, Export Control, Geopolitics</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">AI Policy</span><span class="tag">Export Control</span><span class="tag">Geopolitics</span><span class="tag">Cybersecurity</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> Export control ต่อ Anthropic สร้าง competitive advantage ให้ผู้เล่นที่รัฐบาลสหรัฐฯ ไว้วางใจ และกำหนด geopolitical risk ใหม่สำหรับ AI industry</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ประเมินความเสี่ยงด้าน regulatory ในการพึ่งพา AI model ใด model หนึ่งเป็นหลัก</li><li>เตรียม fallback model strategy หากมีการระงับการเข้าถึงโมเดลใดในอนาคต</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ติดตามพัฒนาการ export control policy ที่อาจกระทบการใช้งาน AI ในระดับนานาชาติ</li><li>พิจารณากระจายความเสี่ยงโดยใช้โมเดลจากหลายผู้ให้บริการเพื่อความต่อเนื่อง</li></ul></div>
+    <div class="card-footer">
+      <a href="https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-29</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-global">
+  <div class="card-header">
+    <span class="source-badge">Techsauce</span>
+    <span class="badge" style="background:#ff4444">HIGH</span>
+    
+  </div>
+  <h3 class="card-title">พลังงานที่ใช้ไปกับ AI 80% กระจุกตัวที่จีน-สหรัฐฯ คาดอีก 4 ปีจะผลาญไฟเท่าญี่ปุ่นทั้งประเทศ</h3>
+  <p class="card-title-th">พลังงานที่ใช้ไปกับ AI 80% กระจุกตัวที่จีน-สหรัฐฯ คาดอีก 4 ปีจะผลาญไฟเท่าญี่ปุ่นทั้งประเทศ</p>
+  <p class="card-content">รายงานจากเวที World Economic Forum (WEF) Summer Davos 2026 เปิดเผยข้อมูลที่น่าตกใจว่า 80% ของพลังงานที่ใช้เพื่อรองรับการทำงานของ AI ทั่วโลก กระจุกตัวอยู่ที่เพียงสองประเทศ คือจีนและสหรัฐอเมริกา และในอีก 4 ปี AI Data Centers ทั่วโลกจะมีความต้องการพลังงานรวมกันเท่ากับประเทศญี่ปุ่นทั้งประเทศ วิกฤตพลังงาน AI ครั้งนี้กำลังผลักดันให้เกิดนวัตกรรมด้านประสิทธิภาพพลังงาน เช่น Liquid Cooling, Nuclear Power สำหรับ Data Centers และ Energy-efficient AI Models รายงาน WEF ยังชี้ให้เห็นโอกาสสำหรับประเทศที่มีพลังงานสะอาดราคาถูก เช่น ประเทศนอร์ดิก ในการดึงดูด AI Investment
+
+--- วิกฤตพลังงาน AI จะกลายเป็นข้อจำกัดสำคัญในการพัฒนา AI ระดับโลก และอาจเปิดโอกาสให้ประเทศที่มีพลังงานสะอาดราคาถูกดึงดูด Data Center Investment พัฒนา Energy-efficient AI Models โดยใช้ Model Compression, Quantization และ Pruning ศึกษา Green AI Frameworks และ Carbon-aware Computing สำหรับการออกแบบระบบ AI บริษัทที่วางแผนลงทุน AI Infrastructure ควรพิจารณาแหล่งพลังงานหมุนเวียน ภาครัฐไทยควรวางแผน Energy Policy ที่รองรับความต้องการพลังงาน AI Data Centers ความสำคัญ: high — เกี่ยวข้องกับ AI Infrastructure, Energy, Data Center</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">AI Infrastructure</span><span class="tag">Energy</span><span class="tag">Data Center</span><span class="tag">WEF</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> วิกฤตพลังงาน AI จะกลายเป็นข้อจำกัดสำคัญในการพัฒนา AI ระดับโลก และอาจเปิดโอกาสให้ประเทศที่มีพลังงานสะอาดราคาถูกดึงดูด Data Center Investment</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>พัฒนา Energy-efficient AI Models โดยใช้ Model Compression, Quantization และ Pruning</li><li>ศึกษา Green AI Frameworks และ Carbon-aware Computing สำหรับการออกแบบระบบ AI</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>บริษัทที่วางแผนลงทุน AI Infrastructure ควรพิจารณาแหล่งพลังงานหมุนเวียน</li><li>ภาครัฐไทยควรวางแผน Energy Policy ที่รองรับความต้องการพลังงาน AI Data Centers</li></ul></div>
+    <div class="card-footer">
+      <a href="https://techsauce.co/ai/ai-energy-crisis-wef-2026" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-23</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-global">
+  <div class="card-header">
+    <span class="source-badge">Techsauce</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    
+  </div>
+  <h3 class="card-title">จีนยกเลิกหลักสูตรมหาลัยทิ้งกว่า 12,000 หลักสูตร แทนที่ด้วยวิชา AI, หุ่นยนต์กว่า 10,000 หลักสูตร</h3>
+  <p class="card-title-th">จีนยกเลิกหลักสูตรมหาลัยทิ้งกว่า 12,000 หลักสูตร แทนที่ด้วยวิชา AI, หุ่นยนต์กว่า 10,000 หลักสูตร</p>
+  <p class="card-content">รัฐบาลจีนประกาศการปฏิรูปการศึกษาระดับมหาวิทยาลัยครั้งประวัติศาสตร์ โดยยกเลิกหลักสูตรที่ล้าสมัยกว่า 12,000 หลักสูตร และนำหลักสูตรใหม่ด้าน AI และหุ่นยนต์เข้ามาแทนกว่า 10,000 หลักสูตร ซึ่งเป็นส่วนหนึ่งของยุทธศาสตร์ชาติระยะยาวในการสร้างกำลังแรงงานที่พร้อมรับยุค AI อย่างเต็มรูปแบบ การเคลื่อนไหวนี้สะท้อนให้เห็นความตั้งใจของจีนในการแข่งขันด้าน AI กับสหรัฐอเมริกาในระดับ National Talent Strategy โดยเน้นสร้าง AI Engineers และ Robotics Specialists จำนวนมหาศาลตั้งแต่ระดับปริญญาตรี ผลกระทบต่อตลาดโลกคาดว่าจะรู้สึกได้ภายใน 5-10 ปีเมื่อแรงงานรุ่นใหม่เหล่านี้เข้าสู่ตลาด อาจเปลี่ยนสมดุลอำนาจด้าน AI Research และ Development ของโลก
+
+--- การปฏิรูปการศึกษาด้าน AI ของจีนในระดับนี้จะสร้าง AI Talent Pool ขนาดใหญ่ที่อาจเปลี่ยนแปลงดุลยภาพการแข่งขัน AI ระดับโลกในอีก 5-10 ปี ติดตาม Open Source AI Projects จากมหาวิทยาลัยจีนที่จะเพิ่มจำนวนอย่างรวดเร็ว พิจารณาเรียนหลักสูตร AI ที่จีนนำเสนอผ่านแพลตฟอร์มออนไลน์เพื่อเสริมทักษะ ไทยควรเร่งทบทวนหลักสูตรการศึกษาด้าน STEM และ AI ให้ทันสมัย บริษัทเทคโนโลยีควรวางแผน Partnership กับมหาวิทยาลัยไทยเพื่อร่วมสร้าง Talent Pipeline สำหรับ AI ความสำคัญ: medium — เกี่ยวข้องกับ AI Policy, EdTech, AI Research</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">AI Policy</span><span class="tag">EdTech</span><span class="tag">AI Research</span><span class="tag">China</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> การปฏิรูปการศึกษาด้าน AI ของจีนในระดับนี้จะสร้าง AI Talent Pool ขนาดใหญ่ที่อาจเปลี่ยนแปลงดุลยภาพการแข่งขัน AI ระดับโลกในอีก 5-10 ปี</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ติดตาม Open Source AI Projects จากมหาวิทยาลัยจีนที่จะเพิ่มจำนวนอย่างรวดเร็ว</li><li>พิจารณาเรียนหลักสูตร AI ที่จีนนำเสนอผ่านแพลตฟอร์มออนไลน์เพื่อเสริมทักษะ</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>ไทยควรเร่งทบทวนหลักสูตรการศึกษาด้าน STEM และ AI ให้ทันสมัย</li><li>บริษัทเทคโนโลยีควรวางแผน Partnership กับมหาวิทยาลัยไทยเพื่อร่วมสร้าง Talent Pipeline สำหรับ AI</li></ul></div>
+    <div class="card-footer">
+      <a href="https://techsauce.co/news/china-education-reform-ai-era-global-disruption" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-23</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-global">
+  <div class="card-header">
+    <span class="source-badge">Techsauce</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">ฟรีแลนซ์ถูกเบี้ยวค่าจ้าง ใช้ 'ทนาย AI' ทวงคืนสำเร็จ Garfield AI ชนะคดีจริงในศาลอังกฤษ</h3>
+  <p class="card-title-th">ฟรีแลนซ์ถูกเบี้ยวค่าจ้าง ใช้ 'ทนาย AI' ทวงคืนสำเร็จ Garfield AI ทนาย AI ตัวแรกที่ถูกกำกับตามกฎหมาย ชนะคดีจริงในศาลอังกฤษ</p>
+  <p class="card-content">บริษัท Garfield AI จากประเทศอังกฤษ สร้างปรากฏการณ์ครั้งประวัติศาสตร์ด้วยการนำ 'ทนายความ AI' มาเตรียมคดีและดำเนินกระบวนการทางกฎหมายตั้งแต่ต้นจนจบ โดยช่วยฟรีแลนซ์ที่ถูกนายจ้างเบี้ยวค่าจ้างทวงคืนเงินได้สำเร็จในศาลอังกฤษ ความสำคัญของเหตุการณ์นี้อยู่ที่การที่ AI ทางกฎหมายนี้ได้รับการกำกับตามกฎหมายอย่างเป็นทางการ ซึ่งต่างจาก AI ทั่วไปที่ยังอยู่ใน Gray Area เชิงกฎหมาย กรณีนี้เปิดประตูให้ประชาชนทั่วไปที่ไม่มีกำลังจ้างทนายความเข้าถึงกระบวนการยุติธรรมได้ง่ายขึ้น และอาจเป็นแม่แบบให้ประเทศอื่น ๆ รวมถึงไทยพิจารณาสร้าง Regulatory Framework สำหรับ AI ทางกฎหมาย
+
+--- AI ทางกฎหมายก้าวสู่การใช้งานจริงในระบบศาล เปิดโอกาสให้ประชาชนที่มีทรัพยากรจำกัดเข้าถึงความยุติธรรมได้มากขึ้น ศึกษา Legal AI Frameworks และ Compliance Requirements สำหรับการพัฒนา AI ในงานกฎหมาย พัฒนา LLM ที่เชี่ยวชาญด้านกฎหมายไทย (Thai Legal LLM) เพื่อรองรับตลาดที่กำลังเติบโต สำนักงานกฎหมายควรลงทุนใน AI-assisted Legal Research และ Document Review บริษัทที่มีคดีความบ่อยควรสำรวจโซลูชัน Legal AI เพื่อลดค่าใช้จ่ายทางกฎหมาย ความสำคัญ: medium — เกี่ยวข้องกับ LegalTech, LLM, AI Policy</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">LegalTech</span><span class="tag">LLM</span><span class="tag">AI Policy</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> AI ทางกฎหมายก้าวสู่การใช้งานจริงในระบบศาล เปิดโอกาสให้ประชาชนที่มีทรัพยากรจำกัดเข้าถึงความยุติธรรมได้มากขึ้น</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ศึกษา Legal AI Frameworks และ Compliance Requirements สำหรับการพัฒนา AI ในงานกฎหมาย</li><li>พัฒนา LLM ที่เชี่ยวชาญด้านกฎหมายไทย (Thai Legal LLM) เพื่อรองรับตลาดที่กำลังเติบโต</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>สำนักงานกฎหมายควรลงทุนใน AI-assisted Legal Research และ Document Review</li><li>บริษัทที่มีคดีความบ่อยควรสำรวจโซลูชัน Legal AI เพื่อลดค่าใช้จ่ายทางกฎหมาย</li></ul></div>
+    <div class="card-footer">
+      <a href="https://techsauce.co/ai/garfield-ai-wins-court-case" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-24</span>
+    </div>
+  </div>
+</div>
+
+<div class="card topic-global">
+  <div class="card-header">
+    <span class="source-badge">Techsauce</span>
+    <span class="badge" style="background:#ffaa00">MEDIUM</span>
+    <span class="breakthrough-badge">⚡ BREAKTHROUGH</span>
+  </div>
+  <h3 class="card-title">Data Center ที่ร้อนกว่าอ่างน้ำอุ่น NVIDIA กับแนวคิดระบบหล่อเย็น 45 องศา</h3>
+  <p class="card-title-th">Data Center ที่ร้อนกว่าอ่างน้ำอุ่น แต่ประหยัดทั้งน้ำและไฟ NVIDIA กับแนวคิดระบบหล่อเย็น 45 องศา</p>
+  <p class="card-content">NVIDIA เผยแนวคิดปฏิวัติวงการ Data Center สำหรับ AI Factory ด้วยระบบ Liquid Cooling ที่ใช้น้ำอุณหภูมิสูงถึง 45 องศาเซลเซียส ซึ่งตรงข้ามกับหลักการดั้งเดิมที่ต้องการน้ำเย็นเพื่อหล่อเย็น GPU ระบบใหม่นี้ใช้หลักการ 'Hot Water Cooling' ที่สามารถนำความร้อนที่เหลือไปใช้ประโยชน์ต่อได้ เช่น ทำความร้อนอาคารในเขตอากาศหนาว ส่งผลให้ประหยัดไฟฟ้าและน้ำได้อย่างมีนัยสำคัญ นวัตกรรมนี้เกิดขึ้นในบริบทของวิกฤตพลังงาน AI ที่ Data Centers ทั่วโลกกำลังเผชิญ โดย WEF คาดว่าภายใน 4 ปี AI จะใช้พลังงานเทียบเท่าญี่ปุ่นทั้งประเทศ NVIDIA Rubin Architecture เป็น Platform แรกที่รองรับ Hot Water Cooling แบบครบวงจร
+
+--- นวัตกรรม Hot Water Cooling ของ NVIDIA อาจเปลี่ยนมาตรฐานการออกแบบ Data Center ทั่วโลก ลดต้นทุนพลังงานและผลกระทบต่อสิ่งแวดล้อมของ AI Infrastructure ศึกษา NVIDIA Rubin Architecture และ Thermal Management APIs สำหรับการออกแบบระบบที่ใช้ Hot Water Cooling พิจารณา Carbon Footprint ของ AI Models ที่พัฒนาและเลือก Hardware ที่มีประสิทธิภาพพลังงานสูง Data Center ที่วางแผนสร้างใหม่ควรศึกษา Hot Water Cooling เป็น Default Design บริษัทที่ลงทุน AI Infrastructure ควรรวม Energy Efficiency KPIs เข้าไปใน ROI Calculation</p>
+  <div class="card-meta">
+    <div class="tags"><span class="tag">GPU</span><span class="tag">Data Center</span><span class="tag">AI Infrastructure</span><span class="tag">NVIDIA</span></div>
+    <div class="insights"><strong>Tech Impact:</strong> นวัตกรรม Hot Water Cooling ของ NVIDIA อาจเปลี่ยนมาตรฐานการออกแบบ Data Center ทั่วโลก ลดต้นทุนพลังงานและผลกระทบต่อสิ่งแวดล้อมของ AI Infrastructure</div>
+    <div class="actions"><strong>Dev Actions:</strong><ul><li>ศึกษา NVIDIA Rubin Architecture และ Thermal Management APIs สำหรับการออกแบบระบบที่ใช้ Hot Water Cooling</li><li>พิจารณา Carbon Footprint ของ AI Models ที่พัฒนาและเลือก Hardware ที่มีประสิทธิภาพพลังงานสูง</li></ul></div>
+    <div class="actions"><strong>Business Actions:</strong><ul><li>Data Center ที่วางแผนสร้างใหม่ควรศึกษา Hot Water Cooling เป็น Default Design</li><li>บริษัทที่ลงทุน AI Infrastructure ควรรวม Energy Efficiency KPIs เข้าไปใน ROI Calculation</li></ul></div>
+    <div class="card-footer">
+      <a href="https://techsauce.co/news/nvidia-rubin-liquid-cooling-ai-factory" target="_blank" class="source-link">🔗 Source</a>
+      <span class="pub-date">2026-06-23</span>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  AI News Pipeline v2.0 &nbsp;|&nbsp; 2026-06-29 &nbsp;|&nbsp; 33 articles &nbsp;|&nbsp; 2026-06-29T03:55:26+07:00
+</footer>
+</body>
+</html>

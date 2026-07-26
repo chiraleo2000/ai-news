@@ -1,0 +1,67 @@
+{
+  "article_id": "securing-future-ai-agents-control-roadmap-deepmind-2026-06-18",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "International",
+    "source_name": "GoogleDeepMind",
+    "registry_key": "International/GoogleDeepMind",
+    "domain": "AI-safety",
+    "main_url": "https://deepmind.google/discover/blog"
+  },
+  "source": {
+    "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "type": "direct",
+    "origin": "direct",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-23T00:20:00+07:00",
+    "fetch_mode": "truncated"
+  },
+  "meta": {
+    "published_at": "2026-06-18T14:00:00Z",
+    "scraped_at": "2026-06-23T00:20:00+07:00",
+    "run_date": "2026-06-23",
+    "target_date": "2026-06-23",
+    "within_24h": false,
+    "status": "scraped",
+    "batch": "2",
+    "category": "AI-SAFETY",
+    "category_label": "AI Safety",
+    "news_type": "บทความ",
+    "tags": ["AI-safety", "AI-agents", "AI-control", "DeepMind", "alignment", "security", "multi-agent"],
+    "language": "en"
+  },
+  "content": {
+    "title": "Securing the future of AI agents",
+    "slug": "securing-future-ai-agents-control-roadmap",
+    "summary": "Google DeepMind publishes its AI Control Roadmap — a defense-in-depth framework for securing internal systems against increasingly capable and potentially misaligned AI agents, based on analysis of one million coding agent trajectories.",
+    "summary_1": "Google DeepMind has released its AI Control Roadmap, a comprehensive framework for securing enterprise systems against advanced AI agents that may be imperfectly aligned. Going beyond model alignment alone, the roadmap treats deployed AI agents as potential 'insider threats' — similar to rogue employees — and applies a defense-in-depth approach. Built on MITRE ATT&CK, the framework uses AI supervisor agents to monitor other agents' reasoning and block harmful actions. DeepMind analyzed one million coding agent trajectories to build the system, finding most flagged behaviors stem from agent over-eagerness rather than adversarial intent. The paper also proposes scaling security protocols as model capabilities increase.",
+    "body_text": "Google DeepMind has published its AI Control Roadmap, describing how to securely manage advanced AI agents deployed within Google. The framework introduces 'defense-in-depth' for AI agents — adding system-level security on top of model alignment.\n\nCore principles:\n1. **Threat modeling:** Treat AI agents as potential insider threats using a novel framework built on MITRE ATT&CK — breaking down potential AI misuse into tactics and techniques, tracking risks, detecting bad behavior, and running drills.\n2. **Detection:** Trusted AI supervisors constantly review working agents' reasoning, actions, and plans. With 1M coding agent trajectories analyzed, the team can identify high-signal behavioral patterns beyond keyword filtering.\n3. **Prevention and Response:** Asynchronous (review transcripts with delay) for low-risk actions; synchronous real-time prevention for high-risk actions (e.g., major cyber operations).\n\nCapability scaling:\n- Detection protocols scale with models' ability to hide reasoning (oversight awareness → opaque reasoning)\n- Response protocols scale with severity of potential harm\n\nKey finding: most flagged events stem from agent misinterpretation or over-eagerness, not adversarial intent. The live Gemini Spark agent monitor was built from this research.\n\nCompanion paper: 'Three Layers of Agent Security' — covering individual agent security, multi-agent systems security, and broader ecosystem resilience — published for policymakers.\n\nThe roadmap is positioned as a potential industry model for the wider ecosystem.",
+    "language": "en",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "DeepMind's AI Control Roadmap provides the most detailed public framework yet for securing AI agent deployments — treating agents as insider threats and scaling defenses with capability.",
+    "actions_developer": [
+      "Study DeepMind's AI Control Roadmap PDF for building secure multi-agent system architectures",
+      "Implement supervisor AI agents to monitor working agents' reasoning and flag anomalies",
+      "Apply MITRE ATT&CK-based threat modeling when designing agentic systems with real-world access"
+    ],
+    "actions_business": [
+      "Enterprise AI teams: adopt defense-in-depth principles before deploying autonomous agents on critical systems",
+      "Use DeepMind's three-tier framework (individual, multi-agent, ecosystem) to assess organizational AI security posture",
+      "Engage with policymakers using the 'Three Layers of Agent Security' paper as a standards reference"
+    ],
+    "urgency": "high",
+    "related_domains": ["AI-safety", "agentic-AI", "multi-agent", "alignment", "cybersecurity"],
+    "breakthrough_potential": true
+  },
+  "paths": {
+    "relative": "International/GoogleDeepMind/2026-06-23/securing-future-ai-agents-control-roadmap",
+    "batch_file": "News/Batches/2026-06-23/batch_2.json"
+  }
+}

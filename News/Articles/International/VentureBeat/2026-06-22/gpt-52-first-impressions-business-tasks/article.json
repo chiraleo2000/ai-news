@@ -1,0 +1,79 @@
+{
+  "article_id": "c6e29a14",
+  "schema_version": "1.0",
+  "source_info": {
+    "category": "International",
+    "source_name": "VentureBeat",
+    "registry_key": "Intl/VentureBeat",
+    "domain": "AI-product",
+    "main_url": "https://venturebeat.com/category/ai"
+  },
+  "source": {
+    "url": "https://venturebeat.com/category/ai",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "medium",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-22T00:00:00Z",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-21T00:00:00Z",
+    "scraped_at": "2026-06-22T00:00:00Z",
+    "run_date": "2026-06-22",
+    "target_date": "2026-06-22",
+    "within_24h": true,
+    "status": "published",
+    "batch": "2",
+    "category": "AI-PRODUCT",
+    "category_label": "AI Products",
+    "news_type": "article",
+    "tags": [
+      "openai",
+      "gpt-5.2",
+      "reasoning",
+      "coding",
+      "business-AI",
+      "benchmark"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "GPT-5.2 first impressions: a powerful update, especially for business tasks and workflows",
+    "slug": "gpt-52-first-impressions-business-tasks",
+    "summary": "VentureBeat reports early impressions of GPT-5.2 from testers pre-seeded by OpenAI: the model is a major leap for deep autonomous reasoning and coding, but may feel incremental to casual conversational users.",
+    "summary_1": "VentureBeat published first impressions of GPT-5.2 from early testers who received pre-release access from OpenAI days or weeks before public release. The picture is mixed: testers who use GPT for deep autonomous reasoning, long-horizon coding tasks, and complex business workflows describe a 'monumental leap forward,' praising improved multi-step reasoning, fewer hallucinations in structured tasks, and stronger agentic capabilities. Casual conversational users, however, may find the differences 'incremental' given GPT-5.1 already handled everyday queries well. The divergence in impressions reflects GPT-5.2's apparent positioning as an enterprise and developer-focused model — optimized for the high-value use cases where AI ROI is highest.",
+    "body_text": "VentureBeat's coverage of GPT-5.2 early impressions draws on users pre-seeded by OpenAI with access to the model prior to public release. Key themes from early testers: (1) Reasoning and coding gains are significant — multi-step planning, code generation for complex tasks, and agentic workflow execution all show meaningful improvement over GPT-5.1. (2) Business task performance is the standout — financial analysis, document processing, structured reasoning over large datasets all received praise. (3) Casual use improvements are less dramatic — for conversational queries and simple tasks, the jump is less perceptible. (4) The model continues OpenAI's trajectory toward deeper, more autonomous task execution rather than raw conversational fluency. OpenAI has positioned GPT-5.2 as part of its enterprise push, with the model available through the API and ChatGPT's business and enterprise tiers. The release reflects the broader industry pattern of frontier model updates optimizing for professional and autonomous use cases over general consumer chat.",
+    "language": "en",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "GPT-5.2 delivers meaningful gains for autonomous reasoning, coding, and business workflow automation — enterprises and developers stand to benefit most from upgrading.",
+    "actions_developer": [
+      "Benchmark GPT-5.2 on your specific agentic and coding tasks before committing to an upgrade — gains are most pronounced in multi-step reasoning and autonomous workflows.",
+      "Review OpenAI's API pricing changes for GPT-5.2 and assess cost/performance tradeoffs against GPT-5.1 for your production workloads."
+    ],
+    "actions_business": [
+      "Prioritize GPT-5.2 evaluation for complex business workflow automation use cases where GPT-5.1 may have struggled with multi-step reasoning.",
+      "Brief internal AI champions on the differentiated capabilities — casual users may not notice improvements, but power users in finance, legal, and ops likely will."
+    ],
+    "urgency": "medium",
+    "related_domains": [
+      "AI-product",
+      "AI-business"
+    ],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "International/VentureBeat/2026-06-22/gpt-52-first-impressions-business-tasks",
+    "article_md": "article.md",
+    "article_json": "article.json"
+  }
+}

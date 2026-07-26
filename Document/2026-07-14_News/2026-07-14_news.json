@@ -1,0 +1,166 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T10:55:00+07:00",
+  "schema_version": "2.0",
+  "stats": {
+    "total": 3,
+    "by_topic": {
+      "ai_trends": 3,
+      "tech_trends": 0,
+      "thailand": 0,
+      "global": 0
+    },
+    "by_source_category": {
+      "thai": 0,
+      "international": 1,
+      "research": 2,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 0,
+      "medium": 2,
+      "low": 1
+    },
+    "breakthrough_count": 1
+  },
+  "top_insights": [
+    {
+      "title": "Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment",
+      "impact_summary": "แสดงให้เห็นแนวทางฝึก AI Agent ที่มีประสิทธิภาพเชิงตัวอย่างสูงกว่าการทำ prompt optimization และ RL แบบมาตรฐาน อาจเปลี่ยนวิธีที่ทีมพัฒนา agentic AI ฝึกโมเดลให้แก้จุดอ่อนเฉพาะจุดแทนการฝึกแบบกว้าง",
+      "urgency": "medium",
+      "related_domains": [
+        "Agentic AI",
+        "Reinforcement Learning",
+        "LLM Fine-tuning"
+      ],
+      "article_id": "b2-20260714-marktechpost-trace"
+    },
+    {
+      "title": "Statistically Undetectable Backdoors in Deep Neural Networks",
+      "impact_summary": "ชี้ให้เห็นความเสี่ยงเชิงโครงสร้างของ supply chain โมเดล AI: การตรวจสอบน้ำหนักโมเดลอย่างเดียวไม่เพียงพอต่อการยืนยันว่าโมเดลปลอดภัยจาก backdoor ที่ซ่อนไว้อย่างแนบเนียน",
+      "urgency": "medium",
+      "related_domains": [
+        "AI Safety",
+        "Cryptography",
+        "Model Security"
+      ],
+      "article_id": "b3-20260714-arxiv-backdoors"
+    }
+  ],
+  "posts": [
+    {
+      "id": "b2-20260714-marktechpost-trace",
+      "slug": "stanford-trace-agentic-training",
+      "title": "Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment",
+      "topic": "Stanford Researchers Introduce TRACE: A Capability-Targeted ",
+      "topic_group": "ai-trends",
+      "source_name": "MarkTechPost",
+      "category": "International",
+      "urgency": "medium",
+      "content": "นักวิจัยจากมหาวิทยาลัยสแตนฟอร์ดเปิดตัว TRACE (Turning Recurrent Agent failures into Capability-targeted training Environments) ระบบฝึกฝน AI Agent แบบใหม่ที่เปลี่ยนความล้มเหลวซ้ำๆ ของเอเจนต์ให้กลายเป็นสภาพแวดล้อมฝึกฝนแบบ Reinforcement Learning ที่วัดผลได้ โดยใช้กระบวนการ 4 ขั้นตอน ตั้งแต่วิเคราะห์ความสามารถที่ขาดหายแบบ contrastive สร้างสภาพแวดล้อมสังเคราะห์เฉพาะทักษะ ฝึก LoRA adapter ด้วยอัลกอริทึม GRPO และรวมเข้าด้วยกันแบบ Mixture-of-Experts ที่มีการ route ระดับ token ผลทดสอบบนโมเดล Qwen3-30B-A3B พบว่า TRACE เพิ่มคะแนน τ²-Bench ได้ +15.3 จุด และ SWE-bench Verified +15 จุด แซงหน้าเทคนิค GEPA และ SWE-RL ที่มีอยู่เดิม ที่น่าสนใจคือโมเดลขนาด 27B อย่าง Qwen3.6-27B ทำคะแนน SWE-bench Verified ได้ถึง 73.2% แซงหน้า GPT-5.2-Codex และ Claude 4.5 Sonnet บน leaderboard สาธารณะ งานนี้เผยแพร่แบบโอเพนซอร์สภายใต้สัญญาอนุญาต MIT ชี้ให้เห็นว่าการฝึกแบบเจาะจงทักษะมีประสิทธิภาพและประหยัดตัวอย่างฝึกกว่าการทำ prompt optimization ทั่วไปอย่างมีนัยสำคัญ",
+      "source_url": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/",
+      "tech_impact": "แสดงให้เห็นแนวทางฝึก AI Agent ที่มีประสิทธิภาพเชิงตัวอย่างสูงกว่าการทำ prompt optimization และ RL แบบมาตรฐาน อาจเปลี่ยนวิธีที่ทีมพัฒนา agentic AI ฝึกโมเดลให้แก้จุดอ่อนเฉพาะจุดแทนการฝึกแบบกว้าง",
+      "tags": [
+        "agentic AI",
+        "reinforcement learning",
+        "LoRA",
+        "Stanford",
+        "open source"
+      ],
+      "category_label": "MarkTechPost",
+      "published_at": "2026-07-13",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Agentic AI",
+        "Reinforcement Learning",
+        "LLM Fine-tuning"
+      ],
+      "actions_developer": [
+        "ศึกษา repo โอเพนซอร์สของ TRACE (MIT license) เพื่อทดลองวิเคราะห์ความล้มเหลวของเอเจนต์ในงานของตนเองแบบ contrastive",
+        "พิจารณาใช้แนวทาง capability-targeted LoRA + GRPO แทนการทำ RL แบบครอบคลุมทั้งหมดเมื่อ compute มีจำกัด"
+      ],
+      "actions_business": [
+        "ประเมินว่าโมเดลขนาดเล็กกว่า (เช่น 27B) ที่ผ่านการฝึกแบบเจาะจงทักษะอาจทดแทนโมเดลปิดขนาดใหญ่ในงาน coding/customer-service agent ได้อย่างคุ้มต้นทุนกว่า",
+        "ติดตามการพัฒนาเทคนิคนี้ต่อยอดในผลิตภัณฑ์ agentic AI ขององค์กร โดยเฉพาะงานที่มีอัตราความล้มเหลวซ้ำเดิมสูง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b3-20260714-arxiv-backdoors",
+      "slug": "statistically-undetectable-backdoors-dnn",
+      "title": "Statistically Undetectable Backdoors in Deep Neural Networks",
+      "topic": "Statistically Undetectable Backdoors in Deep Neural Networks",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv ML (cs.LG)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "ทีมนักวิจัย Andrej Bogdanov, Alon Rosen และ Neekon Vafa เผยแพร่งานวิจัยที่ได้รับตอบรับให้นำเสนอในงาน ICML 2026 ซึ่งแสดงให้เห็นว่าผู้ฝึกโมเดล (model trainer) ที่ประสงค์ร้ายสามารถฝัง Backdoor ลงในโครงข่ายประสาทเทียมเชิงลึกแบบ feedforward กลุ่มใหญ่ได้ โดย Backdoor เหล่านี้ตรวจจับไม่ได้ทางสถิติแม้ในสภาวะ white-box ที่ผู้ใช้เห็นน้ำหนัก (weights) ของโมเดลทั้งหมด เนื่องจากโมเดลที่ถูกฝัง Backdoor กับโมเดลที่ฝึกอย่างสุจริตมีค่าความต่างทางสถิติ (total variation distance) ใกล้เคียงกันมาก Backdoor นี้เปิดช่องให้สร้างตัวอย่างโจมตีแบบ adversarial ที่ทำให้อินพุตซึ่งต่างกันมากได้เอาต์พุตที่ใกล้เคียงกันผิดปกติ แต่หากไม่มี Backdoor การสร้างตัวอย่างโจมตีลักษณะนี้จะพิสูจน์ได้ว่าเป็นไปไม่ได้ในเวลาพหุนามภายใต้สมมติฐานเชิงรหัสลับมาตรฐาน งานวิจัยทั้งเชิงทฤษฎีและการทดลองเบื้องต้นชี้ให้เห็นความไม่สมดุลเชิงอำนาจพื้นฐานระหว่างผู้ฝึกโมเดลกับผู้ใช้งานโมเดล ซึ่งเป็นประเด็นสำคัญที่องค์กรควรตระหนักก่อนนำโมเดลจากบุคคลที่สามมาใช้งานในระบบที่มีความอ่อนไหวสูง",
+      "source_url": "https://arxiv.org/abs/2607.09532",
+      "tech_impact": "ชี้ให้เห็นความเสี่ยงเชิงโครงสร้างของ supply chain โมเดล AI: การตรวจสอบน้ำหนักโมเดลอย่างเดียวไม่เพียงพอต่อการยืนยันว่าโมเดลปลอดภัยจาก backdoor ที่ซ่อนไว้อย่างแนบเนียน",
+      "tags": [
+        "backdoor",
+        "adversarial examples",
+        "cryptography",
+        "ICML 2026",
+        "model security"
+      ],
+      "category_label": "ArXiv ML (cs.LG)",
+      "published_at": "2026-07-13",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Safety",
+        "Cryptography",
+        "Model Security"
+      ],
+      "actions_developer": [
+        "ทบทวนกระบวนการตรวจสอบโมเดลที่ดาวน์โหลดจากแหล่งภายนอก โดยไม่พึ่งพาการตรวจสอบน้ำหนักแบบ white-box เพียงอย่างเดียว",
+        "ติดตามความคืบหน้าของงานวิจัยด้าน model provenance และ cryptographic attestation เพื่อยืนยันแหล่งที่มาของการฝึกโมเดล"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงของการใช้โมเดลที่ฝึกหรือปรับแต่งโดยผู้ให้บริการภายนอกในระบบที่มีความอ่อนไหวสูง เช่น การเงินหรือความมั่นคง",
+        "พิจารณาลงทุนในกระบวนการตรวจสอบโมเดล (model audit) และนโยบาย vendor security เพิ่มเติมสำหรับโมเดล AI ที่นำมาใช้งานจริง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b3-20260714-arxiv-green-survey",
+      "slug": "survey-green-development-large-models",
+      "title": "A Survey on the Green Development of Large Models: From Resource-Efficient Architectures to Hardware-Software Co-Design",
+      "topic": "A Survey on the Green Development of Large Models: From Reso",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv ML (cs.LG)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "ทีมนักวิจัยนำโดย Linhui Xiao, Guiping Cao และคณะ เผยแพร่งานสำรวจ (survey) ฉบับใหม่ในวารสาร Chinese Journal of Electronics ปี 2026 ที่รวบรวมแนวทางการพัฒนาโมเดลขนาดใหญ่ (Large Models) อย่างยั่งยืนและเป็นมิตรต่อสิ่งแวดล้อม ครอบคลุมทั้งสถาปัตยกรรมที่ประหยัดทรัพยากร เช่น การปรับแต่ง attention operator สถาปัตยกรรมความซับซ้อนเชิงเส้น (linear-complexity) การทำ sparsification และ model merging รวมถึงกลยุทธ์การฝึกและใช้งานโมเดล เช่น data-efficient learning, parameter-efficient fine-tuning และการบีบอัดเชิงคำนวณ นอกจากด้านอัลกอริทึมแล้ว งานวิจัยยังพูดถึงฮาร์ดแวร์ AI ที่ประหยัดพลังงาน ทั้งชิป AI หลัก การจัดการหน่วยความจำ การใช้งานข้ามแพลตฟอร์ม และโครงสร้างพื้นฐานที่ยั่งยืน พร้อมยกตัวอย่างการประยุกต์ใช้ในโดเมนสำคัญ เช่น DeepSeek การตีความข้อมูลรีโมตเซนซิง และโครงสร้างพื้นฐานระดับประเทศ งานนี้เสนอแนวทางอนาคต เช่น การเรียนรู้แบบต่อเนื่อง (continual learning) และฮาร์ดแวร์ที่เน้นหน่วยความจำเป็นศูนย์กลาง เพื่อผลักดันการพัฒนา AI ขนาดใหญ่ให้ยั่งยืนและรับผิดชอบต่อสังคมมากขึ้น",
+      "source_url": "https://arxiv.org/abs/2607.09084",
+      "tech_impact": "ให้ roadmap ครบวงจรสำหรับองค์กรและนักวิจัยที่ต้องการลดต้นทุนพลังงานและการคำนวณของโมเดล AI ขนาดใหญ่ ซึ่งเป็นประเด็นสำคัญขึ้นเรื่อยๆ เมื่อการฝึกและรันโมเดลขนาดใหญ่มีต้นทุนสูงขึ้น",
+      "tags": [
+        "green AI",
+        "efficient architectures",
+        "hardware-software co-design",
+        "survey",
+        "sustainability"
+      ],
+      "category_label": "ArXiv ML (cs.LG)",
+      "published_at": "2026-07-13",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Efficient AI",
+        "AI Hardware",
+        "Sustainability"
+      ],
+      "actions_developer": [
+        "ศึกษาเทคนิคในงานสำรวจ เช่น linear-complexity architecture และ parameter-efficient fine-tuning เพื่อลดต้นทุนการฝึกและ inference ของโมเดลในทีม",
+        "ประเมินการใช้เทคนิค model sparsification/merging เพื่อลดขนาดโมเดลโดยกระทบประสิทธิภาพน้อยที่สุด"
+      ],
+      "actions_business": [
+        "ใช้ roadmap นี้ประกอบการวางแผนงบประมาณด้านโครงสร้างพื้นฐาน AI ระยะยาว โดยพิจารณาฮาร์ดแวร์ประหยัดพลังงานและกลยุทธ์ hardware-software co-design",
+        "พิจารณาความยั่งยืนด้านพลังงานเป็นเกณฑ์ในการเลือกผู้ให้บริการ AI infrastructure หรือโมเดลที่จะนำมาใช้ในองค์กร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}

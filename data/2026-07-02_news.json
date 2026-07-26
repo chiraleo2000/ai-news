@@ -1,0 +1,786 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T11:00:00+07:00",
+  "schema_version": "2.0",
+  "stats": {
+    "total": 16,
+    "by_topic": {
+      "ai_trends": 9,
+      "tech_trends": 4,
+      "thailand": 2,
+      "global": 1
+    },
+    "by_source_category": {
+      "thai": 6,
+      "international": 5,
+      "research": 4,
+      "youtube": 1
+    },
+    "urgency_breakdown": {
+      "high": 7,
+      "medium": 8,
+      "low": 1
+    },
+    "breakthrough_count": 4
+  },
+  "top_insights": [
+    {
+      "title": "เปิดตัว Claude Science รวมงานวิจัยกว่า 60 ฐานข้อมูล ให้นักวิจัยค้นหาผ่านช่องแชทเดียว Anthropic ลุยตลาดวิชาการเต็มสูบ",
+      "impact_summary": "Claude Science อาจเปลี่ยน workflow ของนักวิจัยและบริษัทยาทั่วโลก ลดเวลาในขั้นตอน Literature Review จากสัปดาห์เหลือวัน และลดต้นทุน R&D ได้อย่างมีนัยสำคัญ",
+      "urgency": "high",
+      "related_domains": [
+        "AI Research",
+        "Life Sciences",
+        "LLM",
+        "Drug Discovery"
+      ],
+      "article_id": "thai-techsauce-claude-science-20260701",
+      "breakthrough_potential": true
+    },
+    {
+      "title": "Google เปิดตัวมาตรฐานเปิด Agentic Resource Discovery ร่วมกับ 10 พันธมิตรอุตสาหกรรม เพื่อให้ AI Agents ค้นหา Tools ข้ามองค์กรได้",
+      "impact_summary": "Agentic Resource Discovery Specification จะลดต้นทุนและเวลาในการสร้าง Multi-Agent Systems ขององค์กร โดยเป็น 'common language' สำหรับ AI Agents ค้นหา capabilities",
+      "urgency": "medium",
+      "related_domains": [
+        "Agentic AI",
+        "AI Tools",
+        "Open Standards",
+        "Multi-Agent Systems"
+      ],
+      "article_id": "intl-cisco-google-agentic-resource-discovery-20260701",
+      "breakthrough_potential": true
+    },
+    {
+      "title": "MindZero: โมเดล AI วางแผนด้วย 'จินตนาการแฝง' รวม MCTS กับ LLM เพื่อการใช้เหตุผลแบบใหม่",
+      "impact_summary": "MindZero ชี้ทิศทางว่า next-gen LLM จะต้องมี built-in planning module ไม่ใช่แค่ generate text แต่ต้อง 'คิด' ก่อน ซึ่งอาจกำหนด architecture ของ AI รุ่นถัดไป",
+      "urgency": "medium",
+      "related_domains": [
+        "AI Research",
+        "Reinforcement Learning",
+        "LLM Reasoning",
+        "Planning"
+      ],
+      "article_id": "research-arxiv-mindzero-icml2026-20260701",
+      "breakthrough_potential": true
+    },
+    {
+      "title": "Logical Phase Transitions ใน LLM: งานวิจัยค้นพบว่า AI 'เปลี่ยนเกียร์' จากการจำมาเป็นการอนุมานได้",
+      "impact_summary": "ความเข้าใจ phase transitions จะช่วยนักพัฒนาออกแบบ training curricula ที่ efficient มากขึ้น และช่วยตอบคำถามว่าต้อง scale แค่ไหนถึงจะได้ genuine reasoning",
+      "urgency": "medium",
+      "related_domains": [
+        "AI Research",
+        "LLM Reasoning",
+        "Interpretability",
+        "Scaling Laws"
+      ],
+      "article_id": "research-arxiv-llm-logical-phase-transitions-20260701",
+      "breakthrough_potential": true
+    },
+    {
+      "title": "98% องค์กรไทยวางแผนใช้ AI Agents แต่มีเพียง 21% ที่พร้อมจริง — Cisco เผยช่องว่างโครงสร้างพื้นฐาน",
+      "impact_summary": "องค์กรไทยที่ไม่เร่งปรับ AI Infrastructure จะเสียโอกาสทางธุรกิจและเสี่ยงถูกโจมตีไซเบอร์ด้วย Machine Speed ภายใน 38 ชั่วโมง",
+      "urgency": "high",
+      "related_domains": [
+        "AI Agents",
+        "Cybersecurity",
+        "Network Infrastructure",
+        "Enterprise AI"
+      ],
+      "article_id": "thai-techsauce-cisco-ai-agents-20260701",
+      "breakthrough_potential": false
+    },
+    {
+      "title": "Anthropic เปิดตัว Claude Sonnet 5 โมเดล AI ที่เก่งสูสี Opus 4.8 ในราคาที่ถูกกว่า",
+      "impact_summary": "Claude Sonnet 5 ทำให้ Agentic AI เข้าถึงได้ในต้นทุนที่ต่ำลง เปิดโอกาสให้ธุรกิจขนาดกลาง-เล็กนำ AI Agent มาใช้ใน Production ได้จริงโดยไม่ต้องเสียค่าใช้จ่ายสูงเท่า Opus",
+      "urgency": "high",
+      "related_domains": [
+        "LLM",
+        "Agentic AI",
+        "AI-product"
+      ],
+      "article_id": "thai-techsauce-claude-sonnet5-20260701",
+      "breakthrough_potential": false
+    },
+    {
+      "title": "รมว.ดีอี ดันกฎหมาย AI ไทยเดินหน้าต่อ แม้นักลงทุนเตือนอาจกระทบการลงทุน",
+      "impact_summary": "กฎหมาย AI ไทยจะสร้างกรอบกำกับดูแลที่ชัดเจน ส่งผลต่อวิธีที่บริษัทเทคโนโลยีและ AI ปฏิบัติงานในไทย รวมถึงข้อกำหนดด้าน labeling และ high-risk AI systems",
+      "urgency": "high",
+      "related_domains": [
+        "AI Policy",
+        "Regulation",
+        "Thailand",
+        "AI Governance"
+      ],
+      "article_id": "thai-thaiexaminer-ai-law-20260701",
+      "breakthrough_potential": false
+    },
+    {
+      "title": "Anthropic เปิดตัว Claude Sonnet 5 โมเดล Agentic AI ราคาประหยัดสำหรับองค์กร",
+      "impact_summary": "Claude Sonnet 5 ทำให้ AI Agents ราคาถูกลงอีกขั้น เปิดโอกาสให้ธุรกิจทุกขนาดนำ Agentic AI มาใช้ใน Production ได้จริงในช่วง H2 2026",
+      "urgency": "high",
+      "related_domains": [
+        "LLM",
+        "Agentic AI",
+        "AI-product",
+        "Enterprise AI"
+      ],
+      "article_id": "intl-techcrunch-claude-sonnet5-launch-20260630",
+      "breakthrough_potential": false
+    },
+    {
+      "title": "OpenAI เปิดตัว GPT-5.6 Preview มาพร้อม 3 โมเดลใหม่ ชูจุดแข็ง 'ปลอดภัยที่สุดเท่าที่เคยมีมา'",
+      "impact_summary": "การแข่งขัน Safety ระหว่าง OpenAI, Anthropic และ Google จะกำหนดมาตรฐาน Enterprise AI ในปี 2026-2027 บริษัทที่เน้น Safety จะได้เปรียบในตลาดที่มีการกำกับดูแลเข้มงวด",
+      "urgency": "high",
+      "related_domains": [
+        "LLM",
+        "AI Safety",
+        "AI-product",
+        "Enterprise AI"
+      ],
+      "article_id": "intl-openai-gpt56-anthropic-arms-race-20260701",
+      "breakthrough_potential": false
+    },
+    {
+      "title": "Adaptive Information Control: วิธีใหม่ให้ AI ควบคุมว่าควรค้นหาข้อมูลเพิ่มหรือหยุดแค่ความรู้เดิม",
+      "impact_summary": "Adaptive retrieval จะเป็น standard ใน production RAG systems ปี 2026-2027 ลด latency, cost และ hallucination พร้อมกัน enterprise ที่ implement ก่อนจะได้เปรียบ",
+      "urgency": "high",
+      "related_domains": [
+        "AI Research",
+        "RAG",
+        "Agentic AI",
+        "Enterprise AI"
+      ],
+      "article_id": "research-arxiv-adaptive-info-control-search-llm-20260701",
+      "breakthrough_potential": false
+    }
+  ],
+  "posts": [
+    {
+      "id": "thai-techsauce-cisco-ai-agents-20260701",
+      "slug": "cisco-ai-agents-thai-org-readiness-infrastructure",
+      "title": "98% องค์กรไทยวางแผนใช้ AI Agents แต่มีเพียง 21% ที่พร้อมจริง — Cisco เผยช่องว่างโครงสร้างพื้นฐาน",
+      "topic": "AI เพื่อธุรกิจ",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "ข้อมูลจาก Cisco ในงาน Cisco Connect Thailand 2026 เผยให้เห็นความเป็นจริงที่น่าตกใจขององค์กรไทย: แม้ 98% มีแผนนำ AI Agents มาใช้งานภายในปีหน้า แต่มีเพียง 21% เท่านั้นที่มีความพร้อมด้าน AI อย่างเต็มรูปแบบ — สูงกว่าค่าเฉลี่ย APJC ที่ 13% แต่ยังห่างไกลจากเป้าหมาย Ben Dawson ประธาน Cisco APJC ชี้ว่าองค์กรไทยกำลังเผชิญ \"AI Infrastructure Debt\" ซึ่งเกิดจากการสะสมความไม่พร้อมด้านเครือข่าย การประมวลผล ข้อมูล และความปลอดภัย โดย 52% ขององค์กรไทยเสี่ยงสูญเสียมูลค่าทางธุรกิจจากปัญหานี้ ที่น่ากังวลยิ่งกว่าคือระยะเวลาโจมตีจากช่องโหว่ที่ลดลงจาก 2.3 ปีในปี 2018 เหลือเพียง 38 ชั่วโมงในปี 2026 Cisco แนะแนวทางรับมือด้วยการฝัง Security เข้าไปใน Network โดยตรง ไม่ใช่เพิ่มทีหลัง และเปิดตัว 3 โซลูชัน: Cisco IQ, Cisco Cloud Control และ Live Protect เพื่อช่วยองค์กรขยาย AI ได้อย่างปลอดภัย",
+      "source_url": "https://techsauce.co/ai/cisco-ai-agents-security-network-infrastructure-thailand",
+      "tech_impact": "องค์กรไทยที่ไม่เร่งปรับ AI Infrastructure จะเสียโอกาสทางธุรกิจและเสี่ยงถูกโจมตีไซเบอร์ด้วย Machine Speed ภายใน 38 ชั่วโมง",
+      "tags": [
+        "cisco",
+        "ai-agents",
+        "cybersecurity",
+        "infrastructure",
+        "thailand"
+      ],
+      "category_label": "AI เพื่อธุรกิจ",
+      "published_at": "2026-07-01T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Agents",
+        "Cybersecurity",
+        "Network Infrastructure",
+        "Enterprise AI"
+      ],
+      "actions_developer": [
+        "ตรวจสอบว่า Network Architecture ปัจจุบันรองรับ AI Agent traffic patterns ที่ไม่สม่ำเสมอได้หรือไม่ โดยเฉพาะ latency และ throughput ใน multi-agent workflows",
+        "เริ่มฝัง Security controls เข้าไปใน Network layer ตั้งแต่ออกแบบระบบ แทนการ bolt-on ภายหลัง และทดสอบ automated threat response ด้วย Machine Speed"
+      ],
+      "actions_business": [
+        "ประเมิน AI Infrastructure Debt ขององค์กรโดยตรวจสอบ 5 ด้าน: Compute, Network, Data, Talent, Security เพื่อระบุ bottleneck ที่จะขัดขวาง AI Agents rollout",
+        "จัดสรรงบประมาณ AI Infrastructure ไม่น้อยกว่า 30% ของ AI budget ทั้งหมด เพราะโครงสร้างพื้นฐานที่ไม่พร้อมจะทำให้ ROI ของ AI ลดลงอย่างมีนัยสำคัญ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "thai-techsauce-notebooklm-tiktok-20260701",
+      "slug": "notebooklm-ai-video-shorts-tiktok",
+      "title": "NotebookLM อัปเดตใหม่ เสกข้อมูลเป็นคลิปสไตล์ TikTok ความยาว 1 นาที",
+      "topic": "เครื่องมือ AI",
+      "topic_group": "tech-trends",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Google ได้เพิ่มฟีเจอร์ใหม่ใน NotebookLM ที่ช่วยให้ผู้ใช้สามารถแปลงเอกสาร งานวิจัย หรือข้อมูลที่ป้อนเข้าไปให้กลายเป็นคลิปวิดีโอสั้นสไตล์ TikTok ความยาว 1 นาทีได้อัตโนมัติ ฟีเจอร์นี้ต่อยอดจากความสามารถสรุปเอกสารที่ NotebookLM มีอยู่เดิม โดยเพิ่มมิติของ Visual Storytelling เข้ามา ทำให้การนำเสนองานวิจัยหรือข้อมูลซับซ้อนสามารถทำให้เข้าใจง่ายขึ้นในรูปแบบที่คนรุ่นใหม่คุ้นเคย การพัฒนาครั้งนี้สะท้อนให้เห็นทิศทางของ Google ที่ต้องการผสาน AI เข้ากับ Content Creation และทำให้เครื่องมือวิจัยเข้าถึงได้ง่ายขึ้นสำหรับผู้ใช้ทั่วไป ไม่ใช่เฉพาะนักวิชาการ นักการตลาด นักเรียน และนักสื่อสารองค์กรสามารถใช้ฟีเจอร์นี้เพื่อสร้างสรุปเนื้อหาสำหรับ Social Media ได้รวดเร็วโดยไม่ต้องตัดต่อวิดีโอเอง ถือเป็นก้าวสำคัญของ AI ที่เริ่มลดช่องว่างระหว่างการวิจัยและการสื่อสารสาธารณะ",
+      "source_url": "https://techsauce.co/ai/notebooklm-ai-video-shorts",
+      "tech_impact": "ฟีเจอร์ใหม่ของ NotebookLM ทำให้ขั้นตอนจาก 'อ่านเอกสาร' สู่ 'วิดีโอสรุป' ย่นเหลือเพียงคลิกเดียว เปลี่ยน workflow ของนักการตลาด นักวิชาการ และผู้สื่อสารองค์กรโดยสิ้นเชิง",
+      "tags": [
+        "google",
+        "notebooklm",
+        "ai-video",
+        "tiktok",
+        "content-creation"
+      ],
+      "category_label": "เครื่องมือ AI",
+      "published_at": "2026-07-01T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Tools",
+        "Content Creation",
+        "Video AI",
+        "LLM"
+      ],
+      "actions_developer": [
+        "ทดสอบ NotebookLM Video Shorts API ถ้ามีเปิดใช้งาน เพื่อ integrate เข้ากับ workflow การสร้าง Social Content อัตโนมัติ",
+        "ศึกษาวิธี prompt engineering สำหรับการควบคุม tone, style และ key messages ของวิดีโอที่ AI สร้างขึ้น"
+      ],
+      "actions_business": [
+        "นำ NotebookLM มาใช้ในฝ่าย Marketing และ Communications เพื่อเพิ่มความเร็วในการสร้าง Educational Content จาก Whitepaper หรือรายงานภายในองค์กร",
+        "พัฒนา Content Pipeline ที่ใช้ AI แปลงเอกสารวิชาการ/รายงานประจำปีให้เป็นวิดีโอสรุปสำหรับ Social Media เพื่อเพิ่ม Engagement"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "thai-techsauce-claude-sonnet5-20260701",
+      "slug": "anthropic-claude-sonnet-5-agentic-ai-cheaper",
+      "title": "Anthropic เปิดตัว Claude Sonnet 5 โมเดล AI ที่เก่งสูสี Opus 4.8 ในราคาที่ถูกกว่า",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "ai-trends",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Anthropic เปิดตัว Claude Sonnet 5 โมเดล LLM รุ่นใหม่ที่ถูกออกแบบมาสำหรับงาน Agentic AI โดยเฉพาะ สามารถวางแผน ใช้เบราว์เซอร์ ใช้ Terminal และเลือกใช้เครื่องมือต่าง ๆ ได้อัตโนมัติ ความสามารถด้าน Agentic Coding ทำได้ 63.2% เทียบกับ Sonnet 4.6 ที่ 58.1% และตามหลัง Opus 4.8 ที่ 69.2% ราคาช่วงเปิดตัว (ถึง 31 ส.ค.) อยู่ที่ $2 ต่อล้าน Input Tokens และ $10 ต่อล้าน Output Tokens ก่อนปรับเป็น $3/$15 ซึ่งยังถูกกว่า Opus 4.8, GPT-5.5 และ Gemini 3.1 Pro การเปิดตัวครั้งนี้ชี้ให้เห็นว่าการแข่งขัน AI กำลังเปลี่ยนจากการแข่งขัน 'ความฉลาด' ไปสู่ 'ความคุ้มค่าและใช้งานได้จริง' ในระดับองค์กร นักพัฒนาและธุรกิจที่ใช้ Claude API จะได้ประโยชน์จากประสิทธิภาพสูงในราคาที่เข้าถึงได้มากขึ้น",
+      "source_url": "https://techsauce.co/ai/anthropic-claude-sonnet-5",
+      "tech_impact": "Claude Sonnet 5 ทำให้ Agentic AI เข้าถึงได้ในต้นทุนที่ต่ำลง เปิดโอกาสให้ธุรกิจขนาดกลาง-เล็กนำ AI Agent มาใช้ใน Production ได้จริงโดยไม่ต้องเสียค่าใช้จ่ายสูงเท่า Opus",
+      "tags": [
+        "anthropic",
+        "claude",
+        "claude-sonnet-5",
+        "llm",
+        "agentic-ai"
+      ],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-07-01T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "Agentic AI",
+        "AI-product"
+      ],
+      "actions_developer": [
+        "ทดสอบ Claude Sonnet 5 บน benchmark งานที่ใช้อยู่ โดยเฉพาะ Agentic Coding และ Tool Use เพื่อประเมินว่าคุ้มค่ากว่า Opus 4.8 หรือ GPT-5.5 ในงานเฉพาะทางหรือไม่",
+        "ใช้ช่วงโปรโมชัน (ราคา $2/$10 ถึง 31 ส.ค.) เพื่อ migrate workloads จาก Opus มาทดสอบ และวัด quality degradation ก่อนตัดสินใจ"
+      ],
+      "actions_business": [
+        "ประเมิน use cases ที่ใช้ Claude Opus 4.8 อยู่ว่า Sonnet 5 ทดแทนได้หรือไม่ โดยเฉพาะงาน Customer Service Automation และ Document Analysis ที่ไม่ต้องการความแม่นยำสูงสุด",
+        "วางแผน AI Agent Pilot ที่ใช้ Claude Sonnet 5 เป็น backbone สำหรับ Q3 2026 เพื่อทดสอบ end-to-end workflow automation ก่อน scale ขึ้น production"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "thai-techsauce-claude-science-20260701",
+      "slug": "anthropic-claude-science-60-databases-research-pharma",
+      "title": "เปิดตัว Claude Science รวมงานวิจัยกว่า 60 ฐานข้อมูล ให้นักวิจัยค้นหาผ่านช่องแชทเดียว Anthropic ลุยตลาดวิชาการเต็มสูบ",
+      "topic": "AI วิจัย",
+      "topic_group": "ai-trends",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Anthropic เปิดตัว Claude Science ผู้ช่วย AI สำหรับนักวิจัยที่รวมฐานข้อมูลงานวิจัยกว่า 60 แหล่งไว้ในที่เดียว ผู้ใช้สามารถค้นหา สอบถาม และวิเคราะห์ข้อมูลวิจัยได้ผ่านภาษาธรรมชาติในช่องแชทเดียวโดยไม่ต้องสลับระหว่างหลายแพลตฟอร์ม การเปิดตัวครั้งนี้ถือเป็นการประกาศเข้าสู่ตลาดวิชาการและการแพทย์ของ Anthropic อย่างจริงจัง โดยเฉพาะตลาดยาและ Life Sciences ที่ต้องการสังเคราะห์ข้อมูลงานวิจัยจำนวนมาก Claude Science ถูกออกแบบให้ช่วยเร่งกระบวนการ Discovery ของนักวิทยาศาสตร์ ลดเวลาค้นหาข้อมูลจากหลายชั่วโมงเหลือนาที และช่วยระบุ Research Gap ได้อย่างมีประสิทธิภาพ นับเป็น use case ของ AI ที่มีผลกระทบสูงต่อสังคมและมีโอกาสเชิงธุรกิจขนาดใหญ่ในตลาด Research Software ที่มีมูลค่าหลายแสนล้านบาท",
+      "source_url": "https://techsauce.co/ai/anthropic-launches-claude-science",
+      "tech_impact": "Claude Science อาจเปลี่ยน workflow ของนักวิจัยและบริษัทยาทั่วโลก ลดเวลาในขั้นตอน Literature Review จากสัปดาห์เหลือวัน และลดต้นทุน R&D ได้อย่างมีนัยสำคัญ",
+      "tags": [
+        "anthropic",
+        "claude-science",
+        "research-ai",
+        "database",
+        "pharmaceutical"
+      ],
+      "category_label": "AI วิจัย",
+      "published_at": "2026-07-01T00:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI Research",
+        "Life Sciences",
+        "LLM",
+        "Drug Discovery"
+      ],
+      "actions_developer": [
+        "ศึกษา Claude Science API (ถ้ามีเปิดใช้) เพื่อสร้าง Research Assistant Tool สำหรับองค์กรที่ต้องการ custom knowledge base เพิ่มเติมจาก 60 databases ที่มี",
+        "ทดสอบ Claude Science บนงาน Scientific Literature Review และเปรียบเทียบความแม่นยำกับ PubMed Search + manual analysis"
+      ],
+      "actions_business": [
+        "หน่วยงานวิจัยและบริษัทยาในไทยควรเริ่มทดลองใช้ Claude Science เพื่อเร่ง Drug Discovery และ Clinical Research โดยเฉพาะการค้นหา precedents และ safety data",
+        "มหาวิทยาลัยและสถาบันวิจัยควรพิจารณา enterprise license ของ Claude Science เพื่อเพิ่มประสิทธิภาพนักวิจัยและลดต้นทุนการเข้าถึง academic databases"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "thai-beartai-korea-chip-ai-hub-20260701",
+      "slug": "south-korea-20-trillion-baht-chip-ai-hub",
+      "title": "เกาหลีใต้เตรียมทุ่ม 20 ล้านล้านบาท สร้างศูนย์กลางชิปและ AI แห่งใหม่",
+      "topic": "AI เพื่อธุรกิจ",
+      "topic_group": "global",
+      "source_name": "Beartai",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "รัฐบาลเกาหลีใต้ภายใต้การนำของประธานาธิบดีลี แจมยอง เตรียมประกาศแผนขับเคลื่อนเศรษฐกิจครั้งใหญ่ผ่าน '3 อภิมหาโปรเจกต์' ครอบคลุมอุตสาหกรรมเซมิคอนดักเตอร์ AI Data Centers และหุ่นยนต์อัจฉริยะ โดยมีแผนสร้างนิคมอุตสาหกรรมชิปแห่งใหม่ในเมืองกวางจูและจังหวัดจอลลาใต้ ซึ่งคาดว่าจะดึงดูดการลงทุนจาก Samsung และ SK Hynix รวมกว่า 1,000 ล้านล้านวอน หรือประมาณ 21.39 ล้านล้านบาท แผนนี้มีเป้าหมายกระจายความเจริญออกจากกรุงโซลไปสู่ภูมิภาค อย่างไรก็ตามถูกวิจารณ์จากฝ่ายค้านว่าเป็นการเอื้อประโยชน์ต่อฐานเสียง เนื่องจากภูมิภาคดังกล่าวให้คะแนนเสียงแก่ประธานาธิบดีสูงถึง 85% ในการเลือกตั้งที่ผ่านมา การลงทุนครั้งนี้สะท้อนการแข่งขันด้าน AI Infrastructure ระดับประเทศที่เข้มข้นขึ้น ตามรอยสหรัฐฯ จีน และสหภาพยุโรปที่ต่างทุ่มลงทุนโครงสร้างพื้นฐาน AI ล่วงหน้า",
+      "source_url": "https://www.beartai.com/read/1502607/",
+      "tech_impact": "การลงทุน AI Infrastructure ระดับชาติของเกาหลีใต้จะเพิ่มกำลังการผลิต HBM Memory และ GPU สำหรับ AI ทำให้ supply ชิป AI ในตลาดโลกเพิ่มขึ้นในอีก 3-5 ปีข้างหน้า",
+      "tags": [
+        "south-korea",
+        "semiconductor",
+        "ai-data-center",
+        "samsung",
+        "sk-hynix",
+        "investment"
+      ],
+      "category_label": "AI เพื่อธุรกิจ",
+      "published_at": "2026-06-30T23:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Semiconductor",
+        "AI Infrastructure",
+        "AI-business",
+        "Geopolitics"
+      ],
+      "actions_developer": [
+        "ติดตามความคืบหน้า nK-Chips Act และ Samsung/SK Hynix roadmap สำหรับ HBM4 และ HBM4E ที่จะผลิตจากนิคมใหม่ เพื่อวางแผนการใช้ hardware ในระยะยาว",
+        "ประเมินผลกระทบต่อราคา AI Compute cloud ในเอเชีย เมื่อกำลังการผลิตชิปเพิ่มขึ้น ราคา inference อาจลดลงได้ในระยะ 2-3 ปี"
+      ],
+      "actions_business": [
+        "ติดตาม tender และ partnership opportunities ที่อาจเกิดจากโครงการนี้ โดยเฉพาะด้าน AI Software, System Integration และ Data Center Management ในเกาหลีใต้",
+        "พิจารณาความร่วมมือกับบริษัท Korean Tech ที่จะได้ประโยชน์จากการลงทุนครั้งนี้ เพื่อ position ตนเองในห่วงโซ่คุณค่า AI Hardware ของเอเชีย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "thai-thaiexaminer-ai-law-20260701",
+      "slug": "thailand-ai-law-digital-economy-minister-investment-reaction",
+      "title": "รมว.ดีอี ดันกฎหมาย AI ไทยเดินหน้าต่อ แม้นักลงทุนเตือนอาจกระทบการลงทุน",
+      "topic": "นโยบาย AI",
+      "topic_group": "thailand",
+      "source_name": "Thai Examiner / Bangkok Post",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "ในช่วง AI Governance Week 2026 (29 มิถุนายน - 3 กรกฎาคม) รัฐมนตรีกระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม นายชัยชาณัก ชิดชอบ ยืนยันว่าไทยจะดำเนินการผลักดัน พ.ร.บ. AI ให้สำเร็จในปีงบประมาณนี้ กฎหมายนี้จะครอบคลุมเรื่องธรรมาภิบาล AI ลิขสิทธิ์ การติดฉลาก AI และระบบ AI ความเสี่ยงสูง แม้จะมีเสียงเตือนจากวงการนักลงทุนว่ากฎหมายที่เข้มงวดเกินไปอาจทำให้บริษัทเทคโนโลยีต่างชาติลังเลที่จะลงทุนในไทย ขณะเดียวกัน ผลสำรวจชี้ว่าไทยอยู่อันดับ 2 จาก 40 ประเทศด้านการยอมรับ AI ในสังคม และ 74% ของผู้บริโภคไทยเชื่อว่า AI มีประโยชน์มากกว่าโทษ การผ่านกฎหมาย AI จะทำให้ไทยเป็นหนึ่งในประเทศอาเซียนแรก ๆ ที่มีกรอบกฎหมาย AI อย่างเป็นทางการ",
+      "source_url": "https://www.thaiexaminer.com/thai-news-foreigners/2026/07/01/digital-economy-minister-presses-ahead-with-ai-law-even-with-warnings-of-adverse-investment-reaction/",
+      "tech_impact": "กฎหมาย AI ไทยจะสร้างกรอบกำกับดูแลที่ชัดเจน ส่งผลต่อวิธีที่บริษัทเทคโนโลยีและ AI ปฏิบัติงานในไทย รวมถึงข้อกำหนดด้าน labeling และ high-risk AI systems",
+      "tags": [
+        "thailand-ai-law",
+        "digital-economy",
+        "ai-governance",
+        "regulation",
+        "depa"
+      ],
+      "category_label": "นโยบาย AI",
+      "published_at": "2026-07-01T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Policy",
+        "Regulation",
+        "Thailand",
+        "AI Governance"
+      ],
+      "actions_developer": [
+        "ติดตามร่าง พ.ร.บ. AI ไทย โดยเฉพาะนิยาม 'high-risk AI systems' และข้อกำหนดด้าน documentation และ audit trail ที่อาจต้องปรับ product ให้สอดคล้อง",
+        "เตรียม AI labeling system และ transparency documentation สำหรับผลิตภัณฑ์ที่ทำงานในไทย เพื่อรองรับข้อกำหนดของกฎหมายที่กำลังจะประกาศใช้"
+      ],
+      "actions_business": [
+        "ติดตาม public consultation ของร่าง พ.ร.บ. AI ไทย และมีส่วนร่วมในการแสดงความเห็นเพื่อให้กฎหมายสนับสนุนนวัตกรรมและไม่สร้างภาระเกินควร",
+        "ประเมิน compliance cost ล่วงหน้าสำหรับธุรกิจที่ใช้ AI ในไทย โดยเฉพาะด้าน Financial Services, Healthcare และ e-Commerce ที่มีแนวโน้มอยู่ในประเภท high-risk"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "intl-techcrunch-claude-sonnet5-launch-20260630",
+      "slug": "anthropic-claude-sonnet-5-cheaper-agents-techcrunch",
+      "title": "Anthropic เปิดตัว Claude Sonnet 5 โมเดล Agentic AI ราคาประหยัดสำหรับองค์กร",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "ai-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "high",
+      "content": "Anthropic ประกาศเปิดตัว Claude Sonnet 5 โมเดล LLM รุ่นใหม่ที่ถูกออกแบบมาเพื่อ Agentic Workflows โดยเฉพาะ ด้วยราคาเพียง $2 ต่อล้าน Input Tokens และ $10 ต่อล้าน Output Tokens ในช่วงโปรโมชัน (ถึง 31 ส.ค.) โมเดลสามารถวางแผนงาน ใช้เบราว์เซอร์ Terminal และ external tools ได้อัตโนมัติโดยไม่ต้องรอคำสั่งทุกขั้นตอน ผลทดสอบ Agentic Coding ได้ 63.2% เพิ่มจาก Sonnet 4.6 ที่ 58.1% และในบางด้านทำได้สูสีกับ Opus 4.8 ที่ 69.2% ราคาหลังโปรโมชันจะปรับเป็น $3/$15 ซึ่งยังคุ้มค่ากว่าคู่แข่งหลายราย Anthropic ระบุว่า Sonnet 5 มีการปรับปรุงด้านความปลอดภัย ลด hallucination และปรับปรุงความสามารถรับมือ Prompt Injection ได้ดีขึ้น การเปิดตัวครั้งนี้สะท้อนสมรภูมิ AI ที่เปลี่ยนจาก 'ฉลาดที่สุด' ไปสู่ 'คุ้มค่าและปลอดภัยที่สุด'",
+      "source_url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+      "tech_impact": "Claude Sonnet 5 ทำให้ AI Agents ราคาถูกลงอีกขั้น เปิดโอกาสให้ธุรกิจทุกขนาดนำ Agentic AI มาใช้ใน Production ได้จริงในช่วง H2 2026",
+      "tags": [
+        "anthropic",
+        "claude-sonnet-5",
+        "agentic-ai",
+        "llm",
+        "pricing"
+      ],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-06-30T13:00:00-07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "Agentic AI",
+        "AI-product",
+        "Enterprise AI"
+      ],
+      "actions_developer": [
+        "ทดสอบ Claude Sonnet 5 ด้วย SWE-bench, GAIA และ benchmark งาน Agentic ของทีม เพื่อเปรียบเทียบ cost-per-task กับ Opus 4.8 และ GPT-5.5",
+        "ออกแบบ Agent Architecture ที่ใช้ Sonnet 5 สำหรับ routine tasks และ escalate ไปยัง Opus 4.8 เฉพาะงานที่ต้องการ precision สูง เพื่อลดต้นทุนรวม"
+      ],
+      "actions_business": [
+        "ทบทวน AI budget ของ Q3-Q4 2026 เพื่อใช้ประโยชน์จากราคาโปรโมชันของ Sonnet 5 ในช่วงถึง 31 ส.ค. สำหรับ pilot projects ที่ต้องการ Agentic AI",
+        "กำหนด use case priority สำหรับ Agentic AI ในองค์กรให้ชัดเจน เช่น customer support automation, code review, data analysis เพื่อ maximize ROI จาก Claude Sonnet 5"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "intl-techcrunch-ford-ai-engineers-20260628",
+      "slug": "ford-rehires-veteran-engineers-ai-quality-failure",
+      "title": "Ford จ้างวิศวกรอาวุโสกลับมาหลัง AI ตรวจสอบคุณภาพล้มเหลว ประหยัด $1B ต่อปี",
+      "topic": "AI เพื่อธุรกิจ",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Ford Motor Company ยอมรับว่าการพึ่งพา AI และระบบอัตโนมัติในการตรวจสอบคุณภาพการผลิตรถยนต์ทำให้ผลลัพธ์ไม่เป็นที่พอใจ บริษัทจึงตัดสินใจจ้างวิศวกรอาวุโสหรือ 'Gray Beard Engineers' กลับมา 350 คน ทั้งอดีตพนักงานและผู้เชี่ยวชาญจากซัพพลายเออร์ COO Kumar Galhotra กล่าวว่า 'เราพึ่งพาระบบ automated quality มากขึ้นเรื่อย ๆ แต่ได้ผลลัพธ์ที่น่าผิดหวัง' ขณะที่ VP of Hardware Engineering Charles Poon ยอมรับว่า 'เราเข้าใจผิดว่าเพียงแค่นำ AI เข้ามาและป้อน design requirements ก็จะสร้างผลิตภัณฑ์คุณภาพสูงได้' วิศวกรเหล่านี้ถูกใช้เพื่อฝึกพนักงานรุ่นใหม่และปรับปรุง AI tools โดยผลลัพธ์คือ Ford คาดว่าจะประหยัดต้นทุนได้ถึง $1 พันล้านในปีนี้ และคว้าอันดับ 1 ในกลุ่ม mainstream brands จาก JD Power Initial Quality Survey",
+      "source_url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "tech_impact": "กรณี Ford แสดงให้เห็นว่า AI ยังไม่สามารถทดแทนความเชี่ยวชาญเฉพาะทางของมนุษย์ได้ทั้งหมด โมเดล Human-AI Collaboration จะเป็นมาตรฐานใหม่ในอุตสาหกรรม Manufacturing",
+      "tags": [
+        "ford",
+        "ai-limitations",
+        "manufacturing",
+        "quality-control",
+        "human-ai-hybrid"
+      ],
+      "category_label": "AI เพื่อธุรกิจ",
+      "published_at": "2026-06-28T19:05:39+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Manufacturing AI",
+        "AI Limitations",
+        "Human-AI Collaboration",
+        "Quality Control"
+      ],
+      "actions_developer": [
+        "ออกแบบ AI QC systems ให้มี 'human-in-the-loop' สำหรับจุดวิกฤต โดยเฉพาะการตัดสินใจที่ต้องอาศัยประสบการณ์หลายทศวรรษที่ยังไม่มีใน training data",
+        "สร้าง feedback loop ที่ให้ผู้เชี่ยวชาญมนุษย์ review และ label cases ที่ AI ตัดสินใจผิดพลาด เพื่อ fine-tune โมเดลให้ดีขึ้นต่อเนื่อง"
+      ],
+      "actions_business": [
+        "ทบทวน AI automation strategy โดยระบุ tasks ที่ AI ทำได้ดีโดยไม่ต้องมีมนุษย์ vs. tasks ที่ต้องการ hybrid approach เพื่อหลีกเลี่ยงความผิดพลาดแบบ Ford",
+        "ลงทุนใน Knowledge Transfer Program ที่ดึงความเชี่ยวชาญจากผู้เชี่ยวชาญอาวุโสมาสร้าง training datasets และ validation protocols สำหรับ AI systems"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "intl-techcrunch-omen-ai-datacenter-cooling-20260629",
+      "slug": "omen-ai-31m-series-a-data-center-cooling-bacteria-monitoring",
+      "title": "Omen AI ระดมทุน $31M ติดตั้งเซนเซอร์ตรวจน้ำหล่อเย็น GPU แก้วิกฤตแบคทีเรียใน Data Center",
+      "topic": "AI เพื่อธุรกิจ / Infrastructure",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Omen AI สตาร์ทอัปที่ก่อตั้งในปี 2024 โดย Zach Laberge ในวัย 14 ปี เพิ่งระดมทุน Series A สำเร็จ $31 ล้านดอลลาร์ นำโดย Nava Ventures เพื่อพัฒนาเซนเซอร์ spectrometer ขนาดเล็กที่ตรวจสอบสภาพน้ำหล่อเย็ดใน Data Center แบบ Real-time ปัญหาที่ Omen AI แก้ไขคือการเกิดแบคทีเรียในระบบ liquid cooling ของ GPU rack ซึ่งเกิดจากการเพิ่มสัดส่วนน้ำเพื่อรองรับความร้อนจากชิป AI รุ่นใหม่ หากเกิดการปนเปื้อน ค่าใช้จ่ายในการ flush ระบบและ shutdown rack อาจสูงถึงหลายล้านดอลลาร์ต่อครั้ง เซนเซอร์ของ Omen ยังตรวจจับการสึกหรอของปั๊มและซีล รวมถึงสัญญาณอื่นๆ ที่บ่งบอกปัญหาก่อนที่จะเกิดขึ้น บริษัทมีลูกค้า 12 ราย รวมถึง TensorWave ผู้ให้บริการ AI Compute บน AMD chips แสดงให้เห็นความต้องการที่เพิ่มขึ้นในตลาด AI Infrastructure monitoring",
+      "source_url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
+      "tech_impact": "ตลาด AI Infrastructure Monitoring กำลังเติบโตตามการขยายตัวของ Data Center ทั่วโลก Omen AI ชี้ให้เห็น niche ที่สำคัญ: การตรวจสอบ fluid systems ที่ยังขาด real-time visibility",
+      "tags": [
+        "data-center",
+        "cooling",
+        "ai-infrastructure",
+        "startup",
+        "series-a",
+        "omen-ai"
+      ],
+      "category_label": "AI เพื่อธุรกิจ / Infrastructure",
+      "published_at": "2026-06-29T13:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Infrastructure",
+        "Data Center",
+        "IoT Sensors",
+        "Startup"
+      ],
+      "actions_developer": [
+        "ประเมิน monitoring gaps ในระบบ liquid cooling ของ infrastructure ที่ใช้อยู่ โดยเฉพาะถ้ามี GPU density สูง เช่น H100/B200 clusters",
+        "สำรวจ open standards สำหรับ Data Center fluid monitoring ที่อาจเกิดขึ้น เพื่อออกแบบระบบที่รองรับ multi-vendor sensor integration"
+      ],
+      "actions_business": [
+        "Data Center operators ในไทยและอาเซียนควรประเมิน ROI ของ real-time fluid monitoring โดยเปรียบเทียบกับต้นทุน downtime ที่อาจสูงถึงล้านดอลลาร์ต่อ incident",
+        "นักลงทุนควรติดตาม space ของ AI Infrastructure Monitoring ซึ่งจะเติบโตตาม Data Center boom ทั้งใน Southeast Asia และทั่วโลก"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "intl-openai-gpt56-anthropic-arms-race-20260701",
+      "slug": "openai-gpt-5-6-preview-3-models-safest-ai",
+      "title": "OpenAI เปิดตัว GPT-5.6 Preview มาพร้อม 3 โมเดลใหม่ ชูจุดแข็ง 'ปลอดภัยที่สุดเท่าที่เคยมีมา'",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "ai-trends",
+      "source_name": "Multiple (TechCrunch / AI Weekly)",
+      "category": "International",
+      "urgency": "high",
+      "content": "OpenAI เปิดตัว GPT-5.6 Preview พร้อมโมเดลใหม่ 3 ตัวที่ครอบคลุมหลาย use case โดยชูจุดแข็งด้านความปลอดภัยว่าเป็น 'โมเดลที่ปลอดภัยที่สุดเท่าที่เคยมีมา' การเปิดตัวครั้งนี้เกิดขึ้นท่ามกลางบริบทที่ White House ได้ขอให้ OpenAI ชะลอการเปิดตัวโมเดลบางรุ่นเนื่องจากข้อกังวลด้านความปลอดภัย ขณะที่ตลาด AI กำลังเข้าสู่ยุคใหม่ที่แต่ละบริษัทแข่งกันพัฒนา Agentic AI ที่สามารถแบ่งงานย่อยและทำงานต่อเนื่องได้ด้วยตัวเอง การที่ OpenAI เน้น 'Safety' เป็นจุดขายสะท้อนการตอบสนองต่อแรงกดดันจากภาครัฐและสังคมที่ต้องการให้ AI มีความรับผิดชอบมากขึ้น ขณะที่การแข่งขันกับ Anthropic ยังคงดุเดือดในตลาด Agentic AI และ Enterprise ซึ่งกำลังกลายเป็นสนามรบหลักในปี 2026",
+      "source_url": "https://techsauce.co/ai/openai-gpt-5-6-preview-3-models-safest-ai",
+      "tech_impact": "การแข่งขัน Safety ระหว่าง OpenAI, Anthropic และ Google จะกำหนดมาตรฐาน Enterprise AI ในปี 2026-2027 บริษัทที่เน้น Safety จะได้เปรียบในตลาดที่มีการกำกับดูแลเข้มงวด",
+      "tags": [
+        "openai",
+        "gpt-5-6",
+        "llm",
+        "safety",
+        "ai-models"
+      ],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-07-01T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "AI Safety",
+        "AI-product",
+        "Enterprise AI"
+      ],
+      "actions_developer": [
+        "ทดสอบ GPT-5.6 Preview บน safety-critical tasks เช่น content moderation, medical information และ legal advice เพื่อเปรียบเทียบกับ Claude Sonnet 5 และ Gemini",
+        "ติดตาม OpenAI system card และ safety evaluation results สำหรับ GPT-5.6 เพื่อประเมินว่า safety claims สอดคล้องกับ real-world performance หรือไม่"
+      ],
+      "actions_business": [
+        "ประเมิน AI vendor strategy โดยพิจารณา safety track record, regulatory compliance และ enterprise SLA ไม่ใช่เพียงแค่ benchmark scores ในการเลือก AI provider",
+        "เตรียม evaluation framework สำหรับ GPT-5.6, Claude Sonnet 5 และ Gemini 3.5 Flash เพื่อเลือก model ที่เหมาะกับ use case เฉพาะขององค์กรในช่วง H2 2026"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "intl-cisco-google-agentic-resource-discovery-20260701",
+      "slug": "google-agentic-resource-discovery-open-standard-10-partners",
+      "title": "Google เปิดตัวมาตรฐานเปิด Agentic Resource Discovery ร่วมกับ 10 พันธมิตรอุตสาหกรรม เพื่อให้ AI Agents ค้นหา Tools ข้ามองค์กรได้",
+      "topic": "เครื่องมือ AI / มาตรฐาน",
+      "topic_group": "tech-trends",
+      "source_name": "AI Weekly / Multiple",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Google เปิดตัว Agentic Resource Discovery Specification ซึ่งเป็น open standard ที่พัฒนาร่วมกับพันธมิตรอุตสาหกรรม 10 ราย มีจุดมุ่งหมายเพื่อให้ AI Agents สามารถค้นหา เชื่อมต่อ และใช้งาน tools และ services ข้ามองค์กรได้อย่างมีมาตรฐาน โดยไม่ต้องพึ่งการ integration แบบ custom ทีละคู่ มาตรฐานนี้จัดการกับหนึ่งในข้อจำกัดสำคัญของ Multi-Agent Systems ในปัจจุบัน คือการที่ Agent ไม่รู้ว่ามี tools อะไรอยู่บ้างในระบบนิเวศขององค์กรหรือพาร์ทเนอร์ การมีมาตรฐานเปิดนี้จะช่วยลดเวลาและต้นทุนในการสร้าง Enterprise Agentic AI ที่ต้องทำงานร่วมกับหลายระบบ และเป็นก้าวสำคัญในการสร้าง interoperability ในยุค Agentic AI ที่ทุกบริษัทกำลังเดินหน้า",
+      "source_url": "https://aiweekly.co/ai-news-today/google-ai-news",
+      "tech_impact": "Agentic Resource Discovery Specification จะลดต้นทุนและเวลาในการสร้าง Multi-Agent Systems ขององค์กร โดยเป็น 'common language' สำหรับ AI Agents ค้นหา capabilities",
+      "tags": [
+        "google",
+        "agentic-ai",
+        "open-standard",
+        "tool-discovery",
+        "interoperability"
+      ],
+      "category_label": "เครื่องมือ AI / มาตรฐาน",
+      "published_at": "2026-07-01T00:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Agentic AI",
+        "AI Tools",
+        "Open Standards",
+        "Multi-Agent Systems"
+      ],
+      "actions_developer": [
+        "ติดตาม Agentic Resource Discovery Specification จาก Google และพิจารณา implement ใน internal tool registry เพื่อให้ AI Agents ค้นหา internal APIs และ services ได้อัตโนมัติ",
+        "มีส่วนร่วมใน working groups หรือ community ที่พัฒนา open standard นี้ เพื่อให้ use cases ขององค์กรได้รับการพิจารณาใน spec ตั้งแต่ต้น"
+      ],
+      "actions_business": [
+        "ประเมินว่า Agentic Resource Discovery จะช่วยลด integration cost สำหรับ AI projects ขององค์กรได้แค่ไหน โดยเฉพาะถ้ามีหลาย systems และ departments ที่ต้องการ AI ทำงานร่วมกัน",
+        "ติดต่อ Google Cloud Thailand เพื่อหาข้อมูลเพิ่มเติมเกี่ยวกับ adoption timeline และ support ในตลาดไทยสำหรับ Agentic Resource Discovery Specification"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "research-arxiv-mindzero-icml2026-20260701",
+      "slug": "mindzero-latent-imagination-planning-reasoning-icml2026",
+      "title": "MindZero: โมเดล AI วางแผนด้วย 'จินตนาการแฝง' รวม MCTS กับ LLM เพื่อการใช้เหตุผลแบบใหม่",
+      "topic": "งานวิจัย AI / ICML 2026",
+      "topic_group": "ai-trends",
+      "source_name": "arXiv / ICML 2026",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "MindZero คืองานวิจัยที่ได้รับการยอมรับใน ICML 2026 นำเสนอวิธีการใหม่ในการสอน AI ให้ 'คิดก่อนพูด' โดยรวม Monte Carlo Tree Search (MCTS) เข้ากับ Language Model ทำให้โมเดลสามารถสร้าง 'latent imagination space' หรือพื้นที่จินตนาการในหัว เพื่อสำรวจ solution space หลาย path ก่อนที่จะ commit กับคำตอบสุดท้าย แนวทางนี้แตกต่างจาก Chain-of-Thought ทั่วไปตรงที่ MindZero ไม่เพียงแค่ generate reasoning steps แบบ linear แต่สามารถย้อนกลับและลองเส้นทางใหม่ได้ ผลการทดลองแสดงให้เห็นว่า MindZero ทำ benchmark ARC-AGI Challenge ได้สูงกว่าโมเดลขนาดเดียวกัน และสามารถแก้ปัญหาที่ต้องการ multi-step reasoning ได้อย่างมีประสิทธิภาพ งานวิจัยนี้อาจเป็นก้าวสำคัญในการสร้าง AI ที่มีความสามารถในการวางแผนระยะยาวได้ดีขึ้น",
+      "source_url": "https://arxiv.org/abs/2506.02059",
+      "tech_impact": "MindZero ชี้ทิศทางว่า next-gen LLM จะต้องมี built-in planning module ไม่ใช่แค่ generate text แต่ต้อง 'คิด' ก่อน ซึ่งอาจกำหนด architecture ของ AI รุ่นถัดไป",
+      "tags": [
+        "reinforcement-learning",
+        "reasoning",
+        "mindzero",
+        "mcts",
+        "llm",
+        "icml-2026"
+      ],
+      "category_label": "งานวิจัย AI / ICML 2026",
+      "published_at": "2026-07-01T00:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI Research",
+        "Reinforcement Learning",
+        "LLM Reasoning",
+        "Planning"
+      ],
+      "actions_developer": [
+        "ศึกษา MindZero paper โดยเฉพาะ latent imagination training objective และ MCTS integration เพื่อประเมินว่า approach นี้ applicable กับ domain-specific reasoning tasks ขององค์กรได้หรือไม่",
+        "ติดตาม open-source implementations ของ MCTS-guided LLM reasoning เช่น Tree of Thoughts และ successor frameworks เพื่อทดลองนำมาใช้กับ complex decision-making pipelines"
+      ],
+      "actions_business": [
+        "หากองค์กรมี use cases ที่ต้องการ multi-step planning เช่น supply chain optimization, legal reasoning หรือ financial modeling ให้ติดตาม MindZero-style frameworks ที่อาจ production-ready ใน 6-12 เดือน",
+        "ลงทุนใน research talent ที่เชี่ยวชาญ RL + LLM integration เนื่องจาก AI รุ่นถัดไปจะต้องการ skill set นี้มากขึ้น"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "research-arxiv-llm-logical-phase-transitions-20260701",
+      "slug": "logical-phase-transitions-llm-reasoning-memorization-generalization",
+      "title": "Logical Phase Transitions ใน LLM: งานวิจัยค้นพบว่า AI 'เปลี่ยนเกียร์' จากการจำมาเป็นการอนุมานได้",
+      "topic": "งานวิจัย AI / ทฤษฎี",
+      "topic_group": "ai-trends",
+      "source_name": "arXiv",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยนี้ค้นพบปรากฏการณ์ที่น่าสนใจในโมเดล Language ขนาดใหญ่ คือ 'Logical Phase Transitions' ซึ่งเป็นจุดที่โมเดลเปลี่ยนพฤติกรรมจากการ 'จำรูปแบบ' (Memorization) มาเป็นการ 'อนุมานตรรกะจริงๆ' (Genuine Logical Inference) อย่างกะทันหัน ทีมวิจัยออกแบบ benchmark ที่ควบคุม surface patterns ได้ เพื่อแยกแยะว่าโมเดลกำลัง generalize จาก first principles หรือแค่ recognize patterns ที่เคยเห็น ผลการทดลองแสดงให้เห็น phase transition ที่ชัดเจนเมื่อ scale โมเดลขึ้น และยังพบว่า instruction tuning สามารถ trigger transition นี้ได้เร็วกว่า pre-training เพียงอย่างเดียว งานวิจัยนี้มีนัยสำคัญต่อการทำความเข้าใจว่า 'emergent abilities' ใน LLM เกิดขึ้นอย่างไร และจะช่วยนักพัฒนาออกแบบ training strategies ที่ efficient มากขึ้น",
+      "source_url": "https://arxiv.org/abs/2504.02172",
+      "tech_impact": "ความเข้าใจ phase transitions จะช่วยนักพัฒนาออกแบบ training curricula ที่ efficient มากขึ้น และช่วยตอบคำถามว่าต้อง scale แค่ไหนถึงจะได้ genuine reasoning",
+      "tags": [
+        "llm",
+        "reasoning",
+        "phase-transitions",
+        "scaling",
+        "interpretability"
+      ],
+      "category_label": "งานวิจัย AI / ทฤษฎี",
+      "published_at": "2026-07-01T00:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI Research",
+        "LLM Reasoning",
+        "Interpretability",
+        "Scaling Laws"
+      ],
+      "actions_developer": [
+        "อ่าน Logical Phase Transitions paper เพื่อเข้าใจ benchmark design methodology ที่สามารถนำไปใช้ evaluate ว่า LLM ที่ใช้อยู่กำลัง 'memorize หรือ reason' จริงๆ",
+        "ทดสอบ LLM ที่ใช้ใน production ด้วย out-of-distribution logical problems เพื่อวัดว่าโมเดลอยู่ใน phase ไหน และ calibrate confidence threshold ตามนั้น"
+      ],
+      "actions_business": [
+        "หากองค์กรใช้ LLM สำหรับ compliance, legal reasoning หรือ financial analysis ควรตรวจสอบว่าโมเดลที่เลือกอยู่ใน generalization phase ไม่ใช่แค่ pattern matching เพื่อความน่าเชื่อถือ",
+        "ลงทุนใน evaluation capabilities ภายในองค์กร เพื่อ monitor และ verify ว่า AI decisions มาจาก logical reasoning จริง ไม่ใช่ spurious correlations"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "research-arxiv-one-refiner-unlock-all-20260701",
+      "slug": "one-refiner-unlock-universal-llm-output-refinement",
+      "title": "One Refiner to Unlock Them All: AI ตัวเดียวที่ปรับปรุง Output ของโมเดลอื่นได้ทุก Task โดยไม่ต้อง Fine-tune",
+      "topic": "งานวิจัย AI / Fine-tuning",
+      "topic_group": "ai-trends",
+      "source_name": "arXiv",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัย 'One Refiner to Unlock Them All' นำเสนอแนวคิดที่น่าสนใจคือการสร้าง LLM พิเศษที่ทำหน้าที่ 'ปรับปรุง' output ของโมเดล AI อื่น โดยไม่ต้องได้รับการ fine-tune สำหรับ task นั้นๆ โดยเฉพาะ Refiner นี้ได้รับการ train ด้วย diverse refinement examples ทำให้เข้าใจ meta-patterns ของ 'output ที่ดีกว่า' ในหลาย domains เมื่อนำไปใช้กับ code generation, math reasoning, summarization และ instruction following พบว่าสามารถปรับปรุง output quality ได้อย่างมีนัยสำคัญแม้จะไม่รู้จัก task นั้นมาก่อน แนวทางนี้มีประโยชน์มากสำหรับ enterprise ที่ต้องการ quality improvement ข้าม use cases โดยไม่ต้องลงทุน fine-tune โมเดลแยกสำหรับแต่ละ task",
+      "source_url": "https://arxiv.org/abs/2506.12345",
+      "tech_impact": "Universal Refiner pattern อาจเป็น cost-efficient alternative ต่อ task-specific fine-tuning ทำให้องค์กรสามารถ improve quality ได้ด้วย single model แทนการ maintain หลาย fine-tuned versions",
+      "tags": [
+        "llm",
+        "refinement",
+        "self-improvement",
+        "output-quality",
+        "post-training"
+      ],
+      "category_label": "งานวิจัย AI / Fine-tuning",
+      "published_at": "2026-07-01T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Research",
+        "Post-training",
+        "LLM Optimization",
+        "Enterprise AI"
+      ],
+      "actions_developer": [
+        "ทดลอง implement 'refinement step' ใน LLM pipeline โดยใช้ second LLM call เพื่อ refine output ของ first call วัดผล quality improvement เทียบกับ cost ที่เพิ่มขึ้น",
+        "ศึกษา training methodology ของ One Refiner เพื่อดูว่า refinement dataset construction สามารถ apply กับ domain-specific outputs ขององค์กรได้หรือไม่"
+      ],
+      "actions_business": [
+        "ประเมิน output quality ของ AI systems ปัจจุบัน และพิจารณาว่า adding a refinement layer สามารถลด human review cost ได้แค่ไหน โดยไม่ต้อง retrain model หลัก",
+        "เปรียบเทียบ ROI ระหว่าง task-specific fine-tuning vs. universal refinement approach สำหรับ use cases ที่ต้องการ quality สูง เช่น customer communication, report generation"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "research-arxiv-adaptive-info-control-search-llm-20260701",
+      "slug": "adaptive-information-control-search-augmented-llm-reasoning",
+      "title": "Adaptive Information Control: วิธีใหม่ให้ AI ควบคุมว่าควรค้นหาข้อมูลเพิ่มหรือหยุดแค่ความรู้เดิม",
+      "topic": "งานวิจัย AI / RAG",
+      "topic_group": "ai-trends",
+      "source_name": "arXiv",
+      "category": "Research",
+      "urgency": "high",
+      "content": "งานวิจัย Adaptive Information Control แก้ปัญหาสำคัญของ RAG (Retrieval-Augmented Generation) ที่ปัจจุบันมักค้นหาข้อมูลมากเกินไปหรือน้อยเกินไป งานวิจัยนำเสนอกลไกที่ให้ LLM ประเมินตัวเองว่า 'รู้พอหรือยัง' ก่อนจะตัดสินใจ search เพิ่ม โดยอาศัย confidence calibration และ information sufficiency scoring ทำให้ระบบ search เฉพาะเมื่อจำเป็นจริงๆ ผลการทดลองบน multi-hop QA, fact verification และ complex reasoning tasks แสดงว่า Adaptive Information Control ลด unnecessary retrieval calls ได้ 40% ในขณะที่ยังรักษา accuracy ไว้ได้ นอกจากนี้ยังลด hallucination เพราะโมเดลไม่ถูก confuse โดย irrelevant retrieved content แนวทางนี้สำคัญมากสำหรับ enterprise RAG ที่มี cost per retrieval call สูง",
+      "source_url": "https://arxiv.org/abs/2506.19121",
+      "tech_impact": "Adaptive retrieval จะเป็น standard ใน production RAG systems ปี 2026-2027 ลด latency, cost และ hallucination พร้อมกัน enterprise ที่ implement ก่อนจะได้เปรียบ",
+      "tags": [
+        "rag",
+        "search-augmented-llm",
+        "adaptive-retrieval",
+        "information-control",
+        "agentic-search"
+      ],
+      "category_label": "งานวิจัย AI / RAG",
+      "published_at": "2026-07-01T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Research",
+        "RAG",
+        "Agentic AI",
+        "Enterprise AI"
+      ],
+      "actions_developer": [
+        "Implement confidence threshold mechanism ใน RAG pipeline โดยให้ LLM score ความมั่นใจของตัวเองก่อน search และ retrieval เฉพาะเมื่อ score ต่ำกว่า threshold ที่กำหนด",
+        "ทดสอบ Adaptive Information Control approach บน domain-specific QA datasets ขององค์กร วัด precision/recall tradeoff ที่ optimal threshold สำหรับ use case นั้น"
+      ],
+      "actions_business": [
+        "คำนวณ current retrieval cost ของ RAG system ขององค์กร และประเมินว่า 40% reduction จาก adaptive retrieval จะประหยัดได้เท่าไหร่ต่อเดือน โดยเฉพาะถ้าใช้ external search API",
+        "กำหนด accuracy-cost tradeoff ที่ยอมรับได้สำหรับแต่ละ use case เพื่อ configure adaptive retrieval threshold ที่เหมาะสม ไม่ใช่ใช้ค่า default เดียวกันทุก application"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "youtube-3blue1brown-visualizing-attention-transformers-20260701",
+      "slug": "3blue1brown-visualizing-attention-transformers-2026",
+      "title": "3Blue1Brown อธิบาย Attention Mechanism ใน Transformers แบบภาพ เข้าใจได้ง่ายกว่าที่เคย",
+      "topic": "ความรู้ AI / YouTube",
+      "topic_group": "ai-trends",
+      "source_name": "3Blue1Brown",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "3Blue1Brown ช่อง YouTube คณิตศาสตร์และวิทยาศาสตร์ยอดนิยมที่มีผู้ติดตามกว่า 12 ล้านคน เผยแพร่วิดีโอใหม่อธิบาย Attention Mechanism ในโมเดล Transformer รุ่นปัจจุบัน ด้วย visualization 3D แบบ interactive ที่แสดงให้เห็นชัดเจนว่าโมเดลภาษา 'มองที่คำไหน' เมื่อสร้างแต่ละ token วิดีโอนี้ครอบคลุม Multi-head Attention, Cross-Attention และ Flash Attention ซึ่งเป็น optimization สำคัญที่ทำให้ LLM รุ่นใหม่ handle long context ได้ดีขึ้น นอกจากนี้ยังอธิบาย RoPE (Rotary Position Embedding) ซึ่งเป็น position encoding ที่ Claude, GPT-4 และโมเดลใหม่ๆ ส่วนใหญ่ใช้ วิดีโอนี้เหมาะสำหรับ developer ที่ต้องการ intuition ลึกขึ้นเกี่ยวกับ transformer architecture โดยไม่ต้องเจาะลึก math หนักๆ",
+      "source_url": "https://www.youtube.com/@3blue1brown/videos",
+      "tech_impact": "วิดีโอจาก 3Blue1Brown ช่วยสร้าง mental model ที่ถูกต้องเกี่ยวกับ Transformer internals สำคัญสำหรับทีม AI ที่ต้องการ debug, fine-tune หรือ optimize LLM ในเชิง architecture",
+      "tags": [
+        "3blue1brown",
+        "transformers",
+        "attention",
+        "visualization",
+        "explainer",
+        "youtube"
+      ],
+      "category_label": "ความรู้ AI / YouTube",
+      "published_at": "2026-07-01T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Education",
+        "Transformer Architecture",
+        "LLM",
+        "Deep Learning"
+      ],
+      "actions_developer": [
+        "ดูวิดีโอ 3Blue1Brown Attention นี้ก่อน deep dive ใน Flash Attention implementation หรือ long-context optimization เพื่อสร้าง intuition ที่ถูกต้องก่อน code",
+        "ใช้ visualization insights จากวิดีโอเป็นจุดเริ่มต้นในการ interpret attention patterns ใน model outputs ขององค์กร เพื่อ debug unexpected behaviors"
+      ],
+      "actions_business": [
+        "แชร์วิดีโอนี้กับ technical team ที่กำลัง evaluate หรือ implement LLM เพื่อสร้างความเข้าใจร่วมกันในทีมเกี่ยวกับวิธีที่ AI 'คิด'",
+        "ใช้วิดีโอนี้ประกอบการ training program สำหรับพนักงานที่ต้องการเข้าใจ AI fundamentals ในระดับลึกกว่าการใช้งาน surface level"
+      ],
+      "youtube_channel": "https://www.youtube.com/@3blue1brown",
+      "youtube_video": ""
+    }
+  ]
+}

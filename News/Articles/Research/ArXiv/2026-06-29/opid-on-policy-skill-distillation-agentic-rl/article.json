@@ -1,0 +1,80 @@
+{
+  "article_id": "opid-on-policy-skill-distillation-agentic-rl-2606-26790",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "Research",
+    "source_name": "ArXiv cs.CL",
+    "registry_key": "Research/ArXivCL",
+    "domain": "AI-RESEARCH",
+    "main_url": "https://arxiv.org/list/cs.CL/recent"
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2606.26790",
+    "type": "direct",
+    "origin": "direct",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-29T07:00:00+07:00",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-26T00:00:00Z",
+    "scraped_at": "2026-06-29T07:00:00+07:00",
+    "run_date": "2026-06-29",
+    "target_date": "2026-06-29",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "3",
+    "category": "AI-RESEARCH",
+    "category_label": "งานวิจัย AI",
+    "news_type": "วิจัย",
+    "tags": [
+      "Reinforcement Learning",
+      "Agents",
+      "LLM",
+      "Skill Learning",
+      "RLHF"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning",
+    "title_th": "OPID: On-Policy Skill Distillation สำหรับ Agentic Reinforcement Learning",
+    "slug": "opid-on-policy-skill-distillation-agentic-rl",
+    "summary": "OPID นำเสนอแนวทาง On-Policy Skill Distillation เพื่อปรับปรุงการฝึก agentic reinforcement learning",
+    "summary_1": "การฝึก agent ด้วย reinforcement learning มักประสบปัญหา sample efficiency ต่ำและ reward signal ที่ sparse ทำให้ agent เรียนรู้ได้ช้า OPID (On-Policy Skill Distillation) เสนอแนวทางแก้ไขโดยการดึง skill knowledge จาก expert หรือ teacher policy มาช่วยนำทาง agent ในระหว่างการฝึก ความโดดเด่นของ OPID คือการทำ distillation แบบ on-policy ซึ่งหมายความว่า skill ที่ดึงมาจะตรงกับ distribution ของ state ที่ agent กำลังพบอยู่จริง แทนที่จะเป็น off-policy skill จาก static dataset การออกแบบนี้ช่วยลดปัญหา distribution shift ที่มักเกิดขึ้นใน imitation learning แบบเดิม ผลการทดลองบน agentic task หลากหลายแสดงให้เห็นว่า OPID เร่งการเรียนรู้และปรับปรุง final performance เมื่อเทียบกับ baseline RL ล้วน",
+    "body_text": "",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "OPID เร่งการพัฒนา agent ที่มีทักษะสูงขึ้นด้วย sample ที่น้อยลง ซึ่งลดทั้งเวลาและ compute ที่ต้องใช้ในการฝึก agentic system",
+    "actions_developer": [
+      "ทดลอง on-policy skill distillation เพื่อ bootstrap การฝึก RL agent สำหรับ domain เฉพาะทาง",
+      "ผสม OPID กับ RLHF หรือ GRPO pipeline เพื่อเร่งการ convergence ของ LLM agent"
+    ],
+    "actions_business": [
+      "ลงทุนสร้าง expert demonstration data สำหรับ domain สำคัญเพื่อใช้ใน skill distillation",
+      "ประเมิน ROI ของการใช้ skill distillation ในการฝึก agent เทียบกับ pure RL ที่ใช้ compute มากกว่า"
+    ],
+    "urgency": "medium",
+    "related_domains": [
+      "Reinforcement Learning",
+      "Agents",
+      "LLM",
+      "Skill Learning",
+      "RLHF"
+    ],
+    "breakthrough_potential": true
+  },
+  "paths": {
+    "relative": "Research/ArXiv/2026-06-29/opid-on-policy-skill-distillation-agentic-rl",
+    "batch_file": "News/Batches/2026-06-29/batch_3.json"
+  }
+}

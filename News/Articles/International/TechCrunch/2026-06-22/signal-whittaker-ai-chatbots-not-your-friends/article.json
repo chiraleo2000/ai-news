@@ -1,0 +1,78 @@
+{
+  "article_id": "c9d4a871",
+  "schema_version": "1.0",
+  "source_info": {
+    "category": "International",
+    "source_name": "TechCrunch",
+    "registry_key": "Intl/TechCrunch",
+    "domain": "AI-safety",
+    "main_url": "https://techcrunch.com/category/artificial-intelligence"
+  },
+  "source": {
+    "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-22T00:00:00Z",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-20T04:00:00Z",
+    "scraped_at": "2026-06-22T00:00:00Z",
+    "run_date": "2026-06-22",
+    "target_date": "2026-06-22",
+    "within_24h": true,
+    "status": "published",
+    "batch": "2",
+    "category": "AI-SAFETY",
+    "category_label": "AI Safety",
+    "news_type": "article",
+    "tags": [
+      "signal",
+      "meredith-whittaker",
+      "AI-chatbots",
+      "privacy",
+      "trust"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "Signal's Meredith Whittaker wants you to remember that AI chatbots 'are not your friends'",
+    "slug": "signal-whittaker-ai-chatbots-not-your-friends",
+    "summary": "Signal president Meredith Whittaker warns the public that AI chatbots are commercial surveillance products designed to build emotional dependency, not genuine assistants or friends — and users should approach them with appropriate skepticism.",
+    "summary_1": "Signal president Meredith Whittaker is pushing back against the growing trend of AI companions and emotionally engaging chatbots, arguing that users are being misled about the nature of these tools. In public remarks covered by TechCrunch, Whittaker emphasized that AI chatbots are fundamentally commercial products built on surveillance business models — they collect data, optimize for engagement, and are designed to make users feel a false sense of intimacy. She called on the public to maintain critical awareness that chatbot 'friendships' are engineered experiences serving corporate interests, not the user's wellbeing. The comments come as the AI industry increasingly markets chatbots as emotional support tools, companions, and personalized assistants.",
+    "body_text": "Signal president Meredith Whittaker issued a public warning about AI chatbots, urging users not to mistake them for genuine friends or neutral assistants. Speaking about the current AI landscape, Whittaker said chatbots are commercial surveillance tools designed to maximize engagement and data collection, not to serve users' best interests. She criticized the trend of AI companies marketing their products as emotionally supportive companions, arguing this obscures the surveillance and monetization infrastructure underneath. Whittaker's comments are notable given Signal's mission of private communications and its position as a critic of Big Tech data practices. The warning comes as AI companies including Meta, Character.AI, and others aggressively push 'companion' and 'personal assistant' AI products. Whittaker argued the friendly, personalized interface is a design choice that makes surveillance more palatable — not evidence of genuine alignment with user interests.",
+    "language": "en",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "Growing pushback from privacy advocates against emotionally manipulative AI chatbot design signals incoming regulatory and reputational risk for AI companion products.",
+    "actions_developer": [
+      "Audit your AI product's UX for patterns that manufacture false intimacy or dependency — these are increasingly under regulatory and public scrutiny.",
+      "Be transparent in your documentation about what user data your AI chatbot collects and how it is used."
+    ],
+    "actions_business": [
+      "Distinguish your AI products from 'companion AI' if your use case is professional — the companion AI backlash may create reputational blowback for adjacent products.",
+      "Monitor regulatory developments around AI emotional manipulation, especially in jurisdictions with strong consumer protection laws."
+    ],
+    "urgency": "medium",
+    "related_domains": [
+      "AI-safety",
+      "AI-policy"
+    ],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "International/TechCrunch/2026-06-22/signal-whittaker-ai-chatbots-not-your-friends",
+    "article_md": "article.md",
+    "article_json": "article.json"
+  }
+}

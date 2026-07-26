@@ -1,0 +1,39 @@
+{
+  "article_id": "arxiv-2606-28166-tandem-rl-verifiable-rewards-2026-06-30",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "name": "ArXiv cs.AI",
+    "category": "Research",
+    "url": "https://arxiv.org/list/cs.AI/new"
+  },
+  "source": "https://arxiv.org/abs/2606.28166",
+  "fetch": {
+    "fetched_at": "2026-06-30T00:00:00Z",
+    "published_at": "2026-06-29T00:00:00Z",
+    "method": "web_fetch"
+  },
+  "meta": {
+    "title": "Tandem Reinforcement Learning with Verifiable Rewards",
+    "title_th": "Tandem RL: RLVR ที่ออกแบบมาให้มนุษย์และโมเดลอ่อนแอกว่าเข้าใจได้",
+    "author": "Difan Jiao, Raghav Singhal, Robert West, Ashton Anderson",
+    "tags": ["rlvr", "reinforcement-learning", "llm-training", "human-ai-compatibility", "qwen3"]
+  },
+  "content": {
+    "summary_1": "RLVR (Reinforcement Learning with Verifiable Rewards) ช่วยให้ LLM มีความสามารถ reasoning ระดับสูง แต่ผลลัพธ์มักมี pattern แปลกๆ ที่มนุษย์หรือโมเดลที่อ่อนแอกว่าอ่านไม่เข้าใจ งานวิจัยนี้เสนอ TRL (Tandem Reinforcement Learning) ซึ่งฝึกโมเดลแข็งแกร่ง (senior) ให้ generate reasoning ที่โมเดลอ่อนแอกว่า (junior) สามารถติดตามได้ โดย senior และ junior สลับกัน generate reasoning แบบ stochastic และได้รับรางวัลร่วมกันเป็นทีม วิธีนี้กระตุ้นให้ senior คิดในแบบที่ junior เข้าใจ ผลการทดสอบบน Qwen3-4B-Instruct ในโจทย์คณิตศาสตร์ระดับแข่งขันพบว่า TRL รักษาประสิทธิภาพเทียบเท่า vanilla GRPO ขณะที่เพิ่ม compatibility กับ junior model ลด distributional drift และทำให้ chain-of-thought อ่านง่ายขึ้น เปิดทางใหม่สำหรับ AI ที่ทำงานร่วมกับมนุษย์ได้ดีขึ้น",
+    "key_points": [
+      "RLVR ปัจจุบันสร้าง reasoning patterns ที่มนุษย์และโมเดลเล็กอ่านไม่เข้าใจ",
+      "TRL ให้ senior+junior สลับ generate และรับรางวัลร่วมกัน — senior จึงต้องคิดให้ junior เข้าใจ",
+      "รักษา solo reasoning performance เทียบเท่า GRPO และเอาชนะ teacher models +2.16 points",
+      "เป็นก้าวสำคัญสู่ AI reasoning ที่ human-compatible มากขึ้น"
+    ]
+  },
+  "tech_insights": {
+    "significance": "แก้ปัญหา RLVR drift ที่สำคัญ — ความสามารถสูงแต่ไม่สามารถสื่อสารกับมนุษย์ได้เป็นปัญหาใหญ่ใน deployment",
+    "impact_level": "medium"
+  },
+  "paths": {
+    "article_dir": "News/Articles/Research/ArXiv/2026-06-30/arxiv-2606-28166-tandem-rl-verifiable-rewards/",
+    "article_md": "News/Articles/Research/ArXiv/2026-06-30/arxiv-2606-28166-tandem-rl-verifiable-rewards/article.md",
+    "article_json": "News/Articles/Research/ArXiv/2026-06-30/arxiv-2606-28166-tandem-rl-verifiable-rewards/article.json"
+  }
+}

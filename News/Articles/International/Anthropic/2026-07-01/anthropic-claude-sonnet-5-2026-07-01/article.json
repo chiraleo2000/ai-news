@@ -1,0 +1,71 @@
+{
+  "article_id": "anthropic-claude-sonnet-5-2026-07-01",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "International",
+    "source_name": "Anthropic",
+    "registry_key": "Intl/Anthropic",
+    "domain": "AI-PRODUCT",
+    "main_url": "https://www.anthropic.com/news"
+  },
+  "source": {
+    "url": "https://www.anthropic.com/news/claude-sonnet-5",
+    "type": "direct",
+    "origin": "direct",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-07-01T10:02:00+07:00",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-30T00:00:00Z",
+    "scraped_at": "2026-07-01T10:02:00+07:00",
+    "run_date": "2026-07-01",
+    "target_date": "2026-07-01",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "2",
+    "category": "AI-PRODUCT",
+    "category_label": "ผลิตภัณฑ์ AI",
+    "news_type": "ข่าว",
+    "tags": ["LLM", "Claude", "Agentic AI", "Coding", "API"],
+    "language": "en"
+  },
+  "content": {
+    "title": "Introducing Claude Sonnet 5",
+    "title_th": "Anthropic เปิดตัว Claude Sonnet 5 โมเดล Sonnet ที่ agentic ที่สุดเท่าที่เคยมี",
+    "slug": "anthropic-claude-sonnet-5-2026-07-01",
+    "summary": "Anthropic เปิดตัว Claude Sonnet 5 โมเดลตระกูล Sonnet ที่มีความสามารถแบบ agentic สูงสุด ใกล้เคียง Opus 4.8 แต่ราคาถูกกว่า พร้อมมาตรการความปลอดภัยด้าน cyber ที่เปิดใช้งานเป็นค่าเริ่มต้น",
+    "summary_1": "Anthropic เปิดตัว Claude Sonnet 5 โมเดลตระกูล Sonnet ที่มีความสามารถ agentic สูงที่สุดเท่าที่เคยพัฒนา สามารถวางแผน ใช้เครื่องมือ เช่น browser และ terminal และทำงานอัตโนมัติได้ในระดับที่เมื่อไม่กี่เดือนก่อนต้องใช้โมเดลขนาดใหญ่กว่าและแพงกว่า โมเดลใหม่นี้มีประสิทธิภาพใกล้เคียง Opus 4.8 แต่ราคาต่ำกว่ามาก และพัฒนาขึ้นอย่างมากจาก Sonnet 4.6 รุ่นก่อนหน้าในด้าน reasoning, tool use, coding และงานที่ต้องใช้ความรู้ ผลการประเมินความปลอดภัยพบว่า Sonnet 5 มีอัตราพฤติกรรมที่ไม่พึงประสงค์ต่ำกว่า Sonnet 4.6 โดยรวม แต่มีความสามารถด้าน cybersecurity ที่ต่ำกว่าโมเดลระดับ Opus มาก จึงเปิดใช้งานมาตรการป้องกันด้าน cyber เป็นค่าเริ่มต้น Sonnet 5 พร้อมใช้งานทันทีในทุกแพ็กเกจ ทั้ง Free, Pro, Max, Team และ Enterprise รวมถึงผ่าน Claude API ในราคาเริ่มต้นพิเศษ $2 ต่อ 1M input tokens และ $10 ต่อ 1M output tokens จนถึงวันที่ 31 สิงหาคม 2026 ก่อนปรับเป็นราคาปกติที่ $3/$15",
+    "body_text": "",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "Claude Sonnet 5 ลดช่องว่างด้านความสามารถ agentic กับ Opus 4.8 ในราคาที่ถูกกว่า ทำให้ developer และองค์กรเข้าถึงโมเดลระดับสูงได้ง่ายขึ้นทันที",
+    "actions_developer": [
+      "ทดสอบ Claude Sonnet 5 ผ่าน Claude API หรือ Claude Code เพื่อเปรียบเทียบ cost-performance กับ Opus 4.8 ในงาน coding และ agentic tasks",
+      "ปรับ effort level ให้เหมาะกับงานเพื่อบาลานซ์ต้นทุนกับความแม่นยำ โดยใช้ประโยชน์จากราคา introductory pricing ก่อนหมดโปรโมชันสิงหาคมนี้"
+    ],
+    "actions_business": [
+      "ประเมินการย้ายงานที่ใช้ Sonnet 4.6 หรือ Opus มาใช้ Sonnet 5 เพื่อลดต้นทุนโดยไม่เสียประสิทธิภาพมากนัก",
+      "ตรวจสอบมาตรการ cyber safeguards ที่เปิดใช้งานเป็นค่าเริ่มต้น ก่อนนำไปใช้ในงานที่มีความเสี่ยงด้านความปลอดภัย"
+    ],
+    "urgency": "high",
+    "related_domains": ["LLM", "Claude", "Agentic AI", "Coding", "API"],
+    "breakthrough_potential": false
+  },
+  "media_links": { "youtube_channel": null, "youtube_video": null },
+  "paths": {
+    "relative": "International/Anthropic/2026-07-01/anthropic-claude-sonnet-5-2026-07-01",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-07-01/batch_2.json"
+  }
+}

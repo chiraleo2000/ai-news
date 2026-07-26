@@ -1,0 +1,72 @@
+{
+  "article_id": "b2-india-npci-ai-payments-004",
+  "schema_version": "2.0",
+  "topic_group": "global",
+  "source_info": {
+    "category": "International",
+    "source_name": "TechCrunch",
+    "registry_key": "Intl/TechCrunch",
+    "domain": "AI-business",
+    "main_url": "https://techcrunch.com"
+  },
+  "source": {
+    "url": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-28T10:30:00+07:00",
+    "fetch_mode": "rendered",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-28T05:00:00+00:00",
+    "scraped_at": "2026-06-28T10:30:00+07:00",
+    "run_date": "2026-06-28",
+    "target_date": "2026-06-28",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "2",
+    "category": "AI-BUSINESS",
+    "category_label": "ธุรกิจ AI",
+    "news_type": "ข่าว",
+    "tags": ["india", "npci", "upi", "digital-payments", "fintech", "ai-in-finance", "voice-interface"],
+    "language": "th"
+  },
+  "content": {
+    "title": "Indian payments chief thinks AI will be heavily involved in next era of digital payment growth",
+    "title_th": "หัวหน้าระบบชำระเงินอินเดียเชื่อ AI จะเป็นแกนกลางยุคถัดไปของการเติบโตการชำระเงินดิจิทัล",
+    "slug": "india-npci-ai-digital-payments-upi",
+    "summary": "CEO ของ NPCI (National Payments Corporation of India) มองว่า AI โดยเฉพาะ small language models จะปฏิวัติระบบ UPI ที่รองรับธุรกรรม 750 ล้านรายการต่อวัน โดยเน้น voice interface เพื่อเข้าถึงประชากรที่ยังขาด digital literacy",
+    "summary_1": "Dilip Asbe ซีอีโอของ NPCI (National Payments Corporation of India) ผู้ดูแล UPI (Unified Payments Interface) ระบบชำระเงินดิจิทัลที่ใหญ่ที่สุดในโลกซึ่งรองรับธุรกรรมกว่า 750 ล้านรายการต่อวัน เปิดเผยว่า AI จะเป็นส่วนสำคัญอย่างยิ่งในการขยายการเข้าถึงบริการชำระเงินไปยังประชากรอีก 200-300 ล้านคนที่ยังไม่ได้ใช้งาน UPI เขาเน้น small language models (SLMs) ที่ทำงานได้บนอุปกรณ์ท้องถิ่นโดยไม่ต้องส่งข้อมูลไปยัง cloud เพื่อปกป้องความเป็นส่วนตัว รวมถึง voice interface ที่รองรับภาษาท้องถิ่นกว่า 22 ภาษาในอินเดีย ซึ่งจะช่วยให้ผู้ที่ไม่คุ้นเคยกับ smartphone ใช้บริการชำระเงินได้ง่ายขึ้น NPCI ยังมีแผนพัฒนา AI เพื่อตรวจจับการฉ้อโกงแบบ real-time และสร้างคำแนะนำทางการเงินส่วนบุคคลสำหรับผู้ใช้รายย่อย",
+    "body_text": "UPI ปัจจุบันประมวลผลธุรกรรมมูลค่ากว่า 24 ล้านล้านรูปีต่อเดือน Asbe มองว่าโอกาสถัดไปคือ cross-border payments ระหว่างอินเดียกับประเทศกำลังพัฒนาอื่นๆ โดยใช้ AI เป็นตัวกลางแปลภาษาและจัดการ compliance อัตโนมัติ NPCI กำลังทดสอบ conversational payment interface ที่ให้ผู้ใช้สั่งโอนเงินผ่านเสียงพูดในภาษาฮินดี ทมิฬ เบงกาลี และอีก 19 ภาษา โดย model จะทำงาน on-device เพื่อลด latency และรักษาความปลอดภัยของข้อมูลทางการเงิน",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "อินเดียกำลังนำ AI มาขยายการเข้าถึงระบบการเงินดิจิทัลให้กับประชากรหลายร้อยล้านคน โดยเน้น on-device SLMs และ voice interface เป็น key technology — โมเดลที่อาจส่งออกไปยังตลาดเกิดใหม่ทั่วโลก รวมถึงเอเชียตะวันออกเฉียงใต้",
+    "actions_developer": [
+      "ศึกษา on-device SLM frameworks เช่น MediaPipe LLM Inference หรือ llama.cpp สำหรับ fintech applications",
+      "พัฒนา voice payment interface รองรับภาษาไทยและภาษาท้องถิ่นในเอเชียตะวันออกเฉียงใต้"
+    ],
+    "actions_business": [
+      "ติดตามโมเดล UPI ของอินเดียเพื่อนำมาปรับใช้กับระบบ PromptPay หรือ e-Wallet ของไทย",
+      "พิจารณาการเชื่อมต่อ cross-border payment กับระบบ UPI ผ่าน AI middleware"
+    ],
+    "urgency": "medium",
+    "related_domains": ["fintech", "LLM", "voice-AI", "financial-inclusion"],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "International/TechCrunch/2026-06-28/india-npci-ai-digital-payments-upi",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-06-28/batch_2.json"
+  }
+}

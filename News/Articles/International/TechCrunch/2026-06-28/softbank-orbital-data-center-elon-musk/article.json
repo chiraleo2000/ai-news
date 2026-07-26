@@ -1,0 +1,72 @@
+{
+  "article_id": "b2-softbank-orbital-dc-002",
+  "schema_version": "2.0",
+  "topic_group": "global",
+  "source_info": {
+    "category": "International",
+    "source_name": "TechCrunch",
+    "registry_key": "Intl/TechCrunch",
+    "domain": "AI-business",
+    "main_url": "https://techcrunch.com"
+  },
+  "source": {
+    "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-28T10:00:00+07:00",
+    "fetch_mode": "rendered",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-27T20:42:36+00:00",
+    "scraped_at": "2026-06-28T10:00:00+07:00",
+    "run_date": "2026-06-28",
+    "target_date": "2026-06-28",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "2",
+    "category": "AI-BUSINESS",
+    "category_label": "ธุรกิจ AI",
+    "news_type": "บทความ",
+    "tags": ["softbank", "elon-musk", "spacex", "orbital-data-center", "ai-infrastructure"],
+    "language": "th"
+  },
+  "content": {
+    "title": "SoftBank's CEO isn't the only one with questions about Elon Musk's orbital data center hype",
+    "title_th": "CEO SoftBank ไม่ใช่คนเดียวที่ตั้งคำถามเรื่อง data center ในวงโคจรของ Elon Musk",
+    "slug": "softbank-orbital-data-center-elon-musk",
+    "summary": "Masayoshi Son CEO ของ SoftBank ตั้งคำถามต่อแผน orbital data center ของ Elon Musk โดยชี้ว่าการลงทุนมหาศาลจะสายเกินไปสำหรับการแข่งขัน AI ในช่วงไม่กี่ปีข้างหน้า",
+    "summary_1": "Masayoshi Son ผู้ก่อตั้งและ CEO ของ SoftBank ออกมาตั้งคำถามต่อวิสัยทัศน์ของ Elon Musk ในการสร้าง data center ในวงโคจรอวกาศ โดยระบุว่าในการแข่งขัน AI นั้น ไม่กี่ปีข้างหน้าสำคัญกว่าสิ่งที่อาจเกิดขึ้นในทศวรรษหน้า แม้ SoftBank จะมีประวัติการเดิมพันครั้งใหญ่มากมาย แต่ Son ชี้ให้เห็นว่าต้นทุนจะสูงมากและใช้เวลานานเกินไป ทีมของ TechCrunch ยังวิเคราะห์ว่า SpaceX มีประโยชน์ทับซ้อนชัดเจน เพราะการสร้าง orbital data center หมายถึงการสร้างรายได้เพิ่มให้ธุรกิจ launch และ satellite ของ SpaceX เอง นอกจากนี้ OpenAI ก็เพิ่งเปิดตัวชิป AI แบบ custom ร่วมกับ Broadcom และ Groq ได้รับเงินทุน 650 ล้านดอลลาร์ ทั้งหมดนี้สะท้อนการแข่งขันด้าน compute infrastructure ที่ร้อนแรงในวงการ AI",
+    "body_text": "Masayoshi Son โต้แย้งในการประชุมผู้ถือหุ้นว่า data center ในอวกาศไม่คุ้มค่าเพราะจะสายเกินไปสำหรับการแข่งขัน AI ในช่วง 3-5 ปีข้างหน้า นักวิเคราะห์จาก TechCrunch ชี้ว่า Musk พูดเรื่องที่เป็นประโยชน์ต่อธุรกิจ SpaceX ของตัวเอง เพราะดาวเทียมที่ต้องเปลี่ยนทุกไม่กี่ปีก็คือรายได้ให้ SpaceX ขณะที่ SoftBank เองก็ลงทุนหนักใน data center บนพื้นดินในยุโรป Sam Altman ก็เคยออกมาตั้งคำถามเช่นกัน SpaceX ยังคงขาย compute ต่อไปหลัง IPO ด้วยการเซ็นสัญญากับ Reflection AI บทความนี้ตั้งข้อสังเกตว่าผู้บริหาร AI ทุกคนต่างพยากรณ์อนาคตที่เป็นประโยชน์ต่อธุรกิจของตัวเอง",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "ความสงสัยต่อ orbital data center บ่งชี้ว่าการแข่งขัน AI infrastructure กำลังเข้มข้นบนพื้นดินก่อน การลงทุน compute ในระยะสั้นยังคงมีความสำคัญมากกว่าเทคโนโลยีอวกาศระยะยาว",
+    "actions_developer": [
+      "ติดตามการพัฒนา cloud compute ทางเลือก เช่น Groq และ Baseten สำหรับ inference ราคาถูก",
+      "วางแผนสถาปัตยกรรมที่รองรับหลาย compute providers เพื่อความยืดหยุ่น"
+    ],
+    "actions_business": [
+      "ประเมินต้นทุน compute ระยะยาวก่อนเลือก provider หลัก",
+      "ติดตามการพัฒนา custom AI chip เช่น Jalapeño ของ OpenAI ที่อาจลดต้นทุน inference"
+    ],
+    "urgency": "medium",
+    "related_domains": ["AI-infrastructure", "GPU", "compute", "data-center"],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "International/TechCrunch/2026-06-28/softbank-orbital-data-center-elon-musk",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-06-28/batch_2.json"
+  }
+}

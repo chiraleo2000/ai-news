@@ -1,0 +1,78 @@
+{
+  "article_id": "simonwillison-glm52-open-weights-2026-06-29",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "International",
+    "source_name": "Simon Willison",
+    "registry_key": "Intl/SimonWillison",
+    "domain": "AI-RESEARCH",
+    "main_url": "https://simonwillison.net"
+  },
+  "source": {
+    "url": "https://simonwillison.net/2026/Jun/17/glm-52/",
+    "type": "direct",
+    "origin": "direct",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-29T07:00:00+07:00",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-17T23:58:00Z",
+    "scraped_at": "2026-06-29T07:00:00+07:00",
+    "run_date": "2026-06-29",
+    "target_date": "2026-06-29",
+    "within_24h": false,
+    "status": "scraped",
+    "batch": "2",
+    "category": "AI-RESEARCH",
+    "category_label": "วิจัย AI",
+    "news_type": "บทวิเคราะห์",
+    "tags": [
+      "Open Source AI",
+      "LLM",
+      "MoE Architecture",
+      "China AI"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
+    "title_th": "GLM-5.2 อาจเป็น open weights LLM ที่ทรงพลังที่สุดสำหรับงาน text-only",
+    "slug": "simonwillison-glm52-open-weights-2026-06-29",
+    "summary": "Simon Willison วิเคราะห์ GLM-5.2 จาก Z.ai ประเทศจีน โมเดล 753B MoE ที่เผยแพร่ open weights ใต้ MIT license",
+    "summary_1": "Simon Willison วิเคราะห์ GLM-5.2 โมเดลจาก Z.ai บริษัท AI จากประเทศจีน ที่ release open weights ภายใต้ MIT license โมเดลนี้มีขนาด 753 billion parameters แบบ Mixture of Experts (MoE) ที่มี 40 active parameters และ context window 1 million tokens ซึ่งเพิ่มขึ้นจาก GLM-5.1 ที่มี 200,000 tokens Willison ชี้ว่า GLM-5.2 น่าจะเป็น open weights LLM ที่ทรงพลังที่สุดสำหรับงาน text-only ในขณะนี้ แม้จะไม่รองรับ visual input ก็ตาม การที่ Z.ai release ภายใต้ MIT license เปิดโอกาสให้ developer ทั่วโลกสามารถใช้งาน commercial ได้อย่างเสรี ซึ่งสร้างแรงกดดันเพิ่มเติมต่อ closed model providers",
+    "body_text": "",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "GLM-5.2 เป็น open weights model ที่ทรงพลังจากจีน ภายใต้ MIT license ที่ท้าทาย frontier models ของสหรัฐฯ",
+    "actions_developer": [
+      "ทดลอง GLM-5.2 ผ่าน OpenRouter เพื่อเปรียบเทียบ performance กับ frontier models",
+      "ประเมินความเป็นไปได้ในการ self-host GLM-5.2 MoE บน infrastructure ขององค์กร"
+    ],
+    "actions_business": [
+      "พิจารณา GLM-5.2 เป็นทางเลือกสำหรับองค์กรที่ต้องการลดการพึ่งพา US-based AI providers",
+      "ตรวจสอบข้อกำหนด compliance และ data residency ก่อนใช้งาน model จากจีน"
+    ],
+    "urgency": "medium",
+    "related_domains": [
+      "Open Source AI",
+      "LLM",
+      "MoE Architecture",
+      "China AI"
+    ],
+    "breakthrough_potential": false
+  },
+  "paths": {
+    "relative": "International/SimonWillison/2026-06-29/simonwillison-glm52-open-weights-2026-06-29",
+    "batch_file": "News/Batches/2026-06-29/batch_2.json"
+  }
+}

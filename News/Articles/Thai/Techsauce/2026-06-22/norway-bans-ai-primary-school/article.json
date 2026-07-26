@@ -1,0 +1,81 @@
+{
+  "article_id": "152ce6c3266c",
+  "schema_version": "1.0",
+  "source_info": {
+    "category": "Thai",
+    "source_name": "Techsauce",
+    "registry_key": "Thai/Techsauce",
+    "domain": "AI-POLICY",
+    "main_url": "https://techsauce.co"
+  },
+  "source": {
+    "url": "https://techsauce.co/news/norway-bans-ai-primary-school",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-22T11:12:28Z",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-22T00:00:00+07:00",
+    "scraped_at": "2026-06-22T11:12:28Z",
+    "run_date": "2026-06-22",
+    "target_date": "2026-06-22",
+    "within_24h": true,
+    "status": "published",
+    "batch": "1",
+    "category": "AI-POLICY",
+    "category_label": "นโยบาย AI",
+    "news_type": "ข่าว",
+    "tags": [
+      "AI Policy",
+      "Education",
+      "Norway",
+      "PISA",
+      "Generative AI",
+      "AI in Education"
+    ],
+    "language": "th"
+  },
+  "content": {
+    "title": "นอร์เวย์สั่งแบน AI ในชั้นประถม หวั่นเด็กข้ามขั้นการเรียนรู้ หลังเด็กนอร์เวย์ 1 ใน 4 อ่านหนังสือไม่ผ่านเกณฑ์",
+    "slug": "norway-bans-ai-primary-school",
+    "summary": "รัฐบาลนอร์เวย์สั่งถอด AI ออกจากชั้นประถม (ป.1-7) เริ่มสิงหาคม 2026 หลังเด็ก 1 ใน 4 อ่านต่ำกว่าเกณฑ์ OECD เตือนประสบการณ์ iPad 2016 ที่สร้างปัญหาวรรณกรรม",
+    "summary_1": "รัฐบาลนอร์เวย์ภายใต้ PM Jonas Gahr Støre ประกาศห้ามใช้ AI (โดยเฉพาะ Generative AI) ในชั้นประถม ป.1-7 เริ่มเดือนสิงหาคม 2026 สำนักงาน Udir กำหนดแนวทาง 3 ระดับตามช่วงวัย โดยประถมเกือบห้ามทั้งหมด มัธยมต้นใช้ได้แบบระวัง มัธยมปลายเรียนรู้การใช้ AI เพื่อเตรียมอนาคต เหตุผลหลักคือเด็กนอร์เวย์ 1 ใน 4 อ่านต่ำกว่าเกณฑ์ OECD และคะแนน PISA/PIRLS ตกต่ำสุดในรอบ 20 ปี รัฐบาลอ้างบทเรียนจากนโยบายแจก iPad ปี 2016 ที่ไร้ระบบควบคุม ส่งผลให้เด็กรุ่นนั้นอ่านหนังสือไม่คล่อง นโยบายนี้อาจเป็นต้นแบบให้ประเทศในยุโรปพิจารณาตาม",
+    "body_text": "นอร์เวย์แบน AI ในชั้นประถม ป.1-7 เริ่มสิงหาคม 2026 เด็ก 1/4 อ่านต่ำกว่า OECD เกณฑ์ บทเรียนจาก iPad 2016 กำหนด 3 ระดับการเข้าถึง AI ตามวัย",
+    "language": "th",
+    "original_language": "th"
+  },
+  "tech_insights": {
+    "impact_summary": "นอร์เวย์เป็นประเทศแรกที่ออกกฎห้ามใช้ Generative AI ในชั้นประถมระดับชาติ อาจกลายเป็นโมเดลให้ EU และประเทศอื่นทำตาม",
+    "actions_developer": [
+      "EdTech developers ต้องออกแบบ age-gating mechanism สำหรับตลาดยุโรปที่จะมีกฎระเบียบ AI เพิ่มขึ้น",
+      "พัฒนา AI tools ที่เหมาะกับ age-appropriate learning ตาม framework ของ Udir"
+    ],
+    "actions_business": [
+      "บริษัท EdTech ต้องปรับ product roadmap รับมือกฎระเบียบ AI ในโรงเรียนที่กำลังมาถึงทั่วยุโรป",
+      "ลงทุนใน AI literacy solutions สำหรับครูและนักเรียนมัธยมตาม framework ใหม่"
+    ],
+    "urgency": "high",
+    "related_domains": [
+      "AI Policy",
+      "EdTech",
+      "Generative AI",
+      "Regulation"
+    ],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "Thai/Techsauce/2026-06-22/norway-bans-ai-primary-school",
+    "article_md": "article.md",
+    "article_json": "article.json"
+  }
+}

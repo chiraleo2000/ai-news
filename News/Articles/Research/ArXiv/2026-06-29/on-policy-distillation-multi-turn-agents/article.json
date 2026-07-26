@@ -1,0 +1,78 @@
+{
+  "article_id": "on-policy-distillation-multi-turn-agents-2606-15912",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "Research",
+    "source_name": "ArXiv cs.LG",
+    "registry_key": "Research/ArXivLG",
+    "domain": "AI-RESEARCH",
+    "main_url": "https://arxiv.org/list/cs.LG/recent"
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2606.15912",
+    "type": "direct",
+    "origin": "direct",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-29T07:00:00+07:00",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-16T00:00:00Z",
+    "scraped_at": "2026-06-29T07:00:00+07:00",
+    "run_date": "2026-06-29",
+    "target_date": "2026-06-29",
+    "within_24h": false,
+    "status": "scraped",
+    "batch": "3",
+    "category": "AI-RESEARCH",
+    "category_label": "งานวิจัย AI",
+    "news_type": "วิจัย",
+    "tags": [
+      "LLM",
+      "Agents",
+      "Reinforcement Learning",
+      "Distillation"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents",
+    "title_th": "การ Distillation แบบ On-Policy พร้อม Curriculum Turn-level Guidance สำหรับ Multi-turn Agents",
+    "slug": "on-policy-distillation-multi-turn-agents",
+    "summary": "งานวิจัยเสนอวิธี On-Policy Distillation ร่วมกับ Curriculum Turn-level Guidance เพื่อเพิ่มประสิทธิภาพการฝึก multi-turn agent",
+    "summary_1": "การฝึก LLM agent ในสถานการณ์แบบ multi-turn นั้นเป็นความท้าทายสำคัญ เนื่องจาก agent ต้องตัดสินใจให้ถูกต้องในทุก turn ของการสนทนา งานวิจัยนี้เสนอแนวทาง On-Policy Distillation ที่ใช้ Curriculum Turn-level Guidance เป็นสัญญาณแนะนำในการฝึก โดย agent นักเรียนจะได้รับคำแนะนำจาก teacher model ในระดับ turn แทนที่จะเป็นระดับ trajectory ทั้งหมด Curriculum ถูกออกแบบให้เรียนรู้จาก turn ที่ง่ายไปยากอย่างค่อยเป็นค่อยไป ส่งผลให้ agent สามารถเรียนรู้การตัดสินใจได้เร็วขึ้นและมีประสิทธิภาพมากขึ้น ผลการทดลองแสดงให้เห็นการปรับปรุงที่มีนัยสำคัญบน benchmark มาตรฐานสำหรับ agentic task แนวทางนี้มีความสำคัญสำหรับการพัฒนา AI agent ในงานที่ต้องการการโต้ตอบหลายรอบ เช่น customer service หรือ coding assistant",
+    "body_text": "",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "วิธีการฝึก agent ใหม่นี้ช่วยลดต้นทุนการ training และเพิ่มคุณภาพของ multi-turn agent โดยไม่จำเป็นต้องมี reward model ขนาดใหญ่",
+    "actions_developer": [
+      "นำ curriculum-based distillation มาประยุกต์กับการฝึก coding agent หรือ customer service agent",
+      "ทดลองใช้ turn-level guidance แทน trajectory-level reward ในระบบ RLHF ที่มีอยู่"
+    ],
+    "actions_business": [
+      "ประเมินต้นทุนการฝึก multi-turn agent ด้วยแนวทางนี้เทียบกับ RLHF แบบเดิม",
+      "วางแผนนำ agent ที่ฝึกด้วย on-policy distillation มาใช้ใน chatbot สำหรับลูกค้า"
+    ],
+    "urgency": "medium",
+    "related_domains": [
+      "LLM",
+      "Agents",
+      "Reinforcement Learning",
+      "Distillation"
+    ],
+    "breakthrough_potential": true
+  },
+  "paths": {
+    "relative": "Research/ArXiv/2026-06-29/on-policy-distillation-multi-turn-agents",
+    "batch_file": "News/Batches/2026-06-29/batch_3.json"
+  }
+}

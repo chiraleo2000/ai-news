@@ -1,0 +1,78 @@
+{
+  "article_id": "mas-promptbench-multi-agent-llm-2606-23664",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "Research",
+    "source_name": "ArXiv cs.LG",
+    "registry_key": "Research/ArXivLG",
+    "domain": "AI-RESEARCH",
+    "main_url": "https://arxiv.org/list/cs.LG/recent"
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2606.23664",
+    "type": "direct",
+    "origin": "direct",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-29T07:00:00+07:00",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-23T00:00:00Z",
+    "scraped_at": "2026-06-29T07:00:00+07:00",
+    "run_date": "2026-06-29",
+    "target_date": "2026-06-29",
+    "within_24h": false,
+    "status": "scraped",
+    "batch": "3",
+    "category": "AI-RESEARCH",
+    "category_label": "งานวิจัย AI",
+    "news_type": "วิจัย",
+    "tags": [
+      "Multi-Agent Systems",
+      "LLM",
+      "Prompt Engineering",
+      "Agents"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?",
+    "title_th": "MAS-PromptBench: Prompt Optimization ช่วยปรับปรุง Multi-Agent LLM Systems ได้เมื่อไหร่?",
+    "slug": "mas-promptbench-multi-agent-llm",
+    "summary": "MAS-PromptBench เป็น benchmark ใหม่สำหรับศึกษาว่า prompt optimization ส่งผลดีต่อระบบ multi-agent LLM เมื่อไหร่และในเงื่อนไขใด",
+    "summary_1": "เมื่อ multi-agent LLM system กลายเป็น paradigm หลักในการพัฒนา AI application คำถามสำคัญคือ prompt optimization มีผลต่อประสิทธิภาพของระบบเหล่านี้มากน้อยแค่ไหน MAS-PromptBench เสนอ framework มาตรฐานสำหรับวัดผลกระทบของการปรับ prompt ในระบบ multi-agent โดยครอบคลุมสถาปัตยกรรม agent หลากหลายรูปแบบ งานวิจัยนี้ค้นพบว่าประสิทธิภาพของ prompt optimization ขึ้นอยู่กับปัจจัยหลายอย่าง เช่น ความซับซ้อนของ task ประเภทของ agent topology และวิธีการ communication ระหว่าง agent ผลการทดลองพบว่าในบาง configuration prompt optimization กลับทำให้ประสิทธิภาพลดลง ซึ่งเป็นข้อค้นพบสำคัญสำหรับผู้พัฒนาที่ต้องการ optimize multi-agent pipeline",
+    "body_text": "",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "ผลการศึกษานี้ช่วยให้นักพัฒนาตัดสินใจได้ว่าเมื่อใดควรลงทุนกับ prompt optimization ใน multi-agent system",
+    "actions_developer": [
+      "ใช้ MAS-PromptBench เป็น baseline สำหรับ evaluate prompt optimization strategy ใน multi-agent pipeline",
+      "ศึกษา agent topology ที่ได้ประโยชน์สูงสุดจาก prompt optimization ก่อนลงทุน"
+    ],
+    "actions_business": [
+      "ทบทวนกลยุทธ์ prompt engineering ในระบบ multi-agent ขององค์กรโดยอ้างอิงจาก benchmark นี้",
+      "จัดสรร budget สำหรับ prompt optimization อย่างมีเป้าหมายมากขึ้น"
+    ],
+    "urgency": "medium",
+    "related_domains": [
+      "Multi-Agent Systems",
+      "LLM",
+      "Prompt Engineering",
+      "Agents"
+    ],
+    "breakthrough_potential": false
+  },
+  "paths": {
+    "relative": "Research/ArXiv/2026-06-29/mas-promptbench-multi-agent-llm",
+    "batch_file": "News/Batches/2026-06-29/batch_3.json"
+  }
+}

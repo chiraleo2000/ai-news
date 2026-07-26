@@ -1,0 +1,72 @@
+{
+  "article_id": "b1-bn-gemini-meta-001",
+  "schema_version": "2.0",
+  "topic_group": "thailand",
+  "source_info": {
+    "category": "Thai",
+    "source_name": "Blognone",
+    "registry_key": "Thai/Blognone",
+    "domain": "AI-product",
+    "main_url": "https://www.blognone.com"
+  },
+  "source": {
+    "url": "https://www.blognone.com/node/151009",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-28T12:00:00+07:00",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-28T20:27:00+07:00",
+    "scraped_at": "2026-06-28T12:00:00+07:00",
+    "run_date": "2026-06-28",
+    "target_date": "2026-06-28",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "1",
+    "category": "AI-PRODUCT",
+    "category_label": "ผลิตภัณฑ์ AI",
+    "news_type": "ข่าว",
+    "tags": ["Gemini", "Google", "Meta", "Artificial Intelligence", "Cloud"],
+    "language": "th"
+  },
+  "content": {
+    "title": "[ไม่ยืนยัน] Google จำกัดการใช้ Gemini Enterprise สำหรับ Meta เพราะขยาย infrastructure ให้ไม่ทัน",
+    "title_th": "Google จำกัดการใช้ Gemini Enterprise สำหรับ Meta เพราะขยาย infrastructure ให้ไม่ทัน",
+    "slug": "google-gemini-meta-infrastructure-limit",
+    "summary": "มีรายงานว่า Google แจ้ง Meta ว่าไม่สามารถจัดสรรทรัพยากรรัน Gemini ให้เพียงพอตามคำสั่งซื้อ ส่งผลให้ Meta ต้องเลื่อนแผนโครงการ AI หลายอย่าง",
+    "summary_1": "มีรายงานจาก The Information อ้างแหล่งข่าวที่เกี่ยวข้องระบุว่า ในเดือนมีนาคม 2026 ที่ผ่านมา Google ได้แจ้ง Meta ว่าไม่สามารถจัดสรรทรัพยากรสำหรับการรัน Gemini Enterprise ให้เพียงพอตามคำสั่งซื้อที่ Meta ต้องการได้ ปัญหาดังกล่าวเกิดจากการที่ Google ขยาย infrastructure ไม่ทันกับความต้องการที่พุ่งสูงขึ้นอย่างรวดเร็ว ส่งผลให้ Meta ต้องเลื่อนแผนโครงการ AI หลายอย่างออกไป รวมถึงต้องจำกัดการใช้โทเค็นซึ่งเคยมีรายงานออกมาก่อนหน้า ทั้งนี้ปัญหาดังกล่าวไม่ได้จำกัดเฉพาะ Meta เท่านั้น แต่ลูกค้า Google หลายรายก็ประสบปัญหาเช่นกัน เพียงแต่ผลกระทบอาจน้อยกว่า เนื่องจากคำสั่งซื้อของ Meta นั้นสูงกว่าลูกค้ารายอื่นมาก นับเป็นสัญญาณสำคัญที่บ่งชี้ว่าความต้องการ AI ระดับองค์กรกำลังเติบโตเร็วกว่าที่ผู้ให้บริการ Cloud รายใหญ่สามารถรองรับได้",
+    "body_text": "รายงานจาก The Information ระบุว่าในเดือนมีนาคม 2026 Google ได้แจ้ง Meta ว่าไม่สามารถจัดสรรทรัพยากรรัน Gemini Enterprise ให้ Meta ได้เพียงพอตามคำสั่งซื้อ ส่งผลให้ Meta ต้องเลื่อนแผนโครงการ AI หลายอย่างออกไป รวมถึงจำกัดการใช้โทเค็น ปัญหาไม่ได้จำกัดเฉพาะ Meta แต่ลูกค้า Google หลายรายก็เจอปัญหาเช่นกัน โดยคำสั่งซื้อ Meta นั้นสูงกว่าลูกค้าอื่นมากทำให้ผลกระทบหนักกว่า",
+    "language": "th",
+    "original_language": "th"
+  },
+  "tech_insights": {
+    "impact_summary": "เหตุการณ์นี้แสดงให้เห็นว่าความต้องการ AI ระดับองค์กรกำลังเติบโตเร็วกว่าความสามารถในการขยาย infrastructure ของผู้ให้บริการ Cloud รายใหญ่ ซึ่งอาจส่งผลต่อแผนการพัฒนา AI ของบริษัทเทคโนโลยีหลายแห่งทั่วโลก",
+    "actions_developer": [
+      "วางแผนสำรองผู้ให้บริการ AI หลายรายเพื่อลดความเสี่ยงด้านความพร้อมใช้งาน",
+      "ติดตามข้อตกลง SLA และ capacity ของผู้ให้บริการ Cloud ก่อนทำสัญญาขนาดใหญ่"
+    ],
+    "actions_business": [
+      "วางแผน AI roadmap โดยคำนึงถึงความเสี่ยงจากข้อจำกัดด้าน infrastructure ของผู้ให้บริการ",
+      "พิจารณา multi-cloud strategy สำหรับโครงการ AI ที่สำคัญ"
+    ],
+    "urgency": "medium",
+    "related_domains": ["LLM", "Cloud", "AI Infrastructure", "Enterprise AI"],
+    "breakthrough_potential": false
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "Thai/Blognone/2026-06-28/google-gemini-meta-infrastructure-limit",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-06-28/batch_1.json"
+  }
+}

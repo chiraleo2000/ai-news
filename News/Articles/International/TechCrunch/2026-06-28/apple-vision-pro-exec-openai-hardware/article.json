@@ -1,0 +1,74 @@
+{
+  "article_id": "b2-apple-visionpro-openai-009",
+  "schema_version": "2.0",
+  "topic_group": "tech-trends",
+  "source_info": {
+    "category": "International",
+    "source_name": "TechCrunch",
+    "registry_key": "Intl/TechCrunch",
+    "domain": "AI-business",
+    "main_url": "https://techcrunch.com"
+  },
+  "source": {
+    "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-28T12:30:00+07:00",
+    "fetch_mode": "rendered",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-27T16:45:09+00:00",
+    "scraped_at": "2026-06-28T12:30:00+07:00",
+    "run_date": "2026-06-28",
+    "target_date": "2026-06-28",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "2",
+    "category": "AI-BUSINESS",
+    "category_label": "ธุรกิจ AI",
+    "news_type": "ข่าว",
+    "tags": ["apple", "openai", "vision-pro", "hardware", "paul-meade", "jony-ive", "ai-device", "smart-glasses"],
+    "language": "th"
+  },
+  "content": {
+    "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+    "title_th": "ผู้บริหาร Apple Vision Pro กำลังลาออกไปร่วมงาน OpenAI",
+    "slug": "apple-vision-pro-exec-openai-hardware",
+    "summary": "Paul Meade รองประธาน Apple ผู้ดูแล Vision Pro และโครงการ smart glasses กำลังลาออกเพื่อร่วมทีม hardware ของ OpenAI ซึ่งกำลังพัฒนา AI device ร่วมกับ Jony Ive อดีต CDO ของ Apple",
+    "summary_1": "Paul Meade รองประธาน Apple ผู้รับผิดชอบ Vision Pro headset และการพัฒนา smart glasses รุ่น AI ที่ Apple วางแผนปล่อยในปีหน้า กำลังลาออกจาก Apple เพื่อเข้าร่วมทีม hardware ของ OpenAI ตามรายงานของ Bloomberg's Mark Gurman การออกจากบริษัทครั้งนี้เกิดจากการปรับโครงสร้างทีม hardware engineering ของ Apple ภายใต้การนำของ John Ternus CEO คนใหม่ที่กำลังจะเข้ารับตำแหน่ง ซึ่งทำให้รองประธานหลายคนรู้สึกว่าถูกลดบทบาท OpenAI ที่ดึงตัว Meade ไปนั้นกำลังพัฒนา AI device ร่วมกับ Jony Ive อดีต Chief Design Officer ของ Apple ที่ Sam Altman อธิบายว่าจะเป็นอุปกรณ์ที่ 'peaceful and calm กว่า iPhone' แม้รายงานก่อนหน้าบ่งชี้ว่าโปรเจ็กต์ยังประสบปัญหาด้าน concept และ design อยู่",
+    "body_text": "Vision Pro ไม่ประสบความสำเร็จเชิงพาณิชย์เท่าที่ Apple คาดหวัง Apple จึงเปลี่ยน strategy มุ่งเน้น smart glasses ที่ราคาถูกกว่าเพื่อแข่งกับ Meta Ray-Ban แทน โดย Meade เคยดูแลทั้งสองโปรเจ็กต์ การที่ OpenAI ดึงผู้บริหารระดับสูงด้าน hardware จาก Apple แสดงให้เห็นว่า OpenAI กำลังลงทุนจริงจังในการสร้าง AI-native hardware ที่จะแข่งขันในตลาดที่ Apple และ Meta ครองอยู่",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "การเคลื่อนย้ายผู้บริหาร hardware ชั้นนำจาก Apple ไป OpenAI เป็นสัญญาณว่า wave ถัดไปของ AI competition จะอยู่ที่ physical hardware layer ไม่ใช่แค่ software และ API ทำให้ Apple ต้องแข่งขันในสนามใหม่ที่ OpenAI กำลังสร้าง",
+    "actions_developer": [
+      "ติดตามความคืบหน้าของ OpenAI/Jony Ive AI device เพื่อเตรียม SDK และ developer ecosystem ล่วงหน้า",
+      "ศึกษา Apple smart glasses API ที่กำลังจะมาในปีหน้า เพื่อเตรียม apps สำหรับ platform ใหม่"
+    ],
+    "actions_business": [
+      "ประเมิน AI wearable/hardware strategy ของตัวเองว่าควรเริ่มทดลองกับ Meta Ray-Ban หรือรอ Apple/OpenAI",
+      "ติดตามการ launch AI device ของ OpenAI ซึ่งอาจเปลี่ยน paradigm การ interact กับ AI อย่างสิ้นเชิง"
+    ],
+    "urgency": "medium",
+    "related_domains": ["AI-hardware", "wearable-AI", "OpenAI", "Apple"],
+    "breakthrough_potential": true
+  },
+  "media_links": {
+    "image": "https://techcrunch.com/wp-content/uploads/2023/06/Vision-Pro-IMG-3.jpeg"
+  },
+  "paths": {
+    "relative": "International/TechCrunch/2026-06-28/apple-vision-pro-exec-openai-hardware",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-06-28/batch_2.json"
+  }
+}
