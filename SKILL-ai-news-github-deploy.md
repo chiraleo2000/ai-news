@@ -28,4 +28,6 @@ trigger:
 4. `git add` only: `data/`, `github-pages/data/`, `Document/{today}_News/`, `Document/manifest.json`
 5. Commit `Update AI news {today}` if needed → `git push origin master` (retry / rebase) → verify `HEAD == origin/master`
 
+**Windows backup:** `PUSH.bat` (clear locks → add data → commit → push). Scheduled daily **6:00 PM** as task `AI-News-DailyPush`.
+
 Live: https://chiraleo2000.github.io/ai-news/
