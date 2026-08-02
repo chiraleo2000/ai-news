@@ -1,0 +1,614 @@
+{
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T18:30:00+07:00",
+  "schema_version": "2.0",
+  "stats": {
+    "total": 15,
+    "by_topic": {
+      "ai_trends": 10,
+      "tech_trends": 1,
+      "thailand": 0,
+      "global": 4
+    },
+    "by_source_category": {
+      "thai": 6,
+      "international": 5,
+      "research": 4,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 2,
+      "medium": 7,
+      "low": 6
+    },
+    "breakthrough_count": 2
+  },
+  "top_insights": [
+    {
+      "title": "OpenAI ทวงคืนบัลลังก์ ปล่อย ChatGPT Work เอเจนต์สุดโหดที่เบื้องหลังความเก่งคือ GPT-5.6 และ Codex",
+      "impact_summary": "ChatGPT Work เร่งการแข่งขันด้าน Agentic AI สำหรับองค์กรระหว่าง OpenAI และ Anthropic ให้ดุเดือดขึ้น พร้อมเปลี่ยนโมเดลราคาเป็นแบบ compute-based",
+      "urgency": "high",
+      "related_domains": [
+        "OpenAI",
+        "Agentic AI",
+        "Enterprise AI",
+        "GPT-5.6"
+      ],
+      "article_id": "2026-07-11-B1-005"
+    },
+    {
+      "title": "Fable's Return and Fallout",
+      "impact_summary": "กรณีนี้เป็นความขัดแย้งระดับสูงครั้งแรกระหว่างรัฐบาลสหรัฐฯ กับบริษัท AI ที่นำไปสู่การระงับโมเดลทั่วโลก และอาจกลายเป็นบรรทัดฐานการกำกับดูแล AI ในอนาคต",
+      "urgency": "high",
+      "related_domains": [
+        "AI policy",
+        "AI governance",
+        "cybersecurity",
+        "export control"
+      ],
+      "article_id": "2026-07-11-B2-003"
+    }
+  ],
+  "posts": [
+    {
+      "id": "2026-07-11-B1-001",
+      "slug": "blognone-001",
+      "title": "แอปเปิลฟ้อง OpenAI ข้อหาขโมยความลับทางการค้าฮาร์ดแวร์ผ่านอดีตพนักงาน",
+      "topic": "Blognone",
+      "topic_group": "global",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "แอปเปิลยื่นฟ้อง OpenAI ต่อศาลเมื่อวันที่ 10 กรกฎาคม 2026 ในข้อหาขโมยความลับทางการค้าเกี่ยวกับโครงการฮาร์ดแวร์ของบริษัท ศูนย์กลางของคดีคือ Tang Tan อดีตหัวหน้าฝ่ายออกแบบผลิตภัณฑ์ของแอปเปิลที่ลาออกช่วงปลายปี 2023 ไปอยู่กับบริษัท io ของ Jony Ive ก่อนที่ io จะถูก OpenAI ซื้อกิจการในปี 2025 รวมถึง Chang Liu ผู้บริหารฝ่ายฮาร์ดแวร์อีกคนที่เพิ่งย้ายไป OpenAI ต้นปี 2026 แอปเปิลระบุว่า Tan ใช้ความรู้ภายในซักถามผู้สมัครงานที่มาสัมภาษณ์กับ OpenAI เพื่อล้วงข้อมูลโครงการฮาร์ดแวร์ลับ และพบแพทเทิร์นพนักงานกว่า 400 คนที่ลาออกไปอยู่กับ OpenAI แล้ว ฝั่ง OpenAI ปฏิเสธทุกข้อกล่าวหา ยืนยันไม่สนใจความลับการค้าของบริษัทอื่น เหตุการณ์นี้เกิดขึ้นท่ามกลางความตึงเครียดระหว่างสองบริษัทที่มีอยู่แล้วจากกรณี OpenAI เตรียมฟ้องแอปเปิลเรื่องความร่วมมือ ChatGPT บน iOS เช่นกัน",
+      "source_url": "https://www.blognone.com/node/151120",
+      "tech_impact": "ข้อพิพาททางกฎหมายระหว่างแอปเปิลกับ OpenAI สะท้อนการแย่งชิงบุคลากรและองค์ความรู้ด้านฮาร์ดแวร์ AI ที่ทวีความรุนแรงขึ้นระหว่างบริษัทเทคยักษ์ใหญ่",
+      "tags": [
+        "OpenAI",
+        "Apple",
+        "AI Hardware",
+        "Corporate Litigation"
+      ],
+      "category_label": "Blognone",
+      "published_at": "2026-07-11",
+      "breakthrough_potential": "low",
+      "related_domains": [
+        "OpenAI",
+        "Apple",
+        "AI Hardware",
+        "Corporate Litigation"
+      ],
+      "actions_developer": [
+        "ติดตามผลคดีเพื่อประเมินความเสี่ยงด้านทรัพย์สินทางปัญญาหากทำงานเกี่ยวข้องกับโครงการฮาร์ดแวร์ AI ข้ามบริษัท"
+      ],
+      "actions_business": [
+        "ทบทวนมาตรการป้องกันความลับทางการค้าและข้อตกลง non-disclosure สำหรับพนักงานที่อาจย้ายไปคู่แข่งด้าน AI",
+        "ติดตามผลกระทบของคดีต่อแผนพัฒนาฮาร์ดแวร์ AI ของ OpenAI ที่อาจล่าช้าออกไป"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-07-11-B1-002",
+      "slug": "blognone-002",
+      "title": "Meta ถอดฟีเจอร์สร้างคอนเทนต์ AI จากบัญชีสาธารณะบน Instagram หลังกระแสตอบรับด้านลบ",
+      "topic": "Blognone",
+      "topic_group": "ai-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Meta ประกาศยกเลิกฟีเจอร์สร้างคอนเทนต์ด้วย Meta AI บน Instagram ที่เพิ่งเปิดตัวไปไม่กี่วันก่อนหน้า เมื่อวันที่ 11 กรกฎาคม 2026 หลังกระแสตอบรับจากผู้ใช้เป็นไปในทางลบอย่างหนัก ฟีเจอร์นี้ใช้โมเดลสร้างภาพ Muse Image ให้ผู้ใช้พิมพ์ @ เพื่ออ้างอิงโพสต์จากบัญชีสาธารณะใดก็ได้บน Instagram มาสร้างเนื้อหาต่อด้วย AI โดยเจ้าของบัญชีสาธารณะต้องปิดกั้นการเข้าถึงเอง (opt-out) ทำให้เกิดกระแสวิพากษ์วิจารณ์รุนแรงในโซเชียลมีเดีย มีโพสต์สอนวิธีปิดไม่ให้ Meta AI เข้าถึงเนื้อหาของตนจำนวนมาก และหลายองค์กรด้านงานสร้างสรรค์รวมถึงนักแสดงในสหรัฐออกมาโจมตีฟีเจอร์นี้ โดยมองว่า Meta ผลักดันฟีเจอร์จนมองข้ามประเด็นการละเมิดสิทธิเนื้อหาของผู้ใช้ Meta จึงตัดสินใจถอดฟีเจอร์นี้ออกจากระบบทันที สะท้อนความอ่อนไหวของสาธารณะต่อการใช้ AI ดึงเนื้อหาคนอื่นมาสร้างสรรค์ใหม่โดยไม่ได้รับความยินยอมชัดเจน",
+      "source_url": "https://www.blognone.com/node/151122",
+      "tech_impact": "กระแสต่อต้านฟีเจอร์ AI ของ Instagram ชี้ให้เห็นความเสี่ยงด้านความยินยอมและสิทธิเนื้อหาเมื่อแพลตฟอร์มใช้ AI ดึงคอนเทนต์สาธารณะมาสร้างใหม่โดยไม่ขอ opt-in ก่อน",
+      "tags": [
+        "Meta AI",
+        "Generative AI",
+        "Content Rights",
+        "Social Media"
+      ],
+      "category_label": "Blognone",
+      "published_at": "2026-07-11",
+      "breakthrough_potential": "low",
+      "related_domains": [
+        "Meta AI",
+        "Generative AI",
+        "Content Rights",
+        "Social Media"
+      ],
+      "actions_developer": [
+        "ออกแบบฟีเจอร์ AI ที่ใช้ข้อมูลผู้ใช้อื่นให้เป็นระบบ opt-in แทน opt-out เพื่อลดความเสี่ยงด้านความไว้วางใจ",
+        "ทบทวนแนวทาง content attribution และการขอความยินยอมก่อนนำเนื้อหาสาธารณะมาประมวลผลด้วย AI"
+      ],
+      "actions_business": [
+        "ติดตามกรณีนี้เป็นบทเรียนก่อนเปิดตัวฟีเจอร์ AI ที่เกี่ยวข้องกับเนื้อหาผู้ใช้บนแพลตฟอร์มโซเชียลของตนเอง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-07-11-B1-003",
+      "slug": "techsauce-003",
+      "title": "Techsauce สรุป 3 เทรนด์จาก Summer Davos 2026 ชี้ AI พลังงาน และจีนเปลี่ยนกติกาธุรกิจโลก",
+      "topic": "Techsauce",
+      "topic_group": "global",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Techsauce เผยแพร่วิดีโอสรุปประเด็นจากเวที Summer Davos 2026 หรือ AMNC26 ที่เมือง Dalian ประเทศจีน เมื่อวันที่ 11 กรกฎาคม 2026 ชี้ 3 เทรนด์สำคัญที่ธุรกิจไทยต้องปรับตัว ประเด็นแรกคือ AI Productivity Gap ซึ่งพบว่า 75% ขององค์กรทั่วโลกทุ่มงบลงทุน AI มหาศาลแต่กลับล้มเหลว เพราะเพียงนำ AI ไปแปะบนวิธีทำงานเดิมโดยไม่ Redesign Workflow ประเด็นที่สองคือพลังงานกลายเป็นคอขวดสำคัญของนวัตกรรม AI เพราะหากไม่มีไฟฟ้าเสถียรและสะอาดเพียงพอ การพัฒนา AI จะสะดุด และประเด็นที่สามคือจีนกำลังปรับยุทธศาสตร์จาก 'โรงงานโลก' สู่ 'Innovation Hub' ผ่านกรณีศึกษา Alibaba และ SME จีนที่เชื่อมต่อซัพพลายเชนข้ามพรมแดน Techsauce สรุปว่าธุรกิจไทยต้อง Redesign การทำงานด้วย AI อย่างจริงจัง สร้างความมั่นคงด้านพลังงานสะอาด และมองจีนเป็นพาร์ทเนอร์มากกว่าคู่แข่ง",
+      "source_url": "https://techsauce.co/tech-and-biz/techsauce-summer-davos-2026",
+      "tech_impact": "บทสรุปจาก Summer Davos ชี้ว่าองค์กรส่วนใหญ่ล้มเหลวในการลงทุน AI เพราะไม่ปรับ workflow และพลังงานกำลังกลายเป็นข้อจำกัดหลักของการขยายตัว AI ทั่วโลก",
+      "tags": [
+        "AI Productivity",
+        "Energy Transition",
+        "China Strategy",
+        "Business Trends"
+      ],
+      "category_label": "Techsauce",
+      "published_at": "2026-07-11",
+      "breakthrough_potential": "medium",
+      "related_domains": [
+        "AI Productivity",
+        "Energy Transition",
+        "China Strategy",
+        "Business Trends"
+      ],
+      "actions_developer": [
+        "ศึกษาแนวทาง Redesign Workflow ให้เหมาะกับการทำงานร่วมกับ AI แทนการนำ AI มาแปะบนกระบวนการเดิม"
+      ],
+      "actions_business": [
+        "ประเมินความมั่นคงด้านพลังงานขององค์กรก่อนขยายการลงทุนโครงสร้างพื้นฐาน AI ระยะยาว",
+        "พิจารณาสร้างพันธมิตรกับผู้เล่นจีนรายใหม่เพื่อเชื่อมต่อซัพพลายเชนข้ามพรมแดนแทนการมองเป็นคู่แข่งเพียงอย่างเดียว"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-07-11-B1-004",
+      "slug": "techsauce-004",
+      "title": "Anthropic เปิดตัว Claude Reflect ฟีเจอร์สรุปการใช้งาน AI พร้อมเตือนสติให้พึ่งพา AI น้อยลง",
+      "topic": "Techsauce",
+      "topic_group": "ai-trends",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "Anthropic เปิดตัวฟีเจอร์ Claude Reflect เมื่อวันที่ 10 กรกฎาคม 2026 เป็นฟีเจอร์สรุปการใช้งาน AI สไตล์ Wrapped เปิดให้ทดลองใช้แล้วสำหรับผู้ใช้ Free, Pro และ Max ที่เปิดใช้งาน Memory โดยเข้าถึงได้ผ่านเมนู Settings ทั้งบนเว็บและเดสก์ท็อป เลือกดูสรุปย้อนหลังได้ตั้งแต่ 1 ถึง 12 เดือน ระบบวิเคราะห์รูปแบบการใช้งานผ่านกรอบ 4D AI Fluency คือการมอบหมายงาน การอธิบาย การพินิจพิเคราะห์ และความรอบคอบ ซึ่งพัฒนาร่วมกับ MIT Media Lab และ Digital Wellness Lab จุดเด่นที่แตกต่างจากบริษัทเทคทั่วไปคือ Anthropic ตั้งใจกระตุ้นให้ผู้ใช้พึ่งพา AI น้อยลง ด้วยคำถามทบทวนตัวเอง ฟีเจอร์ Quiet hours และ Time-spent view ที่กำลังจะตามมา โดยยืนยันว่าบทสนทนาเกี่ยวกับสุขภาพหรือโหมดไม่ระบุตัวตนจะไม่ถูกนำมาวิเคราะห์",
+      "source_url": "https://techsauce.co/ai/claude-reflect-anthropic-ai-wrapped",
+      "tech_impact": "Claude Reflect เป็นมูฟเมนต์ที่หายากในวงการ AI เมื่อบริษัทผู้พัฒนาเลือกส่งเสริมสุขภาวะและลดการพึ่งพาผลิตภัณฑ์ของตัวเองแทนการดึงดูดเวลาใช้งาน",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "AI Wellbeing",
+        "Digital Wellness"
+      ],
+      "category_label": "Techsauce",
+      "published_at": "2026-07-10",
+      "breakthrough_potential": "medium",
+      "related_domains": [
+        "Anthropic",
+        "Claude",
+        "AI Wellbeing",
+        "Digital Wellness"
+      ],
+      "actions_developer": [
+        "ศึกษาแนวคิด 4D AI Fluency เพื่อออกแบบฟีเจอร์ที่ช่วยผู้ใช้ตระหนักถึงพฤติกรรมการพึ่งพา AI ของตนเอง"
+      ],
+      "actions_business": [
+        "พิจารณานำแนวคิด wellbeing-first ไปปรับใช้ในผลิตภัณฑ์ AI ขององค์กรเพื่อสร้างความน่าเชื่อถือระยะยาว",
+        "ติดตามฟีเจอร์ Time-spent view ที่จะตามมา เพื่อประเมินผลกระทบต่อพฤติกรรมผู้ใช้งานองค์กร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-07-11-B1-005",
+      "slug": "techsauce-005",
+      "title": "OpenAI เปิดตัว ChatGPT Work เอเจนต์องค์กรขับเคลื่อนด้วย GPT-5.6 ท้าชน Claude Cowork",
+      "topic": "Techsauce",
+      "topic_group": "ai-trends",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "OpenAI เปิดตัว ChatGPT Work เมื่อวันที่ 10 กรกฎาคม 2026 เป็นฟีเจอร์ AI Agent ระดับองค์กรที่ขับเคลื่อนด้วยโมเดล GPT-5.6 และเทคโนโลยี Codex ถือเป็นการโต้กลับ Claude Cowork ของ Anthropic ที่เปิดตัวก่อนหน้านี้ในตลาดผู้ช่วยงานองค์กร ฟีเจอร์นี้เชื่อมต่อกับเครื่องมือทำงานอย่าง Slack, Microsoft Teams, Google Workspace, อีเมล และ CRM เพื่อดึงข้อมูลมาทำงานได้ทันที สามารถสร้างสเปรดชีต สไลด์ เอกสารสรุป หรือเว็บไซต์ผ่านฟีเจอร์ Sites ตั้งเวลาทำงานเบื้องหลังอัตโนมัติ และควบคุมคอมพิวเตอร์แทนผู้ใช้ได้บนเดสก์ท็อปแอป เปิดให้ใช้งานก่อนสำหรับแพ็กเกจ Pro, Enterprise และ Edu ส่วน Plus และ Business จะตามมาในไม่กี่วัน การคิดค่าบริการใช้ระบบ Compute-based Usage ตามปริมาณงานจริง พร้อมระบบ Spend Controls ให้องค์กรกำหนดวงเงินการใช้งานได้อย่างยืดหยุ่น",
+      "source_url": "https://techsauce.co/ai/openai-launches-chatgpt-work-ai-agent-gpt-5-6",
+      "tech_impact": "ChatGPT Work เร่งการแข่งขันด้าน Agentic AI สำหรับองค์กรระหว่าง OpenAI และ Anthropic ให้ดุเดือดขึ้น พร้อมเปลี่ยนโมเดลราคาเป็นแบบ compute-based",
+      "tags": [
+        "OpenAI",
+        "Agentic AI",
+        "Enterprise AI",
+        "GPT-5.6"
+      ],
+      "category_label": "Techsauce",
+      "published_at": "2026-07-10",
+      "breakthrough_potential": "high",
+      "related_domains": [
+        "OpenAI",
+        "Agentic AI",
+        "Enterprise AI",
+        "GPT-5.6"
+      ],
+      "actions_developer": [
+        "ทดลองเชื่อมต่อ ChatGPT Work กับเครื่องมือองค์กรที่ใช้อยู่ เพื่อประเมินความสามารถ agentic เทียบกับ Claude Cowork",
+        "ศึกษาโครงสร้างการคิดค่าบริการแบบ Compute-based Usage ก่อนวางแผนงบประมาณการใช้งานระยะยาว"
+      ],
+      "actions_business": [
+        "ประเมินการนำ ChatGPT Work มาใช้แทนหรือเสริมเครื่องมือ AI agent ที่มีอยู่ พร้อมตั้งค่า Spend Controls ให้เหมาะกับแต่ละแผนก"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-07-11-B1-006",
+      "slug": "techsauce-006",
+      "title": "เลขาธิการ APEC ชี้ AI และการค้าเปลี่ยนกติกาโลก Trust คือสกุลเงินใหม่ของเอเชียแปซิฟิก",
+      "topic": "Techsauce",
+      "topic_group": "global",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "Techsauce สัมภาษณ์ Eduardo Pedrosa ผู้อำนวยการบริหารสำนักเลขาธิการ APEC ระหว่างการประชุม ABAC3 ที่กรุงเทพฯ เผยแพร่เมื่อวันที่ 10 กรกฎาคม 2026 ชี้ว่า Trust คือสกุลเงินสำคัญของภูมิภาคเอเชียแปซิฟิกในวันที่ AI และการค้าเปลี่ยนกติกา ภาคธุรกิจจาก 21 เขตเศรษฐกิจกำลังจัดทำข้อเสนอกว่า 100 ข้อส่งต่อผู้นำ APEC ที่เซินเจิ้นปลายปีนี้ ครอบคลุมการค้า เศรษฐกิจดิจิทัล และ AI ประเด็นสำคัญคือ FTAAP ซึ่งครบรอบ 20 ปีในปี 2026 ต้องนิยามใหม่ให้ครอบคลุมข้อมูล พลังงาน และ AI Pedrosa เน้นเรื่อง Interoperability ให้กติกา AI ของแต่ละเขตเศรษฐกิจเชื่อมกันได้ โดยเฉพาะประเด็นทรัพย์สินทางปัญญาที่ AI ใช้ข้อมูลเดิมประมวลผล และเตือนว่า SME ไม่ควรเชื่อคำตอบจาก AI ทั้งหมด สำหรับไทยมีบทบาทผ่าน 2026 APEC BCG Award ที่เน้นผู้ประกอบการรายเล็กสร้างนวัตกรรมเศรษฐกิจหมุนเวียน",
+      "source_url": "https://techsauce.co/saucy-thoughts/apec-trust-ai-trade-abac3-eduardo-pedrosa",
+      "tech_impact": "APEC ผลักดันแนวคิด Interoperability ของกติกา AI ข้ามเขตเศรษฐกิจ เพื่อลดต้นทุนซ่อนเร้นที่ SME ต้องเผชิญเมื่อกฎ AI แต่ละประเทศแตกต่างกัน",
+      "tags": [
+        "AI Governance",
+        "APEC",
+        "Trade Policy",
+        "SME"
+      ],
+      "category_label": "Techsauce",
+      "published_at": "2026-07-10",
+      "breakthrough_potential": "low",
+      "related_domains": [
+        "AI Governance",
+        "APEC",
+        "Trade Policy",
+        "SME"
+      ],
+      "actions_developer": [
+        "ติดตามทิศทางมาตรฐานทรัพย์สินทางปัญญาสำหรับข้อมูลที่ AI ใช้ฝึกโมเดล เพื่อเตรียมปรับผลิตภัณฑ์ให้สอดคล้องกับกฎระเบียบภูมิภาค"
+      ],
+      "actions_business": [
+        "ใช้ AI ช่วยค้นหาข้อกำหนดและกฎระเบียบการค้าข้ามพรมแดนแต่ละเขตเศรษฐกิจ แต่ตรวจสอบความถูกต้องกับแหล่งข้อมูลทางการเสมอ",
+        "ติดตามโครงการ 2026 APEC BCG Award เพื่อประเมินโอกาสของ SME ไทยด้านเศรษฐกิจหมุนเวียนที่เชื่อมโยงกับนวัตกรรม"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-07-11-B2-001",
+      "slug": "marktechpost-001",
+      "title": "Google Research เปิดตัว SensorFM โมเดล foundation model ด้านสุขภาพจากอุปกรณ์สวมใส่ ฝึกด้วยข้อมูลเซนเซอร์กว่า 1 ล้านล้านนาที",
+      "topic": "MarkTechPost",
+      "topic_group": "ai-trends",
+      "source_name": "MarkTechPost",
+      "category": "International",
+      "urgency": "low",
+      "content": "Google Research เปิดตัว SensorFM โมเดล foundation model สำหรับข้อมูลเซนเซอร์จากอุปกรณ์สวมใส่ ผ่านการ pretrain ด้วยข้อมูลกว่า 1 ล้านล้านนาทีจากผู้เข้าร่วมกว่า 5 ล้านคนใน 100 กว่าประเทศ ครอบคลุมอุปกรณ์ Fitbit และ Pixel Watch กว่า 20 รุ่น โมเดลใช้สถาปัตยกรรม ViT-1D กับ masked-autoencoder objective และมี 4 ขนาดตั้งแต่ XXS (138,740 พารามิเตอร์) ไปจนถึง B (110.7 ล้านพารามิเตอร์) ทีมวิจัยทดสอบบนกลุ่มตัวอย่างอิสระ 13,985 คนใน 3 การศึกษาที่ผ่านการรับรอง IRB ครอบคลุม 35 งานทำนายด้านสุขภาพ ทั้งโรคหัวใจและหลอดเลือด เมตาบอลิซึม สุขภาพจิต การนอนหลับ และไลฟ์สไตล์ ผลลัพธ์ชี้ว่ารุ่น B ที่ฝึกด้วยข้อมูลเต็มรูปแบบชนะ 33 จาก 35 งาน และลด reconstruction loss ลง 31% เมื่อเทียบกับรุ่น XXS อย่างไรก็ตาม ทีมพบว่าการใช้โมเดลขนาดใหญ่กับข้อมูลน้อยเกินไป (5,000 คน) กลับให้ผลแย่กว่าโมเดลเล็กเนื่องจากเกิด overfitting งานวิจัยนี้ตอกย้ำแนวคิดการปรับขนาดโมเดลให้สอดคล้องกับปริมาณข้อมูลสำหรับ AI ด้านสุขภาพ",
+      "source_url": "https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data/",
+      "tech_impact": "โมเดล health foundation model ขนาดใหญ่ที่ฝึกด้วยข้อมูลเซนเซอร์มหาศาลอาจเปลี่ยนมาตรฐานการพัฒนาแอปสุขภาพจากอุปกรณ์สวมใส่ในอนาคต",
+      "tags": [
+        "health AI",
+        "wearable devices",
+        "foundation model"
+      ],
+      "category_label": "MarkTechPost",
+      "published_at": "2026-07-10",
+      "breakthrough_potential": "medium",
+      "related_domains": [
+        "health AI",
+        "wearable devices",
+        "foundation model"
+      ],
+      "actions_developer": [
+        "ศึกษาสถาปัตยกรรม ViT-1D และ masked-autoencoder objective เพื่อประยุกต์ใช้กับข้อมูล time-series อื่น",
+        "ทดสอบการปรับขนาดโมเดลให้สอดคล้องกับปริมาณข้อมูลก่อน deploy จริงเพื่อหลีกเลี่ยง overfitting"
+      ],
+      "actions_business": [
+        "ประเมินโอกาสความร่วมมือด้านการพัฒนาแอปสุขภาพที่ใช้ wearable data ร่วมกับ Google",
+        "ติดตามความคืบหน้าด้าน regulatory สำหรับการใช้ AI ทำนายผลสุขภาพเชิงคลินิก"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-07-11-B2-002",
+      "slug": "cohere-002",
+      "title": "Cohere เผยเทคนิค Hardware-Aware Dynamic Speculative Decoding (DSD) เร่งความเร็ว LLM inference ในระบบ production",
+      "topic": "Cohere",
+      "topic_group": "ai-trends",
+      "source_name": "Cohere",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Cohere เผยแพร่เทคนิค Hardware-Aware Dynamic Speculative Decoding (DSD) ต่อยอดจาก speculative decoding (SD) ซึ่งใช้โมเดลขนาดเล็ก (draft model) เสนอ token หลายตัวให้โมเดลหลัก (target model) ตรวจสอบพร้อมกัน จุดอ่อนของ SD แบบเดิมคือใช้จำนวน draft token คงที่ (K) ทำให้ช้าลงเมื่อ batch size สูงและกลายเป็น compute-bound DSD แก้ปัญหาด้วยการปรับค่า K แบบไดนามิกตามข้อจำกัดฮาร์ดแวร์ผ่านการวัดค่า goodput คืออัตราส่วนระหว่าง Acceptance Length กับ Inter-Token Latency ผลทดสอบบนโมเดล Command A (dense) พบว่า DSD เร็วกว่า SD แบบคงที่ถึง 23% ที่ batch size 128 และ 256 พร้อมไม่เกิดอาการถดถอยเหมือน SD เดิม ส่วนโมเดล Command A+ (MoE) ให้ผลใกล้เคียงกับ SD ปกติ ทีมงาน Cohere ได้ส่งเทคนิคนี้เข้าสู่โครงการโอเพนซอร์ส vLLM แล้ว พร้อมรองรับ async scheduling และ full CUDA Graph เพื่อใช้งานได้จริงในระบบ production",
+      "source_url": "https://cohere.com/blog/hardware-aware-dynamic-speculative-decoding",
+      "tech_impact": "เทคนิค DSD ช่วยให้ speculative decoding ใช้งานได้จริงในระบบ production ที่มี batch size เปลี่ยนแปลงตลอดเวลา ลดต้นทุนการให้บริการ LLM ได้กว้างขึ้น",
+      "tags": [
+        "LLM inference",
+        "GPU optimization",
+        "open source"
+      ],
+      "category_label": "Cohere",
+      "published_at": "2026-07-10",
+      "breakthrough_potential": "medium",
+      "related_domains": [
+        "LLM inference",
+        "GPU optimization",
+        "open source"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ DSD ผ่าน pull request ที่ Cohere ส่งเข้า vLLM เพื่อเร่งความเร็ว inference",
+        "ประเมินความเข้ากันได้ของ DSD กับ async scheduling และ full CUDA Graph ในระบบที่มีอยู่"
+      ],
+      "actions_business": [
+        "พิจารณาลดต้นทุนการให้บริการ LLM ในงานที่มี batch size ผันผวนสูง เช่น บริการ RL rollout",
+        "ติดตามผลกระทบของเทคนิคนี้ต่อค่าใช้จ่าย GPU ในระยะยาว"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-07-11-B2-003",
+      "slug": "the-batch-deeplearning-ai-003",
+      "title": "The Batch รายงานความคืบหน้ากรณี Claude Fable 5 และ Mythos 5 กลับมาให้บริการหลังถูกระงับจากคำสั่ง export control ของสหรัฐฯ",
+      "topic": "The Batch (DeepLearning.AI)",
+      "topic_group": "global",
+      "source_name": "The Batch (DeepLearning.AI)",
+      "category": "International",
+      "urgency": "high",
+      "content": "The Batch จาก DeepLearning.AI รายงานความคืบหน้าของกรณี Claude Fable 5 และ Claude Mythos 5 จาก Anthropic ที่กลับมาให้บริการอีกครั้งตั้งแต่วันที่ 1 กรกฎาคม หลังถูกระงับใช้งานนาน 3 สัปดาห์จากคำสั่ง export control ของกระทรวงพาณิชย์สหรัฐฯ ที่อ้างเหตุผลความมั่นคงแห่งชาติ ต้นตอมาจากนักวิจัยของ Amazon ใช้ Claude Fable 5 หาข้อมูลการโจมตีทางไซเบอร์ ซึ่ง Anthropic โต้แย้งว่าโมเดลใดที่มีศักยภาพเพียงพอก็ทำแบบเดียวกันได้ หลังเจรจากับรัฐบาลสหรัฐฯ นานหลายสัปดาห์ Anthropic เพิ่มมาตรการป้องกันใหม่ที่บล็อกคำถามด้าน cybersecurity บางส่วนและส่งต่อไปยังโมเดล Claude Opus 4.8 ที่มีความสามารถต่ำกว่าแทน อย่างไรก็ตาม ผู้ใช้บางส่วนรายงานว่าประสิทธิภาพของโมเดลลดลงหลังกลับมาให้บริการ ทั้งด้านชีววิทยาที่ถูกเซ็นเซอร์และงานเขียนโค้ดที่ถูกจำกัดมากขึ้น กรณีนี้ถือเป็นความขัดแย้งระดับสูงครั้งแรกระหว่างรัฐบาลสหรัฐฯ กับบริษัท AI ที่นำไปสู่การระงับการเข้าถึงโมเดลในวงกว้าง และอาจเป็นบรรทัดฐานสำคัญสำหรับการกำกับดูแล AI ในอนาคต",
+      "source_url": "https://www.deeplearning.ai/the-batch/issue-361#fables-return-and-fallout",
+      "tech_impact": "กรณีนี้เป็นความขัดแย้งระดับสูงครั้งแรกระหว่างรัฐบาลสหรัฐฯ กับบริษัท AI ที่นำไปสู่การระงับโมเดลทั่วโลก และอาจกลายเป็นบรรทัดฐานการกำกับดูแล AI ในอนาคต",
+      "tags": [
+        "AI policy",
+        "AI governance",
+        "cybersecurity",
+        "export control"
+      ],
+      "category_label": "The Batch (DeepLearning.AI)",
+      "published_at": "2026-07-10",
+      "breakthrough_potential": "low",
+      "related_domains": [
+        "AI policy",
+        "AI governance",
+        "cybersecurity",
+        "export control"
+      ],
+      "actions_developer": [
+        "ติดตามการเปลี่ยนแปลงด้าน guardrails ของ Claude Fable 5 ที่อาจกระทบ workflow ด้าน cybersecurity",
+        "เตรียมแผนสำรองหากโมเดลถูกจำกัดการเข้าถึงอีกในอนาคต"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงด้าน supply chain หากพึ่งพาโมเดล AI จากผู้ให้บริการรายเดียว",
+        "ติดตามนโยบาย export control ของสหรัฐฯ ที่อาจกระทบการเข้าถึงโมเดล AI ระดับแนวหน้า"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-07-11-B2-004",
+      "slug": "the-batch-deeplearning-ai-004",
+      "title": "Google จับคู่ Nano Banana 2 Lite กับ Gemini Omni Flash เปิด API สร้างภาพและวิดีโอต้นทุนต่ำ",
+      "topic": "The Batch (DeepLearning.AI)",
+      "topic_group": "tech-trends",
+      "source_name": "The Batch (DeepLearning.AI)",
+      "category": "International",
+      "urgency": "medium",
+      "content": "The Batch รายงานว่า Google เปิดตัว Nano Banana 2 Lite (ชื่อทางการคือ Gemini 3.1 Flash Lite Image) โมเดลสร้างภาพที่เร็วและราคาถูกที่สุดของบริษัท พร้อมเปิดให้นักพัฒนาเข้าถึง Gemini Omni Flash โมเดลวิดีโอผ่าน API หลังเปิดให้ผู้บริโภคใช้งานมาแล้ว 6 สัปดาห์ ทั้งสองโมเดลทำงานร่วมกันได้ผ่าน Gemini API โดยนำภาพจาก Nano Banana 2 Lite ไปแปลงเป็นวิดีโอความละเอียด 720p พร้อมเสียงประกอบยาวสูงสุด 10 วินาทีต่อคลิปด้วย Gemini Omni Flash ราคาของ Nano Banana 2 Lite อยู่ที่ $0.034 ต่อภาพความละเอียด 1K ส่วน Gemini Omni Flash อยู่ที่ $0.10 ต่อวินาทีของวิดีโอ 720p ผลการจัดอันดับบน Arena.ai ระบุว่า Nano Banana 2 Lite อยู่อันดับ 5 ด้าน text-to-image ส่วน Gemini Omni Flash ครองอันดับ 1 ด้านการสร้างวิดีโอ ความเคลื่อนไหวนี้สะท้อนว่าการสร้างสื่อมัลติมีเดียด้วย AI เริ่มมีต้นทุนต่ำและเร็วพอสำหรับใช้งานแบบเรียลไทม์ในแอปพลิเคชัน เปิดทางให้ธุรกิจโฆษณาและคอนเทนต์ครีเอเตอร์นำไปใช้งานอัตโนมัติได้มากขึ้น",
+      "source_url": "https://www.deeplearning.ai/the-batch/issue-361#google-nano-banana-video-api",
+      "tech_impact": "การผสาน Nano Banana 2 Lite กับ Gemini Omni Flash ทำให้การสร้างภาพและวิดีโอด้วย AI มีต้นทุนต่ำและเร็วพอสำหรับใช้งานเรียลไทม์ในแอปพลิเคชัน",
+      "tags": [
+        "generative AI",
+        "video generation",
+        "image generation",
+        "API"
+      ],
+      "category_label": "The Batch (DeepLearning.AI)",
+      "published_at": "2026-07-10",
+      "breakthrough_potential": "medium",
+      "related_domains": [
+        "generative AI",
+        "video generation",
+        "image generation",
+        "API"
+      ],
+      "actions_developer": [
+        "ทดลองเชื่อมต่อ pipeline ภาพสู่วิดีโอผ่าน Gemini API สำหรับแอปที่ต้องการสร้างคอนเทนต์อัตโนมัติ",
+        "เปรียบเทียบราคาและคุณภาพกับโมเดลคู่แข่งอย่าง GPT-Image-2 และ Seedance 2.0"
+      ],
+      "actions_business": [
+        "ประเมินการใช้ระบบสร้างคอนเทนต์อัตโนมัตินี้สำหรับโฆษณาและโซเชียลมีเดีย",
+        "ติดตามผลกระทบต่อธุรกิจ content creation และ digital advertising"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-07-11-B2-005",
+      "slug": "the-batch-deeplearning-ai-005",
+      "title": "DeepSeek เปิดตัว DSpark เทคนิค speculative decoding ใหม่ เร่งความเร็วโมเดล DeepSeek-V4 กว่า 50%",
+      "topic": "The Batch (DeepLearning.AI)",
+      "topic_group": "ai-trends",
+      "source_name": "The Batch (DeepLearning.AI)",
+      "category": "International",
+      "urgency": "medium",
+      "content": "The Batch รายงานว่าทีมวิจัยจาก Peking University และ DeepSeek เปิดตัว DSpark เทคนิค speculative decoding ตัวใหม่ที่ช่วยเร่งความเร็วการสร้างข้อความของโมเดล DeepSeek-V4 ได้มากกว่า 50% โดยไม่เสียความแม่นยำ พร้อมเปิดซอร์สเป็น checkpoint ชื่อ DeepSeek-V4-Pro-DSpark และ DeepSeek-V4-Flash-DSpark ภายใต้สัญญาอนุญาต MIT ที่ใช้เชิงพาณิชย์ได้ จุดเด่นของ DSpark คือการรวมจุดแข็งของ drafter แบบ sequential และ parallel เข้าด้วยกัน ผ่านการเพิ่ม Markov head แก้ปัญหาการเรียงลำดับ token ผิดพลาด และใช้ confidence head พร้อมการปรับเทียบค่าความมั่นใจแบบไดนามิกตามภาระงานของเซิร์ฟเวอร์ ผลทดสอบพบว่า DSpark เพิ่มความเร็วการสร้าง token ต่อผู้ใช้ของ DeepSeek-V4-Flash ได้ 60-85% และ DeepSeek-V4-Pro ได้ 57-78% เมื่อเทียบกับ drafter เดิมของบริษัท ในบางกรณีที่ต้องการความเร็วสูง DSpark เพิ่ม throughput รวมได้สูงถึง 661% ถือเป็นความก้าวหน้าสำคัญด้านการลดต้นทุนการให้บริการ LLM ในระดับ production",
+      "source_url": "https://www.deeplearning.ai/the-batch/issue-361#deepseek-dspark",
+      "tech_impact": "DSpark ช่วยลดต้นทุนและเวลาในการให้บริการ LLM ระดับ production ได้อย่างมีนัยสำคัญโดยไม่ต้องแลกกับความแม่นยำ อาจกลายเป็นมาตรฐานใหม่ของเทคนิค speculative decoding",
+      "tags": [
+        "LLM inference",
+        "speculative decoding",
+        "open source",
+        "GPU optimization"
+      ],
+      "category_label": "The Batch (DeepLearning.AI)",
+      "published_at": "2026-07-10",
+      "breakthrough_potential": "high",
+      "related_domains": [
+        "LLM inference",
+        "speculative decoding",
+        "open source",
+        "GPU optimization"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ checkpoint DeepSeek-V4-Pro-DSpark และ DeepSeek-V4-Flash-DSpark ที่เปิดซอร์สภายใต้ MIT license",
+        "ศึกษาการออกแบบ Markov head และ confidence head เพื่อนำไปประยุกต์กับ draft model อื่น"
+      ],
+      "actions_business": [
+        "ประเมินการลดต้นทุน inference สำหรับบริการที่ใช้โมเดลขนาดใหญ่ในปริมาณมาก",
+        "ติดตามการแข่งขันด้านประสิทธิภาพ inference ระหว่าง DeepSeek กับผู้ให้บริการ LLM รายอื่น"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-07-11-B3-001",
+      "slug": "arxiv-cs-ai-001",
+      "title": "Remember When It Matters: ตัวแทนความจำเชิงรุกสำหรับ AI agent งานระยะยาว",
+      "topic": "ArXiv (cs.AI)",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "ทีมวิจัยนำโดย Yifan Wu และ Zhuokai Zhao เสนอปัญหาที่เรียกว่า behavioral state decay ซึ่งเกิดขึ้นเมื่อ AI agent ทำงานที่มี long-horizon trajectory ยาวจนข้อมูลสำคัญ เช่น เป้าหมายของงาน ข้อเท็จจริงของสภาพแวดล้อม ความพยายามก่อนหน้า และ subgoal ที่ยังไม่เสร็จ ถูกฝังลึกในหรือหลุดออกจาก context window จนไม่มีผลต่อการตัดสินใจ ทีมจึงออกแบบ memory agent แยกต่างหากที่ทำงานควบคู่กับ action agent เดิมโดยไม่ต้องแก้ไข ตัว memory agent จะอัปเดต structured memory bank จาก trajectory ล่าสุดและตัดสินใจว่าจะแทรก reminder ที่อ้างอิงความจำหรือเงียบไว้ โมดูลนี้ใช้งานแบบ plug-and-play ได้กับ agent harness ที่มีอยู่ ผลทดสอบบน Terminal-Bench 2.0 และ τ²-Bench พบว่าเพิ่ม pass@1 ได้ถึง 8.3 และ 6.8 percentage point ตามลำดับ และการแทรกแบบเลือกเฉพาะจุดให้ผลดีกว่าการเปิดใช้ตลอดเวลาหรือ retrieval ทั่วไป ทีมยังฝึก Qwen3.5-27B ด้วย SFT และ GRPO เพื่อสร้าง open-weight memory policy",
+      "source_url": "https://arxiv.org/abs/2607.08716",
+      "tech_impact": "เทคนิคนี้ช่วยแก้ปัญหาความจำเสื่อมของ AI agent ในงานที่มี trajectory ยาว ทำให้ agent ทำงานซับซ้อนได้แม่นยำขึ้นโดยไม่ต้องแก้ไขโมเดลหลัก",
+      "tags": [
+        "AI agent",
+        "LLM",
+        "memory",
+        "agent harness"
+      ],
+      "category_label": "ArXiv (cs.AI)",
+      "published_at": "2026-07-09",
+      "breakthrough_potential": "medium",
+      "related_domains": [
+        "AI agent",
+        "LLM",
+        "memory",
+        "agent harness"
+      ],
+      "actions_developer": [
+        "ทดลองผสาน proactive memory agent เข้ากับ agent harness ที่มีอยู่เพื่อลดปัญหา behavioral state decay ในงาน long-horizon",
+        "ประเมินผลกระทบของ selective intervention เทียบกับ passive retrieval ก่อนออกแบบระบบ memory สำหรับ agent ของตน"
+      ],
+      "actions_business": [
+        "พิจารณานำ memory agent แบบ plug-and-play มาใช้กับผลิตภัณฑ์ AI agent เพื่อเพิ่มความแม่นยำในงานที่ซับซ้อนและใช้เวลานาน",
+        "ติดตามการพัฒนา open-weight memory policy เพื่อประเมินความสามารถในการนำไปปรับใช้กับระบบภายในองค์กร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-07-11-B3-002",
+      "slug": "arxiv-cs-ai-002",
+      "title": "From Prompts to Contracts: วิศวกรรม Harness เพื่อ AI Agent ระดับองค์กรที่ตรวจสอบได้",
+      "topic": "ArXiv (cs.AI)",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "นักวิจัย Joongho Ahn และ Moonsoo Kim เสนอแนวทาง harness engineering เพื่อแก้ปัญหาที่แอปพลิเคชัน LLM ระดับองค์กรมักเริ่มต้นจาก prototype ที่พฤติกรรมถูกกำหนดด้วย prompt และ retrieval context ล้วนๆ ทำให้ยากต่อการตรวจสอบเมื่อนำไปใช้งานจริง แนวทางนี้ย้ายพฤติกรรมที่ต้องแน่นอนไปไว้ในโค้ด manifest schema และ validation artifact รอบ composition boundary ที่เปลี่ยนได้ ขณะที่คำตอบที่อ้างอิงแหล่งข้อมูลยังคงเป็นผู้มีอำนาจตัดสินคำตอบสุดท้าย ทีมทดสอบกับข้อมูลสาธารณะของกลุ่มบริษัทเกาหลี 5 กลุ่ม 25 บริษัทจดทะเบียน พบว่า harness รักษาสัญญาด้าน source-grounding entity-routing trace และ output-hygiene ได้ครบถ้วน ผ่านการทดสอบ fault-injection และคงผลเดิมแม้เปลี่ยนโมเดลเป็น 3 โมเดลต่างกันครบ 270 ครั้ง ที่สำคัญคือการบังคับใช้ผ่านโค้ดเท่านั้นที่ป้องกันการรั่วไหลของ internal trace และภาษาแนะนำที่ไม่เหมาะสมได้ครบ ขณะที่ guardrail ภายนอกป้องกันได้เช่นกันแต่ over-refuse จนความสามารถลดจาก 120 เหลือ 88 จาก 120 กรณี",
+      "source_url": "https://arxiv.org/abs/2607.08028",
+      "tech_impact": "งานวิจัยชี้ว่าองค์กรควรออกแบบ AI agent ให้มีการบังคับใช้กฎผ่านโค้ดแทนการพึ่งพา prompt เพียงอย่างเดียว เพื่อให้ตรวจสอบได้และไม่สูญเสียความสามารถของระบบ",
+      "tags": [
+        "LLM",
+        "AI agent",
+        "enterprise AI",
+        "auditing"
+      ],
+      "category_label": "ArXiv (cs.AI)",
+      "published_at": "2026-07-09",
+      "breakthrough_potential": "medium",
+      "related_domains": [
+        "LLM",
+        "AI agent",
+        "enterprise AI",
+        "auditing"
+      ],
+      "actions_developer": [
+        "นำแนวทาง harness engineering มาแยกพฤติกรรมที่ต้องแน่นอนออกจาก prompt ให้อยู่ในโค้ดและ schema ที่ตรวจสอบได้",
+        "ทดสอบระบบด้วย fault-injection และการสลับโมเดลเพื่อยืนยันว่า contract ยังคงอยู่ไม่ว่าจะใช้โมเดลใด"
+      ],
+      "actions_business": [
+        "ประเมินความพร้อมของระบบ AI agent ภายในองค์กรด้าน auditability ก่อนนำไปใช้กับข้อมูลลูกค้าหรือการตัดสินใจสำคัญ",
+        "พิจารณาลงทุนใน harness engineering แทนการเพิ่ม guardrail ภายนอกเพียงอย่างเดียว เพื่อรักษาทั้งความปลอดภัยและประสิทธิภาพการใช้งาน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-07-11-B3-003",
+      "slug": "arxiv-cs-ai-003",
+      "title": "ทฤษฎีปฐมภูมิของการคิดช้าและการรับรู้เชิงรุกในโมเดลภาษาขนาดใหญ่",
+      "topic": "ArXiv (cs.AI)",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv (cs.AI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "ทีมวิจัยนำโดย Hongkang Yang ร่วมกับ Weinan E นักคณิตศาสตร์ประยุกต์ชื่อดัง เสนอทฤษฎีทางคณิตศาสตร์ที่อธิบายกลไกการคิดและการรับรู้ของ AI อย่างเป็นระบบ ในฐานะส่วนหนึ่งของงานวิจัยชุดการสร้างแบบจำลองฟังก์ชันทางปัญญาแบบปฐมภูมิ ทฤษฎีนี้อนุมานแนวคิด slow thinking หรือการรับรู้เชิงรุกอย่างเป็นรูปธรรม ครอบคลุมทั้งการออกแบบ การฝึก และการอนุมานของโมเดลภาษาแบบ slow thinking โดยเริ่มจากการยกระดับและฉายภาพการกระจายความน่าจะเป็นระหว่างปริภูมิที่สังเกตได้กับปริภูมิแฝง ทีมเสนอทฤษฎี active lifting ที่อาศัยการสุ่มตัวอย่างลำดับแฝงและแรงขับเคลื่อนภายในเพื่อลดความไม่แน่นอนด้วยอัตราสูงสุด ซึ่งให้พื้นที่การออกแบบขนาดใหญ่ที่ครอบคลุมโมเดล slow thinking เป็นกรณีย่อย ทฤษฎีนี้ยังอนุมานกระบวนการอนุมานที่มีแกนเวลาภายใน และเป้าหมายการฝึกที่คล้ายกับการเข้ารหัสความยาวขั้นต่ำ ผลพลอยได้ทางเทคนิคได้แก่แนวทางสามขั้นตอนในการปรับปรุงโมเดล slow thinking วิธีการรวมสำหรับสร้าง encoder และโมเดล generative ในทุก modality และแนวทางแก้ปัญหา policy collapse ที่เป็นไปได้ งานนี้ตีพิมพ์ใน Journal of Machine Learning ปี 2026",
+      "source_url": "https://arxiv.org/abs/2607.08196",
+      "tech_impact": "ทฤษฎีนี้ให้กรอบทางคณิตศาสตร์ที่เป็นระบบสำหรับอธิบายและออกแบบโมเดล slow thinking ซึ่งอาจนำไปสู่แนวทางปรับปรุงโมเดล reasoning รุ่นถัดไปและแก้ปัญหา policy collapse ในการฝึกโมเดล",
+      "tags": [
+        "LLM",
+        "reasoning",
+        "theory",
+        "machine learning"
+      ],
+      "category_label": "ArXiv (cs.AI)",
+      "published_at": "2026-07-09",
+      "breakthrough_potential": "medium",
+      "related_domains": [
+        "LLM",
+        "reasoning",
+        "theory",
+        "machine learning"
+      ],
+      "actions_developer": [
+        "ศึกษาแนวคิด active lifting และ representation/sampler hierarchy เพื่อออกแบบสถาปัตยกรรม slow thinking model แบบใหม่",
+        "พิจารณานำแนวทางสามขั้นตอนที่เสนอไปทดลองปรับปรุงโมเดล reasoning หรือแก้ปัญหา policy collapse ในการฝึกด้วย RL"
+      ],
+      "actions_business": [
+        "ติดตามงานวิจัยเชิงทฤษฎีนี้เพื่อประเมินทิศทางระยะยาวของเทคโนโลยี reasoning model ที่อาจส่งผลต่อผลิตภัณฑ์ AI ในอนาคต",
+        "พิจารณาสนับสนุนทีมวิจัยภายในให้ศึกษากรอบทฤษฎีนี้เพื่อสร้างความได้เปรียบด้าน R&D ระยะยาว"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-07-11-B3-004",
+      "slug": "arxiv-cs-lg-004",
+      "title": "การศึกษาเชิงปฏิบัติของ Relaxed Speculative Decoding แบบไม่ต้องฝึกเพิ่ม",
+      "topic": "ArXiv (cs.LG)",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv (cs.LG)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "ทีมวิจัยจาก Guoxuan Xia, Luka Ribar และ Paul Balanca ศึกษาเทคนิค relaxed speculative decoding ซึ่งเป็นการปรับปรุงเทคนิค speculative decoding ที่ใช้เร่งความเร็วการ sampling ของ LLM แบบ autoregressive ด้วยโมเดลผู้ช่วยที่เร็วกว่าในการร่างโทเคนก่อนให้โมเดลหลักตรวจสอบแบบขนาน โดยปกติ speculative decoding แบบมาตรฐานเป็นแบบ lossless คือขั้นตอน rejection และ resampling รักษาการกระจายผลลัพธ์เดิมของ LLM ไว้ทุกประการ แต่งานวิจัยล่าสุดชี้ว่าการผ่อนคลายเงื่อนไขนี้อาจให้ความเร็วเพิ่มขึ้น ควบคุม trade-off ระหว่างความสามารถกับความเร็วได้ หรือแม้แต่เพิ่มความสามารถของโมเดล ทีมจึงศึกษาเทคนิคเหล่านี้แบบไม่ต้องฝึกเพิ่ม รวบรวมแนวทางที่มีอยู่เข้าเป็นกรอบเดียวกัน และทดสอบกับสภาพแวดล้อมปัจจุบันเพื่อสรุปข้อค้นพบสำหรับผู้ปฏิบัติงานจริง ข้อสรุปสำคัญคือการผ่อนคลายเงื่อนไขต้องการการประเมินความสามารถอย่างละเอียดต่างจาก speculative decoding แบบ lossless และหลายเทคนิคที่ผ่อนคลายต้องพึ่งพา drafter ที่เป็นโมเดลภาษาคุณภาพดี ทำให้ไม่เหมาะกับ drafter ขนาดเบาแบบ multi-token-prediction",
+      "source_url": "https://arxiv.org/abs/2607.08690",
+      "tech_impact": "งานวิจัยนี้ให้แนวทางปฏิบัติที่ชัดเจนสำหรับทีมที่ต้องการเร่งความเร็วการ inference ของ LLM ด้วย relaxed speculative decoding โดยชี้ข้อจำกัดสำคัญเรื่องคุณภาพของ drafter model",
+      "tags": [
+        "LLM",
+        "inference optimization",
+        "speculative decoding",
+        "efficiency"
+      ],
+      "category_label": "ArXiv (cs.LG)",
+      "published_at": "2026-07-09",
+      "breakthrough_potential": "low",
+      "related_domains": [
+        "LLM",
+        "inference optimization",
+        "speculative decoding",
+        "efficiency"
+      ],
+      "actions_developer": [
+        "ประเมินคุณภาพของ drafter model ก่อนเลือกใช้ relaxed speculative decoding เพราะเทคนิคนี้ต้องการ drafter ที่เป็นโมเดลภาษาที่ดีพอ ไม่เหมาะกับ drafter ขนาดเบา",
+        "ทำ capability evaluation อย่างละเอียดก่อนนำ relaxed speculative decoding ไปใช้งานจริงเพื่อป้องกันผลกระทบต่อคุณภาพผลลัพธ์"
+      ],
+      "actions_business": [
+        "พิจารณาการลงทุนด้าน inference optimization โดยชั่งน้ำหนักระหว่างความเร็วที่เพิ่มขึ้นกับความเสี่ยงด้านคุณภาพผลลัพธ์ของ relaxed speculative decoding",
+        "ติดตามเทคนิคการเร่งความเร็ว LLM เพื่อลดต้นทุนการให้บริการ AI ในผลิตภัณฑ์ขององค์กร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
