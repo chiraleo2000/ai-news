@@ -87,10 +87,7 @@
       }
       const latest = getLatestManifestDate();
       if (latest) cacheBust = latest;
-      // Default to Today so the newest digest is visible immediately
-      if ($dateSelect && !$dateSelect.dataset.userPicked) {
-        $dateSelect.value = 'today';
-      }
+      // Keep HTML default (Last 3 Days) — covers early morning before today's digest exists
       await loadByRange($dateSelect.value);
     } catch (err) {
       showAllEmpty('Failed to load: ' + err.message);
