@@ -1,0 +1,77 @@
+{
+  "article_id": "techsauce-nvidia-liquid-cooling-ai-factory-2026-06-23",
+  "schema_version": "2.0",
+  "topic_group": "global",
+  "source_info": {
+    "category": "Thai",
+    "source_name": "Techsauce",
+    "registry_key": "Thai/Techsauce",
+    "domain": "AI-PRODUCT",
+    "main_url": "https://techsauce.co"
+  },
+  "source": {
+    "url": "https://techsauce.co/news/nvidia-rubin-liquid-cooling-ai-factory",
+    "type": "direct",
+    "origin": "direct",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-29T07:00:00+07:00",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-23T00:00:00+07:00",
+    "scraped_at": "2026-06-29T07:00:00+07:00",
+    "run_date": "2026-06-29",
+    "target_date": "2026-06-29",
+    "within_24h": false,
+    "status": "scraped",
+    "batch": "1",
+    "category": "AI-PRODUCT",
+    "category_label": "ผลิตภัณฑ์ AI",
+    "news_type": "ข่าว",
+    "tags": [
+      "GPU",
+      "Data Center",
+      "AI Infrastructure",
+      "NVIDIA"
+    ],
+    "language": "th"
+  },
+  "content": {
+    "title": "Data Center ที่ร้อนกว่าอ่างน้ำอุ่น NVIDIA กับแนวคิดระบบหล่อเย็น 45 องศา",
+    "title_th": "Data Center ที่ร้อนกว่าอ่างน้ำอุ่น แต่ประหยัดทั้งน้ำและไฟ NVIDIA กับแนวคิดระบบหล่อเย็น 45 องศา",
+    "slug": "techsauce-nvidia-liquid-cooling-ai-factory-2026-06-23",
+    "summary": "NVIDIA นำเสนอแนวคิด Liquid Cooling ใหม่สำหรับ AI Factory โดยใช้น้ำอุณหภูมิ 45 องศาเซลเซียสหล่อเย็น GPU",
+    "summary_1": "NVIDIA เผยแนวคิดปฏิวัติวงการ Data Center สำหรับ AI Factory ด้วยระบบ Liquid Cooling ที่ใช้น้ำอุณหภูมิสูงถึง 45 องศาเซลเซียส ซึ่งตรงข้ามกับหลักการดั้งเดิมที่ต้องการน้ำเย็นเพื่อหล่อเย็น GPU ระบบใหม่นี้ใช้หลักการ 'Hot Water Cooling' ที่สามารถนำความร้อนที่เหลือไปใช้ประโยชน์ต่อได้ เช่น ทำความร้อนอาคารในเขตอากาศหนาว ส่งผลให้ประหยัดไฟฟ้าและน้ำได้อย่างมีนัยสำคัญ นวัตกรรมนี้เกิดขึ้นในบริบทของวิกฤตพลังงาน AI ที่ Data Centers ทั่วโลกกำลังเผชิญ โดย WEF คาดว่าภายใน 4 ปี AI จะใช้พลังงานเทียบเท่าญี่ปุ่นทั้งประเทศ NVIDIA Rubin Architecture เป็น Platform แรกที่รองรับ Hot Water Cooling แบบครบวงจร",
+    "body_text": "",
+    "language": "th",
+    "original_language": "th"
+  },
+  "tech_insights": {
+    "impact_summary": "นวัตกรรม Hot Water Cooling ของ NVIDIA อาจเปลี่ยนมาตรฐานการออกแบบ Data Center ทั่วโลก ลดต้นทุนพลังงานและผลกระทบต่อสิ่งแวดล้อมของ AI Infrastructure",
+    "actions_developer": [
+      "ศึกษา NVIDIA Rubin Architecture และ Thermal Management APIs สำหรับการออกแบบระบบที่ใช้ Hot Water Cooling",
+      "พิจารณา Carbon Footprint ของ AI Models ที่พัฒนาและเลือก Hardware ที่มีประสิทธิภาพพลังงานสูง"
+    ],
+    "actions_business": [
+      "Data Center ที่วางแผนสร้างใหม่ควรศึกษา Hot Water Cooling เป็น Default Design",
+      "บริษัทที่ลงทุน AI Infrastructure ควรรวม Energy Efficiency KPIs เข้าไปใน ROI Calculation"
+    ],
+    "urgency": "medium",
+    "related_domains": [
+      "GPU",
+      "Data Center",
+      "AI Infrastructure"
+    ],
+    "breakthrough_potential": true
+  },
+  "paths": {
+    "relative": "Thai/Techsauce/2026-06-29/techsauce-nvidia-liquid-cooling-ai-factory-2026-06-23",
+    "batch_file": "News/Batches/2026-06-29/batch_1.json"
+  }
+}

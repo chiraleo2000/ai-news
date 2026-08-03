@@ -1,0 +1,85 @@
+{
+  "article_id": "magerag-b2c3d4e5",
+  "schema_version": "1.0",
+  "source_info": {
+    "category": "Research",
+    "source_name": "ArXiv cs.AI/cs.IR",
+    "registry_key": "Research/ArXiv",
+    "domain": "AI-research",
+    "main_url": "https://arxiv.org/list/cs.AI/recent"
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2606.15906",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-22T00:30:00Z",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-16T00:00:00Z",
+    "scraped_at": "2026-06-22T00:30:00Z",
+    "run_date": "2026-06-22",
+    "target_date": "2026-06-22",
+    "within_24h": false,
+    "status": "published",
+    "batch": "3",
+    "category": "AI-RESEARCH",
+    "category_label": "AI Research",
+    "news_type": "วิจัย",
+    "tags": [
+      "RAG",
+      "multimodal",
+      "agentic-AI",
+      "graph",
+      "long-document",
+      "question-answering"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "MAGE-RAG: Multigranular Adaptive Graph Evidence for Agentic Multimodal RAG in Long-Document QA",
+    "slug": "mage-rag-multimodal-agentic-rag-2606-15906",
+    "summary": "MAGE-RAG introduces a multigranular adaptive graph evidence framework that enables agentic AI systems to perform accurate multimodal retrieval-augmented generation over long documents, addressing key limitations in existing RAG pipelines that struggle with cross-modal reasoning across large corpora.",
+    "summary_1": "Retrieval-Augmented Generation (RAG) systems for long documents face fundamental challenges when content spans multiple modalities (text, tables, figures) and requires multi-hop reasoning. MAGE-RAG (Multigranular Adaptive Graph Evidence for Agentic Multimodal RAG) proposes a graph-based evidence framework that operates at multiple granularity levels to capture both fine-grained and document-level relationships. The system builds adaptive evidence graphs that connect text, visual, and structured data, enabling agentic traversal for complex question answering tasks. By treating long-document QA as a graph retrieval and reasoning problem rather than a simple dense retrieval problem, MAGE-RAG addresses the cross-modal alignment challenge that degrades conventional RAG pipelines on complex real-world documents. The approach spans Information Retrieval (cs.IR), Computation and Language (cs.CL), Databases, and Multimedia domains.",
+    "body_text": "MAGE-RAG: Multigranular Adaptive Graph Evidence for Agentic Multimodal RAG in Long-Document QA addresses the challenge of retrieving and reasoning over long documents containing multiple modalities. The system introduces a multigranular graph evidence framework that captures relationships at different levels of document granularity—from individual sentences and tables to full sections—enabling adaptive retrieval strategies for complex multi-hop questions. The agentic component allows dynamic evidence path traversal across the graph, supporting reasoning patterns that require connecting disparate pieces of information spread across long documents. Authors: Yilong Zuo, Xunkai Li, Jing Yuan, Qiangqiang Dai, Hongchao Qin, Ronghua Li. Subjects: Information Retrieval (cs.IR); Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Databases (cs.DB); Multimedia (cs.MM).",
+    "language": "en",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "MAGE-RAG advances the state of enterprise RAG systems for document-heavy workflows (legal, medical, financial) by combining graph-based multi-hop reasoning with multimodal content handling, directly enabling more accurate AI assistants over complex document repositories.",
+    "actions_developer": [
+      "Explore MAGE-RAG's multigranular graph architecture for enterprise document QA systems requiring cross-modal reasoning",
+      "Evaluate adaptive graph evidence retrieval against dense vector search for long-document RAG benchmarks"
+    ],
+    "actions_business": [
+      "Assess MAGE-RAG for knowledge management and document intelligence products handling mixed-modality enterprise content",
+      "Consider graph-based RAG as an upgrade path for existing RAG pipelines struggling with long legal/financial documents"
+    ],
+    "urgency": "medium",
+    "related_domains": [
+      "RAG",
+      "multimodal AI",
+      "document intelligence",
+      "knowledge graphs",
+      "enterprise AI"
+    ],
+    "breakthrough_potential": false
+  },
+  "media_links": {
+    "youtube_channel": null,
+    "youtube_video": null
+  },
+  "paths": {
+    "relative": "Research/ArXiv/2026-06-22/mage-rag-multimodal-agentic-rag-2606-15906",
+    "article_md": "article.md",
+    "article_json": "article.json"
+  }
+}

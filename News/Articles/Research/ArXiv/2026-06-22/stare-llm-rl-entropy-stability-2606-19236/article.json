@@ -1,0 +1,85 @@
+{
+  "article_id": "stare-a1b2c3d4",
+  "schema_version": "1.0",
+  "source_info": {
+    "category": "Research",
+    "source_name": "ArXiv cs.LG/cs.AI",
+    "registry_key": "Research/ArXiv",
+    "domain": "AI-research",
+    "main_url": "https://arxiv.org/list/cs.AI/recent"
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2606.19236",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-22T00:30:00Z",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-17T16:13:42Z",
+    "scraped_at": "2026-06-22T00:30:00Z",
+    "run_date": "2026-06-22",
+    "target_date": "2026-06-22",
+    "within_24h": false,
+    "status": "published",
+    "batch": "3",
+    "category": "AI-RESEARCH",
+    "category_label": "AI Research",
+    "news_type": "วิจัย",
+    "tags": [
+      "LLM",
+      "reinforcement-learning",
+      "GRPO",
+      "policy-entropy",
+      "post-training",
+      "reasoning",
+      "RLVR"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "STARE: Surprisal-Guided Token-Level Advantage Reweighting for Policy Entropy Stability",
+    "slug": "stare-llm-rl-entropy-stability-2606-19236",
+    "summary": "STARE solves policy entropy collapse in LLM RL training by selectively reweighting entropy-critical tokens using batch-internal surprisal quantiles, achieving 4-8% accuracy gains over DAPO on AIME math benchmarks across 1.5B-32B model scales.",
+    "summary_1": "Reinforcement Learning with Verifiable Rewards (RLVR) methods like GRPO have become the dominant post-training approach for improving LLM reasoning, but frequently suffer from policy entropy collapse during training—causing degraded output diversity. STARE (Surprisal-guided Token-level Advantage Reweighting for policy Entropy stability) addresses this through a first-order gradient analysis of GRPO's token-level entropy dynamics, identifying a key 'advantage-surprisal four-quadrant structure' where per-token entropy variation decomposes into trajectory-level advantage times an entropy sensitivity function. The method identifies entropy-critical token subsets via batch-internal surprisal quantiles, selectively reweights their effective advantages, and adds a closed-loop target-entropy gate. Evaluated on 1.5B to 32B models across Short CoT, Long CoT, and Multi-Turn Tool Use tasks, STARE outperforms DAPO by 4-8% on AIME24/AIME25 while sustaining stable training for thousands of steps. Code is open-sourced at github.com/hp-luo/STARE.",
+    "body_text": "Reinforcement Learning with Verifiable Rewards algorithms like GRPO have emerged as the dominant post-training paradigm for complex reasoning in LLMs, yet commonly suffer from policy entropy collapse during training. We conduct a first-order gradient analysis of token-level entropy dynamics under GRPO and identify a token-level credit assignment mismatch: the per-token entropy variation decomposes into the product of the trajectory-level advantage and an entropy sensitivity function over the next-token distribution, yielding an advantage-surprisal four-quadrant structure and a near-criticality property. Motivated by it, we propose STARE, which identifies entropy-critical token subsets via batch-internal surprisal quantiles, selectively reweights their effective advantages, and incorporates a target-entropy closed-loop gate for stable entropy regulation. Across model scales from 1.5B to 32B and three task families (Short CoT, Long CoT, and Multi-Turn Tool Use), STARE sustains stable RL training over thousands of steps while maintaining policy entropy within the target band. On AIME24 and AIME25, STARE outperforms DAPO and other competitive baselines by 4%-8% in average accuracy, with reflection tokens and response length growing in tandem, indicating sustained exploration-exploitation balance.",
+    "language": "en",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "STARE provides a principled solution to LLM RL training instability that has blocked wider adoption of RLVR methods. The 4-8% accuracy gain on math reasoning benchmarks is significant, and the technique generalizes across model sizes and task types including multi-turn tool use—directly relevant to building production agentic AI systems.",
+    "actions_developer": [
+      "Integrate STARE's surprisal-based token reweighting into existing GRPO/RLVR training pipelines to prevent entropy collapse",
+      "Test STARE on multi-turn agentic task training; open-source code available at github.com/hp-luo/STARE"
+    ],
+    "actions_business": [
+      "Prioritize STARE-enhanced post-training for math reasoning and complex problem-solving product features to gain accuracy edge",
+      "Evaluate STARE for internal LLM fine-tuning to reduce training instability costs and failed training runs"
+    ],
+    "urgency": "high",
+    "related_domains": [
+      "LLM post-training",
+      "reinforcement learning",
+      "AI reasoning",
+      "model training stability"
+    ],
+    "breakthrough_potential": true
+  },
+  "media_links": {
+    "youtube_channel": null,
+    "youtube_video": null
+  },
+  "paths": {
+    "relative": "Research/ArXiv/2026-06-22/stare-llm-rl-entropy-stability-2606-19236",
+    "article_md": "article.md",
+    "article_json": "article.json"
+  }
+}

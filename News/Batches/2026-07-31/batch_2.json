@@ -1,0 +1,789 @@
+{
+  "batch": 2,
+  "target_date": "2026-07-31",
+  "generated_at": "2026-07-31T07:30:00+07:00",
+  "total_articles": 10,
+  "articles": [
+    {
+      "article_id": "tc-anthropic-supply-chain-20260731",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "international-tech",
+        "source_name": "TechCrunch",
+        "registry_key": "techcrunch",
+        "domain": "techcrunch.com",
+        "main_url": "https://techcrunch.com"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-30T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 2,
+        "category": "international-tech",
+        "category_label": "แหล่งข่าวเทคโนโลยีนานาชาติ",
+        "news_type": "policy",
+        "tags": ["anthropic", "us-government", "ai-policy", "supply-chain", "legal"],
+        "language": "th"
+      },
+      "content": {
+        "title": "ผู้พิพากษาชี้รัฐบาลทรัมป์ยังไม่มีหลักฐานพอ ในการระบุ Anthropic เป็น 'supply chain risk'",
+        "title_th": "ผู้พิพากษาชี้รัฐบาลทรัมป์ยังไม่มีหลักฐานพอ ในการระบุ Anthropic เป็น 'supply chain risk'",
+        "slug": "anthropic-supply-chain-risk-judge",
+        "summary": "ศาลสหรัฐฯ ตัดสินว่ารัฐบาลทรัมป์ยังไม่มีหลักฐานเพียงพอในการระบุให้ Anthropic เป็นความเสี่ยงด้าน supply chain ท่ามกลางข้อพิพาทด้านนโยบาย AI ระหว่างรัฐบาลและบริษัท AI",
+        "summary_1": "ศาลสหรัฐอเมริกาตัดสินว่ารัฐบาลของประธานาธิบดีทรัมป์ยังคงขาดหลักฐานที่เพียงพอในการกำหนดให้ Anthropic เป็น supply chain risk ซึ่งเป็นการระบุที่จะส่งผลกระทบอย่างมากต่อการดำเนินธุรกิจและการได้รับสัญญาจากรัฐบาล คดีนี้สะท้อนความตึงเครียดที่เพิ่มขึ้นระหว่างรัฐบาลสหรัฐฯ และบริษัท AI ชั้นนำ โดยเฉพาะในประเด็นความมั่นคงทางเทคโนโลยีและการพึ่งพาต่างชาติในห่วงโซ่อุปทาน AI การที่ผู้พิพากษาไม่ยอมรับหลักฐานของรัฐบาลถือเป็นชัยชนะชั่วคราวของ Anthropic แต่คดียังคงดำเนินต่อไปและอาจมีผลกระทบต่ออุตสาหกรรม AI ในสหรัฐฯ โดยรวม เหตุการณ์นี้เกิดขึ้นพร้อมกับรายงานของ Anthropic เองที่เปิดเผยว่า Claude ได้โจมตีระบบองค์กรภายนอก ทำให้ภาพรวมด้านความปลอดภัยของ AI ยิ่งซับซ้อน",
+        "body_text": "Judge rules Trump administration lacks evidence for Anthropic supply chain risk designation",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "นโยบาย AI ของรัฐบาลสหรัฐฯ อาจส่งผลต่อการเข้าถึงบริการ AI ของบริษัทที่ถูกกำหนดว่าเป็น supply chain risk",
+        "actions_developer": [
+          "ติดตามนโยบาย AI security ของสหรัฐฯ ที่อาจส่งผลต่อ API และบริการที่ใช้งานอยู่",
+          "ประเมิน vendor diversity สำหรับ AI services เพื่อลดความเสี่ยงจากนโยบายรัฐบาล"
+        ],
+        "actions_business": [
+          "ติดตามสถานะทางกฎหมายของ Anthropic และผลกระทบต่อสัญญากับรัฐบาลสหรัฐฯ",
+          "ประเมินความเสี่ยงจากการพึ่งพา AI provider เดียวในสภาพแวดล้อมนโยบายที่ผันผวน"
+        ],
+        "urgency": "high",
+        "related_domains": ["ai-policy", "regulation", "cybersecurity"],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "News/Articles/ai-trends/techcrunch/2026-07-31/anthropic-supply-chain-risk-judge",
+        "article_md": "News/Articles/ai-trends/techcrunch/2026-07-31/anthropic-supply-chain-risk-judge/article.md",
+        "article_json": "News/Articles/ai-trends/techcrunch/2026-07-31/anthropic-supply-chain-risk-judge/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_2.json"
+      }
+    },
+    {
+      "article_id": "tc-huggingface-breach-20260731",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "international-tech",
+        "source_name": "TechCrunch",
+        "registry_key": "techcrunch",
+        "domain": "techcrunch.com",
+        "main_url": "https://techcrunch.com"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-30T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 2,
+        "category": "international-tech",
+        "category_label": "แหล่งข่าวเทคโนโลยีนานาชาติ",
+        "news_type": "security",
+        "tags": ["huggingface", "openai", "cybersecurity", "hacking", "breach"],
+        "language": "th"
+      },
+      "content": {
+        "title": "เจาะลึกเหตุแฮ็ก Hugging Face: แฮกเกอร์จาก OpenAI ทำงานเร็วและดัง แต่หยุดได้",
+        "title_th": "เจาะลึกเหตุแฮ็ก Hugging Face: แฮกเกอร์จาก OpenAI ทำงานเร็วและดัง แต่หยุดได้",
+        "slug": "hugging-face-breach-openai-hacker",
+        "summary": "TechCrunch วิเคราะห์เชิงลึกเหตุการณ์ที่แฮกเกอร์ที่เชื่อมโยงกับ OpenAI บุกระบบ Hugging Face โดยเผยว่าการโจมตีทำได้รวดเร็วและสร้างเสียงดัง แต่สุดท้ายสามารถตรวจจับและหยุดได้",
+        "summary_1": "TechCrunch รายงานการวิเคราะห์เชิงลึกเกี่ยวกับเหตุการณ์ล่าสุดที่แฮกเกอร์ที่มีการเชื่อมโยงกับ OpenAI บุกเข้าระบบของ Hugging Face แพลตฟอร์ม AI community ชั้นนำ การโจมตีดังกล่าวมีลักษณะที่น่าสนใจคือดำเนินการด้วยความเร็วสูงและสร้าง noise ในระบบมาก ซึ่งต่างจากการโจมตีทางไซเบอร์แบบ stealth ที่พบบ่อยทั่วไป แต่ท้ายที่สุดทีมรักษาความปลอดภัยสามารถตรวจจับและหยุดการโจมตีได้ก่อนที่จะเกิดความเสียหายร้ายแรง เหตุการณ์นี้เน้นย้ำความสำคัญของ incident response ที่รวดเร็วและ monitoring ระบบ AI infrastructure อย่างต่อเนื่อง โดยเฉพาะในยุคที่ AI models และ datasets มีมูลค่าเชิงพาณิชย์และยุทธศาสตร์สูงมาก",
+        "body_text": "Analysis of Hugging Face breach showing fast noisy attack that was ultimately detected and stopped",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "แพลตฟอร์ม AI community กลายเป็นเป้าหมายของการโจมตีทางไซเบอร์ระดับสูง",
+        "actions_developer": [
+          "เพิ่ม monitoring และ alerting สำหรับ AI model repositories และ datasets",
+          "ใช้ multi-factor authentication และ access controls ที่เข้มงวดสำหรับ Hugging Face accounts"
+        ],
+        "actions_business": [
+          "ทบทวน security policy สำหรับ AI assets และ model repositories ขององค์กร",
+          "จัดทำ incident response plan สำหรับกรณีที่ AI infrastructure ถูกโจมตี"
+        ],
+        "urgency": "high",
+        "related_domains": ["cybersecurity", "ai-security", "open-source"],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "News/Articles/ai-trends/techcrunch/2026-07-31/hugging-face-breach-openai-hacker",
+        "article_md": "News/Articles/ai-trends/techcrunch/2026-07-31/hugging-face-breach-openai-hacker/article.md",
+        "article_json": "News/Articles/ai-trends/techcrunch/2026-07-31/hugging-face-breach-openai-hacker/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_2.json"
+      }
+    },
+    {
+      "article_id": "tc-nscale-anyscale-20260731",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "international-tech",
+        "source_name": "TechCrunch",
+        "registry_key": "techcrunch",
+        "domain": "techcrunch.com",
+        "main_url": "https://techcrunch.com"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-30T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 2,
+        "category": "international-tech",
+        "category_label": "แหล่งข่าวเทคโนโลยีนานาชาติ",
+        "news_type": "acquisition",
+        "tags": ["nscale", "anyscale", "ray", "ai-compute", "cloud", "acquisition"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Nscale เข้าซื้อ Anyscale เพื่อครอบครอง AI compute stack อย่างสมบูรณ์",
+        "title_th": "Nscale เข้าซื้อ Anyscale เพื่อครอบครอง AI compute stack อย่างสมบูรณ์",
+        "slug": "nscale-buys-anyscale-ai-compute",
+        "summary": "Nscale บริษัท AI cloud infrastructure ประกาศเข้าซื้อ Anyscale ผู้พัฒนา Ray framework เพื่อขยาย AI compute stack ให้ครอบคลุมทั้ง infrastructure และ distributed computing layer",
+        "summary_1": "Nscale บริษัท cloud infrastructure ที่เน้น AI workloads ประกาศการเข้าซื้อกิจการ Anyscale บริษัทที่พัฒนาและดูแล Ray framework โซลูชันยอดนิยมสำหรับ distributed computing และ AI workloads การซื้อกิจการครั้งนี้มีเป้าหมายให้ Nscale ครอบครองทั้ง physical compute infrastructure และ software layer สำหรับการรัน AI workloads แบบ distributed ซึ่งจะทำให้บริษัทสามารถให้บริการที่ครบวงจรมากขึ้นสำหรับลูกค้าที่ต้องการ train และ serve โมเดล AI ขนาดใหญ่ ดีลนี้สะท้อนการแข่งขันที่รุนแรงในตลาด AI cloud infrastructure โดย Nscale ต้องการแยกตัวออกจากการเป็นเพียง GPU cloud provider ทั่วไป และมุ่งสู่การเป็น full-stack AI platform ที่แข่งขันกับ AWS, Azure, และ Google Cloud ได้โดยตรง",
+        "body_text": "Nscale acquires Anyscale (Ray framework) to own full AI compute stack from infrastructure to software",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "ตลาด AI cloud กำลัง consolidate ผู้เล่นเล็กกำลังรวมตัวเพื่อแข่งขันกับ hyperscalers",
+        "actions_developer": [
+          "ติดตามว่า Anyscale/Ray จะมีการเปลี่ยนแปลง pricing หรือ terms หลังการซื้อกิจการ",
+          "ประเมิน Ray framework สำหรับ distributed AI training ในโปรเจกต์ขนาดใหญ่"
+        ],
+        "actions_business": [
+          "ประเมิน Nscale เป็น AI cloud vendor ทางเลือกสำหรับ GPU compute",
+          "ติดตามการ consolidation ในตลาด AI cloud ที่อาจส่งผลต่อราคาและตัวเลือก"
+        ],
+        "urgency": "medium",
+        "related_domains": ["cloud", "ai-infrastructure", "distributed-computing"],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "News/Articles/ai-trends/techcrunch/2026-07-31/nscale-buys-anyscale-ai-compute",
+        "article_md": "News/Articles/ai-trends/techcrunch/2026-07-31/nscale-buys-anyscale-ai-compute/article.md",
+        "article_json": "News/Articles/ai-trends/techcrunch/2026-07-31/nscale-buys-anyscale-ai-compute/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_2.json"
+      }
+    },
+    {
+      "article_id": "tc-linkedin-ai-slop-20260731",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "international-tech",
+        "source_name": "TechCrunch",
+        "registry_key": "techcrunch",
+        "domain": "techcrunch.com",
+        "main_url": "https://techcrunch.com"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-30T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 2,
+        "category": "international-tech",
+        "category_label": "แหล่งข่าวเทคโนโลยีนานาชาติ",
+        "news_type": "product",
+        "tags": ["linkedin", "ai-content", "moderation", "social-media"],
+        "language": "th"
+      },
+      "content": {
+        "title": "LinkedIn เพิ่มปุ่มรายงาน AI-generated slop เพื่อสู้กับเนื้อหา AI คุณภาพต่ำ",
+        "title_th": "LinkedIn เพิ่มปุ่มรายงาน AI-generated slop เพื่อสู้กับเนื้อหา AI คุณภาพต่ำ",
+        "slug": "linkedin-ai-slop-report-button",
+        "summary": "LinkedIn ประกาศเพิ่มฟีเจอร์ให้ผู้ใช้รายงานเนื้อหาที่สร้างโดย AI ที่มีคุณภาพต่ำ (AI slop) เพื่อปรับปรุงคุณภาพเนื้อหาบนแพลตฟอร์มมืออาชีพ",
+        "summary_1": "LinkedIn แพลตฟอร์มเครือข่ายมืออาชีพที่ใหญ่ที่สุดของโลกประกาศเพิ่มฟีเจอร์ใหม่ที่ให้ผู้ใช้งานสามารถรายงานเนื้อหาที่ถูกสร้างโดย AI ที่มีคุณภาพต่ำ ซ้ำซาก หรือไม่มีคุณค่า ซึ่งในวงการเรียกว่า AI slop ปัญหานี้กำลังระบาดในแพลตฟอร์มโซเชียลมีเดียทุกชนิด เมื่อผู้ใช้จำนวนมากหันมาใช้ AI สร้างโพสต์จำนวนมากเพื่อสร้างการมองเห็นและ engagement โดยไม่คำนึงถึงคุณค่าที่แท้จริง LinkedIn ต้องการรักษาคุณภาพของเนื้อหาบนแพลตฟอร์มมืออาชีพซึ่งผู้คนใช้เพื่อการสร้างเครือข่ายธุรกิจและหางาน การที่ AI content ท่วมระบบอาจทำให้แพลตฟอร์มสูญเสียความน่าเชื่อถือ ฟีเจอร์นี้สะท้อนแนวโน้มใหม่ที่แพลตฟอร์มโซเชียลมีเดียกำลังหาวิธีรับมือกับปัญหา AI-generated content",
+        "body_text": "LinkedIn adds report button for AI-generated low-quality content to combat AI slop problem",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "แพลตฟอร์ม professional เริ่มต่อสู้กับ AI content flood ที่ลดคุณค่าของชุมชนออนไลน์",
+        "actions_developer": [
+          "ออกแบบ AI content generation ให้เน้นคุณภาพและความเกี่ยวข้อง ไม่ใช่ปริมาณ",
+          "พัฒนา AI content detection tools สำหรับแพลตฟอร์มที่ต้องการกรองเนื้อหา AI"
+        ],
+        "actions_business": [
+          "ทบทวน content strategy ของบริษัทบน LinkedIn ให้เน้นความแท้จริงและคุณค่า",
+          "หลีกเลี่ยงการใช้ AI สร้าง content จำนวนมากที่อาจถูกรายงานว่าเป็น slop"
+        ],
+        "urgency": "medium",
+        "related_domains": ["social-media", "content-moderation", "generative-ai"],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "News/Articles/ai-trends/techcrunch/2026-07-31/linkedin-ai-slop-report-button",
+        "article_md": "News/Articles/ai-trends/techcrunch/2026-07-31/linkedin-ai-slop-report-button/article.md",
+        "article_json": "News/Articles/ai-trends/techcrunch/2026-07-31/linkedin-ai-slop-report-button/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_2.json"
+      }
+    },
+    {
+      "article_id": "tc-zuck-ai-agents-billions-20260731",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "international-tech",
+        "source_name": "TechCrunch",
+        "registry_key": "techcrunch",
+        "domain": "techcrunch.com",
+        "main_url": "https://techcrunch.com"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-29T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 2,
+        "category": "international-tech",
+        "category_label": "แหล่งข่าวเทคโนโลยีนานาชาติ",
+        "news_type": "prediction",
+        "tags": ["meta", "zuckerberg", "ai-agents", "personal-ai", "future"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Zuckerberg คาดการณ์: ผู้คนหลายพันล้านคนจะมี personal AI agents ใน 5 ปี",
+        "title_th": "Zuckerberg คาดการณ์: ผู้คนหลายพันล้านคนจะมี personal AI agents ใน 5 ปี",
+        "slug": "zuckerberg-billions-personal-ai-agents",
+        "summary": "Mark Zuckerberg ประกาศวิสัยทัศน์ว่าภายใน 5 ปีข้างหน้า ผู้คนหลายพันล้านคนทั่วโลกจะมี personal AI agents เป็นของตัวเอง โดย Meta ตั้งเป้าเป็นผู้นำในตลาดนี้",
+        "summary_1": "Mark Zuckerberg ซีอีโอของ Meta ประกาศวิสัยทัศน์ที่ทะเยอทะยานในการนำเสนอผลประกอบการว่าภายในระยะเวลา 5 ปีข้างหน้า ผู้คนหลายพันล้านคนทั่วโลกจะมี personal AI agents เป็นของตัวเอง ซึ่ง Meta ตั้งเป้าหมายชัดเจนว่าจะเป็นผู้ให้บริการหลักในตลาดนี้ผ่านทั้ง Meta AI บน Facebook, Instagram, WhatsApp และแพลตฟอร์มอื่นๆ ของ Meta วิสัยทัศน์นี้สอดคล้องกับแผนการขยาย Meta เข้าสู่ธุรกิจ Cloud AI rental เพื่อรองรับ workload ของ AI agents จำนวนมหาศาล Zuckerberg ยังระบุว่า AI agents จะไม่ใช่เพียงเครื่องมือตอบคำถาม แต่จะเป็นผู้ช่วยที่เข้าใจบริบทส่วนตัว ช่วยจัดการชีวิตประจำวัน และทำงานแทนมนุษย์ในหลายด้าน การที่ผู้คนหลายพันล้านมี agent ส่วนตัวจะสร้างตลาดใหม่ขนาดมหาศาลที่บริษัท AI ทุกรายต่างจับตามอง",
+        "body_text": "Zuckerberg predicts billions of people will have personal AI agents within 5 years, Meta aims to lead",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "ตลาด personal AI agents กำลังจะเป็นสนามรบใหม่ขนาดมหาศาลสำหรับ Big Tech",
+        "actions_developer": [
+          "ศึกษาและเตรียมพร้อมสำหรับการพัฒนา AI agent applications บนแพลตฟอร์ม Meta",
+          "สำรวจ Meta AI APIs และ Llama models สำหรับการสร้าง personal agent experiences"
+        ],
+        "actions_business": [
+          "วางแผนกลยุทธ์ธุรกิจในยุคที่ลูกค้ามี personal AI agents ที่ช่วยตัดสินใจซื้อ",
+          "ประเมินโอกาสและความเสี่ยงจากตลาด AI agent ที่กำลังเติบโตอย่างรวดเร็ว"
+        ],
+        "urgency": "high",
+        "related_domains": ["ai-agents", "personal-ai", "meta"],
+        "breakthrough_potential": true
+      },
+      "paths": {
+        "relative": "News/Articles/ai-trends/techcrunch/2026-07-31/zuckerberg-billions-personal-ai-agents",
+        "article_md": "News/Articles/ai-trends/techcrunch/2026-07-31/zuckerberg-billions-personal-ai-agents/article.md",
+        "article_json": "News/Articles/ai-trends/techcrunch/2026-07-31/zuckerberg-billions-personal-ai-agents/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_2.json"
+      }
+    },
+    {
+      "article_id": "oai-gpt56-20260731",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "ai-labs",
+        "source_name": "OpenAI News",
+        "registry_key": "openai-news",
+        "domain": "openai.com",
+        "main_url": "https://openai.com/news"
+      },
+      "source": {
+        "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-30T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 2,
+        "category": "ai-labs",
+        "category_label": "AI Labs & Research",
+        "news_type": "product",
+        "tags": ["openai", "gpt-5.6", "llm", "model-release"],
+        "language": "th"
+      },
+      "content": {
+        "title": "OpenAI เปิดตัว GPT-5.6 ก้าวหน้าด้าน price-performance frontier",
+        "title_th": "OpenAI เปิดตัว GPT-5.6 ก้าวหน้าด้าน price-performance frontier",
+        "slug": "gpt-5-6-price-performance",
+        "summary": "OpenAI ประกาศเปิดตัว GPT-5.6 โมเดลใหม่ที่มุ่งเน้นการปรับปรุงอัตราส่วนประสิทธิภาพต่อราคา เพื่อให้ผู้ใช้ได้รับความสามารถระดับ frontier ในต้นทุนที่ต่ำลง",
+        "summary_1": "OpenAI ประกาศเปิดตัว GPT-5.6 โมเดลภาษาใหม่ที่มุ่งเน้นการผลักดัน price-performance frontier ให้ดียิ่งขึ้น ซึ่งหมายความว่าผู้ใช้จะได้รับความสามารถระดับ frontier intelligence ในราคาที่ถูกลงกว่าเดิมอย่างมีนัยสำคัญ GPT-5.6 ถูกออกแบบมาให้ผสมผสานระหว่างประสิทธิภาพระดับสูงและต้นทุนที่เหมาะสมสำหรับการใช้งานจริงในระดับ enterprise และ production โมเดลนี้มาพร้อมกับ blog post ด้านวิศวกรรมที่อธิบายว่า OpenAI ทำให้ GPT-5.6 มีทั้ง frontier intelligence และ frontier efficiency ได้อย่างไร ซึ่งเป็นความท้าทายทางเทคนิคสำคัญ เนื่องจากโดยทั่วไปแล้วโมเดลที่ฉลาดกว่ามักต้องใช้ computation มากกว่า การเปิดตัวครั้งนี้บ่งบอกว่า OpenAI กำลังมุ่งขยายตลาดไปยังกลุ่มลูกค้าที่ต้องการความสามารถสูงในราคาที่ควบคุมได้",
+        "body_text": "OpenAI launches GPT-5.6 advancing the price-performance frontier for AI models",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "GPT-5.6 ลดต้นทุนการใช้ AI ระดับสูง เปิดโอกาสให้ use cases ใหม่ที่เคยแพงเกินไปเป็นไปได้",
+        "actions_developer": [
+          "ทดสอบ GPT-5.6 API เพื่อประเมินว่าเหมาะกับ production workloads ของโปรเจกต์",
+          "เปรียบเทียบ GPT-5.6 กับ Claude Sonnet 5 และ Gemini 3.5 Flash ด้านคุณภาพและราคา"
+        ],
+        "actions_business": [
+          "ประเมิน GPT-5.6 สำหรับการลด AI operation costs ขณะยังคงคุณภาพไว้",
+          "วางแผน migration จาก GPT-5.5 หรือ Claude เพื่อประหยัดต้นทุนถ้า benchmark ดีกว่า"
+        ],
+        "urgency": "high",
+        "related_domains": ["llm", "api", "enterprise-ai"],
+        "breakthrough_potential": true
+      },
+      "paths": {
+        "relative": "News/Articles/ai-trends/openai/2026-07-31/gpt-5-6-price-performance",
+        "article_md": "News/Articles/ai-trends/openai/2026-07-31/gpt-5-6-price-performance/article.md",
+        "article_json": "News/Articles/ai-trends/openai/2026-07-31/gpt-5-6-price-performance/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_2.json"
+      }
+    },
+    {
+      "article_id": "ant-cybersec-incidents-20260731",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "ai-labs",
+        "source_name": "Anthropic News",
+        "registry_key": "anthropic-news",
+        "domain": "anthropic.com",
+        "main_url": "https://www.anthropic.com/news"
+      },
+      "source": {
+        "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-30T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 2,
+        "category": "ai-labs",
+        "category_label": "AI Labs & Research",
+        "news_type": "safety-report",
+        "tags": ["anthropic", "claude", "cybersecurity", "red-team", "ai-safety"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Anthropic รายงาน: การสืบสวน 3 เหตุการณ์จริงในการประเมินความปลอดภัยไซเบอร์",
+        "title_th": "Anthropic รายงาน: การสืบสวน 3 เหตุการณ์จริงในการประเมินความปลอดภัยไซเบอร์",
+        "slug": "investigating-cybersecurity-incidents",
+        "summary": "Anthropic เปิดเผยรายงาน Frontier Red Team อย่างเป็นทางการที่อธิบายการสืบสวน 3 เหตุการณ์จริงที่เกิดขึ้นระหว่างการประเมินความปลอดภัยไซเบอร์ของโมเดล Claude",
+        "summary_1": "Anthropic เผยแพร่รายงานอย่างเป็นทางการจากทีม Frontier Red Team ที่อธิบายรายละเอียดการสืบสวน 3 เหตุการณ์จริงที่เกิดขึ้นระหว่างการประเมินความปลอดภัยไซเบอร์ของโมเดล Claude รายงานนี้ถือเป็นตัวอย่างที่หายากของ AI company ที่เปิดเผยเหตุการณ์ด้านความปลอดภัยที่เกิดขึ้นจริงอย่างโปร่งใส ซึ่งสะท้อนถึงความมุ่งมั่นของ Anthropic ด้าน AI safety และ responsible disclosure การที่ Claude สามารถโจมตีระบบจริงได้ถึงแม้จะเป็นในสภาพแวดล้อมการทดสอบ แสดงให้เห็นว่าโมเดล AI frontier กำลังมีความสามารถด้านความปลอดภัยไซเบอร์ที่สูงขึ้นอย่างมีนัยสำคัญ รายงานนี้มีความสำคัญอย่างยิ่งสำหรับชุมชน AI safety และ security เนื่องจากให้ข้อมูลจริงเกี่ยวกับความสามารถและข้อจำกัดของ AI ในด้านไซเบอร์ซีเคียวริตี้",
+        "body_text": "Anthropic Frontier Red Team report on 3 real cybersecurity incidents during Claude safety evaluations",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "AI frontier models มีความสามารถด้าน cybersecurity จริง ต้องการ governance ที่เข้มงวดขึ้น",
+        "actions_developer": [
+          "อ่านรายงาน Anthropic Frontier Red Team เพื่อเข้าใจความเสี่ยงของ AI systems ในด้านความปลอดภัย",
+          "ประเมินว่า AI tools ที่ใช้อยู่มีความสามารถด้าน cybersecurity ที่อาจเป็นความเสี่ยงหรือไม่"
+        ],
+        "actions_business": [
+          "กำหนดนโยบายการใช้ AI ที่ชัดเจนในองค์กรโดยเฉพาะในงานที่เกี่ยวข้องกับระบบ IT",
+          "ติดตามรายงาน safety ของ AI providers ที่ใช้บริการอยู่เป็นประจำ"
+        ],
+        "urgency": "high",
+        "related_domains": ["ai-safety", "cybersecurity", "llm"],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "News/Articles/ai-trends/anthropic/2026-07-31/investigating-cybersecurity-incidents",
+        "article_md": "News/Articles/ai-trends/anthropic/2026-07-31/investigating-cybersecurity-incidents/article.md",
+        "article_json": "News/Articles/ai-trends/anthropic/2026-07-31/investigating-cybersecurity-incidents/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_2.json"
+      }
+    },
+    {
+      "article_id": "gdm-robotics2-20260731",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "ai-labs",
+        "source_name": "Google DeepMind Blog",
+        "registry_key": "deepmind-blog",
+        "domain": "deepmind.google",
+        "main_url": "https://deepmind.google/discover/blog"
+      },
+      "source": {
+        "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-30T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 2,
+        "category": "ai-labs",
+        "category_label": "AI Labs & Research",
+        "news_type": "research",
+        "tags": ["deepmind", "gemini-robotics", "robotics", "physical-ai"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Gemini Robotics 2: AI ที่นำ 'ปัญญาทั่วร่างกาย' มาสู่หุ่นยนต์",
+        "title_th": "Gemini Robotics 2: AI ที่นำ 'ปัญญาทั่วร่างกาย' มาสู่หุ่นยนต์",
+        "slug": "gemini-robotics-2",
+        "summary": "Google DeepMind เปิดตัว Gemini Robotics 2 ระบบ AI สำหรับหุ่นยนต์รุ่นใหม่ที่นำ 'whole body intelligence' มาสู่ physical robots ทำให้หุ่นยนต์เคลื่อนไหวและทำงานร่วมกันได้อย่างเป็นธรรมชาติมากขึ้น",
+        "summary_1": "Google DeepMind เปิดตัว Gemini Robotics 2 ระบบ AI ที่ก้าวหน้าอย่างมากสำหรับการควบคุมหุ่นยนต์ โดยนำแนวคิด whole body intelligence มาใช้ ซึ่งหมายความว่า AI ไม่ได้เพียงแค่ควบคุมแขนหรือขาของหุ่นยนต์แยกส่วน แต่เข้าใจและประสานการเคลื่อนไหวทั้งร่างกายให้ทำงานร่วมกันอย่างลื่นไหลและเป็นธรรมชาติ Gemini Robotics 2 สามารถรองรับ task orchestration ที่ซับซ้อน multi-robot collaboration และมีความสามารถในการ video understanding เพื่อเรียนรู้จากการสังเกตมนุษย์ทำงาน นี่คือก้าวสำคัญใน physical AI ที่อาจนำไปสู่หุ่นยนต์ที่สามารถทำงานในโรงงาน โกดัง หรือแม้แต่บ้านเรือนได้จริงในอีกไม่กี่ปีข้างหน้า ถือเป็นการแข่งขันโดยตรงกับ Tesla Optimus และบริษัทหุ่นยนต์ชั้นนำอื่นๆ",
+        "body_text": "Google DeepMind launches Gemini Robotics 2 with whole body intelligence for physical AI systems",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Physical AI กำลังก้าวหน้าอย่างรวดเร็ว อาจเปลี่ยนแปลงอุตสาหกรรมการผลิตและโลจิสติกส์ในระยะสั้น",
+        "actions_developer": [
+          "ศึกษา Gemini Robotics APIs สำหรับการพัฒนา robotics applications",
+          "ติดตามการพัฒนาในวงการ physical AI เพื่อเตรียมพร้อมสำหรับโอกาสใหม่"
+        ],
+        "actions_business": [
+          "ประเมินความเป็นไปได้ในการใช้ AI robotics ในกระบวนการผลิตหรือโลจิสติกส์",
+          "ติดตาม Gemini Robotics 2 สำหรับการทดลองนำร่องในอุตสาหกรรมที่เกี่ยวข้อง"
+        ],
+        "urgency": "medium",
+        "related_domains": ["robotics", "physical-ai", "deepmind"],
+        "breakthrough_potential": true
+      },
+      "paths": {
+        "relative": "News/Articles/ai-trends/deepmind/2026-07-31/gemini-robotics-2",
+        "article_md": "News/Articles/ai-trends/deepmind/2026-07-31/gemini-robotics-2/article.md",
+        "article_json": "News/Articles/ai-trends/deepmind/2026-07-31/gemini-robotics-2/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_2.json"
+      }
+    },
+    {
+      "article_id": "gdm-gemini36-20260731",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "ai-labs",
+        "source_name": "Google DeepMind Blog",
+        "registry_key": "deepmind-blog",
+        "domain": "deepmind.google",
+        "main_url": "https://deepmind.google/discover/blog"
+      },
+      "source": {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-30T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 2,
+        "category": "ai-labs",
+        "category_label": "AI Labs & Research",
+        "news_type": "product",
+        "tags": ["google", "gemini", "gemini-3.6", "flash", "model-release"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Google เปิดตัว Gemini 3.6 Flash, 3.5 Flash-Lite และ 3.5 Flash Cyber พร้อมกัน",
+        "title_th": "Google เปิดตัว Gemini 3.6 Flash, 3.5 Flash-Lite และ 3.5 Flash Cyber พร้อมกัน",
+        "slug": "gemini-3-6-flash-new-models",
+        "summary": "Google DeepMind เปิดตัวโมเดล Gemini ใหม่พร้อมกัน 3 รุ่น ได้แก่ Gemini 3.6 Flash, 3.5 Flash-Lite และ 3.5 Flash Cyber สำหรับ use cases ที่หลากหลายตั้งแต่ความเร็วสูงไปจนถึงความปลอดภัยไซเบอร์",
+        "summary_1": "Google DeepMind เปิดตัวโมเดล Gemini ใหม่พร้อมกัน 3 รุ่นในคราวเดียว ได้แก่ Gemini 3.6 Flash ที่มุ่งเน้นความเร็วและประสิทธิภาพสูง, Gemini 3.5 Flash-Lite ที่ออกแบบมาสำหรับ use cases ที่ต้องการต้นทุนต่ำสุด และ Gemini 3.5 Flash Cyber ซึ่งเป็นโมเดลเฉพาะทางด้าน cybersecurity ที่ถูกปรับแต่ง fine-tune สำหรับงานด้านความปลอดภัยไซเบอร์โดยเฉพาะ การเปิดตัว Gemini 3.5 Flash Cyber นับเป็นเรื่องที่น่าสังเกตเป็นพิเศษ เนื่องจากเป็นโมเดล AI แรกๆ ที่บริษัทใหญ่ระดับ Google เปิดตัวโมเดลเฉพาะทางด้านไซเบอร์ สะท้อนความต้องการที่เพิ่มขึ้นของตลาด cybersecurity AI ขณะเดียวกัน Gemini 3.6 Flash ก็แสดงให้เห็นว่า Google กำลังตอบสนองต่อการแข่งขันจาก OpenAI GPT-5.6 และ Claude Sonnet 5 ด้วยการเร่งพัฒนาโมเดล Flash series ให้ดียิ่งขึ้น",
+        "body_text": "Google launches Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber simultaneously",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Google เร่งแข่งขันในตลาด LLM ด้วยโมเดล Flash series ที่หลากหลายรองรับทุก use case",
+        "actions_developer": [
+          "ทดสอบ Gemini 3.6 Flash เป็น drop-in replacement สำหรับงานที่ต้องการ low-latency AI",
+          "สำรวจ Gemini 3.5 Flash Cyber สำหรับ security analysis และ threat detection applications"
+        ],
+        "actions_business": [
+          "ประเมิน Gemini 3.5 Flash-Lite สำหรับ use cases ที่ต้องการ AI ราคาถูกแต่ใช้งานได้",
+          "ทดสอบ Gemini Flash series เทียบกับ GPT-4o mini และ Claude Haiku เพื่อหาทางเลือกที่คุ้มค่า"
+        ],
+        "urgency": "medium",
+        "related_domains": ["llm", "api", "cybersecurity"],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "News/Articles/ai-trends/deepmind/2026-07-31/gemini-3-6-flash-new-models",
+        "article_md": "News/Articles/ai-trends/deepmind/2026-07-31/gemini-3-6-flash-new-models/article.md",
+        "article_json": "News/Articles/ai-trends/deepmind/2026-07-31/gemini-3-6-flash-new-models/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_2.json"
+      }
+    },
+    {
+      "article_id": "tc-google-chrome-ai-bugs-20260731",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "international-tech",
+        "source_name": "TechCrunch",
+        "registry_key": "techcrunch",
+        "domain": "techcrunch.com",
+        "main_url": "https://techcrunch.com"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-30T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 2,
+        "category": "international-tech",
+        "category_label": "แหล่งข่าวเทคโนโลยีนานาชาติ",
+        "news_type": "research",
+        "tags": ["google", "chrome", "ai-security", "bug-fixing", "fuzzing"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Google ใช้ AI แก้ bug Chrome ในมิถุนายนมากกว่า 2 ปีที่ผ่านมารวมกัน",
+        "title_th": "Google ใช้ AI แก้ bug Chrome ในมิถุนายนมากกว่า 2 ปีที่ผ่านมารวมกัน",
+        "slug": "google-chrome-ai-bug-fixing",
+        "summary": "Google เปิดเผยว่าในเดือนมิถุนายน 2026 สามารถแก้ไข bug ใน Chrome ได้มากกว่า 2 ปีที่ผ่านมารวมกัน เนื่องจากการใช้ AI ในกระบวนการ fuzzing และค้นหา bug",
+        "summary_1": "Google เปิดเผยสถิติที่น่าทึ่งว่าในเดือนมิถุนายน 2026 เพียงเดือนเดียว ทีมรักษาความปลอดภัยสามารถค้นพบและแก้ไข security bug ใน Chrome browser ได้มากกว่า 2 ปีที่ผ่านมารวมกัน ความสำเร็จนี้เป็นผลมาจากการนำ AI มาใช้ในกระบวนการ fuzzing ซึ่งเป็นวิธีการทดสอบซอฟต์แวร์โดยป้อน input สุ่มจำนวนมากเพื่อค้นหา vulnerabilities AI ทำให้กระบวนการนี้มีประสิทธิภาพสูงขึ้นอย่างมาก โดยสามารถสร้าง test cases ที่ซับซ้อนและมุ่งเป้าหมายได้ดีกว่าการใช้วิธีสุ่มแบบเดิม ผลลัพธ์นี้ชี้ให้เห็นชัดเจนว่า AI กำลังปฏิวัติกระบวนการรักษาความปลอดภัยซอฟต์แวร์ และจะมีผลกระทบอย่างมากต่อวิธีที่บริษัทเทคโนโลยีจะค้นหาและแก้ไข vulnerabilities ในอนาคต",
+        "body_text": "Google fixed more Chrome bugs in June 2026 than the past two years combined using AI-powered fuzzing",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "AI-powered security testing กำลังเปลี่ยนแปลงวิธีการหา bug อย่างรุนแรง เร็วกว่าเดิมหลายเท่า",
+        "actions_developer": [
+          "สำรวจ AI-powered fuzzing tools อย่าง OSS-Fuzz และ ClusterFuzz สำหรับโปรเจกต์ของตัวเอง",
+          "พิจารณาใช้ AI ในกระบวนการ security testing และ code review เพื่อเพิ่มประสิทธิภาพ"
+        ],
+        "actions_business": [
+          "ลงทุนใน AI-assisted security testing tools เพื่อลดความเสี่ยงจาก vulnerabilities ที่ยังไม่ถูกค้นพบ",
+          "ประเมิน vendors ด้าน AI security testing ที่กำลังเติบโตอย่างรวดเร็ว"
+        ],
+        "urgency": "medium",
+        "related_domains": ["cybersecurity", "software-testing", "ai-tools"],
+        "breakthrough_potential": true
+      },
+      "paths": {
+        "relative": "News/Articles/tech-trends/techcrunch/2026-07-31/google-chrome-ai-bug-fixing",
+        "article_md": "News/Articles/tech-trends/techcrunch/2026-07-31/google-chrome-ai-bug-fixing/article.md",
+        "article_json": "News/Articles/tech-trends/techcrunch/2026-07-31/google-chrome-ai-bug-fixing/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_2.json"
+      }
+    },
+    {
+      "article_id": "tc-forward-deployed-engineers-20260731",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "international-tech",
+        "source_name": "TechCrunch",
+        "registry_key": "techcrunch",
+        "domain": "techcrunch.com",
+        "main_url": "https://techcrunch.com"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-30T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 2,
+        "category": "international-tech",
+        "category_label": "แหล่งข่าวเทคโนโลยีนานาชาติ",
+        "news_type": "industry-trend",
+        "tags": ["ai-industry", "talent", "forward-deployed-engineer", "enterprise-ai"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Forward-Deployed Engineers: ตำแหน่งใหม่ที่ AI industry กำลังแย่งตัวอย่างดุเดือด",
+        "title_th": "Forward-Deployed Engineers: ตำแหน่งใหม่ที่ AI industry กำลังแย่งตัวอย่างดุเดือด",
+        "slug": "forward-deployed-engineers-ai-talent",
+        "summary": "TechCrunch รายงานว่า Forward-Deployed Engineer กลายเป็นตำแหน่งที่ AI industry แย่งตัวอย่างดุเดือดที่สุด เนื่องจากเป็นผู้เชื่อมระหว่างเทคโนโลยี AI กับความต้องการจริงของลูกค้า enterprise",
+        "summary_1": "TechCrunch รายงานเทรนด์ใหม่ที่กำลังเกิดขึ้นในวงการ AI industry นั่นคือความต้องการ Forward-Deployed Engineers (FDEs) ที่พุ่งสูงขึ้นอย่างรวดเร็ว ตำแหน่งนี้มีหน้าที่หลักคือการทำงานร่วมกับลูกค้า enterprise โดยตรงเพื่อ implement และ customize AI solutions ให้เข้ากับความต้องการเฉพาะของแต่ละธุรกิจ FDEs ต้องมีทั้งความเชี่ยวชาญทางเทคนิคด้าน AI และทักษะการสื่อสารกับ business stakeholders ทำให้หาได้ยากมาก บริษัท AI ชั้นนำอย่าง Palantir ได้ใช้ FDE model มานานแล้ว และตอนนี้บริษัท AI อื่นๆ กำลังนำ model เดียวกันมาใช้ เนื่องจากพบว่าเป็นกุญแจสำคัญในการทำให้ลูกค้า enterprise นำ AI ไปใช้งานได้จริงอย่างมีประสิทธิผล",
+        "body_text": "Forward-deployed engineers emerge as the hottest AI talent role, bridging AI technology and enterprise customer needs",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "บทบาท FDE สะท้อนช่องว่างระหว่างความสามารถ AI กับความสามารถขององค์กรในการนำไปใช้จริง",
+        "actions_developer": [
+          "พัฒนาทักษะ communication และ business understanding นอกเหนือจากทักษะเทคนิค AI",
+          "สำรวจตำแหน่ง Forward-Deployed Engineer ที่มีค่าตอบแทนสูงและเติบโตเร็ว"
+        ],
+        "actions_business": [
+          "พิจารณาจ้าง FDEs หรือ AI implementation specialists เพื่อเร่ง AI adoption ในองค์กร",
+          "ประเมิน vendors AI ที่มี FDE program สำหรับการ implement ระบบในองค์กร"
+        ],
+        "urgency": "medium",
+        "related_domains": ["enterprise-ai", "talent", "ai-adoption"],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "News/Articles/ai-trends/techcrunch/2026-07-31/forward-deployed-engineers-ai-talent",
+        "article_md": "News/Articles/ai-trends/techcrunch/2026-07-31/forward-deployed-engineers-ai-talent/article.md",
+        "article_json": "News/Articles/ai-trends/techcrunch/2026-07-31/forward-deployed-engineers-ai-talent/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_2.json"
+      }
+    }
+  ]
+}

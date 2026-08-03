@@ -1,0 +1,84 @@
+{
+  "article_id": "rewardindata-e5f6a7b8",
+  "schema_version": "1.0",
+  "source_info": {
+    "category": "Research",
+    "source_name": "ArXiv cs.LG",
+    "registry_key": "Research/ArXivLG",
+    "domain": "AI-research",
+    "main_url": "https://arxiv.org/list/cs.LG/recent"
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2606.19162",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-22T00:35:00Z",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-18T00:00:00Z",
+    "scraped_at": "2026-06-22T00:35:00Z",
+    "run_date": "2026-06-22",
+    "target_date": "2026-06-22",
+    "within_24h": false,
+    "status": "published",
+    "batch": "3",
+    "category": "AI-RESEARCH",
+    "category_label": "AI Research",
+    "news_type": "วิจัย",
+    "tags": [
+      "flow-matching",
+      "discriminator",
+      "reinforcement-learning",
+      "generative-models",
+      "image-generation"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "The Reward Was in Your Data All Along: Correcting Flow Matching with Discriminator-Guided RL",
+    "slug": "reward-in-data-flow-matching-rl-2606-19162",
+    "summary": "This 84-page paper demonstrates that discriminator-guided reinforcement learning can correct flow matching generative models by leveraging reward signals already implicit in training data, achieving better image and video generation quality without requiring separate reward model training.",
+    "summary_1": "Flow matching has emerged as a powerful generative modeling paradigm, but the quality of generated samples can drift from desired distributions. This work proposes Discriminator-Guided RL for correcting flow matching models, arguing that reward signals for quality improvement are already embedded in the training data and can be extracted via a discriminator. The discriminator identifies deviations between generated samples and the true data manifold, providing RL reward signals that steer the flow matching process toward higher-quality outputs. The comprehensive 84-page paper (including appendices) covers theoretical foundations and empirical validation across image generation tasks. Authors include Nicolas Beltran-Velez, Felix Friedrich, Zhang Xiaofeng, Reyhane Askari-Hemmat, Xiaochuang Han, Adriana Romero-Soriano, and Michal Drozdzal. Subjects: Machine Learning (cs.LG); Computer Vision and Pattern Recognition (cs.CV).",
+    "body_text": "The Reward Was in Your Data All Along: Correcting Flow Matching with Discriminator-Guided RL proposes using discriminator-based reward signals extracted from training data to correct flow matching generative models via reinforcement learning. The key insight is that the quality signal needed to improve flow matching outputs does not require a separately trained reward model—the discriminator can extract it directly from the training distribution. This eliminates a key bottleneck in aligning generative models with quality objectives. The paper provides 84 pages of theory and experiments demonstrating improved generation quality on image synthesis tasks. Submitted June 18, 2026. Subjects: Machine Learning (cs.LG); Computer Vision and Pattern Recognition (cs.CV).",
+    "language": "en",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "This work simplifies quality-aligned generative AI training by eliminating the need for separate reward models in flow matching pipelines—reducing training complexity and cost while improving generation quality. Highly relevant for image/video generation product teams.",
+    "actions_developer": [
+      "Integrate discriminator-guided RL correction into flow matching image/video generation pipelines to improve output quality without separate reward models",
+      "Experiment with this approach to replace expensive RLHF reward model training in generative model fine-tuning workflows"
+    ],
+    "actions_business": [
+      "Evaluate discriminator-guided flow matching correction for reducing alignment training costs in generative AI products",
+      "Monitor this technique for potential quality improvements in AI image/video generation platforms at lower training budget"
+    ],
+    "urgency": "medium",
+    "related_domains": [
+      "generative AI",
+      "flow matching",
+      "image generation",
+      "reinforcement learning",
+      "diffusion models"
+    ],
+    "breakthrough_potential": true
+  },
+  "media_links": {
+    "youtube_channel": null,
+    "youtube_video": null
+  },
+  "paths": {
+    "relative": "Research/ArXivLG/2026-06-22/reward-in-data-flow-matching-rl-2606-19162",
+    "article_md": "article.md",
+    "article_json": "article.json"
+  }
+}
