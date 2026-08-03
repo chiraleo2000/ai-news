@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
   <title>AI News Daily — Cyberpunk Intelligence Briefing</title>
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/style.css?v=20260803">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
@@ -34,8 +36,16 @@
   <section class="filter-bar">
     <div class="container">
       <div class="filter-group">
-        <label class="filter-label">ARCHIVE</label>
-        <select id="dateSelect" class="filter-select"></select>
+        <label class="filter-label">TIME RANGE</label>
+        <select id="dateSelect" class="filter-select">
+          <option value="today" selected>Today</option>
+          <option value="yesterday">Yesterday</option>
+          <option value="3">Last 3 Days</option>
+          <option value="7">Last 7 Days</option>
+          <option value="14">Last 14 Days</option>
+          <option value="30">Last 30 Days</option>
+          <option value="all">All News</option>
+        </select>
       </div>
       <div class="filter-group">
         <label class="filter-label">URGENCY</label>
@@ -133,6 +143,6 @@
     </div>
   </footer>
 
-  <script src="js/app.js"></script>
+  <script src="js/app.js?v=20260803b"></script>
 </body>
 </html>

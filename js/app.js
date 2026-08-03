@@ -45,7 +45,8 @@
   // ═══ State ═══
   let allPosts = [];
   let manifest = [];
-  let loadedData = {}; // cache: filename -> posts array
+  let loadedData = {}; // session cache: filename -> posts array
+  let cacheBust = String(Date.now());
 
   // ═══ DOM refs ═══
   const $dateSelect = document.getElementById('dateSelect');
@@ -76,10 +77,19 @@
   // ═══ Init ═══
   async function init() {
     try {
+      // Always re-fetch manifest (avoid stale CDN/browser cache missing today's file)
+      cacheBust = String(Date.now());
+      loadedData = {};
       manifest = await fetchJSON('data/manifest.json');
       if (!manifest || manifest.length === 0) {
         showAllEmpty('No data available');
         return;
+      }
+      const latest = getLatestManifestDate();
+      if (latest) cacheBust = latest;
+      // Default to Today so the newest digest is visible immediately
+      if ($dateSelect && !$dateSelect.dataset.userPicked) {
+        $dateSelect.value = 'today';
       }
       await loadByRange($dateSelect.value);
     } catch (err) {
@@ -90,7 +100,9 @@
 
   // ═══ Data ═══
   async function fetchJSON(path) {
-    const res = await fetch(path);
+    const sep = path.includes('?') ? '&' : '?';
+    const url = path + sep + 'v=' + encodeURIComponent(cacheBust);
+    const res = await fetch(url, { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return res.json();
   }
@@ -103,18 +115,59 @@
   }
 
   function getToday() {
+    // Local calendar date (avoid UTC day-shift for Asia/Bangkok etc.)
     const now = new Date();
-    return now.toISOString().slice(0, 10);
+    const y = now.getFullYear();
+    const m = String(now.getMonth() + 1).padStart(2, '0');
+    const d = String(now.getDate()).padStart(2, '0');
+    return `${y}-${m}-${d}`;
   }
 
   function subtractDays(dateStr, days) {
-    const d = new Date(dateStr + 'T00:00:00');
+    const d = new Date(dateStr + 'T12:00:00');
     d.setDate(d.getDate() - days);
-    return d.toISOString().slice(0, 10);
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${y}-${m}-${day}`;
+  }
+
+  /** Prefer digest/news-file date, then published_at (YYYY-MM-DD). */
+  function getNewsDate(post) {
+    if (post._date && /^\d{4}-\d{2}-\d{2}/.test(post._date)) return post._date.slice(0, 10);
+    if (post.published_at) return String(post.published_at).slice(0, 10);
+    return '';
+  }
+
+  function compareNewsDateDesc(a, b) {
+    const da = getNewsDate(a);
+    const db = getNewsDate(b);
+    if (da !== db) return db.localeCompare(da);
+    const pa = String(a.published_at || '');
+    const pb = String(b.published_at || '');
+    return pb.localeCompare(pa);
+  }
+
+  function getLatestManifestDate() {
+    for (const f of manifest) {
+      const d = getDateFromFilename(f);
+      if (d) return d;
+    }
+    return null;
+  }
+
+  /**
+   * "Today" = clock date if that digest exists, otherwise the newest
+   * digest in the manifest (so a just-published day always shows).
+   */
+  function getEffectiveToday() {
+    const clock = getToday();
+    if (manifest.some(f => getDateFromFilename(f) === clock)) return clock;
+    return getLatestManifestDate() || clock;
   }
 
   function getFilesInRange(range) {
-    const today = getToday();
+    const today = getEffectiveToday();
 
     if (range === 'all') {
       return manifest;
@@ -122,14 +175,10 @@
 
     let startDate;
     if (range === 'today') {
-      startDate = today;
+      return manifest.filter(f => getDateFromFilename(f) === today);
     } else if (range === 'yesterday') {
       startDate = subtractDays(today, 1);
-      // Only yesterday, not today
-      return manifest.filter(f => {
-        const d = getDateFromFilename(f);
-        return d === startDate;
-      });
+      return manifest.filter(f => getDateFromFilename(f) === startDate);
     } else {
       const days = parseInt(range, 10);
       startDate = subtractDays(today, days - 1);
@@ -138,7 +187,6 @@
     return manifest.filter(f => {
       const d = getDateFromFilename(f);
       if (!d) return false;
-      if (range === 'today') return d === today;
       return d >= startDate && d <= today;
     });
   }
@@ -174,12 +222,8 @@
       }));
 
       allPosts = results.flat();
-      // Sort by published_at descending (newest first), using Date parsing for accuracy
-      allPosts.sort((a, b) => {
-        const da = new Date(a.published_at || (a._date ? a._date + 'T00:00:00' : 0)).getTime();
-        const db = new Date(b.published_at || (b._date ? b._date + 'T00:00:00' : 0)).getTime();
-        return db - da;
-      });
+      // Latest digest/news date first within the overall list
+      allPosts.sort(compareNewsDateDesc);
 
       updateHeader(range, allPosts.length);
       populateSourceFilter(allPosts);
@@ -199,7 +243,9 @@
       '30': 'Last 30 Days',
       'all': 'All News'
     };
-    $headerDate.textContent = labels[range] || range;
+    const effective = getEffectiveToday();
+    const label = labels[range] || range;
+    $headerDate.textContent = range === 'today' ? `${label} · ${effective}` : label;
     $headerCount.textContent = `${count} articles`;
   }
 
@@ -251,7 +297,12 @@
       if (urgency !== 'all' && p.urgency !== urgency) return false;
       if (source !== 'all' && p.source_name !== source) return false;
       if (search) {
-        const blob = [p.title, p.content, p.source_name, ...(p.tags || [])].join(' ').toLowerCase();
+        const blob = [
+          p.title,
+          stripHtml(p.content || p.summary || ''),
+          p.source_name,
+          ...(p.tags || [])
+        ].join(' ').toLowerCase();
         if (!blob.includes(search)) return false;
       }
       return true;
@@ -269,13 +320,9 @@
       else groups['global'].push(p);
     });
 
-    // Sort each topic group by published_at descending (latest first)
+    // Sort each topic: latest news/digest date on top (then published_at)
     for (const posts of Object.values(groups)) {
-      posts.sort((a, b) => {
-        const da = new Date(a.published_at || (a._date ? a._date + 'T00:00:00' : 0)).getTime();
-        const db = new Date(b.published_at || (b._date ? b._date + 'T00:00:00' : 0)).getTime();
-        return db - da;
-      });
+      posts.sort(compareNewsDateDesc);
     }
 
     for (const [topic, posts] of Object.entries(groups)) {
@@ -309,7 +356,9 @@
       ? '<span class="card-badge breakthrough">★ BREAKTHROUGH</span>'
       : '';
 
-    const dateLabel = post._date ? `<span class="card-date">${post._date}</span>` : '';
+    const newsDate = getNewsDate(post);
+    const dateLabel = newsDate ? `<span class="card-date">${esc(newsDate)}</span>` : '';
+    const excerpt = truncate(stripHtml(post.content || post.summary || ''), 100);
 
     card.innerHTML = `
       <div class="card-top-row">
@@ -319,8 +368,8 @@
         </span>
         ${breakthroughBadge}
       </div>
-      <h3 class="card-title">${esc(post.title)}</h3>
-      <p class="card-excerpt">${esc(truncate(post.content || post.summary || '', 100))}</p>
+      <h3 class="card-title">${esc(stripHtml(post.title || ''))}</h3>
+      <p class="card-excerpt">${esc(excerpt)}</p>
       <div class="card-bottom-row">
         <div class="card-tags">${tags}</div>
         ${dateLabel}
@@ -346,25 +395,31 @@
     const tags = (post.tags || []).map(t => `<span class="modal-tag">${esc(t)}</span>`).join('');
     const domains = (post.related_domains || []).map(d => `<span class="modal-tag">${esc(d)}</span>`).join('');
 
+    const newsDate = getNewsDate(post);
+    const pubDate = post.published_at ? String(post.published_at).slice(0, 10) : '';
+    const dateMeta = newsDate
+      ? (pubDate && pubDate !== newsDate ? `${newsDate} (pub ${pubDate})` : newsDate)
+      : pubDate;
+
     $modalBody.innerHTML = `
       <span class="modal-topic-badge ${topic}">${topicLabels[topic]}</span>
-      <h2 class="modal-title">${esc(post.title)}</h2>
+      <h2 class="modal-title">${esc(stripHtml(post.title || ''))}</h2>
       <div class="modal-meta">
         <span class="modal-meta-item">📰 ${esc(post.source_name || 'Unknown')}</span>
         <span class="modal-meta-item">⚡ ${(post.urgency || 'low').toUpperCase()}</span>
-        <span class="modal-meta-item">📅 ${esc(post.published_at ? post.published_at.slice(0, 10) : (post._date || ''))}</span>
+        <span class="modal-meta-item">📅 ${esc(dateMeta)}</span>
         ${post.breakthrough_potential ? '<span class="modal-meta-item">★ Breakthrough</span>' : ''}
       </div>
 
       <div class="modal-section">
         <div class="modal-section-title">CONTENT</div>
-        <p class="modal-text">${esc(post.content || post.summary || '')}</p>
+        <p class="modal-text">${esc(stripHtml(post.content || post.summary || ''))}</p>
       </div>
 
       ${post.tech_impact ? `
       <div class="modal-section">
         <div class="modal-section-title">TECH IMPACT</div>
-        <div class="modal-impact">${esc(post.tech_impact)}</div>
+        <div class="modal-impact">${esc(stripHtml(post.tech_impact))}</div>
       </div>` : ''}
 
       ${devActions ? `
@@ -418,7 +473,10 @@
 
   // ═══ Events ═══
   function bindEvents() {
-    $dateSelect.addEventListener('change', () => loadByRange($dateSelect.value));
+    $dateSelect.addEventListener('change', () => {
+      $dateSelect.dataset.userPicked = '1';
+      loadByRange($dateSelect.value);
+    });
     $urgencyFilter.addEventListener('change', renderColumns);
     $sourceFilter.addEventListener('change', renderColumns);
 
@@ -434,6 +492,23 @@
   }
 
   // ═══ Helpers ═══
+  function stripHtml(str) {
+    if (!str) return '';
+    return String(str)
+      .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+      .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/&nbsp;/gi, ' ')
+      .replace(/&amp;/gi, '&')
+      .replace(/&lt;/gi, '<')
+      .replace(/&gt;/gi, '>')
+      .replace(/&quot;/gi, '"')
+      .replace(/&#39;/gi, "'")
+      .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
   function esc(str) {
     if (!str) return '';
     const d = document.createElement('div');
