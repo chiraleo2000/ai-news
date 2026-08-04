@@ -413,6 +413,13 @@ body {
   margin-bottom: 8px;
 }
 
+.card-bottom-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
 .card-tags {
   display: flex;
   gap: 4px;
@@ -426,6 +433,14 @@ body {
   background: var(--bg-primary);
   border-radius: 3px;
   color: var(--text-muted);
+}
+
+.card-date {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  opacity: 0.8;
 }
 
 /* ═══ Modal ═══ */

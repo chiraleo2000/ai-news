@@ -1,5 +1,5 @@
 /**
- * AI NEWS DAILY — 4-Column Topic Layout with Filters
+ * AI NEWS DAILY — 4-Column Topic Layout with Time Range Filter
  * Light Cyberpunk Theme
  */
 
@@ -23,7 +23,7 @@
         'on-device', 'vanity-search', 'vector-search', 'tool', 'product',
         'app', 'feature', 'release', 'update', 'launch'],
       categories: [],
-      topics: ['AI Tools', 'AI Products']
+      topics: ['AI Tools', 'AI Products', 'AI Product']
     },
     'thailand': {
       keywords: ['Thailand', 'Thai', 'ไทย', 'กรุงเทพ', 'Blognone', 'Beartai',
@@ -45,6 +45,8 @@
   // ═══ State ═══
   let allPosts = [];
   let manifest = [];
+  let loadedData = {}; // session cache: filename -> posts array
+  let cacheBust = String(Date.now());
 
   // ═══ DOM refs ═══
   const $dateSelect = document.getElementById('dateSelect');
@@ -75,13 +77,18 @@
   // ═══ Init ═══
   async function init() {
     try {
+      // Always re-fetch manifest (avoid stale CDN/browser cache missing today's file)
+      cacheBust = String(Date.now());
+      loadedData = {};
       manifest = await fetchJSON('data/manifest.json');
       if (!manifest || manifest.length === 0) {
         showAllEmpty('No data available');
         return;
       }
-      populateDateSelect(manifest);
-      await loadDate(manifest[0]);
+      const latest = getLatestManifestDate();
+      if (latest) cacheBust = latest;
+      // Keep HTML default (Last 3 Days) — covers early morning before today's digest exists
+      await loadByRange($dateSelect.value);
     } catch (err) {
       showAllEmpty('Failed to load: ' + err.message);
     }
@@ -90,21 +97,132 @@
 
   // ═══ Data ═══
   async function fetchJSON(path) {
-    const res = await fetch(path);
+    const sep = path.includes('?') ? '&' : '?';
+    const url = path + sep + 'v=' + encodeURIComponent(cacheBust);
+    const res = await fetch(url, { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return res.json();
   }
 
-  async function loadDate(filename) {
+  // ═══ Date Range Logic ═══
+  function getDateFromFilename(filename) {
+    // Extract date string from "2026-06-24_news.json" → "2026-06-24"
+    const match = filename.match(/^(\d{4}-\d{2}-\d{2})/);
+    return match ? match[1] : null;
+  }
+
+  function getToday() {
+    // Local calendar date (avoid UTC day-shift for Asia/Bangkok etc.)
+    const now = new Date();
+    const y = now.getFullYear();
+    const m = String(now.getMonth() + 1).padStart(2, '0');
+    const d = String(now.getDate()).padStart(2, '0');
+    return `${y}-${m}-${d}`;
+  }
+
+  function subtractDays(dateStr, days) {
+    const d = new Date(dateStr + 'T12:00:00');
+    d.setDate(d.getDate() - days);
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${y}-${m}-${day}`;
+  }
+
+  /** Prefer digest/news-file date, then published_at (YYYY-MM-DD). */
+  function getNewsDate(post) {
+    if (post._date && /^\d{4}-\d{2}-\d{2}/.test(post._date)) return post._date.slice(0, 10);
+    if (post.published_at) return String(post.published_at).slice(0, 10);
+    return '';
+  }
+
+  function compareNewsDateDesc(a, b) {
+    const da = getNewsDate(a);
+    const db = getNewsDate(b);
+    if (da !== db) return db.localeCompare(da);
+    const pa = String(a.published_at || '');
+    const pb = String(b.published_at || '');
+    return pb.localeCompare(pa);
+  }
+
+  function getLatestManifestDate() {
+    for (const f of manifest) {
+      const d = getDateFromFilename(f);
+      if (d) return d;
+    }
+    return null;
+  }
+
+  /**
+   * "Today" = clock date if that digest exists, otherwise the newest
+   * digest in the manifest (so a just-published day always shows).
+   */
+  function getEffectiveToday() {
+    const clock = getToday();
+    if (manifest.some(f => getDateFromFilename(f) === clock)) return clock;
+    return getLatestManifestDate() || clock;
+  }
+
+  function getFilesInRange(range) {
+    const today = getEffectiveToday();
+
+    if (range === 'all') {
+      return manifest;
+    }
+
+    let startDate;
+    if (range === 'today') {
+      return manifest.filter(f => getDateFromFilename(f) === today);
+    } else if (range === 'yesterday') {
+      startDate = subtractDays(today, 1);
+      return manifest.filter(f => getDateFromFilename(f) === startDate);
+    } else {
+      const days = parseInt(range, 10);
+      startDate = subtractDays(today, days - 1);
+    }
+
+    return manifest.filter(f => {
+      const d = getDateFromFilename(f);
+      if (!d) return false;
+      return d >= startDate && d <= today;
+    });
+  }
+
+  async function loadByRange(range) {
     showAllLoading();
     try {
-      const data = await fetchJSON('data/' + filename);
-      allPosts = (data.posts || []).map(p => ({
-        ...p,
-        _topic: classifyPost(p)
+      const files = getFilesInRange(range);
+
+      if (files.length === 0) {
+        allPosts = [];
+        updateHeader(range, 0);
+        populateSourceFilter([]);
+        renderColumns();
+        return;
+      }
+
+      // Load all files in range (use cache)
+      const results = await Promise.all(files.map(async (f) => {
+        if (loadedData[f]) return loadedData[f];
+        try {
+          const data = await fetchJSON('data/' + f);
+          const posts = (data.posts || []).map(p => ({
+            ...p,
+            _date: data.date || getDateFromFilename(f),
+            _topic: classifyPost(p)
+          }));
+          loadedData[f] = posts;
+          return posts;
+        } catch (e) {
+          return [];
+        }
       }));
-      $headerDate.textContent = data.date || filename.replace('_news.json', '');
-      $headerCount.textContent = `${allPosts.length} articles`;
+
+      allPosts = results.flat();
+      // Latest digest/news date first within the overall list
+      allPosts.sort(compareNewsDateDesc);
+
+      updateHeader(range, allPosts.length);
       populateSourceFilter(allPosts);
       renderColumns();
     } catch (err) {
@@ -112,14 +230,20 @@
     }
   }
 
-  function populateDateSelect(files) {
-    $dateSelect.innerHTML = '';
-    files.forEach(f => {
-      const opt = document.createElement('option');
-      opt.value = f;
-      opt.textContent = f.replace('_news.json', '');
-      $dateSelect.appendChild(opt);
-    });
+  function updateHeader(range, count) {
+    const labels = {
+      'today': 'Today',
+      'yesterday': 'Yesterday',
+      '3': 'Last 3 Days',
+      '7': 'Last 7 Days',
+      '14': 'Last 14 Days',
+      '30': 'Last 30 Days',
+      'all': 'All News'
+    };
+    const effective = getEffectiveToday();
+    const label = labels[range] || range;
+    $headerDate.textContent = range === 'today' ? `${label} · ${effective}` : label;
+    $headerCount.textContent = `${count} articles`;
   }
 
   function populateSourceFilter(posts) {
@@ -135,10 +259,7 @@
 
   // ═══ Topic Classification ═══
   function classifyPost(post) {
-    // Use pre-assigned topic_group if available
     if (post.topic_group && TOPIC_RULES[post.topic_group]) return post.topic_group;
-
-    // Direct category match
     if (post.category === 'Thai') return 'thailand';
 
     const scores = { 'ai-trends': 0, 'tech-trends': 0, 'thailand': 0, 'global': 0 };
@@ -173,7 +294,12 @@
       if (urgency !== 'all' && p.urgency !== urgency) return false;
       if (source !== 'all' && p.source_name !== source) return false;
       if (search) {
-        const blob = [p.title, p.content, p.source_name, ...(p.tags || [])].join(' ').toLowerCase();
+        const blob = [
+          p.title,
+          stripHtml(p.content || p.summary || ''),
+          p.source_name,
+          ...(p.tags || [])
+        ].join(' ').toLowerCase();
         if (!blob.includes(search)) return false;
       }
       return true;
@@ -184,7 +310,6 @@
   function renderColumns() {
     const filtered = getFilteredPosts();
 
-    // Group by topic
     const groups = { 'ai-trends': [], 'tech-trends': [], 'thailand': [], 'global': [] };
     filtered.forEach(p => {
       const topic = p._topic || 'global';
@@ -192,16 +317,11 @@
       else groups['global'].push(p);
     });
 
-    // Sort each topic group by published_at descending (latest first)
+    // Sort each topic: latest news/digest date on top (then published_at)
     for (const posts of Object.values(groups)) {
-      posts.sort((a, b) => {
-        const da = new Date(a.published_at || 0).getTime();
-        const db = new Date(b.published_at || 0).getTime();
-        return db - da;
-      });
+      posts.sort(compareNewsDateDesc);
     }
 
-    // Render each column
     for (const [topic, posts] of Object.entries(groups)) {
       const col = columns[topic];
       const count = counts[topic];
@@ -233,6 +353,10 @@
       ? '<span class="card-badge breakthrough">★ BREAKTHROUGH</span>'
       : '';
 
+    const newsDate = getNewsDate(post);
+    const dateLabel = newsDate ? `<span class="card-date">${esc(newsDate)}</span>` : '';
+    const excerpt = truncate(stripHtml(post.content || post.summary || ''), 100);
+
     card.innerHTML = `
       <div class="card-top-row">
         <span class="card-source">
@@ -241,9 +365,12 @@
         </span>
         ${breakthroughBadge}
       </div>
-      <h3 class="card-title">${esc(post.title)}</h3>
-      <p class="card-excerpt">${esc(truncate(post.content || post.summary || '', 100))}</p>
-      <div class="card-tags">${tags}</div>
+      <h3 class="card-title">${esc(stripHtml(post.title || ''))}</h3>
+      <p class="card-excerpt">${esc(excerpt)}</p>
+      <div class="card-bottom-row">
+        <div class="card-tags">${tags}</div>
+        ${dateLabel}
+      </div>
     `;
 
     card.addEventListener('click', () => openModal(post));
@@ -265,25 +392,31 @@
     const tags = (post.tags || []).map(t => `<span class="modal-tag">${esc(t)}</span>`).join('');
     const domains = (post.related_domains || []).map(d => `<span class="modal-tag">${esc(d)}</span>`).join('');
 
+    const newsDate = getNewsDate(post);
+    const pubDate = post.published_at ? String(post.published_at).slice(0, 10) : '';
+    const dateMeta = newsDate
+      ? (pubDate && pubDate !== newsDate ? `${newsDate} (pub ${pubDate})` : newsDate)
+      : pubDate;
+
     $modalBody.innerHTML = `
       <span class="modal-topic-badge ${topic}">${topicLabels[topic]}</span>
-      <h2 class="modal-title">${esc(post.title)}</h2>
+      <h2 class="modal-title">${esc(stripHtml(post.title || ''))}</h2>
       <div class="modal-meta">
         <span class="modal-meta-item">📰 ${esc(post.source_name || 'Unknown')}</span>
         <span class="modal-meta-item">⚡ ${(post.urgency || 'low').toUpperCase()}</span>
-        <span class="modal-meta-item">📅 ${esc(post.published_at ? post.published_at.slice(0, 10) : '')}</span>
+        <span class="modal-meta-item">📅 ${esc(dateMeta)}</span>
         ${post.breakthrough_potential ? '<span class="modal-meta-item">★ Breakthrough</span>' : ''}
       </div>
 
       <div class="modal-section">
         <div class="modal-section-title">CONTENT</div>
-        <p class="modal-text">${esc(post.content || post.summary || '')}</p>
+        <p class="modal-text">${esc(stripHtml(post.content || post.summary || ''))}</p>
       </div>
 
       ${post.tech_impact ? `
       <div class="modal-section">
         <div class="modal-section-title">TECH IMPACT</div>
-        <div class="modal-impact">${esc(post.tech_impact)}</div>
+        <div class="modal-impact">${esc(stripHtml(post.tech_impact))}</div>
       </div>` : ''}
 
       ${devActions ? `
@@ -337,7 +470,10 @@
 
   // ═══ Events ═══
   function bindEvents() {
-    $dateSelect.addEventListener('change', () => loadDate($dateSelect.value));
+    $dateSelect.addEventListener('change', () => {
+      $dateSelect.dataset.userPicked = '1';
+      loadByRange($dateSelect.value);
+    });
     $urgencyFilter.addEventListener('change', renderColumns);
     $sourceFilter.addEventListener('change', renderColumns);
 
@@ -353,6 +489,23 @@
   }
 
   // ═══ Helpers ═══
+  function stripHtml(str) {
+    if (!str) return '';
+    return String(str)
+      .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+      .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/&nbsp;/gi, ' ')
+      .replace(/&amp;/gi, '&')
+      .replace(/&lt;/gi, '<')
+      .replace(/&gt;/gi, '>')
+      .replace(/&quot;/gi, '"')
+      .replace(/&#39;/gi, "'")
+      .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
   function esc(str) {
     if (!str) return '';
     const d = document.createElement('div');
