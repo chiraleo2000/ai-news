@@ -1,0 +1,74 @@
+{
+  "article_id": "b2-trump-anthropic-mythos-006",
+  "schema_version": "2.0",
+  "topic_group": "global",
+  "source_info": {
+    "category": "International",
+    "source_name": "TechCrunch",
+    "registry_key": "Intl/TechCrunch",
+    "domain": "AI-policy",
+    "main_url": "https://techcrunch.com"
+  },
+  "source": {
+    "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-28T11:30:00+07:00",
+    "fetch_mode": "rendered",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-27T01:01:37+00:00",
+    "scraped_at": "2026-06-28T11:30:00+07:00",
+    "run_date": "2026-06-28",
+    "target_date": "2026-06-28",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "2",
+    "category": "AI-POLICY",
+    "category_label": "นโยบาย AI",
+    "news_type": "ข่าวด่วน",
+    "tags": ["trump", "anthropic", "mythos-5", "fable-5", "export-ban", "us-government", "ai-regulation", "cybersecurity"],
+    "language": "th"
+  },
+  "content": {
+    "title": "Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
+    "title_th": "รัฐบาล Trump เปิดให้ใช้ Anthropic Mythos กับบริษัทและหน่วยงานสหรัฐฯ กว่า 100 แห่ง",
+    "slug": "trump-admin-anthropic-mythos-us-companies",
+    "summary": "หลังจากแบนมาสองสัปดาห์ รัฐบาล Trump ผ่อนคลายนโยบาย อนุญาตให้ Anthropic เปิดให้เข้าถึง Mythos 5 สำหรับพันธมิตรสหรัฐฯ ที่เชื่อถือได้กว่า 100 ราย รวมทั้งพนักงานที่ไม่ใช่ชาวอเมริกันขององค์กรเหล่านั้น",
+    "summary_1": "หลังการแบน Anthropic Mythos 5 และ Fable 5 เป็นเวลาสองสัปดาห์เนื่องจากข้อกังวลด้าน cybersecurity รัฐบาล Trump กำลังผ่อนคลายจุดยืนโดยอนุญาตให้ Anthropic เปิดให้เข้าถึง Mythos 5 สำหรับหน่วยงานรัฐบาลสหรัฐฯ และบริษัทเอกชนที่คัดเลือกแล้วกว่า 100 ราย ซึ่งครอบคลุมถึงพนักงานที่ไม่ใช่ชาวอเมริกันในองค์กรเหล่านั้น รัฐมนตรีกระทรวงพาณิชย์ Howard Lutnick เขียนถึง Tom Brown หัวหน้าด้าน compute ของ Anthropic ว่า 'ฉันได้กำหนดว่ามีมาตรการป้องกันที่เหมาะสมเพื่อให้พันธมิตรที่น่าเชื่อถือบางรายเข้าถึง Claude Mythos 5 ได้' Anthropic ยืนยันความคืบหน้าในโพสต์บน X โดยระบุว่ากำลังดำเนินการรีสโตร์การเข้าถึงสำหรับองค์กรที่ดูแลโครงสร้างพื้นฐานสำคัญอย่างรวดเร็ว แต่ยังไม่มีการชี้แจงเกี่ยวกับ Fable 5 ที่ยังคงถูกแบนอยู่",
+    "body_text": "การแบนเดิมเกิดขึ้นหลังจากนักวิจัยด้านความปลอดภัยอ้างว่าสามารถ bypass guardrails ของ Mythos 5 และ Fable 5 ได้ง่าย ทั้งสองโมเดลถูกออกแบบมาเพื่องานด้าน cybersecurity และการวิเคราะห์ภัยคุกคาม ซึ่งทำให้รัฐบาลกังวลว่าอาจถูกนำไปใช้โดยผู้ไม่หวังดีต่างชาติ รายการ 100+ องค์กรที่ได้รับอนุญาตยังไม่ได้รับการเปิดเผยต่อสาธารณะ แต่รายงานระบุว่าครอบคลุมองค์กรด้านโครงสร้างพื้นฐานสำคัญ เช่น พลังงาน การขนส่ง และการเงิน Anthropic เองก็รวมอยู่ในรายการนี้ด้วย ทำให้พนักงานที่ไม่ใช่ชาวอเมริกันของบริษัทสามารถกลับมาทำงานกับโมเดลดังกล่าวได้อีกครั้ง",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "การตัดสินใจของรัฐบาล Trump แสดงให้เห็นว่า AI cybersecurity models กำลังถูกจัดการเหมือนอาวุธยุทโธปกรณ์ที่ต้องควบคุมการส่งออก ซึ่งจะส่งผลต่อการพัฒนาและการเผยแพร่ AI ขั้นสูงทั่วโลก โดยเฉพาะในเอเชียที่ต้องพึ่งพา frontier AI จากสหรัฐฯ",
+    "actions_developer": [
+      "ตรวจสอบว่าองค์กรของคุณอยู่ในรายการพันธมิตรที่ได้รับอนุญาตหรือไม่ ก่อนวางแผนใช้ Mythos 5",
+      "พัฒนา fallback strategy โดยใช้ open-source cybersecurity models เช่น Meta Llama 3 Cyber หากไม่สามารถเข้าถึง Anthropic models ได้"
+    ],
+    "actions_business": [
+      "ประเมินความเสี่ยงจากการพึ่งพา frontier AI จากสหรัฐฯ ที่อาจถูกแบนได้ทุกเมื่อ",
+      "พิจารณาลงทุนใน Asian AI alternatives เช่น Baidu, Alibaba Qwen หรือ open-source LLMs สำหรับ cybersecurity use cases"
+    ],
+    "urgency": "high",
+    "related_domains": ["AI-policy", "cybersecurity", "export-control", "LLM"],
+    "breakthrough_potential": false
+  },
+  "media_links": {
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2279025960.jpg"
+  },
+  "paths": {
+    "relative": "International/TechCrunch/2026-06-28/trump-admin-anthropic-mythos-us-companies",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-06-28/batch_2.json"
+  }
+}

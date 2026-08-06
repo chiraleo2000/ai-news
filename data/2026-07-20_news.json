@@ -1,0 +1,485 @@
+{
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T09:00:00+07:00",
+  "schema_version": "2.0",
+  "stats": {
+    "total": 15,
+    "by_topic": {
+      "ai_trends": 7,
+      "tech_trends": 3,
+      "thailand": 0,
+      "global": 5
+    },
+    "by_source_category": {
+      "thai": 6,
+      "international": 7,
+      "research": 4,
+      "youtube": 2
+    },
+    "urgency_breakdown": {
+      "high": 8,
+      "medium": 6,
+      "low": 1
+    },
+    "breakthrough_count": 5
+  },
+  "top_insights": [
+    {
+      "title": "Alibaba เปิดตัว Qwen3.8-Max Preview (2.4T params) — อ้างรองแค่ Claude Fable 5 เท่านั้น",
+      "impact_summary": "China AI แซงหน้า Meta Llama ด้วย 1B downloads และเปิดตัว flagship 2.4T-param model ท้าชิง frontier models ตะวันตกโดยตรง",
+      "urgency": "high",
+      "related_domains": ["LLM", "Open Source AI", "China AI", "Model Competition"],
+      "article_id": "b1-20260720-alibaba-qwen38-china-ai-hot"
+    },
+    {
+      "title": "Anthropic Fable 5: นโยบายใหม่มีผล 20 กรกฎาคม — Max/Team Premium 50% quota, Pro/Standard ต้องซื้อ credit",
+      "impact_summary": "เปลี่ยนระบบ Fable 5 access เป็น credit-based สำหรับ Pro/Standard ส่งผลตรงต่อต้นทุนนักพัฒนาและองค์กรที่ใช้ Claude API",
+      "urgency": "high",
+      "related_domains": ["LLM", "Anthropic", "AI Pricing", "Enterprise AI"],
+      "article_id": "b1-20260720-claude-fable5-access-policy"
+    },
+    {
+      "title": "China เปิดตัว WAICO — พันธมิตร AI 29 ประเทศ Global South ท้าทาย US/EU governance",
+      "impact_summary": "WAICO แบ่งโลก AI governance เป็น 2 กลุ่มชัดเจน ธุรกิจที่ทำงานข้ามภูมิภาคต้องรับมือ dual compliance",
+      "urgency": "high",
+      "related_domains": ["AI Policy", "AI Governance", "Geopolitics", "China AI"],
+      "article_id": "b1-20260720-waico-china-global-ai-org"
+    },
+    {
+      "title": "EU DMA สั่ง Google เปิด 11 Android features ให้ ChatGPT/Claude เข้าถึงเท่า Gemini ภายใน ก.ค. 2027",
+      "impact_summary": "DMA mandate เปลี่ยนโครงสร้างการแข่งขัน mobile AI ใน EU และอาจเป็นต้นแบบสำหรับประเทศอื่น",
+      "urgency": "high",
+      "related_domains": ["AI Policy", "EU Regulation", "Google", "Android", "AI Competition"],
+      "article_id": "b2-20260720-eu-dma-google-android-ai-rivals"
+    },
+    {
+      "title": "Apple Intelligence ผ่านอนุมัติจีนแล้ว ใช้ Qwen (Alibaba) + Baidu หลัง 22 เดือนรอ",
+      "impact_summary": "Apple-Alibaba partnership เปิด iPhone AI market จีนกว่า 300M เครื่อง เป็น use case ใหญ่ที่สุดสำหรับ Qwen",
+      "urgency": "high",
+      "related_domains": ["Apple Intelligence", "China AI Market", "Alibaba", "Mobile AI"],
+      "article_id": "b2-20260720-apple-intelligence-china-qwen"
+    }
+  ],
+  "posts": [
+    {
+      "id": "b1-20260720-apple-store-genius-bar-ai",
+      "slug": "apple-store-genius-bar-live-notes-ai",
+      "title": "Apple Store ทดสอบระบบ 'Live Notes' บันทึกเสียงสนทนาและสรุปเนื้อหาที่ Genius Bar",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "tech-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Apple กำลังทดลองนำ AI เข้ามาพัฒนาประสบการณ์การให้บริการลูกค้าในร้าน Apple Store โดย Mark Gurman จาก Bloomberg รายงานว่าแอปเปิลเริ่มนำร่องทดสอบระบบที่ชื่อว่า 'Live Notes' กับ Apple Store บางสาขา ซึ่งระบบดังกล่าวจะทำการบันทึกการสนทนาระหว่างลูกค้าและเจ้าหน้าที่ Genius Bar แบบเรียลไทม์ จากนั้น AI จะวิเคราะห์และสรุปเนื้อหาการสนทนา ช่วยให้เจ้าหน้าที่บริการลูกค้าได้ดียิ่งขึ้นและลดความผิดพลาดในการจดบันทึก การทดลองนี้เป็นส่วนหนึ่งของยุทธศาสตร์ Apple Intelligence ที่แอปเปิลพยายามนำ AI มาใช้ในทุกจุดสัมผัสของธุรกิจ ไม่ว่าจะเป็นระบบ on-device หรือบริการหลังบ้าน โดยยังไม่มีการยืนยันว่าจะขยายใช้งานทั่วโลกเมื่อใด ฟีเจอร์นี้สะท้อนให้เห็นถึงแนวโน้มการนำ AI มาช่วยงาน front-line customer service ในอุตสาหกรรม retail tech",
+      "source_url": "https://www.blognone.com/node/151193",
+      "tech_impact": "แอปเปิลนำ AI มาช่วยงาน retail customer service โดยตรง เป็นสัญญาณว่าโมเดลขนาดใหญ่จะถูกนำไปใช้ในพนักงานหน้าร้านมากขึ้น",
+      "tags": ["Apple Store", "Apple", "AI", "LLM", "Genius Bar"],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-07-20T07:54:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": ["AI-product", "Customer Service AI", "Apple Intelligence"],
+      "actions_developer": [
+        "ศึกษาการออกแบบ AI transcription + summarization สำหรับ customer service use case",
+        "ติดตามการพัฒนา Apple Intelligence SDK เพื่อเตรียมพัฒนาแอปที่ใช้ประโยชน์จากฟีเจอร์เหล่านี้"
+      ],
+      "actions_business": [
+        "พิจารณานำ AI transcription มาใช้ใน call center หรือจุดบริการลูกค้าขององค์กร",
+        "ประเมินความพร้อมด้านข้อมูลและ privacy policy ก่อนนำ AI บันทึกเสียงมาใช้"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b1-20260720-alibaba-qwen38-china-ai-hot",
+      "slug": "alibaba-qwen-38-china-ai-market-hot",
+      "title": "ตลาด AI จีนระอุ — Alibaba เปิดตัว Qwen3.8-Max (2.4T params) อ้างรองแค่ Claude Fable, ยอดดาวน์โหลดแซง Meta Llama",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "ai-trends",
+      "source_name": "Blognone / MarkTechPost",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "ตลาด AI โมเดลเปิดจากจีนร้อนแรงขึ้นอีกระดับ หลัง Moonshot AI เปิดตัว Kimi K3 (2.8T params) ล่าสุด Alibaba Cloud เปิดตัว Qwen3.8-Max-Preview บนเวที WAIC Shanghai วันที่ 19 กรกฎาคม 2026 โมเดลนี้มีขนาด 2.4 ล้านล้านพารามิเตอร์ รองรับ multimodal และ Alibaba อ้างว่าสมรรถนะเป็นรองเพียง Claude Fable 5 เท่านั้น พร้อมกันนี้ผู้ให้บริการ GLM-5.2 ยังประกาศตัดราคาลง 80% Qwen ยังทะลุยอดดาวน์โหลดสะสม 1 พันล้านครั้ง แซงหน้า Meta Llama กลายเป็นโมเดล AI โอเพนซอร์สยอดนิยมสูงสุดในโลก สัญญาณชัดว่า AI จากจีนกำลังแข่งขันกับ frontier models ตะวันตกได้จริง",
+      "source_url": "https://www.blognone.com/node/151192",
+      "tech_impact": "โมเดล AI จีนเทียบชั้น frontier ด้วยต้นทุนต่ำกว่ามาก กดดันให้ผู้ให้บริการตะวันตกต้องปรับราคาและยุทธศาสตร์อย่างเร่งด่วน",
+      "tags": ["Qwen", "Alibaba Cloud", "LLM", "Open Source", "China AI", "Kimi K3"],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-07-19T23:09:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": ["LLM", "Open Source AI", "China AI", "Model Competition"],
+      "actions_developer": [
+        "ทดสอบ Qwen3.8-Max API เปรียบเทียบกับ GPT-5.6 / Claude Sonnet 5 สำหรับ use case ของตัวเอง",
+        "ติดตาม open-weight release ของ Qwen3.8 เพื่อ self-host ลดต้นทุน inference"
+      ],
+      "actions_business": [
+        "พิจารณาใช้โมเดลจีนราคาถูกสำหรับงาน internal ที่ไม่ sensitive",
+        "ประเมินความเสี่ยงด้าน data sovereignty ก่อนนำโมเดลจีนมาใช้ในองค์กร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b1-20260720-claude-fable5-access-policy",
+      "slug": "claude-fable5-access-policy-july-20",
+      "title": "Anthropic ปรับนโยบาย Fable 5 มีผล 20 กรกฎาคม: Max/Team Premium ได้ 50% quota, Pro/Standard ใช้ระบบ credit ($100 ฟรีครั้งแรก)",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "ai-trends",
+      "source_name": "Blognone / Anthropic",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Anthropic ประกาศปรับเปลี่ยนนโยบายการเข้าถึง Claude Fable 5 ซึ่งมีผลตั้งแต่วันที่ 20 กรกฎาคม 2026 โดยแบ่งออกเป็น 2 กลุ่ม ได้แก่ ลูกค้า Max และ Team Premium จะยังคงได้โควต้าการใช้งาน Fable 5 สูงสุด 50% ของโควต้าต่อสัปดาห์ตามระบบเดิม ในขณะที่ลูกค้า Pro และ Team Standard จะเปลี่ยนมาใช้ระบบ credit โดยจะได้รับ credit เริ่มต้น $100 ฟรีในครั้งแรก จากนั้นต้องซื้อเพิ่ม การเปลี่ยนแปลงครั้งนี้สะท้อนถึงการที่ Anthropic พยายามควบคุมต้นทุนการให้บริการโมเดลสมรรถนะสูงสุด ในขณะเดียวกันก็รักษาความพึงพอใจของลูกค้าระดับพรีเมียม นักพัฒนาที่ใช้แผน Pro/Standard ควรวางแผนงบประมาณใหม่",
+      "source_url": "https://www.blognone.com/node/151185",
+      "tech_impact": "การเปลี่ยนเป็น credit-based สำหรับ frontier model สะท้อนต้นทุน compute ของ Fable 5 ที่สูงมาก และชี้ทิศทาง AI pricing ที่จะซับซ้อนขึ้น",
+      "tags": ["Claude", "Anthropic", "Fable 5", "Pricing", "AI"],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-07-18T23:21:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": ["LLM", "Anthropic", "AI Pricing", "Enterprise AI"],
+      "actions_developer": [
+        "ตรวจสอบแผน Anthropic ที่ใช้อยู่ว่าจะได้รับผลกระทบอย่างไร และวางแผนงบ credit สำหรับ Fable 5",
+        "ประเมินว่า Claude Sonnet 5 เพียงพอสำหรับ use case ส่วนใหญ่หรือไม่ เพื่อลด cost"
+      ],
+      "actions_business": [
+        "อัปเกรดเป็น Max หรือ Team Premium หากทีมต้องการ Fable 5 อย่างสม่ำเสมอ",
+        "รวม AI model cost เข้าใน budget planning cycle ประจำไตรมาสอย่างชัดเจน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b1-20260720-anthropic-meta-datacenter",
+      "slug": "anthropic-meta-datacenter-lease-rumor",
+      "title": "[ลือ] Anthropic เจรจาขอเช่าศูนย์ข้อมูลของ Meta รัน AI มูลค่า $10B/2 ปี",
+      "topic": "ธุรกิจ AI",
+      "topic_group": "ai-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "New York Times รายงานโดยอ้างแหล่งข่าว 3 รายว่า Anthropic กำลังอยู่ระหว่างการเจรจาขอเช่าศูนย์ข้อมูลของ Meta เพื่อใช้รันโมเดล AI โดย Anthropic เป็นฝ่ายเสนอเข้ามาเองตั้งแต่เดือนมิถุนายน และ Meta กำลังพิจารณาข้อเสนอดังกล่าว มูลค่าของดีลนี้อาจสูงถึง $10,000 ล้านดอลลาร์ตลอดระยะเวลา 2 ปี โดย Anthropic จะแบ่งจ่ายเป็นรายเดือน ดีลนี้มีนัยสำคัญอย่างมากต่ออุตสาหกรรม AI เพราะ Meta ซึ่งเป็นคู่แข่งโดยตรงในตลาด AI กำลังพิจารณาให้ Anthropic เช่าโครงสร้างพื้นฐาน สะท้อนถึงความต้องการ compute ที่มหาศาลของ Anthropic",
+      "source_url": "https://www.blognone.com/node/151182",
+      "tech_impact": "ดีล Anthropic-Meta ชี้ให้เห็น compute bottleneck ที่ AI labs ระดับ frontier เผชิญอยู่ อาจกระทบราคา API และ availability",
+      "tags": ["Meta", "Anthropic", "Data Center", "Infrastructure", "AI"],
+      "category_label": "ธุรกิจ AI",
+      "published_at": "2026-07-18T10:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": ["AI Infrastructure", "Data Center", "Cloud Computing", "AI Business"],
+      "actions_developer": [
+        "วางแผน API fallback provider สำรอง เนื่องจาก Anthropic อาจมี latency สูงขึ้นในช่วง demand พุ่ง",
+        "พิจารณาสำรอง model provider หลายรายเพื่อลดการพึ่งพา single vendor"
+      ],
+      "actions_business": [
+        "ติดตามพัฒนาการของดีล Anthropic-Meta เพื่อประเมินผลกระทบต่อ API pricing ในอนาคต",
+        "พิจารณาลงทุนใน on-premise inference สำหรับ workload ที่ critical"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b1-20260720-deepmind-bioresilience",
+      "slug": "deepmind-isomorphic-bioresilience-ai-biosecurity",
+      "title": "DeepMind + Isomorphic Labs กางแผน Bioresilience: ใช้ AI (AlphaFold, IsoDDE, SynthID) ป้องกัน AI จากการสร้างเชื้อโรค",
+      "topic": "ความปลอดภัย AI",
+      "topic_group": "ai-trends",
+      "source_name": "Techsauce / Axios",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Google DeepMind และ Isomorphic Labs ประกาศแนวทางใหม่ชื่อ Bioresilience ซึ่งมุ่งใช้ AI เป็นเครื่องมือป้องกันความเสี่ยงทางชีวภาพที่อาจเกิดจาก AI เอง แนวคิดหลักคือ 'ดาบสองคม' — AI สามารถเป็นทั้งภัยคุกคามและเกราะป้องกัน โดยใช้เครื่องมืออย่าง AlphaFold สำหรับทำนายโครงสร้างโปรตีน, IsoDDE สำหรับตรวจหาเชื้อโรค และ SynthID สำหรับฝังลายน้ำดิจิทัลในเนื้อหาที่ AI สร้างขึ้น เพื่อป้องกันการนำโมเดลไปใช้พัฒนาอาวุธชีวภาพ นอกจากนี้ยังมีแผนเร่งสร้างวัคซีนและยาตอบสนองต่อการระบาด DeepMind CEO Demis Hassabis ยังเสนอจัดตั้งองค์กรกลางระดับโลกตรวจสอบโมเดล AI ขั้นสูงก่อนเปิดใช้งาน",
+      "source_url": "https://techsauce.co/ai/google-deepmind-isomorphic-labs-bioresilience-ai-biosecurity",
+      "tech_impact": "DeepMind ผนวก AI safety เข้ากับ biosecurity อย่างเป็นรูปธรรม สะท้อนความกังวลที่เพิ่มขึ้นเกี่ยวกับ dual-use risk ของ frontier AI models",
+      "tags": ["DeepMind", "Isomorphic Labs", "Biosecurity", "AI Safety", "AlphaFold", "SynthID"],
+      "category_label": "ความปลอดภัย AI",
+      "published_at": "2026-07-17T00:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": ["AI Safety", "Biosecurity", "AlphaFold", "DeepMind", "AI Policy"],
+      "actions_developer": [
+        "ศึกษา SynthID และ watermarking techniques เพื่อป้องกัน misuse ของ AI ที่พัฒนา",
+        "รวม CBRN risk assessment เข้าไปใน AI development pipeline ขององค์กร"
+      ],
+      "actions_business": [
+        "ติดตาม CBRN risk framework ที่ DeepMind พัฒนา เพื่อนำมาประยุกต์ใช้",
+        "ประเมิน AI vendors ว่ามีนโยบาย safety และ dual-use risk management ที่เพียงพอหรือไม่"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b1-20260720-waico-china-global-ai-org",
+      "slug": "waico-china-global-ai-governance-organization",
+      "title": "Xi Jinping เปิดตัว WAICO — องค์กร AI ระดับโลกของจีนที่มี 29 ประเทศ Global South เพื่อเขียนกฎเกณฑ์ AI ใหม่",
+      "topic": "นโยบาย AI",
+      "topic_group": "global",
+      "source_name": "Techsauce / Al Jazeera",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "จีนเปิดตัว World Artificial Intelligence Cooperation Organisation (WAICO) อย่างเป็นทางการในนครเซี่ยงไฮ้ เมื่อวันที่ 16 กรกฎาคม 2026 ในงาน WAIC โดยมีประเทศสมาชิกก่อตั้ง 29 ประเทศจากกลุ่ม Global South ประธานาธิบดี Xi Jinping กล่าวว่า AI ไม่ควรถูกครอบงำโดยประเทศใดประเทศหนึ่ง ซึ่งเป็นการวิจารณ์สหรัฐฯ โดยนัย WAICO จะมีบทบาทในการกำหนดมาตรฐาน AI ระดับโลก ออกแบบกรอบ AI safety ที่แตกต่างจาก EU/US framework และสร้าง AI talent pool ในกลุ่ม Global South ถือเป็นความท้าทายโดยตรงต่อ OECD AI Guidelines และ G7 AI Governance สะท้อนการแบ่งขั้วโลก AI governance อย่างชัดเจน",
+      "source_url": "https://techsauce.co/ai/waico-china-global-ai-organization",
+      "tech_impact": "WAICO แบ่งโลก AI governance เป็น 2 ค่าย US/EU vs. China/Global South บริษัทที่ทำงานข้ามภูมิภาคต้องรับมือ dual compliance อย่างจริงจัง",
+      "tags": ["WAICO", "China AI", "AI Governance", "Global South", "Xi Jinping", "WAIC"],
+      "category_label": "นโยบาย AI",
+      "published_at": "2026-07-17T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": ["AI Policy", "AI Governance", "Geopolitics", "China AI"],
+      "actions_developer": [
+        "ศึกษา WAICO AI standards สำหรับผลิตภัณฑ์ที่เป้าหมายตลาด Asia/Africa/LatAm",
+        "เตรียม architecture ที่ flexible สำหรับ multi-jurisdictional AI compliance"
+      ],
+      "actions_business": [
+        "ประเมิน geopolitical risk ของ AI partnerships ว่า vendor ฝักใฝ่ governance camp ใด",
+        "เตรียมยุทธศาสตร์ตลาด Global South โดยพิจารณา WAICO-aligned AI providers"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b2-20260720-databricks-188b-valuation",
+      "slug": "databricks-188b-valuation-strategic-round",
+      "title": "Databricks ระดมทุนรอบใหม่ด้วยมูลค่า $188B นำโดย Coatue — จุดเน้น Unity AI Gateway, Genie, Lakebase",
+      "topic": "ธุรกิจ AI",
+      "topic_group": "ai-trends",
+      "source_name": "TechCrunch / Databricks",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Databricks บริษัท AI data platform ประกาศระดมทุน strategic round ด้วยมูลค่ากิจการ $188 พันล้านดอลลาร์ นำโดย Coatue Management โดยการระดมทุนครั้งนี้คาดว่าจะได้รับเงินประมาณ $3 พันล้านดอลลาร์ มูลค่าพุ่งจาก $134B (กุมภาพันธ์ 2026) และ $62B (ธันวาคม 2024) Databricks วางแผนพัฒนา 3 ผลิตภัณฑ์หลัก: Unity AI Gateway (ระบบ governance สำหรับหลาย AI models), Genie (AI co-worker วิเคราะห์ข้อมูลธุรกิจ) และ Lakebase (Postgres database สำหรับ AI agents) บริษัทยังเป็นที่รู้จักจากการสนับสนุน open-weight models จากจีน เช่น GLM-5.2 เพื่อควบคุมต้นทุน",
+      "source_url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+      "tech_impact": "Databricks $188B valuation สะท้อน demand สูงมากสำหรับ enterprise AI data platform ที่รองรับ multi-model strategy",
+      "tags": ["Databricks", "Funding", "Valuation", "AI Infrastructure", "Coatue"],
+      "category_label": "ธุรกิจ AI",
+      "published_at": "2026-07-17T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": ["AI Business", "Data Platform", "Enterprise AI", "MLOps"],
+      "actions_developer": [
+        "ศึกษา Databricks Unity AI Gateway สำหรับการจัดการ multi-model deployment ในระดับองค์กร",
+        "ทดลอง Lakebase สำหรับ agentic application ที่ต้องการ persistent storage"
+      ],
+      "actions_business": [
+        "ประเมิน Databricks platform เพื่อรวมศูนย์ data governance และ AI orchestration",
+        "ติดตามคู่แข่ง Databricks เช่น Snowflake ที่อาจได้รับผลกระทบจาก market positioning ใหม่"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b2-20260720-apple-intelligence-china-qwen",
+      "slug": "apple-intelligence-china-approved-qwen-baidu",
+      "title": "Apple Intelligence ได้รับอนุมัติในจีนแล้ว ใช้ Qwen (Alibaba) + Baidu เป็น AI หลัก หลัง 22 เดือนรอ",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "global",
+      "source_name": "TechCrunch / Bloomberg",
+      "category": "International",
+      "urgency": "high",
+      "content": "Apple Intelligence ผ่านการอนุมัติจากหน่วยงาน Cyberspace Administration of China เมื่อวันที่ 15 กรกฎาคม 2026 ทำให้ Apple สามารถเปิดให้บริการ AI บน iPhone, iPad, Mac และ visionOS ในจีนได้ โดยใช้โมเดล Qwen ของ Alibaba สำหรับฟีเจอร์ภาษาและข้อความ และ Baidu สำหรับฟีเจอร์ค้นหา การรออนุมัติ 22 เดือนทำให้ Apple เสียตลาดสำคัญ แต่เมื่ออนุมัติแล้วจะสามารถแข่งขันกับ Huawei และ Samsung ที่มี AI assistant ในจีนอยู่แล้ว ดีลนี้ยังเป็นชัยชนะของ Alibaba ที่ได้ร่วมมือกับ Apple แพลตฟอร์มระดับโลก และยืนยัน Qwen ในฐานะ trusted model partner สำหรับตลาดจีน",
+      "source_url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "tech_impact": "Apple-Alibaba deal เปิด iPhone AI market จีนกว่า 300M เครื่อง เป็น mass market use case ใหญ่ที่สุดสำหรับ Qwen และ model ที่ผ่าน China regulatory approval",
+      "tags": ["Apple Intelligence", "China", "Alibaba", "Qwen", "Baidu", "Regulation"],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-07-15T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": ["Apple Intelligence", "China AI Market", "AI Regulation", "Alibaba", "Mobile AI"],
+      "actions_developer": [
+        "ติดตาม Apple Intelligence API ที่จะเปิดให้นักพัฒนาใช้ Qwen ผ่าน on-device features ในตลาดจีน",
+        "ศึกษาโมเดล regulatory compliance ของ Apple ในจีนเพื่อวางแผน AI product expansion"
+      ],
+      "actions_business": [
+        "ธุรกิจที่มีตลาดในจีนควรประเมิน Qwen เป็น AI partner เนื่องจาก Apple ยืนยัน trust ใน regulatory level",
+        "ทบทวนยุทธศาสตร์ AI ในตลาดเอเชียที่มีกฎ data localization เพื่อวางแผน local model partnerships"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b2-20260720-eu-dma-google-android-ai-rivals",
+      "slug": "eu-dma-google-android-ai-rivals-2026",
+      "title": "EU DMA บังคับ Google เปิด 11 ฟีเจอร์ Android ให้ ChatGPT/Claude เข้าถึงเท่า Gemini และแชร์ข้อมูล Search — มีผล ก.ค. 2027",
+      "topic": "นโยบาย AI",
+      "topic_group": "global",
+      "source_name": "CNBC / European Commission",
+      "category": "International",
+      "urgency": "high",
+      "content": "คณะกรรมาธิการยุโรป (EC) ออกคำสั่งบังคับใช้ Digital Markets Act (DMA) กับ Google 2 ประเด็นหลัก: ประการแรก Google ต้องเปิด 11 ฟีเจอร์บน Android ให้ AI จากค่ายอื่น เช่น ChatGPT และ Claude เข้าถึงได้ในระดับเดียวกับ Gemini รวมถึงฟีเจอร์สำคัญอย่างการสั่งงานด้วยเสียง, การรับรู้ context ของแอป และ system service integrations ประการที่สอง Google ต้องแชร์ข้อมูลที่ใช้ optimize Google Search กับ AI chatbot ค่ายอื่น โดยผ่าน anonymisation กระบวนการ การเปลี่ยนแปลงมีผลกับผู้ใช้ EU ในเดือนกรกฎาคม 2027 สอดคล้องกับ Android version ถัดไป",
+      "source_url": "https://www.cnbc.com/2026/07/16/google-required-to-open-up-to-ai-search-engine-rivals-under-eu-mandated-changes.html",
+      "tech_impact": "DMA mandate เปลี่ยนโครงสร้างการแข่งขัน mobile AI ใน EU และอาจกลายเป็นต้นแบบ interoperability mandate สำหรับประเทศอื่นทั่วโลก",
+      "tags": ["EU", "DMA", "Google", "AI Policy", "Android", "OpenAI", "Anthropic"],
+      "category_label": "นโยบาย AI",
+      "published_at": "2026-07-16T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": ["AI Policy", "EU Regulation", "Google", "Android", "AI Competition"],
+      "actions_developer": [
+        "ติดตาม Android interoperability APIs ที่ Google ต้องเปิดตาม DMA เพื่อเตรียม integrate AI assistant",
+        "วางแผน EU market strategy สำหรับ AI products โดยอาศัย DMA mandates เป็นโอกาส"
+      ],
+      "actions_business": [
+        "หากมี AI product แข่งกับ Gemini บน Android ให้เตรียมยื่นขอ interoperability access ตาม DMA",
+        "ติดตามว่า EU DMA จะส่งผลให้ UK, APAC หรือสหรัฐฯ ออกกฎ interoperability ที่คล้ายกันหรือไม่"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b2-20260720-un-ai-governance-bengio",
+      "slug": "un-global-ai-governance-catastrophic-harm",
+      "title": "UN เตือน AI กำลังแซงหน้ามนุษย์ — Bengio ผลักดัน AI Governance ระดับโลก, EU AI Act Article 50 บังคับใช้ 2 ส.ค. 2026",
+      "topic": "นโยบาย AI",
+      "topic_group": "global",
+      "source_name": "UN News",
+      "category": "International",
+      "urgency": "high",
+      "content": "สหประชาชาติจัดงาน Global Dialogue on AI Governance ที่เจนีวา 6-7 กรกฎาคม 2026 มีผู้เข้าร่วมจากรัฐบาล บริษัทเทคโนโลยี และภาคประชาสังคม Yoshua Bengio เตือนว่า AI กำลังเข้าใกล้หรือแซงหน้าความสามารถมนุษย์ในหลายโดเมน และการพัฒนาเร็วกว่าทั้งความเข้าใจทางวิทยาศาสตร์และความสามารถของรัฐบาลในการปรับตัว ผู้เชี่ยวชาญกว่า 100 คนเรียกร้องให้โลกเตรียมรับมืออย่างจริงจัง พร้อมกันนี้ EU AI Act Article 50 ด้าน transparency obligations กำลังจะบังคับใช้ในวันที่ 2 สิงหาคม 2026 ซึ่งธุรกิจที่ใช้ AI ใน EU ต้องเตรียมพร้อมอย่างเร่งด่วน",
+      "source_url": "https://news.un.org/en/story/2026/07/1167862",
+      "tech_impact": "UN dialogue และ EU AI Act Article 50 ส่งสัญญาณว่า AI regulation กำลังเข้มข้นขึ้นอย่างรวดเร็ว ธุรกิจต้องเตรียม compliance โดยเร่งด่วน",
+      "tags": ["UN", "AI Governance", "Yoshua Bengio", "AI Safety", "EU AI Act"],
+      "category_label": "นโยบาย AI",
+      "published_at": "2026-07-07T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": ["AI Governance", "AI Safety", "EU AI Act", "UN", "International Policy"],
+      "actions_developer": [
+        "อ่าน EU AI Act Article 50 transparency requirements ที่บังคับใช้ 2 ส.ค. 2026 และตรวจสอบว่าต้องปรับอะไร",
+        "เตรียม AI disclosure ที่ชัดเจนสำหรับ AI-generated content เพื่อรองรับกฎ transparency"
+      ],
+      "actions_business": [
+        "ทบทวน AI compliance roadmap สำหรับ EU market โดยเฉพาะ Article 50 transparency obligations ที่บังคับใช้เร็วๆ นี้",
+        "จัดตั้ง AI Ethics committee หรือ AI governance function ภายในองค์กร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b2-20260720-claude-for-teachers",
+      "slug": "anthropic-claude-for-teachers-education",
+      "title": "Anthropic เปิดตัว 'Claude for Teachers' ผลิตภัณฑ์ AI เฉพาะสำหรับครู K-12 พร้อมลงทุน $10M ในวิจัย AI แคนาดา",
+      "topic": "ผลิตภัณฑ์ AI",
+      "topic_group": "tech-trends",
+      "source_name": "Anthropic",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Anthropic เปิดตัวผลิตภัณฑ์ใหม่ 'Claude for Teachers' ออกแบบมาเฉพาะสำหรับครูและผู้สอนระดับ K-12 มีฟีเจอร์ช่วยสร้างแผนการสอน, ออกแบบแบบทดสอบ, สร้างเนื้อหาการเรียนรู้ที่ปรับตามระดับนักเรียน และช่วยงาน administrative ที่ครูต้องทำประจำ ผลิตภัณฑ์มีการ customize สำหรับ education context โดยเฉพาะ รวมถึง safe messaging guidelines สำหรับ interactions กับนักเรียนอายุต่ำกว่า 18 ปี พร้อมกันนี้ Anthropic ยังประกาศลงทุน $10 ล้านดอลลาร์ในการวิจัย AI ของแคนาดา สะท้อนยุทธศาสตร์การขยายตลาดการศึกษาที่มี addressable market ขนาดใหญ่",
+      "source_url": "https://www.anthropic.com/news/claude-for-teachers",
+      "tech_impact": "Anthropic เจาะตลาดการศึกษาอย่างจริงจัง ซึ่งมี regulatory requirements พิเศษ (child safety, COPPA) ที่ต้องการ AI ที่ customize โดยเฉพาะ",
+      "tags": ["Anthropic", "Claude", "Education", "AI in Education", "K-12"],
+      "category_label": "ผลิตภัณฑ์ AI",
+      "published_at": "2026-07-14T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": ["AI in Education", "Claude", "Anthropic", "EdTech"],
+      "actions_developer": [
+        "ศึกษา safe messaging guidelines ของ Claude for Teachers เพื่อ reference design สำหรับ AI product เกี่ยวข้องกับผู้เยาว์",
+        "สำรวจ education-specific AI API capabilities ของ Anthropic หากกำลังสร้าง EdTech product"
+      ],
+      "actions_business": [
+        "สถาบันการศึกษาควรทดลอง Claude for Teachers เพื่อประเมิน ROI ก่อนลงทุน EdTech AI อื่น",
+        "EdTech startup ควรพิจารณา partnership กับ Anthropic ผ่าน powered-by-Claude program"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b3-20260720-researcherbench-ai-eval",
+      "slug": "researcherbench-deep-ai-research-evaluation",
+      "title": "ResearcherBench: Benchmark ใหม่จาก ArXiv ประเมิน AI ในงานวิจัยวิทยาศาสตร์จริง — ตั้งสมมุติฐาน ออกแบบทดลอง วิเคราะห์ข้อมูล",
+      "topic": "งานวิจัย AI",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยล่าสุดบน ArXiv นำเสนอ ResearcherBench ซึ่งเป็น benchmark ใหม่ออกแบบมาเพื่อประเมินความสามารถของ AI ในการทำงานวิจัยทางวิทยาศาสตร์ขั้นสูง โดยไม่เพียงแค่ตรวจสอบว่า AI ตอบคำถามได้ถูกต้อง แต่ยังประเมินว่า AI สามารถตั้งสมมุติฐานใหม่ ออกแบบการทดลอง วิเคราะห์ข้อมูลซับซ้อน และสรุปผลได้หรือไม่ เป้าหมายคือผลัก frontier ของ AI evaluation ออกไปจาก standard QA benchmarks ที่โมเดลปัจจุบัน saturate แล้ว ไปสู่การวัดความสามารถ scientific discovery จริงๆ ซึ่งสำคัญสำหรับ AI ที่จะช่วยเร่งการวิจัยยาและวิทยาศาสตร์พื้นฐาน",
+      "source_url": "https://arxiv.org/pdf/2507.16280",
+      "tech_impact": "ResearcherBench เป็นก้าวสำคัญในการวัด AI capabilities ที่เข้าใกล้ scientific reasoning จริง จะกลายเป็นมาตรฐานใหม่สำหรับ AI research assistant evaluation",
+      "tags": ["ArXiv", "AI Evaluation", "Benchmark", "LLM", "Scientific AI"],
+      "category_label": "งานวิจัย AI",
+      "published_at": "2026-07-19T00:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": ["AI Research", "Benchmarking", "Scientific AI", "LLM Evaluation"],
+      "actions_developer": [
+        "ทดสอบ AI model ด้วย ResearcherBench เพื่อประเมินความเหมาะสมสำหรับ scientific research workflows",
+        "ศึกษา evaluation methodology ของ ResearcherBench เพื่อออกแบบ internal AI evaluation"
+      ],
+      "actions_business": [
+        "องค์กรวิจัยและ pharma ควรพิจารณา AI research assistant ที่ผ่าน ResearcherBench evaluation",
+        "ประเมิน AI tools ด้วย scientific benchmarks ที่เกี่ยวข้องกับ domain ขององค์กร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b3-20260720-openai-gpt-red-safety",
+      "slug": "openai-gpt-red-self-improvement-robustness",
+      "title": "OpenAI เผย GPT-Red: AI ที่ฝึกตัวเองให้แข็งแกร่งขึ้นผ่าน self-improvement ด้าน safety — ลดการพึ่งพา human red teamers",
+      "topic": "งานวิจัย AI",
+      "topic_group": "ai-trends",
+      "source_name": "OpenAI",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "OpenAI เผยแพร่งานวิจัย GPT-Red เทคนิคใหม่ที่ทำให้ AI สามารถ self-improve ในด้านความแข็งแกร่ง (robustness) โดยไม่ต้องมีมนุษย์ป้อน training data ใหม่ทุกครั้ง GPT-Red ทำงานโดยให้ AI สร้าง adversarial examples ขึ้นมาเอง จากนั้นฝึกตัวเองให้ตอบสนองต่อ examples เหล่านั้นได้อย่างถูกต้องและปลอดภัย เทคนิคนี้มีนัยสำคัญสำหรับ AI safety เพราะสามารถช่วยให้โมเดลค้นพบและแก้ไขช่องโหว่ความปลอดภัยของตัวเองได้ โดยไม่ต้องรอ human red teamers งานวิจัยนี้เชื่อมโยงกับ OpenAI Bio Bug Bounty program ที่ประกาศพร้อมกัน สะท้อนให้เห็นถึงความสำคัญที่ OpenAI ให้กับ AI robustness",
+      "source_url": "https://openai.com/index/unlocking-self-improvement-gpt-red/",
+      "tech_impact": "GPT-Red self-improvement สำหรับ safety robustness เป็นก้าวสำคัญในการ automate AI safety testing ทำให้ frontier models ปลอดภัยขึ้นเร็วขึ้น",
+      "tags": ["OpenAI", "GPT-Red", "AI Safety", "Self-Improvement", "Robustness"],
+      "category_label": "งานวิจัย AI",
+      "published_at": "2026-07-15T00:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": ["AI Safety", "AI Research", "LLM Robustness", "Red Teaming", "OpenAI"],
+      "actions_developer": [
+        "ศึกษา adversarial self-testing techniques ที่ OpenAI ใช้ เพื่อนำมาประยุกต์ใน AI safety testing pipeline",
+        "ทดสอบว่า GPT-5.6 ที่ฝึกด้วย GPT-Red มี robustness ต่อ jailbreak สูงขึ้นเพียงใด"
+      ],
+      "actions_business": [
+        "นำหลักการ adversarial self-testing มาใช้ประเมิน AI systems ก่อน production deployment",
+        "ติดตาม OpenAI Bug Bounty program เพื่อรับทราบ vulnerabilities ที่ถูกค้นพบและแก้ไข"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b3-20260720-debunkbot-mit-conspiracy",
+      "slug": "debunkbot-mit-ai-conspiracy-reduction",
+      "title": "DebunkBot: AI จาก MIT, Cornell และ American University ลดความเชื่อในทฤษฎีสมคบคิดได้ ~20% ผ่านการสนทนาเชิงหลักฐาน",
+      "topic": "งานวิจัย AI",
+      "topic_group": "ai-trends",
+      "source_name": "MIT / Cornell",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "นักวิจัยจาก MIT, Cornell University และ American University ร่วมกันพัฒนา DebunkBot ระบบ AI ที่ออกแบบมาเพื่อลดความเชื่อในทฤษฎีสมคบคิดผ่านการสนทนาเชิงหลักฐาน แทนที่จะเพียงแค่บอกว่าความเชื่อนั้นผิด DebunkBot เข้าร่วมสนทนากับผู้ใช้และใช้หลักฐานที่ตรงประเด็น, logic และ empathy ผลการศึกษาพบว่า DebunkBot สามารถลดความเชื่อมั่นในทฤษฎีสมคบคิดได้ประมาณ 20% ซึ่งสูงกว่าวิธี fact-checking แบบดั้งเดิม งานวิจัยนี้มีนัยสำคัญในการต่อสู้กับ misinformation ในยุคที่ AI-powered disinformation กำลังเพิ่มขึ้น โดยเฉพาะในบริบทการเลือกตั้งและ public health",
+      "source_url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "tech_impact": "DebunkBot แสดงว่า AI สามารถช่วยแก้ปัญหา misinformation ได้มีประสิทธิภาพกว่า static fact-checking สะท้อน potential ของ conversational AI ด้าน social good",
+      "tags": ["MIT", "AI", "Misinformation", "DebunkBot", "Conspiracy Theory", "Social AI"],
+      "category_label": "งานวิจัย AI",
+      "published_at": "2026-07-17T00:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": ["AI Research", "Misinformation", "Social AI", "Conversational AI"],
+      "actions_developer": [
+        "ศึกษา dialogue design ของ DebunkBot เพื่อนำหลักการ empathy + evidence-based conversation มาใช้ใน AI chatbots",
+        "ประเมินว่า conversational AI สำหรับ behavior change เหมาะกับ use case ของผลิตภัณฑ์หรือไม่"
+      ],
+      "actions_business": [
+        "องค์กรสาธารณสุขและการศึกษาควรพิจารณา AI conversation systems สำหรับ public health communication",
+        "บริษัทสื่อและ social platform ควรศึกษา DebunkBot methodology เพื่อต่อสู้กับ misinformation"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "b3-20260720-matt-wolfe-yt",
+      "slug": "matt-wolfe-ai-tools-news-july-2026",
+      "title": "Matt Wolfe (@mreflow) สรุปข่าว AI Tools สัปดาห์นี้ — Qwen 3.8, Fable 5 policy, AI agent tools ใหม่",
+      "topic": "เครื่องมือ AI",
+      "topic_group": "tech-trends",
+      "source_name": "Matt Wolfe (YouTube)",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "Matt Wolfe เจ้าของช่อง YouTube @mreflow ที่มีผู้ติดตามหลักล้านคน ได้สรุปข่าว AI tools และ products ที่โดดเด่นในสัปดาห์นี้ ครอบคลุมทั้งการเปิดตัว Qwen 3.8 ที่ท้าชิง Claude Fable 5, การปรับนโยบาย Fable 5 ของ Anthropic, เครื่องมือ AI ใหม่สำหรับนักพัฒนา รวมถึงข่าว WAICO และ EU DMA ที่กระทบอุตสาหกรรม AI ช่อง Matt Wolfe เป็นแหล่งข้อมูล AI tools ที่ได้รับความนิยมสูงในชุมชนนักพัฒนาและนักสร้างสรรค์ที่ต้องการติดตามเครื่องมือ AI ใหม่ๆ โดยเน้น practical use cases มากกว่าเชิงวิชาการ",
+      "source_url": "https://www.youtube.com/@mreflow",
+      "tech_impact": "ช่อง Matt Wolfe เป็น leading indicator ของ AI tools ที่จะ mainstream ในหมู่ practitioners ติดตามเพื่อ spot early adoption trends",
+      "tags": ["YouTube", "Matt Wolfe", "AI Tools", "AI News", "Weekly"],
+      "category_label": "เครื่องมือ AI",
+      "published_at": "2026-07-19T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": ["AI Tools", "YouTube AI", "AI Community"],
+      "actions_developer": [
+        "ติดตามช่อง Matt Wolfe @mreflow เป็นประจำเพื่อรับทราบ AI tools ใหม่ที่ community ใช้จริง",
+        "ทดลอง tools ที่ Matt Wolfe แนะนำในแต่ละสัปดาห์เพราะมักถูก curate อย่างดีสำหรับ practitioners"
+      ],
+      "actions_business": [
+        "ใช้ช่อง YouTube AI news เป็นช่องทาง upskilling ทีมงานด้าน AI tools อย่างสม่ำเสมอ",
+        "ติดตาม AI tools landscape ผ่าน content creators เพื่อระบุ opportunities สำหรับ competitive advantage"
+      ],
+      "youtube_channel": "https://www.youtube.com/@mreflow",
+      "youtube_video": "https://www.youtube.com/@mreflow"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "article_id": "deepseek-dspark-speculative-decoding-marktechpost-2026-06-27",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "Research",
+    "source_name": "MarkTechPost",
+    "registry_key": "News/MarkTechPost",
+    "domain": "AI-PRODUCT",
+    "main_url": "https://www.marktechpost.com"
+  },
+  "source": {
+    "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1/",
+    "type": "direct",
+    "origin": "direct",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-29T07:00:00+07:00",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-27T16:59:58Z",
+    "scraped_at": "2026-06-29T07:00:00+07:00",
+    "run_date": "2026-06-29",
+    "target_date": "2026-06-29",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "3",
+    "category": "AI-PRODUCT",
+    "category_label": "ผลิตภัณฑ์ AI",
+    "news_type": "ข่าว",
+    "tags": [
+      "LLM",
+      "Inference Optimization",
+      "Speculative Decoding",
+      "DeepSeek",
+      "Open Source"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "DeepSeek Releases DSpark, a Speculative Decoding Framework That Accelerates DeepSeek-V4 Per-User Generation 60-85% Over MTP-1",
+    "title_th": "DeepSeek เปิดตัว DSpark: Framework Speculative Decoding ที่เร่งความเร็วการสร้างข้อความสูงสุด 85%",
+    "slug": "deepseek-dspark-speculative-decoding-marktechpost-2026-06-27",
+    "summary": "DeepSeek เปิดโค้ด DSpark ระบบ speculative decoding ที่ช่วยให้การ inference ของ DeepSeek-V4 เร็วขึ้น 60-85%",
+    "summary_1": "DeepSeek เปิดเผย DSpark ซึ่งเป็น framework สำหรับ speculative decoding ที่ออกแบบมาเพื่อเร่งความเร็วการ inference ของ DeepSeek-V4 โดยไม่สูญเสียคุณภาพผลลัพธ์แม้แต่น้อย หลักการทำงานคือ draft module ขนาดเล็กจะทำนาย token หลายตัวล่วงหน้า แล้วให้ target model ตรวจสอบพร้อมกันในครั้งเดียว DSpark ใช้ parallel draft backbone ร่วมกับ sequential Markov head เพื่อแก้ปัญหา suffix decay ที่พบใน parallel drafter แบบเดิม นอกจากนี้ยังมี confidence-scheduled verification ที่ปรับจำนวน token ที่ตรวจสอบตามภาระของ GPU ในขณะนั้น ผลการทดสอบในสภาพแวดล้อม production จริงแสดงว่าความเร็วการสร้างข้อความต่อผู้ใช้เพิ่มขึ้น 60-85% สำหรับ V4-Flash และ 57-78% สำหรับ V4-Pro",
+    "body_text": "",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "DSpark ลด inference latency ของ LLM ขนาดใหญ่ได้ถึง 85% โดยไม่ต้องเปลี่ยน model weight ส่งผลโดยตรงต่อ user experience และ cost ของ API provider",
+    "actions_developer": [
+      "ดาวน์โหลด DeepSpec จาก GitHub และทดลองฝึก draft model สำหรับ target model ของตนเอง",
+      "ทดสอบ DSpark-5 checkpoint บน DeepSeek-V4 เพื่อวัด latency improvement ในสภาพแวดล้อม production จริง"
+    ],
+    "actions_business": [
+      "คำนวณ ROI ของการเปลี่ยนไปใช้ DSpark-based serving เพื่อลด GPU cost",
+      "พิจารณาใช้ open-source DeepSpec สำหรับฝึก draft model เฉพาะทางธุรกิจ"
+    ],
+    "urgency": "high",
+    "related_domains": [
+      "LLM",
+      "Inference Optimization",
+      "Speculative Decoding",
+      "DeepSeek",
+      "Open Source"
+    ],
+    "breakthrough_potential": true
+  },
+  "paths": {
+    "relative": "Research/MarkTechPost/2026-06-29/deepseek-dspark-speculative-decoding",
+    "batch_file": "News/Batches/2026-06-29/batch_3.json"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "article_id": "b3-research-nemotron-twotower-diffusion-lm",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "Research",
+    "source_name": "ArXiv cs.CL",
+    "registry_key": "Research/ArXiv",
+    "domain": "AI-research",
+    "main_url": "https://arxiv.org/list/cs.CL/recent"
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2606.26493",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-28T07:00:00+07:00",
+    "fetch_mode": "search",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-25T00:52:44Z",
+    "scraped_at": "2026-06-28T07:00:00+07:00",
+    "run_date": "2026-06-28",
+    "target_date": "2026-06-28",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "3",
+    "category": "AI-RESEARCH",
+    "category_label": "งานวิจัย AI",
+    "news_type": "วิจัย",
+    "tags": ["arxiv", "research", "diffusion", "LLM", "NVIDIA", "generation"],
+    "language": "th"
+  },
+  "content": {
+    "title": "Nemotron-TwoTower: Diffusion Language Modeling with Pretrained Autoregressive Context",
+    "title_th": "Nemotron-TwoTower: การสร้างภาษาแบบ Diffusion ด้วยบริบท Autoregressive ที่ฝึกไว้แล้ว",
+    "slug": "nemotron-twotower-diffusion-lm",
+    "summary": "NVIDIA นำเสนอ Nemotron-TwoTower โมเดลภาษาแบบ Diffusion ที่แยกบทบาทการประมวลผลบริบทและการ Denoise ออกจากกัน ทำให้ได้ความเร็วในการสร้างข้อความสูงกว่าแบบ Autoregressive ถึง 2.42 เท่า โดยคุณภาพลดลงน้อยมาก",
+    "summary_1": "NVIDIA Research นำเสนองานวิจัยชื่อ Nemotron-TwoTower ซึ่งเป็นสถาปัตยกรรม Diffusion Language Model แนวใหม่ที่แก้ปัญหาสำคัญของโมเดล Diffusion ภาษาในปัจจุบัน โดยแยกบทบาทการทำงานออกเป็นสองส่วนชัดเจน ได้แก่ AR Context Tower ที่แช่แข็งไว้สำหรับประมวลผล Token ที่สะอาด และ Diffusion Denoiser Tower ที่ฝึกได้สำหรับกำจัดสัญญาณรบกวน โมเดลนี้สร้างขึ้นบนพื้นฐานของ Nemotron-3-Nano-30B-A3B ซึ่งเป็น Hybrid Mamba-Transformer MoE ขนาด 30 พันล้านพารามิเตอร์ และฝึกด้วยข้อมูลประมาณ 2.1 ล้านล้าน Token ผลลัพธ์แสดงให้เห็นว่า Nemotron-TwoTower รักษาคุณภาพไว้ได้ 98.7% เมื่อเทียบกับ Baseline แบบ Autoregressive ขณะเดียวกันมีความเร็วในการสร้างข้อความสูงกว่าถึง 2.42 เท่า ทีมวิจัยได้เผยแพร่โค้ดและน้ำหนักโมเดลทั้งหมดสู่สาธารณะบน Hugging Face",
+    "body_text": "งานวิจัย Nemotron-TwoTower จาก NVIDIA นำเสนอแนวทางใหม่ในการออกแบบ Diffusion Language Model โดยมุ่งแก้ปัญหาที่พบในงานก่อนหน้า ซึ่งใช้เครือข่ายเดียวทำหน้าที่ทั้งการแทนค่าบริบทและการ Denoise แบบวนซ้ำ ส่งผลให้ความสามารถในแต่ละด้านถูกจำกัด\n\nสถาปัตยกรรม TwoTower แบ่งออกเป็น: (1) AR Context Tower — ส่วนที่แช่แข็งไว้ทำหน้าที่ประมวลผล Token ที่สะอาดแบบ Causal และ (2) Diffusion Denoiser Tower — ส่วนที่ฝึกได้ ใช้ Bidirectional Block Attention ร่วมกับ Cross-Attention กับบริบทเพื่อกำจัดสัญญาณรบกวนใน Block\n\nโมเดลได้รับการทดสอบบน Benchmark หลายชุดและแสดงให้เห็นว่าสามารถรักษาคุณภาพได้ใกล้เคียงกับ Autoregressive Baseline ถึง 98.7% ขณะที่ Throughput สูงกว่า 2.42 เท่า ซึ่งนับเป็นความก้าวหน้าสำคัญสำหรับการนำ Diffusion Language Model ไปใช้งานจริงในระดับ Production\n\nการเผยแพร่น้ำหนักโมเดลและโค้ดสู่สาธารณะทำให้นักวิจัยและนักพัฒนาสามารถนำไปต่อยอดได้ทันที",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "สถาปัตยกรรม TwoTower เปิดทางให้ Diffusion Language Model เข้าสู่ระดับ Production ได้จริง ด้วยความเร็ว 2.42 เท่าโดยแทบไม่สูญเสียคุณภาพ อาจเปลี่ยนทิศทางการวิจัย LLM จาก Autoregressive ล้วนๆ มาสู่ Hybrid Diffusion-AR",
+    "actions_developer": [
+      "ทดลองโมเดล Nemotron-TwoTower จาก Hugging Face เพื่อประเมินความเร็วและคุณภาพในงานของตัวเอง",
+      "ศึกษาสถาปัตยกรรม TwoTower เป็นแนวทางสำหรับการออกแบบ Inference-efficient LLM ในอนาคต"
+    ],
+    "actions_business": [
+      "ติดตามความคืบหน้าของ Diffusion LLM เพื่อประเมินการนำไปใช้ลดต้นทุน Inference",
+      "พิจารณา Throughput 2.42x สำหรับแอปพลิเคชันที่ต้องการความเร็วสูงในการสร้างข้อความ"
+    ],
+    "urgency": "high",
+    "related_domains": ["LLM", "Diffusion Models", "NLP", "Inference Optimization", "MoE"],
+    "breakthrough_potential": true
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "Research/ArXiv/2026-06-28/nemotron-twotower-diffusion-lm",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-06-28/batch_3.json"
+  }
+}

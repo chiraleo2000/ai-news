@@ -1,0 +1,72 @@
+{
+  "article_id": "b3-research-peeu-gui-agent-task-planning",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "Research",
+    "source_name": "ArXiv cs.CL",
+    "registry_key": "Research/ArXiv",
+    "domain": "AI-research",
+    "main_url": "https://arxiv.org/list/cs.CL/recent"
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2606.27330",
+    "type": "direct",
+    "origin": "direct",
+    "source_match_confidence": "high",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-28T07:00:00+07:00",
+    "fetch_mode": "search",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-25T17:44:48Z",
+    "scraped_at": "2026-06-28T07:00:00+07:00",
+    "run_date": "2026-06-28",
+    "target_date": "2026-06-28",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "3",
+    "category": "AI-RESEARCH",
+    "category_label": "งานวิจัย AI",
+    "news_type": "วิจัย",
+    "tags": ["arxiv", "research", "GUI-agent", "MLLM", "ACL2026", "task-planning"],
+    "language": "th"
+  },
+  "content": {
+    "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
+    "title_th": "PEEU: การเสริมพลัง GUI Agent ด้วยการสำรวจประสบการณ์อัตโนมัติและการใช้ Hindsight Experience สำหรับการวางแผนงาน",
+    "slug": "peeu-gui-agent-task-planning",
+    "summary": "งานวิจัยที่ได้รับการยอมรับใน ACL 2026 นำเสนอวิธี PEEU ที่ช่วยให้ GUI Agent ขนาด 7B พารามิเตอร์สามารถวางแผนงานเว็บได้ดีกว่าโมเดล Qwen2.5-VL-32B ขนาดใหญ่กว่า 4 เท่า",
+    "summary_1": "ทีมวิจัยนำเสนอวิธี PEEU (Planning Experience Exploration and Utilization) สำหรับ GUI Agent Multimodal ที่ทำงานบนเว็บ โดยมุ่งแก้ปัญหา MLLM ขนาดเล็กที่มีต้นทุนต่ำและรักษาความเป็นส่วนตัวดีกว่าโมเดลขนาดใหญ่ แต่มักขาดความสามารถในการวางแผนและ Generalization ข้ามเว็บไซต์ PEEU ทำงานด้วยการสำรวจสภาพแวดล้อมอัตโนมัติเพื่อค้นหาประสบการณ์ และใช้ Hindsight Experience เพื่อสังเคราะห์ข้อมูลฝึกระดับสูงที่สอดคล้องกันอย่างเคร่งครัด นอกจากนี้ยังเสนอกรอบการวิเคราะห์ TDHAF (Task Decomposition Hierarchical Analysis Framework) เพื่อศึกษา Compositional Generalization ในสามระดับ ผลการทดลองบน Benchmark จริงแสดงว่าโมเดล 7B ของ PEEU ทำได้ 30.6% ซึ่งดีกว่า Qwen2.5-VL-32B ที่ใหญ่กว่าอย่างมีนัยสำคัญ งานนี้ได้รับการยอมรับใน ACL 2026 Main Conference",
+    "body_text": "PEEU แก้ปัญหาสำคัญในการพัฒนา GUI Agent ที่มีประสิทธิภาพสูงในขนาดโมเดลเล็ก\n\nองค์ประกอบหลักของ PEEU:\n- **Autonomous Experience Exploration**: สำรวจสภาพแวดล้อม GUI อัตโนมัติเพื่อค้นหาและรวบรวมประสบการณ์ที่มีประโยชน์\n- **Hindsight Experience Utilization**: ใช้ Hindsight เพื่อสังเคราะห์ข้อมูลฝึกงานระดับสูงที่สอดคล้อง\n- **TDHAF Framework**: กรอบการวิเคราะห์ Compositional Generalization ในสามระดับ (Low/Middle/High)\n\nผลการวิเคราะห์ TDHAF พบว่าการเชี่ยวชาญทักษะ Atomic ระดับต่ำไม่ได้รับประกันความสามารถในการวางแผนระดับสูง แต่การฝึกงานระดับสูงให้ OOD Generalization ที่แข็งแกร่งกว่า ซึ่งเป็นข้อค้นพบสำคัญสำหรับการออกแบบ Training Data ของ Agent ในอนาคต",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "PEEU ชี้ให้เห็นว่าโมเดล MLLM ขนาดเล็ก 7B สามารถเอาชนะโมเดล 32B ในงาน GUI Task Planning ได้ด้วยข้อมูลฝึกที่ออกแบบดี เปิดโอกาสสำหรับ AI Agent ที่ทำงานบน Edge และรักษาความเป็นส่วนตัวได้",
+    "actions_developer": [
+      "ศึกษาวิธีการสร้าง Hindsight Training Data สำหรับ Agent จาก PEEU เพื่อนำไปประยุกต์ใช้ในโปรเจกต์ GUI Automation",
+      "ใช้กรอบ TDHAF เพื่อประเมิน Compositional Generalization ของ Agent ที่พัฒนาอยู่"
+    ],
+    "actions_business": [
+      "ประเมิน GUI Agent ขนาดเล็กแบบ PEEU สำหรับการ Automate งานเว็บภายในองค์กรโดยรักษาความเป็นส่วนตัว",
+      "ติดตามผลงานจาก ACL 2026 เกี่ยวกับ MLLM Agent เพื่อนำมาปรับใช้กับ Business Process Automation"
+    ],
+    "urgency": "high",
+    "related_domains": ["MLLM", "AI Agents", "GUI Automation", "Task Planning", "NLP"],
+    "breakthrough_potential": true
+  },
+  "media_links": {},
+  "paths": {
+    "relative": "Research/ArXiv/2026-06-28/peeu-gui-agent-task-planning",
+    "article_md": "article.md",
+    "article_json": "article.json",
+    "batch_file": "News/Batches/2026-06-28/batch_3.json"
+  }
+}

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⚡ AI News Daily — 2026-06-27</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #f0f2f8;
+      --bg-card: #ffffff;
+      --bg-header: #1a1a2e;
+      --bg-section: #e8eaf0;
+      --neon-cyan: #00d4ff;
+      --neon-magenta: #ff00ff;
+      --neon-green: #00ff88;
+      --neon-purple: #a855f7;
+      --neon-orange: #ff6b35;
+      --text-primary: #1a1a2e;
+      --text-secondary: #4a4a6a;
+      --text-muted: #8888aa;
+      --border: #d0d4e8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Rajdhani', 'Segoe UI', Tahoma, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+    /* HEADER */
+    .site-header {
+      background: var(--bg-header);
+      color: #fff;
+      padding: 24px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .header-brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .header-logo {
+      font-family: 'Orbitron', monospace;
+      font-size: 22px;
+      font-weight: 900;
+      color: var(--neon-cyan);
+      letter-spacing: 2px;
+      text-shadow: 0 0 20px rgba(0,212,255,0.5);
+    }
+    .header-sub {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 12px;
+      color: #aaa;
+      margin-top: 2px;
+    }
+    .header-stats {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .stat-pill {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 12px;
+      color: #ddd;
+    }
+    .stat-pill span { color: var(--neon-cyan); font-weight: bold; }
+    /* TOPIC NAV */
+    .topic-nav {
+      background: var(--bg-header);
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 0 32px;
+      display: flex;
+      gap: 0;
+    }
+    .nav-item {
+      padding: 12px 20px;
+      font-family: 'Orbitron', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      cursor: pointer;
+      border-bottom: 3px solid transparent;
+      color: #888;
+      text-decoration: none;
+      display: block;
+      transition: all 0.2s;
+    }
+    .nav-item:hover { color: #fff; }
+    .nav-item.ai { border-color: #00d4ff; color: #00d4ff; }
+    .nav-item.tech { border-color: #a855f7; color: #a855f7; }
+    .nav-item.thai { border-color: #ff6b35; color: #ff6b35; }
+    .nav-item.global { border-color: #00ff88; color: #00ff88; }
+    /* TOP INSIGHTS */
+    .top-insights {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      padding: 24px 32px;
+      border-bottom: 1px solid rgba(0,212,255,0.2);
+    }
+    .insights-label {
+      font-family: 'Orbitron', monospace;
+      font-size: 11px;
+      color: var(--neon-cyan);
+      letter-spacing: 3px;
+      margin-bottom: 12px;
+    }
+    .insights-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px,1fr)); gap: 12px; }
+    .insight-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,50,50,0.3);
+      border-left: 3px solid #ff4444;
+      border-radius: 8px;
+      padding: 12px 14px;
+    }
+    .insight-urgency { font-family: 'Share Tech Mono'; font-size: 10px; color: #ff4444; margin-bottom: 4px; }
+    .insight-title { font-size: 13px; font-weight: 600; color: #fff; margin-bottom: 6px; line-height: 1.4; }
+    .insight-impact { font-size: 11px; color: #aaa; line-height: 1.4; }
+    /* STATS BAR */
+    .stats-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 16px 32px;
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .stats-bar-label { font-family: 'Orbitron'; font-size: 10px; letter-spacing: 2px; color: var(--text-muted); }
+    .topic-stat {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .topic-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    /* MAIN CONTENT */
+    .main { padding: 24px 32px; max-width: 1400px; margin: 0 auto; }
+    /* SECTION */
+    .topic-section { margin-bottom: 40px; }
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 20px;
+      background: #fff;
+      border-radius: 8px 8px 0 0;
+      margin-bottom: 2px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+    .section-icon { font-size: 20px; }
+    .section-title {
+      font-family: 'Orbitron', monospace;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      flex: 1;
+    }
+    .section-count {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 11px;
+      color: var(--text-muted);
+      background: var(--bg-section);
+      padding: 3px 10px;
+      border-radius: 12px;
+    }
+    /* CARDS GRID */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px,1fr));
+      gap: 12px;
+      padding: 12px 0;
+    }
+    .card {
+      background: var(--bg-card);
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      border-left: 4px solid #ddd;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.12); transform: translateY(-1px); }
+    .card.topic-ai-trends { border-left-color: #00d4ff; }
+    .card.topic-tech-trends { border-left-color: #a855f7; }
+    .card.topic-thailand { border-left-color: #ff6b35; }
+    .card.topic-global { border-left-color: #00ff88; }
+    .card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; gap: 8px; flex-wrap: wrap; }
+    .card-badges { display: flex; gap: 4px; flex-wrap: wrap; }
+    .badge {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      padding: 2px 7px;
+      border-radius: 4px;
+    }
+    .badge-high { background: #fee2e2; color: #dc2626; }
+    .badge-medium { background: #fef3c7; color: #d97706; }
+    .badge-low { background: #f0fdf4; color: #16a34a; }
+    .badge-bt { background: #ede9fe; color: #7c3aed; }
+    .card-source { font-family: 'Share Tech Mono', monospace; font-size: 10px; color: var(--text-muted); white-space: nowrap; }
+    .card-title { font-size: 14px; font-weight: 700; line-height: 1.4; margin-bottom: 10px; color: var(--text-primary); }
+    .card-content { font-size: 12.5px; color: var(--text-secondary); line-height: 1.65; margin-bottom: 10px; }
+    .card-impact {
+      font-size: 11.5px;
+      color: #5a5a8a;
+      background: var(--bg-section);
+      border-radius: 6px;
+      padding: 8px 10px;
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+    .impact-label { margin-right: 4px; }
+    .actions { font-size: 11px; color: #6666aa; margin-bottom: 8px; line-height: 1.5; }
+    .actions-label { font-weight: 700; font-family: 'Share Tech Mono'; margin-right: 4px; }
+    .actions span { display: block; margin-top: 2px; padding-left: 8px; }
+    .card-footer { display: flex; align-items: flex-end; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+    .card-tags { display: flex; gap: 4px; flex-wrap: wrap; }
+    .tag { font-family: 'Share Tech Mono', monospace; font-size: 9px; background: #e8eaf0; color: #555; padding: 2px 6px; border-radius: 4px; }
+    .card-links { display: flex; gap: 8px; }
+    .src-link, .yt-link {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 10px;
+      color: var(--neon-cyan);
+      text-decoration: none;
+      border: 1px solid rgba(0,212,255,0.3);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+    .src-link:hover, .yt-link:hover { background: rgba(0,212,255,0.1); }
+    /* FOOTER */
+    .site-footer {
+      background: var(--bg-header);
+      color: #888;
+      text-align: center;
+      padding: 20px 32px;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 11px;
+      margin-top: 40px;
+    }
+    .site-footer span { color: var(--neon-cyan); }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-brand">
+    <div>
+      <div class="header-logo">⚡ AI NEWS DAILY</div>
+      <div class="header-sub">PIPELINE v2.0 · 2026-06-27 · GENERATED 10:55 BKK</div>
+    </div>
+  </div>
+  <div class="header-stats">
+    <div class="stat-pill">📰 <span>19</span> ARTICLES</div>
+    <div class="stat-pill">🧠 AI <span>14</span></div>
+    <div class="stat-pill">⚙️ TECH <span>1</span></div>
+    <div class="stat-pill">🇹🇭 TH <span>1</span></div>
+    <div class="stat-pill">🌐 GL <span>3</span></div>
+    <div class="stat-pill">⚡ BREAK <span>5</span></div>
+  </div>
+</header>
+
+<nav class="topic-nav">
+  <a href="#ai-trends" class="nav-item ai">🧠 AI TRENDS</a>
+  <a href="#tech-trends" class="nav-item tech">⚙️ TECH TRENDS</a>
+  <a href="#thailand" class="nav-item thai">🇹🇭 THAILAND</a>
+  <a href="#global" class="nav-item global">🌐 GLOBAL</a>
+</nav>
+
+<div class="top-insights">
+  <div class="insights-label">🔴 TOP STORIES — HIGH URGENCY</div>
+  <div class="insights-grid">
+    
+    <div class="insight-card">
+      <div class="insight-urgency">🔴 HIGH</div>
+      <div class="insight-title">OpenAI เปิดตัว GPT-5.6 มีโมเดลรุ่นใหญ่ Sol ความสามารถสูง ใช้โทเค็นน้อยลง ช่วงแรกยังจำกัดการใช้งาน</div>
+      <div class="insight-impact">GPT-5.6 สถาปัตยกรรม 3 โมเดลย่อย (Sol/Terra/Luna) เปิดทางให้เลือกใช้ตามต้นทุนและความต้องการ แต่การที่รัฐบาลสหรัฐฯ จำกัดการเข้าถึงอาจส่งผลต่อการแข่งขัน AI ระดับโลก</div>
+    </div>
+    <div class="insight-card">
+      <div class="insight-urgency">🔴 HIGH</div>
+      <div class="insight-title">เผยทำเนียบขาวสั่ง OpenAI ให้จำกัดการเผยแพร่ GPT-5.6 เฉพาะหน่วยงานที่รัฐบาลอนุญาต</div>
+      <div class="insight-impact">การที่รัฐบาลสหรัฐฯ เริ่ม pre-approve AI models ก่อนเผยแพร่สาธารณะ อาจกลายเป็น precedent ที่ส่งผลต่อ ecosystem AI ทั่วโลก รวมถึงการแข่งขันกับ AI จีน</div>
+    </div>
+    <div class="insight-card">
+      <div class="insight-urgency">🔴 HIGH</div>
+      <div class="insight-title">Notion Mail ประกาศปิดบริการ 22 กันยายนนี้ เพราะคนนิยมใช้ AI Agent จัดการอีเมลมากกว่า</div>
+      <div class="insight-impact">กรณี Notion Mail เป็นสัญญาณชัดเจนว่า AI Agents กำลังทดแทน productivity apps แบบดั้งเดิม นักพัฒนาและบริษัทซอฟต์แวร์ต้องปรับกลยุทธ์รองรับ Agentic AI paradigm</div>
+    </div>
+    <div class="insight-card">
+      <div class="insight-urgency">🔴 HIGH</div>
+      <div class="insight-title">It's not about Anthropic vs. OpenAI anymore</div>
+      <div class="insight-impact">US government's model approval process now extends to GPT-5.6, creating systemic risk for all frontier AI labs. 'Customer-by-customer' approval could delay API access for weeks or months, threatening commercial AI deployment timelines across the industry.</div>
+    </div>
+  </div>
+</div>
+
+<div class="stats-bar">
+  <span class="stats-bar-label">COVERAGE</span>
+  <div class="topic-stat"><div class="topic-dot" style="background:#00d4ff"></div>AI Trends 14</div>
+  <div class="topic-stat"><div class="topic-dot" style="background:#a855f7"></div>Tech Trends 1</div>
+  <div class="topic-stat"><div class="topic-dot" style="background:#ff6b35"></div>Thailand 1</div>
+  <div class="topic-stat"><div class="topic-dot" style="background:#00ff88"></div>Global 3</div>
+  <span style="color:var(--text-muted);font-size:12px;margin-left:auto">🔴 High: 7 &nbsp; 🟡 Medium: 11 &nbsp; 🟢 Low: 1</span>
+</div>
+
+<main class="main">
+  
+  <section class="topic-section" id="ai-trends">
+    <div class="section-header" style="border-left: 4px solid #00d4ff">
+      <span class="section-icon">🧠</span>
+      <h2 class="section-title">AI Trends</h2>
+      <span class="section-count">14 บทความ</span>
+    </div>
+    <div class="cards-grid">
+      
+    <article class="card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-high">HIGH</span><span class="badge badge-bt">⚡ Breakthrough</span></div>
+        <span class="card-source">Blognone · Thai</span>
+      </div>
+      <h3 class="card-title">OpenAI เปิดตัว GPT-5.6 มีโมเดลรุ่นใหญ่ Sol ความสามารถสูง ใช้โทเค็นน้อยลง ช่วงแรกยังจำกัดการใช้งาน</h3>
+      <p class="card-content">OpenAI เปิดเผยรายละเอียดของโมเดลปัญญาประดิษฐ์รุ่นใหม่ GPT-5.6 ซึ่งประกอบด้วยโมเดลย่อย 3 ตัวที่แต่ละตัวมีจุดเด่นต่างกัน ได้แก่ Sol โมเดลเรือธงความสามารถสูงสุด Terra โมเดลสำหรับการใช้งานทั่วไปที่สมดุลระหว่างประสิทธิภาพและต้นทุน และ Luna โมเดลที่เน้นความเร็วและต้นทุนต่ำสำหรับงาน real-time ที่ประสิทธิภาพสูงและใช้โทเค็นน้อยลงกว่าเดิม ในช่วงแรกของการเปิดตัว OpenAI ยังจำกัดการเข้าถึงเฉพาะกลุ่มที่รัฐบาลสหรัฐฯ อนุมัติเท่านั้น หลังจากทำเนียบขาวแสดงความกังวลเรื่องความสามารถที่ก้าวหน้าของโมเดล ซึ่งคล้ายกับกรณีของ Anthropic ที่ถูกร้องขอให้ระงับการเผยแพร่โมเดล Mythos ก่อนหน้านี้ นับเป็นสัญญาณที่ชัดเจนว่าความสามารถของ AI กำลังก้าวสู่ระดับที่รัฐบาลต้องเข้ามากำกับดูแลอย่างจริงจัง</p>
+      <div class="card-impact"><span class="impact-label">💡</span> GPT-5.6 สถาปัตยกรรม 3 โมเดลย่อย (Sol/Terra/Luna) เปิดทางให้เลือกใช้ตามต้นทุนและความต้องการ แต่การที่รัฐบาลสหรัฐฯ จำกัดการเข้าถึงอาจส่งผลต่อการแข่งขัน AI ระดับโลก</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>ติดตามความพร้อมใช้งานของ GPT-5.6 API โดยเฉพาะ Sol สำหรับงานที่ต้องการความสามารถสูงสุด</span> <span>วางแผนใช้ Luna สำหรับ real-time applications ที่ต้องการ latency ต่ำและต้นทุนคุ้มค่า</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">OpenAI</span><span class="tag">GPT-5.6</span><span class="tag">LLM</span><span class="tag">Sol</span><span class="tag">Terra</span></div>
+        <div class="card-links"><a href="https://www.blognone.com/node/150995" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    <article class="card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-high">HIGH</span></div>
+        <span class="card-source">Blognone · Thai</span>
+      </div>
+      <h3 class="card-title">เผยทำเนียบขาวสั่ง OpenAI ให้จำกัดการเผยแพร่ GPT-5.6 เฉพาะหน่วยงานที่รัฐบาลอนุญาต</h3>
+      <p class="card-content">CNN อ้างแหล่งข่าวเปิดเผยว่าทำเนียบขาวได้ติดต่อ OpenAI เพื่อขอให้จำกัดการเผยแพร่โมเดล GPT-5.6 เฉพาะกลุ่มที่รัฐบาลสหรัฐฯ อนุมัติเท่านั้น เนื่องจากกังวลเรื่องความสามารถที่ก้าวหน้าขึ้นมากของโมเดลรุ่นใหม่ โดยเฉพาะในด้าน cybersecurity ซึ่งมีความเสี่ยงสูงหากถูกนำไปใช้ในทางที่ผิด คำร้องขอลักษณะเดียวกันนี้เกิดขึ้นก่อนหน้ากับ Anthropic ที่ถูกร้องขอให้ระงับการเผยแพร่โมเดล Mythos และ Fable ด้วยเหตุผลเรื่องความสามารถในการจัดการ cybersecurity สถานการณ์นี้สะท้อนว่ารัฐบาลสหรัฐฯ กำลังเพิ่มความเข้มงวดในการกำกับดูแล AI ขั้นสูง และมองว่าโมเดลที่มีความสามารถสูงเป็นเรื่องของความมั่นคงแห่งชาติ ไม่ใช่เพียงผลิตภัณฑ์เชิงพาณิชย์</p>
+      <div class="card-impact"><span class="impact-label">💡</span> การที่รัฐบาลสหรัฐฯ เริ่ม pre-approve AI models ก่อนเผยแพร่สาธารณะ อาจกลายเป็น precedent ที่ส่งผลต่อ ecosystem AI ทั่วโลก รวมถึงการแข่งขันกับ AI จีน</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>วางแผน fallback สำหรับกรณีที่ GPT-5.6 ไม่สามารถเข้าถึงได้ทันที โดยทดสอบกับ Claude Sonnet 5 หรือ Gemini แทน</span> <span>ศึกษากรอบการกำกับ AI ของสหรัฐฯ เพื่อเตรียมความพร้อมสำหรับการใช้งาน AI ในองค์กรที่ต้องขอ approval</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">OpenAI</span><span class="tag">GPT-5.6</span><span class="tag">ทำเนียบขาว</span><span class="tag">AI Safety</span><span class="tag">นโยบาย</span></div>
+        <div class="card-links"><a href="https://www.blognone.com/node/150992" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    <article class="card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-medium">MEDIUM</span></div>
+        <span class="card-source">Techsauce · Thai</span>
+      </div>
+      <h3 class="card-title">มนุษย์ถูกมองเป็น 'ม้างาน' ในยุค AI ถอดบทเรียนโลกธุรกิจจากมุมมอง Cory Doctorow</h3>
+      <p class="card-content">Techsauce นำเสนอมุมมองของ Cory Doctorow นักเขียนและนักวิจารณ์เทคโนโลยีชื่อดัง ที่มองภาพการเข้ามาของ AI ในโลกธุรกิจในแง่มุมที่แตกต่างจากกระแสหลัก โดย Doctorow เตือนว่าในยุค AI ที่บริษัทเทคโนโลยีมีอำนาจมากขึ้น มนุษย์กำลังถูกมองเป็นเพียง workhorse หรือ 'ม้างาน' ที่ถูกใช้งานเพื่อสร้างผลกำไรให้นักลงทุนโดยไม่ได้รับส่วนแบ่งที่เป็นธรรม บทวิเคราะห์นี้ชี้ให้เห็นว่าการพูดถึง AI ส่วนใหญ่มักมองในแง่ว่าจะทดแทนงานหรือไม่ แต่ไม่ค่อยพูดถึงว่าโครงสร้างอำนาจของโลกธุรกิจกำลังเปลี่ยนไปอย่างไร และใครคือผู้ได้ประโยชน์จริงๆ จากการปฏิวัติ AI ครั้งนี้ มุมมองนี้สำคัญสำหรับองค์กรที่กำลังวางแผน AI transformation</p>
+      <div class="card-impact"><span class="impact-label">💡</span> มุมมองนี้ท้าทายกระแสหลักเรื่อง AI กับการทำงาน โดยชี้ให้เห็นว่าปัญหาไม่ใช่แค่ 'AI แทนคน' แต่คือการกระจายผลประโยชน์จาก AI ที่ไม่เป็นธรรม</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>พิจารณา ethics ของสิ่งที่สร้าง โดยเฉพาะว่า AI tools ที่พัฒนาขึ้นสร้างคุณค่าให้ใคร และลดทอนอำนาจของใคร</span> <span>ศึกษา enshittification model ของ Doctorow เพื่อเข้าใจ lifecycle ของ platform และวางแผนรับมือ</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">AI</span><span class="tag">Future of Work</span><span class="tag">Cory Doctorow</span><span class="tag">แรงงาน</span><span class="tag">เศรษฐกิจ</span></div>
+        <div class="card-links"><a href="https://techsauce.co/saucy-thoughts/ai-human-workhorse" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    <article class="card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-medium">MEDIUM</span></div>
+        <span class="card-source">Build Fast with AI · International</span>
+      </div>
+      <h3 class="card-title">FrontierCode Benchmark Launches: Fable 5 Leads Production-Ready Coding Evaluation at 46.3%, Beating GPT-5.5 by 21 Points</h3>
+      <p class="card-content">Cognition เปิดตัว FrontierCode benchmark ใหม่สำหรับประเมินคุณภาพ pull request ของ AI coding agent ในระดับ production จริง โดยเน้น 3 เกณฑ์หลัก ได้แก่ การควบคุมขอบเขตของ PR (scope control) ความปลอดภัยจาก regression และคุณภาพของ test case ซึ่งทั้งหมดสะท้อนสิ่งที่วิศวกรอาวุโสใช้ตัดสินใน code review จริง ผลการประเมินพบว่า Claude Fable 5 ได้คะแนนสูงสุดที่ 46.3% ตามด้วย Claude Opus 4.8 ที่ 34.3% และ GPT-5.5 ที่ 25.5% ส่วนต่างถึง 21 คะแนนระหว่าง Fable 5 กับ GPT-5.5 ถือเป็นช่องว่างที่กว้างที่สุดใน production coding benchmark ที่เปิดเผยสู่สาธารณะ FrontierCode ถูกออกแบบมาเพื่อแก้ข้อจำกัดของ SWE-bench ที่วัดแค่การแก้ bug แต่ไม่สะท้อนความพร้อมใช้งานจริงในองค์กร</p>
+      <div class="card-impact"><span class="impact-label">💡</span> FrontierCode provides the most operationally relevant AI coding benchmark yet, measuring production-quality PR generation rather than just bug-fixing. Fable 5's 21-point lead over GPT-5.5 is significant for engineering teams standardizing on an AI coding tool.</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>Use FrontierCode scores (not just SWE-bench) when evaluating AI coding tools — it measures scope control, regression safety, and test quality that affect real production deployments</span> <span>Note that Fable 5's effective capability may be constrained by tighter safety classifiers post-export control suspension</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">Fable 5</span><span class="tag">GPT-5.5</span><span class="tag">Claude Opus</span><span class="tag">benchmark</span><span class="tag">coding</span></div>
+        <div class="card-links"><a href="https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    <article class="card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-medium">MEDIUM</span></div>
+        <span class="card-source">Bloomberg / TechCrunch · International</span>
+      </div>
+      <h3 class="card-title">Four Google DeepMind Senior Researchers Leave in Six Days for OpenAI and Anthropic</h3>
+      <p class="card-content">ภายในระยะเวลาเพียง 6 วัน นักวิจัยอาวุโสระดับสูงจาก Google DeepMind ประกาศลาออกถึง 4 คน ได้แก่ Noam Shazeer ผู้ร่วมพัฒนา Transformer architecture และ co-lead ของ Gemini ย้ายไป OpenAI, John Jumper นักวิทยาศาสตร์รางวัล Nobel สาขาเคมีผู้สร้าง AlphaFold ย้ายไป Anthropic รวมถึง Jonas Adler หัวหน้า AI coding ของ Google และ Alexander Pritzel ผู้เชี่ยวชาญ pretraining ที่มีส่วนร่วมใน AlphaFold ทั้งสองย้ายไป Anthropic Bloomberg รายงานว่าสาเหตุหลักคือการตัดลด GPU สำหรับโปรเจกต์วิจัยสำคัญ ซึ่งสะท้อนปัญหาเชิงโครงสร้างที่นักวิจัยไม่สามารถ run experiments ได้อย่างเพียงพอ การสูญเสียครั้งนี้เกิดขึ้นพร้อมกับการล่าช้าของ Gemini 3.5 Pro และอาจส่งผลกระทบต่อการพัฒนา Google Gemini ในระยะถัดไปอย่างมีนัยสำคัญ</p>
+      <div class="card-impact"><span class="impact-label">💡</span> Google DeepMind lost 4 top researchers in 6 days to OpenAI and Anthropic. The primary driver is compute allocation politics — a structural issue that risks compounding into ongoing talent exodus at Google.</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>Reassess Gemini API roadmap commitments — leadership instability and Gemini 3.5 Pro delay signal possible development slowdowns at Google over the next 2 quarters</span> <span>Track Jonas Adler's work at Anthropic as it may directly improve Claude Code capabilities in the near term</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">Google DeepMind</span><span class="tag">Anthropic</span><span class="tag">OpenAI</span><span class="tag">talent</span><span class="tag">Noam Shazeer</span></div>
+        <div class="card-links"><a href="https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    <article class="card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-medium">MEDIUM</span></div>
+        <span class="card-source">Build Fast with AI · International</span>
+      </div>
+      <h3 class="card-title">DeepSeek V4-Pro Price Cut Made Permanent at $0.44/M Input Tokens — 5x Cheaper than GPT-5.5</h3>
+      <p class="card-content">DeepSeek ประกาศทำให้การลดราคา V4-Pro จากเดือนพฤษภาคม 2026 เป็นราคาถาวร โดยอยู่ที่ 0.44 ดอลลาร์ต่อล้าน input token และ 0.87 ดอลลาร์ต่อล้าน output token ส่วน V4-Flash ลดเหลือ 0.14 และ 0.28 ดอลลาร์ตามลำดับ ราคานี้ถูกกว่า GPT-5.5 (2.50/15 ดอลลาร์) กว่า 5 เท่าใน input และ 17 เท่าใน output และถูกกว่า Gemini 3.5 Flash กว่า 3 เท่า เหตุผลทางเทคนิคที่ทำได้คือสถาปัตยกรรม sparse-attention แบบ hybrid ที่ใช้เพียง 27% ของ compute ต่อ token และ 10% ของ memory เมื่อเทียบรุ่นก่อน การประกาศครั้งนี้ไม่ใช่การโปรโมชัน แต่เป็นสัญญาณว่า DeepSeek กำลังสร้าง price floor ถาวรสำหรับ Chinese open-weight model tier ซึ่งสร้างแรงกดดันราคาอย่างรุนแรงต่อผู้ให้บริการ frontier model ฝั่งตะวันตกในตลาด high-volume inference</p>
+      <div class="card-impact"><span class="impact-label">💡</span> DeepSeek's permanent price floor at $0.44/M input tokens creates a structural cost alternative for budget-sensitive AI applications. The 5x-17x price gap vs. Western frontier models is now large enough to drive meaningful enterprise workload migration.</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>Benchmark DeepSeek V4-Pro on your specific workloads — for high-volume, cost-sensitive pipelines the 5x+ price gap can justify migration even with some capability tradeoff</span> <span>Use Z.ai API or direct DeepSeek API access for batch processing, classification, and summarization tasks where frontier quality isn't required</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">DeepSeek</span><span class="tag">pricing</span><span class="tag">inference cost</span><span class="tag">GPT-5.5</span><span class="tag">open-weight</span></div>
+        <div class="card-links"><a href="https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    <article class="card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-high">HIGH</span></div>
+        <span class="card-source">Build Fast with AI · International</span>
+      </div>
+      <h3 class="card-title">GPT-5.6 'Kindle-Alpha' RC Nears Launch: 1.5M Context Window, 83% Polymarket Odds, Government Approval Customer-by-Customer</h3>
+      <p class="card-content">GPT-5.6 ของ OpenAI มีชื่อรหัสภายในว่า 'kindle-alpha' และกลายเป็น AI release ที่ถูกติดตามมากที่สุดใน prediction market ขณะนี้ โดย Polymarket เปิดราคาที่ 83% ว่าจะเปิดตัวก่อน 28 มิถุนายน 2026 คุณสมบัติที่คาดว่าจะมีได้แก่ context window 1.5 ล้าน token (จาก 1 ล้านใน GPT-5.5) คุณภาพการสร้าง UI และ front-end code ที่ดีขึ้นอย่างมีนัยสำคัญ Codex response ที่เร็วขึ้น และการแก้ไข reward audit pipeline เพื่อป้องกันปัญหา 'Goblin Incident' ที่เกิดใน GPT-5.5 อย่างไรก็ตาม รัฐบาลสหรัฐฯ กำหนดให้ OpenAI ต้องอนุมัติผู้ใช้ทีละรายก่อนปล่อยใช้งานทั่วไป ซึ่งอาจทำให้การเข้าถึง API ล่าช้าออกไปอีกหลายสัปดาห์ นักพัฒนาควรระวังว่า endpoint gpt-5.5-latest จะอัปเดตเป็น GPT-5.6 โดยอัตโนมัติหากไม่ pin version ไว้</p>
+      <div class="card-impact"><span class="impact-label">💡</span> GPT-5.6 is imminent but may face delayed API access due to government review. The automatic endpoint update (gpt-5.5-latest → GPT-5.6) is a critical risk for production systems not pinned to explicit versions.</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>CRITICAL: Pin production code to explicit versioned endpoints (not gpt-5.5-latest) NOW — OpenAI automatically promotes new models to latest endpoints which will change behavior without notice</span> <span>Plan for GPT-5.6 API access to be delayed by government review process — maintain GPT-5.5 fallback in any code depending on GPT-5.6 capabilities</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">GPT-5.6</span><span class="tag">OpenAI</span><span class="tag">Codex</span><span class="tag">release</span><span class="tag">context window</span></div>
+        <div class="card-links"><a href="https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    <article class="card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-medium">MEDIUM</span><span class="badge badge-bt">⚡ Breakthrough</span></div>
+        <span class="card-source">TechCrunch / Build Fast with AI · International</span>
+      </div>
+      <h3 class="card-title">OpenAI and Broadcom Unveil 'Jalapeño': Custom AI Inference Chip Cuts Inference Cost 50% vs H200</h3>
+      <p class="card-content">OpenAI and Broadcom unveiled the Jalapeño custom AI inference chip designed to cut large-scale inference costs by approximately 50% compared to NVIDIA H200 GPUs. Built using HBM4 memory and fabricated at TSMC N2 node, the chip is purpose-built for transformer inference at OpenAI's scale. This marks OpenAI's first major move into custom silicon, following Google's TPU and Amazon's Trainium strategy. The partnership allows OpenAI to reduce dependency on NVIDIA while Broadcom gains a high-volume customer for its ASIC design services. At OpenAI's current inference volume, analysts estimate the chip could save hundreds of millions annually. Production is expected to begin in late 2026, with API pricing effects likely visible in 2027. The announcement signals a structural shift in AI hardware economics where specialized inference chips increasingly displace general-purpose GPU clusters for production workloads.</p>
+      <div class="card-impact"><span class="impact-label">💡</span> OpenAI+Broadcom Jalapeño chip cuts inference cost 50% vs H200 — first major AI lab vertical silicon integration since Google TPU</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>Track OpenAI API pricing updates as a leading indicator of Jalapeño entering production scale</span> <span>Evaluate whether lower inference costs change the unit economics of AI-heavy applications you are building</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">OpenAI</span><span class="tag">Broadcom</span><span class="tag">Jalapeño</span><span class="tag">custom chip</span><span class="tag">AI inference</span></div>
+        <div class="card-links"><a href="https://techcrunch.com/2026/06/24/openai-broadcom-jalapeno-inference-chip/" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    <article class="card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-medium">MEDIUM</span></div>
+        <span class="card-source">arXiv cs.LG · Research</span>
+      </div>
+      <h3 class="card-title">MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?</h3>
+      <p class="card-content">งานวิจัยใหม่ MAS-PromptBench จาก Juyang Bai และ Laixi Shi นำเสนอ benchmark ครั้งแรกสำหรับประเมินผลของการปรับแต่ง system prompt ในระบบ Multi-Agent LLM ซึ่งยังไม่เคยมีการศึกษาอย่างเป็นระบบมาก่อน ระบบ Multi-Agent ประกอบด้วย agent หลายตัวที่ทำงานร่วมกัน โดยแต่ละตัวมี system prompt กำหนดบทบาทและพฤติกรรม การปรับ prompt ของ agent เดียวแสดงผลลัพธ์ดีมาก แต่เมื่อขยายไปสู่ระบบ multi-agent กลับพบว่าพื้นที่ค้นหา prompt ขยายตัวแบบ exponential งานวิจัยนี้ทดสอบบน workflow และการตั้งค่าหลากหลายรูปแบบ ครอบคลุม task, communication protocol และ team size ต่างกัน ผลพบว่าการ optimize prompt ช่วยเพิ่มประสิทธิภาพได้อย่างมีนัยสำคัญในบางสถานการณ์ แต่ยังมีความท้าทายสำคัญที่ต้องแก้ไข เผยแพร่ code สาธารณะที่ github.com/juyangbai/MAS-PromptBench เป็นประโยชน์โดยตรงสำหรับนักพัฒนา agentic AI</p>
+      <div class="card-impact"><span class="impact-label">💡</span> benchmark แรกที่ศึกษา system prompt optimization ใน multi-agent LLM systems อย่างเป็นระบบ เผยว่าผลลัพธ์ขึ้นอยู่กับ MAS configuration อย่างมีนัยสำคัญ</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>ทดสอบ MAS-PromptBench กับระบบ multi-agent ที่กำลังพัฒนาเพื่อวัดผลกระทบของ prompt optimization อย่างเป็นระบบ</span> <span>ใช้ code ที่เผยแพร่ที่ github.com/juyangbai/MAS-PromptBench เพื่อ optimize system prompts ใน multi-agent pipeline ของตัวเอง</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">multi-agent</span><span class="tag">prompt-optimization</span><span class="tag">LLM</span><span class="tag">MAS</span><span class="tag">benchmark</span></div>
+        <div class="card-links"><a href="https://arxiv.org/abs/2606.23664" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    <article class="card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-high">HIGH</span><span class="badge badge-bt">⚡ Breakthrough</span></div>
+        <span class="card-source">arXiv cs.LG · Research</span>
+      </div>
+      <h3 class="card-title">Learning Process Rewards via Success Visitation Matching for Efficient RL</h3>
+      <p class="card-content">ทีมวิจัยจาก UC Berkeley นำโดย Sergey Levine นำเสนอวิธีการใหม่ในการแปลง sparse reward ให้กลายเป็น dense process reward เพื่อเร่งการฝึก Reinforcement Learning ปัญหาหลักของ RL แบบดั้งเดิมคือ agent ได้รับรางวัลก็ต่อเมื่อทำงานสำเร็จเท่านั้น ทำให้การฝึกช้ามากเพราะขาดสัญญาณนำทางระหว่างทาง วิธีการที่เสนอฝึก discriminator เพื่อแยกแยะ episode ที่สำเร็จและไม่สำเร็จในอดีต แล้วนำมาสร้าง reward หนาแน่นที่บอก agent ว่ากำลังเดินไปในทิศทางที่ถูกต้องหรือไม่ในทุกขั้นตอน งานวิจัยพิสูจน์ทางคณิตศาสตร์ว่าวิธีนี้ไม่เปลี่ยน optimal policy และทดสอบกับหุ่นยนต์จริงในงาน manipulation ทั้งในสภาพแวดล้อมจำลองและจริง พบว่าฝึกเร็วขึ้นอย่างมีนัยสำคัญ เทคนิคนี้มีศักยภาพสูงสำหรับการพัฒนา AI ที่เรียนรู้จากประสบการณ์จริงในอนาคต</p>
+      <div class="card-impact"><span class="impact-label">💡</span> วิธีการใหม่จาก Berkeley ช่วยเร่งการฝึก RL โดยแปลง sparse reward เป็น dense process reward ผ่าน discriminator ที่เรียนรู้จาก successful episodes ในอดีต พิสูจน์ทั้งทางทฤษฎีและการทดลองจริง</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>นำ Success Visitation Matching มาประยุกต์กับ RL pipeline ที่ประสบปัญหา sparse reward โดยเฉพาะงาน robotics, navigation และ RLHF</span> <span>ศึกษา paper เพื่อทำความเข้าใจวิธีฝึก discriminator จาก historical episodes ก่อนนำไปใช้กับ domain อื่น</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">reinforcement-learning</span><span class="tag">reward-learning</span><span class="tag">process-reward</span><span class="tag">robotics</span><span class="tag">Sergey-Levine</span></div>
+        <div class="card-links"><a href="https://arxiv.org/abs/2606.23640" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    <article class="card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-medium">MEDIUM</span></div>
+        <span class="card-source">arXiv cs.LG · Research</span>
+      </div>
+      <h3 class="card-title">Memory Contagion: Cross-Temporal Propagation of Evaluator Bias via Agent Memory</h3>
+      <p class="card-content">งานวิจัยล่าสุดเผยให้เห็นปัญหาใหม่ที่น่ากังวลในระบบ AI agent ที่มีความทรงจำระยะยาว เรียกว่า Memory Contagion หรือการแพร่กระจาย bias ของผู้ประเมินข้ามช่วงเวลาผ่านความทรงจำของ agent นักวิจัยพบว่าเมื่อ agent ประเมินผลงานและบันทึกการประเมินเหล่านั้นไว้ในความทรงจำ bias ที่เกิดขึ้นจากการประเมินครั้งแรกสามารถแพร่ผ่านห่วงโซ่ความทรงจำและส่งผลต่อการตัดสินใจในอนาคตแบบที่ตรวจจับยาก ปัญหานี้เป็นความเสี่ยงสำคัญด้านความน่าเชื่อถือของระบบ multi-agent ที่ทำงานต่อเนื่องเป็นเวลานาน การค้นพบนี้ชี้ให้เห็นถึงความจำเป็นเร่งด่วนในการออกแบบกลไก memory และ evaluation สำหรับ AI agent อย่างรอบคอบ โดยเฉพาะระบบที่ใช้ LLM-as-a-judge ในกระบวนการฝึกหรือ deployment</p>
+      <div class="card-impact"><span class="impact-label">💡</span> Memory Contagion คือปัญหาที่ evaluator bias แพร่ข้ามเวลาผ่าน agent memory โดยที่ผู้พัฒนาอาจไม่รู้ตัว เป็นความเสี่ยงสำคัญของ long-running AI agent systems</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>ตรวจสอบ memory storage และ retrieval mechanism ของ AI agent ที่ใช้ LLM-as-a-judge ว่ามีการ propagate evaluation bias หรือไม่</span> <span>พัฒนา memory audit logs เพื่อ track ว่า evaluation เก่าส่งผลต่อการตัดสินใจปัจจุบันอย่างไร</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">agent-memory</span><span class="tag">AI-safety</span><span class="tag">LLM-evaluation</span><span class="tag">evaluator-bias</span><span class="tag">multi-agent</span></div>
+        <div class="card-links"><a href="https://arxiv.org/abs/2606.23195" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    <article class="card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-low">LOW</span><span class="badge badge-bt">⚡ Breakthrough</span></div>
+        <span class="card-source">arXiv cs.LG · Research</span>
+      </div>
+      <h3 class="card-title">Superhuman AI for Generals.io Using Self-Play Reinforcement Learning</h3>
+      <p class="card-content">ทีมวิจัยประสบความสำเร็จในการพัฒนา AI ที่เอาชนะมนุษย์ระดับ superhuman ใน Generals.io เกมยุทธศาสตร์หลายผู้เล่นแบบ real-time บนอินเทอร์เน็ต โดยใช้ Self-Play Reinforcement Learning ซึ่ง AI ฝึกโดยเล่นกับตัวเองซ้ำแล้วซ้ำเล่าจนพัฒนากลยุทธ์ที่ซับซ้อน Generals.io มีความท้าทายพิเศษในฐานะ imperfect information game ที่ผู้เล่นมองเห็นแผนที่ได้เพียงบางส่วนและต้องตัดสินใจภายใต้ความไม่แน่นอนสูง ต่างจาก Chess หรือ Go ที่มีข้อมูลสมบูรณ์ ความสำเร็จนี้สะท้อนให้เห็นว่า self-play RL สามารถสร้าง AI ที่เชี่ยวชาญในสภาพแวดล้อมที่ข้อมูลไม่ครบถ้วนได้ มีนัยสำคัญต่อการพัฒนา AI สำหรับการตัดสินใจเชิงกลยุทธ์ในโลกจริง เช่น การจัดการทรัพยากรและการวางแผนเชิงธุรกิจ</p>
+      <div class="card-impact"><span class="impact-label">💡</span> Self-play RL สร้าง superhuman performance ใน Generals.io ซึ่งเป็น imperfect information real-time strategy game นับเป็น proof-of-concept สำหรับ AI ในสภาพแวดล้อมที่มีความไม่แน่นอนสูง</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>ศึกษา self-play RL architecture ที่ใช้ใน Generals.io เป็นแนวทางสำหรับการพัฒนา AI ใน domain ที่มี imperfect information</span> <span>ทดลองนำ technique นี้ไปประยุกต์กับปัญหา planning และ resource allocation ที่มีความไม่แน่นอนใน production</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">reinforcement-learning</span><span class="tag">self-play</span><span class="tag">game-AI</span><span class="tag">superhuman</span><span class="tag">generals-io</span></div>
+        <div class="card-links"><a href="https://arxiv.org/abs/2606.23348" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    <article class="card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-medium">MEDIUM</span></div>
+        <span class="card-source">GAI Insights (YouTube) · YouTube</span>
+      </div>
+      <h3 class="card-title">AI Agents 101: The 2026 Stack | EP 607 | Daily AI News by GAI Insights</h3>
+      <p class="card-content">ช่อง YouTube GAI Insights เผยแพร่ Episode 607 ในชื่อ AI Agents 101: The 2026 Stack สรุปองค์ประกอบสำคัญของระบบ AI agent ในปี 2026 ที่นักพัฒนาและองค์กรต้องรู้ รายการครอบคลุม agentic AI frameworks, orchestration layers, tool-use capabilities, memory systems และ multi-agent coordination ที่กำลังกลายเป็น standard ใหม่ในวงการ นอกจากนี้ยังวิเคราะห์ Qwen language world models และทิศทางของ LLM รุ่นต่อไปที่จะเน้นความสามารถในการวางแผนระยะยาวและ reasoning ที่ซับซ้อนมากขึ้น เนื้อหาเหมาะสำหรับผู้ที่ต้องการทำความเข้าใจ landscape ของ AI agent ในปัจจุบัน ซึ่งเปลี่ยนแปลงรวดเร็วและส่งผลกระทบต่อการพัฒนา software ทุกประเภทในยุค agentic computing</p>
+      <div class="card-impact"><span class="impact-label">💡</span> Episode ให้ภาพรวมครบถ้วนของ 2026 AI Agent Stack รวมถึง Qwen language world models และ component สำคัญที่จำเป็นสำหรับ agentic AI deployment</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>ดู EP 607 เพื่อทำความเข้าใจ component ที่จำเป็นสำหรับ AI agent stack ในปี 2026 โดยเฉพาะ orchestration และ memory layers</span> <span>ติดตาม GAI Insights ต่อเนื่องเพื่อ daily updates เกี่ยวกับ AI agent developments ที่เกี่ยวข้องกับ production deployment</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">youtube</span><span class="tag">AI-agents</span><span class="tag">2026-stack</span><span class="tag">GAI-insights</span><span class="tag">agentic-AI</span></div>
+        <div class="card-links"><a href="https://www.youtube.com/watch?v=Ddk7Ezuok-g" class="src-link" target="_blank">→ อ่านต้นฉบับ</a><a href="https://www.youtube.com/watch?v=Ddk7Ezuok-g" class="yt-link" target="_blank">▶ Watch on YouTube</a></div>
+      </div>
+    </article>
+    <article class="card topic-ai-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-medium">MEDIUM</span></div>
+        <span class="card-source">Matt Wolfe / FutureTools (YouTube) · YouTube</span>
+      </div>
+      <h3 class="card-title">Phasing Out Humans, AI Sin Eaters, Airplane Swarms and the AI Trolley Problem</h3>
+      <p class="card-content">Matt Wolfe เจ้าของ FutureTools.io นำเสนอวิดีโอประจำสัปดาห์วิเคราะห์ประเด็นร้อนในวงการ AI ครอบคลุมหลายหัวข้อสำคัญ ได้แก่ ความเป็นไปได้ที่ AI จะแทนที่แรงงานมนุษย์ในระยะยาว แนวคิด AI Sin Eaters หรือระบบ AI ที่รับมือกับการตัดสินใจที่มีผลทางจริยธรรมเพื่อปกป้องมนุษย์จากน้ำหนักทางจิตใจ การพัฒนา airplane swarms ในภาคกลาโหมที่เปลี่ยนโฉมหน้าสงครามสมัยใหม่ และ AI Trolley Problem ซึ่งเป็นคำถามจริยธรรมเกี่ยวกับการตัดสินใจของ AI ในสถานการณ์ที่ไม่มีทางเลือกที่ดีสมบูรณ์ เนื้อหาเหล่านี้สะท้อนว่า AI กำลังกลายเป็นหัวข้อสังคม เศรษฐกิจ และจริยธรรมที่ส่งผลกระทบต่อทุกคน ไม่ใช่แค่เรื่องเทคนิคอีกต่อไป</p>
+      <div class="card-impact"><span class="impact-label">💡</span> วิดีโอวิเคราะห์มิติทางสังคมและจริยธรรมของ AI ครอบคลุม AI workforce displacement, Sin Eaters framework, autonomous military systems และ trolley problem สำหรับ AI decision-making</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>ดูวิดีโอเพื่อ build context เกี่ยวกับมิติทางสังคมและจริยธรรมของ AI ที่ developer ต้องคำนึงถึงในการออกแบบระบบ</span> <span>พิจารณา ethical implications ของ AI systems ที่กำลังพัฒนา โดยเฉพาะระบบที่มีผลต่อการตัดสินใจที่กระทบชีวิตผู้คน</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">youtube</span><span class="tag">matt-wolfe</span><span class="tag">future-tools</span><span class="tag">AI-jobs</span><span class="tag">drone-swarms</span></div>
+        <div class="card-links"><a href="https://www.youtube.com/watch?v=zRnY3wRMEQs" class="src-link" target="_blank">→ อ่านต้นฉบับ</a><a href="https://www.youtube.com/watch?v=zRnY3wRMEQs" class="yt-link" target="_blank">▶ Watch on YouTube</a></div>
+      </div>
+    </article>
+    </div>
+  </section>
+  
+  <section class="topic-section" id="tech-trends">
+    <div class="section-header" style="border-left: 4px solid #a855f7">
+      <span class="section-icon">⚙️</span>
+      <h2 class="section-title">Tech Trends</h2>
+      <span class="section-count">1 บทความ</span>
+    </div>
+    <div class="cards-grid">
+      
+    <article class="card topic-tech-trends">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-high">HIGH</span></div>
+        <span class="card-source">Blognone · Thai</span>
+      </div>
+      <h3 class="card-title">Notion Mail ประกาศปิดบริการ 22 กันยายนนี้ เพราะคนนิยมใช้ AI Agent จัดการอีเมลมากกว่า</h3>
+      <p class="card-content">Notion ประกาศปิดบริการ Notion Mail อีเมลไคลเอนต์ที่เปิดให้ใช้งานมากกว่าหนึ่งปี โดยจะหยุดให้บริการในวันที่ 22 กันยายน 2026 สาเหตุที่น่าสนใจคือนอกจากจำนวนผู้ใช้งานที่น้อยกว่าที่คาดแล้ว Notion ระบุว่าตั้งแต่มีบริการ Notion Agent ออกมา ผู้ใช้งานมากกว่าครึ่งไม่เคยเปิด inbox ของอีเมลอีกเลย เพราะให้ AI Agent จัดการแทนทั้งหมด นับเป็นหนึ่งในกรณีแรกๆ ที่ AI Agent ทำให้ผลิตภัณฑ์ซอฟต์แวร์ทั้งหมดต้องปิดตัว เนื่องจากพฤติกรรมการใช้งานเปลี่ยนแปลงอย่างสิ้นเชิง สะท้อนให้เห็นว่า Agentic AI กำลังเริ่มทดแทน productivity apps แบบดั้งเดิมอย่างที่หลายคนไม่คาดคิด</p>
+      <div class="card-impact"><span class="impact-label">💡</span> กรณี Notion Mail เป็นสัญญาณชัดเจนว่า AI Agents กำลังทดแทน productivity apps แบบดั้งเดิม นักพัฒนาและบริษัทซอฟต์แวร์ต้องปรับกลยุทธ์รองรับ Agentic AI paradigm</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>พิจารณาออกแบบ apps ในลักษณะ Agent-first มากกว่า UI-first เพื่อรองรับการทำงานร่วมกับ AI Agents</span> <span>ศึกษาว่า workflow ใดในแอปพลิเคชันของตนที่ AI Agent สามารถทดแทนได้ เพื่อ pivot product ก่อนถูก disrupt</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">Notion</span><span class="tag">Notion Mail</span><span class="tag">Notion Agent</span><span class="tag">AI Agent</span><span class="tag">Email</span></div>
+        <div class="card-links"><a href="https://www.blognone.com/node/150990" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    </div>
+  </section>
+  
+  <section class="topic-section" id="thailand">
+    <div class="section-header" style="border-left: 4px solid #ff6b35">
+      <span class="section-icon">🇹🇭</span>
+      <h2 class="section-title">Thailand AI & Tech</h2>
+      <span class="section-count">1 บทความ</span>
+    </div>
+    <div class="cards-grid">
+      
+    <article class="card topic-thailand">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-medium">MEDIUM</span><span class="badge badge-bt">⚡ Breakthrough</span></div>
+        <span class="card-source">Techsauce · Thai</span>
+      </div>
+      <h3 class="card-title">เมื่อการวินิจฉัยคือด่านแรกของชีวิต 3 Health Tech ไทยที่ทำให้ระบบสุขภาพพึ่งตัวเองได้มากขึ้น</h3>
+      <p class="card-content">Techsauce นำเสนอ 3 บริษัท Health Tech ไทยที่กำลังพัฒนาเทคโนโลยีการวินิจฉัยด้วย AI เพื่อยกระดับระบบสุขภาพไทยให้พึ่งพาตัวเองได้มากขึ้น โดยมองว่าการวินิจฉัยที่รวดเร็วและแม่นยำคือ 'ด่านแรก' ที่สำคัญที่สุดก่อนกระบวนการรักษาทั้งหมด ซึ่งรวมถึงบริษัท SPEAR-H ที่พัฒนาเครื่องมือวินิจฉัยด้วย AI ท่ามกลางบริบทที่ระบบสาธารณสุขไทยกำลังเผชิญกับความท้าทายจากการขาดแคลนบุคลากรและความต้องการที่เพิ่มขึ้น เทคโนโลยีเหล่านี้มีนัยสำคัญต่อการสร้าง AI healthcare ecosystem ของไทยในระยะยาว และช่วยลดการพึ่งพาเทคโนโลยีการแพทย์จากต่างประเทศที่ปัจจุบันยังมีสัดส่วนสูง</p>
+      <div class="card-impact"><span class="impact-label">💡</span> การที่ไทยมี Health Tech startups พัฒนา AI diagnostics เอง ช่วยลดการพึ่งพาเทคโนโลยีต่างประเทศและสร้าง ecosystem ที่ยั่งยืนสำหรับระบบสุขภาพไทย</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>ศึกษาโอกาสในการพัฒนา AI healthcare solutions สำหรับบริบทไทย โดยเฉพาะด้านที่ระบบยังขาดแคลนบุคลากร</span> <span>ร่วมมือกับโรงพยาบาลรัฐในโครงการ pilot เพื่อทดสอบ AI diagnostics tools ในสภาพแวดล้อมจริง</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">HealthTech</span><span class="tag">ไทย</span><span class="tag">SPEAR-H</span><span class="tag">การวินิจฉัย</span><span class="tag">AI สุขภาพ</span></div>
+        <div class="card-links"><a href="https://techsauce.co/healthtech/healthtech-spearh-diagnostics-thai-selfreliance" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    </div>
+  </section>
+  
+  <section class="topic-section" id="global">
+    <div class="section-header" style="border-left: 4px solid #00ff88">
+      <span class="section-icon">🌐</span>
+      <h2 class="section-title">Global AI & Tech</h2>
+      <span class="section-count">3 บทความ</span>
+    </div>
+    <div class="cards-grid">
+      
+    <article class="card topic-global">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-medium">MEDIUM</span></div>
+        <span class="card-source">Blognone · Thai</span>
+      </div>
+      <h3 class="card-title">[ลือ] OpenAI เลื่อนแผนไอพีโอออกไปเป็นปีหน้า เหตุต้องการให้มูลค่ากิจการแตะ 1 ล้านล้านดอลลาร์</h3>
+      <p class="card-content">The New York Times อ้างแหล่งข่าวใกล้ชิด OpenAI รายงานว่าบริษัทกำลังพิจารณาเลื่อนแผนการเสนอขายหุ้น IPO ออกไปจากที่เคยมีข่าวว่าจะเกิดขึ้นภายในปีนี้ เป็นภายในปีหน้าแทน สาเหตุหลักคือ OpenAI ต้องการให้มูลค่ากิจการเข้าใกล้หรือแตะระดับ 1 ล้านล้านดอลลาร์สหรัฐฯ ก่อนที่จะเข้าจดทะเบียนในตลาดหลักทรัพย์ ซึ่งปัจจุบัน OpenAI ยังคงเป็นบริษัทเอกชนที่มีมูลค่าสูงที่สุดในโลก และการออก IPO ที่ valuation สูงกว่านี้จะช่วยให้บริษัทสามารถระดมทุนได้มากขึ้นเพื่อรองรับต้นทุนการพัฒนา AI ที่พุ่งสูงอย่างต่อเนื่อง การตัดสินใจนี้สะท้อนความมั่นใจของ OpenAI ว่าตลาด AI ยังคงเติบโตอย่างแข็งแกร่ง</p>
+      <div class="card-impact"><span class="impact-label">💡</span> การเลื่อน IPO ของ OpenAI สะท้อนว่าบริษัทมั่นใจในศักยภาพการเติบโต และต้องการ leverage สูงขึ้นก่อนเข้าตลาด ซึ่งอาจกดดันคู่แข่งที่ระดมทุนจากตลาดสาธารณะ</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>ติดตามแผน fundraising ของ OpenAI เพราะอาจส่งผลต่อการเข้าถึง API และ pricing ในอนาคต</span> <span>พิจารณากระจายการพึ่งพา AI providers เนื่องจากโครงสร้างธุรกิจ OpenAI อาจเปลี่ยนแปลงเมื่อเข้า IPO</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">OpenAI</span><span class="tag">IPO</span><span class="tag">มูลค่ากิจการ</span><span class="tag">Wall Street</span></div>
+        <div class="card-links"><a href="https://www.blognone.com/node/150994" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    <article class="card topic-global">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-high">HIGH</span></div>
+        <span class="card-source">TechCrunch · International</span>
+      </div>
+      <h3 class="card-title">It's not about Anthropic vs. OpenAI anymore</h3>
+      <p class="card-content">รัฐบาลสหรัฐฯ กำลังขยายอำนาจควบคุมการเผยแพร่โมเดล AI ระดับ frontier โดยไม่จำกัดเพียง Anthropic อีกต่อไป ล่าสุด The Information รายงานว่า GPT-5.6 ของ OpenAI จะถูกปล่อยให้ใช้งานเฉพาะในรูปแบบ limited preview โดยรัฐบาลต้องอนุมัติทีละลูกค้า ซึ่งเป็นรูปแบบเดียวกันกับที่ Anthropic กำลังเผชิญกับโมเดล Fable 5 และ Mythos 5 บทวิเคราะห์ใน TechCrunch ชี้ว่าทั้ง OpenAI และ Anthropic ต่างตกอยู่ในสถานการณ์เดียวกัน การแข่งขันระหว่างสองบริษัทกลายเป็นเรื่องรอง เพราะกระบวนการอนุมัติที่ขาดความชัดเจนจะส่งผลกระทบต่อทั้งอุตสาหกรรม AI รวมถึงการลงทุนในดาตาเซนเตอร์ที่อาจชะลอตัว นักวิเคราะห์เรียกร้องให้ทุกบริษัทร่วมมือกันสร้างกระบวนการทดสอบที่มีความหมายและโปร่งใส แทนที่จะต่อสู้เพื่อแย่งชิงความได้เปรียบทางการเมือง เพราะหากกระบวนการนี้ล้มเหลว ทั้งอุตสาหกรรม AI อาจได้รับความเสียหายอย่างรุนแรง</p>
+      <div class="card-impact"><span class="impact-label">💡</span> US government's model approval process now extends to GPT-5.6, creating systemic risk for all frontier AI labs. 'Customer-by-customer' approval could delay API access for weeks or months, threatening commercial AI deployment timelines across the industry.</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>Monitor GPT-5.6 release timeline closely — government review could delay API access beyond announced dates; plan for delayed migration windows</span> <span>Diversify model dependencies across Anthropic, OpenAI, and open-weight alternatives to hedge against regulatory shutdowns</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">OpenAI</span><span class="tag">Anthropic</span><span class="tag">government</span><span class="tag">AI policy</span><span class="tag">GPT-5.6</span></div>
+        <div class="card-links"><a href="https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    <article class="card topic-global">
+      <div class="card-header">
+        <div class="card-badges"><span class="badge badge-high">HIGH</span></div>
+        <span class="card-source">CNBC · International</span>
+      </div>
+      <h3 class="card-title">Anthropic Accuses Alibaba of Largest Known Model Distillation Attack: 25,000 Accounts, 28.8 Million Exchanges</h3>
+      <p class="card-content">Anthropic ส่งจดหมายถึงคณะกรรมาธิการธนาคารวุฒิสภาสหรัฐฯ กล่าวหาว่าบัญชีที่เชื่อมโยงกับ Alibaba และ Qwen AI Lab ดำเนินการ distillation attack ครั้งใหญ่ที่สุดที่เคยพบมาต่อระบบ Claude โดยใช้บัญชีปลอมกว่า 25,000 บัญชี สร้าง exchanges มากกว่า 28.8 ล้านครั้งระหว่างวันที่ 22 เมษายนถึง 5 มิถุนายน 2026 มุ่งเป้าที่ความสามารถ agentic reasoning และ software engineering ของ Claude Mythos Preview โดยเฉพาะ Anthropic ระบุว่ารัฐบาลจีนมีส่วนร่วม และเตือนว่าการโจมตีเหล่านี้เปลี่ยนการลงทุน R&D หลายแสนล้านดอลลาร์ของอเมริกาให้เป็นเงินอุดหนุนคู่แข่งทางภูมิรัฐศาสตร์ การโจมตีครั้งนี้มีขนาดใหญ่เกือบสองเท่าของการโจมตีโดย DeepSeek ที่ Anthropic เปิดเผยเมื่อกุมภาพันธ์ 2026 Alibaba ยังไม่ออกมาโต้แย้งข้อกล่าวหาใดๆ</p>
+      <div class="card-impact"><span class="impact-label">💡</span> The largest known AI model distillation attack to date targeted Claude Mythos Preview specifically for its agentic and coding capabilities. Distilled models approximate frontier performance without safety controls, creating IP and security risks.</div>
+      <div class="actions"><span class="actions-label">👨‍💻 Dev:</span><span>Audit API usage patterns for abnormally high volumes from single accounts or coordinated account clusters — a signal of distillation campaigns</span> <span>Avoid publishing benchmark evaluations that could help attackers calibrate which model capabilities to target in distillation campaigns</span></div>
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">Anthropic</span><span class="tag">Alibaba</span><span class="tag">Qwen</span><span class="tag">distillation attack</span><span class="tag">AI security</span></div>
+        <div class="card-links"><a href="https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html" class="src-link" target="_blank">→ อ่านต้นฉบับ</a></div>
+      </div>
+    </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <span>AI News Pipeline v2.0</span> · Generated 2026-06-27T10:55:34+07:00 · 19 articles recovered from 3 batches · 8 articles lost to truncated batch files
+</footer>
+
+</body>
+</html>

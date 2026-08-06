@@ -1,0 +1,363 @@
+{
+  "batch": 3,
+  "target_date": "2026-07-31",
+  "generated_at": "2026-07-31T07:30:00+07:00",
+  "total_articles": 5,
+  "articles": [
+    {
+      "article_id": "oai-arc-agi3-20260731",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "research",
+        "source_name": "OpenAI Research",
+        "registry_key": "openai-research",
+        "domain": "openai.com",
+        "main_url": "https://openai.com/news"
+      },
+      "source": {
+        "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-29T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 3,
+        "category": "research",
+        "category_label": "Research & Academic",
+        "news_type": "research",
+        "tags": ["openai", "arc-agi", "benchmark", "reasoning", "agi"],
+        "language": "th"
+      },
+      "content": {
+        "title": "OpenAI: การปรับ 2 ค่า setting ทำให้คะแนน ARC-AGI-3 เพิ่มขึ้น 3 เท่า",
+        "title_th": "OpenAI: การปรับ 2 ค่า setting ทำให้คะแนน ARC-AGI-3 เพิ่มขึ้น 3 เท่า",
+        "slug": "openai-arc-agi3-triple-score",
+        "summary": "OpenAI เปิดเผยว่าการปรับเพียง 2 ค่า setting ในโมเดลทำให้คะแนน ARC-AGI-3 benchmark ซึ่งเป็นการวัด reasoning ระดับสูงเพิ่มขึ้นถึง 3 เท่า สะท้อนศักยภาพ AI ในการแก้ปัญหาที่ต้องใช้ความเข้าใจเชิงลึก",
+        "summary_1": "OpenAI เปิดเผยการวิจัยที่น่าสนใจว่าการเปลี่ยนแปลงเพียง 2 ค่า setting ในระหว่างการ inference ทำให้คะแนน ARC-AGI-3 benchmark ของโมเดลเพิ่มขึ้นถึง 3 เท่า ARC-AGI-3 (Abstraction and Reasoning Corpus) เป็น benchmark ที่ออกแบบมาเพื่อวัดความสามารถ reasoning และการแก้ปัญหาใหม่ที่ AI ยังทำได้ไม่ดี ซึ่งโดยทั่วไปถือว่าวัดความสามารถที่ใกล้เคียงกับ AGI มากที่สุด การค้นพบนี้มีนัยสำคัญว่าโมเดลที่มีอยู่แล้วอาจมีความสามารถที่ซ่อนอยู่มากกว่าที่เห็น เพียงแค่ต้องการ inference configuration ที่เหมาะสม ทั้งนี้ยังแสดงให้เห็นว่าการวิจัยด้าน inference-time compute เป็นพื้นที่ที่มีศักยภาพสูงในการปรับปรุงประสิทธิภาพโมเดลโดยไม่ต้องฝึกใหม่",
+        "body_text": "OpenAI shows two inference settings tripled ARC-AGI-3 benchmark scores, revealing hidden model capabilities",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Inference-time configuration อาจมีผลต่อประสิทธิภาพโมเดลมากกว่าที่เคยคิด",
+        "actions_developer": [
+          "ศึกษา inference-time scaling techniques ที่ OpenAI เปิดเผย เพื่อปรับใช้กับโมเดลของตัวเอง",
+          "ทดสอบ different sampling strategies และ settings เพื่อดูว่าโมเดลที่ใช้อยู่มีศักยภาพซ่อนอยู่หรือไม่"
+        ],
+        "actions_business": [
+          "ประเมินว่าการ fine-tune inference parameters อาจปรับปรุงผลลัพธ์ AI ในองค์กรได้โดยไม่ต้องลงทุนในโมเดลใหม่",
+          "ติดตามการวิจัย inference-time compute ที่อาจให้ประสิทธิภาพดีขึ้นในราคาถูกกว่า"
+        ],
+        "urgency": "medium",
+        "related_domains": ["llm", "research", "agi", "reasoning"],
+        "breakthrough_potential": true
+      },
+      "paths": {
+        "relative": "News/Articles/ai-trends/openai/2026-07-31/openai-arc-agi3-triple-score",
+        "article_md": "News/Articles/ai-trends/openai/2026-07-31/openai-arc-agi3-triple-score/article.md",
+        "article_json": "News/Articles/ai-trends/openai/2026-07-31/openai-arc-agi3-triple-score/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_3.json"
+      }
+    },
+    {
+      "article_id": "gdm-bioresilience-20260731",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "research",
+        "source_name": "Google DeepMind Blog",
+        "registry_key": "deepmind-blog",
+        "domain": "deepmind.google",
+        "main_url": "https://deepmind.google/discover/blog"
+      },
+      "source": {
+        "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-30T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 3,
+        "category": "research",
+        "category_label": "Research & Academic",
+        "news_type": "safety-report",
+        "tags": ["deepmind", "biosafety", "ai-safety", "bioresilience"],
+        "language": "th"
+      },
+      "content": {
+        "title": "DeepMind เปิดเผยแนวทางด้าน Bioresilience ป้องกันไม่ให้ AI ถูกใช้สร้างอาวุธชีวภาพ",
+        "title_th": "DeepMind เปิดเผยแนวทางด้าน Bioresilience ป้องกันไม่ให้ AI ถูกใช้สร้างอาวุธชีวภาพ",
+        "slug": "deepmind-bioresilience-approach",
+        "summary": "Google DeepMind เผยแพร่แนวทางด้าน bioresilience ซึ่งเป็นกรอบการทำงานเพื่อป้องกันไม่ให้โมเดล AI ถูกนำไปใช้ในการพัฒนาอาวุธชีวภาพหรือทำลายความปลอดภัยทางชีววิทยา",
+        "summary_1": "Google DeepMind เผยแพร่รายงานอย่างเป็นทางการเกี่ยวกับแนวทางด้าน bioresilience ซึ่งเป็นกรอบการทำงานที่ครอบคลุมสำหรับป้องกันไม่ให้ AI เป็นเครื่องมือในการพัฒนาอาวุธชีวภาพหรือทำลายความปลอดภัยทางชีววิทยาของมวลมนุษย์ รายงานนี้กล่าวถึงวิธีที่ DeepMind ประเมินและลดความเสี่ยงที่โมเดล AI ขนาดใหญ่อาจถูกใช้สร้างเชื้อโรคอันตราย สารพิษ หรือข้อมูลที่เป็นอันตรายด้านชีววิทยา ท่ามกลางความกังวลที่เพิ่มขึ้นในวงการ AI safety ว่าโมเดลที่ฉลาดมากอาจให้ข้อมูลอันตรายด้านชีววิทยาแก่ผู้ประสงค์ร้าย การที่ DeepMind เปิดเผยแนวทางนี้สาธารณะแสดงถึงความโปร่งใสและความรับผิดชอบต่อสังคม และเป็นแนวทางที่บริษัท AI อื่นๆ อาจนำไปใช้เป็นมาตรฐาน",
+        "body_text": "DeepMind publishes bioresilience approach to prevent AI from being used for bioweapons development",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "Bioresilience กลายเป็น frontier AI safety domain ใหม่ที่ต้องการความร่วมมือจากทั้งวงการ",
+        "actions_developer": [
+          "ศึกษา DeepMind bioresilience framework เพื่อนำหลักการไปใช้ในการออกแบบ AI systems ที่ปลอดภัย",
+          "ติดตาม best practices ด้าน biosafety สำหรับ AI ที่เกี่ยวข้องกับข้อมูลทางชีววิทยา"
+        ],
+        "actions_business": [
+          "ประเมินว่า AI tools ที่ใช้ในองค์กรมีมาตรการป้องกันการใช้งานที่เป็นอันตรายเพียงพอหรือไม่",
+          "สนับสนุนมาตรฐาน AI safety ระดับอุตสาหกรรมที่รวมถึงการป้องกัน biorisks"
+        ],
+        "urgency": "high",
+        "related_domains": ["ai-safety", "biosafety", "regulation"],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "News/Articles/ai-trends/deepmind/2026-07-31/deepmind-bioresilience-approach",
+        "article_md": "News/Articles/ai-trends/deepmind/2026-07-31/deepmind-bioresilience-approach/article.md",
+        "article_json": "News/Articles/ai-trends/deepmind/2026-07-31/deepmind-bioresilience-approach/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_3.json"
+      }
+    },
+    {
+      "article_id": "ant-open-weights-20260731",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "research",
+        "source_name": "Anthropic News",
+        "registry_key": "anthropic-news",
+        "domain": "anthropic.com",
+        "main_url": "https://www.anthropic.com/news"
+      },
+      "source": {
+        "url": "https://www.anthropic.com/news/position-open-weights-models",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-27T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": false,
+        "status": "published",
+        "batch": 3,
+        "category": "research",
+        "category_label": "Research & Academic",
+        "news_type": "policy",
+        "tags": ["anthropic", "open-source", "open-weights", "ai-policy", "safety"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Anthropic เปิดเผยจุดยืนเกี่ยวกับ Open-Weights AI Models",
+        "title_th": "Anthropic เปิดเผยจุดยืนเกี่ยวกับ Open-Weights AI Models",
+        "slug": "anthropic-open-weights-position",
+        "summary": "Anthropic เผยแพร่จุดยืนอย่างเป็นทางการเกี่ยวกับ open-weights AI models ซึ่งสะท้อนความคิดเห็นของบริษัทเกี่ยวกับการเปิดเผยน้ำหนักโมเดลต่อสาธารณะและผลกระทบต่อความปลอดภัย",
+        "summary_1": "Anthropic เผยแพร่เอกสารจุดยืนอย่างเป็นทางการเกี่ยวกับ open-weights AI models ซึ่งเป็นประเด็นที่ถกเถียงกันมากในวงการ AI ระหว่างฝ่ายที่เชื่อในการเปิดเผยโค้ดและน้ำหนักโมเดลเพื่อความโปร่งใสและนวัตกรรม กับฝ่ายที่กังวลว่าการเปิดเผยโมเดล frontier อาจสร้างความเสี่ยงด้านความปลอดภัย จุดยืนของ Anthropic มีความซับซ้อน โดยสนับสนุน open-weights สำหรับโมเดลที่มีความสามารถต่ำกว่า frontier แต่กังวลเกี่ยวกับการเปิดเผยโมเดลที่มีความสามารถสูงซึ่งอาจถูกนำไปใช้ในทางที่เป็นอันตราย ถือเป็นการแสดงจุดยืนที่ชัดเจนที่สุดของ Anthropic เกี่ยวกับ open source AI debate ที่กำลังดุเดือดในปี 2026",
+        "body_text": "Anthropic publishes official position on open-weights AI models, supporting selective openness based on capability level",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "การถกเถียงด้าน open-weights vs closed AI กำลังกำหนดทิศทางนโยบายและกฎหมาย AI ทั่วโลก",
+        "actions_developer": [
+          "อ่าน Anthropic position paper เพื่อเข้าใจมุมมองด้านความปลอดภัยของ open-weights models",
+          "ประเมินความเหมาะสมของ open vs closed AI models สำหรับ use cases ต่างๆ"
+        ],
+        "actions_business": [
+          "ติดตามนโยบาย open-weights AI ที่อาจส่งผลต่อการเข้าถึงและใช้งาน open-source models",
+          "ประเมินความเสี่ยงและโอกาสจากการที่ open-weights models มีความสามารถเพิ่มขึ้น"
+        ],
+        "urgency": "medium",
+        "related_domains": ["open-source", "ai-policy", "ai-safety"],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "News/Articles/ai-trends/anthropic/2026-07-31/anthropic-open-weights-position",
+        "article_md": "News/Articles/ai-trends/anthropic/2026-07-31/anthropic-open-weights-position/article.md",
+        "article_json": "News/Articles/ai-trends/anthropic/2026-07-31/anthropic-open-weights-position/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_3.json"
+      }
+    },
+    {
+      "article_id": "tc-okta-permiso-acquisition-20260731",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "international-tech",
+        "source_name": "TechCrunch",
+        "registry_key": "techcrunch",
+        "domain": "techcrunch.com",
+        "main_url": "https://techcrunch.com"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-30T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 3,
+        "category": "international-tech",
+        "category_label": "แหล่งข่าวเทคโนโลยีนานาชาติ",
+        "news_type": "acquisition",
+        "tags": ["okta", "permiso", "ai-security", "identity", "acquisition"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Okta เข้าซื้อ Permiso สตาร์ทอัพ AI security มูลค่าราว 200 ล้านดอลลาร์",
+        "title_th": "Okta เข้าซื้อ Permiso สตาร์ทอัพ AI security มูลค่าราว 200 ล้านดอลลาร์",
+        "slug": "okta-permiso-ai-security-acquisition",
+        "summary": "Okta บริษัท identity management ชั้นนำประกาศเข้าซื้อ Permiso สตาร์ทอัพด้าน AI security ที่ช่วย detect และตอบสนองต่อภัยคุกคามจาก AI agents ในราคาประมาณ 200 ล้านดอลลาร์",
+        "summary_1": "Okta บริษัท identity and access management ชั้นนำประกาศเข้าซื้อกิจการ Permiso บริษัทสตาร์ทอัพที่เชี่ยวชาญด้าน AI security โดยเฉพาะการตรวจจับและตอบสนองต่อภัยคุกคามที่เกิดจาก AI agents ที่กำลังแพร่หลายในองค์กร แหล่งข่าวเปิดเผยว่ามูลค่าของดีลอยู่ที่ราว 200 ล้านดอลลาร์สหรัฐ การซื้อกิจการครั้งนี้สะท้อนถึงความกังวลที่เพิ่มขึ้นในวงการ enterprise security เกี่ยวกับ AI agents ที่มีสิทธิ์เข้าถึงระบบและข้อมูลขององค์กร และอาจถูกโจมตีหรือถูกใช้เป็นช่องทางการโจมตี Permiso มีเทคโนโลยีเฉพาะในการ monitor behavior ของ AI agents และตรวจจับ anomalies ที่อาจบ่งบอกถึงการ compromise หรือการใช้งานที่ผิดปกติ ซึ่งเป็นความสามารถที่ Okta ต้องการเสริมเข้ากับ identity platform ของตน",
+        "body_text": "Okta acquires Permiso AI security startup for ~$200M to protect enterprises from AI agent threats",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "ตลาด AI agent security กำลังเติบโตอย่างรวดเร็ว องค์กรต้องการเครื่องมือป้องกัน AI agents ที่มีสิทธิ์สูง",
+        "actions_developer": [
+          "ออกแบบ AI agent systems ด้วยหลัก least-privilege และ monitoring ที่ครอบคลุม",
+          "สำรวจ tools สำหรับ monitoring AI agent behavior ใน production environments"
+        ],
+        "actions_business": [
+          "ประเมิน security posture สำหรับ AI agents ที่กำลังหรือจะ deploy ในองค์กร",
+          "ติดตาม Okta Permiso integration สำหรับ enterprise AI agent security solutions"
+        ],
+        "urgency": "high",
+        "related_domains": ["cybersecurity", "ai-agents", "identity-management"],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "News/Articles/tech-trends/techcrunch/2026-07-31/okta-permiso-ai-security-acquisition",
+        "article_md": "News/Articles/tech-trends/techcrunch/2026-07-31/okta-permiso-ai-security-acquisition/article.md",
+        "article_json": "News/Articles/tech-trends/techcrunch/2026-07-31/okta-permiso-ai-security-acquisition/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_3.json"
+      }
+    },
+    {
+      "article_id": "tc-microsoft-competing-openai-20260731",
+      "schema_version": "2.0",
+      "topic_group": "global",
+      "source_info": {
+        "category": "international-tech",
+        "source_name": "TechCrunch",
+        "registry_key": "techcrunch",
+        "domain": "techcrunch.com",
+        "main_url": "https://techcrunch.com"
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+        "type": "article",
+        "origin": "direct",
+        "source_match_confidence": 1.0,
+        "fetch_priority_used": 1
+      },
+      "fetch": {
+        "status": "success",
+        "http_status": 200,
+        "fetched_at": "2026-07-31T07:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-07-29T00:00:00+07:00",
+        "scraped_at": "2026-07-31T07:00:00+07:00",
+        "run_date": "2026-07-31",
+        "target_date": "2026-07-31",
+        "within_24h": true,
+        "status": "published",
+        "batch": 3,
+        "category": "international-tech",
+        "category_label": "แหล่งข่าวเทคโนโลยีนานาชาติ",
+        "news_type": "analysis",
+        "tags": ["microsoft", "openai", "anthropic", "competition", "enterprise-ai"],
+        "language": "th"
+      },
+      "content": {
+        "title": "Microsoft แข่งกับ OpenAI และ Anthropic อย่างเปิดเผยมากขึ้นกว่าที่เคย",
+        "title_th": "Microsoft แข่งกับ OpenAI และ Anthropic อย่างเปิดเผยมากขึ้นกว่าที่เคย",
+        "slug": "microsoft-competing-openly-openai-anthropic",
+        "summary": "TechCrunch วิเคราะห์ว่า Microsoft กำลังแข่งขันกับ OpenAI และ Anthropic อย่างเปิดเผยและดุเดือดมากขึ้นกว่าที่เคย ท่ามกลางความสัมพันธ์ที่ซับซ้อนของการเป็นทั้งนักลงทุนและคู่แข่ง",
+        "summary_1": "TechCrunch นำเสนอการวิเคราะห์เชิงลึกเกี่ยวกับพลวัตที่น่าสนใจในตลาด AI enterprise โดยชี้ให้เห็นว่า Microsoft กำลังแข่งขันกับ OpenAI และ Anthropic ซึ่งเป็นบริษัทที่ตัวเองลงทุนอยู่อย่างเปิดเผยมากขึ้นเรื่อยๆ ผ่านการพัฒนาโมเดล AI ของตัวเองบน Azure และการนำเสนอ AI services โดยตรงกับลูกค้า enterprise แทนที่จะส่งต่อลูกค้าให้ OpenAI เหมือนก่อน ความสัมพันธ์ที่ซับซ้อนนี้เกิดขึ้นเพราะ Microsoft ได้ตระหนักว่าการพึ่งพา OpenAI มากเกินไปเป็นความเสี่ยงทางธุรกิจ และในขณะเดียวกัน Microsoft ก็เห็นโอกาสที่จะสร้างรายได้จาก AI ได้โดยตรงไม่ต้องแบ่งให้ OpenAI เสมอ สถานการณ์นี้สร้างแรงกดดันต่อ OpenAI และ Anthropic ที่จะต้องแข่งขันในตลาด enterprise กับ Microsoft ซึ่งมีฐานลูกค้าองค์กรที่แข็งแกร่งอยู่แล้ว",
+        "body_text": "Microsoft increasingly competes with OpenAI and Anthropic despite being their major investor, developing own AI models",
+        "language": "th",
+        "original_language": "en"
+      },
+      "tech_insights": {
+        "impact_summary": "ความขัดแย้งระหว่าง Microsoft กับ OpenAI/Anthropic อาจเปลี่ยนโครงสร้างตลาด AI enterprise",
+        "actions_developer": [
+          "ติดตาม Microsoft AI models บน Azure ที่อาจเป็นทางเลือกต่อ OpenAI API โดยตรง",
+          "ประเมิน Azure AI Studio สำหรับ multi-model deployments ที่ไม่พึ่ง OpenAI เพียงอย่างเดียว"
+        ],
+        "actions_business": [
+          "วางแผน AI vendor strategy ที่ไม่ผูกกับ provider เดียว เพราะตลาดกำลังเปลี่ยนแปลง",
+          "ติดตามว่า Microsoft จะเปิดตัว Azure AI models ที่แข่งกับ GPT-5.6 หรือ Claude อย่างไร"
+        ],
+        "urgency": "medium",
+        "related_domains": ["enterprise-ai", "cloud", "competition"],
+        "breakthrough_potential": false
+      },
+      "paths": {
+        "relative": "News/Articles/global/techcrunch/2026-07-31/microsoft-competing-openly-openai-anthropic",
+        "article_md": "News/Articles/global/techcrunch/2026-07-31/microsoft-competing-openly-openai-anthropic/article.md",
+        "article_json": "News/Articles/global/techcrunch/2026-07-31/microsoft-competing-openly-openai-anthropic/article.json",
+        "batch_file": "News/Batches/2026-07-31/batch_3.json"
+      }
+    }
+  ]
+}

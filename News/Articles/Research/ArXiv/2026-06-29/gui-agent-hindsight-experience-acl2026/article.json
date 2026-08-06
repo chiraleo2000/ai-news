@@ -1,0 +1,80 @@
+{
+  "article_id": "gui-agent-hindsight-experience-acl2026-2606-27330",
+  "schema_version": "2.0",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "category": "Research",
+    "source_name": "ArXiv cs.CL",
+    "registry_key": "Research/ArXivCL",
+    "domain": "AI-RESEARCH",
+    "main_url": "https://arxiv.org/list/cs.CL/recent"
+  },
+  "source": {
+    "url": "https://arxiv.org/abs/2606.27330",
+    "type": "direct",
+    "origin": "direct",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-29T07:00:00+07:00",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-26T00:00:00Z",
+    "scraped_at": "2026-06-29T07:00:00+07:00",
+    "run_date": "2026-06-29",
+    "target_date": "2026-06-29",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "3",
+    "category": "AI-RESEARCH",
+    "category_label": "งานวิจัย AI",
+    "news_type": "วิจัย",
+    "tags": [
+      "GUI Agents",
+      "Agents",
+      "LLM",
+      "Automation",
+      "Computer Use"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
+    "title_th": "เสริมพลัง GUI Agents ด้วยการสำรวจประสบการณ์อัตโนมัติและการใช้ Hindsight Experience สำหรับการวางแผนงาน (ACL 2026)",
+    "slug": "gui-agent-hindsight-experience-acl2026",
+    "summary": "งานที่ได้รับการตอบรับจาก ACL 2026 นำเสนอวิธีฝึก GUI agent ให้เรียนรู้จากประสบการณ์ที่ล้มเหลวโดยใช้ Hindsight Experience ร่วมกับการสำรวจอัตโนมัติ",
+    "summary_1": "GUI agent คือระบบ AI ที่สามารถควบคุมหน้าจอคอมพิวเตอร์ได้โดยตรง ซึ่งเป็น frontier สำคัญในการพัฒนา agentic AI งานวิจัยนี้ซึ่งได้รับการตอบรับจาก ACL 2026 เสนอแนวทางใหม่ที่ผสาน Autonomous Experience Exploration กับ Hindsight Experience Utilization เพื่อให้ agent สามารถเรียนรู้จากทั้งประสบการณ์ที่ประสบความสำเร็จและล้มเหลว กลไก hindsight ช่วยให้ agent ตีความผลลัพธ์ที่ไม่พึงประสงค์ว่าเป็น feedback เชิงบวกได้ในบริบทที่เหมาะสม การสำรวจอัตโนมัติช่วยให้ agent สร้าง training data ของตนเองโดยไม่ต้องพึ่ง human annotation มากนัก ผลการทดลองบน benchmark GUI planning แสดงให้เห็นการปรับปรุงที่ชัดเจนเมื่อเทียบกับ baseline แนวทางนี้เปิดทางสู่ computer-use agent ที่สามารถฝึกตนเองได้จากการลองผิดลองถูก",
+    "body_text": "",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "แนวทาง hindsight learning สำหรับ GUI agent ลดการพึ่งพา human annotation และเพิ่มความสามารถในการทำงานบนหน้าจอจริง ซึ่งมีผลโดยตรงต่อ automation workflow",
+    "actions_developer": [
+      "ศึกษา hindsight experience replay เพื่อนำมาประยุกต์กับ computer-use agent ในงาน RPA",
+      "ทดลอง autonomous exploration pipeline เพื่อสร้าง training data สำหรับ GUI task"
+    ],
+    "actions_business": [
+      "ประเมินความเป็นไปได้ในการใช้ GUI agent แทน manual process ในงาน back-office",
+      "ติดตามพัฒนาการของ computer-use AI เพื่อวางกลยุทธ์ automation ในระยะ 12 เดือน"
+    ],
+    "urgency": "high",
+    "related_domains": [
+      "GUI Agents",
+      "Agents",
+      "LLM",
+      "Automation",
+      "Computer Use"
+    ],
+    "breakthrough_potential": true
+  },
+  "paths": {
+    "relative": "Research/ArXiv/2026-06-29/gui-agent-hindsight-experience-acl2026",
+    "batch_file": "News/Batches/2026-06-29/batch_3.json"
+  }
+}

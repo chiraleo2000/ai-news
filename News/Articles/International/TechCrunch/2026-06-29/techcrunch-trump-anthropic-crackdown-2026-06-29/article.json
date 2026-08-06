@@ -1,0 +1,78 @@
+{
+  "article_id": "techcrunch-trump-anthropic-crackdown-2026-06-29",
+  "schema_version": "2.0",
+  "topic_group": "global",
+  "source_info": {
+    "category": "International",
+    "source_name": "TechCrunch",
+    "registry_key": "Intl/TechCrunch",
+    "domain": "AI-POLICY",
+    "main_url": "https://techcrunch.com/category/artificial-intelligence"
+  },
+  "source": {
+    "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+    "type": "direct",
+    "origin": "direct",
+    "fetch_priority_used": "1_direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-06-29T07:00:00+07:00",
+    "fetch_mode": "truncated",
+    "retries": 0,
+    "fail_reason": null
+  },
+  "meta": {
+    "published_at": "2026-06-29T05:00:00Z",
+    "scraped_at": "2026-06-29T07:00:00+07:00",
+    "run_date": "2026-06-29",
+    "target_date": "2026-06-29",
+    "within_24h": true,
+    "status": "scraped",
+    "batch": "2",
+    "category": "AI-POLICY",
+    "category_label": "นโยบาย AI",
+    "news_type": "บทวิเคราะห์",
+    "tags": [
+      "AI Policy",
+      "Export Control",
+      "Geopolitics",
+      "Cybersecurity"
+    ],
+    "language": "en"
+  },
+  "content": {
+    "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+    "title_th": "เมื่อรัฐบาล Trump กดดัน Anthropic ใครได้ประโยชน์?",
+    "slug": "techcrunch-trump-anthropic-crackdown-2026-06-29",
+    "summary": "TechCrunch วิเคราะห์ว่าการที่รัฐบาล Trump สั่งระงับโมเดล Anthropic ส่งผลให้คู่แข่งอย่าง OpenAI ได้เปรียบ",
+    "summary_1": "TechCrunch เผยแพร่บทวิเคราะห์เกี่ยวกับผลกระทบจากการที่รัฐบาล Trump ออกคำสั่งควบคุมการส่งออก (export control) เพื่อระงับการเข้าถึง Fable 5 และ Mythos 5 ของ Anthropic โดยตั้งคำถามว่าใครได้รับประโยชน์จากนโยบายนี้ จากข้อมูลที่รวบรวมได้ การแบนดังกล่าวเกิดจากรายงานที่อ้างว่าโมเดล Fable 5 สามารถถูกใช้สำหรับการโจมตีทางไซเบอร์ได้ แม้ผู้เชี่ยวชาญด้านความปลอดภัยอย่าง Kate Moussouris จะชี้แจงว่าสิ่งที่โมเดลทำนั้นเป็นเพียงการซ่อมโค้ดทั่วไปในงาน defensive security นักวิเคราะห์มองว่า OpenAI ซึ่งอยู่ในกลุ่มที่รัฐบาลไว้วางใจมากกว่า อาจเป็นผู้ได้เปรียบโดยตรงจากการกดดัน Anthropic ครั้งนี้ และส่งสัญญาณถึงความเสี่ยงเชิงภูมิรัฐศาสตร์ของอุตสาหกรรม AI",
+    "body_text": "",
+    "language": "th",
+    "original_language": "en"
+  },
+  "tech_insights": {
+    "impact_summary": "Export control ต่อ Anthropic สร้าง competitive advantage ให้ผู้เล่นที่รัฐบาลสหรัฐฯ ไว้วางใจ และกำหนด geopolitical risk ใหม่สำหรับ AI industry",
+    "actions_developer": [
+      "ประเมินความเสี่ยงด้าน regulatory ในการพึ่งพา AI model ใด model หนึ่งเป็นหลัก",
+      "เตรียม fallback model strategy หากมีการระงับการเข้าถึงโมเดลใดในอนาคต"
+    ],
+    "actions_business": [
+      "ติดตามพัฒนาการ export control policy ที่อาจกระทบการใช้งาน AI ในระดับนานาชาติ",
+      "พิจารณากระจายความเสี่ยงโดยใช้โมเดลจากหลายผู้ให้บริการเพื่อความต่อเนื่อง"
+    ],
+    "urgency": "high",
+    "related_domains": [
+      "AI Policy",
+      "Export Control",
+      "Geopolitics",
+      "Cybersecurity"
+    ],
+    "breakthrough_potential": false
+  },
+  "paths": {
+    "relative": "International/TechCrunch/2026-06-29/techcrunch-trump-anthropic-crackdown-2026-06-29",
+    "batch_file": "News/Batches/2026-06-29/batch_2.json"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "article_id": "arxiv-2606-27806-gilp-reduce-hallucination-llm-agents-2026-06-30",
+  "topic_group": "ai-trends",
+  "source_info": {
+    "name": "ArXiv cs.AI",
+    "category": "Research",
+    "url": "https://arxiv.org/list/cs.AI/new"
+  },
+  "source": "https://arxiv.org/abs/2606.27806",
+  "fetch": {
+    "fetched_at": "2026-06-30T00:00:00Z",
+    "published_at": "2026-06-29T00:00:00Z",
+    "method": "web_fetch"
+  },
+  "meta": {
+    "title": "Grounded Iterative Language Planning: How Parameterized World Models Reduce Hallucination Propagation in LLM Agents",
+    "title_th": "GILP: วิธีลด Hallucination ของ LLM Agents ด้วย Parameterized World Model",
+    "author": "Xinyuan Song, Zekun Cai",
+    "tags": ["hallucination", "llm-agents", "world-model", "planning", "gpt-4o"]
+  },
+  "content": {
+    "summary_1": "การ hallucinate ของ LLM Agent เป็นปัญหาสำคัญที่ทำให้การวางแผนผิดพลาด งานวิจัยนี้แนะนำ GILP (Grounded Iterative Language Planning) วิธีการที่รวม Parameterized World Model ขนาดเล็กเข้ากับ LLM ขนาดใหญ่ โมเดลขนาดเล็กทำหน้าที่ทำนาย state transitions ที่ถูกต้องตามกฎ ขณะที่ LLM ร่างแผนงาน จากนั้น consistency gate จะตรวจสอบว่าแผนของ LLM สอดคล้องกับการทำนายของโมเดลเล็กหรือไม่ ถ้าไม่สอดคล้องจะส่งกลับให้ LLM แก้ไข ผลการทดสอบบน GPT-4o-mini แสดงให้เห็นว่า GILP ลด hallucinated-state rate จาก 0.176 เหลือเพียง 0.035 ลดลงถึง 80% ขณะที่เพิ่ม success rate จาก 0.668 เป็น 0.838 โดยใช้ API calls เพิ่มขึ้นเพียง 22% แสดงให้เห็นว่าการใช้ symbolic grounding ร่วมกับ LLM แก้ปัญหา hallucination ได้อย่างมีประสิทธิภาพสูง",
+    "key_points": [
+      "GILP ใช้ parameterized world model เล็กๆ เป็น \"ground truth checker\" ให้ LLM",
+      "Consistency gate ตรวจจับและบังคับให้ LLM แก้ไข hallucinated actions",
+      "ลด hallucinated-state rate 80%: จาก 0.176 → 0.035 บน GPT-4o-mini",
+      "เพิ่ม success rate จาก 0.668 → 0.838 โดยเพิ่ม API calls เพียง 22%"
+    ]
+  },
+  "tech_insights": {
+    "significance": "แนวทาง hybrid ที่ practical มาก — ใช้โมเดลเล็กเป็น symbolic anchor ให้ LLM ใหญ่ โดยไม่ต้องเปลี่ยนโมเดลหลัก",
+    "impact_level": "high"
+  },
+  "paths": {
+    "article_dir": "News/Articles/Research/ArXiv/2026-06-30/arxiv-2606-27806-gilp-reduce-hallucination-llm-agents/",
+    "article_md": "News/Articles/Research/ArXiv/2026-06-30/arxiv-2606-27806-gilp-reduce-hallucination-llm-agents/article.md",
+    "article_json": "News/Articles/Research/ArXiv/2026-06-30/arxiv-2606-27806-gilp-reduce-hallucination-llm-agents/article.json"
+  }
+}
