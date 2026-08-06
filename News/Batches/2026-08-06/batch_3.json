@@ -1,0 +1,697 @@
+{
+  "batch": 3,
+  "target_date": "2026-08-06",
+  "generated_at": "2026-08-06T08:00:00+07:00",
+  "total_articles": 8,
+  "articles": [
+    {
+      "article_id": "arxiv-2608-04001-test-time-scaling",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "Research",
+        "source_name": "ArXiv cs.LG",
+        "registry_key": "Research/ArXiv",
+        "domain": "AI-research",
+        "main_url": "https://arxiv.org/list/cs.LG/recent"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2608.04001",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-08-06T08:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-08-05T00:00:00+07:00",
+        "scraped_at": "2026-08-06T08:00:00+07:00",
+        "run_date": "2026-08-06",
+        "target_date": "2026-08-06",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "3",
+        "category": "AI-RESEARCH",
+        "category_label": "งานวิจัย / LLM Reasoning",
+        "news_type": "paper",
+        "tags": ["Test-Time Scaling", "LLM Reasoning", "Inference", "Benchmark", "Reproducibility"],
+        "language": "th",
+        "arxiv_id": "2608.04001",
+        "arxiv_category": "cs.LG"
+      },
+      "content": {
+        "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+        "title_th": "Test-Time Scaling ใน LLMs ที่มีความสามารถ Reasoning: Inference Regimes, Evaluation และ Reproducibility",
+        "slug": "test-time-scaling-reasoning-llms",
+        "summary": "งานวิจัยที่ศึกษาการ scale computation ในช่วง inference (Test-Time Scaling) สำหรับ LLMs ที่มีความสามารถ reasoning พร้อม evaluation และ reproducibility analysis",
+        "summary_1": "งานวิจัยชิ้นนี้ศึกษาปรากฏการณ์ Test-Time Scaling (TTS) ซึ่งหมายถึงการเพิ่ม computation ในช่วง inference เพื่อปรับปรุงความแม่นยำของ LLMs โดยเฉพาะในงาน reasoning โดยทีมนักวิจัยได้วิเคราะห์ inference regimes ต่างๆ และทำการ evaluation อย่างครอบคลุมพร้อมตรวจสอบ reproducibility ของผลลัพธ์ งานนี้มีความสำคัญเนื่องจากช่วยทำความเข้าใจว่าการเพิ่ม compute budget ในช่วง inference สามารถเพิ่มความสามารถของ LLMs ได้เพียงใด ซึ่งเป็น scaling dimension ใหม่ที่กำลังได้รับความสนใจสูงสุดในวงการ AI โดยเฉพาะหลัง OpenAI o1 และ DeepSeek R1 แสดงให้เห็นว่า thinking time สามารถแลกกับ parameter count ได้ การทำความเข้าใจ TTS อย่างถ่องแท้จะช่วยออกแบบ AI systems ที่มีประสิทธิภาพในอนาคต",
+        "body_text": "ศึกษา Test-Time Scaling ใน Reasoning LLMs วิเคราะห์ inference regimes, evaluation framework และ reproducibility ของผลลัพธ์เพื่อทำความเข้าใจ scaling dimension ใหม่นี้",
+        "language": "th",
+        "original_language": "en",
+        "authors": "Mohsen Hariri, Weicong Chen, Nahal Shahini, et al.",
+        "institution": "Case Western Reserve University"
+      },
+      "tech_insights": {
+        "impact_summary": "Test-Time Scaling เป็น key AI scaling dimension ใหม่ ที่สามารถเพิ่มความฉลาดของ LLMs โดยไม่ต้องเพิ่ม parameter แต่เพิ่ม compute ในช่วง inference แทน",
+        "actions_developer": [
+          "ทดลอง Test-Time Scaling techniques เช่น Chain-of-Thought และ Best-of-N sampling ใน AI applications เพื่อเพิ่มความแม่นยำของ reasoning tasks",
+          "วัดผล tradeoff ระหว่าง latency และ accuracy เมื่อใช้ TTS เพื่อออกแบบ inference pipeline ที่เหมาะสมกับ use case"
+        ],
+        "actions_business": [
+          "พิจารณาต้นทุน inference ที่จะเพิ่มขึ้นเมื่อใช้ Test-Time Scaling เทียบกับประโยชน์ด้านความแม่นยำที่ได้รับ",
+          "ติดตามพัฒนาการ Reasoning AI models ที่ใช้ TTS เนื่องจากอาจเหมาะสำหรับงาน decision-making ที่ต้องการความแม่นยำสูงในองค์กร"
+        ],
+        "urgency": "high",
+        "related_domains": ["LLM", "Reasoning AI", "Test-Time Compute", "Inference Optimization"],
+        "breakthrough_potential": true
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Research/ArXiv/2026-08-06/test-time-scaling-reasoning-llms",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-08-06/batch_3.json"
+      }
+    },
+    {
+      "article_id": "arxiv-2608-02569-atrumai-datacenter-ai",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "Research",
+        "source_name": "ArXiv cs.AI",
+        "registry_key": "Research/ArXiv",
+        "domain": "AI-research",
+        "main_url": "https://arxiv.org/list/cs.AI/recent"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2608.02569",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-08-06T08:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-08-04T00:00:00+07:00",
+        "scraped_at": "2026-08-06T08:00:00+07:00",
+        "run_date": "2026-08-06",
+        "target_date": "2026-08-06",
+        "within_24h": false,
+        "status": "scraped",
+        "batch": "3",
+        "category": "AI-RESEARCH",
+        "category_label": "งานวิจัย / AI Systems",
+        "news_type": "paper",
+        "tags": ["AtumAI", "Datacenter", "Control-Plane", "Agentic AI", "Infrastructure"],
+        "language": "th",
+        "arxiv_id": "2608.02569",
+        "arxiv_category": "cs.AI"
+      },
+      "content": {
+        "title": "AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies",
+        "title_th": "AtumAI: Framework สำหรับ AI Agent สร้างนโยบายควบคุม Datacenter แบบอัตโนมัติ",
+        "slug": "atumai-agentic-datacenter-control-plane",
+        "summary": "AtumAI นำเสนอ framework ใหม่สำหรับ AI agents ในการสร้างและจัดการนโยบายควบคุม control-plane ของ datacenters แบบอัตโนมัติ",
+        "summary_1": "งานวิจัย AtumAI นำเสนอ principled framework สำหรับการใช้ agentic AI ในการสร้างนโยบาย control-plane สำหรับ datacenter อัตโนมัติ ซึ่งเป็น application ที่น่าสนใจอย่างมากเนื่องจาก datacenter management มีความซับซ้อนสูงและต้องการผู้เชี่ยวชาญจำนวนมาก framework นี้มาจาก Microsoft Research โดยผู้เขียนร่วมมีทั้ง Íñigo Goiri, Ricardo Bianchini และ Aditya Akella ซึ่งล้วนเป็นผู้เชี่ยวชาญด้าน cloud systems AtumAI แก้ปัญหาการ scale การจัดการ datacenter policies โดยใช้ AI agents ที่สามารถ generate นโยบายที่ถูกต้องและ safe สำหรับ production datacenter ซึ่งเป็นงานที่มีความเสี่ยงสูงหากทำผิดพลาด งานนี้แสดงให้เห็นถึงศักยภาพของ Agentic AI ในการจัดการ infrastructure ระดับองค์กรขนาดใหญ่",
+        "body_text": "AtumAI framework ใช้ AI agents สร้าง control-plane policies สำหรับ datacenter อัตโนมัติ จาก Microsoft Research แสดงศักยภาพ Agentic AI ใน enterprise infrastructure",
+        "language": "th",
+        "original_language": "en",
+        "authors": "Qiushi Lin, Chaojie Zhang, Íñigo Goiri, Aditya Akella, Ricardo Bianchini, Jovan Stojkovic",
+        "institution": "Microsoft Research / University of Wisconsin-Madison"
+      },
+      "tech_insights": {
+        "impact_summary": "AtumAI แสดงให้เห็นว่า Agentic AI สามารถจัดการงาน infrastructure ที่ซับซ้อนและ critical ได้ เป็นก้าวสำคัญสู่ autonomous datacenter management",
+        "actions_developer": [
+          "ศึกษา AtumAI framework เพื่อดูแนวทางการออกแบบ AI agents ที่ safe สำหรับ critical infrastructure management",
+          "ติดตามการพัฒนา AIOps และ autonomous infrastructure tools เพื่อนำมาประยุกต์ใช้ลดภาระงาน DevOps ขององค์กร"
+        ],
+        "actions_business": [
+          "ประเมินโอกาสในการใช้ AI automation สำหรับ datacenter และ cloud infrastructure management เพื่อลดต้นทุน operations",
+          "ติดตาม Microsoft Azure tools ที่อาจนำ AtumAI concepts มาใช้ในผลิตภัณฑ์ commercial"
+        ],
+        "urgency": "medium",
+        "related_domains": ["Agentic AI", "Datacenter", "AIOps", "Infrastructure Automation", "Microsoft"],
+        "breakthrough_potential": true
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Research/ArXiv/2026-08-06/atumai-agentic-datacenter-control",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-08-06/batch_3.json"
+      }
+    },
+    {
+      "article_id": "arxiv-2608-02553-cognitive-capability-gaps-ai",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "Research",
+        "source_name": "ArXiv cs.AI",
+        "registry_key": "Research/ArXiv",
+        "domain": "AI-research",
+        "main_url": "https://arxiv.org/list/cs.AI/recent"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2608.02553",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-08-06T08:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-08-04T00:00:00+07:00",
+        "scraped_at": "2026-08-06T08:00:00+07:00",
+        "run_date": "2026-08-06",
+        "target_date": "2026-08-06",
+        "within_24h": false,
+        "status": "scraped",
+        "batch": "3",
+        "category": "AI-RESEARCH",
+        "category_label": "งานวิจัย / AI Capabilities",
+        "news_type": "paper",
+        "tags": ["Cognitive Gaps", "Generative AI", "Agentic AI", "Taxonomy", "AI Limitations"],
+        "language": "th",
+        "arxiv_id": "2608.02553",
+        "arxiv_category": "cs.AI"
+      },
+      "content": {
+        "title": "A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI",
+        "title_th": "อนุกรมวิธานของช่องว่างความสามารถด้านการรับรู้ใน Generative AI และ Agentic AI",
+        "slug": "taxonomy-cognitive-capability-gaps-ai",
+        "summary": "งานวิจัยที่จัดหมวดหมู่ช่องว่างความสามารถ (capability gaps) ของ Generative AI และ Agentic AI เทียบกับมนุษย์ในด้าน cognitive abilities",
+        "summary_1": "งานวิจัยนี้นำเสนอ taxonomy หรือการจัดหมวดหมู่อย่างเป็นระบบของ cognitive capability gaps ที่ยังมีอยู่ใน Generative AI และ Agentic AI ปัจจุบัน เปรียบเทียบกับความสามารถด้านการรับรู้ของมนุษย์ โดยครอบคลุม 15 หน้าและมีแผนภาพ 4 รูป งานนี้มีประโยชน์สำหรับทั้งนักวิจัยและผู้ใช้งาน AI เชิงพาณิชย์ เนื่องจากช่วยให้เข้าใจว่า AI ในปัจจุบันยังขาดความสามารถใดบ้าง และควรออกแบบระบบอย่างไรเพื่อชดเชยข้อจำกัดเหล่านี้ การมี taxonomy ที่ชัดเจนช่วยให้การพัฒนา AI ในอนาคตมีทิศทางที่เป็นระบบมากขึ้น และช่วยให้ผู้ใช้งานสามารถประเมินความเหมาะสมของ AI สำหรับงานต่างๆ ได้อย่างมีหลักการ",
+        "body_text": "Taxonomy ของ cognitive capability gaps ใน Generative AI และ Agentic AI เทียบกับมนุษย์ ช่วยให้ทั้งนักวิจัยและผู้ใช้งาน AI เข้าใจข้อจำกัดปัจจุบัน",
+        "language": "th",
+        "original_language": "en",
+        "authors": "Taye Akinrele, Sindhuja Penchala, Noorbakhsh Amiri Golilarz, Sudip Mittal, Shahram Rahimi",
+        "institution": "Mississippi State University"
+      },
+      "tech_insights": {
+        "impact_summary": "Taxonomy ของ AI cognitive gaps ช่วยให้ทีม AI เข้าใจว่า AI ยังขาดอะไร และออกแบบ human-AI collaboration ที่ชดเชยข้อจำกัดได้ดีขึ้น",
+        "actions_developer": [
+          "ศึกษา taxonomy นี้เพื่อระบุ cognitive limitations ของ AI ที่ใช้ใน product และออกแบบ fallback หรือ human-in-the-loop สำหรับกรณีที่ AI ยังอ่อนแอ",
+          "ใช้ taxonomy เป็น framework ในการประเมิน AI models สำหรับ use cases ต่างๆ ว่าเหมาะสมหรือไม่เทียบกับงานที่ต้องการ"
+        ],
+        "actions_business": [
+          "นำ taxonomy นี้มาใช้ในการตัดสินใจว่างานไหนควรให้ AI ทำและงานไหนยังต้องการมนุษย์ เพื่อออกแบบ workflow ที่มีประสิทธิภาพ",
+          "ฝึกอบรมทีมให้เข้าใจข้อจำกัดของ AI เพื่อป้องกันการ over-rely on AI ในงานที่ AI ยังไม่พร้อม"
+        ],
+        "urgency": "medium",
+        "related_domains": ["AI Capabilities", "Cognitive AI", "Agentic AI", "AI Limitations", "Human-AI Collaboration"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Research/ArXiv/2026-08-06/taxonomy-cognitive-gaps-generative-agentic-ai",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-08-06/batch_3.json"
+      }
+    },
+    {
+      "article_id": "arxiv-2608-02518-magnet-ai-misuse-detection",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "Research",
+        "source_name": "ArXiv cs.AI",
+        "registry_key": "Research/ArXiv",
+        "domain": "AI-safety",
+        "main_url": "https://arxiv.org/list/cs.AI/recent"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2608.02518",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-08-06T08:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-08-04T00:00:00+07:00",
+        "scraped_at": "2026-08-06T08:00:00+07:00",
+        "run_date": "2026-08-06",
+        "target_date": "2026-08-06",
+        "within_24h": false,
+        "status": "scraped",
+        "batch": "3",
+        "category": "AI-SAFETY",
+        "category_label": "งานวิจัย / AI Safety",
+        "news_type": "paper",
+        "tags": ["Magnet", "AI Misuse", "Detection", "Cross-Session", "Capability Accumulation"],
+        "language": "th",
+        "arxiv_id": "2608.02518",
+        "arxiv_category": "cs.AI"
+      },
+      "content": {
+        "title": "Magnet: Detecting Cross-Session AI Misuse Through Capability Accumulation",
+        "title_th": "Magnet: ตรวจจับการใช้ AI ในทางที่ผิดข้ามเซสชั่นผ่านการสะสมความสามารถ",
+        "slug": "magnet-cross-session-ai-misuse-detection",
+        "summary": "Magnet นำเสนอวิธีตรวจจับการใช้ AI ในทางที่ผิดที่ซับซ้อนโดยผู้ไม่หวังดีที่กระจายพฤติกรรมอันตรายข้ามหลาย session เพื่อหลีกเลี่ยงการตรวจจับ",
+        "summary_1": "งานวิจัย Magnet นำเสนอเทคนิคใหม่ในการตรวจจับการใช้ AI ในทางที่ผิดที่ซับซ้อน โดยเน้นปัญหา cross-session capability accumulation ซึ่งเป็นการที่ผู้ไม่หวังดีแบ่งคำขอที่เป็นอันตรายออกเป็นหลายส่วนเล็กๆ ข้ามหลาย session เพื่อหลีกเลี่ยงระบบ safety ที่มองแค่ session เดียว Magnet แก้ปัญหานี้โดยการติดตาม capability accumulation ข้าม sessions เพื่อตรวจจับว่ามีการสะสมความสามารถอันตรายหรือไม่ งานนี้มีความสำคัญอย่างยิ่งในยุคที่ AI jailbreaking และ misuse กำลังกลายเป็นปัญหาใหญ่ขึ้นเรื่อยๆ โดยเฉพาะเมื่อ AI models มีความสามารถสูงขึ้น เทคนิคนี้สามารถนำไปประยุกต์ใช้ในระบบ AI safety monitoring สำหรับ production deployments",
+        "body_text": "Magnet ตรวจจับ cross-session AI misuse ผ่านการติดตาม capability accumulation ข้าม sessions แก้ปัญหาการแบ่งคำขออันตรายเป็นชิ้นเล็กเพื่อหลีกเลี่ยง safety systems",
+        "language": "th",
+        "original_language": "en",
+        "authors": "Natalie Isak, Matthew Dressman",
+        "institution": "MIT"
+      },
+      "tech_insights": {
+        "impact_summary": "Magnet แก้ปัญหา cross-session AI misuse ที่ระบบ safety ส่วนใหญ่มองข้าม เป็นเทคนิคสำคัญสำหรับ AI safety monitoring ใน production",
+        "actions_developer": [
+          "ศึกษา Magnet techniques เพื่อนำมาประยุกต์ใช้ในการออกแบบ AI safety monitoring ที่ครอบคลุม cross-session behaviors",
+          "ออกแบบ logging และ monitoring systems ที่เก็บ context ข้าม user sessions เพื่อตรวจจับ misuse patterns ที่ซับซ้อน"
+        ],
+        "actions_business": [
+          "ทบทวน AI safety policies ขององค์กรเพื่อให้ครอบคลุม cross-session threats ที่อาจหลีกเลี่ยงการตรวจจับแบบ per-session",
+          "ลงทุนใน AI safety monitoring infrastructure ที่สามารถ track user behavior ข้ามเวลาและ sessions ได้อย่างปลอดภัยและ privacy-preserving"
+        ],
+        "urgency": "high",
+        "related_domains": ["AI Safety", "AI Misuse", "Security", "LLM Safety", "Monitoring"],
+        "breakthrough_potential": true
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Research/ArXiv/2026-08-06/magnet-cross-session-ai-misuse-detection",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-08-06/batch_3.json"
+      }
+    },
+    {
+      "article_id": "arxiv-2608-02464-realtime-llm-agent-failure-repair",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "Research",
+        "source_name": "ArXiv cs.AI",
+        "registry_key": "Research/ArXiv",
+        "domain": "AI-research",
+        "main_url": "https://arxiv.org/list/cs.AI/recent"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2608.02464",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-08-06T08:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-08-04T00:00:00+07:00",
+        "scraped_at": "2026-08-06T08:00:00+07:00",
+        "run_date": "2026-08-06",
+        "target_date": "2026-08-06",
+        "within_24h": false,
+        "status": "scraped",
+        "batch": "3",
+        "category": "AI-RESEARCH",
+        "category_label": "งานวิจัย / AI Agents",
+        "news_type": "paper",
+        "tags": ["LLM Agent", "Failure Detection", "Real-Time Repair", "Agent Trajectory", "Reliability"],
+        "language": "th",
+        "arxiv_id": "2608.02464",
+        "arxiv_category": "cs.AI"
+      },
+      "content": {
+        "title": "Real-Time Detection and Repair of LLM Agent Failures",
+        "title_th": "การตรวจจับและซ่อมแซมความล้มเหลวของ LLM Agents แบบ Real-Time",
+        "slug": "realtime-detection-repair-llm-agent-failures",
+        "summary": "งานวิจัยที่นำเสนอวิธีตรวจจับและซ่อมแซมความล้มเหลวของ LLM Agents แบบ real-time ผ่าน agent trajectory sentinel พร้อม code และ demo เปิดสาธารณะ",
+        "summary_1": "งานวิจัยนี้นำเสนอระบบ sentinel สำหรับ real-time detection และ repair ของความล้มเหลวที่เกิดขึ้นใน LLM Agents โดยใช้การ monitor agent trajectories คือลำดับการกระทำของ agent และตรวจจับเมื่อ agent กำลังจะล้มเหลวหรือไม่บรรลุเป้าหมาย จากนั้นทำการซ่อมแซมหรือ redirect agent ก่อนที่จะเสียเวลาและ resource ไปกับการทำงานที่ไม่มีประโยชน์ งานนี้มีความสำคัญสำหรับ production AI agent deployments ที่ต้องการความน่าเชื่อถือสูง โดยเฉพาะสำหรับ autonomous AI agents ที่ทำงานเป็นเวลานาน ผู้วิจัยเปิด code และ demo สาธารณะที่ GitHub และ YouTube ทำให้สามารถนำไปประยุกต์ใช้ได้ทันที",
+        "body_text": "ระบบ sentinel สำหรับ real-time detection และ repair LLM Agent failures ผ่าน trajectory monitoring พร้อม open-source code และ demo สาธารณะ",
+        "language": "th",
+        "original_language": "en",
+        "authors": "Sunny Dubey",
+        "institution": "Independent Researcher",
+        "code_url": "https://github.com/sunnydubey1111/agent-trajectory-sentinel"
+      },
+      "tech_insights": {
+        "impact_summary": "Real-time LLM Agent failure detection สำคัญมากสำหรับ production deployments ที่ต้องการ reliability และ efficiency โดยป้องกัน agent วิ่งผิดทางเสียเวลาและ compute",
+        "actions_developer": [
+          "ดาวน์โหลด code จาก GitHub ของ Agent Trajectory Sentinel มาทดลองใช้กับ LLM Agent ของตัวเองเพื่อเพิ่ม reliability",
+          "ออกแบบ monitoring layers สำหรับ production AI agents ที่ detect failure patterns และ trigger recovery mechanisms แบบ automated"
+        ],
+        "actions_business": [
+          "ประเมิน ROI ของการใช้ agent failure detection เพื่อลด wasted compute และ improve ผลลัพธ์ของ AI automation workflows",
+          "กำหนด KPIs สำหรับ AI agent reliability และ success rate เพื่อ monitor performance และ identify areas for improvement"
+        ],
+        "urgency": "high",
+        "related_domains": ["LLM Agents", "Reliability", "AI Operations", "Monitoring", "Agentic AI"],
+        "breakthrough_potential": true
+      },
+      "media_links": {
+        "github": "https://github.com/sunnydubey1111/agent-trajectory-sentinel",
+        "demo": "https://youtu.be/a05n_000klE"
+      },
+      "paths": {
+        "relative": "Research/ArXiv/2026-08-06/realtime-llm-agent-failure-repair",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-08-06/batch_3.json"
+      }
+    },
+    {
+      "article_id": "arxiv-2608-03893-kv-cache-cross-model-transfer",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "Research",
+        "source_name": "ArXiv cs.LG",
+        "registry_key": "Research/ArXiv",
+        "domain": "AI-research",
+        "main_url": "https://arxiv.org/list/cs.LG/recent"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2608.03893",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-08-06T08:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-08-05T00:00:00+07:00",
+        "scraped_at": "2026-08-06T08:00:00+07:00",
+        "run_date": "2026-08-06",
+        "target_date": "2026-08-06",
+        "within_24h": true,
+        "status": "scraped",
+        "batch": "3",
+        "category": "AI-RESEARCH",
+        "category_label": "งานวิจัย / LLM Optimization",
+        "news_type": "paper",
+        "tags": ["KV Cache", "Cross-Model Transfer", "LLM Families", "Prefill Reuse", "Inference Efficiency"],
+        "language": "th",
+        "arxiv_id": "2608.03893",
+        "arxiv_category": "cs.LG"
+      },
+      "content": {
+        "title": "Cross-Model KV Cache Transfer in LLM Families: A Closed-Form Linear Mapping for Prefill Reuse",
+        "title_th": "การ Transfer KV Cache ข้าม LLM Models ในตระกูลเดียวกัน: Linear Mapping สำหรับ Prefill Reuse",
+        "slug": "cross-model-kv-cache-transfer-llm-families",
+        "summary": "งานวิจัยที่แสดงว่า KV Cache สามารถ transfer ข้ามโมเดลในตระกูลเดียวกันได้ผ่าน closed-form linear mapping ลด prefill computation อย่างมีนัยสำคัญ",
+        "summary_1": "งานวิจัยจาก AMD Research นำเสนอวิธีการ transfer KV Cache (Key-Value Cache) ข้ามโมเดลในตระกูลเดียวกัน เช่น Llama 3.1 ไปยัง Llama 3.2 ผ่าน closed-form linear mapping ที่คำนวณได้ง่าย ซึ่งช่วยให้ KV Cache ที่คำนวณมาแล้วสามารถนำมาใช้ซ้ำได้เมื่อ upgrade หรือ switch โมเดล แทนที่จะต้องคำนวณ prefill ใหม่ทั้งหมด ซึ่งลด latency และ compute อย่างมีนัยสำคัญ โดยเฉพาะสำหรับ long-context applications ที่มี prefill ขนาดใหญ่ งานนี้มาจาก AMD (Bita Darvish Rouhani) ซึ่งเป็นสัญญาณว่า AMD กำลังลงทุนอย่างหนักใน AI inference optimization เพื่อแข่งขันกับ NVIDIA การ transfer KV cache ข้ามโมเดลอาจเป็น technique สำคัญสำหรับ serving LLMs ที่ efficient",
+        "body_text": "Transfer KV Cache ข้าม LLM families ผ่าน closed-form linear mapping ลด prefill computation เมื่อ upgrade/switch models งานจาก AMD Research แสดงแนวทางใหม่สำหรับ efficient LLM inference",
+        "language": "th",
+        "original_language": "en",
+        "authors": "Taekyung Heo, Rasoul Shafipour, Ritchie Zhao, Maximilian Golub, et al.",
+        "institution": "AMD Research"
+      },
+      "tech_insights": {
+        "impact_summary": "Cross-model KV Cache transfer ลด latency และ compute อย่างมีนัยสำคัญเมื่อ upgrade LLM models เป็น technique ที่อาจเปลี่ยนแปลงวิธีการ deploy LLM อย่างมาก",
+        "actions_developer": [
+          "ศึกษาวิธีการ KV Cache transfer จาก paper นี้เพื่อนำไปใช้ในระบบ LLM serving ที่ต้องการ low latency โดยเฉพาะ long-context applications",
+          "ทดสอบ cross-model KV cache transfer กับ LLM families ที่ใช้ใน production เพื่อวัด latency reduction ที่เกิดขึ้นจริง"
+        ],
+        "actions_business": [
+          "ประเมินว่า KV cache transfer จะช่วยลดค่าใช้จ่าย AI inference ได้เท่าไรเมื่อ upgrade LLM versions โดยไม่ต้อง recompute prefill ทั้งหมด",
+          "ติดตาม AMD AI acceleration technologies เพื่อประเมินว่า AMD GPUs กำลังกลายเป็น viable alternative กับ NVIDIA สำหรับ LLM inference หรือไม่"
+        ],
+        "urgency": "medium",
+        "related_domains": ["KV Cache", "LLM Inference", "AMD", "Inference Optimization", "CUDA"],
+        "breakthrough_potential": true
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Research/ArXiv/2026-08-06/cross-model-kv-cache-transfer",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-08-06/batch_3.json"
+      }
+    },
+    {
+      "article_id": "arxiv-2608-02441-agentic-commerce-vibe",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "Research",
+        "source_name": "ArXiv cs.AI",
+        "registry_key": "Research/ArXiv",
+        "domain": "AI-research",
+        "main_url": "https://arxiv.org/list/cs.AI/recent"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2608.02441",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-08-06T08:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-08-04T00:00:00+07:00",
+        "scraped_at": "2026-08-06T08:00:00+07:00",
+        "run_date": "2026-08-06",
+        "target_date": "2026-08-06",
+        "within_24h": false,
+        "status": "scraped",
+        "batch": "3",
+        "category": "AI-RESEARCH",
+        "category_label": "งานวิจัย / Agentic AI Commerce",
+        "news_type": "paper",
+        "tags": ["Agentic Commerce", "Vibe Commerce", "E-commerce", "AI Agents", "Evaluation"],
+        "language": "th",
+        "arxiv_id": "2608.02441",
+        "arxiv_category": "cs.AI"
+      },
+      "content": {
+        "title": "Agentic Commerce World: An Auditable and Verifiable Environment for Vibe Commerce",
+        "title_th": "Agentic Commerce World: สภาพแวดล้อมสำหรับ Vibe Commerce ที่ตรวจสอบและยืนยันได้",
+        "slug": "agentic-commerce-world-vibe-commerce",
+        "summary": "งานวิจัยที่สร้าง benchmark environment สำหรับ Vibe Commerce ซึ่งเป็น AI-driven e-commerce ที่ AI agents ซื้อขายสินค้าในนามของผู้ใช้",
+        "summary_1": "งานวิจัยนี้นำเสนอ Agentic Commerce World ซึ่งเป็น auditable และ verifiable environment สำหรับการศึกษา Vibe Commerce ซึ่งเป็นแนวคิดที่ AI agents ทำหน้าที่เป็น personal shopping assistants ที่สามารถซื้อสินค้า ต่อราคา และจัดการ transactions ในนามของผู้ใช้โดยอัตโนมัติ งานนี้มี authors จาก 7 สถาบันชั้นนำรวมถึง Northwestern University, University of Illinois และ Amazon ซึ่งแสดงให้เห็นถึงความสนใจจากทั้งวงการ academia และ industry ต่อ agentic commerce การพัฒนา environment ที่ auditable และ verifiable เป็นสิ่งสำคัญเพื่อให้มั่นใจว่า AI agents ทำงานถูกต้องและโปร่งใสในการทำธุรกรรมทางการเงิน",
+        "body_text": "Agentic Commerce World สร้าง benchmark สำหรับ Vibe Commerce ที่ AI agents ซื้อขายแทนผู้ใช้ environment ที่ auditable และ verifiable สำหรับ evaluate AI shopping agents",
+        "language": "th",
+        "original_language": "en",
+        "authors": "Shicheng Fan, Mingdai Yang, Duohao Wang, Canyu Chen, et al.",
+        "institution": "Northwestern University / University of Illinois / Amazon"
+      },
+      "tech_insights": {
+        "impact_summary": "Vibe Commerce และ Agentic Shopping เป็นแนวโน้ม E-commerce ครั้งต่อไป ที่ AI agents จะซื้อสินค้าแทนมนุษย์ ซึ่งอาจ disrupt retail และ e-commerce อย่างมาก",
+        "actions_developer": [
+          "ศึกษา Agentic Commerce World environment เพื่อทดสอบ AI shopping agents และพัฒนา agentic e-commerce features สำหรับ products",
+          "เตรียม APIs และ integration points สำหรับ AI shopping agents ที่กำลังจะเป็น mainstream ใน e-commerce ในอนาคต"
+        ],
+        "actions_business": [
+          "ประเมินผลกระทบของ AI shopping agents ต่อ e-commerce business ของตัวเอง ทั้งด้านโอกาสและความเสี่ยง",
+          "เตรียมกลยุทธ์การรับมือกับ AI agents เป็นลูกค้า รวมถึงการออกแบบ product listings และ pricing ที่เหมาะสมกับ AI decision-making"
+        ],
+        "urgency": "medium",
+        "related_domains": ["E-commerce", "Agentic AI", "Shopping AI", "Vibe Commerce", "Amazon"],
+        "breakthrough_potential": true
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Research/ArXiv/2026-08-06/agentic-commerce-world-vibe-commerce",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-08-06/batch_3.json"
+      }
+    },
+    {
+      "article_id": "arxiv-2608-02228-trustworthy-ai-digital-health",
+      "schema_version": "2.0",
+      "topic_group": "ai-trends",
+      "source_info": {
+        "category": "Research",
+        "source_name": "ArXiv cs.AI",
+        "registry_key": "Research/ArXiv",
+        "domain": "AI-research",
+        "main_url": "https://arxiv.org/list/cs.AI/recent"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2608.02238",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-08-06T08:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-08-04T00:00:00+07:00",
+        "scraped_at": "2026-08-06T08:00:00+07:00",
+        "run_date": "2026-08-06",
+        "target_date": "2026-08-06",
+        "within_24h": false,
+        "status": "scraped",
+        "batch": "3",
+        "category": "AI-RESEARCH",
+        "category_label": "งานวิจัย / AI สุขภาพ",
+        "news_type": "paper",
+        "tags": ["Trustworthy AI", "Digital Health", "Robustness", "Explainability", "Healthcare AI"],
+        "language": "th",
+        "arxiv_id": "2608.02238",
+        "arxiv_category": "cs.AI",
+        "journal": "Progress in Biomedical Engineering, Volume 8, Number 2, 2026"
+      },
+      "content": {
+        "title": "Trustworthy AI in Digital Health: A Comprehensive Review of Robustness and Explainability",
+        "title_th": "Trustworthy AI ในสาธารณสุขดิจิทัล: การทบทวนครอบคลุมด้าน Robustness และ Explainability",
+        "slug": "trustworthy-ai-digital-health-robustness-explainability",
+        "summary": "บทวิจารณ์ครอบคลุมเกี่ยวกับ Trustworthy AI ในการดูแลสุขภาพดิจิทัล เน้น Robustness และ Explainability ที่สำคัญสำหรับ clinical applications",
+        "summary_1": "บทความทบทวนที่ตีพิมพ์ใน Progress in Biomedical Engineering ครอบคลุมหลักการ Trustworthy AI ในบริบทของ digital health โดยเน้นสองมิติสำคัญคือ Robustness (ความทนทานต่อ noise, adversarial attacks และ distribution shifts) และ Explainability (ความสามารถอธิบายการตัดสินใจของ AI ให้แพทย์และผู้ป่วยเข้าใจ) งานนี้มีความสำคัญอย่างยิ่งในบริบทปัจจุบันที่ AI กำลังถูกนำมาใช้ในการวินิจฉัยโรคและแนะนำการรักษา ซึ่งต้องการความน่าเชื่อถือสูงสุด โดยเฉพาะในประเทศไทยที่ระบบสาธารณสุขกำลังเปลี่ยนผ่านสู่ digital health การมี trustworthy AI framework จะช่วยให้การ adopt AI ใน healthcare ปลอดภัยและมีประสิทธิภาพมากขึ้น",
+        "body_text": "บทวิจารณ์ Trustworthy AI ใน Digital Health เน้น Robustness และ Explainability สำคัญสำหรับ clinical AI applications ตีพิมพ์ใน Progress in Biomedical Engineering 2026",
+        "language": "th",
+        "original_language": "en",
+        "authors": "Abdullah Mamun, Shovito Barua Soumma, Hassan Ghasemzadeh",
+        "institution": "Washington State University"
+      },
+      "tech_insights": {
+        "impact_summary": "Trustworthy AI ใน healthcare ต้องมีทั้ง Robustness และ Explainability บทวิจารณ์นี้เป็น reference สำคัญสำหรับทีม AI ที่กำลังพัฒนา health AI applications",
+        "actions_developer": [
+          "นำ framework จาก paper นี้ไปใช้ evaluate AI models สำหรับ healthcare use cases โดยเฉพาะด้าน robustness testing และ explainability",
+          "ใช้ SHAP, LIME และ attention visualization techniques เพื่อเพิ่ม explainability ของ AI models ทาง medical ก่อน deployment จริง"
+        ],
+        "actions_business": [
+          "ศึกษา Trustworthy AI requirements สำหรับ healthcare sector เพื่อวางแผนการพัฒนา AI ที่สอดคล้องกับกฎระเบียบทางการแพทย์",
+          "ลงทุนใน explainable AI (XAI) สำหรับ health AI products เพื่อสร้างความเชื่อมั่นจากแพทย์และผู้ป่วย ซึ่งจะช่วยเพิ่ม adoption rate"
+        ],
+        "urgency": "medium",
+        "related_domains": ["Healthcare AI", "Explainable AI", "Digital Health", "AI Ethics", "Clinical AI"],
+        "breakthrough_potential": false
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Research/ArXiv/2026-08-06/trustworthy-ai-digital-health",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-08-06/batch_3.json"
+      }
+    },
+    {
+      "article_id": "arxiv-2608-02291-adaptive-routing-multi-agent",
+      "schema_version": "2.0",
+      "topic_group": "tech-trends",
+      "source_info": {
+        "category": "Research",
+        "source_name": "ArXiv cs.AI",
+        "registry_key": "Research/ArXiv",
+        "domain": "AI-research",
+        "main_url": "https://arxiv.org/list/cs.AI/recent"
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2608.02291",
+        "type": "direct",
+        "origin": "direct",
+        "source_match_confidence": "high",
+        "fetch_priority_used": "1_direct"
+      },
+      "fetch": {
+        "status": "pass",
+        "http_status": 200,
+        "fetched_at": "2026-08-06T08:00:00+07:00",
+        "fetch_mode": "listing",
+        "retries": 0,
+        "fail_reason": null
+      },
+      "meta": {
+        "published_at": "2026-08-04T00:00:00+07:00",
+        "scraped_at": "2026-08-06T08:00:00+07:00",
+        "run_date": "2026-08-06",
+        "target_date": "2026-08-06",
+        "within_24h": false,
+        "status": "scraped",
+        "batch": "3",
+        "category": "AI-RESEARCH",
+        "category_label": "งานวิจัย / Multi-Agent AI",
+        "news_type": "paper",
+        "tags": ["Adaptive Routing", "Multi-Agent Reasoning", "Shared Prefixes", "Credit Assignment", "LLM"],
+        "language": "th",
+        "arxiv_id": "2608.02291",
+        "arxiv_category": "cs.AI"
+      },
+      "content": {
+        "title": "Shared Prefixes, Better Credit: Adaptive Routing for Multi-Agent Reasoning",
+        "title_th": "Shared Prefixes, Better Credit: Adaptive Routing สำหรับ Multi-Agent Reasoning",
+        "slug": "adaptive-routing-multi-agent-reasoning-shared-prefix",
+        "summary": "เทคนิค adaptive routing ใหม่สำหรับ multi-agent reasoning ที่ใช้ shared prefixes เพื่อ credit assignment ที่ดีขึ้นใน multi-agent LLM systems",
+        "summary_1": "งานวิจัยนี้นำเสนอเทคนิค adaptive routing สำหรับ multi-agent reasoning systems ที่มีปัญหา credit assignment ว่า agent ใดมีส่วนในการแก้ปัญหา วิธีการคือการใช้ shared prefixes ระหว่าง agents เพื่อทำ better credit assignment ซึ่งช่วยให้ multi-agent systems สามารถ collaborate ได้อย่างมีประสิทธิภาพมากขึ้น งานนี้มีความเกี่ยวข้องโดยตรงกับการพัฒนา multi-agent AI frameworks ที่กำลังได้รับความนิยมสูง เช่น AutoGen, CrewAI และ LangGraph การแก้ปัญหา credit assignment ใน multi-agent systems ถือเป็น fundamental challenge ที่ยังไม่มีทางออกที่ดีพอ งานนี้อาจช่วยให้ multi-agent systems ทำงานได้อย่างมีประสิทธิภาพมากขึ้นในอนาคต",
+        "body_text": "Adaptive routing ด้วย shared prefixes สำหรับ multi-agent reasoning แก้ปัญหา credit assignment ใน multi-agent LLM systems เพื่อ collaboration ที่มีประสิทธิภาพมากขึ้น",
+        "language": "th",
+        "original_language": "en",
+        "authors": "Yiqing Liu, Zihao Wang, Hantao Yao, Wu Liu, Yongdong Zhang",
+        "institution": "Chinese Academy of Sciences / University of Science and Technology of China"
+      },
+      "tech_insights": {
+        "impact_summary": "Adaptive routing ใน multi-agent systems แก้ปัญหา credit assignment ที่เป็น bottleneck สำคัญในการสร้าง effective multi-agent AI teams",
+        "actions_developer": [
+          "ศึกษา adaptive routing techniques เพื่อนำไปใช้ในการออกแบบ multi-agent systems ที่มี collaboration ที่ดีขึ้นสำหรับ complex tasks",
+          "ทดสอบ multi-agent frameworks เช่น AutoGen หรือ CrewAI พร้อมศึกษาวิธีปรับปรุง credit assignment เพื่อ optimize agent performance"
+        ],
+        "actions_business": [
+          "ประเมิน multi-agent AI สำหรับ complex business workflows ที่ต้องการ parallel processing และ specialization ของ agents",
+          "ติดตามพัฒนาการของ multi-agent AI frameworks เพื่อวางแผนนำ AI มาใช้ใน operations ที่ซับซ้อนขึ้นในองค์กร"
+        ],
+        "urgency": "medium",
+        "related_domains": ["Multi-Agent AI", "LLM", "AutoGen", "Routing", "Reinforcement Learning"],
+        "breakthrough_potential": true
+      },
+      "media_links": {},
+      "paths": {
+        "relative": "Research/ArXiv/2026-08-06/adaptive-routing-multi-agent-reasoning",
+        "article_md": "article.md",
+        "article_json": "article.json",
+        "batch_file": "News/Batches/2026-08-06/batch_3.json"
+      }
+    }
+  ]
+}
