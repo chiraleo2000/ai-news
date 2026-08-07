@@ -1,0 +1,259 @@
+{
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T06:00:00+07:00",
+  "schema_version": "2.0",
+  "stats": {
+    "total": 5,
+    "by_topic": {
+      "ai_trends": 5,
+      "tech_trends": 0,
+      "thailand": 0,
+      "global": 0
+    },
+    "by_source_category": {
+      "thai": 0,
+      "international": 0,
+      "research": 5,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 3,
+      "medium": 2,
+      "low": 0
+    },
+    "breakthrough_count": 5
+  },
+  "top_insights": [
+    {
+      "title": "Green SARC: Zero-Breach Budget Governance for Agentic AI",
+      "impact_summary": "First architectural framework proving 0% budget breach rate for agentic AI cost/carbon governance vs 91.5% for soft penalties; 47-55% token savings on 3,000 real plans",
+      "urgency": "high",
+      "related_domains": [
+        "Agentic AI",
+        "FinOps",
+        "AI Governance",
+        "Sustainability"
+      ],
+      "article_id": "green-sarc-agentic-ai-cost-carbon-governance-arxiv-ai-2026-06-23"
+    },
+    {
+      "title": "SkillVetBench: LLM Security Vetting Catches What Static Scanners Miss 100%",
+      "impact_summary": "Zero false negatives on 78 malicious agent skills; static scanners miss 89-100% of prompt injection and memory poisoning threats in open-source LLM agent ecosystems",
+      "urgency": "high",
+      "related_domains": [
+        "AI Security",
+        "LLM Agents",
+        "Prompt Injection"
+      ],
+      "article_id": "skillvetbench-llm-judge-security-risk-agent-skills-arxiv-ai-2026-06-23"
+    },
+    {
+      "title": "ForgetEval: Mutation-Time LLM Hooks Essential for Production Agent Memory",
+      "impact_summary": "13-config architectural study shows control-plane placement determines which forgetting failures can be recovered; mutation-time hooks achieve 91.7% accuracy at $0.17/385 cases",
+      "urgency": "high",
+      "related_domains": [
+        "LLM Agents",
+        "Agent Memory",
+        "AI Infrastructure"
+      ],
+      "article_id": "forgeteval-agent-memory-control-plane-placement-arxiv-ml-2026-06-23"
+    }
+  ],
+  "posts": [
+    {
+      "id": "deeproot-kg-multi-agent-therapeutic-reasoning-arxiv-ai-2026-06-23",
+      "slug": "deeproot-kg-multi-agent-therapeutic-reasoning",
+      "title": "DeepRoot: A KG-Coordinated Multi-Agent System for Therapeutic Reasoning over Historical Medical Texts",
+      "topic": "Multi-Agent AI & Drug Discovery",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.AI",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "DeepRoot คือระบบ multi-agent LLM จาก ICML 2026 ที่ผสาน Knowledge Graph กับการ reasoning เพื่อขุดค้นข้อมูล drug discovery จากตำราแพทย์โบราณ โดยลด hallucination จาก 87% เหลือเพียง 7-10% เมื่อทดสอบกับคัมภีร์ Shen Nong Ben Cao Jing ระบบสามารถค้นพบ compound-disease pairs ได้ 10 จาก 21 คู่ที่ R@20 (47.6%) เทียบกับ 4.8% ของ raw corpus LLM ทั่วไป แนวคิดหลักคือการแยก grounding axis กับ reasoning axis ออกจากกัน ซึ่งทำให้ระบบ KG+LLM ชนะทั้งสองมิติพร้อมกัน ในขณะที่ Graph-only inference ไม่ hallucinate แต่กลับ rank ต่ำสุดด้าน reasoning coherence งานนี้ตีพิมพ์ทั้งใน ICML 2026 GenBio Workshop และ ACM CAIS 2026 ซึ่งสะท้อนความสนใจสูงจากชุมชน biomedical AI และ multi-agent systems ถือเป็นก้าวสำคัญในการนำ AI มาต่อยอดความรู้ทางการแพทย์แบบดั้งเดิมที่ยังไม่เคยถูกใช้ในระบบ AI สมัยใหม่มาก่อน",
+      "source_url": "https://arxiv.org/abs/2606.15931",
+      "tech_impact": "KG-grounded multi-agent ลด hallucination 10x ในงาน drug discovery จากข้อความประวัติศาสตร์",
+      "tags": [
+        "Multi-agent AI",
+        "Knowledge Graphs",
+        "Drug Discovery",
+        "Medical AI",
+        "Hallucination"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-06-14T00:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Multi-agent AI",
+        "Knowledge Graphs",
+        "Drug Discovery",
+        "Medical AI"
+      ],
+      "actions_developer": [
+        "Apply KG-coordinated multi-agent pattern to other knowledge-intensive domains (legal, patents, standards)",
+        "Use grounding/reasoning axis separation as design principle to reduce hallucination in production agents"
+      ],
+      "actions_business": [
+        "Evaluate for pharma R&D pipelines needing to extract leads from legacy documents",
+        "Track ICML 2026 GenBio track for follow-on work and partnership opportunities"
+      ],
+      "youtube_channel": null,
+      "youtube_video": null
+    },
+    {
+      "id": "green-sarc-agentic-ai-cost-carbon-governance-arxiv-ai-2026-06-23",
+      "slug": "green-sarc-agentic-ai-cost-carbon-governance",
+      "title": "Green SARC: Predictive Cost and Carbon Governance for Agentic AI Systems",
+      "topic": "Agentic AI Governance & Sustainability",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.AI",
+      "category": "Research",
+      "urgency": "high",
+      "content": "Green SARC นำเสนอ framework ระดับ architecture สำหรับ governance ที่บังคับใช้งบประมาณทั้ง financial และ carbon ภายใน agentic AI loop ก่อนที่จะ execute จริง โดยพบว่าต้นทุนของ agentic loop เติบโตแบบ quadratic (Θ(n²)) ตามความลึก ซึ่งเรียกว่า State Snowball effect การใช้ hard architectural gate สามารถทำให้ budget breach เป็น 0% เทียบกับ 91.5% ของ soft Lagrangian penalty พร้อมประหยัด token/USD/carbon ได้ 47-55% โดยรวม ทดสอบกับ 3,000 multi-step plans จริง SARC มี 4 enforcement sites ที่ฝังตรงใน agent loop สำหรับทั้ง FinOps และ GreenOps library เป็น open-source ไม่มี dependency และมี reproducibility scripts ครบ ถือเป็นครั้งแรกที่มี architectural governance framework ที่พิสูจน์ได้ว่าไม่มี breach เลย เหมาะกับองค์กรที่กำลังเผชิญกับกฎระเบียบรายงาน carbon ของ AI ที่กำลังจะมาถึง",
+      "source_url": "https://arxiv.org/abs/2606.15954",
+      "tech_impact": "First provably zero-breach architectural governance framework for agentic AI cost and carbon budgets",
+      "tags": [
+        "Agentic AI",
+        "FinOps",
+        "Sustainability",
+        "AI Governance",
+        "LLM"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-06-14T00:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Agentic AI",
+        "FinOps",
+        "Sustainability",
+        "AI Governance"
+      ],
+      "actions_developer": [
+        "Integrate SARC gate as middleware in LangGraph/AutoGen orchestration frameworks",
+        "Replace soft Lagrangian penalties with hard architectural gates for cost-critical deployments"
+      ],
+      "actions_business": [
+        "Adopt Green SARC for compliance with emerging AI carbon reporting regulations",
+        "Use for FinOps enforcement in production agentic systems to cap runaway API costs"
+      ],
+      "youtube_channel": null,
+      "youtube_video": null
+    },
+    {
+      "id": "mage-rag-multigranular-adaptive-graph-evidence-arxiv-ai-2026-06-23",
+      "slug": "mage-rag-multigranular-adaptive-graph-evidence",
+      "title": "MAGE-RAG: Multigranular Adaptive Graph Evidence for Agentic Multimodal RAG in Long-Document QA",
+      "topic": "Multimodal RAG & Document Intelligence",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.AI",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "MAGE-RAG แนะนำ framework RAG แบบ graph-based agentic ที่สร้าง evidence subgraph แบบ adaptive ข้ามหลาย granularity สำหรับ long multimodal documents โดยบรรลุ 52.75% accuracy บน LongDocURL และ 53.26% บน MMLongBench-Doc ซึ่งเหนือกว่าทุก baseline ระบบสร้าง offline evidence graph จาก page และ element nodes ที่เข้ารหัส containment, reading order, layout adjacency, section hierarchy และ semantic neighbor relations จากนั้นใช้ online evidence controller ที่วน iterate activate-search-prune ภายใต้ explicit budget แนวทางนี้แก้ปัญหาหลักของ long-document QA ที่ต้อง integrate หลักฐานจาก text, tables, images, charts และ complex layouts ที่กระจายตัวทั่วเอกสาร PDF ยาวๆ เหมาะอย่างยิ่งสำหรับ enterprise document workflows เช่น legal, financial และ medical PDFs ที่ต้องการความแม่นยำสูง",
+      "source_url": "https://arxiv.org/abs/2606.15906",
+      "tech_impact": "Graph-based agentic RAG กำหนด benchmark ใหม่สำหรับการเข้าใจ long multimodal documents",
+      "tags": [
+        "RAG",
+        "Multimodal AI",
+        "LLM",
+        "Document Intelligence",
+        "Knowledge Graphs"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-06-14T00:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "RAG",
+        "Multimodal AI",
+        "Document Intelligence",
+        "Knowledge Graphs"
+      ],
+      "actions_developer": [
+        "Replace static Top-k RAG with graph-based evidence subgraph construction for document QA",
+        "Use offline graph pre-build + online query-time pruning for cost-effective multimodal retrieval"
+      ],
+      "actions_business": [
+        "Evaluate for insurance, legal, and research document Q&A requiring high accuracy",
+        "Benchmark against current PDF-RAG solutions to measure accuracy improvement potential"
+      ],
+      "youtube_channel": null,
+      "youtube_video": null
+    },
+    {
+      "id": "skillvetbench-llm-judge-security-risk-agent-skills-arxiv-ai-2026-06-23",
+      "slug": "skillvetbench-llm-judge-security-risk-agent-skills",
+      "title": "SkillVetBench: LLM-as-Judge for Multi-Dimensional Security Risk Evaluation in Open-Source LLM Agent Skills",
+      "topic": "AI Security & Agent Risk",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.AI",
+      "category": "Research",
+      "urgency": "high",
+      "content": "SkillVetBench แนะนำ SARS (Skill Agentic Risk Score) เมตริกความปลอดภัย 5 มิติโดยใช้ LLM-as-Judge ซึ่งบรรลุ zero false negatives กับ 78 agent skills ที่ยืนยันว่าเป็นอันตราย และ zero false positives กับ 22 skills ที่ปลอดภัย ในขณะที่ static code scanners ทั่วไปพลาดสูงสุด 100% สำหรับ instruction-layer threats สำหรับ memory poisoning attacks เครื่องมือทั่วไปตรวจพบ 0 จาก 9 กรณีเลย ระบบใช้ CVSS v4.0 เป็นฐานและมี leaderboard สาธารณะบน Hugging Face อัตราการตรวจพบของ LLM evaluators อยู่ที่ 35-95% ตามแต่ละรุ่น จึงแนะนำให้ใช้ ensemble scoring ปัญหานี้สำคัญมากเพราะ ecosystem ของ open-source LLM agent skills กำลังขยายตัวอย่างรวดเร็วโดยที่ส่วนใหญ่ยังไม่ผ่านการตรวจสอบด้านความปลอดภัยด้านใดเลย โดยเฉพาะ prompt injection และ memory poisoning",
+      "source_url": "https://arxiv.org/abs/2606.15899",
+      "tech_impact": "LLM-as-Judge eliminates false negatives that plague all static code-layer security scanners for agent skills",
+      "tags": [
+        "AI Security",
+        "LLM Agents",
+        "Prompt Injection",
+        "AI Safety",
+        "Open Source"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-06-14T00:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI Security",
+        "LLM Agents",
+        "Prompt Injection",
+        "AI Safety"
+      ],
+      "actions_developer": [
+        "Integrate SkillVetBench evaluation before publishing agent skills to open-source marketplaces",
+        "Use SARS score as mandatory security gate in CI/CD pipelines for agentic AI applications"
+      ],
+      "actions_business": [
+        "Audit all deployed open-source LLM agent skills against SARS criteria immediately",
+        "Establish mandatory security vetting policy for any third-party agent skills before production use"
+      ],
+      "youtube_channel": null,
+      "youtube_video": null
+    },
+    {
+      "id": "forgeteval-agent-memory-control-plane-placement-arxiv-ml-2026-06-23",
+      "slug": "forgeteval-agent-memory-control-plane-placement",
+      "title": "Control-Plane Placement Shapes Forgetting: An Architectural Study of Agent Memory Across Thirteen System Configurations",
+      "topic": "Agent Memory Architecture",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv cs.LG",
+      "category": "Research",
+      "urgency": "high",
+      "content": "ForgetEval เผยให้เห็นว่าตำแหน่งของ LLM ใน agent memory pipeline กำหนดว่า forgetting failure modes ใดที่สามารถ recover ได้ โดยเปรียบเทียบ 13 system configurations บน 385 adversarial test cases พบว่า mutation-time hooks ทำได้ 91.7-93.2% overall accuracy ในขณะที่ deterministic-only approaches ทำได้เกือบ 0% สำหรับ canonicalization และ intent-aware deletion การจัดวาง LLM ที่ inscribe-time บรรลุ 100% canonicalization แต่ช่วยไม่ได้เลยสำหรับ intent-aware deletion ในขณะที่ mutation-time hook แก้ได้ 78-85% สำหรับ intent-aware deletion ด้วยต้นทุนเพียง $0.17 ต่อ 385 cases insight หลักคือ production agent failures ส่วนใหญ่เป็น forgetting failures แต่ benchmark ที่มีอยู่วัดแค่ recall เท่านั้น ForgetEval (1000-case templated + 385 adversarial) เผยแพร่ภายใต้ MIT license",
+      "source_url": "https://arxiv.org/abs/2606.15903",
+      "tech_impact": "First systematic study separating recall vs. control-plane benchmarking for agent memory systems",
+      "tags": [
+        "LLM Agents",
+        "Agent Memory",
+        "AI Infrastructure",
+        "Benchmarks",
+        "Agentic AI"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-06-16T00:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "LLM Agents",
+        "Agent Memory",
+        "AI Infrastructure",
+        "Benchmarks"
+      ],
+      "actions_developer": [
+        "Add mutation-time LLM hook to agent memory pipelines to handle intent-aware deletion edge cases",
+        "Use ForgetEval benchmark suite to audit existing memory implementations before production deployment"
+      ],
+      "actions_business": [
+        "Prioritize agent memory control-plane design in product roadmaps",
+        "Evaluate if current agentic products have adequate memory supersede/purge policies"
+      ],
+      "youtube_channel": null,
+      "youtube_video": null
+    }
+  ]
+}

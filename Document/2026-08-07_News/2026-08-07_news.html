@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⚡ AI NEWS DAILY — 2026-08-07</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-primary: #f0f2f8;
+  --bg-card: #ffffff;
+  --bg-header: #1a1a2e;
+  --neon-cyan: #00d4ff;
+  --neon-magenta: #ff00ff;
+  --neon-green: #00ff88;
+  --neon-purple: #a855f7;
+  --neon-orange: #ff6b35;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4a6a;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Rajdhani', 'Sarabun', sans-serif; background: var(--bg-primary); color: var(--text-primary); line-height: 1.6; }
+header { background: var(--bg-header); color: #fff; padding: 28px 40px; }
+header h1 { font-family: 'Orbitron', monospace; font-size: 2em; font-weight: 900; color: var(--neon-cyan); text-shadow: 0 0 20px rgba(0,212,255,0.5); }
+header .subtitle { color: #aac; font-family: 'Share Tech Mono', monospace; margin-top: 6px; font-size: 0.95em; }
+.stats-bar { display: flex; gap: 20px; flex-wrap: wrap; padding: 16px 40px; background: #1a1a2e; border-top: 1px solid #2a2a4e; }
+.stat-item { background: #252545; border-radius: 8px; padding: 10px 18px; text-align: center; min-width: 110px; }
+.stat-num { font-family: 'Orbitron', monospace; font-size: 1.6em; font-weight: 700; }
+.stat-label { font-size: 0.75em; color: #88aacc; font-family: 'Share Tech Mono', monospace; text-transform: uppercase; }
+.stat-item.cyan .stat-num { color: var(--neon-cyan); }
+.stat-item.purple .stat-num { color: var(--neon-purple); }
+.stat-item.orange .stat-num { color: var(--neon-orange); }
+.stat-item.green .stat-num { color: var(--neon-green); }
+.stat-item.white .stat-num { color: #fff; }
+.top-insights { background: #fff; border-left: 5px solid var(--neon-cyan); margin: 24px 40px 0; padding: 20px 24px; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.top-insights h2 { font-family: 'Orbitron', monospace; font-size: 1em; color: var(--bg-header); margin-bottom: 14px; }
+.insight-item { padding: 10px 0; border-bottom: 1px solid #eee; }
+.insight-item:last-child { border-bottom: none; }
+.insight-urgency { font-family: 'Share Tech Mono', monospace; font-size: 0.8em; margin-right: 8px; }
+main { max-width: 1100px; margin: 0 auto; padding: 20px 40px 40px; }
+.topic-section { margin-bottom: 40px; }
+.section-title { font-family: 'Orbitron', monospace; font-size: 1.1em; color: var(--bg-header); margin-bottom: 16px; }
+.section-title .count { font-size: 0.75em; color: #888; font-family: 'Share Tech Mono', monospace; }
+.article-card { background: #fff; border-radius: 6px; padding: 20px 24px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); transition: box-shadow 0.2s; }
+.article-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.12); }
+.topic-ai-trends { border-left: 4px solid var(--neon-cyan); }
+.topic-tech-trends { border-left: 4px solid var(--neon-purple); }
+.topic-thailand { border-left: 4px solid var(--neon-orange); }
+.topic-global { border-left: 4px solid var(--neon-green); }
+.card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 8px; }
+.source-label { font-family: 'Share Tech Mono', monospace; font-size: 0.8em; color: #888; }
+.article-title { font-size: 1.05em; font-weight: 600; margin-bottom: 10px; line-height: 1.4; }
+.article-title a { color: var(--bg-header); text-decoration: none; }
+.article-title a:hover { color: #0066cc; text-decoration: underline; }
+.article-content { font-size: 0.95em; color: #333; margin-bottom: 10px; line-height: 1.7; }
+.tags { margin-bottom: 12px; }
+.tag { display: inline-block; background: #f0f2f8; border: 1px solid #dde; border-radius: 4px; padding: 2px 8px; font-size: 0.75em; margin-right: 6px; margin-bottom: 4px; font-family: 'Share Tech Mono', monospace; color: #556; }
+.insights { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; background: #f8f9fc; border-radius: 4px; padding: 14px 16px; margin-top: 12px; font-size: 0.88em; }
+.insight-col ul { margin-top: 6px; padding-left: 18px; }
+.insight-col li { margin-bottom: 4px; color: #444; }
+.insight-col strong { color: var(--bg-header); }
+footer { background: var(--bg-header); color: #778; text-align: center; padding: 20px; font-family: 'Share Tech Mono', monospace; font-size: 0.8em; }
+@media (max-width: 600px) {
+  header, .stats-bar, main { padding-left: 16px; padding-right: 16px; }
+  .top-insights { margin: 16px; }
+  .insights { grid-template-columns: 1fr; }
+  .stats-bar { gap: 10px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>⚡ AI NEWS DAILY</h1>
+  <div class="subtitle">📅 2026-08-07 &nbsp;|&nbsp; 📰 5 articles &nbsp;|&nbsp; 🔬 Research Focus Edition</div>
+</header>
+<div class="stats-bar">
+  <div class="stat-item white"><div class="stat-num">5</div><div class="stat-label">Total</div></div>
+  <div class="stat-item cyan"><div class="stat-num">5</div><div class="stat-label">AI Trends</div></div>
+  <div class="stat-item purple"><div class="stat-num">0</div><div class="stat-label">Tech Trends</div></div>
+  <div class="stat-item orange"><div class="stat-num">0</div><div class="stat-label">Thailand</div></div>
+  <div class="stat-item green"><div class="stat-num">0</div><div class="stat-label">Global</div></div>
+  <div class="stat-item" style="background:#3a1a3a;"><div class="stat-num" style="color:#ff4444;">3</div><div class="stat-label" style="color:#cc88aa;">High Urgency</div></div>
+  <div class="stat-item" style="background:#1a3a2a;"><div class="stat-num" style="color:#00ff88;">5</div><div class="stat-label" style="color:#88ccaa;">Breakthrough</div></div>
+</div>
+<div class="top-insights" style="max-width:1100px;margin:24px auto 0;padding:20px 40px;">
+  <div style="padding:20px 24px;background:#fff;border-left:5px solid var(--neon-cyan);border-radius:4px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+    <h2 style="font-family:Orbitron,monospace;font-size:1em;color:#1a1a2e;margin-bottom:14px;">🧠 TOP INSIGHTS TODAY</h2>
+    
+<div class="insight-item">
+  <span class="insight-urgency" style="color:#ff4444;">● HIGH</span>
+  <strong>Green SARC: Zero-Breach Budget Governance for Agentic AI</strong><br>
+  <small>First architectural framework proving 0% budget breach rate for agentic AI cost/carbon governance vs 91.5% for soft penalties; 47-55% token savings on 3,000 real plans</small>
+</div>
+<div class="insight-item">
+  <span class="insight-urgency" style="color:#ff4444;">● HIGH</span>
+  <strong>SkillVetBench: LLM Security Vetting Catches What Static Scanners Miss 100%</strong><br>
+  <small>Zero false negatives on 78 malicious agent skills; static scanners miss 89-100% of prompt injection and memory poisoning threats in open-source LLM agent ecosystems</small>
+</div>
+<div class="insight-item">
+  <span class="insight-urgency" style="color:#ff4444;">● HIGH</span>
+  <strong>ForgetEval: Mutation-Time LLM Hooks Essential for Production Agent Memory</strong><br>
+  <small>13-config architectural study shows control-plane placement determines which forgetting failures can be recovered; mutation-time hooks achieve 91.7% accuracy at $0.17/385 cases</small>
+</div>
+  </div>
+</div>
+<main>
+
+<section class="topic-section">
+  <h2 class="section-title" style="border-left:5px solid var(--neon-cyan);padding-left:14px;">🧠 AI TRENDS <span class="count">(5)</span></h2>
+  
+<div class="article-card topic-ai-trends">
+  <div class="card-header">
+    <div class="source-label">ArXiv cs.AI · Research</div>
+    <div class="badges"><span style="background:#ff9900;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.75em;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">medium</span> <span style="background:#a855f7;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.75em;font-family:'Share Tech Mono',monospace;">⚡ BREAKTHROUGH</span></div>
+  </div>
+  <h3 class="article-title"><a href="https://arxiv.org/abs/2606.15931" target="_blank" rel="noopener">DeepRoot: A KG-Coordinated Multi-Agent System for Therapeutic Reasoning over Historical Medical Texts</a></h3>
+  <p class="article-content">DeepRoot คือระบบ multi-agent LLM จาก ICML 2026 ที่ผสาน Knowledge Graph กับการ reasoning เพื่อขุดค้นข้อมูล drug discovery จากตำราแพทย์โบราณ โดยลด hallucination จาก 87% เหลือเพียง 7-10% เมื่อทดสอบกับคัมภีร์ Shen Nong Ben Cao Jing ระบบสามารถค้นพบ compound-disease pairs ได้ 10 จาก 21 คู่ที่ R@20 (47.6%) เทียบกับ 4.8% ของ raw corpus LLM ทั่วไป แนวคิดหลักคือการแยก grounding axis กับ reasoning axis ออกจากกัน ซึ่งทำให้ระบบ KG+LLM ชนะทั้งสองมิติพร้อมกัน ในขณะที่ Graph-only inference ไม่ hallucinate แต่กลับ rank ต่ำสุดด้าน reasoning coherence งานนี้ตีพิมพ์ทั้งใน ICML 2026 GenBio Workshop และ ACM CAIS 2026 ซึ่งสะท้อนความสนใจสูงจากชุมชน biomedical AI และ multi-agent systems ถือเป็นก้าวสำคัญในการนำ AI มาต่อยอดความรู้ทางการแพทย์แบบดั้งเดิมที่ยังไม่เคยถูกใช้ในระบบ AI สมัยใหม่มาก่อน</p>
+  <div class="tags"><span class="tag">Multi-agent AI</span> <span class="tag">Knowledge Graphs</span> <span class="tag">Drug Discovery</span> <span class="tag">Medical AI</span> <span class="tag">Hallucination</span></div>
+  <div class="insights">
+    <div class="insight-col">
+      <strong>👨‍💻 Developer Actions</strong>
+      <ul><li>Apply KG-coordinated multi-agent pattern to other knowledge-intensive domains (legal, patents, standards)</li><li>Use grounding/reasoning axis separation as design principle to reduce hallucination in production agents</li></ul>
+    </div>
+    <div class="insight-col">
+      <strong>💼 Business Actions</strong>
+      <ul><li>Evaluate for pharma R&D pipelines needing to extract leads from legacy documents</li><li>Track ICML 2026 GenBio track for follow-on work and partnership opportunities</li></ul>
+    </div>
+  </div>
+</div>
+<div class="article-card topic-ai-trends">
+  <div class="card-header">
+    <div class="source-label">ArXiv cs.AI · Research</div>
+    <div class="badges"><span style="background:#ff4444;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.75em;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">high</span> <span style="background:#a855f7;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.75em;font-family:'Share Tech Mono',monospace;">⚡ BREAKTHROUGH</span></div>
+  </div>
+  <h3 class="article-title"><a href="https://arxiv.org/abs/2606.15954" target="_blank" rel="noopener">Green SARC: Predictive Cost and Carbon Governance for Agentic AI Systems</a></h3>
+  <p class="article-content">Green SARC นำเสนอ framework ระดับ architecture สำหรับ governance ที่บังคับใช้งบประมาณทั้ง financial และ carbon ภายใน agentic AI loop ก่อนที่จะ execute จริง โดยพบว่าต้นทุนของ agentic loop เติบโตแบบ quadratic (Θ(n²)) ตามความลึก ซึ่งเรียกว่า State Snowball effect การใช้ hard architectural gate สามารถทำให้ budget breach เป็น 0% เทียบกับ 91.5% ของ soft Lagrangian penalty พร้อมประหยัด token/USD/carbon ได้ 47-55% โดยรวม ทดสอบกับ 3,000 multi-step plans จริง SARC มี 4 enforcement sites ที่ฝังตรงใน agent loop สำหรับทั้ง FinOps และ GreenOps library เป็น open-source ไม่มี dependency และมี reproducibility scripts ครบ ถือเป็นครั้งแรกที่มี architectural governance framework ที่พิสูจน์ได้ว่าไม่มี breach เลย เหมาะกับองค์กรที่กำลังเผชิญกับกฎระเบียบรายงาน carbon ของ AI ที่กำลังจะมาถึง</p>
+  <div class="tags"><span class="tag">Agentic AI</span> <span class="tag">FinOps</span> <span class="tag">Sustainability</span> <span class="tag">AI Governance</span> <span class="tag">LLM</span></div>
+  <div class="insights">
+    <div class="insight-col">
+      <strong>👨‍💻 Developer Actions</strong>
+      <ul><li>Integrate SARC gate as middleware in LangGraph/AutoGen orchestration frameworks</li><li>Replace soft Lagrangian penalties with hard architectural gates for cost-critical deployments</li></ul>
+    </div>
+    <div class="insight-col">
+      <strong>💼 Business Actions</strong>
+      <ul><li>Adopt Green SARC for compliance with emerging AI carbon reporting regulations</li><li>Use for FinOps enforcement in production agentic systems to cap runaway API costs</li></ul>
+    </div>
+  </div>
+</div>
+<div class="article-card topic-ai-trends">
+  <div class="card-header">
+    <div class="source-label">ArXiv cs.AI · Research</div>
+    <div class="badges"><span style="background:#ff9900;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.75em;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">medium</span> <span style="background:#a855f7;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.75em;font-family:'Share Tech Mono',monospace;">⚡ BREAKTHROUGH</span></div>
+  </div>
+  <h3 class="article-title"><a href="https://arxiv.org/abs/2606.15906" target="_blank" rel="noopener">MAGE-RAG: Multigranular Adaptive Graph Evidence for Agentic Multimodal RAG in Long-Document QA</a></h3>
+  <p class="article-content">MAGE-RAG แนะนำ framework RAG แบบ graph-based agentic ที่สร้าง evidence subgraph แบบ adaptive ข้ามหลาย granularity สำหรับ long multimodal documents โดยบรรลุ 52.75% accuracy บน LongDocURL และ 53.26% บน MMLongBench-Doc ซึ่งเหนือกว่าทุก baseline ระบบสร้าง offline evidence graph จาก page และ element nodes ที่เข้ารหัส containment, reading order, layout adjacency, section hierarchy และ semantic neighbor relations จากนั้นใช้ online evidence controller ที่วน iterate activate-search-prune ภายใต้ explicit budget แนวทางนี้แก้ปัญหาหลักของ long-document QA ที่ต้อง integrate หลักฐานจาก text, tables, images, charts และ complex layouts ที่กระจายตัวทั่วเอกสาร PDF ยาวๆ เหมาะอย่างยิ่งสำหรับ enterprise document workflows เช่น legal, financial และ medical PDFs ที่ต้องการความแม่นยำสูง</p>
+  <div class="tags"><span class="tag">RAG</span> <span class="tag">Multimodal AI</span> <span class="tag">LLM</span> <span class="tag">Document Intelligence</span> <span class="tag">Knowledge Graphs</span></div>
+  <div class="insights">
+    <div class="insight-col">
+      <strong>👨‍💻 Developer Actions</strong>
+      <ul><li>Replace static Top-k RAG with graph-based evidence subgraph construction for document QA</li><li>Use offline graph pre-build + online query-time pruning for cost-effective multimodal retrieval</li></ul>
+    </div>
+    <div class="insight-col">
+      <strong>💼 Business Actions</strong>
+      <ul><li>Evaluate for insurance, legal, and research document Q&A requiring high accuracy</li><li>Benchmark against current PDF-RAG solutions to measure accuracy improvement potential</li></ul>
+    </div>
+  </div>
+</div>
+<div class="article-card topic-ai-trends">
+  <div class="card-header">
+    <div class="source-label">ArXiv cs.AI · Research</div>
+    <div class="badges"><span style="background:#ff4444;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.75em;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">high</span> <span style="background:#a855f7;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.75em;font-family:'Share Tech Mono',monospace;">⚡ BREAKTHROUGH</span></div>
+  </div>
+  <h3 class="article-title"><a href="https://arxiv.org/abs/2606.15899" target="_blank" rel="noopener">SkillVetBench: LLM-as-Judge for Multi-Dimensional Security Risk Evaluation in Open-Source LLM Agent Skills</a></h3>
+  <p class="article-content">SkillVetBench แนะนำ SARS (Skill Agentic Risk Score) เมตริกความปลอดภัย 5 มิติโดยใช้ LLM-as-Judge ซึ่งบรรลุ zero false negatives กับ 78 agent skills ที่ยืนยันว่าเป็นอันตราย และ zero false positives กับ 22 skills ที่ปลอดภัย ในขณะที่ static code scanners ทั่วไปพลาดสูงสุด 100% สำหรับ instruction-layer threats สำหรับ memory poisoning attacks เครื่องมือทั่วไปตรวจพบ 0 จาก 9 กรณีเลย ระบบใช้ CVSS v4.0 เป็นฐานและมี leaderboard สาธารณะบน Hugging Face อัตราการตรวจพบของ LLM evaluators อยู่ที่ 35-95% ตามแต่ละรุ่น จึงแนะนำให้ใช้ ensemble scoring ปัญหานี้สำคัญมากเพราะ ecosystem ของ open-source LLM agent skills กำลังขยายตัวอย่างรวดเร็วโดยที่ส่วนใหญ่ยังไม่ผ่านการตรวจสอบด้านความปลอดภัยด้านใดเลย โดยเฉพาะ prompt injection และ memory poisoning</p>
+  <div class="tags"><span class="tag">AI Security</span> <span class="tag">LLM Agents</span> <span class="tag">Prompt Injection</span> <span class="tag">AI Safety</span> <span class="tag">Open Source</span></div>
+  <div class="insights">
+    <div class="insight-col">
+      <strong>👨‍💻 Developer Actions</strong>
+      <ul><li>Integrate SkillVetBench evaluation before publishing agent skills to open-source marketplaces</li><li>Use SARS score as mandatory security gate in CI/CD pipelines for agentic AI applications</li></ul>
+    </div>
+    <div class="insight-col">
+      <strong>💼 Business Actions</strong>
+      <ul><li>Audit all deployed open-source LLM agent skills against SARS criteria immediately</li><li>Establish mandatory security vetting policy for any third-party agent skills before production use</li></ul>
+    </div>
+  </div>
+</div>
+<div class="article-card topic-ai-trends">
+  <div class="card-header">
+    <div class="source-label">ArXiv cs.LG · Research</div>
+    <div class="badges"><span style="background:#ff4444;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.75em;font-family:'Share Tech Mono',monospace;text-transform:uppercase;">high</span> <span style="background:#a855f7;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.75em;font-family:'Share Tech Mono',monospace;">⚡ BREAKTHROUGH</span></div>
+  </div>
+  <h3 class="article-title"><a href="https://arxiv.org/abs/2606.15903" target="_blank" rel="noopener">Control-Plane Placement Shapes Forgetting: An Architectural Study of Agent Memory Across Thirteen System Configurations</a></h3>
+  <p class="article-content">ForgetEval เผยให้เห็นว่าตำแหน่งของ LLM ใน agent memory pipeline กำหนดว่า forgetting failure modes ใดที่สามารถ recover ได้ โดยเปรียบเทียบ 13 system configurations บน 385 adversarial test cases พบว่า mutation-time hooks ทำได้ 91.7-93.2% overall accuracy ในขณะที่ deterministic-only approaches ทำได้เกือบ 0% สำหรับ canonicalization และ intent-aware deletion การจัดวาง LLM ที่ inscribe-time บรรลุ 100% canonicalization แต่ช่วยไม่ได้เลยสำหรับ intent-aware deletion ในขณะที่ mutation-time hook แก้ได้ 78-85% สำหรับ intent-aware deletion ด้วยต้นทุนเพียง $0.17 ต่อ 385 cases insight หลักคือ production agent failures ส่วนใหญ่เป็น forgetting failures แต่ benchmark ที่มีอยู่วัดแค่ recall เท่านั้น ForgetEval (1000-case templated + 385 adversarial) เผยแพร่ภายใต้ MIT license</p>
+  <div class="tags"><span class="tag">LLM Agents</span> <span class="tag">Agent Memory</span> <span class="tag">AI Infrastructure</span> <span class="tag">Benchmarks</span> <span class="tag">Agentic AI</span></div>
+  <div class="insights">
+    <div class="insight-col">
+      <strong>👨‍💻 Developer Actions</strong>
+      <ul><li>Add mutation-time LLM hook to agent memory pipelines to handle intent-aware deletion edge cases</li><li>Use ForgetEval benchmark suite to audit existing memory implementations before production deployment</li></ul>
+    </div>
+    <div class="insight-col">
+      <strong>💼 Business Actions</strong>
+      <ul><li>Prioritize agent memory control-plane design in product roadmaps</li><li>Evaluate if current agentic products have adequate memory supersede/purge policies</li></ul>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+</main>
+<footer>AI News Pipeline v2.0 &nbsp;|&nbsp; Generated: 2026-08-07T06:00:00+07:00 &nbsp;|&nbsp; ⛔ NO GIT PUSH — handled by ai-news-github-deploy</footer>
+</body>
+</html>
