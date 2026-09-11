@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T12:00:00+07:00",
+  "pipeline_version": "combined-1.0",
+  "total_articles": 11,
+  "topic_breakdown": {
+    "ai_trends": 5,
+    "tech_trends": 3,
+    "thailand": 2,
+    "global": 1
+  },
+  "files": [
+    "2026-09-11_news.json",
+    "2026-09-11_news.html"
+  ],
+  "notes": "PDF (2026-09-11_news.pdf) not generated this run — sandbox shell/bash tool was unavailable throughout (persistent RPC/mount errors), blocking Python/reportlab execution, same as the prior run. arXiv web_fetch was also rate-limited (HTTP 429) after the first research fetch succeeded, limiting Batch 3 to a single research article; no YouTube video could be confirmed within the 24h window via web search. Per-article backward-compat file tree (News/Articles/...) was skipped this run for scope reasons."
+}
