@@ -1,0 +1,142 @@
+{
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T12:00:00+07:00",
+  "schema_version": "combined-1.0",
+  "stats": {
+    "total": 4,
+    "by_topic": {
+      "ai_trends": 1,
+      "tech_trends": 0,
+      "thailand": 1,
+      "global": 2
+    },
+    "by_source_category": {
+      "thai": 2,
+      "international": 2,
+      "research": 0,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 1,
+      "medium": 3,
+      "low": 0
+    },
+    "breakthrough_count": 0
+  },
+  "top_insights": [
+    {
+      "title": "แฮกเกอร์ใช้ AI Agent หลายร้อยตัวเจาะระบบ PaperCut สำเร็จ 440 อินสแตนซ์ทั่ว 48 ประเทศ",
+      "impact_summary": "แคมเปญโจมตีที่ขับเคลื่อนด้วย AI agent หลายร้อยตัวสามารถเจาะองค์กรได้ 11 แห่งภายใน 26 วินาทีเมื่อเดินเครื่องเต็มที่ ชี้ว่า AI agent กำลังเร่งความเร็วและขนาดของภัยคุกคามไซเบอร์อย่างก้าวกระโดด แม้การป้องกันพื้นฐานยังมีผลต่อต้านได้บางกรณี",
+      "urgency": "high",
+      "related_domains": ["AI Safety", "Cybersecurity", "Agentic AI"],
+      "article_id": "papercut-ai-orchestrated-attack-thehackernews-2026-09-12"
+    },
+    {
+      "title": "เศรษฐกิจปี 2030 ใน 3 ฉากทัศน์ AI: Anthropic ไล่เรียงอนาคตผ่าน 4 อาชีพ",
+      "impact_summary": "แบบจำลองของ Anthropic Institute ชี้ว่าในฉากทัศน์ AI ระดับรุนแรง เศรษฐกิจสหรัฐฯ อาจโตกว่าเส้นทางไร้ AI ถึง 32.4% แต่ส่วนแบ่งรายได้ของแรงงานอาจลดจาก 60% เหลือ 45.2% สะท้อนความเสี่ยงที่ผลประโยชน์จาก AI จะไม่กระจายอย่างเท่าเทียม",
+      "urgency": "medium",
+      "related_domains": ["AI Economy", "Labor Market", "Policy"],
+      "article_id": "anthropic-ai-economy-2030-techsauce-2026-09-12"
+    },
+    {
+      "title": "บีโอไอ อัดฉีดกว่า 4,800 ล้านบาท เสริมแกร่งธุรกิจไทยด้วย AI ปั้นบุคลากรทักษะสูงกว่า 7.6 หมื่นคน",
+      "impact_summary": "การสนับสนุนทางการเงินต่อเนื่องของบีโอไอภายใต้มาตรการ Business Transformation และ Skill Bridge ช่วยเร่งให้ผู้ประกอบการไทยนำ AI และระบบอัตโนมัติมาใช้ พร้อมเตรียมกำลังคนทักษะสูงรองรับอุตสาหกรรมยุคใหม่",
+      "urgency": "medium",
+      "related_domains": ["AI Adoption", "Workforce Development", "Thailand Industry"],
+      "article_id": "boi-business-transformation-skill-bridge-techsauce-2026-09-12"
+    },
+    {
+      "title": "Microsoft วางแผนศูนย์ข้อมูล 38 กิกะวัตต์ Oracle งบค้างส่งพุ่ง 664,000 ล้านดอลลาร์ เพนตากอนเจรจาเงินกู้ 5,000 ล้าน",
+      "impact_summary": "การลงทุนโครงสร้างพื้นฐาน AI ของสหรัฐฯ ทวีความเข้มข้นจนถึงขั้นที่ภาครัฐเริ่มเข้ามาสนับสนุนทางการเงินโดยตรง สะท้อนว่าการแข่งขัน AI ระดับประเทศไม่ได้จำกัดอยู่แค่โมเดล แต่ลงไปถึงพลังงาน ชิป และเงินทุนก่อสร้างศูนย์ข้อมูล",
+      "urgency": "medium",
+      "related_domains": ["AI Infrastructure", "Cloud Computing", "Data Center Financing"],
+      "article_id": "microsoft-oracle-pentagon-ai-infrastructure-techstartups-2026-09-12"
+    }
+  ],
+  "posts": [
+    {
+      "id": "papercut-ai-orchestrated-attack-thehackernews-2026-09-12",
+      "slug": "papercut-ai-agents-440-instances-attack",
+      "title": "AI-orchestrated attack campaign uses hundreds of agents to breach 440 PaperCut instances across 48 countries",
+      "title_th": "แฮกเกอร์ใช้ AI Agent หลายร้อยตัวเจาะระบบ PaperCut สำเร็จ 440 อินสแตนซ์ทั่ว 48 ประเทศ",
+      "topic_group": "ai-trends",
+      "source_name": "The Hacker News / GreyNoise",
+      "category": "International",
+      "urgency": "high",
+      "content": "GreyNoise เผยรายงานพบแคมเปญโจมตีไซเบอร์ที่ใช้ AI Agent หลายร้อยตัวขับเคลื่อนโดย OpenAI Codex harness ร่วมกับโมเดล DeepSeek เพื่อพัฒนาและยิง exploit ช่องโหว่ซอฟต์แวร์จัดการงานพิมพ์ PaperCut NG/MF (CVE-2026-81578 และ CVE-2026-82078) ผู้โจมตีที่คาดว่าพูดภาษารัสเซียใช้เวลาไม่ถึง 4 ชั่วโมงจาก workspace เปล่าไปจนถึงการเจาะระบบเหยื่อจริงได้สำเร็จ และเมื่อแคมเปญเดินเครื่องเต็มที่ สามารถเจาะองค์กรได้ 11 แห่งภายใน 26 วินาที รวมทั้งหมดโจมตีสำเร็จ 440 อินสแตนซ์ใน 395 องค์กร 48 ประเทศ โดยภาคการศึกษาถูกกระทบหนักที่สุดถึง 204 แห่ง รวมถึงโรงเรียนมัธยมในสหรัฐฯ ที่ถูกยึดสิทธิ์ผู้ดูแลโดเมนได้ภายใน 7 นาที กรณีนี้สะท้อนว่า AI agent กำลังเร่งความเร็วและขนาดของการโจมตีไซเบอร์อย่างก้าวกระโดด แม้บางกรณี Cloudflare WAF ยังสามารถสกัดการโจมตีได้ ชี้ว่าการป้องกันพื้นฐานยังมีผลต่อต้าน AI-enabled threats",
+      "source_url": "https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf",
+      "tech_impact": "แคมเปญโจมตีที่ขับเคลื่อนด้วย AI agent หลายร้อยตัวสามารถเจาะองค์กรได้ 11 แห่งภายใน 26 วินาทีเมื่อเดินเครื่องเต็มที่ ชี้ว่า AI agent กำลังเร่งความเร็วและขนาดของภัยคุกคามไซเบอร์อย่างก้าวกระโดด แม้การป้องกันพื้นฐานยังมีผลต่อต้านได้บางกรณี",
+      "tags": ["AI Agents", "Cybersecurity", "PaperCut", "Agentic AI"],
+      "published_at": "2026-09-11T15:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": ["AI Safety", "Cybersecurity", "Agentic AI"],
+      "actions_developer": ["ตรวจสอบและแพตช์ช่องโหว่ CVE-2026-81578 และ CVE-2026-82078 บน PaperCut NG/MF ทันที", "ศึกษา IOC และ TTP จากรายงาน GreyNoise เพื่อปรับ detection rule"],
+      "actions_business": ["ประเมินความเสี่ยงขององค์กรที่ใช้ PaperCut หรือซอฟต์แวร์ print management ที่คล้ายกัน", "ทบทวนมาตรการป้องกันพื้นฐาน (patching, network hardening) ต่อภัยคุกคามที่ขับเคลื่อนด้วย AI agent"],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "anthropic-ai-economy-2030-techsauce-2026-09-12",
+      "slug": "anthropic-ai-economy-2030-three-scenarios",
+      "title": "Anthropic Institute models three AI economic scenarios for the US economy through 2030",
+      "title_th": "เศรษฐกิจปี 2030 ใน 3 ฉากทัศน์ AI: Anthropic ไล่เรียงอนาคตผ่าน 4 อาชีพ",
+      "topic_group": "global",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "The Anthropic Institute เผยแบบจำลองเศรษฐกิจสหรัฐฯ ถึงปี 2030 ใน 3 ฉากทัศน์ AI ได้แก่ Modest, Substantial และ Extreme โดยในฉากทัศน์ Extreme ที่ AI ทำงานความรู้ได้เกือบทั้งหมดและถูกใช้จริง 60% ของงานที่ทำได้ GDP สหรัฐฯ จะสูงกว่าเส้นทางไม่มี AI ถึง 32.4% หรือราว 44.4 ล้านล้านดอลลาร์ แต่อัตราว่างงานทั้งระบบจะพุ่งไปที่ 11.9% และคนทำงานความรู้กลุ่มที่เริ่มต้นในอาชีพนี้จะว่างงานถึง 17.9% รายงานใช้ 4 อาชีพตัวอย่าง ได้แก่ พยาบาล โปรแกรมเมอร์ พนักงานคอลเซ็นเตอร์ และช่างไฟฟ้า เพื่อแสดงว่า AI เสริมงานพยาบาล แต่ลดความต้องการโปรแกรมเมอร์และพนักงานคอลเซ็นเตอร์ ขณะที่ช่างไฟฟ้าได้ค่าจ้างสูงขึ้นจากความต้องการงานที่ใช้มือเพิ่มขึ้น ผลลัพธ์สำคัญคือสัดส่วนรายได้ของแรงงาน (Labor Share) อาจลดลงจาก 60% เหลือ 45.2% ในฉากทัศน์รุนแรงที่สุด แม้เศรษฐกิจโดยรวมใหญ่ขึ้นมาก แต่รายได้ส่วนเพิ่มจะไหลไปสู่เจ้าของทุนเป็นหลัก",
+      "source_url": "https://techsauce.co/ai/ai-economy-2030-four-occupations-anthropic-scenarios",
+      "tech_impact": "แบบจำลองของ Anthropic Institute ชี้ว่าในฉากทัศน์ AI ระดับรุนแรง เศรษฐกิจสหรัฐฯ อาจโตกว่าเส้นทางไร้ AI ถึง 32.4% แต่ส่วนแบ่งรายได้ของแรงงานอาจลดจาก 60% เหลือ 45.2% สะท้อนความเสี่ยงที่ผลประโยชน์จาก AI จะไม่กระจายอย่างเท่าเทียม",
+      "tags": ["Anthropic", "AI Economy", "Labor Market", "Future of Work"],
+      "published_at": "2026-09-11T12:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": ["AI Economy", "Labor Market", "Policy"],
+      "actions_developer": ["ศึกษารายงาน Economic Scenarios for Transformative AI ของ Anthropic Institute เพื่อประเมินผลกระทบต่ออาชีพสาย dev", "ติดตามเครื่องมือจำลองเศรษฐกิจ AI แบบเปิดของ Anthropic"],
+      "actions_business": ["ประเมินความเสี่ยงด้านกำลังคนหากองค์กรเข้าสู่ฉากทัศน์ AI ระดับมีนัยสำคัญหรือรุนแรง", "พิจารณาแผนพัฒนาทักษะพนักงานกลุ่มงานความรู้รองรับการเปลี่ยนผ่าน"],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "boi-business-transformation-skill-bridge-techsauce-2026-09-12",
+      "slug": "boi-business-transformation-skill-bridge-4800-million-baht",
+      "title": "Thailand's BOI approves 55 more AI/automation investment and skills projects worth THB 4.8 billion",
+      "title_th": "บีโอไอ อัดฉีดกว่า 4,800 ล้านบาท เสริมแกร่งธุรกิจไทยด้วย AI ปั้นบุคลากรทักษะสูงกว่า 7.6 หมื่นคน",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "บีโอไออนุมัติเพิ่ม 55 โครงการภายใต้มาตรการ Business Transformation และ Skill Bridge ทำให้ยอดรวมทั้งสองมาตรการแตะ 108 โครงการ วงเงินสนับสนุนกว่า 4,800 ล้านบาท มาตรการ Business Transformation ช่วยผู้ประกอบการไทยนำ AI ระบบอัตโนมัติ และเทคโนโลยีดิจิทัลมาใช้ปรับปรุงเครื่องจักรและวิจัยพัฒนา ล่าสุดอนุมัติเพิ่ม 48 โครงการ เงินลงทุนรวม 3,540 ล้านบาท รวมสะสม 66 โครงการ คาดช่วยเพิ่มรายได้ผู้ประกอบการ 3,900 ล้านบาทต่อปี และสร้างงานด้าน AI ระบบอัตโนมัติและหุ่นยนต์ราว 1,500 ตำแหน่ง ส่วนมาตรการ Skill Bridge อนุมัติเพิ่ม 7 โครงการ วงเงิน 307 ล้านบาท รวมสะสม 42 โครงการ ครอบคลุมการพัฒนาบุคลากรทักษะสูง 76,728 คน โดยกลุ่มดิจิทัลเน้นทักษะ AI การวิเคราะห์ข้อมูล และไซเบอร์ซิเคียวริตี้มากที่สุด เลขาธิการบีโอไอระบุว่าทั้งสองมาตรการต้องเดินไปพร้อมกันเพื่อยกระดับขีดความสามารถการแข่งขันของไทยในห่วงโซ่อุปทานโลก",
+      "source_url": "https://techsauce.co/news/boi-business-transformation-skill-bridge-4800-million-baht",
+      "tech_impact": "การสนับสนุนทางการเงินต่อเนื่องของบีโอไอภายใต้มาตรการ Business Transformation และ Skill Bridge ช่วยเร่งให้ผู้ประกอบการไทยนำ AI และระบบอัตโนมัติมาใช้ พร้อมเตรียมกำลังคนทักษะสูงรองรับอุตสาหกรรมยุคใหม่",
+      "tags": ["BOI", "AI", "Automation", "Skill Bridge", "Thailand Investment"],
+      "published_at": "2026-09-11T10:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": ["AI Adoption", "Workforce Development", "Thailand Industry"],
+      "actions_developer": ["ติดตามหลักเกณฑ์ขอรับการสนับสนุนจากกองทุน Business Transformation สำหรับโครงการ AI/automation", "พิจารณาสมัครหลักสูตร Skill Bridge ด้าน AI และไซเบอร์ซิเคียวริตี้"],
+      "actions_business": ["ประเมินโอกาสขอรับทุนสนับสนุนบีโอไอสำหรับการลงทุน AI และระบบอัตโนมัติ", "วางแผนพัฒนาบุคลากรทักษะสูงให้สอดรับกับอุตสาหกรรมเป้าหมาย"],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "microsoft-oracle-pentagon-ai-infrastructure-techstartups-2026-09-12",
+      "slug": "microsoft-oracle-pentagon-ai-infrastructure-financing",
+      "title": "Microsoft maps 38GW data center buildout as Oracle's cloud backlog hits $664B and Pentagon weighs $5B loan",
+      "title_th": "Microsoft วางแผนศูนย์ข้อมูล 38 กิกะวัตต์ Oracle งบค้างส่งพุ่ง 664,000 ล้านดอลลาร์ เพนตากอนเจรจาเงินกู้ 5,000 ล้าน",
+      "topic_group": "global",
+      "source_name": "Tech Startups",
+      "category": "International",
+      "urgency": "medium",
+      "content": "รายงานสรุปข่าวเทคโนโลยีประจำวันที่ 11 กันยายน 2026 ชี้ว่าการลงทุนโครงสร้างพื้นฐาน AI กำลังทวีความเข้มข้น โดย Microsoft เปิดแผนก่อสร้างศูนย์ข้อมูลขนาดรวม 38 กิกะวัตต์ ขณะที่ Oracle รายงานยอด backlog สัญญาคลาวด์สะสมสูงถึง 664,000 ล้านดอลลาร์สหรัฐ สะท้อนความต้องการประมวลผล AI ที่พุ่งสูงต่อเนื่อง ด้านกระทรวงกลาโหมสหรัฐฯ (Pentagon) เปิดเจรจาเงินกู้มูลค่า 5,000 ล้านดอลลาร์ เพื่อพยุงห่วงโซ่อุปทานศูนย์ข้อมูลในประเทศไม่ให้สะดุด ตอกย้ำว่าการแข่งขันด้าน AI ไม่ได้จำกัดอยู่แค่ระดับโมเดล แต่ลงไปถึงการแข่งขันด้านพลังงานไฟฟ้า ชิป และเงินทุนก่อสร้างศูนย์ข้อมูลระดับประเทศ ซึ่งรัฐบาลสหรัฐฯ เริ่มเข้ามามีบทบาทสนับสนุนทางการเงินโดยตรงเพื่อรักษาความได้เปรียบด้านโครงสร้างพื้นฐาน AI ของประเทศ",
+      "source_url": "https://techstartups.com/2026/09/11/top-tech-news-today-september-11-2026-anthropic-deepseek-google-pentagon-oracle-spacex-more/",
+      "tech_impact": "การลงทุนโครงสร้างพื้นฐาน AI ของสหรัฐฯ ทวีความเข้มข้นจนถึงขั้นที่ภาครัฐเริ่มเข้ามาสนับสนุนทางการเงินโดยตรง สะท้อนว่าการแข่งขัน AI ระดับประเทศไม่ได้จำกัดอยู่แค่โมเดล แต่ลงไปถึงพลังงาน ชิป และเงินทุนก่อสร้างศูนย์ข้อมูล",
+      "tags": ["AI Infrastructure", "Data Centers", "Microsoft", "Oracle", "Pentagon"],
+      "published_at": "2026-09-11T21:42:23+07:00",
+      "breakthrough_potential": false,
+      "related_domains": ["AI Infrastructure", "Cloud Computing", "Data Center Financing"],
+      "actions_developer": ["ติดตามผลกระทบของการขยายศูนย์ข้อมูลต่อ availability และราคา GPU cloud", "ศึกษาแนวโน้ม backlog ของผู้ให้บริการคลาวด์รายใหญ่เพื่อวางแผน capacity"],
+      "actions_business": ["ประเมินความเสี่ยงด้านพลังงานและซัพพลายเชนจากการขยายศูนย์ข้อมูล AI ขนาดใหญ่", "ติดตามบทบาทของภาครัฐสหรัฐฯ ในการสนับสนุนทางการเงินแก่โครงสร้างพื้นฐาน AI"],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}

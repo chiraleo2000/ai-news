@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13T12:00:00+07:00",
+  "pipeline_version": "combined-1.0",
+  "total_articles": 10,
+  "topic_breakdown": {
+    "ai_trends": 6,
+    "tech_trends": 2,
+    "thailand": 0,
+    "global": 2
+  },
+  "files": [
+    "2026-09-13_news.json",
+    "2026-09-13_news.html"
+  ],
+  "notes": "PDF (2026-09-13_news.pdf) not generated this run — the sandbox shell/bash tool (mcp__workspace__bash) was unavailable for the entire run, failing with the same Plan9/virtiofs mount error seen on prior days ('A Windows update released September 8 prevents Claude's workspace from reaching your files'), blocking any Python/reportlab execution. Scraping relied on WebSearch + direct web_fetch of individual pages/articles rather than a full registry-driven crawl across all 92 sources. All 3 batches produced verified articles this run: Batch 1 (Thai: Thairath, Techsauce, Beartai — 3 articles), Batch 2 (International: TechCrunch x3, OpenAI — 4 articles), Batch 3 (Research: arXiv cs.AI — 3 articles; no qualifying international or Thai YouTube video was found within the search budget, so youtube_channel/youtube_video are empty on all posts). No Thailand-government-specific article met the freshness/relevance bar this run, so topic_group 'thailand' is 0. Per-article backward-compatibility file tree (News/Articles/{Category}/{Source}/{DATE}/{Slug}/) was skipped this run for scope/time reasons, consistent with prior reduced-scope runs. All 10 articles were individually fetched and verified against primary or near-primary sources (official company blogs, arXiv abstracts, major outlets) before writing; two articles (Techsauce distillation report, Beartai NASA-IBM, TechCrunch Mecka/Garry Tan, OpenAI Habitat, arXiv papers) are dated 10-12 Sep rather than strictly within the last 24h, mirroring the ~30-48h tolerance used on prior days given the limited freshness of items actually available on source listing pages at run time."
+}

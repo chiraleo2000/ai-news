@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Daily Digest — 2026-09-13</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg-primary:#f0f2f8;--bg-card:#fff;--bg-header:#1a1a2e;
+    --neon-cyan:#00d4ff;--neon-purple:#a855f7;--neon-orange:#ff6b35;--neon-green:#00ff88;
+    --text-primary:#1a1a2e;--text-secondary:#4a4a6a;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;font-family:'Rajdhani',sans-serif;background:var(--bg-primary);color:var(--text-primary);
+    background-image:
+      linear-gradient(rgba(0,212,255,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,212,255,0.04) 1px, transparent 1px);
+    background-size:28px 28px;
+  }
+  header.site-header{
+    background:var(--bg-header);color:#fff;padding:36px 24px;text-align:center;
+    border-bottom:3px solid var(--neon-cyan);
+  }
+  header.site-header h1{
+    font-family:'Orbitron',sans-serif;font-weight:900;font-size:2rem;margin:0 0 6px;
+    letter-spacing:1px;
+    background:linear-gradient(90deg,var(--neon-cyan),var(--neon-purple));
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  header.site-header p{font-family:'Share Tech Mono',monospace;color:#9aa0c3;margin:0;font-size:0.95rem;}
+  .container{max-width:1100px;margin:0 auto;padding:24px;}
+  .stats-bar{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:14px;margin-bottom:32px;
+  }
+  .stat-card{
+    background:var(--bg-card);border-radius:10px;padding:16px;text-align:center;
+    box-shadow:0 2px 10px rgba(26,26,46,0.08);border-top:3px solid var(--neon-cyan);
+  }
+  .stat-card .num{font-family:'Orbitron',sans-serif;font-size:1.8rem;font-weight:700;color:var(--text-primary);}
+  .stat-card .label{font-size:0.8rem;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.5px;}
+  h2.section-title{
+    font-family:'Orbitron',sans-serif;font-size:1.25rem;margin:36px 0 16px;padding-bottom:8px;
+    border-bottom:2px solid rgba(26,26,46,0.1);color:var(--text-primary);
+  }
+  .insight-item{
+    background:var(--bg-card);border-radius:10px;padding:16px 18px;margin-bottom:12px;
+    box-shadow:0 2px 8px rgba(26,26,46,0.06);border-left:4px solid var(--neon-orange);
+  }
+  .insight-item h3{margin:0 0 6px;font-size:1.02rem;font-weight:700;}
+  .insight-item p{margin:0;color:var(--text-secondary);font-size:0.92rem;}
+  .badge{
+    display:inline-block;font-family:'Share Tech Mono',monospace;font-size:0.7rem;padding:2px 8px;
+    border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;
+  }
+  .badge.high{background:#ffe1e1;color:#c0392b;}
+  .badge.medium{background:#fff3d6;color:#b9770e;}
+  .badge.low{background:#e3f7ea;color:#1e8449;}
+  .card{
+    background:var(--bg-card);border-radius:10px;padding:18px 20px;margin-bottom:16px;
+    box-shadow:0 2px 10px rgba(26,26,46,0.07);
+  }
+  .card.topic-ai-trends{border-left:4px solid var(--neon-cyan);}
+  .card.topic-tech-trends{border-left:4px solid var(--neon-purple);}
+  .card.topic-thailand{border-left:4px solid var(--neon-orange);}
+  .card.topic-global{border-left:4px solid var(--neon-green);}
+  .card h3{margin:0 0 8px;font-size:1.08rem;font-weight:700;line-height:1.4;}
+  .card .meta-row{font-family:'Share Tech Mono',monospace;font-size:0.72rem;color:var(--text-secondary);margin-bottom:10px;}
+  .card .content-text{font-size:0.95rem;line-height:1.7;color:var(--text-primary);margin-bottom:10px;}
+  .card .impact-box{
+    background:rgba(0,212,255,0.06);border-radius:8px;padding:10px 12px;font-size:0.87rem;
+    color:var(--text-secondary);margin-bottom:10px;
+  }
+  .card .impact-box strong{color:var(--text-primary);}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;}
+  .tag{background:rgba(26,26,46,0.06);border-radius:12px;padding:2px 10px;font-size:0.75rem;color:var(--text-secondary);}
+  .actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:0.85rem;margin-bottom:10px;}
+  .actions ul{margin:4px 0 0;padding-left:18px;}
+  .actions .col-title{font-weight:600;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-secondary);}
+  .source-link{font-size:0.82rem;}
+  .source-link a{color:var(--neon-cyan);text-decoration:none;}
+  .notice{
+    background:#fff3d6;border-radius:8px;padding:12px 16px;font-size:0.82rem;color:#8a6d1d;
+    margin-bottom:24px;border-left:4px solid var(--neon-orange);
+  }
+  footer{
+    text-align:center;padding:30px 20px;color:var(--text-secondary);font-family:'Share Tech Mono',monospace;
+    font-size:0.8rem;border-top:1px solid rgba(26,26,46,0.08);margin-top:40px;
+  }
+  @media (max-width:600px){ .actions{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <h1>AI DAILY DIGEST</h1>
+  <p>วันที่ 13 กันยายน 2569 · สรุปข่าว AI รอบ 24-48 ชั่วโมง จากไทย นานาชาติ และงานวิจัย</p>
+</header>
+
+<div class="container">
+
+  <div class="notice">⚠ รันนี้ได้ข่าวจำนวนจำกัด เนื่องจาก sandbox shell/bash ของระบบขัดข้อง (Windows update mount error ตั้งแต่ 8 ก.ย.) ทำให้ไม่สามารถรันสคริปต์ดึงข่าวแบบเต็มรูปแบบและไม่สามารถสร้างไฟล์ PDF ได้ ใช้ WebSearch/WebFetch เจาะข่าวทีละรายการแทน ไม่พบวิดีโอ YouTube ที่ผ่านเกณฑ์ในรอบนี้</div>
+
+  <div class="stats-bar">
+    <div class="stat-card"><div class="num">10</div><div class="label">ข่าวทั้งหมด</div></div>
+    <div class="stat-card"><div class="num">2</div><div class="label">Urgency สูง</div></div>
+    <div class="stat-card"><div class="num">0</div><div class="label">Breakthrough</div></div>
+    <div class="stat-card"><div class="num">3</div><div class="label">แหล่งข่าวไทย</div></div>
+    <div class="stat-card"><div class="num">4</div><div class="label">แหล่งข่าวนานาชาติ</div></div>
+    <div class="stat-card"><div class="num">3</div><div class="label">งานวิจัย</div></div>
+  </div>
+
+  <h2 class="section-title">🔥 Top Insights</h2>
+  <div class="insight-item">
+    <span class="badge high">high</span>
+    <h3>ซีอีโอ Anthropic เรียกร้องชะลอความเร็วในการพัฒนา AI เสนอแผน 3 ข้อคุมความเสี่ยง</h3>
+    <p>คำเตือนจากผู้นำ Anthropic สะท้อนความกังวลจริงจังเกี่ยวกับความเสี่ยงที่ควบคุมไม่ทัน อาจนำไปสู่มาตรฐานความปลอดภัยและกฎหมายกำกับดูแล AI ระดับนานาชาติที่เข้มข้นขึ้น</p>
+  </div>
+  <div class="insight-item">
+    <span class="badge high">high</span>
+    <h3>Anthropic แฉรายงาน โมเดลจีนลอกวิชา Claude ผ่านแชทกว่า 200 ล้านครั้ง Alibaba หนักสุด 151 ล้านครั้ง</h3>
+    <p>การลอกเลียนความสามารถของโมเดลแนวหน้าสหรัฐฯ ผ่าน API อย่างเป็นระบบ อาจบั่นทอนความได้เปรียบเชิงพาณิชย์ของฝั่งตะวันตกและเร่งมาตรการป้องกันที่เข้มงวดขึ้น</p>
+  </div>
+  <div class="insight-item">
+    <span class="badge medium">medium</span>
+    <h3>อัลท์แมนชี้ IPO ปี 2026 'ไม่ฉลาด' OpenAI ขอเวลาจัดการความปลอดภัยก่อน</h3>
+    <p>ท่าทีระมัดระวังต่อการเข้าตลาดหุ้นสะท้อนแรงกดดันด้านความปลอดภัย AI ที่เพิ่มขึ้น อาจส่งผลต่อจังหวะการระดมทุนของอุตสาหกรรมโดยรวม</p>
+  </div>
+  <div class="insight-item">
+    <span class="badge medium">medium</span>
+    <h3>Garry Tan แห่ง Y Combinator หนุนสหรัฐฯ ทำ 'ระบอบกลั่นโมเดล' ของตัวเองบ้าง</h3>
+    <p>ความเห็นต่างระหว่างผู้นำ Anthropic กับ Y Combinator สะท้อนความขัดแย้งเชิงนโยบาย AI สหรัฐฯ ที่จะมีผลต่อทิศทางกฎระเบียบในอนาคต</p>
+  </div>
+
+  <h2 class="section-title">🤖 AI Trends</h2>
+
+  <div class="card topic-ai-trends">
+    <h3>ซีอีโอ Anthropic เรียกร้องชะลอความเร็วในการพัฒนา AI เสนอแผน 3 ข้อคุมความเสี่ยง</h3>
+    <div class="meta-row">Thairath · Thai · 13 Sep 2026</div>
+    <div class="content-text">ดาริโอ อาโมเดอี ซีอีโอของ Anthropic เรียกร้องให้ผู้พัฒนา AI ทั่วโลกชะลอความเร็วในการพัฒนาโมเดลลง เพื่อเปิดเวลาให้บริษัทและภาครัฐเตรียมรับมือความเสี่ยงร้ายแรง โดยเสนอแผน 3 ข้อ: ตรวจสอบโมเดลโดยองค์กรอิสระ, ความร่วมมือสมัครใจวางมาตรฐานความปลอดภัย, และกฎหมายระดับนานาชาติ อดีตนักวิจัยความปลอดภัยของ Anthropic หลายคนสนับสนุนคำเตือนนี้ โดยระบุว่ามีโอกาสมากกว่า 10% ในทศวรรษหน้าที่ AI อาจคุกคามเผ่าพันธุ์มนุษย์</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> อาจเร่งให้เกิดมาตรฐานความปลอดภัยและกฎหมายกำกับดูแล AI ระดับนานาชาติเร็วขึ้น</div>
+    <div class="tags"><span class="tag">Anthropic</span><span class="tag">Dario Amodei</span><span class="tag">AI Safety</span><span class="tag">AI Policy</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ติดตามข้อเสนอมาตรฐานความปลอดภัยโดยสมัครใจของบริษัท AI ชั้นนำ</li><li>ศึกษากรณี AI agent ที่ทำงานนอกเหนือคำสั่งเพื่อออกแบบ guardrail ที่รัดกุมขึ้น</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินความเสี่ยงด้านกฎระเบียบ AI ที่อาจเข้มงวดขึ้น</li><li>ติดตามท่าทีสหรัฐฯ ต่อการควบคุมการส่งออกชิป AI</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://www.thairath.co.th/news/foreign/2959252" target="_blank">Thairath</a></div>
+  </div>
+
+  <div class="card topic-ai-trends">
+    <h3>Anthropic แฉรายงาน โมเดลจีนลอกวิชา Claude ผ่านแชทกว่า 200 ล้านครั้ง</h3>
+    <div class="meta-row">Techsauce · Thai · 11 Sep 2026</div>
+    <div class="content-text">รายงาน Threat Intelligence ของ Anthropic พบว่าบทสนทนาบน Claude เกือบ 200 ล้านครั้งถูกห้องปฏิบัติการ AI จีนดึงไปฝึกโมเดลตนเองผ่าน Model Distillation โดยหลอกให้ Claude เปิดเผย Chain of Thought Alibaba เป็นรายใหญ่ที่สุดด้วย 151 ล้านครั้งเพื่อฝึกโมเดล Qwen ขณะที่ Moonshot AI ยิงคำขอ 300,000 ครั้งใน 10 วัน บางคำขอเชื่อมโยงหน่วยงานความมั่นคงจีน</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> อาจบั่นทอนความได้เปรียบเชิงพาณิชย์ของผู้พัฒนา AI ตะวันตก และเร่งมาตรการป้องกันการดึงข้อมูลโมเดล</div>
+    <div class="tags"><span class="tag">Anthropic</span><span class="tag">Claude</span><span class="tag">Model Distillation</span><span class="tag">China AI</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ตรวจสอบ API usage pattern ที่ผิดปกติหากดูแลระบบ AI ของตนเอง</li><li>ศึกษาเทคนิคป้องกัน Chain-of-Thought ไม่ให้ถูกดึงออก</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินความเสี่ยงทรัพย์สินทางปัญญาหากให้บริการ AI ผ่าน API สาธารณะ</li><li>ติดตามมาตรการควบคุมส่งออกเทคโนโลยี AI สหรัฐฯ-จีน</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://techsauce.co/ai/anthropic-report-ai-distillation-china" target="_blank">Techsauce</a></div>
+  </div>
+
+  <div class="card topic-ai-trends">
+    <h3>NASA จับมือ IBM เปิดตัว AI โมเดลแผนที่ดวงจันทร์ แม่นยำขึ้น 23%</h3>
+    <div class="meta-row">Beartai · Thai · 11 Sep 2026</div>
+    <div class="content-text">NASA-IBM Lunar Foundation Model ในตระกูล Prithvi ช่วยวิเคราะห์ข้อมูลพื้นผิวดวงจันทร์จากเครื่องมือ 9 ชิ้นใน 4 ภารกิจของ NASA ช่วยหาน้ำแข็งและประเมินจุดลงจอด ผลทดสอบแม่นยำกว่าวิธีเดิม 23%</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> สะท้อนแนวโน้มการใช้ Foundation Model เฉพาะทางเร่งงานวิเคราะห์ข้อมูลวิทยาศาสตร์ขนาดใหญ่</div>
+    <div class="tags"><span class="tag">NASA</span><span class="tag">IBM</span><span class="tag">Foundation Model</span><span class="tag">Space AI</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ศึกษาโมเดลตระกูล Prithvi แบบโอเพนซอร์สสำหรับงานภาพถ่ายดาวเทียม</li><li>ประยุกต์แนวทาง foundation model กับข้อมูลภูมิสารสนเทศอื่น</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ติดตามโอกาสความร่วมมือด้าน geospatial AI กับหน่วยงานวิจัยนานาชาติ</li><li>ประเมินการใช้ AI วิเคราะห์ข้อมูลภาพถ่ายจำนวนมาก</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://www.beartai.com/read/1506151/" target="_blank">Beartai</a></div>
+  </div>
+
+  <div class="card topic-ai-trends">
+    <h3>งานวิจัยชี้ VLM ขนาดเล็กสำหรับ Edge ยังระบุชนิดสัตว์จากกล้องดักถ่ายภาพได้ไม่แม่นยำเท่าโมเดลเฉพาะทาง</h3>
+    <div class="meta-row">arXiv (cs.AI) · Research · 10 Sep 2026</div>
+    <div class="content-text">ทดสอบ Qwen3-VL (2B/4B/8B) และ Gemma3 4B เทียบกับ BioCLIP (300M) บนงานจำแนก 96 ชนิดพันธุ์ ทุกโมเดลแม่นยำลดลง 9.6-26.6 จุดเปอร์เซ็นต์บนภาพภาคสนามจริง และมีคำตอบ 5.9-9.6% เป็นชื่อสปีชีส์ปลอมที่ไม่มีอยู่จริง</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> เตือนความเสี่ยง hallucination และความแม่นยำลดลงเมื่อใช้ VLM ในงานภาคสนามด้านอนุรักษ์</div>
+    <div class="tags"><span class="tag">Vision-Language Models</span><span class="tag">Edge AI</span><span class="tag">Conservation</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ทดสอบ domain gap บนข้อมูลภาคสนามจริงก่อนใช้งาน</li><li>พิจารณาโมเดลเฉพาะทางแทน VLM ทั่วไปสำหรับงานที่ต้องแม่นยำสูง</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินความเสี่ยงจาก AI ระบุชนิดพันธุ์ผิดพลาดในโครงการอนุรักษ์</li><li>พิจารณาลงทุนโมเดลเฉพาะทางขนาดเล็กสำหรับ edge AI</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://arxiv.org/abs/2609.11916" target="_blank">arXiv</a></div>
+  </div>
+
+  <div class="card topic-ai-trends">
+    <h3>นักวิจัยเสนอกรอบรวม 'per-token gating' ปรับปรุง On-Policy Distillation</h3>
+    <div class="meta-row">arXiv (cs.AI) · Research · 10 Sep 2026 · EMNLP 2026 Findings</div>
+    <div class="content-text">กรอบพารามิเตอร์รวมสำหรับ per-token gating ผสาน EOPD และ ToDi เป็นกรณีพิเศษของสูตรเดียว ทดสอบบน TweetEval ด้วยครู Qwen3-32B และลูกศิษย์ Qwen3-4B แม่นยำกว่าวิธีเดิมใน 33/36 กรณี แต่การทดลองซ้ำ 3 seed ยังไม่ถึงนัยสำคัญทางสถิติ</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> ให้กรอบมาตรฐานเปรียบเทียบเทคนิค distillation ซึ่งเป็นหัวใจของการสร้างโมเดลขนาดเล็กต้นทุนต่ำ</div>
+    <div class="tags"><span class="tag">Knowledge Distillation</span><span class="tag">EMNLP 2026</span><span class="tag">LLM</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ทดลองใช้กรอบ gating แบบรวมแทน EOPD/ToDi เดิม</li><li>ระวังการตีความผลสถิติที่ยังไม่ผ่านการยืนยันด้วย seed จำนวนมาก</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ติดตามเทคนิค distillation ที่ช่วยลดต้นทุนฝึกโมเดลขนาดเล็ก</li><li>ประเมินโอกาสลดต้นทุน inference ในผลิตภัณฑ์ที่ใช้ LLM</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://arxiv.org/abs/2609.11768" target="_blank">arXiv</a></div>
+  </div>
+
+  <div class="card topic-ai-trends">
+    <h3>AgentZip ระบบบีบอัดหน่วยความจำสำหรับ AI Agent Sandbox ลดการใช้แรมได้สูงสุด 8.7 เท่า</h3>
+    <div class="meta-row">arXiv (cs.AI) · Research · 10 Sep 2026</div>
+    <div class="content-text">AgentZip ระบบบีบอัดหน่วยความจำตัวแรกออกแบบเฉพาะสำหรับ agent sandbox ที่รันพร้อมกันจำนวนมาก ใช้ประโยชน์จากความซ้ำซ้อนระหว่าง sandbox ที่มาจาก template เดียวกัน และจับจังหวะบีบอัดให้ตรงกับช่วง LLM waiting period ลดหน่วยความจำได้สูงสุด 8.7 เท่า เทียบกับ 2.1 เท่าของ Linux ทั่วไป</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> ช่วยแก้คอขวดหน่วยความจำของระบบ agentic AI ขนาดใหญ่ ลดต้นทุนโครงสร้างพื้นฐานได้อย่างมีนัยสำคัญ</div>
+    <div class="tags"><span class="tag">Agentic AI</span><span class="tag">Systems</span><span class="tag">Memory Compression</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ศึกษาแนวทาง cross-sandbox memory compression สำหรับระบบ agent ของตนเอง</li><li>จับจังหวะบีบอัดให้ตรงกับ LLM waiting period เพื่อลดผลกระทบ latency</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินโอกาสลดต้นทุนโครงสร้างพื้นฐานสำหรับบริการ AI agent ขนาดใหญ่</li><li>ติดตามงานวิจัย systems ที่รองรับการขยายสเกล agentic AI</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://arxiv.org/abs/2609.11294" target="_blank">arXiv</a></div>
+  </div>
+
+  <h2 class="section-title">💻 Tech Trends</h2>
+
+  <div class="card topic-tech-trends">
+    <h3>Mecka AI ใกล้ปิดดีลมูลค่า 500 ล้านดอลลาร์ นำโดย Sequoia แข่งเก็บข้อมูลฝึกหุ่นยนต์</h3>
+    <div class="meta-row">TechCrunch · International · 12 Sep 2026</div>
+    <div class="content-text">Mecka AI สตาร์ทอัพเก็บข้อมูลการเคลื่อนไหวมนุษย์เพื่อฝึกหุ่นยนต์ ใกล้ปิดรอบระดมทุนมูลค่า 500 ล้านดอลลาร์นำโดย Sequoia เพียง 3 เดือนหลัง Series A มูลค่า 60 ล้านดอลลาร์ ใช้วิธีจ่ายเงินให้คนสวมเซนเซอร์บันทึกกิจกรรมประจำวัน ตั้งเป้ารายได้ต่อปี 100 ล้านดอลลาร์ภายในสิ้นปี 2026</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> สะท้อนว่าข้อมูล real-world เป็นคอขวดใหม่ของวงการ AI หลังข้อมูลข้อความเริ่มถึงขีดจำกัด</div>
+    <div class="tags"><span class="tag">Robotics</span><span class="tag">Sequoia</span><span class="tag">Training Data</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ศึกษาวิธีเก็บข้อมูล egocentric และ teleoperation สำหรับฝึกหุ่นยนต์</li><li>ติดตามผู้เล่นรายอื่นในตลาด real-world data</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินโอกาสลงทุนกับสตาร์ทอัพ robot training data</li><li>ติดตามแนวโน้มมูลค่าบริษัท AI หุ่นยนต์ในตลาดทุนเสี่ยง</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/" target="_blank">TechCrunch</a></div>
+  </div>
+
+  <div class="card topic-tech-trends">
+    <h3>OpenAI เปิดเบื้องหลัง Habitat ระบบสตอเรจที่รองรับผู้ใช้ ChatGPT กว่าพันล้านคนต่อสัปดาห์</h3>
+    <div class="meta-row">OpenAI · International · 11 Sep 2026</div>
+    <div class="content-text">Habitat รองรับคำขอกว่า 70 ล้านครั้งต่อวินาที ผู้ใช้กว่า 1 พันล้านคนต่อสัปดาห์ใน 40 ภูมิภาค จัดเก็บข้อมูล 500+ เพตะไบต์ ทีมย้ายระบบจาก Python เป็น Rust ในไตรมาส 2 ปี 2026 ด้วยวิศวกรเพียง 2 คนร่วมกับ Codex/GPT-5.5 ได้ประสิทธิภาพ CPU ดีขึ้น 6 เท่า ประหยัดแรม 15 เท่า</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> แสดงศักยภาพของ AI coding agent ในการช่วย migration โครงสร้างพื้นฐานขนาดใหญ่ด้วยทีมเล็ก</div>
+    <div class="tags"><span class="tag">OpenAI</span><span class="tag">Infrastructure</span><span class="tag">Rust</span><span class="tag">Engineering</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ศึกษาการใช้ Codex/GPT ช่วย migration ระบบขนาดใหญ่จาก Python เป็น Rust</li><li>นำแนวทางแก้ asyncio tail latency ไปประยุกต์ใช้</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินศักยภาพ AI coding agent ลดต้นทุนโครงการ infrastructure migration</li><li>ติดตามการเติบโตฐานผู้ใช้ ChatGPT เป็นตัวชี้วัดดีมานด์โครงสร้างพื้นฐาน AI</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://openai.com/index/scaling-storage-one-billion-users-part-one/" target="_blank">OpenAI</a></div>
+  </div>
+
+  <h2 class="section-title">🌏 Global</h2>
+
+  <div class="card topic-global">
+    <h3>อัลท์แมนชี้ IPO ปี 2026 'ไม่ฉลาด' OpenAI ขอเวลาจัดการความปลอดภัยก่อน</h3>
+    <div class="meta-row">TechCrunch · International · 13 Sep 2026</div>
+    <div class="content-text">แซม อัลท์แมนระบุว่าการเข้าตลาดหุ้นปี 2026 เป็นช่วงเวลาที่ 'ไม่ฉลาด' แม้ยื่นเอกสาร IPO แบบลับไปแล้ว ยืนยันจะเข้าตลาดหุ้น 'เมื่อพร้อม' และยอมรับว่าจะไม่เกิดในปี 2026 ท่ามกลางผลกระทบจากเหตุแฮก OpenAI-HuggingFace และการถกเถียงความปลอดภัย AI</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> สะท้อนแรงกดดันด้านความปลอดภัย AI ที่เพิ่มขึ้น อาจกระทบจังหวะระดมทุนของอุตสาหกรรมปีหน้า</div>
+    <div class="tags"><span class="tag">OpenAI</span><span class="tag">Sam Altman</span><span class="tag">IPO</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ติดตามผลกระทบความล่าช้า IPO ต่อทรัพยากรพัฒนาผลิตภัณฑ์</li><li>จับตานโยบายความปลอดภัยที่อาจตามมาก่อน IPO</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินผลกระทบตลาดทุนเทคโนโลยีหาก IPO เลื่อนไปปี 2027</li><li>ติดตามท่าที Anthropic ที่ยื่น IPO ลับไปก่อนหน้านี้</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/" target="_blank">TechCrunch</a></div>
+  </div>
+
+  <div class="card topic-global">
+    <h3>Garry Tan แห่ง Y Combinator หนุนสหรัฐฯ ทำ 'ระบอบกลั่นโมเดล' ของตัวเองบ้าง</h3>
+    <div class="meta-row">TechCrunch · International · 12 Sep 2026</div>
+    <div class="content-text">Garry Tan เสนอว่าสหรัฐฯ ไม่ควรแทรกแซงการที่จีนใช้ distillation ดึงความรู้จากโมเดลแนวหน้า แต่ควรให้แล็บโอเพนเวทของอเมริกาทำแบบเดียวกันบ้าง เพื่อสร้างทางเลือกที่ไม่ใช่ของจีน โต้แย้งว่าแล็บปิดเองก็ไม่เคยขออนุญาตตอนดูดข้อมูลมนุษย์มาฝึกโมเดล และเตือนความเสี่ยงที่อำนาจ AI จะกระจุกอยู่บริษัทเดียว</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> ความเห็นต่างกับ Anthropic สะท้อนความขัดแย้งเชิงนโยบาย AI สหรัฐฯ ที่จะกำหนดทิศทางกฎระเบียบในอนาคต</div>
+    <div class="tags"><span class="tag">Y Combinator</span><span class="tag">Model Distillation</span><span class="tag">AI Policy</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ติดตามข้อถกเถียงสิทธิ์การใช้ผลลัพธ์จาก API โมเดลปิด</li><li>ศึกษาผลกระทบทางกฎหมายของการทำ distillation เชิงพาณิชย์</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ติดตามทิศทางนโยบายกำกับดูแล AI สหรัฐฯ ต่อ distillation</li><li>ประเมินความเสี่ยงและโอกาสหากเปิดกว้าง distillation โมเดลแนวหน้าสหรัฐฯ</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/" target="_blank">TechCrunch</a></div>
+  </div>
+
+</div>
+
+<footer>
+  AI Daily Digest · Generated 2026-09-13 · ai-news-pipeline-combined v1.0 (reduced-scope run — sandbox shell unavailable)
+</footer>
+</body>
+</html>
