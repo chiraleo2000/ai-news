@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Daily Digest — 2026-09-14</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg-primary:#f0f2f8;--bg-card:#fff;--bg-header:#1a1a2e;
+    --neon-cyan:#00d4ff;--neon-purple:#a855f7;--neon-orange:#ff6b35;--neon-green:#00ff88;
+    --text-primary:#1a1a2e;--text-secondary:#4a4a6a;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;font-family:'Rajdhani',sans-serif;background:var(--bg-primary);color:var(--text-primary);
+    background-image:
+      linear-gradient(rgba(0,212,255,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,212,255,0.04) 1px, transparent 1px);
+    background-size:28px 28px;
+  }
+  header.site-header{
+    background:var(--bg-header);color:#fff;padding:36px 24px;text-align:center;
+    border-bottom:3px solid var(--neon-cyan);
+  }
+  header.site-header h1{
+    font-family:'Orbitron',sans-serif;font-weight:900;font-size:2rem;margin:0 0 6px;
+    letter-spacing:1px;
+    background:linear-gradient(90deg,var(--neon-cyan),var(--neon-purple));
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  header.site-header p{font-family:'Share Tech Mono',monospace;color:#9aa0c3;margin:0;font-size:0.95rem;}
+  .container{max-width:1100px;margin:0 auto;padding:24px;}
+  .stats-bar{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:14px;margin-bottom:32px;
+  }
+  .stat-card{
+    background:var(--bg-card);border-radius:10px;padding:16px;text-align:center;
+    box-shadow:0 2px 10px rgba(26,26,46,0.08);border-top:3px solid var(--neon-cyan);
+  }
+  .stat-card .num{font-family:'Orbitron',sans-serif;font-size:1.8rem;font-weight:700;color:var(--text-primary);}
+  .stat-card .label{font-size:0.8rem;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.5px;}
+  h2.section-title{
+    font-family:'Orbitron',sans-serif;font-size:1.25rem;margin:36px 0 16px;padding-bottom:8px;
+    border-bottom:2px solid rgba(26,26,46,0.1);color:var(--text-primary);
+  }
+  .insight-item{
+    background:var(--bg-card);border-radius:10px;padding:16px 18px;margin-bottom:12px;
+    box-shadow:0 2px 8px rgba(26,26,46,0.06);border-left:4px solid var(--neon-orange);
+  }
+  .insight-item h3{margin:0 0 6px;font-size:1.02rem;font-weight:700;}
+  .insight-item p{margin:0;color:var(--text-secondary);font-size:0.92rem;}
+  .badge{
+    display:inline-block;font-family:'Share Tech Mono',monospace;font-size:0.7rem;padding:2px 8px;
+    border-radius:12px;margin-right:6px;text-transform:uppercase;letter-spacing:0.5px;
+  }
+  .badge.high{background:#ffe1e1;color:#c0392b;}
+  .badge.medium{background:#fff3d6;color:#b9770e;}
+  .badge.low{background:#e3f7ea;color:#1e8449;}
+  .card{
+    background:var(--bg-card);border-radius:10px;padding:18px 20px;margin-bottom:16px;
+    box-shadow:0 2px 10px rgba(26,26,46,0.07);
+  }
+  .card.topic-ai-trends{border-left:4px solid var(--neon-cyan);}
+  .card.topic-tech-trends{border-left:4px solid var(--neon-purple);}
+  .card.topic-thailand{border-left:4px solid var(--neon-orange);}
+  .card.topic-global{border-left:4px solid var(--neon-green);}
+  .card h3{margin:0 0 8px;font-size:1.08rem;font-weight:700;line-height:1.4;}
+  .card .meta-row{font-family:'Share Tech Mono',monospace;font-size:0.72rem;color:var(--text-secondary);margin-bottom:10px;}
+  .card .content-text{font-size:0.95rem;line-height:1.7;color:var(--text-primary);margin-bottom:10px;}
+  .card .impact-box{
+    background:rgba(0,212,255,0.06);border-radius:8px;padding:10px 12px;font-size:0.87rem;
+    color:var(--text-secondary);margin-bottom:10px;
+  }
+  .card .impact-box strong{color:var(--text-primary);}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;}
+  .tag{background:rgba(26,26,46,0.06);border-radius:12px;padding:2px 10px;font-size:0.75rem;color:var(--text-secondary);}
+  .actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:0.85rem;margin-bottom:10px;}
+  .actions ul{margin:4px 0 0;padding-left:18px;}
+  .actions .col-title{font-weight:600;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-secondary);}
+  .source-link{font-size:0.82rem;}
+  .source-link a{color:var(--neon-cyan);text-decoration:none;}
+  .notice{
+    background:#fff3d6;border-radius:8px;padding:12px 16px;font-size:0.82rem;color:#8a6d1d;
+    margin-bottom:24px;border-left:4px solid var(--neon-orange);
+  }
+  footer{
+    text-align:center;padding:30px 20px;color:var(--text-secondary);font-family:'Share Tech Mono',monospace;
+    font-size:0.8rem;border-top:1px solid rgba(26,26,46,0.08);margin-top:40px;
+  }
+  @media (max-width:600px){ .actions{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <h1>AI DAILY DIGEST</h1>
+  <p>วันที่ 14 กันยายน 2569 · สรุปข่าว AI รอบ 24-48 ชั่วโมง จากไทย นานาชาติ และงานวิจัย</p>
+</header>
+
+<div class="container">
+
+  <div class="notice">⚠ รันนี้ได้ข่าวจำนวนจำกัด เนื่องจาก sandbox shell/bash ของระบบขัดข้อง (Windows update mount error ตั้งแต่ 8 ก.ย. ยังคงเกิดซ้ำ) ทำให้ไม่สามารถรันสคริปต์ดึงข่าวแบบเต็มรูปแบบและไม่สามารถสร้างไฟล์ PDF ได้ ใช้ WebSearch/WebFetch เจาะข่าวทีละรายการแทน ไม่พบวิดีโอ YouTube ที่ผ่านเกณฑ์ภายในงบประมาณการค้นหาของรอบนี้</div>
+
+  <div class="stats-bar">
+    <div class="stat-card"><div class="num">9</div><div class="label">ข่าวทั้งหมด</div></div>
+    <div class="stat-card"><div class="num">2</div><div class="label">Urgency สูง</div></div>
+    <div class="stat-card"><div class="num">2</div><div class="label">Breakthrough</div></div>
+    <div class="stat-card"><div class="num">3</div><div class="label">แหล่งข่าวไทย</div></div>
+    <div class="stat-card"><div class="num">3</div><div class="label">แหล่งข่าวนานาชาติ</div></div>
+    <div class="stat-card"><div class="num">3</div><div class="label">งานวิจัย</div></div>
+  </div>
+
+  <h2 class="section-title">🔥 Top Insights</h2>
+  <div class="insight-item">
+    <span class="badge high">high</span>
+    <h3>ทรัมป์เมินคำเตือนเรื่องความเสี่ยง AI ชี้สหรัฐฯ ต้องเร่งแข่งกับจีน</h3>
+    <p>ท่าทีของทรัมป์สวนทางกับซีอีโอบริษัท AI ชั้นนำหลายรายที่เรียกร้องให้ชะลอการพัฒนา สะท้อนความขัดแย้งเชิงนโยบายที่อาจทำให้สหรัฐฯ ไม่ออกกฎกำกับดูแล AI อย่างจริงจังในระยะสั้น</p>
+  </div>
+  <div class="insight-item">
+    <span class="badge high">high</span>
+    <h3>TechCrunch ชวนวิเคราะห์คำเตือนวันสิ้นโลกจาก AI ระลอกล่าสุด เกิดจากอะไรกันแน่</h3>
+    <p>การถกเถียงว่าคำเตือนวันสิ้นโลกเป็นความกังวลจริงหรือกลยุทธ์สร้างมูลค่าบริษัทก่อน IPO สะท้อนความซับซ้อนของแรงจูงใจในวงการ AI</p>
+  </div>
+  <div class="insight-item">
+    <span class="badge medium">medium</span>
+    <h3>เศรษฐกิจปี 2030 ใน 3 ฉากทัศน์ AI: Anthropic ไล่เรียงอนาคตผ่าน 4 อาชีพ</h3>
+    <p>แบบจำลองของ Anthropic Institute ชี้ความเสี่ยงเชิงโครงสร้างว่าการเติบโตทางเศรษฐกิจจาก AI อาจไม่กระจายไปถึงแรงงานอย่างเป็นธรรม</p>
+  </div>
+  <div class="insight-item">
+    <span class="badge medium">medium</span>
+    <h3>OpenAI เปิดตัว GPT-6 Astra โมเดลอัจฉริยะสำหรับงานธุรกิจรุ่นใหม่</h3>
+    <p>ยกระดับความสามารถ AI agent ในการทำงานผ่านแอปพลิเคชันจริงโดยไม่ต้องมี API แต่การแตะระดับความเสี่ยงไซเบอร์ขั้นวิกฤติก็ต้องเฝ้าระวัง</p>
+  </div>
+
+  <h2 class="section-title">🤖 AI Trends</h2>
+
+  <div class="card topic-ai-trends">
+    <h3>TechCrunch ชวนวิเคราะห์คำเตือนวันสิ้นโลกจาก AI ระลอกล่าสุด เกิดจากอะไรกันแน่</h3>
+    <div class="meta-row">TechCrunch · International · 13 Sep 2026</div>
+    <div class="content-text">หลังเจคอบ ค็อกซอน อดีตนักวิจัย Anthropic และ OpenAI ลาออกพร้อมเตือนว่าบริษัท AI ชั้นนำกำลัง "พนันกับชีวิตพวกเรา" หัวหน้าฝ่าย Alignment ของ Anthropic โพสต์ยืนยันว่าเชื่อว่า AI อาจฆ่ามนุษย์ทั้งหมดได้ โดยประเมินโอกาสมากกว่า 10% ในทศวรรษหน้า ทีม Equity podcast ของ TechCrunch ตั้งคำถามว่านี่คือความกังวลจริงหรือกลยุทธ์การตลาดก่อน IPO ของ Anthropic</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> อาจส่งผลต่อวิธีที่นักลงทุนและหน่วยงานกำกับดูแลตีความคำแถลงด้านความปลอดภัยของบริษัท AI ในอนาคต</div>
+    <div class="tags"><span class="tag">Anthropic</span><span class="tag">OpenAI</span><span class="tag">AI Safety</span><span class="tag">Existential Risk</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ติดตามการเปิดเผยความเสี่ยงในเอกสาร S-1 ของบริษัท AI ที่เตรียม IPO</li><li>แยกแยะความเสี่ยงเชิงทฤษฎีระยะยาวกับความเสี่ยงเชิงปฏิบัติจริง</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินผลกระทบของคำเตือนความเสี่ยง AI ต่อมูลค่าบริษัทก่อน IPO</li><li>ติดตามแนวทางกำกับดูแลที่อาจเกิดจากการถกเถียงความเสี่ยงระดับสูญพันธุ์</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/" target="_blank">TechCrunch</a></div>
+  </div>
+
+  <div class="card topic-ai-trends">
+    <h3>เศรษฐกิจปี 2030 ใน 3 ฉากทัศน์ AI: Anthropic ไล่เรียงอนาคตผ่าน 4 อาชีพ พยาบาล โปรแกรมเมอร์ คอลเซ็นเตอร์ และช่างไฟฟ้า</h3>
+    <div class="meta-row">Techsauce · Thai · 11 Sep 2026</div>
+    <div class="content-text">The Anthropic Institute เผยแบบจำลองเศรษฐกิจสหรัฐฯ ถึงปี 2030 ใน 3 ฉากทัศน์ ตั้งแต่ระดับพอประมาณที่ AI แตะงานเพียง 4% ไปจนถึงฉากทัศน์รุนแรงที่ GDP สูงกว่าเส้นทางไร้ AI ถึง 32.4% แต่อัตราว่างงานพุ่งเป็น 11.9% สัดส่วนรายได้แรงงานต่อทุนลดจาก 60% เหลือ 45.2% ในฉากทัศน์รุนแรงที่สุด</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> ชี้ความเสี่ยงเชิงโครงสร้างว่าการเติบโตทางเศรษฐกิจจาก AI อาจไม่กระจายไปถึงแรงงานอย่างเป็นธรรม</div>
+    <div class="tags"><span class="tag">Anthropic Institute</span><span class="tag">AI Economy</span><span class="tag">Labor Market</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ศึกษาว่างานย่อยใดในสายอาชีพเสี่ยงถูก AI ทำแทนสูง</li><li>ติดตามเครื่องมือจำลองเศรษฐกิจของ Anthropic Institute</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินความเสี่ยงด้านกำลังคนตามฉากทัศน์ที่รุนแรงขึ้น</li><li>ติดตามข้อเสนอนโยบายกระจายรายได้จาก AI</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://techsauce.co/ai/ai-economy-2030-four-occupations-anthropic-scenarios" target="_blank">Techsauce</a></div>
+  </div>
+
+  <div class="card topic-ai-trends">
+    <h3>Magenta ระบบ agent เชื่อมการให้เหตุผลทางคณิตศาสตร์เข้ากับ Lean แก้โจทย์ IMO 2026 ครบทุกข้อ</h3>
+    <div class="meta-row">arXiv (cs.AI) · Research · 10 Sep 2026</div>
+    <div class="content-text">Magenta ระบบ agentic แบบไม่ต้องฝึกเพิ่มเติม เชื่อมการให้เหตุผลภาษาธรรมชาติของ LLM เข้ากับการพิสูจน์ที่ตรวจสอบได้ผ่าน Lean 4 ทำความแม่นยำ 100% ในโจทย์โอลิมปิกที่ทดสอบทั้งหมดรวม AIME และ HMMT และเมื่อจับคู่กับ K2-Horizon-7B แก้โจทย์ IMO 2026 ได้ครบทั้ง 6 ข้อ</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> ชี้แนวทางสำคัญสำหรับ AI ที่ต้องการความถูกต้องระดับพิสูจน์ได้ในงานวิทยาศาสตร์และวิศวกรรม</div>
+    <div class="tags"><span class="tag">Lean 4</span><span class="tag">Mathematical Reasoning</span><span class="tag">Formal Verification</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ศึกษาสถาปัตยกรรม agentic แบบ training-free ของ Magenta</li><li>ทดลองผสาน Lean เข้ากับ pipeline การให้เหตุผลของ LLM</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินการประยุกต์ใช้กับงานที่มีความเสี่ยงสูงต้องการความแม่นยำ</li><li>ติดตามความก้าวหน้า AI ด้านคณิตศาสตร์ขั้นสูง</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://arxiv.org/abs/2609.11319" target="_blank">arXiv</a></div>
+  </div>
+
+  <div class="card topic-ai-trends">
+    <h3>นักวิจัยเสนอกรอบการจัดแนว AI agent แบบพัฒนาการเหมือนเด็กเรียนรู้บรรทัดฐานสังคม</h3>
+    <div class="meta-row">arXiv (cs.AI) · Research · 10 Sep 2026</div>
+    <div class="content-text">นักวิจัยอิตาลีเสนอมองการจัดแนว AI agent เป็นกระบวนการพัฒนาการแบบเดียวกับเด็กเรียนรู้บรรทัดฐานสังคม แทนการพึ่งพากฎตายตัว โดยเสนอว่า regulatory sandbox ควรเป็นเหมือนพื้นที่การเรียนรู้ที่หล่อหลอมพฤติกรรม AI ผ่านปฏิสัมพันธ์ในสถานการณ์ที่ซับซ้อนขึ้นเรื่อยๆ</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> เสนอทางเลือกใหม่นอกเหนือการเขียนกฎตายตัวสำหรับ AI agent ที่ทำงานในสภาพแวดล้อมเปิด</div>
+    <div class="tags"><span class="tag">AI Alignment</span><span class="tag">Autonomous Agents</span><span class="tag">AI Ethics</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>พิจารณาฝึก AI agent แบบค่อยเป็นค่อยไปผ่านสภาพแวดล้อมที่ซับซ้อนขึ้น</li><li>ใช้แรงจูงใจภายในสร้างสมดุลระหว่างอิสระของ agent กับ alignment</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ติดตามแนวคิด regulatory sandbox สำหรับ AI</li><li>ประเมินความเสี่ยงเชิงจริยธรรมของ AI agent ที่มีอิสระสูง</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://arxiv.org/abs/2609.11660" target="_blank">arXiv</a></div>
+  </div>
+
+  <div class="card topic-ai-trends">
+    <h3>Mr.LHDR เกณฑ์มาตรฐานใหม่ชี้ AI agent ด้าน deep research ยังทำได้แม่นยำแค่ 43% ในงานวิจัยที่ซับซ้อน</h3>
+    <div class="meta-row">arXiv (cs.AI) · Research · 10 Sep 2026</div>
+    <div class="content-text">Mr.LHDR เกณฑ์มาตรฐานใหม่ประเมิน AI agent ด้าน deep research ในงานวิจัยจริงที่ต้องพึ่งพาหลักฐานหลายขั้นตอนเฉลี่ย 12.1 ขั้น ความลึกการพึ่งพากัน 10.4 ชั้น ครอบคลุมหลักฐานหลายรูปแบบ ผลทดสอบพบระบบที่แข็งแกร่งที่สุดทำได้เพียง 43.1% ความแม่นยำโดยรวม</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> เผยช่องว่างสำคัญระหว่างความสามารถ deep research agent ปัจจุบันกับงานวิจัยที่ซับซ้อนจริง</div>
+    <div class="tags"><span class="tag">Deep Research Agents</span><span class="tag">Benchmark</span><span class="tag">Multimodal AI</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ใช้ Mr.LHDR ทดสอบ agent ก่อนนำไปใช้งานจริง</li><li>ให้ความสำคัญกับความสามารถ multimodal ไม่ใช่แค่ข้อความ</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินขีดความสามารถจริงของผลิตภัณฑ์ deep research ก่อนใช้งานที่มีความเสี่ยงสูง</li><li>ติดตามเกณฑ์มาตรฐานใหม่ที่ใกล้เคียงการใช้งานจริงมากขึ้น</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://arxiv.org/abs/2609.11318" target="_blank">arXiv</a></div>
+  </div>
+
+  <h2 class="section-title">💻 Tech Trends</h2>
+
+  <div class="card topic-tech-trends">
+    <h3>MicroDuck หุ่นยนต์เป็ด Hugging Face ขายดีทะลุหมื่นตัว ท่ามกลางดีล Nvidia</h3>
+    <div class="meta-row">MGR Online (Manager) · Thai · 14 Sep 2026</div>
+    <div class="content-text">Hugging Face เปิดตัวหุ่นยนต์เป็ดจิ๋ว MicroDuck ราคา 399 ดอลลาร์ ท่ามกลางดีล Nvidia เข้าซื้อกิจการมูลค่า 1.29 หมื่นล้านดอลลาร์ ยอดสั่งจองทะลุ 10,000 ตัวในสัปดาห์เดียว จนต้องเลื่อนส่งมอบ 4-6 เดือน ที่น่าสนใจคือใช้ชิป Rockchip จีน ไม่ใช่ Nvidia ทั้งที่ Nvidia กำลังเป็นเจ้าของบริษัทแม่</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> เป็นบททดสอบเชิงสัญลักษณ์ว่า Nvidia จะรักษาความเป็นกลางด้านฮาร์ดแวร์ของ Hugging Face ได้หรือไม่</div>
+    <div class="tags"><span class="tag">Hugging Face</span><span class="tag">Nvidia</span><span class="tag">Robotics</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ศึกษาการออกแบบหุ่นยนต์ราคาประหยัดที่ใช้ชิปทางเลือก</li><li>ติดตามผลกระทบของดีล Nvidia-Hugging Face ต่อความเป็นกลางแพลตฟอร์ม</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินโอกาสตลาดหุ่นยนต์ราคาประหยัดที่กำลังโต</li><li>ติดตามความคืบหน้าการควบรวมกิจการ Nvidia-Hugging Face</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://mgronline.com/cyberbiz/detail/9690000089724" target="_blank">MGR Online</a></div>
+  </div>
+
+  <div class="card topic-tech-trends">
+    <h3>OpenAI เปิดตัว GPT-6 Astra โมเดลอัจฉริยะสำหรับงานธุรกิจรุ่นใหม่</h3>
+    <div class="meta-row">OpenAI · International · 9 Sep 2026</div>
+    <div class="content-text">GPT-6 Astra ใช้งานได้แล้วใน ChatGPT Work, Codex และ API ทำคะแนนสูงสุดด้าน computer use วิศวกรรมซอฟต์แวร์ และความปลอดภัยไซเบอร์ ทำงานผ่านแอปพลิเคชันจริงได้แม้ไม่มี API ทำสถิติใหม่บน Terminal-Bench 4.0 ที่ 57.9% และเป็นโมเดลแรกที่แตะระดับความสามารถไซเบอร์ซีเคียวริตี้ขั้นวิกฤติตาม Preparedness Framework</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> ลดอุปสรรคสำคัญของการนำ AI agent ไปใช้ในองค์กร แต่เพิ่มความเสี่ยงด้านการใช้งานในทางที่ผิดที่ต้องเฝ้าระวัง</div>
+    <div class="tags"><span class="tag">OpenAI</span><span class="tag">GPT-6</span><span class="tag">Enterprise AI</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ทดสอบความสามารถ computer use กับ workflow ที่ไม่มี API</li><li>ศึกษามาตรการความปลอดภัยใหม่ก่อนเปิดใช้งานกับข้อมูลสำคัญ</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินโอกาสลดต้นทุนงาน knowledge work</li><li>ติดตามอัปเดตนโยบายความปลอดภัยหลังแตะเกณฑ์ความเสี่ยงไซเบอร์วิกฤติ</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://openai.com/index/gpt-6-astra-next-generation-work/" target="_blank">OpenAI</a></div>
+  </div>
+
+  <h2 class="section-title">🌏 Global</h2>
+
+  <div class="card topic-global">
+    <h3>ทรัมป์เมินคำเตือนเรื่องความเสี่ยง AI ชี้สหรัฐฯ ต้องเร่งแข่งกับจีน</h3>
+    <div class="meta-row">Thairath · Thai · 14 Sep 2026</div>
+    <div class="content-text">โดนัลด์ ทรัมป์ปฏิเสธคำเตือนความเสี่ยง AI โดยระบุว่ากลุ่มที่เตือนเป็นพวกมองโลกแง่ร้าย ย้ำสหรัฐฯ ต้องรักษาความเป็นผู้นำ AI เหนือจีน ขณะที่มัสก์ อัลต์แมน และอาโมเดอีเห็นพ้องว่าควรชะลอการพัฒนาเพื่อป้องกันความผิดพลาดร้ายแรงแต่ต้องไม่ให้จีนแซงหน้า</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> สะท้อนความขัดแย้งเชิงนโยบายระดับชาติที่อาจทำให้สหรัฐฯ ไม่ออกกฎกำกับดูแล AI อย่างจริงจังในระยะสั้น</div>
+    <div class="tags"><span class="tag">Donald Trump</span><span class="tag">AI Policy</span><span class="tag">US-China</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ติดตามท่าทีฝ่ายบริหารสหรัฐฯ ต่อการควบคุม AI</li><li>ศึกษากรณี AI agent ที่ทำงานนอกเหนือคำสั่ง</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินความเสี่ยงเชิงนโยบายจากความไม่แน่นอนของกฎระเบียบ AI สหรัฐฯ</li><li>ติดตามความขัดแย้งพรรคการเมืองสหรัฐฯ เรื่องการกำกับดูแล AI</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://www.thairath.co.th/news/foreign/2959412" target="_blank">Thairath</a></div>
+  </div>
+
+  <div class="card topic-global">
+    <h3>โอบามาเรียกร้องเดโมแครตวางแผนชัดเจนรับมือความปลอดภัย AI</h3>
+    <div class="meta-row">TechCrunch · International · 13 Sep 2026</div>
+    <div class="content-text">บารัค โอบามาเรียกร้องให้เดโมแครตทำ AI เป็นวาระหลักและวางแผนชัดเจนรับมือผลกระทบเศรษฐกิจและความปลอดภัย โดยระบุว่าหากไม่เข้าไปควบคุมอาจเป็นอันตราย แต่หากทำได้ดีก็เป็นประโยชน์ เช่น เร่งพัฒนายารักษาโรค ขณะที่ทรัมป์ตอบโต้ว่าฝ่ายเตือนภัยกำลังพูดเกินจริง</div>
+    <div class="impact-box"><strong>ผลกระทบ:</strong> สะท้อนว่านโยบาย AI ของสหรัฐฯ กำลังกลายเป็นประเด็นแบ่งขั้วทางการเมืองสำคัญ</div>
+    <div class="tags"><span class="tag">Barack Obama</span><span class="tag">Donald Trump</span><span class="tag">AI Policy</span></div>
+    <div class="actions">
+      <div><div class="col-title">Developer</div><ul><li>ติดตามการก่อตัวของกรอบนโยบาย AI จากทั้งสองพรรค</li><li>ศึกษาข้อเสนอควบคุม AI ของเดโมแครตเทียบกับแนวทางปัจจุบัน</li></ul></div>
+      <div><div class="col-title">Business</div><ul><li>ประเมินความเสี่ยงเชิงนโยบายหากเดโมแครตกลับมาคุมสภา</li><li>ติดตามท่าทีผู้นำ AI ต่อการเป็นที่ปรึกษานักการเมืองทั้งสองฝ่าย</li></ul></div>
+    </div>
+    <div class="source-link">แหล่งข่าว: <a href="https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/" target="_blank">TechCrunch</a></div>
+  </div>
+
+</div>
+
+<footer>
+  AI Daily Digest · Generated 2026-09-14 · ai-news-pipeline-combined v1.0 (reduced-scope run — sandbox shell unavailable)
+</footer>
+</body>
+</html>

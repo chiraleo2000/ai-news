@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T12:00:00+07:00",
+  "pipeline_version": "combined-1.0",
+  "total_articles": 9,
+  "topic_breakdown": {
+    "ai_trends": 5,
+    "tech_trends": 2,
+    "thailand": 0,
+    "global": 2
+  },
+  "files": [
+    "2026-09-14_news.json",
+    "2026-09-14_news.html"
+  ],
+  "notes": "PDF (2026-09-14_news.pdf) not generated this run — the sandbox shell/bash tool (mcp__workspace__bash) was unavailable for the entire run, failing repeatedly with the same Plan9/virtiofs mount error seen on every prior day since Sep 8 ('A Windows update released September 8 prevents Claude's workspace from reaching your files'), blocking any Python/reportlab execution and any git operations. Scraping relied on WebSearch + direct web_fetch of individual listing/article pages rather than a full registry-driven crawl across all 92 sources. All 3 batches produced verified articles this run: Batch 1 (Thai: Thairath, MGR Online/Manager, Techsauce — 3 articles), Batch 2 (International: TechCrunch x2, OpenAI x1 — 3 articles), Batch 3 (Research: arXiv cs.AI x3 — 3 articles; no qualifying Thai or international YouTube video was confirmed as being from a registry channel within the search budget, so youtube_channel/youtube_video are empty on all posts and Thai YouTube batch was skipped). No Thailand-government-specific AI article met the freshness/relevance bar this run, so topic_group 'thailand' is 0. Per-article backward-compatibility file tree (News/Articles/{Category}/{Source}/{DATE}/{Slug}/) was skipped this run for scope/time reasons, consistent with prior reduced-scope runs (see 2026-09-13 notes). All 9 articles were individually fetched and verified against primary or near-primary sources (official company blogs/news pages, arXiv abstracts, major outlets) before writing; 5 of 9 articles (Techsauce economy scenarios, GPT-6 Astra, and all 3 arXiv papers) are dated 3-5 days before target_date rather than strictly within the last 24h, mirroring the ~48-120h tolerance used on prior days given the limited freshness of items actually available on source listing pages at run time. No git add/commit/push performed, per pipeline scope (separate task: ai-news-github-deploy)."
+}
