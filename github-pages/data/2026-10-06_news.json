@@ -1,0 +1,526 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T09:46:00+07:00",
+  "schema_version": "combined-1.0",
+  "pipeline_version": "2.1",
+  "stats": {
+    "total": 11,
+    "by_topic": {
+      "ai_trends": 3,
+      "tech_trends": 4,
+      "thailand": 1,
+      "global": 3
+    },
+    "by_source_category": {
+      "thai": 4,
+      "international": 6,
+      "research": 1,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 1,
+      "medium": 7,
+      "low": 3
+    },
+    "breakthrough_count": 3
+  },
+  "top_insights": [
+    {
+      "title": "Reflection เปิดตัว Beam โมเดล AI แบบโอเพนเวตที่ท้าชนโมเดลจีนด้วยต้นทุนคอมพิวต์ต่ำกว่า",
+      "impact_summary": "Beam เพิ่มทางเลือกโมเดลโอเพนเวตประสิทธิภาพสูงที่ใช้ compute ต่ำกว่า ท้าทายทั้งโมเดลจีนและผู้ให้บริการโมเดลปิด",
+      "urgency": "high",
+      "related_domains": [
+        "Open-weight LLM",
+        "AI Infrastructure",
+        "Model Benchmarking"
+      ],
+      "article_id": "techcrunch-reflection-beam-openweight-model-2026-10-05"
+    },
+    {
+      "title": "AI แบบ multi-modal ที่ใช้ข้อมูล transcriptome ทำนายการตอบสนองต่อเคมีบำบัดก่อนผ่าตัดจากชิ้นเนื้อมะเร็งเต้านม",
+      "impact_summary": "โมเดล AUROC 0.79 ช่วยทำนายการตอบสนองเคมีบำบัดมะเร็งเต้านมล่วงหน้า เปิดทางสู่การรักษาแบบเฉพาะบุคคลที่แม่นยำขึ้น",
+      "urgency": "medium",
+      "related_domains": [
+        "Medical AI",
+        "Oncology",
+        "Multi-modal Learning",
+        "Genomics"
+      ],
+      "article_id": "arxiv-transcriptome-ai-breast-cancer-2026-10-05"
+    },
+    {
+      "title": "ผู้พัฒนา AI หุ่นยนต์ FieldAI ระดมทุน 700 ล้านดอลลาร์",
+      "impact_summary": "เงินทุนระดับ 700 ล้านดอลลาร์สะท้อนความเชื่อมั่นนักลงทุนต่อ AI นำทางหุ่นยนต์ที่ไม่ต้องพึ่งแผนที่หรือ GPS ล่วงหน้า",
+      "urgency": "medium",
+      "related_domains": [
+        "Robotics AI",
+        "Venture Funding",
+        "Autonomous Navigation"
+      ],
+      "article_id": "techtalkthai-fieldai-700m-funding-2026-10-05"
+    },
+    {
+      "title": "Safeworld จะโน้มน้าวให้คนเชื่อว่าหุ่นยนต์ gen AI ไม่เป็นอันตรายได้หรือไม่",
+      "impact_summary": "Safeworld สร้างมาตรฐานทดสอบความปลอดภัยหุ่นยนต์ generative AI ด้วยการจำลองสถานการณ์หลายพันรูปแบบก่อนใช้งานจริง",
+      "urgency": "medium",
+      "related_domains": [
+        "Robotics Safety",
+        "Generative AI",
+        "Simulation Testing"
+      ],
+      "article_id": "techcrunch-safeworld-genai-robot-safety-2026-10-05"
+    },
+    {
+      "title": "AI Agent เก่งขึ้นจน Apple เตรียมเพิ่มระบบป้องกันข้อมูลบน Mac",
+      "impact_summary": "Apple ยกระดับการควบคุมสิทธิ์เข้าถึงข้อมูลบน macOS เพื่อลดความเสี่ยงจาก AI agent ที่เข้าถึงข้อมูลผู้ใช้ได้ลึกและอัตโนมัติมากขึ้น",
+      "urgency": "medium",
+      "related_domains": [
+        "AI Agent",
+        "Privacy",
+        "macOS Security"
+      ],
+      "article_id": "beartai-apple-fulldiskaccess-ai-agent-2026-10-05"
+    },
+    {
+      "title": "ปลดล็อกศักยภาพ AI ในไทย AIS วางรากฐาน 5G-ADVANCED โครงสร้างพื้นฐานใหม่ยุค AI",
+      "impact_summary": "โครงข่าย 5G-ADVANCED ครอบคลุมทั่วกรุงเทพฯ วางรากฐานให้ไทยเป็นศูนย์กลาง AI ของอาเซียน",
+      "urgency": "medium",
+      "related_domains": [
+        "Digital Infrastructure",
+        "Telecom",
+        "ASEAN AI Hub"
+      ],
+      "article_id": "techsauce-ais-5gadvanced-asean-ai-hub-2026-10-05"
+    }
+  ],
+  "posts": [
+    {
+      "id": "arxiv-transcriptome-ai-breast-cancer-2026-10-05",
+      "slug": "transcriptome-ai-breast-cancer-neoadjuvant-response",
+      "title": "Transcriptome-informed multi-modal AI for predicting neoadjuvant therapy response from breast cancer biopsies",
+      "title_th": "AI แบบ multi-modal ที่ใช้ข้อมูล transcriptome ทำนายการตอบสนองต่อเคมีบำบัดก่อนผ่าตัดจากชิ้นเนื้อมะเร็งเต้านม",
+      "topic": "AI ทางการแพทย์แบบ multi-modal",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "ทีมนักวิจัยนำโดย Jungkyu Park, Dhruva Biswas และคณะ นำเสนอระบบ AI แบบสองขั้นตอนที่ผสานข้อมูลภาพเนื้อเยื่อกับข้อมูลการแสดงออกของยีน (transcriptome) เพื่อทำนายการตอบสนองต่อเคมีบำบัดก่อนผ่าตัด (neoadjuvant therapy) ในผู้ป่วยมะเร็งเต้านม งานวิจัยนี้แก้ปัญหาข้อมูลติดป้ายไม่เพียงพอสำหรับพัฒนาเครื่องมือวินิจฉัยเชิงลึก ขั้นตอนแรกฝึกโมเดลด้วยข้อมูลผู้ป่วย 8,742 รายจากมะเร็ง 32 ชนิด เพื่ออนุมานรูปแบบการแสดงออกของยีนจากภาพเนื้อเยื่อโดยตรง ผ่านการตรวจสอบโดยพยาธิแพทย์ ขั้นตอนที่สองใช้ข้อมูลยีนที่อนุมานได้ร่วมกับข้อมูลทางคลินิกทำนายการตอบสนองต่อการรักษา ผลทดสอบในกลุ่มตรวจสอบ 1,412 รายจาก 9 กลุ่มศึกษา ได้ค่า AUROC เฉลี่ย 0.79 (ช่วงความเชื่อมั่น 95% ที่ 0.73-0.85) เหนือกว่าตัวบ่งชี้ทางชีวภาพแบบดั้งเดิม และใช้ตัวอย่างเนื้อเยื่อน้อยกว่าเดิม มีความสำคัญเพราะช่วยวางแผนการรักษาแบบเฉพาะบุคคล ระบุล่วงหน้าว่าผู้ป่วยรายใดจะตอบสนองต่อเคมีบำบัด ช่วยลดการให้เคมีบำบัดที่ไม่ได้ผลแก่ผู้ป่วยที่ไม่ตอบสนอง",
+      "source_url": "https://arxiv.org/abs/2610.03693",
+      "tech_impact": "โมเดล AUROC 0.79 ช่วยทำนายการตอบสนองเคมีบำบัดมะเร็งเต้านมล่วงหน้า เปิดทางสู่การรักษาแบบเฉพาะบุคคลที่แม่นยำขึ้น",
+      "tags": [
+        "Multi-modal AI",
+        "Breast Cancer",
+        "Transcriptomics",
+        "Neoadjuvant Therapy",
+        "Oncology"
+      ],
+      "category_label": "AI ทางการแพทย์แบบ multi-modal",
+      "published_at": "2026-10-05T00:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Medical AI",
+        "Oncology",
+        "Multi-modal Learning",
+        "Genomics"
+      ],
+      "actions_developer": [
+        "ศึกษาสถาปัตยกรรมสองขั้นตอนที่อนุมาน transcriptome จากภาพเนื้อเยื่อสำหรับงาน medical AI อื่น",
+        "ประเมินการนำแนวทาง multi-modal นี้ไปปรับใช้กับมะเร็งชนิดอื่นที่มีข้อมูลติดป้ายจำกัด"
+      ],
+      "actions_business": [
+        "ติดตามความคืบหน้าของงานวิจัยนี้สู่การรับรองทางคลินิกเพื่อประเมินโอกาสด้าน health-tech",
+        "พิจารณาความร่วมมือกับทีมวิจัยด้าน AI การแพทย์เพื่อพัฒนาเครื่องมือวินิจฉัยเชิงพาณิชย์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-safeworld-genai-robot-safety-2026-10-05",
+      "slug": "safeworld-genai-robot-safety",
+      "title": "Can Safeworld convince people that gen AI robots won't hurt them?",
+      "title_th": "Safeworld จะโน้มน้าวให้คนเชื่อว่าหุ่นยนต์ gen AI ไม่เป็นอันตรายได้หรือไม่",
+      "topic": "ความปลอดภัยของหุ่นยนต์ที่ขับเคลื่อนด้วย Generative AI",
+      "topic_group": "ai-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Safeworld สตาร์ทอัพด้านความปลอดภัยหุ่นยนต์ เปิดตัวจากการพัฒนาแบบปิดพร้อมเงินทุนระดับ seed กว่า 12 ล้านดอลลาร์ โดยเชี่ยวชาญการประเมินหุ่นยนต์ที่ขับเคลื่อนด้วย generative AI ผ่านการทดสอบด้วยการจำลองสถานการณ์ก่อนนำไปใช้งานจริง ก่อตั้งโดย Dr. Ding Zhao ผู้อำนวยการ Safe AI Lab แห่ง Carnegie Mellon University, Kyle Wong ผู้บริหารสตาร์ทอัพที่มีประสบการณ์ และ Simo Rachidi วิศวกร machine learning ได้รับการสนับสนุนจาก Shine Capital, a16z Speedrun, Box Group และกองทุนของ Carnegie Mellon แพลตฟอร์มใช้ซอฟต์แวร์จำลองอย่าง Genesis หรือ MuJoCo สร้างแบบจำลองมนุษย์ที่สมจริง ทดสอบหุ่นยนต์ในสถานการณ์หลายพันรูปแบบเพื่อค้นหากรณีขอบที่อาจเป็นอันตราย โดยมี Gritt Robotics ผู้พัฒนาหุ่นยนต์ติดตั้งแผงโซลาร์เป็นพันธมิตรใช้งานจริงแล้ว สะท้อนความจำเป็นในการสร้างมาตรฐานความปลอดภัยหุ่นยนต์ AI ตั้งแต่ช่วงต้นของอุตสาหกรรมก่อนเกิดอุบัติเหตุ",
+      "source_url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+      "tech_impact": "Safeworld สร้างมาตรฐานทดสอบความปลอดภัยหุ่นยนต์ generative AI ด้วยการจำลองสถานการณ์หลายพันรูปแบบก่อนใช้งานจริง",
+      "tags": [
+        "Safeworld",
+        "Robotics Safety",
+        "Generative AI",
+        "Carnegie Mellon",
+        "Seed Funding"
+      ],
+      "category_label": "ความปลอดภัยของหุ่นยนต์ที่ขับเคลื่อนด้วย Generative AI",
+      "published_at": "2026-10-05T19:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Robotics Safety",
+        "Generative AI",
+        "Simulation Testing"
+      ],
+      "actions_developer": [
+        "ศึกษาแนวทางการใช้ simulation เช่น Genesis หรือ MuJoCo ทดสอบความปลอดภัยหุ่นยนต์ก่อน deploy",
+        "ออกแบบกรณีทดสอบขอบ (edge case) ที่ครอบคลุมสถานการณ์ปฏิสัมพันธ์กับมนุษย์"
+      ],
+      "actions_business": [
+        "ประเมินการใช้บริการตรวจสอบความปลอดภัยจากบุคคลที่สามก่อนนำหุ่นยนต์ AI ไปใช้งานจริง",
+        "ติดตามมาตรฐานความปลอดภัยหุ่นยนต์ที่กำลังก่อตัวเพื่อเตรียมความพร้อมด้านกฎระเบียบ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-reflection-beam-openweight-model-2026-10-05",
+      "slug": "reflection-beam-open-weight-model",
+      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "title_th": "Reflection เปิดตัว Beam โมเดล AI แบบโอเพนเวตที่ท้าชนโมเดลจีนด้วยต้นทุนคอมพิวต์ต่ำกว่า",
+      "topic": "โมเดลภาษาขนาดใหญ่แบบโอเพนเวต",
+      "topic_group": "ai-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "high",
+      "content": "Reflection AI สตาร์ทอัพที่ได้รับการสนับสนุนจาก Nvidia เปิดตัว Beam โมเดล AI แบบโอเพนเวตรุ่นแรกที่มุ่งแข่งขันกับโมเดลจีน เป็นโมเดลแบบ mixture-of-experts มีพารามิเตอร์รวม 501 พันล้าน และพารามิเตอร์ที่ใช้งานจริง 23 พันล้าน ฝึกด้วยข้อมูล 23.8 ล้านล้านโทเคน รองรับ context window ถึง 1 ล้านโทเคน เทียบกับ GLM 5.2 ของ Z.ai ที่มีพารามิเตอร์รวมราว 744 พันล้าน Reflection อ้างว่า Beam มีประสิทธิภาพเทียบเท่า GLM-5.2 ในการทดสอบการให้เหตุผลขั้นสูง แต่ใช้ compute สำหรับ inference น้อยกว่า 3-4 เท่า และเอาชนะโมเดล Inkling ของ Thinking Machines Lab ในการทดสอบโค้ด 4 รายการ บริษัทระดมทุนแล้วกว่า 4,700 ล้านดอลลาร์จาก Nvidia, Sequoia Capital และ Lightspeed โดยมีมูลค่าก่อนระดมทุนล่าสุดที่ 25,000 ล้านดอลลาร์ และทำสัญญา compute กับ SpaceX และ Nebius มูลค่ากว่า 7,000 ล้านดอลลาร์ถึงปี 2029 มุ่งเจาะกลุ่มองค์กรและประเทศที่ต้องการสร้าง AI factory ของตนเอง เริ่มทดสอบกับ Shinsegae Group ของเกาหลีใต้แล้ว",
+      "source_url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+      "tech_impact": "Beam เพิ่มทางเลือกโมเดลโอเพนเวตประสิทธิภาพสูงที่ใช้ compute ต่ำกว่า ท้าทายทั้งโมเดลจีนและผู้ให้บริการโมเดลปิด",
+      "tags": [
+        "Reflection AI",
+        "Beam",
+        "Open-weight Model",
+        "Nvidia",
+        "Mixture-of-Experts"
+      ],
+      "category_label": "โมเดลภาษาขนาดใหญ่แบบโอเพนเวต",
+      "published_at": "2026-10-06T02:33:53+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Open-weight LLM",
+        "AI Infrastructure",
+        "Model Benchmarking"
+      ],
+      "actions_developer": [
+        "ทดสอบ Beam บนงานที่ต้องการ context window ขนาดใหญ่และต้นทุน inference ต่ำ",
+        "เปรียบเทียบประสิทธิภาพ Beam กับ GLM-5.2 และโมเดลโอเพนซอร์สอื่นสำหรับงานเฉพาะทาง"
+      ],
+      "actions_business": [
+        "ประเมินการใช้ Beam สร้าง AI factory เฉพาะองค์กรหรือประเทศบนข้อมูลที่เป็นกรรมสิทธิ์",
+        "ติดตามการแข่งขันระหว่างโมเดลโอเพนเวตตะวันตกกับจีนเพื่อประเมินกลยุทธ์จัดหาโมเดล"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "openai-chatgpt-ads-expansion-2026-10-05",
+      "slug": "openai-chatgpt-ads-expansion",
+      "title": "Building advertising for the way people use AI",
+      "title_th": "OpenAI ขยายแพลตฟอร์มโฆษณาสำหรับยุคที่คนใช้ AI",
+      "topic": "โฆษณาในแพลตฟอร์ม AI",
+      "topic_group": "tech-trends",
+      "source_name": "OpenAI Blog",
+      "category": "International",
+      "urgency": "low",
+      "content": "OpenAI ขยายแพลตฟอร์มโฆษณาใน ChatGPT ซึ่งมีผู้ใช้งานรายสัปดาห์ถึง 1,200 ล้านคน ด้วยการเปิดตัวรูปแบบโฆษณาภาพใหม่ที่ช่วยให้ผู้ใช้ค้นพบสินค้าและบริการผ่านภาพสร้างแรงบันดาลใจและสถานการณ์การใช้งานจริง โดยเริ่มทดสอบในฟีเจอร์สร้างภาพที่สหรัฐฯ กับผู้ลงโฆษณาที่เลือกไว้ พร้อมเพิ่มความสามารถด้านการวัดผลผ่านความร่วมมือกับบริษัทข้อมูลและ attribution รายใหญ่ เช่น Hightouch, Tealium, LiveRamp และ AppsFlyer ตัวเลขที่น่าสนใจ ได้แก่ WeightWatchers มีต้นทุนต่อการได้ลูกค้าใหม่ต่ำกว่าช่องทาง paid-search ถึง 15.3% แบรนด์สุขภาพ Dose มีลูกค้าใหม่ถึง 67% จากยอดซื้อที่เพิ่มขึ้น และผู้เข้าชมจาก ChatGPT ของ Portland Leather เป็นลูกค้าใหม่ถึง 93% OpenAI ยังร่วมมือกับ DoubleVerify และ Integral Ad Science เพื่อสร้างมาตรการความปลอดภัยของแบรนด์ ตอกย้ำความตั้งใจผลักดัน ChatGPT ให้เป็นช่องทางโฆษณากระแสหลักที่แข่งขันกับช่องทางดิจิทัลดั้งเดิม",
+      "source_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+      "tech_impact": "ChatGPT กลายเป็นช่องทางโฆษณากระแสหลักที่มีผู้ใช้ 1.2 พันล้านคนต่อสัปดาห์ เปิดโอกาสใหม่ให้ธุรกิจเข้าถึงลูกค้าผ่าน AI",
+      "tags": [
+        "OpenAI",
+        "ChatGPT Ads",
+        "Advertising",
+        "Monetization"
+      ],
+      "category_label": "โฆษณาในแพลตฟอร์ม AI",
+      "published_at": "2026-10-05T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Advertising",
+        "ChatGPT",
+        "Digital Marketing"
+      ],
+      "actions_developer": [
+        "ศึกษา API การวัดผลโฆษณาใหม่เพื่อผนวกเข้ากับระบบ attribution ขององค์กร",
+        "ประเมินผลกระทบของโฆษณาต่อประสบการณ์ผู้ใช้เมื่อพัฒนาแอปที่ผนวก ChatGPT"
+      ],
+      "actions_business": [
+        "พิจารณาทดลองลงโฆษณาบน ChatGPT เพื่อเข้าถึงกลุ่มลูกค้าใหม่ตามตัวเลขผลลัพธ์ที่เผยแพร่",
+        "ติดตามมาตรการความปลอดภัยแบรนด์และความเป็นส่วนตัวที่ OpenAI ประกาศก่อนตัดสินใจลงทุน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techtalkthai-fieldai-700m-funding-2026-10-05",
+      "slug": "fieldai-700m-funding-robotics-ai",
+      "title": "ผู้พัฒนา AI หุ่นยนต์ FieldAI ระดมทุน 700 ล้านดอลลาร์",
+      "title_th": "ผู้พัฒนา AI หุ่นยนต์ FieldAI ระดมทุน 700 ล้านดอลลาร์",
+      "topic": "การระดมทุนสตาร์ทอัพ AI หุ่นยนต์",
+      "topic_group": "tech-trends",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "FieldAI สตาร์ทอัพพัฒนาโมเดล AI สำหรับนำทางหุ่นยนต์ รายงานว่าอยู่ระหว่างระดมทุนรอบใหม่มูลค่า 700 ล้านดอลลาร์สหรัฐ อ้างอิงแหล่งข่าวของ Business Insider ซึ่งอาจทำให้บริษัทมีมูลค่าสูงถึง 10,000 ล้านดอลลาร์ หรือประมาณ 5 เท่าของมูลค่าเมื่อเดือนสิงหาคม 2025 ที่ราว 2,000 ล้านดอลลาร์ โดยมีการลงนามหนังสือแสดงเจตจำนงแบบไม่มีผลผูกพันแล้ว ผู้ลงทุนเดิมที่เข้าร่วม ได้แก่ Bezos Expeditions, NVentures ของ Nvidia และ Intel Capital เทคโนโลยีของ FieldAI ช่วยให้หุ่นยนต์เคลื่อนที่ได้โดยไม่ต้องพึ่งแผนที่ล่วงหน้า GPS อินเทอร์เน็ต หรือเส้นทางที่กำหนดไว้ ด้วยการสร้าง digital twin จากข้อมูลเซ็นเซอร์แบบเรียลไทม์ ปัจจุบันมีลูกค้ากว่า 30 รายในหลายอุตสาหกรรม และมีมูลค่าสัญญารวมกับรายได้กว่า 135 ล้านดอลลาร์ รวมถึงความร่วมมือกับหุ่นยนต์ Spot ของ Boston Dynamics สะท้อนความเชื่อมั่นของนักลงทุนต่อ AI หุ่นยนต์อัตโนมัติ",
+      "source_url": "https://www.techtalkthai.com/robotics-ai-developer-fieldai-reportedly-raising-700m-in-funding/",
+      "tech_impact": "เงินทุนระดับ 700 ล้านดอลลาร์สะท้อนความเชื่อมั่นนักลงทุนต่อ AI นำทางหุ่นยนต์ที่ไม่ต้องพึ่งแผนที่หรือ GPS ล่วงหน้า",
+      "tags": [
+        "FieldAI",
+        "Robotics",
+        "Funding",
+        "Boston Dynamics",
+        "Series Funding"
+      ],
+      "category_label": "การระดมทุนสตาร์ทอัพ AI หุ่นยนต์",
+      "published_at": "2026-10-05T13:12:33+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Robotics AI",
+        "Venture Funding",
+        "Autonomous Navigation"
+      ],
+      "actions_developer": [
+        "ศึกษาแนวทาง digital twin จากเซ็นเซอร์เรียลไทม์ของ FieldAI สำหรับงานพัฒนาหุ่นยนต์",
+        "ประเมินการนำโมเดลนำทางหุ่นยนต์แบบไม่พึ่ง GPS ไปใช้กับงานยานยนต์อัตโนมัติ"
+      ],
+      "actions_business": [
+        "ติดตามการเติบโตของมูลค่าบริษัท AI หุ่นยนต์เพื่อประเมินโอกาสลงทุนหรือพันธมิตร",
+        "พิจารณานำโซลูชันหุ่นยนต์อัตโนมัติไปใช้ในงานที่สภาพแวดล้อมเปลี่ยนแปลงบ่อย เช่น ไซต์ก่อสร้าง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "beartai-apple-fulldiskaccess-ai-agent-2026-10-05",
+      "slug": "apple-fulldiskaccess-ai-agent-protection",
+      "title": "AI Agent เก่งขึ้นจน Apple เตรียมเพิ่มระบบป้องกันข้อมูลบน Mac",
+      "title_th": "AI Agent เก่งขึ้นจน Apple เตรียมเพิ่มระบบป้องกันข้อมูลบน Mac",
+      "topic": "ความปลอดภัยและความเป็นส่วนตัวของ AI Agent",
+      "topic_group": "tech-trends",
+      "source_name": "Beartai",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Apple เตรียมปรับปรุงระบบความปลอดภัยของฟีเจอร์ Full Disk Access บน macOS เพื่อรับมือกับความเสี่ยงที่เพิ่มขึ้นจาก AI agent ที่มีความสามารถสูงขึ้นในการทำงานอัตโนมัติบนคอมพิวเตอร์ โดย Apple เปิดเผยว่านักพัฒนาบางรายใช้สิทธิ์ Full Disk Access เข้าถึงข้อมูลส่วนตัวของผู้ใช้ เช่น ไฟล์ อีเมล ข้อความ และประวัติการใช้งานเว็บ โดยผู้ใช้อาจไม่รู้ตัวหรือไม่เข้าใจขอบเขตการเข้าถึงข้อมูลที่เกิดขึ้นจริง แทนที่จะบล็อกการเข้าถึงทั้งหมด Apple จะกำหนดให้ผู้ใช้ต้องให้ความยินยอมที่ชัดเจนและรอบคอบมากขึ้นก่อนอนุญาตสิทธิ์ระดับสูงนี้ แต่ยังไม่ระบุว่าจะเริ่มใช้กับ macOS เวอร์ชันใดหรือกำหนดเวลาที่แน่ชัด ความเคลื่อนไหวนี้สำคัญเพราะสะท้อนช่องโหว่ด้านความปลอดภัยที่เกิดจาก AI agent ที่สามารถเข้าถึงและอาจใช้ข้อมูลส่วนตัวบนอุปกรณ์ของผู้ใช้ในทางที่ผิดได้มากขึ้นตามความสามารถของ AI ที่เพิ่มขึ้นต่อเนื่อง",
+      "source_url": "https://www.beartai.com/read/1509263/",
+      "tech_impact": "Apple ยกระดับการควบคุมสิทธิ์เข้าถึงข้อมูลบน macOS เพื่อลดความเสี่ยงจาก AI agent ที่เข้าถึงข้อมูลผู้ใช้ได้ลึกและอัตโนมัติมากขึ้น",
+      "tags": [
+        "Apple",
+        "macOS",
+        "AI Agent",
+        "Full Disk Access",
+        "Privacy"
+      ],
+      "category_label": "ความปลอดภัยและความเป็นส่วนตัวของ AI Agent",
+      "published_at": "2026-10-05T14:35:56+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Agent",
+        "Privacy",
+        "macOS Security"
+      ],
+      "actions_developer": [
+        "ตรวจสอบและปรับแอปที่ใช้สิทธิ์ Full Disk Access ให้รองรับขั้นตอนยินยอมใหม่ของ Apple",
+        "ออกแบบ AI agent ให้ขอสิทธิ์เข้าถึงข้อมูลเฉพาะเท่าที่จำเป็นและโปร่งใสต่อผู้ใช้"
+      ],
+      "actions_business": [
+        "ทบทวนนโยบายความปลอดภัยข้อมูลองค์กรที่ใช้ AI agent บนอุปกรณ์ Apple",
+        "ติดตามประกาศเวอร์ชัน macOS ที่จะบังคับใช้มาตรการนี้เพื่อวางแผนปรับตัว"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-instinct-ai-agent-group-chats-2026-10-05",
+      "slug": "instinct-ai-agent-group-chats",
+      "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+      "title_th": "Instinct เปิดฟีเจอร์แชทกลุ่ม AI agent ใช้งานได้แม้เพื่อนไม่มีบัญชี",
+      "topic": "AI agent สำหรับผู้บริโภค",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "low",
+      "content": "Instinct สตาร์ทอัพ AI agent ที่มีมูลค่า 10,000 ล้านดอลลาร์จากรอบระดมทุนล่าสุด เปิดตัวฟีเจอร์แชทกลุ่มที่ให้ผู้ใช้เพิ่ม AI agent เข้าไปในบทสนทนากับเพื่อนเพื่อช่วยทำงานร่วมกัน เช่น วางแผนการเดินทาง จองตั๋วอีเวนต์ จัดการลีกฟุตบอลแฟนตาซี จัดคาร์พูล และประสานงานวันหยุด จุดเด่นคือแชทกลุ่มใช้งานได้แม้เพื่อนร่วมสนทนาไม่มีบัญชี Instinct Noah Shinn ผู้ก่อตั้งย้ำมาตรการความเป็นส่วนตัวว่า agent ส่วนตัวต้องขออนุญาตก่อนเชื่อมต่อกับ agent กลุ่ม ผู้ใช้ควบคุมได้ว่าจะไว้ใจกลุ่มใด และ agent กลุ่มถูกแยกออกจากบัญชีส่วนตัวโดยไม่สามารถเข้าถึงได้เอง เริ่มเปิดให้ผู้ใช้กลุ่มแรกก่อนขยายวงกว้างขึ้น การเคลื่อนไหวนี้ทำให้ Instinct นำหน้าคู่แข่งอย่าง Muse ของ Meta ในตลาด AI agent สำหรับผู้บริโภค สะท้อนการแข่งขันที่เข้มข้นขึ้นของ AI agent ในชีวิตประจำวัน",
+      "source_url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "tech_impact": "ฟีเจอร์แชทกลุ่มของ Instinct ขยายการใช้ AI agent จากระดับบุคคลสู่การประสานงานกลุ่มเพื่อน เร่งการแข่งขันตลาด consumer AI agent",
+      "tags": [
+        "Instinct",
+        "AI Agent",
+        "Group Chat",
+        "Consumer AI"
+      ],
+      "category_label": "AI agent สำหรับผู้บริโภค",
+      "published_at": "2026-10-06T01:54:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Consumer AI Agent",
+        "Collaboration Tools",
+        "Privacy"
+      ],
+      "actions_developer": [
+        "ศึกษาสถาปัตยกรรมการแยก agent ส่วนตัวกับ agent กลุ่มเพื่อออกแบบระบบสิทธิ์ที่ปลอดภัย",
+        "พิจารณาฟีเจอร์ทำงานร่วมกันแบบไม่ต้องสร้างบัญชีสำหรับผู้ใช้ปลายทาง"
+      ],
+      "actions_business": [
+        "ติดตามการแข่งขันระหว่าง Instinct, Meta Muse และ ChatGPT Dots ในตลาด AI agent ผู้บริโภค",
+        "ประเมินโอกาสใช้ AI agent แบบกลุ่มสำหรับกิจกรรมทางธุรกิจที่ต้องประสานงานหลายฝ่าย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techsauce-ais-5gadvanced-asean-ai-hub-2026-10-05",
+      "slug": "ais-5g-advanced-asean-ai-connectivity-hub",
+      "title": "ปลดล็อกศักยภาพ AI ในไทย AIS วางรากฐาน 5G-ADVANCED โครงสร้างพื้นฐานใหม่ยุค AI",
+      "title_th": "ปลดล็อกศักยภาพ AI ในไทย AIS วางรากฐาน 5G-ADVANCED โครงสร้างพื้นฐานใหม่ยุค AI",
+      "topic": "โครงสร้างพื้นฐานดิจิทัลสำหรับ AI ในไทย",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "AIS ผู้ให้บริการโทรคมนาคมไทย เปิดตัวเทคโนโลยี 5G-ADVANCED พร้อมประกาศให้กรุงเทพฯ เป็นเมืองหลวงแห่งแรกของโลกที่มีความครอบคลุมเครือข่ายนี้ 100% โดย Kitti Ngamjetnarong ประธานเจ้าหน้าที่บริหารด้านเทคโนโลยี และ Wasit Wattanasap หัวหน้าฝ่ายปฏิบัติการเทคนิคของ AIS ระบุว่าเทคโนโลยีนี้เพิ่มความเร็วอัปโหลดเป็น 2 เท่า และดาวน์โหลดเพิ่มขึ้น 1.5 เท่าเทียบกับ 5G มาตรฐาน ขณะที่ปริมาณการใช้ข้อมูลอัปโหลดของผู้บริโภคไทยเพิ่มขึ้นกว่า 25 เท่า และดาวน์โหลดเพิ่มขึ้น 10 เท่า ปัจจุบัน AIS มีผู้ใช้ 5G อยู่แล้ว 19.7 ล้านคนที่เข้าถึงเทคโนโลยีใหม่ได้ทันที ครอบคลุมศูนย์กลาง 77 จังหวัดทั่วประเทศ และมีแผนขยายเพิ่มอีก 19 จังหวัดภายในปี 2027 โครงสร้างพื้นฐานดิจิทัลเป็นปัจจัยชี้ขาดการขับเคลื่อน AI ในทุกอุตสาหกรรม ช่วยผลักดันไทยสู่การเป็นศูนย์กลาง AI ของอาเซียน ดึงดูดการลงทุนคลาวด์และดาต้าเซ็นเตอร์ระดับโลก รองรับยานยนต์ไร้คนขับ ระบบวิชันอุตสาหกรรม และการวินิจฉัยทางการแพทย์ทางไกล",
+      "source_url": "https://techsauce.co/ai/ais-5g-advanced-asean-ai-connectivity-hub",
+      "tech_impact": "โครงข่าย 5G-ADVANCED ครอบคลุมทั่วกรุงเทพฯ วางรากฐานให้ไทยเป็นศูนย์กลาง AI ของอาเซียน",
+      "tags": [
+        "AIS",
+        "5G-ADVANCED",
+        "Thailand",
+        "ASEAN",
+        "Digital Infrastructure"
+      ],
+      "category_label": "โครงสร้างพื้นฐานดิจิทัลสำหรับ AI ในไทย",
+      "published_at": "2026-10-05T14:47:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Digital Infrastructure",
+        "Telecom",
+        "ASEAN AI Hub"
+      ],
+      "actions_developer": [
+        "ประเมินการพัฒนาแอปพลิเคชัน AI ที่ต้องการแบนด์วิดท์สูงบนโครงข่าย 5G-ADVANCED",
+        "ทดสอบงาน AI แบบเรียลไทม์ เช่น วิชันอุตสาหกรรมและยานยนต์ไร้คนขับบนเครือข่ายใหม่"
+      ],
+      "actions_business": [
+        "พิจารณาโอกาสลงทุนดาต้าเซ็นเตอร์และคลาวด์ในไทยที่ได้รับแรงหนุนจากโครงสร้างพื้นฐานใหม่",
+        "ติดตามแผนขยายเครือข่ายของ AIS เพื่อวางแผนธุรกิจที่พึ่งพาการเชื่อมต่อความเร็วสูง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "openai-eu-text-provenance-watermark-2026-10-05",
+      "slug": "openai-eu-text-provenance-watermark",
+      "title": "Our approach to EU text provenance rules",
+      "title_th": "แนวทางของ OpenAI ต่อกฎการตรวจสอบแหล่งที่มาข้อความของสหภาพยุโรป",
+      "topic": "การกำกับดูแล AI และกฎระเบียบสหภาพยุโรป",
+      "topic_group": "global",
+      "source_name": "OpenAI Blog",
+      "category": "International",
+      "urgency": "medium",
+      "content": "OpenAI ประกาศแนวทางปฏิบัติตามกฎของสหภาพยุโรปที่กำหนดให้เนื้อหาที่สร้างโดย AI ต้องตรวจสอบแหล่งที่มาได้ในรูปแบบที่เครื่องอ่านได้ โดยเปิดตัวเทคโนโลยีลายน้ำที่มองไม่เห็นชื่อ textGrain ซึ่งฝังสัญญาณทางสถิติไว้ในการเลือกคำเพื่อช่วยตรวจจับเนื้อหาที่สร้างโดย AI ลูกค้า API ทั่วโลกเปิดใช้ลายน้ำข้อความได้กับบางโมเดลแล้ว ส่วนผู้ใช้ ChatGPT และ Codex ในสหภาพยุโรปจะได้รับลายน้ำที่มองไม่เห็นภายในไม่กี่สัปดาห์ ผลทดสอบพบว่าระบบตรวจจับความแม่นยำราว 80% สำหรับข้อความ 200 โทเคน และ 95% สำหรับ 400 โทเคน ที่อัตราผลบวกลวง 1% แต่หากแก้ไขคำ 10% ความแม่นยำลดจาก 92% เป็น 66% และหากแก้ไข 25% ลดลงเหลือ 17% OpenAI ยอมรับข้อจำกัดของเทคโนโลยีนี้ว่าไม่สามารถยืนยันผู้เขียน ความเป็นเจ้าของ หรือความถูกต้องของเนื้อหาได้ สะท้อนความพยายามสร้างสมดุลระหว่างการปฏิบัติตามกฎระเบียบกับขีดจำกัดทางเทคนิคที่แท้จริง",
+      "source_url": "https://openai.com/index/eu-text-provenance/",
+      "tech_impact": "OpenAI เปิดใช้ลายน้ำข้อความ textGrain เพื่อรองรับกฎ EU AI Act แต่ยอมรับข้อจำกัดด้านความแม่นยำเมื่อเนื้อหาถูกแก้ไข",
+      "tags": [
+        "OpenAI",
+        "EU AI Act",
+        "Watermarking",
+        "textGrain",
+        "Regulation"
+      ],
+      "category_label": "การกำกับดูแล AI และกฎระเบียบสหภาพยุโรป",
+      "published_at": "2026-10-05T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Regulation",
+        "Content Provenance",
+        "EU AI Act"
+      ],
+      "actions_developer": [
+        "ทดสอบการเปิดใช้ text watermarking ผ่าน API สำหรับโมเดลที่รองรับ",
+        "วางแผนรองรับข้อกำหนดตรวจสอบแหล่งที่มาเนื้อหาสำหรับผู้ใช้ในสหภาพยุโรป"
+      ],
+      "actions_business": [
+        "ติดตามข้อกำหนด EU AI Act เพื่อประเมินผลกระทบต่อผลิตภัณฑ์ที่ใช้เนื้อหาจาก AI",
+        "ประเมินความเสี่ยงด้านความน่าเชื่อถือของเนื้อหาหากลายน้ำถูกหลีกเลี่ยงได้ง่าย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techtalkthai-amazon-aichip-offload-leaseback-2026-10-05",
+      "slug": "amazon-ai-chip-offload-leaseback",
+      "title": "Amazon เตรียมโอนชิป AI มูลค่า 8 พันล้านดอลลาร์ออกแล้วเช่ากลับมา",
+      "title_th": "Amazon เตรียมโอนชิป AI มูลค่า 8 พันล้านดอลลาร์ออกแล้วเช่ากลับมา",
+      "topic": "วิศวกรรมการเงินในโครงสร้างพื้นฐาน AI",
+      "topic_group": "global",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "Amazon เตรียมโอนชิป AI มูลค่าประมาณ 8,000 ล้านดอลลาร์สหรัฐ ออกไปยังนิติบุคคลเฉพาะกิจ (SPV) แล้วเช่ากลับมาใช้งานต่อ ตามรายงานของ Financial Times โดยนิติบุคคลใหม่นี้จะออกตราสารหนี้และเสนอหุ้นสัดส่วน 10% ให้นักลงทุนภายนอก ชิปหลักที่เกี่ยวข้องคือ Nvidia Grace Blackwell ซึ่งรวม GPU Blackwell สองตัวกับ CPU Grace หนึ่งตัวเชื่อมด้วย NVLink-C2C จากการประเมินราคาต่อหน่วยที่ 60,000-70,000 ดอลลาร์ คาดว่า Amazon โอนชิปราว 114,000-133,000 ตัว กระจายใน 5 ศูนย์ข้อมูล การปรับโครงสร้างนี้ช่วยลดภาระหนี้และสินทรัพย์ 8,000 ล้านดอลลาร์ออกจากงบดุล ปรับปรุงอัตราส่วนหนี้สินต่อทุนซึ่งมีผลต่อเครดิตเรตติ้งและต้นทุนการกู้ยืม แนวทางนี้คล้ายกับ Meta ที่ขายหุ้น 80% ของศูนย์ข้อมูล Hyperion โดยรวม 9 บริษัทเทคโนโลยีรายใหญ่มีภาระผูกพันนอกงบดุลรวมกันกว่า 3 ล้านล้านดอลลาร์",
+      "source_url": "https://www.techtalkthai.com/amazon-to-offload-8b-worth-of-ai-chips-lease-them-back/",
+      "tech_impact": "สะท้อนเทรนด์บริษัทเทคโนโลยีใช้วิศวกรรมการเงินบริหารสินทรัพย์ชิป AI มูลค่าสูงนอกงบดุล",
+      "tags": [
+        "Amazon",
+        "AI Chips",
+        "Nvidia",
+        "SPV",
+        "Off-balance-sheet"
+      ],
+      "category_label": "วิศวกรรมการเงินในโครงสร้างพื้นฐาน AI",
+      "published_at": "2026-10-05T13:29:22+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Infrastructure Finance",
+        "Cloud Computing",
+        "Semiconductors"
+      ],
+      "actions_developer": [
+        "ติดตามแนวทางการจัดหาและเช่าใช้ชิป AI ระดับองค์กรเพื่อวางแผนโครงสร้างพื้นฐาน",
+        "ศึกษาข้อกำหนดของ Nvidia Grace Blackwell สำหรับงานที่ต้องใช้ GPU จำนวนมาก"
+      ],
+      "actions_business": [
+        "ประเมินผลกระทบของโมเดล SPV ต่อความเสี่ยงทางการเงินและเครดิตเรตติ้งขององค์กร",
+        "ติดตามแนวทางการระดมทุนโครงสร้างพื้นฐาน AI ของบริษัทเทคโนโลยีรายใหญ่เพื่อเทียบเคียงกลยุทธ์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "techcrunch-chinese-ai-agent-fleet-tencent-amap-2026-10-05",
+      "slug": "chinese-ai-agent-fleet-tencent-amap",
+      "title": "Researchers are tracking a Chinese AI 'agent fleet'",
+      "title_th": "นักวิจัยตรวจพบ 'ฝูง AI agent' จีนสอดแนมบริการแผนที่ของ Alibaba",
+      "topic": "ความมั่นคงปลอดภัยและ AI agent ข้ามพรมแดน",
+      "topic_group": "global",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "urgency": "medium",
+      "content": "นักวิจัยอิสระตรวจพบกลุ่ม AI agent จำนวนมากที่ทำงานบนโครงสร้างพื้นฐานของ Tencent กำลังพยายามเข้าถึงบริการแผนที่ Amap ของ Alibaba โดย agent เหล่านี้ไม่ได้ทำงานประสานกันเป็นฝูงแต่ทำงานแบบคู่ขนานโดยมีการสื่อสารกันน้อยมาก การค้นพบนี้มาจากการตรวจสอบทราฟฟิกผ่านบริการสแกนโดเมน URLquery ซึ่งบันทึกกิจกรรมของ AI agent ที่ไม่สามารถเข้าถึงเว็บไซต์ได้โดยตรง วิธีนี้เคยเปิดเผยกิจกรรมของ agent จาก OpenAI มาก่อน agent ที่พบกำลังสอบถามเส้นทางไปยังจุดเข้าต่างๆ ของสถานที่สาธารณะ เช่น สวนสาธารณะ สวนสัตว์ และโรงพยาบาล นักวิจัยระบุว่าเป็นการหลีกเลี่ยงข้อจำกัด API ของ Alibaba มากกว่าการกระทำที่เป็นอันตรายโดยตรง การค้นพบนี้สะท้อนความกังวลที่เพิ่มขึ้นเรื่องการมีอยู่ของ AI agent บนอินเทอร์เน็ตอย่างต่อเนื่อง หลังเหตุการณ์ข้อมูลรั่วไหลที่ Hugging Face นักวิจัยเพิ่มการเฝ้าระวังกิจกรรม agent ที่ไม่ได้รับอนุญาตมากขึ้น",
+      "source_url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+      "tech_impact": "การพบฝูง AI agent ที่หลีกเลี่ยงข้อจำกัด API ของบริการจีนรายใหญ่ ชี้ถึงความเสี่ยงด้านความปลอดภัยของ agent ที่แพร่หลายบนอินเทอร์เน็ต",
+      "tags": [
+        "AI Agent",
+        "Tencent",
+        "Alibaba",
+        "Security",
+        "China"
+      ],
+      "category_label": "ความมั่นคงปลอดภัยและ AI agent ข้ามพรมแดน",
+      "published_at": "2026-10-05T21:35:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Agent Security",
+        "Cross-border AI",
+        "API Governance"
+      ],
+      "actions_developer": [
+        "ตรวจสอบ log การเข้าถึง API ของบริการตนเองเพื่อหารูปแบบการเข้าถึงที่ผิดปกติจาก AI agent",
+        "เพิ่มมาตรการจำกัดอัตราและตรวจสอบการใช้งานที่เลี่ยงข้อจำกัด API"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงด้านความปลอดภัยข้อมูลจาก AI agent ของบุคคลที่สามที่เข้าถึงบริการองค์กร",
+        "ติดตามแนวทางเฝ้าระวัง agent ที่ไม่ได้รับอนุญาตเพื่อปรับนโยบายความปลอดภัย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
