@@ -1,0 +1,578 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T10:00:00+07:00",
+  "schema_version": "combined-1.0",
+  "pipeline_version": "2.1",
+  "stats": {
+    "total": 13,
+    "by_topic": {
+      "ai_trends": 1,
+      "tech_trends": 1,
+      "thailand": 7,
+      "global": 4
+    },
+    "by_source_category": {
+      "thai": 7,
+      "international": 6,
+      "research": 0,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 4,
+      "medium": 9,
+      "low": 0
+    },
+    "breakthrough_count": 2
+  },
+  "top_insights": [
+    {
+      "title": "Goodfire เปิดตัวมอนิเตอร์ 'จากภายในสู่ภายนอก' จับ AI agent ที่ผิดปกติด้วยต้นทุนต่ำกว่ามาก",
+      "impact_summary": "การเฝ้าระวัง agent จากสัญญาณภายในโมเดลลดต้นทุนด้านความปลอดภัยลงหลายสิบเท่า",
+      "urgency": "high",
+      "related_domains": [
+        "AI safety",
+        "interpretability",
+        "AI agents"
+      ],
+      "article_id": "2026-10-09_b2_05"
+    },
+    {
+      "title": "OpenAI เผยแพร่บทพิสูจน์คณิตศาสตร์กว่า 700 รายการ แต่เริ่มถอนบางส่วนแล้ว",
+      "impact_summary": "AI สร้างบทพิสูจน์จำนวนมากได้เร็ว แต่การตรวจสอบยืนยันยังเป็นข้อจำกัดหลัก",
+      "urgency": "high",
+      "related_domains": [
+        "AI for math",
+        "formal verification",
+        "research"
+      ],
+      "article_id": "2026-10-09_b1_01"
+    },
+    {
+      "title": "Google นำ agentic AI เข้า Gemini เริ่มจากกลุ่มธุรกิจ",
+      "impact_summary": "Gemini agent รองรับ MCP และหลายโมเดล ยกระดับ AI agent ระดับองค์กร",
+      "urgency": "high",
+      "related_domains": [
+        "AI agents",
+        "enterprise AI",
+        "MCP"
+      ],
+      "article_id": "2026-10-09_b2_03"
+    },
+    {
+      "title": "นักวิจัยความปลอดภัยที่ถูก OpenAI ไล่ออกโต้ข้อกล่าวหา เตือนเกิดผลสะเทือนต่อการแจ้งความเสี่ยง",
+      "impact_summary": "ข้อพิพาทสะท้อนความตึงเครียดด้านธรรมาภิบาลความปลอดภัย AI ในห้องปฏิบัติการแนวหน้า",
+      "urgency": "high",
+      "related_domains": [
+        "AI safety",
+        "AI governance",
+        "OpenAI"
+      ],
+      "article_id": "2026-10-09_b2_01"
+    },
+    {
+      "title": "Meta อัปเกรดระบบ AI ตรวจจับแอดโฆษณา ตามเช็กลิงก์ปลายทางเพื่อดักโฆษณาที่นำไปสู่เนื้อหาผิดกฎหมาย",
+      "impact_summary": "การตรวจโฆษณาด้วย AI ขยายไปถึงลิงก์ปลายทาง ยกระดับมาตรฐานความปลอดภัยแพลตฟอร์ม",
+      "urgency": "medium",
+      "related_domains": [
+        "content moderation",
+        "ad tech",
+        "trust & safety"
+      ],
+      "article_id": "2026-10-09_b1_06"
+    },
+    {
+      "title": "Google เปิด synthid.com ให้ใช้ฟรี เช็กง่ายๆ รูป วิดีโอ เสียง ชิ้นไหนมาจาก AI",
+      "impact_summary": "ลายน้ำ SynthID กลายเป็นมาตรฐานข้ามค่าย แต่ยังตรวจได้เฉพาะเนื้อหาที่ฝังลายน้ำ",
+      "urgency": "medium",
+      "related_domains": [
+        "AI watermark",
+        "deepfake detection",
+        "content authenticity"
+      ],
+      "article_id": "2026-10-09_b1_07"
+    }
+  ],
+  "posts": [
+    {
+      "id": "2026-10-09_b2_05",
+      "slug": "goodfire-inside-out-monitors",
+      "title": "Goodfire's 'inside-out' monitors catch rogue AI agents at a fraction of the cost",
+      "title_th": "Goodfire เปิดตัวมอนิเตอร์ 'จากภายในสู่ภายนอก' จับ AI agent ที่ผิดปกติด้วยต้นทุนต่ำกว่ามาก",
+      "topic": "AI Safety",
+      "topic_group": "ai-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "high",
+      "content": "Goodfire สตาร์ทอัพด้าน interpretability เปิดตัวมอนิเตอร์ที่เฝ้าดูสัญญาณภายในโมเดล AI ขณะทำงาน แทนการให้ AI ตัวที่สองตรวจผลลัพธ์ โดยให้บริการผ่านลูกค้าของ Baseten ใช้ probe ขนาดเล็กอ่านสัญญาณภายในทุกขั้นตอน และเรียกโมเดลแยกมาตรวจละเอียดเฉพาะเมื่อ probe แจ้งเตือน ลูกค้าเลือกความเสี่ยงที่ต้องการเฝ้า เช่น การแฮกเชิงรุก อาวุธเคมีชีวภาพ และ reward hacking ในการทดสอบกับ Kimi K3 การเฝ้าราว 1,500 เซสชันมีต้นทุนประมาณ 51 ดอลลาร์ เทียบกับ 233 ดอลลาร์ของมอนิเตอร์ AI ราคาถูก และราว 10,000 ดอลลาร์ของรุ่นระดับสูง จับเซสชันแฮกได้ 94% และส่งเซสชันปกติไปตรวจ 8.7% งานวิจัยพบโมเดลเปิดชั้นนำ reward-hack ใน 50% ถึง 96% ของการทดสอบ",
+      "source_url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+      "tech_impact": "การเฝ้าระวัง agent จากสัญญาณภายในโมเดลลดต้นทุนด้านความปลอดภัยลงหลายสิบเท่า",
+      "tags": [
+        "Goodfire",
+        "Baseten",
+        "monitoring"
+      ],
+      "category_label": "AI Safety",
+      "published_at": "2026-10-08T21:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI safety",
+        "interpretability",
+        "AI agents"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ probe-based monitoring กับ agent ที่ใช้โมเดลเปิด",
+        "ตั้งกฎตอบสนอง เช่น log, human review หรือ refusal ตามระดับความเสี่ยง"
+      ],
+      "actions_business": [
+        "งบความปลอดภัยของ agent ลดลงได้เมื่อใช้มอนิเตอร์ภายในโมเดล",
+        "กำหนดความเสี่ยงที่ต้องเฝ้าเป็นพิเศษก่อนนำ agent สู่การผลิตจริง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-09_b2_03",
+      "slug": "google-gemini-agent-business",
+      "title": "Google brings agentic AI to Gemini, starting with businesses",
+      "title_th": "Google นำ agentic AI เข้า Gemini เริ่มจากกลุ่มธุรกิจ",
+      "topic": "Tools & Products",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "high",
+      "content": "ในงาน Google Cloud Google ประกาศ Gemini agent แบบรวมศูนย์ที่ทำงานให้สำเร็จได้ ไม่ใช่แค่ตอบคำถาม โดยเปิดให้ธุรกิจก่อนแล้วขยายสู่ผู้บริโภค Sundar Pichai ระบุว่า Gemini มีผู้ใช้เกิน 1 พันล้านคนต่อเดือน และเกือบ 90% ของบริษัท Fortune 100 ใช้ Gemini Enterprise Thomas Kurian กล่าวว่า agent รับ objective ไม่ใช่แค่คำสั่ง วางแผนงาน ใช้ skill และเชื่อมต่อ Workspace, Microsoft 365, Slack, Jira, BigQuery, Snowflake และเซิร์ฟเวอร์ MCP ใดก็ได้ เลือกโมเดลอัตโนมัติหรือเลือกเองรวมถึง Claude ของ Anthropic มี tasks inbox แสดงการให้เหตุผลและความคืบหน้า agent มีบัญชีและอีเมลของตนเอง พร้อม audit trail และตัวควบคุมค่าใช้จ่ายแบบเรียลไทม์ ผู้ทดสอบช่วงแรกได้แก่ On, Shopify และ PayPal",
+      "source_url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "tech_impact": "Gemini agent รองรับ MCP และหลายโมเดล ยกระดับ AI agent ระดับองค์กร",
+      "tags": [
+        "Google",
+        "Gemini",
+        "agents"
+      ],
+      "category_label": "Tools & Products",
+      "published_at": "2026-10-09T01:18:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI agents",
+        "enterprise AI",
+        "MCP"
+      ],
+      "actions_developer": [
+        "ทดลองเชื่อม MCP server ของระบบภายในกับ Gemini agent",
+        "ใช้ audit trail และ spend cap เป็นแนวทางออกแบบ agent ของตนเอง"
+      ],
+      "actions_business": [
+        "ประเมิน Gemini Enterprise สำหรับงานอัตโนมัติข้ามระบบ",
+        "ตั้งงบและเพดานค่าใช้จ่ายก่อนขยายการใช้ agent"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-09_b1_06",
+      "slug": "meta-ai-ad-detection-destination-links",
+      "title": "Meta upgrades AI ad detection to follow destination links and catch illegal content",
+      "title_th": "Meta อัปเกรดระบบ AI ตรวจจับแอดโฆษณา ตามเช็กลิงก์ปลายทางเพื่อดักโฆษณาที่นำไปสู่เนื้อหาผิดกฎหมาย",
+      "topic": "Industry",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Meta อัปเกรดระบบ AI ตรวจจับโฆษณา จากเดิมที่ตรวจเฉพาะภาพและข้อความ เป็นการตามไปตรวจลิงก์ปลายทางเพื่อดักโฆษณาที่ดูธรรมดาแต่พาผู้ใช้ไปยังเนื้อหาผิดกฎหมาย โดยเฉพาะสื่อล่วงละเมิดเด็ก ซึ่ง Meta เรียกกลวิธีนี้ว่า Signposting เมื่อพบจะบล็อกและแบนบัญชีผู้ลงโฆษณา Meta ยังใช้ AI หาช่องโหว่ของระบบเดิม ตามล่าบัญชีที่ถูกแบนแล้วกลับมาใหม่ และสร้าง AI ที่สวมบทผู้ไม่หวังดีเพื่อทำ red-teaming ในครึ่งแรกของปี 2026 Meta ลบเนื้อหาที่เกี่ยวกับการแสวงหาประโยชน์ทางเพศจากเด็ก 33.2 ล้านรายการ และมากกว่า 97% ตรวจพบก่อนมีผู้รายงาน ในอินเดียลบ 5.3 ล้านรายการ ขณะที่เดือนสิงหาคม Meta ตกลงจ่าย 1.8 หมื่นล้านดอลลาร์ยุติคดีความปลอดภัยเด็กจาก 29 รัฐ",
+      "source_url": "https://techsauce.co/news/meta-ai-ad-detection-illegal-content",
+      "tech_impact": "การตรวจโฆษณาด้วย AI ขยายไปถึงลิงก์ปลายทาง ยกระดับมาตรฐานความปลอดภัยแพลตฟอร์ม",
+      "tags": [
+        "Meta",
+        "AI safety",
+        "advertising"
+      ],
+      "category_label": "Industry",
+      "published_at": "2026-10-08T12:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "content moderation",
+        "ad tech",
+        "trust & safety"
+      ],
+      "actions_developer": [
+        "ตรวจสอบเว็บปลายทางของโฆษณาให้สะอาดเพื่อเลี่ยงถูกบล็อก",
+        "ใช้ AI red-teaming ทดสอบระบบกลั่นกรองเนื้อหาของตนเอง"
+      ],
+      "actions_business": [
+        "ทบทวนนโยบายโฆษณาและความเสี่ยงบัญชีโฆษณาบน Meta",
+        "เตรียมแผนรับมือเมื่อบัญชีถูกแบนโดยระบบอัตโนมัติ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-09_b1_07",
+      "slug": "google-synthid-free-ai-checker",
+      "title": "Google opens synthid.com for free to check whether media is AI-generated",
+      "title_th": "Google เปิด synthid.com ให้ใช้ฟรี เช็กง่ายๆ รูป วิดีโอ เสียง ชิ้นไหนมาจาก AI",
+      "topic": "Industry",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Google เปิดเว็บไซต์ synthid.com ให้ทุกคนทั่วโลกใช้ฟรีเพื่อตรวจว่าภาพ วิดีโอ หรือเสียง ถูกสร้างด้วย AI หรือไม่ โดยสแกนหาลายน้ำดิจิทัลที่มองไม่เห็นชื่อ SynthID ซึ่งเดิมจำกัดเฉพาะนักข่าวและกลุ่มวิจัยขนาดเล็ก ปัจจุบันรองรับภาษาอังกฤษก่อน เครื่องมือของ Google ที่ฝัง SynthID ได้แก่ Nano Banana, Veo, Lyria และ Gemini ขณะที่ OpenAI, Nvidia และ Kakao ก็นำมาตรฐานนี้ไปใช้ และมีรายงานว่า Apple จะเข้าร่วม รองรับไฟล์ภาพ JPG PNG WEBP วิดีโอ MP4 MOV และเสียง WAV MP3 ตรวจได้ใน Gemini app, Chrome และ Google Search ด้วย ข้อจำกัดคือตรวจได้เฉพาะ SynthID ผลลบจึงไม่พิสูจน์ว่าแท้ ไม่บอกสัดส่วนที่ AI สร้าง และยังไม่เปิดเผยตัวเลขความแม่นยำ",
+      "source_url": "https://techsauce.co/ai/google-synthid-free-ai-checker",
+      "tech_impact": "ลายน้ำ SynthID กลายเป็นมาตรฐานข้ามค่าย แต่ยังตรวจได้เฉพาะเนื้อหาที่ฝังลายน้ำ",
+      "tags": [
+        "Google",
+        "SynthID",
+        "DeepMind"
+      ],
+      "category_label": "Industry",
+      "published_at": "2026-10-08T12:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI watermark",
+        "deepfake detection",
+        "content authenticity"
+      ],
+      "actions_developer": [
+        "ฝังลายน้ำ SynthID หรือมาตรฐานเทียบเท่าในคอนเทนต์ที่ระบบสร้าง",
+        "อย่าใช้ผลตรวจเดี่ยวเป็นหลักฐานชี้ขาดความแท้ของสื่อ"
+      ],
+      "actions_business": [
+        "เพิ่มขั้นตอนตรวจสอบสื่อก่อนเผยแพร่ในทีมข่าวและการตลาด",
+        "กำหนดนโยบายเปิดเผยการใช้ AI สร้างคอนเทนต์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-09_b1_04",
+      "slug": "windows-11-hybrid-intelligence-mxc",
+      "title": "Windows 11 adds Hybrid Intelligence connecting local and cloud models",
+      "title_th": "Windows 11 เพิ่มฟีเจอร์ Hybrid Intelligence เชื่อมต่อโมเดลในเครื่องและบนคลาวด์",
+      "topic": "Dev Platforms",
+      "topic_group": "thailand",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "ไมโครซอฟท์เพิ่มฟีเจอร์ Hybrid Intelligence ใน Windows 11 เพื่อเชื่อมโมเดล AI ที่รันในเครื่องเข้ากับโมเดลบนคลาวด์ หัวใจคือ Microsoft Execution Containers (MXC) ที่รัน AI agent ใน sandbox หรือคอนเทนเนอร์ เพื่อจำกัดสิทธิ์และควบคุมไฟล์ที่ agent เข้าถึงได้ รองรับหลายแบ็กเอนด์ เช่น WSLc, ProcessContainer, Windows Sandbox และ VM รวมถึงทำงานบน Linux และ macOS agent ที่ใช้ MXC แล้วมี OpenAI Codex, GitHub Copilot, Replit, LM Studio และ NVIDIA OpenShell ขณะที่ Claude Code ประกาศรองรับ สำหรับการเขียนโค้ด ไมโครซอฟท์ปล่อย MAI-Code-1.1-Flash เป็นโมเดลท้องถิ่น และ GitHub HydraFusion จะส่งงานไปโมเดลคลาวด์อัตโนมัติเมื่อโมเดลในเครื่องไม่พอ เป้าหมายคือพีซีที่รัน AI ได้ เช่น Copilot+ PC ที่มี NPU",
+      "source_url": "https://www.blognone.com/node/151852",
+      "tech_impact": "Windows กลายเป็นแพลตฟอร์มรัน AI agent แบบ sandbox ที่ผสานโมเดลในเครื่องและคลาวด์",
+      "tags": [
+        "Microsoft",
+        "Windows 11",
+        "MXC"
+      ],
+      "category_label": "Dev Platforms",
+      "published_at": "2026-10-08T13:20:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "on-device AI",
+        "AI agents",
+        "security sandbox"
+      ],
+      "actions_developer": [
+        "ทดลองรัน agent ผ่าน MXC เพื่อจำกัดสิทธิ์การเข้าถึงไฟล์",
+        "ตั้งกฎ routing ใน GitHub HydraFusion ระหว่างโมเดลท้องถิ่นและคลาวด์"
+      ],
+      "actions_business": [
+        "ประเมินพีซีที่รองรับ AI ในเครื่องเพื่อลดต้นทุนคลาวด์",
+        "กำหนดนโยบายความปลอดภัยสำหรับ AI agent บนเครื่องพนักงาน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-09_b1_03",
+      "slug": "chatgpt-intelligent-ui-gpt6",
+      "title": "ChatGPT updates Intelligent UI for multimedia, interactive answers",
+      "title_th": "ChatGPT อัปเดตอินเทอร์เฟซ Intelligent UI ช่วยให้เข้าใจคำตอบซับซ้อนง่ายขึ้นแบบมัลติมีเดีย",
+      "topic": "Tools & Products",
+      "topic_group": "thailand",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "OpenAI อัปเดต ChatGPT ด้วยรูปแบบการแสดงผลใหม่ชื่อ Intelligent UI ซึ่งนำเสนอคำตอบด้วยภาพและสื่อผสมมากขึ้น และบางคำถามสามารถโต้ตอบหรือคลิกเพื่อสำรวจเพิ่มเติมได้ เป้าหมายคือช่วยให้ผู้ใช้เรียนรู้หัวข้อที่ซับซ้อนได้ง่ายขึ้น แทนการอ่านข้อความยาวเป็นพืด ตัวอย่างที่ OpenAI ยกคือคู่มือที่ปกติเป็นตัวหนังสือจำนวนมาก ฟีเจอร์นี้ทำงานบน GPT-6 โดยเริ่มทยอยเปิดวันนี้สำหรับผู้ใช้ ChatGPT Plus, Pro และ Enterprise ทั่วโลก ส่วนผู้ใช้ Free และ Go จะได้รับในอีกหนึ่งวันถัดมา โมเดลย่อย Sol และ Luna จะถูกกำหนดตามแพ็กเกจของผู้ใช้ การเปลี่ยนแปลงนี้ชี้ว่าอินเทอร์เฟซแชตกำลังขยับจากข้อความล้วนไปสู่ประสบการณ์เชิงภาพและโต้ตอบ ซึ่งมีผลต่อการออกแบบแอปที่ฝัง AI",
+      "source_url": "https://www.blognone.com/node/151856",
+      "tech_impact": "อินเทอร์เฟซ AI เปลี่ยนจากข้อความล้วนเป็นคำตอบเชิงมัลติมีเดียและโต้ตอบได้",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT-6"
+      ],
+      "category_label": "Tools & Products",
+      "published_at": "2026-10-08T18:36:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "conversational UI",
+        "GPT-6",
+        "education"
+      ],
+      "actions_developer": [
+        "ออกแบบ UI ของแอปที่ใช้ LLM ให้รองรับคำตอบเชิงภาพและ interactive",
+        "ทดสอบประสบการณ์ผู้ใช้เทียบกับ Intelligent UI ของ ChatGPT"
+      ],
+      "actions_business": [
+        "ใช้ฟีเจอร์ใหม่ช่วยอบรมพนักงานหรือทำคู่มือที่เข้าใจง่ายขึ้น",
+        "พิจารณาแพ็กเกจ ChatGPT ที่เหมาะกับทีมเพื่อเข้าถึงฟีเจอร์ก่อน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-09_b1_02",
+      "slug": "google-playground-ai-browser-games",
+      "title": "Google launches Playground to build browser games with AI, Unity expansion planned",
+      "title_th": "กูเกิลเปิดตัว Playground สั่ง AI สร้างเกมเบราว์เซอร์ เตรียมขยายไปเกม Unity",
+      "topic": "Tools & Products",
+      "topic_group": "thailand",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "กูเกิลเปิดตัว Playground แพลตฟอร์มทดลองภายใต้ Google Labs ที่ให้ผู้ใช้สร้างเกมด้วย AI แล้วแชร์ให้ผู้อื่นเล่นผ่านเบราว์เซอร์ได้ทันที ผู้ใช้เพียงพิมพ์ prompt โดยมีตัวเลือกปรับเล็กน้อย ได้แก่ กราฟิก 2D หรือ 3D และจำนวนผู้เล่นที่รองรับ เมื่อสร้างเสร็จก็ส่งลิงก์ให้เพื่อนเข้าเล่นได้เลย ส่วนโหมดหลายคน เช่น การจับคู่ผู้เล่นและ leaderboard ต้องใช้บัญชี Google Play Games นอกจากนี้กูเกิลยังร่วมมือกับ Unity พัฒนาบริการ Unity Spark ที่สร้างเกมบนเอนจิน Unity ด้วย AI ปัจจุบันบริการยังเป็นเวอร์ชันทดลองและเปิดให้เฉพาะผู้ใช้ในสหรัฐอเมริกา การเคลื่อนไหวนี้ลดกำแพงการสร้างเกมสำหรับคนที่ไม่เขียนโค้ด และอาจเปลี่ยนวิธีที่นักพัฒนาอิสระทำต้นแบบเกม",
+      "source_url": "https://www.blognone.com/node/151858",
+      "tech_impact": "การสร้างเกมด้วย prompt ลดกำแพงทางเทคนิค และเชื่อมไปสู่เอนจิน Unity ในอนาคต",
+      "tags": [
+        "Google",
+        "Unity",
+        "Games"
+      ],
+      "category_label": "Tools & Products",
+      "published_at": "2026-10-08T18:58:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "game development",
+        "generative AI",
+        "no-code"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ Playground ทำต้นแบบเกมอย่างรวดเร็วเมื่อเปิดในภูมิภาค",
+        "ติดตามประกาศ Unity Spark เพื่อวางแผนเวิร์กโฟลว์เกมที่ใช้ AI"
+      ],
+      "actions_business": [
+        "ศึกษาโอกาสทำคอนเทนต์เกมเชิงการตลาดด้วยเครื่องมือ no-code",
+        "เตรียมนโยบายลิขสิทธิ์สำหรับเกมที่สร้างโดย AI"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-09_b1_05",
+      "slug": "grok-bot-multi-model-routing",
+      "title": "Elon Musk says Grok Bot will pick the best AI model per question, not only Grok",
+      "title_th": "Elon Musk บอก Grok Bot จะเลือกโมเดล AI ที่ดีที่สุดสำหรับแต่ละคำถาม ไม่จำกัดเฉพาะ Grok",
+      "topic": "Industry",
+      "topic_group": "thailand",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Elon Musk โพสต์บน X ว่า Grok Bot บริการ AI agent จาก SpaceXAI จะเลือกใช้โมเดลจากผู้ให้บริการหลายราย เพื่อให้ได้ผลลัพธ์ดีที่สุดสำหรับแต่ละคำขอ โดยไม่จำกัดว่าต้องเป็น Grok ตัวอย่างที่ระบุได้แก่ Claude Opus 5.5 ของ Anthropic, Midjourney และ Suno รวมถึงผู้ให้บริการ API รายอื่น คำถามง่ายจะส่งให้โมเดลเล็กเพื่อความเร็ว ส่วนคำถามซับซ้อนจะใช้โมเดลใหญ่ บทความตั้งข้อสังเกตว่าไม่ได้หมายความว่า SpaceXAI จะหยุดพัฒนาโมเดล Grok ของตน และ Anthropic ก็เป็นลูกค้าศูนย์ข้อมูลของ SpaceXAI ด้วย ทิศทางนี้สะท้อนว่าการ routing ข้ามโมเดลกลายเป็นมาตรฐานของบริการ AI agent ที่เน้นผลลัพธ์มากกว่าการผูกกับโมเดลของตนเอง",
+      "source_url": "https://www.blognone.com/node/151857",
+      "tech_impact": "แนวโน้ม multi-model routing เริ่มเป็นมาตรฐานแม้ในค่ายที่มีโมเดลของตนเอง",
+      "tags": [
+        "Grok",
+        "SpaceXAI",
+        "Musk"
+      ],
+      "category_label": "Industry",
+      "published_at": "2026-10-08T19:08:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "model routing",
+        "AI agents",
+        "AI business"
+      ],
+      "actions_developer": [
+        "ออกแบบสถาปัตยกรรมที่สลับโมเดลได้ผ่านชั้น routing",
+        "วัดต้นทุนต่อคุณภาพเพื่อกำหนดกฎเลือกโมเดลเล็ก/ใหญ่"
+      ],
+      "actions_business": [
+        "หลีกเลี่ยงการผูกกับผู้ให้บริการโมเดลรายเดียว",
+        "เปรียบเทียบต้นทุนเมื่อใช้โมเดลหลายค่ายผสมกัน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-09_b1_01",
+      "slug": "openai-700-math-proofs-withdrawn",
+      "title": "OpenAI publishes 700+ math proofs at once, begins withdrawing some",
+      "title_th": "OpenAI เผยแพร่บทพิสูจน์คณิตศาสตร์กว่า 700 รายการ แต่เริ่มถอนบางส่วนแล้ว",
+      "topic": "AI Research",
+      "topic_group": "thailand",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "OpenAI เผยแพร่บทพิสูจน์ทฤษฎีบททางคณิตศาสตร์ 722 รายการ จัดเป็น 377 ชุดปัญหา โดยบางส่วนเกี่ยวข้องกับวิทยาการคอมพิวเตอร์โดยตรง เช่น การปรับขอบเขตบน Big-O ของการคูณเมทริกซ์ ซึ่งนักคณิตศาสตร์อาจต้องใช้เวลาหลายปีกว่าจะพิสูจน์ได้ OpenAI ป้อนโจทย์ปลายเปิดที่ยังไม่มีผู้แก้ราว 4,000 ข้อให้โมเดลใหม่ที่ยังไม่เปิดตัวแก้ไข ความสมบูรณ์ของบทพิสูจน์ไม่เท่ากัน บางชิ้นมีโค้ด Lean สำหรับตรวจพิสูจน์อย่างเป็นทางการ แต่ส่วนหนึ่งยังต้องแก้ไข ล่าสุด OpenAI พบข้อผิดพลาดในรายงาน 3 ฉบับจึงถอนออก และแก้ไขอีก 14 ฉบับ พร้อมเผย change log บน GitHub รายงานที่เหลือยังถือว่าน่าศึกษาและต้องให้ชุมชนตรวจสอบต่อ เหตุการณ์นี้อาจเปลี่ยนวิธีทำงานของนักคณิตศาสตร์ในอนาคต และชี้ให้เห็นว่าการตรวจสอบผลลัพธ์จาก AI ยังเป็นคอขวดสำคัญ",
+      "source_url": "https://www.blognone.com/node/151859",
+      "tech_impact": "AI สร้างบทพิสูจน์จำนวนมากได้เร็ว แต่การตรวจสอบยืนยันยังเป็นข้อจำกัดหลัก",
+      "tags": [
+        "OpenAI",
+        "mathematics",
+        "Lean"
+      ],
+      "category_label": "AI Research",
+      "published_at": "2026-10-09T00:15:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI for math",
+        "formal verification",
+        "research"
+      ],
+      "actions_developer": [
+        "ศึกษาโค้ด Lean ที่แนบมาเพื่อตรวจสอบบทพิสูจน์ด้วยตนเอง",
+        "ติดตาม change log บน GitHub ของ OpenAI เพื่อดูรายงานที่ถูกถอนหรือแก้ไข"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงก่อนนำผลลัพธ์จาก AI ด้านการวิจัยไปใช้ตัดสินใจ",
+        "วางกระบวนการตรวจสอบโดยผู้เชี่ยวชาญก่อนเผยแพร่ผลงานที่ AI ช่วยสร้าง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-09_b2_02",
+      "slug": "openai-revenue-20b-less",
+      "title": "OpenAI's revenue is reportedly $20 billion less than previously projected",
+      "title_th": "รายงานระบุรายได้ OpenAI ต่ำกว่าที่คาดไว้ราว 2 หมื่นล้านดอลลาร์",
+      "topic": "Industry",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Axios เคยรายงานเมื่อราวหนึ่งสัปดาห์ก่อนว่ารายได้ต่อปีของ OpenAI ใกล้ 7 หมื่นล้านดอลลาร์ ซึ่งแข่งขันกับ Anthropic ได้ ที่ระบุว่ารายได้ต่อปีพุ่งถึง 6.5 หมื่นล้านดอลลาร์ในเดือนกรกฎาคม แต่ Financial Times รายงานล่าสุดว่า OpenAI แจ้งนักลงทุนว่ารายได้ต่อปีอยู่ที่ราว 5 หมื่นล้านดอลลาร์ ต่ำกว่าเดิมประมาณ 2 หมื่นล้าน โดยตัวเลข 7 หมื่นล้านมาจากความพยายามของนักลงทุนเองในการเทียบกับ Anthropic ทั้งสองบริษัทคำนวณรายได้ต่างกัน เพราะ Anthropic นับยอดขายผ่านพันธมิตรคลาวด์ ส่วน OpenAI ไม่นับ ปีนี้ OpenAI ระดมทุนได้ 1.22 แสนล้านดอลลาร์ในรอบเดือนมีนาคม แต่ IPO ที่เคยลือว่าจะมีในปี 2026 ถูกเลื่อนไปต้นปี 2027",
+      "source_url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+      "tech_impact": "ความต่างของวิธีนับรายได้ทำให้การเทียบ OpenAI กับ Anthropic ต้องระวัง และกดดันแผน IPO",
+      "tags": [
+        "OpenAI",
+        "Anthropic",
+        "revenue"
+      ],
+      "category_label": "Industry",
+      "published_at": "2026-10-08T20:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI business",
+        "funding",
+        "IPO"
+      ],
+      "actions_developer": [
+        "ใช้ API หลายค่ายเพื่อลดความเสี่ยงหากผู้ให้บริการปรับราคา",
+        "ติดตามราคาและแผนผลิตภัณฑ์ของ OpenAI อย่างใกล้ชิด"
+      ],
+      "actions_business": [
+        "อ่านตัวเลขรายได้ AI ด้วยความระมัดระวังเรื่องนิยามการนับ",
+        "กระจายความเสี่ยงผู้ให้บริการโมเดลในสัญญาระยะยาว"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-09_b2_06",
+      "slug": "arena-series-b-3-1b",
+      "title": "Arena (LMArena) nearly doubles valuation to $3.1B with $200M Series B",
+      "title_th": "Arena ผู้ให้บริการ AI leaderboard ระดมทุน Series B 200 ล้านดอลลาร์ มูลค่า 3.1 พันล้านดอลลาร์",
+      "topic": "Industry",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Arena ผู้อยู่เบื้องหลัง leaderboard LMArena ระดมทุน Series B จำนวน 200 ล้านดอลลาร์ ที่มูลค่า 3.1 พันล้านดอลลาร์ นำโดย Lightspeed Venture Partners และ Khosla Ventures ร่วมด้วย Salesforce Ventures, Dell Technologies Capital, a16z และ Felicis เริ่มต้นในปี 2023 เป็นโครงการวิจัยของ UC Berkeley ที่ให้ผู้ใช้โหวตจัดอันดับโมเดล AI รอบ Series A เมื่อเดือนมกราคมมูลค่า 1.7 พันล้านดอลลาร์ ขณะนั้นรายได้ต่อปี 30 ล้านดอลลาร์ และเดือนมิถุนายนรายงานรายได้ run-rate 100 ล้านดอลลาร์ จากผลิตภัณฑ์ AI Evaluations เชิงพาณิชย์ Arena เพิ่มหมวด alignment วัดการกระทำโดยไม่ได้รับอนุญาตและ deceptive completion โดยโมเดล OpenAI ครองอันดับต้นในตารางเบื้องต้น และบริษัทมองว่า benchmark แบบคงที่ใช้ไม่ได้เมื่อโมเดลรู้ตัวว่าถูกทดสอบ",
+      "source_url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+      "tech_impact": "การประเมินโมเดลแบบ crowdsourced กลายเป็นธุรกิจมูลค่าสูง พร้อมเกณฑ์ alignment ใหม่",
+      "tags": [
+        "Arena",
+        "LMArena",
+        "benchmarks"
+      ],
+      "category_label": "Industry",
+      "published_at": "2026-10-08T22:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI evaluation",
+        "benchmarks",
+        "funding"
+      ],
+      "actions_developer": [
+        "ใช้ผล Arena ควบคู่การทดสอบกับข้อมูลจริงของงานตนเอง",
+        "ติดตามอันดับหมวด alignment ประกอบการเลือกโมเดล"
+      ],
+      "actions_business": [
+        "ใช้ leaderboard เป็นข้อมูลประกอบ ไม่ใช่เกณฑ์เดียวในการจัดซื้อ AI",
+        "พิจารณาบริการ AI Evaluations สำหรับประเมินโมเดลภายในองค์กร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-09_b2_04",
+      "slug": "anthropic-usage-policy-update",
+      "title": "Anthropic changes usage policy to ban model abuse and election interference",
+      "title_th": "Anthropic ปรับนโยบายการใช้งาน ห้ามทำร้ายโมเดลด้วยวาจาและแทรกแซงการเลือกตั้ง",
+      "topic": "Policy & Safety",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Anthropic ปรับปรุงนโยบายการใช้งานเมื่อวันที่ 8 ตุลาคม 2026 โดยเพิ่มข้อห้ามเรื่องการแทรกแซงการเลือกตั้ง ซอฟต์แวร์อาวุธ และการสอดแนม จุดที่โดดเด่นที่สุดคือห้ามผู้ใช้ทำร้ายหรือด่าทอ Claude อย่างต่อเนื่อง ต่อยอดจากการอัปเดตเดือนสิงหาคมที่ฝึกให้ Claude ยุติบทสนทนาที่เป็นอันตรายหรือเป็นการล่วงละเมิดอย่างต่อเนื่อง Anthropic ระบุว่ากฎนี้มุ่งเฉพาะกรณีสุดโต่งที่ผู้ใช้ใจร้ายต่อโมเดลโดยไม่มีเหตุผลชัดเจน ไม่รวมความหงุดหงิดทั่วไป การโต้แย้ง ธีมมืดในงานสร้างสรรค์ หรือการทดสอบวิจัย นโยบายยังห้ามแคมเปญหลอกลวงวงกว้าง เช่น บัญชีปลอมและสำนักข่าวปลอม โดยรวมกฎเรื่องการหลอกลวงผู้ลงคะแนนไว้ในหมวด Do Not Undermine Democratic Processes",
+      "source_url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+      "tech_impact": "นโยบายใหม่ขยายขอบเขตทั้งความปลอดภัยทางการเมืองและสวัสดิภาพของโมเดล",
+      "tags": [
+        "Anthropic",
+        "usage policy",
+        "Claude"
+      ],
+      "category_label": "Policy & Safety",
+      "published_at": "2026-10-09T01:16:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI policy",
+        "AI safety",
+        "elections"
+      ],
+      "actions_developer": [
+        "ตรวจสอบแอปที่ใช้ Claude ให้สอดคล้องกับข้อห้ามใหม่",
+        "เพิ่มตัวกรองการใช้งานเชิงจัดการความคิดเห็นหรือเลือกตั้งในผลิตภัณฑ์"
+      ],
+      "actions_business": [
+        "อัปเดตนโยบายการใช้ AI ภายในองค์กรให้ตรงกับเงื่อนไขผู้ให้บริการ",
+        "ประเมินความเสี่ยงด้านการปฏิบัติตามเงื่อนไขในแคมเปญที่ใช้ AI"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-09_b2_01",
+      "slug": "fired-openai-safety-researchers",
+      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "title_th": "นักวิจัยความปลอดภัยที่ถูก OpenAI ไล่ออกโต้ข้อกล่าวหา เตือนเกิดผลสะเทือนต่อการแจ้งความเสี่ยง",
+      "topic": "Policy & Safety",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "high",
+      "content": "OpenAI ไล่นักวิจัยความปลอดภัย AI สามคน ได้แก่ Jasmine Wang, Tomek Korbak และ Mikita Balesni ด้วยเหตุผลว่าละเมิดนโยบายเรื่องการเข้าถึงและจัดการข้อมูลละเอียดอ่อน รวมถึงข้อกล่าวหาว่าแชร์ข้อมูลลับกับองค์กรความปลอดภัย AI ภายนอก ทั้งสามเขียนจดหมายเปิดผนึกถึงคณะกรรมการความปลอดภัยของ OpenAI ปฏิเสธข้อกล่าวหาและปฏิเสธว่าเกี่ยวข้องกับการรั่วไหลไปยัง The Information เรื่องสถาปัตยกรรมที่ตรวจสอบได้ยากในโมเดลใหม่ พวกเขาเตือนว่าการไล่ออกสร้างบรรยากาศที่ทำให้พนักงานไม่กล้าแจ้งข้อกังวลด้านความปลอดภัย และเสนอให้ฝังผู้ตรวจสอบอิสระ รักษา monitorability ของโมเดลระดับแนวหน้า และเปิดบทสนทนากับชุมชน OpenAI ยังไม่ตอบอย่างเป็นทางการ แต่บันทึกภายในปฏิเสธว่าเป็นการตอบโต้ และระบุว่าเห็นด้วยกับข้อเสนอเหล่านี้",
+      "source_url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "tech_impact": "ข้อพิพาทสะท้อนความตึงเครียดด้านธรรมาภิบาลความปลอดภัย AI ในห้องปฏิบัติการแนวหน้า",
+      "tags": [
+        "OpenAI",
+        "AI safety",
+        "governance"
+      ],
+      "category_label": "Policy & Safety",
+      "published_at": "2026-10-09T03:04:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI safety",
+        "AI governance",
+        "OpenAI"
+      ],
+      "actions_developer": [
+        "ติดตามพัฒนาการเรื่อง monitorability ของโมเดลแนวหน้า",
+        "ทบทวนช่องทางแจ้งความเสี่ยงด้านความปลอดภัยภายในทีมพัฒนา AI"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงด้านชื่อเสียงและธรรมาภิบาลของผู้ให้บริการ AI",
+        "กำหนดนโยบาย whistleblower สำหรับโครงการ AI ภายในองค์กร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
