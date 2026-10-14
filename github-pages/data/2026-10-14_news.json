@@ -1,0 +1,456 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T09:50:00+07:00",
+  "schema_version": "combined-1.0",
+  "stats": {
+    "total": 11,
+    "by_topic": {
+      "ai_trends": 4,
+      "tech_trends": 3,
+      "thailand": 2,
+      "global": 2
+    },
+    "by_source_category": {
+      "thai": 2,
+      "international": 6,
+      "research": 3,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 1,
+      "medium": 5,
+      "low": 5
+    },
+    "breakthrough_count": 0
+  },
+  "top_insights": [
+    {
+      "title": "Gemini 4 Argon เปิดให้ใช้งานผ่าน API และผู้ใช้ Google AI Pro/Ultra",
+      "impact_summary": "โมเดลระดับสูงของ Google เปิดใช้งานทั่วไปพร้อมราคาโปรโมชันต่ำกว่าคู่แข่งจนถึง 30 พฤศจิกายน เป็นช่วงเหมาะทดสอบเปรียบเทียบต้นทุนและคุณภาพก่อนตัดสินใจเลือกโมเดลหลัก",
+      "urgency": "high",
+      "article_id": "2026-10-14_b1_01"
+    },
+    {
+      "title": "ศาลสั่ง OpenAI ส่งเอกสารการจ้างงานในคดีความลับทางการค้าของ Apple",
+      "impact_summary": "คดีนี้เพิ่มความเสี่ยงด้านกฎหมายต่อการดึงตัวบุคลากรข้ามบริษัทในสนามฮาร์ดแวร์ AI และอาจกระทบกำหนดการพัฒนาอุปกรณ์ผู้บริโภคของ OpenAI",
+      "urgency": "medium",
+      "article_id": "2026-10-14_b2_01"
+    },
+    {
+      "title": "Google Play รองรับแอปส่วนตัวที่สร้างด้วย vibe coding",
+      "impact_summary": "การสร้างแอป Android ส่วนตัวด้วย AI โดยไม่ต้องผ่านการเผยแพร่ ลดอุปสรรคของ vibe coding และอาจเปลี่ยนวิธีที่ผู้ใช้ทั่วไปสร้างเครื่องมือเฉพาะตัว",
+      "urgency": "medium",
+      "article_id": "2026-10-14_b2_02"
+    },
+    {
+      "title": "Pluto Security ระดมทุน 42 ล้านดอลลาร์ รับมือความเสี่ยงจากเครื่องมือ AI ในองค์กร",
+      "impact_summary": "การใช้ AI และ vibe coding นอกทีมไอทีสร้างพื้นที่เสี่ยงใหม่ในองค์กร ทำให้ตลาดเครื่องมือกำกับ agent, MCP และ skills เติบโตและกลายเป็นเรื่องที่ทีมความปลอดภัยต้องเตรียมรับ",
+      "urgency": "medium",
+      "article_id": "2026-10-14_b2_05"
+    },
+    {
+      "title": "Z.ai เปิดตัว GLM-Legal โมเดลกฎหมายที่ทำคะแนนนำ Claude Fable 5 และ Kimi K3 บน Harvey LAB",
+      "impact_summary": "โมเดลเฉพาะทางต้นทุนต่ำทำคะแนน agent ด้านกฎหมายสูงกว่าโมเดลแนวหน้าบางตัว แต่ยังเข้าถึงได้จำกัด ช้า และไม่ใช่อันดับสูงสุดบน leaderboard จึงควรประเมินอย่างรอบคอบ",
+      "urgency": "medium",
+      "article_id": "2026-10-14_b2_06"
+    }
+  ],
+  "posts": [
+    {
+      "id": "2026-10-14_b1_01",
+      "slug": "gemini-4-argon-general-availability",
+      "title": "Gemini 4 Argon now available via API and to Google AI Pro/Ultra users",
+      "title_th": "Gemini 4 Argon เปิดให้ใช้งานผ่าน API และผู้ใช้ Google AI Pro/Ultra",
+      "topic_group": "thailand",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Google เปิดให้ใช้งาน Gemini 4 Argon แบบทั่วไปแล้ว หลังเปิดตัวแบบจำกัดสิทธิ์ในช่วงต้นเดือนตุลาคม 2026 นักพัฒนาและธุรกิจเข้าถึงได้ผ่าน API ใน AI Studio และ Gemini Platform ส่วนผู้ใช้ Google AI Ultra ใช้ผ่าน Antigravity และผู้ใช้ Google AI Pro กับ Ultra ใช้ผ่านแอป Gemini และ AI Mode ใน Search ด้านราคา API Google ลดราคาโปรโมชัน 50% เหลือ 2 ดอลลาร์ต่อ input 1 ล้าน token และ 10 ดอลลาร์ต่อ output 1 ล้าน token ซึ่งถูกกว่าโมเดลคู่แข่ง โดยโปรโมชันมีผลถึงวันที่ 30 พฤศจิกายนก่อนกลับสู่ราคาปกติ Google ยังใช้โมเดลนี้ภายในองค์กร เช่น แยกโค้ดจัดการหน้าเว็บของ Chrome ราว 6 ล้านบรรทัดออกจากโค้ดเบส 40 ล้านบรรทัดภายในไม่กี่สัปดาห์ และปรับ Gemma ให้เร็วขึ้น 2.85 เท่า",
+      "source_url": "https://www.blognone.com/node/151903",
+      "tech_impact": "โมเดลระดับสูงของ Google เปิดใช้งานทั่วไปพร้อมราคาโปรโมชันต่ำกว่าคู่แข่งจนถึง 30 พฤศจิกายน เป็นช่วงเหมาะทดสอบเปรียบเทียบต้นทุนและคุณภาพก่อนตัดสินใจเลือกโมเดลหลัก",
+      "tags": [
+        "Gemini 4 Argon",
+        "Google",
+        "API",
+        "LLM"
+      ],
+      "published_at": "2026-10-14T06:39:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "Google",
+        "Developer Tools"
+      ],
+      "actions_developer": [
+        "ทดลองเรียก Gemini 4 Argon ผ่าน AI Studio เทียบกับโมเดลปัจจุบันบนงานรีแฟกเตอร์โค้ดขนาดใหญ่",
+        "ประเมินต้นทุนที่ 2/10 ดอลลาร์ต่อล้าน token และวางแผนรับมือการปรับราคากลับหลัง 30 พ.ย."
+      ],
+      "actions_business": [
+        "ใช้ช่วงโปรโมชันทดสอบ pilot เพื่อวัดผลตอบแทนก่อนผูกสัญญาระยะยาว",
+        "ประเมินสิทธิ์ Google AI Pro/Ultra สำหรับทีมที่ต้องการใช้งานผ่านแอปโดยไม่เขียนโค้ด"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-14_b1_02",
+      "slug": "singapore-cyber-professional-accreditation-sicw-2026",
+      "title": "Singapore cyber professional accreditation (SICW 2026)",
+      "title_th": "สิงคโปร์เตรียมกรอบรับรองมาตรฐานผู้เชี่ยวชาญไซเบอร์ในยุค AI",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "สิงคโปร์ประกาศจัดทำกรอบรับรองมาตรฐานผู้เชี่ยวชาญด้านความมั่นคงไซเบอร์ (Cybersecurity Professional Accreditation Framework) ในงาน Singapore International Cyber Week 2026 โดย Tan Kiat How รัฐมนตรีอาวุโสเน้นหลักการ work like automation, but don't automate learning เพราะหากระบบอัตโนมัติทำทั้งงานและการเรียนรู้ เจ้าหน้าที่ระดับจูเนียร์จะเสียโอกาสเรียนรู้จากความผิดพลาดในสภาพแวดล้อมที่ปลอดภัย แผนมีสองขั้น ได้แก่ National Competency Framework ที่ CSA และ IMDA จัดทำเพื่อกำหนดสมรรถนะแต่ละบทบาทรวมถึงการใช้ AI และกรอบรับรองที่ประเมินทักษะ ประสบการณ์ วุฒิ และจริยธรรม โดยมี Cybersecurity Professional Office ร่วมกับ AiSP เตรียมนำร่องแบบสมัครใจในไตรมาส 2 ปี 2027 ผลสำรวจ CSA พบว่า 8 ใน 10 องค์กรใช้เครื่องมือป้องกันไซเบอร์ที่ใช้ AI แล้ว และ 7 ใน 10 เห็นว่าวิจารณญาณของมนุษย์ยังจำเป็น ส่วนบทเรียนจากสหราชอาณาจักรแนะให้เริ่มจากวงแคบและฐานงานหลักก่อนขยาย",
+      "source_url": "https://techsauce.co/ai/singapore-cyber-professional-accreditation-ai-sicw-2026",
+      "tech_impact": "แนวทางของสิงคโปร์ชี้ว่าระดับทักษะที่ต้องการในสายไซเบอร์เพิ่มขึ้นในยุค AI และอาจเป็นต้นแบบมาตรฐานวิชาชีพที่ประเทศในภูมิภาครวมถึงไทยนำมาอ้างอิง",
+      "tags": [
+        "Singapore",
+        "Cybersecurity",
+        "AI workforce",
+        "SICW 2026"
+      ],
+      "published_at": "2026-10-14T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Cybersecurity",
+        "AI Workforce",
+        "Policy"
+      ],
+      "actions_developer": [
+        "ฝึกทักษะการตรวจสอบผลลัพธ์ของเครื่องมือ AI ด้านความปลอดภัยแทนการพึ่งผลลัพธ์อัตโนมัติอย่างเดียว",
+        "ติดตามรายละเอียดกรอบสมรรถนะของ CSA เพื่อวางแผนเส้นทางอาชีพและการรับรอง"
+      ],
+      "actions_business": [
+        "คงตำแหน่งระดับเริ่มต้นในทีมความปลอดภัยเพื่อให้บุคลากรเรียนรู้จากงานจริงควบคู่กับ AI",
+        "ทบทวนเกณฑ์จ้างงานสายไซเบอร์ให้เน้นวิจารณญาณและการรับผิดชอบการตัดสินใจ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-14_b2_01",
+      "slug": "judge-orders-openai-hiring-records-apple-trade-secrets",
+      "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+      "title_th": "ศาลสั่ง OpenAI ส่งเอกสารการจ้างงานในคดีความลับทางการค้าของ Apple",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "ผู้พิพากษา Edward Davila ของศาลรัฐบาลกลางสหรัฐฯ สั่งให้ OpenAI ส่งมอบเอกสารการจ้างงานให้ Apple อย่างเร่งด่วนในคดีความลับทางการค้าที่ Apple ยื่นฟ้องเมื่อเดือนกรกฎาคม 2026 เอกสารครอบคลุมการสัมภาษณ์อดีตพนักงาน Apple ที่สมัครเข้าทีมฮาร์ดแวร์ผู้บริโภคและหุ่นยนต์ของ OpenAI เช่น เช็กลิสต์ สคริปต์ และสไลด์เทคนิค โดย OpenAI ต้องส่งเอกสารที่รวบรวมแล้วภายใน 5 วัน และเอกสารอื่นที่เกี่ยวข้องภายใน 14 วัน ศาลยังอนุญาตให้ Apple เข้าถึงข้อความส่วนตัวใน LINE ของ Chang Liu และ Alyssa Peng รวมถึงอนุมัติการสอบปากคำทั้งสองคนและ Tang Yew Tan หัวหน้าฝ่ายฮาร์ดแวร์ของ OpenAI แต่ปฏิเสธคำขอเข้าถึงข้อมูล R&D บางด้าน เช่น งานตกแต่งผิวโลหะและการจัดการพลังงาน Apple กล่าวหาว่าพนักงานเก่าดาวน์โหลดข้อมูลลับเกี่ยวกับผลิตภัณฑ์ที่ยังไม่เปิดตัว คดีนี้สะท้อนการแข่งขันที่ OpenAI พัฒนาอุปกรณ์ผู้บริโภคซึ่งอาจแข่งกับ iPhone",
+      "source_url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+      "tech_impact": "คดีนี้เพิ่มความเสี่ยงด้านกฎหมายต่อการดึงตัวบุคลากรข้ามบริษัทในสนามฮาร์ดแวร์ AI และอาจกระทบกำหนดการพัฒนาอุปกรณ์ผู้บริโภคของ OpenAI",
+      "tags": [
+        "OpenAI",
+        "Apple",
+        "trade secrets",
+        "hardware"
+      ],
+      "published_at": "2026-10-13T13:36:00-07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Legal",
+        "Hardware",
+        "Talent"
+      ],
+      "actions_developer": [
+        "ทบทวนแนวปฏิบัติไม่นำข้อมูลลับของนายจ้างเดิมมาใช้งานในทีมใหม่",
+        "ตรวจสอบนโยบายเก็บและจัดการข้อมูลบนอุปกรณ์องค์กรของพนักงานที่ลาออก"
+      ],
+      "actions_business": [
+        "ให้ฝ่ายกฎหมายทบทวนขั้นตอนสัมภาษณ์และ onboarding ของผู้สมัครจากคู่แข่ง",
+        "ติดตามผลคดีเพราะอาจเป็นบรรทัดฐานเรื่องการแข่งขันดึงบุคลากรด้าน AI"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-14_b2_02",
+      "slug": "google-play-private-vibe-coded-apps",
+      "title": "Google Play now supports private, vibe-coded apps built just for you",
+      "title_th": "Google Play รองรับแอปส่วนตัวที่สร้างด้วย vibe coding",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Google ประกาศเมื่อวันที่ 13 ตุลาคม 2026 ว่าผู้ใช้ Android สามารถรันแอปส่วนตัวที่สร้างด้วย AI ผ่าน Google Play ได้โดยไม่ต้องเผยแพร่สู่สาธารณะ แอปเหล่านี้จะไม่ปรากฏในการค้นหาหรือรายการของ Play และใช้ได้เฉพาะผู้สร้างที่ล็อกอินด้วยบัญชี Google สร้างผ่าน Google AI Studio แต่ยังต้องปฏิบัติตามนโยบายของ Play ฟีเจอร์เริ่มในสหรัฐฯ ก่อนและจำกัดผู้ใช้อายุ 18 ปีขึ้นไป ในอีกไม่กี่เดือนจะแชร์ให้เพื่อนหรือครอบครัวได้ และหากแอปได้รับความนิยมสามารถย้ายไป Play Store สาธารณะหลังผ่านการตรวจสอบ Play มีผู้ใช้ราว 3 พันล้านคน ก่อนหน้านี้ผู้ที่ทำ vibe coding มักหันไปทำเว็บแอปแทน นอกจากนี้ Google เพิ่ม Game Finder ที่แนะนำเกมด้วย AI โดยอิงชุมชนผู้เล่น 1.2 พันล้านคน",
+      "source_url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+      "tech_impact": "การสร้างแอป Android ส่วนตัวด้วย AI โดยไม่ต้องผ่านการเผยแพร่ ลดอุปสรรคของ vibe coding และอาจเปลี่ยนวิธีที่ผู้ใช้ทั่วไปสร้างเครื่องมือเฉพาะตัว",
+      "tags": [
+        "Google Play",
+        "vibe coding",
+        "AI Studio",
+        "Android"
+      ],
+      "published_at": "2026-10-13T10:00:00-07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Android",
+        "Vibe Coding",
+        "Developer Platform"
+      ],
+      "actions_developer": [
+        "ลองสร้างแอปต้นแบบใน Google AI Studio แล้วรันผ่าน Play แบบส่วนตัว",
+        "ศึกษานโยบาย Play ที่ยังบังคับใช้กับแอปส่วนตัวเพื่อเลี่ยงปัญหาภายหลัง"
+      ],
+      "actions_business": [
+        "พิจารณาให้ทีมสร้างเครื่องมือภายในแบบ personal app เพื่อเร่งงานเฉพาะกิจ",
+        "วางนโยบายกำกับแอปที่พนักงานสร้างเองเพื่อควบคุมข้อมูลและความปลอดภัย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-14_b2_03",
+      "slug": "cerebras-ceo-home-personal-ai-assistant",
+      "title": "Cerebras CEO says we're nearing a future where everyone has a personal AI assistant at home",
+      "title_th": "ซีอีโอ Cerebras คาดทุกบ้านจะมีผู้ช่วย AI ส่วนตัวในไม่ช้า",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "low",
+      "content": "Andrew Feldman ซีอีโอและผู้ร่วมก่อตั้ง Cerebras Systems กล่าวบนเวที TechCrunch Disrupt 2026 เมื่อวันที่ 13 ตุลาคมว่า อนาคตที่ทุกบ้านมีเครื่องใช้ AI เป็นผู้ช่วยส่วนตัวนั้นไม่ไกลเกินไป เขายก consumer AI agent เช่น Muse และ Instinct ของ Meta เป็นสัญญาณว่า AI เริ่มเป็นที่ยอมรับในหมู่ผู้ใช้ทั่วไป โดยคาดว่าผู้ช่วยจะทำงานทั้งบนอุปกรณ์และบนคลาวด์ เรียนรู้ความชอบของผู้ใช้ ทำงานภายใต้ security perimeter มีสิทธิ์ใช้บัตรเครดิต และซื้อของแทนผู้ใช้ได้ Feldman ใช้ชุด agent จัดการปฏิทินและรวบรวมข้อมูลบุคคลก่อนประชุมสาย บทความชี้ว่าในฐานะผู้บริหารบริษัทชิป AI เขามีผลประโยชน์ในการเห็น agentic AI แพร่หลาย และเขาบอกว่าชอบสร้างแพลตฟอร์มให้ไอเดียของคนอื่นเติบโตมากกว่าทำผลิตภัณฑ์ผู้บริโภคเอง ภาพที่เขาวาดสะท้อนทิศทางผู้ช่วยแบบ hybrid ที่ต้องการทั้งชิปบนอุปกรณ์และศูนย์ข้อมูลคลาวด์",
+      "source_url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "tech_impact": "วิสัยทัศน์ผู้ช่วย AI ในบ้านแบบ hybrid ที่ซื้อของแทนผู้ใช้ได้ ชี้ว่าความต้องการด้านความปลอดภัยและการอนุมัติการชำระเงินของ agent จะสำคัญขึ้น แม้เป็นมุมมองของผู้ผลิตชิปที่มีส่วนได้เสีย",
+      "tags": [
+        "Cerebras",
+        "AI assistant",
+        "TechCrunch Disrupt",
+        "agents"
+      ],
+      "published_at": "2026-10-13T16:05:00-07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Consumer AI",
+        "AI Agents",
+        "AI Chips"
+      ],
+      "actions_developer": [
+        "ออกแบบ agent ให้รองรับสถาปัตยกรรม on-device ร่วมกับคลาวด์",
+        "วางกลไกขอยืนยันก่อนทำธุรกรรมที่ใช้บัตรเครดิต"
+      ],
+      "actions_business": [
+        "ติดตามตลาดผู้ช่วย AI ในบ้านเพื่อประเมินโอกาสด้านอุปกรณ์และบริการ",
+        "ประเมินความเสี่ยงด้านความเป็นส่วนตัวก่อนนำ agent ที่ซื้อของแทนผู้ใช้มาใช้"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-14_b2_04",
+      "slug": "cerebras-ceo-pushes-back-ai-doomsday",
+      "title": "Cerebras CEO pushes back on AI doomsday warnings",
+      "title_th": "ซีอีโอ Cerebras โต้คำเตือนหายนะจาก AI",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "low",
+      "content": "Andrew Feldman ซีอีโอ Cerebras Systems โต้การพูดถึงหายนะจาก AI บนเวที TechCrunch Disrupt 2026 วันที่ 13 ตุลาคม โดยระบุว่าคำเตือนแนวโลกาวินาศทำร้ายอุตสาหกรรม และผู้นำ AI บางคนอาจไม่ควรได้พูดในที่สาธารณะ ท่ามกลางข้อกังวลเรื่องโมเดลหลุดการควบคุมและการถกเถียงโอกาสที่ AI จะทำลายมนุษยชาติภายในสิ้นทศวรรษ เขาเห็นว่าผู้นำควรสื่อสารประโยชน์ เช่น อนาคตที่หลานไม่รู้จักใครที่เสียชีวิตจากมะเร็ง แต่ยอมรับว่าเทคโนโลยีทรงพลังมีความเสี่ยงเรื่องผู้ควบคุม และสนับสนุนกฎระเบียบที่สมเหตุสมผล เขายังวิจารณ์ว่าอุตสาหกรรมไม่ได้ดึงชุมชนท้องถิ่นเข้ามามีส่วนร่วมเรื่อง data center เหมือนธุรกิจน้ำมันและก๊าซ และชี้ว่าบราซิล แคนาดา ฟินแลนด์ ไอซ์แลนด์ นอร์เวย์ เม็กซิโก และสวีเดนสนับสนุนการสร้าง data center เขาไม่เชื่อว่าประสิทธิภาพที่เพิ่มขึ้นจะลดความต้องการชิป Cerebras ซึ่งมีลูกค้าอย่าง OpenAI, Block, Figma, GSK และ Lovable",
+      "source_url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+      "tech_impact": "เสียงจากผู้ผลิตชิป AI สะท้อนการถกเถียงเรื่องการสื่อสารความเสี่ยง AI กับประโยชน์ และแรงต้านการสร้าง data center ในชุมชน ซึ่งอาจกระทบการขยายโครงสร้างพื้นฐาน AI",
+      "tags": [
+        "Cerebras",
+        "AI safety",
+        "regulation",
+        "data center"
+      ],
+      "published_at": "2026-10-13T15:36:00-07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Policy",
+        "Data Centers",
+        "AI Safety"
+      ],
+      "actions_developer": [
+        "ติดตามประเด็นข้อจำกัดด้านพลังงานและที่ตั้ง data center ที่อาจกระทบความพร้อมใช้ของ GPU",
+        "ถือเป็นมุมมองของผู้มีส่วนได้เสียและเทียบกับงานวิจัยความปลอดภัยอิสระ"
+      ],
+      "actions_business": [
+        "วางแผนความต่อเนื่องของโครงสร้างพื้นฐาน AI โดยพิจารณาความเสี่ยงด้านชุมชนและกฎระเบียบ",
+        "ติดตามท่าทีกฎระเบียบ AI เพื่อเตรียมการปฏิบัติตาม"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-14_b2_05",
+      "slug": "pluto-security-raises-42m",
+      "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+      "title_th": "Pluto Security ระดมทุน 42 ล้านดอลลาร์ รับมือความเสี่ยงจากเครื่องมือ AI ในองค์กร",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Pluto Security สตาร์ทอัพความปลอดภัยด้าน AI ออกจากโหมด stealth พร้อมระดมทุนรวม 42 ล้านดอลลาร์ ประกอบด้วย seed 8.5 ล้านดอลลาร์ นำโดย TLV Partners และ Series A 34 ล้านดอลลาร์ นำโดย Jump Capital Shahar Bahat ซีอีโอระบุว่าเครื่องมือ AI ใหม่สามารถโผล่ในองค์กรภายในสองชั่วโมงหลังเปิดตัว และราว 60% ของความเสี่ยงที่ตรวจพบอยู่ในแอปที่พนักงานนอกสายนักพัฒนาสร้างด้วย vibe coding โดยฝ่ายการเงินก่อมากที่สุด ตามด้วยการตลาดและกฎหมาย Pluto เริ่มขายเมื่อเมษายน 2026 มีรายได้ต่อปีเกิน 2 ล้านดอลลาร์ และลูกค้าองค์กรกว่า 30 ราย เช่น Oscar Health, Workato, Sixt และ AlphaSense ผลิตภัณฑ์เฝ้าดูเครื่องมือ AI, skills, extension, MCP server และ agent ที่พนักงานใช้ และสามารถขัดจังหวะ agent กลางงานได้ โดยเงินทุนจะใช้พัฒนาผลิตภัณฑ์ วิจัยด้านความปลอดภัย และขยายตลาด",
+      "source_url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+      "tech_impact": "การใช้ AI และ vibe coding นอกทีมไอทีสร้างพื้นที่เสี่ยงใหม่ในองค์กร ทำให้ตลาดเครื่องมือกำกับ agent, MCP และ skills เติบโตและกลายเป็นเรื่องที่ทีมความปลอดภัยต้องเตรียมรับ",
+      "tags": [
+        "Pluto Security",
+        "funding",
+        "vibe coding",
+        "MCP"
+      ],
+      "published_at": "2026-10-13T10:18:00-07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Security",
+        "MCP",
+        "Vibe Coding"
+      ],
+      "actions_developer": [
+        "ตรวจสอบ MCP server, skills และ extension ที่ใช้ในองค์กรก่อนอนุญาตใช้งาน",
+        "จำกัดสิทธิ์ของ agent ให้เท่าที่จำเป็นและเพิ่มขั้นตอนยืนยันก่อนทำงานสำคัญ"
+      ],
+      "actions_business": [
+        "ทำบัญชีรายการแอปที่พนักงานสร้างด้วย vibe coding และตรวจว่ามีการเปิดสู่อินเทอร์เน็ตหรือไม่",
+        "ประเมินเครื่องมือกำกับ AI ในองค์กรโดยเริ่มจากฝ่ายการเงินที่พบความเสี่ยงสูงสุด"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-14_b2_06",
+      "slug": "zai-glm-legal-harvey-lab",
+      "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
+      "title_th": "Z.ai เปิดตัว GLM-Legal โมเดลกฎหมายที่ทำคะแนนนำ Claude Fable 5 และ Kimi K3 บน Harvey LAB",
+      "topic_group": "ai-trends",
+      "source_name": "MarkTechPost",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Z.ai เปิดตัว GLM-Legal โมเดลด้านกฎหมายที่สร้างบน GLM-5.3-Flash ฝึกสำหรับงาน agent เช่นตรวจสัญญา วิเคราะห์หลักฐาน และค้นคว้าด้านการปฏิบัติตามกฎระเบียบ ทำคะแนน 19.17% บน Harvey Legal Agent Benchmark (LAB) เกือบสามเท่าของโมเดลฐานที่ได้ 6.67% และอยู่อันดับ 7 จาก 79 บน Vals AI เทียบกับ Kimi K3 ที่ 12.92% Claude Fable 5 ที่ 11.25% และ GPT-6 Astra ที่ 5.42% ต้นทุนต่อการทดสอบเพียง 0.15 ดอลลาร์ ราว 1 ใน 128 ของ Claude Fable 5 แต่ใช้เวลาเฉลี่ย 1 ชั่วโมง 12 นาทีต่อ task และคะแนน Legal Research Bench ต่ำกว่าโมเดลฐาน 3.36 จุด การเข้าถึงเป็น beta แบบสมัครผ่าน API ของ Z.ai ไม่มีราคาและไม่มี weights สาธารณะ ขณะที่ Z.ai ไม่แสดงโมเดลอันดับสูงกว่าอีกหกตัวในแผนภูมิเปิดตัว",
+      "source_url": "https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/",
+      "tech_impact": "โมเดลเฉพาะทางต้นทุนต่ำทำคะแนน agent ด้านกฎหมายสูงกว่าโมเดลแนวหน้าบางตัว แต่ยังเข้าถึงได้จำกัด ช้า และไม่ใช่อันดับสูงสุดบน leaderboard จึงควรประเมินอย่างรอบคอบ",
+      "tags": [
+        "Z.ai",
+        "GLM-Legal",
+        "Harvey LAB",
+        "legal AI"
+      ],
+      "published_at": "2026-10-13T15:19:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "Legal AI",
+        "Benchmarks"
+      ],
+      "actions_developer": [
+        "ทดลองโมเดลฐาน GLM-5.3-Flash ด้วย prompt งานกฎหมายก่อน แล้วสลับ model ID เมื่อได้สิทธิ์ GLM-Legal",
+        "ทดสอบด้วยชุดข้อมูลภายในเพราะคะแนน benchmark ภาพรวมไม่ใช่ทุกงาน"
+      ],
+      "actions_business": [
+        "ฝ่ายกฎหมายประเมินต้นทุนต่อ task เทียบกับโมเดลแนวหน้า",
+        "ขอสิทธิ์ beta และกำหนดเกณฑ์ตรวจสอบโดยมนุษย์ก่อนใช้งานจริง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-14_b3_01",
+      "slug": "rated-reliability-aware-tool-retrieval",
+      "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
+      "title_th": "RATED: ค้นหาเครื่องมือสำหรับ AI agent โดยคำนึงถึงความน่าเชื่อถือขณะรันจริง",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "งานวิจัย RATED (CIKM 2026) แก้ปัญหาที่วิธีค้นหาเครื่องมือสำหรับ AI agent จัดอันดับตามความเกี่ยวข้องเชิงความหมายเท่านั้น โดยไม่สนใจว่าเครื่องมือนั้นทำงานได้จริงหรือไม่ขณะรัน RATED ใช้ dual-encoder ที่ freeze แล้วปรับด้วย contrastive learning ร่วมกับ contextual bandit น้ำหนักเบาที่จัดอันดับใหม่จากผลการรันจริง ทำให้ปรับตัวต่อเครื่องมือที่ล้มเหลวได้โดยไม่ต้องฝึกโมเดลใหม่ ผู้วิจัยยังเสนอ benchmark ชื่อ EcoAgent ที่มี 5,172 เครื่องมือจริงและคู่ query-tool กว่า 210,000 คู่ ผลลัพธ์คือ MRR ดีขึ้น 52.2% เมื่อเทียบกับตัวค้นหาของ ToolLLM และลด fault selection rate จาก 86.2% เหลือ 2.9% ในสถานการณ์ API ล่มรุนแรงที่ล้มเหลว 30% โดยเพิ่ม latency ไม่ถึง 1 มิลลิวินาที โค้ดและข้อมูลเปิดให้ใช้งานบน GitHub ทำให้ทีมที่สร้างระบบ agent นำแนวคิดไปทดลองต่อได้ทันที",
+      "source_url": "https://arxiv.org/abs/2610.13889",
+      "tech_impact": "การให้ agent เลือกเครื่องมือจากสถานะการทำงานจริงช่วยลดความล้มเหลวเมื่อ API ล่ม ซึ่งเป็นปัญหาสำคัญของระบบ agent ใน production",
+      "tags": [
+        "tool retrieval",
+        "AI agents",
+        "contextual bandit",
+        "CIKM 2026"
+      ],
+      "published_at": "2026-10-09T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Agents",
+        "Information Retrieval",
+        "Reliability"
+      ],
+      "actions_developer": [
+        "เพิ่มสัญญาณ execution feedback ในขั้นตอนเลือกเครื่องมือของ agent",
+        "ทดลองใช้ benchmark EcoAgent จาก GitHub เพื่อวัดความทนทานต่อ API ล่ม"
+      ],
+      "actions_business": [
+        "ให้ทีมที่ใช้ agent วัดอัตราความล้มเหลวของการเรียกเครื่องมือเป็นตัวชี้วัด",
+        "ลงทุนระบบ fallback ก่อนขยาย agent ไปงานสำคัญ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-14_b3_02",
+      "slug": "x-agentred-red-teaming-personal-agents",
+      "title": "X-AgentRed: Red-Teaming Personal Agents in Evolving Multi-Service Ecosystems",
+      "title_th": "X-AgentRed: ทดสอบเจาะระบบ personal agent ที่ทำงานข้ามหลายบริการ",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "X-AgentRed เป็นเฟรมเวิร์ก red-teaming สำหรับ personal agent ที่เรียกใช้เครื่องมือต่อเนื่องข้ามหลายบริการ ซึ่งอาจเกิดอันตรายแม้คำสั่งผู้ใช้แต่ละครั้งดูไม่มีพิษภัย ผู้วิจัยพบว่าวิธี red-teaming เดิมมักใช้ชุดเครื่องมือที่คุ้นเคย ทำให้การโต้ตอบข้ามบริการแบบใหม่ถูกสำรวจน้อย X-AgentRed สร้างกราฟทิศทางของ dependency ระหว่างเครื่องมือ ที่ผลลัพธ์ของเครื่องมือหนึ่งตอบเงื่อนไขของอีกตัว จากนั้นสุ่มเส้นทางมาสร้างสถานการณ์สมจริง และปรับปรุงด้วย execution feedback โดยสลับเครื่องมือเพื่อหาเส้นทางอันตรายใหม่ และแก้ precondition ในขั้นที่ถูกบล็อก ผลทดสอบกับโมเดล agentic ระดับแนวหน้า 4 ตัวพบอัตราเส้นทางอันตรายสูงกว่า baseline ชื่อ STAC 1.77 เท่า และครอบคลุมเครื่องมือมากกว่าโดยเฉลี่ย 2.99 เท่า เอกสารยาว 18 หน้า สะท้อนว่าความเสี่ยงของ agent เกิดจากการประกอบเครื่องมือหลายตัวเข้าด้วยกัน ไม่ใช่คำสั่งเดี่ยว",
+      "source_url": "https://arxiv.org/abs/2610.13886",
+      "tech_impact": "ความเสี่ยงของ personal agent เกิดจากการเชื่อมเครื่องมือข้ามบริการ ทำให้การทดสอบเฉพาะคำสั่งเดี่ยวไม่เพียงพอ และทีมที่ปล่อย agent ต้องทดสอบเส้นทางการเรียกใช้เครื่องมือแบบต่อเนื่อง",
+      "tags": [
+        "red-teaming",
+        "personal agents",
+        "AI safety",
+        "multi-service"
+      ],
+      "published_at": "2026-10-09T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Safety",
+        "AI Agents",
+        "Red Teaming"
+      ],
+      "actions_developer": [
+        "สร้างกราฟ dependency ของเครื่องมือที่ agent เข้าถึงเพื่อหาเส้นทางเสี่ยง",
+        "เพิ่มการทดสอบ red-teaming แบบหลายขั้นตอนใน pipeline ก่อนปล่อย agent"
+      ],
+      "actions_business": [
+        "กำหนดขอบเขตสิทธิ์ของ agent ที่เชื่อมหลายบริการ",
+        "รวมการทดสอบด้านความปลอดภัยของ agent ไว้ในเกณฑ์อนุมัติก่อนใช้งานจริง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "2026-10-14_b3_03",
+      "slug": "can-language-models-play-wikipedia-game",
+      "title": "Can Language Models Play the Wikipedia Game?",
+      "title_th": "โมเดลภาษาเล่น Wikipedia Game ได้ดีแค่ไหน",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "งานวิจัยนี้ใช้ Wikipedia Game ซึ่งผู้เล่นต้องไปถึงบทความเป้าหมายโดยกดลิงก์เท่านั้น เป็นเครื่องวัดความสามารถด้านการค้นคืนข้อมูลของโมเดลภาษา โดยเปรียบเทียบ sentence embedding model และ LLM กับ baseline ของมนุษย์และ TF-IDF ผู้วิจัยสร้างกราฟขนาดใหญ่ของหน้า Wikipedia และการอ้างอิงงานวิชาการจาก OpenAlex ไว้ในเครื่อง พร้อมเผยแพร่โค้ดสำหรับสร้างและนำทางกราฟ ทำให้ไม่ต้องพึ่ง API ของบุคคลที่สาม การทดลองครอบคลุม Wikipedia 5 ภาษา และชุดข้อมูลวรรณกรรมวิชาการ 5 ชุด ผลพบว่าไม่มีโมเดลใดเหนือกว่ามนุษย์อย่างมีนัยสำคัญ โดยโมเดลที่ทำได้ดีที่สุดคือ GPT-o3 mini, GPT-4o, QwQ:32B และ DeepSeek-R1:70B มีอัตราสำเร็จใกล้เคียงกัน ส่วนอันดับของโมเดลเปลี่ยนไปตามภาษาและหัวข้อ งานมีความยาว 64 หน้า 17 รูป 10 ตารางและใช้สัญญาอนุญาต CC BY 4.0",
+      "source_url": "https://arxiv.org/abs/2610.13948",
+      "tech_impact": "ผลชี้ว่าโมเดลภาษายังไม่เหนือมนุษย์ในการนำทางข้อมูลผ่านลิงก์ และประสิทธิภาพต่างกันตามภาษา จึงควรทดสอบระบบค้นคืนข้อมูลตามภาษาและโดเมนจริงของตน",
+      "tags": [
+        "Wikipedia Game",
+        "information retrieval",
+        "LLM evaluation",
+        "OpenAlex"
+      ],
+      "published_at": "2026-10-09T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM Evaluation",
+        "Information Retrieval",
+        "Research"
+      ],
+      "actions_developer": [
+        "ใช้โค้ดกราฟที่เปิดเผยเป็นชุดทดสอบความสามารถนำทางลิงก์ของ agent",
+        "ทดสอบประสิทธิภาพแยกตามภาษาแทนการเชื่อผลรวม"
+      ],
+      "actions_business": [
+        "ระวังการคาดหวังเกินจริงกับ agent ที่ต้องค้นหาข้อมูลข้ามเอกสาร",
+        "กำหนดการตรวจสอบโดยมนุษย์สำหรับงานค้นคว้าข้อมูลสำคัญ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
