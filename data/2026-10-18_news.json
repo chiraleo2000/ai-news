@@ -1,0 +1,711 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T09:45:00+07:00",
+  "schema_version": "combined-1.0",
+  "stats": {
+    "total": 17,
+    "by_topic": {
+      "ai_trends": 8,
+      "tech_trends": 3,
+      "thailand": 1,
+      "global": 5
+    },
+    "by_source_category": {
+      "thai": 7,
+      "international": 6,
+      "research": 4,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 5,
+      "medium": 12,
+      "low": 0
+    },
+    "breakthrough_count": 5
+  },
+  "top_insights": [
+    {
+      "title": "Meta เปิดตัว Muse Spark Open โมเดลแบบเปิดรุ่นท็อปสุดของฝั่งสหรัฐ",
+      "impact_summary": "A near-frontier open-weight US model narrows the gap with Chinese open models and enables local deployment.",
+      "urgency": "high",
+      "article_id": "20261018-b1-05"
+    },
+    {
+      "title": "Beam จาก Reflection: โมเดลเปิด 501B ที่นำไปใช้และปรับแต่งได้เอง",
+      "impact_summary": "An Apache-2.0 frontier-class coding model gives enterprises a self-hostable alternative to closed APIs.",
+      "urgency": "high",
+      "article_id": "20261018-b2-04"
+    },
+    {
+      "title": "OpenGCUA: สแตกแบบเปิดเต็มรูปแบบสำหรับเอเจนต์ใช้คอมพิวเตอร์ทั่วไป",
+      "impact_summary": "An open computer-use stack with large OSWorld-v2 gains lowers the barrier to building desktop agents.",
+      "urgency": "high",
+      "article_id": "20261018-b3-01"
+    },
+    {
+      "title": "Claude พบที่มาของค่าคงที่ในมาตรฐาน ECDSA เป็น PRNG ที่ตั้งค่าเริ่มต้นด้วยเวลา",
+      "impact_summary": "AI model reasoning can resolve decades-old cryptographic provenance questions, strengthening trust audits of standards.",
+      "urgency": "high",
+      "article_id": "20261018-b1-01"
+    },
+    {
+      "title": "FDE-Gym: ก้าวสุดท้ายของการส่งมอบ AI ให้ลูกค้าจริง",
+      "impact_summary": "Even top agents solve only 14 of 95 realistic delivery tasks, highlighting the gap between benchmarks and customer deployment.",
+      "urgency": "medium",
+      "article_id": "20261018-b3-04"
+    },
+    {
+      "title": "Perplexity เปิดซอร์ส SPACE แซนด์บ็อกซ์ microVM สำหรับ AI agents",
+      "impact_summary": "Open, hardened agent sandboxing is becoming core infrastructure as agents gain real system access.",
+      "urgency": "high",
+      "article_id": "20261018-b2-06"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261018-b1-05",
+      "slug": "meta-muse-spark-open-weight-model",
+      "title": "Meta releases Muse Spark Open, top US open-weight model",
+      "title_th": "Meta เปิดตัว Muse Spark Open โมเดลแบบเปิดรุ่นท็อปสุดของฝั่งสหรัฐ",
+      "topic": "AI · Open Models",
+      "topic_group": "ai-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Meta เปิดตัว Muse Spark Open โมเดลแบบ open-weight ระดับกลางไม่กี่วันหลังรุ่นท็อป Muse Wonder โดยเรียกว่าเป็นโมเดลเปิดที่เก่งที่สุดของสหรัฐถึงปัจจุบัน เป็นโมเดล multimodal ขนาด 816B พารามิเตอร์รวม 42B ที่ใช้งานจริง และรองรับบริบท 1 ล้านโทเคน เน้นงานเขียนโค้ดซับซ้อน การให้เหตุผลทีละขั้น และงานระยะยาว Meta เปรียบเทียบกับ Qwen 3.8, GLM 5.3 และ Kimi K3 โดยอ้างว่าชนะ 6 เบนช์มาร์ก ขณะที่ Kimi K3 ชนะ 4 และโมเดลจีนยังนำเล็กน้อยด้านโค้ด Meta ร่วมกับ Apple ปรับให้ทำงานบน Apple Silicon ได้ โดย Mac Studio M5 Ultra สองเครื่อง (RAM สูงสุด 512GB ต่อเครื่อง) รันโมเดลเต็มได้ในเครื่อง น้ำหนักโมเดลอยู่บน Hugging Face และเรียกผ่าน Amazon SageMaker, Google Cloud Model Garden และ Microsoft Foundry ส่วนเงื่อนไขไลเซนส์ยังไม่ระบุ",
+      "source_url": "https://www.blognone.com/node/151929",
+      "tech_impact": "A near-frontier open-weight US model narrows the gap with Chinese open models and enables local deployment.",
+      "tags": [
+        "Meta",
+        "Muse Spark Open",
+        "open-weight",
+        "MoE"
+      ],
+      "category_label": "AI · Open Models",
+      "published_at": "2026-10-16",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "open-weight LLM",
+        "MoE",
+        "coding agents"
+      ],
+      "actions_developer": [
+        "Benchmark Muse Spark Open against Qwen/GLM/Kimi on your coding workloads",
+        "Test local inference on Apple Silicon and verify license terms before production"
+      ],
+      "actions_business": [
+        "Reassess open-weight vs API cost trade-offs for sensitive data",
+        "Monitor license terms for commercial use"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b2-04",
+      "slug": "reflection-beam-501b-open-model",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "title_th": "Beam จาก Reflection: โมเดลเปิด 501B ที่นำไปใช้และปรับแต่งได้เอง",
+      "topic": "AI · Open Models",
+      "topic_group": "ai-trends",
+      "source_name": "Hugging Face Blog",
+      "category": "International",
+      "urgency": "high",
+      "content": "Reflection เปิดตัว Beam โมเดล open-weight แบบ mixture-of-experts เฉพาะข้อความ ขนาด 501B พารามิเตอร์รวม 23B ที่ใช้ต่อโทเคน รองรับบริบท 1 ล้านโทเคน ภายใต้ไลเซนส์ Apache 2.0 มุ่งงานเขียนโค้ดและเอเจนต์ สถาปัตยกรรมมี 52 เลเยอร์ 256 experts ต่อเลเยอร์ MoE และเลือกใช้ 8 experts ต่อโทเคน มี checkpoint แบบ BF16 (ราว 1 TB) FP8 สำหรับ Hopper และ Ampere และ NVFP4 (ราว 280 GB) สำหรับ Blackwell ผลที่ Reflection รายงานสำหรับ BF16 ได้แก่ SWE-Bench Verified 81.6% Terminal Bench v2.1 80.1% AIME 2026 97.7% GPQA Diamond 90.6% LiveCodeBench 88.3% และ HLE แบบใช้เครื่องมือ 51.1% โดย checkpoint ที่บีบอัดแล้วให้คะแนนใกล้เคียงกัน ทำให้องค์กรที่ต้องการเป็นเจ้าของโมเดลเองมีทางเลือกระดับแนวหน้าภายใต้ไลเซนส์ที่อนุญาตเชิงพาณิชย์",
+      "source_url": "https://huggingface.co/blog/reflection-beam",
+      "tech_impact": "An Apache-2.0 frontier-class coding model gives enterprises a self-hostable alternative to closed APIs.",
+      "tags": [
+        "Reflection",
+        "Beam",
+        "Apache 2.0",
+        "SWE-Bench"
+      ],
+      "category_label": "AI · Open Models",
+      "published_at": "2026-10-16",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "open-weight LLM",
+        "coding agents",
+        "MoE"
+      ],
+      "actions_developer": [
+        "Evaluate NVFP4 checkpoint for Blackwell self-hosting",
+        "Compare Beam with other open MoE models on SWE-style tasks"
+      ],
+      "actions_business": [
+        "Consider owning model weights for data-sovereignty needs",
+        "Estimate GPU capacity (~280 GB NVFP4) before committing"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b2-05",
+      "slug": "stepfun-step-5-preview-open-weights",
+      "title": "StepFun releases Step 5 Preview open weights: 600B MoE, 27B active, 1M context",
+      "title_th": "StepFun ปล่อยน้ำหนักโมเดล Step 5 Preview: MoE 600B, active 27B, บริบท 1M",
+      "topic": "AI · Open Models",
+      "topic_group": "ai-trends",
+      "source_name": "MarkTechPost",
+      "category": "International",
+      "urgency": "medium",
+      "content": "StepFun เปิดน้ำหนักโมเดล Step 5 Preview แบบ sparse Mixture-of-Experts ขนาด 600B พารามิเตอร์รวม 27B ที่ใช้ต่อโทเคน และรองรับบริบทสูงสุด 1 ล้านโทเคน ใช้ 92 transformer blocks และหัว MTP-3 สำหรับ speculative decoding ที่บริษัทอ้างว่าเร็วขึ้นราว 30% ผลเบนช์มาร์กที่ StepFun รายงานคือ DeepSWE v1.1 ได้ 67.7 และ Terminal-Bench 4.0 ได้ 33.3 เทียบกับ GLM-5.3 ที่ 41.9 ส่วน Artificial Analysis ให้ Intelligence Index 43.7 และ AA-LCR 88.3% ซึ่งเป็นจุดแข็งสุด แต่ SRE Bench ได้เพียง 0.4% และการทดสอบใช้ reasoning ระดับ High เทียบกับคู่แข่งที่ระดับ Max จึงไม่ใช่การเทียบที่เท่ากัน API เปิดเมื่อ 20 กันยายน น้ำหนักตามมาเมื่อ 14 ตุลาคม ใต้ StepFun Model License 1.0 ต้องใช้ 4x B300 หรือ 8x H200 สำหรับ FP8 ราคา API 1.00 ดอลลาร์ต่ออินพุต 1M โทเคน และ 2.70 ดอลลาร์ต่อเอาต์พุต 1M โทเคน",
+      "source_url": "https://www.marktechpost.com/2026/10/16/stepfun-releases-step-5-preview-open-weights-600b-moe-27b-active-1m-context/",
+      "tech_impact": "Another large Chinese open-weight MoE with 1M context raises competitive pressure on API pricing.",
+      "tags": [
+        "StepFun",
+        "Step 5",
+        "MoE",
+        "1M context"
+      ],
+      "category_label": "AI · Open Models",
+      "published_at": "2026-10-16",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "open-weight LLM",
+        "MoE",
+        "long context"
+      ],
+      "actions_developer": [
+        "Note non-equal reasoning-effort settings when comparing benchmarks",
+        "Check license 1.0 terms and 4x B300 / 8x H200 hardware needs"
+      ],
+      "actions_business": [
+        "Use the $1.00/$2.70 per 1M token API pricing as a cost benchmark",
+        "Evaluate regional model options for diversified supply"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b3-01",
+      "slug": "opengcua-open-stack-generalist-computer-use",
+      "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+      "title_th": "OpenGCUA: สแตกแบบเปิดเต็มรูปแบบสำหรับเอเจนต์ใช้คอมพิวเตอร์ทั่วไป",
+      "topic": "AI · Agents",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Papers",
+      "category": "Research",
+      "urgency": "high",
+      "content": "OpenGCUA เป็นโปรเจกต์เปิดจากทีม MAI-UI ของ Alibaba (arXiv 2610.22200) ที่ปล่อยสแตกครบชุดสำหรับเอเจนต์ใช้คอมพิวเตอร์ทั่วไป ซึ่งเลือกได้เองว่าจะสังเกตและลงมือผ่านอินเทอร์เฟซภาพหรือโปรแกรม ดีไซน์เพิ่มการรันโค้ดเพื่อให้ผลระหว่างทางนำทางขั้นตอนถัดไป และแนวคิด harness-to-model decision transfer ที่ย้ายการตัดสินใจเรื่องการสังเกตและสถานะงานจากกฎตายตัวมาให้โมเดลตัดสินใจ บน OSWorld-v2 การตั้งค่าเต็มยกคะแนนบางส่วนเฉลี่ย 19.6 จุดจากแปดโมเดลที่ประเมิน รวมถึง GPT-6 Astra และ Claude Opus 5 และลดจำนวนขั้นต่อภารกิจ 53.0% เทียบกับการรันแบบ GUI อย่างเดียว ชุดปล่อยมีโค้ด prompts วิถีการประเมิน harness บน macOS จริงเบื้องต้น และ SDK ข้ามอุปกรณ์ ในงาน macOS จริง 4 งาน Qwen3.8-Max ใช้โทเคนให้เหตุผลมากกว่า GPT-6 Astra ถึง 19.4 เท่า",
+      "source_url": "https://huggingface.co/papers/2610.22200",
+      "tech_impact": "An open computer-use stack with large OSWorld-v2 gains lowers the barrier to building desktop agents.",
+      "tags": [
+        "OpenGCUA",
+        "computer use",
+        "OSWorld-v2",
+        "Alibaba"
+      ],
+      "category_label": "AI · Agents",
+      "published_at": "2026-10-16",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "computer-use agents",
+        "agents",
+        "benchmarks"
+      ],
+      "actions_developer": [
+        "Adopt code-execution plus GUI hybrid action spaces for computer-use agents",
+        "Track reasoning-token cost differences across models in real tasks"
+      ],
+      "actions_business": [
+        "Pilot open computer-use agents for repetitive desktop workflows",
+        "Compare model efficiency (19.4x token gap) in cost models"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b3-02",
+      "slug": "omnicompass-omni-modal-video-grounding-benchmark",
+      "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+      "title_th": "OmniCompass: เบนช์มาร์กรอบด้านสำหรับการเข้าใจและระบุตำแหน่งในวิดีโอแบบ omni-modal",
+      "topic": "AI · Video Understanding",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Papers",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "OmniCompass (arXiv 2610.18829) เป็นเบนช์มาร์กประเมิน multimodal LLM ด้านการระบุตำแหน่งและการเข้าใจวิดีโอ แบ่งสองแทร็ก ได้แก่ OmniCompass-VL สำหรับโมเดลภาพ-ภาษา และ OmniCompass-AV สำหรับโมเดล omni-modal ที่ต้องรวมหลักฐานเสียงและภาพ แต่ละแทร็กครอบคลุม temporal grounding (เมื่อไรที่เป้าหมายปรากฏ) spatial grounding (อยู่ที่ใด) และการตอบคำถาม ชุด VL มี 820 วิดีโอ 2,460 อินสแตนซ์ ทั้งสั้น กลาง และยาว ส่วนชุด AV ที่มีเสียงเด่นมี 240 วิดีโอ 720 อินสแตนซ์ ทุกอินสแตนซ์ทดสอบทั้งแบบระบุเป้าหมายด้วยข้อความอย่างเดียวและข้อความพร้อมรูป โดยมีผู้ทำ annotation และตรวจสอบหลายรอบ จากโมเดลที่ประเมิน 50 ตัว โมเดลโอเพนซอร์สยังตามหลังโมเดลเชิงพาณิชย์ โดยเฉพาะการเข้าใจเสียงร่วมกับภาพ การระบุเวลาและตำแหน่งที่แม่นยำยังยากแม้ในโมเดลชั้นนำ และ timestamp ช่วยให้ผลเสถียรขึ้น",
+      "source_url": "https://huggingface.co/papers/2610.18829",
+      "tech_impact": "A 50-model benchmark exposes persistent weaknesses in precise audio-visual grounding, especially for open-source models.",
+      "tags": [
+        "OmniCompass",
+        "benchmark",
+        "video grounding",
+        "arXiv 2610.18829"
+      ],
+      "category_label": "AI · Video Understanding",
+      "published_at": "2026-10-16",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "video understanding",
+        "multimodal AI",
+        "benchmarks"
+      ],
+      "actions_developer": [
+        "Use OmniCompass to test temporal/spatial grounding in video pipelines",
+        "Include timestamps in prompts to improve grounding stability"
+      ],
+      "actions_business": [
+        "Prefer proprietary models for audio-visual products until open models close the gap",
+        "Request grounding benchmarks from vendors, not only QA scores"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b3-03",
+      "slug": "waypoint-opd-gated-on-policy-distillation",
+      "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+      "title_th": "Waypoint-OPD: ถ่ายทอดการเปลี่ยนแปลงนโยบายจาก RL ด้วย gated on-policy distillation",
+      "topic": "AI · Training Methods",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Papers",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "Waypoint-OPD (arXiv 2610.21601) เสนอวิธีถ่ายทอดผลจากการเรียนรู้แบบเสริมกำลัง (RL) จากโมเดลครูไปยังโมเดลนักเรียน วิธี policy-shift distillation แบบมาตรฐานใช้การเปลี่ยนแปลงของ log probability ของครูก่อนและหลัง RL เป็นสัญญาณฝึก แต่การเปลี่ยนแปลงปลายทางอาจซ่อนว่าความชอบของครูเปลี่ยนอย่างสม่ำเสมอหรือไม่ Waypoint-OPD ใช้ checkpoint ระหว่างทางจากการรัน RL เดียวกัน และกดการเปลี่ยนแปลงปลายทางเมื่อการเปลี่ยนช่วงต้นและช่วงท้ายชี้ทิศตรงข้ามกัน ต้องการเพียงการให้คะแนนด้วยครูที่ถูกแช่แข็งเพิ่มหนึ่งรอบ ผู้เขียนใช้ครู Qwen3-4B ทดสอบนักเรียน Qwen3-8B, 14B และ 30B-A3B ด้านการให้เหตุผลคณิตศาสตร์และโค้ด ผลคือในทั้ง 6 การตั้งค่าโดเมน-นักเรียน Waypoint-OPD ได้คะแนนเฉลี่ยโดเมนสูงสุดในกลุ่มวิธีที่เปรียบเทียบ และ ablation ชี้ว่าการถอดหรือสลับ gate ทำให้ผลคณิตศาสตร์แย่ลง",
+      "source_url": "https://huggingface.co/papers/2610.21601",
+      "tech_impact": "A cheap gating trick improves transfer of RL gains to smaller students across six settings.",
+      "tags": [
+        "Waypoint-OPD",
+        "distillation",
+        "RL",
+        "Qwen3"
+      ],
+      "category_label": "AI · Training Methods",
+      "published_at": "2026-10-16",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "distillation",
+        "reinforcement learning",
+        "reasoning"
+      ],
+      "actions_developer": [
+        "Try intermediate-checkpoint gating when distilling RL-trained teachers",
+        "Run ablations removing gates to confirm gains in your domain"
+      ],
+      "actions_business": [
+        "Smaller distilled reasoning models can cut inference cost",
+        "Watch for distillation methods that need only one extra scoring pass"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b3-04",
+      "slug": "fde-gym-last-mile-ai-delivery",
+      "title": "FDE-Gym: The Last Mile of AI Delivery",
+      "title_th": "FDE-Gym: ก้าวสุดท้ายของการส่งมอบ AI ให้ลูกค้าจริง",
+      "topic": "AI · Agent Evaluation",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Papers",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "FDE-Gym (arXiv 2610.22350) เป็นเบนช์มาร์กทดสอบเอเจนต์ AI กับงานส่งมอบให้ลูกค้าจริงที่ความต้องการคลุมเครือและข้อจำกัดสำคัญซ่อนอยู่จนกว่าจะค้นพบ มี 95 งานแบบ end-to-end จาก 20 สถานการณ์ลูกค้าใน 18 ภาคอุตสาหกรรม ดัดแปลงจากโปรเจกต์จริงโดยผู้เชี่ยวชาญ เอเจนต์ทำงานในสภาพแวดล้อมจำลองที่มีผู้มีส่วนได้ส่วนเสียตามสคริปต์และระบบที่แก้ไขได้ การให้คะแนนวัดว่าการส่งมอบยกระดับตัวชี้วัดความสำเร็จของลูกค้าแค่ไหน ตั้งแต่ 0 (ระบบไม่เปลี่ยน) ถึง 1 (เฉลยอ้างอิง) พร้อมหักคะแนนเมื่อถามมากเกินไป ลองรันมากเกินไป หรือรอนาน ผู้เขียนประเมิน 13 การตั้งค่าโมเดลจาก 7 ผู้ให้บริการ ในสภาพจริงตัวที่ดีที่สุดได้เฉลี่ย 0.56 และแก้ได้เพียง 14 จาก 95 งาน คอขวดหลักคือการค้นหาข้อจำกัดที่ไม่ได้ระบุ แม้บน 23 งานที่โมเดลได้ข้อเท็จจริงสำคัญครบ ก็ยกระดับถึง 0.8 ได้เพียง 10 งาน",
+      "source_url": "https://huggingface.co/papers/2610.22350",
+      "tech_impact": "Even top agents solve only 14 of 95 realistic delivery tasks, highlighting the gap between benchmarks and customer deployment.",
+      "tags": [
+        "FDE-Gym",
+        "benchmark",
+        "agents",
+        "enterprise delivery"
+      ],
+      "category_label": "AI · Agent Evaluation",
+      "published_at": "2026-10-16",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "agent evaluation",
+        "enterprise AI",
+        "benchmarks"
+      ],
+      "actions_developer": [
+        "Test agents on ambiguous, hidden-constraint tasks, not only well-specified ones",
+        "Build elicitation behaviors that surface unstated requirements"
+      ],
+      "actions_business": [
+        "Temper expectations for autonomous AI delivery without human forward-deployed engineers",
+        "Budget for human oversight in customer-facing AI projects"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b1-01",
+      "slug": "claude-traces-ecdsa-constants-timestamp-prng",
+      "title": "Claude traces origin of ECDSA standard constants to a timestamp-seeded PRNG",
+      "title_th": "Claude พบที่มาของค่าคงที่ในมาตรฐาน ECDSA เป็น PRNG ที่ตั้งค่าเริ่มต้นด้วยเวลา",
+      "topic": "AI · Security Research",
+      "topic_group": "ai-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Anthropic ใช้ Claude สืบหาที่มาของค่าคงที่ในมาตรฐาน ECDSA ของ NIST (FIPS 186-2) ซึ่งไม่เคยมีการบันทึกที่มา โดยค่าเหล่านี้สร้างโดย Jerry Solinas นักวิจัยของ NSA ที่เสียชีวิตในปี 2023 และโค้ดต้นทางสูญหายไปแล้ว Claude พบว่าค่าคงที่มาจากฟังก์ชัน lrand48 ที่ตั้งค่าเริ่มต้นด้วย Unix timestamp ช่วงพฤษภาคม 1997 ถึงเมษายน 1998 จากการสังเกตว่า seed ของเส้นโค้งไบนารี 4 ชุดมีเลขศูนย์นำหน้าในทุกคำขนาด 32 บิต ซึ่งตรงกับเอาต์พุต 31 บิตของ lrand48 จากนั้นกู้คืน seed ได้และพบว่า NIST ใช้เพียง 8 บิตแรก Filippo Valsorda ผู้ดูแลแพ็กเกจ crypto ของ Go เคยตั้งรางวัล 12,288 ดอลลาร์ให้ผู้ค้นพบ และ Anthropic บริจาคส่วนของตนให้ ISRG ผู้ดำเนินการ Let's Encrypt รวมเป็น 36,864 ดอลลาร์ นับเป็นตัวอย่างที่ชัดเจนว่า AI ช่วยไขปริศนาด้านวิทยาการเข้ารหัสที่ค้างคามานานได้",
+      "source_url": "https://www.blognone.com/node/151937",
+      "tech_impact": "AI model reasoning can resolve decades-old cryptographic provenance questions, strengthening trust audits of standards.",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "ECDSA",
+        "NIST",
+        "PRNG"
+      ],
+      "category_label": "AI · Security Research",
+      "published_at": "2026-10-17",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI for security",
+        "cryptography",
+        "reasoning"
+      ],
+      "actions_developer": [
+        "Audit crypto constants in your stack for undocumented 'nothing-up-my-sleeve' origins",
+        "Try LLM-assisted reverse engineering on legacy specs and unexplained magic numbers"
+      ],
+      "actions_business": [
+        "Include provenance review of cryptographic standards in vendor risk assessments",
+        "Track AI-driven security research as a source of new audit capability"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b2-06",
+      "slug": "perplexity-space-firecracker-agent-sandbox",
+      "title": "Perplexity open-sources SPACE, a Firecracker microVM sandbox for AI agents",
+      "title_th": "Perplexity เปิดซอร์ส SPACE แซนด์บ็อกซ์ microVM สำหรับ AI agents",
+      "topic": "Tech · Agent Infrastructure",
+      "topic_group": "tech-trends",
+      "source_name": "MarkTechPost",
+      "category": "International",
+      "urgency": "high",
+      "content": "Perplexity เปิดซอร์ส SPACE (Sandboxed Platform for Agentic Code Execution) แพลตฟอร์มแซนด์บ็อกซ์สำหรับรันโค้ดของเอเจนต์ โดยแต่ละงานได้ Firecracker microVM ของตัวเองพร้อม guest kernel แยกต่างหาก มี network gateway ต่อแซนด์บ็อกซ์บนโฮสต์เพื่อบังคับนโยบายขาออก และฉีด credentials จากภายนอก VM เขียนด้วย Rust เวอร์ชัน 0.8.0 เปิด HTTP API พร้อม server-sent events ต้องใช้โฮสต์ Linux x86_64 ที่มี KVM, btrfs และ Docker ติดตั้งผ่าน Kind หรือ direct mode ไม่รองรับ macOS ตัวเลขจาก Perplexity ระบุว่า median create latency ใน production ลดจาก 185 ms เหลือ 60 ms ในการทดสอบ red-team 9 โมเดล ไม่มีรันใดจาก 108 ครั้งที่ไปถึงความลับฝั่งโฮสต์ ส่วนการเลี่ยงนโยบายเครือข่ายพบ 11 จาก 54 กรณีก่อนแก้ไข และหลังแก้ไม่พบการเลี่ยงที่ยืนยันได้ แซนด์บ็อกซ์ที่ไม่ใช้งานจะหยุดชั่วคราวหลัง 6 ชั่วโมง ภายใต้ไลเซนส์ Apache 2.0",
+      "source_url": "https://www.marktechpost.com/2026/10/16/perplexity-open-sources-space-firecracker-microvm-sandbox-ai-agents/",
+      "tech_impact": "Open, hardened agent sandboxing is becoming core infrastructure as agents gain real system access.",
+      "tags": [
+        "Perplexity",
+        "SPACE",
+        "Firecracker",
+        "agent sandbox"
+      ],
+      "category_label": "Tech · Agent Infrastructure",
+      "published_at": "2026-10-16",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "agent security",
+        "sandboxing",
+        "AI infrastructure"
+      ],
+      "actions_developer": [
+        "Evaluate SPACE for isolating agent code execution with per-task microVMs",
+        "Inject credentials outside the VM and enforce egress policy at the gateway"
+      ],
+      "actions_business": [
+        "Require sandboxing and egress controls for any production agents",
+        "Factor KVM/btrfs Linux host requirements into infrastructure plans"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b1-02",
+      "slug": "google-gmail-live-voice-email-search",
+      "title": "Google launches Gmail Live for voice search of email",
+      "title_th": "กูเกิลปล่อยฟีเจอร์ Gmail Live ค้นหาข้อมูลในอีเมลด้วยเสียงพูด ตอบด้วยเสียงพูด",
+      "topic": "Tech · Productivity",
+      "topic_group": "tech-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "กูเกิลประกาศเมื่อวันที่ 17 ตุลาคม 2026 ว่ากำลังทยอยเปิดตัว Gmail Live ฟีเจอร์ค้นหาอีเมลด้วยเสียงพูดโดยใช้ Gemini สำหรับผู้ใช้ Google Workspace แบบเสียเงินบนสมาร์ตโฟน Android และ iOS ผู้ใช้เพียงกดปุ่มค้นหาแล้วถามด้วยเสียง เช่น ตอนนี้ฉันต้องขึ้นเที่ยวบินไหนและออกกี่โมง จากนั้น Gemini จะค้นหาในอีเมลของสายการบิน ตอบกลับด้วยเสียง และแสดงอีเมลที่เกี่ยวข้องให้เปิดดูรายละเอียดต่อได้ทันที บทความระบุว่ายังไม่มีรายละเอียดเรื่องแพ็กเกจที่รองรับ ภาษาที่ใช้ได้ หรือราคา จึงต้องติดตามประกาศจาก Workspace Updates blog ต่อไป ฟีเจอร์นี้สะท้อนทิศทางที่ผู้ช่วย AI ถูกฝังเข้าไปในเครื่องมือทำงานประจำวันและเปลี่ยนวิธีค้นหาข้อมูลจากการพิมพ์คีย์เวิร์ดไปเป็นการสนทนา ซึ่งอาจเพิ่มประสิทธิภาพของพนักงานที่ต้องจัดการอีเมลจำนวนมาก แต่ก็ทำให้องค์กรต้องทบทวนนโยบายความเป็นส่วนตัวและสิทธิ์การเข้าถึงข้อมูลในกล่องจดหมาย",
+      "source_url": "https://www.blognone.com/node/151935",
+      "tech_impact": "Conversational voice retrieval over enterprise mailboxes becomes a mainstream workspace feature.",
+      "tags": [
+        "Gmail Live",
+        "Gemini",
+        "Google Workspace"
+      ],
+      "category_label": "Tech · Productivity",
+      "published_at": "2026-10-17",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "productivity AI",
+        "voice interfaces",
+        "Gemini"
+      ],
+      "actions_developer": [
+        "Review mailbox data-access scopes before AI voice features reach your tenant",
+        "Prototype voice-first retrieval over internal mail/doc stores"
+      ],
+      "actions_business": [
+        "Update privacy and acceptable-use policy for AI mailbox access",
+        "Pilot Gmail Live with high-email-volume roles to measure time saved"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b2-01",
+      "slug": "replit-defaults-to-openai-over-anthropic",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "title_th": "Replit เปลี่ยนมาใช้ OpenAI เป็นค่าเริ่มต้นแทน Anthropic ตามที่ซีอีโอเผย",
+      "topic": "Tech · AI Coding Platforms",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Amjad Masad ซีอีโอและผู้ร่วมก่อตั้ง Replit แพลตฟอร์มเขียนโค้ดด้วย AI เปิดเผยบนเวที TechCrunch Disrupt ว่าบริษัทไม่ได้ร่วมงานกับ Anthropic แล้ว โดยอ้างเหตุผลด้านต้นทุน การเป็นพันธมิตร และประสิทธิภาพ เขากล่าวว่า ChatGPT ดีกว่าในตอนนี้ จากเบนช์มาร์กภายในและสาธารณะที่โมเดลของ OpenAI สร้างแอปแบบ vibe-coded ได้ดีกว่า Replit ประกาศความร่วมมือกับ OpenAI ตั้งแต่เดือนสิงหาคม ภายหลังเขาชี้แจงว่าลูกค้ายังเลือกใช้ Claude ได้ แต่ ChatGPT เป็นค่าเริ่มต้น ซึ่งอาจลดค่าใช้จ่ายด้าน Anthropic ของ Replit ลงมากเพราะผู้ใช้ส่วนใหญ่ใช้ค่าเริ่มต้น แม้ Replit เคยเป็นลูกค้า 5 อันดับแรกของ Anthropic แต่แหล่งข่าวภายในโต้แย้งว่าความร่วมมือยังคงอยู่ Masad ยังระบุว่ารายได้จากองค์กรอยู่ราว 2% เมื่อปีที่แล้วและราว 15% ปีนี้ โดยกว่า 50% มาจากลูกค้า B2B",
+      "source_url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "tech_impact": "Default-model switching by a major coding platform signals intensifying OpenAI-Anthropic competition in AI coding.",
+      "tags": [
+        "Replit",
+        "OpenAI",
+        "Anthropic",
+        "vibe coding"
+      ],
+      "category_label": "Tech · AI Coding Platforms",
+      "published_at": "2026-10-17",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI coding",
+        "LLM vendors",
+        "developer platforms"
+      ],
+      "actions_developer": [
+        "Abstract model providers behind a routing layer to switch defaults quickly",
+        "Benchmark providers on your own vibe-coding tasks regularly"
+      ],
+      "actions_business": [
+        "Avoid single-vendor lock-in for AI coding tools",
+        "Watch pricing leverage as platforms renegotiate model deals"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b1-06",
+      "slug": "jack-clark-anthropic-imf-bangkok-ai-economy",
+      "title": "Anthropic's Jack Clark at IMF Meetings in Bangkok on AI and the global economy",
+      "title_th": "Jack Clark จาก Anthropic ในงาน IMF กรุงเทพฯ: AI กับเศรษฐกิจโลก",
+      "topic": "Thailand · AI Policy & Economy",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Techsauce สรุปเวทีเสวนาราว 50 นาทีหัวข้อ AI and the Global Economy ในงานประชุม IMF ที่ประเทศไทย โดยมี Kristalina Georgieva จาก IMF, Tiff Macklem ผู้ว่าการธนาคารกลางแคนาดา, Tobias Meyer ซีอีโอ DHL และ Jack Clark ผู้ร่วมก่อตั้ง Anthropic ร่วมวงเสวนา Clark ระบุว่าองค์กรที่ใช้ AI สำเร็จต้องกล้ารื้อกระบวนการเดิม โดย Anthropic เองเขียนระบบเก่าใหม่ด้วย AI จนเร็วและมีประสิทธิภาพขึ้น AI ให้ผลทันทีที่เปิดใช้ ผลิตภาพจึงอาจมาเร็วกว่าที่คาด เขาชี้ว่าการจ้างงานระดับเริ่มต้นอาจชะลอ ขณะที่ Anthropic จ้างผู้มีประสบการณ์มากขึ้นเพื่อดูแล virtual workers และเปรียบการพัฒนา AI กับการแข่ง Formula One กลางคืนที่อาจไม่มีเบรก จึงต้องมีกฎระเบียบและความโปร่งใส พร้อมสนับสนุนแนวทาง test once, run anywhere สำหรับมาตรฐานสากล",
+      "source_url": "https://techsauce.co/ai/jack-clark-anthropic-ai-global-economy",
+      "tech_impact": "Top AI lab leadership frames workforce restructuring and regulation themes directly relevant to Thai policymakers.",
+      "tags": [
+        "Jack Clark",
+        "Anthropic",
+        "IMF",
+        "Thailand"
+      ],
+      "category_label": "Thailand · AI Policy & Economy",
+      "published_at": "2026-10-16",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI economy",
+        "labor market",
+        "AI regulation"
+      ],
+      "actions_developer": [
+        "Redesign legacy workflows around AI rather than bolting on assistants",
+        "Prepare for global evaluation standards (test once, run anywhere)"
+      ],
+      "actions_business": [
+        "Rethink entry-level hiring and training pipelines",
+        "Engage with AI regulation and transparency frameworks early"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b1-04",
+      "slug": "google-singapore-govtech-ai-scam-warning",
+      "title": "Google and Singapore GovTech launch AI scam-message warnings",
+      "title_th": "กูเกิลร่วมมือสิงคโปร์ เริ่มเตือนผู้ใช้เมื่อได้รับข้อความจากแก๊งคอลเซ็นเตอร์",
+      "topic": "Global · Public Sector AI",
+      "topic_group": "global",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "กูเกิลร่วมมือกับ GovTech ของสิงคโปร์ ซึ่งเทียบได้กับ DGA ของไทย เปิดตัวระบบเตือนข้อความหลอกลวงที่แอบอ้างเป็นหน่วยงานรัฐ ธนาคาร หรือบุคคลสำคัญ ระบบทำงานสองขั้นเพื่อประหยัดพลังงาน ขั้นแรกใช้โมเดลขนาดเล็กเฉพาะทางตรวจสอบว่าเป็นข้อความหลอกลวงหรือไม่ ขั้นที่สองใช้โมเดล Gemma ที่ fine-tune มาเพื่องานนี้ยืนยันซ้ำ และวิเคราะห์บทสนทนาที่ยาวขึ้นได้ ทั้งสองโมเดลถูกฝึกด้วยข้อมูลของสิงคโปร์ รวมถึงรายงานสแกมที่รวบรวมไว้ โดยการฝึกทำบนบัญชี Google Cloud ของ GovTech เอง ทำให้รัฐบาลควบคุมข้อมูลได้ การเปิดใช้งานจะทยอยทำในสิงคโปร์และขออนุญาตผู้ใช้ก่อนเปิดฟีเจอร์ บทความไม่ระบุตัวเลขอัตราการตรวจจับหรือจำนวนผู้ใช้ แต่แนวทางนี้เป็นต้นแบบที่ประเทศในเอเชียตะวันออกเฉียงใต้รวมถึงไทยซึ่งเผชิญแก๊งคอลเซ็นเตอร์สามารถศึกษาได้",
+      "source_url": "https://www.blognone.com/node/151931",
+      "tech_impact": "A government-controlled, two-stage on-device-friendly scam filter offers a template for ASEAN anti-fraud AI.",
+      "tags": [
+        "Google",
+        "GovTech",
+        "Gemma",
+        "scam"
+      ],
+      "category_label": "Global · Public Sector AI",
+      "published_at": "2026-10-16",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI for fraud",
+        "Gemma",
+        "public sector AI"
+      ],
+      "actions_developer": [
+        "Study cascaded small-model plus Gemma verification for low-cost message classification",
+        "Fine-tune on national scam-report data within a sovereign cloud account"
+      ],
+      "actions_business": [
+        "Telcos and banks should explore co-developed scam detection with regulators",
+        "Plan opt-in consent flows for message-scanning features"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b1-07",
+      "slug": "ai-chip-war-to-electricity-war",
+      "title": "From chip war to electricity war: Big Tech's hunt for AI power",
+      "title_th": "จากสงครามชิปสู่สงครามไฟฟ้า: Big Tech แสวงหาพลังงานให้ AI",
+      "topic": "Global · AI Infrastructure & Energy",
+      "topic_group": "global",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Techsauce ตอน Tech for Biz EP.66 วิเคราะห์ว่าการแข่งขัน AI กำลังเปลี่ยนจากเรื่องชิป โมเดล และขนาดดาต้าเซ็นเตอร์ ไปสู่ประเด็นไฟฟ้า เพราะดาต้าเซ็นเตอร์ใช้ไฟจำนวนมากตลอด 24 ชั่วโมง ขณะที่การสร้างโรงไฟฟ้า สายส่ง และขยายโครงข่ายใช้เวลาหลายปี Microsoft, Google, Amazon, Meta และ NVIDIA จึงเริ่มหาพลังงานเอง ทั้งทำสัญญาซื้อไฟระยะยาว ร่วมมือกับบริษัทพลังงาน และลงทุนในนิวเคลียร์ พลังงานหมุนเวียน และความร้อนใต้พิภพ ความพร้อมของไฟฟ้ายังเริ่มกำหนดว่าจะสร้างดาต้าเซ็นเตอร์ได้ที่ใด บทความมองว่ายุคถัดไปของการแข่งขัน AI อาจขึ้นกับว่าใครหาไฟได้พอและเร็วพอ โดยไม่มีตัวเลขกำลังไฟหรือมูลค่าการลงทุนระบุไว้ แต่ประเด็นนี้สำคัญต่อประเทศที่ต้องการดึงดูดการลงทุนดาต้าเซ็นเตอร์รวมถึงไทย",
+      "source_url": "https://techsauce.co/video/ai-energy-datacenter",
+      "tech_impact": "Power availability is becoming the binding constraint and a siting factor for AI infrastructure.",
+      "tags": [
+        "AI power",
+        "data center",
+        "nuclear",
+        "Techsauce"
+      ],
+      "category_label": "Global · AI Infrastructure & Energy",
+      "published_at": "2026-10-16",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI infrastructure",
+        "energy",
+        "data centers"
+      ],
+      "actions_developer": [
+        "Design workloads for energy efficiency and flexible scheduling",
+        "Track regions with secured power for capacity planning"
+      ],
+      "actions_business": [
+        "Factor energy availability into data center location and cloud contracts",
+        "Policy makers should align grid planning with AI investment"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b1-03",
+      "slug": "apple-app-review-ai-nude-apps",
+      "title": "Apple tightens App Review rules against AI nude-image apps",
+      "title_th": "Apple ปรับปรุงกฎการตรวจสอบแอป ป้องกันปัญหาแอป AI สร้างภาพเปลือย",
+      "topic": "Global · Platform Policy",
+      "topic_group": "global",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Apple ปรับปรุง App Review Guidelines เพื่อจัดการแอปแบบ bait-and-switch ซึ่งแสดงตัวต่อผู้ตรวจสอบเป็นแอปธรรมดาแต่ภายหลังเปิดให้ผู้ใช้สร้างภาพเปลือยหรือภาพทางเพศด้วย AI กฎใหม่ครอบคลุมสามเรื่องหลัก ข้อแรก การนำภาพส่วนบุคคลของผู้อื่นไปใช้โดยไม่ได้รับความยินยอม และแอปที่สร้างเนื้อหาด้วย AI ต้องมีแผนรองรับการลบเนื้อหาออกจากแพลตฟอร์ม มิฉะนั้นอาจถูกถอดจาก App Store ข้อสอง แอปต้องไม่บิดเบือนวัตถุประสงค์ระหว่างการตรวจสอบ และห้ามเปลี่ยนฟังก์ชันหลังได้รับอนุมัติ เช่น เพิ่มฟีเจอร์ที่ไม่มีในเวอร์ชันที่ผ่านการตรวจ ข้อสาม แอปที่เกี่ยวข้องกับการแสวงประโยชน์ทางเพศจากเด็กจะถูกถอดทันทีและถูกบล็อกการเผยแพร่ทุกช่องทาง บทความไม่ได้ระบุจำนวนแอปที่ได้รับผลกระทบหรือกำหนดเวลาบังคับใช้ แต่การปรับกฎนี้เป็นสัญญาณว่าแพลตฟอร์มรายใหญ่เริ่มเพิ่มความรับผิดชอบต่อเนื้อหาที่ AI สร้างขึ้น",
+      "source_url": "https://www.blognone.com/node/151934",
+      "tech_impact": "Platform gatekeepers are formalizing accountability for generative-AI content, raising compliance bars for app developers.",
+      "tags": [
+        "Apple",
+        "App Store",
+        "AI safety"
+      ],
+      "category_label": "Global · Platform Policy",
+      "published_at": "2026-10-17",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI governance",
+        "app platforms",
+        "trust and safety"
+      ],
+      "actions_developer": [
+        "Ensure AI-generation apps ship content-removal and consent mechanisms before submission",
+        "Avoid post-approval functionality changes that differ from the reviewed build"
+      ],
+      "actions_business": [
+        "Audit gen-AI products against App Store policy to avoid takedown risk",
+        "Budget for trust-and-safety tooling in consumer AI apps"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b2-02",
+      "slug": "anthropic-workforce-less-junior-more-meetings",
+      "title": "Anthropic says its workforce is less junior and spending more time in meetings",
+      "title_th": "Anthropic เผยพนักงานระดับจูเนียร์ลดลงและใช้เวลาในการประชุมมากขึ้น",
+      "topic": "Global · Future of Work",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "รายงานด้านกำลังคนล่าสุดของ Anthropic ชี้ว่าการจ้างระดับจูเนียร์ลดลงและเวลาประสานงานเพิ่มขึ้น สัดส่วนพนักงานจูเนียร์ในสายเทคนิคลดจาก 21% เหลือ 14% นับจากต้นปี 2025 และสัดส่วนจูเนียร์ในการจ้างสายเทคนิคลดจาก 27% เหลือ 9% ทีมเทคนิคเหลือ 56% ของพนักงาน จากเดิม 61% ซึ่งบริษัทเชื่อมโยงกับการเติบโตของธุรกิจและการที่คนนอกสายวิศวกรรมสร้างซอฟต์แวร์ด้วยเครื่องมือเขียนโค้ด จากแบบสำรวจเดือนเมษายน 2026 พนักงาน 27% บอกว่า Claude ทำให้ผลิตภาพสูงขึ้น และ 20% บอกว่างานเปลี่ยนไปเป็นการจัดการ Claude รายงานระบุว่าความสนใจของมนุษย์กลายเป็นคอขวดเพราะ Claude สร้างข้อความจำนวนมากให้ต้องตรวจทาน แม้ผลผลิตต่อคนเพิ่ม ทั้งโค้ด ยอดขาย และสัญญาที่ประมวลผล โดยไม่พบคุณภาพโค้ดลดลง แต่เวลาประชุมต่อคนเพิ่มขึ้น 20% จากปีก่อน และ 16% ในสายเทคนิค",
+      "source_url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "tech_impact": "First-party data shows AI shifting workforce composition away from junior roles and toward oversight and coordination.",
+      "tags": [
+        "Anthropic",
+        "workforce",
+        "productivity",
+        "junior hiring"
+      ],
+      "category_label": "Global · Future of Work",
+      "published_at": "2026-10-17",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "future of work",
+        "AI adoption",
+        "org design"
+      ],
+      "actions_developer": [
+        "Invest in review tooling to reduce the human-attention bottleneck on AI output",
+        "Track meeting load and review time as AI-adoption side effects"
+      ],
+      "actions_business": [
+        "Rethink junior hiring and mentoring pipelines",
+        "Measure productivity beyond output volume, including coordination cost"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261018-b2-03",
+      "slug": "meta-removes-scraping-ai-training-terms",
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "title_th": "Meta ถอนข้อความในเงื่อนไขที่สร้างความกังวลเรื่องการดึงข้อมูลเว็บและการเทรน AI",
+      "topic": "Global · AI Copyright & Data Rights",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Meta อัปเดตเงื่อนไขทางการค้าโดยระบุว่าอาจใช้เนื้อหาใดๆ จากโดเมน เว็บเพจ หรือ URL ของบัญชีธุรกิจเพื่อให้บริการ พัฒนา ปรับปรุง วิจัย ฝึก และรักษาความสมบูรณ์ของผลิตภัณฑ์ ผู้เชี่ยวชาญด้านกฎหมายที่ Nieman Lab อ้างถึงเรียกว่าเป็นข้อกำหนดที่น่าทึ่ง เพราะอาจเปิดทางให้ Meta ดึงข้อมูลจากเว็บไซต์ผู้เผยแพร่ไปฝึกโมเดล AI Meta ชนะคดีลิขสิทธิ์สำคัญเรื่องการฝึก AI ในปี 2025 แต่ยังมีคดีอื่นต่อเนื่อง รวมถึงคดีที่สำนักพิมพ์ยื่นฟ้องในเดือนพฤษภาคม 2026 โฆษกของ Meta ชี้แจงว่าการอัปเดตไม่ได้เปลี่ยนวิธีที่บริษัทใช้ web crawler และเงื่อนไขการรวบรวมข้อมูลครอบคลุมเฉพาะผลิตภัณฑ์โฆษณาและธุรกิจ ต่อมาข้อความดังกล่าวถูกลบออกแล้ว เหตุการณ์นี้สะท้อนความอ่อนไหวต่อสิทธิ์ในเนื้อหาที่ใช้ฝึก AI",
+      "source_url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "tech_impact": "Terms-of-service wording on AI training data remains a flashpoint for publishers and regulators.",
+      "tags": [
+        "Meta",
+        "AI training",
+        "scraping",
+        "copyright"
+      ],
+      "category_label": "Global · AI Copyright & Data Rights",
+      "published_at": "2026-10-17",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI copyright",
+        "data governance",
+        "platform policy"
+      ],
+      "actions_developer": [
+        "Review robots.txt and crawler-control settings for AI training opt-out",
+        "Log changes to platform terms that affect content rights"
+      ],
+      "actions_business": [
+        "Have legal review platform commercial terms for AI-training clauses",
+        "Monitor ongoing publisher copyright litigation against AI firms"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
