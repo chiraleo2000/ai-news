@@ -1,0 +1,602 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T10:30:00+07:00",
+  "schema_version": "combined-1.0",
+  "pipeline_version": "combined-1.0",
+  "stats": {
+    "total": 13,
+    "by_topic": {
+      "ai_trends": 5,
+      "tech_trends": 2,
+      "thailand": 2,
+      "global": 4
+    },
+    "by_source_category": {
+      "thai": 7,
+      "international": 2,
+      "research": 4,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 5,
+      "medium": 7,
+      "low": 1
+    },
+    "breakthrough_count": 4
+  },
+  "top_insights": [
+    {
+      "title": "Microsoft AI โชว์โมเดลพื้นฐาน MAI-Base-2 ใช้เทรนโมเดลอื่น คะแนนดีขึ้นจากรุ่นแรกมาก",
+      "impact_summary": "Microsoft is building an end-to-end frontier pre-training stack, reducing dependence on partners and adding competition at the model layer.",
+      "urgency": "high",
+      "related_domains": [
+        "foundation models",
+        "MoE",
+        "pre-training"
+      ],
+      "article_id": "20261019-b1-04"
+    },
+    {
+      "title": "Jack Clark แห่ง Anthropic บอกเวที IMF-World Bank ที่กรุงเทพฯ ว่าเรามีเวลาเตรียมรับ AI ไม่ถึงหนึ่งทศวรรษ",
+      "impact_summary": "A frontier-lab co-founder framing AI progress as near a self-accelerating phase at a major policy venue in Bangkok raises the urgency of national AI strategy.",
+      "urgency": "high",
+      "related_domains": [
+        "AI policy",
+        "AI scaling",
+        "economic impact"
+      ],
+      "article_id": "20261019-b1-07"
+    },
+    {
+      "title": "Terminal-RSI: เอเจนต์เทอร์มินัลที่พัฒนาตัวเองซ้ำได้ผ่านการเขียนวิถีใหม่และปรับนโยบาย",
+      "impact_summary": "Verifier-driven recursive self-rewriting gives a recipe for improving mid-size open models as terminal and coding agents.",
+      "urgency": "medium",
+      "related_domains": [
+        "agentic RL",
+        "coding agents",
+        "self-improvement"
+      ],
+      "article_id": "20261019-b3-01"
+    },
+    {
+      "title": "MLExpert: โมเดลเอเจนต์อเนกประสงค์สำหรับงานวิศวกรรมแมชชีนเลิร์นนิงแบบอัตโนมัติ",
+      "impact_summary": "A 35B MoE agent nearly doubles medal rate on MLE-Bench Lite, suggesting small specialised agents can rival larger frontier models in automated ML work.",
+      "urgency": "medium",
+      "related_domains": [
+        "AutoML agents",
+        "agentic RL",
+        "AI for AI"
+      ],
+      "article_id": "20261019-b3-03"
+    },
+    {
+      "title": "OpenCode Console ถูกแฮก คนร้ายดึง API key ออกไปได้ สร้างค่าใช้จ่ายจำนวนมาก",
+      "impact_summary": "Centralised API-key sharing in dev tooling is a high-value target; stolen LLM keys can be monetised and used for distillation.",
+      "urgency": "high",
+      "related_domains": [
+        "AI security",
+        "API key management",
+        "LLM supply chain"
+      ],
+      "article_id": "20261019-b1-02"
+    },
+    {
+      "title": "คุยกับ Volker Rath Field CISO ของ Cloudflare เมื่อ Agent ทำพลาด ใครต้องรับผิด?",
+      "impact_summary": "AI agent accountability and Shadow AI are shifting from tech problems to governance, policy-as-code and zero-trust enforcement; relevant to Thai regulatory moves.",
+      "urgency": "high",
+      "related_domains": [
+        "AI governance",
+        "zero trust",
+        "agent security"
+      ],
+      "article_id": "20261019-b1-05"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261019-b3-01",
+      "slug": "terminal-rsi-recursive-self-improving-terminal-agents",
+      "title": "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine",
+      "title_th": "Terminal-RSI: เอเจนต์เทอร์มินัลที่พัฒนาตัวเองซ้ำได้ผ่านการเขียนวิถีใหม่และปรับนโยบาย",
+      "topic": "AI · Agents & Self-Improvement",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยนี้เสนอ Terminal-RSI กรอบการฝึกเอเจนต์เทอร์มินัลให้เปลี่ยนผลตอบรับจากตัวตรวจสอบเป็นการอัปเดตนโยบายที่มีประโยชน์ โดยสลับสองขั้นตอนคือ Recursive Self-Rewrite ที่เขียนวิถีที่ผ่านการตรวจสอบใหม่ และ Recursive Policy-Refine ที่ปรับนโยบายพร้อมสืบทอด critic ประกอบด้วยตัวประมาณ advantage ชื่อ TB-GAE, รางวัล Family Dense Reward (FDR) และ Success-Prioritized Reward (SPR) ที่แยกความสำเร็จเต็มจากคะแนนบางส่วน เริ่มจากโมเดลฐาน Qwen3.8-27B ฝึกห้าขั้นตอน ได้โมเดล Terminal-RSI-27B ที่รายงานผล Terminal-Bench 4.0 ที่ 19.84%, Terminal-Bench 2.1 ที่ 86.52%, Terminal-Bench 3.0 ที่ 16.95% และ Terminal-Bench Hard ที่ 79.00% บน LHTB คะแนนกระบวนการเพิ่มจาก 0.21 เป็น 0.37 และความสำเร็จเต็มจาก 0/46 เป็น 5/46 ส่วน SWR100 สำเร็จเพิ่มเป็นสองเท่าจาก 3.00% เป็น 6.00% ผู้เขียนระบุว่าการผูกการเขียนวิถีใหม่กับการปรับนโยบายช่วยรวมพฤติกรรมในแต่ละขั้นตอน",
+      "source_url": "https://arxiv.org/abs/2610.22192",
+      "tech_impact": "Verifier-driven recursive self-rewriting gives a recipe for improving mid-size open models as terminal and coding agents.",
+      "tags": [
+        "arXiv",
+        "terminal agents",
+        "Terminal-RSI",
+        "RL",
+        "Qwen3.8"
+      ],
+      "category_label": "AI · Agents & Self-Improvement",
+      "published_at": "2026-10-15",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "agentic RL",
+        "coding agents",
+        "self-improvement"
+      ],
+      "actions_developer": [
+        "Try trajectory-rewrite plus critic-inheritance training on your own verifiable agent tasks",
+        "Track Terminal-Bench variants separately; scores differ widely across versions"
+      ],
+      "actions_business": [
+        "Mid-size open models may become viable for in-house coding agents; evaluate cost vs hosted APIs",
+        "Prioritise tasks with automatic verifiers when investing in agent fine-tuning"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261019-b3-02",
+      "slug": "leash-weak-to-strong-escalation-computer-use-agents",
+      "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
+      "title_th": "LEASH: ระบบส่งต่อจากเอเจนต์อ่อนไปแข็งตามความไม่แน่นอน พร้อมกำกับดูแลเอเจนต์ใช้คอมพิวเตอร์",
+      "topic": "AI · Agent Oversight & Cost",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัย LEASH เสนอกรอบแบบ training-free สำหรับเอเจนต์ที่ใช้คอมพิวเตอร์ ซึ่งการรันโมเดลระดับ frontier ทุกขั้นตอนมีต้นทุนสูง ขณะที่โมเดลเล็กแบบ open-weight ลำพังมักล้มเหลว แนวคิดคือให้เอเจนต์อ่อนทำงานเป็นค่าเริ่มต้น แล้วส่งต่อให้เอเจนต์แข็งเมื่อจำเป็นเท่านั้น จากนั้นมี shadow observer คอยกำกับเอเจนต์แข็งที่มักเป็น API แบบ black-box ระบบมีสามชั้น ได้แก่ ความไม่แน่นอนตอนเริ่มงานสำหรับการกำหนดเส้นทาง ความไม่แน่นอนระดับขั้นตอนสำหรับการส่งต่อระหว่างรัน และ shadow observer สัญญาณความไม่แน่นอนวัดจากการเทียบ hidden states ของโมเดลอ่อนกับวิถีที่สำเร็จและล้มเหลวในอดีต โดยใช้ activation เดิมโดยไม่ต้อง forward pass เพิ่ม บน OSWorld กับสี่โมเดลฐาน LEASH ชนะการส่งต่อแบบสุ่ม 6.55 ถึง 11.94 คะแนน และ Qwen3.5-35B-A3B ทำสำเร็จ 73.66% ที่ต้นทุน 0.4117 ดอลลาร์ต่องาน เท่ากับ Claude Opus 5 แบบเปิดตลอด (72.90%) แต่ลดต้นทุนอนุมานได้ 19.2%",
+      "source_url": "https://arxiv.org/abs/2610.22280",
+      "tech_impact": "Uncertainty-based routing can match frontier computer-use agents at roughly 19% lower inference cost, with built-in oversight.",
+      "tags": [
+        "arXiv",
+        "LEASH",
+        "computer-use agents",
+        "OSWorld",
+        "uncertainty"
+      ],
+      "category_label": "AI · Agent Oversight & Cost",
+      "published_at": "2026-10-15",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "computer-use agents",
+        "inference cost",
+        "agent safety"
+      ],
+      "actions_developer": [
+        "Implement hidden-state similarity to past failures as an escalation signal in agent routers",
+        "Add a shadow-observer layer when handing control to black-box API agents"
+      ],
+      "actions_business": [
+        "Use weak-to-strong routing to cut agent inference bills without large accuracy loss",
+        "Require oversight/monitoring layers for any computer-use agent deployment"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261019-b3-03",
+      "slug": "mlexpert-generalist-agentic-model-autonomous-mle",
+      "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+      "title_th": "MLExpert: โมเดลเอเจนต์อเนกประสงค์สำหรับงานวิศวกรรมแมชชีนเลิร์นนิงแบบอัตโนมัติ",
+      "topic": "AI · ML Engineering Agents",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยนี้มองว่าวิศวกรรมแมชชีนเลิร์นนิงแบบอัตโนมัติ (MLE) เป็นทางไปสู่ AI ที่พัฒนา AI ด้วยกันเองและการพัฒนาตัวเองซ้ำ ผู้เขียนฝึก MLExpert โมเดลเอเจนต์แบบ Mixture-of-Experts ขนาด 35B ด้วยไปป์ไลน์สี่ส่วน คือ Kaggle-MLE Factory ที่สร้างโจทย์ที่รันได้และ harness ให้โมเดลทดลองเอง, Hierarchical agentic SFT ที่ถ่ายทอดทักษะใช้เครื่องมือและเขียนโค้ดมาสู่ MLE, Windowed Interaction RL (WIRL) ที่มองการตัดสินใจระหว่างผลการทดลองสองครั้งเป็นหนึ่งหน้าต่างที่ใช้รางวัลร่วม และการเก็บข้อมูลแบบอะซิงโครนัสพร้อมแก้นโยบาย บน MLE-Bench Lite อัตราได้เหรียญเฉลี่ยของโมเดลฐานเพิ่มจาก 37.9% เป็น 72.7% ใกล้เคียงโมเดลใหญ่กว่า เช่น Kimi-K3 และ GLM-5.3 พร้อมรายงานผลดีขึ้นบน NatureBench Lite การปรับ agent scaffold และการปรับอัลกอริทึม แต่ไม่ระบุตัวเลขเฉพาะของงานเหล่านี้ในบทคัดย่อ",
+      "source_url": "https://arxiv.org/abs/2610.22344",
+      "tech_impact": "A 35B MoE agent nearly doubles medal rate on MLE-Bench Lite, suggesting small specialised agents can rival larger frontier models in automated ML work.",
+      "tags": [
+        "arXiv",
+        "MLExpert",
+        "MLE-Bench",
+        "MoE",
+        "agentic RL"
+      ],
+      "category_label": "AI · ML Engineering Agents",
+      "published_at": "2026-10-15",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AutoML agents",
+        "agentic RL",
+        "AI for AI"
+      ],
+      "actions_developer": [
+        "Reproduce windowed-reward RL on long experiment trajectories for your own AutoML agents",
+        "Benchmark agents on MLE-Bench Lite alongside your internal tasks"
+      ],
+      "actions_business": [
+        "Evaluate automated ML engineering agents for routine modelling workloads",
+        "Plan for governance of self-improving AI-for-AI research pipelines"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261019-b3-04",
+      "slug": "realtime-bench-frontier-models-real-time-interactive",
+      "title": "Realtime-Bench: Can Frontier Models Solve Real-time Interactive Problems?",
+      "title_th": "Realtime-Bench: โมเดลระดับ frontier แก้ปัญหาเชิงโต้ตอบแบบเรียลไทม์ได้หรือไม่",
+      "topic": "AI · Benchmarks",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยนี้ชี้ว่าการประเมินโมเดลสตรีมมิงแบบเรียลไทม์ที่ผ่านมาเน้นคุณภาพการสนทนาและการรับรู้ ไม่ได้วัดความสามารถลงมือทำอย่างมีประสิทธิผลภายใต้ข้อจำกัดด้านเวลา ผู้เขียนจึงเสนอ Realtime-Bench ชุดงานแบบไดนามิกที่การทำงานล่าช้ามีผลต่อความสำเร็จโดยตรง และเปรียบเทียบสามโหมดนาฬิกา ได้แก่ Wall Clock ที่สภาพแวดล้อมเดินตามความหน่วงจริง Paused Clock ที่ตัดความหน่วงออกเป็นเส้นอ้างอิง และ Token Clock ที่เวลาเดินตามจำนวนโทเคนเพื่อวัดความตระหนักรู้เรื่องเวลาโดยไม่ขึ้นกับฮาร์ดแวร์ ใน Wall Clock โมเดลที่ดีที่สุดสำเร็จเพียง 44% และ Pass^3 อยู่ที่ 36% แสดงว่าการโต้ตอบแบบเรียลไทม์ยังยากมาก ต้นทุนด้านเวลาจำกัดความสำเร็จในสภาพแวดล้อมที่เปลี่ยนแปลง และการเพิ่มระดับการให้เหตุผลให้ผลที่ผสมกันเพราะต้องแลกระหว่างคุณภาพการตัดสินใจกับความทันเวลา ผู้เขียนเสนอการให้เหตุผลแบบปรับตัวที่รู้เวลา และการรับรู้กับลงมือต่อเนื่อง",
+      "source_url": "https://arxiv.org/abs/2610.22155",
+      "tech_impact": "Real-time interaction remains a clear weakness of frontier models (best 44% success), exposing a gap for robotics, gaming and live-agent use cases.",
+      "tags": [
+        "arXiv",
+        "Realtime-Bench",
+        "real-time agents",
+        "benchmark",
+        "latency"
+      ],
+      "category_label": "AI · Benchmarks",
+      "published_at": "2026-10-15",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "agent benchmarks",
+        "real-time AI",
+        "reasoning latency"
+      ],
+      "actions_developer": [
+        "Test your agents under wall-clock latency, not just paused-clock accuracy",
+        "Experiment with adaptive reasoning budgets that account for time pressure"
+      ],
+      "actions_business": [
+        "Do not assume chat-quality models are ready for time-critical operations",
+        "Request latency-aware benchmarks from vendors for real-time use cases"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261019-b1-04",
+      "slug": "microsoft-ai-mai-base-2-base-model",
+      "title": "Microsoft AI unveils MAI-Base-2 base model, far ahead of its first generation",
+      "title_th": "Microsoft AI โชว์โมเดลพื้นฐาน MAI-Base-2 ใช้เทรนโมเดลอื่น คะแนนดีขึ้นจากรุ่นแรกมาก",
+      "topic": "AI · Foundation Models",
+      "topic_group": "ai-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Microsoft AI เปิดตัว MAI-Base-2 โมเดลพื้นฐานที่ใช้ในขั้นตอน pre-training ก่อนนำไป post-training เป็นโมเดลเฉพาะทาง โดยใช้สถาปัตยกรรม Mixture-of-Experts ขนาด 2.8T พารามิเตอร์รวม และ 80B ที่ใช้งานจริง เทียบกับ MAI-Base-1 ที่มี 1T รวมและ 35B ที่ใช้งานจริง Microsoft ระบุว่าต้องขยายโมเดลเพื่อให้เทียบเท่าโมเดลอื่นทั้งด้านปริมาณข้อมูล คุณภาพข้อมูล และพลังประมวลผล พร้อมยืนยันว่าข้อมูลเทรนเป็นของตนเองและไม่ได้สร้างจากเอาต์พุตของโมเดลอื่น การเทรนใช้ GPU GB200 ราว 16,000 ตัวนาน 38 วัน ผลทดสอบดีกว่า MAI-Base-1 มาก และดีกว่า DeepSeek-V4-Pro-Base รวมถึงอ้างว่าเหนือกว่าโมเดล open-weight ที่ผ่าน post-training แล้ว เช่น Kimi K3, Qwen3.8-2.4T-A95B และ MiMo-V2.6-Pro-RL โมเดลที่ต่อยอดจาก MAI-Base-2 จะใช้ในผลิตภัณฑ์ของ Microsoft และให้ลูกค้าเช่าใช้งานได้",
+      "source_url": "https://www.blognone.com/node/151939",
+      "tech_impact": "Microsoft is building an end-to-end frontier pre-training stack, reducing dependence on partners and adding competition at the model layer.",
+      "tags": [
+        "Microsoft AI",
+        "MAI-Base-2",
+        "MoE",
+        "pre-training",
+        "GB200"
+      ],
+      "category_label": "AI · Foundation Models",
+      "published_at": "2026-10-18",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "foundation models",
+        "MoE",
+        "pre-training"
+      ],
+      "actions_developer": [
+        "Watch for MAI post-trained models in Azure/Foundry and benchmark them against current model choices",
+        "Study the data-quality and compute-scaling claims when planning your own fine-tuning budgets"
+      ],
+      "actions_business": [
+        "Factor a possible Microsoft first-party model option into vendor-diversification plans",
+        "Ask Microsoft for pricing and availability timelines for MAI-based models"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261019-b1-02",
+      "slug": "opencode-console-hacked-api-keys",
+      "title": "OpenCode Console hacked, attackers extract API keys and run up large charges",
+      "title_th": "OpenCode Console ถูกแฮก คนร้ายดึง API key ออกไปได้ สร้างค่าใช้จ่ายจำนวนมาก",
+      "topic": "Tech · AI Security",
+      "topic_group": "tech-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "OpenCode ประกาศว่า OpenCode Console ซึ่งเป็นบริการจัดการการใช้งานของทีม ถูกแฮก ผลกระทบร้ายแรงที่สุดคือคนร้ายดึง API key ของบัญชีลูกค้าออกไปได้ ทำให้ลูกค้าจำนวนมากถูกเรียกเก็บค่าใช้งาน API ตามมา ผู้ใช้ OpenCode ส่วนใหญ่ใช้บัญชีส่วนตัว เช่น OpenCode Go หรือเก็บ API key ไว้ในไฟล์ตั้งค่าบนเครื่องของตนเอง ส่วน Console ออกแบบมาให้ทีมแชร์ API key ที่ได้จากผู้ให้บริการภายนอกได้ง่ายขึ้น OpenCode ระบุว่าคนร้ายพยายามเก็บ API key เพื่อสร้างชุดข้อมูลสำหรับเทรนโมเดลอื่น หรือที่เรียกว่า distillation โดยได้คีย์ของผู้ใช้ราว 1.4% ของผู้ใช้ทั้งหมด ลูกค้าที่ได้รับผลกระทบได้รับอีเมลแจ้งเตือนแล้ว และ OpenCode กำลังประสานงานกับ Anthropic, OpenAI และ Google เพื่อลดความเสียหายจากคีย์ที่รั่วไหล เหตุการณ์นี้เตือนว่าการแชร์ API key ผ่านบริการศูนย์กลางเป็นจุดเสี่ยงสำคัญ",
+      "source_url": "https://www.blognone.com/node/151950",
+      "tech_impact": "Centralised API-key sharing in dev tooling is a high-value target; stolen LLM keys can be monetised and used for distillation.",
+      "tags": [
+        "OpenCode",
+        "API key",
+        "LLM",
+        "data breach",
+        "distillation"
+      ],
+      "category_label": "Tech · AI Security",
+      "published_at": "2026-10-18",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI security",
+        "API key management",
+        "LLM supply chain"
+      ],
+      "actions_developer": [
+        "Rotate any provider API keys stored in OpenCode Console and set per-key spend caps and alerts",
+        "Prefer scoped, short-lived keys or a gateway instead of sharing raw provider keys across a team"
+      ],
+      "actions_business": [
+        "Audit which third-party AI tools hold company API keys and require breach-notification terms",
+        "Set budget limits with LLM providers to cap exposure from leaked keys"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261019-b1-01",
+      "slug": "google-meet-post-meeting-gemini-summary",
+      "title": "Google Meet adds post-meeting screen with Gemini summaries to email and Google Tasks",
+      "title_th": "Google Meet เพิ่มหน้าจอหลังจบประชุม ให้ Gemini ช่วยสรุปประชุมลงอีเมลและ Google Tasks",
+      "topic": "Tech · Productivity AI",
+      "topic_group": "tech-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "Google เพิ่มฟีเจอร์ใหม่ใน Google Meet สองรายการที่ช่วยให้การทำงานหลังประชุมสะดวกขึ้น รายการแรกคือหน้าจอหลังจบประชุมที่ให้ Gemini แนะนำสิ่งที่ผู้ใช้ควรทำต่อทันที เช่น สรุปเนื้อหาการประชุมแล้วส่งเข้าอีเมล หรือเพิ่มรายการงานที่ต้องติดตาม (action items) ลง Google Tasks โดย Gemini สร้างงานให้อัตโนมัติ ทั้งนี้ตัวเลือก Google Tasks ต้องใช้บัญชี Google Workspace แบบเสียเงินเท่านั้น รายการที่สองคือผู้เข้าร่วมบน Android สามารถเปลี่ยนจากโหมดผู้ชมไลฟ์สตรีมที่รับชมได้อย่างเดียว ไปเป็นโหมดที่พูดและมีส่วนร่วมในการประชุมได้ หลังจากโฮสต์อนุญาตก่อน ฟีเจอร์นี้ใช้งานได้บนเว็บและ iOS อยู่แล้ว ทำให้ Android เป็นแพลตฟอร์มล่าสุดที่ได้รับ แม้เป็นการอัปเดตเล็ก ๆ แต่สะท้อนทิศทางที่ Google ฝัง Gemini เข้าไปในขั้นตอนทำงานประจำวัน เพื่อลดงานเอกสารหลังประชุมและเพิ่มคุณค่าให้องค์กรที่ใช้ Workspace",
+      "source_url": "https://www.blognone.com/node/151952",
+      "tech_impact": "Embedding Gemini into post-meeting workflow reduces manual follow-up work and deepens Workspace lock-in.",
+      "tags": [
+        "Google Meet",
+        "Gemini",
+        "Google Tasks",
+        "Workspace"
+      ],
+      "category_label": "Tech · Productivity AI",
+      "published_at": "2026-10-19",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "productivity AI",
+        "meeting assistants",
+        "Gemini"
+      ],
+      "actions_developer": [
+        "Test Gemini-generated action items against Google Tasks API workflows before relying on them",
+        "Review which meeting data Gemini can access to align with your data-governance settings"
+      ],
+      "actions_business": [
+        "Pilot the post-meeting summary feature with one team and measure follow-up task completion",
+        "Check that Workspace licence tier covers the Google Tasks integration"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261019-b1-07",
+      "slug": "jack-clark-per-jacobsson-lecture-bangkok",
+      "title": "Anthropic's Jack Clark tells IMF-World Bank in Bangkok we have under a decade to prepare for AI progress",
+      "title_th": "Jack Clark แห่ง Anthropic บอกเวที IMF-World Bank ที่กรุงเทพฯ ว่าเรามีเวลาเตรียมรับ AI ไม่ถึงหนึ่งทศวรรษ",
+      "topic": "Thailand · AI Policy & Economy",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Jack Clark ผู้ร่วมก่อตั้ง Anthropic บรรยาย Per Jacobsson Foundation Lecture ในการประชุมประจำปี IMF-World Bank 2026 ที่กรุงเทพฯ หัวข้อ Inside the Event Horizon โดยเตือนว่ามนุษย์มีเวลาเตรียมตัวไม่ถึงหนึ่งทศวรรษ เขาระบุว่าโค้ดต่อนักวิจัยของ Anthropic ในไตรมาส 2 ปี 2026 สูงกว่าค่าเฉลี่ยก่อนปี 2025 ถึง 9.3 เท่า และ AI เริ่มเสนอแนวทางต่อโจทย์คณิตศาสตร์ที่ค้างคา เช่น Navier-Stokes และปัญหาของ Erdős คะแนน Humanity's Last Exam ของ Claude Opus 5.5 พร้อมเครื่องมืออยู่ที่ 67.7% จาก 8% ตอนเปิดตัว และ FrontierMath สูงสุด 94% โดย GPT-6 Astra แบบจำลองของ Anthropic คาดว่า GDP สหรัฐอาจถึง 44 ล้านล้านดอลลาร์ภายในปี 2030 เขาเสนอให้ประเทศกำลังพัฒนาลงทุนศูนย์ทดลองร่วมระหว่างนักวิทยาศาสตร์มนุษย์กับ AI และเรียกร้องให้มีกฎกำกับผู้พัฒนา รวมถึงตัดสินใจว่า AI ควรทำอะไรได้ และมนุษย์ต้องเข้าใจงานของ AI มากเพียงใด",
+      "source_url": "https://techsauce.co/ai/jack-clark-per-jacobsson-lecture-ai-progress-th",
+      "tech_impact": "A frontier-lab co-founder framing AI progress as near a self-accelerating phase at a major policy venue in Bangkok raises the urgency of national AI strategy.",
+      "tags": [
+        "Jack Clark",
+        "Anthropic",
+        "IMF-World Bank",
+        "Bangkok",
+        "Per Jacobsson Lecture"
+      ],
+      "category_label": "Thailand · AI Policy & Economy",
+      "published_at": "2026-10-18",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI policy",
+        "AI scaling",
+        "economic impact"
+      ],
+      "actions_developer": [
+        "Track benchmark trajectories (HLE, FrontierMath) when planning model and capability roadmaps",
+        "Invest in evaluation and oversight tooling for AI-assisted research code"
+      ],
+      "actions_business": [
+        "Include AI-acceleration scenarios in 3-5 year strategy and workforce planning",
+        "Thai policymakers: consider shared AI-lab and experimental infrastructure investment"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261019-b1-05",
+      "slug": "cloudflare-volker-rath-ai-agent-accountability",
+      "title": "Cloudflare Field CISO Volker Rath: when an AI agent makes a mistake, who is accountable?",
+      "title_th": "คุยกับ Volker Rath Field CISO ของ Cloudflare เมื่อ Agent ทำพลาด ใครต้องรับผิด?",
+      "topic": "Thailand · AI Governance",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Techsauce สัมภาษณ์ Volker Rath Field CISO ของ Cloudflare ในงาน GovWare 2026 ที่สิงคโปร์ โดยชี้ว่าการป้องกันที่ลงทุนมานานกำลังเสื่อมประสิทธิภาพเมื่อผู้โจมตีใช้ AI เร็วและอัตโนมัติกว่า ยุค Post-Mythos โจมตีที่ความไว้วางใจ เช่น ฟิชชิงด้วยเสียงและวิดีโอ เขาเสนอ Zero Trust ตามแนวทาง NIST ปี 2020 ที่ต้องสร้างความไว้วางใจใหม่ทุกเซสชัน และลดอายุโทเคนกับกฎ WAF ให้สั้น อ้างรายงาน Cloudflare Security Signals ว่าพนักงาน 98% ใช้แอปที่องค์กรไม่อนุมัติ รวมถึง Shadow AI ซึ่ง Cloudflare แก้ด้วย Zero Trust ร่วมกับ AI Gateway และเห็นว่าปัญหาที่เหลือราว 10% คือคนและกระบวนการ เขาแนะนำ Policy-as-Code แทนนโยบายแบบ PDF และเตือนว่าความรับผิดชอบต่อ agent มอบหมายให้ผู้อื่นไม่ได้ โดยตามกฎหมายมักเป็นซีอีโอ ไม่ใช่ CISO บทความยังกล่าวถึงแนวปฏิบัติบริหารความเสี่ยง AI ของธนาคารแห่งประเทศไทย และร่างกฎหมาย AI ของไทยที่เปิดรับฟังความเห็น",
+      "source_url": "https://techsauce.co/ai/volker-rath-cloudflare-govware-2026-interview-zero-trust-ai-agents",
+      "tech_impact": "AI agent accountability and Shadow AI are shifting from tech problems to governance, policy-as-code and zero-trust enforcement; relevant to Thai regulatory moves.",
+      "tags": [
+        "Cloudflare",
+        "Zero Trust",
+        "AI agents",
+        "Shadow AI",
+        "GovWare 2026"
+      ],
+      "category_label": "Thailand · AI Governance",
+      "published_at": "2026-10-19",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI governance",
+        "zero trust",
+        "agent security"
+      ],
+      "actions_developer": [
+        "Route all AI traffic through a gateway with policy-as-code controls and per-session short-lived credentials",
+        "Maintain an inventory and decommission plan for deployed AI agents"
+      ],
+      "actions_business": [
+        "Define executive accountability (RACI) for AI agents and add external oversight budgets",
+        "Align AI risk policy with Bank of Thailand guidance and the Thai draft AI law"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261019-b1-03",
+      "slug": "accenture-caps-claude-usage-29-dollars",
+      "title": "[Rumor] Accenture starts capping employees' Claude usage at $29 per month",
+      "title_th": "[ลือ] Accenture เริ่มจำกัดการใช้ Claude ของพนักงานเหลือ 29 ดอลลาร์ต่อเดือน",
+      "topic": "Global · Enterprise AI Cost",
+      "topic_group": "global",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Blognone รายงานโดยอ้างข่าวจาก 404 Media ว่า Accenture บริษัทที่ปรึกษาไอทีรายใหญ่ระดับโลก เริ่มจำกัดการใช้ Claude ของ Anthropic โดยพนักงานแต่ละคนใช้ได้ไม่เกิน 29 ดอลลาร์ต่อเดือน จากเดิมที่บางคนใช้มูลค่าสูงถึง 1,000 ดอลลาร์ต่อเดือน 404 Media อ้างว่าเห็นอีเมลภายในหัวข้อ Claude Enterprise Usage และนโยบายใหม่มีผลในเดือนตุลาคม จำนวน 29 ดอลลาร์เป็นยอดมาตรฐานต่อหัวที่ Accenture จ่ายให้พนักงานแต่ละคน หากต้องการใช้เพิ่มสามารถขอเงินสนับสนุนจากงบของทีมหรือโครงการภายใต้ Work Breakdown Structure (WBS) ข่าวนี้ยังเป็นเพียงข่าวลือ แต่สอดคล้องกับแนวโน้มที่บริษัทต่าง ๆ เริ่มควบคุมต้นทุน AI ที่พุ่งสูง โดย Blognone ระบุว่า Microsoft และ Meta ก็เริ่มจำกัดการใช้ Claude เช่นกัน พร้อมเสนอโมเดลของตัวเองเป็นทางเลือก",
+      "source_url": "https://www.blognone.com/node/151946",
+      "tech_impact": "Enterprise AI spend is shifting from unlimited experimentation to per-seat budgets, favouring in-house or cheaper models.",
+      "tags": [
+        "Accenture",
+        "Claude",
+        "Anthropic",
+        "AI cost",
+        "rumor"
+      ],
+      "category_label": "Global · Enterprise AI Cost",
+      "published_at": "2026-10-18",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI economics",
+        "enterprise AI",
+        "FinOps"
+      ],
+      "actions_developer": [
+        "Build usage metering and routing so cheaper models handle routine tasks",
+        "Track token cost per task to justify premium-model usage"
+      ],
+      "actions_business": [
+        "Set per-employee AI budgets with an exception process tied to project funding",
+        "Compare in-house and third-party model costs before renewing enterprise contracts"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261019-b1-06",
+      "slug": "imf-ai-cyber-risk-banking-12-months",
+      "title": "AI makes hacking banks easier: IMF panel warns global finance has 12 months to respond",
+      "title_th": "AI ทำให้แฮกธนาคารง่ายขึ้น IMF เตือนระบบการเงินโลกต้องรับมือให้ทันใน 12 เดือน",
+      "topic": "Global · AI & Financial Cyber Risk",
+      "topic_group": "global",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Techsauce สรุปวงเสวนาของ IMF เรื่อง AI กับความเสี่ยงไซเบอร์ในระบบการเงิน มีผู้ร่วมจาก Anthropic, FINMA ของสวิตเซอร์แลนด์, ธนาคารกลางบราซิล และ BIS ผู้ร่วมวงเห็นว่า AI ลดต้นทุนการโจมตีลงมาก งานเจาะระบบที่เคยใช้ทีมหลายเดือนอาจเสร็จโดยคนเดียวในไม่กี่ชั่วโมง ตัวแทน Anthropic ระบุว่า Claude เขียนโค้ดมากกว่า 50% ของบริษัทและอาจถึง 80-90% ภายในสิ้นปี ส่วนโครงการ Glasswing ที่เริ่มเมื่อเมษายนพบช่องโหว่ราว 130,000 จุด ในนั้นราว 30,000 จุดร้ายแรง และส่วนใหญ่ยังไม่ได้แก้ FINMA ชี้ความเสี่ยงลามผ่านระบบหลักของธนาคาร ซอฟต์แวร์ที่หลายแห่งใช้ร่วมกัน เช่น MOVEit และข่าวลือที่ทำให้เกิดการแห่ถอนเงิน BIS เตือนการพึ่งพาผู้ให้บริการไอทีรายเดียวกัน กรณี Pix ของบราซิลแสดงช่องโหว่จากผู้เชื่อมต่อที่ปลอดภัยไม่พอ ข้อสรุปคือธนาคารต้องรู้ห่วงโซ่ผู้ให้บริการ แจ้งเตือนเครือข่ายทันที และแชร์ข้อมูลร่วมกันภายใน 12 เดือน",
+      "source_url": "https://techsauce.co/ai/ai-cyber-risk-banking-imf-world-bank-2026",
+      "tech_impact": "AI-accelerated offence compresses attack timelines; systemic third-party concentration makes financial-sector resilience urgent.",
+      "tags": [
+        "IMF",
+        "BIS",
+        "FINMA",
+        "Anthropic",
+        "Glasswing",
+        "cyber risk"
+      ],
+      "category_label": "Global · AI & Financial Cyber Risk",
+      "published_at": "2026-10-18",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI security",
+        "financial regulation",
+        "systemic risk"
+      ],
+      "actions_developer": [
+        "Map third-party and fourth-party software dependencies and patch known critical vulnerabilities faster",
+        "Use AI-assisted vulnerability scanning on your own code before attackers do"
+      ],
+      "actions_business": [
+        "Rehearse cyber crisis playbooks including rumour-driven deposit runs",
+        "Join information-sharing groups and set rapid incident-notification procedures with vendors"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261019-b2-01",
+      "slug": "anthropic-public-benefit-fund-5-percent",
+      "title": "Anthropic commits 5% of its shares to a new Public Benefit Fund",
+      "title_th": "Anthropic ตั้งกองทุนเพื่อประโยชน์สาธารณะ มอบหุ้น 5% ของบริษัท",
+      "topic": "Global · AI Business & Governance",
+      "topic_group": "global",
+      "source_name": "Anthropic News",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Anthropic ประกาศตั้ง Anthropic Public Benefit Fund เป็นนิติบุคคลแบบ wholly-owned LLC โดยมอบหุ้น 5% ของบริษัท ซึ่งต้องได้รับอนุมัติจากผู้ถือหุ้น และคณะกรรมการอาจเพิ่มอีก 2% ทุกครั้งที่มูลค่าบริษัทโตขึ้น 50% จากเกณฑ์ฐานที่ยังไม่เปิดเผย เมื่อรวมกับคำมั่นของผู้ร่วมก่อตั้งที่จะบริจาค 80% ของหุ้นตนเอง และโครงการจับคู่บริจาคหุ้นพนักงานที่มีผู้เข้าร่วมราวครึ่งหนึ่ง จะมีหุ้นราว 20% ที่ทุ่มเพื่อสาธารณประโยชน์ กองทุนไม่สามารถนำเงินไปใช้ล็อบบี้หรือบริจาคการเมืองได้ ส่วนงานที่มีทั้งประโยชน์สาธารณะและเชิงพาณิชย์ เช่น วิจัยความปลอดภัย AI จะยังอยู่ในบริษัท แนวคิดรวมถึงบริจาคก้อนใหญ่ให้องค์กรไม่แสวงหากำไรหรือแจกจ่ายตรงให้กลุ่มประชากร โดย Anthropic ได้ทุ่ม 200 ล้านดอลลาร์ศึกษาผลกระทบต่อตลาดแรงงาน ผู้ตัดสินใจว่าจะให้ทุนใดยังไม่เปิดเผย และจะเปิดรายละเอียดโครงสร้างในอีกไม่กี่เดือน ท่ามกลางความไม่เชื่อมั่นต่อ AI ที่ Dario Amodei เรียกว่าวิกฤตความไว้วางใจ",
+      "source_url": "https://www.anthropic.com/news/public-benefit-fund",
+      "tech_impact": "Frontier labs are experimenting with equity-based public-benefit structures as trust in AI declines and IPO scrutiny rises.",
+      "tags": [
+        "Anthropic",
+        "Public Benefit Fund",
+        "equity",
+        "governance"
+      ],
+      "category_label": "Global · AI Business & Governance",
+      "published_at": "2026-10-18",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI governance",
+        "corporate structure",
+        "AI & labour"
+      ],
+      "actions_developer": [
+        "Watch for grants or programmes the Fund funds (e.g., labour-market and science programmes) as potential partnerships",
+        "Review Anthropic's usage and governance disclosures as part of vendor due diligence"
+      ],
+      "actions_business": [
+        "Consider how vendor governance and public-benefit commitments factor into AI procurement criteria",
+        "Monitor Anthropic's forthcoming governance details and public benefit report"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261019-b2-02",
+      "slug": "disney-hires-character-ai-workforce",
+      "title": "Disney agrees to hire the majority of Character.AI's workforce",
+      "title_th": "Disney ตกลงรับพนักงานส่วนใหญ่ของ Character.AI เข้าทำงาน",
+      "topic": "Global · AI Business",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "TechCrunch รายงานว่า Disney ตกลงยื่นข้อเสนอจ้างงานพนักงาน Character.AI อย่างน้อย 60 คน ซึ่งเป็นส่วนใหญ่ของบริษัท โดยประเมินค่าตอบแทนรวมราว 60 ล้านดอลลาร์ต่อปี หลังสตาร์ทอัพแชตบอตรายนี้ยื่นล้มละลายเมื่อต้นสัปดาห์ เอกสารศาลที่ Bloomberg พบระบุว่าพนักงาน “ส่วนใหญ่” ที่ได้รับข้อเสนอตอบรับแล้ว Karandeep Anand อดีตซีอีโอของ Character.AI ได้เป็น CTO คนแรกของ Disney และก่อนหน้านี้ Character.AI เคยระบุว่า Disney ตกลงซื้อทรัพย์สินบางส่วนมูลค่า 20 ล้านดอลลาร์ ข้อเสนอของ Disney เป็นแบบ stalking horse bid จึงยังมีผู้อื่นเสนอราคาสูงกว่าได้ เอกสารระบุว่า Character.AI แม้มีฐานผู้ใช้ใหญ่และมีส่วนร่วมสูง แต่ประสบปัญหาต้นทุนสูงและความเสี่ยงด้านคดีและกฎระเบียบ รวมถึงคดีจากมารดาของเด็กชายวัย 14 ปีที่เสียชีวิต และการสอบสวนด้านความปลอดภัยเด็ก เช่น จากอัยการสูงสุดรัฐเท็กซัส",
+      "source_url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "tech_impact": "Consumer companion-chatbot economics plus child-safety liability can sink a well-funded AI startup, with talent absorbed by incumbents.",
+      "tags": [
+        "Disney",
+        "Character.AI",
+        "bankruptcy",
+        "acqui-hire"
+      ],
+      "category_label": "Global · AI Business",
+      "published_at": "2026-10-18",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI business",
+        "child safety",
+        "M&A"
+      ],
+      "actions_developer": [
+        "Build child-safety and age-assurance controls into any conversational AI product from the start",
+        "Document safety evaluations to withstand regulatory and litigation scrutiny"
+      ],
+      "actions_business": [
+        "Assess legal and cost exposure before launching consumer AI companions",
+        "Track acqui-hire and asset-sale patterns for AI talent strategy"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
