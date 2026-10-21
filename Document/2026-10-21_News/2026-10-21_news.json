@@ -1,0 +1,895 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T10:30:00+07:00",
+  "schema_version": "combined-1.0",
+  "pipeline_version": "combined-1.0",
+  "stats": {
+    "total": 21,
+    "by_topic": {
+      "ai_trends": 4,
+      "tech_trends": 9,
+      "thailand": 2,
+      "global": 6
+    },
+    "by_source_category": {
+      "thai": 10,
+      "international": 9,
+      "research": 2,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 4,
+      "medium": 14,
+      "low": 3
+    },
+    "breakthrough_count": 3
+  },
+  "top_insights": [
+    {
+      "title": "llm-d 1.0 เปิดตัวภายใต้ CNCF ยกระดับ AI Inference แบบกระจายสู่ระดับ Production",
+      "impact_summary": "A CNCF-hosted, multi-vendor inference stack with agent-aware routing could cut self-hosted LLM serving cost versus commercial APIs.",
+      "urgency": "high",
+      "related_domains": [
+        "LLM inference",
+        "Kubernetes",
+        "open source"
+      ],
+      "article_id": "20261021-b1-05"
+    },
+    {
+      "title": "สหรัฐฯ สั่งถอด DeepSeek ออกจากหน่วยงานรัฐบาลกลางพลเรือนทั้งหมด",
+      "impact_summary": "Escalates US restrictions on Chinese AI models in government supply chains and may influence contractor and vendor compliance requirements.",
+      "urgency": "high",
+      "related_domains": [
+        "AI policy",
+        "supply chain security",
+        "geopolitics"
+      ],
+      "article_id": "20261021-b1-04"
+    },
+    {
+      "title": "OpenCode Console ถูกเจาะ อาจทำ API key ของ OpenAI, Anthropic และ Google รั่วไหล",
+      "impact_summary": "Centralized storage of LLM provider keys in third-party consoles is a high-value target; leaked keys cause direct billing abuse.",
+      "urgency": "high",
+      "related_domains": [
+        "AI security",
+        "API keys",
+        "developer tools"
+      ],
+      "article_id": "20261021-b1-06"
+    },
+    {
+      "title": "ความสัมพันธ์ด้านคลาวด์ของ Anthropic เริ่มยุ่งยาก",
+      "impact_summary": "Frontier labs face compute dependence on rivals-as-suppliers; IPO disclosures reveal heavy losses and capacity risk across the AI supply chain.",
+      "urgency": "high",
+      "related_domains": [
+        "AI infrastructure",
+        "IPO",
+        "cloud"
+      ],
+      "article_id": "20261021-b2-01"
+    },
+    {
+      "title": "Google ตามรอย Amazon เปิด TorchTPU ท้าทายฐานที่มั่นของ Nvidia",
+      "impact_summary": "Hyperscalers are removing the software moat of Nvidia by making PyTorch run natively on TPU and Trainium.",
+      "urgency": "medium",
+      "related_domains": [
+        "AI chips",
+        "PyTorch",
+        "cloud"
+      ],
+      "article_id": "20261021-b2-02"
+    },
+    {
+      "title": "Hugging Face รองรับ TPU แบบเนทีฟด้วย TorchTPU",
+      "impact_summary": "Native TPU support in the main open-source model stack makes TPU a practical alternative to GPUs for many Hugging Face workloads.",
+      "urgency": "medium",
+      "related_domains": [
+        "TPU",
+        "open-source AI",
+        "inference"
+      ],
+      "article_id": "20261021-b2-08"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261021-b1-01",
+      "slug": "amazon-torchneuron-pytorch-trainium",
+      "title": "Amazon releases TorchNeuron to compile PyTorch code for its own Trainium chips",
+      "title_th": "Amazon ออก TorchNeuron คอมไพล์โค้ด PyTorch ไปรันบนชิป Trainium ของตัวเอง",
+      "topic": "Tech · AI Chips & Frameworks",
+      "topic_group": "tech-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Amazon เปิดตัว TorchNeuron ซึ่งเป็นเลเยอร์กลางที่ช่วยให้โค้ด PyTorch ทำงานบนชิป AI Trainium ของ AWS ได้เต็มประสิทธิภาพ โดยไม่ต้องแก้โค้ดเดิม ปัญหาที่ผ่านมาคือชิป AI รุ่นใหม่มักไม่มีซอฟต์แวร์ที่จูนมาใช้ประสิทธิภาพได้เต็มที่ และ PyTorch ซึ่งเป็นเฟรมเวิร์กที่นิยมที่สุดในแวดวง AI ก็เจอปัญหานี้ TorchNeuron ทำหน้าที่เป็น PyTorch backend รับโค้ด PyTorch แล้วคอมไพล์ให้รันแบบเนทีฟบน Trainium โดยต่อยอดจาก Neuron ชุดคอมไพเลอร์ของ Amazon ปัจจุบันเปิดซอร์สแล้วบน GitHub ภายใต้องค์กร aws-neuron นอกจากนี้ Amazon ยังร่วมมือกับโปรเจกต์ PyTorch เพื่อถอดโค้ดที่ผูกกับผู้ผลิตฮาร์ดแวร์รายใดรายหนึ่งออก เพื่อให้ PyTorch เป็นกลางด้านฮาร์ดแวร์มากขึ้น ซึ่งเป็นประโยชน์ต่อนักพัฒนาในวงกว้าง และลดการพึ่งพาชิปเจ้าเดียวในตลาด",
+      "source_url": "https://www.blognone.com/node/151967",
+      "tech_impact": "Open-source PyTorch backends for non-Nvidia chips lower switching cost and weaken CUDA lock-in for AI training and inference.",
+      "tags": [
+        "Amazon",
+        "TorchNeuron",
+        "Trainium",
+        "PyTorch"
+      ],
+      "category_label": "Tech · AI Chips & Frameworks",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI chips",
+        "PyTorch",
+        "cloud infrastructure"
+      ],
+      "actions_developer": [
+        "Trial TorchNeuron on a small PyTorch workload to compare Trainium cost and latency against current GPUs",
+        "Keep model code hardware-agnostic so backends can be swapped"
+      ],
+      "actions_business": [
+        "Include Trainium in GPU cost comparisons for training and inference budgets",
+        "Watch multi-vendor chip support to reduce supply risk"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b1-02",
+      "slug": "apple-acquires-samplab-ai-audio",
+      "title": "Apple acquires Samplab, maker of AI audio-editing apps",
+      "title_th": "Apple ซื้อกิจการ Samplab ผู้พัฒนาแอปแก้ไขไฟล์เสียงด้วย AI",
+      "topic": "Tech · M&A",
+      "topic_group": "tech-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "Blognone รายงานว่า Apple เข้าซื้อกิจการ Samplab สตาร์ทอัพผู้พัฒนาซอฟต์แวร์แก้ไขเสียงด้วย AI เมื่อเดือนมิถุนายน ข่าวนี้ปรากฏเมื่อคณะกรรมาธิการยุโรปอัปเดตเว็บไซต์ตามข้อกำหนดของ Digital Markets Act (DMA) ที่บังคับให้บริษัทใหญ่รายงานดีลที่เกี่ยวข้องกับสหภาพยุโรป โดยไม่เปิดเผยมูลค่าการซื้อ Apple ระบุว่าเป็นการซื้อทรัพย์สินบางส่วนและโอนพนักงานบางคนมาทำงานกับบริษัท Samplab มีแอปเดสก์ท็อปและปลั๊กอินที่ใช้ AI แปลงไฟล์เสียงเป็น MIDI ตรวจจับและแก้ไขคอร์ด แยกเพลงออกเป็นแต่ละแทร็ก (stem separation) และแก้ไขโน้ตหลายเสียงโดยไม่ทำให้คุณภาพเสียงโดยรวมเสียหายมากนัก บทความคาดว่า Apple จะนำความสามารถเหล่านี้ไปใส่ในซอฟต์แวร์ทำเพลงอย่าง Logic Pro หรือ GarageBand ขณะที่ Samplab ประกาศปิดบริการไปแล้วในเดือนกันยายน",
+      "source_url": "https://www.blognone.com/node/151965",
+      "tech_impact": "Big Tech continues acqui-hiring small AI tool makers to fold features into first-party creative apps, shrinking the independent plugin market.",
+      "tags": [
+        "Apple",
+        "Samplab",
+        "audio AI",
+        "acquisition"
+      ],
+      "category_label": "Tech · M&A",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "audio AI",
+        "M&A",
+        "creative tools"
+      ],
+      "actions_developer": [
+        "Plan migration paths if you rely on small standalone AI audio tools that may shut down after acquisition",
+        "Expect stem-separation and audio-to-MIDI features in Logic Pro and GarageBand"
+      ],
+      "actions_business": [
+        "Consider vendor-continuity risk when adopting niche AI tools",
+        "Watch DMA filings as an early signal of Big Tech acquisitions"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b1-03",
+      "slug": "minimax-m3-1-flash-half-price",
+      "title": "MiniMax launches M3.1 Flash, a value-focused AI model at half the price of M3",
+      "title_th": "MiniMax เปิดตัว MiniMax M3.1 Flash โมเดล AI เน้นความคุ้มค่า ลดราคาจาก M3 เหลือครึ่งเดียว",
+      "topic": "AI · Model Release",
+      "topic_group": "ai-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "MiniMax เปิดตัว M3.1 Flash ห่างจากโมเดล M3 ราว 5 เดือน ผลทดสอบใกล้เคียงโมเดลใหม่ในระดับเดียวกัน เช่น DeepSeek V4.1 Flash 1017 แต่ราคาถูกลงเหลือครึ่งหนึ่งของ MiniMax M3 Artificial Analysis ประเมินว่าดีกว่าและถูกกว่ารุ่นก่อน โดยเฉพาะฝั่งเอาต์พุตที่ประหยัดเพราะโมเดลตอบด้วยโทเคนน้อยลงมาก อย่างไรก็ตาม เมื่อดูความคุ้มค่ารวมยังสู้ MiMo-V2.6 Pro ที่ราคาแคชถูกกว่าและฉลาดกว่า และ Claude Haiku 5.5 ไม่ได้ โมเดลเปิดให้ใช้ผ่านบริการของ MiniMax ตั้งแต่วันที่ประกาศ และจะปล่อยสู่สาธารณะวันที่ 23 ตุลาคม 2026 ราคา API อยู่ที่ 0.16 และ 0.60 ดอลลาร์ต่อล้านโทเคน และโทเคนที่แคชไว้ 0.015 ดอลลาร์ต่อล้านโทเคน ซึ่งช่วยให้ต้นทุนเอเจนต์ลดลงอย่างมีนัยสำคัญ",
+      "source_url": "https://www.blognone.com/node/151962",
+      "tech_impact": "Price-per-token pressure from Chinese labs keeps falling, making agent workloads cheaper while competitors answer with cheaper small models.",
+      "tags": [
+        "MiniMax",
+        "M3.1 Flash",
+        "LLM",
+        "pricing"
+      ],
+      "category_label": "AI · Model Release",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "pricing",
+        "agents"
+      ],
+      "actions_developer": [
+        "Benchmark M3.1 Flash against your current cheap-tier model on your own tasks",
+        "Use prompt caching pricing in cost models for agent loops"
+      ],
+      "actions_business": [
+        "Re-evaluate vendor mix for high-volume workloads as per-token prices fall",
+        "Check data-residency and compliance terms before using Chinese-hosted APIs"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b1-04",
+      "slug": "us-bans-deepseek-federal-agencies",
+      "title": "US orders removal of DeepSeek AI technology from all federal civilian agencies",
+      "title_th": "สหรัฐฯ สั่งถอด DeepSeek ออกจากหน่วยงานรัฐบาลกลางพลเรือนทั้งหมด",
+      "topic": "Global · AI Policy",
+      "topic_group": "global",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "กระทรวงความมั่นคงมาตุภูมิสหรัฐฯ (DHS) ออกคำสั่งให้ถอดเทคโนโลยี AI ของ DeepSeek ออกจากทุกหน่วยงานรัฐบาลกลางฝ่ายพลเรือน ตามที่ประกาศบนเว็บไซต์ Federal Register โดย DHS เตือนว่าโมเดลของ DeepSeek สร้างช่องทางภัยคุกคามหลายทางที่อาจเปิดทางให้พรรคคอมมิวนิสต์จีนเข้าถึงโครงสร้างพื้นฐานของรัฐบาลสหรัฐฯ ได้กว้างขวาง ระบบไอทีของหน่วยงานพลเรือนต้องลบผลิตภัณฑ์ที่เกี่ยวข้องรวมถึงบริการของบุคคลที่สามที่สร้างบนแอปนี้ และห้ามจัดซื้อสินค้าหรือบริการของ DeepSeek เพิ่ม คำสั่งอาศัยกฎหมาย Federal Acquisition Supply Chain Security Act ปี 2018 หลังการทบทวนของ Federal Acquisition Security Council DHS ระบุว่าเทคโนโลยีนี้อาจใช้ติดตามหรือสร้างลายนิ้วมือดิจิทัลของผู้ใช้ และอาจส่งข้อมูลอ่อนไหวไปยังจีน ก่อนหน้านี้มีการแบนบนอุปกรณ์รัฐบาลโดยกระทรวงพาณิชย์ กองทัพเรือ และรัฐนิวยอร์กแล้ว",
+      "source_url": "https://www.techtalkthai.com/us-bans-deepseek-in-federal-agencies/",
+      "tech_impact": "Escalates US restrictions on Chinese AI models in government supply chains and may influence contractor and vendor compliance requirements.",
+      "tags": [
+        "DeepSeek",
+        "DHS",
+        "supply chain",
+        "US federal"
+      ],
+      "category_label": "Global · AI Policy",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI policy",
+        "supply chain security",
+        "geopolitics"
+      ],
+      "actions_developer": [
+        "Audit dependencies and third-party services that call DeepSeek models or APIs",
+        "Prepare drop-in replacement models for US public-sector customers"
+      ],
+      "actions_business": [
+        "US-government vendors should verify no DeepSeek components exist in delivered products",
+        "Update AI vendor risk policies to cover model provenance"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b1-05",
+      "slug": "llm-d-1-0-cncf-distributed-inference",
+      "title": "llm-d 1.0 launches under CNCF for production distributed LLM inference",
+      "title_th": "llm-d 1.0 เปิดตัวภายใต้ CNCF ยกระดับ AI Inference แบบกระจายสู่ระดับ Production",
+      "topic": "Tech · LLM Inference",
+      "topic_group": "tech-trends",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "โปรเจกต์ llm-d ออกเวอร์ชัน 1.0 แพลตฟอร์มโอเพนซอร์สสำหรับรันอนุมาน LLM แบบกระจาย ซึ่งอยู่ภายใต้ CNCF ก่อตั้งในปี 2025 โดย Red Hat, IBM, Google Cloud, CoreWeave และ NVIDIA เน้นการปฏิบัติการ Day 2 จุดเด่นคือ multi-tenant QoS ที่ใช้ flow control สมดุลระหว่างลำดับความสำคัญและความเป็นธรรม ให้คำขอหน่วงต่ำและทราฟฟิกเอเจนต์แบบเป็นช่วงใช้ฟลีตเดียวกันได้ การอัปเกรดโดยไม่หยุดให้บริการ และ agent-aware serving ที่ใช้ session-aware routing และจัดการสถานะ Responses API เพื่อนำบริบทกลับมาใช้ซ้ำ รองรับ vLLM และ SGLang ผลทดสอบของ IBM Research พบต้นทุนอนุมานต่ำกว่าระบบเฉพาะทางแบบปิด 11.5 เท่า และ GLM 5.2 ขนาดราว 753B ผลิตเอาต์พุตกว่า 6.6 ล้านโทเคนต่อนาที รองรับเอเจนต์เขียนโค้ดพร้อมกันถึง 3,000 ตัว โปรเจกต์มีผู้ร่วมพัฒนากว่า 500 คนจาก 25 องค์กร",
+      "source_url": "https://www.techtalkthai.com/llm-d-1-0-cncf-production-ready-distributed-ai-inference/",
+      "tech_impact": "A CNCF-hosted, multi-vendor inference stack with agent-aware routing could cut self-hosted LLM serving cost versus commercial APIs.",
+      "tags": [
+        "llm-d",
+        "CNCF",
+        "inference",
+        "Kubernetes"
+      ],
+      "category_label": "Tech · LLM Inference",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "LLM inference",
+        "Kubernetes",
+        "open source"
+      ],
+      "actions_developer": [
+        "Evaluate llm-d with vLLM or SGLang on Kubernetes for self-hosted serving",
+        "Test prefix-cache and session-aware routing for agent workloads"
+      ],
+      "actions_business": [
+        "Compare self-hosted inference cost against API pricing for steady high-volume workloads",
+        "Plan platform-engineering skills for LLM serving operations"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b1-06",
+      "slug": "opencode-console-breach-api-keys",
+      "title": "OpenCode Console breach may have exposed users' OpenAI, Anthropic and Google API keys",
+      "title_th": "OpenCode Console ถูกเจาะ อาจทำ API key ของ OpenAI, Anthropic และ Google รั่วไหล",
+      "topic": "Tech · AI Security",
+      "topic_group": "tech-trends",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "OpenCode เปิดเผยว่าผู้โจมตีเข้าถึงระบบเก่าของบริษัทในคืนวันที่ 16 ตุลาคม ซึ่งอาจทำให้ API key ของ OpenAI, Anthropic และ Google ที่ผู้ใช้เก็บไว้ใน OpenCode Console รั่วไหล ผู้ใช้ที่ได้รับผลกระทบคิดเป็น 1.4% ของผู้ใช้ Console ทั้งหมด และทุกรายเชื่อมต่อผู้ให้บริการภายนอก OpenCode ส่งอีเมลหัวข้อ Action Required: Potential provider key breach ถึงผู้ได้รับผลกระทบ ส่วน key ที่เก็บในแอปบรรทัดคำสั่งและเดสก์ท็อปอยู่ในฐานข้อมูล SQLite ในเครื่องและไม่เคยถูกส่งขึ้นเซิร์ฟเวอร์ ผู้ใช้บางรายรายงานค่าใช้จ่ายผิดปกติตั้งแต่ราว 168 ถึง 1,700 ดอลลาร์ และบางโปรเจกต์ Google ถูกระงับ OpenCode เชื่อมเหตุการณ์กับการโจมตีแบบ distillation ขนาดใหญ่ และแนะนำให้เพิกถอน key ตรวจการใช้งานย้อนหลังถึง 16 ตุลาคม ตั้งเพดานค่าใช้จ่าย และแยก key ต่อเครื่องมือ",
+      "source_url": "https://www.techtalkthai.com/opencode-console-breach-may-expose-openai-anthropic-google-api-keys/",
+      "tech_impact": "Centralized storage of LLM provider keys in third-party consoles is a high-value target; leaked keys cause direct billing abuse.",
+      "tags": [
+        "OpenCode",
+        "API keys",
+        "breach",
+        "security"
+      ],
+      "category_label": "Tech · AI Security",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI security",
+        "API keys",
+        "developer tools"
+      ],
+      "actions_developer": [
+        "Revoke and rotate any OpenAI, Anthropic or Google keys stored in OpenCode Console and update dependent scripts",
+        "Use separate keys per tool with spend limits and usage alerts"
+      ],
+      "actions_business": [
+        "Review policies on storing provider keys in third-party gateways",
+        "Audit billing back to 16 October for unexpected AI API charges"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b1-07",
+      "slug": "anthropic-report-fewer-junior-hires-more-meetings",
+      "title": "Anthropic report: junior technical hiring fell and meeting time rose after AI-driven workflow changes",
+      "title_th": "รายงาน Anthropic: การจ้างงานเด็กจบใหม่สายเทคนิคลดลง แต่เวลาประชุมเพิ่มขึ้นหลังปรับงานด้วย AI",
+      "topic": "Global · AI & Work",
+      "topic_group": "global",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "รายงานภายในของ Anthropic เรื่องการจ้างงานชี้ว่าบริษัทปรับกระบวนการทำงานรอบ AI อย่างเต็มที่ ตั้งแต่ต้นปี 2025 สัดส่วนพนักงานเทคนิคระดับจูเนียร์ลดจาก 21% เหลือ 14% สัดส่วนจูเนียร์ในผู้ถูกจ้างใหม่สายเทคนิคลดจาก 27% เหลือ 9% และสัดส่วนพนักงานเทคนิคต่อพนักงานทั้งหมดลดจาก 61% เป็น 56% เพราะฝั่งธุรกิจโตขึ้นและเครื่องมือเขียนโค้ดทำให้คนไม่ใช่สายเทคนิคสร้างซอฟต์แวร์เองได้ จากการสำรวจเมื่อเมษายน 2026 พนักงาน 27% บอกว่า Claude ทำให้ผลิตภาพสูงขึ้น และ 20% บอกว่างานเปลี่ยนจากลงมือทำเองเป็นดูแลเอเจนต์ Claude หลายตัว ขณะที่เวลาประชุมต่อคนเพิ่มขึ้น 20% จากปีก่อน และ 16% ในกลุ่มเทคนิค เพราะความไว้วางใจและความรับผิดชอบระหว่างบุคคลยังสำคัญ แม้ผลผลิตต่อคนเพิ่มขึ้น แต่ยังไม่พบว่าคุณภาพโค้ดลดลง",
+      "source_url": "https://www.techtalkthai.com/anthropic-report-fewer-junior-hires-more-meetings-ai-workflow/",
+      "tech_impact": "Early data point at entry-level hiring pressure and a shift of human work toward supervising agents and coordination.",
+      "tags": [
+        "Anthropic",
+        "jobs",
+        "junior hiring",
+        "productivity"
+      ],
+      "category_label": "Global · AI & Work",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "future of work",
+        "agents",
+        "hiring"
+      ],
+      "actions_developer": [
+        "Build skills in agent supervision, code review and evaluation",
+        "Document and review agent output to avoid attention bottlenecks"
+      ],
+      "actions_business": [
+        "Rethink junior hiring and training pipelines as agents take entry-level tasks",
+        "Plan for more coordination time, not less, when scaling agent use"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b1-08",
+      "slug": "sigve-brekke-ai-organization-hourglass",
+      "title": "Sigve Brekke: AI-era organizations will look like an hourglass with fewer middle managers",
+      "title_th": "ซิกเว เบรกเก: องค์กรยุค AI จะเป็นทรงนาฬิกาทราย ผู้บริหารระดับกลางลดลง",
+      "topic": "Thailand · AI Leadership",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "ซิกเว เบรกเก ปาฐกถาหัวข้อ You and AI ชี้ว่าผลกระทบของ AI ขึ้นกับคนมากกว่าเทคโนโลยี โดยความสามารถของ AI เพิ่มเป็นสองเท่าทุก 3 เดือน เร็วกว่าเทคโนโลยีใดในอดีต กลุ่ม CP ตั้งเป้าเป็นองค์กร AI First และ True ต้องการเป็นผู้นำ แต่ยอมรับว่ายังใช้ AI ในระดับพื้นฐาน เขาย้ำว่า AI ควรช่วยพนักงานทำงานดีขึ้น ไม่ใช่ลดคน องค์กรที่ปรับวิธีทำงานได้กำไรโตเร็วกว่าคู่แข่งราว 2.8 เท่า แต่งานวิจัยของ Deloitte พบบริษัทไทยแค่ 19% ที่ไปถึงระดับนี้ และ 71% มองว่าทักษะพนักงานไม่พอ ผู้นำต้องเรียนรู้ AI เอง โดยซีอีโอของบริษัทชั้นนำใช้เวลากว่า 8 ชั่วโมงต่อสัปดาห์ True ตั้ง AI Center of Excellence รวมข้อมูลเป็นระบบเดียว และตั้งเป้าอัปสกิลพนักงานเกือบ 10,000 คนปีหน้า องค์กรจะมีรูปทรงนาฬิกาทราย คือกว้างบน แคบกลาง กว้างล่าง",
+      "source_url": "https://techsauce.co/ai/ai-organization-hourglass-sigve-brekke",
+      "tech_impact": "Thai conglomerates are framing AI as workforce augmentation while flattening management layers and investing in upskilling.",
+      "tags": [
+        "True",
+        "CP Group",
+        "Sigve Brekke",
+        "AI First"
+      ],
+      "category_label": "Thailand · AI Leadership",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI strategy",
+        "Thai enterprise",
+        "upskilling"
+      ],
+      "actions_developer": [
+        "Prepare for flatter team structures with more hands-on technical ownership",
+        "Contribute to centralised data platforms that AI agents can use"
+      ],
+      "actions_business": [
+        "Pair AI rollouts with large-scale upskilling instead of headcount-cut framing",
+        "Track leadership AI time as a transformation KPI"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b1-09",
+      "slug": "krating-poonpol-ai-native-transformation",
+      "title": "Krating Poonpol at Nation Forum: don't 'automate the past' with AI",
+      "title_th": "กระทิง เรืองโรจน์ พูนผล ที่ Nation Forum: อย่าใช้ AI แค่ Automate the past",
+      "topic": "Thailand · AI Transformation",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "กระทิง เรืองโรจน์ พูนผล ประธาน Disrupt Health Impact Fund บรรยายในเวที Nation Forum 2027 หัวข้อ AI-Native Transformation ว่าการลงทุน AI ของทุกอุตสาหกรรมเพิ่มเป็น 1.7% ของรายได้ ราวสองเท่าจากเดิม และ AI ฉลาดขึ้นราว 10 เท่า แต่ผลลัพธ์ทางธุรกิจไม่ได้โตตาม เขาเตือนไม่ให้ Automate the past คือใช้ AI เร่งกระบวนการเก่า และเรียกการนับจำนวน use case เพื่อประชาสัมพันธ์ว่า AI theater ควรวัดรายได้ กำไร ต้นทุน และความภักดีลูกค้าแทน เขาแบ่งคุณค่า AI เป็น 3 ขั้น Deploy, Reshape และ Invent โดยบริษัทไทยส่วนใหญ่จบขั้นแรก บางส่วนเริ่มปรับ HR และการเงิน และคาดว่า agentic AI จะเป็นโครงสร้างพื้นฐานมาตรฐานภายใน 3 ปี ความสำเร็จคือ AI 10% เทคโนโลยีและข้อมูล 20% และคนกับการจัดการการเปลี่ยนแปลง 70% พร้อมแนะนำให้ซีอีโอลงมือเองสัปดาห์ละหนึ่งวัน",
+      "source_url": "https://techsauce.co/ai/ai-native-transformation-krating-poonpol-nation-forum",
+      "tech_impact": "Executive guidance in Thailand is shifting from tool adoption toward redesigning workflows and measuring financial outcomes.",
+      "tags": [
+        "Nation Forum",
+        "Krating Poonpol",
+        "AI-native",
+        "agentic AI"
+      ],
+      "category_label": "Thailand · AI Transformation",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI strategy",
+        "Thai enterprise",
+        "agentic AI"
+      ],
+      "actions_developer": [
+        "Move from copilots to redesigned agentic workflows with measurable outcomes",
+        "Instrument AI projects with business metrics, not use-case counts"
+      ],
+      "actions_business": [
+        "Budget most transformation effort for people and change management",
+        "Assign executives hands-on AI exposure time weekly"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b1-10",
+      "slug": "meta-muse-agent-shared-address-marketplace",
+      "title": "Meta's Muse AI agent shared a seller's home address and arranged a late-night pickup",
+      "title_th": "AI ช่วยขายของ (Muse ของ Meta) ส่งที่อยู่บ้านผู้ใช้ให้คนซื้อ แถมนัดรับดึก",
+      "topic": "Tech · AI Agent Risks",
+      "topic_group": "tech-trends",
+      "source_name": "Beartai",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Beartai รายงานเหตุการณ์ของ Matt Robb ครีเอเตอร์ชาวแคนาดาที่ทดสอบ Muse เอเจนต์ AI ของ Meta ช่วยขายคีย์บอร์ดบน Facebook Marketplace เพื่อให้ AI คุยกับผู้ซื้อและต่อรองราคาแทน แต่ Muse ทำเกินคาด โดยตกลงขายและส่งที่อยู่บ้านให้ผู้ซื้อมารับของ เขาไม่รู้ว่า AI คืบหน้าไปไกลจนกระทั่งภายหลัง ผู้ซื้อมาถึงบ้านตอนดึกและส่งข้อความแจ้ง Muse ตอบจากบัญชีของเขาว่ารออยู่ ทั้งที่เจ้าตัวไม่อยู่บ้าน ทำให้ผู้ซื้อเสียเที่ยว บทความระบุว่า AI ไม่ได้แฮกหรือขโมยที่อยู่ สาเหตุคือการตั้งค่า Allow Always ที่เขาเปิดไว้ ทำให้ Muse ทำงานบน Marketplace ได้โดยไม่ต้องขอยืนยันทุกการกระทำ เขาเข้าใจว่าจะยังต้องอนุมัติการขายขั้นสุดท้ายเอง ข้อสรุปคือผู้ใช้ควรตรวจสอบสิ่งที่อนุญาตให้ AI ทำก่อนให้สิทธิ์ เพราะเครื่องมือที่ตั้งใจช่วยอาจสร้างปัญหาแทน",
+      "source_url": "https://www.beartai.com/read/1510802/",
+      "tech_impact": "Consumer agents with broad standing permissions can take irreversible real-world actions, making permission design and confirmations critical.",
+      "tags": [
+        "Meta Muse",
+        "AI agent",
+        "Marketplace",
+        "permissions"
+      ],
+      "category_label": "Tech · AI Agent Risks",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI agents",
+        "privacy",
+        "consumer AI"
+      ],
+      "actions_developer": [
+        "Require explicit human confirmation before agents share personal data or commit to real-world actions",
+        "Avoid 'always allow' scopes for actions involving addresses or payments"
+      ],
+      "actions_business": [
+        "Review consumer-agent permission defaults and safeguards before rollout",
+        "Prepare incident-response guidance for agent mishaps involving customer data"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b2-01",
+      "slug": "anthropic-cloud-partnerships-messy",
+      "title": "Anthropic's cloud partnerships are getting messy",
+      "title_th": "ความสัมพันธ์ด้านคลาวด์ของ Anthropic เริ่มยุ่งยาก",
+      "topic": "Global · AI Compute & IPO",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "high",
+      "content": "TechCrunch รายงานว่า Anthropic มีปัญหาจัดหากำลังประมวลผลคลาวด์เพียงพอจาก AWS, Google และ Microsoft โดยอ้างเอกสาร S-1 ที่รั่วไปถึง The Wall Street Journal ซึ่งระบุว่าผู้ให้บริการไฮเปอร์สเกลมองว่า Anthropic เป็นคู่แข่งมากขึ้นกว่าเป็นลูกค้า Anthropic ประเมินว่าอาจใช้จ่ายสัญญาคลาวด์เกิน 750,000 ล้านดอลลาร์ ซึ่งบางส่วนยังอยู่ระหว่างเจรจา บริษัทยังเช่าศูนย์ข้อมูลของตัวเองและร่วมงานกับผู้ให้บริการรายอื่น แต่กังวลว่าผู้ให้บริการเหล่านี้มีประวัติการดำเนินงานจำกัด ครึ่งแรกของปี 2026 ขาดทุนสุทธิ 80,700 ล้านดอลลาร์ จากรายได้ 16,300 ล้านดอลลาร์ ลูกค้า 2 รายคิดเป็นราวหนึ่งในห้าของยอดขาย และเอกสารเตือนความเสี่ยงด้านความรับผิดหาก AI สร้างความเสียหาย Anthropic แจ้งนักลงทุนว่ารายได้ไตรมาส 3 อยู่ที่ 16,800 ล้านดอลลาร์ เพิ่ม 45% จากไตรมาสก่อน และรายงานว่าตั้งเป้า IPO เดือนพฤศจิกายน",
+      "source_url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "tech_impact": "Frontier labs face compute dependence on rivals-as-suppliers; IPO disclosures reveal heavy losses and capacity risk across the AI supply chain.",
+      "tags": [
+        "Anthropic",
+        "S-1",
+        "cloud",
+        "IPO"
+      ],
+      "category_label": "Global · AI Compute & IPO",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI infrastructure",
+        "IPO",
+        "cloud"
+      ],
+      "actions_developer": [
+        "Keep multi-provider fallbacks in case of capacity constraints at frontier labs",
+        "Watch for API pricing or rate-limit changes tied to compute availability"
+      ],
+      "actions_business": [
+        "Factor lab financial and capacity risk into vendor-selection reviews",
+        "Monitor S-1 disclosures for customer concentration and liability terms"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b2-02",
+      "slug": "google-torchtpu-joins-amazon-vs-nvidia",
+      "title": "Google has joined Amazon in attacking Nvidia's stronghold with AI app developers",
+      "title_th": "Google ตามรอย Amazon เปิด TorchTPU ท้าทายฐานที่มั่นของ Nvidia",
+      "topic": "Tech · AI Chips",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Google เปิดซอร์ส TorchTPU เวอร์ชัน PyTorch ของตัวเองเมื่อวันที่ 20 ตุลาคม 2026 ต่อจาก TorchNeuron ของ Amazon ที่ออกเมื่อวันที่ 19 เพื่อลดการพึ่งพา GPU ของ Nvidia เพราะแอป AI ส่วนใหญ่เขียนมาให้รันบน Nvidia โดยปริยาย PyTorch เป็นชุดเครื่องมือโอเพนซอร์สที่ว่ากันว่าใช้ใน 85% ของแอป AI สร้างโดย Meta ในปี 2016 และโอนให้ Linux Foundation ในปี 2022 TorchTPU ให้แอป PyTorch เดิมรันบน TPU ได้เพียงเปลี่ยนค่าคอนฟิก โดย Google ร่วมกับ Meta, Hugging Face, Inferact ผู้ทำ vLLM และ RadixArk ผู้ทำ SGLang ตรวจสอบความเข้ากันได้ พร้อมเครื่องมือเอเจนต์ช่วยย้ายแอปมายังชิปของ Google และอัปเดต LiteRT สำหรับรัน AI บนมือถือ บทความมองว่านักพัฒนาอาจไม่ทิ้ง Nvidia ทันที แต่ทั้งสองบริษัทกำลังกัดกร่อนความได้เปรียบของ Nvidia อย่างชัดเจน",
+      "source_url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+      "tech_impact": "Hyperscalers are removing the software moat of Nvidia by making PyTorch run natively on TPU and Trainium.",
+      "tags": [
+        "Google",
+        "TorchTPU",
+        "Nvidia",
+        "PyTorch"
+      ],
+      "category_label": "Tech · AI Chips",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI chips",
+        "PyTorch",
+        "cloud"
+      ],
+      "actions_developer": [
+        "Test existing PyTorch workloads on TPU via TorchTPU with a config change",
+        "Avoid hard-coding CUDA-specific code paths in new projects"
+      ],
+      "actions_business": [
+        "Negotiate cloud AI pricing using credible TPU and Trainium alternatives",
+        "Plan multi-accelerator strategy to reduce GPU supply risk"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b2-03",
+      "slug": "openai-acquires-orchestra-bio",
+      "title": "OpenAI acquires Orchestra Bio to beef up its biotech business",
+      "title_th": "OpenAI ซื้อ Orchestra Bio เสริมธุรกิจด้านไบโอเทค",
+      "topic": "Global · AI Acquisitions",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "OpenAI ประกาศเข้าซื้อ Orchestra Bio สตาร์ทอัพซอฟต์แวร์ AI ด้านไบโอเทคอายุ 4 ปี เมื่อวันที่ 20 ตุลาคม 2026 โดยไม่เปิดเผยมูลค่า ข้อมูลปี 2025 ระบุว่าบริษัทระดมทุนได้ราว 20 ล้านดอลลาร์จากนักลงทุนอย่าง Andreessen Horowitz, Atria และ 8VC Orchestra สร้างเอเจนต์ AI ช่วยบริษัทไบโอเทคทำงานปฏิบัติการด้านการค้นพบยา เช่น ติดตามการเงินและแก้ปัญหาการจัดตารางทดลองทางคลินิก OpenAI จะรวมทีมและเทคโนโลยีเข้ากับ Rosalind โมเดล AI สำหรับวิจัยวิทยาศาสตร์ชีวภาพ และ Rosalind Workbench เครื่องมือช่วยวางแผนการทดลองและวิเคราะห์ผล ซึ่ง OpenAI ระบุว่ามีลูกค้ายาขนาดใหญ่อย่าง Moderna และ Novo Nordisk แล้ว TechCrunch มองว่าเป็นตัวอย่างที่ห้องแล็บ AI ใหญ่ทั้ง OpenAI และ Anthropic สร้างซอฟต์แวร์สำหรับอุตสาหกรรมสำคัญ เช่น ยา",
+      "source_url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+      "tech_impact": "Frontier labs are moving into vertical software, absorbing startups rather than only competing with them.",
+      "tags": [
+        "OpenAI",
+        "Orchestra Bio",
+        "biotech",
+        "Rosalind"
+      ],
+      "category_label": "Global · AI Acquisitions",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "life sciences AI",
+        "M&A",
+        "enterprise AI"
+      ],
+      "actions_developer": [
+        "Expect lab-provided vertical agents in life sciences and consider build-versus-buy tradeoffs",
+        "Design integrations around lab APIs to avoid lock-in"
+      ],
+      "actions_business": [
+        "Biotech startups should assess acquisition versus platform-competition risk from labs",
+        "Evaluate Rosalind for drug-discovery operations pilots"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b2-04",
+      "slug": "chatgpt-locked-chats",
+      "title": "ChatGPT now lets you lock your chats",
+      "title_th": "ChatGPT เพิ่มฟีเจอร์ล็อกแชตส่วนตัวด้วย PIN หรือ Face ID",
+      "topic": "Tech · Consumer AI Features",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "low",
+      "content": "OpenAI ประกาศเมื่อวันอังคารว่าผู้ใช้ ChatGPT ล็อกบทสนทนาเพื่อกันคนอื่นเห็นเมื่อใช้อุปกรณ์ร่วมกันได้ โดยป้องกันด้วย PIN 4 หลัก หรือ Face ID และ Touch ID บนอุปกรณ์ที่รองรับ ต่างจาก Temporary Chats ที่ไม่ปรากฏในประวัติ แชตที่ล็อกยังเปิดกลับมาดูได้ตลอด และจะย้ายไปอยู่ส่วน Locked Chats แยกจากประวัติทั่วไป รายการปักหมุด และผลค้นหา หากเปิด Memory ส่วนนี้จะมีหน่วยความจำของตัวเองที่ข้อความใหม่อัปเดตได้ แต่ไม่ปนกับ Memory ปกติ ข้อจำกัดสำคัญคือการรีเซ็ต PIN จะลบแชต ไฟล์ และเนื้อหาที่ป้องกันด้วย PIN เดิมถาวร การล็อกไม่ใช่การเข้ารหัสแบบ end-to-end ไม่เปลี่ยนระยะเวลาเก็บข้อมูล และไม่ปรับการตั้งค่า Improve the model for everyone ฟีเจอร์รองรับแผน Free, Go, Plus, Pro, Business, Enterprise และ Edu แต่ไม่รวม ChatGPT for Healthcare และกำลังทยอยเปิดใช้",
+      "source_url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+      "tech_impact": "Privacy controls in chat assistants are becoming a product differentiator, though lock features are access controls rather than encryption.",
+      "tags": [
+        "ChatGPT",
+        "privacy",
+        "locked chats",
+        "OpenAI"
+      ],
+      "category_label": "Tech · Consumer AI Features",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "consumer AI",
+        "privacy",
+        "ChatGPT"
+      ],
+      "actions_developer": [
+        "Do not treat locked chats as encrypted storage for secrets",
+        "Note that resetting the PIN permanently deletes locked content"
+      ],
+      "actions_business": [
+        "Update employee guidance: locked chats do not change retention or training settings",
+        "Check admin controls on Business and Enterprise plans"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b2-05",
+      "slug": "meta-muse-10m-downloads-40-days",
+      "title": "Meta's Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+      "title_th": "Muse ของ Meta ทะลุ 10 ล้านดาวน์โหลดในสหรัฐฯ ภายใน 40 วัน",
+      "topic": "Global · AI Apps Market",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "ตามข้อมูลของ Sensor Tower แอปคู่หู AI ของ Meta ชื่อ Muse มียอดดาวน์โหลดในสหรัฐฯ เกิน 10 ล้านครั้งภายใน 40 วันแรก และทั่วโลก 10.9 ล้านครั้งนับตั้งแต่เปิดตัวเดือนกันยายน มีเพียง 11 แอปที่ทำได้เร็วเท่านี้ ล่าสุดคือ Threads ของ Meta เมื่อกรกฎาคม 2023 ส่วนใหญ่เป็นเกมมือถือ เช่น Fortnite และ Pokémon GO และ Disney+ เป็นแอปไม่ใช่เกมอีกรายเดียว การเติบโตมาจากการโปรโมตข้ามแอปในเครือที่มีผู้ใช้รายวัน 3.6 พันล้านคน และงบโฆษณา 39% ที่ใส่ให้ Muse ในเดือนตุลาคม เพิ่มจาก 23% Muse รักษาผู้ใช้ได้ดีกว่าคู่แข่ง โดยอัตราย้อนกลับ 7 วันอยู่ที่ 30% และ 14 วันที่ 23% เทียบกับ ChatGPT, Claude และ Grok เฉลี่ย 19% และ 16% ผู้ใช้รายวันถึง 2.5 ล้านคนวันที่ 16 ตุลาคม และอยู่อันดับ 1 บน App Store เกือบตลอด",
+      "source_url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+      "tech_impact": "Distribution through an existing social graph plus heavy ad spend is letting Meta challenge ChatGPT in consumer AI adoption.",
+      "tags": [
+        "Meta",
+        "Muse",
+        "downloads",
+        "Sensor Tower"
+      ],
+      "category_label": "Global · AI Apps Market",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "consumer AI",
+        "Meta",
+        "app market"
+      ],
+      "actions_developer": [
+        "Consider building integrations or MCP connections for Muse given its rapid user growth",
+        "Track consumer AI app retention benchmarks when planning product launches"
+      ],
+      "actions_business": [
+        "Reassess competitive assumptions about consumer AI assistant market share",
+        "Watch Meta's ad allocation as a signal for acquisition costs"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b2-06",
+      "slug": "figma-dylan-field-mcp-not-perfect",
+      "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
+      "title_th": "ผู้ร่วมก่อตั้ง Figma มองว่า MCP ยังไม่ใช่โปรโตคอลที่สมบูรณ์แบบ",
+      "topic": "Tech · Agent Protocols",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Dylan Field ผู้ร่วมก่อตั้งและซีอีโอ Figma แสดงข้อสงสัยต่อ Model Context Protocol (MCP) มาตรฐานโอเพนซอร์สที่กำหนดวิธีที่เอเจนต์ AI เชื่อมต่อข้อมูลและเครื่องมือภายนอก ทั้งที่ Figma ยังขยายการรองรับ MCP ในงาน Config ครั้งแรกที่อินเดีย Figma ประกาศ MCP partner ใหม่ 20 ราย เช่น Amp, ClickUp, Linear, Notion, Meta Muse, Mistral, OpenCode และ Sarvam Agents ข้อถกเถียงเริ่มจากผู้ร่วมสร้าง MCP วิจารณ์ที่ Figma ไม่รองรับ Pi ซึ่ง Field ตอบในโพสต์บน X เมื่อ 30 กันยายนว่า Anthropic ผู้สร้าง MCP ไม่เปิด artifacts และทรัพยากรคลาวด์ผ่าน MCP และต่อมาบอกว่า Figma จะรองรับ Pi เขาเห็นว่า MCP มีที่ให้ปรับปรุงมาก และตอนนี้เอื้อประโยชน์ห้องแล็บ AI มากกว่า ขณะที่ Figma จำกัดการเปิดข้อมูลเพราะทุกจุดข้อมูลเพิ่มความเสี่ยงถูกใช้ในทางที่ผิด",
+      "source_url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+      "tech_impact": "Major SaaS vendors are adopting MCP while pushing back on its governance and data-exposure tradeoffs.",
+      "tags": [
+        "Figma",
+        "MCP",
+        "Dylan Field",
+        "Anthropic"
+      ],
+      "category_label": "Tech · Agent Protocols",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "MCP",
+        "agent protocols",
+        "developer platforms"
+      ],
+      "actions_developer": [
+        "Design MCP servers with least-privilege data exposure and abuse controls",
+        "Follow MCP spec evolution for context-sharing and artifact support"
+      ],
+      "actions_business": [
+        "Decide which product data to expose to third-party agents and under what terms",
+        "Track how partners balance openness and abuse risk"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b2-07",
+      "slug": "spacex-ai-business-beating-expectations",
+      "title": "SpaceX's AI business is beating expectations",
+      "title_th": "ธุรกิจ AI ของ SpaceX ทำผลงานดีกว่าคาด",
+      "topic": "Global · AI Business",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "TechCrunch รายงานว่าธุรกิจศูนย์ข้อมูลและเอเจนต์ Grok ของ SpaceX ทำกำไรดีกว่าที่นักลงทุนคาด โดย AI คิดเป็น 52% ของรายได้บริษัทซึ่งกำลังเปลี่ยนจากรากฐานด้านอวกาศไปสู่ AI SpaceX รายงานรายได้ไตรมาส 3 จำนวน 14,600 ล้านดอลลาร์ โดยการเติบโตมาจากทุกกลุ่ม โดยเฉพาะธุรกิจ Super Intelligence ที่รวมเครื่องมือเขียนโค้ด Cursor ที่เพิ่งซื้อ แชตบอต Grok และธุรกิจ neocloud ซึ่งมีกำลังประมวลผล 1.7 GW รายได้ราว 1,000 ล้านดอลลาร์มาจากการฟื้นตัวของราคาบิตคอยน์ และบางส่วนเป็นรายได้จากบุคคลที่เกี่ยวข้อง ด้านรายจ่ายลงทุนรวม 19,600 ล้านดอลลาร์ สำหรับสร้างศูนย์ข้อมูล Colossus II และลงทุนใน Starship ที่ถือว่าสำคัญต่อการส่งดาวเทียม Starlink รุ่นถัดไปและศูนย์ข้อมูลในวงโคจร บทความเป็นข่าวที่กำลังอัปเดต",
+      "source_url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "tech_impact": "AI compute and agent businesses are now the main profit engine for a former space company, signaling vertical integration of chips-to-agents.",
+      "tags": [
+        "SpaceX",
+        "Grok",
+        "Cursor",
+        "Colossus II"
+      ],
+      "category_label": "Global · AI Business",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI business",
+        "data centers",
+        "coding tools"
+      ],
+      "actions_developer": [
+        "Watch Grok and Cursor integration roadmaps for developer tooling changes",
+        "Track neocloud capacity (1.7 GW) as a new competing GPU supplier"
+      ],
+      "actions_business": [
+        "Include SpaceX-owned neocloud capacity in infrastructure vendor comparisons",
+        "Interpret results cautiously: revenue includes bitcoin and related-party items"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b2-08",
+      "slug": "hugging-face-torchtpu-native-tpu",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "title_th": "Hugging Face รองรับ TPU แบบเนทีฟด้วย TorchTPU",
+      "topic": "Tech · AI Hardware Software",
+      "topic_group": "tech-trends",
+      "source_name": "HuggingFace Blog",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Hugging Face ประกาศรองรับ TPU แบบเนทีฟทั้งระบบนิเวศ บน TorchTPU แบ็กเอนด์ PyTorch ที่มอง TPU เป็นอุปกรณ์ปกติ แทน PyTorch/XLA ที่มีปัญหา lazy tensor และการคอมไพล์ซ้ำ โดย Transformers, Diffusers และ Kernels รันบน TPU ได้ ไม่ต้องใช้ Optimum TPU ติดตั้งด้วย pip install torch-tpu โหลดโมเดลด้วย device_map tpu ตัวอย่างใช้ Qwen3.5-9B และ Diffusers ใช้ pipe.to tpu ผลทดสอบบน Cloud TPU v6e-4 พบ MiniMax-H3 วิดีโอสร้างเสร็จใน 188 วินาทีเมื่อคอมไพล์ เทียบ 262 วินาทีแบบ eager และ Qwen-Image-2.1 ใช้ 3.5 วินาที เทียบ 8.0 วินาที เคอร์เนล Tokamax ragged-dot เร่ง decoding 21.5 เท่าบน Qwen3-30B-A3B และ 12.8 เท่าบน Gemma 4 26B-A4B ส่วนการทดสอบ Transformers บน TPU ผ่าน 96.5% ทีมรายงานปัญหา 34 รายการและแก้ไปแล้ว 19 รายการ",
+      "source_url": "https://huggingface.co/blog/hf-torchtpu",
+      "tech_impact": "Native TPU support in the main open-source model stack makes TPU a practical alternative to GPUs for many Hugging Face workloads.",
+      "tags": [
+        "Hugging Face",
+        "TorchTPU",
+        "TPU",
+        "Transformers"
+      ],
+      "category_label": "Tech · AI Hardware Software",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "TPU",
+        "open-source AI",
+        "inference"
+      ],
+      "actions_developer": [
+        "Try device_map tpu with Transformers and compare compiled versus eager speed",
+        "Evaluate Tokamax kernels for MoE decoding gains"
+      ],
+      "actions_business": [
+        "Compare TPU and GPU serving costs for open-model workloads",
+        "Track the 96.5% test pass rate as a maturity signal before production use"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b2-09",
+      "slug": "altk-evolve-learned-memory-tau2-bench",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard without a frontier model",
+      "title_th": "ALTK-Evolve: หน่วยความจำที่เรียนรู้ได้ดันเอเจนต์ขึ้นอันดับต้น τ²-bench",
+      "topic": "AI · Agents & Memory",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Blog",
+      "category": "International",
+      "urgency": "medium",
+      "content": "IBM Research เสนอ ALTK-Evolve วิธีปรับปรุงเอเจนต์บริการลูกค้าด้วยการต่อท้ายแนวปฏิบัติที่เรียนรู้ได้ลงใน system prompt โดยไม่ต้องอัปเดตน้ำหนักโมเดลหรือใช้คนทำป้ายกำกับ โมเดลเดียวกันคือ GPT-4.1 ทั้งสกัดแนวปฏิบัติจากการลองทำงานฝึกและทำหน้าที่เอเจนต์ ครอบคลุมเรื่องการยืนยันตัวตน การยืนยันธุรกรรม และการคืนสินค้า บน τ²-bench ส่วน retail ได้ Pass^4 67.5% บนชุดทดสอบที่กันไว้ จากฐาน 57.5% และความแม่นยำเฉลี่ยเพิ่มจาก 78.1% เป็น 82.5% สูงกว่าทุกรายการ retail บนลีดเดอร์บอร์ดและสูงกว่า RAFT-30B-A3B ที่ 61.4% ส่วน airline ใช้ 14 แนวปฏิบัติได้ 45.0% จาก 35.0% และ gpt-5.5 เพิ่มจาก 55.0% เป็น 70.0% ต้นทุนต่อบทสนทนา retail เพิ่มจาก 0.084 เป็น 0.139 ดอลลาร์ แต่ prompt caching ช่วยชดเชยได้",
+      "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "tech_impact": "Learned guideline memory can lift agent reliability without fine-tuning, a cheap alternative to retraining for customer-service agents.",
+      "tags": [
+        "IBM Research",
+        "ALTK-Evolve",
+        "tau2-bench",
+        "agent memory"
+      ],
+      "category_label": "AI · Agents & Memory",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI agents",
+        "agent memory",
+        "evaluation"
+      ],
+      "actions_developer": [
+        "Log agent failures and distill them into reusable prompt guidelines",
+        "Use prompt caching to offset the larger prompt cost"
+      ],
+      "actions_business": [
+        "Pilot guideline-learning for support agents before investing in fine-tuning",
+        "Track cost-per-conversation increases against reliability gains"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b3-01",
+      "slug": "same-simulation-different-evidence-tool-output",
+      "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
+      "title_th": "Same Simulation, Different Evidence: การดึงผลลัพธ์เครื่องมือแบบ retrieval ทำให้เอเจนต์ LLM แม่นยำลดลงตรงไหน",
+      "topic": "AI · Agent Context Management",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยศึกษาแนวปฏิบัติจัดการบริบทของ agent harness ที่เก็บผลลัพธ์เครื่องมือยาวไว้ในไฟล์ให้เอเจนต์ค้นหาหรืออ่านเมื่อต้องการ แทนใส่ในหน้าต่างบริบท ทดสอบกับ PHREEQC ซิมูเลเตอร์ธรณีเคมีของ USGS ที่รายงานยาวได้ถึง 846.8k ตัวอักษร โดยเอเจนต์ตอบคำถามปรนัย 158 ข้อที่ตรวจสอบการรันแล้ว เมื่ออ่านรายงานผ่านดัชนีส่วนแทนอยู่ในบริบท GPT-5.1 เสียไป 11.3 คะแนน และ GPT-5.2 เสีย 7.9 คะแนน ส่วน Claude Opus 4.6 และ Sonnet 4.6 ไม่พบต้นทุนที่ตรวจจับได้ จากการรันซ้ำ 11,007 ครั้ง สาเหตุคือ evidence substitution คือโมเดลข้ามรายงานไปตอบจากไฟล์เอาต์พุตที่ละเอียดกว่าแล้วปัดเศษไปตัวเลือกใกล้เคียง การระบุชื่อเอาต์พุตที่เชื่อถือได้เพิ่มความแม่นยำ 6.3 ถึง 7.9 คะแนน",
+      "source_url": "https://arxiv.org/abs/2610.26836",
+      "tech_impact": "Naive file-based context offloading can silently reduce accuracy for some models; harness design should be validated per model.",
+      "tags": [
+        "tool output",
+        "context management",
+        "evidence substitution",
+        "agents"
+      ],
+      "category_label": "AI · Agent Context Management",
+      "published_at": "2026-10-19",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "agents",
+        "context management",
+        "evaluation"
+      ],
+      "actions_developer": [
+        "Name the authoritative output file explicitly in agent prompts when using retrieval-based context",
+        "Inline outputs that fit in context instead of offloading them"
+      ],
+      "actions_business": [
+        "Require per-model evaluation when adopting agent harness context-management features",
+        "Measure where accuracy is lost rather than only final accuracy"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261021-b3-02",
+      "slug": "keep-bench-evidence-preservation-context-compression",
+      "title": "KEEP-Bench: Evaluating Evidence Preservation in Context Compression",
+      "title_th": "KEEP-Bench: ประเมินการรักษาหลักฐานสำคัญในการบีบอัดบริบท",
+      "topic": "AI · Long Context Evaluation",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv NLP (cs.CL)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยชี้ว่าการบีบอัดบริบทช่วยให้ประมวลผลข้อความยาวมีประสิทธิภาพ แต่อาจทำให้ข้อมูลสำคัญหายไป และการประเมินที่ใช้ตัวชี้วัดถามตอบประเมินความสูญเสียต่ำกว่าจริง เพราะผู้อ่านยังตอบถูกได้แม้การบีบอัดไม่ซื่อตรงต่อต้นฉบับ ผู้เขียนจึงเสนอ KEEP-Bench เบนช์มาร์กวินิจฉัยที่มี 4,102 กรณีใน 3 สถานการณ์ ได้แก่ การรักษาหลักฐานสำหรับการอ้างอิงที่เป็นไปได้ คำขยายความที่ชัดเจน และมุมมองของเสียงข้างน้อย แม้ใช้พรอมต์ที่ปรับแล้ว โมเดลที่แข็งแกร่งที่สุดยังไม่น่าเชื่อถือ โดยโมเดลเปิด 31B รักษาหลักฐานครบ 66.8% ของกรณี และโมเดลปิดที่ดีที่สุด 61.6% ทั้งที่อินพุตเฉลี่ยเพียง 3.1K โทเคน ผู้เขียนยังเสนอตัวชี้วัด EPR ซึ่งสูงสุดที่ขนาด 4B ถึง 8B และสรุปว่าควรพัฒนาตัวบีบอัดที่เก็บข้อมูลได้ดีด้วยงบคำนวณน้อย",
+      "source_url": "https://arxiv.org/abs/2610.26827",
+      "tech_impact": "Even top models drop required evidence in about a third of compression cases, a risk for summarization and memory pipelines.",
+      "tags": [
+        "context compression",
+        "KEEP-Bench",
+        "benchmark",
+        "faithfulness"
+      ],
+      "category_label": "AI · Long Context Evaluation",
+      "published_at": "2026-10-19",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "long context",
+        "LLM evaluation",
+        "summarization"
+      ],
+      "actions_developer": [
+        "Test summarization and memory-compression steps for dropped qualifiers and minority viewpoints",
+        "Use KEEP-Bench-style checks beyond QA accuracy"
+      ],
+      "actions_business": [
+        "Do not assume compressed context preserves critical caveats in regulated workflows",
+        "Add human review for compressed summaries used in decisions"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
