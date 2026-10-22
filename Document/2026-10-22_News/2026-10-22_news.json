@@ -1,0 +1,770 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T10:30:00+07:00",
+  "schema_version": "combined-1.0",
+  "pipeline_version": "combined-1.0",
+  "stats": {
+    "total": 18,
+    "by_topic": {
+      "ai_trends": 7,
+      "tech_trends": 7,
+      "thailand": 2,
+      "global": 2
+    },
+    "by_source_category": {
+      "thai": 7,
+      "international": 8,
+      "research": 3,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 4,
+      "medium": 9,
+      "low": 5
+    },
+    "breakthrough_count": 5
+  },
+  "top_insights": [
+    {
+      "title": "Recursive เปิดตัว Flint โมเดลเขียนโค้ดที่รันบนแล็ปท็อป ซึ่งอ้างว่าส่วนใหญ่สร้างโดย AI",
+      "impact_summary": "โมเดลเขียนโค้ดขนาดเล็กที่รันในเครื่องได้ดีขึ้นมาก และเป็นสัญญาณแรกๆ ของ recursive self-improvement ที่ใช้งานได้จริง",
+      "urgency": "high",
+      "related_domains": [
+        "Coding Models",
+        "Open Weights",
+        "Self-improving AI"
+      ],
+      "article_id": "20261022-b2-02"
+    },
+    {
+      "title": "llm-d 1.0 เปิดตัวภายใต้ CNCF พร้อมใช้งาน Production รองรับ Multi-tenant QoS และ Agent-aware Serving",
+      "impact_summary": "มาตรฐานเปิดสำหรับ inference ระดับ production ที่ออกแบบมาเพื่อทราฟฟิกเอเจนต์ ช่วยลดต้นทุนและลดการผูกกับผู้ขายรายเดียว",
+      "urgency": "high",
+      "related_domains": [
+        "LLM Serving",
+        "Kubernetes",
+        "Open Source"
+      ],
+      "article_id": "20261022-b1-02"
+    },
+    {
+      "title": "PHP Armageddon: OpenAI และ Wiz ของ Google พบช่องโหว่เก่าแก่ ทำอินเทอร์เน็ตแตกตื่น",
+      "impact_summary": "AI ค้นพบช่องโหว่อายุกว่า 20 ปีในซอฟต์แวร์ที่ใช้ทั่วโลก ทำให้การแข่งขันระหว่างผู้ปะและผู้โจมตีเร็วขึ้น",
+      "urgency": "high",
+      "related_domains": [
+        "Cybersecurity",
+        "AI for Security",
+        "Web Infrastructure"
+      ],
+      "article_id": "20261022-b2-03"
+    },
+    {
+      "title": "Anthropic เปิดตัว Claude Duet เอเจนต์ AI บนมือถือและเดสก์ท็อปที่ลงมือทำงานเชิงรุก",
+      "impact_summary": "เอเจนต์เชิงรุกแบบ always-on กลายเป็นสนามแข่งหลัก ต่อกรกับ Muse ของ Meta และ Dots ของ OpenAI พร้อมโจทย์ความปลอดภัยใหม่",
+      "urgency": "high",
+      "related_domains": [
+        "AI Agents",
+        "Productivity",
+        "Anthropic"
+      ],
+      "article_id": "20261022-b2-04"
+    },
+    {
+      "title": "นักวิจัยทำให้เอเจนต์ AI เก่งขึ้นด้วยการแปลงงานวิจัยเป็นโค้ด โดยไม่ต้องฝึกโมเดลใหม่",
+      "impact_summary": "การปรับปรุงเอเจนต์ผ่าน harness แทนการฝึกโมเดลใหม่ ให้โมเดลโอเพนเวทแคบช่องว่างกับโมเดลชั้นนำได้ในต้นทุนต่ำ",
+      "urgency": "medium",
+      "related_domains": [
+        "AI Agents",
+        "Agent Harness",
+        "Research Automation"
+      ],
+      "article_id": "20261022-b2-06"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261022-b1-01",
+      "slug": "salesforce-buys-braze-5-66b",
+      "title": "Salesforce to buy marketing automation provider Braze for $5.66 billion",
+      "title_th": "Salesforce ทุ่ม 5.66 พันล้านดอลลาร์ ซื้อ Braze ผู้ให้บริการระบบการตลาดอัตโนมัติ",
+      "topic": "Global · AI M&A",
+      "topic_group": "global",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Salesforce ประกาศแผนซื้อกิจการ Braze ผู้ให้บริการแพลตฟอร์มการตลาดอัตโนมัติด้วยเงินสด 5.66 พันล้านดอลลาร์ หรือ 47.50 ดอลลาร์ต่อหุ้น สูงกว่าราคาปิดล่าสุดราว 58% โดย Braze มีรายได้ไตรมาสล่าสุด 227.2 ล้านดอลลาร์ เติบโต 26% จากปีก่อน และกำไรจากการดำเนินงานแบบปรับปรุงเพิ่มขึ้นเกือบ 4 เท่า จุดเด่นของ Braze คือการรวมข้อมูลลูกค้าจากหลายระบบด้วยคอนเนกเตอร์สำเร็จรูปกว่า 190 ตัว จัดกลุ่มลูกค้า และใช้ BrazeAI สร้างเนื้อหาแคมเปญอัตโนมัติ รวมถึงฟีเจอร์ Agentic Standards ที่ให้นักการตลาดกำหนดกรอบควบคุมเอเจนต์ AI เช่น จำกัดจำนวนครั้งที่ลูกค้าเห็นโฆษณา Salesforce จะนำเทคโนโลยีนี้รวมเข้ากับ Marketing Cloud เพื่อปรับแคมเปญข้ามหลายช่องทาง ทั้งเว็บ แอป SMS และ WhatsApp คาดว่าดีลจะปิดภายในปีงบประมาณ 2028 ดีลนี้สะท้อนว่าการแข่งขันด้านเอเจนต์ AI ในงานการตลาดองค์กรกำลังร้อนแรง",
+      "source_url": "https://www.techtalkthai.com/salesforce-to-acquire-marketing-automation-provider-braze-for-5-66b/",
+      "tech_impact": "ดีล M&A ใหญ่ที่ชี้ว่าแพลตฟอร์ม CRM กำลังซื้อข้อมูลลูกค้าและความสามารถ AI เอเจนต์เพื่อล็อกตลาดการตลาดอัตโนมัติ",
+      "tags": [
+        "Salesforce",
+        "Braze",
+        "M&A",
+        "BrazeAI"
+      ],
+      "category_label": "Global · AI M&A",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "MarTech",
+        "Enterprise AI",
+        "M&A"
+      ],
+      "actions_developer": [
+        "ตรวจ API และคอนเนกเตอร์ของ Braze ที่ใช้อยู่ว่าจะย้ายเข้า Marketing Cloud อย่างไร",
+        "ออกแบบชั้นข้อมูลลูกค้าให้พกพาได้ ลดการผูกกับผู้ให้บริการเดียว"
+      ],
+      "actions_business": [
+        "ทบทวนสัญญา Braze และแผนสำรองหากราคาหรือผลิตภัณฑ์เปลี่ยนหลังควบรวม",
+        "ประเมินกรอบควบคุมเอเจนต์ AI (guardrails) ในแคมเปญการตลาดของตนเอง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b1-02",
+      "slug": "llm-d-1-0-cncf-distributed-inference",
+      "title": "llm-d 1.0 launches under CNCF, production-ready with multi-tenant QoS and agent-aware serving",
+      "title_th": "llm-d 1.0 เปิดตัวภายใต้ CNCF พร้อมใช้งาน Production รองรับ Multi-tenant QoS และ Agent-aware Serving",
+      "topic": "Tech · LLM Inference",
+      "topic_group": "tech-trends",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "โปรเจกต์โอเพนซอร์ส llm-d ปล่อยเวอร์ชัน 1.0 ซอฟต์แวร์สำหรับรัน LLM inference แบบกระจาย ภายใต้การดูแลของ CNCF โดยก่อตั้งในปี 2025 จาก Red Hat, IBM, Google Cloud, CoreWeave และ NVIDIA ทำงานร่วมกับ vLLM และ SGLang เวอร์ชันนี้เน้นการใช้งานจริง ได้แก่ Multi-tenant QoS ที่จัดลำดับความสำคัญและความเป็นธรรมของทราฟฟิก, การอัปเกรดแบบไม่มี downtime, Config API v1 ที่เสถียร และ session-aware routing ที่ส่งบทสนทนาหลายเทิร์นไปยังโหนดที่เก็บแคชบริบทไว้แล้ว ผลทดสอบที่ผู้พัฒนารายงานระบุว่า IBM Research ลดต้นทุน inference ได้ 11.5 เท่า ส่วนการรัน GLM 5.2 ขนาดราว 753B พารามิเตอร์ ได้เกิน 6.6 ล้าน output token ต่อนาที รองรับโค้ดดิ้งเอเจนต์พร้อมกันถึง 3,000 ตัว มีผู้ร่วมพัฒนากว่า 500 คนจาก 25 องค์กร และ Google Cloud นำเข้า GKE แล้ว",
+      "source_url": "https://www.techtalkthai.com/llm-d-1-0-cncf-production-ready-distributed-ai-inference/",
+      "tech_impact": "มาตรฐานเปิดสำหรับ inference ระดับ production ที่ออกแบบมาเพื่อทราฟฟิกเอเจนต์ ช่วยลดต้นทุนและลดการผูกกับผู้ขายรายเดียว",
+      "tags": [
+        "llm-d",
+        "CNCF",
+        "vLLM",
+        "inference"
+      ],
+      "category_label": "Tech · LLM Inference",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM Serving",
+        "Kubernetes",
+        "Open Source"
+      ],
+      "actions_developer": [
+        "ทดลอง llm-d บน Kubernetes เทียบกับสแตก vLLM ปัจจุบันด้วยโหลดแบบเอเจนต์",
+        "เปิดใช้ session-aware routing เพื่อเพิ่ม prefix-cache hit rate"
+      ],
+      "actions_business": [
+        "ประเมินต้นทุนต่อ token ของโมเดลโอเพนเวทเทียบ API เชิงพาณิชย์",
+        "วางแผนความสามารถด้านโครงสร้างพื้นฐาน GPU สำหรับงานเอเจนต์ที่ทราฟฟิกพุ่งไม่สม่ำเสมอ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b1-03",
+      "slug": "cloudflare-10-million-developers-ai-agents",
+      "title": "Cloudflare reports more than 10 million developers on its platform as AI agents change app building",
+      "title_th": "Cloudflare เผยนักพัฒนาบนแพลตฟอร์มทะลุ 10 ล้านราย รับกระแส AI Agent เปลี่ยนวิธีสร้างแอปพลิเคชัน",
+      "topic": "Tech · Developer Platforms",
+      "topic_group": "tech-trends",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Cloudflare ประกาศว่ามีนักพัฒนาบนแพลตฟอร์มเกิน 10 ล้านราย เพิ่มจาก 7.4 ล้านรายในไตรมาสก่อน โดยโยงการเติบโตกับกระแส AI Agent ที่เปลี่ยนวิธีสร้าง ปรับใช้ และขยายแอปพลิเคชัน บริษัทระบุว่าคำขอจากเอเจนต์ AI บนเครือข่ายเพิ่มขึ้นกว่า 1,700% ในรอบปี และเป็นครั้งแรกของปีนี้ที่ทราฟฟิกอินเทอร์เน็ตมากกว่าครึ่งไม่ได้มาจากมนุษย์ แพลตฟอร์มซึ่งเริ่มจาก Workers แบบ serverless ปัจจุบันครอบคลุม Workers AI, Workers KV, AI Gateway, Durable Objects, D1 และ R2 ทำงานบน isolates แทน VM หรือคอนเทนเนอร์ เครือข่ายครอบคลุมกว่า 340 เมือง 130 ประเทศ มีความจุภายนอก 590 Tbps Cloudflare มองว่าวงจรพัฒนาซอฟต์แวร์กำลังเปลี่ยนเป็นนักพัฒนาและเอเจนต์ AI สร้างซอฟต์แวร์ร่วมกันเพื่อทั้งคนและเอเจนต์",
+      "source_url": "https://www.techtalkthai.com/cloudflare-surpasses-10-million-developers-ai-agent-era/",
+      "tech_impact": "ตัวเลขทราฟฟิกเอเจนต์ที่พุ่งกว่า 1,700% ยืนยันว่าโครงสร้างพื้นฐานเว็บต้องออกแบบรองรับผู้ใช้ที่ไม่ใช่มนุษย์",
+      "tags": [
+        "Cloudflare",
+        "Workers AI",
+        "AI agents",
+        "developers"
+      ],
+      "category_label": "Tech · Developer Platforms",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Edge Computing",
+        "AI Agents",
+        "Cloud"
+      ],
+      "actions_developer": [
+        "ออกแบบ API และเอกสารให้เอเจนต์ AI เรียกใช้งานได้ พร้อมจำกัดอัตราการเรียก",
+        "ทดลองรันเอเจนต์บน edge ด้วย Workers AI และ Durable Objects"
+      ],
+      "actions_business": [
+        "ทบทวนนโยบายบอตและการวัดผลทราฟฟิกที่ไม่ใช่มนุษย์",
+        "เตรียมทำให้สินค้าและบริการค้นพบได้โดยเอเจนต์ AI"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b1-04",
+      "slug": "grafana-cloud-ai-agents-adaptive-telemetry",
+      "title": "Grafana Cloud adds AI agents for monitoring, full-text log search and cost-cutting adaptive telemetry",
+      "title_th": "Grafana Cloud เพิ่ม AI Agent เฝ้าระบบ ค้นหา Log แบบ Full-text และปรับ Adaptive Telemetry ลดต้นทุน",
+      "topic": "Tech · Observability",
+      "topic_group": "tech-trends",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Grafana Labs ประกาศความสามารถใหม่ของ Grafana Cloud ในงาน ObservabilityCON 2026 เน้นการให้เอเจนต์ AI ช่วยดูแลระบบ โดย Assistant Investigations เปิดใช้งานทั่วไปแล้ว สามารถเริ่มสืบสวนอัตโนมัติจากการแจ้งเตือน ส่วน Assistant Watchers เป็นเอเจนต์ที่เฝ้าดูการเปลี่ยนแปลงซึ่งกฎแจ้งเตือนมองไม่เห็น นอกจากนี้ยังมี Managed Sandboxes ที่เชื่อมโค้ดกับเทเลเมทรีสด เพื่อเสนอแก้ไขและเตรียม pull request ด้านต้นทุน Full-text log search เปิดใช้งานทั่วไปโดยไม่คิดเพิ่ม DATEV รายงานว่าการค้นหาลดจากประมวลผลราว 1 TB ใน 3 นาที เหลือราว 100 GB ภายในไม่ถึง 3 วินาที และ Adaptive Telemetry ครอบคลุม metrics, logs และ traces ซึ่งลูกค้าลดต้นทุนเฉลี่ย 30–50% พร้อม Knowledge Graph ที่ให้บริบทระบบแก่เอเจนต์",
+      "source_url": "https://www.techtalkthai.com/grafana-cloud-ai-agent-full-text-log-search-adaptive-telemetry/",
+      "tech_impact": "เครื่องมือ observability เริ่มมีเอเจนต์ AI ลงมือสืบสวนและเสนอแก้โค้ดเอง ลดภาระ on-call และลดต้นทุนเทเลเมทรี",
+      "tags": [
+        "Grafana",
+        "observability",
+        "AI agent",
+        "telemetry"
+      ],
+      "category_label": "Tech · Observability",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Observability",
+        "AIOps",
+        "DevOps"
+      ],
+      "actions_developer": [
+        "ลองใช้ Assistant Investigations กับ alert ที่เกิดซ้ำเพื่อวัดเวลาแก้ไข",
+        "เปิด Adaptive Metrics/Logs เพื่อประเมินการลดต้นทุนจริงของระบบ"
+      ],
+      "actions_business": [
+        "เทียบต้นทุน observability ปัจจุบันกับตัวเลขลดต้นทุน 30–50% ที่ผู้ขายอ้าง",
+        "กำหนดนโยบายสิทธิ์ที่เอเจนต์ AI แก้โค้ดหรือแตะระบบ production ได้"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b1-05",
+      "slug": "hpe-spaceborne-computer-4-moon",
+      "title": "HPE to send Spaceborne Computer-4 to the Moon's south pole for first lunar HPC benchmark and AI tests",
+      "title_th": "HPE เตรียมส่ง Spaceborne Computer-4 ไปขั้วใต้ดวงจันทร์ รัน HPC benchmark ครั้งแรกพร้อมทดสอบ AI",
+      "topic": "Tech · AI Hardware",
+      "topic_group": "tech-trends",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "HPE วางแผนส่งโมดูลคอมพิวเตอร์ Spaceborne Computer-4 ไปยังขั้วใต้ของดวงจันทร์ในภารกิจปลายปี 2026 เพื่อรัน HPC benchmark บนผิวดวงจันทร์เป็นครั้งแรก พร้อมทดสอบเวิร์กโหลด AI หลายแบบ โมดูลติดตั้งบนโรเวอร์ FLIP ของ Astrolab ภายใต้โครงการ CLPS ของ NASA และใช้ยานลงจอด Griffin-1 ของ Voyager Technologies ฮาร์ดแวร์ไร้พัดลม ใช้ CPU และ GPU กินไฟต่ำ พร้อม SSD จาก KIOXIA จะรัน HPL และ HPCG รวมถึง RAG LLM วิเคราะห์ข้อมูล, vision inference, การตรวจสอบ edge อัตโนมัติ และประมวลผล LiDAR NASA จะทดลอง Federated Learning ชื่อ FLUID เพื่อให้โมเดล AI สามโมเดลจากโลก ดวงจันทร์ และสถานีอวกาศนานาชาติประสานงานกัน ส่วน Deloitte ทดสอบระบบตรวจจับการบุกรุก Silent Shield",
+      "source_url": "https://www.techtalkthai.com/hpe-spaceborne-computer-4-first-hpc-benchmark-moon-south-pole/",
+      "tech_impact": "ทดสอบความเป็นไปได้ของการรัน AI ที่ edge สุดขอบ เช่น ในอวกาศ ซึ่งต้องใช้ฮาร์ดแวร์ประหยัดพลังงานและทนสภาพแวดล้อมสุดขั้ว",
+      "tags": [
+        "HPE",
+        "Spaceborne Computer-4",
+        "NASA",
+        "edge AI"
+      ],
+      "category_label": "Tech · AI Hardware",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Edge AI",
+        "HPC",
+        "Space Tech"
+      ],
+      "actions_developer": [
+        "ศึกษาแนวทาง federated learning แบบหลายสภาพแวดล้อมจากโครงการ FLUID",
+        "ประเมินการออกแบบ AI workload สำหรับ edge ไฟน้อยและเชื่อมต่อไม่เสถียร"
+      ],
+      "actions_business": [
+        "ติดตามตลาดคอมพิวเตอร์ทนสภาพแวดล้อมสุดขั้วสำหรับอวกาศและอุตสาหกรรม",
+        "พิจารณาโอกาสร่วมวิจัย edge AI กับพันธมิตรด้านอวกาศ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b1-06",
+      "slug": "fastwork-ceo-ai-native-rebuild",
+      "title": "Fastwork CEO on discarding legacy systems to become an AI-native organization at eCloudvalley Forum 2026",
+      "title_th": "CK - CEO Fastwork เล่าการทิ้งระบบเดิมทั้งหมดเพื่อสร้างองค์กร AI Native ในงาน The eCloudvalley Forum 2026",
+      "topic": "Thailand · Enterprise AI",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "CK ซีอีโอ Fastwork ขึ้นเวที The eCloudvalley Forum 2026 เล่าการตัดสินใจรื้อแพลตฟอร์มเดิมทั้งหมดเพื่อให้ fastwork.com เป็น AI-native โดยย้ายจากโดเมน .co.th ไป .com เพื่อเข้าถึงผู้ใช้ต่างประเทศ และเหตุผลสำคัญกว่าคือสร้างสแตกใหม่ให้ AI เข้าถึงโค้ดและข้อมูลทั้งระบบ ตั้งเป้าส่งฟีเจอร์ภายในไม่กี่วันแทนหลายเดือน ข้อมูลแพลตฟอร์มชี้ว่างานมูลค่าต่ำ เช่น ออกแบบโลโก้ แปลภาษา เขียนบทความ กำลังลดลง ขณะที่งานด้าน Generative AI และออโตเมชันเพิ่มขึ้น ภายในบริษัทใช้เอเจนต์ AI ตอบลูกค้า จัดเรียงเอกสารการเงินตามความเร่งด่วน และใช้ Cursor กับ Claude Code สร้างต้นแบบ เขายังคาดว่าเอเจนต์ AI จะซื้อสินค้าและบริการแทนคนมากขึ้น จึงต้องทำให้ผลงาน รีวิว และคิวว่างของฟรีแลนซ์ถูกค้นพบได้โดยเอเจนต์ หมายเหตุ: เนื้อหาเป็นข่าวประชาสัมพันธ์",
+      "source_url": "https://techsauce.co/pr-news/fastwork-rebuilding-legacy-systems-to-become-ai-native",
+      "tech_impact": "กรณีศึกษาองค์กรไทยที่ยอมรื้อระบบเก่าเพื่อให้ AI ใช้งานได้ทั้งองค์กร สะท้อนทิศทางตลาดแรงงานอิสระและการค้าที่เอเจนต์เป็นผู้ซื้อ",
+      "tags": [
+        "Fastwork",
+        "AI-native",
+        "Thailand",
+        "eCloudvalley"
+      ],
+      "category_label": "Thailand · Enterprise AI",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Transformation",
+        "Thai Startups",
+        "Future of Work"
+      ],
+      "actions_developer": [
+        "จัดระเบียบข้อมูลและ API ภายในให้เป็นแหล่งความจริงเดียวที่เอเจนต์เข้าถึงได้",
+        "ทำให้ข้อมูลสินค้า/บริการอ่านได้ด้วยเครื่อง (structured data) เพื่อให้เอเจนต์ค้นพบ"
+      ],
+      "actions_business": [
+        "วัดว่างานประจำวันของทีมเพิ่มคุณค่าให้ลูกค้าจริงหรือไม่ก่อนซื้อเครื่องมือ AI",
+        "ทบทวนทักษะบุคลากรให้เน้นงานซับซ้อนที่ AI ทำแทนได้ยาก"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b1-07",
+      "slug": "cp-innovation-exposition-2026",
+      "title": "Decoding CP's innovation DNA and the milestones for building a future ecosystem",
+      "title_th": "ถอดรหัส DNA นวัตกรรมซีพีกับหมุดหมายปั้นระบบนิเวศแห่งอนาคต",
+      "topic": "Thailand · Innovation",
+      "topic_group": "thailand",
+      "source_name": "Thumbsup",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "เครือเจริญโภคภัณฑ์ (ซีพี) จัดงาน CP Innovation Exposition 2026 ครั้งที่ 9 ที่ True Digital Park ภายใต้แนวคิด RISE TOGETHER, INNOVATE BEYOND มีผลงานนวัตกรรมภายในเครือส่งเข้าประกวด 319 ผลงานจาก 10 ประเทศ คัดเหลือ 96 โครงการนำเสนอในรูปแบบ Future Fest ซึ่งประเมินว่าขยายผลได้มากกว่า 30,000 ล้านบาทต่อเศรษฐกิจไทย งานมีวิทยากรระดับโลกกว่า 70 คนและนิทรรศการกว่า 90 บูธ โดย AI ถูกจัดเป็นเทคโนโลยีหลักควบคู่หุ่นยนต์ อาหารอนาคต และไบโอเทค มีรางวัล Chairman Awards 29 รางวัล และโครงการ Healthylicious สำหรับ SME กับสตาร์ทอัป นอกจากนี้ยังมี MOU กับกระทรวง อว. ด้านการหมุนเวียนบุคลากร ครอบคลุมโครงการ Siam Terra สี่ด้าน และแพลตฟอร์ม CP-CoEx ที่มี AI เป็นหนึ่งในสามเสาหลัก บทความไม่ได้ระบุรายละเอียดทางเทคนิคของโครงการ AI",
+      "source_url": "https://www.thumbsup.in.th/cp-innovation-exposition-2026",
+      "tech_impact": "สะท้อนการลงทุนนวัตกรรมและ AI ภายในกลุ่มธุรกิจใหญ่ของไทย พร้อมกลไกร่วมมือกับภาครัฐและสตาร์ทอัป",
+      "tags": [
+        "CP Group",
+        "Innovation Expo",
+        "Thailand",
+        "AI"
+      ],
+      "category_label": "Thailand · Innovation",
+      "published_at": "2026-10-22",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Thai Enterprise",
+        "Innovation",
+        "AgriTech"
+      ],
+      "actions_developer": [
+        "ติดตามโอกาสร่วมงานกับแพลตฟอร์ม CP-CoEx สำหรับโจทย์ AI ภาคอาหารและเกษตร",
+        "ศึกษาโครงการ Siam Terra ด้านชีวเทคโนโลยีและเกษตรแม่นยำ"
+      ],
+      "actions_business": [
+        "สตาร์ทอัปและ SME พิจารณาสมัครโครงการ Healthylicious หรือพันธมิตร CoE",
+        "ใช้กรณีศึกษาการคัดเลือกนวัตกรรมภายในองค์กรเป็นต้นแบบ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b2-01",
+      "slug": "meta-muse-10m-users-shopping",
+      "title": "Meta says Muse has over 10M users, with shopping a top activity",
+      "title_th": "Meta เผย Muse มีผู้ใช้เกิน 10 ล้านราย การช้อปปิ้งเป็นกิจกรรมยอดนิยม",
+      "topic": "Global · Consumer AI Agents",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Meta ระบุในการประชุมผลประกอบการไตรมาสสามว่าแอป AI เอเจนต์ Muse มีผู้ใช้เกิน 10 ล้านราย ตรงกับประมาณการของ Sensor Tower โดย Mark Zuckerberg เผยว่าราว 25% ของผู้ที่ตั้งค่า Muse ใช้งานทุกวัน และผู้ใช้ที่ช้อปผ่านเอเจนต์กว่าหนึ่งในสี่มียอดซื้อเฉลี่ยเกิน 200 ดอลลาร์ ผ่านตัวเชื่อมของ Plaid นอกจากนี้ยังนิยมใช้เชื่อมอีเมลและปฏิทิน ซึ่ง Meta ให้เครดิตกับฟีเจอร์ Muse Secure VM และเตรียมออก Muse Confidential VM ที่ Meta มองไม่เห็นเนื้อหาผู้ใช้ Zuckerberg กล่าวว่า Muse ถึง product-market fit แล้ว จะเน้นการขยายสเกล สร้างรายได้ และลดต้นทุนคอมพิวต์ให้มีประสิทธิภาพดีขึ้นกว่า 10 เท่าภายในหนึ่งปี แผนรายได้คือให้ใช้ฟรีและเก็บส่วนแบ่งจากการค้า ส่วนผู้ใช้ขั้นสูงจ่ายเพื่อโมเดลที่ดีกว่าและโทเค็นมากขึ้น",
+      "source_url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "tech_impact": "ตลาดเอเจนต์ AI สำหรับผู้บริโภคเริ่มพิสูจน์โมเดลรายได้จากการช้อปปิ้งเชิงเอเจนต์ ซึ่งกดดันคู่แข่งอย่าง Anthropic และ OpenAI",
+      "tags": [
+        "Meta",
+        "Muse",
+        "AI agent",
+        "shopping"
+      ],
+      "category_label": "Global · Consumer AI Agents",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Consumer AI",
+        "Agentic Commerce",
+        "Meta"
+      ],
+      "actions_developer": [
+        "ออกแบบ API ร้านค้าให้รองรับการสั่งซื้อผ่านเอเจนต์และตัวเชื่อมอย่าง Plaid",
+        "ประเมินสถาปัตยกรรม sandbox/VM แยกสำหรับเอเจนต์ที่เข้าถึงอีเมลและปฏิทิน"
+      ],
+      "actions_business": [
+        "เตรียมกลยุทธ์ให้สินค้าถูกแนะนำโดยเอเจนต์ช้อปปิ้ง",
+        "ติดตามโมเดลแบ่งรายได้จากการค้าบนแพลตฟอร์มเอเจนต์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b2-02",
+      "slug": "recursive-flint-laptop-coding-model",
+      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "title_th": "Recursive เปิดตัว Flint โมเดลเขียนโค้ดที่รันบนแล็ปท็อป ซึ่งอ้างว่าส่วนใหญ่สร้างโดย AI",
+      "topic": "AI · Open Models & Self-Improvement",
+      "topic_group": "ai-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "high",
+      "content": "Recursive สตาร์ทอัป AI ก่อตั้งปี 2025 เปิดตัวโมเดลแรก Flint โมเดลเขียนโค้ดแบบ mixture-of-experts ขนาด 40B พารามิเตอร์ ใช้งานจริงเพียง 2.5B ต่อภารกิจ เผยแพร่ฟรีบน Hugging Face ภายใต้สัญญาอนุญาต Apache 2.0 บริษัทอ้างว่าระบบวิจัยอัตโนมัติ Eureka Machine มีส่วนในเกือบทุกขั้นตอน ตั้งแต่ pre-training ถึง inference โดยทีมเล็กสร้างจากศูนย์ภายในไม่ถึงสี่เดือน การฝึกแบบ low-bit ทำให้โมเดลเล็กลง 71% แทบไม่เสียคุณภาพ ในการทดสอบบน MacBook Pro ชิป M4 Pro ได้ราว 131 token ต่อวินาที เทียบกับ 58–69 ของโมเดลใกล้เคียง และเหนือกว่าโมเดลต่ำกว่า 50B ใน SWE-Bench Verified Recursive ยอมรับว่าต้องแตกงานเป็นขั้นย่อย บริษัทระดมทุน 650 ล้านดอลลาร์ มูลค่า 4.65 พันล้านดอลลาร์ โดยมี Richard Socher เป็นซีอีโอ",
+      "source_url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "tech_impact": "โมเดลเขียนโค้ดขนาดเล็กที่รันในเครื่องได้ดีขึ้นมาก และเป็นสัญญาณแรกๆ ของ recursive self-improvement ที่ใช้งานได้จริง",
+      "tags": [
+        "Recursive",
+        "Flint",
+        "coding model",
+        "open source"
+      ],
+      "category_label": "AI · Open Models & Self-Improvement",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Coding Models",
+        "Open Weights",
+        "Self-improving AI"
+      ],
+      "actions_developer": [
+        "ทดลอง Flint บนเครื่องส่วนตัวเพื่อเขียนโค้ดแบบออฟไลน์และรักษาความลับของโค้ด",
+        "เทียบ SWE-Bench และความเร็วกับโมเดลโอเพนเวทอื่นในเวิร์กโฟลว์ของทีม"
+      ],
+      "actions_business": [
+        "พิจารณาโมเดลโลคัลเพื่อลดค่าใช้จ่าย API และความเสี่ยงข้อมูลรั่ว",
+        "ติดตามประเด็นกำกับดูแลเมื่อ AI มีบทบาทสร้าง AI ด้วยกันเอง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b2-03",
+      "slug": "php-armageddon-ai-found-vulnerabilities",
+      "title": "PHP Armageddon: OpenAI and Google's Wiz find ancient holes, panicking the internet",
+      "title_th": "PHP Armageddon: OpenAI และ Wiz ของ Google พบช่องโหว่เก่าแก่ ทำอินเทอร์เน็ตแตกตื่น",
+      "topic": "Tech · AI Security",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "high",
+      "content": "สำนักงานความมั่นคงแห่งชาติสหรัฐฯ (NSA) เตือนช่องโหว่ระดับวิกฤตสองรายการใน PHP ซึ่งมีมาตั้งแต่ PHP 5 เมื่อปี 2004 ภาษานี้ขับเคลื่อนเว็บราว 70% รวมถึง WordPress และ PHP Foundation ออกแพตช์แล้ว ช่องโหว่อาจให้ผู้โจมตีเข้าถึงระบบไฟล์หรือฐานข้อมูลของเซิร์ฟเวอร์ NSA แนะนำให้ปิดเว็บที่ยังอัปเดตไม่ได้ชั่วคราว ส่วน PHP 8.1 และเก่ากว่าหมดการสนับสนุนแล้ว ควรอัปเกรดเป็น 8.5.12 ที่น่าสนใจคือ Calif ภายใต้โครงการ Patch the Planet ของ OpenAI พบช่องโหว่หนึ่งรายการด้วย GPT-5.6 Sol ขณะที่ทีม Wiz ของ Google ใช้เอเจนต์ Wiz Atlas, Gemini 4 Argon และ GPT-5.6 Sol ค้นพบหลายรายการ ทั้งสองฝ่ายเปิดเผยแบบประสานงานล่วงหน้า ยังไม่พบการโจมตีจริง แต่ Wiz เตือนว่า AI อาจช่วยผู้โจมตีปรับ exploit ได้ง่ายขึ้น",
+      "source_url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+      "tech_impact": "AI ค้นพบช่องโหว่อายุกว่า 20 ปีในซอฟต์แวร์ที่ใช้ทั่วโลก ทำให้การแข่งขันระหว่างผู้ปะและผู้โจมตีเร็วขึ้น",
+      "tags": [
+        "PHP",
+        "OpenAI",
+        "Wiz",
+        "vulnerability"
+      ],
+      "category_label": "Tech · AI Security",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Cybersecurity",
+        "AI for Security",
+        "Web Infrastructure"
+      ],
+      "actions_developer": [
+        "อัปเกรด PHP เป็น 8.5.12 หรือใช้แพตช์ล่าสุดทันที และตรวจ hosting ที่ใช้ร่วมกัน",
+        "นำเครื่องมือค้นหาช่องโหว่ด้วย AI มาสแกนโค้ดและไลบรารีเก่าของตนเอง"
+      ],
+      "actions_business": [
+        "สำรวจเว็บไซต์และระบบที่ใช้ PHP/WordPress ทั้งหมดและกำหนดเส้นตายการแพตช์",
+        "ประสานผู้ให้บริการโฮสติ้งเรื่องการแพตช์ระดับเซิร์ฟเวอร์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b2-04",
+      "slug": "anthropic-claude-duet-proactive-agent",
+      "title": "Anthropic's answer to Muse is here: Claude Duet, a mobile and desktop AI agent that takes actions proactively",
+      "title_th": "Anthropic เปิดตัว Claude Duet เอเจนต์ AI บนมือถือและเดสก์ท็อปที่ลงมือทำงานเชิงรุก",
+      "topic": "Tech · AI Agents & Products",
+      "topic_group": "tech-trends",
+      "source_name": "VentureBeat AI",
+      "category": "International",
+      "urgency": "high",
+      "content": "Anthropic เปิดตัว Claude Duet ผู้ช่วย AI เชิงรุกที่เฝ้าดูแอปธุรกิจที่เชื่อมต่อ ชี้เรื่องสำคัญ และทำงานเบื้องหลัง ทำงานบนโมเดล Opus 5.5 เปิดเป็น research preview ให้สมาชิก Pro และ Max ในสหรัฐฯ ผ่านรายชื่อรอ ใช้ได้ทั้งแอป iOS/Android และ claude.ai ทำงานต่อได้แม้ปิดอุปกรณ์ เช่น สรุปประจำเช้า ทวงใบแจ้งหนี้ ร่างอีเมลติดตามลูกค้า และสร้างเว็บแอป รองรับตัวเชื่อมและปลั๊กอินกว่า 6,000 รายการจาก Claude Marketplace Duet ตรวจบัญชีทุกไม่กี่ชั่วโมง ไม่ใช่แบบเรียลไทม์ และขออนุมัติก่อนส่งข้อความ ชำระเงิน เซ็น หรือลบ ห้ามซื้อขายหลักทรัพย์และโอนเงินระหว่างบัญชีแม้ได้รับอนุญาต รวมอยู่ในแพ็กเกจเดิม Pro 20 ดอลลาร์ต่อเดือน และ Max เริ่ม 100 ดอลลาร์ แต่ใช้โควตาร่วมกัน Anthropic ยอมรับว่าอาจอ่านบทสนทนาผิดหรือประเมินความเร่งด่วนพลาด",
+      "source_url": "https://venturebeat.com/technology/anthropics-answer-to-muse-is-here-claude-duet-a-mobile-and-desktop-ai-agent-that-takes-actions-proactively",
+      "tech_impact": "เอเจนต์เชิงรุกแบบ always-on กลายเป็นสนามแข่งหลัก ต่อกรกับ Muse ของ Meta และ Dots ของ OpenAI พร้อมโจทย์ความปลอดภัยใหม่",
+      "tags": [
+        "Anthropic",
+        "Claude Duet",
+        "AI agent",
+        "Opus 5.5"
+      ],
+      "category_label": "Tech · AI Agents & Products",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Agents",
+        "Productivity",
+        "Anthropic"
+      ],
+      "actions_developer": [
+        "ตรวจสอบตัวเชื่อม/ปลั๊กอินของผลิตภัณฑ์ตนเองให้รองรับเอเจนต์ที่เรียกใช้เชิงรุก",
+        "ออกแบบขั้นตอนขออนุมัติและบันทึกการกระทำของเอเจนต์ในระบบภายใน"
+      ],
+      "actions_business": [
+        "ทดลองใช้เอเจนต์กับงานประจำ เช่น ทวงหนี้และสรุปงานเช้า โดยตั้งขอบเขตสิทธิ์ชัดเจน",
+        "ประเมินความเสี่ยง prompt injection และข้อมูลอ่อนไหวก่อนเชื่อมบัญชีธุรกิจ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b2-05",
+      "slug": "deel-pangaea-hr-payroll-models",
+      "title": "Deel launches Pangaea AI models for HR and payroll, betting specialists can cut the cost of answers by 98%",
+      "title_th": "Deel เปิดตัวโมเดล AI Pangaea สำหรับงาน HR และเงินเดือน หวังลดต้นทุนคำตอบ 98%",
+      "topic": "AI · Domain-Specific Models",
+      "topic_group": "ai-trends",
+      "source_name": "VentureBeat AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Deel ผู้ให้บริการซอฟต์แวร์ HR และเงินเดือน เปิดตัว Pangaea โมเดลภาษาเฉพาะทางสองตัว คือ K1 สำหรับกฎระเบียบการจ้างงาน และ P1 สำหรับเงินเดือน พร้อมหน่วย Emet ที่ให้ข้อมูลฝึกจากผู้เชี่ยวชาญและประเมินผล K1 ปรับจากโมเดล 9B พารามิเตอร์ ใช้เอกสารอ้างอิงกว่า 43,500 หน้า ดูแลโดยผู้เชี่ยวชาญกว่า 2,000 คน ฝึกด้วยราว 1.2 พันล้านโทเค็น ผลที่บริษัทรายงานเอง K1 ได้ 70 คะแนนบน EmBench Global Work เทียบกับคะแนนสูงสุด 75 แต่ตอบเร็วกว่า โดยมัธยฐาน 7.7 วินาที เทียบ 14.8–28.4 วินาทีของโมเดลที่คะแนนสูงกว่า การทดสอบมี 601 คำถามและให้ AI เป็นผู้ตรวจ VentureBeat ไม่สามารถทำซ้ำผลได้ Pangaea ขับเคลื่อน Deel AI โดยยังไม่เปิดน้ำหนักโมเดลหรือ API สาธารณะ",
+      "source_url": "https://venturebeat.com/technology/deel-launches-pangaea-ai-models-for-hr-and-payroll-betting-specialists-can-cut-the-cost-of-answers",
+      "tech_impact": "บริษัทซอฟต์แวร์เฉพาะทางเริ่มสร้างโมเดลของตนเองเพื่อลดต้นทุนและเวลาตอบ แทนพึ่งโมเดลชั้นนำทั้งหมด",
+      "tags": [
+        "Deel",
+        "Pangaea",
+        "SLM",
+        "payroll"
+      ],
+      "category_label": "AI · Domain-Specific Models",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Domain-Specific LLM",
+        "HR Tech",
+        "Model Economics"
+      ],
+      "actions_developer": [
+        "ทดลองกลยุทธ์ router ส่งคำถามไปโมเดลเฉพาะทางหรือโมเดลทั่วไปตามความยาก",
+        "สร้างชุดประเมินเฉพาะโดเมนของตนเองก่อนเชื่อผลเบนช์มาร์กของผู้ขาย"
+      ],
+      "actions_business": [
+        "พิจารณาลงทุนข้อมูลผู้เชี่ยวชาญเป็นฐานสร้างความได้เปรียบด้าน AI",
+        "ระวังตัวเลขเบนช์มาร์กที่บริษัทประเมินเองและเปรียบเทียบไม่ตรงเงื่อนไข"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b2-06",
+      "slug": "scholarevolve-papers-to-agent-harness-code",
+      "title": "Researchers made AI agents better by turning academic papers into working code, no retraining required",
+      "title_th": "นักวิจัยทำให้เอเจนต์ AI เก่งขึ้นด้วยการแปลงงานวิจัยเป็นโค้ด โดยไม่ต้องฝึกโมเดลใหม่",
+      "topic": "AI · Agent Research",
+      "topic_group": "ai-trends",
+      "source_name": "VentureBeat AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "นักวิจัยจาก UC Santa Barbara และ Microsoft พัฒนา ScholarEvolve เฟรมเวิร์กที่ดึงเทคนิคจากงานวิจัยที่ตีพิมพ์มาแปลงเป็นโค้ดปรับปรุง harness ของเอเจนต์ โดยไม่แตะน้ำหนักโมเดล harness แบ่งเป็นห้าโมดูล ได้แก่ tool interface, context management, skills, memories และ workflows ขั้นตอนคือให้ auditor ตรวจงานที่ล้มเหลวและค้นหาเปเปอร์บน arXiv จัดกลุ่มตามกลไก ให้เอเจนต์วิจัยสร้างพิมพ์เขียวและเอเจนต์เขียนโค้ดสร้างโมดูล แล้วผสมโมดูลที่ดีด้วย genetic crossover ผลบน AppWorld ทำให้ Qwen3.5-27B เพิ่มจาก 69.0% เป็น 81.4% ปิดช่องว่างกับ GPT-5.4 ราว 74% และบน tau-Bench Telecom GPT-5.4-mini เพิ่มจาก 72.7% เป็น 81.9% ข้อควรระวังคือที่เก็บโค้ด GitHub ว่างเปล่าตอนเผยแพร่ และงานวิจัยไม่ได้พูดถึงความเสี่ยงจากเปเปอร์หรือโค้ดภายนอกที่ถูกดึงมาใช้",
+      "source_url": "https://venturebeat.com/orchestration/researchers-made-ai-agents-better-by-turning-academic-papers-into-working-code-no-retraining-required",
+      "tech_impact": "การปรับปรุงเอเจนต์ผ่าน harness แทนการฝึกโมเดลใหม่ ให้โมเดลโอเพนเวทแคบช่องว่างกับโมเดลชั้นนำได้ในต้นทุนต่ำ",
+      "tags": [
+        "ScholarEvolve",
+        "AppWorld",
+        "agent harness",
+        "Qwen"
+      ],
+      "category_label": "AI · Agent Research",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI Agents",
+        "Agent Harness",
+        "Research Automation"
+      ],
+      "actions_developer": [
+        "ทดลองแยก harness ของเอเจนต์เป็นโมดูลชัดเจนเพื่อสลับและทดสอบเทคนิคจากเปเปอร์ได้",
+        "ตรวจสอบโค้ดที่ถูกสร้างจากเปเปอร์ผ่านกระบวนการ vetting ก่อนนำขึ้นระบบจริง"
+      ],
+      "actions_business": [
+        "พิจารณาโมเดลโอเพนเวทร่วมกับ harness ที่ปรับแต่งเป็นทางเลือกลดต้นทุน",
+        "กำหนดมาตรการควบคุมความเสี่ยงเมื่อเอเจนต์ดึงโค้ดหรือแนวทางจากภายนอกมาใช้เอง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b2-07",
+      "slug": "nvidia-kumo-relational-foundation-model",
+      "title": "NVIDIA Kumo Relational outperforms supervised machine learning on relational data, no training required",
+      "title_th": "NVIDIA Kumo Relational ชนะ ML แบบ supervised บนข้อมูลเชิงสัมพันธ์ โดยไม่ต้องฝึกเพิ่ม",
+      "topic": "AI · Foundation Models for Data",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Blog",
+      "category": "International",
+      "urgency": "medium",
+      "content": "NVIDIA เปิดตัว Kumo Relational โมเดลรากฐานที่ฝึกไว้ล่วงหน้าสำหรับทำนายผลโดยตรงบนฐานข้อมูลองค์กร รับคำสั่งผ่าน PQL ดึงตัวอย่างในอดีตได้สูงสุด 10,000 รายการเป็นบริบท แล้วทำนาย เช่น churn อุปสงค์ หรือการฉ้อโกง ในการรันครั้งเดียว โดยไม่ต้องฝึกเฉพาะงานหรือทำ feature engineering ประเมินบน 41 เบนช์มาร์ก 15 ฐานข้อมูล ซึ่งไม่เคยเห็นระหว่าง pre-training บน RelBench V1 คะแนน AUROC สูงกว่า gradient-boosted trees ที่ใช้ฟีเจอร์ผู้เชี่ยวชาญเฉลี่ยเกือบ 4 จุด และบน SAP SALT ชนะ XGBoost 7 จุด MRR ทันที และ 13 จุดหลังปรับจูน ใช้เวลาราว 17 วินาทีต่อ 1,000 ตัวอย่าง เร็วกว่าอันดับหนึ่งราว 430 เท่า โค้ดเป็น Apache 2.0 น้ำหนักภายใต้ OpenMDW 1.1 ข้อจำกัดคืองานที่มีข้อมูลฝึกมหาศาลอาจยังเหมาะกับ supervised",
+      "source_url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "tech_impact": "foundation model สำหรับข้อมูลตารางเชิงสัมพันธ์ อาจลดงาน feature engineering และเวลาสร้างโมเดลทำนายในองค์กรได้มาก",
+      "tags": [
+        "NVIDIA",
+        "Kumo",
+        "RelBench",
+        "foundation model"
+      ],
+      "category_label": "AI · Foundation Models for Data",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Tabular ML",
+        "Foundation Models",
+        "Enterprise Data"
+      ],
+      "actions_developer": [
+        "ทดลอง Kumo Relational กับ churn/fraud บนฐานข้อมูลภายในเทียบกับ XGBoost เดิม",
+        "ศึกษาไลบรารี structured-data-models และภาษา PQL สำหรับนิยามงานทำนาย"
+      ],
+      "actions_business": [
+        "ประเมินว่างานทำนายที่ใช้ทีมข้อมูลหลายสัปดาห์สามารถลดเหลือไม่กี่วันได้หรือไม่",
+        "ตรวจสัญญาอนุญาตของน้ำหนักโมเดล (OpenMDW) ก่อนใช้เชิงพาณิชย์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b2-08",
+      "slug": "ibm-granite-speech-5",
+      "title": "Granite Speech 5.0: transcribe, translate and attribute more accurately and faster",
+      "title_th": "IBM Granite Speech 5.0 ถอดเสียง แปลภาษา และระบุผู้พูดแม่นยำและเร็วขึ้น",
+      "topic": "Tech · Speech AI",
+      "topic_group": "tech-trends",
+      "source_name": "HuggingFace Blog",
+      "category": "International",
+      "urgency": "low",
+      "content": "IBM ประกาศอัปเดต Granite Speech สามส่วนสำหรับงานเสียงในองค์กร โดย granite-speech-5.0-2b รุ่นใหม่ขนาด 2B พารามิเตอร์ ถอดเสียงอังกฤษ ฝรั่งเศส เยอรมัน สเปน โปรตุเกส และญี่ปุ่น พร้อมแปลจากและเป็นภาษาอังกฤษ ฝึกด้วยเสียงสาธารณะ 390,000 ชั่วโมง ค่า WER ภาษาอังกฤษเฉลี่ย 5.06% อันดับ 2 ในบรรดาโมเดลโอเพนเวทบน Open ASR Leaderboard ตามที่ผู้เขียนระบุว่าไม่เป็นทางการ รองรับรายการคำสำคัญสูงสุด 2,000 คำ รุ่น 470m-turboctc ขยายเป็นหลายภาษาและเร็วขึ้นจากราว 12,600 เป็น 19,870 RTFx ส่วน 4.1-2b-plus ลดความคลาดเคลื่อนเวลาจาก 210.86 เหลือ 98.54 และลด WER ของคำสำคัญจาก 11.79 เหลือ 6.48 ทั้งหมดอยู่ภายใต้ Apache 2.0 รองรับ Transformers, vLLM, llama.cpp และ mlx-audio",
+      "source_url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "tech_impact": "โมเดลเสียงโอเพนซอร์สระดับองค์กรที่เร็วและแม่นขึ้น เหมาะกับถอดความประชุม ศูนย์บริการลูกค้า และงานบนอุปกรณ์",
+      "tags": [
+        "IBM",
+        "Granite Speech",
+        "ASR",
+        "Apache 2.0"
+      ],
+      "category_label": "Tech · Speech AI",
+      "published_at": "2026-10-21",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Speech AI",
+        "ASR",
+        "Open Source"
+      ],
+      "actions_developer": [
+        "ทดลอง granite-speech-5.0-2b กับเสียงจริงของทีมและวัด WER เทียบกับระบบเดิม",
+        "ใช้ 470m-turboctc สำหรับงานสตรีมมิงบนอุปกรณ์ที่ต้องการความเร็ว"
+      ],
+      "actions_business": [
+        "พิจารณาแทนบริการถอดเสียงแบบจ่ายต่อนาทีด้วยโมเดลโอเพนซอร์สในองค์กร",
+        "ตรวจความถูกต้องภาษาที่ไม่อยู่ในรายการ เช่น ภาษาไทย ก่อนวางแผนใช้งาน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b3-01",
+      "slug": "arxiv-same-simulation-different-evidence",
+      "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
+      "title_th": "Same Simulation, Different Evidence: ผลลัพธ์เครื่องมือที่ถูกดึงมาทำให้เอเจนต์ LLM แม่นยำลดลงตรงไหน",
+      "topic": "AI · Research Paper",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "งานวิจัยบน arXiv ทดสอบว่าการที่ harness ของเอเจนต์บันทึกผลลัพธ์เครื่องมือยาวๆ ลงไฟล์แทนการใส่ในบริบท ทำให้แม่นยำลดลงหรือไม่ โดยใช้ PHREEQC ซิมูเลเตอร์ธรณีเคมีของ USGS ที่รายงานยาวถึง 846.8 พันตัวอักษร และคำถามปรนัย 158 ข้อที่ตรวจสอบได้ ผลพบว่าการอ่านรายงานผ่านดัชนีส่วนทำให้ GPT-5.1 เสีย 11.3 จุด และ GPT-5.2 เสีย 7.9 จุด ขณะที่ Claude Opus 4.6 และ Sonnet 4.6 ไม่พบความเสียหายที่ตรวจจับได้ การรันซ้ำ 11,007 ครั้งชี้ว่าโมเดลคำนวณค่าได้ถูกต้องพอๆ เดิม แต่ใช้หลักฐานผิด คือข้ามรายงานไปใช้ไฟล์เอาต์พุตที่ละเอียดกว่าแล้วปัดเศษเป็นตัวเลือกใกล้เคียง เรียกว่า evidence substitution การระบุชื่อเอาต์พุตที่เป็นทางการช่วยเพิ่มความแม่นยำ 6.3–7.9 จุด",
+      "source_url": "https://arxiv.org/abs/2610.26836",
+      "tech_impact": "การออกแบบการจัดการบริบทของเอเจนต์ควรวัดว่าสูญเสียความแม่นยำที่จุดใด ไม่ใช่ดูเฉพาะคะแนนสุดท้าย",
+      "tags": [
+        "arXiv",
+        "LLM agents",
+        "retrieval",
+        "evaluation"
+      ],
+      "category_label": "AI · Research Paper",
+      "published_at": "2026-10-19",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Agents",
+        "Evaluation",
+        "Context Engineering"
+      ],
+      "actions_developer": [
+        "ระบุชื่อไฟล์เอาต์พุตที่เป็นแหล่งความจริงในพรอมต์ของเอเจนต์อย่างชัดเจน",
+        "แทรกผลลัพธ์เครื่องมือที่พอดีบริบทลงบริบทตรงๆ แทนการให้ค้นจากไฟล์"
+      ],
+      "actions_business": [
+        "ทดสอบเอเจนต์ด้วยชุดคำถามที่ตรวจสอบได้ก่อนเปลี่ยนวิธีจัดการบริบท",
+        "เลือกโมเดลโดยดูความทนทานต่อ harness ไม่ใช่แค่คะแนนเบนช์มาร์ก"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b3-02",
+      "slug": "arxiv-cache-engineering-for-agents",
+      "title": "Cache Engineering for Agents",
+      "title_th": "Cache Engineering for Agents: วิศวกรรมแคชสำหรับเอเจนต์ LLM",
+      "topic": "AI · Research Paper",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv NLP (cs.CL)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยชี้ว่าเมื่อเส้นทางการทำงานของเอเจนต์ LLM ยาวขึ้น ต้นทุนหลักคือ I/O และพื้นที่เก็บ KV cache วิธี context engineering เดิมที่ตัดหรือสรุปประวัติจะเปลี่ยนพรีฟิกซ์ ทำให้ต้อง prefill ใหม่และอาจกระทบความแม่นยำ ผู้เขียนเสนอ cache engineering ให้เอเจนต์ควบคุม KV cache ที่ใช้งานอยู่ได้โดยตรง เช่น ทิ้งรายการแคชจากการให้ความสนใจในอนาคต และปรับ position encoding ของคีย์ที่เก็บไว้ โดยไม่ต้องแก้ประวัติหรือ prefill ใหม่ พร้อมออกแบบเอนจินเสิร์ฟ AKV ที่เข้ากับ API เดิมแต่จัดการการนำกลับมาใช้ ขับออก และกู้คืนแคชภายใน ผลคือนโยบาย rolling-drop ของผลลัพธ์เครื่องมือเพิ่มคะแนน 1.7 จุด ลดต้นทุนเฉลี่ย 27.7% เมื่อเทียบการสรุปแบบมีเกณฑ์ ปริมาณงาน 1.2 เท่า และ P95 latency ดีขึ้น 1.5 เท่า โค้ดอยู่ที่ github.com/thu-nics/AKV",
+      "source_url": "https://arxiv.org/abs/2610.28577",
+      "tech_impact": "เทคนิคจัดการ KV cache โดยตรงอาจลดต้นทุนเอเจนต์บริบทยาวได้โดยไม่เสียแคชพรีฟิกซ์",
+      "tags": [
+        "arXiv",
+        "KV cache",
+        "AKV",
+        "agents"
+      ],
+      "category_label": "AI · Research Paper",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM Serving",
+        "KV Cache",
+        "AI Agents"
+      ],
+      "actions_developer": [
+        "ทดลอง AKV กับเอเจนต์ที่มีผลลัพธ์เครื่องมือยาว และวัดต้นทุนต่อภารกิจ",
+        "เปรียบเทียบนโยบาย rolling-drop กับการสรุปบริบทในระบบของตน"
+      ],
+      "actions_business": [
+        "ใช้ต้นทุน inference ของเอเจนต์เป็นตัวชี้วัดหลักเมื่อประเมินโครงสร้างพื้นฐาน",
+        "ติดตามเครื่องมือเสิร์ฟที่รองรับการควบคุมแคชระดับเอเจนต์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261022-b3-03",
+      "slug": "arxiv-large-flow-language-models",
+      "title": "Large Flow Language Models",
+      "title_th": "Large Flow Language Models: โมเดลภาษาแบบ Flow ขนาดใหญ่",
+      "topic": "AI · Research Paper",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv NLP (cs.CL)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "งานวิจัยนำเสนอ Lafa โมเดลภาษาแบบ continuous flow ที่ขยายถึง 8B พารามิเตอร์อย่างใช้ข้อมูลน้อย สถาปัตยกรรมใช้ causal attention บนพรีฟิกซ์ และ flow แบบสองทิศทางไม่ซิงโครนัสภายในแต่ละบล็อก ทำให้ดัดแปลงโมเดล autoregressive (AR) ที่ฝึกไว้แล้วได้ และใช้ prefix caching กับการถอดรหัสแบบขนานระดับบล็อกเพื่อ inference ที่เร็ว ผู้เขียนฝึกโมเดล 0.5B, 7B และ 8B ด้วยโทเค็นไม่ถึง 30B ผลบนงานทำตามคำสั่ง การให้เหตุผล และเขียนโค้ดเทียบเท่าหรือดีกว่า AR และกลั่นเป็น flow map สำหรับสร้างในหนึ่งหรือไม่กี่ขั้นได้ อีกทั้งนำไปใช้ใน self-speculative decoding ที่ตรวจร่างด้วย AR ภายในโมเดลเดียว ได้ปริมาณงาน 2.54 เท่าของ AR ที่คุณภาพใกล้เคียง ซึ่งผู้เขียนรายงานว่าเหนือกว่า multi-token prediction และ discrete diffusion",
+      "source_url": "https://arxiv.org/abs/2610.28559",
+      "tech_impact": "ทางเลือกใหม่แทนการถอดรหัสแบบ autoregressive ที่อาจเพิ่มความเร็ว inference ได้กว่า 2.5 เท่าโดยคุณภาพไม่ตก",
+      "tags": [
+        "arXiv",
+        "flow models",
+        "Lafa",
+        "speculative decoding"
+      ],
+      "category_label": "AI · Research Paper",
+      "published_at": "2026-10-20",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "LLM Architecture",
+        "Inference Speed",
+        "Research"
+      ],
+      "actions_developer": [
+        "ติดตามโค้ดและน้ำหนักของ Lafa และเทียบกับ speculative decoding ที่ใช้อยู่",
+        "ทดลองแนวคิดดัดแปลงโมเดล AR เดิมให้เป็น flow แทนการฝึกใหม่ทั้งหมด"
+      ],
+      "actions_business": [
+        "ติดตามสถาปัตยกรรมที่ลดต้นทุน inference เพื่อวางแผนงบ GPU ระยะกลาง",
+        "ไม่ควรเปลี่ยนสแตกจนกว่าจะมีการทำซ้ำผลโดยอิสระ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
