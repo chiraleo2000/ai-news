@@ -1,0 +1,712 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T09:30:00+07:00",
+  "schema_version": "combined-1.0",
+  "pipeline_version": "combined-1.0",
+  "stats": {
+    "total": 17,
+    "by_topic": {
+      "ai_trends": 5,
+      "tech_trends": 5,
+      "thailand": 1,
+      "global": 6
+    },
+    "by_source_category": {
+      "thai": 7,
+      "international": 6,
+      "research": 2,
+      "youtube": 2
+    },
+    "urgency_breakdown": {
+      "high": 6,
+      "medium": 7,
+      "low": 4
+    },
+    "breakthrough_count": 4
+  },
+  "top_insights": [
+    {
+      "title": "เบื้องหลังช่องโหว่ PHP2Shell: LLM หาช่องโหว่ที่มนุษย์มองไม่เห็นมานานกว่าสิบปี",
+      "impact_summary": "LLM ระดับแนวหน้าค้นพบช่องโหว่ RCE ระดับวิกฤติในโค้ดเก่าหลายสิบปีได้ ทำให้ต้นทุนการหาช่องโหว่ลดลงและเร่งความเร็วทั้งฝั่งโจมตีและป้องกัน",
+      "urgency": "high",
+      "article_id": "20261023-b1-01"
+    },
+    {
+      "title": "Anthropic เปิดตัว Claude Duet เอเจนต์เชิงรุกบน Opus 5.5 สำหรับผู้ใช้ Pro และ Max ในสหรัฐฯ",
+      "impact_summary": "เอเจนต์ส่วนตัวที่ทำงานเองเบื้องหลังพร้อมระบบอนุมัติและบล็อกการเงิน กำหนดมาตรฐานใหม่ของ proactive agent สำหรับงานธุรกิจ",
+      "urgency": "high",
+      "article_id": "20261023-b1-06"
+    },
+    {
+      "title": "ช่องโหว่ PHP เปิดยุคอันตรายใหม่ของอินเทอร์เน็ต OpenAI เปิด Daybreak ให้ผู้ป้องกัน",
+      "impact_summary": "AI ทำให้การค้นหาช่องโหว่เร็วขึ้นจนช่วงเวลาระหว่างค้นพบและโจมตีหดสั้น ผู้ป้องกันต้องใช้ AI คู่ขนานเพื่อให้ทัน",
+      "urgency": "high",
+      "article_id": "20261023-b2-01"
+    },
+    {
+      "title": "พันธบัตรสหรัฐฯ พุ่งขึ้นแรงสุดในรอบกว่า 2 ปี นักลงทุนเทขายหุ้น AI หาที่หลบภัย",
+      "impact_summary": "การเทขายหุ้นเซมิคอนดักเตอร์ 7.3% และการวิ่งเข้าพันธบัตร เป็นสัญญาณว่าตลาดเริ่มตั้งคำถามกับผลตอบแทนของการลงทุน AI",
+      "urgency": "high",
+      "article_id": "20261023-b1-07"
+    },
+    {
+      "title": "Microsoft เชื่อม Storm-0940 กับการแฮก ConnectWise ที่ใช้เอเจนต์ AI เจาะระบบ ARTEX",
+      "impact_summary": "การโจมตีที่ใช้เอเจนต์ AI ลดเวลาเจาะระบบคลาวด์เหลือไม่ถึงสามชั่วโมง ทำให้การตรวจจับแบบเดิมที่อิงมนุษย์ไม่ทัน",
+      "urgency": "high",
+      "article_id": "20261023-b2-02"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261023-b1-01",
+      "slug": "php2shell-llm-found-flaw-humans-missed",
+      "title": "Behind PHP2Shell: an LLM found a PHP flaw humans missed for a decade",
+      "title_th": "เบื้องหลังช่องโหว่ PHP2Shell: LLM หาช่องโหว่ที่มนุษย์มองไม่เห็นมานานกว่าสิบปี",
+      "topic": "AI Trends",
+      "topic_group": "ai-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Blognone เปิดเบื้องหลังช่องโหว่ PHP2Shell ซึ่งเป็นบั๊กร้ายแรง 2 รายการใน PHP ที่มีอยู่ตั้งแต่ PHP 5.4 เมื่อปี 2012 และมนุษย์หาไม่เจอมานานราวสิบปี แต่ถูกค้นพบด้วยความช่วยเหลือของ LLM บริษัท Calif ซึ่งเข้าร่วมโครงการ Patch the Planet ของ OpenAI ใช้โมเดล GPT-5.6 Sol สแกน PHP และพบบั๊กแรกเมื่อ 1 สิงหาคม 2026 ก่อนประสานงานกับ PHP Foundation ล่วงหน้า ต่อมา Wiz ซึ่งถูก Google ซื้อไปเมื่อต้นปี ก็พบช่องโหว่เดียวกันทั้งสองรายการด้วย Gemini 4 Argon, GPT-5.6 Sol และระบบ Wiz Atlas ของตนเอง Wiz เปรียบเทียบเหตุการณ์นี้กับ Heartbleed และ Log4Shell ที่เป็นจุดเปลี่ยนด้านความปลอดภัย เพราะบั๊กด้านหน่วยความจำซับซ้อนมากและการหาด้วยมือแทบเป็นไปไม่ได้ เหตุการณ์นี้ชี้ว่า AI กำลังเปลี่ยนสมดุลระหว่างผู้โจมตีและผู้ป้องกันในงานค้นหาช่องโหว่",
+      "source_url": "https://www.blognone.com/node/151985",
+      "tech_impact": "LLM ระดับแนวหน้าค้นพบช่องโหว่ RCE ระดับวิกฤติในโค้ดเก่าหลายสิบปีได้ ทำให้ต้นทุนการหาช่องโหว่ลดลงและเร่งความเร็วทั้งฝั่งโจมตีและป้องกัน",
+      "tags": [
+        "PHP2Shell",
+        "GPT-5.6 Sol",
+        "Calif",
+        "Wiz",
+        "Security"
+      ],
+      "category_label": "AI Trends",
+      "published_at": "2026-10-22T20:11:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Cybersecurity",
+        "LLM",
+        "Open Source"
+      ],
+      "actions_developer": [
+        "อัปเดต PHP เป็น 8.5.12 / 8.4.27 / 8.3.36 / 8.2.35 ทันที และตรวจ Apache + mod_php เป็นอันดับแรก",
+        "เพิ่มขั้นตอนสแกนโค้ดและ dependency ด้วย LLM ใน CI เพื่อหาบั๊กหน่วยความจำก่อนผู้โจมตี"
+      ],
+      "actions_business": [
+        "ตรวจสอบสินทรัพย์เว็บที่ใช้ PHP และ WordPress ทั้งหมด พร้อมเปิด WAF ชั่วคราวระหว่างรอแพตช์",
+        "จัดงบและแผนรับมือ AI-driven vulnerability discovery เป็นความเสี่ยงที่เกิดบ่อยขึ้น"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b1-02",
+      "slug": "meta-q3-2026-muse-10m-users",
+      "title": "Meta Q3 revenue up 26% while AI spend cuts operating profit 37%; Muse passes 10M users",
+      "title_th": "Meta รายได้ไตรมาส 3 โต 26% แต่กำไรจากการดำเนินงานลด 37% จากการลงทุน AI ขณะที่ Muse มีผู้ใช้เกิน 10 ล้านคน",
+      "topic": "Global",
+      "topic_group": "global",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Meta รายงานผลประกอบการไตรมาส 3 ปี 2026 ด้วยรายได้ 64,601 ล้านดอลลาร์ เพิ่มขึ้น 26% และกำไรสุทธิ 9,860 ล้านดอลลาร์ เพราะกันสำรองภาษีลดลง แต่กำไรจากการดำเนินงานลดลง 37% เหลือ 12,988 ล้านดอลลาร์ จากค่าใช้จ่ายโครงสร้างพื้นฐาน AI ที่พุ่งสูง โดย CapEx ในไตรมาสอยู่ที่ 34,900 ล้านดอลลาร์ และกระแสเงินสดอิสระติดลบ 2,120 ล้านดอลลาร์ จำนวนผู้ใช้งานรายวันทุกแพลตฟอร์มอยู่ที่ 3,640 ล้านคน เพิ่มขึ้น 3% ด้าน Zuckerberg เผยว่า Muse ผู้ช่วย AI ซึ่งเปิดเฉพาะในสหรัฐฯ มีผู้ใช้เกิน 10 ล้านคน ราว 25% ใช้ทุกวัน และอีก 25% ใช้ช่วยช้อปปิ้งออนไลน์ เฉลี่ยยอดซื้อราว 200 ดอลลาร์ Meta วางแผนขยายโครงสร้างพื้นฐานรองรับถึงหนึ่งพันล้านคน และคาดว่าประสิทธิภาพต้นทุนจะดีขึ้นกว่า 10 เท่าภายในหนึ่งปี",
+      "source_url": "https://www.blognone.com/node/151982",
+      "tech_impact": "ตลาดจับตาว่าการลงทุน AI ระดับ 3.49 หมื่นล้านดอลลาร์ต่อไตรมาสจะคุ้มค่าหรือไม่ เมื่อกระแสเงินสดอิสระของ Meta ติดลบ",
+      "tags": [
+        "Meta",
+        "Muse",
+        "CapEx",
+        "Earnings"
+      ],
+      "category_label": "Global",
+      "published_at": "2026-10-22T19:45:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Big Tech",
+        "AI Infrastructure",
+        "Consumer AI"
+      ],
+      "actions_developer": [
+        "ติดตามการเปิดตัว Muse นอกสหรัฐฯ และ API สำหรับนักพัฒนา",
+        "ศึกษารูปแบบ agentic shopping ของ Muse เพื่อออกแบบ checkout ที่รองรับ AI agent"
+      ],
+      "actions_business": [
+        "ประเมินช่องทางโฆษณาและ commerce ที่ผ่าน AI assistant ซึ่งเติบโตเร็ว",
+        "เปรียบเทียบสัดส่วน CapEx ต่อรายได้ของ hyperscaler เป็นสัญญาณความเสี่ยงฟองสบู่ AI"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b1-03",
+      "slug": "betagro-freshket-59-percent",
+      "title": "Betagro takes a 59.18% stake in Freshket fresh-food platform",
+      "title_th": "เบทาโกรเข้าถือหุ้นใหญ่ 59.18% ใน Freshket แพลตฟอร์มขายอาหารสดและวัตถุดิบ",
+      "topic": "Thailand",
+      "topic_group": "thailand",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "เบทาโกร (Betagro) บริษัทเกษตรอุตสาหกรรมรายใหญ่ของไทย ประกาศเข้าซื้อหุ้น 59.18% ของบริษัท โพลาร์แบร์ มิชชั่น จำกัด ผู้เป็นเจ้าของ Freshket แพลตฟอร์มออนไลน์ขายอาหารสดและวัตถุดิบ ทำให้เบทาโกรกลายเป็นผู้ถือหุ้นใหญ่ที่สุด โดยไม่เปิดเผยมูลค่าธุรกรรม Freshket มีลูกค้าหลักเป็นกลุ่มโรงแรม ร้านอาหารและธุรกิจจัดเลี้ยง (HORECA) รวมถึงผู้บริโภคทั่วไป เบทาโกรระบุว่าการลงทุนนี้ช่วยขยายธุรกิจเข้าสู่ FoodTech และเพิ่มช่องทางจำหน่ายสินค้าของกลุ่ม ข้อมูลประกาศผ่านข่าวตลาดหลักทรัพย์แห่งประเทศไทยและเพจเฟซบุ๊กของบริษัท ดีลนี้สะท้อนทิศทางที่ผู้ผลิตอาหารรายใหญ่ของไทยต้องการเชื่อมต่อกับข้อมูลความต้องการจากแพลตฟอร์มดิจิทัลโดยตรง เพื่อบริหารห่วงโซ่อุปทานด้วยข้อมูลและเทคโนโลยีมากขึ้น",
+      "source_url": "https://www.blognone.com/node/151986",
+      "tech_impact": "ผู้ผลิตอาหารไทยรายใหญ่ซื้อแพลตฟอร์ม B2B เพื่อเข้าถึงข้อมูลดีมานด์ของ HORECA ซึ่งเป็นฐานสำหรับพยากรณ์และบริหารซัพพลายด้วยข้อมูล",
+      "tags": [
+        "Betagro",
+        "Freshket",
+        "FoodTech",
+        "M&A"
+      ],
+      "category_label": "Thailand",
+      "published_at": "2026-10-22T20:50:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "FoodTech",
+        "Thai Enterprise",
+        "M&A"
+      ],
+      "actions_developer": [
+        "ศึกษาโอกาสทำระบบ demand forecasting และ inventory optimization สำหรับ B2B food platform",
+        "เตรียม API integration รองรับการเชื่อมคำสั่งซื้อระหว่างผู้ผลิตกับแพลตฟอร์ม"
+      ],
+      "actions_business": [
+        "ธุรกิจอาหารควรประเมินช่องทางดิจิทัลตรงถึง HORECA แทนการพึ่งตัวแทนจำหน่ายอย่างเดียว",
+        "สตาร์ทอัป FoodTech ไทยอาจเป็นเป้าหมายลงทุนของผู้เล่นรายใหญ่เพิ่มขึ้น"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b1-04",
+      "slug": "lightroom-mobile-open-eyes-generative-ai",
+      "title": "Adobe Lightroom mobile adds generative AI to open closed eyes, two free uses",
+      "title_th": "Adobe Lightroom บนมือถือเพิ่มฟีเจอร์ Generative AI แก้ภาพคนหลับตาให้ลืมตา ใช้ฟรีสองครั้ง",
+      "topic": "Tech Trends",
+      "topic_group": "tech-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "Adobe เปิดให้ผู้ใช้ Lightroom บนสมาร์ทโฟน ทั้ง iOS, Android และ iPadOS ทดลองฟีเจอร์ Generative AI ที่แก้ภาพคนที่หลับตาให้กลายเป็นลืมตาได้ในการแตะเพียงครั้งเดียว ผู้ใช้ทดลองใช้ฟรีได้สองครั้ง หลังจากนั้นต้องสมัครสมาชิก Creative Cloud ต่อเพื่อใช้งานต่อเนื่อง ฟีเจอร์นี้ทำงานโดยวิเคราะห์ใบหน้าในภาพถ่ายหมู่ แล้วสร้างดวงตาที่เปิดขึ้นมาใหม่ให้เข้ากับโครงหน้าและแสงของภาพ เหมาะกับภาพกลุ่มที่มักมีคนกะพริบตา แนวทางของ Adobe คือนำ Generative AI ลงสู่ฟีเจอร์ใช้งานประจำวันบนมือถือ พร้อมใช้โมเดลการให้ลองฟรีจำกัดจำนวนครั้งเพื่อดึงผู้ใช้เข้าสู่แพ็กเกจแบบชำระเงิน ซึ่งเป็นกลยุทธ์ที่ผู้ให้บริการแอปแต่งภาพรายอื่นก็เริ่มนำมาใช้เช่นกัน",
+      "source_url": "https://www.blognone.com/node/151984",
+      "tech_impact": "Generative AI ถูกฝังเป็นฟีเจอร์แก้ภาพแตะเดียวบนมือถือ พร้อมโมเดลทดลองฟรีแล้วจำกัดสิทธิ์เพื่อผลักดันการสมัครสมาชิก",
+      "tags": [
+        "Adobe",
+        "Lightroom",
+        "Generative AI",
+        "Mobile"
+      ],
+      "category_label": "Tech Trends",
+      "published_at": "2026-10-22T20:17:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Creative AI",
+        "Mobile",
+        "Subscription"
+      ],
+      "actions_developer": [
+        "ศึกษา pipeline face-aware inpainting เพื่อทำฟีเจอร์แก้ภาพบนแอปมือถือของตนเอง",
+        "ออกแบบระบบนับโควตา free trial ต่อผู้ใช้สำหรับฟีเจอร์ที่ใช้ GPU ต้นทุนสูง"
+      ],
+      "actions_business": [
+        "ใช้ฟีเจอร์ AI แบบแตะเดียวเป็นตัวดึงลูกค้าสู่แพ็กเกจชำระเงิน",
+        "ประเมินประเด็นความถูกต้องของภาพถ่ายเมื่อใช้ AI แก้ใบหน้าในงานเชิงพาณิชย์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b1-05",
+      "slug": "google-cloud-openai-model-garden",
+      "title": "Google Cloud adds OpenAI GPT-6 models to Model Garden",
+      "title_th": "Google Cloud เพิ่มโมเดล GPT-6 ของ OpenAI ใน Model Garden",
+      "topic": "Tech Trends",
+      "topic_group": "tech-trends",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Google Cloud ประกาศนำโมเดล OpenAI สามรุ่นเข้า Model Garden ได้แก่ GPT-6 Astra สำหรับงานที่ต้องการการให้เหตุผลลึก เช่น เขียนโค้ดซับซ้อนและควบคุมคอมพิวเตอร์, GPT-6.1 Sol ที่ประสิทธิภาพใกล้เคียง Astra ในต้นทุนต่ำกว่า เหมาะกับงาน agentic coding และ GPT-6 Luna ที่เน้นความเร็วและความคุ้มค่าสำหรับงานปริมาณมาก ขณะนี้เปิดเป็น Private Preview ให้ลูกค้าองค์กรที่คัดเลือก ผ่าน API และ Codex CLI กับ Desktop ที่เชื่อมต่อ Gemini Platform ลูกค้าสามารถซื้อผ่าน Google Cloud Marketplace รวมในใบแจ้งหนี้เดียว และนับรวมใน Flexible Savings Plans ได้ Model Garden มีโมเดลมากกว่า 200 รายการ และ Google Cloud อ้างว่าเป็นผู้ให้บริการรายเดียวที่มีโมเดล closed-source ระดับเรือธงจากสามค่ายใหญ่ โดยจะรวมกับ Gemini for business และ Antigravity ในอนาคต",
+      "source_url": "https://www.techtalkthai.com/google-cloud-openai/",
+      "tech_impact": "คู่แข่งอย่าง Google และ OpenAI จับมือกันในระดับ cloud ลดการล็อกอินกับผู้ให้บริการรายเดียวและทำให้องค์กรเลือกโมเดลข้ามค่ายผ่านใบแจ้งหนี้เดียว",
+      "tags": [
+        "Google Cloud",
+        "OpenAI",
+        "GPT-6",
+        "Model Garden"
+      ],
+      "category_label": "Tech Trends",
+      "published_at": "2026-10-22T12:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Cloud",
+        "LLM Platform",
+        "Enterprise AI"
+      ],
+      "actions_developer": [
+        "ขอเข้า Private Preview และทดสอบ routing ระหว่าง Gemini กับ GPT-6.x ตามประเภทงาน",
+        "เตรียม abstraction layer ของโมเดลเพื่อสลับ provider ได้โดยไม่แก้โค้ดหลัก"
+      ],
+      "actions_business": [
+        "ใช้ Google Cloud Marketplace รวมค่าใช้จ่าย AI หลายค่ายและหักเข้า Savings Plans",
+        "เจรจา ZDR และเงื่อนไขข้อมูลก่อนนำโมเดลไปใช้กับข้อมูลลูกค้า"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b1-06",
+      "slug": "anthropic-claude-duet-proactive-agent",
+      "title": "Anthropic launches Claude Duet, a proactive agent built on Opus 5.5",
+      "title_th": "Anthropic เปิดตัว Claude Duet เอเจนต์เชิงรุกบน Opus 5.5 สำหรับผู้ใช้ Pro และ Max ในสหรัฐฯ",
+      "topic": "Tech Trends",
+      "topic_group": "tech-trends",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Anthropic เปิด Claude Duet เอเจนต์ AI เชิงรุกสำหรับมืออาชีพและเจ้าของธุรกิจขนาดเล็ก ในรูปแบบ Research Preview ผ่านรายชื่อรอ เฉพาะสมาชิก Pro และ Max ในสหรัฐฯ ทำงานบน Claude Opus 5.5 ผ่านแอป iOS, Android และ claude.ai ฟีเจอร์เด่นคือสรุปงานเช้าจากแอปที่เชื่อมต่อ แจ้งเตือนเมื่อมีเรื่องต้องดำเนินการ และทำงานต่อบน virtual machine ของตัวเองแม้ปิดเครื่อง โดยเชื่อมต่อคอนเน็กเตอร์และปลั๊กอินมากกว่า 6,000 รายการ เช่น Gmail, Slack, Stripe, QuickBooks และ HubSpot สามารถซื้อของผ่าน Link ด้วยบัตรเสมือน ทุกการกระทำผ่านตัวจำแนก auto mode และต้องขออนุมัติก่อนส่งข้อความ จ่ายเงิน หรือลบข้อมูล ส่วนการซื้อขายหลักทรัพย์และโอนเงินระหว่างบัญชีถูกบล็อกแม้ได้รับอนุมัติ Anthropic ยอมรับว่ายังอาจอ่านเธรดผิดหรือประเมินความเร่งด่วนคลาดเคลื่อน",
+      "source_url": "https://www.techtalkthai.com/anthropic-launches-claude-duet-proactive-ai-agent-research-preview/",
+      "tech_impact": "เอเจนต์ส่วนตัวที่ทำงานเองเบื้องหลังพร้อมระบบอนุมัติและบล็อกการเงิน กำหนดมาตรฐานใหม่ของ proactive agent สำหรับงานธุรกิจ",
+      "tags": [
+        "Anthropic",
+        "Claude Duet",
+        "Opus 5.5",
+        "Agent"
+      ],
+      "category_label": "Tech Trends",
+      "published_at": "2026-10-23T09:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI Agents",
+        "Productivity",
+        "Enterprise AI"
+      ],
+      "actions_developer": [
+        "ศึกษาแนวทาง approval gate และ credential isolation เพื่อนำมาใช้กับเอเจนต์ของตนเอง",
+        "ทดสอบ prompt-injection defense กับเอเจนต์ที่มีสิทธิ์เข้าถึงอีเมลและเครื่องมือชำระเงิน"
+      ],
+      "actions_business": [
+        "ลงชื่อรอทดลองและประเมิน use case งานแอดมินและพยากรณ์ยอดขายอัตโนมัติ",
+        "กำหนดนโยบายข้อมูลอ่อนไหวก่อนให้เอเจนต์เข้าถึงบัญชีองค์กร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b1-07",
+      "slug": "treasuries-rally-ai-stock-selloff",
+      "title": "US Treasuries surge as investors dump AI stocks seeking safety",
+      "title_th": "พันธบัตรสหรัฐฯ พุ่งขึ้นแรงสุดในรอบกว่า 2 ปี นักลงทุนเทขายหุ้น AI หาที่หลบภัย",
+      "topic": "Global",
+      "topic_group": "global",
+      "source_name": "Bangkok Biz AI",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "กรุงเทพธุรกิจรายงานตาม Bloomberg ว่าราคาพันธบัตรรัฐบาลสหรัฐฯ ปรับขึ้นแรงสุดในรอบกว่า 2 ปีเมื่อวันที่ 22 ตุลาคม ผลตอบแทนพันธบัตรอายุสั้นลดลงสูงสุด 20 bps และผลตอบแทน 10 ปีลดลงมากสุดในวันเดียวตั้งแต่สิงหาคม 2024 หลุดต่ำกว่า 5% ครั้งแรกในรอบหนึ่งเดือน แรงกดดันหลักมาจากการเทขายหุ้นเทคโนโลยีเพราะความกังวลว่าการลงทุน AI จำนวนมากจะคุ้มค่าหรือไม่ โดยดัชนีเซมิคอนดักเตอร์ฟิลาเดลเฟียร่วงสูงสุด 7.3% ต่ำสุดตั้งแต่ปลายกรกฎาคม ขณะเดียวกันน้ำมันเบรนต์ขึ้นเหนือ 113 ดอลลาร์จากเหตุโจมตีในซาอุดีอาระเบีย ตลาดจึงคาดการณ์การขึ้นดอกเบี้ย 0.25% ในเดือนมกราคม นักวิเคราะห์จาก Invesco มองว่าจุดสูงสุดของ AI อาจผ่านไปแล้ว ส่วน DBS เตือนว่าความเชื่อมั่นเริ่มเปราะบาง",
+      "source_url": "https://www.bangkokbiznews.com/finance/investment/1257578",
+      "tech_impact": "การเทขายหุ้นเซมิคอนดักเตอร์ 7.3% และการวิ่งเข้าพันธบัตร เป็นสัญญาณว่าตลาดเริ่มตั้งคำถามกับผลตอบแทนของการลงทุน AI",
+      "tags": [
+        "AI stocks",
+        "Treasuries",
+        "Semiconductor",
+        "Bloomberg"
+      ],
+      "category_label": "Global",
+      "published_at": "2026-10-23T07:37:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Markets",
+        "Semiconductor",
+        "AI Investment"
+      ],
+      "actions_developer": [
+        "เตรียมแผนควบคุมต้นทุน GPU และ inference เผื่อสภาพคล่องของผู้ให้บริการ AI ตึงตัว",
+        "หลีกเลี่ยงการผูกสถาปัตยกรรมกับผู้ให้บริการรายเดียวที่เสี่ยงทางการเงิน"
+      ],
+      "actions_business": [
+        "ทบทวนสัญญา AI ระยะยาวและเงื่อนไขราคา เมื่อตลาดมีความผันผวน",
+        "กระจายความเสี่ยงพอร์ตการลงทุนด้านเทคโนโลยีตามคำแนะนำของที่ปรึกษาที่มีใบอนุญาต"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b2-01",
+      "slug": "fortune-php-bug-openai-daybreak",
+      "title": "PHP bug marks a dangerous new era; OpenAI launches Daybreak for defenders",
+      "title_th": "ช่องโหว่ PHP เปิดยุคอันตรายใหม่ของอินเทอร์เน็ต OpenAI เปิด Daybreak ให้ผู้ป้องกัน",
+      "topic": "Global",
+      "topic_group": "global",
+      "source_name": "Fortune Tech",
+      "category": "International",
+      "urgency": "high",
+      "content": "Fortune รายงานว่าช่องโหว่ PHP2Shell สองรายการที่เปิดให้เจาะระบบจากระยะไกลโดยไม่ต้องล็อกอิน ถูกค้นพบเมื่อเดือนสิงหาคมโดยทีมวิจัยหลายแห่งที่ใช้โมเดล AI ล่าช่องโหว่ โดย GPT-5.6 Sol ของ OpenAI และ Gemini 4 Argon ของ Google มีบทบาทสำคัญ PHP Foundation ประกาศแพตช์วิกฤติเมื่อ 20 ตุลาคม แต่ AWS ระบุว่าแฮกเกอร์เริ่มโจมตีตั้งแต่ 17 ตุลาคมก่อนเปิดเผยต่อสาธารณะ และหลังเปิดเผยมีความพยายามโจมตีหลายล้านครั้ง ขณะเดียวกัน OpenAI เปิด Daybreak โครงการแบบสมัครเข้าร่วม ให้องค์กรผู้ป้องกันใช้โมเดลและ Codex security agent ค้นหาช่องโหว่ ตรวจโค้ด และตรวจสอบแพตช์อัตโนมัติ ตัวเลขของผู้เข้าร่วมเพิ่มจาก 858 เป็น 1,885 ช่องโหว่ และแพตช์จาก 263 เป็น 661 รายการ",
+      "source_url": "https://fortune.com/2026/10/22/php-security-flaw-ai-powered-attacks-hackers-openai-daybreak",
+      "tech_impact": "AI ทำให้การค้นหาช่องโหว่เร็วขึ้นจนช่วงเวลาระหว่างค้นพบและโจมตีหดสั้น ผู้ป้องกันต้องใช้ AI คู่ขนานเพื่อให้ทัน",
+      "tags": [
+        "PHP2Shell",
+        "OpenAI Daybreak",
+        "GPT-5.6 Sol",
+        "Cybersecurity"
+      ],
+      "category_label": "Global",
+      "published_at": "2026-10-22T18:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Cybersecurity",
+        "LLM",
+        "Open Source"
+      ],
+      "actions_developer": [
+        "ทำระบบ patch management อัตโนมัติและตรวจ exploit attempt ใน log ย้อนหลังตั้งแต่ 17 ตุลาคม",
+        "สมัคร Daybreak หากดูแลโครงการโอเพนซอร์สสำคัญเพื่อรับเครื่องมือค้นหาช่องโหว่"
+      ],
+      "actions_business": [
+        "ยกระดับแผน incident response ให้รองรับช่องโหว่ที่ถูกโจมตีก่อนประกาศ",
+        "ประเมินงบความปลอดภัยด้านเครื่องมือ AI สำหรับฝั่งป้องกัน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b2-02",
+      "slug": "storm-0940-artex-connectwise-hack",
+      "title": "Microsoft ties Storm-0940 to ARTEX agentic-AI-driven ConnectWise hack",
+      "title_th": "Microsoft เชื่อม Storm-0940 กับการแฮก ConnectWise ที่ใช้เอเจนต์ AI เจาะระบบ ARTEX",
+      "topic": "AI Trends",
+      "topic_group": "ai-trends",
+      "source_name": "The Hacker News (via AI Weekly)",
+      "category": "International",
+      "urgency": "high",
+      "content": "Microsoft เชื่อมโยงการเจาะห่วงโซ่อุปทาน ConnectWise Cloud Backup กับกลุ่ม Storm-0940 ที่สอดคล้องกับรัฐบาลจีน ซึ่งใช้ ARTEX เฟรมเวิร์ก agentic AI สำหรับ penetration testing เขียนด้วย Go และถูกปิดซอร์สหลังเคยถูกใช้โจมตีสถาบันการเงินเกาหลีใต้ ระหว่าง 10-14 ตุลาคม ระบบพ่นรหัสผ่านใส่ 327 บัญชีของ 8 องค์กร สร้างการล็อกอินล้มเหลวกว่า 151,000 ครั้ง สูงสุด 2,900 ครั้งต่อนาที ต่อมาวันที่ 15 ตุลาคมใช้ตัวตนของแอป ConnectWise เข้าสู่สภาพแวดล้อมลูกค้า และบางกรณีได้สิทธิ์ระดับสูงบนคลาวด์ภายในไม่ถึงสามชั่วโมง Zscaler พบ ARTEX ตั้งค่าใช้ DeepSeek, GLM และ Grok ผ่านเกตเวย์ที่เข้ากันกับ OpenAI แคมเปญเริ่มตั้งแต่กันยายนกับภาคการบินและอวกาศ กลาโหม พลังงาน และเซมิคอนดักเตอร์",
+      "source_url": "https://aiweekly.co/alerts/microsoft-ties-storm-0940-to-artex-driven-connectwise-hack",
+      "tech_impact": "การโจมตีที่ใช้เอเจนต์ AI ลดเวลาเจาะระบบคลาวด์เหลือไม่ถึงสามชั่วโมง ทำให้การตรวจจับแบบเดิมที่อิงมนุษย์ไม่ทัน",
+      "tags": [
+        "Storm-0940",
+        "ARTEX",
+        "ConnectWise",
+        "Agentic AI",
+        "Security"
+      ],
+      "category_label": "AI Trends",
+      "published_at": "2026-10-22T20:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Cybersecurity",
+        "Agentic AI",
+        "Supply Chain"
+      ],
+      "actions_developer": [
+        "เปิด MFA และ conditional access ให้ทุกบัญชี และจำกัด rate ของ login ที่ล้มเหลวต่อ tenant",
+        "ตรวจ OAuth app consent และตัวตนของ third-party ที่เชื่อมกับคลาวด์ขององค์กร"
+      ],
+      "actions_business": [
+        "ตรวจสอบผู้ให้บริการ MSP/ซอฟต์แวร์ที่มีสิทธิ์เข้าถึงข้อมูลองค์กร เช่น ConnectWise",
+        "เพิ่มข้อกำหนดแจ้งเหตุละเมิดในสัญญากับผู้ให้บริการภายนอก"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b2-03",
+      "slug": "walmart-agent-gateway-mcp",
+      "title": "Walmart debuts Agent Gateway MCP server and Agent Profiles for AI shoppers",
+      "title_th": "Walmart เปิด Agent Gateway เซิร์ฟเวอร์ MCP และ Agent Profiles ให้ AI ซื้อของแทนลูกค้า",
+      "topic": "Tech Trends",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch AI (via AI Weekly)",
+      "category": "International",
+      "urgency": "medium",
+      "content": "John Furner ซีอีโอ Walmart เปิดตัว Agent Gateway ในงาน Masters of Scale Summit เมื่อ 21 ตุลาคม เป็นเซิร์ฟเวอร์ MCP ที่ให้เอเจนต์ AI ซึ่งผ่านการอนุมัติค้นหาสินค้าคงคลังและซื้อของแทนลูกค้าได้ พร้อม Agent Profiles ที่ให้เอเจนต์แต่ละตัวมีพื้นที่บัญชีของตนเอง วงเงินใช้จ่ายสูงสุด และการอนุมัติรายการซื้อทีละครั้ง เอเจนต์ไม่สามารถเข้าถึงข้อมูลการชำระเงินหรือประวัติการซื้อ และเอเจนต์ที่ไม่ปฏิบัติตามกฎจะถูกบล็อก ระบบขยายไปถึง Sam's Club และไม่ต้องเป็นสมาชิก Walmart+ แนวทางนี้ตรงข้ามกับ Amazon ที่บล็อกเอเจนต์ AI ภายนอกซื้อสินค้าอย่างจริงจัง ทำให้ Walmart วางตัวเป็นร้านค้าที่ต้อนรับ agentic commerce และอาจดึงทราฟฟิกจากผู้ช่วย AI ได้ก่อนคู่แข่ง",
+      "source_url": "https://aiweekly.co/alerts/walmart-debuts-agent-gateway-mcp-server-and-agent-profiles-for-approved-ai",
+      "tech_impact": "ผู้ค้าปลีกรายใหญ่เปิดประตูให้ AI agent ซื้อของผ่าน MCP พร้อมวงเงินและการอนุมัติ ชี้ทิศ agentic commerce ที่ต่างจากแนวปิดของ Amazon",
+      "tags": [
+        "Walmart",
+        "MCP",
+        "Agentic Commerce",
+        "Agent Gateway"
+      ],
+      "category_label": "Tech Trends",
+      "published_at": "2026-10-22T08:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Retail",
+        "MCP",
+        "Agentic Commerce"
+      ],
+      "actions_developer": [
+        "ศึกษาสเปก MCP และ agent profile ของ Walmart เพื่อออกแบบ gateway สำหรับร้านค้าของตนเอง",
+        "สร้างระบบ spending cap และ per-purchase approval สำหรับเอเจนต์ซื้อของ"
+      ],
+      "actions_business": [
+        "ประเมินว่าจะเปิดหรือบล็อกเอเจนต์ AI ภายนอกบนช่องทางขายของตนเอง",
+        "ปรับข้อมูลสินค้าให้อ่านได้ด้วยเครื่องเพื่อรองรับการค้นหาโดยเอเจนต์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b2-04",
+      "slug": "nvidia-six-partners-substrate-optics",
+      "title": "Nvidia lines up six partners for 2.5x substrate and 15x optics build",
+      "title_th": "Nvidia จับมือพาร์ตเนอร์ 6 ราย ขยายกำลังผลิตซับสเตรต 2.5 เท่า และออปติกส์ 15 เท่า",
+      "topic": "Global",
+      "topic_group": "global",
+      "source_name": "Nvidia (via AI Weekly)",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Nvidia ประกาศข้อผูกพันด้านกำลังผลิตกับพาร์ตเนอร์ซัพพลายเชน 6 ราย พร้อมจ่ายเงินล่วงหน้าเพื่อจองกำลังการผลิต IBIDEN, Samsung Electro-Mechanics และ Unimicron คาดเพิ่มกำลังผลิตซับสเตรตรวม 2.5 เท่าภายในสามปี โดย IBIDEN ได้รับเงินล่วงหน้าหลายพันล้านดอลลาร์เพื่อขยายโรงงาน Ono เป็นสามเท่าภายในไตรมาส 1 ปี 2028 ขณะที่ Amkor จะเพิ่มกำลังแพ็กเกจจิงขั้นสูงมากกว่า 300% ภายในสิ้นปี 2028 SPIL ตั้งเป้าขยายกำลังเอนจินออปติกสำหรับ co-packaged optics 15 เท่าภายในกลางปี 2027 และ KYEC ได้เงินจองกำลังผลิต 1,100 ล้านดอลลาร์สร้างโรงงานทดสอบในสหรัฐฯ เริ่มผลิตเมษายน 2027 Jensen Huang กล่าวว่าความต้องการสูงมากและกำลังผลิตคือข้อจำกัดสำคัญ",
+      "source_url": "https://aiweekly.co/alerts/nvidia-lines-up-six-partners-for-25x-substrate-15x-optics-build",
+      "tech_impact": "คอขวดของ AI ย้ายจากเวเฟอร์ไปที่ซับสเตรตและแพ็กเกจจิง Nvidia ใช้เงินล่วงหน้าล็อกกำลังผลิตก่อนคู่แข่ง",
+      "tags": [
+        "Nvidia",
+        "Substrate",
+        "Packaging",
+        "Co-packaged optics",
+        "Supply Chain"
+      ],
+      "category_label": "Global",
+      "published_at": "2026-10-22T07:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Semiconductor",
+        "AI Infrastructure",
+        "Supply Chain"
+      ],
+      "actions_developer": [
+        "วางแผนความจุ GPU ล่วงหน้าเพราะอุปทานชิป Blackwell/Rubin ยังตึงถึงปี 2027",
+        "ออกแบบ workload ให้ยืดหยุ่นต่อ accelerator หลายค่ายเพื่อรับมือการจัดสรร"
+      ],
+      "actions_business": [
+        "จองกำลังประมวลผลผ่านสัญญาระยะยาวกับ cloud provider",
+        "ติดตามเหตุการณ์ Q1 2028 ของ IBIDEN เป็นตัวชี้วัดความเสี่ยงอุปทาน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b2-05",
+      "slug": "tesla-q3-2026-ai-spend",
+      "title": "Tesla Q3 operating income drops 56% as AI R&D jumps 69%",
+      "title_th": "Tesla กำไรจากการดำเนินงานไตรมาส 3 ลด 56% ขณะที่ R&D ด้าน AI พุ่ง 69%",
+      "topic": "Global",
+      "topic_group": "global",
+      "source_name": "Electrek (via AI Weekly)",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Tesla รายงานกำไรจากการดำเนินงานไตรมาส 3 ลดลง 56% เหลือ 718 ล้านดอลลาร์ แม้รายได้ทรงตัวที่ 28,050 ล้านดอลลาร์ เพราะค่า R&D เพิ่ม 69% เป็น 2,760 ล้านดอลลาร์ จากโครงการ Super Intelligence, Optimus และ Cybercab ค่าใช้จ่ายลงทุนเพิ่มกว่าเท่าตัวเป็น 4,730 ล้านดอลลาร์ ทำให้กระแสเงินสดอิสระเหลือ 1,530 ล้านดอลลาร์ ลดจาก 3,990 ล้านดอลลาร์ EPS ที่ 0.48 ดอลลาร์ สูงกว่าคาด 0.45 ดอลลาร์ Tesla ระบุว่าแบตเตอรี่เป็นข้อจำกัดของยอดขายรถ และเลื่อน FSD แบบไม่มีผู้ควบคุมสำหรับเจ้าของรถเป็นไตรมาส 2 ปี 2027 ภายในโซน Robotaxi เท่านั้น ฝูง Robotaxi วิ่งสะสมเกือบ 2 ล้านไมล์ และสมาชิก FSD เพิ่ม 67% เป็น 1.74 ล้านราย",
+      "source_url": "https://aiweekly.co/alerts/tesla-q3-operating-income-drops-56-as-ai-spend-jumps-69",
+      "tech_impact": "Tesla แลกกำไรระยะสั้นกับการลงทุน AI และ autonomy ขณะที่กำหนดการ FSD แบบไม่มีผู้ควบคุมถูกเลื่อนไป 2027",
+      "tags": [
+        "Tesla",
+        "Robotaxi",
+        "FSD",
+        "Earnings"
+      ],
+      "category_label": "Global",
+      "published_at": "2026-10-22T08:30:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Autonomous Vehicles",
+        "Robotics",
+        "Earnings"
+      ],
+      "actions_developer": [
+        "ติดตามขอบเขต Robotaxi zone และเงื่อนไขทางเทคนิคของ unsupervised FSD",
+        "เปรียบเทียบสัดส่วนงบ compute กับฮาร์ดแวร์ในโครงการ robotics"
+      ],
+      "actions_business": [
+        "ประเมินกรอบเวลาการนำ autonomy ไปใช้เชิงพาณิชย์อย่างระมัดระวังตามกำหนดที่เลื่อน",
+        "เฝ้าดูผลกระทบของ CapEx ปีนี้เกิน 25,000 ล้านดอลลาร์ต่อกระแสเงินสด"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b2-06",
+      "slug": "micron-taoyuan-strike-ai-memory",
+      "title": "Micron Taoyuan union begins Taiwan's first semiconductor strike over AI memory profits",
+      "title_th": "สหภาพแรงงาน Micron เถาหยวนเริ่มหยุดงาน ครั้งแรกของอุตสาหกรรมชิปไต้หวัน เรียกร้องแบ่งกำไรหน่วยความจำ AI",
+      "topic": "Global",
+      "topic_group": "global",
+      "source_name": "Nikkei Asia (via AI Weekly)",
+      "category": "International",
+      "urgency": "medium",
+      "content": "พนักงาน Micron โรงงานเถาหยวน เริ่มหยุดงาน 24 ชั่วโมงตั้งแต่ 9 โมงเช้าวันที่ 22 ตุลาคม เป็นการนัดหยุดงานครั้งแรกในอุตสาหกรรมชิปของไต้หวัน หลังสมาชิก 1,994 คน ลงคะแนนเห็นชอบ 99% ข้อเรียกร้องคือโบนัสครั้งเดียวประมาณ 83 เดือนของเงินเดือนสำหรับปีงบ 2026 และส่วนแบ่ง 15% ของกำไรจากการดำเนินงานรายไตรมาสแบบถาวรตั้งแต่ปีงบ 2027 โดยปฏิเสธข้อเสนอสูงสุด 68 เดือนของบริษัท ซึ่งเทียบกับ Samsung ที่ผูกโบนัสกับ 10.5% ของกำไรฝ่ายชิป และ SK Hynix ที่ตกลง 10% ไต้หวันผลิตราว 50-60% ของ Micron รวม DRAM และ HBM สำหรับเซิร์ฟเวอร์ AI การหยุดงานยืดเยื้ออาจกระทบการส่งมอบ เนื่องจากผลผลิตปีงบ 2027 ขายล่วงหน้าแล้วมากกว่า 75%",
+      "source_url": "https://aiweekly.co/alerts/micron-taoyuan-union-begins-taiwans-first-semiconductor-strike",
+      "tech_impact": "กำไรมหาศาลจากหน่วยความจำ AI ทำให้แรงงานเรียกร้องส่วนแบ่ง และความเสี่ยงต่ออุปทาน DRAM/HBM เพิ่มขึ้น",
+      "tags": [
+        "Micron",
+        "HBM",
+        "Strike",
+        "Taiwan",
+        "Memory"
+      ],
+      "category_label": "Global",
+      "published_at": "2026-10-22T10:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Semiconductor",
+        "Memory",
+        "Labor"
+      ],
+      "actions_developer": [
+        "ติดตามความเสี่ยงอุปทาน HBM/DRAM และเตรียมแผนสำรองด้านฮาร์ดแวร์",
+        "พิจารณา optimization ที่ลดการใช้หน่วยความจำของโมเดล"
+      ],
+      "actions_business": [
+        "เจรจาสัญญาจัดซื้อเซิร์ฟเวอร์ AI โดยคำนึงถึงความเสี่ยงล่าช้า",
+        "ติดตามผลต่อราคาหน่วยความจำที่อาจปรับขึ้น"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b3-01",
+      "slug": "direct-pass-at-k-thought-pruning",
+      "title": "Direct Pass@k Optimization for Thought Pruning in test-time reasoning",
+      "title_th": "Direct Pass@k Optimization: เทคนิคตัดแต่งเส้นทางการคิดเพื่อสมดุลคุณภาพและความหลากหลายในการให้เหตุผลตอนทดสอบ",
+      "topic": "AI Trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "งานวิจัยนี้ศึกษา test-time scaling ซึ่งสร้างคำตอบจากโมเดลให้เหตุผลหลายชุดเพื่อให้มีอย่างน้อยหนึ่งชุดถูกต้อง แต่การรันทุกชุดจนจบมีต้นทุนสูง วิธีที่มีอยู่ตัดแต่งหลังจากคำนำสั้นๆ โดยแบบอิงคุณภาพเก็บส่วนที่น่าจะจบถูกต้อง ส่วนแบบอิงความหลากหลายเก็บเส้นทางคิดที่ต่างกัน ผู้เขียนมองว่าเป็นความขัดแย้งระหว่าง exploration กับ exploitation จึงเสนอวิธีเลือกกลุ่มที่เหลือเพื่อเพิ่ม pass@k สูงสุด คือโอกาสที่อย่างน้อยหนึ่งส่วนที่เก็บไว้จะไปถึงคำตอบที่ถูก เป้าหมายนี้ให้รางวัลแก่ส่วนที่แข็งแรงและลงโทษความซ้ำซ้อนโดยธรรมชาติ ผลทดสอบกับโมเดลเปิดน้ำหนักที่ให้เหตุผลแปดตัว ชนะวิธีอิงคุณภาพและอิงความหลากหลายเดิม โดยได้ผลมากที่สุดเมื่อเก็บส่วนบางชุดจำนวนปานกลาง ส่งเมื่อ 22 ตุลาคม 2026",
+      "source_url": "https://arxiv.org/abs/2610.31667",
+      "tech_impact": "ลดต้นทุน inference ของโมเดลให้เหตุผลโดยตัดเส้นทางคิดที่ซ้ำ โดยไม่ต้องแลกกับความแม่นยำ pass@k",
+      "tags": [
+        "arXiv",
+        "Test-time scaling",
+        "Reasoning",
+        "Pass@k"
+      ],
+      "category_label": "AI Trends",
+      "published_at": "2026-10-22T17:59:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Reasoning Models",
+        "Inference Efficiency",
+        "Research"
+      ],
+      "actions_developer": [
+        "ลองใช้การตัดแต่งแบบ pass@k กับ pipeline best-of-N เพื่อลดโทเค็นที่ใช้",
+        "ทดสอบกับโมเดลเปิดน้ำหนักของตนเองที่ขนาด pool ปานกลาง"
+      ],
+      "actions_business": [
+        "ประเมินต้นทุนต่อคำตอบของระบบให้เหตุผลและโอกาสประหยัดจากการตัดแต่ง",
+        "เลือกผู้ให้บริการที่รองรับเทคนิคลดต้นทุน test-time compute"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b3-02",
+      "slug": "worldtui-360m-terminal-world-model",
+      "title": "WorldTUI: a 360M model trained to pretend to be a terminal",
+      "title_th": "WorldTUI: โมเดล 360M ที่ถูกฝึกให้จำลองเป็นเทอร์มินัล",
+      "topic": "AI Trends",
+      "topic_group": "ai-trends",
+      "source_name": "Simon Willison / Independent (WorldTUI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "นักพัฒนาอิสระ Simon Edwardsson สร้าง WorldTUI โมเดลภาษาขนาดประมาณ 360M พารามิเตอร์ ที่จำลองเทอร์มินัลโดยไม่มี shell หรือไฟล์ซิสเต็มจริงอยู่เบื้องหลัง โมเดลรับการกดแป้นแล้วทำนายการเปลี่ยนแปลงหน้าจอ ถูกปรับแต่งจาก Qwen2.5-Coder-0.5B โดยลดตารางคำจาก 151,936 เหลือ 333 โทเค็น และบีบเป็น int4 ขนาดดาวน์โหลด 208 MB ฝึกด้วยเซสชันสังเคราะห์ 336,000 episode ราว 2 พันล้านโทเค็นจากโปรแกรมจริงใน Docker แล้วใช้ self-correction สามรอบ ยกคะแนน PresetBench จาก 24 เป็น 38 จาก 47 ใช้ GPU RTX 4090 ราว 75 ชั่วโมง ใน ShellBench ได้ 80 จาก 106 สูงกว่าโมเดลฐานที่ใช้ prompt 52 และ 60 ถอดรหัสแถวแบบขนานทำให้ latency ลดจาก 6.7 วินาทีเหลือ 0.87 วินาที และรันบนเบราว์เซอร์ด้วย WebGPU",
+      "source_url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "tech_impact": "โมเดลเล็กระดับร้อยล้านพารามิเตอร์ทำหน้าที่จำลองระบบปฏิบัติการได้ในเบราว์เซอร์ ชี้ศักยภาพ world model ขนาดเล็กแบบรันในเครื่อง",
+      "tags": [
+        "World model",
+        "WebGPU",
+        "Small LM",
+        "Qwen"
+      ],
+      "category_label": "AI Trends",
+      "published_at": "2026-10-21T20:00:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "World Models",
+        "Edge AI",
+        "WebGPU"
+      ],
+      "actions_developer": [
+        "ศึกษาเทคนิคตัด vocabulary และ parallel row decoding เพื่อลดขนาดและ latency",
+        "ลองแนวทาง DAgger-style self-correction กับงาน simulator อื่น"
+      ],
+      "actions_business": [
+        "สังเกตแนวโน้ม small model บน WebGPU ที่ไม่ต้องพึ่ง server ลดต้นทุนและเพิ่มความเป็นส่วนตัว",
+        "ประเมินโอกาสใช้ learned simulator ในงานเทรนนิ่งและทดสอบซอฟต์แวร์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b3-03",
+      "slug": "thursdai-oct-22-open-source-models",
+      "title": "ThursdAI Oct 22: DeepSeek V4.1-Flash, DeepInfer, Recursive Flint, Kling 4.0",
+      "title_th": "ThursdAI 22 ต.ค.: DeepSeek V4.1-Flash, DeepInfer, Recursive Flint และ Kling 4.0",
+      "topic": "AI Trends",
+      "topic_group": "ai-trends",
+      "source_name": "ThursdAI",
+      "category": "YouTube",
+      "urgency": "medium",
+      "content": "ThursdAI ประจำสัปดาห์สรุปว่า DeepSeek ปล่อยเช็กพอยต์ V4.1-Flash-1017 ใบอนุญาต MIT ที่ยก Terminal-Bench 4.0 จาก 31.2 เป็น 42.3 และเอาต์พุตสั้นลงจึงถูกลงต่องาน พร้อมโอเพนซอร์ส DeepInfer เอนจิน inference ใบอนุญาต Apache 2.0 ที่ใช้เสิร์ฟ V4.1 Flash รองรับ NVIDIA Blackwell และ Huawei Ascend 950 และมีรายงานว่า Tim Dettmers มองว่าเทียบเท่าสแต็กการผลิตของ OpenAI ด้าน Recursive Flint เป็น MoE ราว 39.8B พารามิเตอร์ที่ active 2.5B ใบอนุญาต Apache 2.0 สำหรับเขียนโค้ดในเครื่อง Mac ออกแบบโดยระบบเอเจนต์ Eureka Machine และรันเอเจนต์ขนานได้ถึง 8 ตัวด้วยความเร็วเกือบ 500 โทเค็นต่อวินาทีบน M5 Max ส่วน Kling 4.0 สร้างวิดีโอ 4K ยาว 30 วินาทีพร้อมเสียงสเตอริโอในครั้งเดียว และ FLUX 3 Max สร้างคลิป 10 วินาทีใน 12 วินาที",
+      "source_url": "https://sub.thursdai.news/p/thursdai-oct-22-ai-finds-all-the",
+      "tech_impact": "โมเดลและ inference engine โอเพนซอร์สใบอนุญาตเสรีตามทันระดับ production ของค่ายปิด ทั้งบน Blackwell และ Ascend",
+      "tags": [
+        "DeepSeek",
+        "DeepInfer",
+        "Recursive Flint",
+        "Kling 4.0",
+        "Open source"
+      ],
+      "category_label": "AI Trends",
+      "published_at": "2026-10-23T08:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Open Source",
+        "Inference",
+        "Video Generation"
+      ],
+      "actions_developer": [
+        "ทดสอบ DeepInfer กับ V4.1-Flash บนฮาร์ดแวร์ที่มี และเทียบ cost per task",
+        "ลอง Flint ในเครื่องสำหรับงานโค้ดแบบ local-first"
+      ],
+      "actions_business": [
+        "ใช้โมเดล MIT/Apache เป็นตัวเลือกลดต้นทุนและลดการพึ่งพาผู้ให้บริการ",
+        "ประเมินความเสี่ยงด้านซัพพลายเชนและข้อบังคับของโมเดลจากจีน"
+      ],
+      "youtube_channel": "https://www.youtube.com/@ThursdAI",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261023-b3-04",
+      "slug": "black-october-litellm-emudhra-breaches",
+      "title": "Black October: LiteLLM backdoor, eMudhra weak root key, Railway and OpenCode breaches",
+      "title_th": "Black October: LiteLLM ถูกฝังมัลแวร์ รากใบรับรอง eMudhra คีย์อ่อน และการละเมิดที่ Railway กับ OpenCode",
+      "topic": "Tech Trends",
+      "topic_group": "tech-trends",
+      "source_name": "ThursdAI",
+      "category": "YouTube",
+      "urgency": "high",
+      "content": "ตอน Black October ของ ThursdAI สรุปเหตุความปลอดภัยรวด LiteLLM เวอร์ชัน 1.107.0 บน PyPI ถูกฝังตัวขโมยข้อมูลรับรองที่เล็งกุญแจคลาวด์ SSH และ LLM โดยออนไลน์ราว 1 ชั่วโมง 40 นาที ผู้ใช้ควรตรึงที่ 1.106.2 และหมุนกุญแจทั้งหมด ใบรับรองรากของ eMudhra บางตัวใช้กุญแจส่วนตัวอ่อนมากจน Matthew Prince จาก Cloudflare บอกว่าเป็นเลข 4 ทำให้ Chrome, Brave, Edge และ Firefox ถอดรากนั้นออก ขณะที่ Railway พบผู้โจมตีเข้าถึงตัวแปรสภาพแวดล้อมของลูกค้า และ OpenCode Console ละเมิดทำให้กุญแจผู้ให้บริการของผู้ใช้ 1.4% รั่ว นอกจากนี้ 1Password for Agents ให้เอเจนต์ขอข้อมูลรับรองโดยผู้ใช้อนุมัติแล้วกรอกให้โดยเอเจนต์ไม่เห็นรหัสผ่าน",
+      "source_url": "https://sub.thursdai.news/p/thursdai-oct-22-ai-finds-all-the#security",
+      "tech_impact": "ห่วงโซ่อุปทานของเครื่องมือ AI/LLM เป็นเป้าโจมตีซ้ำ และกุญแจ API ที่รั่วมีมูลค่าสูง ต้องเปลี่ยนวิธีจัดการความลับ",
+      "tags": [
+        "LiteLLM",
+        "Supply chain",
+        "eMudhra",
+        "1Password"
+      ],
+      "category_label": "Tech Trends",
+      "published_at": "2026-10-23T08:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Cybersecurity",
+        "Supply Chain",
+        "DevSecOps"
+      ],
+      "actions_developer": [
+        "ตรึงเวอร์ชัน dependency (LiteLLM 1.106.2) พร้อมตรวจ hash และหมุน API key ที่อาจถูกขโมย",
+        "ย้ายความลับไป secret manager และไม่ให้เอเจนต์เห็นรหัสผ่านโดยตรง"
+      ],
+      "actions_business": [
+        "ตรวจสอบนโยบายการอัปเดตแพ็กเกจอัตโนมัติและขอ SBOM จากผู้ขาย",
+        "เตรียมขั้นตอนหมุนกุญแจเมื่อเกิดเหตุกับผู้ให้บริการ AI"
+      ],
+      "youtube_channel": "https://www.youtube.com/@ThursdAI",
+      "youtube_video": ""
+    }
+  ]
+}
