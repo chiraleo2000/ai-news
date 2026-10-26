@@ -1,0 +1,456 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T09:45:00+07:00",
+  "schema_version": "combined-1.0",
+  "stats": {
+    "total": 10,
+    "by_topic": {
+      "ai_trends": 5,
+      "tech_trends": 2,
+      "thailand": 2,
+      "global": 1
+    },
+    "by_source_category": {
+      "thai": 4,
+      "international": 2,
+      "research": 4,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 1,
+      "medium": 7,
+      "low": 2
+    },
+    "breakthrough_count": 0
+  },
+  "top_insights": [
+    {
+      "title": "'Autonomous AI' กดดันธุรกิจไทย เผชิญโจทย์ใหญ่ 'กฎหมาย–ธรรมาภิบาล'",
+      "impact_summary": "ธุรกิจไทยพร้อมด้านนโยบายแต่ขาดเครื่องมือตรวจสอบย้อนหลัง ขณะร่างกฎหมาย AI ที่เสนอความรับผิดร่วมจะทำให้ข้อผิดพลาดของ AI กลายเป็นความเสี่ยงทางกฎหมายและการเงิน",
+      "urgency": "high",
+      "article_id": "20261026-b1-04"
+    },
+    {
+      "title": "EpiSEM-Bench: วัดความปลอดภัยของ LLM agent เมื่อข้อมูลสำคัญหายไปจากผลลัพธ์ของเครื่องมือ",
+      "impact_summary": "ชี้ช่องโหว่ความปลอดภัยของ agent ที่ไม่ได้มาจากคำสั่งอันตราย แต่มาจากข้อมูลที่หายไป จึงต้องออกแบบให้ agent ถามหาหลักฐานก่อนลงมือ",
+      "urgency": "medium",
+      "article_id": "20261026-b3-02"
+    },
+    {
+      "title": "Simulated Control Evals: ใช้ LLM จำลองผลลัพธ์เครื่องมือเพื่อทำนายความปลอดภัยของระบบควบคุม AI",
+      "impact_summary": "ทำให้ประเมินความปลอดภัยของมาตรการควบคุม AI ได้ถูกลงและเร็วขึ้น โดยไม่ต้องสร้างสภาพแวดล้อมรันจริงครบทุกกรณี",
+      "urgency": "medium",
+      "article_id": "20261026-b3-03"
+    },
+    {
+      "title": "Low-Bit N-Gram Embeddings: ตาราง n-gram แบบ 4 บิตลดหน่วยความจำราว 75% โดยแทบไม่เสียประสิทธิภาพ",
+      "impact_summary": "ลดหน่วยความจำของโมเดลที่ใช้ n-gram memory ลงเกือบครึ่งถึงสามในสี่ ทำให้ self-host และรันบนฮาร์ดแวร์จำกัดได้ง่ายขึ้นโดยคุณภาพแทบไม่ลด",
+      "urgency": "medium",
+      "article_id": "20261026-b3-04"
+    },
+    {
+      "title": "Google Docs เพิ่มฟีเจอร์ Docs Live เขียนเอกสารซับซ้อนด้วยเสียงพูด 100%",
+      "impact_summary": "การสร้างเอกสารด้วยเสียงผ่านมือถือลดแรงเสียดทานในงานหลังประชุม และเพิ่มแรงกดดันให้คู่แข่งอย่าง Microsoft 365 ในตลาดผู้ช่วยเอกสาร AI",
+      "urgency": "medium",
+      "article_id": "20261026-b1-02"
+    },
+    {
+      "title": "NVIDIA เปิดตัว DSX ต้นแบบออกแบบทั้งศูนย์ข้อมูล ใช้น้ำแทบเป็นศูนย์ ลดพลังงาน 30%",
+      "impact_summary": "NVIDIA ขยับจากขายชิปและเซิร์ฟเวอร์ไปสู่พิมพ์เขียวทั้งศูนย์ข้อมูล โดยเน้นประสิทธิภาพพลังงานและน้ำ ซึ่งเป็นคอขวดสำคัญของการขยายโครงสร้างพื้นฐาน AI",
+      "urgency": "medium",
+      "article_id": "20261026-b1-01"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261026-b3-01",
+      "slug": "direct-pass-at-k-thought-pruning",
+      "title": "Direct Pass@k Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+      "title_th": "Direct Pass@k Optimization: ตัดแต่ง 'ความคิด' ของโมเดลให้สมดุลระหว่างคุณภาพและความหลากหลายตอน reasoning",
+      "topic": "AI Trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "งานวิจัยบน arXiv (cs.AI) โดย Mahdi Salmani , Adel Javanmard , Devansh Gupta และ Meisam Razaviyayn ศึกษา test-time scaling ของโมเดล reasoning ซึ่งสร้างคำตอบผู้สมัครจำนวนมากแล้วตัดแต่งทิ้งหลังดูเพียงส่วนต้นของแต่ละคำตอบ เพื่อให้ใช้การคำนวณต่อเฉพาะตัวที่เหลือ วิธีเดิมแบ่งเป็นสองกลุ่ม คือกลุ่มเน้นคุณภาพที่ให้คะแนนและทิ้งคำตอบที่น่าจะผิด กับกลุ่มเน้นความหลากหลายที่เก็บเส้นทางการให้เหตุผลต่างกันไว้ ผู้เขียนมองว่าเป็นการแลกเปลี่ยนระหว่างการสำรวจกับการใช้ประโยชน์ ซึ่งงานก่อนหน้าไม่ค่อยระบุชัด วิธีที่เสนอเลือกชุดคำตอบบางส่วนโดยตรงด้วยการ optimize ค่า pass@k คือความน่าจะเป็นที่อย่างน้อยหนึ่งคำตอบ เมื่อทำต่อจนจบ จะถูกต้อง เป้าหมายนี้ให้รางวัลคำตอบส่วนต้นที่แข็งแรงและลงโทษความซ้ำซ้อน จึงสมดุลคุณภาพกับความหลากหลายในตัวเอง",
+      "source_url": "https://arxiv.org/abs/2610.31667",
+      "tech_impact": "เป็นวิธีลดต้นทุนการอนุมานของโมเดล reasoning โดยเลือกเก็บเส้นทางความคิดที่ให้โอกาสถูกอย่างน้อยหนึ่งคำตอบสูงสุด แทนการพึ่งฮิวริสติกแยกกัน",
+      "tags": [
+        "Test-Time Scaling",
+        "Reasoning Models",
+        "Pass@k",
+        "Thought Pruning",
+        "arXiv"
+      ],
+      "category_label": "AI Trends",
+      "published_at": "2026-10-22T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Reasoning",
+        "Inference Efficiency",
+        "LLM Research"
+      ],
+      "actions_developer": [
+        "ทดลองเทียบกลยุทธ์ตัดแต่งแบบ pass@k กับ best-of-N ในงาน reasoning ที่ใช้อยู่ เพื่อวัดต้นทุนต่อคำตอบที่ถูก",
+        "ตั้งค่าจำนวนคำตอบบางส่วนที่เก็บไว้ให้อยู่ระดับปานกลาง ซึ่งงานวิจัยระบุว่าให้ผลดีที่สุด"
+      ],
+      "actions_business": [
+        "ติดตามเทคนิคลดต้นทุนอนุมานเพื่อลดค่าใช้จ่ายโมเดล reasoning ในผลิตภัณฑ์",
+        "ประเมินผลกระทบต่อ latency และงบโทเคนก่อนขยายการใช้ reasoning model"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261026-b3-02",
+      "slug": "episem-bench-agent-missing-evidence",
+      "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+      "title_th": "EpiSEM-Bench: วัดความปลอดภัยของ LLM agent เมื่อข้อมูลสำคัญหายไปจากผลลัพธ์ของเครื่องมือ",
+      "topic": "AI Trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยบน arXiv (cs.AI และ cs.LG) นำโดย Qijin Zhang รวมเจ็ดผู้เขียน ชี้ว่า agent ที่ใช้เครื่องมือตัดสินใจว่าทำการใดได้หรือไม่จากข้อเท็จจริงที่สภาพแวดล้อมส่งกลับมา หากผลลัพธ์ของเครื่องมือขาดข้อเท็จจริงด้านความปลอดภัยไป agent อาจทำสิ่งต้องห้ามได้ แม้คำขอของผู้ใช้ไม่เป็นอันตรายและทุกประโยคที่ได้รับเป็นความจริง ทีมวิจัยจึงเสนอ EpiSEM-Bench เบนช์มาร์กที่รันได้จริง มี 300 คู่งานแบบปลอดภัยและไม่ปลอดภัย ครอบคลุม 6 โดเมน โดยจงใจซ่อนข้อเท็จจริงสำคัญเพื่อวัดการทำงานที่ไม่ปลอดภัยเมื่อหลักฐานขาด และหาจำนวนข้อเท็จจริงขั้นต่ำที่ทำให้เกิดความล้มเหลว พร้อมเครื่องมือตรวจสอบอิสระว่า agent พยายามหาข้อมูลที่ขาดหรือไม่ แล้วระงับการกระทำต้องห้ามได้หรือไม่ ผลการทดสอบโมเดล 10 ตัวต่างกันมากทั้งความทนทาน การหาหลักฐาน และการเลือกกระทำ",
+      "source_url": "https://arxiv.org/abs/2610.31650",
+      "tech_impact": "ชี้ช่องโหว่ความปลอดภัยของ agent ที่ไม่ได้มาจากคำสั่งอันตราย แต่มาจากข้อมูลที่หายไป จึงต้องออกแบบให้ agent ถามหาหลักฐานก่อนลงมือ",
+      "tags": [
+        "LLM Agents",
+        "AI Safety",
+        "Benchmark",
+        "Tool Use",
+        "arXiv"
+      ],
+      "category_label": "AI Trends",
+      "published_at": "2026-10-22T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Safety",
+        "Agents",
+        "Evaluation"
+      ],
+      "actions_developer": [
+        "เพิ่มขั้นตอนให้ agent ตรวจว่าข้อเท็จจริงด้านความปลอดภัยครบก่อนทำการที่แก้ไขหรือลบข้อมูล",
+        "นำแนวคิดจับคู่งานปลอดภัย/ไม่ปลอดภัยของ EpiSEM-Bench ไปสร้างชุดทดสอบ agent ภายในทีม"
+      ],
+      "actions_business": [
+        "กำหนดนโยบายให้ agent ต้องร้องขอข้อมูลเพิ่มเมื่อหลักฐานไม่ครบ ก่อนอนุมัติการกระทำเสี่ยงสูง",
+        "รวมการทดสอบกรณีข้อมูลขาดไว้ในเกณฑ์ตรวจรับระบบ agent ก่อนใช้งานจริง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261026-b3-03",
+      "slug": "simulated-control-evals",
+      "title": "Simulated Control Evals: predicting AI-control safety with LLM-simulated tool responses",
+      "title_th": "Simulated Control Evals: ใช้ LLM จำลองผลลัพธ์เครื่องมือเพื่อทำนายความปลอดภัยของระบบควบคุม AI",
+      "topic": "AI Trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยบน arXiv โดย Jeffrey Olmo , David Zhang และ Tyler Tracy เสนอ simulated control evaluations หรือ SCEs ที่ใช้โมเดลภาษาจำลองผลลัพธ์ของเครื่องมือแทนสภาพแวดล้อมจริง การประเมินแบบ control ทดสอบว่ามาตรการป้องกันสกัดโมเดล AI ที่จงใจก่อความเสียหายได้หรือไม่ ทีมวิจัยทดสอบกับ LinuxArena ที่มีผลจริงเป็นเฉลย และเทียบกับ BashArena ผลคือที่งบตรวจสอบ 5% ในมอนิเตอร์ห้าตัว SCEs ทำนายความปลอดภัยด้วยค่า RMSE 3.6 จุดเปอร์เซ็นต์ เทียบกับ 10.1 ของ BashArena และสร้างการแจกแจงกลยุทธ์โจมตี เหตุผลผู้โจมตี และเหตุผลมอนิเตอร์ ใกล้เคียงการรันจริง โดยค่า KL divergence ต่ำกว่ากว่าสิบเท่า อธิบายความแปรปรวนระหว่างสภาพแวดล้อมได้ 78 ถึง 85% ใช้ตัวอย่างไม่ถึง 5% ของชุดงานใช้งานจริง",
+      "source_url": "https://arxiv.org/abs/2610.31593",
+      "tech_impact": "ทำให้ประเมินความปลอดภัยของมาตรการควบคุม AI ได้ถูกลงและเร็วขึ้น โดยไม่ต้องสร้างสภาพแวดล้อมรันจริงครบทุกกรณี",
+      "tags": [
+        "AI Control",
+        "Safety Evals",
+        "LinuxArena",
+        "BashArena",
+        "arXiv"
+      ],
+      "category_label": "AI Trends",
+      "published_at": "2026-10-22T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Control",
+        "Safety Evaluation",
+        "Agents"
+      ],
+      "actions_developer": [
+        "ลองจำลองผลลัพธ์เครื่องมือด้วย LLM เพื่อทดสอบมอนิเตอร์ของ agent ก่อนลงทุนสร้างสภาพแวดล้อมจริง",
+        "เทียบผลจำลองกับการรันจริงบนชุดงานย่อยเพื่อตรวจความคลาดเคลื่อนก่อนเชื่อผลสรุป"
+      ],
+      "actions_business": [
+        "ติดตามวิธีประเมินแบบ control เป็นเกณฑ์ตรวจสอบความปลอดภัยของระบบ AI agent ภายในองค์กร",
+        "ประเมินต้นทุนการทำ red-teaming ที่ลดลงเมื่อใช้การจำลอง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261026-b3-04",
+      "slug": "low-bit-ngram-embeddings",
+      "title": "Low-Bit N-Gram Embeddings for Language Models: 4-bit tables cut memory about 75%",
+      "title_th": "Low-Bit N-Gram Embeddings: ตาราง n-gram แบบ 4 บิตลดหน่วยความจำราว 75% โดยแทบไม่เสียประสิทธิภาพ",
+      "topic": "AI Trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv NLP (cs.CL)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยบน arXiv (cs.CL) โดย Stephen Chung และ Wenyu Du ระบุว่าโมเดลภาษา open-weight รุ่นใหม่จำนวนมากใช้ตาราง n-gram embedding ซึ่งกินหน่วยความจำมาก เช่น DeepSeek-V4.1-Flash จัดสรร 196 พันล้านพารามิเตอร์ให้หน่วยความจำ Engram แบบ n-gram ผู้เขียนเก็บ embedding เหล่านี้ด้วยความแม่นยำต่ำ และเทียบวิธี quantization กับการกำหนดจำนวนบิตในแต่ละตาราง ในโมเดลที่ฝึกใหม่ตระกูล nanochat , Llama และ GPT-2 ตาราง 4 บิตลดหน่วยความจำของตารางราว 75% แต่ยังรักษาการปรับปรุง validation loss ได้มากกว่า 99% หากลดบิตต่ำกว่านั้นประสิทธิภาพตกมากขึ้น แต่การ fine-tune สั้นๆ ช่วยกู้คืนส่วนใหญ่ได้ นอกจากนี้การนำหน่วยความจำที่ประหยัดได้ไปขยายตารางให้ใหญ่ขึ้นยังชนะตารางความแม่นยำเต็มเดิม โดยใช้หน่วยความจำน้อยกว่า",
+      "source_url": "https://arxiv.org/abs/2610.31646",
+      "tech_impact": "ลดหน่วยความจำของโมเดลที่ใช้ n-gram memory ลงเกือบครึ่งถึงสามในสี่ ทำให้ self-host และรันบนฮาร์ดแวร์จำกัดได้ง่ายขึ้นโดยคุณภาพแทบไม่ลด",
+      "tags": [
+        "Quantization",
+        "N-Gram Embeddings",
+        "DeepSeek",
+        "Qwen",
+        "arXiv"
+      ],
+      "category_label": "AI Trends",
+      "published_at": "2026-10-22T00:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Quantization",
+        "Efficiency",
+        "Open-weight LLM"
+      ],
+      "actions_developer": [
+        "ทดลอง quantize ตาราง n-gram embedding เป็น 4 บิต แล้ววัด perplexity และงานปลายทางกับโมเดลที่ใช้อยู่",
+        "พิจารณา fine-tune สั้นๆ เพื่อกู้ประสิทธิภาพเมื่อใช้ต่ำกว่า 4 บิต"
+      ],
+      "actions_business": [
+        "ประเมินต้นทุน GPU memory ที่ลดลงเมื่อ self-host โมเดลตระกูล DeepSeek และ Qwen",
+        "ติดตามเทคนิคบีบอัดหน่วยความจำเพื่อวางแผนงบฮาร์ดแวร์ระยะถัดไป"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261026-b2-02",
+      "slug": "grok-ai-generated-odyssey-episode-1",
+      "title": "Grok releases the first seven minutes of its AI-generated 'Odyssey'",
+      "title_th": "Grok ปล่อย 7 นาทีแรกของ 'Odyssey' ภาพยนตร์ที่สร้างด้วย AI",
+      "topic": "AI Trends",
+      "topic_group": "ai-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "low",
+      "content": "TechCrunch รายงานว่า สามเดือนหลัง Elon Musk ประกาศว่า Grok จะปล่อยภาพยนตร์ The Odyssey เวอร์ชันความยาวเต็มที่ถูกต้องตามประวัติศาสตร์ xAI ได้เผยแพร่ฟุตเทจ 7 นาที ซึ่งเรียกว่า Episode 1 ของซีรีส์ Odyssey ผลิตร่วมกับ Wonder Studios และผู้กำกับ Dev Walker บทความเทียบกับภาพยนตร์ The Odyssey ของ Christopher Nolan ที่ถ่ายทำจริงใน 6 ประเทศ ใช้นักแสดงและทีมงานหลายพันคน เข้าฉายเมื่อเดือนกรกฎาคม และเป็นตัวเต็งรางวัลออสการ์ครั้งถัดไป ผู้เขียนระบุว่าฟุตเทจของ Grok ดีกว่าที่คาด และดีกว่าวิดีโอ AI ที่ Musk โพสต์ก่อนหน้า บางช็อตดูเหมือนนักแสดงจริงในทะเลจริง แต่ข้อวิจารณ์หลักคือขาดศิลปะ แรงบันดาลใจ และมิติความเป็นมนุษย์ เสียงบรรยายยาวตามด้วยตัวละครมีเครายืนพูดบทแข็งทื่อ ทำให้รู้สึกอึดอัดไร้จังหวะ",
+      "source_url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "tech_impact": "แสดงว่าวิดีโอ AI ทำฉากสมจริงได้ในบางช็อตแล้ว แต่ยังขาดการเล่าเรื่องและจังหวะ จึงยังเป็นเครื่องมือเสริมของผู้สร้าง มากกว่าจะแทนที่งานภาพยนตร์ทั้งเรื่อง",
+      "tags": [
+        "Grok",
+        "xAI",
+        "AI Video",
+        "Generative Media",
+        "Wonder Studios"
+      ],
+      "category_label": "AI Trends",
+      "published_at": "2026-10-25",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Generative Video",
+        "Media",
+        "Creative AI"
+      ],
+      "actions_developer": [
+        "ทดสอบเวิร์กโฟลว์วิดีโอ AI สำหรับงานสั้นหรือพรีวิซ โดยกำหนดจุดตรวจคุณภาพด้านเสียงและจังหวะเล่าเรื่อง",
+        "ติดตามความสามารถของโมเดลสร้างวิดีโอยาวในการรักษาความต่อเนื่องของตัวละครและฉาก"
+      ],
+      "actions_business": [
+        "ประเมินการใช้ AI วิดีโอในงานโฆษณาและคอนเทนต์สั้นที่ความเสี่ยงต่อแบรนด์ต่ำก่อน",
+        "ตรวจนโยบายการเปิดเผยการใช้ AI และสิทธิ์ของนักแสดง/ผู้สร้างก่อนเผยแพร่งานเชิงพาณิชย์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261026-b1-02",
+      "slug": "google-docs-live-voice-documents",
+      "title": "Google Docs rolls out Docs Live for creating complex documents entirely by voice",
+      "title_th": "Google Docs เพิ่มฟีเจอร์ Docs Live เขียนเอกสารซับซ้อนด้วยเสียงพูด 100%",
+      "topic": "Tech Trends",
+      "topic_group": "tech-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Blognone รายงานว่า Google เริ่มทยอยเปิดให้ลูกค้า Google Workspace ใช้งาน Docs Live ฟีเจอร์ที่ให้สร้างเอกสารมีโครงสร้างซับซ้อนด้วยเสียงพูดล้วน หลังประกาศครั้งแรกเมื่อเดือนกันยายน วิธีใช้คือเปิดแอป Google Docs บนมือถือ กดปุ่มไมโครโฟน แล้วพูดบอกสิ่งที่ต้องการให้อยู่ในเอกสาร จากนั้นโมเดล AI จะสร้างเอกสารให้ พร้อมเพิ่มตารางหรือหัวข้อตามที่สั่ง และดึงข้อมูลจากอีเมลหรือไฟล์อื่นของผู้ใช้มาประกอบได้ Google ยกตัวอย่างการใช้งานหลังประชุม เมื่อมีไอเดียมากมาย ให้พูดออกมาแล้วให้ AI เรียบเรียงเป็นเอกสารทางการ ต่างจากการสั่ง Gemini เขียนข้อความแล้วคัดลอกไปวาง เพราะสั่งงานได้โดยตรงในแอป Docs ฟีเจอร์นี้เป็นส่วนหนึ่งของชุด Live ร่วมกับ Gmail Live และ Keep Live ผู้ที่เข้าถึงได้คือสมาชิก Workspace แบบชำระเงิน และผู้ใช้ทั่วไปบนแผน Google AI Pro ขึ้นไป",
+      "source_url": "https://www.blognone.com/node/152010",
+      "tech_impact": "การสร้างเอกสารด้วยเสียงผ่านมือถือลดแรงเสียดทานในงานหลังประชุม และเพิ่มแรงกดดันให้คู่แข่งอย่าง Microsoft 365 ในตลาดผู้ช่วยเอกสาร AI",
+      "tags": [
+        "Google Docs",
+        "Docs Live",
+        "Gemini",
+        "Workspace",
+        "Voice AI"
+      ],
+      "category_label": "Tech Trends",
+      "published_at": "2026-10-25T10:59:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Productivity",
+        "Voice AI",
+        "Workspace"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ Docs Live กับเอกสารภายใน เพื่อประเมินคุณภาพโครงสร้างตารางและหัวข้อที่ AI สร้าง",
+        "ตรวจสอบสิทธิ์การเข้าถึงอีเมลและไฟล์ที่ฟีเจอร์ดึงข้อมูลมาใช้ ให้สอดคล้องนโยบายข้อมูลขององค์กร"
+      ],
+      "actions_business": [
+        "พิจารณานำร่องกับทีมที่ประชุมบ่อยเพื่อวัดเวลาที่ประหยัดได้ในการทำรายงานสรุป",
+        "ทบทวนแผน Workspace หรือ Google AI Pro ที่ต้องใช้เพื่อเข้าถึงฟีเจอร์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261026-b1-01",
+      "slug": "nvidia-dsx-ai-factory-reference-design",
+      "title": "NVIDIA unveils DSX, a whole-data-center reference design that cuts water and power use",
+      "title_th": "NVIDIA เปิดตัว DSX ต้นแบบออกแบบทั้งศูนย์ข้อมูล ใช้น้ำแทบเป็นศูนย์ ลดพลังงาน 30%",
+      "topic": "Tech Trends",
+      "topic_group": "tech-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Blognone รายงานว่า NVIDIA เปิดตัว DSX แพลตฟอร์มใหม่ที่ออกแบบทั้งศูนย์ข้อมูล ไม่ใช่เพียงเซิร์ฟเวอร์เครื่องเดียว โดยวางคู่กับ DGX และ HGX ที่มีอยู่เดิม NVIDIA เรียกว่า full-stack AI factory reference architecture ซึ่งมีซอฟต์แวร์บริหารจัดการหลายตัว ได้แก่ DSX MaxLPS ที่จัดสรรพลังงานแบบไดนามิก ลดการใช้พลังงานได้ 30% , DSX Flex ที่ปรับโหลดงานตามสถานะโครงข่ายไฟฟ้า ทดสอบในสหราชอาณาจักรแล้วลดการดึงไฟจากโครงข่ายได้ 40% , DSX Sim สำหรับจำลองการทดสอบ การออกแบบอ้างอิงใช้ระบบระบายความร้อนด้วยของเหลวแบบวงปิด ทำให้ใช้น้ำแทบเป็นศูนย์ และประหยัดได้ 54 ล้านลิตรต่อวัน สำหรับศูนย์ข้อมูลระดับกิกะวัตต์ พันธมิตรที่ร่วมทดสอบมี Siemens , ABB , Schneider Electric , Vertiv และผู้ให้บริการอย่าง CoreWeave , Google Cloud โดยคาดว่าจะเริ่มใช้จริงพร้อมชิปรุ่น Vera Rubin",
+      "source_url": "https://www.blognone.com/node/152018",
+      "tech_impact": "NVIDIA ขยับจากขายชิปและเซิร์ฟเวอร์ไปสู่พิมพ์เขียวทั้งศูนย์ข้อมูล โดยเน้นประสิทธิภาพพลังงานและน้ำ ซึ่งเป็นคอขวดสำคัญของการขยายโครงสร้างพื้นฐาน AI",
+      "tags": [
+        "NVIDIA",
+        "DSX",
+        "Data Center",
+        "AI Factory",
+        "Vera Rubin"
+      ],
+      "category_label": "Tech Trends",
+      "published_at": "2026-10-25T19:58:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Data Center",
+        "AI Infrastructure",
+        "Energy"
+      ],
+      "actions_developer": [
+        "ศึกษา DSX Reference Design และ DSX Sim เพื่อประเมินการจำลองกำลังไฟและระบายความร้อนก่อนวางแผนคลัสเตอร์ GPU",
+        "ติดตามการรองรับ DSX Flex ในผู้ให้บริการคลาวด์ที่ใช้อยู่ เพื่อออกแบบ workload ที่ปรับตามโครงข่ายไฟได้"
+      ],
+      "actions_business": [
+        "ใช้ตัวเลขลดพลังงาน 30% และน้ำ 54 ล้านลิตรต่อวัน เป็นเกณฑ์เปรียบเทียบเวลาเลือกผู้ให้บริการศูนย์ข้อมูล",
+        "ประเมินต้นทุนไฟฟ้าและข้อจำกัดด้านน้ำในแผนลงทุนศูนย์ข้อมูล AI ระยะยาว"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261026-b1-03",
+      "slug": "llamaindex-natchapol-document-ai-rag",
+      "title": "Interview with LlamaIndex engineer Natchapol Dendamrongsap on enterprise document AI and Thai-language RAG",
+      "title_th": "คุยกับณัชพล เด่นดำรงทรัพย์ ทีม LlamaIndex เรื่อง AI กับเอกสารองค์กร และความท้าทายภาษาไทย",
+      "topic": "Thailand",
+      "topic_group": "thailand",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Blognone สัมภาษณ์คุณณัชพล เด่นดำรงทรัพย์ หนึ่งในทีมงาน LlamaIndex ผู้จบปริญญาโทจาก Stanford เกี่ยวกับการนำเอกสารภายในองค์กรไปใช้กับ LLM องค์กรจำนวนมากเก็บความรู้เฉพาะทางไว้ในไฟล์ภาพสแกนหรือ PDF ที่ AI ค้นหาได้ยาก การแปลงเอกสารเป็นข้อความที่เครื่องอ่านได้จึงสำคัญขึ้น LlamaIndex มี LlamaParse สำหรับแปลงเอกสาร และ LlamaExtract สำหรับดึงข้อมูล รองรับ PDF , Word , Excel และอ้างอิงค่าที่ดึงได้กลับไปยังหน้าต้นทาง ซึ่งสำคัญกับอุตสาหกรรมที่ต้องตรวจสอบ บริษัทอ้างว่า LlamaParse ราคาราวหนึ่งในสี่ของบริการโมเดลวิชันขนาดใหญ่ และแม่นยำกว่า API อื่นราว 5 เท่า แต่ผู้สัมภาษณ์ระบุว่าเป็นตัวเลขจากบริษัทเอง ลูกค้ามีทั้งการเงิน บัญชี ประกันและกฎหมาย เช่น KPMG เขามองว่า RAG ยังจำเป็น เพราะการใส่เอกสารทั้งหมดลงพรอมต์แพง และตรวจสอบแหล่งที่มายาก",
+      "source_url": "https://www.blognone.com/node/152012",
+      "tech_impact": "ย้ำว่า RAG และการแปลงเอกสารคุณภาพสูงยังเป็นรากฐานของ AI องค์กร และองค์กรไทยต้องสร้างชุดทดสอบภาษาไทยเองเพราะเบนช์มาร์กสาธารณะส่วนใหญ่เป็นภาษาอังกฤษ",
+      "tags": [
+        "LlamaIndex",
+        "RAG",
+        "LlamaParse",
+        "Document AI",
+        "Thai Language"
+      ],
+      "category_label": "Thailand",
+      "published_at": "2026-10-25T13:24:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "RAG",
+        "Document AI",
+        "Thai NLP"
+      ],
+      "actions_developer": [
+        "สร้างชุดทดสอบ (eval set) ภาษาไทยจากเอกสารจริงขององค์กร ก่อนเลือกเครื่องมือ parse และโมเดล",
+        "ออกแบบระบบ RAG ให้ทุกคำตอบอ้างอิงกลับไปยังหน้าเอกสารต้นทางเพื่อรองรับการตรวจสอบ"
+      ],
+      "actions_business": [
+        "จัดลำดับเอกสารสแกนและ PDF ที่มีมูลค่าสูงสำหรับแปลงเป็นข้อมูลที่ AI ค้นหาได้ก่อน",
+        "ทดสอบตัวเลขความแม่นยำและต้นทุนที่ผู้ขายอ้างด้วยข้อมูลของตนเองก่อนตัดสินใจซื้อ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261026-b1-04",
+      "slug": "sumsub-apac-ai-governance-thailand",
+      "title": "Sumsub APAC report: Thai firms lead AI governance readiness yet 69% hit autonomous-AI errors",
+      "title_th": "'Autonomous AI' กดดันธุรกิจไทย เผชิญโจทย์ใหญ่ 'กฎหมาย–ธรรมาภิบาล'",
+      "topic": "Thailand",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz AI",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "กรุงเทพธุรกิจรายงานผลสำรวจ Sumsub APAC State of Digital Trust: AI Governance Benchmark ร่วมกับ Singapore FinTech Association ที่สอบถามผู้บริหารระดับสูง 720 คนใน 9 ประเทศ ไทยได้คะแนนความพร้อมด้านธรรมาภิบาล AI 70.3 จาก 100 สูงสุดในเอเชียแปซิฟิก เหนือค่าเฉลี่ยภูมิภาคที่ 67.1 แต่ 69% ของธุรกิจไทยเคยเจอข้อผิดพลาดหรือผลลัพธ์ที่ไม่คาดคิดจาก AI อัตโนมัติ สูงสุดในภูมิภาค และ 73% ใช้ autonomous AI แบบหลายขั้นตอนที่ไม่มีมนุษย์คุมทุกขั้น แม้ 99% ของผู้บริหารไทยพร้อมรับผิดชอบผลลัพธ์ แต่มีเพียง 51% ที่มี audit trail ที่ปลอดภัย 64% ตรวจสอบเส้นทางประมวลผลได้ และ 55% มีเครื่องมืออธิบายเหตุผลของระบบ ความเชื่อมั่นในการตัดสินใจอัตโนมัติสูงกว่า 90% ในงานประจำ แต่ลดเหลือ 60% ด้านกฎหมาย และ 46% ด้านธุรกรรมการเงิน",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1257807",
+      "tech_impact": "ธุรกิจไทยพร้อมด้านนโยบายแต่ขาดเครื่องมือตรวจสอบย้อนหลัง ขณะร่างกฎหมาย AI ที่เสนอความรับผิดร่วมจะทำให้ข้อผิดพลาดของ AI กลายเป็นความเสี่ยงทางกฎหมายและการเงิน",
+      "tags": [
+        "Sumsub",
+        "AI Governance",
+        "Autonomous AI",
+        "Thailand AI Law",
+        "PDPA"
+      ],
+      "category_label": "Thailand",
+      "published_at": "2026-10-25T19:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Governance",
+        "Regulation",
+        "Autonomous Agents"
+      ],
+      "actions_developer": [
+        "เพิ่ม audit trail ที่ผูกทุกคำสั่งของ AI agent กับผู้รับผิดชอบที่เป็นมนุษย์",
+        "เพิ่มเครื่องมืออธิบายเหตุผลการตัดสินใจ (explainability) ในระบบอัตโนมัติที่เกี่ยวกับการเงินและกฎหมาย"
+      ],
+      "actions_business": [
+        "ทบทวนโครงสร้างความรับผิดภายในเทียบกับร่างกฎหมาย AI ที่เปิดรับฟังความเห็นแล้ว",
+        "กำหนดระดับความเสี่ยงของงานอัตโนมัติ และคงมนุษย์อนุมัติในงานด้านกฎหมายและธุรกรรมการเงิน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261026-b2-01",
+      "slug": "apollo-slok-ai-zero-financial-payoff",
+      "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+      "title_th": "นักเศรษฐศาสตร์ Apollo ชี้ AI ยังไม่สร้างผลตอบแทนทางการเงินให้บริษัทส่วนใหญ่นอกภาคเทคโนโลยี",
+      "topic": "Global",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "TechCrunch รายงานว่า Torsten Slok หัวหน้านักเศรษฐศาสตร์ของ Apollo Global Management สรุปว่า AI ยังไม่สร้างผลตอบแทนทางการเงินที่วัดได้ให้บริษัทใหญ่นอกภาคเทคโนโลยี เขาวิเคราะห์กลุ่มที่เรียกว่า S&P 493 คือดัชนี S&P 500 หักบริษัท Alphabet , Amazon , Apple , Meta , Microsoft , Nvidia และ Tesla ออก พบว่าอัตรากำไรและรายได้ต่อพนักงานของกลุ่มนี้แทบไม่เปลี่ยน ไม่มีสัญญาณว่า AI ช่วยยกระดับผลิตภาพ เขากล่าวว่าเทคโนโลยีนี้ไม่ได้สร้างผลตอบแทนทางการเงินให้อเมริกาเชิงธุรกิจนอกภาคเทคโนโลยีเลย Slok สงสัยว่าบริษัทนอกวงการเทคโนโลยีจะเปลี่ยนความสามารถ AI ราคาถูกให้เป็นรายได้และกำไรที่สูงขึ้นได้จริงหรือไม่ เขาเปรียบ AI เป็นเครื่องคิดเลขที่ยอดเยี่ยม แต่ธุรกิจส่วนใหญ่ขึ้นกับวิจารณญาณ AI ไม่เข้าใจเรื่องความรับผิดชอบ ความไว้วางใจ วัฒนธรรมองค์กร และการแลกเปลี่ยนทางจริยธรรม",
+      "source_url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "tech_impact": "เสียงจากฝั่งการเงินที่ตั้งคำถามกับ ROI ของ AI ในบริษัทนอกภาคเทคโนโลยี อาจกดดันให้ฝ่ายบริหารเรียกร้องหลักฐานผลตอบแทนก่อนอนุมัติงบ AI รอบใหม่",
+      "tags": [
+        "Apollo",
+        "Torsten Slok",
+        "AI ROI",
+        "S&P 493",
+        "Productivity"
+      ],
+      "category_label": "Global",
+      "published_at": "2026-10-25",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI ROI",
+        "Economics",
+        "Enterprise AI"
+      ],
+      "actions_developer": [
+        "กำหนดตัวชี้วัดธุรกิจที่วัดได้ (เวลา ต้นทุน คุณภาพ) ก่อนส่งมอบฟีเจอร์ AI ทุกโครงการ",
+        "เก็บข้อมูลก่อน-หลังนำ AI มาใช้ เพื่อพิสูจน์ผลิตภาพด้วยตัวเลขจริง"
+      ],
+      "actions_business": [
+        "ทบทวนพอร์ตโครงการ AI และตัดโครงการที่ไม่มีตัวชี้วัดผลตอบแทนชัดเจน",
+        "ผูกงบ AI รอบถัดไปกับผลลัพธ์ทางการเงินที่ตรวจสอบได้"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
