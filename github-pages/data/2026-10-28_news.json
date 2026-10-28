@@ -1,0 +1,824 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T10:00:00+07:00",
+  "schema_version": "combined-1.0",
+  "stats": {
+    "total": 21,
+    "by_topic": {
+      "ai_trends": 7,
+      "tech_trends": 5,
+      "thailand": 4,
+      "global": 5
+    },
+    "by_source_category": {
+      "thai": 4,
+      "international": 12,
+      "research": 5,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 4,
+      "medium": 12,
+      "low": 5
+    },
+    "breakthrough_count": 3
+  },
+  "top_insights": [
+    {
+      "title": "OpenAI อ้างโมเดล AI พิสูจน์หักล้างสมมติฐาน Exponential Time Hypothesis",
+      "impact_summary": "หากยืนยันได้ จะเป็นหมุดหมายสำคัญของ AI ในการวิจัยคณิตศาสตร์และทฤษฎีการคำนวณ พร้อมตั้งคำถามเรื่องการให้เครดิตงานวิจัย",
+      "urgency": "high",
+      "article_id": "20261028-b2-02"
+    },
+    {
+      "title": "XTB: Anthropic ยื่นเอกสารเตรียม IPO ใช้ตัวย่อ ANT บน Nasdaq แต่วันเปิดตัวและราคายังเป็นปริศนา",
+      "impact_summary": "IPO ของผู้พัฒนา Claude จะเป็นตัวชี้วัดสำคัญของมูลค่าและความยั่งยืนทางการเงินของธุรกิจ frontier AI",
+      "urgency": "high",
+      "article_id": "20261028-b1-03"
+    },
+    {
+      "title": "OpenAI เปิดตัว GPT-6.1 Terra โมเดลระดับกลางสำหรับ computer use ราคาครึ่งหนึ่งของ Sol",
+      "impact_summary": "โมเดลระดับกลางราคาถูกสำหรับ computer use ลดต้นทุนการทำงานอัตโนมัติผ่านเอเจนต์",
+      "urgency": "high",
+      "article_id": "20261028-b2-03"
+    },
+    {
+      "title": "การโจมตี LiteLLM สืบถึงกุญแจหลักที่หลุดบน GitHub นาน 136 วัน",
+      "impact_summary": "ความเสี่ยง supply chain ของไลบรารี AI gateway ที่ถือ API key จำนวนมากอาจกระทบหลายองค์กรพร้อมกัน",
+      "urgency": "high",
+      "article_id": "20261028-b2-10"
+    },
+    {
+      "title": "Google DeepMind เปิดตัว Genie 4 โมเดลจำลองโลกแบบเรียลไทม์ที่สร้างเสียงได้ในตัว",
+      "impact_summary": "world model ที่สร้างเสียงได้ในตัวขยายการใช้งานด้านเกม การจำลอง และการฝึกเอเจนต์ในสภาพแวดล้อมเสมือน",
+      "urgency": "medium",
+      "article_id": "20261028-b2-01"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261028-b1-01",
+      "slug": "nation-microsoft-60000-buyout-ai-capex",
+      "title": "Microsoft offers voluntary buyouts to about 60,000 staff to fund AI spending",
+      "title_th": "เนชั่นทีวี: ปลด 6 หมื่นคนสังเวยสมรภูมิ AI ไมโครซอฟท์ลดพนักงานครั้งใหญ่",
+      "topic_group": "thailand",
+      "source_name": "Nation TV",
+      "category": "Thai",
+      "category_label": "thailand",
+      "urgency": "medium",
+      "content": "เนชั่นทีวีรายงานตามข้อมูลจาก Reuters ว่าไมโครซอฟท์เสนอโครงการสมัครใจลาออกให้พนักงานราว 60,000 คน หรือมากกว่าหนึ่งในสี่ของพนักงานทั่วโลก เพื่อควบคุมต้นทุนและโยกทรัพยากรไปลงทุนด้าน AI ขนาดใหญ่ โดยบริษัทคาดว่ารายจ่ายลงทุนปี 2026 จะสูงถึง 175 พันล้านดอลลาร์ สำหรับ data center และชิปประสิทธิภาพสูง ผู้มีสิทธิ์คือพนักงานระดับ 70 ลงมาในสหรัฐฯ อังกฤษ แคนาดา และอินเดีย ในทีม Windows + Devices, Xbox, AI experiences และ Copilot ส่วนทีมการตลาด ธุรกิจเชิงพาณิชย์ และ security ไม่เข้าร่วม ไมโครซอฟท์มีพนักงานราว 223,000 คน ณ 30 มิถุนายน 2026 และก่อนหน้านี้เคยเสนอโครงการลักษณะเดียวกันกับพนักงานสหรัฐฯ ราว 7% รวมทั้งปลดราว 4,800 ตำแหน่งในเดือนกรกฎาคม สะท้อนว่าต้นทุนโครงสร้างพื้นฐาน AI กำลังกดดันการจ้างงานในบริษัทเทคโนโลยีรายใหญ่",
+      "source_url": "https://www.nationtv.tv/nation-story/story/378985375",
+      "tech_impact": "ต้นทุนโครงสร้างพื้นฐาน AI กำลังกดดันกำลังคนของบริษัทเทคโนโลยีรายใหญ่ ส่งผลต่อทิศทางผลิตภัณฑ์และการสนับสนุนลูกค้า",
+      "tags": [
+        "Microsoft",
+        "workforce",
+        "AI capex"
+      ],
+      "published_at": "2026-10-27T19:31:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "workforce",
+        "AI infrastructure",
+        "big tech"
+      ],
+      "actions_developer": [
+        "ประเมินความเสี่ยงด้านทักษะและเตรียมพัฒนาทักษะ AI agent และ data",
+        "ตรวจสอบ roadmap ของผลิตภัณฑ์ Microsoft ที่ใช้งานอยู่ เช่น Copilot และ Windows"
+      ],
+      "actions_business": [
+        "ติดตามผลกระทบต่อการสนับสนุนและ SLA ของผลิตภัณฑ์ Microsoft ที่องค์กรใช้",
+        "วางแผนกำลังคนโดยสมดุลระหว่างการลงทุน AI กับการลดต้นทุน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b1-02",
+      "slug": "siamrath-microsoft-voluntary-resignation-afp",
+      "title": "Microsoft opens voluntary resignation plan for 60,000 staff in four countries",
+      "title_th": "สยามรัฐ: ไมโครซอฟท์เปิดแผนสมัครใจลาออก พนักงาน 6 หมื่นคน 4 ประเทศ ทุ่มลงทุน AI",
+      "topic_group": "thailand",
+      "source_name": "Siamrath Online",
+      "category": "Thai",
+      "category_label": "thailand",
+      "urgency": "medium",
+      "content": "สยามรัฐรายงานข่าว AFP ว่าไมโครซอฟท์ประกาศแผนสมัครใจลาออกเมื่อวันที่ 26 ตุลาคม ครอบคลุมพนักงานราว 60,000 คน หรือประมาณ 25% ของกำลังคนใน 4 ประเทศ ได้แก่ สหรัฐฯ แคนาดา อินเดีย และอังกฤษ ผู้ที่ตอบรับจะได้สิทธิประโยชน์ใกล้เคียงค่าชดเชยปกติ โดยไม่มีเงื่อนไขอายุหรืออายุงาน แต่บางทีม เช่น data center ฝ่ายขายและการตลาดถูกยกเว้น ไมโครซอฟท์มีพนักงาน 223,000 คน ณ สิ้นเดือนมิถุนายน ลดลง 5,000 คนในรอบปี เป็นการลดครั้งแรกนับแต่ปี 2016 และลงทุน 41 พันล้านดอลลาร์ในไตรมาสเมษายน–มิถุนายนกับ data center และชิป บริษัทคาดว่าจะมีผู้ตอบรับน้อยกว่าโครงการเดือนเมษายนที่มีผู้รับราวหนึ่งในสาม ขณะที่ Amazon, Meta, Uber และ eBay ก็ปรับลดคนในปีนี้ โดยบริษัทใหญ่สี่แห่งวางแผนลงทุนเกี่ยวกับ AI รวมราว 700 พันล้านดอลลาร์",
+      "source_url": "https://siamrath.co.th/international/331500",
+      "tech_impact": "แสดงให้เห็นคลื่นการปรับโครงสร้างกำลังคนทั่วอุตสาหกรรมเทคโนโลยีควบคู่กับการลงทุน AI มูลค่าหลายแสนล้านดอลลาร์",
+      "tags": [
+        "Microsoft",
+        "layoffs",
+        "AFP"
+      ],
+      "published_at": "2026-10-27T13:20:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "workforce",
+        "AI investment",
+        "big tech"
+      ],
+      "actions_developer": [
+        "ติดตามทิศทางตลาดแรงงานด้านเทคโนโลยีและเตรียมทักษะที่ AI ทดแทนได้ยาก",
+        "เก็บ portfolio ผลงานที่แสดงผลลัพธ์เชิงธุรกิจจากการใช้ AI"
+      ],
+      "actions_business": [
+        "ทบทวนความเสี่ยงการพึ่งพาผู้ให้บริการรายเดียวด้าน cloud และ AI",
+        "เตรียมแผน reskill พนักงานรองรับ AI agent"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b1-03",
+      "slug": "xtb-anthropic-ipo-ant-nasdaq",
+      "title": "Anthropic files IPO documents with ANT ticker on Nasdaq",
+      "title_th": "XTB: Anthropic ยื่นเอกสารเตรียม IPO ใช้ตัวย่อ ANT บน Nasdaq แต่วันเปิดตัวและราคายังเป็นปริศนา",
+      "topic_group": "thailand",
+      "source_name": "XTB Thailand",
+      "category": "Thai",
+      "category_label": "thailand",
+      "urgency": "high",
+      "content": "XTB ประเทศไทยรายงานว่า Anthropic เผยแพร่เอกสาร S-1 ต่อ SEC เมื่อวันที่ 26 ตุลาคม เพื่อเตรียมเข้าจดทะเบียนใน Nasdaq Global Select Market ภายใต้ตัวย่อ ANT โดยมี Goldman Sachs และ Morgan Stanley เป็นผู้จัดจำหน่าย รายงานระบุว่ารายได้ครึ่งแรกปี 2026 อยู่ที่ 16.29 พันล้านดอลลาร์ เพิ่มจาก 1.16 พันล้านดอลลาร์ในปีก่อน ราว 14 เท่า ขาดทุนจากการดำเนินงาน 693 ล้านดอลลาร์ แต่ขาดทุนสุทธิสูงถึง 80.75 พันล้านดอลลาร์ ลูกค้ากว่า 11,900 รายจ่ายเกิน 100,000 ดอลลาร์ และภาระผูกพันขั้นต่ำในอนาคตรวม 245 พันล้านดอลลาร์ ส่วนใหญ่เป็นกำลังประมวลผล บริษัทเป็น Public Benefit Corporation ยังไม่เปิดเผยวันจดทะเบียน ช่วงราคา และมูลค่า โดย Bloomberg รายงานว่าอาจเริ่ม roadshow ราววันที่ 9 พฤศจิกายน",
+      "source_url": "https://xtb.com/th/market-analysis/news-and-research/anthropic-ipo-ant-nasdaq",
+      "tech_impact": "IPO ของผู้พัฒนา Claude จะเป็นตัวชี้วัดสำคัญของมูลค่าและความยั่งยืนทางการเงินของธุรกิจ frontier AI",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "ANT",
+        "Nasdaq"
+      ],
+      "published_at": "2026-10-27T08:19:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI business",
+        "capital markets",
+        "frontier labs"
+      ],
+      "actions_developer": [
+        "ติดตามเอกสาร S-1 เพื่อดูตัวเลขการใช้งานและแผน compute ที่อาจกระทบราคา API",
+        "ประเมินความเสี่ยงการพึ่งพาโมเดลเดียวและวางแผน multi-model"
+      ],
+      "actions_business": [
+        "ติดตามผลต่อตลาดหุ้นเทคโนโลยีและการประเมินมูลค่าบริษัท AI",
+        "ทบทวนสัญญาและงบประมาณ AI โดยเผื่อความผันผวนของราคา"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b1-04",
+      "slug": "techsauce-asocio-digital-ai-awards-2026",
+      "title": "12 Thai organizations win ASOCIO Digital & AI Awards 2026",
+      "title_th": "12 องค์กรไทยคว้ารางวัล ASOCIO Digital & AI Awards 2026",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "category_label": "thailand",
+      "urgency": "low",
+      "content": "Techsauce รายงานว่าสมาคมซอฟต์แวร์อุตสาหกรรมไทย (ATCI) แสดงความยินดีกับ 12 องค์กรไทยที่ได้รับรางวัล ASOCIO Digital & AI Awards 2026 จากเครือข่ายสมาคมไอทีเอเชีย-โอเชียเนีย ซึ่งมีสมาชิก 24 ประเทศ พิธีมอบรางวัลจัดที่จาการ์ตา อินโดนีเซีย ระหว่างการประชุม ASOCIO Digital & AI Summit 2026 วันที่ 5–7 ตุลาคม รางวัลแบ่งเป็น 12 ประเภท ได้แก่ Digital Transformation 4 รางวัล และ AI 8 รางวัล ผู้ชนะด้าน AI เช่น AI Nex ด้านความปลอดภัยไซเบอร์ สถาบันข้อมูลขนาดใหญ่ (BDI) ด้านประโยชน์สาธารณะ โรงพยาบาลสมเด็จพระยุพราชสระแก้ว ด้านสุขภาพ EASYRICE ด้านเกษตร KBTG ด้านบริการการเงิน สมาคมปัญญาประดิษฐ์แห่งประเทศไทย (AIAT) ด้านทักษะแรงงาน และ Amity Group ด้านการผลิตด้วย Agentic AI ซึ่งสะท้อนการใช้ AI จริงในภาครัฐและเอกชนไทย",
+      "source_url": "https://techsauce.co/news/asocio-digital-ai-awards-2026-thai-winners",
+      "tech_impact": "แสดงความก้าวหน้าการประยุกต์ใช้ AI จริงของไทยในหลายอุตสาหกรรมบนเวทีภูมิภาค",
+      "tags": [
+        "Thailand",
+        "ASOCIO",
+        "AI awards"
+      ],
+      "published_at": "2026-10-27T12:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Thailand AI",
+        "awards",
+        "digital transformation"
+      ],
+      "actions_developer": [
+        "ศึกษากรณีใช้งานของผู้ชนะเพื่อนำไปปรับใช้กับโครงการ AI ของตนเอง",
+        "เชื่อมต่อกับชุมชนและโปรแกรมพัฒนาทักษะ เช่น Super AI Engineer"
+      ],
+      "actions_business": [
+        "พิจารณาสมัครรางวัลหรือโปรแกรมระดับภูมิภาคเพื่อสร้างความน่าเชื่อถือ",
+        "ใช้กรณีศึกษาด้านการเกษตร สุขภาพ และการเงินเป็นต้นแบบการลงทุน AI"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b2-01",
+      "slug": "deepmind-genie-4-world-model",
+      "title": "Genie 4: A new generation of world simulation",
+      "title_th": "Google DeepMind เปิดตัว Genie 4 โมเดลจำลองโลกแบบเรียลไทม์ที่สร้างเสียงได้ในตัว",
+      "topic_group": "ai-trends",
+      "source_name": "Google DeepMind",
+      "category": "International",
+      "category_label": "ai-trends",
+      "urgency": "medium",
+      "content": "Google DeepMind เปิดตัว Genie 4 โมเดลจำลองโลก (world model) แบบ natively multimodal ที่สร้างทั้งภาพ ดนตรี เสียงแวดล้อม และบทสนทนาเชิงโต้ตอบพร้อมกันแบบเรียลไทม์ โดยระบุว่าเป็นโมเดลแรกที่สร้างเสียงในตัว Gemini Omni ช่วยยึดการจำลองให้สอดคล้องกับรูปลักษณ์และพฤติกรรมในโลกจริง ขณะที่ Gemini 3.8 Flash ทำหน้าที่เอเจนต์นำทาง วางแผนเป็นขั้นตอนและตรวจสอบความคืบหน้า ผู้ทดสอบควบคุมเหตุการณ์ด้วยภาษาธรรมชาติได้ ปัจจุบันเป็น research preview สำหรับ trusted testers และจะเปิดให้สมาชิก Google AI Ultra ผ่าน Project Genie รวมถึงพาร์ตเนอร์ early access ของ Gemini API และ AI Studio เนื้อหาทั้งหมดมี SynthID watermark บริษัทยอมรับข้อจำกัด เช่น ภาพเพี้ยนและการคงอยู่ของวัตถุในเซสชันยาว และไม่เปิดเผยตัวเลขประสิทธิภาพ",
+      "source_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "tech_impact": "world model ที่สร้างเสียงได้ในตัวขยายการใช้งานด้านเกม การจำลอง และการฝึกเอเจนต์ในสภาพแวดล้อมเสมือน",
+      "tags": [
+        "DeepMind",
+        "Genie 4",
+        "world model",
+        "Gemini"
+      ],
+      "published_at": "2026-10-27T00:00:00-07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "world models",
+        "multimodal",
+        "gaming",
+        "simulation"
+      ],
+      "actions_developer": [
+        "ติดตามการเปิดสิทธิ์ผ่าน Gemini API และ AI Studio เพื่อทดสอบการจำลองเพื่อฝึกเอเจนต์",
+        "ทดลองใช้ world model สร้าง environment สำหรับ RL หรือ prototyping เกม"
+      ],
+      "actions_business": [
+        "ประเมินโอกาสใช้การจำลองแบบโต้ตอบในการฝึกอบรมและเดโมผลิตภัณฑ์",
+        "วางนโยบายการใช้สื่อสังเคราะห์และ watermark SynthID"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b2-02",
+      "slug": "tnw-openai-disproves-eth",
+      "title": "OpenAI says its AI model has disproved the Exponential Time Hypothesis",
+      "title_th": "OpenAI อ้างโมเดล AI พิสูจน์หักล้างสมมติฐาน Exponential Time Hypothesis",
+      "topic_group": "ai-trends",
+      "source_name": "The Next Web",
+      "category": "International",
+      "category_label": "ai-trends",
+      "urgency": "high",
+      "content": "The Next Web รายงานว่า OpenAI ระบุว่าโมเดลภายในค้นพบข้อพิสูจน์ที่หักล้าง Exponential Time Hypothesis (ETH) เมื่อวันที่ 16 ตุลาคม พร้อมตรวจสอบด้วยภาษา Lean และเผยแพร่เอกสารบน GitHub ETH เกี่ยวข้องกับความยากของปัญหา Boolean satisfiability และถูกใช้พิสูจน์ความยากของปัญหาในทฤษฎีกราฟ ชีววิทยาเชิงคำนวณ และฐานข้อมูล นักวิจัย Russell Impagliazzo, Ramamohan Paturi และ Ryan Williams จะนำทีมตรวจสอบอิสระโดยไม่มี NDA และไม่รับค่าตอบแทน OpenAI ยังอ้างผลพิสูจน์ local smoothing conjecture ในทุกมิติ และการมีอยู่ของ pure Yang-Mills โดยกลุ่มของ David Gross จะเขียนผลฟิสิกส์เอง OpenAI บริจาค 5 ล้านดอลลาร์ให้ Simons Foundation ทั้งหมดเป็นข้ออ้างของบริษัทที่ยังไม่ผ่านการตรวจสอบอิสระ",
+      "source_url": "https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills",
+      "tech_impact": "หากยืนยันได้ จะเป็นหมุดหมายสำคัญของ AI ในการวิจัยคณิตศาสตร์และทฤษฎีการคำนวณ พร้อมตั้งคำถามเรื่องการให้เครดิตงานวิจัย",
+      "tags": [
+        "OpenAI",
+        "ETH",
+        "Lean",
+        "math"
+      ],
+      "published_at": "2026-10-26T22:30:00+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI for science",
+        "mathematics",
+        "theoretical CS",
+        "verification"
+      ],
+      "actions_developer": [
+        "ติดตามผลการตรวจสอบอิสระและไฟล์ Lean บน GitHub ก่อนอ้างอิงผลงาน",
+        "ศึกษาเครื่องมือ formal verification อย่าง Lean สำหรับตรวจผลลัพธ์ที่ AI สร้าง"
+      ],
+      "actions_business": [
+        "ระมัดระวังการอ้างผลวิจัยของ AI จนกว่าจะผ่านการทบทวนโดยผู้เชี่ยวชาญ",
+        "พิจารณานโยบายเครดิตและทรัพย์สินทางปัญญาสำหรับผลงานที่ AI ค้นพบ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b2-03",
+      "slug": "neuron-openai-gpt-6-1-terra",
+      "title": "OpenAI's big day brought a disproof and Terra",
+      "title_th": "OpenAI เปิดตัว GPT-6.1 Terra โมเดลระดับกลางสำหรับ computer use ราคาครึ่งหนึ่งของ Sol",
+      "topic_group": "tech-trends",
+      "source_name": "The Neuron Daily",
+      "category": "International",
+      "category_label": "tech-trends",
+      "urgency": "high",
+      "content": "The Neuron Daily รายงานว่า OpenAI เปิดตัว GPT-6.1 Terra โมเดลระดับกลางที่ออกแบบสำหรับ computer use คือมองหน้าจอ คลิก พิมพ์ และสลับแอป ตัวอย่างเช่นอ่านใบแจ้งหนี้แล้วกรอกลงโปรแกรมบัญชี ราคา 1 ดอลลาร์ต่อล้าน input token และ 5 ดอลลาร์ต่อล้าน output token ซึ่งเป็นครึ่งหนึ่งของ GPT-6.1 Sol OpenAI อ้างว่าได้คะแนน Agents' Last Exam สูงกว่ารุ่นก่อน 15 จุดด้วยต้นทุนราวหนึ่งในสาม ผลทดสอบอิสระของ NerdsChalk พบช่องว่างความเร็วเล็กกว่าที่อ้าง โดยในการกรอกฟอร์ม 15 ช่อง Terra และ Sol ถูกต้องทุกครั้ง แต่ Terra เร็วกว่า (มัธยฐาน 9.4 วินาที เทียบกับ 17.3 วินาที) โมเดลมีให้ใน ChatGPT Work หรือ Codex สำหรับแผน Plus, Pro, Enterprise และ Edu วิศวกร OpenAI รายหนึ่งมองว่าเป็นการยืดโควตามากกว่าความก้าวหน้าครั้งใหญ่",
+      "source_url": "https://www.theneurondaily.com/p/openai-s-big-day-brought-a-disproof-and-terra",
+      "tech_impact": "โมเดลระดับกลางราคาถูกสำหรับ computer use ลดต้นทุนการทำงานอัตโนมัติผ่านเอเจนต์",
+      "tags": [
+        "OpenAI",
+        "GPT-6.1 Terra",
+        "computer use"
+      ],
+      "published_at": "2026-10-27T08:00:00-07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "agents",
+        "computer use",
+        "LLM pricing"
+      ],
+      "actions_developer": [
+        "ทดสอบ Terra กับ workflow computer use จริงและเทียบความเร็ว ความถูกต้อง และต้นทุนกับ Sol",
+        "ตรวจสอบสิทธิ์และ guardrail ก่อนให้เอเจนต์ควบคุมหน้าจอ"
+      ],
+      "actions_business": [
+        "ประเมิน ROI ของการทำงานเอกสารและบัญชีอัตโนมัติด้วยเอเจนต์",
+        "เทียบราคา token ของ Terra กับโมเดลคู่แข่งก่อนตัดสินใจ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b2-04",
+      "slug": "apple-macbook-pro-m6-on-device-llm",
+      "title": "Apple introduces the new 14-inch MacBook Pro with M6",
+      "title_th": "Apple เปิดตัว MacBook Pro 14 นิ้ว ชิป M6 เน้นรัน LLM บนเครื่อง",
+      "topic_group": "tech-trends",
+      "source_name": "Apple Newsroom",
+      "category": "International",
+      "category_label": "tech-trends",
+      "urgency": "medium",
+      "content": "Apple เปิดตัว MacBook Pro 14 นิ้วชิป M6 ซึ่งมี CPU 12 คอร์ GPU 12 คอร์ที่มี Neural Accelerator ในทุกคอร์ และ Neural Engine แบบ Dual 16 คอร์ รองรับหน่วยความจำรวมสูงสุด 32GB แบนด์วิดท์ 170GB/s Apple อ้างว่าเมื่อเทียบกับ M5 กราฟิกเร็วขึ้นสูงสุด 30% งาน AI เร็วขึ้นสูงสุด 25% และ Neural Engine เร็วขึ้น 1.9 เท่า ส่วนเทียบกับ M1 งาน AI เร็วขึ้นสูงสุด 13 เท่า บริษัทชูการรัน LLM บนเครื่องโดยรักษาความเป็นส่วนตัว พร้อม macOS 27 ที่เพิ่ม Siri AI ซึ่งยังเป็นเบต้าใน 27.2 และมีขีดจำกัดการใช้งานรายวันสำหรับฟีเจอร์ฝั่งเซิร์ฟเวอร์ ราคาเริ่มต้น 1,999 ดอลลาร์ เปิดพรีออเดอร์ 28 ตุลาคม และวางจำหน่าย 6 พฤศจิกายน",
+      "source_url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+      "tech_impact": "ฮาร์ดแวร์พกพาที่เน้น on-device LLM ทำให้ AI แบบส่วนตัวและออฟไลน์ใช้งานได้จริงมากขึ้น",
+      "tags": [
+        "Apple",
+        "M6",
+        "MacBook Pro",
+        "on-device LLM"
+      ],
+      "published_at": "2026-10-27T06:00:00-07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "on-device AI",
+        "hardware",
+        "Apple Silicon"
+      ],
+      "actions_developer": [
+        "ทดสอบโมเดลโอเพนซอร์สขนาดกลางบน M6 และเทียบ throughput กับเครื่องรุ่นก่อน",
+        "เตรียมปรับแอปให้ใช้ Neural Engine และ API ของ Apple Intelligence"
+      ],
+      "actions_business": [
+        "พิจารณาเครื่อง on-device AI สำหรับงานที่มีข้อมูลละเอียดอ่อน",
+        "คำนวณต้นทุนรวมเทียบกับการเรียก API บนคลาวด์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b2-05",
+      "slug": "techcrunch-general-compute-series-a",
+      "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+      "title_th": "General Compute ระดมทุน Series A 100 ล้านดอลลาร์ ชูโครงสร้างพื้นฐาน inference ที่ไม่พึ่ง GPU",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch",
+      "category": "International",
+      "category_label": "tech-trends",
+      "urgency": "medium",
+      "content": "TechCrunch รายงานว่า General Compute เนียวคลาวด์ด้าน inference ระดมทุน Series A 100 ล้านดอลลาร์ นำโดย Blackbird Ventures และ Abstract Ventures ที่มูลค่าหลังระดมทุน 800 ล้านดอลลาร์ จาก 60 ล้านดอลลาร์ในรอบ seed เมื่อเดือนพฤษภาคม บริษัทมีข้อตกลงกับลูกค้ารายใหญ่ที่คิดเป็น ARR 100 ล้านดอลลาร์ และดีลซื้อชิปมูลค่า 400 ล้านดอลลาร์จาก SambaNova ซึ่งอธิบายว่าเป็นการจัดหาเงินกู้สำหรับชิป inference ครั้งแรก ทำงานร่วมกับ Positron และ Cerebras ตั้งเป้าติดตั้งกำลังประมวลผล 75 เมกะวัตต์ในปี 2027 และเข้าถึงไฟฟ้า 200 เมกะวัตต์ โดยเน้นชิป inference แทน GPU ใช้แหล่งไฟขนาดเล็ก เช่า data center และแปลงไซต์ขุดบิตคอยน์เดิม ขณะที่ CoreWeave ราคาหุ้นต่ำสุดรอบ 12 เดือน",
+      "source_url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+      "tech_impact": "ชิป inference ทางเลือกนอก Nvidia เริ่มได้รับเงินทุนและลูกค้ารายใหญ่ ลดการผูกขาด GPU",
+      "tags": [
+        "General Compute",
+        "neocloud",
+        "inference chips"
+      ],
+      "published_at": "2026-10-27T06:00:00-07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "inference",
+        "AI infrastructure",
+        "chips",
+        "funding"
+      ],
+      "actions_developer": [
+        "ทดสอบ inference บนฮาร์ดแวร์ทางเลือก เช่น SambaNova และ Cerebras เพื่อเทียบ latency และราคา",
+        "ออกแบบ stack ให้ย้ายผู้ให้บริการ inference ได้ง่าย"
+      ],
+      "actions_business": [
+        "เจรจาราคา inference โดยใช้ตัวเลือกนอก GPU เป็นแรงต่อรอง",
+        "ประเมินความเสี่ยงของผู้ให้บริการ neocloud ที่ยังใหม่"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b2-06",
+      "slug": "stanford-daily-cruz-v-anthropic",
+      "title": "Anthropic illegally trained Claude with Stanford professors' books",
+      "title_th": "อาจารย์ Stanford ฟ้อง Anthropic ใช้หนังสือละเมิดลิขสิทธิ์ฝึก Claude",
+      "topic_group": "global",
+      "source_name": "The Stanford Daily",
+      "category": "International",
+      "category_label": "global",
+      "urgency": "medium",
+      "content": "The Stanford Daily รายงานคดี Cruz v. Anthropic ที่อาจารย์ Tobias Wolff และ Chang-Rae Lee ยื่นฟ้องเมื่อเดือนพฤษภาคม 2026 หลังเลือกไม่เข้าร่วมข้อตกลง Bartz v. Anthropic มูลค่า 1.5 พันล้านดอลลาร์ ซึ่งจ่ายราว 3,000 ดอลลาร์ต่อผลงาน โจทก์เรียกค่าเสียหายตามกฎหมายสูงสุด 150,000 ดอลลาร์ต่อผลงาน และขอให้พิจารณาโดยคณะลูกขุน อ้างว่าผลงานของ Wolff 10 ชิ้นถูกใช้ฝึก AI โดยไม่ได้รับอนุญาต จากการดาวน์โหลดจากคลังเงา เช่น LibGen และ PiLiMi ผู้พิพากษา William Alsup เคยวินิจฉัยว่าการสะสมหนังสือละเมิดลิขสิทธิ์เป็นห้องสมุดกลางไม่ได้ แต่การฝึกด้วยหนังสือที่ได้มาโดยชอบถือเป็น fair use ปัจจุบันมีคดีละเมิดลิขสิทธิ์ต่อบริษัท AI มากกว่า 70 คดี ข้อกล่าวหาทั้งหมดยังเป็นเพียงข้อกล่าวอ้าง",
+      "source_url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+      "tech_impact": "คดีลิขสิทธิ์ข้อมูลฝึกยังเป็นความเสี่ยงต่อต้นทุนและความชอบธรรมของโมเดลชั้นนำ โดยเฉพาะช่วงที่ Anthropic เตรียม IPO",
+      "tags": [
+        "Anthropic",
+        "copyright",
+        "lawsuit"
+      ],
+      "published_at": "2026-10-27T02:46:00-07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "copyright",
+        "AI regulation",
+        "litigation"
+      ],
+      "actions_developer": [
+        "บันทึกแหล่งที่มาของข้อมูลฝึกและ fine-tune เพื่อรองรับการตรวจสอบ",
+        "เลือกชุดข้อมูลที่มีสิทธิ์ชัดเจนหรือมีใบอนุญาต"
+      ],
+      "actions_business": [
+        "ทบทวนข้อกำหนดชดเชยลิขสิทธิ์ (indemnity) ในสัญญากับผู้ให้บริการ AI",
+        "ติดตามแนวโน้มกฎหมายและข้อตกลงค่าลิขสิทธิ์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b2-07",
+      "slug": "technode-deepseek-hiring-growth",
+      "title": "DeepSeek reportedly ramps up hiring as it maps out new growth plans",
+      "title_th": "DeepSeek เร่งขยายทีมและวางแผนเติบโต ตามรายงาน TechNode",
+      "topic_group": "global",
+      "source_name": "TechNode",
+      "category": "International",
+      "category_label": "global",
+      "urgency": "low",
+      "content": "TechNode รายงานอ้างข้อมูลจาก Ifeng Tech ว่า DeepSeek กำลังขยายทีมอย่างรวดเร็วพร้อมนำเสนอแผนเติบโตต่อนักลงทุน โดยมีสำนักงานหลักที่ปักกิ่งและหางโจว เมื่อวันที่ 25 มิถุนายนบริษัทเคยประกาศแผนเพิ่มขนาดทุกแผนกอย่างน้อยเท่าตัว ล่าสุดเปิดรับ 33 ตำแหน่งครอบคลุมงานวิจัย โครงสร้างพื้นฐานการประมวลผล ผลิตภัณฑ์ และงานองค์กร รวมถึงตำแหน่งก่อสร้าง data center ที่อูลานฉับ และเมื่อเดือนกันยายนหัวหน้าทีม Harness ประกาศรับราว 150 ตำแหน่ง พร้อมระบุว่าความต้องการจ้างงานสูง unprecedented สะท้อนว่าห้องแล็บ AI ของจีนกำลังลงทุนทั้งบุคลากรและโครงสร้างพื้นฐานต่อเนื่อง ท่ามกลางการแข่งขันกับห้องแล็บสหรัฐฯ",
+      "source_url": "https://technode.com/2026/10/27/deepseek-reportedly-ramps-up-hiring-as-it-maps-out-new-growth-plans/",
+      "tech_impact": "ห้องแล็บ AI จีนยังขยายกำลังคนและ compute ต่อเนื่อง ส่งสัญญาณการแข่งขันโมเดลที่เข้มข้นขึ้น",
+      "tags": [
+        "DeepSeek",
+        "hiring",
+        "China"
+      ],
+      "published_at": "2026-10-27T00:00:00+08:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "China AI",
+        "talent",
+        "DeepSeek"
+      ],
+      "actions_developer": [
+        "ติดตามโมเดลและเครื่องมือใหม่จาก DeepSeek เพื่อประเมินการนำมาใช้",
+        "สำรวจตำแหน่งงานด้าน harness และ infra เพื่อดูทิศทางเทคโนโลยี"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงด้านภูมิรัฐศาสตร์เมื่อเลือกโมเดลจากผู้พัฒนาจีน",
+        "ใช้โมเดลโอเพนเวทเป็นทางเลือกเพื่อลดต้นทุนโดยควบคุมข้อมูลเอง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b2-08",
+      "slug": "unite-machenta-40m-seed-robots",
+      "title": "Machenta Lands $40M Seed to Teach Robots From One Demo",
+      "title_th": "Machenta ระดมทุน seed 40 ล้านดอลลาร์ สอนหุ่นยนต์จากการสาธิตครั้งเดียว",
+      "topic_group": "tech-trends",
+      "source_name": "AI Weekly",
+      "category": "International",
+      "category_label": "tech-trends",
+      "urgency": "low",
+      "content": "Unite.AI รายงานผ่าน AI Weekly ว่า Machenta สตาร์ทอัปแยกตัวจาก Imperial College London ระดมทุน seed 40 ล้านดอลลาร์ นำโดย Creandum และ Union Square Ventures เพื่อพัฒนา robot foundation model ที่เรียนรู้งานใหม่จากการสาธิตเพียงครั้งเดียว ทีมงาน 11 คนฝึกโมเดลทั้งหมดในสภาพแวดล้อมจำลอง และยังไม่มีแผนทำเชิงพาณิชย์ในตอนนี้ เงินทุนจะใช้เปิดแล็บที่ King's Cross ในลอนดอน เทคโนโลยีนี้ชี้ถึงแนวโน้มที่การฝึกหุ่นยนต์ด้วย simulation และ foundation model กำลังดึงดูดเงินทุนจำนวนมาก ขณะที่ข่าวอื่นในวันเดียวกัน เช่น Agility และ GXO ขยายการใช้หุ่นยนต์ Digit ไปอีกสองคลังสินค้าในปี 2027 ก็สะท้อนความต้องการหุ่นยนต์เชิงพาณิชย์ที่เพิ่มขึ้น",
+      "source_url": "https://www.unite.ai/machenta-raises-40m-seed-instant-robot-learning/",
+      "tech_impact": "foundation model สำหรับหุ่นยนต์ที่เรียนรู้จากตัวอย่างน้อยอาจลดต้นทุนการติดตั้งหุ่นยนต์ในอุตสาหกรรม",
+      "tags": [
+        "Machenta",
+        "robotics",
+        "seed funding"
+      ],
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "robotics",
+        "foundation models",
+        "funding"
+      ],
+      "actions_developer": [
+        "ติดตามงานวิจัย one-shot imitation learning และการฝึกด้วย simulation",
+        "ทดลอง sim-to-real บนแพลตฟอร์มหุ่นยนต์โอเพนซอร์ส"
+      ],
+      "actions_business": [
+        "ประเมินโอกาสใช้หุ่นยนต์ในคลังสินค้าเมื่อต้นทุนการตั้งค่าลดลง",
+        "ติดตามผู้เล่นใหม่ด้านหุ่นยนต์เพื่อหาพันธมิตร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b2-09",
+      "slug": "abc-au-ai-policy-questions",
+      "title": "Economic lifeline or dark force? The questions policymakers aren't grappling with on AI",
+      "title_th": "เศรษฐกิจรอดหรือพลังมืด? คำถามที่ผู้กำหนดนโยบายยังไม่ตอบเรื่อง AI",
+      "topic_group": "global",
+      "source_name": "The ABC (Australia)",
+      "category": "International",
+      "category_label": "global",
+      "urgency": "low",
+      "content": "ABC News ออสเตรเลียตีพิมพ์บทวิเคราะห์ของ Gareth Hutchens ว่าผู้กำหนดนโยบายผลักดัน AI เข้าสู่สังคมอย่างรวดเร็ว แต่ละเลยผลกระทบต่อสิ่งที่ให้ความหมายแก่ชีวิต โดยเฉพาะงานสร้างสรรค์ Jim Chalmers รัฐมนตรีคลังระบุว่ารายจ่ายลงทุนของ hyperscaler อยู่ที่ 230 พันล้านดอลลาร์ในปี 2023 และคาดว่าจะเกิน 1.1 ล้านล้านดอลลาร์ ขณะที่ออสเตรเลียมีโครงสร้างพื้นฐาน AI กว่า 150 พันล้านดอลลาร์ใน 5 ปี หรือราว 5% ของ GDP ผู้เขียนระบุว่าธนาคารกลางมองว่า AI เป็น great white hope ด้านผลิตภาพ และอาจทำให้ละเลยความกังวลสาธารณะ รวมถึงรายงานเอเจนต์ AI พยายามเข้าถึงข้อมูลรัฐบาลออสเตรเลีย การประท้วง data center และคำถามว่าคนรุ่นใหม่จะเลี้ยงชีพด้วยงานศิลปะได้หรือไม่",
+      "source_url": "https://www.abc.net.au/news/2026-10-28/economic-lifeline-or-dark-force-artificial-intelligence/107292218",
+      "tech_impact": "สะท้อนแรงกดดันด้านนโยบายและสังคมต่อการลงทุน AI ขนาดใหญ่ และความจำเป็นต้องมีกำกับดูแลเอเจนต์",
+      "tags": [
+        "ABC",
+        "policy",
+        "Australia"
+      ],
+      "published_at": "2026-10-28T05:00:00+11:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI policy",
+        "society",
+        "creative industries"
+      ],
+      "actions_developer": [
+        "ออกแบบระบบเอเจนต์ให้มีการตรวจสอบย้อนหลังและควบคุมการเข้าถึงข้อมูล",
+        "ติดตามนโยบายด้านความปลอดภัยของ AI agent ในภาครัฐ"
+      ],
+      "actions_business": [
+        "เตรียมรับมือกฎระเบียบและความกังวลสาธารณะเรื่อง data center และงานสร้างสรรค์",
+        "สื่อสารผลกระทบด้านแรงงานอย่างโปร่งใส"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b2-10",
+      "slug": "cryptobriefing-litellm-supply-chain-key",
+      "title": "LiteLLM Attack Traced to Master Key Exposed on GitHub for 136 Days",
+      "title_th": "การโจมตี LiteLLM สืบถึงกุญแจหลักที่หลุดบน GitHub นาน 136 วัน",
+      "topic_group": "tech-trends",
+      "source_name": "AI Weekly",
+      "category": "International",
+      "category_label": "tech-trends",
+      "urgency": "high",
+      "content": "รายงานผ่าน AI Weekly ระบุว่า postmortem ของ LiteLLM พบว่า master key ถูก commit ลง repository สาธารณะเมื่อวันที่ 27 พฤษภาคมและไม่เคยถูกเพิกถอน ต่อมาวันที่ 10 ตุลาคมผู้โจมตีใช้กุญแจนั้นเพื่อขอ GitHub CLI OAuth token และเผยแพร่แพ็กเกจ PyPI ที่ถูกฝังมัลแวร์ แพ็กเกจถูกดาวน์โหลดราว 49,000 ครั้งภายใน 104 นาทีก่อนถูกถอดออก เหตุการณ์นี้เน้นความเสี่ยง supply chain ในเครื่องมือ AI gateway ที่ถือคีย์ API หลายผู้ให้บริการไว้ในที่เดียว และตอกย้ำความสำคัญของการหมุนเวียนและเพิกถอนความลับทันทีเมื่อหลุด ตัวเลขทั้งหมดมาจาก postmortem ของโครงการและรายงานรอง",
+      "source_url": "https://cryptobriefing.com/litellm-supply-chain-attack-exposed-github-key/",
+      "tech_impact": "ความเสี่ยง supply chain ของไลบรารี AI gateway ที่ถือ API key จำนวนมากอาจกระทบหลายองค์กรพร้อมกัน",
+      "tags": [
+        "LiteLLM",
+        "PyPI",
+        "supply chain"
+      ],
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "security",
+        "supply chain",
+        "AI gateway"
+      ],
+      "actions_developer": [
+        "ตรวจสอบเวอร์ชัน LiteLLM ที่ติดตั้ง เพิกถอนและหมุนเวียนคีย์ที่อาจเปิดเผย",
+        "ตรึงเวอร์ชันและตรวจแฮชแพ็กเกจ PyPI พร้อมเปิด secret scanning"
+      ],
+      "actions_business": [
+        "ตรวจสอบการพึ่งพา open-source ใน stack AI และจัดทำ SBOM",
+        "กำหนดนโยบายหมุนเวียนความลับและแผนตอบสนองเหตุการณ์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b2-11",
+      "slug": "sedaily-china-star50-ai-selloff",
+      "title": "China's AI rally unravels as Unitree halves, CXMT slides 25%",
+      "title_th": "ดัชนี STAR 50 ของจีนที่รวมหุ้น AI และชิปร่วง 40% ลบมูลค่า 4.8 แสนล้านดอลลาร์",
+      "topic_group": "global",
+      "source_name": "AI Weekly",
+      "category": "International",
+      "category_label": "global",
+      "urgency": "medium",
+      "content": "Seoul Economic Daily อ้าง Reuters ผ่าน AI Weekly รายงานว่าดัชนี STAR 50 ของจีน ซึ่งรวมบริษัทชั้นนำด้าน AI และเซมิคอนดักเตอร์ ร่วงราว 40% ในเวลาไม่ถึงสี่เดือน ทำให้มูลค่าตลาดหายไปราว 480,000 ล้านดอลลาร์ หุ้น Unitree ผู้ผลิตหุ่นยนต์ลดลงราว 50% นับจากเข้าตลาดเมื่อเดือนสิงหาคม ส่วน CXMT ผู้ผลิตหน่วยความจำลดลงกว่า 25% ในเดือนที่ผ่านมา อย่างไรก็ตามดัชนียังซื้อขายที่ P/E ย้อนหลังราว 100 เท่า เทียบกับ 30 เท่าของ Nasdaq 100 สะท้อนความกังวลเรื่องการประเมินมูลค่าของกลุ่ม AI และชิปจีน ขณะที่ตลาดสหรัฐฯ ติดตามข่าว IPO ของ Anthropic และการลงทุน AI ขนาดใหญ่",
+      "source_url": "https://en.sedaily.com/international/2026/10/27/chinas-ai-rally-unravels-as-unitree-halves-cxmt-slides-25",
+      "tech_impact": "สัญญาณความเสี่ยงฟองสบู่หุ้น AI และชิปในจีน อาจกระทบห่วงโซ่อุปทานและการลงทุนภูมิภาค",
+      "tags": [
+        "China",
+        "STAR 50",
+        "semiconductors"
+      ],
+      "published_at": "2026-10-27T00:00:00+09:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "markets",
+        "semiconductors",
+        "China"
+      ],
+      "actions_developer": [
+        "ติดตามความเสี่ยงห่วงโซ่อุปทานชิปและหน่วยความจำเมื่อวางแผน infra",
+        "เตรียมแผนสำรองด้านผู้ผลิตฮาร์ดแวร์"
+      ],
+      "actions_business": [
+        "ทบทวนการประเมินมูลค่าและความเสี่ยงการลงทุนในหุ้นกลุ่ม AI",
+        "วิเคราะห์ผลต่อราคาชิปและต้นทุน data center"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b2-12",
+      "slug": "cryptobriefing-oracle-ai-world-chatgpt-codex",
+      "title": "Oracle embeds ChatGPT and Codex, opens OCI to rival chips",
+      "title_th": "Oracle ฝัง ChatGPT และ Codex ในแอปธุรกิจ พร้อมเปิด OCI รองรับชิปคู่แข่ง",
+      "topic_group": "global",
+      "source_name": "AI Weekly",
+      "category": "International",
+      "category_label": "global",
+      "urgency": "medium",
+      "content": "รายงานผ่าน AI Weekly ระบุว่าในงาน Oracle AI World ออราเคิลประกาศฝัง ChatGPT และ Codex ในแอปพลิเคชันธุรกิจและผลิตภัณฑ์ฐานข้อมูล โดยระบุภาคสุขภาพและการเงินเป็นกลุ่มลำดับต้น พร้อมประกาศว่า Oracle Cloud Infrastructure จะเพิ่มชิปหลากหลาย ได้แก่ Google TPU ชิป inference Jalapeño ของ OpenAI และระบบของ Cerebras การเคลื่อนไหวนี้สะท้อนการจับมือกันของผู้ให้บริการคลาวด์ ห้องแล็บ AI และผู้ผลิตชิป เพื่อแข่งขันด้านโครงสร้างพื้นฐาน AI ในองค์กร และเปิดทางให้ลูกค้าเลือกฮาร์ดแวร์ได้หลากหลายมากกว่าการพึ่งพา GPU รายเดียว",
+      "source_url": "https://cryptobriefing.com/oracle-magouyrk-sam-altman-ai-world/",
+      "tech_impact": "แพลตฟอร์มองค์กรเริ่มรวมโมเดลชั้นนำกับชิปหลายค่าย ลดการล็อกอินกับผู้ผลิตรายเดียว",
+      "tags": [
+        "Oracle",
+        "OpenAI",
+        "OCI"
+      ],
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "enterprise AI",
+        "cloud",
+        "chips"
+      ],
+      "actions_developer": [
+        "ศึกษา API ฝัง ChatGPT และ Codex ใน Oracle Database และ OCI",
+        "ทดสอบ workload บนชิปทางเลือกใน OCI"
+      ],
+      "actions_business": [
+        "ประเมินการใช้ AI ฝังตัวในระบบ ERP และฐานข้อมูลที่ใช้อยู่",
+        "เจรจาสัญญา cloud โดยเทียบทางเลือกด้านชิป"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b3-01",
+      "slug": "arxiv-reva-vulnerability-probing",
+      "title": "Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models",
+      "title_th": "Reva ตรวจจับช่องโหว่แบบเรียลไทม์ด้วยการ probe สถานะภายใน LLM",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv Security (cs.CR)",
+      "category": "Research",
+      "category_label": "ai-trends",
+      "urgency": "medium",
+      "content": "งานวิจัย Reva โดย Amine Lbath และ Massih-Reza Amini เสนอวิธีตรวจจับช่องโหว่ในโค้ดแบบเรียลไทม์ โดยบีบบริบทแบบที่เอเจนต์ตรวจจับใช้ลงใน forward pass เดียวของ LLM แต่ละฟังก์ชันได้รับ threat model ของโมดูล ผลการวิเคราะห์สถิตแบบเบา และข้อมูล call graph จากนั้น probe ที่ฝึกแล้วอ่านสถานะภายในของโมเดล บนชุดทดสอบ PrimeVul ด้วย GLM-5.3-Flash ได้ความแม่นยำ 60.0% ใช้เวลาราว 1 วินาทีต่อฟังก์ชัน เทียบกับ VulTriage ซึ่งเป็นเอเจนต์ระดับ state-of-the-art ที่ได้ 59.2% แต่ Reva เร็วกว่า 250 เท่าและต้นทุนต่ำกว่าสิบเท่า และ probe ดีกว่าคำตัดสินตรงของ LLM 14–17% สะท้อนว่าสถานะภายในของ LLM เข้ารหัสความรู้ที่เอเจนต์ต้องใช้หลายขั้นตอน",
+      "source_url": "https://arxiv.org/abs/2610.35829",
+      "tech_impact": "ช่วยคัดกรองโค้ดที่ AI เขียนเร็วเกินกว่ามนุษย์จะรีวิวทัน ด้วยต้นทุนและเวลาต่ำมาก",
+      "tags": [
+        "arXiv",
+        "vulnerability detection",
+        "probing"
+      ],
+      "published_at": "2026-10-26T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI security",
+        "code analysis",
+        "interpretability"
+      ],
+      "actions_developer": [
+        "ทดลอง probing สถานะภายในของโมเดลเปิดสำหรับงานคัดกรองช่องโหว่ใน CI",
+        "เปรียบเทียบความแม่นยำกับเครื่องมือ SAST ที่ใช้อยู่"
+      ],
+      "actions_business": [
+        "พิจารณาเพิ่มชั้นตรวจจับช่องโหว่แบบเรียลไทม์ในกระบวนการ AI coding",
+        "ประเมินต้นทุนเทียบการให้เอเจนต์ตรวจละเอียด"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b3-02",
+      "slug": "arxiv-dspark-diffusion-llm",
+      "title": "Learning When to Commit: Schedule Distillation for Fast Diffusion Language Models",
+      "title_th": "dSpark: กลั่นตารางการ commit โทเคนให้ diffusion LLM ถอดรหัสเร็วขึ้นสูงสุด 10 เท่า",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv NLP (cs.CL)",
+      "category": "Research",
+      "category_label": "ai-trends",
+      "urgency": "medium",
+      "content": "งานวิจัยของ Aidar Myrzakhan และ Zhiqiang Shen เสนอ dSpark กรอบ schedule distillation ที่สอนให้ diffusion LLM รู้ว่าเมื่อใดควร commit โทเคน Diffusion LLM สร้างหลายโทเคนพร้อมกันแต่ต้องใช้หลายรอบถอดรหัสจึงเสร็จ dSpark เลือกโทเคนที่การเปิดเผยแล้วทำให้ตำแหน่งอื่นทำนายง่ายขึ้น แล้วกลั่นตารางการ unmask เข้าสู่โมเดล โดยใช้ KL-divergence regularizer เพื่อรักษาคุณภาพผลลัพธ์ ทดสอบกับโจทย์คณิตศาสตร์และการเขียนโค้ด ผลลัพธ์เร็วขึ้น 10.12 เท่าบน GSM8K กับ LLaDA-8B-Instruct และ 5.12 เท่ากับ Dream-7B-Instruct โดยรายงานว่าประสิทธิภาพงานยังคงเดิม เหมาะกับการลดต้นทุน inference ของโมเดลแบบ diffusion",
+      "source_url": "https://arxiv.org/abs/2610.35804",
+      "tech_impact": "ถ้าผลทำซ้ำได้ จะทำให้ diffusion LLM เป็นทางเลือกที่เร็วกว่า autoregressive LLM ในบางงาน",
+      "tags": [
+        "arXiv",
+        "diffusion LLM",
+        "dSpark"
+      ],
+      "published_at": "2026-10-26T00:00:00+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "diffusion LLM",
+        "inference efficiency",
+        "NLP"
+      ],
+      "actions_developer": [
+        "ทดลองรันโค้ดและตรวจผลซ้ำบน LLaDA และ Dream ก่อนนำมาใช้",
+        "เปรียบเทียบ latency กับโมเดล autoregressive ขนาดใกล้เคียง"
+      ],
+      "actions_business": [
+        "ติดตามพัฒนาการ diffusion LLM เพื่อลดต้นทุน inference ในอนาคต",
+        "อย่าเพิ่งตัดสินใจลงทุนจนกว่าจะมีผลทำซ้ำอิสระ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b3-03",
+      "slug": "hf-baidu-unlimited-ocr-2",
+      "title": "Baidu Unlimited OCR 2: 3B model for hundred-page document parsing",
+      "title_th": "Baidu เปิดซอร์ส Unlimited OCR 2 โมเดล 3B อ่านเอกสารหลายร้อยหน้าในคำขอเดียว",
+      "topic_group": "ai-trends",
+      "source_name": "AlphaSignal",
+      "category": "Research",
+      "category_label": "ai-trends",
+      "urgency": "medium",
+      "content": "Baidu เผยแพร่ Unlimited OCR 2 โมเดล image-text-to-text ขนาด 3B พารามิเตอร์ ไลเซนส์ MIT น้ำหนัก BF16 สำหรับแยกวิเคราะห์เอกสารหลายร้อยหน้าในคำขอเดียว โดยใช้ Sparse Reference Sliding Window Attention (SR-SWA) ที่เก็บชุดอ้างอิงขนาดคงที่ เช่น 512 โทเคน ทำให้ต้นทุนการถอดรหัสและหน่วยความจำคงที่เกือบเท่าเดิมเมื่อเอกสารยาวขึ้น ผู้เขียนรายงานคะแนน 84.59 บน MPDocBench เทียบกับ 78.30 ของ Qwen3.8-Max และ 77.06 บน MarathonDocBench ซึ่งเป็นเบนช์มาร์กระดับร้อยหน้า รองรับ Transformers SGLang และ vLLM แต่ผู้เขียนยอมรับว่า sparse attention อาจเสียโครงสร้างเชิงโลก และหน้าต่างหน้าเล็กทำให้การรวมข้ามหน้าแย่ลง ตัวเลขทั้งหมดเป็นของผู้พัฒนา",
+      "source_url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+      "tech_impact": "OCR แบบเปิดที่รับเอกสารยาวมากช่วยลดต้นทุนระบบ document intelligence สำหรับองค์กร",
+      "tags": [
+        "Baidu",
+        "OCR",
+        "open source",
+        "MIT license"
+      ],
+      "published_at": "2026-10-27T00:00:00+08:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "OCR",
+        "document AI",
+        "open-source models"
+      ],
+      "actions_developer": [
+        "ทดสอบโมเดลกับเอกสารภาษาไทยและเอกสารยาวจริงผ่าน vLLM หรือ SGLang",
+        "ตรวจผลบนเอกสารที่มีตารางซับซ้อนซึ่งต้องรวมข้อมูลข้ามหน้า"
+      ],
+      "actions_business": [
+        "ประเมินแทนบริการ OCR เชิงพาณิชย์เพื่อลดค่าใช้จ่ายและรักษาข้อมูลภายใน",
+        "ตรวจสอบเงื่อนไขไลเซนส์ MIT ก่อนใช้งานเชิงพาณิชย์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b3-04",
+      "slug": "tracebit-deception-attacking-agents",
+      "title": "Tracebit: deception can divert attacking AI agents in controlled AWS tests",
+      "title_th": "Tracebit: เทคนิคหลอกลวงช่วยเบี่ยงเบนเอเจนต์โจมตีในการทดสอบ AWS",
+      "topic_group": "ai-trends",
+      "source_name": "AI Weekly",
+      "category": "Research",
+      "category_label": "ai-trends",
+      "urgency": "medium",
+      "content": "Tracebit รายงานผลการประเมิน 773 ครั้งกับโมเดล 7 ตัวในสภาพแวดล้อม AWS ที่ควบคุม โดยแต่ละรอบรันสองชั่วโมง ในเงื่อนไขรวมที่ใช้ deception ทั้งหมด เอเจนต์โจมตีบรรลุเป้าหมายเพียง 13 จาก 70 รอบ เทียบกับ 70 จาก 71 รอบในเงื่อนไขพื้นฐาน และค่าใช้จ่ายโมเดลต่อเป้าหมายที่สำเร็จเพิ่มขึ้นราว 23 เท่าจากโมเดล 6 ตัวที่มีข้อมูลต้นทุนครบ โดยตัวส่วนรวมรอบที่ล้มเหลวและไม่รวมค่าโครงสร้างพื้นฐาน AWS ผลทดสอบเป็นของผู้ขาย ใช้สภาพแวดล้อมเดียว และราว 10 รอบต่อโมเดลและเงื่อนไข จึงควรตีความอย่างระมัดระวัง แต่ชี้ว่าการวางกับดัก (canary) สามารถเพิ่มต้นทุนของผู้โจมตีที่เป็น AI ได้",
+      "source_url": "https://agentic.tracebit.com/factory/",
+      "tech_impact": "แนวป้องกันแบบ deception อาจเป็นเครื่องมือสำคัญรับมือการโจมตีที่ขับเคลื่อนด้วย AI agent",
+      "tags": [
+        "Tracebit",
+        "deception",
+        "AI security"
+      ],
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "cybersecurity",
+        "AI agents",
+        "deception"
+      ],
+      "actions_developer": [
+        "ทดลองวาง canary token และข้อมูลหลอกในสภาพแวดล้อมคลาวด์ของทีม",
+        "ทดสอบ red-team ด้วยเอเจนต์ของตนเองเพื่อวัดผล"
+      ],
+      "actions_business": [
+        "พิจารณาเพิ่มเครื่องมือ deception ในกลยุทธ์ความปลอดภัยไซเบอร์",
+        "ประเมินผลโดยตระหนักว่าผลมาจากผู้ขายและตัวอย่างน้อย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261028-b3-05",
+      "slug": "arxiv-aggregate-labeling-hidden-failures",
+      "title": "Aggregate labeling scores can conceal failures that change business conclusions",
+      "title_th": "คะแนนรวมของการติดป้ายด้วย LLM อาจซ่อนความล้มเหลวที่เปลี่ยนข้อสรุปทางธุรกิจ",
+      "topic_group": "ai-trends",
+      "source_name": "AI Weekly",
+      "category": "Research",
+      "category_label": "ai-trends",
+      "urgency": "low",
+      "content": "พรีปรินต์ arXiv ลงวันที่ 26 ตุลาคม โดย Elena Senger และคณะ ซึ่งระบุว่ารับเข้า EMNLP Findings 2026 ศึกษาการติดป้ายข้อมูลแบบอิงกฎด้วย LLM บน 4 ชุดข้อมูลและ 5 โมเดล พบว่าคะแนนรวมสูงอาจอยู่ร่วมกับประสิทธิภาพที่ต่ำในป้ายรายตัว ผลที่ไม่เสถียรระหว่างการรัน และการถ่ายโอนที่อ่อนระหว่างข้อความวิชาการกับข่าว การปรับปรุงบางแบบเพิ่มคะแนนรวมแต่ทำให้ป้ายกลุ่มน้อยแย่ลง ซึ่งอาจเปลี่ยนข้อสรุปเชิงธุรกิจจากข้อมูลที่ติดป้าย ผู้ตรวจรายงานว่า repository โค้ดที่ลิงก์ไว้ยังว่างเปล่า จึงยังตรวจสอบซ้ำไม่ได้ นัยสำคัญคือควรรายงานผลรายป้ายและความแปรปรวน ไม่ใช่เพียงคะแนนเฉลี่ย",
+      "source_url": "https://arxiv.org/abs/2610.35179",
+      "tech_impact": "เตือนให้ประเมินระบบ LLM labeling รายป้ายและความเสถียร ไม่ใช้เพียงคะแนนรวม",
+      "tags": [
+        "arXiv",
+        "evaluation",
+        "labeling"
+      ],
+      "published_at": "2026-10-26T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM evaluation",
+        "data labeling",
+        "NLP"
+      ],
+      "actions_developer": [
+        "รายงาน per-label metrics และความแปรปรวนข้ามการรัน",
+        "สุ่มตรวจป้ายกลุ่มน้อยก่อนใช้ข้อมูลที่ LLM ติดป้ายในการวิเคราะห์"
+      ],
+      "actions_business": [
+        "ตรวจสอบรายงานวิเคราะห์ข้อมูลที่ใช้ LLM ติดป้ายอัตโนมัติ",
+        "กำหนดเกณฑ์คุณภาพรายกลุ่มก่อนตัดสินใจเชิงธุรกิจ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
