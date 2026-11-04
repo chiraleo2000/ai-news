@@ -1,0 +1,785 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T09:50:00+07:00",
+  "schema_version": "combined-1.0",
+  "stats": {
+    "total": 19,
+    "by_topic": {
+      "ai_trends": 5,
+      "tech_trends": 3,
+      "thailand": 4,
+      "global": 7
+    },
+    "by_source_category": {
+      "thai": 4,
+      "international": 12,
+      "research": 3,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 4,
+      "medium": 12,
+      "low": 3
+    },
+    "breakthrough_count": 2
+  },
+  "top_insights": [
+    {
+      "title": "Revolut ลดต้นทุน AI เขียนโค้ดราว 90% ด้วยการโฮสต์โมเดล GLM เอง แทนการพึ่ง Claude",
+      "impact_summary": "กรณีศึกษาชี้ว่าโมเดล open-weight ขนาดใหญ่ที่โฮสต์เองอาจลดต้นทุนงานโค้ดได้มาก ซึ่งกดดันราคาของผู้ให้บริการโมเดลปิด แต่ตัวเลขเป็นการรายงานเองจากการบรรยายครั้งเดียว",
+      "urgency": "high",
+      "article_id": "20261104-b2-01"
+    },
+    {
+      "title": "Apple เปิด Siri AI ให้นักพัฒนาทุกคนผ่าน App Intents ในเบต้า 27.3",
+      "impact_summary": "นักพัฒนา iOS สามารถเริ่มเตรียมแอปให้ทำงานกับ Siri AI ได้แล้ว ซึ่งอาจเปลี่ยนช่องทางเข้าถึงผู้ใช้ แต่ฟีเจอร์ยังไม่รองรับ EU และมีแผนคิดค่าบริการในอนาคต",
+      "urgency": "high",
+      "article_id": "20261104-b2-03"
+    },
+    {
+      "title": "Nvidia ตามรายงานสั่งคลาวด์เอเชียให้มีลูกค้าที่ไม่ใช่จีนอย่างน้อย 51% ไม่เช่นนั้นเสี่ยงเสียชิป",
+      "impact_summary": "นโยบายควบคุมปลายทางของชิป AI เข้มขึ้นถึงระดับสัญญาและการตรวจสอบหน้างาน ซึ่งอาจกระทบการจัดสรร GPU ของผู้ให้บริการคลาวด์ในเอเชีย แต่ข่าวยังไม่ได้รับการยืนยันจาก Nvidia",
+      "urgency": "high",
+      "article_id": "20261104-b2-08"
+    },
+    {
+      "title": "หนี้ AI นอกงบดุลของยักษ์เทคสหรัฐ 5 ราย พุ่ง 90% เป็น 3.2 ล้านล้านดอลลาร์ใน 6 เดือน",
+      "impact_summary": "ภาระผูกพัน AI นอกงบดุลที่สูงราว 80% ของสินทรัพย์ทำให้ความเสี่ยงทางการเงินของการสร้างโครงสร้างพื้นฐาน AI กลายเป็นประเด็นตลาดทุน ซึ่งอาจส่งผลต่อราคาและเงื่อนไขบริการคลาวด์",
+      "urgency": "high",
+      "article_id": "20261104-b2-09"
+    },
+    {
+      "title": "Anthropic เปิดตัว FlashProve ระบบ zkSNARK โอเพนซอร์สพิสูจน์ว่าคำตอบมาจากโมเดลที่ระบุจริง",
+      "impact_summary": "เป็นก้าวแรกสู่การพิสูจน์ได้ว่าบริการ AI ใช้โมเดลที่อ้างจริง ซึ่งสำคัญต่อความน่าเชื่อถือและการตรวจสอบ แต่ต้นทุนสูงและข้อจำกัดยังมากสำหรับการใช้งานจริง",
+      "urgency": "medium",
+      "article_id": "20261104-b2-12"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261104-b1-01",
+      "slug": "ncsa-quantum-security-framework-2026-2035",
+      "title": "Thailand's NCSA opens draft national quantum security framework 2026-2035 for public comment",
+      "title_th": "สกมช. เปิดรับฟังความเห็นร่างกรอบความมั่นคงปลอดภัยควอนตัม 2569-2578 รับมือภัย Y2Q",
+      "topic": "thailand",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz AI",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "สำนักงานคณะกรรมการการรักษาความมั่นคงปลอดภัยไซเบอร์แห่งชาติ (สกมช.) เปิดรับฟังความคิดเห็นร่างกรอบความมั่นคงปลอดภัยควอนตัมแห่งชาติ 2569-2578 เพื่อเตรียมประเทศก่อนคอมพิวเตอร์ควอนตัมสามารถถอดรหัสที่ใช้อยู่ในปัจจุบัน เช่น RSA, Diffie-Hellman และ ECC ซึ่งเป็นพื้นฐานของอินเทอร์เน็ต ธนาคาร และธุรกรรมออนไลน์ ร่างกรอบเสนอให้ย้ายไปใช้ Post-Quantum Cryptography (PQC) ผ่านการอัปเกรดซอฟต์แวร์แบบค่อยเป็นค่อยไป แผน 10 ปีแบ่งเป็น 4 ระยะ ได้แก่ ระยะ 0 ปี 2569 ตั้งกลไกและประเมินความพร้อม ระยะ 1 ปี 2569-2570 สำรวจสินทรัพย์การเข้ารหัสและความเสี่ยง ระยะ 2 ปี 2570-2573 ทดลองระบบไฮบริด และระยะ 3 ปี 2573-2578 ใช้ PQC เต็มรูปแบบกับระบบสำคัญ พร้อมตั้ง Quanta Center เป็นศูนย์กลางความรู้ ทดสอบ และอบรมบุคลากร เจ้าหน้าที่เรียกความท้าทายนี้ว่า Y2Q ซึ่งอาจกว้างกว่าปัญหา Y2K และเกี่ยวข้องกับความเชื่อมั่นของนักลงทุน",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1259100",
+      "tech_impact": "ไทยเริ่มวางแผน 10 ปีเพื่อย้ายระบบเข้ารหัสไปสู่ PQC ซึ่งกระทบทุกองค์กรที่พึ่งพา RSA/ECC โดยเฉพาะภาคการเงินและโครงสร้างพื้นฐานสำคัญ แต่ร่างยังเป็นการรับฟังความเห็นและไม่ระบุงบประมาณ",
+      "tags": [
+        "Thailand",
+        "Quantum",
+        "PQC",
+        "NCSA",
+        "Cybersecurity"
+      ],
+      "category_label": "thailand",
+      "published_at": "2026-11-03T18:18:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Cybersecurity",
+        "Quantum",
+        "Policy"
+      ],
+      "actions_developer": [
+        "จัดทำ inventory ของอัลกอริทึมเข้ารหัสและไลบรารีที่ใช้ในระบบ เพื่อเตรียมย้ายไป PQC",
+        "ออกแบบระบบให้ crypto-agile สลับอัลกอริทึมได้โดยไม่ต้องรื้อสถาปัตยกรรม"
+      ],
+      "actions_business": [
+        "ส่งความเห็นต่อร่างกรอบและประเมินความเสี่ยงข้อมูลที่ต้องเก็บรักษานาน",
+        "บรรจุแผนย้ายสู่ PQC ในงบและแผนความมั่นคงไซเบอร์ปี 2570"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b1-02",
+      "slug": "ndca-digital-gdp-5-6-trillion-2026",
+      "title": "NDCA expects Thailand's Digital GDP to reach 5.6 trillion baht, growing 6.7% in 2027",
+      "title_th": "สดช. คาด Digital GDP ไทยทะลุ 5.6 ล้านล้านบาท ปี 2570 โตต่อเนื่อง 6.7% รับส่งออก AI และดาต้าเซ็นเตอร์",
+      "topic": "thailand",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz AI",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "สำนักงานสภาพัฒนาดิจิทัลเพื่อเศรษฐกิจและสังคมแห่งชาติ (สดช.) ประเมินว่า Digital GDP ของไทยตามนิยามกว้างปี 2569 จะขยายตัว 6.2% มูลค่าราว 5.6 ล้านล้านบาท เพิ่มจาก 5.4% ในปี 2568 และสูงกว่าเศรษฐกิจโดยรวมที่ สศช. คาดโต 2.3% ราว 2.7 เท่า ส่วนปี 2570 คาดโตต่อเนื่อง 6.7% แรงขับเคลื่อนหลักมาจากการส่งออกสินค้าดิจิทัล โดยเฉพาะอุปกรณ์อิเล็กทรอนิกส์และชิ้นส่วนที่เกี่ยวกับ AI การลงทุนโครงสร้างพื้นฐาน เช่น ดาต้าเซ็นเตอร์และคลาวด์ และอุปสงค์เทคโนโลยีโลก แยกตามอุตสาหกรรม ฮาร์ดแวร์โต 10.6% ในปี 2569 และ 7.0% ในปี 2570 ส่วนบริการดิจิทัลโต 4.8% และ 7.0% อย่างไรก็ตาม รายงานเตือนว่าการพึ่งพาการนำเข้าสินค้าและชิ้นส่วนดิจิทัลสูงจำกัดมูลค่าเพิ่มในประเทศ จึงต้องเพิ่มสัดส่วนมูลค่าเพิ่มและให้ธุรกิจไทยได้ประโยชน์จากการลงทุน",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1259050",
+      "tech_impact": "เศรษฐกิจดิจิทัลไทยโตเร็วกว่าเศรษฐกิจรวมราว 2.7 เท่า โดยมี AI และดาต้าเซ็นเตอร์เป็นตัวขับ แต่การพึ่งพาชิ้นส่วนนำเข้าทำให้มูลค่าเพิ่มในประเทศยังจำกัด",
+      "tags": [
+        "Thailand",
+        "Digital GDP",
+        "NDCA",
+        "Data Center"
+      ],
+      "category_label": "thailand",
+      "published_at": "2026-11-03T12:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Digital Economy",
+        "Data Center",
+        "Policy"
+      ],
+      "actions_developer": [
+        "พิจารณาโอกาสสร้างซอฟต์แวร์และบริการดิจิทัลที่เพิ่มมูลค่าในประเทศแทนการพึ่งฮาร์ดแวร์นำเข้า",
+        "ติดตามข้อมูล Digital GDP รายอุตสาหกรรมเพื่อเลือกตลาดเป้าหมายของผลิตภัณฑ์"
+      ],
+      "actions_business": [
+        "ผู้ผลิตชิ้นส่วนอิเล็กทรอนิกส์ควรประเมินโอกาสจากห่วงโซ่อุปทาน AI ที่ขยายตัว",
+        "ผู้ให้บริการคลาวด์และดาต้าเซ็นเตอร์ควรวางแผนกำลังการผลิตรองรับอุปสงค์ปี 2570"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b1-03",
+      "slug": "pwc-thailand-data-center-investment-2050",
+      "title": "PwC projects Thailand's data center investment to reach 5 trillion baht by 2050",
+      "title_th": "PwC คาดลงทุนดาต้าเซ็นเตอร์ไทยแตะ 5 ล้านล้านบาทปี 2593 รับกระแส AI",
+      "topic": "thailand",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz AI",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "PwC ประเทศไทยคาดว่าการลงทุนสะสมในดาต้าเซ็นเตอร์ของไทยจะเพิ่มจาก 5.86 หมื่นล้านดอลลาร์สหรัฐในปี 2570 เป็น 1.5 แสนล้านดอลลาร์ ราว 5.06 ล้านล้านบาท ภายในปี 2593 ตามรายงาน Global Data Centre Outlook 2026–50 ที่จัดทำร่วมกับ Oxford Economics ครอบคลุม 46 ประเทศและเขตเศรษฐกิจ โดยทั่วโลกคาดลงทุนสะสมรวม 31.6 ล้านล้านดอลลาร์ ปัจจัยหนุนคือความต้องการโครงสร้างพื้นฐาน AI การขยายคลาวด์ อธิปไตยดิจิทัล และนโยบายภาครัฐ เช่น Cloud First และ Utility Green Tariff 2 ขณะที่ BOI รายงานว่าปี 2568 มีโครงการดาต้าเซ็นเตอร์ 36 โครงการ มูลค่า 7.28 แสนล้านบาท PwC เตือนว่าความต้องการไฟฟ้าและน้ำอาจกระทบชุมชนและเกษตรกรรม โดยเฉพาะพื้นที่ EEC จึงควรวางแผนผลิตและส่งไฟฟ้า พลังงานสะอาด การจัดการน้ำ และมาตรฐานสิ่งแวดล้อมควบคู่กัน",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1259036",
+      "tech_impact": "การลงทุนดาต้าเซ็นเตอร์เป็นโอกาสใหญ่ของไทยในยุค AI แต่ไฟฟ้า น้ำ และพลังงานสะอาดจะเป็นข้อจำกัดสำคัญที่กำหนดว่าโครงการเกิดขึ้นได้จริงเพียงใด",
+      "tags": [
+        "Thailand",
+        "PwC",
+        "Data Center",
+        "EEC",
+        "Energy"
+      ],
+      "category_label": "thailand",
+      "published_at": "2026-11-03T11:15:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Data Center",
+        "Infrastructure",
+        "Energy"
+      ],
+      "actions_developer": [
+        "ออกแบบระบบให้ประหยัดพลังงานและรองรับการทำงานในภูมิภาคที่ไฟฟ้าและน้ำจำกัด",
+        "ติดตามเงื่อนไข Direct PPA และ data residency เพื่อวางสถาปัตยกรรมโฮสติ้งในไทย"
+      ],
+      "actions_business": [
+        "ผู้ลงทุนควรประเมินแหล่งไฟฟ้าสะอาดและน้ำก่อนเลือกทำเลโครงการ",
+        "ภาคธุรกิจที่ต้องเก็บข้อมูลในประเทศควรพิจารณาสัญญาบริการคลาวด์ที่ตั้งในไทย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b1-04",
+      "slug": "google-cloud-ai-agent-thai-sme",
+      "title": "Google Cloud pushes AI agents to lift productivity of Thai SMEs",
+      "title_th": "กูเกิลคลาวด์ชู AI Agent ยกระดับ SME เพิ่มผลิตภาพเศรษฐกิจไทย",
+      "topic": "thailand",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz AI",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "Sorot Thipsena ผู้จัดการประจำประเทศไทยของ Google Cloud ระบุว่า SME คิดเป็น 99.5% ของธุรกิจไทยทั้งหมด จ้างงานเกือบ 70% ของแรงงาน แต่สร้าง GDP เพียงประมาณ 35% จึงมองว่าการเพิ่มผลิตภาพเล็กน้อยในหลายธุรกิจจะช่วยเศรษฐกิจได้มาก เขาอธิบายว่า Generative AI ช่วยงานเฉพาะอย่าง เช่น เขียนคอนเทนต์หรือร่างสัญญา แต่ผู้ใช้ยังต้องควบคุมทุกขั้น ขณะที่ AI Agent ทำงานหลายขั้นตอนได้เอง เช่น นัดหมาย ส่งเอกสาร และติดตามข้อมูลแบบเรียลไทม์ตลอด 24 ชั่วโมง ตัวอย่างที่ยกมา ได้แก่ ร้านสะดวกซื้อในเชียงรายที่ใช้เอเจนต์คำนวณกำไรต่อสินค้า อู่ซ่อมรถในหาดใหญ่ที่ให้คำแนะนำจากภาพเครื่องยนต์ และนักออกแบบอิสระในภูเก็ตที่ออกใบแจ้งหนี้รายเดือน SME ควรประเมินเอเจนต์จากความน่าเชื่อถือ การเชื่อมต่อกับระบบเดิมพร้อมกำหนดสิทธิ์ เช่น ห้ามซื้อของโดยไม่ผ่านมนุษย์ และการทำงานต่อเนื่อง",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1259052",
+      "tech_impact": "AI Agent ถูกวางเป็นเครื่องมือเพิ่มผลิตภาพของ SME ไทย แต่บทความไม่ระบุผลิตภัณฑ์ ราคา หรือหลักฐานผลลัพธ์ จึงเป็นข้อความเชิงส่งเสริมมากกว่าข้อมูลทางเทคนิค",
+      "tags": [
+        "Thailand",
+        "Google Cloud",
+        "AI Agent",
+        "SME"
+      ],
+      "category_label": "thailand",
+      "published_at": "2026-11-03T14:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Agents",
+        "SME",
+        "Cloud"
+      ],
+      "actions_developer": [
+        "ออกแบบเอเจนต์ให้มีสิทธิ์จำกัดและต้องขออนุมัติมนุษย์ก่อนทำธุรกรรมการเงิน",
+        "เชื่อมเอเจนต์กับอีเมล สเปรดชีต และ CRM ที่ SME ใช้อยู่จริงผ่าน API"
+      ],
+      "actions_business": [
+        "SME ควรเริ่มนำร่องกับงานซ้ำ ๆ เช่น ออกใบแจ้งหนี้และนัดหมาย แล้ววัดเวลาที่ประหยัดได้",
+        "กำหนดนโยบายสิทธิ์และการตรวจสอบก่อนเปิดให้เอเจนต์เข้าถึงข้อมูลลูกค้า"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b2-01",
+      "slug": "revolut-self-hosted-glm-coding-costs",
+      "title": "Revolut cuts AI coding inference costs about 90% by defaulting to self-hosted GLM",
+      "title_th": "Revolut ลดต้นทุน AI เขียนโค้ดราว 90% ด้วยการโฮสต์โมเดล GLM เอง แทนการพึ่ง Claude",
+      "topic": "tech-trends",
+      "topic_group": "tech-trends",
+      "source_name": "The Register",
+      "category": "International",
+      "urgency": "high",
+      "content": "Revolut ระบุว่าลดต้นทุน inference ของงานเขียนโค้ดด้วย AI ลงราว 90% ภายในไม่ถึงปี โดยเปลี่ยนมาใช้โมเดล open-weight ที่โฮสต์เองเป็นค่าเริ่มต้นแทนบริการเชิงพาณิชย์อย่าง Claude ตามคำบรรยายของ David Abitbol ที่งาน AI Engineer ซึ่ง The Register รายงาน ปัจจุบันใช้ GLM-5.3 ของ Z.ai ขนาดราว 754B พารามิเตอร์ รันบน Nvidia B200 จำนวน 56 ตัวให้วิศวกรราว 2,000 คน ต้นทุนราว 0.30 ดอลลาร์ต่อล้านโทเคน ผลลัพธ์ที่บริษัทรายงานคือเวลาเขียนโค้ดดีขึ้น 60% และ lead time ดีขึ้น 70% แต่เป็นตัวเลขที่ประเมินเองและยังไม่มีการตรวจสอบอิสระ การปรับแต่งสำคัญมาจากการ quantize แบบ NVFP4 และการแยก prefill กับ decode อย่างไรก็ตาม GLM รองรับเฉพาะข้อความ จึงยังส่งงานด้านภาพไปยัง Gemini หรือ GPT และยังไม่ได้เลิกใช้โมเดลเชิงพาณิชย์ทั้งหมด",
+      "source_url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+      "tech_impact": "กรณีศึกษาชี้ว่าโมเดล open-weight ขนาดใหญ่ที่โฮสต์เองอาจลดต้นทุนงานโค้ดได้มาก ซึ่งกดดันราคาของผู้ให้บริการโมเดลปิด แต่ตัวเลขเป็นการรายงานเองจากการบรรยายครั้งเดียว",
+      "tags": [
+        "Revolut",
+        "GLM-5.3",
+        "Self-hosted",
+        "AI Coding",
+        "Cost"
+      ],
+      "category_label": "tech-trends",
+      "published_at": "2026-11-03T12:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM Inference",
+        "Developer Tools",
+        "Open-weight Models"
+      ],
+      "actions_developer": [
+        "ทดลองรันโมเดล open-weight ด้วย NVFP4 และ disaggregated prefill/decode เทียบต้นทุนต่อโทเคน",
+        "ทำ routing ที่ส่งงานโค้ดไปโมเดลโฮสต์เอง และงานภาพไปโมเดลที่รองรับ multimodal"
+      ],
+      "actions_business": [
+        "คำนวณต้นทุนรวม (GPU, บุคลากร, ความปลอดภัย) ก่อนตัดสินใจย้ายจาก API เชิงพาณิชย์",
+        "ประเมินความเสี่ยงด้านความเป็นส่วนตัวของโมเดลจากผู้พัฒนาต่างประเทศ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b2-02",
+      "slug": "snowflake-business-ontology-agent-governance",
+      "title": "Snowflake expands agentic AI platform with Business Ontology and agent governance tools",
+      "title_th": "Snowflake เปิดตัว Business Ontology และเครื่องมือกำกับเอเจนต์ ขยายแพลตฟอร์ม agentic AI",
+      "topic": "tech-trends",
+      "topic_group": "tech-trends",
+      "source_name": "SiliconANGLE",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Snowflake ประกาศชุดความสามารถด้าน agentic AI ในงาน Expedition 2026 เมื่อวันที่ 3 พฤศจิกายน เริ่มจาก Business Ontology ซึ่งเปิดแบบ private preview ช่วยให้องค์กรกำหนดนิยามคำศัพท์ทางธุรกิจชุดเดียวที่อนุมัติแล้ว เพื่อให้เอเจนต์อย่าง Snowflake CoCo และ CoWork ตอบโดยอิงบริบทที่ถูกต้อง นอกจากนี้ Cortex AI Gateway เพิ่มการตรวจจับการใช้เอเจนต์ในทางที่ผิด การติดตามและ tracing, sandbox, การกำกับต้นทุน AI และ dynamic model routing ส่วน Cortex Training เข้าสู่ public preview เพื่อให้ลูกค้า post-train โมเดล open-weight ด้วยข้อมูลของตนโดยไม่ต้องดูแลโครงสร้างพื้นฐาน บริษัทยังขยายความร่วมมือกับ Oracle เพื่อให้บริการ Snowflake เป็น first-party service บน OCI ทั้งนี้ยังไม่มีราคาหรือวันที่พร้อมใช้งานของหลายฟีเจอร์ และเป็นการแข่งกับ SAP และ Salesforce ในการคุมชั้นเอเจนต์ระดับองค์กร",
+      "source_url": "https://siliconangle.com/2026/11/03/snowflake-expands-agentic-ai-platform-with-business-context-and-governance-tools/",
+      "tech_impact": "ผู้ให้บริการแพลตฟอร์มข้อมูลกำลังแย่งชั้นควบคุมเอเจนต์องค์กรด้วยการให้ business context และ governance บนข้อมูลเดิม แต่หลายฟีเจอร์ยังเป็น preview และไม่มีราคา",
+      "tags": [
+        "Snowflake",
+        "Agentic AI",
+        "Governance",
+        "Cortex"
+      ],
+      "category_label": "tech-trends",
+      "published_at": "2026-11-03T22:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Agentic AI",
+        "Data Platform",
+        "Governance"
+      ],
+      "actions_developer": [
+        "ทดสอบ Business Ontology เมื่อเปิด public preview เพื่อกำหนดนิยามเมตริกกลางให้เอเจนต์",
+        "ตรวจสอบ tracing และ cost governance ของ Cortex AI Gateway สำหรับเอเจนต์ที่ใช้งานจริง"
+      ],
+      "actions_business": [
+        "ผู้ใช้ Snowflake ควรประเมินการ post-train โมเดลด้วยข้อมูลภายในผ่าน Cortex Training",
+        "เทียบแนวทางกับ SAP และ Salesforce ก่อนเลือกแพลตฟอร์มควบคุมเอเจนต์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b2-03",
+      "slug": "apple-siri-ai-developer-preview-app-intents",
+      "title": "Apple opens Siri AI to all developers through App Intents in 27.3 betas",
+      "title_th": "Apple เปิด Siri AI ให้นักพัฒนาทุกคนผ่าน App Intents ในเบต้า 27.3",
+      "topic": "tech-trends",
+      "topic_group": "tech-trends",
+      "source_name": "Apple Developer",
+      "category": "International",
+      "urgency": "high",
+      "content": "Apple เปิด Developer Preview ให้นักพัฒนาทุกคนเชื่อมแอปเข้ากับ Siri AI ซึ่งเป็น Siri รุ่นใหม่ที่เข้าใจบริบทส่วนตัว การมองเห็นหน้าจอ และภาษาธรรมชาติมากขึ้น ผ่านเบต้า iOS, iPadOS, macOS และ visionOS 27.3 ตั้งแต่ 3 พฤศจิกายน แอปส่งเนื้อหาและการกระทำเข้า Siri ด้วย App Intents และสามารถใช้ Skills ประกอบหลายการกระทำเป็นประสบการณ์เดียว เช่น ตรวจสอบการจัดส่ง จองร้าน หรือสั่งซื้อ รองรับภาษาอังกฤษ ฝรั่งเศส ญี่ปุ่น เกาหลี โปรตุเกส และสเปน ส่วนจีนตัวเต็ม นอร์เวย์ ตุรกี และเวียดนามจะตามมา การส่งแอปขึ้น App Store เปิดช่วงฤดูใบไม้ผลิ และฟีเจอร์จะถึงผู้ใช้อีกไม่กี่เดือน ยังไม่รองรับใน EU บน iOS และ iPadOS ไม่เปิดให้ผู้ใช้อายุต่ำกว่า 13 ปี มีขีดจำกัดการใช้งานรายวัน และ Apple ระบุว่าการเข้าถึงที่ขยายขึ้นจะมีค่าบริการในอนาคต",
+      "source_url": "https://developer.apple.com/news/?id=gdk2umrf",
+      "tech_impact": "นักพัฒนา iOS สามารถเริ่มเตรียมแอปให้ทำงานกับ Siri AI ได้แล้ว ซึ่งอาจเปลี่ยนช่องทางเข้าถึงผู้ใช้ แต่ฟีเจอร์ยังไม่รองรับ EU และมีแผนคิดค่าบริการในอนาคต",
+      "tags": [
+        "Apple",
+        "Siri AI",
+        "App Intents",
+        "iOS 27.3"
+      ],
+      "category_label": "tech-trends",
+      "published_at": "2026-11-03T20:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Mobile",
+        "Voice Assistant",
+        "Developer Platform"
+      ],
+      "actions_developer": [
+        "ติดตั้งเบต้า 27.3 และเพิ่ม App Intents ให้การกระทำหลักของแอปเรียกผ่าน Siri AI ได้",
+        "ทดลองใช้ Skills ประกอบหลายการกระทำและทดสอบกับ Spotlight semantic index"
+      ],
+      "actions_business": [
+        "เจ้าของแอปควรจัดลำดับการกระทำที่ผู้ใช้สั่งผ่านเสียงบ่อยที่สุด",
+        "ติดตามเงื่อนไขการใช้งานและค่าบริการที่ Apple จะประกาศเพิ่ม"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b2-04",
+      "slug": "canva-cuts-1271-jobs-growth-slows",
+      "title": "Canva cuts 1,271 jobs, 22% of staff, as growth slows",
+      "title_th": "Canva ปรับลด 1,271 ตำแหน่ง หรือ 22% ของพนักงาน หลังการเติบโตชะลอตัว",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "AI Weekly",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Melanie Perkins ซีอีโอของ Canva ประกาศปรับโครงสร้าง 1,271 ตำแหน่ง หรือ 22% ของพนักงาน โดยยอมรับว่าการเติบโตของบริษัทชะลอลงเป็นครั้งแรกในรอบทศวรรษ ตามรายงานของ The Age ที่สรุปโดย AI Weekly ผู้ที่ถูกเลิกจ้างจะได้รับเงินเดือนอย่างน้อย 6 เดือนและประกันสุขภาพ 1 ปี บริบทที่รายงานระบุคือหุ้น Figma ซึ่งเป็นคู่แข่งในกลุ่มซอฟต์แวร์ออกแบบลดลงราวครึ่งหนึ่งในปี 2569 สะท้อนแรงกดดันต่อบริษัทกลุ่มนี้ ข่าวนี้เป็นอีกตัวอย่างของการปรับลดกำลังคนในอุตสาหกรรมเทคโนโลยีที่เกิดขึ้นพร้อมกับ Fiserv ซึ่งตัดราว 3,000 ตำแหน่งและเพิ่มเป้าหมายประหยัดต้นทุนจาก AI เป็น 1,000 ล้านดอลลาร์ อย่างไรก็ตามข้อมูลนี้มาจากบทสรุปของผู้รวบรวมข่าว ยังไม่ได้ยืนยันเหตุผลเชิงกลยุทธ์ทั้งหมดจากตัวบริษัท",
+      "source_url": "https://www.theage.com.au/technology/canva-unveils-mass-job-cuts-in-hardest-moment-of-its-history-20261104-p61b62.html",
+      "tech_impact": "การลดคน 22% ของ Canva แสดงว่าตลาดซอฟต์แวร์ออกแบบกำลังถูกกดดัน และเป็นสัญญาณต่อเนื่องของการปรับโครงสร้างกำลังคนในบริษัทเทคโนโลยีที่ผูกกับต้นทุนและกลยุทธ์ AI",
+      "tags": [
+        "Canva",
+        "Layoffs",
+        "Figma",
+        "Software"
+      ],
+      "category_label": "global",
+      "published_at": "2026-11-03T23:30:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Layoffs",
+        "Design Software",
+        "AI Business"
+      ],
+      "actions_developer": [
+        "ทบทวนทักษะที่ทำงานร่วมกับ AI ได้และอัปเดตพอร์ตโฟลิโอตามตลาดงานใหม่",
+        "หากสร้างผลิตภัณฑ์ในกลุ่มออกแบบ ควรประเมินความแตกต่างเมื่อผู้ใช้สร้างงานด้วย AI ได้เอง"
+      ],
+      "actions_business": [
+        "ผู้ใช้ Canva ในองค์กรควรติดตามผลต่อการสนับสนุนและแผนผลิตภัณฑ์",
+        "ธุรกิจซอฟต์แวร์ควรทบทวนโมเดลรายได้และตำแหน่งผลิตภัณฑ์ท่ามกลางการแข่งขันจาก AI"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b2-05",
+      "slug": "super-micro-q1-revenue-298-percent",
+      "title": "Super Micro Q1 revenue jumps 298% to $19.95B on AI server demand",
+      "title_th": "Super Micro รายได้ไตรมาสแรกพุ่ง 298% เป็น 19.95 พันล้านดอลลาร์ รับอุปสงค์เซิร์ฟเวอร์ AI",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "AI Weekly",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Super Micro Computer รายงานรายได้ไตรมาสแรกของปีงบประมาณ 2570 ที่ 19.95 พันล้านดอลลาร์ เพิ่มขึ้น 298% จากปีก่อน สูงกว่าที่นักวิเคราะห์คาดไว้ 16.39 พันล้านดอลลาร์ กำไรต่อหุ้นปรับลดอยู่ที่ 1.75 ดอลลาร์ บริษัทคาดรายได้ไตรมาสถัดไป 19.5–21.5 พันล้านดอลลาร์ และปรับเพิ่มคาดการณ์ทั้งปีงบประมาณเป็น 72–82 พันล้านดอลลาร์ ตามรายงานของ Reuters ที่สรุปโดย AI Weekly หุ้นขยับขึ้นกว่า 7% ในการซื้อขายหลังตลาดปิด ตัวเลขนี้สะท้อนว่าอุปสงค์เซิร์ฟเวอร์ที่รองรับงาน AI ยังเติบโตแรงต่อเนื่อง และผู้ผลิตเซิร์ฟเวอร์ได้รับประโยชน์โดยตรงจากการลงทุนศูนย์ข้อมูลของผู้ให้บริการคลาวด์และห้องแล็บ AI อย่างไรก็ตาม ผู้ลงทุนควรติดตามความยั่งยืนของอุปสงค์ ซึ่งสัมพันธ์กับภาระผูกพันด้านลงทุนของผู้ซื้อรายใหญ่",
+      "source_url": "https://www.reuters.com/business/super-micro-forecasts-quarterly-revenue-above-estimates-strong-ai-server-demand-2026-11-03/",
+      "tech_impact": "รายได้เกือบ 20 พันล้านดอลลาร์ต่อไตรมาสยืนยันว่าการลงทุนฮาร์ดแวร์ AI ยังเร่งตัว ซึ่งส่งผลต่ออุปทานเซิร์ฟเวอร์ GPU และราคาคอมพิวต์",
+      "tags": [
+        "Super Micro",
+        "AI Server",
+        "Earnings",
+        "Reuters"
+      ],
+      "category_label": "global",
+      "published_at": "2026-11-03T21:30:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Hardware",
+        "Servers",
+        "Earnings"
+      ],
+      "actions_developer": [
+        "วางแผนจัดหาเซิร์ฟเวอร์ GPU ล่วงหน้าเพราะอุปสงค์สูงอาจกระทบ lead time",
+        "ออกแบบเวิร์กโหลดให้ใช้คอมพิวต์อย่างมีประสิทธิภาพเพื่อลดความเสี่ยงต้นทุน"
+      ],
+      "actions_business": [
+        "องค์กรที่ซื้อโครงสร้างพื้นฐาน AI ควรเทียบทางเลือกเช่าคลาวด์กับซื้อเอง",
+        "ติดตามแนวโน้มซัพพลายเชนเซิร์ฟเวอร์ AI เพื่อประเมินราคาและกำหนดส่งมอบ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b2-06",
+      "slug": "amd-q3-2026-data-center-97-percent-mi450",
+      "title": "AMD data center revenue up 97% to $8.5B as Instinct MI450 ships",
+      "title_th": "AMD รายได้ Data Center โต 97% แตะ 8.5 พันล้านดอลลาร์ ขณะที่ Instinct MI450 เริ่มจัดส่ง",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "AI Weekly",
+      "category": "International",
+      "urgency": "medium",
+      "content": "AMD รายงานผลประกอบการไตรมาส 3 ปี 2569 มีรายได้ 13.4 พันล้านดอลลาร์ เพิ่มขึ้น 45% จากปีก่อน โดยรายได้กลุ่ม Data Center อยู่ที่ 8.5 พันล้านดอลลาร์ เพิ่มขึ้น 97% พร้อมเปิดตัวชิปเร่งความเร็ว Instinct MI450 Series ตามข่าวประชาสัมพันธ์ของบริษัทที่สรุปผ่าน AI Weekly บริษัทให้แนวโน้มรายได้ไตรมาส 4 ที่ประมาณ 17 พันล้านดอลลาร์ บวกลบ 3% ขณะที่รายได้กลุ่ม Gaming ลดลง 40% เหลือ 773 ล้านดอลลาร์ ตัวเลขนี้แสดงว่ารายได้ของ AMD เปลี่ยนศูนย์ถ่วงไปที่ศูนย์ข้อมูลและชิป AI อย่างชัดเจน ซึ่งเสริมภาพการแข่งขันกับ Nvidia ในตลาดเร่งความเร็วสำหรับ AI และทำให้ผู้ใช้มีทางเลือกด้านฮาร์ดแวร์มากขึ้น อย่างไรก็ตามผลการใช้งานจริงของ MI450 ในเวิร์กโหลดลูกค้ายังต้องรอข้อมูลเพิ่มเติม",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/03/3394824/0/en/amd-reports-third-quarter-2026-financial-results.html",
+      "tech_impact": "AMD กลายเป็นทางเลือกด้านชิป AI ที่เติบโตเร็วขึ้น โดยรายได้ Data Center เกือบเท่าตัว และ MI450 ที่เริ่มส่งมอบอาจช่วยลดการพึ่ง Nvidia รายเดียว",
+      "tags": [
+        "AMD",
+        "MI450",
+        "Data Center",
+        "Earnings"
+      ],
+      "category_label": "global",
+      "published_at": "2026-11-03T21:05:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Hardware",
+        "GPU",
+        "Earnings"
+      ],
+      "actions_developer": [
+        "ทดสอบความเข้ากันได้ของเวิร์กโหลดกับ ROCm และ MI450 เมื่อมีให้ใช้บนคลาวด์",
+        "ออกแบบสแต็กให้พอร์ตข้ามผู้ผลิตชิปเพื่อลดความเสี่ยงการพึ่งพารายเดียว"
+      ],
+      "actions_business": [
+        "ประเมินสัญญาจัดซื้อ GPU หลายผู้ผลิตเพื่อเพิ่มอำนาจต่อรอง",
+        "ติดตามผลการส่งมอบ MI450 ก่อนวางแผนลงทุนโครงสร้างพื้นฐาน AI"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b2-07",
+      "slug": "crowdstrike-fiddler-dreadnode-495m",
+      "title": "CrowdStrike reportedly buys AI security firms Fiddler and Dreadnode for $495M",
+      "title_th": "CrowdStrike ตามรายงานซื้อ Fiddler และ Dreadnode ด้านความปลอดภัย AI รวม 495 ล้านดอลลาร์",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "AI Weekly",
+      "category": "International",
+      "urgency": "medium",
+      "content": "CrowdStrike ตกลงซื้อ Fiddler AI ผู้พัฒนาระบบตรวจสอบเอเจนต์ AI ในราว 400 ล้านดอลลาร์ และ Dreadnode สตาร์ทอัพด้านความปลอดภัยเชิงรุกด้วย AI ในราว 95 ล้านดอลลาร์ รวมประมาณ 495 ล้านดอลลาร์ ตามรายงานของ SecurityWeek ที่สรุปผ่าน AI Weekly โดย Fiddler จะถูกจำหน่ายในชื่อ Falcon Observe และคาดว่าดีลทั้งสองจะปิดภายใน 31 มกราคม 2570 การซื้อกิจการนี้ชี้ว่าการเฝ้าระวังและกำกับดูแลเอเจนต์ AI กำลังกลายเป็นหมวดผลิตภัณฑ์ด้านความปลอดภัยองค์กรที่ผู้ขายรายใหญ่ต้องมี ขณะที่ความสามารถของ Dreadnode เสริมการทดสอบเจาะระบบด้วย AI ให้ทีมความปลอดภัยของ CrowdStrike อย่างไรก็ตามรายงานใช้ถ้อยคำว่า reportedly จึงควรรอประกาศอย่างเป็นทางการเพื่อยืนยันมูลค่าและเงื่อนไขของดีล",
+      "source_url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
+      "tech_impact": "ตลาดความปลอดภัยเริ่มรวมเครื่องมือ observability ของเอเจนต์ AI เข้าสู่แพลตฟอร์มหลัก ซึ่งสะท้อนว่าองค์กรต้องการเฝ้าระวังเอเจนต์เหมือนระบบ production อื่น",
+      "tags": [
+        "CrowdStrike",
+        "Fiddler",
+        "Dreadnode",
+        "Acquisition"
+      ],
+      "category_label": "global",
+      "published_at": "2026-11-03T15:30:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Security",
+        "M&A",
+        "Agent Observability"
+      ],
+      "actions_developer": [
+        "เพิ่ม logging และ tracing ให้เอเจนต์ทุกตัวเพื่อให้ทีมความปลอดภัยตรวจสอบได้",
+        "ทำ red-team ทดสอบเอเจนต์ด้วย prompt injection ก่อนใช้งานจริง"
+      ],
+      "actions_business": [
+        "ผู้ใช้ CrowdStrike ควรติดตามรายละเอียดผลิตภัณฑ์ Falcon Observe",
+        "กำหนดนโยบายกำกับเอเจนต์ AI ในองค์กรควบคู่กับเครื่องมือความปลอดภัยเดิม"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b2-08",
+      "slug": "nvidia-asian-clouds-51-percent-non-chinese",
+      "title": "Nvidia reportedly tells Asian clouds to keep 51%+ of revenue non-Chinese or lose chips",
+      "title_th": "Nvidia ตามรายงานสั่งคลาวด์เอเชียให้มีลูกค้าที่ไม่ใช่จีนอย่างน้อย 51% ไม่เช่นนั้นเสี่ยงเสียชิป",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "AI Weekly",
+      "category": "International",
+      "urgency": "high",
+      "content": "รายงานระบุว่า Nvidia แจ้งลูกค้าผู้ให้บริการคลาวด์และ neocloud ในสิงคโปร์ มาเลเซีย และญี่ปุ่นว่า อย่างน้อย 51% ของบริการต้องให้แก่ลูกค้าที่ไม่ใช่บริษัทจีน มิฉะนั้นอาจสูญเสียสิทธิ์รับชิป โดยการบังคับใช้รวมถึงการตรวจศูนย์ข้อมูล การตรวจสัญญา และการสัมภาษณ์ผู้ใช้ปลายทาง มาตรการนี้ต่อจากการที่ Nvidia ตัดรายชื่อลูกค้าเอเชียที่ได้รับอนุมัติลงกว่า 50% ในเดือนกรกฎาคม 2569 ข้อมูลมาจาก CryptoBriefing ซึ่งสรุปผ่าน AI Weekly และใช้ถ้อยคำว่า reportedly จึงเป็นข่าวจากแหล่งรองที่ยังต้องรอการยืนยัน หากเป็นจริงจะกระทบผู้ให้บริการคลาวด์ในเอเชียตะวันออกเฉียงใต้ที่ให้บริการลูกค้าจีน รวมถึงตลาดที่ไทยอาจเกี่ยวข้องในฐานะศูนย์ข้อมูลภูมิภาค และเพิ่มต้นทุนการปฏิบัติตามข้อกำหนดด้านการส่งออกชิป",
+      "source_url": "https://cryptobriefing.com/nvidia-cloud-clients-51-percent-non-chinese/",
+      "tech_impact": "นโยบายควบคุมปลายทางของชิป AI เข้มขึ้นถึงระดับสัญญาและการตรวจสอบหน้างาน ซึ่งอาจกระทบการจัดสรร GPU ของผู้ให้บริการคลาวด์ในเอเชีย แต่ข่าวยังไม่ได้รับการยืนยันจาก Nvidia",
+      "tags": [
+        "Nvidia",
+        "Export Control",
+        "China",
+        "Cloud"
+      ],
+      "category_label": "global",
+      "published_at": "2026-11-03T14:30:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Geopolitics",
+        "AI Chips",
+        "Export Control"
+      ],
+      "actions_developer": [
+        "ตรวจสอบเงื่อนไขการใช้ GPU คลาวด์ในภูมิภาคเอเชียกับผู้ให้บริการที่ใช้งานอยู่",
+        "เตรียมแผนสำรองด้านคอมพิวต์หากการจัดสรร GPU ในภูมิภาคเปลี่ยนแปลง"
+      ],
+      "actions_business": [
+        "ผู้ให้บริการคลาวด์ควรทบทวนสัดส่วนลูกค้าและเอกสารปฏิบัติตามข้อกำหนดส่งออก",
+        "ธุรกิจที่เช่า GPU ในภูมิภาคควรติดตามประกาศทางการของ Nvidia ก่อนปรับสัญญา"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b2-09",
+      "slug": "nikkei-hidden-ai-debt-3-2-trillion",
+      "title": "Hidden AI debt at five US tech giants swells 90% to $3.2 trillion in six months",
+      "title_th": "หนี้ AI นอกงบดุลของยักษ์เทคสหรัฐ 5 ราย พุ่ง 90% เป็น 3.2 ล้านล้านดอลลาร์ใน 6 เดือน",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "AI Weekly",
+      "category": "International",
+      "urgency": "high",
+      "content": "Nikkei Asia รายงานว่าภาระผูกพันด้าน AI นอกงบดุลของบริษัทเทคโนโลยีสหรัฐ 5 รายใหญ่เพิ่มขึ้น 90% ในหกเดือน เป็นราว 3.2 ล้านล้านดอลลาร์ หรือประมาณ 80% ของสินทรัพย์รวมของทั้งห้าบริษัท ตัวเลขนี้รวมสัญญาเช่าดาต้าเซ็นเตอร์ การชำระเงินล่วงหน้าให้ซัพพลายเออร์ และพันธะการใช้คอมพิวต์หลายปี ขณะที่ CDS ของ Amazon, Alphabet, Microsoft, Meta และ Oracle อยู่ในระดับสูงสุดนับตั้งแต่ปี 2564 สะท้อนว่าตลาดเริ่มกำหนดราคาความเสี่ยงของการลงทุนโครงสร้างพื้นฐาน AI ที่เร่งตัวอย่างรวดเร็ว ข้อมูลนี้สรุปผ่าน AI Weekly จึงควรอ่านต้นฉบับเพื่อดูวิธีคำนวณ แต่ภาพรวมชี้ว่าการแข่งขันสร้างศักยภาพ AI พึ่งพาภาระผูกพันระยะยาวจำนวนมหาศาล ซึ่งอาจกระทบต้นทุนบริการและเสถียรภาพของผู้ให้บริการคลาวด์ในอนาคต",
+      "source_url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+      "tech_impact": "ภาระผูกพัน AI นอกงบดุลที่สูงราว 80% ของสินทรัพย์ทำให้ความเสี่ยงทางการเงินของการสร้างโครงสร้างพื้นฐาน AI กลายเป็นประเด็นตลาดทุน ซึ่งอาจส่งผลต่อราคาและเงื่อนไขบริการคลาวด์",
+      "tags": [
+        "Nikkei",
+        "AI Debt",
+        "CDS",
+        "Hyperscaler"
+      ],
+      "category_label": "global",
+      "published_at": "2026-11-03T23:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Finance",
+        "Cloud",
+        "Capital Markets"
+      ],
+      "actions_developer": [
+        "ลดการล็อกอินกับผู้ให้บริการคลาวด์รายเดียวด้วยสถาปัตยกรรมที่ย้ายได้",
+        "เก็บ benchmark ต้นทุนต่อโทเคนเพื่อเทียบราคาเมื่อผู้ให้บริการปรับโครงสร้างราคา"
+      ],
+      "actions_business": [
+        "ทบทวนความเสี่ยงคู่สัญญาในสัญญาคลาวด์และคอมพิวต์ระยะยาว",
+        "ติดตามสัญญาณตลาดสินเชื่อ เช่น CDS ของผู้ให้บริการรายใหญ่ ประกอบการวางงบ AI"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b2-10",
+      "slug": "drax-brookfield-radiant-uk-ai-data-center",
+      "title": "Drax, Brookfield and Radiant plan 1GW UK AI data center worth over £20B",
+      "title_th": "Drax, Brookfield และ Radiant วางแผนศูนย์ข้อมูล AI 1 GW ในอังกฤษ มูลค่ากว่า 2 หมื่นล้านปอนด์",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "AI Weekly",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Drax, Brookfield และ neocloud Radiant วางแผนสร้างศูนย์ข้อมูล AI ขนาด 1 กิกะวัตต์บนพื้นที่โรงไฟฟ้า Drax ในนอร์ทยอร์กเชียร์ สหราชอาณาจักร ตามรายงานของ CNBC ที่สรุปผ่าน AI Weekly โดยตั้งเป้าให้ความจุสูงสุด 100 เมกะวัตต์เริ่มใช้งานภายในไตรมาส 1 ปี 2571 และอีก 500 เมกะวัตต์ในช่วงปี 2571–2574 มูลค่าการลงทุนรวมประเมินสูงกว่า 20,000 ล้านปอนด์ ส่วนหุ้น Drax ปรับขึ้น 8.8% หลังประกาศ โครงการนี้ใช้ประโยชน์จากที่ดินและโครงข่ายไฟฟ้าของโรงไฟฟ้าเดิมเพื่อลดเวลาการเชื่อมต่อ ซึ่งเป็นแนวทางที่หลายประเทศใช้แก้ปัญหาขาดแคลนไฟฟ้าสำหรับ AI อย่างไรก็ตามกรอบเวลาและขนาดที่ระบุยังเป็นแผน ไม่ใช่ความจุที่เริ่มใช้งานแล้ว และต้องรอการอนุมัติและการก่อสร้างจริงในอีกหลายปีข้างหน้า",
+      "source_url": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
+      "tech_impact": "การใช้พื้นที่โรงไฟฟ้าเดิมเป็นทำเลศูนย์ข้อมูล AI ช่วยลดคอขวดเรื่องไฟฟ้า และเป็นต้นแบบที่ประเทศอื่นรวมถึงไทยอาจนำมาปรับใช้ แต่ยังเป็นเพียงแผนระยะยาว",
+      "tags": [
+        "Drax",
+        "Brookfield",
+        "UK",
+        "Data Center"
+      ],
+      "category_label": "global",
+      "published_at": "2026-11-03T17:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Data Center",
+        "Energy",
+        "Infrastructure"
+      ],
+      "actions_developer": [
+        "ศึกษาการออกแบบศูนย์ข้อมูลที่ใกล้แหล่งผลิตไฟฟ้าเพื่อลดความหน่วงและต้นทุนพลังงาน",
+        "ติดตามความคืบหน้าเฟสแรก 100 MW เพื่อประเมินกำหนดเวลาจริง"
+      ],
+      "actions_business": [
+        "ผู้พัฒนาอสังหาฯ และพลังงานควรประเมินโอกาสร่วมทุนศูนย์ข้อมูลบนพื้นที่โรงไฟฟ้า",
+        "ผู้ใช้คลาวด์ในยุโรปควรติดตามกำลังการผลิตใหม่ในสหราชอาณาจักรที่จะออนไลน์ปี 2571"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b2-11",
+      "slug": "deepseek-v5-huawei-ascend-950-pretraining",
+      "title": "DeepSeek V5 reportedly to pre-train on 160,000 Huawei Ascend chips",
+      "title_th": "DeepSeek V5 ตามรายงานเตรียม pre-train บนชิป Huawei Ascend 160,000 ตัว",
+      "topic": "ai-trends",
+      "topic_group": "ai-trends",
+      "source_name": "AI Weekly",
+      "category": "International",
+      "urgency": "medium",
+      "content": "รายงานจาก CryptoBriefing ที่สรุปผ่าน AI Weekly ระบุว่า DeepSeek วางแผนติดตั้งชิป Huawei Ascend 950DT อย่างน้อย 160,000 ตัวที่ศูนย์ข้อมูลแห่งใหม่ในอูลานฉับ เพื่อเริ่ม pre-train โมเดล DeepSeek V5 ได้เร็วที่สุดปลายปี 2569 โดยเหลียง เหวินฟง ผู้ก่อตั้ง ประเมินว่าต้องใช้ชิป Ascend 950 สี่ตัวเพื่อให้ได้ประสิทธิภาพเท่า Nvidia GB300 หนึ่งตัว หากเป็นจริงจะเป็นการ pre-train โมเดลชั้นนำขนาดใหญ่บนฮาร์ดแวร์ภายในประเทศจีนเป็นหลัก ซึ่งสะท้อนความพยายามลดการพึ่งพา Nvidia ท่ามกลางข้อจำกัดการส่งออก อย่างไรก็ตามข้อมูลมาจากแหล่งรองและเป็นการกล่าวอ้างตามรายงาน ยังไม่มีการยืนยันจาก DeepSeek หรือ Huawei และประสิทธิภาพจริงของการฝึกบนชิปเหล่านี้ต้องรอผลลัพธ์ที่ตรวจสอบได้",
+      "source_url": "https://cryptobriefing.com/deepseek-v5-huawei-ascend-950-training/",
+      "tech_impact": "หากยืนยัน นี่คือหมุดหมายการ pre-train โมเดลระดับแนวหน้าบนชิปภายในประเทศจีนในระดับหมื่นตัว แต่ข้อมูลยังเป็นรายงานจากแหล่งรองที่ไม่ได้รับการยืนยัน",
+      "tags": [
+        "DeepSeek",
+        "Huawei Ascend",
+        "Pre-training",
+        "China"
+      ],
+      "category_label": "ai-trends",
+      "published_at": "2026-11-03T16:30:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM Training",
+        "AI Chips",
+        "China AI"
+      ],
+      "actions_developer": [
+        "ติดตามการเปิดตัว DeepSeek V5 และเปรียบเทียบประสิทธิภาพกับโมเดลที่ฝึกบน Nvidia",
+        "ศึกษาการรองรับ Ascend ในเฟรมเวิร์กฝึกโมเดลหากต้องใช้ฮาร์ดแวร์ทางเลือก"
+      ],
+      "actions_business": [
+        "ประเมินผลของชิป AI ทางเลือกต่อราคาและอุปทานโมเดลโอเพนเวตจากจีน",
+        "ติดตามประกาศทางการของ DeepSeek และ Huawei เพื่อยืนยันข้อมูลก่อนตัดสินใจเชิงกลยุทธ์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b2-12",
+      "slug": "anthropic-flashprove-provable-inference",
+      "title": "Anthropic releases FlashProve, an open-source zkSNARK system for provable inference",
+      "title_th": "Anthropic เปิดตัว FlashProve ระบบ zkSNARK โอเพนซอร์สพิสูจน์ว่าคำตอบมาจากโมเดลที่ระบุจริง",
+      "topic": "ai-trends",
+      "topic_group": "ai-trends",
+      "source_name": "Anthropic News",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Anthropic เผยแพร่ FlashProve ต้นแบบวิจัยโอเพนซอร์ส (Apache 2.0) ที่ใช้ zkSNARK ให้ผู้ใช้ตรวจสอบได้ว่าคำตอบมาจากโมเดลที่ผูกกับ commitment ของน้ำหนักชุดหนึ่งโดยไม่ต้องเปิดเผยน้ำหนัก พัฒนาร่วมกับนักวิจัยจาก EPFL และ MIT ทดสอบกับ Llama 4 Maverick ขนาด 400B แบบ MoE ใช้ H100 หนึ่งตัวและ CPU 24 คอร์ สร้างพรูฟได้ราว 110 โทเคนต่อวินาที ไฟล์พรูฟราว 18.8 MB ต่อหน้าต่าง 1,024 โทเคน และตรวจสอบบน CPU ใช้เวลาราว 17 วินาที อย่างไรก็ตามต้นทุนสูงราว 72 เท่าของเวลา GPU เมื่อเทียบกับ vLLM จำกัดบริบท 1,024 โทเคน ครอบคลุมเฉพาะการถอดรหัสแบบ greedy บนโมเดลเชิงจำนวนเต็ม และพิสูจน์หลังการอนุมานไม่ใช่ระหว่างทำงาน จึงเป็นเพียงขั้นแรกของการตรวจสอบการอนุมานที่ปฏิบัติได้จริง",
+      "source_url": "https://www.anthropic.com/research/provable-inference",
+      "tech_impact": "เป็นก้าวแรกสู่การพิสูจน์ได้ว่าบริการ AI ใช้โมเดลที่อ้างจริง ซึ่งสำคัญต่อความน่าเชื่อถือและการตรวจสอบ แต่ต้นทุนสูงและข้อจำกัดยังมากสำหรับการใช้งานจริง",
+      "tags": [
+        "Anthropic",
+        "FlashProve",
+        "zkSNARK",
+        "Open Source"
+      ],
+      "category_label": "ai-trends",
+      "published_at": "2026-11-02T12:00:00+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI Safety",
+        "Cryptography",
+        "Model Verification"
+      ],
+      "actions_developer": [
+        "อ่านรายงานเทคนิคและโค้ด Apache 2.0 เพื่อประเมินความเป็นไปได้ในระบบ audit ของโมเดล",
+        "ทดลองรัน verifier บน CPU เพื่อวัดค่าใช้จ่ายการตรวจสอบกับเวิร์กโหลดจริง"
+      ],
+      "actions_business": [
+        "องค์กรที่กำกับดูแลควรติดตามแนวทาง inference verification เป็นเครื่องมือสร้างความน่าเชื่อถือ",
+        "ยังไม่ควรวางแผนใช้งานจริงจนกว่าต้นทุนและขีดจำกัดบริบทดีขึ้น"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b3-01",
+      "slug": "etaps-pruning-llm-extreme-sparsity",
+      "title": "Prune Gradually, Adapt Sparsely: Efficient Pruning of Large Language Models at Extreme Sparsity",
+      "title_th": "งานวิจัย ETAPS: ตัดทอน LLM ที่ความเบาบางสูงสุด 90% ด้วย GPU เดียว ลดสถานะที่ต้องเก็บ 5 เท่า",
+      "topic": "ai-trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "งานวิจัยบน arXiv เสนอ ETAPS วิธีตัดทอนน้ำหนัก LLM ที่ความเบาบางสูงโดยค่อย ๆ เพิ่มข้อจำกัดความเบาบางเป็นขั้น พร้อมฝึก sparse delta ภายใต้งบจำกัดแบบคงที่ เพื่อให้โมเดลที่ปรับแล้วส่ง gradient แบบ end-to-end สำหรับการตัดรอบถัดไปโดยไม่ต้องเก็บสถานะ optimizer ขนาดเท่าโมเดล ทดสอบกับโมเดลหกตัวขนาด 125M ถึง 13B พารามิเตอร์ ได้ perplexity ต่ำกว่า ELSA ทุกระดับความเบาบาง 50% ถึง 90% ลดลงได้สูงสุด 42% ที่ความเบาบาง 90% ตัดทอน LLaMA2-7B ได้บน H200 เพียงใบเดียว ขณะที่ ELSA ใช้ GPU สี่ตัว สถานะที่ต้องเก็บเล็กลง 5.0 เท่า และใช้ GPU-hours น้อยลง 49% ผลลัพธ์เป็นของผู้เขียนเองและยังไม่ผ่านการตรวจสอบจากภายนอก แต่ชี้แนวทางลดต้นทุนการบีบอัดโมเดลขนาดใหญ่",
+      "source_url": "https://arxiv.org/abs/2610.41968",
+      "tech_impact": "ช่วยให้การตัดทอน LLM ที่ความเบาบางสูงทำได้บน GPU น้อยลงมาก จึงลดต้นทุนการบีบอัดโมเดลสำหรับทีมที่มีทรัพยากรจำกัด แต่เป็นผลของผู้เขียนเองและยังไม่ผ่านการทำซ้ำอิสระ",
+      "tags": [
+        "arXiv",
+        "Pruning",
+        "Sparsity",
+        "LLM"
+      ],
+      "category_label": "ai-trends",
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Model Compression",
+        "LLM",
+        "Pruning"
+      ],
+      "actions_developer": [
+        "ติดตามโค้ดและทดลองทำซ้ำ ETAPS กับโมเดลของตนที่ความเบาบาง 50-90%",
+        "เทียบ perplexity และคุณภาพงานจริงหลังตัดทอนกับวิธี one-shot เดิม"
+      ],
+      "actions_business": [
+        "ทีม MLOps ที่ต้องรันโมเดลบนอุปกรณ์จำกัดควรประเมินวิธีบีบอัดนี้",
+        "ประเมินต้นทุน GPU-hours ที่ประหยัดได้เทียบกับความเสี่ยงด้านคุณภาพ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b3-02",
+      "slug": "test-time-search-world-action-models-audit",
+      "title": "When Does Test-Time Search Help World Action Models? An Empirical Audit of Candidate Selection and Simulator Integrity",
+      "title_th": "ตรวจสอบเชิงประจักษ์: test-time search ช่วย World Action Model ได้เมื่อใด พบตัวเลือกคัดเลือกแย่กว่าสุ่ม",
+      "topic": "ai-trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "งานวิจัยบน arXiv ตรวจสอบการเพิ่มคอมพิวต์ตอนอนุมาน (test-time scaling) ในโมเดล world-action บน Cosmos Policy และ RoboCasa โดยใช้ระเบียบวิธีที่ลงทะเบียนล่วงหน้า พบว่า value selector ที่เรียนรู้มาให้ผลต่ำกว่าการสุ่ม 1.66 จุดเปอร์เซ็นต์ในข้อมูลสะอาด และ oracle แบบรู้ผลล่วงหน้าได้เพิ่มเพียง 1.40 จุด โดย 82% ของสถานะให้ผลลัพธ์เหมือนกันทุกตัวเลือก ด้านประสิทธิภาพ การตัดโทเคนลด FLOPs ต่อ forward ได้สูงสุด 47% แต่ความเร็วจริงตั้งแต่ต้นจนจบเพิ่มได้สูงสุดเพียง 1.15 เท่า ต่ำกว่าเป้า 1.5 เท่า ผู้เขียนยังพบและแก้ความเสียหายของการเรนเดอร์ที่เกิดโดยไม่แจ้งเตือน พร้อมปล่อยตัวตรวจจับและสคริปต์ ข้อสรุปคือควรตรวจสอบ test-time scaling เป็นห่วงโซ่ของสมมติฐาน ไม่ใช่ดูอัตราความสำเร็จเพียงอย่างเดียว ภายในขอบเขตการตั้งค่าที่ทดสอบ",
+      "source_url": "https://arxiv.org/abs/2610.41970",
+      "tech_impact": "เตือนว่าการเพิ่มคอมพิวต์ตอนอนุมานไม่ได้ช่วยเสมอไปในงานหุ่นยนต์ และความเร็วที่ได้จริงต่ำกว่าที่ FLOPs บอก จึงควรประเมินทั้งคุณภาพการตัดสินใจและความถูกต้องของตัวจำลอง",
+      "tags": [
+        "arXiv",
+        "World Action Model",
+        "Test-time Scaling",
+        "Robotics"
+      ],
+      "category_label": "ai-trends",
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Robotics",
+        "World Models",
+        "Evaluation"
+      ],
+      "actions_developer": [
+        "ตรวจสอบว่าตัวเลือกที่สร้างมีความหลากหลายพอก่อนลงทุน test-time search",
+        "วัดความเร็ว end-to-end จริง ไม่ใช้ FLOPs เพียงอย่างเดียวเป็นตัวชี้วัด"
+      ],
+      "actions_business": [
+        "ทีมหุ่นยนต์ควรทบทวนสมมติฐานก่อนเพิ่มงบคอมพิวต์สำหรับ planning",
+        "ใช้ตัวตรวจจับความเสียหายของการเรนเดอร์ที่ผู้เขียนเผยแพร่เพื่อรักษาความน่าเชื่อถือของผลทดสอบ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261104-b3-03",
+      "slug": "weight-space-programming-gpt6-qwen",
+      "title": "GPT-6 edits Qwen weights directly from natural-language spec, lifting MATH-500 from 7.9% to 48.1%",
+      "title_th": "GPT-6 แก้น้ำหนัก Qwen โดยตรงจากคำสั่งภาษาธรรมชาติ ดัน MATH-500 จาก 7.9% เป็น 48.1%",
+      "topic": "ai-trends",
+      "topic_group": "ai-trends",
+      "source_name": "Weight-Space Programming (rikiyat blog)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "บล็อกของนักวิจัยที่ระบุว่าสังกัด MIT CSAIL อธิบายงาน Weight-Space Programming ซึ่ง GPT-6 Astra อ่านและแก้น้ำหนักของโมเดลจากข้อกำหนดภาษาธรรมชาติโดยไม่ใช้ gradient descent เมื่อใช้กับ Qwen3.5-0.8B โดยแก้พารามิเตอร์เพียงราว 0.016% คะแนน MATH-500 เพิ่มจาก 7.9% เป็น 48.1% และ GSM8K เพิ่มจาก 13.8% เป็น 67.1% ข้อมูลนี้ได้จากบทสรุปของ AI Weekly ที่ชี้ไปยังบล็อกต้นฉบับ ยังไม่พบรายงานการตรวจสอบหรือผ่านการทบทวนโดยผู้เชี่ยวชาญ ผลลัพธ์จึงควรถือเป็นข้อกล่าวอ้างเบื้องต้น หากทำซ้ำได้จะเปิดทางให้โมเดลชั้นนำช่วยปรับแต่งโมเดลขนาดเล็กโดยไม่ต้องฝึกด้วยข้อมูลและ GPU จำนวนมาก แต่ยังไม่ทราบความทนทานของผลต่อชุดข้อมูลอื่น ความปลอดภัยของการแก้น้ำหนัก และต้นทุนการเรียกใช้โมเดลที่แก้",
+      "source_url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "tech_impact": "แนวคิดให้โมเดลใหญ่แก้น้ำหนักโมเดลเล็กโดยตรงอาจเป็นทางเลือกแทน fine-tuning แต่ยังเป็นข้อกล่าวอ้างจากบล็อกที่ไม่ผ่านการทบทวนและยังไม่มีการทำซ้ำอิสระ",
+      "tags": [
+        "Weight-Space Programming",
+        "GPT-6",
+        "Qwen",
+        "Model Editing"
+      ],
+      "category_label": "ai-trends",
+      "published_at": "2026-11-02T20:00:00+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "LLM",
+        "Model Editing",
+        "Research"
+      ],
+      "actions_developer": [
+        "อ่านบล็อกต้นฉบับและตรวจสอบว่ามีโค้ดหรือเกณฑ์ประเมินให้ทำซ้ำได้หรือไม่",
+        "ทดสอบผลกับชุดข้อมูลนอกการ์ด MATH-500 และ GSM8K เพื่อดูความทนทาน"
+      ],
+      "actions_business": [
+        "อย่าอ้างอิงตัวเลขนี้ในการตัดสินใจเชิงกลยุทธ์จนกว่าจะมีการยืนยันอิสระ",
+        "ติดตามความคืบหน้าของแนวทางนี้ในฐานะทางเลือกลดต้นทุน fine-tuning"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
