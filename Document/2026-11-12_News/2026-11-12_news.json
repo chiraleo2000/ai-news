@@ -1,0 +1,1315 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T09:50:14+07:00",
+  "schema_version": "combined-1.0",
+  "stats": {
+    "total": 33,
+    "by_topic": {
+      "ai_trends": 9,
+      "tech_trends": 6,
+      "thailand": 10,
+      "global": 8
+    },
+    "by_source_category": {
+      "thai": 10,
+      "international": 17,
+      "research": 6,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 5,
+      "medium": 13,
+      "low": 15
+    },
+    "breakthrough_count": 3
+  },
+  "top_insights": [
+    {
+      "title": "Google DeepMind เปิดตัว Gemini Robotics 2.5 ทำสำเร็จ 96% ในงานบรรจุชิ้นส่วนรถยนต์ที่ Mercedes-Benz",
+      "impact_summary": "VLA foundation model เริ่มให้ผลระดับใช้งานในโรงงาน ลดเวลาปรับหุ่นยนต์ต่องานใหม่จากเดือนเหลือสัปดาห์",
+      "urgency": "high",
+      "article_id": "20261112-b2-01"
+    },
+    {
+      "title": "ดีอีถก Apple สยบปม iPhone ถูกแฮก ย้ำเป็นการเตือนภัยไม่ใช่เจาะระบบสำเร็จ",
+      "impact_summary": "การโจมตีแบบ no-click บนอุปกรณ์มือถือกลายเป็นประเด็นความมั่นคงระดับชาติ องค์กรต้องมีนโยบายป้องกันอุปกรณ์ผู้บริหารและบุคคลสำคัญ",
+      "urgency": "high",
+      "article_id": "20261112-b1-01"
+    },
+    {
+      "title": "ทำไมปีนี้ถูกแฮกบ่อย? Vibe Hacking เมื่อ AI ทำให้ใครก็เจาะระบบได้",
+      "impact_summary": "Agentic AI ลดต้นทุนการโจมตีและเพิ่มความเร็ว ฝ่ายป้องกันต้องใช้ระบบอัตโนมัติและ AI ตอบโต้ในระดับเดียวกัน",
+      "urgency": "high",
+      "article_id": "20261112-b1-08"
+    },
+    {
+      "title": "Bessent ชี้สหรัฐฯ-จีนต้องมองความร่วมมือและการแข่งขัน AI อย่างชัดเจน ก่อนเปิดเวทีหารือโมเดล frontier ที่ APEC",
+      "impact_summary": "ช่องทางหารือความปลอดภัย AI สหรัฐฯ-จีนอาจกลายเป็นต้นแบบมาตรฐานการประเมินโมเดลและการรายงานเหตุร้ายแรงระดับนานาชาติ",
+      "urgency": "high",
+      "article_id": "20261112-b2-10"
+    },
+    {
+      "title": "แฮกเกอร์ที่เชื่อมโยงคาซัคสถานใช้ AI agent Hermes ขโมยเอกสารรัฐบาลทาจิกิสถานกว่า 2,000 ฉบับ",
+      "impact_summary": "AI agent โอเพนซอร์สถูกใช้ในการจารกรรมระดับรัฐจริง ระบบเอกสารอิเล็กทรอนิกส์ภาครัฐต้องยกระดับการตรวจจับพฤติกรรมอัตโนมัติ",
+      "urgency": "high",
+      "article_id": "20261112-b2-17"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261112-b1-01",
+      "slug": "de-apple-iphone-threat-alert-meeting",
+      "title": "DE Ministry meets Apple over iPhone hacking alerts, says alerts are warnings not confirmed breaches",
+      "title_th": "ดีอีถก Apple สยบปม iPhone ถูกแฮก ย้ำเป็นการเตือนภัยไม่ใช่เจาะระบบสำเร็จ",
+      "topic": "thailand",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz AI",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "ไชยชนก ชิดชอบ รัฐมนตรีว่าการกระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม (ดีอี) หารือผู้บริหารระดับ Global Senior Director ด้านนโยบายของ Apple เมื่อ 11 พ.ย. หลัง Apple ส่งการแจ้งเตือนภัยคุกคามถึงผู้ใช้ iPhone ในกว่า 150 ประเทศ รัฐมนตรีย้ำว่าการได้รับแจ้งเตือนไม่ได้แปลว่าเครื่องถูกเจาะสำเร็จ และยังไม่มีข้อมูลยืนยันว่าเกี่ยวกับสปายแวร์ Pegasus โดย Apple อ้างชื่อ Pegasus เพียงเพื่อสื่อความรุนแรงของการโจมตีแบบ no-click ที่ไม่ต้องกดลิงก์ Apple ตรวจจับจาก metadata ทางเทคนิค แต่ไม่สามารถระบุตัวเจ้าของเครื่องหรือยืนยันผลการโจมตีได้ และไม่เปิดเผยจำนวนผู้ได้รับแจ้งในไทย พร้อมแนะนำให้เปิด Lockdown Mode และรีสตาร์ทเครื่อง ด้าน สกมช. เปิดให้ประชาชนนำเครื่องมาตรวจหรือส่ง system log ให้วิเคราะห์ ดีอีเตรียมหารือผู้ให้บริการแพลตฟอร์ม ฮาร์ดแวร์ ซอฟต์แวร์ และโทรคมนาคมเพิ่มเติม รวมถึงฝั่ง Android เรื่องนี้สำคัญเพราะคำเตือนจากผู้ผลิตระดับโลกกลายเป็นประเด็นความมั่นคงระดับชาติได้อย่างรวดเร็ว",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1260276",
+      "tech_impact": "การโจมตีแบบ no-click บนอุปกรณ์มือถือกลายเป็นประเด็นความมั่นคงระดับชาติ องค์กรต้องมีนโยบายป้องกันอุปกรณ์ผู้บริหารและบุคคลสำคัญ",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Threat alert",
+        "Pegasus",
+        "DE Ministry",
+        "NCSA"
+      ],
+      "published_at": "2026-11-11T13:55:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "cybersecurity",
+        "mobile security",
+        "government"
+      ],
+      "actions_developer": [
+        "ตั้งค่า MDM ให้รองรับ Lockdown Mode และบังคับอัปเดต iOS ล่าสุดสำหรับอุปกรณ์กลุ่มเสี่ยง",
+        "เตรียมขั้นตอนเก็บ sysdiagnose/system log เพื่อส่งวิเคราะห์ต่อ สกมช. ได้ทันที"
+      ],
+      "actions_business": [
+        "กำหนดนโยบายอุปกรณ์สำหรับผู้บริหารและบุคคลสำคัญที่มีความเสี่ยงสูง",
+        "ติดตามมาตรการจากการหารือดีอีกับผู้ให้บริการแพลตฟอร์มและโทรคมนาคม"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b1-02",
+      "slug": "goverp-government-cloud-platform-launch",
+      "title": "NDESC launches GovERP, a cloud-based government management platform targeting 200 agencies",
+      "title_th": "สดช. เปิด GovERP รวมระบบบริหารรัฐบนคลาวด์ ชี้เซฟเงินได้พันล้าน ตั้งเป้าขยาย 200 หน่วยงาน",
+      "topic": "thailand",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz AI",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม (ดีอี) โดยสำนักงานคณะกรรมการดิจิทัลเพื่อเศรษฐกิจและสังคมแห่งชาติ (สดช.) เปิดตัว GovERP หรือ Government ERP Platform แพลตฟอร์มกลางบริหารทรัพยากรภาครัฐที่ทำงานบนคลาวด์กลางภาครัฐ GDCC เพื่อสร้างมาตรฐานระบบงานภายใน ลดการลงทุนไอทีซ้ำซ้อน และบริหารงบประมาณได้มีประสิทธิภาพขึ้น ระบบครอบคลุม 10 งานหลัก เช่น แผนและยุทธศาสตร์ งบประมาณ จัดซื้อจัดจ้าง พัสดุ การเงินบัญชี ทรัพยากรบุคคล และ dashboard วิเคราะห์ข้อมูล พร้อมเชื่อมต่อระบบกลางอย่าง eMENSCR, GFMIS, e-GP, DPIS และ e-Office เพื่อลดการกรอกข้อมูลซ้ำ นำร่องใน 3 หน่วยงาน ได้แก่ สำนักงานปลัดกระทรวงดีอี สดช. และสำนักงานสถิติแห่งชาติ เริ่มใช้งานจริง 16 พ.ย. 2569 คาดประหยัดงบได้ราว 1,000 ล้านบาทในระยะ 3 ปี มีแผนขยายตั้งแต่ปี 2570 และตั้งเป้าอย่างน้อย 200 หน่วยงานภายในปี 2573 นี่คือสัญญาณการเปลี่ยนไอทีภาครัฐจากระบบแยกส่วนสู่แพลตฟอร์มร่วมและมาตรฐานข้อมูลเดียวกัน",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1260244",
+      "tech_impact": "ภาครัฐไทยเปลี่ยนไปสู่แพลตฟอร์ม ERP กลางบนคลาวด์ เปิดโอกาสสำหรับผู้พัฒนาระบบเชื่อมต่อและงานวิเคราะห์ข้อมูลภาครัฐ",
+      "tags": [
+        "GovERP",
+        "GDCC",
+        "Government Cloud",
+        "NDESC",
+        "Digital Government"
+      ],
+      "published_at": "2026-11-11T11:33:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "govtech",
+        "cloud",
+        "ERP"
+      ],
+      "actions_developer": [
+        "ศึกษามาตรฐาน API และการเชื่อมต่อของ GovERP กับ GFMIS/e-GP เพื่อรองรับงาน integration",
+        "ออกแบบ data pipeline และ dashboard ที่ใช้ข้อมูลมาตรฐานเดียวกันข้ามหน่วยงาน"
+      ],
+      "actions_business": [
+        "ผู้ให้บริการไอทีภาครัฐควรปรับโมเดลจากขายระบบแยกเป็นบริการเสริมบนแพลตฟอร์มกลาง",
+        "ติดตามผลนำร่องเพื่อวางแผนเข้าร่วมเฟสขยายปี 2570"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b1-03",
+      "slug": "meta-ai-removes-65m-scam-ads",
+      "title": "Meta uses AI against online crime, removing 65 million scam ads in the first half of 2026",
+      "title_th": "Meta ใช้เอไอรับมืออาชญากรรมออนไลน์ ลบโฆษณาหลอกลวง 65 ล้านรายการในครึ่งปี 69",
+      "topic": "thailand",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz AI",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Meta เปิดเผยในงาน Global Anti-Scam Summit Asia 2026 ที่กรุงเทพฯ ว่าครึ่งแรกของปี 2026 บริษัทลบโฆษณาหลอกลวงบน Facebook และ Instagram ไปมากกว่า 65 ล้านรายการ โดย 94% ถูกระบบตรวจจับก่อนมีผู้ใช้รายงาน แนวทางของ Meta มี 4 ด้าน คือ ใช้ AI ตรวจพฤติกรรมผิดปกติและความน่าเชื่อถือของบัญชี การแจ้งเตือนผู้ใช้ เช่น เตือนคำขอเป็นเพื่อนที่น่าสงสัยบน Facebook ให้ AI ตรวจข้อความบน Messenger และพัฒนา Scam Alert บน WhatsApp การสืบสวนเครือข่าย โดยปี 2025 ปิดบัญชีที่เชื่อมโยงศูนย์สแกม 10.9 ล้านบัญชีบน Facebook และ Instagram และ 6.8 ล้านบัญชีบน WhatsApp รวมถึงร่วมปฏิบัติการกับ 14 บริษัทเทคและ 10 หน่วยงานบังคับใช้กฎหมายจนลบบัญชีและเพจ 3.7 ล้านรายการ และจับกุม 28 ราย ส่วนแคมเปญ One Step Ahead ใน 18 ประเทศรวมไทยเข้าถึงคน 439 ล้านคน ประเด็นสำคัญคือเครือข่ายสแกมข้ามแพลตฟอร์มและพรมแดน การตรวจจับต้องเกิดก่อนผู้เสียหายสูญเงิน",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1260295",
+      "tech_impact": "แพลตฟอร์มใหญ่ใช้ AI กรองโฆษณาหลอกลวงเชิงรุก แต่มิจฉาชีพย้ายไปช่องทางแชตส่วนตัว การป้องกันต้องร่วมมือข้ามภาคส่วน",
+      "tags": [
+        "Meta",
+        "Scam ads",
+        "AI detection",
+        "WhatsApp",
+        "GASA"
+      ],
+      "published_at": "2026-11-11T15:22:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "fraud",
+        "platform safety",
+        "social media"
+      ],
+      "actions_developer": [
+        "นำโมเดลตรวจจับพฤติกรรมบัญชีผิดปกติมาใช้กับแพลตฟอร์มโฆษณาหรือ marketplace ของตนเอง",
+        "รองรับ passkey และ 2FA เป็นค่าเริ่มต้นในแอปที่มีธุรกรรมการเงิน"
+      ],
+      "actions_business": [
+        "ร่วมแลกเปลี่ยนข้อมูลภัยกับเครือข่ายอย่าง GASA และหน่วยงานรัฐ",
+        "ทบทวนการลงโฆษณาและตรวจสอบตัวตนผู้ลงโฆษณาเพื่อป้องกันการแอบอ้างแบรนด์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b1-04",
+      "slug": "robinhood-sky-ict-tta-acquisition",
+      "title": "Robinhood changes hands again as Sky ICT and TTA reportedly invest 100 million baht to buy the app's assets",
+      "title_th": "Robinhood เปลี่ยนมือรอบใหม่! สกาย ไอซีที-TTA ทุ่ม 100 ล้าน ซื้อทรัพย์สินรีสตาร์ทแอปฯ",
+      "topic": "thailand",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz AI",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "แหล่งข่าวเผยว่า บมจ.สกาย ไอซีที (SKY) และ บมจ.โทรีเซนไทย เอเยนซีส์ (TTA) เตรียมร่วมกันซื้อทรัพย์สินทางปัญญาของ Robinhood แพลตฟอร์มส่งอาหารสัญชาติไทย ทั้งซอฟต์แวร์และเครื่องหมายการค้า มูลค่าราว 100 ล้านบาท เพื่อรีสตาร์ทแพลตฟอร์มภายใต้กลุ่มทุนใหม่ โดยมีสัดส่วนถือหุ้นที่เสนอคือ SKY 45% TTA 45% และธนาคารไทยพาณิชย์ (SCB) 10% ซึ่งบอร์ด SCB อนุมัติแนวทางแล้ว คาดลงนามภายในสิ้นเดือน พ.ย. 2569 และเริ่มดำเนินธุรกิจในเดือน ธ.ค. ขณะที่ซีอีโอ SKY ระบุว่าจะเสนอบอร์ดพิจารณาและจะแถลงอย่างเป็นทางการเมื่อมีความชัดเจน ก่อนหน้านี้ในเดือน ก.ย. 2567 SCBX ขาย Purple Ventures ผู้ให้บริการ Robinhood ให้กลุ่มยิบอินซอยในมูลค่าสูงสุด 2,000 ล้านบาท และรายงานระบุว่ากลุ่มยิบอินซอยมีต้นทุนและผลขาดทุนสะสมกว่า 500 ล้านบาท ดีลนี้เป็นการเปลี่ยนมือครั้งที่สอง สะท้อนความยากของการแข่งขันกับ Grab และ LINE MAN ที่มีฐานลูกค้าและเงินทุนมากกว่า ยังไม่มีการยืนยันอย่างเป็นทางการ ณ เวลาที่รายงาน",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1260365",
+      "tech_impact": "แพลตฟอร์มดิจิทัลสัญชาติไทยยังต้องการทุนต่อเนื่องเพื่อแข่งกับผู้เล่นระดับภูมิภาค การเปลี่ยนเจ้าของอาจเปลี่ยนทิศทางเทคโนโลยีและพันธมิตร",
+      "tags": [
+        "Robinhood",
+        "SKY ICT",
+        "TTA",
+        "SCB",
+        "Food delivery"
+      ],
+      "published_at": "2026-11-11T20:12:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "food delivery",
+        "platform",
+        "M&A"
+      ],
+      "actions_developer": [
+        "เตรียมแผน migration ของระบบและ API กรณีแพลตฟอร์มเปลี่ยนเจ้าของ",
+        "ประเมินโอกาสเชื่อมระบบโลจิสติกส์และการเดินทางเข้ากับแพลตฟอร์มส่งอาหาร"
+      ],
+      "actions_business": [
+        "ร้านค้าและพาร์ตเนอร์ควรติดตามเงื่อนไขค่า GP และสัญญาภายใต้เจ้าของใหม่",
+        "นักลงทุนควรรอประกาศอย่างเป็นทางการจาก SKY และ TTA ก่อนตัดสินใจ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b1-05",
+      "slug": "humanoid-robots-factory-capabilities-limits-2026",
+      "title": "How much can robots really do in 2026? Capabilities and limits in factories",
+      "title_th": "ปี 2569 หุ่นยนต์ทำงานได้จริงแค่ไหน? เปิดความสามารถและข้อจำกัดในโรงงาน",
+      "topic": "thailand",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz AI",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "กรุงเทพธุรกิจวิเคราะห์ว่าปี 2569 หุ่นยนต์ฮิวแมนนอยด์เริ่มทำงานจริงในคลังสินค้าและโรงงานรถยนต์ แต่ยังจำกัดในงานที่กำหนดขั้นตอนชัดเจน เช่น ย้ายลังสินค้าและป้อนชิ้นส่วนเข้าจิ๊ก ตัวอย่างแรกคือ Digit ของ Agility Robotics ที่คลัง GXO ในจอร์เจีย ทำงานแบบ Robots-as-a-Service ย้ายลังไปแล้วกว่า 100,000 ลัง และทำงานกว่า 65,000 ชั่วโมง ตัวอย่างที่สองคือ Figure 02 ที่โรงงาน BMW Spartanburg ช่วยผลิต BMW X3 กว่า 30,000 คันใน 10 เดือน จัดการชิ้นส่วนกว่า 90,000 ชิ้น ก่อนเพิ่ม Figure 03 คัดแยกชิ้นส่วน ส่วน Atlas, Apollo, Optimus และ UBTech Walker S2 ยังอยู่ระดับนำร่องหรือยังไม่เปิดตัวเลขใช้งาน บทความประเมินจากสมมติฐานว่าหุ่นยนต์ทำได้ราว 140 กล่องต่อชั่วโมง เทียบคนราว 300 กล่อง และเตือนว่าระบบความปลอดภัยต้องผ่านการรับรองจริง ข้อสรุปคือยังไม่มีหลักฐานชัดว่าฮิวแมนนอยด์แทนแรงงานโดยตรง การประเมินคุ้มค่าต้องดู uptime ความผิดพลาด และการเชื่อมกับระบบอัตโนมัติเดิม",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1260303",
+      "tech_impact": "ฮิวแมนนอยด์เหมาะกับงานซ้ำในพื้นที่ที่ออกแบบสำหรับคน แต่ยังช้ากว่าคนราวสองเท่า ผู้ผลิตไทยควรเริ่มจากนำร่องเล็กและวัดต้นทุนต่อชิ้น",
+      "tags": [
+        "Humanoid robot",
+        "Agility Digit",
+        "Figure",
+        "BMW",
+        "Manufacturing"
+      ],
+      "published_at": "2026-11-12T09:15:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "robotics",
+        "manufacturing",
+        "logistics"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ ROS 2 และระบบ shadow mode ก่อนเชื่อมหุ่นยนต์เข้ากับ WMS/MES จริง",
+        "ออกแบบระบบ safety supervisor ที่ผ่านมาตรฐานรับรองแทนโค้ดตัวอย่าง"
+      ],
+      "actions_business": [
+        "ประเมินโมเดล Robots-as-a-Service เทียบการลงทุน AMR หรือแขนกลแบบติดตั้งถาวร",
+        "วัด KPI ต้นทุนต่อกล่อง uptime และเวลาแทรกแซงของคนก่อนขยายผล"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b1-06",
+      "slug": "siam-piwat-amity-ai-service-robot",
+      "title": "Siam Piwat and Amity Robotics launch a 7-language AI service robot at Siam Paragon",
+      "title_th": "สยามพิวรรธน์จับมือ Amity Robotics เปิดตัวหุ่นยนต์บริการ AI พูดได้ 7 ภาษาที่สยามพารากอน",
+      "topic": "thailand",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "สยามพิวรรธน์ ผู้พัฒนาศูนย์การค้าสยามพารากอน สยามเซ็นเตอร์ สยามดิสคัฟเวอรี่ และสยาม พรีเมียม เอาท์เล็ต กรุงเทพ ร่วมกับ Amity Robotics เปิดตัว Amity Robot Concierge หรือ ARC Move หุ่นยนต์บริการ AI นำร่องที่สยามพารากอนตั้งแต่ 2 พ.ย. 2569 ซึ่งระบุว่าเป็นการใช้งานลักษณะนี้ครั้งแรกในไทย หุ่นยนต์ช่วยลูกค้าค้นหาร้านค้า จุดบริการ และข้อมูลพื้นฐานของศูนย์ รองรับ 7 ภาษา ได้แก่ ไทย อังกฤษ จีน เกาหลี ญี่ปุ่น รัสเซีย และอาหรับ เพื่อรองรับนักท่องเที่ยวต่างชาติ แผนต่อไปคือพาลูกค้าเดินไปยังร้านหรือพื้นที่ที่ต้องการ และช่วยสมัครสมาชิก ONESIAM SuperApp Axel Winter ประธานเจ้าหน้าที่ฝ่ายดิจิทัลของสยามพิวรรธน์ วางกลยุทธ์ AI บนแนวคิด Hyper-Personalization และความเป็นเลิศด้านปฏิบัติการ ขณะที่ฝั่ง Amity ย้ำว่าหุ่นยนต์มาเสริมพนักงานไม่ใช่แทนที่ กรณีนี้สะท้อนการนำ AI แบบมีร่างกายเข้าสู่ค้าปลีกไทยเพื่อยกระดับประสบการณ์ลูกค้าและเก็บข้อมูลพฤติกรรมเชื่อมกับแอปสมาชิก",
+      "source_url": "https://techsauce.co/pr-news/siam-piwat-amity-robotics-ai-service",
+      "tech_impact": "ค้าปลีกไทยเริ่มใช้ embodied AI หน้าร้าน เชื่อมกับ super app เพื่อสร้าง hyper-personalization และรองรับนักท่องเที่ยวหลายภาษา",
+      "tags": [
+        "Siam Piwat",
+        "Amity Robotics",
+        "Service robot",
+        "Siam Paragon",
+        "Retail AI"
+      ],
+      "published_at": "2026-11-11T12:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "retail",
+        "robotics",
+        "customer experience"
+      ],
+      "actions_developer": [
+        "พัฒนา multilingual voice agent ที่เชื่อมกับฐานข้อมูลร้านค้าและแผนที่ในอาคารแบบ real-time",
+        "ออกแบบ API ให้หุ่นยนต์ส่งต่อการสมัครสมาชิกเข้าสู่ super app อย่างปลอดภัยตาม PDPA"
+      ],
+      "actions_business": [
+        "วัดผล KPI เช่น จำนวนการใช้งาน ความพึงพอใจ และอัตราสมัครสมาชิกจากหุ่นยนต์",
+        "ศึกษาโมเดลหุ่นยนต์บริการสำหรับโรงแรม โรงพยาบาล และสนามบิน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b1-07",
+      "slug": "tnn-tech-forum-2026-ai-warfare",
+      "title": "TNN Tech Forum 2026 'AI Warfare' examines Thailand's position in the AI race",
+      "title_th": "TNN Tech Forum 2026 'AI Warfare' ชี้ทางรอดไทยในสงคราม AI และอธิปไตยทางเทคโนโลยี",
+      "topic": "thailand",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "TNN Tech ภายใต้ TNN ช่อง 16 จัดงาน TNN Tech Forum 2026 ในหัวข้อ AI Warfare: The Race for Humanity เป็นปีที่สามติดต่อกัน ที่ True Digital Park West มีผู้ลงทะเบียนเกือบ 1,000 คน วิทยากรกว่า 16 คนบน 9 เวที ประเด็นสำคัญได้แก่ AI กับข้อมูลดาวเทียมและเศรษฐกิจอวกาศโดย GISTDA การเปลี่ยนสู่องค์กร AI-first ของ SCB 10X และโมเดลภาษาไทย Typhoon รวมถึงเวที Thailand's Path Towards AI Sovereignty โดย ศ.ดร.ยศชนัน วงศ์สวัสดิ์ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวง อว. ที่พูดถึง Brain Initiative และเทคโนโลยี Brain-Computer Interface (BCI) นอกจากนี้ยังมีเวที Defense Tech เรื่องห่วงโซ่อุปทานเทคโนโลยีป้องกันประเทศ เวทีบริษัทคนเดียวที่ใช้ทีม AI agent และ workshop AI Agent Orchestration ที่เต็มอย่างรวดเร็ว ข้อสรุปของงานคือ AI ไม่ใช่แค่เครื่องมือ แต่เป็นการแข่งขันที่ไทยต้องลงทุนด้านการศึกษา โมเดลภาษาของตนเอง และอธิปไตยทางเทคโนโลยี เพื่อไม่ให้ตกเป็นเพียงผู้ใช้",
+      "source_url": "https://techsauce.co/pr-news/thailand-ai-sovereignty-tnn-tech-forum-2026",
+      "tech_impact": "วาระ AI sovereignty และ LLM ภาษาไทยได้รับแรงหนุนจากภาครัฐระดับรองนายกฯ เปิดโอกาสให้ผู้พัฒนาโมเดลและ AI agent ในประเทศ",
+      "tags": [
+        "TNN Tech Forum",
+        "AI Sovereignty",
+        "Typhoon",
+        "Defense tech",
+        "BCI"
+      ],
+      "published_at": "2026-11-11T12:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI policy",
+        "LLM",
+        "defense tech"
+      ],
+      "actions_developer": [
+        "ทดลองใช้โมเดลภาษาไทยอย่าง Typhoon ใน use case ที่ต้องการความเข้าใจบริบทไทย",
+        "ฝึกทักษะ AI agent orchestration สำหรับสร้างทีม agent ในงานจริง"
+      ],
+      "actions_business": [
+        "พิจารณาใช้ LLM ภาษาไทยเพื่อลดการพึ่งพาโมเดลต่างประเทศในข้อมูลอ่อนไหว",
+        "ติดตามนโยบาย อว. ด้าน AI sovereignty และ BCI เพื่อหาโอกาสร่วมวิจัย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b1-08",
+      "slug": "vibe-hacking-agentic-ai-cyberattacks",
+      "title": "Why hacks are surging this year: 'vibe hacking' lets anyone break in with AI",
+      "title_th": "ทำไมปีนี้ถูกแฮกบ่อย? Vibe Hacking เมื่อ AI ทำให้ใครก็เจาะระบบได้",
+      "topic": "thailand",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Techsauce วิเคราะห์ว่า AI โดยเฉพาะ Agentic AI ทำให้การโจมตีไซเบอร์ถี่ เร็ว และใช้ทักษะต่ำลง เรียกว่า Vibe Hacking คำที่ Anthropic ตั้งขึ้นในเดือน ส.ค. 2025 คู่กับ Vibe Coding ของ Andrej Karpathy บทความยกเหตุการณ์ปี 2026 เช่น Binance ที่เงินราว 6,300 ล้านดอลลาร์ถูกโอนออกในเวลาไม่ถึงชั่วโมง โดยการสืบสวนเบื้องต้นชี้ว่าเริ่มจากแล็ปท็อปวิศวกรถูกเจาะโดยกลุ่ม TraderTraitor ของเกาหลีเหนือ ธนาคาร Crédit Mutuel Arkéa ในฝรั่งเศสเสียหายราว 100 ล้านยูโร แม้ยังสรุปไม่ได้ว่าใช้ AI มากเพียงใด กรณีที่มีเอกสารยืนยันคือการใช้ Claude Code โจมตี 17 องค์กรในปี 2025 และแคมเปญจารกรรมที่ AI ทำงานแทนคน 80–90% โดยคนอนุมัติเพียง 4–6 ขั้นตอน ปัจจัยหลักคือกำแพงทักษะต่ำลง ความเร็วเกินมนุษย์ และขยายขนาดได้ไม่จำกัด ขณะที่ฝ่ายป้องกันต้องปิดทุกช่องโหว่ แต่ผู้โจมตีต้องการเพียงช่องเดียว ทำให้องค์กรต้องใช้ AI ป้องกันแบบอัตโนมัติเช่นกัน",
+      "source_url": "https://techsauce.co/news/vibe-hacking-ai-cybersecurity-anthropic",
+      "tech_impact": "Agentic AI ลดต้นทุนการโจมตีและเพิ่มความเร็ว ฝ่ายป้องกันต้องใช้ระบบอัตโนมัติและ AI ตอบโต้ในระดับเดียวกัน",
+      "tags": [
+        "Vibe hacking",
+        "Agentic AI",
+        "Cyberattack",
+        "Binance",
+        "Anthropic"
+      ],
+      "published_at": "2026-11-11T12:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "cybersecurity",
+        "AI agents",
+        "fintech"
+      ],
+      "actions_developer": [
+        "ปกป้องเครื่องนักพัฒนาด้วย EDR และจำกัดการติดตั้งแพ็กเกจจากแหล่งที่ไม่ผ่าน allowlist",
+        "ใช้ AI ช่วย triage และ automated response ใน SOC เพื่อตอบสนองระดับวินาที"
+      ],
+      "actions_business": [
+        "แยกสิทธิ์ hot wallet หรือระบบโอนเงินมูลค่าสูงด้วย multi-party approval",
+        "ซ้อมแผนรับมือเหตุที่สมมติว่าผู้โจมตีใช้ AI agent"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b1-09",
+      "slug": "netflix-ai-discover-mood-recommendations",
+      "title": "Netflix tests AI Discover, a tab that recommends titles by mood",
+      "title_th": "Netflix ทดสอบแท็บ AI Discover เลือกหนังตามอารมณ์ด้วย AI",
+      "topic": "thailand",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "Netflix เริ่มทดสอบแท็บใหม่ชื่อ AI Discover บนแอปทีวี เพื่อช่วยผู้ชมเลือกสิ่งที่จะดูตามอารมณ์ ณ ขณะนั้น แทนการเลื่อนดูแถวหมวดหมู่จนหมดเวลา ฟีเจอร์เปิดให้สมาชิกกลุ่มเล็กในสหรัฐฯ บนทีวีที่รองรับและใช้ภาษาอังกฤษ และจะขยายในอีกไม่กี่สัปดาห์ ยังไม่มีกำหนดสำหรับตลาดอื่น ผู้ใช้เลือกจากธีมพร้อมคลิปตัวอย่าง เช่น Something Light, Scare Me, Family Movie Night และ Quick Watches แล้วเจาะลึกต่อหรือกด Something Different เพื่อรับชุดคำแนะนำใหม่ทั้งหมด AI ช่วยสร้างธีมและอธิบายเหตุผลที่แนะนำแต่ละเรื่อง ทุกเรื่องมีปุ่ม Tune Your Recommendations ให้บันทึกหรือปฏิเสธ และระบบจะจำการตั้งค่า เบื้องหลังคือ Intelligence Layer ใหม่ที่ปรับคำแนะนำแบบ real-time จากสิ่งที่ผู้ใช้บอก ต่างจากระบบเดิมที่อาศัยสัญญาณอย่าง thumbs-up และ My List Netflix เรียกฟีเจอร์นี้ว่า test kitchen และจะใช้ผลการใช้งานตัดสินว่าจะย้ายฟีเจอร์ใดไปหน้าหลัก สะท้อนการเปลี่ยนระบบแนะนำจากพฤติกรรมในอดีตสู่การสนทนาและบริบทปัจจุบัน",
+      "source_url": "https://techsauce.co/ai/netflix-ai-discover-mood-based-recommendations",
+      "tech_impact": "ระบบแนะนำกำลังเปลี่ยนจาก implicit signals สู่ intent ที่ผู้ใช้บอกตรงๆ ผ่าน AI แพลตฟอร์มคอนเทนต์ควรเตรียม intelligence layer แบบ real-time",
+      "tags": [
+        "Netflix",
+        "AI Discover",
+        "Recommendation",
+        "Streaming",
+        "Personalization"
+      ],
+      "published_at": "2026-11-11T12:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "recommendation systems",
+        "media",
+        "UX"
+      ],
+      "actions_developer": [
+        "ทดลองสร้าง recommendation ที่ผสม LLM สร้างธีมกับ ranking model เดิม",
+        "เก็บ explicit feedback แบบปฏิเสธ/บันทึก เพื่อปรับ personalization แบบ real-time"
+      ],
+      "actions_business": [
+        "แพลตฟอร์มสตรีมมิงไทยควรพิจารณา UX เลือกตามอารมณ์เพื่อเพิ่ม engagement",
+        "ใช้แนวทาง test kitchen ทดสอบฟีเจอร์ AI กับกลุ่มเล็กก่อนขยาย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b1-10",
+      "slug": "nvidia-b300-china-moonshot-ai",
+      "title": "How Nvidia B300 chips allegedly reached China and ended up powering Moonshot AI",
+      "title_th": "เปิดเส้นทางชิป Nvidia B300 สู่จีน สุดท้ายไปรันให้ Moonshot AI",
+      "topic": "thailand",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Techsauce สรุปรายงานของ Bloomberg ลงวันที่ 10 พ.ย. 2026 ว่าเอกสารเงินกู้แสดงให้เห็นเซิร์ฟเวอร์ Nvidia B300 ซึ่งไม่ได้รับอนุญาตส่งออกไปจีน ถูกใช้โดย Moonshot AI ผู้พัฒนาแชตบอต Kimi ผ่านห่วงโซ่ตัวกลาง สัญญากู้ 2 ฉบับลงวันที่ 6 ส.ค. 2026 จาก Beijing Zhongguancun Bank มูลค่า 200 ล้านหยวน ผู้กู้คือ Lingmeixin Technology บริษัทเล็กที่แทบไม่มีประสบการณ์ดาต้าเซ็นเตอร์ ใช้เซิร์ฟเวอร์ B300 จำนวน 32 เครื่องในเมือง Qingyang ทางตะวันตกของจีนเป็นหลักประกัน พร้อมสัญญาให้เช่าแก่ Moonshot มูลค่ากว่า 345 ล้านหยวน เซิร์ฟเวอร์ประเมินมูลค่ารวม 432 ล้านหยวน หรือเฉลี่ยราว 2 ล้านดอลลาร์ต่อเครื่อง สูงกว่าราคาทางการราว 3.5 เท่า โดย Moonshot ไม่ได้เป็นเจ้าของชิปแต่เช่าใช้กำลังประมวลผล SemiAnalysis ประเมินว่าชิป AI ขั้นสูงหลายแสนตัวหลุดเข้าจีนผ่านช่องโหว่ห่วงโซ่อุปทาน หลัง Bloomberg สอบถาม ชื่อ Moonshot หายไปจากฐานข้อมูลสินเชื่อ ประเด็นนี้กดดันให้สหรัฐฯ เข้มงวดการควบคุมชิปมากขึ้น",
+      "source_url": "https://techsauce.co/ai/how-nvidia-b300-chips-smuggled-to-china-moonshot-ai",
+      "tech_impact": "การหลุดของชิป AI ผ่านโมเดลเช่า compute ทำให้มาตรการส่งออกถูกกดดันให้เข้มขึ้น ผู้ให้บริการคลาวด์ในภูมิภาคต้องตรวจ KYC ลูกค้าเข้มงวด",
+      "tags": [
+        "Nvidia B300",
+        "Moonshot AI",
+        "Export control",
+        "China",
+        "Kimi"
+      ],
+      "published_at": "2026-11-11T12:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "semiconductors",
+        "export control",
+        "geopolitics"
+      ],
+      "actions_developer": [
+        "ผู้ให้บริการ GPU cloud ควรเพิ่ม KYC และบันทึกการใช้งานของลูกค้าปลายทาง",
+        "ติดตามข้อกำหนด chip-tracking ที่อาจกระทบการจัดซื้อฮาร์ดแวร์"
+      ],
+      "actions_business": [
+        "ดาต้าเซ็นเตอร์ไทยควรตรวจ compliance ด้าน export control ก่อนรับลูกค้าต่างชาติ",
+        "ประเมินความเสี่ยงซัพพลายเชนเซิร์ฟเวอร์ AI หากสหรัฐฯ คุมเข้มเพิ่ม"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-01",
+      "slug": "gemini-robotics-2-5-release",
+      "title": "Google DeepMind releases Gemini Robotics 2.5 with 96% success packing auto parts at Mercedes-Benz",
+      "title_th": "Google DeepMind เปิดตัว Gemini Robotics 2.5 ทำสำเร็จ 96% ในงานบรรจุชิ้นส่วนรถยนต์ที่ Mercedes-Benz",
+      "topic": "ai-trends",
+      "topic_group": "ai-trends",
+      "source_name": "Google DeepMind",
+      "category": "International",
+      "urgency": "high",
+      "content": "Google DeepMind เปิดตัว Gemini Robotics 2.5 โมเดล vision-language-action (VLA) ที่ระบุว่าสามารถที่สุดของบริษัท ทำหน้าที่เป็นสมองให้หุ่นยนต์ เน้น 3 ด้านคือ ความคล่องแคล่ว ความน่าเชื่อถือ และความปลอดภัย จับเครื่องมือและวัตถุนิ่มหรือเปราะบางได้ดีขึ้น DeepMind ระบุว่าโมเดล Gemini 4 Argon ที่เปิดตัวปลายเดือน ก.ย. ช่วยเร่งงานพัฒนา และทดสอบกับงานกว่า 200 ประเภท อัตราสำเร็จเพิ่มขึ้น 30% ถึง 100% แล้วแต่งาน และทำงานเร็วขึ้น 20–30% จากรุ่นก่อน ในการทดสอบ proof-of-concept ที่ Mercedes-Benz หุ่นยนต์ Apollo 2 ของ Apptronik บรรจุชิ้นส่วนรถยนต์สำเร็จ 96% ด้านความปลอดภัยเพิ่ม physical steerability และ benchmark ทดสอบ jailbreak ใหม่ รองรับหุ่นยนต์หลายแบบรวมถึง Franka Duo และเริ่มทยอยส่งให้พันธมิตร เช่น Agile Robots SE, Apptronik และ Boston Dynamics Jeff Cardenas ซีอีโอ Apptronik ระบุว่าโมเดลดีขึ้นชัดหลัง post-training เพียงไม่กี่สัปดาห์ นี่คือสัญญาณว่า foundation model สำหรับหุ่นยนต์เริ่มเข้าสู่สายการผลิตจริง",
+      "source_url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/",
+      "tech_impact": "VLA foundation model เริ่มให้ผลระดับใช้งานในโรงงาน ลดเวลาปรับหุ่นยนต์ต่องานใหม่จากเดือนเหลือสัปดาห์",
+      "tags": [
+        "Gemini Robotics 2.5",
+        "VLA",
+        "Apptronik",
+        "Mercedes-Benz",
+        "Boston Dynamics"
+      ],
+      "published_at": "2026-11-11T11:30:00-05:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "robotics",
+        "foundation models",
+        "manufacturing"
+      ],
+      "actions_developer": [
+        "ศึกษา post-training VLA model กับข้อมูลงานเฉพาะของโรงงานผ่านพันธมิตรฮาร์ดแวร์",
+        "ออกแบบชุดทดสอบ safety และ jailbreak สำหรับคำสั่งหุ่นยนต์ทางกายภาพ"
+      ],
+      "actions_business": [
+        "ผู้ผลิตยานยนต์และชิ้นส่วนไทยควรติดตาม proof-of-concept ลักษณะนี้เพื่อวางแผนนำร่อง",
+        "ประเมินความคุ้มค่าเทียบระบบอัตโนมัติแบบเดิมสำหรับงาน kitting และ packing"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-02",
+      "slug": "alphagenome-2-release",
+      "title": "Google DeepMind ships AlphaGenome 2 with single-cell resolution and doubled causal-variant detection",
+      "title_th": "DeepMind เปิดตัว AlphaGenome 2 อ่าน DNA ระดับเซลล์ ตรวจหา causal variant ได้ราวสองเท่า",
+      "topic": "ai-trends",
+      "topic_group": "ai-trends",
+      "source_name": "Google DeepMind",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Google DeepMind เปิดตัว AlphaGenome 2 โมเดล AI รุ่นใหม่ที่ทำนายว่าลำดับ DNA และการกลายพันธุ์ส่งผลต่อเซลล์มนุษย์แต่ละชนิดอย่างไร จุดเด่นคือความละเอียดระดับชนิดและสถานะของเซลล์ ซึ่งอาจเผยผลที่เกี่ยวกับโรคที่โมเดลระดับเนื้อเยื่อมองไม่เห็น โมเดลฝึกบนข้อมูลจาก Human Cell Atlas กว่า 107 ล้านโปรไฟล์เซลล์ใน 68 เนื้อเยื่อ ทำนาย gene expression, histone modification และ chromatin accessibility เหมือนรุ่นแรก และเพิ่ม DNA methylation ในการทดสอบ TenK10K ตรวจหา causal variant ได้ 30% เทียบ 16% ของ AlphaGenome 1 ศาสตราจารย์ Sarah Teichmann ผู้ร่วมก่อตั้ง Human Cell Atlas ระบุว่าโมเดลปรับตัวกับข้อมูล single-cell ใหม่ได้โดยไม่ต้องฝึกซ้ำ และทำงานได้แม้ตัวอย่างน้อยมาก เปิดให้ใช้ผ่าน API สำหรับงานวิจัยที่ไม่ใช่เชิงพาณิชย์ DeepMind ย้ำว่าผลทำนายใช้ชี้นำการวิจัย ไม่ใช่ทดแทนการทดลอง และไม่ได้รับอนุมัติสำหรับการวินิจฉัยทางคลินิก นี่คือก้าวสำคัญของ AI ในการค้นหาสาเหตุทางพันธุกรรมของโรค",
+      "source_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "tech_impact": "AI ด้านจีโนมิกส์ก้าวสู่ความละเอียดระดับเซลล์ ช่วยเร่งการค้นหาเป้ายาและกลไกโรค แต่ยังต้องยืนยันด้วยการทดลอง",
+      "tags": [
+        "AlphaGenome 2",
+        "Genomics",
+        "Human Cell Atlas",
+        "Biology AI",
+        "DeepMind"
+      ],
+      "published_at": "2026-11-11T09:00:00-05:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "genomics",
+        "healthcare AI",
+        "biology"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ AlphaGenome 2 API กับข้อมูล variant ในงานวิจัยที่ไม่ใช่เชิงพาณิชย์",
+        "สร้าง pipeline เทียบผลทำนายกับข้อมูล single-cell ของประชากรเอเชีย"
+      ],
+      "actions_business": [
+        "สถาบันวิจัยและโรงพยาบาลไทยควรประเมินการใช้ในงาน precision medicine",
+        "ติดตามเงื่อนไขการใช้เชิงพาณิชย์สำหรับบริษัทยาและไบโอเทค"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-03",
+      "slug": "aws-emulator-agents-built-sandbox",
+      "title": "Werner Vogels unveils AWS Emulator, a 200-service local sandbox built entirely by AI agents",
+      "title_th": "Werner Vogels เปิดตัว AWS Emulator แซนด์บ็อกซ์จำลอง 200 บริการ AWS ที่ AI agent เขียนเองทั้งหมด",
+      "topic": "tech-trends",
+      "topic_group": "tech-trends",
+      "source_name": "Amazon / All Things Distributed",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Werner Vogels ซีทีโอของ Amazon เปิดตัว AWS Emulator สำเนาจำลองในเครื่องของบริการ AWS กว่า 200 บริการ สร้างจาก API model กว่า 400 รายการ ให้ coding agent ทดสอบโค้ดได้ฟรีและออฟไลน์บนเครื่องนักพัฒนา จุดเด่นคือโค้ดทั้งหมดเขียนและทดสอบโดย AI agent และเผยแพร่แบบ CC0 เป็นสาธารณสมบัติบน GitHub พร้อมประวัติ commit และ issue ที่ agent เปิดเอง แนวคิดเริ่มจาก Matt Goldberg ที่สั่ง Kiro เพียงครั้งเดียวจนได้ emulator ของ Amazon SQS ที่ใช้ได้ในราว 15 นาที วิธีทำคือใช้ API model ที่เขียนด้วย Smithy เป็นสเปก สร้าง fidelity test ที่ผ่านกับ AWS จริงก่อน แล้วให้ agent สร้างจนผ่านชุดทดสอบเดียวกัน ทุกการเปลี่ยนแปลงต้องผ่าน merge gate ที่มี security agent ตรวจแบบ adversarial บทความรับเชิญของ Swami Sivasubramanian เล่าว่า agent ที่ไม่มีสเปกไม่มีความคืบหน้าใน 4 คืน แต่เมื่อมีสเปกและสภาพแวดล้อมทดสอบใช้เพียงราว 2 ชั่วโมง ข้อสรุปคือบทบาทวิศวกรจะเปลี่ยนไปสู่การเขียนสเปก ชุดทดสอบ และ guardrail",
+      "source_url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+      "tech_impact": "Infrastructure จำลองในวง coding loop ทำให้ agent ตรวจงานตัวเองได้ บทบาทวิศวกรย้ายไปสู่สเปก ชุดทดสอบ และ merge gate",
+      "tags": [
+        "AWS Emulator",
+        "Kiro",
+        "Coding agents",
+        "Werner Vogels",
+        "Open source"
+      ],
+      "published_at": "2026-11-11T08:00:00-08:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "developer tools",
+        "cloud",
+        "AI agents"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ AWS Emulator ใน CI เพื่อให้ coding agent ทดสอบ integration โดยไม่เสียค่า cloud",
+        "เขียน fidelity test ที่ยืนยันกับระบบจริงก่อนให้ agent สร้างโค้ด"
+      ],
+      "actions_business": [
+        "ปรับกระบวนการพัฒนาให้วิศวกรเน้นสเปกและ quality gate แทนการเขียนโค้ดทุกบรรทัด",
+        "ลดต้นทุนสภาพแวดล้อมทดสอบ cloud ด้วย emulator แบบ local"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-04",
+      "slug": "united-airlines-blocks-ai-agents",
+      "title": "United Airlines moves to block personal AI agents from booking flights",
+      "title_th": "United Airlines สั่งบล็อก AI agent ส่วนตัวไม่ให้จองเที่ยวบิน เป็นสายการบินสหรัฐฯ รายแรก",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "Skift",
+      "category": "International",
+      "urgency": "medium",
+      "content": "United Airlines ประกาศเมื่อ 11 พ.ย. ว่าจะจำกัดการเข้าถึงของ AI agent จากบุคคลที่สาม ทั้งบนแพลตฟอร์มดิจิทัลของตนเองและผ่าน online travel agency หรือ aggregator นับเป็นสายการบินสหรัฐฯ รายแรกที่ประกาศชัดเจน โดยระบุว่าจะห้ามการใช้ personal AI agent หรือผู้ช่วยที่ไม่ได้รับอนุญาต เหตุผลมี 3 ข้อ คือ การแชร์รหัสผ่านบัญชีให้ agent อาจทำให้ข้อมูลอ่อนไหวรั่วไหล AI อาจทำรายการที่ไม่ตั้งใจ เช่น ซื้อตั๋ว แก้ไขบัญชี หรือแลกไมล์ MileagePlus และการซื้ออัตโนมัติอาจขัดกฎ FAA และกระทรวงคมนาคม เช่น ขั้นตอนเช็กอินที่ผู้โดยสารต้องยืนยันเองว่าไม่มีวัตถุอันตรายในกระเป๋า Scott Kirby ซีอีโอกล่าวว่าไม่ต้องการสร้างตัวกลางอีกชั้นระหว่างสายการบินกับลูกค้า ความเคลื่อนไหวนี้เกิดหลัง OpenAI ซื้อ Odessia และ Meta ชู Muse ว่าการท่องเที่ยวเป็น use case หลัก ขณะที่ Delta ระบุว่ายังระมัดระวัง เรื่องนี้สะท้อนการปะทะกันระหว่าง agentic commerce กับเจ้าของแพลตฟอร์มที่ต้องการคุมความสัมพันธ์กับลูกค้า",
+      "source_url": "https://skift.com/2026/11/11/united-airlines-moves-to-block-personal-ai-agents-from-booking-flights/",
+      "tech_impact": "agentic commerce เริ่มเจอแรงต้านจากเจ้าของแพลตฟอร์ม ผู้พัฒนา agent ต้องเตรียมช่องทางที่ได้รับอนุญาตและมาตรฐานการยืนยันตัวตน",
+      "tags": [
+        "United Airlines",
+        "AI agents",
+        "Travel",
+        "FAA",
+        "Agentic commerce"
+      ],
+      "published_at": "2026-11-11T10:00:00-05:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "agentic commerce",
+        "travel",
+        "regulation"
+      ],
+      "actions_developer": [
+        "ออกแบบ agent ให้ใช้ API ที่ได้รับอนุญาตแทนการ scrape หรือใช้รหัสผ่านผู้ใช้",
+        "รองรับ human-in-the-loop สำหรับขั้นตอนที่กฎหมายกำหนดให้ผู้ใช้ยืนยันเอง"
+      ],
+      "actions_business": [
+        "ธุรกิจท่องเที่ยวควรกำหนดนโยบายต่อ AI agent ภายนอกให้ชัดเจน",
+        "ประเมินการเปิด agent channel อย่างเป็นทางการแทนการบล็อกทั้งหมด"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-05",
+      "slug": "gemini-decisions-api-launch",
+      "title": "Google launches Gemini Decisions API for fast closed-set decisions at $0.10 per million input tokens",
+      "title_th": "Google เปิด Gemini Decisions API ตัดสินใจแบบปิดชุดคำตอบ ราคา $0.10 ต่อล้าน input token ไม่คิดค่า output",
+      "topic": "tech-trends",
+      "topic_group": "tech-trends",
+      "source_name": "Google Developers Blog",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Google DeepMind เปิดตัว Gemini Decisions API ขับเคลื่อนด้วยโมเดล gemini-decision-1 ผ่าน Gemini API และ Google AI Studio เป็น endpoint สำหรับการตัดสินใจแบบปิดชุดคำตอบ แทนที่จะสร้างข้อความทีละ token โมเดลให้คะแนนตัวเลือกในการคำนวณรอบเดียวและคืนค่าความน่าจะเป็นพร้อม confidence score 0–1 รองรับคำถาม 3 แบบ คือ Yes/No, Multiple Choice 2–255 ตัวเลือก และการให้คะแนนตาม rubric รับ input ได้ทั้งข้อความ ภาพ เสียง วิดีโอ และ PDF สูงสุด 256K token ถามได้สูงสุด 1,000 คำถามต่อ request latency 150–250 ms สำหรับ context ไม่เกิน 16K token ราคา input $0.10 ต่อ 1M token และไม่คิดค่า output หรือ thinking token Google อ้างว่าถูกกว่า Gemini 3.5 Flash-Lite ราว 5 เท่า use case ได้แก่ model routing ใน Gemini Notebook ที่ลด latency ได้ถึง 40% การตรวจ policy และชั้นความปลอดภัยของ MCP tool ใน Google Search กำลังเชื่อมกับ OpenRouter, LangChain, Vercel และ LiteLLM API นี้ทำให้ guardrail และ routing ในระบบ agent ถูกและเร็วลงมาก",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "tech_impact": "API ตัดสินใจราคาถูกแบบ one-pass เหมาะกับ routing, guardrail และ eval ในระบบ agent ลดต้นทุนและ latency ได้มาก",
+      "tags": [
+        "Gemini Decisions API",
+        "Gemini Decision 1",
+        "Routing",
+        "Classification",
+        "API pricing"
+      ],
+      "published_at": "2026-11-11T09:00:00-08:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM APIs",
+        "AI agents",
+        "developer tools"
+      ],
+      "actions_developer": [
+        "ทดลองแทน LLM classifier เดิมด้วย Decisions API สำหรับ model routing และ policy check",
+        "ใช้ score/rubric mode ทำ LLM-as-judge ราคาถูกใน pipeline eval"
+      ],
+      "actions_business": [
+        "คำนวณต้นทุนต่อการตัดสินใจเทียบระบบเดิมเพื่อหาจุดประหยัด",
+        "ใช้ confidence score กำหนดว่าเมื่อใดต้องส่งต่อให้มนุษย์ตรวจ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-06",
+      "slug": "ibm-nighthawk-r3-quantum-processor",
+      "title": "IBM Quantum announces Nighthawk r3, a 520-qubit processor designed to run 10,000 operations",
+      "title_th": "IBM เปิดตัว Nighthawk r3 ชิปควอนตัม 520 คิวบิต รัน 10,000 operations",
+      "topic": "tech-trends",
+      "topic_group": "tech-trends",
+      "source_name": "SiliconANGLE",
+      "category": "International",
+      "urgency": "low",
+      "content": "IBM Quantum ประกาศโปรเซสเซอร์ Nighthawk r3 ที่มี 520 programmable qubits และส่วนประกอบควอนตัมเชิงกายภาพ 2,034 ชิ้น ออกแบบให้รันได้ 10,000 operations เพิ่มจาก Nighthawk r2 ที่เปิดตัวเมื่อเดือน ก.ย. 2026 ซึ่งรันได้มากกว่า 7,500 operations บน 120 qubits และลดเวลารีเซ็ตคิวบิตจากราว 200 มิลลิวินาทีเหลือราว 25 นาโนวินาที IBM วางแผนเชื่อม r3 สองชิ้นเป็นระบบกว่า 1,000 คิวบิตในปี 2027 ต่อยอดจากการเชื่อม Nighthawk r1 สองชิ้นด้วย l-coupler ที่ fidelity 99.4% เทียบเป้า 99.9% ก่อนหน้านั้นเมื่อ 5 พ.ย. IBM ร่วมกับ AMD และ Quantum Science Center ของ Oak Ridge เปิดแพลตฟอร์ม quantum error correction ที่วาง Nighthawk ร่วมกับ GPU และ CPU ของ AMD ขณะที่ Cleveland Clinic ใช้ IBM Quantum Platform ประมวลผลตัวอย่าง 2.6 ล้านชุดเร็วขึ้นสูงสุด 3 เท่า ทิศทางสำคัญคือการผสาน quantum กับ HPC/GPU แบบ hybrid ซึ่งอาจกลายเป็นโครงสร้างพื้นฐานร่วมกับงาน AI และ simulation ในอนาคต",
+      "source_url": "https://siliconangle.com/2026/11/11/ibm-quantum-announces-upcoming-nighthawk-r3-processor-designed-to-execute-10000-operations/",
+      "tech_impact": "ควอนตัมกำลังเดินสู่ hybrid กับ HPC/GPU ผู้ทำงาน simulation และ optimization ควรเริ่มทดลอง workflow ร่วม",
+      "tags": [
+        "IBM Quantum",
+        "Nighthawk r3",
+        "Qubits",
+        "HPC",
+        "Error correction"
+      ],
+      "published_at": "2026-11-11T12:00:00-05:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "quantum computing",
+        "HPC",
+        "semiconductors"
+      ],
+      "actions_developer": [
+        "ทดลอง Qiskit กับ workflow hybrid quantum-classical บน IBM Quantum Platform",
+        "ติดตามเส้นทาง error correction เพื่อประเมินเวลาที่ควอนตัมเหนือกว่า classical จริง"
+      ],
+      "actions_business": [
+        "องค์กรด้านยา วัสดุ และการเงินควรตั้งทีมเล็กศึกษา use case ควอนตัม",
+        "เริ่มวางแผน post-quantum cryptography คู่ขนานกับความก้าวหน้าของฮาร์ดแวร์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-07",
+      "slug": "rox-series-b-100m-ai-crm",
+      "title": "Rox raises $100 million at a $1.3 billion valuation to take on Salesforce with AI agents",
+      "title_th": "Rox ระดมทุน 100 ล้านดอลลาร์ มูลค่า 1.3 พันล้าน ท้าชน Salesforce ด้วย CRM แบบ AI agent",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "Fortune Tech",
+      "category": "International",
+      "urgency": "low",
+      "content": "Fortune รายงานพิเศษว่า Rox สตาร์ทอัพ CRM ที่ใช้ AI agent ระดมทุน Series B 100 ล้านดอลลาร์ ที่มูลค่า 1,300 ล้านดอลลาร์ นำโดย General Catalyst และ March Capital โดย Sequoia และ GV ลงทุนต่อ และ Prosperity7 เข้ามาใหม่ แพลตฟอร์มของ Rox ให้ AI agent ค้นคว้าข้อมูลบัญชีลูกค้า แนะนำว่าควรติดต่อใครก่อน และเตรียมข้อความติดต่อ ลดงานธุรการของพนักงานขาย ผู้ก่อตั้งคือ Ishan Mukherjee ซึ่งเคยขาย Pixie Labs ให้ New Relic ราว 150 ล้านดอลลาร์ ร่วมกับ Shriram Sridharan สมาชิกผู้ก่อตั้งทีม Aurora ของ AWS และ Christopher Ré ศาสตราจารย์ Stanford AI Lab ลูกค้าได้แก่ Ramp, New Relic, Trafigura, MongoDB และ Groq โดย ARR โตกว่า 10 เท่าตั้งแต่ปีแรก บริษัทเตรียมขยายทีมขายและการตลาดในสหรัฐฯ 5 เท่าในปีหน้า คู่แข่งหลักอย่าง Salesforce มีรายได้ปีงบ 2026 ที่ 41,500 ล้านดอลลาร์ ดีลนี้สะท้อนว่านักลงทุนเชื่อว่า AI agent อาจเขย่าตลาดซอฟต์แวร์องค์กรแบบดั้งเดิม",
+      "source_url": "https://fortune.com/2026/11/11/rox-series-b-100-million-funding-take-on-salesforce/",
+      "tech_impact": "AI-native CRM ได้เงินทุนก้อนใหญ่ แสดงว่า agent กำลังกดดันผู้เล่น SaaS เดิมให้ปรับโมเดลธุรกิจ",
+      "tags": [
+        "Rox",
+        "Series B",
+        "CRM",
+        "AI agents",
+        "Salesforce"
+      ],
+      "published_at": "2026-11-11T07:00:00-05:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "enterprise software",
+        "venture capital",
+        "sales tech"
+      ],
+      "actions_developer": [
+        "ศึกษา workflow agent ที่ค้นข้อมูลลูกค้าและเตรียม outreach เพื่อประยุกต์กับระบบขายภายใน",
+        "เชื่อม CRM เดิมกับ agent ผ่าน API แทนการย้ายระบบทั้งหมด"
+      ],
+      "actions_business": [
+        "ทีมขายควรทดลอง AI agent ลดงานธุรการและวัดผลต่อ pipeline",
+        "ประเมินสัญญา SaaS ระยะยาวโดยคำนึงถึงทางเลือก AI-native ที่เกิดใหม่"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-08",
+      "slug": "npu-buys-nvidia-h200-despite-ban",
+      "title": "PLA-linked Chinese university bought Nvidia H200 chips despite US ban, records show",
+      "title_th": "มหาวิทยาลัยจีนสายกลาโหมซื้อชิป Nvidia H200 ผ่านตัวแทน แม้อยู่ใน Entity List ของสหรัฐฯ",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "Al Jazeera / Reuters",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Reuters รายงานผ่าน Al Jazeera ว่า Northwestern Polytechnical University (NPU) ในซีอาน หนึ่งในกลุ่ม Seven Sons of National Defense ของจีน ซื้อชิป Nvidia H200 จำนวน 2 ตัว มูลค่า 874,700 หยวน หรือราว 123,000 ดอลลาร์ ตามบันทึกจัดซื้อลงวันที่ 21 ต.ค. 2026 ผ่านบริษัท Shaanxi Bosuan Network Technology ไม่ใช่จาก Nvidia โดยตรง NPU อยู่ใน Entity List ของสหรัฐฯ ตั้งแต่ปี 2001 จากข้อกล่าวหาเรื่องการแพร่กระจายขีปนาวุธ และการส่งออก H200 ต้องได้ใบอนุญาตซึ่งปกติจะถูกปฏิเสธสำหรับสถาบันในรายชื่อ ปีนี้ NPU ยังเข้าถึง H200 ผ่านสัญญาเช่ากำลังประมวลผล 5 ฉบับจากบริษัทจีน Reuters ตรวจเอกสาร 26 ชุดพบมหาวิทยาลัยและสถาบันวิจัยหลายแห่งที่มีความเชื่อมโยงกองทัพซื้อหรือเช่า compute ของ Nvidia ผ่านซัพพลายเออร์ในประเทศ แม้รัฐบาลทรัมป์เริ่มอนุญาต H200 บางกรณีตั้งแต่ ม.ค. 2026 แต่ไม่ได้ยกเลิกข้อจำกัด Entity List สมาชิกสภาทั้งสองพรรคจึงเรียกร้องมาตรการติดตามชิป ประเด็นนี้เพิ่มแรงกดดันต่อ Nvidia ในช่วงที่บริษัทถูกตรวจสอบหลายด้าน",
+      "source_url": "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show",
+      "tech_impact": "ช่องโหว่ซัพพลายเออร์และการเช่า compute ทำให้การควบคุมส่งออกชิป AI ถูกตั้งคำถาม และอาจนำไปสู่ข้อกำหนดติดตามชิปที่กระทบทั้งห่วงโซ่",
+      "tags": [
+        "Nvidia H200",
+        "Entity List",
+        "China",
+        "Export control",
+        "NPU"
+      ],
+      "published_at": "2026-11-11T08:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "semiconductors",
+        "export control",
+        "geopolitics"
+      ],
+      "actions_developer": [
+        "ผู้ให้บริการ GPU ควรเตรียมระบบ audit และ telemetry หากมีข้อบังคับ chip-tracking",
+        "ตรวจสอบ end-user ของงาน compute ที่ให้เช่าผ่าน marketplace"
+      ],
+      "actions_business": [
+        "ผู้ค้าและผู้ให้เช่าเซิร์ฟเวอร์ในอาเซียนควรตรวจรายชื่อ Entity List ก่อนทำธุรกรรม",
+        "ติดตามท่าทีสภาคองเกรสต่อมาตรการควบคุมชิปที่อาจเข้มขึ้น"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-09",
+      "slug": "plurai-13m-seed-digital-twin-agents",
+      "title": "Plurai raises $13M to make AI agents more reliable using digital twins, borrowing from self-driving cars",
+      "title_th": "Plurai ระดมทุน 13 ล้านดอลลาร์ ใช้ digital twin ฝึก AI agent แบบเดียวกับรถยนต์ไร้คนขับ",
+      "topic": "tech-trends",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Plurai สตาร์ทอัพที่ก่อตั้งโดย Ilan Kadar และ Elad Levi อดีตทีม Nexar บริษัทเทคโนโลยีรถยนต์ไร้คนขับ ประกาศระดมทุนรอบ seed 13 ล้านดอลลาร์ นำโดย Team8 ร่วมด้วย U&I, Velocity และ Mercer โจทย์คือ AI agent ยังไม่น่าเชื่อถือพอและต้องมีคนกำกับใกล้ชิด บทความยกผล LiveBench 2.0 ที่โมเดลชั้นนำทำสำเร็จราว 75–83 งานจาก 100 งาน และการทดสอบในสภาพแวดล้อมองค์กรจำลองที่โมเดลดีที่สุดได้ความแม่นยำ 76.8% Plurai จึงสร้าง digital twin ของระบบองค์กร ทั้งฐานความรู้และเครื่องมือที่ agent จะใช้ แล้วจำลองเส้นทางการทำงานทั้งหมดเพื่อสร้างชุดประเมินและแก้กรณีขอบ คล้ายการจำลองที่ Kadar เคยทำกับ Waymo ระบบทำงานร่วมกับ Claude Code, Codex, Copilot และ Cursor และใช้ข้อมูลที่ได้ post-train โมเดล open-weight ขนาดเล็กเฉพาะลูกค้า ซึ่งการทดสอบกับ Nvidia และ Nebius พบว่าเหนือกว่าโมเดล frontier ระดับกลางในต้นทุนที่ต่ำกว่า แนวทางนี้ชี้ว่าการจำลองสภาพแวดล้อมจะเป็นกุญแจสู่ agent ที่ใช้งานจริงได้",
+      "source_url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "tech_impact": "Simulation และ digital twin กำลังเป็นวิธีมาตรฐานในการประเมินและ post-train agent ทำให้โมเดลเล็กเฉพาะงานแข่งกับ frontier model ได้",
+      "tags": [
+        "Plurai",
+        "Digital twin",
+        "AI agents",
+        "Seed round",
+        "Team8"
+      ],
+      "published_at": "2026-11-11T06:00:00-08:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI agents",
+        "evaluation",
+        "venture capital"
+      ],
+      "actions_developer": [
+        "สร้าง sandbox จำลองเครื่องมือและฐานความรู้ภายในเพื่อทดสอบ agent ก่อน deploy",
+        "ทดลอง post-train โมเดล open-weight ขนาดเล็กด้วย synthetic trajectories จาก simulation"
+      ],
+      "actions_business": [
+        "ประเมินต้นทุนรวมของการใช้โมเดลเล็กเฉพาะงานเทียบ frontier API",
+        "กำหนดเกณฑ์ความแม่นยำขั้นต่ำก่อนให้ agent ทำงานโดยไม่มีคนกำกับ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-10",
+      "slug": "bessent-us-china-ai-dialogue-apec",
+      "title": "Bessent says US and China should stay clear-eyed on AI as both sides plan a frontier-model dialogue",
+      "title_th": "Bessent ชี้สหรัฐฯ-จีนต้องมองความร่วมมือและการแข่งขัน AI อย่างชัดเจน ก่อนเปิดเวทีหารือโมเดล frontier ที่ APEC",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "Reuters AI",
+      "category": "International",
+      "urgency": "high",
+      "content": "Scott Bessent รัฐมนตรีคลังสหรัฐฯ กล่าวในสุนทรพจน์ที่เตรียมไว้ว่าสหรัฐฯ และจีนควรมองความแตกต่างด้าน AI อย่างชัดเจน ขณะเริ่มการหารือทวิภาคีเรื่องการประเมินโมเดล AI ขั้นสูงและช่องทางสื่อสารกรณีเกิดเหตุร้ายแรงจาก AI โดยการประชุมครั้งแรกจะจัดที่เซินเจิ้นควบคู่การประชุม APEC วันที่ 18–19 พ.ย. ซึ่งประธานาธิบดีทรัมป์จะพบประธานาธิบดีสี จิ้นผิง Bessent ย้ำเป้าหมาย de-risk ไม่ใช่ decouple และระบุว่าทั้งสองประเทศจะยังแข่งขันด้าน AI ต่อไป ข่าวนี้ต่อเนื่องจากสัญญาณก่อนหน้าว่าทั้งสองฝ่ายต้องการช่องทางเตือนภัยกรณีโมเดล AI ก่อเหตุร้ายแรง แม้ยังมีความตึงเครียดเรื่องการควบคุมส่งออกชิปและรายงานการลักลอบนำชิป Nvidia เข้าจีน ความสำคัญคือหากเกิดกรอบหารือด้านความปลอดภัย AI ระหว่างสองมหาอำนาจ จะกระทบมาตรฐานการประเมินโมเดลและนโยบายของประเทศอื่นในภูมิภาครวมถึงไทย",
+      "source_url": "https://www.reuters.com/world/china/us-china-should-stay-clear-eyed-ai-cooperation-competition-bessent-says-2026-11-11/",
+      "tech_impact": "ช่องทางหารือความปลอดภัย AI สหรัฐฯ-จีนอาจกลายเป็นต้นแบบมาตรฐานการประเมินโมเดลและการรายงานเหตุร้ายแรงระดับนานาชาติ",
+      "tags": [
+        "US-China",
+        "AI dialogue",
+        "Scott Bessent",
+        "APEC",
+        "AI safety"
+      ],
+      "published_at": "2026-11-11T12:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI policy",
+        "geopolitics",
+        "AI safety"
+      ],
+      "actions_developer": [
+        "ติดตามกรอบการประเมินโมเดลที่อาจเกิดจากการหารือเพื่อเตรียม eval pipeline ให้สอดคล้อง",
+        "บันทึก incident และพฤติกรรมผิดปกติของโมเดลในระบบตนเองอย่างเป็นระบบ"
+      ],
+      "actions_business": [
+        "องค์กรที่ทำธุรกิจทั้งกับสหรัฐฯ และจีนควรประเมินผลจากนโยบาย de-risk",
+        "ติดตามผลการประชุม APEC 18–19 พ.ย. ต่อการค้าและเทคโนโลยี"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-11",
+      "slug": "qwen4-max-preview-launch",
+      "title": "Alibaba opens a two-week Qwen4-Max preview with a 1M-token context window",
+      "title_th": "Alibaba เปิดทดลอง Qwen4-Max-Preview 2 สัปดาห์ รองรับ context 1 ล้าน token",
+      "topic": "ai-trends",
+      "topic_group": "ai-trends",
+      "source_name": "AI TLDR / Alibaba Qwen",
+      "category": "International",
+      "urgency": "medium",
+      "content": "ทีม Qwen ของ Alibaba เปิดตัวตระกูลโมเดล Qwen4 อย่างไม่เป็นทางการ โดยเปิดให้ใช้ Qwen4-Max-Preview เมื่อ 11 พ.ย. ผ่าน Token Plan ของบริษัทและผลิตภัณฑ์บางตัวเท่านั้น โมเดลรองรับ context window 1 ล้าน token และ output สูงสุด 393,216 token การประกาศเน้นความสามารถด้านการเขียนโค้ดและ AI agent อย่างไรก็ตาม Alibaba ยังไม่เผยแพร่ benchmark, model card หรือจำนวนพารามิเตอร์ และจะปลดรุ่น preview ในเวลา 24:00 น. ของวันที่ 25 พ.ย. ตามเวลา UTC+8 ทำให้เป็นช่วงทดลองประมาณสองสัปดาห์ก่อนเปิดตัวรุ่นเต็ม การเปิดตัวนี้เกิดในวันเดียวกับที่ Google ประกาศ Gemini Robotics 2.5 และหลัง Gemini 4 Carbon ไม่นาน สะท้อนการแข่งขันโมเดล frontier ที่เข้มข้นระหว่างผู้เล่นสหรัฐฯ และจีน สำหรับนักพัฒนาในเอเชีย Qwen เป็นตระกูลโมเดลที่ถูกนำไปใช้และ fine-tune อย่างกว้างขวาง การมาของ Qwen4 จึงอาจเปลี่ยนตัวเลือกโมเดลพื้นฐานสำหรับงานภาษาเอเชียและ agent ในปีหน้า แต่ควรรอผลทดสอบอิสระก่อนตัดสินใจ",
+      "source_url": "https://ai-tldr.dev/models/qwen4-max-preview/",
+      "tech_impact": "Qwen4 อาจเป็นตัวเลือกใหม่สำหรับงาน coding และ agent ที่ต้องการ context ยาวมาก แต่ยังขาดข้อมูล benchmark อิสระ",
+      "tags": [
+        "Qwen4",
+        "Alibaba",
+        "LLM",
+        "1M context",
+        "Coding agents"
+      ],
+      "published_at": "2026-11-11T10:00:00+08:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "China AI",
+        "coding"
+      ],
+      "actions_developer": [
+        "ทดลอง Qwen4-Max-Preview กับงาน long-context และ coding ก่อนหมดช่วง preview 25 พ.ย.",
+        "เตรียมชุด eval ภายในเพื่อเทียบกับโมเดลปัจจุบันเมื่อรุ่นเต็มออก"
+      ],
+      "actions_business": [
+        "อย่าผูกระบบ production กับรุ่น preview ที่มีกำหนดปลด",
+        "ติดตามการเปิด open-weight ของ Qwen4 ที่อาจลดต้นทุนการใช้งาน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-12",
+      "slug": "applied-intuition-1-5b-30b-valuation",
+      "title": "Applied Intuition in talks to raise $1.5 billion at a $30 billion valuation",
+      "title_th": "Applied Intuition เจรจาระดมทุน 1.5 พันล้านดอลลาร์ มูลค่ากิจการ 3 หมื่นล้าน",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "Bloomberg Tech",
+      "category": "International",
+      "urgency": "low",
+      "content": "Bloomberg รายงานเมื่อ 11 พ.ย. ว่า Applied Intuition บริษัทซอฟต์แวร์สำหรับยานยนต์อัตโนมัติและระบบป้องกันประเทศ อยู่ระหว่างเจรจาระดมทุนอย่างน้อย 1,500 ล้านดอลลาร์ นำโดย General Catalyst ที่มูลค่าหลังระดมทุนราว 30,000 ล้านดอลลาร์ โดย General Catalyst เตรียมลงทุนเอง 250 ล้านดอลลาร์ มูลค่าดังกล่าวเพิ่มขึ้นราวสองเท่าจากประมาณ 15,000 ล้านดอลลาร์เมื่อเดือน มิ.ย. 2025 หรือภายในราว 16 เดือน และบริษัทตั้งเป้ารายได้ปี 2026 มากกว่า 560 ล้านดอลลาร์ Applied Intuition พัฒนาเครื่องมือจำลอง ซอฟต์แวร์ยานยนต์ และระบบอัตโนมัติสำหรับรถยนต์ รถบรรทุก และยานพาหนะทางทหาร ซึ่งเป็นส่วนหนึ่งของกระแส physical AI ที่นักลงทุนให้ความสนใจสูง ดีลนี้ยังไม่ปิดและเงื่อนไขอาจเปลี่ยนแปลงได้ ความสำคัญคือเงินทุนกำลังไหลเข้าสู่ AI ที่ทำงานในโลกจริง ทั้งยานยนต์ หุ่นยนต์ และกลาโหม ควบคู่ไปกับโมเดลภาษา ซึ่งอาจกระทบซัพพลายเชนยานยนต์ในเอเชียรวมถึงไทยที่เป็นฐานผลิตรถยนต์",
+      "source_url": "https://www.investing.com/news/stock-market-news/applied-intuition-in-talks-to-raise-15b-at-30b-valuation-bloomberg-reports-5019616",
+      "tech_impact": "เงินทุนไหลสู่ physical AI ด้านยานยนต์และกลาโหม ซอฟต์แวร์จำลองและ software-defined vehicle จะเป็นโครงสร้างพื้นฐานสำคัญ",
+      "tags": [
+        "Applied Intuition",
+        "Funding",
+        "Autonomous vehicles",
+        "General Catalyst",
+        "Defense"
+      ],
+      "published_at": "2026-11-11T14:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "autonomous vehicles",
+        "venture capital",
+        "defense tech"
+      ],
+      "actions_developer": [
+        "ศึกษาเครื่องมือ simulation สำหรับทดสอบระบบขับขี่อัตโนมัติและ ADAS",
+        "เตรียมทักษะ software-defined vehicle สำหรับห่วงโซ่ยานยนต์ที่เปลี่ยนไป"
+      ],
+      "actions_business": [
+        "ผู้ผลิตชิ้นส่วนยานยนต์ไทยควรติดตามการเปลี่ยนสู่ซอฟต์แวร์และ AI ในรถยนต์",
+        "ประเมินโอกาสร่วมมือกับผู้ให้บริการแพลตฟอร์มยานยนต์อัตโนมัติ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-13",
+      "slug": "spotify-ai-remix-covers-addon",
+      "title": "Spotify plans a $4–5 per month AI remix and covers add-on for early 2027",
+      "title_th": "Spotify เตรียมเปิดบริการเสริม AI รีมิกซ์และคัฟเวอร์เพลง 4–5 ดอลลาร์ต่อเดือนต้นปี 2027",
+      "topic": "tech-trends",
+      "topic_group": "tech-trends",
+      "source_name": "Deseret News",
+      "category": "International",
+      "urgency": "low",
+      "content": "Spotify ประกาศเมื่อ 11 พ.ย. ว่าจะเปิดบริการเสริมให้ผู้ใช้สร้างรีมิกซ์และเพลงคัฟเวอร์ด้วย AI ในราคาราว 4–5 ดอลลาร์ต่อเดือน เริ่มต้นปี 2027 บริษัทลงนามข้อตกลงกับ Universal Music Group, Merlin และ Believe แล้ว ขณะที่ Sony และ Warner ยังอยู่ระหว่างเจรจา และศิลปินสามารถเลือกไม่เข้าร่วมได้แม้ค่ายต้นสังกัดจะลงนาม จุดสำคัญคือ Spotify เลือกเส้นทางที่มีใบอนุญาตจากเจ้าของสิทธิ์ แทนการเปิดให้สร้างเพลงจากโมเดลที่ไม่ชัดเจนเรื่องข้อมูลฝึก ทำให้ศิลปินและค่ายได้ส่วนแบ่งรายได้จากผลงานดัดแปลง ความเคลื่อนไหวนี้ต่อเนื่องจากการอัปเดต AI DJ ด้วยเสียงใหม่และตัวเลือกลดการพูดคั่นเพลงเมื่อต้นสัปดาห์ สะท้อนการเปลี่ยนสตรีมมิงเพลงจากการฟังอย่างเดียวสู่การมีส่วนร่วมสร้างสรรค์ หาก Sony และ Warner เข้าร่วม บริการนี้จะครอบคลุมแคตตาล็อกส่วนใหญ่ของตลาด และอาจกลายเป็นต้นแบบการแบ่งรายได้จาก generative AI ในอุตสาหกรรมสร้างสรรค์ ซึ่งยังมีข้อพิพาทลิขสิทธิ์จำนวนมาก",
+      "source_url": "https://www.deseret.com/entertainment/2026/11/11/spotify-to-launch-ai-generated-remixes-and-covers/",
+      "tech_impact": "โมเดล licensed generative AI ที่แบ่งรายได้กับเจ้าของสิทธิ์อาจกลายเป็นมาตรฐานของอุตสาหกรรมเพลงและคอนเทนต์",
+      "tags": [
+        "Spotify",
+        "AI music",
+        "Remix",
+        "Universal Music",
+        "Licensing"
+      ],
+      "published_at": "2026-11-11T12:00:00-07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "music",
+        "generative AI",
+        "copyright"
+      ],
+      "actions_developer": [
+        "ออกแบบระบบติดตามที่มาและสิทธิ์ (provenance) สำหรับคอนเทนต์ที่ AI ดัดแปลง",
+        "ศึกษา API และข้อกำหนดของแพลตฟอร์มก่อนสร้างเครื่องมือรีมิกซ์ภายนอก"
+      ],
+      "actions_business": [
+        "ค่ายเพลงและศิลปินไทยควรเตรียมนโยบาย opt-in/opt-out สำหรับ AI remix",
+        "ประเมินโอกาสรายได้ใหม่จากการอนุญาตใช้ผลงานกับ generative AI"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-14",
+      "slug": "edelbyte-70m-data-analytics-ai-agents",
+      "title": "Edelbyte exits stealth with $70 million to bring big-data analytics to AI agents",
+      "title_th": "Edelbyte เปิดตัวพร้อมเงินทุน 70 ล้านดอลลาร์ นำระบบวิเคราะห์ข้อมูลขนาดใหญ่ให้ AI agent",
+      "topic": "tech-trends",
+      "topic_group": "tech-trends",
+      "source_name": "Forbes AI",
+      "category": "International",
+      "urgency": "low",
+      "content": "Edelbyte สตาร์ทอัพที่ก่อตั้งในปี 2025 โดยอดีตวิศวกร 4 คนจากทีม Azure Kusto ของ Microsoft ระบบวิเคราะห์ข้อมูลล็อกและเทเลเมทรีขนาดใหญ่ เปิดตัวจากโหมดเงียบพร้อมเงินทุน 70 ล้านดอลลาร์จากรอบ seed และ Series A นำโดย Sequoia Capital และ Quiet Capital แนวคิดคือสร้างระบบวิเคราะห์ข้อมูลที่ออกแบบให้ AI agent เป็นผู้ใช้หลัก แทนการออกแบบให้นักวิเคราะห์มนุษย์เขียน query และดู dashboard เนื่องจาก agent ต้องการ query ข้อมูลจำนวนมากอย่างรวดเร็วและบ่อยครั้ง Avner Aharoni ซีอีโอระบุว่าบริษัทรันระบบระดับ petabyte ให้ลูกค้า Fortune 500 หลายราย ดีลนี้เป็นส่วนหนึ่งของกระแสสร้างโครงสร้างพื้นฐานใหม่สำหรับยุค agent ทั้งฐานข้อมูล ระบบค้นหา และเครื่องมือ observability ที่ต้องรองรับรูปแบบการใช้งานของเครื่องมากกว่าคน ในวันเดียวกันยังมีสตาร์ทอัพ agent อีกหลายรายระดมทุน เช่น Rox และ Plurai สะท้อนว่านักลงทุนมองชั้นข้อมูลเป็นคอขวดสำคัญของการใช้ agent ในองค์กร",
+      "source_url": "https://www.forbes.com/sites/timkeary/2026/11/11/edelbyte-raises-70-million-to-bring-big-data-analytics-to-ai-agents/",
+      "tech_impact": "ชั้นข้อมูลที่ออกแบบให้ agent เป็นผู้ใช้หลักกำลังเกิดขึ้น องค์กรต้องคิดเรื่อง latency ต้นทุน query และการกำกับสิทธิ์ใหม่",
+      "tags": [
+        "Edelbyte",
+        "Data analytics",
+        "AI agents",
+        "Sequoia",
+        "Kusto"
+      ],
+      "published_at": "2026-11-11T09:00:00-05:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "data infrastructure",
+        "AI agents",
+        "venture capital"
+      ],
+      "actions_developer": [
+        "ประเมินว่า data warehouse ปัจจุบันรองรับ query ปริมาณสูงจาก agent ได้หรือไม่",
+        "ออกแบบ semantic layer และสิทธิ์การเข้าถึงข้อมูลสำหรับ agent โดยเฉพาะ"
+      ],
+      "actions_business": [
+        "วางงบประมาณต้นทุน query ที่จะเพิ่มขึ้นเมื่อ agent ใช้ข้อมูลอัตโนมัติ",
+        "ติดตามผู้ให้บริการ data infrastructure แบบ agent-native เป็นทางเลือก"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-15",
+      "slug": "meta-infrastructure-chief-janardhan-step-down",
+      "title": "Meta's head of infrastructure Santosh Janardhan to step down in 2027, succeeded by ex-AWS executive Dave Brown",
+      "title_th": "หัวหน้าโครงสร้างพื้นฐาน Meta เตรียมลาออกปี 2027 อดีตผู้บริหาร AWS รับไม้ต่อคุมงบดาต้าเซ็นเตอร์ AI",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "Bloomberg Tech",
+      "category": "International",
+      "urgency": "low",
+      "content": "Bloomberg รายงานจากบันทึกภายในที่หลุดออกมาว่า Santosh Janardhan หัวหน้าฝ่ายวิศวกรรมโครงสร้างพื้นฐานของ Meta มีแผนลาออกช่วงต้นปี 2027 โดยจะมี Dave Brown อดีตผู้บริหารของ AWS ขึ้นรับตำแหน่งแทน ตำแหน่งนี้ดูแลงบลงทุนของ Meta ปี 2026 ที่ราว 125,000–145,000 ล้านดอลลาร์ ซึ่งส่วนใหญ่ใช้สร้างดาต้าเซ็นเตอร์และจัดหาชิปสำหรับ AI การเปลี่ยนผู้นำครั้งนี้เกิดขึ้นในช่วงที่ Meta เร่งขยายกำลังประมวลผลเพื่อแข่งขันด้านโมเดล AI และผู้ช่วย Muse ขณะที่นักลงทุนเริ่มตั้งคำถามถึงผลตอบแทนจากการลงทุน AI มหาศาลของบริษัทเทคใหญ่ การดึงผู้บริหารจาก AWS ซึ่งมีประสบการณ์ด้านคลาวด์และชิปที่พัฒนาเองเข้ามา อาจสะท้อนทิศทางที่ Meta ให้ความสำคัญกับประสิทธิภาพต้นทุนและการออกแบบซิลิคอนเองมากขึ้น ความสำคัญคือผู้ที่คุมงบโครงสร้างพื้นฐานระดับแสนล้านดอลลาร์มีผลโดยตรงต่อตลาดชิป พลังงาน และการเลือกทำเลดาต้าเซ็นเตอร์ทั่วโลกรวมถึงเอเชียตะวันออกเฉียงใต้",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-11/meta-s-head-of-infrastructure-engineering-to-step-down-in-2027",
+      "tech_impact": "การเปลี่ยนผู้นำโครงสร้างพื้นฐานที่คุมงบระดับแสนล้านดอลลาร์อาจเปลี่ยนกลยุทธ์จัดซื้อชิปและการเลือกทำเลดาต้าเซ็นเตอร์",
+      "tags": [
+        "Meta",
+        "Infrastructure",
+        "Data centers",
+        "Capex",
+        "Leadership"
+      ],
+      "published_at": "2026-11-11T15:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "data centers",
+        "big tech",
+        "leadership"
+      ],
+      "actions_developer": [
+        "ติดตามทิศทางชิปและฮาร์ดแวร์ open compute ของ Meta ที่อาจเปลี่ยนตามผู้นำใหม่",
+        "ประเมินผลต่อ ecosystem ของโมเดล Llama และโครงสร้างพื้นฐานที่เกี่ยวข้อง"
+      ],
+      "actions_business": [
+        "ผู้ให้บริการพลังงานและดาต้าเซ็นเตอร์ในภูมิภาคควรติดตามแผน capex ของ Meta",
+        "นักลงทุนควรติดตามสัญญาณการปรับลดหรือเพิ่มงบลงทุน AI ของ Big Tech"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-16",
+      "slug": "ofs-england-ai-assessment-warning",
+      "title": "England's university regulator warns AI has made some coursework close to impossible to grade",
+      "title_th": "หน่วยงานกำกับมหาวิทยาลัยอังกฤษเตือน AI ทำให้การประเมินงานบางประเภทแทบเป็นไปไม่ได้",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "AOL / Office for Students",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Office for Students (OfS) หน่วยงานกำกับมหาวิทยาลัยของอังกฤษ เผยรายงานหลังสัมภาษณ์นักศึกษาและบุคลากรกว่า 300 คนจาก 127 สถาบัน ระบุว่างานที่ทำนอกห้องเรียนบางประเภทแทบเป็นไปไม่ได้ที่จะประเมินอย่างน่าเชื่อถือ เพราะการใช้ generative AI ทำให้ได้เกรดใกล้เคียงกันจนแยกความสามารถจริงไม่ออก OfS เตือนว่าสถาบันที่ไม่ปรับวิธีประเมินอาจถูกลงโทษ และแนะนำให้ใช้การสอบเขียนในห้องเรียนและการสอบปากเปล่า (viva) มากขึ้น ข่าวนี้มาในช่วงเดียวกับที่ OpenAI อ้างผลวิจัย ThinkYoung ว่า 79% ของนักเรียนนักศึกษาที่สำรวจใช้ AI ทำงาน แต่มีเพียง 47% ที่ได้รับคำแนะนำเรื่องการใช้ AI ประเด็นสำคัญคือระบบการศึกษาทั่วโลกต้องออกแบบการประเมินใหม่ จากการวัดผลงานสำเร็จรูปไปสู่การวัดกระบวนการคิดและความเข้าใจที่ตรวจสอบได้ สำหรับไทยซึ่งมหาวิทยาลัยหลายแห่งเริ่มเปิดใช้ ChatGPT Edu และเครื่องมือ AI ทั่วทั้งองค์กร ปัญหาเดียวกันนี้จะเกิดขึ้นและต้องมีแนวปฏิบัติที่ชัดเจน",
+      "source_url": "https://www.aol.co.uk/articles/ai-made-close-impossible-assess-070033000.html",
+      "tech_impact": "AI ทำให้การประเมินแบบงานเขียนนอกห้องเรียนเสื่อมความน่าเชื่อถือ สถาบันการศึกษาต้องปรับวิธีวัดผลสู่การสอบในห้องและการสอบปากเปล่า",
+      "tags": [
+        "Office for Students",
+        "Education",
+        "Assessment",
+        "Generative AI",
+        "UK"
+      ],
+      "published_at": "2026-11-11T07:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "education",
+        "AI policy",
+        "assessment"
+      ],
+      "actions_developer": [
+        "พัฒนาเครื่องมือบันทึกกระบวนการทำงานของผู้เรียน (process tracking) แทนการตรวจจับ AI ที่ไม่แม่นยำ",
+        "ออกแบบแบบฝึกที่ใช้ AI อย่างเปิดเผยพร้อมวัดการคิดวิเคราะห์"
+      ],
+      "actions_business": [
+        "มหาวิทยาลัยไทยควรออกแนวปฏิบัติการใช้ AI และปรับสัดส่วนการสอบในห้อง",
+        "อบรมอาจารย์เรื่องการออกแบบการประเมินในยุค generative AI"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b2-17",
+      "slug": "silent-lynx-hermes-ai-agent-espionage",
+      "title": "Kazakhstan-linked hackers used Hermes AI agents to steal 2,000 Tajik government documents",
+      "title_th": "แฮกเกอร์ที่เชื่อมโยงคาซัคสถานใช้ AI agent Hermes ขโมยเอกสารรัฐบาลทาจิกิสถานกว่า 2,000 ฉบับ",
+      "topic": "global",
+      "topic_group": "global",
+      "source_name": "TEISS",
+      "category": "International",
+      "urgency": "high",
+      "content": "บริษัทความปลอดภัย CloudSek รายงานเมื่อ 11 พ.ย. ว่ากลุ่ม Silent Lynx ที่เชื่อมโยงกับคาซัคสถานใช้เฟรมเวิร์ก AI agent แบบโอเพนซอร์สชื่อ Hermes ขโมยเอกสารด้านความมั่นคงแห่งชาติกว่า 2,000 ฉบับจากระบบเอกสารอิเล็กทรอนิกส์ของรัฐบาลทาจิกิสถาน การลาดตระเวนเป้าหมายเริ่มตั้งแต่กลางเดือน ส.ค. 2026 และ CloudSek ค้นพบปฏิบัติการนี้เพราะผู้โจมตีเปิดเซิร์ฟเวอร์ทิ้งไว้โดยไม่ป้องกัน ทำให้เห็นขั้นตอนการทำงานของ agent กรณีนี้เป็นหนึ่งในตัวอย่างที่มีหลักฐานชัดของการจารกรรมไซเบอร์ระดับรัฐที่ใช้ AI agent แบบโอเพนซอร์สทำงานอัตโนมัติ ต่อจากรายงานก่อนหน้าที่ AI ทำงานแทนคนในแคมเปญจารกรรม 80–90% ความสำคัญคือเครื่องมือ agent ที่ใครก็ดาวน์โหลดได้ช่วยให้กลุ่มขนาดเล็กทำปฏิบัติการที่ซับซ้อนได้ ขณะที่หน่วยงานรัฐในประเทศกำลังพัฒนาที่ระบบเอกสารอิเล็กทรอนิกส์ยังป้องกันไม่เพียงพอกลายเป็นเป้าหมายง่าย ประเด็นนี้สอดคล้องกับความกังวลเรื่องภัยไซเบอร์ที่ใช้ AI ในไทยช่วงนี้",
+      "source_url": "https://www.teiss.co.uk/news/kazakhstan-linked-hackers-used-ai-to-steal-tajik-government-documents-researchers-say-18447",
+      "tech_impact": "AI agent โอเพนซอร์สถูกใช้ในการจารกรรมระดับรัฐจริง ระบบเอกสารอิเล็กทรอนิกส์ภาครัฐต้องยกระดับการตรวจจับพฤติกรรมอัตโนมัติ",
+      "tags": [
+        "Silent Lynx",
+        "Hermes agent",
+        "Cyber espionage",
+        "CloudSek",
+        "AI-enabled attacks"
+      ],
+      "published_at": "2026-11-11T10:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "cybersecurity",
+        "AI agents",
+        "government"
+      ],
+      "actions_developer": [
+        "ตั้งการตรวจจับรูปแบบการเข้าถึงเอกสารปริมาณมากและอัตโนมัติผิดปกติ",
+        "ทำ threat hunting หา IOC ที่เกี่ยวข้องกับเฟรมเวิร์ก agent โอเพนซอร์ส"
+      ],
+      "actions_business": [
+        "หน่วยงานรัฐควรทบทวนการป้องกันระบบสารบรรณอิเล็กทรอนิกส์",
+        "เพิ่มงบด้าน detection & response สำหรับภัยที่ใช้ AI agent"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b3-01",
+      "slug": "agent-architecture-cost-success-tradeoffs",
+      "title": "Agent Architecture Cost-Success Trade-offs: A Controlled Evaluation across Enterprise-Style SOPs",
+      "title_th": "งานวิจัยชี้ไม่มีสถาปัตยกรรม agent ที่ดีที่สุดเสมอ multi-agent แพงกว่าหลายเท่าแต่ได้ผลเพิ่มเล็กน้อย",
+      "topic": "ai-trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยของ Subhrangshu Nandi และคณะรวม 14 คน ทดสอบการเลือกสถาปัตยกรรม AI agent สำหรับ standard operating procedure (SOP) ขององค์กร ซึ่งเป็น workflow ยาว มีหลายเงื่อนไขและใช้เครื่องมือจำนวนมาก โดยควบคุมโมเดล งาน และเครื่องมือให้เท่ากัน แล้วเทียบ 4 สถาปัตยกรรม รวม 8 แบบทดลอง บน 13 SOP พร้อมเสนอ rubric ประเมินคุณภาพการเขียน skill ผลหลักมี 3 ข้อ ข้อแรก ไม่มีสถาปัตยกรรมที่ดีที่สุดเสมอ การเลือกขึ้นกับ SOP และไม่มีแบบใดต่างอย่างมีนัยสำคัญในภาพรวม ข้อสอง สถาปัตยกรรมที่ประสานหลาย agent ใช้ token มากกว่า 1.4–4.7 เท่า และ latency มากกว่า 2.6–5.8 เท่าของ agent เดี่ยว แต่ได้ผลเพิ่มเล็กน้อย ขณะที่ skill คุณภาพสูงเพิ่มอัตราสำเร็จจาก 67.4% เป็น 73.1% ข้อสาม คุณภาพการ implement สำคัญกว่าการเลือก single หรือ multi-agent โดยการออกแบบ multi-agent ใหม่แบบเจาะจงเป็นแบบเดียวที่ชนะ baseline อย่างมีนัยสำคัญที่ 75.6% ข้อสรุปนี้ช่วยให้องค์กรไม่ลงทุนความซับซ้อนเกินจำเป็น",
+      "source_url": "https://arxiv.org/abs/2611.12953",
+      "tech_impact": "ก่อนสร้างระบบ multi-agent ที่แพง ควรลงทุนกับคุณภาพ skill และการ implement agent เดี่ยวก่อน เพราะให้ผลคุ้มกว่า",
+      "tags": [
+        "AI agents",
+        "Multi-agent",
+        "Enterprise SOP",
+        "Cost",
+        "Evaluation"
+      ],
+      "published_at": "2026-11-11T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI agents",
+        "enterprise AI",
+        "evaluation"
+      ],
+      "actions_developer": [
+        "เริ่มจาก single agent พร้อม skill definition คุณภาพสูง แล้ววัดผลก่อนเพิ่ม agent",
+        "วัด token และ latency ต่อ task ทุกครั้งที่เปลี่ยนสถาปัตยกรรม"
+      ],
+      "actions_business": [
+        "ใช้ผลวิจัยนี้ประเมินข้อเสนอผู้ขายที่ชูระบบ multi-agent ซับซ้อน",
+        "ตั้ง KPI ต้นทุนต่อ SOP ที่สำเร็จ ไม่ใช่แค่อัตราความสำเร็จ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b3-02",
+      "slug": "topicscope-sae-topic-monitoring",
+      "title": "Train on prefill, monitor at decode: Using sparse autoencoders for topic monitoring",
+      "title_th": "TopicScope ใช้ sparse autoencoder ตรวจหัวข้อทุก token ระหว่างโมเดลตอบ ฝึกถูกด้วย prefill",
+      "topic": "ai-trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "งานวิจัยของ Rishikesh Mallagundla และ Pranav Patel นิยามโจทย์ topic monitoring คือการติดป้ายหัวข้อให้ทุก token ในคำตอบของโมเดลขณะสร้างข้อความ เพราะ monitor ที่อ่าน activation ส่วนใหญ่ในปัจจุบันเน้นตรวจเนื้อหาอันตรายและรองรับเพียง 2–3 คลาส ทีมวิจัยเสนอ TopicScope ซึ่งฝึก causal topic classifier บนฟีเจอร์ของ sparse autoencoder (SAE) ทำให้แต่ละ token ได้หัวข้อ และหัวข้อเปลี่ยนได้ภายในคำตอบเดียว โดยฝึก detector 3 สถาปัตยกรรมบนบทสนทนาสังเคราะห์ 7 หัวข้อ ผลบน Gemma-3 ขนาด 1B และ 4B พบว่า monitor ที่ฝึกจาก hidden state ช่วง prefill ใช้งานได้ดีในช่วง decode และทนต่อการรบกวน โดยเสีย macro-F1 ไม่เกิน 5 จุดเมื่อแทรกเนื้อหานอกเรื่อง ลบหัวข้อ หรือสลับลำดับ ส่วน classifier ที่ไม่ใช้ SAE ต้องใช้พารามิเตอร์มากกว่าหลายเท่าเพื่อให้ได้ผลเท่ากัน ข้อสรุปคือ monitor ขนาดเล็กฝึกได้ถูกและนำไป deploy ระหว่าง generation ได้ และ SAE มีประโยชน์เกินกว่างานจำแนกความปลอดภัย",
+      "source_url": "https://arxiv.org/abs/2611.12935",
+      "tech_impact": "SAE ทำให้สร้าง monitor ราคาถูกที่ตรวจเนื้อหาระดับ token ได้แบบ real-time เพิ่มทางเลือกด้าน guardrail และ observability",
+      "tags": [
+        "Sparse autoencoders",
+        "Interpretability",
+        "Monitoring",
+        "Gemma 3",
+        "AI safety"
+      ],
+      "published_at": "2026-11-11T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "interpretability",
+        "AI safety",
+        "monitoring"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ SAE ที่เปิดเผยสำหรับ Gemma กับงานตรวจหัวข้อหรือ policy ระดับ token",
+        "เทียบ activation-based monitor กับ LLM-as-judge ทั้งด้าน latency และต้นทุน"
+      ],
+      "actions_business": [
+        "พิจารณา monitor ระดับ activation สำหรับระบบที่ต้อง audit การตอบหัวข้อต้องห้าม",
+        "ติดตามความพร้อมของ SAE สำหรับโมเดลที่องค์กรใช้"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b3-03",
+      "slug": "setprint-black-box-llm-fingerprinting",
+      "title": "SetPrint: Black-Box LLM Fingerprinting via Setwise Correspondence of Response Changes",
+      "title_th": "SetPrint ตรวจว่า LLM ถูกพัฒนาต่อจากโมเดลต้นทางหรือไม่ โดยดูแค่ผลลัพธ์แบบ black-box",
+      "topic": "ai-trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "งานวิจัยของ Jinmo Han และคณะ 6 คน ตอบโจทย์การตรวจว่า LLM เป้าหมายถูกพัฒนาต่อจากโมเดลต้นทางหรือไม่ ในกรณีที่เห็นได้เพียงผลลัพธ์ของโมเดล ซึ่งเกี่ยวข้องโดยตรงกับการปกป้องทรัพย์สินทางปัญญาและการตรวจสอบการละเมิดไลเซนส์ของโมเดล open-weight วิธี SetPrint ไม่ต้องฝึกเพิ่ม โดยรบกวน query แต่ละชุดแล้วบันทึกการเปลี่ยนแปลงของคำตอบจากทั้งสองโมเดล ได้เป็นชุดการเปลี่ยนแปลงสองชุด จากนั้นจับข้อมูลสองแหล่ง คือความสัมพันธ์ของการเปลี่ยนแปลงภายในชุดเดียวกัน และความสอดคล้องของการเปลี่ยนแปลงข้ามสองชุด โดยแสดงแต่ละการเปลี่ยนแปลงเทียบกับค่าเฉลี่ยของชุดตนเอง แล้วเทียบการเปลี่ยนแปลงที่เกิดจากการรบกวนเดียวกันของทั้งสองโมเดล บน benchmark LeaFBench วิธีนี้ทำได้ดีกว่าวิธี black-box fingerprinting แบบไม่ต้องฝึกที่มีอยู่อย่างสม่ำเสมอ โดยผู้วิจัยระบุว่าผลดีมาจากทั้งสององค์ประกอบ แม้บทคัดย่อไม่ได้ระบุตัวเลขเฉพาะ ความสำคัญคือเมื่อโมเดล open-weight ถูก fine-tune และนำไปขายต่อจำนวนมาก เครื่องมือตรวจที่มาแบบนี้จะช่วยบังคับใช้ไลเซนส์และกฎเกณฑ์ด้านความโปร่งใส",
+      "source_url": "https://arxiv.org/abs/2611.12950",
+      "tech_impact": "เครื่องมือตรวจที่มาของโมเดลแบบ black-box ช่วยบังคับใช้ไลเซนส์ open-weight และตรวจการแอบอ้างโมเดลในตลาด",
+      "tags": [
+        "LLM fingerprinting",
+        "Model provenance",
+        "Black-box",
+        "LeaFBench",
+        "IP protection"
+      ],
+      "published_at": "2026-11-11T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "model provenance",
+        "AI governance",
+        "LLM security"
+      ],
+      "actions_developer": [
+        "ใช้เทคนิค fingerprinting ตรวจโมเดลจากผู้ขายภายนอกก่อนนำมาใช้ในองค์กร",
+        "บันทึก lineage ของโมเดลที่ fine-tune เองเพื่อพิสูจน์ที่มาได้"
+      ],
+      "actions_business": [
+        "ใส่ข้อกำหนดการเปิดเผยโมเดลต้นทางในสัญญาจัดซื้อ AI",
+        "ประเมินความเสี่ยงด้านไลเซนส์ของโมเดล open-weight ที่ใช้"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b3-04",
+      "slug": "auditable-human-agent-xray-experiments",
+      "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
+      "title_th": "ทีมคน-AI agent ทำการทดลอง X-ray อัตโนมัติ พร้อมบันทึกที่ตรวจสอบย้อนหลังได้",
+      "topic": "ai-trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "งานวิจัยของ Gunik Luthra, Kevin G. Yager, Esther H. R. Tsai และคณะ ใช้โครงสร้างพื้นฐาน coding agent ที่สร้างบนวิธีทางวิทยาศาสตร์ที่ผ่านการตรวจสอบแล้ว ควบคุมการทดลอง X-ray จากซินโครตรอนกับ superlattice ของอนุภาคนาโนแบบอัตโนมัติ โดยมีมนุษย์เป็นผู้กำหนดและปรับวัตถุประสงค์ระหว่างทาง ทีมเก็บบันทึกการสนทนาระหว่างคนกับ agent และระหว่าง agent ด้วยกันทั้งหมด ทำให้ย้อนดูที่มาของการตัดสินใจและวัดการแบ่งงานทางความคิดได้ จากการทดลอง 3 ครั้ง ข้อความ 61–67% เกี่ยวข้องกับการตีความหรือการใช้วิจารณญาณ สัดส่วนการมีส่วนร่วมด้านวิธีวิทยาและวิทยาศาสตร์เพิ่มจาก 46% ในการทดลองแรกที่เน้นการตั้งค่า เป็น 56–61% ในครั้งถัดไป การแก้ไขข้อผิดพลาด 59–68% มีผู้ร่วมหลายฝ่าย และราวครึ่งหนึ่งของการตัดสินใจทั้งหมดรวมข้อมูลจากผู้ร่วมคนอื่น ผู้วิจัยเสนอว่าผลนี้ช่วยกำหนดหลักออกแบบระบบวิทยาศาสตร์แบบ multi-agent, agent harness และการฝึกโมเดล ความสำคัญคือแสดงว่าการทดลองอัตโนมัติจะน่าเชื่อถือได้ต้องตรวจสอบย้อนหลังได้",
+      "source_url": "https://arxiv.org/abs/2611.12933",
+      "tech_impact": "Autonomous lab ที่ใช้ agent ต้องมี audit trail ครบถ้วน การทำงานร่วมระหว่างคนกับ agent ยังสำคัญต่อการแก้ข้อผิดพลาด",
+      "tags": [
+        "Autonomous science",
+        "Human-agent teams",
+        "Synchrotron",
+        "Coding agents",
+        "Provenance"
+      ],
+      "published_at": "2026-11-11T00:00:00+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI for science",
+        "AI agents",
+        "research automation"
+      ],
+      "actions_developer": [
+        "เก็บ transcript และ decision log ของ agent ทุกขั้นเพื่อให้ตรวจสอบย้อนหลังได้",
+        "ออกแบบ agent harness ที่ให้มนุษย์ปรับวัตถุประสงค์ระหว่างการทดลองได้"
+      ],
+      "actions_business": [
+        "ห้องแล็บและศูนย์วิจัยไทยควรศึกษาโมเดล human-agent team สำหรับเครื่องมือราคาแพง",
+        "กำหนดนโยบาย provenance สำหรับผลวิจัยที่ใช้ agent"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b3-05",
+      "slug": "ai-governance-control-knowledge-boundaries",
+      "title": "AI Governance Should Prioritize Control and Knowledge Boundaries Over Limiting Intelligence",
+      "title_th": "Position paper NeurIPS 2026 เสนอให้กำกับ AI ด้วยการจำกัดการควบคุมและขอบเขตความรู้ แทนการจำกัดความฉลาด",
+      "topic": "ai-trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "Hendrik Luuk เสนอ position paper ที่ได้รับการตอบรับใน NeurIPS 2026 สาย Position Paper Track ว่าการกำกับดูแล AI ควรเน้นการจำกัดการควบคุมและขอบเขตความรู้ของ agent มากกว่าการจำกัดระดับความฉลาด ผู้เขียนเสนอแนวคิด competence circuit ที่แยกผลกระทบของ agent ต่อโลกจริงเป็น 3 เส้นทาง คือ การค้นพบผ่านความฉลาด ความรู้เชิงขั้นตอน และการควบคุมโดยตรง จากนั้นใช้ข้อถกเถียงเรื่อง fast takeoff เป็นบททดสอบ แสดงว่าเงื่อนไขส่วนใหญ่ขึ้นกับการได้ความรู้หรือการควบคุมอย่างรวดเร็ว ไม่ใช่ความฉลาดอย่างเดียว การจำลองบน NK fitness landscape 6 สถานการณ์พบว่าความเร็วที่เพิ่มจากความฉลาดถูกจำกัดด้วยอัตราส่วนระดับความฉลาดที่แข่งกัน และตัวคูณความเร็วสูงเกิดเฉพาะในพื้นที่สมมติฐานที่มีสัญญาณรบกวน ขณะที่ความล่าช้าจากการอนุมัติของสถาบันชะลอ agent ที่ฉลาดมากได้อย่างไม่สมส่วน ข้อสรุปคือคันโยกด้านความปลอดภัยหลักคือการจำกัดการควบคุมและบังคับขอบเขตความรู้ และควรใช้สถาปัตยกรรมที่มีโลกกายภาพอยู่ในวงจร",
+      "source_url": "https://arxiv.org/abs/2611.12941",
+      "tech_impact": "กรอบคิดนี้สนับสนุนการกำกับ AI ผ่านสิทธิ์การเข้าถึงและการอนุมัติ ซึ่งนำไปใช้ได้ทันทีกับระบบ agent ในองค์กร",
+      "tags": [
+        "AI governance",
+        "Fast takeoff",
+        "Control",
+        "NeurIPS 2026",
+        "AI safety"
+      ],
+      "published_at": "2026-11-11T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI governance",
+        "AI safety",
+        "policy"
+      ],
+      "actions_developer": [
+        "ออกแบบ agent ตามหลัก least privilege และแยกขอบเขตความรู้ตามบทบาท",
+        "เพิ่มจุดอนุมัติโดยมนุษย์สำหรับการกระทำที่มีผลต่อโลกจริงหรือการเงิน"
+      ],
+      "actions_business": [
+        "ใช้แนวคิด control boundary ในนโยบาย AI governance ขององค์กร",
+        "ติดตามการนำแนวคิดนี้ไปใช้ในกฎหมายกำกับ AI ระดับประเทศ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261112-b3-06",
+      "slug": "physics2weight-llm-weight-generation",
+      "title": "Physics2Weight: Direct Neural Network Architecture and Weight Generation from Physical Laws Using Large Language Models",
+      "title_th": "Physics2Weight ให้ LLM สร้างน้ำหนักและสถาปัตยกรรมโครงข่ายประสาทจากสมการฟิสิกส์โดยตรง",
+      "topic": "ai-trends",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "งานวิจัยของ Shogo Sato, Tomoyasu Shimada, Kazuhiko Murasaki และ Takashi Sano เสนอ Physics2Weight (PtW) ที่ขยายแนวคิด weight-space programming ซึ่งให้ LLM สร้างน้ำหนักของโครงข่ายประสาทโดยไม่ต้องใช้ gradient-based optimization มาใช้กับการแก้สมการเชิงอนุพันธ์ย่อย (PDE) โดยรับสมการควบคุมพร้อมเงื่อนไขเริ่มต้นและเงื่อนไขขอบ แล้วสร้างน้ำหนักและปรับสถาปัตยกรรมโครงข่ายเอง เฟรมเวิร์กประกอบด้วยการ prompt ที่มีข้อจำกัดทางฟิสิกส์ การแก้สถาปัตยกรรมโดยอาศัยฟิสิกส์ และการปรับน้ำหนักซ้ำหลายรอบ ทดสอบกับสมการความร้อน advection, Burgers' และ Allen–Cahn พบว่าได้ค่าความผิดพลาดของคำตอบต่ำกว่า physics-informed neural network (PINN) แบบดั้งเดิม อย่างไรก็ตามยังมีข้อจำกัดในการทำให้สอดคล้องกับสมการควบคุมสำหรับ PDE แบบไม่เชิงเส้น และบทคัดย่อไม่ได้ระบุค่าความผิดพลาดเชิงตัวเลข ความสำคัญคือแสดงแนวทางใหม่ที่ LLM ทำหน้าที่เป็นผู้ออกแบบโมเดลทางวิทยาศาสตร์โดยตรง ซึ่งอาจลดเวลาฝึกและต้นทุนการคำนวณในงานจำลองทางวิศวกรรม",
+      "source_url": "https://arxiv.org/abs/2611.12954",
+      "tech_impact": "LLM อาจทำหน้าที่ออกแบบโมเดลวิทยาศาสตร์โดยตรง ลดการฝึกด้วย gradient ในงานจำลอง แต่ยังจำกัดกับปัญหาไม่เชิงเส้น",
+      "tags": [
+        "Physics-informed",
+        "Weight generation",
+        "PDE",
+        "LLM",
+        "Scientific ML"
+      ],
+      "published_at": "2026-11-11T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "scientific ML",
+        "LLM",
+        "simulation"
+      ],
+      "actions_developer": [
+        "ทดลองเทียบ PtW กับ PINN ในโจทย์ PDE เชิงเส้นของงานวิศวกรรมภายใน",
+        "ตรวจ residual ของสมการควบคุมทุกครั้งเมื่อใช้น้ำหนักที่ LLM สร้าง"
+      ],
+      "actions_business": [
+        "ทีม R&D ด้านวิศวกรรมควรติดตามแนวทาง LLM-driven scientific ML",
+        "ประเมินการลดต้นทุน compute ในงาน simulation ระยะยาว"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
