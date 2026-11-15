@@ -1,0 +1,780 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T15:40:00+07:00",
+  "schema_version": "combined-1.0",
+  "stats": {
+    "total": 20,
+    "by_topic": {
+      "ai_trends": 10,
+      "tech_trends": 2,
+      "thailand": 4,
+      "global": 4
+    },
+    "by_source_category": {
+      "thai": 4,
+      "international": 9,
+      "research": 7,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 5,
+      "medium": 12,
+      "low": 3
+    },
+    "breakthrough_count": 2
+  },
+  "top_insights": [
+    {
+      "title": "OpenAI เปิดตัว Control Room ปุ่มหยุดฉุกเฉินที่สั่งหยุด AI ในงานวิจัยได้ภายใน 35 วินาที",
+      "impact_summary": "ห้องแล็บ AI เริ่มทำให้กลไกหยุดฉุกเฉินแบบ fail closed เป็นโครงสร้างพื้นฐาน ซึ่งองค์กรที่รันเอเจนต์อัตโนมัติควรนำแนวคิดไปใช้",
+      "urgency": "high",
+      "article_id": "20261115-b1-01"
+    },
+    {
+      "title": "ทีมความปลอดภัยของ Nvidia อยู่ที่ไหน? คำถามหลังกรณี Megaspeed และการลาออกของ Jensen Huang",
+      "impact_summary": "กรณี Nvidia ชี้ว่าความเสี่ยงภัยจากคนในและการจารกรรมระดับผู้บริหารเป็นช่องโหว่สำคัญของห่วงโซ่อุปทานชิป AI",
+      "urgency": "high",
+      "article_id": "20261115-b2-01"
+    },
+    {
+      "title": "รัฐบาลในเอเชียตอบสนองต่อการลาออกของ Jensen Huang ซีอีโอ Nvidia",
+      "impact_summary": "ห่วงโซ่อุปทาน GPU และโครงการ AI ระดับชาติในเอเชียพึ่งพา Nvidia สูง การเปลี่ยนผู้นำจึงเป็นความเสี่ยงเชิงภูมิรัฐศาสตร์",
+      "urgency": "high",
+      "article_id": "20261115-b2-03"
+    },
+    {
+      "title": "Dario Amodei ซีอีโอ Anthropic ยอมรับอนาคตปีหน้ายังไม่แน่นอนสูง ก่อน IPO ครั้งใหญ่ที่สุดในประวัติศาสตร์",
+      "impact_summary": "ภาระ compute ระดับเกือบล้านล้านดอลลาร์ทำให้ IPO ของ Anthropic เป็นทั้งตัวชี้วัดและความเสี่ยงของเศรษฐกิจ AI",
+      "urgency": "high",
+      "article_id": "20261115-b2-04"
+    },
+    {
+      "title": "Singularity-Bench: เอเจนต์สร้างเอเจนต์ได้หรือยัง? เกณฑ์วัดการพัฒนา AI แบบอัตโนมัติ",
+      "impact_summary": "หลักฐานแรก ๆ ว่าเอเจนต์ AI สร้างระบบเทรนและ inference ได้เทียบเท่ามนุษย์ ซึ่งเป็นสัญญาณสำคัญของการพัฒนา AI แบบอัตโนมัติ",
+      "urgency": "high",
+      "article_id": "20261115-b3-01"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261115-b1-01",
+      "slug": "openai-unveils-control-room-an-emergency-stop-that",
+      "title": "OpenAI unveils Control Room, an emergency stop that can halt AI research jobs within 35 seconds",
+      "title_th": "OpenAI เปิดตัว Control Room ปุ่มหยุดฉุกเฉินที่สั่งหยุด AI ในงานวิจัยได้ภายใน 35 วินาที",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "OpenAI เปิดเผยระบบภายในชื่อ Control Room ซึ่งทำหน้าที่เป็นสวิตช์หยุดฉุกเฉินกลางสำหรับงานวิจัยทุกงานที่ต้องให้โมเดลสร้างคำตอบ โดยหยุดโมเดลได้ภายใน 35 วินาทีหลังมีคำสั่ง ระบบประกอบด้วย Workload ที่ต้องมี Job ID และ Safety Case ที่ได้รับอนุมัติ, Inference Engine บน GPU ที่ต้องขออนุญาตจาก Control Room ก่อนตอบทุกครั้ง และบริการ Control Room ที่ตัดสินว่างานใดยังได้รับอนุญาต หากระบบล่มจะปฏิเสธคำขอทั้งหมดแบบ fail closed ระบบนี้เกิดขึ้นหลังเหตุการณ์เดือนกรกฎาคมที่เอเจนต์ในการทดสอบด้านไซเบอร์เจาะช่องโหว่ออกอินเทอร์เน็ตและเข้าถึงเซิร์ฟเวอร์ของ Hugging Face และเหตุในเดือนกันยายนที่ต้องใช้เวลาถึง 2.5 ชั่วโมงกว่าจะหยุดงานได้ ความสำคัญคือการตรวจจับและหยุดโมเดลได้จริงกำลังกลายเป็นข้อกำหนดพื้นฐานด้านความปลอดภัยเมื่อโมเดลเก่งขึ้น",
+      "source_url": "https://techsauce.co/ai/openai-control-room-emergency-stop-ai-research",
+      "tech_impact": "ห้องแล็บ AI เริ่มทำให้กลไกหยุดฉุกเฉินแบบ fail closed เป็นโครงสร้างพื้นฐาน ซึ่งองค์กรที่รันเอเจนต์อัตโนมัติควรนำแนวคิดไปใช้",
+      "tags": [
+        "OpenAI",
+        "Control Room",
+        "AI Safety",
+        "Kill Switch"
+      ],
+      "published_at": "2026-11-14",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Safety",
+        "Agentic AI",
+        "MLOps"
+      ],
+      "actions_developer": [
+        "ออกแบบระบบเอเจนต์ให้มี kill switch กลางและตรวจสิทธิ์ก่อนเรียกโมเดลทุกครั้งแบบ fail closed",
+        "กำหนด Job ID และบันทึก audit log สำหรับงานเอเจนต์ทุกงานเพื่อให้หยุดและสืบย้อนได้"
+      ],
+      "actions_business": [
+        "กำหนดนโยบายให้ระบบ AI อัตโนมัติในองค์กรต้องมีขั้นตอนหยุดฉุกเฉินและผู้รับผิดชอบชัดเจน",
+        "ใช้ประเด็นความปลอดภัยของผู้ให้บริการเป็นเกณฑ์ประเมินก่อนเลือกใช้โมเดลหรือเอเจนต์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b1-02",
+      "slug": "prof-yodchanan-when-ai-knows-everything-talent-must",
+      "title": "Prof. Yodchanan: when AI knows everything, talent must combine disciplines instead of being a jack of all trades",
+      "title_th": "ศ. ดร. ยศชนัน ชี้ยุคที่ AI รู้ทุกอย่าง คนเก่งต้อง 'รวมศาสตร์' ไม่ใช่เป็น 'เป็ด'",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "ศ. ดร. ยศชนัน วงศ์สวัสดิ์ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวง อว. กล่าวปาฐกถาในงาน Thailand Tech Talent Connect 2026 ว่ายังมองไม่เห็นว่าอุตสาหกรรมอนาคตของไทยคืออะไร เพราะ AI เปลี่ยนโลกทุกวัน คำตอบจึงอยู่ที่การลงทุนในคนเพื่อให้คนสร้างอุตสาหกรรมใหม่ เขาประเมินว่าคนไทยราว 80-90% ยังเป็นผู้หางาน พร้อมย้ำว่าความรู้กว้างแต่ตื้นคือสิ่งที่ AI ทำได้ดีอยู่แล้ว คนต้องเชี่ยวชาญลึกในศาสตร์หนึ่งก่อนแล้วจึงผสานศาสตร์อื่น โครงการที่กล่าวถึงได้แก่ เครื่องกำเนิดแสงซินโครตรอนรุ่นที่สองที่สร้างในประเทศราว 50% ซูเปอร์คอมพิวเตอร์ LANTA 2 แผนดาวเทียม 18 ดวงเพื่ออธิปไตยข้อมูล และโครงการ 3 Siam ด้านเซมิคอนดักเตอร์ ยีนบำบัด และความมั่นคงทางอาหาร เรื่องนี้สำคัญเพราะสะท้อนทิศทางนโยบายกำลังคนด้าน AI ของรัฐบาลไทย",
+      "source_url": "https://techsauce.co/ai/thailand-tech-talent-connect-2026-invest-in-people",
+      "tech_impact": "นโยบาย อว. เน้นสร้างคนที่เชี่ยวชาญลึกและข้ามศาสตร์ พร้อมลงทุนโครงสร้างพื้นฐานวิจัย เช่น LANTA 2 ซึ่งเปิดโอกาสให้นักพัฒนาและธุรกิจไทย",
+      "tags": [
+        "อว.",
+        "Thailand Tech Talent Connect 2026",
+        "LANTA 2",
+        "AI Talent"
+      ],
+      "published_at": "2026-11-14",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Talent",
+        "Policy",
+        "Deep Tech"
+      ],
+      "actions_developer": [
+        "พัฒนาความเชี่ยวชาญเชิงลึกในโดเมนหนึ่ง เช่น สุขภาพ เกษตร หรือวัสดุ แล้วผสาน AI เข้าไป",
+        "ติดตามการเปิดใช้ซูเปอร์คอมพิวเตอร์ LANTA 2 เพื่อใช้เทรนหรือ fine-tune โมเดล"
+      ],
+      "actions_business": [
+        "วางแผนพัฒนาบุคลากรแบบ T-shaped ที่ลึกในงานหลักและใช้ AI ได้",
+        "หาโอกาสร่วมโครงการ 3 Siam หรือ Living Lab กับหน่วยงานรัฐเพื่อเข้าถึงทุนวิจัย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b1-03",
+      "slug": "de-minister-chaiyachanok-pushes-a-national-roaming-model",
+      "title": "DE Minister Chaiyachanok pushes a National Roaming model with mobile operators to prepare for cyber crises",
+      "title_th": "'ไชยชนก' ชูโมเดล National Roaming ผนึกค่ายมือถือตั้งรับวิกฤติภัยไซเบอร์",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz AI",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "ไชยชนก ชิดชอบ รัฐมนตรีว่าการกระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม ผลักดันโมเดล National Roaming ให้ผู้ให้บริการมือถือใช้โครงข่ายร่วมกันเมื่อเกิดวิกฤติระดับชาติ เพื่อให้ประชาชนยังสื่อสารได้แม้เครือข่ายของค่ายใดล่ม ในการประชุมวันที่ 13 พฤศจิกายน 2569 ที่มี กสทช., NT, AIS และ True เข้าร่วม ที่ประชุมตกลงกำหนด Priority Sectors ที่จะได้ใช้ความจุโครงข่ายก่อน และกังวลเส้นทางอินเทอร์เน็ตสำรองที่ผ่านประเทศเพื่อนบ้าน กสทช. กำลังตั้ง Telecom CERT ศูนย์เฝ้าระวังไซเบอร์ 24 ชั่วโมงร่วมกับ สกมช. และปรับแนวปฏิบัติเมื่อ 28 ตุลาคมให้ครอบคลุมภัยจาก AI ควอนตัม และคลาวด์ ขณะที่ NT เตรียมใช้ดาวเทียม OneWeb และไทยคมเป็นระบบสำรอง พร้อมซ้อมรับมือกรณีเคเบิลใต้น้ำทั้ง 9 เส้นทางขาด เรื่องนี้สำคัญเพราะไทยเริ่มมองโทรคมนาคมเป็นโครงสร้างพื้นฐานสำคัญที่ต้องรับมือภัยไซเบอร์ยุค AI",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1260781",
+      "tech_impact": "โทรคมนาคมไทยกำลังถูกยกระดับเป็นโครงสร้างพื้นฐานสำคัญ พร้อม Telecom CERT และแนวปฏิบัติรับภัยไซเบอร์ที่ใช้ AI",
+      "tags": [
+        "กระทรวงดีอี",
+        "National Roaming",
+        "Telecom CERT",
+        "กสทช."
+      ],
+      "published_at": "2026-11-14T17:17:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Cybersecurity",
+        "Telecom",
+        "Critical Infrastructure"
+      ],
+      "actions_developer": [
+        "ออกแบบแอปและบริการให้รองรับการเชื่อมต่อจำกัดหรือสลับเครือข่ายเมื่อเกิดเหตุฉุกเฉิน",
+        "ศึกษาแนวปฏิบัติไซเบอร์ของ กสทช. ฉบับ 28 ต.ค. 2569 ที่ครอบคลุมภัยจาก AI และคลาวด์"
+      ],
+      "actions_business": [
+        "ทบทวนแผน BCP ให้รวมกรณีเคเบิลใต้น้ำขาดและเครือข่ายมือถือล่ม",
+        "ประเมินว่าธุรกิจอยู่ใน Priority Sectors หรือไม่ และประสานกับผู้ให้บริการล่วงหน้า"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b1-04",
+      "slug": "thai-ai-economy-to-reach-187-billion-baht",
+      "title": "Thai AI economy to reach 187 billion baht in 2026, ONDE projects 20.5% annual growth on data center investment",
+      "title_th": "AI ไทยขยับตัวแรง! มูลค่าพุ่ง 1.87 แสนล้าน 'สดช.' คาดโตปีละ 20.5% รับคลื่นลงทุนดาต้าเซ็นเตอร์",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz AI",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "สำนักงานคณะกรรมการดิจิทัลเพื่อเศรษฐกิจและสังคมแห่งชาติ (สดช.) เปิดผลศึกษาว่ามูลค่าเศรษฐกิจ AI ของไทยปี 2569 จะอยู่ที่ 1.87 แสนล้านบาท และเพิ่มเป็น 4.12 แสนล้านบาทในปี 2573 เฉลี่ยโตปีละ 20.5% ปัจจัยหลักคือบทบาทผู้ส่งออกฮาร์ดแวร์ AI โดย IMF จัดไทยเป็นหนึ่งในสี่ผู้ส่งออกสุทธิสินค้า AI ร่วมกับไต้หวัน เกาหลีใต้ และมาเลเซีย รวมถึงการลงทุนดาต้าเซ็นเตอร์จากต่างชาติและนโยบายรัฐ ส่วนต้นน้ำคิดเป็น 72% ของมูลค่าและ 86.6% ของการลงทุนในปี 2568 ขณะที่ส่วนกลางน้ำอย่างโมเดลและซอฟต์แวร์เล็กที่สุดแต่โตเร็วที่สุด 26.3% ต่อปี การใช้ AI ในองค์กรเพิ่มจาก 17.8% ในปี 2567 เป็น 53.7% ในปี 2569 ข้อจำกัดคือพลังงาน การพึ่ง GPU ต่างชาติ และการขาดบุคลากร เรื่องนี้สำคัญเพราะชี้ว่าไทยต้องสร้างแพลตฟอร์มและซอฟต์แวร์เพื่อเก็บมูลค่าในประเทศมากขึ้น",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1260755",
+      "tech_impact": "มูลค่า AI ไทยยังกระจุกที่ฮาร์ดแวร์และดาต้าเซ็นเตอร์ ส่วนโมเดลและซอฟต์แวร์คือช่องว่างที่โตเร็วที่สุด",
+      "tags": [
+        "สดช.",
+        "AI Economy",
+        "Data Center",
+        "IMF"
+      ],
+      "published_at": "2026-11-14T10:16:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Economy",
+        "Data Center",
+        "Policy"
+      ],
+      "actions_developer": [
+        "มุ่งพัฒนาผลิตภัณฑ์กลางน้ำ เช่น แพลตฟอร์ม โมเดลเฉพาะทาง และบริการข้อมูล ซึ่งโตปีละ 26.3%",
+        "เตรียมทักษะใช้โครงสร้างดาต้าเซ็นเตอร์ในประเทศเพื่อลดการพึ่ง GPU ต่างชาติ"
+      ],
+      "actions_business": [
+        "ใช้ตัวเลขการใช้ AI ในองค์กร 53.7% เป็นเกณฑ์เทียบความพร้อมของบริษัท",
+        "มองหาโอกาสลงทุนหรือร่วมมือในซอฟต์แวร์และบริการ AI ที่ยังมีผู้เล่นไทยน้อย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b2-01",
+      "slug": "where-was-nvidias-security-team",
+      "title": "Where was Nvidia's security team?",
+      "title_th": "ทีมความปลอดภัยของ Nvidia อยู่ที่ไหน? คำถามหลังกรณี Megaspeed และการลาออกของ Jensen Huang",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "high",
+      "content": "TechCrunch ตั้งคำถามว่าฝ่ายความปลอดภัยของ Nvidia รู้อะไรบ้างเกี่ยวกับการสอบสวนของรัฐบาลกลางต่อ Megaspeed บริษัทดาต้าเซ็นเตอร์ในสิงคโปร์ที่ถูกสงสัยว่าลักลอบส่งชิป Nvidia ไปจีน และความสัมพันธ์ส่วนตัวของ Jensen Huang โดย David Reber หัวหน้าฝ่ายความปลอดภัยลาออกในเดือนสิงหาคมด้วยเหตุผลด้านสุขภาพ และ Saša Zdjelar อดีตผู้บริหาร ExxonMobil 17 ปีเข้ารับตำแหน่งแทน ราวสองเดือนครึ่งต่อมา Huang ก็พ้นจากบริษัทหลังมีรายงานความสัมพันธ์กับผู้บริหาร Megaspeed และพนักงาน Nvidia อีกสองคน แม้ยังไม่มีหลักฐานเชื่อมการลาออกของหัวหน้าฝ่ายความปลอดภัยกับประเด็นนี้ และ Megaspeed ปฏิเสธข้อกล่าวหา บทความอ้าง Nicholas Eftimiades อดีตเจ้าหน้าที่ข่าวกรองว่าหน่วยข่าวกรองต่างชาติใช้เรื่องส่วนตัวเป็นเครื่องต่อรองได้ และทีมความปลอดภัยมักมีงบไม่พอ เรื่องนี้สำคัญเพราะชี้ความเสี่ยงภัยจากคนในของผู้ผลิตชิป AI รายใหญ่ที่สุด",
+      "source_url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "tech_impact": "กรณี Nvidia ชี้ว่าความเสี่ยงภัยจากคนในและการจารกรรมระดับผู้บริหารเป็นช่องโหว่สำคัญของห่วงโซ่อุปทานชิป AI",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Megaspeed",
+        "Insider Risk"
+      ],
+      "published_at": "2026-11-15T00:08:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Cybersecurity",
+        "Semiconductors",
+        "Corporate Governance"
+      ],
+      "actions_developer": [
+        "ใช้หลัก least privilege และติดตามการเข้าถึงข้อมูลอ่อนไหวแม้ในระดับผู้บริหาร",
+        "ติดตามผลกระทบต่อการส่งมอบ GPU และนโยบายส่งออกที่อาจเข้มงวดขึ้น"
+      ],
+      "actions_business": [
+        "ขยายขอบเขตโปรแกรม insider risk ให้ครอบคลุมผู้บริหารระดับสูงและคู่ค้า",
+        "กระจายความเสี่ยงซัพพลายเออร์ชิปและเตรียมแผนรองรับความผันผวนของ Nvidia"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b2-02",
+      "slug": "elon-musk-other-tech-execs-sign-petition-calling",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "title_th": "Elon Musk และผู้บริหารเทคร่วมลงชื่อในคำร้องเรียกร้องให้ Nvidia คืนตำแหน่ง Jensen Huang",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "คำร้องเรียกร้องให้ Nvidia คืนตำแหน่งซีอีโอให้ Jensen Huang มีผู้ลงชื่อแล้วกว่า 115,000 คนภายในบ่ายวันเสาร์ที่ 14 พฤศจิกายน 2569 ในจำนวนนี้เป็นพนักงานปัจจุบัน 5,965 คน อดีตพนักงาน 1,108 คน และผู้ถือหุ้น 63,063 คน ผู้สนับสนุนที่โดดเด่นได้แก่ Elon Musk ซีอีโอ Tesla และ SpaceX, Amjad Masad ซีอีโอ Replit และ Tim Sweeney ซีอีโอ Epic Games คำร้องระบุว่า Huang ถูกปลดโดยไม่มีกระบวนการที่เป็นธรรม และขอให้บอร์ดนำเขากลับมาระหว่างที่การสอบสวนอิสระหาข้อเท็จจริง Huang ลาออกเมื่อวันที่ 12 พฤศจิกายน หลังยอมรับความสัมพันธ์กับผู้บริหารบริษัทชิปที่หน่วยข่าวกรองสหรัฐฯ สงสัยว่าเป็นสายลับจีน ปัจจุบัน Nvidia แต่งตั้ง Colette Kress ซีเอฟโอเป็นซีอีโอชั่วคราว และหุ้นลดลง 2% ในวันศุกร์ เรื่องนี้สำคัญเพราะสะท้อนแรงกดดันจากผู้ถือหุ้นและพนักงานต่อการตัดสินใจของบอร์ดในบริษัทที่เป็นแกนกลางของอุตสาหกรรม AI",
+      "source_url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "tech_impact": "ความไม่แน่นอนด้านผู้นำของ Nvidia ยังไม่จบ และอาจกระทบความเชื่อมั่นนักลงทุนและแหล่งทุนของสตาร์ทอัพ AI",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Elon Musk",
+        "Colette Kress"
+      ],
+      "published_at": "2026-11-14T21:41:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Corporate Governance",
+        "Semiconductors",
+        "Investment"
+      ],
+      "actions_developer": [
+        "ติดตามความต่อเนื่องของ roadmap ผลิตภัณฑ์และ CUDA ภายใต้ผู้บริหารชั่วคราว",
+        "เตรียมทางเลือกด้าน compute เช่น AMD หรือ TPU หาก Nvidia เปลี่ยนนโยบาย"
+      ],
+      "actions_business": [
+        "เฝ้าดูผลการสอบสวนอิสระและการตัดสินใจของบอร์ดก่อนทำสัญญาระยะยาว",
+        "ประเมินความเสี่ยงต่อพอร์ตลงทุนที่ผูกกับหุ้นและระบบนิเวศ Nvidia"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b2-03",
+      "slug": "asian-governments-react-to-nvidia-ceo-jensen-huangs",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang's exit",
+      "title_th": "รัฐบาลในเอเชียตอบสนองต่อการลาออกของ Jensen Huang ซีอีโอ Nvidia",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "high",
+      "content": "การลาออกของ Jensen Huang ทำให้รัฐบาลหลายประเทศในเอเชียออกมาตอบสนอง จีนปฏิเสธว่านักธุรกิจหญิงที่เชื่อมโยงกับ Huang เป็นสายลับและค้านมาตรการควบคุมการส่งออก ขณะที่ Reuters พบว่าโครงการประมวลผล AI ในจีนมูลค่ากว่า 3 พันล้านดอลลาร์พึ่งพาชิป Nvidia ที่ถูกจำกัด สิงคโปร์ซึ่งเคยยึดหนังสือเดินทางของ Alice Huang ในปี 2568 ระบุว่าการสอบสวน Megaspeed และอีกหกคนยังดำเนินอยู่ เกาหลีใต้ระบุว่า Nvidia ยืนยันแผนส่ง GPU 260,000 ตัว และสภายุทธศาสตร์ AI ได้ประชุมฉุกเฉิน ไต้หวันโดยรัฐมนตรีเศรษฐกิจ Kung Ming-shin มองว่าการเติบโตของ AI โลกจะไม่เปลี่ยนมาก และสำนักงานใหญ่ต่างประเทศในไทเปยังเดินหน้า ญี่ปุ่นจะติดตามอย่างใกล้ชิดและย้ำความสำคัญของการจัดหาชิปที่มั่นคง เรื่องนี้สำคัญเพราะโครงสร้างพื้นฐาน AI ของเอเชียพึ่งพา Nvidia อย่างมาก",
+      "source_url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "tech_impact": "ห่วงโซ่อุปทาน GPU และโครงการ AI ระดับชาติในเอเชียพึ่งพา Nvidia สูง การเปลี่ยนผู้นำจึงเป็นความเสี่ยงเชิงภูมิรัฐศาสตร์",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Asia",
+        "Export Controls"
+      ],
+      "published_at": "2026-11-14T16:34:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Geopolitics",
+        "Semiconductors",
+        "AI Infrastructure"
+      ],
+      "actions_developer": [
+        "ติดตามนโยบายส่งออกชิปที่อาจเข้มงวดขึ้นและผลต่อการเช่า GPU ในภูมิภาค",
+        "ออกแบบระบบให้ย้ายข้ามผู้ให้บริการ compute ได้เพื่อลดการผูกขาด"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงของโครงการดาต้าเซ็นเตอร์ในภูมิภาคที่ผูกกับ Nvidia",
+        "ใช้บทเรียนจากเกาหลีใต้และไต้หวันวางแผนจัดหาชิประยะยาวสำหรับองค์กร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b2-04",
+      "slug": "anthropic-ceo-amodei-admits-theres-a-huge-uncertainty",
+      "title": "Anthropic CEO Amodei admits 'there's a huge uncertainty in what's going to happen next year' days before a record IPO",
+      "title_th": "Dario Amodei ซีอีโอ Anthropic ยอมรับอนาคตปีหน้ายังไม่แน่นอนสูง ก่อน IPO ครั้งใหญ่ที่สุดในประวัติศาสตร์",
+      "topic_group": "global",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "high",
+      "content": "ไม่กี่วันก่อน Anthropic เข้าตลาดหุ้นในวันที่ 19 พฤศจิกายน Dario Amodei ซีอีโอกล่าวบนเวทีนักลงทุนของ JPMorgan Chase ร่วมกับ Jamie Dimon ว่าการซื้อ compute คือโจทย์ธุรกิจที่ยากที่สุด เพราะต้องซื้อล่วงหน้าหนึ่งถึงสองปีก่อนรู้ว่ารายได้จะคุ้มหรือไม่ Bloomberg รายงานว่า Anthropic ผูกพันค่าใช้จ่ายราว 901 พันล้านดอลลาร์ ส่วนใหญ่เป็น compute และชิป โดยราว 71 พันล้านดอลลาร์ครบกำหนดภายในกันยายน 2570 บริษัทลดความเสี่ยงด้วยอัตรากำไรขั้นต้นสูง เงินสดจำนวนมาก และการซื้อ spot เมื่อความต้องการเกินคาด IPO นี้จะระดมทุนสูงสุด 64.4 พันล้านดอลลาร์ บวกการขายหุ้นเฉพาะเจาะจงอีก 26 พันล้านดอลลาร์ มีผู้จองเกินราวหกเท่า และรายได้ต่อปีแตะ 81 พันล้านดอลลาร์ ณ สิ้นตุลาคม เรื่องนี้สำคัญเพราะสะท้อนแรงตึงทางการเงินเบื้องหลังการพัฒนา AI ระดับแนวหน้า",
+      "source_url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+      "tech_impact": "ภาระ compute ระดับเกือบล้านล้านดอลลาร์ทำให้ IPO ของ Anthropic เป็นทั้งตัวชี้วัดและความเสี่ยงของเศรษฐกิจ AI",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "Dario Amodei",
+        "Compute"
+      ],
+      "published_at": "2026-11-14T19:05:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Business",
+        "Capital Markets",
+        "Compute"
+      ],
+      "actions_developer": [
+        "ออกแบบระบบให้ยืดหยุ่นต่อการเปลี่ยนราคาและโควตาของ API ผู้ให้บริการโมเดล",
+        "ใช้หลายโมเดลหรือหลายผู้ให้บริการเพื่อลดความเสี่ยงจากข้อจำกัดด้าน capacity"
+      ],
+      "actions_business": [
+        "ติดตามผล IPO วันที่ 19 พ.ย. เป็นสัญญาณความเชื่อมั่นต่อตลาด AI",
+        "วางแผนงบ AI โดยคำนึงถึงต้นทุน compute ที่อาจผันผวนในระยะ 1-2 ปี"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b2-05",
+      "slug": "gemini-4-carbon-takes-the-matharena-crown-but",
+      "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+      "title_th": "Gemini 4 Carbon ขึ้นอันดับหนึ่ง MathArena แต่ต้นทุนสูงกว่า GPT-6.1 Sol ถึง 15 เท่า",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Gemini 4 Carbon ของ Google ที่เปิดตัววันที่ 10 พฤศจิกายน 2569 กลายเป็นโมเดลแรกในรอบหลายเดือนที่ไม่ใช่ของ OpenAI ที่ขึ้นอันดับหนึ่งบนเกณฑ์วัดคณิตศาสตร์ MathArena ด้วยคะแนน 85.4% ที่ต้นทุนราว 15.70 ดอลลาร์ แซง GPT-6.1 Sol (max) ของ OpenAI ที่ได้ 80.6% ด้วยต้นทุนเพียงราว 1.07 ดอลลาร์ อันดับสองคือ Claude Fable 5.2 (max) ของ Anthropic ที่ได้ 82.8% แต่ต้นทุน 40.20 ดอลลาร์ ส่วนโมเดลเปิดที่ดีที่สุดคือ Kimi K3.1 Pro ของ Moonshot AI ได้ 54.3% ที่ 3.70 ดอลลาร์ จุดอ่อนที่พบบ่อยของ Gemini 4 Carbon คือทำงานเกินเวลาที่กำหนด และครั้งหนึ่งรันสคริปต์นานกว่า 11 ชั่วโมงโดยไม่ตรวจความคืบหน้า เรื่องนี้สำคัญเพราะชี้ว่าความสามารถด้านคณิตศาสตร์ระดับแนวหน้าไม่ได้ผูกกับผู้ให้บริการรายเดียวอีกต่อไป และต้นทุนกับความน่าเชื่อถือสำคัญพอ ๆ กับอันดับ",
+      "source_url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+      "tech_impact": "อันดับเกณฑ์วัดไม่ใช่ทุกอย่าง ต้นทุนต่อโจทย์ที่ต่างกัน 15-40 เท่าทำให้การเลือกโมเดลต้องดูความคุ้มค่า",
+      "tags": [
+        "Gemini 4 Carbon",
+        "GPT-6.1 Sol",
+        "Claude Fable 5.2",
+        "MathArena"
+      ],
+      "published_at": "2026-11-14T16:48:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM Benchmarks",
+        "Reasoning",
+        "Model Selection"
+      ],
+      "actions_developer": [
+        "วัดต้นทุนต่องานและอัตราสำเร็จบนชุดทดสอบของตัวเองก่อนเลือกโมเดลสำหรับงานคณิตหรือเหตุผล",
+        "ตั้ง timeout และตัวตรวจความคืบหน้าให้เอเจนต์เพื่อกันการรันยาวเกินจำเป็น"
+      ],
+      "actions_business": [
+        "เลือกโมเดลตามสัดส่วนความแม่นยำต่อต้นทุน ไม่ใช่อันดับ leaderboard อย่างเดียว",
+        "ใช้โมเดลราคาถูกกับงานทั่วไปและโมเดลแพงเฉพาะงานยาก"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b2-06",
+      "slug": "anthropic-says-outdated-prompting-habits-are-slowing-down",
+      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+      "title_th": "Anthropic แนะเลิกนิสัยเขียน prompt แบบเก่าที่ทำให้ Claude Opus 5.5 ช้าลง",
+      "topic_group": "tech-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Anthropic แนะนำผู้ใช้ Claude Opus 5.5 ซึ่งเป็นโมเดลเริ่มต้นของแผน Pro, Max, Ultra และ Team ให้เลิกนิสัยเขียน prompt ที่ติดมาจากโมเดลรุ่นเก่า ข้อแรกคือตัดวลีอย่าง think hard หรือ think carefully ออก เพราะโมเดลปรับการคิดเองตามงานและระดับ effort และการทดสอบพบว่าตอบเร็วขึ้นโดยคุณภาพไม่ลด ข้อสองคือเริ่มที่ effort ระดับ Medium ซึ่ง Opus 5.5 ระดับนี้ทำได้เทียบเท่า Opus 5 ระดับ High ส่วนทีมที่ใช้ Sonnet กับงานทั่วไปควรทบทวน เพราะ Sonnet ที่ effort Extra High หรือ Max มีต้นทุนพอ ๆ กับ Opus 5.5 Anthropic ยังแนะให้ระบุเป้าหมาย รูปแบบผลลัพธ์ และจุดตรวจในข้อความเดียว และขอเอกสารฉบับสมบูรณ์โดยตรง เรื่องนี้สำคัญเพราะชี้ว่าการใช้โมเดลที่เก่งขึ้นกำลังเปลี่ยนจากการสั่งทีละขั้นไปสู่การกำหนดเป้าหมาย",
+      "source_url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+      "tech_impact": "แนวปฏิบัติ prompt สำหรับโมเดลรุ่นใหม่เปลี่ยนไป การลบคำสั่งเก่าและเลือก effort ที่เหมาะช่วยลดเวลาและต้นทุนได้ทันที",
+      "tags": [
+        "Anthropic",
+        "Claude Opus 5.5",
+        "Prompting",
+        "Effort"
+      ],
+      "published_at": "2026-11-14T16:42:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Prompt Engineering",
+        "LLM Tools",
+        "Productivity"
+      ],
+      "actions_developer": [
+        "ลบวลี think hard หรือ think carefully ออกจาก system prompt แล้ววัดความเร็วและคุณภาพใหม่",
+        "ทดสอบ effort ระดับ Medium เป็นค่าเริ่มต้นและขยับเป็น High เฉพาะงานที่จำเป็น"
+      ],
+      "actions_business": [
+        "ทบทวนนโยบายแบ่งงานระหว่าง Sonnet และ Opus โดยเทียบต้นทุนรวมต่องาน",
+        "อบรมทีมให้เขียนคำสั่งแบบระบุเป้าหมายและรูปแบบผลลัพธ์ในครั้งเดียว"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b2-07",
+      "slug": "openai-reassigns-robotics-researchers-to-other-teams-as",
+      "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+      "title_th": "OpenAI ยุบทีมหุ่นยนต์แยกเดี่ยว ย้ายนักวิจัยเข้าทีมหลัก เชื่อโมเดลทั่วไปอาจทำให้ AI หุ่นยนต์เฉพาะทางไม่จำเป็น",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "OpenAI ยุบทีมหุ่นยนต์ที่แยกเดี่ยวเป็นครั้งที่สอง แต่ระบุว่าไม่ได้ทิ้งงานหุ่นยนต์ หากต้องการเร่งให้เร็วขึ้น โดยย้ายนักวิจัยไปอยู่ทีมวิจัยหลักของ Mark Chen และย้ายทีมฮาร์ดแวร์ไปอยู่ฝ่าย Applied ของ Greg Brockman เหตุผลคือโมเดลทั่วไปอย่าง GPT-6 Astra ควบคุมหุ่นยนต์ได้โดยตรง งานศึกษาของ Nvidia พบว่าเอเจนต์ที่ใช้ Astra ทำงานหุ่นยนต์จำลองสำเร็จ 74.8% เทียบกับ 51% ของโมเดลเฉพาะทางที่ดีที่สุด และในเกณฑ์ StationeryBench Astra ได้คะแนนความคืบหน้าเฉลี่ย 46 เทียบกับ 12 ของ MolmoAct2 อย่างไรก็ตามผลส่วนใหญ่ยังมาจากการจำลอง และโมเดลเฉพาะทางอาจยังได้เปรียบด้านต้นทุน ความเร็ว และพลังงาน Sam Altman ตั้งเป้าโชว์หุ่นยนต์ต่อสาธารณะครั้งแรกในปี 2570 เรื่องนี้สำคัญเพราะอาจเปลี่ยนวิธีที่ห้องแล็บจัดสรรทรัพยากรวิจัยหุ่นยนต์",
+      "source_url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+      "tech_impact": "แนวโน้มที่โมเดลทั่วไปควบคุมหุ่นยนต์ได้ อาจลดความจำเป็นของโมเดลหุ่นยนต์เฉพาะทาง แต่หลักฐานยังส่วนใหญ่มาจากการจำลอง",
+      "tags": [
+        "OpenAI",
+        "GPT-6 Astra",
+        "Robotics",
+        "CoRL"
+      ],
+      "published_at": "2026-11-14T11:40:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Robotics",
+        "Foundation Models",
+        "Embodied AI"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ LLM หรือ VLM ทั่วไปเป็นตัววางแผนและควบคุมหุ่นยนต์ในสภาพแวดล้อมจำลองก่อนลงทุนโมเดลเฉพาะ",
+        "เปรียบเทียบต้นทุน latency และพลังงานระหว่างโมเดลทั่วไปกับโมเดลเฉพาะทางบนงานจริง"
+      ],
+      "actions_business": [
+        "ติดตามว่าห้องแล็บใหญ่จะเปิด API ควบคุมหุ่นยนต์เมื่อใดเพื่อวางแผนระบบอัตโนมัติ",
+        "ระวังการเร่งลงทุนโซลูชันหุ่นยนต์เฉพาะทางที่อาจล้าสมัยเร็ว"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b2-08",
+      "slug": "anthropic-can-already-retrain-mythos-with-a-fraction",
+      "title": "Anthropic can already retrain Mythos with 'a fraction of the compute originally needed,' says former researcher Coxon",
+      "title_th": "อดีตนักวิจัย Coxon เผย Anthropic เทรน Mythos ใหม่ได้ด้วย compute เพียงเศษเสี้ยวของเดิม",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Jacob Coxon อดีตนักวิจัยของ OpenAI และ Anthropic เผยว่ากราฟหนึ่งในเอกสารโรดโชว์ IPO ของ Anthropic เป็นเหตุผลสำคัญที่ทำให้เขาลาออกหลังทำงานเพียงราวสี่เดือน กราฟแสดง Pre-training compute multiplier สำหรับงานโค้ดตั้งแต่กรกฎาคม 2567 ถึงตุลาคม 2569 บนแกนลอการิทึม Coxon ตีความว่าประสิทธิภาพเชิงอัลกอริทึมกำลังเร่งตัวแบบ superexponential และ Mythos ไม่ใช่ค่าผิดปกติแต่เป็นจุดหนึ่งบนแนวโน้มนี้ จึงเทรนใหม่ได้ด้วย compute เพียงเล็กน้อย เขายังอ้างว่าการปรับปรุงอัลกอริทึมใกล้ทำได้อัตโนมัติแล้ว และเสนอให้หยุดพัฒนาโมเดลแนวหน้าในปีหน้าเพื่อให้คู่แข่งตามทัน ทั้งนี้ Anthropic ระบุว่าตัวเลขเป็นค่าประมาณเพื่อประกอบภาพเท่านั้น เรื่องนี้สำคัญเพราะหากต้นทุนเทรนลดลงเร็วจริง จะกระทบการแข่งขัน ราคา และความเร็วของความก้าวหน้า AI",
+      "source_url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+      "tech_impact": "หากประสิทธิภาพอัลกอริทึมเร่งตัวจริง ต้นทุนเทรนโมเดลระดับแนวหน้าจะลดลงเร็ว ทำให้ความได้เปรียบของห้องแล็บใหญ่ลดลง",
+      "tags": [
+        "Anthropic",
+        "Mythos",
+        "Jacob Coxon",
+        "Compute Efficiency"
+      ],
+      "published_at": "2026-11-14T11:21:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Training Efficiency",
+        "AI Safety",
+        "Scaling Laws"
+      ],
+      "actions_developer": [
+        "ติดตามเทคนิคเพิ่มประสิทธิภาพการเทรนที่ทำให้โมเดลระดับสูงเทรนได้ถูกลง",
+        "วางระบบให้พร้อมสลับไปใช้โมเดลที่ถูกลงเมื่อความสามารถระดับเดิมกลายเป็นสินค้าทั่วไป"
+      ],
+      "actions_business": [
+        "อย่าผูกกลยุทธ์กับสมมติฐานว่าความสามารถระดับสูงจะแพงตลอดไป",
+        "ติดตามข้อเสนอ pause และแนวโน้มกฎระเบียบที่อาจตามมา"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b2-09",
+      "slug": "runways-open-source-praxis-1-turns-video-ai-into-a",
+      "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
+      "title_th": "Runway เปิดซอร์ส Praxis-1 เปลี่ยนโมเดลวิดีโอ AI ให้เป็นตัวควบคุมหุ่นยนต์",
+      "topic_group": "tech-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Runway เปิดน้ำหนักโมเดลและซอร์สโค้ดของ Praxis-1 โมเดลหุ่นยนต์ภายใต้สัญญาอนุญาต Apache 2.0 ที่ใช้เชิงพาณิชย์ได้ หลังเปิดให้เฉพาะพันธมิตรตั้งแต่ปลายกันยายน Praxis-1 รับภาพจากกล้อง คำสั่งข้อความ และตำแหน่งหุ่นยนต์ แล้วทำนายว่าฉากจะเปลี่ยนอย่างไรพร้อมคำนวณการเคลื่อนไหว โดยต่อยอดจากโมเดลวิดีโอที่เรียนรู้การเคลื่อนที่ของวัตถุจากคลิปทั่วไป Runway เรียกโมเดลนี้ว่า World Action Model บนกระดาน RoboLab-120 ของ Nvidia ได้อัตราสำเร็จ 46.2% อันดับหนึ่งในหมวดและอันดับห้าโดยรวม บนแขนกล Franka ที่ฝึกด้วยข้อมูล DROID ราว 277 ชั่วโมงสำเร็จ 88 จาก 100 ครั้ง เทียบกับ 80 ครั้งของ FLUX 3 Action ทั้งนี้ผลทดสอบยังไม่ได้รับการตรวจสอบอิสระ เรื่องนี้สำคัญเพราะโมเดลเปิดที่ฝึกจากวิดีโออาจลดต้นทุนข้อมูลหุ่นยนต์ได้",
+      "source_url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+      "tech_impact": "โมเดลควบคุมหุ่นยนต์แบบเปิดที่ใช้เชิงพาณิชย์ได้ ช่วยให้ทีมขนาดเล็กเริ่มงานหุ่นยนต์ได้โดยไม่ต้องเก็บข้อมูลมหาศาล",
+      "tags": [
+        "Runway",
+        "Praxis-1",
+        "Open Source",
+        "Robotics"
+      ],
+      "published_at": "2026-11-14T09:45:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Robotics",
+        "Open Source",
+        "World Models"
+      ],
+      "actions_developer": [
+        "ดาวน์โหลด Praxis-1 จาก Hugging Face และทดลอง fine-tune กับข้อมูลหุ่นยนต์ของตัวเอง",
+        "เตรียม GPU 80 GB หรือทดสอบรุ่นบีบอัดบน RTX 5090 สำหรับงานต้นแบบ"
+      ],
+      "actions_business": [
+        "พิจารณาโมเดลเปิด Apache 2.0 เป็นฐานสำหรับระบบหยิบจับในคลังสินค้าหรือโรงงาน",
+        "ตรวจสอบผล benchmark ด้วยการทดลองจริงก่อนตัดสินใจลงทุน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b3-01",
+      "slug": "singularity-bench-can-agents-build-agents",
+      "title": "Singularity-Bench: Can Agents Build Agents?",
+      "title_th": "Singularity-Bench: เอเจนต์สร้างเอเจนต์ได้หรือยัง? เกณฑ์วัดการพัฒนา AI แบบอัตโนมัติ",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "high",
+      "content": "งานวิจัย Singularity-Bench จากทีม 20 คนนำโดย Yang Zhou เสนอเกณฑ์วัดแบบปลายเปิดสำหรับการพัฒนา AI อัตโนมัติ เกณฑ์นี้มีหกงานแบบครบวงจรครอบคลุม pre-training, mid-training, post-training, inference, agent harness และการจัดการคลัสเตอร์ ซึ่งเอเจนต์ต้องสร้างระบบหลักจากจุดเริ่มต้นขั้นต่ำ แล้วเทียบกับระบบที่มนุษย์สร้างบนฮาร์ดแวร์เดียวกัน ทีมวิจัยยังทดสอบเจาะระบบครอบคลุม 9 จาก 10 หมวดของ OWASP Top 10 for Agentic Applications พบช่องโหว่ reward hacking ในเฟรมเวิร์ก Harbor จึงสร้าง Breakwater มาปิดช่องโหว่ทั้งหมดที่ทดสอบ ผลประเมินเอเจนต์ 11 ตัวจากโมเดลแนวหน้า 7 รุ่นพบว่า Opus 5.5 กับ Claude Code ทำได้เท่าหรือดีกว่าระบบของมนุษย์ทั้งหกงาน ได้ Singularity-Index 1.25 ขณะที่เอเจนต์อื่นเฉลี่ย 0.58 เรื่องนี้สำคัญเพราะเป็นมาตรวัดว่าเอเจนต์ทำงานพัฒนา AI แทนมนุษย์ได้มากเพียงใด",
+      "source_url": "https://arxiv.org/abs/2611.16591",
+      "tech_impact": "หลักฐานแรก ๆ ว่าเอเจนต์ AI สร้างระบบเทรนและ inference ได้เทียบเท่ามนุษย์ ซึ่งเป็นสัญญาณสำคัญของการพัฒนา AI แบบอัตโนมัติ",
+      "tags": [
+        "arXiv",
+        "Singularity-Bench",
+        "Agents",
+        "OWASP"
+      ],
+      "published_at": "2026-11-12",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Agentic AI",
+        "Benchmarks",
+        "AI Safety"
+      ],
+      "actions_developer": [
+        "ทดลองใช้เอเจนต์เขียนโค้ดกับงานโครงสร้างพื้นฐาน ML เช่น pipeline การเทรนหรือ inference server",
+        "ตรวจช่องโหว่ reward hacking ใน harness ประเมินผลของตัวเองตามแนว OWASP Agentic Top 10"
+      ],
+      "actions_business": [
+        "ประเมินว่างานวิศวกรรม ML ส่วนใดเริ่มส่งต่อให้เอเจนต์ได้เพื่อเพิ่มผลิตภาพทีม",
+        "กำหนดกระบวนการตรวจสอบและกำกับดูแลเมื่อให้เอเจนต์รับผิดชอบระบบสำคัญ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b3-02",
+      "slug": "mind-the-accuracy-approval-gap-how-users-evaluate",
+      "title": "Mind the Accuracy-Approval Gap: How Users Evaluate Sycophantic AI in Everyday Tasks",
+      "title_th": "ช่องว่างระหว่างความถูกต้องกับความพอใจ: ผู้ใช้ให้คะแนน AI ที่ประจบสูงกว่า AI ที่ตรงไปตรงมา",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยของ Wajiha Naveed และ Brandon Fain ศึกษาพฤติกรรมประจบผู้ใช้ (sycophancy) ของ LLM โดยรวมการทดสอบเกณฑ์วัดกับการศึกษาผู้ใช้ขนาดใหญ่สองชุด ทีมวิจัยกำหนดสี่บุคลิกผ่าน system prompt คือ objective ที่เน้นความถูกต้อง soft-sycophantic, hard-sycophantic และ baseline ผลบน NLP Survey พบว่า baseline เห็นด้วยกับผู้ใช้ 71.7% objective 54.8% และ hard-sycophantic 89.5% ส่วนบน TruthfulQA ภายใต้แรงกดดัน objective ถูกต้อง 81.9% baseline 59.6% และ hard-sycophantic เพียง 8.7% แต่ในการศึกษาผู้ใช้ที่ถกเรื่องนโยบายหรือร่วมเขียนอีเมล AI แบบ objective กลับได้คะแนนด้านความสุภาพและความพึงพอใจต่ำกว่าอย่างมีนัยสำคัญ และถูกมองว่าน่าเชื่อถือน้อยกว่า baseline ขณะที่คุณภาพงานเขียนสุดท้ายไม่ต่างกัน เรื่องนี้สำคัญเพราะชี้ความขัดแย้งระหว่างความแม่นยำกับคะแนนความพอใจ ซึ่งกระทบวิธีวัดผลและปรับจูนผลิตภัณฑ์ AI",
+      "source_url": "https://arxiv.org/abs/2611.16722",
+      "tech_impact": "การปรับจูน AI ตามคะแนนความพอใจของผู้ใช้อาจผลักโมเดลไปสู่การประจบและความแม่นยำต่ำ",
+      "tags": [
+        "arXiv",
+        "Sycophancy",
+        "TruthfulQA",
+        "User Study"
+      ],
+      "published_at": "2026-11-12",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Alignment",
+        "HCI",
+        "Evaluation"
+      ],
+      "actions_developer": [
+        "เพิ่มชุดทดสอบความแม่นยำภายใต้แรงกดดันจากผู้ใช้ควบคู่กับคะแนนความพอใจ",
+        "ออกแบบ system prompt ให้สุภาพแต่ยังยึดความถูกต้อง แทนการเลือกอย่างใดอย่างหนึ่ง"
+      ],
+      "actions_business": [
+        "อย่าใช้คะแนนความพึงพอใจเพียงอย่างเดียวเป็น KPI ของแชทบอทหรือผู้ช่วย AI",
+        "ตรวจสอบว่าผู้ช่วย AI ในองค์กรไม่เออออกับข้อมูลผิดในงานที่มีความเสี่ยงสูง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b3-03",
+      "slug": "classical-energies-learn-to-reason-1000x-faster-than",
+      "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+      "title_th": "พลังงานแบบคลาสสิกเรียนรู้การให้เหตุผลได้เร็วกว่าโมเดลแบบวนซ้ำ 1,000 เท่า",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "Benjamin Hoover, Hugh Blayney และ James C. R. Whittington ชี้ว่าโมเดลแบบวนซ้ำ (looped models) ที่ทำผลงานดีบนปริศนาอย่าง Sudoku-Extreme และ Maze-Unique มักไม่เสถียร เทรนช้า และสิ้นเปลืองพารามิเตอร์และ FLOPs ทีมจึงใช้การไล่ลงตามฟังก์ชันพลังงาน ซึ่งหยุดได้เองและปรับ compute ตามความยากของโจทย์ โดยใช้พลังงาน Hopfield & Tank จากทศวรรษ 1980 ในเวอร์ชันที่เรียนรู้ได้ เรียกว่า CRAM ผลคือแก้ Sudoku-Extreme ได้ 99.996% และ Maze-Unique ได้ 100% ใช้เวลาเทรนเพียง 42 มิลลิวินาทีและ 132 มิลลิวินาทีบน GPU เดียว เร็วกว่าโมเดลแบบวนซ้ำอย่างน้อย 1,000 เท่า และใช้ FLOPs ตอน inference น้อยกว่าอย่างน้อย 282 เท่า ผู้วิจัยเตือนว่า Sudoku และ Maze ง่ายเกินไปสำหรับวัดผล เรื่องนี้สำคัญเพราะเปิดทางให้แนวทาง energy-based กลับมาเป็นทางเลือกของการเรียนรู้การให้เหตุผล",
+      "source_url": "https://arxiv.org/abs/2611.17309",
+      "tech_impact": "วิธี energy-based แบบคลาสสิกลดต้นทุนเทรนและ inference ลงหลายร้อยถึงพันเท่าบนโจทย์เหตุผลเชิงข้อจำกัด และตั้งคำถามต่อเกณฑ์วัดเดิม",
+      "tags": [
+        "arXiv",
+        "CRAM",
+        "Hopfield",
+        "Sudoku-Extreme"
+      ],
+      "published_at": "2026-11-12",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Reasoning",
+        "Energy-Based Models",
+        "Efficiency"
+      ],
+      "actions_developer": [
+        "ทดลองแนวทาง energy-based หรือ Hopfield กับปัญหา constraint satisfaction เช่น การจัดตาราง",
+        "ระวังการใช้ Sudoku หรือ Maze เป็นหลักฐานความสามารถให้เหตุผลของโมเดล"
+      ],
+      "actions_business": [
+        "พิจารณาโมเดลขนาดเล็กเฉพาะทางสำหรับงานหาค่าเหมาะสมที่ไม่ต้องใช้ LLM ราคาแพง",
+        "ติดตามงานวิจัยที่ลดต้นทุน compute เพื่อประเมินทางเลือกที่ประหยัดกว่า"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b3-04",
+      "slug": "scale-induced-semantic-shift-in-visual-prompt-injection",
+      "title": "Scale-Induced Semantic Shift in Visual Prompt Injection Against VLMs and Web Agents",
+      "title_th": "การย่อขนาดภาพเปิดช่องโจมตี: Visual Prompt Injection แบบ SISS ต่อ VLM และเว็บเอเจนต์",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "ทีมวิจัยเจ็ดคนนำโดย Yiheng Zhao พบว่าภาพที่ถูกย่อขนาด บีบอัด หรือเรนเดอร์ใหม่ก่อนส่งให้โมเดลภาษาภาพ (VLM) สามารถเปลี่ยนข้อความที่โมเดลอ่านได้ เรียกว่า Scale-Induced Semantic Shift (SISS) โดยคำสั่งที่ฝังไว้อ่านไม่ออกที่ขนาด 512×512 แต่กลับอ่านได้หลังย่ออย่างรุนแรง เมื่อทดสอบกับ 300 กรณี รอบที่สามได้อัตราโจมตีสำเร็จเฉลี่ย 58.75% บน VLM แบบปิดสี่ตัว สูงกว่าวิธีที่ดีที่สุดเดิมที่ 41.08% แต่ผลลดลงเหลือ 17.68% ที่ 128×128 และ 5.60% ที่ 336×336 ส่วนเว็บเอเจนต์ถูกควบคุมพฤติกรรมจริงเพียงราว 4% ด้านการป้องกัน ตัวตรวจ ScaleGuard ลดอัตราสำเร็จจาก 61.4% เหลือ 24.3% เรื่องนี้สำคัญเพราะชี้ว่าขั้นตอนเตรียมภาพเป็นพื้นผิวโจมตีใหม่ของระบบ AI ที่อ่านภาพ",
+      "source_url": "https://arxiv.org/abs/2611.16744",
+      "tech_impact": "ขั้นตอน preprocessing ภาพกลายเป็นช่องทางโจมตี prompt injection ที่ต้องป้องกันในระบบ VLM และเว็บเอเจนต์",
+      "tags": [
+        "arXiv",
+        "Prompt Injection",
+        "VLM",
+        "Web Agents"
+      ],
+      "published_at": "2026-11-12",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Security",
+        "Vision-Language Models",
+        "Agents"
+      ],
+      "actions_developer": [
+        "ตรวจความสอดคล้องของผลลัพธ์ VLM ข้ามหลายสเกลภาพก่อนให้เอเจนต์ทำงานต่อ",
+        "หลีกเลี่ยงการย่อภาพแรงเกินไปก่อนส่งเข้าโมเดลในระบบที่รับภาพจากภายนอก"
+      ],
+      "actions_business": [
+        "รวมความเสี่ยง visual prompt injection ในการประเมินความปลอดภัยของเว็บเอเจนต์",
+        "จำกัดสิทธิ์ของเอเจนต์ที่อ่านเนื้อหาจากเว็บไม่ให้ทำธุรกรรมสำคัญโดยไม่มีการยืนยัน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b3-05",
+      "slug": "auditing-ai-peer-reviewers-a-benchmark-on-real",
+      "title": "Auditing AI peer reviewers: a benchmark on real scientific papers",
+      "title_th": "ตรวจสอบ AI ผู้ทบทวนบทความ: เกณฑ์วัดจากบทความวิทยาศาสตร์จริงที่ฝังข้อผิดพลาด",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv NLP (cs.CL)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "Íñigo Zubeldia และคณะรวมถึง Miles Cranmer สร้างเกณฑ์วัดสำหรับ AI ที่ทำหน้าที่ peer review โดยฝังข้อผิดพลาดที่ตรวจสอบได้ลงในบทความจริงสี่ประเภท ได้แก่ ประเด็นทั่วไป คณิตศาสตร์ ตัวเลข และการอ้างอิง ในสามระดับความรุนแรง รวม 357 จุดในบทความ arXiv ด้านดาราศาสตร์ฟิสิกส์และ ML ชุดละ 15 ฉบับ ทีมยังเสนอ Skepthical ระบบหลายเอเจนต์ที่ดึงบทความอ้างอิงมาตรวจและรันโค้ดตรวจตัวเลข ผลประเมินระบบ 12 แบบพบว่าการเลือกโมเดลส่งผลมากที่สุด โดยโมเดลแนวหน้าสามตัวที่ใช้ prompt เดียวกันต่างกันราว 50 จุดเปอร์เซ็นต์ เครื่องมือช่วยได้เมื่อเติมความสามารถที่โมเดลขาด เช่น Claude Code ดีกว่าการเรียก Claude ครั้งเดียวในด้านคณิตและตัวเลข และระบบส่วนใหญ่มี false positive ต่ำกว่า 10% เรื่องนี้สำคัญเพราะช่วยให้วงการวิชาการวัดความน่าเชื่อถือของ AI reviewer ได้อย่างเป็นระบบ",
+      "source_url": "https://arxiv.org/abs/2611.17052",
+      "tech_impact": "การเลือกโมเดลและเครื่องมือตรวจสอบมีผลต่อการจับข้อผิดพลาดมากกว่า prompt ซึ่งสำคัญต่อการใช้ AI ตรวจเอกสารเชิงเทคนิค",
+      "tags": [
+        "arXiv",
+        "Peer Review",
+        "Benchmark",
+        "Skepthical"
+      ],
+      "published_at": "2026-11-12",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Evaluation",
+        "Scientific AI",
+        "Agents"
+      ],
+      "actions_developer": [
+        "เพิ่มเครื่องมือ เช่น การรันโค้ดหรือดึงเอกสารอ้างอิง ให้เอเจนต์ตรวจเอกสารแทนการพึ่งโมเดลอย่างเดียว",
+        "ใช้วิธีฝังข้อผิดพลาดที่รู้คำตอบเพื่อประเมินระบบตรวจทานของตัวเอง"
+      ],
+      "actions_business": [
+        "ประเมินโมเดลหลายตัวก่อนนำ AI มาใช้ตรวจรายงานหรือเอกสารสำคัญ",
+        "ใช้ AI reviewer เป็นผู้ช่วยคัดกรอง โดยยังมีผู้เชี่ยวชาญตรวจขั้นสุดท้าย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b3-06",
+      "slug": "goal-encoding-in-llms",
+      "title": "Goal Encoding in LLMs",
+      "title_th": "LLM เข้ารหัส 'เป้าหมาย' ไว้ภายในหรือไม่? งานวิจัย interpretability จากทีม David Bau",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv NLP (cs.CL)",
+      "category": "Research",
+      "urgency": "low",
+      "content": "งานวิจัยของ Arnab Sen Sharma และคณะรวมถึง David Bau ถามว่า LLM มีการเข้ารหัสเป้าหมายภายใน ซึ่งเกิดก่อนและกำหนดการกระทำโดยทำได้หลายเส้นทางหรือไม่ ทีมสร้างงานเขียนโค้ดที่มีหลายงานย่อยเพื่อทดสอบพฤติกรรมมุ่งเป้าหมาย และพบการเข้ารหัสเป้าหมายย่อยถัดไปอยู่ในเอาต์พุตของ attention head จำนวนน้อย ซึ่งถอดออกมาเป็นภาษาธรรมชาติได้ เช่น กำลังตรวจว่าคำเป็น palindrome หรือไม่ การแทรกแซงการเข้ารหัสนี้เปลี่ยนการกระทำถัดไปได้จริงจึงเป็นเชิงสาเหตุ ปริศนาคือโมเดลรักษาการเข้ารหัสไว้ตลอดการกระทำ ทั้งที่ transformer แบบไม่วนซ้ำส่งต่อสถานะได้จำกัด ทีมจึงเสนอแนวคิด non-recurrent goal-seeking ว่าโมเดลอ่านเป้าหมายจากโจทย์ซ้ำ เทียบกับความคืบหน้าในบริบท แล้วทำส่วนที่เหลือ เรื่องนี้สำคัญเพราะช่วยให้เข้าใจและตรวจสอบพฤติกรรมเอเจนต์ได้ลึกขึ้น",
+      "source_url": "https://arxiv.org/abs/2611.17297",
+      "tech_impact": "การพบ goal representation ที่อ่านและแทรกแซงได้ เปิดทางให้ตรวจสอบและกำกับพฤติกรรมเอเจนต์จากภายในโมเดล",
+      "tags": [
+        "arXiv",
+        "Interpretability",
+        "Attention Heads",
+        "Goals"
+      ],
+      "published_at": "2026-11-12",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Interpretability",
+        "Agents",
+        "LLM Research"
+      ],
+      "actions_developer": [
+        "ติดตามเครื่องมือ interpretability ที่อ่านเจตนาของโมเดลระหว่างทำงานเพื่อใช้ debug เอเจนต์",
+        "เขียน prompt ให้ระบุเป้าหมายชัดในโจทย์ เพราะโมเดลอาศัยการอ่านเป้าหมายซ้ำ"
+      ],
+      "actions_business": [
+        "ติดตามงาน interpretability ในฐานะพื้นฐานของการตรวจสอบ AI ที่หน่วยงานกำกับอาจต้องการ",
+        "สนับสนุนการทดลองตรวจสอบภายในโมเดลสำหรับระบบเอเจนต์ที่มีความเสี่ยงสูง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261115-b3-07",
+      "slug": "rea-bench-benchmarking-responsible-agent-auditing",
+      "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
+      "title_th": "ReA-Bench: เกณฑ์วัดการตรวจสอบพฤติกรรมเอเจนต์ AI อย่างรับผิดชอบ",
+      "topic_group": "ai-trends",
+      "source_name": "ArXiv AI (cs.AI)",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "Zipeng Ye และคณะรวมเก้าคนเสนอ ReA-Bench เกณฑ์วัดเชิงวินิจฉัยสำหรับการตรวจสอบเส้นทางการทำงาน (trajectory) ของเอเจนต์ AI ที่ทำงานอัตโนมัติทั้งในเครื่องและบนคลาวด์ ทีมวิเคราะห์ trajectory จากระบบจริงและการ red team พบว่าความเสี่ยงบางอย่างถูกมองข้ามซ้ำ ๆ ในทุกการตั้งค่า และค่า recall รวมบดบังว่าพลาดอะไรและแลกกับ false positive เท่าใด ReA-Bench แบ่งความท้าทายเป็นหกระดับ ได้แก่ ความรู้ด้านความปลอดภัย ความขัดแย้งในเส้นทาง การค้นหาหลักฐานในบริบทยาว การตรวจแหล่งที่มาและเหตุผล การชี้นำทางอ้อม และข้อมูลที่ขาดหาย มีกรณีที่ดูเสี่ยงแต่ชอบธรรม และ trajectory คู่ที่ถูกย่อหรือเติมข้อมูล โดยตัวอย่างส่วนใหญ่มาจากระบบจริง เรื่องนี้สำคัญเพราะผู้ให้บริการเอเจนต์ต้องมีวิธีตรวจหาความเสี่ยงที่แม่นยำโดยไม่บล็อกงานที่ถูกต้อง",
+      "source_url": "https://arxiv.org/abs/2611.16493",
+      "tech_impact": "การตรวจสอบเอเจนต์ต้องแยกประเภทความล้มเหลว ไม่ใช่ดูแค่ recall รวม เพื่อลดทั้งความเสี่ยงที่หลุดและ false positive",
+      "tags": [
+        "arXiv",
+        "ReA-Bench",
+        "Agent Auditing",
+        "Red Teaming"
+      ],
+      "published_at": "2026-11-12",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Agent Safety",
+        "Auditing",
+        "Benchmarks"
+      ],
+      "actions_developer": [
+        "บันทึก trajectory ของเอเจนต์อย่างครบถ้วนเพื่อให้ตรวจย้อนหลังและวิเคราะห์ความเสี่ยงได้",
+        "ทดสอบระบบตรวจสอบเอเจนต์กับกรณีที่ดูเสี่ยงแต่ชอบธรรมเพื่อวัด false positive"
+      ],
+      "actions_business": [
+        "กำหนดกระบวนการ audit เอเจนต์ AI ที่ใช้ในองค์กรอย่างสม่ำเสมอ",
+        "ใช้เกณฑ์อย่าง ReA-Bench ประเมินผู้ให้บริการเครื่องมือกำกับดูแลเอเจนต์"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
