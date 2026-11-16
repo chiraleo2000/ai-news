@@ -1,0 +1,402 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T14:10:00+07:00",
+  "schema_version": "combined-1.0",
+  "stats": {
+    "total": 10,
+    "by_topic": {
+      "ai_trends": 2,
+      "tech_trends": 1,
+      "thailand": 3,
+      "global": 4
+    },
+    "by_source_category": {
+      "thai": 3,
+      "international": 7,
+      "research": 0,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 2,
+      "medium": 6,
+      "low": 2
+    },
+    "breakthrough_count": 2
+  },
+  "top_insights": [
+    {
+      "title": "WSJ เผยบริษัทของอดีตคนรัก Jensen Huang เป็นตัวกลางสั่งชิป Nvidia ให้จีนเกือบ 12 พันล้านดอลลาร์",
+      "impact_summary": "ข้อมูลใหม่ชี้ช่องโหว่ของมาตรการควบคุมส่งออกชิป ซึ่งอาจนำไปสู่กฎที่เข้มขึ้นกับพันธมิตรคลาวด์และผู้ซื้อ GPU ในเอเชีย",
+      "urgency": "high",
+      "article_id": "20261116-b2-01"
+    },
+    {
+      "title": "Meituan เปิดน้ำหนัก LongCat-2.5 โมเดลเอเจนต์ 1.6 ล้านล้านพารามิเตอร์ที่ไม่ใช้ GPU ของ Nvidia เลย",
+      "impact_summary": "โมเดลเปิดระดับล้านล้านพารามิเตอร์ที่รันบนชิปจีนได้ ตอกย้ำว่าการแข่งขัน AI ไม่ได้ผูกกับ Nvidia อีกต่อไป",
+      "urgency": "high",
+      "article_id": "20261116-b2-02"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261116-b1-01",
+      "slug": "schneiders-formula-for-building-ai-factories-starts-with",
+      "title": "Schneider's formula for building AI factories starts with data, not buying technology",
+      "title_th": "เปิดสูตร 'ชไนเดอร์' ปั้นโรงงาน AI เริ่มที่ 'ข้อมูล' ไม่ใช่ทุ่มซื้อเทคโนโลยี",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz AI",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "ชไนเดอร์ อิเล็คทริค เสนอแนวทางพาโรงงานสู่ Autonomous Operations โดยชี้ว่าจุดเริ่มต้นคือการจัดระเบียบข้อมูลและองค์ความรู้การผลิตให้เป็นระบบ ไม่ใช่การทุ่มซื้อเทคโนโลยีใหม่หรือแปะ AI ลงบนระบบเดิม สำหรับโรงงานเก่าแบบ Brownfield ชไนเดอร์แนะให้ใช้ AI แปลงความรู้เหล่านี้เป็นข้อมูลดิจิทัลโดยมีผู้เชี่ยวชาญตรวจสอบแบบ Human-in-the-loop จากนั้นใช้ Generative AI ช่วยวิเคราะห์หาสาเหตุเมื่อเกิดสัญญาณเตือน โดยผู้ปฏิบัติงานยังเป็นผู้ตัดสินใจ บริษัทยังเสนอ Software-defined Automation เชื่อมระบบวิศวกรรม การผลิต และซ่อมบำรุงเข้าด้วยกัน พร้อมแนะสี่ขั้นตอน คือระบุปัญหาธุรกิจ ประเมินความพร้อมข้อมูล เลือก use case ที่เข้ากับระบบเดิม และกำหนดผลตอบแทนที่คาดหวัง เรื่องนี้สำคัญเพราะช่วยให้โรงงานไทยเริ่มใช้ AI ได้โดยไม่ต้องรื้อระบบทั้งหมด",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1260892",
+      "tech_impact": "AI ในโรงงานเริ่มจากคุณภาพข้อมูลและการกำกับโดยมนุษย์ ไม่ใช่การซื้อฮาร์ดแวร์ ซึ่งลดความเสี่ยงลงทุนสำหรับโรงงานเก่า",
+      "tags": [
+        "Schneider Electric",
+        "AI Factory",
+        "Autonomous Operations",
+        "Industrial AI"
+      ],
+      "published_at": "2026-11-15T19:30:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Industrial AI",
+        "Manufacturing",
+        "Data Engineering"
+      ],
+      "actions_developer": [
+        "สร้าง pipeline แปลงเอกสาร แบบแปลน และบันทึกการผลิตเป็นข้อมูลโครงสร้างพร้อมขั้นตอนให้ผู้เชี่ยวชาญตรวจ",
+        "ทดลองใช้ reinforcement learning บนโมเดลจำลองแบบออฟไลน์ก่อนนำไปใช้กับสายการผลิตจริง"
+      ],
+      "actions_business": [
+        "เริ่มโครงการ AI ในโรงงานจาก use case เล็กที่วัดผลตอบแทนได้ แล้วค่อยขยาย",
+        "จัดเก็บองค์ความรู้ของวิศวกรอาวุโสเป็นดิจิทัลก่อนเกษียณ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261116-b1-02",
+      "slug": "chinese-media-thailand-leans-on-costly-chinese-drone",
+      "title": "Chinese media: Thailand leans on costly Chinese drone hardware while building its own AI software",
+      "title_th": "สื่อจีนตีข่าว ไทยพึ่งเทคโนโลยีจีนสูงแม้ราคาแพง รายย่อยเอื้อมไม่ถึง",
+      "topic_group": "thailand",
+      "source_name": "Manager Online Cyber",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "ผู้จัดการออนไลน์รายงานจาก South China Morning Post ว่าไทยกำลังเร่งพัฒนาซอฟต์แวร์ AI ภายในประเทศเพื่อขยายตลาดโดรนมูลค่าราว 260 ล้านดอลลาร์ หรือประมาณ 8,800 ล้านบาท ซึ่งเติบโตราว 10% ต่อปี ข้อมูลมาจากงาน DronTech Asia ที่กรุงเทพฯ โดรนมีบทบาทต่อเกษตรและอุตสาหกรรมไทยท่ามกลางสภาพอากาศสุดขั้วอย่าง Super El Niño และน้ำท่วม ผู้บริหาร SkyVIV ระบุว่าโดรนของบริษัทวิเคราะห์สุขภาพพืชได้เกือบ 10,000 ไร่ต่อวัน แต่ไทยยังพึ่งฮาร์ดแวร์จีนซึ่งผลิตได้ 7-8 ล้านเครื่องต่อปี ขณะที่ไทยมีโดรนจดทะเบียน 3.29 ล้านเครื่องเมื่อสิ้นปี 2568 และโดรนอุตสาหกรรมราคา 3,000 ถึงกว่า 50,000 ดอลลาร์ เรื่องนี้สำคัญเพราะชี้ช่องว่างระหว่างการสร้าง AI ของไทยกับการพึ่งฮาร์ดแวร์ราคาแพง",
+      "source_url": "https://mgronline.com/china/detail/9690000109458",
+      "tech_impact": "ซอฟต์แวร์ AI สำหรับโดรนเป็นโอกาสของนักพัฒนาไทย แต่ต้นทุนฮาร์ดแวร์จีนยังจำกัดการเข้าถึงของเกษตรกรและธุรกิจรายย่อย",
+      "tags": [
+        "SCMP",
+        "Drone",
+        "Thailand",
+        "AI Software"
+      ],
+      "published_at": "2026-11-16T13:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Drones",
+        "AgriTech",
+        "Edge AI"
+      ],
+      "actions_developer": [
+        "พัฒนาโมเดลวิเคราะห์ภาพทางอากาศสำหรับพืชไทย เช่น ข้าว อ้อย และผลไม้ ที่รันบนโดรนราคาประหยัดได้",
+        "ออกแบบซอฟต์แวร์ให้รองรับฮาร์ดแวร์หลายยี่ห้อเพื่อลดการผูกกับผู้ผลิตรายเดียว"
+      ],
+      "actions_business": [
+        "พิจารณาโมเดลบริการโดรนแบบเช่าใช้หรือจ่ายตามพื้นที่เพื่อให้รายย่อยเข้าถึงได้",
+        "ติดตามนโยบายดีอีด้านการพัฒนาเทคโนโลยีในประเทศเพื่อหาทุนสนับสนุน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261116-b1-03",
+      "slug": "in-the-ai-era-universities-must-stop-teaching",
+      "title": "In the AI era, universities must stop teaching tool skills and start teaching people to think",
+      "title_th": "ยุค AI มหาวิทยาลัยต้องเลิกสอนให้คนใช้เครื่องมือเก่ง แล้วหันมาสอนให้คนคิดเป็น",
+      "topic_group": "thailand",
+      "source_name": "Manager Online Cyber",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "รศ.ดร.อานนท์ ศักดิ์วรวิชญ์ คณะสถิติประยุกต์ นิด้า เขียนบทความชี้ว่า Generative AI, LLM และ Agentic AI ทำให้ทักษะอย่างเขียนโปรแกรม วิเคราะห์ข้อมูล และทำรายงานเข้าถึงง่ายขึ้นมาก มหาวิทยาลัยจึงควรเลิกเน้นสอนใช้เครื่องมือ แล้วหันมาสอนการให้เหตุผล การตรวจสอบ และการนิยามปัญหา เขาวิจารณ์การสอน Prompt Engineering แบบท่องแม่แบบ เพราะ AI ตอบแบบความน่าจะเป็นและคำตอบที่ดูมั่นใจอาจผิด ความเสี่ยงคือผู้ใช้แยกไม่ออกว่าคำตอบผิด พร้อมเสนอทักษะคิดห้าด้าน คือ คิดเชิงวิพากษ์ คณิตศาสตร์ ตรรกะ ระบบ และการออกแบบ ควบคู่กับความรู้เฉพาะสาขา ในห้องเรียนเขาเสนอให้นักศึกษาตรวจหาข้อผิดพลาดที่ฝังในงานของ AI และสอบปากเปล่าโดยไม่ใช้อุปกรณ์ เรื่องนี้สำคัญเพราะ AI ทำให้สร้างคำตอบง่ายขึ้น แต่ไม่ได้ทำให้ตัดสินคำตอบง่ายขึ้น",
+      "source_url": "https://mgronline.com/daily/detail/9690000109154",
+      "tech_impact": "การศึกษาและการพัฒนาคนต้องเปลี่ยนจากสอนใช้เครื่องมือไปสู่การตรวจสอบผลของ AI ซึ่งกระทบการออกแบบหลักสูตรและการสรรหาบุคลากร",
+      "tags": [
+        "NIDA",
+        "AI Education",
+        "Critical Thinking",
+        "Prompt Engineering"
+      ],
+      "published_at": "2026-11-15T09:34:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Education",
+        "Critical Thinking",
+        "Workforce"
+      ],
+      "actions_developer": [
+        "ฝึกอ่านและตรวจโค้ดหรือผลวิเคราะห์ที่ AI สร้างทุกครั้ง แทนการคัดลอกไปใช้ตรง ๆ",
+        "เขียนโจทย์ให้ระบุเป้าหมาย ข้อจำกัด ข้อมูล และเกณฑ์ความสำเร็จก่อนมอบงานให้ AI"
+      ],
+      "actions_business": [
+        "ปรับการสัมภาษณ์งานให้ผู้สมัครอธิบายวิธีตรวจสอบผลงานที่ใช้ AI ช่วยทำ",
+        "จัดอบรมพนักงานเรื่องจุดอ่อนของ AI และการตรวจทานผลลัพธ์ก่อนใช้งานจริง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261116-b2-01",
+      "slug": "firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered",
+      "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+      "title_th": "WSJ เผยบริษัทของอดีตคนรัก Jensen Huang เป็นตัวกลางสั่งชิป Nvidia ให้จีนเกือบ 12 พันล้านดอลลาร์",
+      "topic_group": "global",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "high",
+      "content": "The Decoder อ้างเอกสารที่ Wall Street Journal ตรวจสอบว่า Megaspeed บริษัทของ Alice Huang อดีตคนรักของ Jensen Huang เป็นตัวกลางจัดหาคำสั่งซื้อชิปประสิทธิภาพสูงของ Nvidia ให้บริษัทจีนมูลค่าเกือบ 12 พันล้านดอลลาร์ ระหว่างมีนาคม 2567 ถึงมิถุนายน 2568 คำสั่งซื้อครอบคลุมชิปหลายแสนตัวที่มาตรการควบคุมการส่งออกของสหรัฐฯ ตั้งใจกันไม่ให้ถึงจีน โดย Megaspeed ได้สิทธิ์เข้าถึงชิปที่ขาดแคลนในฐานะพันธมิตรคลาวด์ของ Nvidia เพราะมี Alibaba เป็นลูกค้ารายใหญ่ ตัวเลขนี้เทียบกับรายได้จากจีนที่ Nvidia รายงาน 12.4 พันล้านดอลลาร์ในหกเดือน หรือ 7% ของรายได้รวม ขณะที่ Culper Research ประเมินว่ารายได้จากลูกค้าจีนอาจเกิน 20% ในปีงบประมาณล่าสุด เรื่องนี้สำคัญเพราะตั้งคำถามว่ามาตรการควบคุมการส่งออกถูกหลบเลี่ยงผ่านตัวกลาง และ Nvidia รายงานการพึ่งตลาดจีนต่ำกว่าความจริงหรือไม่",
+      "source_url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+      "tech_impact": "ข้อมูลใหม่ชี้ช่องโหว่ของมาตรการควบคุมส่งออกชิป ซึ่งอาจนำไปสู่กฎที่เข้มขึ้นกับพันธมิตรคลาวด์และผู้ซื้อ GPU ในเอเชีย",
+      "tags": [
+        "Nvidia",
+        "Megaspeed",
+        "Export Controls",
+        "WSJ"
+      ],
+      "published_at": "2026-11-15T11:35:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Geopolitics",
+        "Semiconductors",
+        "Export Controls"
+      ],
+      "actions_developer": [
+        "ติดตามกฎ KYC และข้อกำหนดการส่งออกที่อาจเข้มงวดขึ้นกับการเช่า GPU ผ่านคลาวด์ในภูมิภาค",
+        "เตรียมระบบให้รันได้บนชิปหลายตระกูลหากการจัดหา Nvidia ถูกจำกัดมากขึ้น"
+      ],
+      "actions_business": [
+        "ตรวจสอบสถานะคู่ค้าและผู้ให้บริการ GPU ว่าไม่เกี่ยวข้องกับการหลบเลี่ยงมาตรการส่งออก",
+        "ประเมินความเสี่ยงด้านราคาและอุปทาน GPU หากสหรัฐฯ ปรับมาตรการรอบใหม่"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261116-b2-02",
+      "slug": "meituan-releases-a-16-trillion-parameter-agent-model-that",
+      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+      "title_th": "Meituan เปิดน้ำหนัก LongCat-2.5 โมเดลเอเจนต์ 1.6 ล้านล้านพารามิเตอร์ที่ไม่ใช้ GPU ของ Nvidia เลย",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "high",
+      "content": "Meituan บริษัทส่งอาหารรายใหญ่ของจีน เปิดน้ำหนักโมเดล LongCat-2.5 ภายใต้สัญญาอนุญาต MIT ที่ใช้เชิงพาณิชย์ได้ หนึ่งสัปดาห์หลังเปิดตัว เป็นโมเดลแบบ mixture-of-experts ขนาด 1.6 ล้านล้านพารามิเตอร์ที่ใช้งานจริงราว 48 พันล้านพารามิเตอร์ต่อโทเค็น รับข้อความ ภาพ และวิดีโอ และรองรับอินพุตสูงสุดหนึ่งล้านโทเค็น ชุดตัวอย่างสำหรับติดตั้งเองใช้ชิป Huawei Ascend รุ่น Atlas A2 จำนวน 194 ตัวโดยไม่มีคำแนะนำสำหรับ GPU ของ Nvidia บน Terminal Bench v2.1 ได้ 88.4 ใกล้ Claude Opus 5 ที่ 89.1 แต่บน Terminal Bench v4.0 ได้ 38.5 ต่ำกว่า Opus 5 ที่ 53.9 ผลทดสอบเป็นของ Meituan เอง เรื่องนี้สำคัญเพราะแสดงว่าโมเดลเอเจนต์ขนาดใหญ่เทรนและให้บริการบนฮาร์ดแวร์จีนได้ ลดการพึ่ง Nvidia",
+      "source_url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "tech_impact": "โมเดลเปิดระดับล้านล้านพารามิเตอร์ที่รันบนชิปจีนได้ ตอกย้ำว่าการแข่งขัน AI ไม่ได้ผูกกับ Nvidia อีกต่อไป",
+      "tags": [
+        "Meituan",
+        "LongCat-2.5",
+        "Huawei Ascend",
+        "Open Weights"
+      ],
+      "published_at": "2026-11-15T10:06:00Z",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Open Models",
+        "Agentic AI",
+        "AI Hardware"
+      ],
+      "actions_developer": [
+        "ทดลอง LongCat-2.5 แบบ 4 บิตเป็นทางเลือกโมเดลเปิดสำหรับงานเอเจนต์เขียนโค้ด และวัดผลบนงานของตัวเอง",
+        "ศึกษาวิธีเทรน RL จาก pull request จริงในแซนด์บ็อกซ์ปิดเพื่อนำไปใช้กับโมเดลขนาดเล็ก"
+      ],
+      "actions_business": [
+        "ประเมินโมเดลเปิดสัญญาอนุญาต MIT เป็นทางเลือกลดต้นทุน API แต่ตรวจข้อกำหนดด้านข้อมูลและการกำกับดูแลก่อน",
+        "ติดตามการเติบโตของระบบนิเวศชิปจีนที่อาจเปลี่ยนตลาดฮาร์ดแวร์ AI ในเอเชีย"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261116-b2-03",
+      "slug": "anthropics-claude-fable-52-doesnt-generate-images-it",
+      "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+      "title_th": "Claude Fable 5.2 ไม่ได้สร้างภาพแบบ diffusion แต่ 'วาด' ด้วยโค้ดทีละฝีแปรง",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Claude Fable 5.2 ของ Anthropic สร้างภาพด้วยการเขียนโค้ด Python ที่วางฝีแปรงลงบนผ้าใบจำลอง แทนการสร้างพิกเซลแบบโมเดล diffusion อย่าง Midjourney แต่ละภาพเป็นโปรแกรมยาว 1,000 ถึง 2,000 บรรทัด Jake Eaton พนักงาน Anthropic แสดงภาพลานจอดรถแบบสมจริงที่ใช้ราว 700,000 ฝีแปรง โดยไม่ใช้เครื่องสร้างภาพภายนอกหรือภาพต้นแบบ Anthropic ระบุว่าการวางแผนทีละขั้นและการแก้ตัวเองนี้ใช้กับหุ่นยนต์ได้ บน RoboDojo Sim ได้ 64.9% เทียบกับ 29.8% ของ GPT-6 Astra แต่ในการทดสอบแขนกลจริง Astra เร็วและควบคุมละเอียดกว่า บริษัทยังอ้างว่า Fable 5.2 ใช้เอเจนต์ย่อยกว่า 1,000 ตัวสร้างระบบปฏิบัติการแล็ปท็อปในแปดวัน เรื่องนี้สำคัญเพราะชี้ว่าโมเดลภาษาให้เหตุผลเรื่องกระบวนการทางกายภาพผ่านโค้ดได้",
+      "source_url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+      "tech_impact": "การให้โมเดลภาษาทำงานผ่านโค้ดแบบวางแผนและแก้ตัวเอง กำลังขยายจากข้อความไปสู่งานภาพและหุ่นยนต์",
+      "tags": [
+        "Anthropic",
+        "Claude Fable 5.2",
+        "Robotics",
+        "Agentic Coding"
+      ],
+      "published_at": "2026-11-15T15:42:00Z",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Frontier Models",
+        "Robotics",
+        "Generative Art"
+      ],
+      "actions_developer": [
+        "ทดลองให้ LLM สร้างผลงานผ่านโค้ดที่ตรวจและแก้ไขได้ แทนการสร้างผลลัพธ์ปลายทางโดยตรง",
+        "ใช้ผลทดสอบในโลกจริงประกอบ benchmark จำลองเมื่อประเมินโมเดลสำหรับงานหุ่นยนต์"
+      ],
+      "actions_business": [
+        "มองหางานออกแบบหรือกราฟิกที่ต้องการผลลัพธ์แก้ไขได้ทีละขั้น ซึ่งแนวทางนี้อาจเหมาะกว่าโมเดลภาพทั่วไป",
+        "ระวังการตีความตัวเลขที่บริษัทรายงานเอง และรอผลทดสอบอิสระก่อนตัดสินใจลงทุน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261116-b2-04",
+      "slug": "australias-central-bank-finds-ai-hitting-young-workers",
+      "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+      "title_th": "ธนาคารกลางออสเตรเลียพบ AI กระทบแรงงานรุ่นใหม่ก่อน โดยเฉพาะสายซอฟต์แวร์และบริการลูกค้า",
+      "topic_group": "global",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "การศึกษาของ Mike Major สำหรับธนาคารกลางออสเตรเลีย (RBA) ติดตามผลกระทบเบื้องต้นของ AI ต่อตลาดแรงงาน โดยเน้นอาชีพที่สัมผัส AI สูง เช่น เขียนโปรแกรม งานธุรการ และบริการลูกค้า พบว่า AI ยังแทบไม่ได้แทนที่งานในภาพรวม แต่แรงงานอายุ 15-24 ปีและบัณฑิตจบใหม่ในกลุ่มนี้มีอัตราจ้างงานแย่ลงและว่างงานสูงกว่าคนอายุมาก ผู้เขียนเตือนว่ายังไม่พิสูจน์ความเป็นเหตุเป็นผล บทความยังเทียบงานวิจัยอื่น เช่น Stanford ที่พบการจ้างงานคนอายุ 22-25 ปีในอาชีพเสี่ยงลด 13% และ Anthropic ที่พบการรับวิศวกรระดับต้นลดจาก 27% เหลือ 9% ขณะที่ WEF คาดว่าจะมีงานเพิ่มสุทธิ 78 ล้านตำแหน่งภายในปี 2573 เรื่องนี้สำคัญเพราะผลกระทบของ AI อาจปรากฏที่ทางเข้าสายอาชีพก่อนตัวเลขว่างงานรวม",
+      "source_url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+      "tech_impact": "ตำแหน่งงานระดับเริ่มต้นในสายซอฟต์แวร์และบริการลูกค้ากำลังถูกกดดันก่อน ซึ่งอาจทำให้ขาดบุคลากรที่มีประสบการณ์ในอนาคต",
+      "tags": [
+        "RBA",
+        "Labor Market",
+        "Young Workers",
+        "AI Exposure"
+      ],
+      "published_at": "2026-11-15T10:45:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Labor Market",
+        "Workforce",
+        "Economics"
+      ],
+      "actions_developer": [
+        "นักพัฒนารุ่นใหม่ควรเน้นทักษะที่ AI ทำแทนยาก เช่น การออกแบบระบบ การตรวจสอบ และความรู้เฉพาะโดเมน",
+        "ทีมอาวุโสควรวางโครงการพี่เลี้ยงที่ใช้ AI ช่วยเร่งการเรียนรู้ของจูเนียร์"
+      ],
+      "actions_business": [
+        "ทบทวนแผนรับคนระดับเริ่มต้นเพื่อไม่ให้ขาดท่อส่งบุคลากรระยะยาว",
+        "ลงทุนอัปสกิลพนักงานเดิมควบคู่กับการนำ AI มาใช้ แทนการลดคนอย่างเดียว"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261116-b2-05",
+      "slug": "is-bad-news-for-jensen-huang-also-bad",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "title_th": "ข่าวร้ายของ Jensen Huang จะเป็นข่าวร้ายของอุตสาหกรรม AI ด้วยหรือไม่?",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "TechCrunch สรุปตอนพอดแคสต์ Equity ที่ Anthony Ha, Rebecca Bellan และ Tim De Chant วิเคราะห์การลาออกกะทันหันของ Jensen Huang ซีอีโอ Nvidia ซึ่งลาออกเมื่อวันพฤหัสบดีหลังมีรายงานความสัมพันธ์กับอดีตผู้บริหาร Megaspeed ลูกค้าของ Nvidia ที่ถูกกล่าวหาว่าเชื่อมโยงหน่วยข่าวกรองจีน Colette Kress ซีเอฟโอขึ้นเป็นซีอีโอชั่วคราว พวกเขาชี้ว่า Huang ไม่มีแผนสืบทอดตำแหน่ง ประเด็นสำคัญคือ Nvidia ครองตลาด GPU สำหรับ AI ราว 80% และมีการลงทุน 99 พันล้านดอลลาร์ คำมั่น 25 พันล้านดอลลาร์ และคำมั่นบริการคลาวด์อีก 36 พันล้านดอลลาร์ รวมถึงหุ้นใน CoreWeave, Nebius, OpenAI และ Anthropic หาก Nvidia ถอยไปตั้งรับ อาจกระทบเศรษฐกิจหมุนเวียนของวงการ AI ที่ Nvidia ทั้งให้ทุนและขายชิปให้ เรื่องนี้สำคัญเพราะสะท้อนว่าอุตสาหกรรม AI ผูกกับผู้ผลิตชิปรายเดียวมากเพียงใด",
+      "source_url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "tech_impact": "การพึ่ง Nvidia ทั้งในฐานะผู้ขายชิปและนักลงทุนทำให้การเปลี่ยนผู้นำเป็นความเสี่ยงต่อแหล่งทุนและอุปทานของทั้งอุตสาหกรรม",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "AI Circular Economy",
+        "Equity Podcast"
+      ],
+      "published_at": "2026-11-15T21:56:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Semiconductors",
+        "Investment",
+        "Corporate Governance"
+      ],
+      "actions_developer": [
+        "วางแผนรองรับความผันผวนของราคาและอุปทาน GPU ด้วยการรองรับหลายผู้ให้บริการ compute",
+        "ติดตามท่าทีของผู้บริหารชั่วคราวต่อซอฟต์แวร์และโปรแกรมพันธมิตรของ Nvidia"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงของคู่ค้าที่ได้ทุนหรือคำมั่นจาก Nvidia เช่น neocloud ต่าง ๆ",
+        "ติดตามงบไตรมาสของ Nvidia ที่จะประกาศในสัปดาห์นี้เป็นสัญญาณทิศทางการลงทุน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261116-b2-06",
+      "slug": "apple-launches-new-app-to-study-how-people",
+      "title": "Apple launches new app to study how people use AI for health",
+      "title_th": "Apple เปิดตัวแอปศึกษาวิจัยการใช้ AI ตอบคำถามสุขภาพ ร่วมกับ OpenEvidence",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Apple เปิดตัว Apple Health AI Study App แอปวิจัยที่ให้ผู้ใช้ถามคำถามสุขภาพทั่วไปและได้คำตอบที่อ้างอิงแหล่งข้อมูลทางคลินิก โดยร่วมมือกับ OpenEvidence บริษัท AI ด้านการแพทย์ แอปเปิดให้ดาวน์โหลดในสหรัฐฯ ตั้งแต่ 15 พฤศจิกายน 2569 ตั้งเป้าผู้เข้าร่วมสูงสุด 200,000 คนในระยะเวลากว่า 12 เดือน คำตอบอิงงานวิจัยจาก The New England Journal of Medicine, JAMA และ Nature ในภาษาที่เข้าใจง่าย ผู้ใช้เลือกแชร์ข้อมูล HealthKit เช่น อัตราการเต้นหัวใจขณะพัก การนอน และผลแล็บ เพื่อรับคำแนะนำเฉพาะตัวได้ Apple ระบุว่าข้อมูลถูกทำให้ไม่ระบุตัวตนและจะไม่ใช้เทรนโมเดล ส่วน OpenEvidence ลบข้อมูลคำถามและคำตอบภายใน 24 ชั่วโมง เรื่องนี้สำคัญเพราะ Apple เลือกศึกษาการใช้งานจริงอย่างเป็นวิทยาศาสตร์ก่อนขยาย AI สุขภาพสู่ผู้ใช้วงกว้าง",
+      "source_url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "tech_impact": "แนวทาง AI สุขภาพกำลังเน้นคำตอบที่อิงหลักฐานทางคลินิก การไม่ระบุตัวตน และการศึกษาก่อนใช้งานจริง ซึ่งเป็นแบบอย่างสำหรับระบบ PHR และ telemedicine",
+      "tags": [
+        "Apple",
+        "Health AI",
+        "OpenEvidence",
+        "HealthKit"
+      ],
+      "published_at": "2026-11-16T01:30:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Health AI",
+        "Privacy",
+        "Consumer AI"
+      ],
+      "actions_developer": [
+        "ออกแบบระบบตอบคำถามสุขภาพให้อ้างอิงแหล่งข้อมูลทางคลินิกและแสดงที่มาทุกคำตอบ",
+        "กำหนดนโยบายลบข้อมูลคำถามอัตโนมัติและแยกข้อมูลสุขภาพออกจากชุดเทรนโมเดล"
+      ],
+      "actions_business": [
+        "ใช้การศึกษานำร่องที่มีผู้ใช้ยินยอมก่อนเปิดฟีเจอร์ AI สุขภาพในวงกว้าง",
+        "ตรวจความสอดคล้องกับ PDPA เมื่อจะใช้ข้อมูลสุขภาพจากอุปกรณ์สวมใส่ประกอบคำแนะนำ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261116-b2-07",
+      "slug": "indian-chip-startup-bharat-semi-lands-24m-seed",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "title_th": "สตาร์ทอัพชิปอินเดีย Bharat Semi ระดมทุนรอบ seed 24 ล้านดอลลาร์ มุ่งตลาดเซนเซอร์ภาพ AI",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "low",
+      "content": "Bharat Semi สตาร์ทอัพเซมิคอนดักเตอร์จากนิวเดลีอายุเกือบห้าปี ระดมทุนรอบ seed 24 ล้านดอลลาร์ นำโดย Info Edge Group, South Park Commons และ Indus Bridge Ventures เพื่อพัฒนาเซนเซอร์ภาพที่ฝัง AI ไว้ในตัว บริษัทยังไม่มีรายได้และตั้งเป้าผลิตเชิงพาณิชย์ในปี 2570 ชิปของบริษัทรวมการจับภาพ การประมวลผล และ AI ไว้บนชิปเดียว Vrinda Kapoor ผู้ร่วมก่อตั้งระบุว่าอาจลดต้นทุนระบบได้อย่างน้อย 70% เทียบกับการใช้เซนเซอร์ ตัวประมวลผลภาพ และ SoC แยกกัน บริษัทอ้างว่ามี design win กับ General Atomics ของสหรัฐฯ และ Kaynes Semicon ของอินเดีย โดยมี Boyd Fowler อดีต CTO ของ OmniVision เป็น CTO ปัจจุบันมีพนักงานราว 75 คนในอินเดียและสหรัฐฯ และยังเป็นบริษัท fabless เรื่องนี้สำคัญเพราะสะท้อนความพยายามของอินเดียในการสร้างอุตสาหกรรมชิปและความต้องการชิป AI สำหรับอุปกรณ์ปลายทาง",
+      "source_url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "tech_impact": "ชิปเซนเซอร์ที่ประมวลผล AI ในตัวอาจลดต้นทุนอุปกรณ์ edge แต่ยังเป็นคำอ้างที่ต้องรอพิสูจน์เมื่อผลิตจริงในปี 2570",
+      "tags": [
+        "Bharat Semi",
+        "India",
+        "Image Sensor",
+        "Edge AI"
+      ],
+      "published_at": "2026-11-15T23:30:00Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Semiconductors",
+        "Edge AI",
+        "Startups"
+      ],
+      "actions_developer": [
+        "ติดตามสถาปัตยกรรม sensor-plus-AI บนชิปเดียวสำหรับงาน vision บนอุปกรณ์ edge",
+        "ออกแบบโมเดล vision ให้เล็กพอรันบนตัวประมวลผลในเซนเซอร์"
+      ],
+      "actions_business": [
+        "ติดตามผู้ผลิตชิปนอกจีนเพื่อกระจายห่วงโซ่อุปทานอุปกรณ์ IoT และกล้อง",
+        "ประเมินโอกาสลดต้นทุนผลิตภัณฑ์ smart home หรือกล้องอุตสาหกรรมเมื่อชิปลักษณะนี้ออกสู่ตลาด"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
