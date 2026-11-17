@@ -1,0 +1,468 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T10:30:00+07:00",
+  "schema_version": "combined-1.0",
+  "stats": {
+    "total": 11,
+    "by_topic": {
+      "ai_trends": 5,
+      "tech_trends": 2,
+      "thailand": 2,
+      "global": 2
+    },
+    "by_source_category": {
+      "thai": 2,
+      "international": 5,
+      "research": 4,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 1,
+      "medium": 6,
+      "low": 4
+    },
+    "breakthrough_count": 3
+  },
+  "top_insights": [
+    {
+      "title": "Google เตือนการโจมตีไซเบอร์อัตโนมัติเต็มรูปแบบด้วย AI มาถึงแล้ว และจะรุนแรงขึ้นอย่างรวดเร็ว",
+      "impact_summary": "ช่วงเวลาระหว่างการออกแพตช์กับการถูกโจมตี (patch gap) จะหดสั้นลงอย่างมาก องค์กรทุกขนาดต้องเร่งกระบวนการแพตช์และการตรวจจับเชิงรุก",
+      "urgency": "high",
+      "article_id": "20261117-b2-01"
+    },
+    {
+      "title": "GPT-6 Astra ของ OpenAI ช่วยไขโจทย์คณิตศาสตร์ที่ยากที่สุดของ Standard Model บน lattice",
+      "impact_summary": "ตอกย้ำแนวโน้ม AI เป็นผู้ร่วมวิจัยในคณิตศาสตร์และฟิสิกส์ระดับพรมแดนความรู้ แต่ยังต้องอาศัยการตรวจสอบโดยผู้เชี่ยวชาญมนุษย์",
+      "urgency": "medium",
+      "article_id": "20261117-b2-02"
+    },
+    {
+      "title": "Envisioning Agentic Robotics: วิสัยทัศน์หุ่นยนต์ยุค Agentic ที่ใช้โมเดลพื้นฐานเป็นสมองตัดสินใจ",
+      "impact_summary": "ชี้ทิศทางวงการหุ่นยนต์ที่เปลี่ยนจากการฝึก policy เฉพาะงานไปสู่การใช้ foundation model + harness ซึ่งลดต้นทุนการพัฒนาหุ่นยนต์อเนกประสงค์",
+      "urgency": "medium",
+      "article_id": "20261117-b3-01"
+    },
+    {
+      "title": "OpenAI เปิดโชว์เคส ChatGPT ในไทย ชู dots ทำงานเบื้องหลังได้ตลอดเวลา",
+      "impact_summary": "ตลาดไทยเป็นตลาดผู้ใช้ ChatGPT ขนาดใหญ่และโตเร็ว การมาของ agent ที่ทำงานเบื้องหลังแบบ always-on จะเปลี่ยนรูปแบบบริการดิจิทัลและการแข่งขันของผู้ให้บริการในไทย",
+      "urgency": "medium",
+      "article_id": "20261117-b1-01"
+    },
+    {
+      "title": "Moonshot AI หันโมเดล Kimi จากงานเขียนโค้ดสู่งานวิทยาศาสตร์ หลังคะแนน benchmark เริ่มอิ่มตัว",
+      "impact_summary": "การแข่งขันของผู้พัฒนาโมเดลจีนเริ่มขยายจากโค้ดสู่ AI for Science ซึ่งอาจเปลี่ยนสมดุลการแข่งขันด้านเภสัชกรรมและชีววิทยาเชิงคำนวณ",
+      "urgency": "medium",
+      "article_id": "20261117-b2-03"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261117-b1-01",
+      "slug": "openai-chatgpt-thailand-dots-background-agent",
+      "title": "OpenAI showcases ChatGPT use cases in Thailand, highlighting 'dots' that work in the background around the clock",
+      "title_th": "OpenAI เปิดโชว์เคส ChatGPT ในไทย ชู dots ทำงานเบื้องหลังได้ตลอดเวลา",
+      "topic_group": "thailand",
+      "source_name": "Manager Online Cyber",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "OpenAI จัดเวิร์กช็อป BUILD YOUR OWN NEWSROOM ในไทย โดย Grace Chua ผู้อำนวยการฝ่ายสื่อสารองค์กรประจำเอเชียตะวันออกเฉียงใต้และไต้หวัน ระบุว่าวงการ AI ก้าวจากยุค prompt engineering ปี 2023 สู่ Agentic Era ที่ AI ลงมือทำงานซับซ้อนแทนผู้ใช้ ไทยติด Top 20 ของโลกด้านผู้ใช้ ChatGPT และ Codex รายสัปดาห์ และยอดผู้ใช้โตราว 40% ต่อปี OpenAI ยังร่วมมือกับมหาวิทยาลัยมหิดลเปิดให้นักศึกษาและอาจารย์ใช้ ChatGPT และร่วมกับกระทรวง อว. ทำโครงการ AI Accelerator คัด 10 สตาร์ทอัพไทย ไฮไลต์คือ dots สถาปัตยกรรมใหม่ที่แต่ละอินสแตนซ์มีคอมพิวเตอร์เสมือนบนคลาวด์ของตัวเอง จึงทำงานและเฝ้าติดตามงานต่อได้แม้ผู้ใช้ปิดแล็ปท็อป เช่น ตรวจพบอีเมลแจ้งตัดบัตรและเตือนก่อนค่าไฟถูกตัด สะท้อนว่าผู้ช่วย AI กำลังขยายจากการตอบคำถามสู่การดูแลงานในชีวิตประจำวันอย่างต่อเนื่อง",
+      "source_url": "https://mgronline.com/cyberbiz/detail/9690000109400",
+      "tech_impact": "ตลาดไทยเป็นตลาดผู้ใช้ ChatGPT ขนาดใหญ่และโตเร็ว การมาของ agent ที่ทำงานเบื้องหลังแบบ always-on จะเปลี่ยนรูปแบบบริการดิจิทัลและการแข่งขันของผู้ให้บริการในไทย",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "dots",
+        "Codex",
+        "Agentic AI",
+        "Thailand"
+      ],
+      "published_at": "2026-11-16T11:52:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "consumer AI",
+        "AI agents",
+        "education"
+      ],
+      "actions_developer": [
+        "ทดลองออกแบบ workflow แบบ agentic ที่เชื่อม Gmail/Calendar ผ่าน plugin และวางกลไกยืนยันก่อนลงมือ",
+        "ศึกษา Codex สำหรับงานพัฒนาซอฟต์แวร์และทดสอบการสั่งงานด้วยเสียง"
+      ],
+      "actions_business": [
+        "ประเมินโอกาสเข้าร่วมโครงการ AI Accelerator ของ อว. และ OpenAI",
+        "เตรียมช่องทางบริการลูกค้าให้รองรับการติดต่อจาก AI agent ที่เจรจาแทนผู้บริโภค"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261117-b1-02",
+      "slug": "rose-luckin-big-tech-slow-down-ai-education",
+      "title": "AI-in-education scholar Rose Luckin urges Big Tech to slow down, says human teachers matter more than ever",
+      "title_th": "'โรส ลัคกิน' นักวิชาการ AI ระดับโลก เตือน Big Tech ชะลอพัฒนา AI ชี้ครูมนุษย์สำคัญกว่าที่เคย",
+      "topic_group": "thailand",
+      "source_name": "Manager Online Cyber",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "ศาสตราจารย์ Rose Luckin ผู้เชี่ยวชาญ AI ด้านการศึกษาจาก University College London และผู้ก่อตั้ง Educate Ventures Research กล่าวในงานเปิดโรงเรียน Dulwich College International School Bangkok ว่า AI พัฒนาเร็วเกินกว่าครู นักเรียน และผู้ปกครองจะตามทัน เธอชี้ว่า Agentic AI ช่วยงานโรงเรียนได้ตั้งแต่บริหารพลังงาน อาหาร ไปจนถึงสร้างแบบจำลองการเรียนเฉพาะบุคคลและประเมินผลระหว่างเรียน แต่ความสัมพันธ์ระหว่างครูกับนักเรียนเป็นสิ่งที่ AI สร้างแทนไม่ได้ งานวิจัยช่วงต้นพบว่านักเรียนที่เข้าถึง AI ราคาแพงไม่ได้เรียนรู้ดีที่สุดเสมอ บางคนทำงานเสร็จแต่ทำเองไม่ได้ เรียกว่า cognitive offloading เธอเสนอให้หลักสูตร AI Literacy สอนเรื่องข้อมูลส่วนบุคคล และฝากถึงบริษัทเทคโนโลยีว่า Take your time พร้อมคติ Learn fast, act more slowly เพราะการลงทุนมหาศาลที่เร่งหาผลตอบแทนเพิ่มความเสี่ยงต่อผู้เรียน",
+      "source_url": "https://mgronline.com/cyberbiz/detail/9690000109510",
+      "tech_impact": "สถานศึกษาไทยที่เร่งนำ AI มาใช้ต้องออกแบบการใช้งานให้เกิดการเรียนรู้จริง ไม่ใช่แค่ทำงานเสร็จ และต้องสอนเรื่องสิทธิข้อมูลส่วนบุคคลควบคู่",
+      "tags": [
+        "AI in Education",
+        "Rose Luckin",
+        "UCL",
+        "AI Literacy",
+        "Cognitive Offloading"
+      ],
+      "published_at": "2026-11-16T14:47:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "education",
+        "AI policy",
+        "data privacy"
+      ],
+      "actions_developer": [
+        "ออกแบบ EdTech ที่วัดการเรียนรู้โดยไม่พึ่ง AI (transfer test) แทนการวัดแค่ผลงานที่ส่ง",
+        "ใส่ระบบขอความยินยอมและอธิบายการใช้ข้อมูลผู้เรียนให้ชัดเจน"
+      ],
+      "actions_business": [
+        "โรงเรียนและผู้ให้บริการการศึกษาควรมีนโยบายใช้ AI ที่แยกตามช่วงวัย",
+        "บรรจุ AI Literacy ที่รวมประเด็นข้อมูลส่วนบุคคลในหลักสูตรอบรมครูและบุคลากร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261117-b2-01",
+      "slug": "google-gtig-fully-automated-ai-cyberattacks",
+      "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
+      "title_th": "Google เตือนการโจมตีไซเบอร์อัตโนมัติเต็มรูปแบบด้วย AI มาถึงแล้ว และจะรุนแรงขึ้นอย่างรวดเร็ว",
+      "topic_group": "global",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "high",
+      "content": "Google Threat Intelligence Group หรือ GTIG รายงานว่าพบผู้โจมตีใช้ AI ค้นหาและเจาะช่องโหว่ซอฟต์แวร์แบบอัตโนมัติโดยไม่มีมนุษย์เกี่ยวข้องเป็นครั้งแรก ทีมพบเซิร์ฟเวอร์ที่เปิดเผยอยู่ซึ่งรันเฟรมเวิร์ก exploit_agent เชื่อมต่อกับโมเดลภาษาหลายตัว ระบบนี้เปรียบเทียบโค้ดก่อนและหลังแพตช์ ระบุช่องโหว่ พัฒนา exploit และสั่งโจมตีเองได้ทั้งหมด คอมเมนต์ภาษารัสเซียในไฟล์ตั้งค่าบ่งชี้ว่าผู้ควบคุมใช้ภาษารัสเซีย และเป้าหมายคือเว็บไซต์ฝรั่งเศสในกลุ่มสื่อ บันเทิง และการศึกษา GTIG จัดระดับความพร้อมไว้ที่ Level 5 ซึ่ง AI ทำงานหลายขั้นตอนของการโจมตีโดยแทบไม่ต้องพึ่งมนุษย์ และเตือนว่าการโจมตีที่ทรงพลังกว่านี้อยู่ห่างไปเพียงไม่กี่เดือน อย่างไรก็ตาม การโจมตีลักษณะนี้ยังเน้นความเร็วมากกว่าการซ่อนตัว จึงทิ้งร่องรอยทางนิติวิทยาศาสตร์ที่ตรวจจับได้ ข้อมูลเผยแพร่ใน GTIG AI Threat Tracker",
+      "source_url": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
+      "tech_impact": "ช่วงเวลาระหว่างการออกแพตช์กับการถูกโจมตี (patch gap) จะหดสั้นลงอย่างมาก องค์กรทุกขนาดต้องเร่งกระบวนการแพตช์และการตรวจจับเชิงรุก",
+      "tags": [
+        "Google GTIG",
+        "Cybersecurity",
+        "exploit_agent",
+        "AI Threat",
+        "Zero-Day"
+      ],
+      "published_at": "2026-11-16T19:42:13+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "cybersecurity",
+        "AI safety",
+        "threat intelligence"
+      ],
+      "actions_developer": [
+        "ลดเวลา deploy แพตช์ความปลอดภัยให้เหลือหลักชั่วโมงด้วย CI/CD อัตโนมัติ",
+        "เพิ่มการตรวจจับพฤติกรรมการสแกนและ exploit แบบความเร็วสูงใน WAF/IDS"
+      ],
+      "actions_business": [
+        "ทบทวน SLA การแพตช์และงบประมาณ SOC ให้รองรับภัยคุกคามที่ขับเคลื่อนด้วย AI",
+        "ซ้อมแผนรับมือเหตุการณ์ (incident response) ที่สมมติว่าถูกโจมตีภายในวันเดียวกับที่แพตช์ออก"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261117-b2-02",
+      "slug": "openai-gpt-6-astra-standard-model-lattice",
+      "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
+      "title_th": "GPT-6 Astra ของ OpenAI ช่วยไขโจทย์คณิตศาสตร์ที่ยากที่สุดของ Standard Model บน lattice",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Nathaniel Craig นักฟิสิกส์จาก UC Santa Barbara และนักวิทยาศาสตร์รับเชิญของ OpenAI เผยว่า GPT-6 Astra ช่วยพัฒนาวิธีนิยาม Standard Model ทั้งทฤษฎีบน lattice หรือโครงตาข่ายกาลอวกาศ ซึ่งทำไม่ได้มานาน เพราะแรงอย่างอ่อนปฏิบัติต่ออนุภาคมือซ้ายและมือขวาต่างกัน ทำให้เกิดอนุภาคผีที่ไม่ต้องการ แม้ overlap fermions จะกรองอนุภาคเหล่านี้ได้ แต่กว่า 25 ปีไม่มีใครกำหนดเฟสได้ถูกต้อง Craig เสนอแนวคิดเทียบ lattice ที่ละเอียดขึ้นเรื่อย ๆ แต่พิสูจน์ไม่ได้ครบ GPT-6 Astra จึงแปลงแนวคิดเป็นโครงสร้างที่ใช้งานได้และนำการพิสูจน์โดยละเอียด ผลงานผ่านการตรวจโดยผู้เชี่ยวชาญ lattice field theory สามคน และเผยแพร่บนบล็อก OpenAI กับ arXiv 2610.09093 ทั้งนี้ Craig ย้ำว่าเป็นเพียงจุดเริ่มต้น ยังต้องทำงานอีกมากก่อนจำลองได้จริง",
+      "source_url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+      "tech_impact": "ตอกย้ำแนวโน้ม AI เป็นผู้ร่วมวิจัยในคณิตศาสตร์และฟิสิกส์ระดับพรมแดนความรู้ แต่ยังต้องอาศัยการตรวจสอบโดยผู้เชี่ยวชาญมนุษย์",
+      "tags": [
+        "OpenAI",
+        "GPT-6 Astra",
+        "Physics",
+        "AI for Science",
+        "Math Proof"
+      ],
+      "published_at": "2026-11-16T19:19:56+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI for science",
+        "physics",
+        "mathematics"
+      ],
+      "actions_developer": [
+        "ศึกษาวิธีใช้ LLM ร่วมกับ proof assistant (เช่น Lean) เพื่อตรวจสอบการพิสูจน์",
+        "สร้าง pipeline ให้ผู้เชี่ยวชาญรีวิวผลลัพธ์จาก AI ก่อนนำไปใช้"
+      ],
+      "actions_business": [
+        "องค์กรวิจัยควรประเมินการใช้โมเดลระดับ frontier เป็นผู้ช่วยวิจัย",
+        "ติดตามการเปิดบริการ AI for Science เพื่อหาโอกาสความร่วมมือ"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261117-b2-03",
+      "slug": "moonshot-ai-kimi-pivot-coding-to-science",
+      "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
+      "title_th": "Moonshot AI หันโมเดล Kimi จากงานเขียนโค้ดสู่งานวิทยาศาสตร์ หลังคะแนน benchmark เริ่มอิ่มตัว",
+      "topic_group": "global",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Moonshot AI สตาร์ทอัพจากปักกิ่งกำลังปรับทิศทางโมเดล Kimi จากงานเขียนโค้ดไปสู่ชีววิทยา เคมี และการวิจัยยา เนื่องจากมองว่าผลตอบแทนจากการไล่คะแนน benchmark ด้านโค้ดเริ่มลดลง Giacomo Ficari ผู้อำนวยการฝ่ายต่างประเทศกล่าวในงาน Web Summit ที่ลิสบอนว่างานวิทยาศาสตร์ต้องการโมเดลที่ฉลาดกว่างานกฎหมาย การเงิน หรือโค้ด ด้าน DP Technology นำ Kimi K3.1 Pro ไปใช้ในผู้ช่วยวิจัย BioMaster ซึ่งในการทดสอบวิเคราะห์ข้อมูลยีนจากเซลล์ตับอ่อนหนู 3,696 เซลล์และระบุยีนเป้าหมาย 100 ตัวภายใน 90 นาที ขณะที่มนุษย์ใช้ราวสี่ชั่วโมง อย่างไรก็ตาม บน benchmark TCSExam โมเดลชั้นนำยังพิสูจน์ข้อคาดการณ์ที่เปิดอยู่เองไม่ได้ และผลสำรวจของ Citi พบว่าผู้นำวิจัยยาสหรัฐฯ 72% ใช้ AI อย่างกว้างขวาง แต่มีเพียง 24% ที่คาดว่าจะช่วยเพิ่มอัตราความสำเร็จของการพัฒนายา",
+      "source_url": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
+      "tech_impact": "การแข่งขันของผู้พัฒนาโมเดลจีนเริ่มขยายจากโค้ดสู่ AI for Science ซึ่งอาจเปลี่ยนสมดุลการแข่งขันด้านเภสัชกรรมและชีววิทยาเชิงคำนวณ",
+      "tags": [
+        "Moonshot AI",
+        "Kimi K3.1 Pro",
+        "China AI",
+        "Drug Discovery",
+        "Biology"
+      ],
+      "published_at": "2026-11-16T18:52:55+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI for science",
+        "biotech",
+        "China AI"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ LLM วิเคราะห์ข้อมูล single-cell และ genomics พร้อมตรวจสอบผลด้วยวิธีทางสถิติ",
+        "ติดตาม API ของ Kimi K3.1 Pro สำหรับงานวิทยาศาสตร์ที่ต้องการต้นทุนต่ำ"
+      ],
+      "actions_business": [
+        "บริษัทยาและไบโอเทคควรตั้งความคาดหวัง ROI ของ AI อย่างสมจริง",
+        "พิจารณาความเสี่ยงด้านข้อมูลและกฎระเบียบเมื่อใช้โมเดลจากจีน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261117-b2-04",
+      "slug": "claude-html-in-canvas-interactive-websites",
+      "title": "Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML",
+      "title_th": "Claude สร้างเว็บไซต์โต้ตอบได้ภายในกราฟิก canvas ด้วย HTML-in-Canvas ปลุกยุค Flash ด้วย HTML จริง",
+      "topic_group": "tech-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "low",
+      "content": "Felix Rieseberg จากทีม Claude ของ Anthropic ประกาศว่า Claude สามารถสร้างเว็บไซต์แปลกตาและสวยงามด้วยฟีเจอร์ HTML-in-Canvas ซึ่งวางองค์ประกอบหน้าเว็บจริง เช่น ข้อความและปุ่ม ไว้ในกราฟิก canvas และเอฟเฟกต์ 3D โดยยังคลิก เลือกข้อความ และให้ screen reader อ่านได้ แก้ปัญหาเดิมที่ HTML ปกติบิดรูปทรงได้ยาก ส่วน canvas เป็นเหมือนภาพนิ่งที่โต้ตอบไม่ได้ หน้าเดโมมี 15 ตัวอย่าง เช่น เว็บไซต์ที่แสดงเป็นลายถักไหมพรม ลูกบาศก์ 3D และมุมมองแยกชั้น Google กำลังผลักดัน HTML-in-Canvas ให้เป็นมาตรฐานเว็บ ฟีเจอร์ใช้ได้บน Chrome และ Edge ตั้งแต่เวอร์ชัน 157 และแอปเดสก์ท็อปของ Claude ตั้งแต่เวอร์ชัน 5.11492 แต่ Safari และ Firefox ยังไม่รองรับ ผู้ใช้ต้องระบุใน prompt อย่างชัดเจนว่าต้องการใช้ HTML-in-Canvas",
+      "source_url": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
+      "tech_impact": "เปิดทางให้ AI สร้างประสบการณ์เว็บเชิงภาพที่ซับซ้อนโดยไม่เสียความสามารถด้าน accessibility ซึ่งอาจเปลี่ยนวิธีทำ landing page และงานครีเอทีฟ",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "HTML-in-Canvas",
+        "Web Standards",
+        "Chrome 157"
+      ],
+      "published_at": "2026-11-16T16:10:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "web development",
+        "generative UI",
+        "developer tools"
+      ],
+      "actions_developer": [
+        "ทดลอง HTML-in-Canvas บน Chrome 157+ พร้อมทำ fallback สำหรับ Safari/Firefox",
+        "ทดสอบ accessibility ของหน้าเว็บที่ AI สร้างด้วย screen reader จริง"
+      ],
+      "actions_business": [
+        "ทีมการตลาดใช้ AI สร้างแคมเปญเว็บเชิงอินเทอร์แอกทีฟได้เร็วขึ้น",
+        "ตรวจสอบสัดส่วนผู้ใช้เบราว์เซอร์ก่อนใช้ฟีเจอร์ที่ยังไม่เป็นมาตรฐานทั่วไป"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261117-b2-05",
+      "slug": "anthropic-agent-memory-knowing-what-to-forget",
+      "title": "Anthropic says the key to agent memory is knowing what to forget, not how much to store",
+      "title_th": "Anthropic ชี้หัวใจของหน่วยความจำ AI agent คือรู้ว่าควรลืมอะไร ไม่ใช่เก็บให้มากที่สุด",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Anthropic เผยผลศึกษาการจดบันทึกข้ามเซสชันของ Claude พบว่าบันทึกแบบคัดเลือกได้ผลดีกว่าการเก็บทุกอย่าง ในการทดสอบเกม Pokémon Red นั้น Claude Sonnet 3.7 สร้าง 413 ไฟล์ใน 225 โฟลเดอร์ตลอดราว 10,000 ขั้นตอน จนบันทึกล้าสมัยและได้เพียงหนึ่งเหรียญตรา ขณะที่ Claude Fable 5 เก็บเพียงไม่กี่ไฟล์ที่เน้นแผนและกฎที่ทดสอบแล้ว และได้สี่เหรียญ ส่วนเทคนิค Dreaming ให้ Claude ทบทวนบันทึกการทำงานเก่าช่วงว่างเพื่อแก้บันทึกที่ผิด ช่วยให้ไปถึง Cerulean City ใน 1,935 ขั้นตอน ในการสร้างวิกิจากเอกสารภายในของ Stainless ราว 350,000 ฉบับ คะแนนวิกิร่วมกับการค้นหาเพิ่มจาก 54% เป็น 61% และงานกฎหมายหลายเอกสารได้ 87% เทียบกับ 73% ของการค้นหาอย่างเดียว อย่างไรก็ตาม Dreaming เพิ่มต้นทุนประมวลผลและวิกิต้องการการดูแล",
+      "source_url": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/",
+      "tech_impact": "ยืนยันว่า context engineering และการจัดการหน่วยความจำเป็นปัจจัยสำคัญต่อประสิทธิภาพ agent ระยะยาว มากกว่าการเพิ่มขนาด context",
+      "tags": [
+        "Anthropic",
+        "Agent Memory",
+        "Dreaming",
+        "Claude Managed Agents",
+        "Context Engineering"
+      ],
+      "published_at": "2026-11-16T15:25:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI agents",
+        "LLM memory",
+        "knowledge management"
+      ],
+      "actions_developer": [
+        "ออกแบบ memory ของ agent ให้เก็บแผน กฎที่ยืนยันแล้ว และบทเรียน แทนการบันทึกทุกเหตุการณ์",
+        "เพิ่มขั้นตอน consolidation/ทบทวนหน่วยความจำแบบ offline เพื่อลบข้อมูลซ้ำและผิด"
+      ],
+      "actions_business": [
+        "ใช้แนวทาง wiki ภายในองค์กรที่ AI ช่วยดูแลเพื่อเพิ่มความแม่นยำของการค้นความรู้",
+        "คำนวณต้นทุน compute ของฟีเจอร์ memory ก่อนขยายใช้งานจริง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261117-b3-01",
+      "slug": "envisioning-agentic-robotics-new-era",
+      "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+      "title_th": "Envisioning Agentic Robotics: วิสัยทัศน์หุ่นยนต์ยุค Agentic ที่ใช้โมเดลพื้นฐานเป็นสมองตัดสินใจ",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Daily Papers",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัย Envisioning Agentic Robotics จาก Grid Robotics และคณะ ซึ่งขึ้นอันดับหนึ่งของ HuggingFace Daily Papers วันที่ 16 พฤศจิกายน เสนอว่าการเปิดตัว GPT-6 Astra เป็นจุดเปลี่ยนของวงการหุ่นยนต์ เพราะภายในไม่กี่สัปดาห์ โมเดลระดับ frontier ที่ติดตั้ง harness แบบ agentic สามารถทำได้เทียบเท่าหรือดีกว่า policy เฉพาะงานบน benchmark หลายตัว ผู้เขียนนิยาม agentic robotics ว่าเป็นการใช้โมเดลพื้นฐานเดียวทำงานในโลกจริงแบบวงปิด ทั้งสังเกต ตีความเจตนา ให้เหตุผล เรียกใช้ทักษะและเครื่องมือ ตรวจสอบผล และปรับตัว แนวคิดหลักคือ Embodied System 2 ที่รวมโมเดลพื้นฐานกับ harness ด้านกายภาพเป็นแกนตัดสินใจ ความท้าทายสำคัญคือแปลงการให้เหตุผลทั่วไปเป็นการกระทำที่ตรวจสอบได้ภายใต้ข้อจำกัดด้านเวลาตอบสนองและผลที่ย้อนกลับไม่ได้ งานนี้เสนอกรอบประเมินและแผนที่วิจัยสู่ sustained autonomy",
+      "source_url": "https://huggingface.co/papers/2611.18359",
+      "tech_impact": "ชี้ทิศทางวงการหุ่นยนต์ที่เปลี่ยนจากการฝึก policy เฉพาะงานไปสู่การใช้ foundation model + harness ซึ่งลดต้นทุนการพัฒนาหุ่นยนต์อเนกประสงค์",
+      "tags": [
+        "Robotics",
+        "Agentic AI",
+        "Embodied AI",
+        "Foundation Model",
+        "arXiv 2611.18359"
+      ],
+      "published_at": "2026-11-16T00:00:00+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "robotics",
+        "embodied AI",
+        "AI agents"
+      ],
+      "actions_developer": [
+        "ทดลองสถาปัตยกรรม LLM-as-planner ร่วมกับ skill library ของหุ่นยนต์ใน simulation",
+        "ออกแบบชั้น verification ก่อนสั่งการกระทำที่ย้อนกลับไม่ได้"
+      ],
+      "actions_business": [
+        "ผู้ผลิตและโลจิสติกส์ควรติดตามหุ่นยนต์อเนกประสงค์ที่ใช้ foundation model",
+        "ประเมินความเสี่ยงด้านความปลอดภัยและความรับผิดเมื่อหุ่นยนต์ตัดสินใจเอง"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261117-b3-02",
+      "slug": "gamer-generalist-vla-game-agent",
+      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+      "title_th": "Gamer: โมเดล Vision-Language-Action อเนกประสงค์สำหรับ agent เล่นเกมแบบเรียลไทม์ระยะยาว",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Daily Papers",
+      "category": "Research",
+      "urgency": "low",
+      "content": "ทีม Honkai AI R&D ของ miHoYo เผยแพร่งานวิจัย Gamer ซึ่งเป็นเฟรมเวิร์ก agent อเนกประสงค์แบบ Vision-Language-Action สำหรับงานระยะยาวในสภาพแวดล้อม 2D และ 3D โดยรวมการรับรู้ภาพ การจัดการหน่วยความจำ และการให้เหตุผลหลายขั้นไว้ในสถาปัตยกรรมเดียว โมเดลผ่านการ pre-train ต่อเนื่องด้วยข้อมูลการกดแป้นพิมพ์และเมาส์หลายหมื่นชั่วโมง ใช้ sparse-thinking instruction tuning เพื่อลดการคำนวณซ้ำซ้อน และใช้ reinforcement learning แบบหลายรอบที่เสถียร พร้อม inference engine แบบ cloud-edge ที่รองรับเกมจำนวนมากพร้อมกันด้วย latency ต่ำ ผู้เขียนอ้างว่ามีประสิทธิภาพใกล้เคียงผู้เล่นมีฝีมือในเกม open-world 3D หลายเกม โพสต์ของทีมระบุข้อมูลเกมเพลย์กว่า 10,000 ชั่วโมง คำอธิบายเหตุผลราว 1.2 ล้านรายการ latency ต่ำลงกว่า 20 เท่า และผ่านภารกิจหลักของ Honkai: Star Rail กว่า 95% ซึ่งยังเป็นตัวเลขที่ผู้เขียนรายงานเอง",
+      "source_url": "https://huggingface.co/papers/2611.18397",
+      "tech_impact": "แสดงว่าข้อมูลการควบคุมคอมพิวเตอร์ระดับคีย์บอร์ด-เมาส์ปริมาณมากสามารถสร้าง agent ทั่วไปได้ ต่อยอดสู่ computer-use agent และหุ่นยนต์",
+      "tags": [
+        "VLA",
+        "Game Agent",
+        "miHoYo",
+        "Reinforcement Learning",
+        "arXiv 2611.18397"
+      ],
+      "published_at": "2026-11-16T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "game AI",
+        "VLA models",
+        "reinforcement learning"
+      ],
+      "actions_developer": [
+        "ศึกษาเทคนิค sparse-thinking เพื่อลด latency ของ agent ที่ต้องตัดสินใจแบบเรียลไทม์",
+        "ทดลอง multi-turn RL สำหรับงานที่มี reward เบาบาง"
+      ],
+      "actions_business": [
+        "สตูดิโอเกมใช้ agent ทดสอบเกม (QA automation) และสร้าง NPC ที่ฉลาดขึ้น",
+        "ติดตามการนำ VLA ไปใช้กับงาน RPA และ computer-use ในองค์กร"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261117-b3-03",
+      "slug": "vibeprevisbench-agentic-coding-4d-blender",
+      "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+      "title_th": "VibePrevisBench: ชุดทดสอบ AI coding agent ในการสร้างฉาก 4D บน Blender",
+      "topic_group": "tech-trends",
+      "source_name": "HuggingFace Daily Papers",
+      "category": "Research",
+      "urgency": "low",
+      "content": "VibePrevisBench เป็นชุดทดสอบใหม่สำหรับประเมิน AI coding agent ในการสร้างฉาก 4D บนโปรแกรม Blender จากโจทย์สั้น ๆ แล้วเรนเดอร์เป็นวิดีโอ graybox สำหรับใช้ควบคุมการสร้างวิดีโอด้วย AI ทั้งเลย์เอาต์ การเคลื่อนไหว และมุมกล้อง ชุดทดสอบมี 242 งาน ครอบคลุมสี่ประเภทอินพุต ได้แก่ สคริปต์ ภาพถ่าย การต่อฉาก และวิดีโออ้างอิง การให้คะแนนแบ่งเป็น Scene Check ที่รันโค้ดซ้ำแล้วเทียบกับข้อเท็จจริงที่ซ่อนไว้เก้ามิติ และ Screen Check ที่ใช้ VLM ตัดสินว่ามองเห็นข้อเท็จจริงเหล่านั้นในวิดีโอหรือไม่ จากการวิเคราะห์ coding agent ระดับ frontier 11 ตัว ทีมวิจัยพบว่าความเข้าใจภาพหลายมิติ โดยเฉพาะพื้นที่และการเคลื่อนกล้อง คือตัวแบ่งแยกความสามารถ agent ทุกตัวทำงานกล้องพื้นฐานได้ดีแต่ล้มเหลวกับโจทย์ยาก และแม้จะตรวจภาพเรนเดอร์ของตัวเองก็ไม่แก้ข้อผิดพลาดที่พบ",
+      "source_url": "https://huggingface.co/papers/2611.15789",
+      "tech_impact": "ชี้จุดอ่อนของ coding agent ด้านการเข้าใจพื้นที่ 3D และการตรวจงานตัวเอง ซึ่งสำคัญต่อ pipeline สร้างวิดีโอและงาน previs ในอุตสาหกรรมสื่อ",
+      "tags": [
+        "Benchmark",
+        "Coding Agent",
+        "Blender",
+        "Video Generation",
+        "arXiv 2611.15789"
+      ],
+      "published_at": "2026-11-16T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "coding agents",
+        "3D/graphics",
+        "video generation"
+      ],
+      "actions_developer": [
+        "เพิ่มขั้นตอน self-verification แบบเช็กลิสต์รายการต่อรายการใน agent ที่สร้างงานภาพ",
+        "ใช้ Blender Python API ร่วมกับ agent เพื่อสร้าง graybox previs อัตโนมัติ"
+      ],
+      "actions_business": [
+        "สตูดิโอโฆษณาและภาพยนตร์ประเมินการใช้ agent ทำ previs เพื่อลดต้นทุน",
+        "ตั้งเกณฑ์ตรวจคุณภาพโดยมนุษย์สำหรับโจทย์ที่ซับซ้อน"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261117-b3-04",
+      "slug": "mmflash-speculative-decoding-vlm",
+      "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+      "title_th": "MMFlash: เร่งความเร็ว speculative decoding สำหรับโมเดล Vision-Language ได้สูงสุด 3.58 เท่า",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Daily Papers",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "ทีมวิจัยจาก National University of Singapore นำเสนอ MMFlash เทคนิค speculative decoding สำหรับโมเดล Vision-Language ซึ่งใช้ drafter ขนาดเล็กเสนอ token ล่วงหน้าให้โมเดลหลักตรวจพร้อมกัน งานนี้ชี้ว่า drafter แบบ diffusion อย่าง DFlash ถูกศึกษาเฉพาะงานข้อความ ทีมจึงวัดว่าแต่ละ token พึ่งพาภาพมากเพียงใดด้วย KL divergence ระหว่างการทำนายแบบมีและไม่มีภาพ พบว่าอัตราการยอมรับ token ลดจาก 46% ในกลุ่มที่พึ่งพาภาพน้อยที่สุดเหลือ 22% ในกลุ่มที่พึ่งพาภาพมากที่สุด แม้ผ่านการฝึกแบบ multimodal แล้วก็ตาม MMFlash จึงเพิ่มน้ำหนักการเรียนรู้ให้ token ที่พึ่งพาภาพซึ่ง drafter ทำนายได้ไม่ดี และใช้ sparse attention ลดการคำนวณซ้ำซ้อนสำหรับวิดีโอยาว ผลคือเร่งการถอดรหัสแบบไม่สูญเสียคุณภาพได้สูงสุด 3.58 เท่า ดีกว่า EAGLE-3 สูงสุด 195.4% และดีกว่า DFlash สูงสุด 17.1%",
+      "source_url": "https://huggingface.co/papers/2611.18482",
+      "tech_impact": "ช่วยลดต้นทุนและ latency ของการให้บริการโมเดล multimodal โดยเฉพาะงานวิดีโอยาว ซึ่งเป็นคอขวดสำคัญของการใช้งานจริง",
+      "tags": [
+        "Speculative Decoding",
+        "VLM",
+        "Inference",
+        "NUS",
+        "arXiv 2611.18482"
+      ],
+      "published_at": "2026-11-16T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "inference optimization",
+        "multimodal AI",
+        "LLM serving"
+      ],
+      "actions_developer": [
+        "ทดลอง speculative decoding กับ VLM ใน inference stack เช่น vLLM/SGLang",
+        "วัด acceptance rate แยกตามประเภท token เพื่อหาจุดปรับปรุง drafter"
+      ],
+      "actions_business": [
+        "ประเมินการลดต้นทุน GPU สำหรับบริการวิเคราะห์ภาพและวิดีโอ",
+        "ใช้ผลลัพธ์นี้ต่อรองหรือเลือกผู้ให้บริการ inference ที่รองรับเทคนิคเร่งความเร็ว"
+      ],
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
