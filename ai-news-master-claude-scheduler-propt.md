@@ -1,62 +1,71 @@
 ---
 description: >
-  Single-run skill merging ai-news-master-pipeline (scrape) + ai-news-publisher (publish)
-  into one pass. Scrapes Thai/Intl/Research+YouTube AI news, classifies into 4 topics,
-  writes batch JSON, then immediately builds the daily publish package.
-  ⛔ NO GIT — git add/commit/push are NOT part of this skill (separate task: ai-news-github-deploy).
+  Single-run skill merging ai-news-master-pipeline v2.0 (scrape, 92-source
+  AI registry) + ai-news-publisher v2.1 (daily digest) into one pass, then
+  refreshes GraphRAG for Pages / MCP search.
+  ⛔ NO GIT — git add/commit/push are NOT part of this skill. File copies to
+  local data/ and github-pages/data/ are fine; committing/pushing them is a
+  separate, explicit task (ai-news-github-deploy) the user has not asked for yet.
 trigger:
   - "run ai news pipeline"
   - "scrape and publish ai news"
   - "สร้าง ai daily digest"
+  - "กวาดข่าว AI"
 ---
 
-# SKILL: ai-news-pipeline-combined v1.2
+# SKILL: ai-news-pipeline-combined v1.3
 
 Merges **ai-news-master-pipeline v2.0** (scrape) and **ai-news-publisher v2.1** (publish)
-into a single run so batch files don't have to be re-read in a second invocation.
+into a single run so batch / article files don't need a second invocation to be read back.
 Output must stay **GraphRAG / MCP RAG searchable**: stable ids, explicit entities, Thai dense summaries.
 
 ## Run params
 `RUN_DATE` / `TARGET_DATE` = today, Asia/Bangkok. Window = 24h before RUN_DATE.
 
-## Global rules (apply everywhere)
-- ⛔ Never run `git add` / `git commit` / `git push`, and never create push scripts. That is a separate task (`ai-news-github-deploy`).
-- **Clear cache first** (every run): PowerShell `ops/Clear-AiNewsCache.ps1` in `C:\Users\AI-PC-DEV\Documents\ai-news`. Removes `_tmp_build`, `_site`, `_to_delete`, ops `__pycache__`, and writes `data/cache-bust.json`. Do **not** delete published `Document/` or cloud history.
-- Fetch order: direct URL (`truncated` mode) → retry `rendered` if body <300 chars → Tier-1 aggregator → YouTube search (metadata only, never fetch video). Caps: ≤3 `web_search`, ≤15 `web_fetch` per batch. Never re-fetch a URL already used. A "pass" requires HTTP 200 + title + body ≥300 chars; `source.url` must be the article permalink, never a homepage/listing page.
-- Keep only items published inside the 24h window. If no date is visible, keep only if it's in the top 3 of a "latest" listing page; otherwise skip.
-- `topic_group` (assign to every article): **ai-trends** (LLM/research/training/safety/benchmarks) · **tech-trends** (tools/products/dev platforms/APIs) · **thailand** (any Thai source, company, or gov AI) · **global** (policy/business/regulation/talent/geopolitics).
-- `content.summary_1` / publish `content`: **100–150 Thai words**, one dense paragraph, no bullets/headers, covering what/who/key numbers/why-it-matters. Translate to Thai even if the source is English; keep brand names, technical terms (LLM, API, GPU…), and numeric stats in original form. Verify word count before writing.
-- `tech_insights` required per article: `impact_summary` (never "N/A" if urgency ≥ medium), `actions_developer` (2 items), `actions_business` (2 items), `urgency`, `related_domains`, `breakthrough_potential`.
-- **GraphRAG entity fields (required for consistency with `ai-news-private`)**: every article / post must also carry searchable entities extracted from the story (do not invent):
-  - `entities.organizations` — companies, labs, agencies (e.g. OpenAI, NVIDIA, DEPA)
-  - `entities.people` — named people when present
-  - `entities.products` — models/chips/products (GPT, Claude, H200, Copilot…)
-  - `entities.places` — countries/cities/regions when relevant
-  - `meta.tags` / `tags` — 3–6 short English tags for MCP `list_posts` / Pages search
-  - Prefer canonical English spellings for brands; keep Thai place names when the source is Thai.
-- Same-day rerun: dedupe by `source.url` and by title similarity ≥90%. **Add-only** — never delete or overwrite existing articles, batches, or manifest entries.
-- Publish copies must land in **both** `data/{DATE}_news.json` and `github-pages/data/{DATE}_news.json` (Pages root + mirror).
+Public kit: `C:\Users\AI-PC-DEV\Documents\ai-news`  
+Private GraphRAG: `C:\Users\AI-PC-DEV\Documents\ai-news-private`
 
-## Pipeline — one run, 10 steps
+## Global rules (apply everywhere)
+- ⛔ Never run `git add` / `git commit` / `git push`, and never write a deploy/push script. Copying finished files into local `data/` and `github-pages/data/` is allowed (file copy only); actually publishing that repo is a separate task, not run here.
+- **Clear cache first** (every run): PowerShell `ops/Clear-AiNewsCache.ps1` in the public kit. Removes `_tmp_build`, `_site`, `_to_delete`, ops `__pycache__`, and writes `data/cache-bust.json`. Do **not** delete published `Document/` or cloud history.
+- Fetch order: **source URL** (`truncated` mode → retry `rendered` if body <300 chars) → Tier-1 aggregator (if listed / needed) → YouTube is **metadata only, never fetch video file**. Caps: ≤3 `web_search`, ≤15 `web_fetch` per batch. Never re-fetch a URL already used; skip a source with nothing new and move on.
+- Keep only items published inside the 24h window; if no date is visible, keep only if it's top-3 on a "latest" listing page, else skip.
+- `topic_group` on every article: **ai-trends** (LLM/research/training/safety/benchmarks) · **tech-trends** (tools/products/dev platforms/APIs) · **thailand** (Thai source, company, or gov AI) · **global** (policy/business/regulation/talent/geopolitics).
+- `summary_1` / publish `content`: **100–150 Thai words**, single paragraph, no bullets/headers, covering what/who/key numbers/why-it-matters. Translate to Thai even if the source is English; keep brand names, technical terms (LLM, API, GPU…), and numeric stats in original form. `source.url` must be the article permalink, never a homepage/listing page. A "pass" = HTTP 200 + title + body ≥300 chars.
+- `tech_insights` on every article: if the news has real product/research/policy significance → `impact_summary`, `actions_developer` (2), `actions_business` (2), `urgency`, `related_domains`, `breakthrough_potential`; otherwise `impact_summary` may be short, `urgency: "low"`. Never leave `impact_summary` as `"N/A"` when urgency ≥ medium.
+- **GraphRAG / MCP entities (required)**: extract only from the story (do not invent):
+  - `entities.organizations` — companies, labs, agencies
+  - `entities.people` — named people when present
+  - `entities.products` — models/chips/products (GPT, Claude, H200…)
+  - `entities.places` — countries/cities/regions when relevant
+  - `meta.tags` — 3–6 short English tags for Pages search + MCP `list_posts` / `search_rag`
+  - Prefer canonical English spellings for brands; Thai place names OK when source is Thai.
+- Same-day rerun: dedupe by `source.url` and by title similarity ≥90%. **Add-only** — never delete/overwrite existing articles, batches, or manifest entries. Before reporting "completed," re-scan today's batch / article folders and remove any duplicate you just created (keep the older one).
+- PDF generation is mandatory — never report it as skipped. Try in order: reportlab → weasyprint → playwright → headless chrome/edge `--print-to-pdf`. HTML/PDF must keep Thai readable (no tofu boxes).
+- Publish copies must land in **both** `data/{DATE}_news.json` and `github-pages/data/{DATE}_news.json` (Pages root + mirror). Updating manifests = prepend, add-only.
+
+## Pipeline — one run, 9 steps
 
 **Prep**
 0. Clear local caches: `ops/Clear-AiNewsCache.ps1`
 
 **Scrape**
-1. Batch 1 — Thai sources (see registry) → `News/Batches/{DATE}/batch_1.json`
-2. Batch 2 — International sources → `batch_2.json`
-3. Batch 3 — Research + international YouTube → `batch_3.json`
+1. Batch 1 — Thai sites + Thai YouTube (see registry) → `News/Batches/{DATE}/batch_1.json` + per-article folders
+2. Batch 2 — International media + newsletters / lab blogs → `batch_2.json` + per-article folders
+3. Batch 3 — Research + international YouTube → `batch_3.json` + per-article folders
 
-   Each batch file: `{ batch, target_date, generated_at, total_articles, articles: [...] }` (schema below). Also write per-article `News/Articles/{Category}/{Source}/{DATE}/{Slug}/article.json` + `.md` for backward compatibility. Target ≥10 articles/batch when material exists — breadth over depth; if a source has nothing, move on immediately.
+   Each batch file: `{ batch, target_date, generated_at, total_articles, articles: [...] }`.  
+   Every article also gets `News/Articles/{Category}/{Source}/{DATE}/{Slug}/article.json` + `article.md`.  
+   Target ≥10 articles/batch when material exists — breadth over depth; if a source has nothing, skip immediately.
 
 **Publish (same run, immediately after)**
 
-4. Read all `batch_*.json`, filter `fetch.status == "pass"`.
-5. Confirm `topic_group` + entity fields; compute stats (`total`, `by_topic`, `by_source_category`, `urgency_breakdown`, `breakthrough_count`).
-6. Write `Document/{DATE}_News/{DATE}_news.json` (main), `{DATE}_news.html` (light-cyberpunk theme), `{DATE}_news.pdf` (reportlab; chrome-headless fallback), `_index.json`.
-7. Update `Document/manifest.json` (prepend, add-only) → copy `{DATE}_news.json` to **`data/`** and **`github-pages/data/`** → update both manifests (prepend, add-only).
-8. **GraphRAG refresh (private workspace)**: copy `data/*_news.json` into `C:\Users\AI-PC-DEV\Documents\ai-news-private\data\`, run `node ops/build-ai-news-graph.js`, then `.\ops\sync-to-public.ps1` so public `data/graph.json` matches today's digest.
-9. Print the Final Completion Report (below). **Stop — no git push.**
+4. Read all `News/Batches/{DATE}/batch_*.json` (and/or glob today's `article.json`), keep `fetch.status == "pass"`.
+5. Confirm `topic_group` + `entities` + tags; compute stats (`total`, `by_topic`, `by_source_category`, `urgency_breakdown`, `breakthrough_count`); build `top_insights` (top urgency / breakthrough).
+6. Write `Document/{DATE}_News/{DATE}_news.json` (GitHub-Pages-ready `posts` array), `{DATE}_news.html` (light-cyberpunk), `{DATE}_news.pdf`, `_index.json`.
+7. Update `Document/manifest.json` (prepend, add-only); copy `{DATE}_news.json` + update `manifest.json` into **`data/`** and **`github-pages/data/`** (file copy only). Mark published articles `meta.status = "published"` when that field exists.
+8. **GraphRAG refresh (private)**: copy public `data/*_news.json` → `ai-news-private/data/`; run `node ops/build-ai-news-graph.js`; run `.\ops\sync-to-public.ps1` so public `data/graph.json` (+ github-pages mirror) matches today's digest.
+9. Verify required outputs exist and are non-empty (json parses, html >10KB, pdf >0 bytes, graph.json present), then print the Completion Report. **Stop — no git push.**
 
 ## article.json (per-article, from scrape)
 ```json
@@ -65,7 +74,7 @@ Output must stay **GraphRAG / MCP RAG searchable**: stable ids, explicit entitie
   "source_info": {"category": "Thai|International|Research|YouTube", "source_name": "", "registry_key": "", "main_url": ""},
   "source": {"url": "", "type": "direct|aggregator|youtube", "fetch_priority_used": "1_direct|2_aggregator|3_youtube"},
   "fetch": {"status": "pass|fail", "http_status": 200, "fetched_at": "", "fetch_mode": "truncated|rendered|search"},
-  "meta": {"published_at": "", "target_date": "", "within_24h": true, "batch": "1|2|3", "category_label": "", "tags": []},
+  "meta": {"published_at": "", "target_date": "", "within_24h": true, "status": "scraped|published", "batch": "1|2|3", "category_label": "", "tags": []},
   "content": {"title": "", "title_th": "", "slug": "", "summary_1": "", "language": "th"},
   "tech_insights": {"impact_summary": "", "actions_developer": ["", ""], "actions_business": ["", ""], "urgency": "high|medium|low", "related_domains": [], "breakthrough_potential": false},
   "entities": {"organizations": [], "people": [], "products": [], "places": []},
@@ -73,11 +82,17 @@ Output must stay **GraphRAG / MCP RAG searchable**: stable ids, explicit entitie
 }
 ```
 
-## {DATE}_news.json (final publish artifact)
+## {DATE}_news.json (publish artifact, GitHub-Pages schema)
 ```json
 {
-  "date": "", "generated_at": "", "schema_version": "combined-1.2",
-  "stats": {"total": 0, "by_topic": {"ai_trends": 0, "tech_trends": 0, "thailand": 0, "global": 0}, "by_source_category": {"thai": 0, "international": 0, "research": 0, "youtube": 0}, "urgency_breakdown": {"high": 0, "medium": 0, "low": 0}, "breakthrough_count": 0},
+  "date": "", "generated_at": "", "schema_version": "combined-1.3",
+  "stats": {
+    "total": 0,
+    "by_topic": {"ai_trends": 0, "tech_trends": 0, "thailand": 0, "global": 0},
+    "by_source_category": {"thai": 0, "international": 0, "research": 0, "youtube": 0},
+    "urgency_breakdown": {"high": 0, "medium": 0, "low": 0},
+    "breakthrough_count": 0
+  },
   "top_insights": [{"title": "", "impact_summary": "", "urgency": "", "article_id": ""}],
   "posts": [{
     "id": "", "slug": "", "title": "", "title_th": "", "topic_group": "", "source_name": "", "category": "",
@@ -97,31 +112,39 @@ Field mapping `post ← article`: `id←article_id`, `slug←content.slug`, `tit
 :root{--bg-primary:#f0f2f8;--bg-card:#fff;--bg-header:#1a1a2e;--neon-cyan:#00d4ff;--neon-purple:#a855f7;--neon-orange:#ff6b35;--neon-green:#00ff88;--text-primary:#1a1a2e;--text-secondary:#4a4a6a}
 .topic-ai-trends{border-left:4px solid #00d4ff}.topic-tech-trends{border-left:4px solid #a855f7}.topic-thailand{border-left:4px solid #ff6b35}.topic-global{border-left:4px solid #00ff88}
 ```
-Sections: Header → Stats bar → Top Insights → AI Trends → Tech Trends → Thailand → Global → Footer.
+Sections: Header → Stats bar → Top Insights → AI Trends → Tech Trends → Thailand → Global → Footer.  
 Fonts: Google Fonts CDN — Orbitron / Rajdhani / Share Tech Mono.
 
-## Output tree
+## Document output tree
 ```
 News/Batches/{DATE}/batch_{1,2,3}.json
-News/Articles/{Category}/{Source}/{DATE}/{Slug}/article.json + .md   (backward-compat)
-Document/{DATE}_News/{DATE}_news.{json,html,pdf}, _index.json
-Document/manifest.json
-data/{DATE}_news.json, manifest.json, cache-bust.json, graph.json   (Pages root)
-github-pages/data/{DATE}_news.json, manifest.json, graph.json       (mirror)
-ai-news-private/vault/ + github-pages/data/graph.json               (private GraphRAG)
+News/Articles/{Category}/{Source}/{DATE}/{Slug}/article.json + .md
+Document/{DATE}_News/
+  {DATE}_news.{json,html,pdf}
+  _index.json
+Document/manifest.json                                      (prepend, add-only)
+data/{DATE}_news.json, manifest.json, cache-bust.json, graph.json
+github-pages/data/{DATE}_news.json, manifest.json, graph.json   (copy / update for later push)
+ai-news-private/data/ + vault/ + github-pages/data/graph.json   (private GraphRAG build)
 ```
 
-## Final Completion Report
+## Completion Report
 ```json
 {
-  "run_date": "", "target_date": "", "pipeline": "ai-news-combined-1.2",
+  "run_date": "", "target_date": "", "pipeline": "ai-news-combined-1.3",
   "cache_cleared": true,
   "batches": {"1": {"attempted": 0, "created": 0}, "2": {"attempted": 0, "created": 0}, "3": {"attempted": 0, "created": 0}},
-  "articles_total": 0, "topic_breakdown": {"ai_trends": 0, "tech_trends": 0, "thailand": 0, "global": 0},
-  "entities_filled": 0, "skipped_duplicate": 0, "skipped_older_than_24h": 0,
+  "articles_total": 0,
+  "topic_breakdown": {"ai_trends": 0, "tech_trends": 0, "thailand": 0, "global": 0},
+  "entities_filled": 0,
+  "articles_skipped_duplicate": 0,
+  "skipped_older_than_24h": 0,
+  "direct_fetch_success": 0,
+  "aggregator_fallback_used": 0,
   "graphrag": {"nodes": 0, "edges": 0, "synced_to_public": true},
-  "publish_files": ["Document/{DATE}_News/{DATE}_news.json", "...html", "...pdf", "_index.json", "Document/manifest.json", "data/{DATE}_news.json", "github-pages/data/{DATE}_news.json", "data/graph.json"],
-  "git_push": "NOT PERFORMED — separate task ai-news-github-deploy",
+  "files_created": ["{DATE}_news.json", "{DATE}_news.html", "{DATE}_news.pdf", "_index.json", "Document/manifest.json", "data/{DATE}_news.json", "data/graph.json"],
+  "github_pages_copied": false,
+  "git_push": "NOT PERFORMED — no git task run",
   "status": "complete"
 }
 ```
