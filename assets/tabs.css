@@ -1,0 +1,86 @@
+/* Top tabs + GraphRAG shell overlays for AI News Pages */
+
+.top-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem 0;
+  position: relative;
+  z-index: 2;
+}
+
+.top-tab {
+  font-family: var(--font-body, 'Rajdhani', sans-serif);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  border: 1px solid rgba(0, 212, 255, 0.35);
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--text-primary, #1a1a2e);
+  border-radius: 999px;
+  padding: 0.45rem 1rem;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.top-tab:hover {
+  border-color: var(--neon-cyan, #00d4ff);
+  background: #e8faff;
+}
+
+.top-tab.is-active {
+  background: #1a1a2e;
+  color: #f0f2f8;
+  border-color: #1a1a2e;
+}
+
+body.is-brain,
+body.is-connect {
+  background: #f4f6fb;
+}
+
+#view-brain,
+#view-connect {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 2rem;
+}
+
+#view-connect .hero-compact {
+  margin: 1.25rem 0 1rem;
+}
+
+#view-connect .hero-compact h1 {
+  font-family: var(--font-display, 'Orbitron', sans-serif);
+  font-size: 1.5rem;
+}
+
+#view-connect .connect-panel {
+  background: #fff;
+  border: 1px solid rgba(26, 26, 46, 0.08);
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 720px) {
+  .top-tabs {
+    padding-inline: 0.75rem;
+  }
+  .top-tab {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.75rem;
+  }
+}
