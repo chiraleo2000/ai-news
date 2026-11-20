@@ -1,0 +1,8 @@
+version: "3"
+agent:
+  web_addr: 127.0.0.1:4045
+tunnels:
+  rag-gateway:
+    proto: http
+    addr: 8790
+    url: https://ai-pc-dev-rag.ngrok-free.app

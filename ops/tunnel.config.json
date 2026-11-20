@@ -1,0 +1,18 @@
+{
+  "gatewayPort": 8790,
+  "mcpPort": 8787,
+  "llmPort": 1234,
+  "model": "google/gemma-4-e2b",
+  "pagesBase": "https://chiraleo2000.github.io/ai-news",
+  "lms": "C:\\Users\\AI-PC-DEV\\.lmstudio\\bin\\lms.exe",
+  "ngrok": "ngrok",
+  "ngrokWebAddr": "127.0.0.1:4045",
+  "ngrokUrl": "https://ai-pc-dev-rag.ngrok-free.app",
+  "ngrokLog": "logs/ngrok-rag.log",
+  "forbiddenPorts": [18080, 8080, 7988],
+  "reservedHosts": ["fresh-currently-elk.ngrok-free.app"],
+  "dailyTime": "07:30",
+  "push": true,
+  "retries": [5, 10, 20, 30, 45],
+  "log": "logs/wake-tunnel.log"
+}

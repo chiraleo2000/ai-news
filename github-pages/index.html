@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <title>AI News Daily — Cyberpunk Intelligence Briefing</title>
-  <link rel="stylesheet" href="assets/style.css?v=20260803">
+  <link rel="stylesheet" href="assets/style.css?v=20261120a">
+  <link rel="stylesheet" href="assets/brain.css?v=20261120a">
+  <link rel="stylesheet" href="assets/tabs.css?v=20261120a">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600;700&family=Sarabun:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Scan lines overlay -->
   <div class="scanlines"></div>
 
-  <!-- Header -->
   <header class="site-header">
     <div class="container">
       <div class="header-brand">
         <div class="logo-icon">⚡</div>
         <div class="header-text">
           <h1 class="site-title">AI NEWS DAILY</h1>
-          <p class="site-subtitle">CYBERPUNK INTELLIGENCE BRIEFING</p>
+          <p class="site-subtitle">CYBERPUNK INTELLIGENCE BRIEFING · GraphRAG</p>
         </div>
       </div>
       <div class="header-meta">
@@ -32,102 +33,271 @@
     </div>
   </header>
 
-  <!-- Filter Bar -->
-  <section class="filter-bar">
-    <div class="container">
-      <div class="filter-group">
-        <label class="filter-label">TIME RANGE</label>
-        <select id="dateSelect" class="filter-select">
-          <option value="today">Today</option>
-          <option value="yesterday">Yesterday</option>
-          <option value="3" selected>Last 3 Days</option>
-          <option value="7">Last 7 Days</option>
-          <option value="14">Last 14 Days</option>
-          <option value="30">Last 30 Days</option>
-          <option value="all">All News</option>
-        </select>
+  <nav class="top-tabs container" aria-label="ส่วนหลัก">
+    <button type="button" class="top-tab is-active" data-tab="news" id="tab-news">รายการข่าว</button>
+    <button type="button" class="top-tab" data-tab="brain" id="tab-brain">ข้อมูลกราฟ</button>
+    <button type="button" class="top-tab" data-tab="connect" id="tab-connect">เชื่อมต่อ / MCP</button>
+  </nav>
+
+  <section id="view-news" class="view-news">
+    <section class="filter-bar">
+      <div class="container">
+        <div class="filter-group">
+          <label class="filter-label">TIME RANGE</label>
+          <select id="dateSelect" class="filter-select">
+            <option value="today">Today</option>
+            <option value="yesterday">Yesterday</option>
+            <option value="3" selected>Last 3 Days</option>
+            <option value="7">Last 7 Days</option>
+            <option value="14">Last 14 Days</option>
+            <option value="30">Last 30 Days</option>
+            <option value="all">All News</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">URGENCY</label>
+          <select id="urgencyFilter" class="filter-select">
+            <option value="all">ALL</option>
+            <option value="high">⚠️ HIGH</option>
+            <option value="medium">MEDIUM</option>
+            <option value="low">LOW</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">SOURCE</label>
+          <select id="sourceFilter" class="filter-select">
+            <option value="all">ALL SOURCES</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">SEARCH</label>
+          <input type="text" id="searchInput" class="filter-input" placeholder="Search articles...">
+        </div>
+        <div class="filter-stats">
+          <span id="filterCount">0 results</span>
+        </div>
       </div>
-      <div class="filter-group">
-        <label class="filter-label">URGENCY</label>
-        <select id="urgencyFilter" class="filter-select">
-          <option value="all">ALL</option>
-          <option value="high">⚠️ HIGH</option>
-          <option value="medium">MEDIUM</option>
-          <option value="low">LOW</option>
-        </select>
+    </section>
+
+    <main class="main-content">
+      <div class="container">
+        <div class="columns-grid">
+          <div class="topic-column" data-topic="ai-trends">
+            <div class="column-header column-ai">
+              <span class="column-icon">🧠</span>
+              <h2 class="column-title">AI TRENDS</h2>
+              <span class="column-count" id="countAI">0</span>
+            </div>
+            <div class="column-body" id="colAI">
+              <div class="column-empty">No articles</div>
+            </div>
+          </div>
+
+          <div class="topic-column" data-topic="tech-trends">
+            <div class="column-header column-tech">
+              <span class="column-icon">⚙️</span>
+              <h2 class="column-title">TECH TRENDS</h2>
+              <span class="column-count" id="countTech">0</span>
+            </div>
+            <div class="column-body" id="colTech">
+              <div class="column-empty">No articles</div>
+            </div>
+          </div>
+
+          <div class="topic-column" data-topic="thailand">
+            <div class="column-header column-thai">
+              <span class="column-icon">🇹🇭</span>
+              <h2 class="column-title">THAILAND</h2>
+              <span class="column-count" id="countThai">0</span>
+            </div>
+            <div class="column-body" id="colThai">
+              <div class="column-empty">No articles</div>
+            </div>
+          </div>
+
+          <div class="topic-column" data-topic="global">
+            <div class="column-header column-global">
+              <span class="column-icon">🌐</span>
+              <h2 class="column-title">GLOBAL AI & TECH</h2>
+              <span class="column-count" id="countGlobal">0</span>
+            </div>
+            <div class="column-body" id="colGlobal">
+              <div class="column-empty">No articles</div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="filter-group">
-        <label class="filter-label">SOURCE</label>
-        <select id="sourceFilter" class="filter-select">
-          <option value="all">ALL SOURCES</option>
-        </select>
+    </main>
+  </section>
+
+  <section id="view-brain" class="view-brain" hidden>
+    <div class="brain-shell wrap container">
+      <header class="brain-topbar">
+        <div class="brain-topbar-title">
+          <p class="brain-kicker">AI News → knowledge graph</p>
+          <h1>ข้อมูลกราฟ</h1>
+          <p class="brain-status-line" id="brain-status"></p>
+        </div>
+        <div class="brain-stats" id="brain-stats" aria-live="polite"></div>
+        <details class="brain-help-box">
+          <summary>คำอธิบาย</summary>
+          <div id="brain-help" class="brain-help"></div>
+        </details>
+      </header>
+
+      <div class="brain-filterbar" aria-label="ตัวกรองกราฟ">
+        <label class="brain-field brain-field-search">
+          <span>ค้นหา</span>
+          <input id="brain-search" type="search" placeholder="องค์กร บุคคล ผลิตภัณฑ์ แท็ก…" />
+        </label>
+
+        <fieldset class="brain-fieldset brain-fieldset-inline">
+          <legend>ชนิด</legend>
+          <div id="brain-kind-checks" class="brain-checks brain-checks-row">
+            <label><input type="checkbox" data-kind-check="case" checked /> ข่าว</label>
+            <label><input type="checkbox" data-kind-check="entity" checked /> เอนทิตี</label>
+            <label><input type="checkbox" data-kind-check="crime_type" /> หัวข้อ</label>
+            <label><input type="checkbox" data-kind-check="daily" /> รายวัน</label>
+            <label><input type="checkbox" data-kind-check="unresolved" /> ลิงก์ค้าง</label>
+            <label><input type="checkbox" data-kind-check="other" /> อื่น</label>
+          </div>
+        </fieldset>
+
+        <label class="brain-field">
+          <span>กลุ่มเอนทิตี</span>
+          <select id="brain-entity-group">
+            <option value="">ทั้งหมด</option>
+          </select>
+        </label>
+
+        <label class="brain-field">
+          <span>แหล่งข่าว</span>
+          <select id="brain-bureau">
+            <option value="">ทั้งหมด</option>
+          </select>
+        </label>
+
+        <label class="brain-field">
+          <span>หัวข้อ</span>
+          <select id="brain-crime-type">
+            <option value="">ทุกหัวข้อ</option>
+          </select>
+        </label>
+
+        <label class="brain-field brain-field-narrow">
+          <span>degree ≥</span>
+          <input id="brain-min-degree" type="number" min="0" max="50" value="0" />
+        </label>
+
+        <label class="brain-field">
+          <span>ตั้งแต่</span>
+          <input id="brain-date-from" type="date" />
+        </label>
+        <label class="brain-field">
+          <span>ถึง</span>
+          <input id="brain-date-to" type="date" />
+        </label>
+
+        <label class="brain-field">
+          <span>ความสัมพันธ์</span>
+          <select id="brain-relation">
+            <option value="">ทุกความสัมพันธ์</option>
+          </select>
+        </label>
+
+        <label class="brain-field">
+          <span>ป้ายชื่อ</span>
+          <select id="brain-labels">
+            <option value="auto" selected>อัตโนมัติ</option>
+            <option value="all">ทั้งหมด</option>
+            <option value="none">ซ่อน</option>
+          </select>
+        </label>
+
+        <label class="brain-check">
+          <input type="checkbox" id="brain-hide-orphans" checked />
+          ซ่อนไร้ลิงก์
+        </label>
+        <label class="brain-check">
+          <input type="checkbox" id="brain-isolate" />
+          โฟกัสเพื่อนบ้าน
+        </label>
+
+        <div class="brain-filter-actions">
+          <button type="button" class="btn-ghost" id="brain-reset">รีเซ็ต</button>
+          <button type="button" class="btn-ghost" id="brain-zoom-out" title="ซูมออก">−</button>
+          <button type="button" class="btn-ghost" id="brain-zoom-fit" title="พอดีจอ">พอดี</button>
+          <button type="button" class="btn-ghost" id="brain-zoom-in" title="ซูมเข้า">+</button>
+        </div>
       </div>
-      <div class="filter-group">
-        <label class="filter-label">SEARCH</label>
-        <input type="text" id="searchInput" class="filter-input" placeholder="Search articles...">
+
+      <div class="brain-legend-row">
+        <div class="brain-legend" id="brain-legend" aria-label="คำอธิบายสี"></div>
+        <span class="muted" id="brain-meta"></span>
+        <span class="muted brain-hint">โหนดใหญ่ = องค์กร บุคคล สถานที่ สื่อ ผลิตภัณฑ์ · จุดเล็ก = หัวข่าว · ลากพื้นหลังเลื่อน · สกอร์ลซูม</span>
       </div>
-      <div class="filter-stats">
-        <span id="filterCount">0 results</span>
+
+      <div class="brain-workspace">
+        <div class="brain-stage">
+          <canvas id="brain-canvas" width="1600" height="900" aria-label="ข้อมูลกราฟ"></canvas>
+          <aside id="brain-detail" class="brain-detail" aria-label="รายละเอียดโหนดที่เลือก" aria-live="polite"></aside>
+        </div>
+        <aside class="brain-chat" aria-label="แชทถามจากกราฟ">
+          <div class="brain-chat-log" id="brain-chat-log">
+            <div class="brain-chat-empty" id="brain-chat-empty">
+              <p class="brain-kind">ถามจากกราฟ</p>
+              <p>เลือกตัวอย่าง หรือพิมพ์คำถามด้านล่าง</p>
+              <div class="brain-ask-examples" id="brain-ask-examples">
+                <button type="button" class="btn-ghost brain-example" data-example="0" data-mode="all">ช่วงนี้ NVIDIA กับชิป H200 มีข่าวอะไรบ้าง</button>
+                <button type="button" class="btn-ghost brain-example" data-example="1" data-mode="all">OpenAI มีข่าว agent หรือ safety อะไรล่าสุด</button>
+                <button type="button" class="btn-ghost brain-example" data-example="2" data-mode="all">สรุปข่าว AI ที่เกี่ยวกับประเทศไทยในช่วงนี้</button>
+              </div>
+            </div>
+          </div>
+          <form class="brain-chat-form" id="brain-chat-form">
+            <label class="sr-only" for="brain-question">ถามจากกราฟ</label>
+            <input id="brain-question" type="text" placeholder="ถามองค์กร ผลิตภัณฑ์ หรือแนวโน้ม AI…" autocomplete="off" />
+            <button type="button" class="btn-ghost" id="brain-chat-clear">เคลียร์</button>
+            <button type="submit" class="btn-ghost" id="brain-ask-submit">ส่ง</button>
+          </form>
+        </aside>
       </div>
+
+      <p class="muted" id="brain-empty" hidden>
+        ยังไม่มี <code>data/graph.json</code> — สร้างและ publish จาก <code>ai-news-private</code>
+      </p>
     </div>
   </section>
 
-  <!-- Main: 4 Topic Columns -->
-  <main class="main-content">
-    <div class="container">
-      <div class="columns-grid">
-        <!-- Column 1: AI Trends -->
-        <div class="topic-column" data-topic="ai-trends">
-          <div class="column-header column-ai">
-            <span class="column-icon">🧠</span>
-            <h2 class="column-title">AI TRENDS</h2>
-            <span class="column-count" id="countAI">0</span>
-          </div>
-          <div class="column-body" id="colAI">
-            <div class="column-empty">No articles</div>
-          </div>
-        </div>
-
-        <!-- Column 2: Tech Trends -->
-        <div class="topic-column" data-topic="tech-trends">
-          <div class="column-header column-tech">
-            <span class="column-icon">⚙️</span>
-            <h2 class="column-title">TECH TRENDS</h2>
-            <span class="column-count" id="countTech">0</span>
-          </div>
-          <div class="column-body" id="colTech">
-            <div class="column-empty">No articles</div>
-          </div>
-        </div>
-
-        <!-- Column 3: Thailand AI & Tech -->
-        <div class="topic-column" data-topic="thailand">
-          <div class="column-header column-thai">
-            <span class="column-icon">🇹🇭</span>
-            <h2 class="column-title">THAILAND</h2>
-            <span class="column-count" id="countThai">0</span>
-          </div>
-          <div class="column-body" id="colThai">
-            <div class="column-empty">No articles</div>
-          </div>
-        </div>
-
-        <!-- Column 4: Global AI & Tech -->
-        <div class="topic-column" data-topic="global">
-          <div class="column-header column-global">
-            <span class="column-icon">🌐</span>
-            <h2 class="column-title">GLOBAL AI & TECH</h2>
-            <span class="column-count" id="countGlobal">0</span>
-          </div>
-          <div class="column-body" id="colGlobal">
-            <div class="column-empty">No articles</div>
-          </div>
-        </div>
+  <section id="view-connect" class="view-connect container" hidden>
+    <section class="hero hero-compact">
+      <p class="hero-kicker">ค่าในเบราว์เซอร์นี้เท่านั้น</p>
+      <h1>เชื่อมต่อ / MCP</h1>
+      <p class="hero-lead">แชทเรียก Gemma ผ่านฐาน HTTPS ถ้าเว้นว่าง หน้านี้จะอ่าน data/tunnel.json แล้วประกอบที่อยู่ LLM กับ MCP เอง</p>
+    </section>
+    <section class="panel connect-panel">
+      <div class="connect-grid">
+        <label class="brain-field">
+          <span>ฐาน HTTPS (ไม่บังคับ)</span>
+          <input id="connect-public-base" type="url" placeholder="https://….ngrok-free.app" autocomplete="off" />
+        </label>
       </div>
-    </div>
-  </main>
+      <dl class="connect-derived">
+        <div><dt>LLM</dt><dd><code id="connect-llm-url">…</code></dd></div>
+        <div><dt>MCP</dt><dd><code id="connect-mcp-url">…</code></dd></div>
+      </dl>
+      <p class="muted">โมเดล google/gemma-4-e2b · LLM คือ {ฐาน}/1234/v1/chat/completions · MCP คือ {ฐาน}/8787/mcp</p>
+      <div class="connect-actions">
+        <button type="button" class="btn-ghost" id="connect-save">บันทึก</button>
+        <button type="button" class="btn-ghost" id="connect-test">ทดสอบ MCP</button>
+        <button type="button" class="btn-ghost" id="connect-test-llm">ทดสอบ LLM</button>
+      </div>
+      <p class="muted" id="connect-status" aria-live="polite"></p>
+      <pre id="connect-llm-reply" class="connect-llm-reply" hidden></pre>
+      <p class="muted">ทดสอบ MCP ส่ง JSON-RPC <code>tools/list</code> · รันเซิร์ฟเวอร์ด้วย <code>node mcp/server.mjs</code> ใน public kit</p>
+    </section>
+  </section>
 
-  <!-- Article Modal -->
   <div class="modal-overlay" id="articleModal">
     <div class="modal-content">
       <button class="modal-close" id="modalClose">✕</button>
@@ -135,14 +305,17 @@
     </div>
   </div>
 
-  <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
       <p>AI NEWS DAILY — Automated Intelligence Briefing System</p>
-      <p class="footer-sub">Pipeline v2.0 | Light Cyberpunk Theme | 4-Column Layout</p>
+      <p class="footer-sub">Pipeline v2.1 | GraphRAG · MCP | Public kit: ai-news · Private: ai-news-private</p>
     </div>
   </footer>
 
-  <script src="js/app.js?v=20260803c"></script>
+  <script src="js/format.js?v=20261120a" defer></script>
+  <script src="js/graph.js?v=20261120a" defer></script>
+  <script src="js/rag.js?v=20261120a" defer></script>
+  <script src="js/app.js?v=20261120a" defer></script>
+  <script src="js/tabs.js?v=20261120a" defer></script>
 </body>
 </html>
