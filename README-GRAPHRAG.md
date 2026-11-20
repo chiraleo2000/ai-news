@@ -1,46 +1,8 @@
-# AI News — public kit + private GraphRAG
+# GraphRAG notes
 
-Mirrors the police news split:
+เอกสารหลักย้ายไปที่ [`README.md`](README.md) แล้ว (รวมภาพ Pages + การใช้งาน)
 
-| Role | Folder | GitHub |
-| --- | --- | --- |
-| Public Pages kit | `C:\Users\AI-PC-DEV\Documents\ai-news` | https://github.com/chiraleo2000/ai-news |
-| Private GraphRAG | `C:\Users\AI-PC-DEV\Documents\ai-news-private` | local (vault + build) |
-
-Live: https://chiraleo2000.github.io/ai-news/
-
-## Pages tabs
-
-| Tab | Hash | What |
-| --- | --- | --- |
-| รายการข่าว | `#/news` | 4-column daily digest |
-| ข้อมูลกราฟ | `#/brain` | GraphRAG force graph + ask |
-| เชื่อมต่อ / MCP | `#/connect` | LLM / MCP tunnel endpoints |
-
-## Rebuild graph (private)
-
-```powershell
-Set-Location C:\Users\AI-PC-DEV\Documents\ai-news-private
-Copy-Item ..\ai-news\data\*_news.json .\data\ -Force
-node ops/build-ai-news-graph.js
-.\ops\sync-to-public.ps1
-```
-
-## Local MCP + RAG search
-
-```powershell
-Set-Location C:\Users\AI-PC-DEV\Documents\ai-news
-node mcp/server.mjs
-# optional: .\ops\wake-tunnel.ps1
-```
-
-MCP tools: `list_posts`, `get_post`, `list_downloads`, `search_rag`  
-Pages tab **ข้อมูลกราฟ** has Chat + **MCP RAG Search** side panel.
-
-## Clear cache (local)
-
-```powershell
-.\ops\Clear-AiNewsCache.ps1
-```
-
-Or click **ล้างแคช** on the live Pages header.
+| Public | Private |
+| --- | --- |
+| https://github.com/chiraleo2000/ai-news | https://github.com/chiraleo2000/ai-news-private |
+| Live: https://chiraleo2000.github.io/ai-news/ | build vault + `graph.json` only |
