@@ -1,6 +1,6 @@
 {
   "gatewayPort": 8790,
-  "mcpPort": 8787,
+  "mcpPort": 8789,
   "llmPort": 1234,
   "model": "google/gemma-4-e2b",
   "pagesBase": "https://chiraleo2000.github.io/ai-news",
@@ -11,7 +11,7 @@
   "ngrokLog": "logs/ngrok-rag.log",
   "forbiddenPorts": [18080, 8080, 7988],
   "reservedHosts": ["fresh-currently-elk.ngrok-free.app"],
-  "dailyTime": "07:30",
+  "dailyTime": "07:35",
   "push": true,
   "retries": [5, 10, 20, 30, 45],
   "log": "logs/wake-tunnel.log"

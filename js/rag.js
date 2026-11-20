@@ -153,11 +153,31 @@
     }
   }
 
-  function urlsFromBase(base) {
+  // AI News MCP is :8789 (police :8787, gov :8788). LLM shares :1234.
+  const DEFAULT_MCP_PORT = 8789;
+  const DEFAULT_LLM_PORT = 1234;
+
+  function urlsFromBase(base, mcpPort = DEFAULT_MCP_PORT, llmPort = DEFAULT_LLM_PORT) {
     return {
       base,
-      llm: `${base}/1234/v1/chat/completions`,
-      mcp: `${base}/8787/mcp`,
+      llm: `${base}/${llmPort}/v1/chat/completions`,
+      mcp: `${base}/${mcpPort}/mcp`,
+    };
+  }
+
+  function endpointsFromTunnel(tunnel, source) {
+    const base = httpsOrigin(tunnel?.base);
+    if (!base) return null;
+    const fromUrls = urlsFromBase(base);
+    return {
+      ok: true,
+      source,
+      model: tunnel.model || LLM_MODEL,
+      updated_at: tunnel.updated_at || "",
+      base,
+      // Prefer explicit paths written by wake-tunnel (mcp already includes /8788/mcp)
+      llm: String(tunnel.llm || "").trim() || fromUrls.llm,
+      mcp: String(tunnel.mcp || "").trim() || fromUrls.mcp,
     };
   }
 
@@ -188,22 +208,14 @@
       return { ok: true, source: "browser", model: LLM_MODEL, ...urlsFromBase(override) };
     }
     const tunnel = await loadTunnel();
-    const base = httpsOrigin(tunnel?.base);
-    if (!base) {
-      return {
-        ok: false,
-        reason: "ยังไม่มีฐาน HTTPS — ไม่พบ data/tunnel.json หรือค่า base ว่าง จึงยังเรียกโมเดลไม่ได้",
-        base: "",
-        llm: "",
-        mcp: "",
-      };
-    }
+    const fromTunnel = endpointsFromTunnel(tunnel, "tunnel");
+    if (fromTunnel) return fromTunnel;
     return {
-      ok: true,
-      source: "tunnel",
-      model: tunnel.model || LLM_MODEL,
-      updated_at: tunnel.updated_at || "",
-      ...urlsFromBase(base),
+      ok: false,
+      reason: "ยังไม่มีฐาน HTTPS — รัน ops/wake-tunnel.ps1 หรือวาง base ในแท็บ LLM / MCP",
+      base: "",
+      llm: "",
+      mcp: "",
     };
   }
 

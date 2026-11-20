@@ -1,5 +1,5 @@
 /**
- * AI News Pages — tab router for รายการข่าว / ข้อมูลกราฟ / เชื่อมต่อ MCP
+ * AI News Pages — tab router for รายการข่าว / ข้อมูลกราฟ / LLM+MCP
  */
 (() => {
   const els = {

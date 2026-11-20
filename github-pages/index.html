@@ -6,9 +6,9 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <title>AI News Daily — Cyberpunk Intelligence Briefing</title>
-  <link rel="stylesheet" href="assets/style.css?v=20261120c">
-  <link rel="stylesheet" href="assets/brain.css?v=20261120c">
-  <link rel="stylesheet" href="assets/tabs.css?v=20261120c">
+  <link rel="stylesheet" href="assets/style.css?v=20261121a">
+  <link rel="stylesheet" href="assets/brain.css?v=20261121a">
+  <link rel="stylesheet" href="assets/tabs.css?v=20261121a">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
@@ -37,7 +37,7 @@
   <nav class="top-tabs container" aria-label="ส่วนหลัก">
     <button type="button" class="top-tab is-active" data-tab="news" id="tab-news">รายการข่าว</button>
     <button type="button" class="top-tab" data-tab="brain" id="tab-brain">ข้อมูลกราฟ</button>
-    <button type="button" class="top-tab" data-tab="connect" id="tab-connect">เชื่อมต่อ / MCP</button>
+    <button type="button" class="top-tab" data-tab="connect" id="tab-connect">LLM / MCP</button>
   </nav>
 
   <section id="view-news" class="view-news">
@@ -267,8 +267,8 @@
           <aside class="brain-chat" aria-label="แชทถามจากกราฟ">
             <div class="brain-chat-log" id="brain-chat-log">
               <div class="brain-chat-empty" id="brain-chat-empty">
-                <p class="brain-kind">ถามจากกราฟ (Chat)</p>
-                <p>เลือกตัวอย่าง หรือพิมพ์คำถามด้านล่าง</p>
+                <p class="brain-kind">แชทจากกราฟ (LLM)</p>
+                <p>ใช้โมเดล LM Studio เขียนคำตอบจากหลักฐานในกราฟ — ไม่ใช่ MCP</p>
                 <div class="brain-ask-examples" id="brain-ask-examples">
                   <button type="button" class="btn-ghost brain-example" data-example="0" data-mode="all">ช่วงนี้ NVIDIA กับชิป H200 มีข่าวอะไรบ้าง</button>
                   <button type="button" class="btn-ghost brain-example" data-example="1" data-mode="all">OpenAI มีข่าว agent หรือ safety อะไรล่าสุด</button>
@@ -284,13 +284,13 @@
             </form>
           </aside>
 
-          <aside class="mcp-rag-panel" aria-label="MCP RAG search">
+          <aside class="mcp-rag-panel" aria-label="ค้นคลังข่าว">
             <header class="mcp-rag-head">
-              <p class="brain-kind">MCP RAG Search</p>
-              <p class="muted">ค้นคลังข่าวผ่าน MCP <code>search_rag</code> — ไม่ใช้แชท</p>
+              <p class="brain-kind">ค้นคลังข่าว</p>
+              <p class="muted">ค้นโพสต์ใน archive — ไม่ใช่แชท · MCP ใช้เมื่อ tunnel :8789 พร้อม</p>
             </header>
             <form class="mcp-search-form" id="mcp-search-form">
-              <label class="sr-only" for="mcp-search-q">คำค้น MCP</label>
+              <label class="sr-only" for="mcp-search-q">คำค้นคลังข่าว</label>
               <input id="mcp-search-q" type="search" placeholder="เช่น NVIDIA H200 / Anthropic IPO / ไทย…" autocomplete="off" />
               <select id="mcp-search-topic" aria-label="กรองหัวข้อ">
                 <option value="">ทุกหัวข้อ</option>
@@ -301,7 +301,7 @@
               </select>
               <div class="mcp-search-actions">
                 <button type="button" class="btn-ghost" id="mcp-search-clear">เคลียร์</button>
-                <button type="submit" class="btn-ghost" id="mcp-search-submit">ค้น MCP</button>
+                <button type="submit" class="btn-ghost" id="mcp-search-submit">ค้นคลัง</button>
               </div>
             </form>
             <p class="muted" id="mcp-search-status" aria-live="polite"></p>
@@ -318,30 +318,30 @@
 
   <section id="view-connect" class="view-connect container" hidden>
     <section class="hero hero-compact">
-      <p class="hero-kicker">ค่าในเบราว์เซอร์นี้เท่านั้น</p>
-      <h1>เชื่อมต่อ / MCP</h1>
-      <p class="hero-lead">แชทเรียก Gemma ผ่านฐาน HTTPS ถ้าเว้นว่าง หน้านี้จะอ่าน data/tunnel.json แล้วประกอบที่อยู่ LLM กับ MCP เอง</p>
+      <p class="hero-kicker">สองช่องทางคนละงาน</p>
+      <h1>LLM และ MCP</h1>
+      <p class="hero-lead">LLM = แชทถามจากกราฟผ่าน LM Studio · MCP = เครื่องมือเข้าถึงคลังข่าว (list_posts / search_rag) สำหรับ agent — ไม่ใช่กล่องแชท</p>
     </section>
     <section class="panel connect-panel">
       <div class="connect-grid">
         <label class="brain-field">
-          <span>ฐาน HTTPS (ไม่บังคับ)</span>
-          <input id="connect-public-base" type="url" placeholder="https://….ngrok-free.app" autocomplete="off" />
+          <span>ฐาน HTTPS (ไม่บังคับ — ว่างแล้วอ่าน data/tunnel.json)</span>
+          <input id="connect-public-base" type="url" placeholder="https://ai-pc-dev-rag.ngrok-free.app" autocomplete="off" />
         </label>
       </div>
       <dl class="connect-derived">
-        <div><dt>LLM</dt><dd><code id="connect-llm-url">…</code></dd></div>
-        <div><dt>MCP</dt><dd><code id="connect-mcp-url">…</code></dd></div>
+        <div><dt>LLM (แชท)</dt><dd><code id="connect-llm-url">…</code></dd></div>
+        <div><dt>MCP (คลังข่าว)</dt><dd><code id="connect-mcp-url">…</code></dd></div>
       </dl>
-      <p class="muted">โมเดล google/gemma-4-e2b · LLM คือ {ฐาน}/1234/v1/chat/completions · MCP คือ {ฐาน}/8787/mcp</p>
+      <p class="muted">โมเดล <code>google/gemma-4-e2b</code> · LLM = {ฐาน}/1234/… · MCP AI News = {ฐาน}/8789/mcp (police 8787 · gov 8788)</p>
       <div class="connect-actions">
         <button type="button" class="btn-ghost" id="connect-save">บันทึก</button>
-        <button type="button" class="btn-ghost" id="connect-test">ทดสอบ MCP</button>
         <button type="button" class="btn-ghost" id="connect-test-llm">ทดสอบ LLM</button>
+        <button type="button" class="btn-ghost" id="connect-test">ทดสอบ MCP คลังข่าว</button>
       </div>
       <p class="muted" id="connect-status" aria-live="polite"></p>
       <pre id="connect-llm-reply" class="connect-llm-reply" hidden></pre>
-      <p class="muted">ทดสอบ MCP ส่ง JSON-RPC <code>tools/list</code> · รันเซิร์ฟเวอร์ด้วย <code>node mcp/server.mjs</code> ใน public kit</p>
+      <p class="muted">MCP ต้องมี <code>list_posts</code> · <code>get_post</code> · <code>list_downloads</code> · <code>search_rag</code> · เปิดด้วย <code>ops\wake-tunnel.ps1 -Wake</code></p>
     </section>
   </section>
 
@@ -359,11 +359,11 @@
     </div>
   </footer>
 
-  <script src="js/format.js?v=20261120c" defer></script>
-  <script src="js/graph.js?v=20261120c" defer></script>
-  <script src="js/rag.js?v=20261120c" defer></script>
-  <script src="js/mcp-search.js?v=20261120c" defer></script>
-  <script src="js/app.js?v=20261120c" defer></script>
-  <script src="js/tabs.js?v=20261120c" defer></script>
+  <script src="js/format.js?v=20261121a" defer></script>
+  <script src="js/graph.js?v=20261121a" defer></script>
+  <script src="js/rag.js?v=20261121a" defer></script>
+  <script src="js/mcp-search.js?v=20261121a" defer></script>
+  <script src="js/app.js?v=20261121a" defer></script>
+  <script src="js/tabs.js?v=20261121a" defer></script>
 </body>
 </html>

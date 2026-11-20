@@ -5,7 +5,22 @@ import path from "node:path";
 
 const HOST = "127.0.0.1";
 const DEFAULT_PAGES_BASE = "https://chiraleo2000.github.io/ai-news";
-const DATA_ROOT = path.resolve(path.dirname(filePathFromImportUrl(import.meta.url)), "../github-pages/data");
+const MCP_DIR = path.dirname(filePathFromImportUrl(import.meta.url));
+const REPO_ROOT = path.resolve(MCP_DIR, "..");
+// Prefer Pages source-of-truth data/, fall back to github-pages mirror.
+const DATA_ROOT = (() => {
+  const newsName = /^\d{4}-\d{2}-\d{2}_news\.json$/;
+  const primary = path.join(REPO_ROOT, "data");
+  const mirror = path.join(REPO_ROOT, "github-pages", "data");
+  try {
+    if (fs.existsSync(primary) && fs.readdirSync(primary).some((n) => newsName.test(n))) {
+      return primary;
+    }
+  } catch {
+    /* ignore */
+  }
+  return fs.existsSync(mirror) ? mirror : primary;
+})();
 const DOWNLOADS_DIR = path.join(DATA_ROOT, "downloads");
 
 function withoutTrailingSlashes(value) {
@@ -133,12 +148,13 @@ function filePathFromImportUrl(importUrl) {
 }
 
 function resolvePort() {
+  // 8789 = AI News MCP (8787=police, 8788=gov; shared gateway proxies all)
   const raw = process.env.PORT;
-  if (raw === undefined || raw === "") return 8787;
+  if (raw === undefined || raw === "") return 8789;
   const port = Number(raw);
   if (!Number.isInteger(port) || port < 0 || port > 65535) {
-    console.error("Invalid PORT, using 8787");
-    return 8787;
+    console.error("Invalid PORT, using 8789");
+    return 8789;
   }
   return port;
 }
