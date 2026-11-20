@@ -26,10 +26,21 @@ node ops/build-ai-news-graph.js
 .\ops\sync-to-public.ps1
 ```
 
-## Local MCP
+## Local MCP + RAG search
 
 ```powershell
 Set-Location C:\Users\AI-PC-DEV\Documents\ai-news
 node mcp/server.mjs
 # optional: .\ops\wake-tunnel.ps1
 ```
+
+MCP tools: `list_posts`, `get_post`, `list_downloads`, `search_rag`  
+Pages tab **ข้อมูลกราฟ** has Chat + **MCP RAG Search** side panel.
+
+## Clear cache (local)
+
+```powershell
+.\ops\Clear-AiNewsCache.ps1
+```
+
+Or click **ล้างแคช** on the live Pages header.
