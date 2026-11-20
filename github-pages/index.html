@@ -6,9 +6,9 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <title>AI News Daily — Cyberpunk Intelligence Briefing</title>
-  <link rel="stylesheet" href="assets/style.css?v=20261120a">
-  <link rel="stylesheet" href="assets/brain.css?v=20261120a">
-  <link rel="stylesheet" href="assets/tabs.css?v=20261120a">
+  <link rel="stylesheet" href="assets/style.css?v=20261120b">
+  <link rel="stylesheet" href="assets/brain.css?v=20261120b">
+  <link rel="stylesheet" href="assets/tabs.css?v=20261120b">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
@@ -29,6 +29,7 @@
       <div class="header-meta">
         <span class="date-display" id="headerDate">Loading...</span>
         <span class="article-count" id="headerCount">— articles</span>
+        <button type="button" class="btn-cache" id="btnClearCache" title="ล้างแคชเบราว์เซอร์แล้วโหลดใหม่">ล้างแคช</button>
       </div>
     </div>
   </header>
@@ -41,41 +42,61 @@
 
   <section id="view-news" class="view-news">
     <section class="filter-bar">
-      <div class="container">
+      <div class="container filter-bar-inner">
+        <div class="filter-group filter-search-wrap">
+          <label class="filter-label" for="searchInput">ค้นหา</label>
+          <div class="search-box">
+            <input type="search" id="searchInput" class="filter-input" placeholder="หัวข้อ องค์กร ผลิตภัณฑ์ แท็ก ไทย/EN…" autocomplete="off">
+            <button type="button" class="btn-clear-search" id="btnClearSearch" title="ล้างคำค้น">✕</button>
+          </div>
+        </div>
         <div class="filter-group">
-          <label class="filter-label">TIME RANGE</label>
+          <label class="filter-label" for="dateSelect">ช่วงวัน</label>
           <select id="dateSelect" class="filter-select">
-            <option value="today">Today</option>
-            <option value="yesterday">Yesterday</option>
-            <option value="3" selected>Last 3 Days</option>
-            <option value="7">Last 7 Days</option>
-            <option value="14">Last 14 Days</option>
-            <option value="30">Last 30 Days</option>
-            <option value="all">All News</option>
+            <option value="today">วันนี้</option>
+            <option value="yesterday">เมื่อวาน</option>
+            <option value="3" selected>3 วัน</option>
+            <option value="7">7 วัน</option>
+            <option value="14">14 วัน</option>
+            <option value="30">30 วัน</option>
+            <option value="all">ทั้งหมด</option>
           </select>
         </div>
         <div class="filter-group">
-          <label class="filter-label">URGENCY</label>
+          <label class="filter-label" for="urgencyFilter">ความเร่งด่วน</label>
           <select id="urgencyFilter" class="filter-select">
-            <option value="all">ALL</option>
-            <option value="high">⚠️ HIGH</option>
-            <option value="medium">MEDIUM</option>
-            <option value="low">LOW</option>
+            <option value="all">ทั้งหมด</option>
+            <option value="high">สูง</option>
+            <option value="medium">กลาง</option>
+            <option value="low">ต่ำ</option>
           </select>
         </div>
         <div class="filter-group">
-          <label class="filter-label">SOURCE</label>
+          <label class="filter-label" for="sourceFilter">แหล่งข่าว</label>
           <select id="sourceFilter" class="filter-select">
-            <option value="all">ALL SOURCES</option>
+            <option value="all">ทุกแหล่ง</option>
           </select>
         </div>
         <div class="filter-group">
-          <label class="filter-label">SEARCH</label>
-          <input type="text" id="searchInput" class="filter-input" placeholder="Search articles...">
+          <label class="filter-label" for="topicFilter">หัวข้อ</label>
+          <select id="topicFilter" class="filter-select">
+            <option value="all">ทุกหัวข้อ</option>
+            <option value="ai-trends">AI Trends</option>
+            <option value="tech-trends">Tech Trends</option>
+            <option value="thailand">Thailand</option>
+            <option value="global">Global</option>
+          </select>
         </div>
         <div class="filter-stats">
-          <span id="filterCount">0 results</span>
+          <span id="filterCount">0 รายการ</span>
         </div>
+      </div>
+      <div class="container topic-chip-row" id="topicChips" aria-label="ทางลัดหัวข้อ">
+        <button type="button" class="topic-chip is-active" data-topic="all">ทั้งหมด</button>
+        <button type="button" class="topic-chip" data-topic="ai-trends">AI Trends</button>
+        <button type="button" class="topic-chip" data-topic="tech-trends">Tech Trends</button>
+        <button type="button" class="topic-chip" data-topic="thailand">Thailand</button>
+        <button type="button" class="topic-chip" data-topic="global">Global</button>
       </div>
     </section>
 
@@ -242,25 +263,51 @@
           <canvas id="brain-canvas" width="1600" height="900" aria-label="ข้อมูลกราฟ"></canvas>
           <aside id="brain-detail" class="brain-detail" aria-label="รายละเอียดโหนดที่เลือก" aria-live="polite"></aside>
         </div>
-        <aside class="brain-chat" aria-label="แชทถามจากกราฟ">
-          <div class="brain-chat-log" id="brain-chat-log">
-            <div class="brain-chat-empty" id="brain-chat-empty">
-              <p class="brain-kind">ถามจากกราฟ</p>
-              <p>เลือกตัวอย่าง หรือพิมพ์คำถามด้านล่าง</p>
-              <div class="brain-ask-examples" id="brain-ask-examples">
-                <button type="button" class="btn-ghost brain-example" data-example="0" data-mode="all">ช่วงนี้ NVIDIA กับชิป H200 มีข่าวอะไรบ้าง</button>
-                <button type="button" class="btn-ghost brain-example" data-example="1" data-mode="all">OpenAI มีข่าว agent หรือ safety อะไรล่าสุด</button>
-                <button type="button" class="btn-ghost brain-example" data-example="2" data-mode="all">สรุปข่าว AI ที่เกี่ยวกับประเทศไทยในช่วงนี้</button>
+        <div class="brain-side">
+          <aside class="brain-chat" aria-label="แชทถามจากกราฟ">
+            <div class="brain-chat-log" id="brain-chat-log">
+              <div class="brain-chat-empty" id="brain-chat-empty">
+                <p class="brain-kind">ถามจากกราฟ (Chat)</p>
+                <p>เลือกตัวอย่าง หรือพิมพ์คำถามด้านล่าง</p>
+                <div class="brain-ask-examples" id="brain-ask-examples">
+                  <button type="button" class="btn-ghost brain-example" data-example="0" data-mode="all">ช่วงนี้ NVIDIA กับชิป H200 มีข่าวอะไรบ้าง</button>
+                  <button type="button" class="btn-ghost brain-example" data-example="1" data-mode="all">OpenAI มีข่าว agent หรือ safety อะไรล่าสุด</button>
+                  <button type="button" class="btn-ghost brain-example" data-example="2" data-mode="all">สรุปข่าว AI ที่เกี่ยวกับประเทศไทยในช่วงนี้</button>
+                </div>
               </div>
             </div>
-          </div>
-          <form class="brain-chat-form" id="brain-chat-form">
-            <label class="sr-only" for="brain-question">ถามจากกราฟ</label>
-            <input id="brain-question" type="text" placeholder="ถามองค์กร ผลิตภัณฑ์ หรือแนวโน้ม AI…" autocomplete="off" />
-            <button type="button" class="btn-ghost" id="brain-chat-clear">เคลียร์</button>
-            <button type="submit" class="btn-ghost" id="brain-ask-submit">ส่ง</button>
-          </form>
-        </aside>
+            <form class="brain-chat-form" id="brain-chat-form">
+              <label class="sr-only" for="brain-question">ถามจากกราฟ</label>
+              <input id="brain-question" type="text" placeholder="ถามองค์กร ผลิตภัณฑ์ หรือแนวโน้ม AI…" autocomplete="off" />
+              <button type="button" class="btn-ghost" id="brain-chat-clear">เคลียร์</button>
+              <button type="submit" class="btn-ghost" id="brain-ask-submit">ส่ง</button>
+            </form>
+          </aside>
+
+          <aside class="mcp-rag-panel" aria-label="MCP RAG search">
+            <header class="mcp-rag-head">
+              <p class="brain-kind">MCP RAG Search</p>
+              <p class="muted">ค้นคลังข่าวผ่าน MCP <code>search_rag</code> — ไม่ใช้แชท</p>
+            </header>
+            <form class="mcp-search-form" id="mcp-search-form">
+              <label class="sr-only" for="mcp-search-q">คำค้น MCP</label>
+              <input id="mcp-search-q" type="search" placeholder="เช่น NVIDIA H200 / Anthropic IPO / ไทย…" autocomplete="off" />
+              <select id="mcp-search-topic" aria-label="กรองหัวข้อ">
+                <option value="">ทุกหัวข้อ</option>
+                <option value="ai-trends">AI Trends</option>
+                <option value="tech-trends">Tech Trends</option>
+                <option value="thailand">Thailand</option>
+                <option value="global">Global</option>
+              </select>
+              <div class="mcp-search-actions">
+                <button type="button" class="btn-ghost" id="mcp-search-clear">เคลียร์</button>
+                <button type="submit" class="btn-ghost" id="mcp-search-submit">ค้น MCP</button>
+              </div>
+            </form>
+            <p class="muted" id="mcp-search-status" aria-live="polite"></p>
+            <div class="mcp-search-results" id="mcp-search-results"></div>
+          </aside>
+        </div>
       </div>
 
       <p class="muted" id="brain-empty" hidden>
@@ -312,10 +359,11 @@
     </div>
   </footer>
 
-  <script src="js/format.js?v=20261120a" defer></script>
-  <script src="js/graph.js?v=20261120a" defer></script>
-  <script src="js/rag.js?v=20261120a" defer></script>
-  <script src="js/app.js?v=20261120a" defer></script>
-  <script src="js/tabs.js?v=20261120a" defer></script>
+  <script src="js/format.js?v=20261120b" defer></script>
+  <script src="js/graph.js?v=20261120b" defer></script>
+  <script src="js/rag.js?v=20261120b" defer></script>
+  <script src="js/mcp-search.js?v=20261120b" defer></script>
+  <script src="js/app.js?v=20261120b" defer></script>
+  <script src="js/tabs.js?v=20261120b" defer></script>
 </body>
 </html>

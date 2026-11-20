@@ -103,6 +103,7 @@
       }
       window.GraphRag?.setMode?.("all");
       window.GraphRag?.bindAsk?.();
+      window.McpRagSearch?.bind?.();
     }
     if (tab === "connect") {
       bindConnect();

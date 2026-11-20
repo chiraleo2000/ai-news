@@ -91,12 +91,37 @@ const TOOLS = [
       },
     },
   },
+  {
+    name: "search_rag",
+    description:
+      "Ranked RAG search over the AI news archive. Score matches in title, Thai title, content, tags, related_domains, source, and entities. Required q. Optional date, topic_group, limit (default 12, max 30). Returns ranked posts with score and matched_fields only from stored text.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        q: { type: "string", description: "Search query: company, person, product, place, or topic" },
+        date: { type: "string", description: "Optional archive date YYYY-MM-DD" },
+        topic_group: {
+          type: "string",
+          description: "Optional topic_group filter: ai-trends | tech-trends | thailand | global",
+        },
+        limit: {
+          type: "integer",
+          description: "Maximum hits. Default 12, maximum 30.",
+          minimum: 1,
+          maximum: 30,
+          default: 12,
+        },
+      },
+      required: ["q"],
+    },
+  },
 ];
 
 const HANDLERS = {
   list_posts: listPosts,
   get_post: getPost,
   list_downloads: listDownloads,
+  search_rag: searchRag,
 };
 
 let archiveCache = null;
@@ -160,6 +185,10 @@ function pickPost(raw, fallbackDate) {
   const analysisNotes = asText(raw.analysis_notes);
   const tags = Array.isArray(raw.tags) ? raw.tags : [];
   const domains = Array.isArray(raw.related_domains) ? raw.related_domains : [];
+  const entities = raw.entities && typeof raw.entities === "object" ? raw.entities : {};
+  const entityBlob = ["organizations", "people", "products", "places"]
+    .flatMap((key) => (Array.isArray(entities[key]) ? entities[key] : []))
+    .join(" ");
 
   return {
     id,
@@ -175,7 +204,19 @@ function pickPost(raw, fallbackDate) {
     corroborating_sources: Array.isArray(raw.corroborating_sources) ? raw.corroborating_sources : [],
     stats: pickStats(raw.stats),
     tags,
-    search: [id, title, asText(raw.title), topic, agency, execBlurb, content, tags.join(" "), domains.join(" ")]
+    search: [
+      id,
+      title,
+      asText(raw.title),
+      asText(raw.title_th),
+      topic,
+      agency,
+      execBlurb,
+      content,
+      tags.join(" "),
+      domains.join(" "),
+      entityBlob,
+    ]
       .join("\n")
       .toLowerCase(),
   };
@@ -368,6 +409,75 @@ function listPosts(args) {
   };
 }
 
+function scorePost(post, tokens) {
+  const fields = [
+    ["title", 5, post.title],
+    ["topic", 3, post.topic],
+    ["agency", 3, post.agency],
+    ["exec_blurb", 2, post.exec_blurb],
+    ["content", 1, post.content],
+    ["tags", 4, (post.tags || []).join(" ")],
+    ["search", 1, post.search],
+  ];
+  let score = 0;
+  const matchedFields = [];
+  for (const token of tokens) {
+    let hit = false;
+    for (const [name, weight, text] of fields) {
+      const hay = String(text || "").toLowerCase();
+      if (!hay.includes(token)) continue;
+      score += weight;
+      hit = true;
+      if (!matchedFields.includes(name)) matchedFields.push(name);
+    }
+    if (!hit) return null;
+  }
+  return { score, matchedFields };
+}
+
+function searchRag(args) {
+  const query = optionalQuery(args);
+  if (!query) throw rpcError(-32602, "q is required");
+  const date = optionalDate(args);
+  let topic = "";
+  if (Object.hasOwn(args, "topic_group") && args.topic_group != null && args.topic_group !== "") {
+    if (typeof args.topic_group !== "string") throw rpcError(-32602, "topic_group must be a string");
+    topic = args.topic_group.trim().toLowerCase();
+  }
+  let limit = 12;
+  if (Object.hasOwn(args, "limit") && args.limit != null && args.limit !== "") {
+    const value = limitNumber(args.limit);
+    if (!Number.isFinite(value) || value < 1) throw rpcError(-32602, "limit must be a number >= 1");
+    limit = Math.min(30, Math.floor(value));
+  }
+  const tokens = query.split(/\s+/).filter(Boolean);
+  const hits = [];
+  for (const post of getArchive().posts) {
+    if (date && post.date !== date) continue;
+    if (topic && String(post.topic || "").toLowerCase() !== topic) continue;
+    const scored = scorePost(post, tokens);
+    if (!scored) continue;
+    hits.push({
+      id: post.id,
+      date: post.date,
+      title: post.title,
+      topic: post.topic,
+      agency: post.agency,
+      excerpt: excerptOf(post),
+      href: postHref(post.date, post.id),
+      score: scored.score,
+      matched_fields: scored.matchedFields,
+    });
+  }
+  hits.sort((a, b) => b.score - a.score || (a.date < b.date ? 1 : -1));
+  return {
+    q: query,
+    matched: hits.length,
+    limit,
+    posts: hits.slice(0, limit),
+  };
+}
+
 function sourceLinks(post) {
   const links = [];
   const seen = new Set();
@@ -521,9 +631,9 @@ function initializeResult() {
   return {
     protocolVersion: "2025-03-26",
     capabilities: { tools: { listChanged: false } },
-    serverInfo: { name: "police-news", version: "1.0.0", homepage: PAGES_BASE },
+    serverInfo: { name: "ai-news", version: "1.2.0", homepage: PAGES_BASE },
     instructions:
-      "These tools read only the published news archive. Return stored records and say when a record is absent. Do not invent names, counts, or events. A job title is not the whole parent organization.",
+      "These tools read only the published AI news archive. Use search_rag for ranked retrieval and list_posts/get_post for exact lookups. Return stored records and say when a record is absent. Do not invent names, counts, or events.",
   };
 }
 

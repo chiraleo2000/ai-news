@@ -2027,7 +2027,7 @@
       if (!names.length) {
         return { ok: false, message: "ไม่พบรายชื่อเครื่องมือจากเซิร์ฟเวอร์", names: [] };
       }
-      const expected = ["list_posts", "get_post", "list_downloads"];
+      const expected = ["list_posts", "get_post", "list_downloads", "search_rag"];
       const missing = expected.filter((name) => !names.includes(name));
       if (missing.length) {
         return {

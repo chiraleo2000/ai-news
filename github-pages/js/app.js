@@ -52,13 +52,17 @@
   const $dateSelect = document.getElementById('dateSelect');
   const $urgencyFilter = document.getElementById('urgencyFilter');
   const $sourceFilter = document.getElementById('sourceFilter');
+  const $topicFilter = document.getElementById('topicFilter');
   const $searchInput = document.getElementById('searchInput');
+  const $btnClearSearch = document.getElementById('btnClearSearch');
+  const $btnClearCache = document.getElementById('btnClearCache');
   const $filterCount = document.getElementById('filterCount');
   const $headerDate = document.getElementById('headerDate');
   const $headerCount = document.getElementById('headerCount');
   const $modal = document.getElementById('articleModal');
   const $modalBody = document.getElementById('modalBody');
   const $modalClose = document.getElementById('modalClose');
+  const $topicChips = document.getElementById('topicChips');
 
   const columns = {
     'ai-trends': document.getElementById('colAI'),
@@ -285,23 +289,44 @@
   }
 
   // ═══ Filtering ═══
+  function entityBlob(post) {
+    const ent = post.entities || {};
+    return ['organizations', 'people', 'products', 'places']
+      .flatMap((k) => (Array.isArray(ent[k]) ? ent[k] : []))
+      .join(' ');
+  }
+
+  function postSearchBlob(p) {
+    return [
+      p.title,
+      p.title_th,
+      stripHtml(p.content || p.summary || ''),
+      p.tech_impact,
+      p.source_name,
+      p.topic_group,
+      ...(p.tags || []),
+      ...(p.related_domains || []),
+      entityBlob(p)
+    ].join(' ').toLowerCase();
+  }
+
+  function matchesSearch(blob, query) {
+    const tokens = query.split(/\s+/).filter(Boolean);
+    if (!tokens.length) return true;
+    return tokens.every((t) => blob.includes(t));
+  }
+
   function getFilteredPosts() {
     const urgency = $urgencyFilter.value;
     const source = $sourceFilter.value;
+    const topic = $topicFilter ? $topicFilter.value : 'all';
     const search = $searchInput.value.toLowerCase().trim();
 
     return allPosts.filter(p => {
       if (urgency !== 'all' && p.urgency !== urgency) return false;
       if (source !== 'all' && p.source_name !== source) return false;
-      if (search) {
-        const blob = [
-          p.title,
-          stripHtml(p.content || p.summary || ''),
-          p.source_name,
-          ...(p.tags || [])
-        ].join(' ').toLowerCase();
-        if (!blob.includes(search)) return false;
-      }
+      if (topic !== 'all' && (p._topic || p.topic_group) !== topic) return false;
+      if (search && !matchesSearch(postSearchBlob(p), search)) return false;
       return true;
     });
   }
@@ -337,7 +362,11 @@
       }
     }
 
-    $filterCount.textContent = `${filtered.length} results`;
+    $filterCount.textContent = `${filtered.length} รายการ`;
+  }
+
+  function displayTitle(post) {
+    return stripHtml(post.title_th || post.title || post.id || '');
   }
 
   function createBlogCard(post) {
@@ -345,7 +374,7 @@
     card.className = 'blog-card';
     card.setAttribute('data-urgency', post.urgency || 'low');
 
-    const tags = (post.tags || []).slice(0, 3).map(t =>
+    const tags = (post.tags || []).slice(0, 4).map(t =>
       `<span class="card-tag">${esc(t)}</span>`
     ).join('');
 
@@ -355,7 +384,9 @@
 
     const newsDate = getNewsDate(post);
     const dateLabel = newsDate ? `<span class="card-date">${esc(newsDate)}</span>` : '';
-    const excerpt = truncate(stripHtml(post.content || post.summary || ''), 100);
+    const excerpt = truncate(stripHtml(post.content || post.summary || post.tech_impact || ''), 140);
+    const q = $searchInput.value.trim();
+    const titleHtml = q ? highlightMatch(displayTitle(post), q) : esc(displayTitle(post));
 
     card.innerHTML = `
       <div class="card-top-row">
@@ -365,7 +396,7 @@
         </span>
         ${breakthroughBadge}
       </div>
-      <h3 class="card-title">${esc(stripHtml(post.title || ''))}</h3>
+      <h3 class="card-title">${titleHtml}</h3>
       <p class="card-excerpt">${esc(excerpt)}</p>
       <div class="card-bottom-row">
         <div class="card-tags">${tags}</div>
@@ -375,6 +406,40 @@
 
     card.addEventListener('click', () => openModal(post));
     return card;
+  }
+
+  function highlightMatch(text, query) {
+    const safe = esc(text);
+    const tokens = query.split(/\s+/).filter(Boolean);
+    if (!tokens.length) return safe;
+    let out = safe;
+    for (const token of tokens) {
+      const re = new RegExp(`(${token.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+      out = out.replace(re, '<mark>$1</mark>');
+    }
+    return out;
+  }
+
+  function syncTopicChips(topic) {
+    if (!$topicChips) return;
+    $topicChips.querySelectorAll('.topic-chip').forEach((btn) => {
+      btn.classList.toggle('is-active', btn.dataset.topic === topic);
+    });
+  }
+
+  async function clearBrowserCacheAndReload() {
+    try {
+      loadedData = {};
+      cacheBust = String(Date.now());
+      localStorage.removeItem('ai-news-connect');
+      if ('caches' in window) {
+        const keys = await caches.keys();
+        await Promise.all(keys.map((k) => caches.delete(k)));
+      }
+    } catch (_) { /* ignore */ }
+    const url = new URL(location.href);
+    url.searchParams.set('cb', cacheBust);
+    location.replace(url.toString());
   }
 
   // ═══ Modal ═══
@@ -400,7 +465,7 @@
 
     $modalBody.innerHTML = `
       <span class="modal-topic-badge ${topic}">${topicLabels[topic]}</span>
-      <h2 class="modal-title">${esc(stripHtml(post.title || ''))}</h2>
+      <h2 class="modal-title">${esc(displayTitle(post))}</h2>
       <div class="modal-meta">
         <span class="modal-meta-item">📰 ${esc(post.source_name || 'Unknown')}</span>
         <span class="modal-meta-item">⚡ ${(post.urgency || 'low').toUpperCase()}</span>
@@ -476,11 +541,36 @@
     });
     $urgencyFilter.addEventListener('change', renderColumns);
     $sourceFilter.addEventListener('change', renderColumns);
+    $topicFilter?.addEventListener('change', () => {
+      syncTopicChips($topicFilter.value);
+      renderColumns();
+    });
 
     let searchTimeout;
     $searchInput.addEventListener('input', () => {
       clearTimeout(searchTimeout);
-      searchTimeout = setTimeout(renderColumns, 250);
+      searchTimeout = setTimeout(renderColumns, 200);
+    });
+    $searchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        $searchInput.value = '';
+        renderColumns();
+      }
+    });
+    $btnClearSearch?.addEventListener('click', () => {
+      $searchInput.value = '';
+      $searchInput.focus();
+      renderColumns();
+    });
+    $btnClearCache?.addEventListener('click', () => clearBrowserCacheAndReload());
+
+    $topicChips?.addEventListener('click', (ev) => {
+      const btn = ev.target.closest('.topic-chip');
+      if (!btn) return;
+      const topic = btn.dataset.topic || 'all';
+      if ($topicFilter) $topicFilter.value = topic;
+      syncTopicChips(topic);
+      renderColumns();
     });
 
     $modalClose.addEventListener('click', closeModal);
