@@ -1,0 +1,1675 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T10:30:00+07:00",
+  "schema_version": "combined-1.3",
+  "stats": {
+    "total": 31,
+    "by_topic": {
+      "ai_trends": 11,
+      "tech_trends": 8,
+      "thailand": 3,
+      "global": 9
+    },
+    "by_source_category": {
+      "thai": 11,
+      "international": 14,
+      "research": 6,
+      "youtube": 0
+    },
+    "urgency_breakdown": {
+      "high": 6,
+      "medium": 17,
+      "low": 8
+    },
+    "breakthrough_count": 5
+  },
+  "top_insights": [
+    {
+      "title": "Google เปิดฟีเจอร์ Computer Use คลิก พิมพ์ กรอกฟอร์ม ทำได้หมด แค่พิมพ์บอก AI จะช่วยทำงานอยู่เบื้องหลัง",
+      "impact_summary": "เอเจนต์ควบคุมเดสก์ท็อปเข้าสู่ผู้ใช้ทั่วไป เพิ่มทั้งผลิตภาพและพื้นผิวการโจมตีแบบ prompt injection",
+      "urgency": "high",
+      "article_id": "20261121-b1-09"
+    },
+    {
+      "title": "ความคลั่งไคล้ AI หลีกทางให้ความกลัว-ความผันผวนสุดขีด",
+      "impact_summary": "แรงขายหุ้น AI รอบใหญ่สะท้อนความกังวลต่องบลงทุนมหาศาลและการเติบโตที่ชะลอ อาจกระทบการระดมทุนของบริษัท AI",
+      "urgency": "high",
+      "article_id": "20261121-b1-02"
+    },
+    {
+      "title": "Anthropic ปิดการขาย IPO พร้อมใช้สิทธิซื้อหุ้นเพิ่มเต็มจำนวน และปิดดีล private placement รวมเงินระดมทุนราว 119,500 ล้านดอลลาร์",
+      "impact_summary": "เงินทุนกว่า 119,500 ล้านดอลลาร์และพันธมิตรชิปครบห่วงโซ่ ทำให้ Anthropic มีกำลังขยาย compute ระยะยาว",
+      "urgency": "high",
+      "article_id": "20261121-b2-01"
+    },
+    {
+      "title": "รายงานชี้เอเจนต์ AI Muse ของ Meta สลับบทสนทนาและเปิดเผยข้อมูลส่วนตัว",
+      "impact_summary": "ความผิดพลาดด้านการแยกบริบทของเอเจนต์สะท้อนความเสี่ยงข้อมูลรั่วเมื่อเอเจนต์ถือข้อมูลส่วนตัวจำนวนมาก",
+      "urgency": "high",
+      "article_id": "20261121-b2-09"
+    },
+    {
+      "title": "คณะกรรมาธิการยุโรปเร่งควบคุมการโจมตีไซเบอร์ที่ใช้ AI ช่วย ระบบเงินเดือนสะดุด",
+      "impact_summary": "เครื่องมือทดสอบความปลอดภัยที่ใช้ AI ถูกนำมาโจมตีหน่วยงานรัฐ เป็นสัญญาณยกระดับภัยไซเบอร์ที่ AI ช่วย",
+      "urgency": "high",
+      "article_id": "20261121-b2-10"
+    },
+    {
+      "title": "Moonshot AI ของจีนยกเลิกดีล 150 ล้านดอลลาร์ เช่าชิป Nvidia ผ่านดาต้าเซ็นเตอร์อินโดนีเซีย",
+      "impact_summary": "กฎจำกัดการเข้าถึงชิประยะไกลของสหรัฐฯ กระทบดาต้าเซ็นเตอร์ในอาเซียนที่ให้บริการลูกค้าจีน",
+      "urgency": "high",
+      "article_id": "20261121-b2-12"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261121-b1-01",
+      "slug": "apple-ai-agent-device-control-macos-27-3",
+      "title": "Apple refuses to miss the AI train, quietly building an AI agent that can do many tasks for users",
+      "title_th": "Apple ไม่ยอมตกขบวน AI ซุ่มสร้าง 'AI Agent' ทำงานแทนมนุษย์ได้สารพัด",
+      "topic_group": "tech-trends",
+      "source_name": "Bangkok Biz News",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "กรุงเทพธุรกิจรายงานโดยอ้าง Bloomberg ว่า Apple กำลังพัฒนา AI Agent ที่ควบคุมอุปกรณ์ เปิดแอป ท่องเว็บ และเขียนโค้ดแทนผู้ใช้ได้ บริษัทเปิดรับสมัครผู้จัดการวิศวกรรมอาวุโสสำหรับโครงการนี้ ซึ่งยังอยู่ในขั้นต้นและอาจเปิดตัวได้เร็วสุดปลายปี 2027 การเคลื่อนไหวนี้เป็นการแข่งขันโดยตรงกับ OpenAI, Meta และ Google ที่ต่างเปิดตัวเอเจนต์ของตัวเอง เช่น Muse ของ Meta ขณะเดียวกัน Apple ถูกวิจารณ์ว่าทำให้ AI ของคู่แข่งควบคุม Mac ได้ยากขึ้น โดยใน macOS 27.3 รุ่นทดสอบ ผู้ใช้ ChatGPT ต้องผ่าน 14 ขั้นตอนเพื่ออนุญาตการควบคุมจากภายนอก จากเดิม 4 ขั้นตอน Apple ชี้แจงว่าเป็นการปกป้องข้อมูลและความปลอดภัย ส่วน Siri กำลังขยายการทำงานร่วมกับแอปภายนอกลึกขึ้นแต่ยังไม่ใช่เอเจนต์อัตโนมัติเต็มรูปแบบ ประเด็นสำคัญคือแพลตฟอร์มเจ้าของระบบปฏิบัติการกำลังกลายเป็นผู้คุมประตูของยุค AI Agent",
+      "source_url": "https://www.bangkokbiznews.com/world/economics/1261699",
+      "tech_impact": "ผู้ผลิตระบบปฏิบัติการเริ่มคุมสิทธิ์การควบคุมเครื่องของเอเจนต์ภายนอก ส่งผลต่อแอปเอเจนต์บน macOS",
+      "tags": [
+        "Apple",
+        "AI Agent",
+        "macOS",
+        "Computer Use"
+      ],
+      "published_at": "2026-11-20T18:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Agents",
+        "Operating Systems",
+        "Platform Policy"
+      ],
+      "actions_developer": [
+        "ทดสอบแอปเอเจนต์กับขั้นตอนขอสิทธิ์ใหม่ใน macOS 27.3 beta",
+        "ออกแบบ onboarding อธิบายสิทธิ์การควบคุมเครื่องให้ผู้ใช้เข้าใจง่าย"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงการพึ่งพาแพลตฟอร์ม Apple สำหรับผลิตภัณฑ์เอเจนต์",
+        "ติดตามแผนเปิดตัวเอเจนต์ของ Apple ปี 2027 เพื่อวางกลยุทธ์แข่งขัน"
+      ],
+      "entities": {
+        "organizations": [
+          "Apple",
+          "Bloomberg",
+          "OpenAI",
+          "Meta",
+          "Google"
+        ],
+        "people": [
+          "John Ternus"
+        ],
+        "products": [
+          "Siri",
+          "macOS 27.3",
+          "ChatGPT",
+          "Muse"
+        ],
+        "places": [
+          "US"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b1-02",
+      "slug": "ai-mania-gives-way-to-fear-market-volatility",
+      "title": "AI mania gives way to fear and extreme volatility",
+      "title_th": "ความคลั่งไคล้ AI หลีกทางให้ความกลัว-ความผันผวนสุดขีด",
+      "topic_group": "global",
+      "source_name": "Bangkok Biz News",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "กรุงเทพธุรกิจอ้างข้อมูล Bloomberg ว่าหุ้นเทคโนโลยีถูกเทขายตั้งแต่นิวยอร์กถึงโซล ดัชนี S&P 500 เข้าสู่ภาวะปรับฐานและแพ้ติดต่อกันยาวที่สุดนับจากวิกฤตปี 2020 ส่วน Nasdaq 100 เข้าใกล้ตลาดหมีเหลือเพียงราว 50 จุดจากการร่วง 20% หุ้น Anthropic เกือบคืนกำไรทั้งหมดหลัง IPO ขณะที่ SpaceX ขายหุ้นกู้ 32,000 ล้านดอลลาร์ที่อัตราผลตอบแทนเกิน 8% Goldman Sachs คาดว่าการออกหุ้นสุทธิจะกลับเป็นบวกในปี 2027 ครั้งแรกนับจากปี 2000 เมื่อ OpenAI เตรียม IPO ด้าน Bloomberg Intelligence คาดการเติบโตยอดขายบริษัท AI ใน S&P 500 จะชะลอจาก 35% ในไตรมาสสามเหลือต่ำกว่า 25% ภายในสิ้นปีหน้า และกระแสเงินสดเทียบงบลงทุนลดเหลือราวหนึ่งในห้าของสามปีก่อน นอกจากนี้ Bitcoin ร่วงต่ำกว่า 60,000 ดอลลาร์ ความสำคัญคือนักลงทุนเปลี่ยนจากไล่ซื้อธีม AI ไปสู่การป้องกันพอร์ต",
+      "source_url": "https://www.bangkokbiznews.com/finance/investment/1261749",
+      "tech_impact": "แรงขายหุ้น AI รอบใหญ่สะท้อนความกังวลต่องบลงทุนมหาศาลและการเติบโตที่ชะลอ อาจกระทบการระดมทุนของบริษัท AI",
+      "tags": [
+        "Markets",
+        "AI Bubble",
+        "Anthropic",
+        "Selloff"
+      ],
+      "published_at": "2026-11-21T08:06:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Capital Markets",
+        "AI Investment",
+        "Macroeconomics"
+      ],
+      "actions_developer": [
+        "เตรียมแผนต้นทุน compute ที่ยืดหยุ่นหากผู้ให้บริการปรับราคา",
+        "ลดการผูกติดผู้ให้บริการโมเดลรายเดียวในช่วงตลาดผันผวน"
+      ],
+      "actions_business": [
+        "ทบทวนงบลงทุน AI ให้ผูกกับผลตอบแทนที่วัดได้",
+        "ติดตามสภาพคล่องและเงื่อนไขระดมทุนของคู่ค้าด้าน AI"
+      ],
+      "entities": {
+        "organizations": [
+          "Anthropic",
+          "SpaceX",
+          "Goldman Sachs",
+          "OpenAI",
+          "Bloomberg Intelligence",
+          "Nvidia",
+          "SEC",
+          "Federal Reserve"
+        ],
+        "people": [
+          "Christopher Waller"
+        ],
+        "products": [
+          "S&P 500",
+          "Nasdaq 100",
+          "Bitcoin"
+        ],
+        "places": [
+          "New York",
+          "Seoul",
+          "US"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b1-03",
+      "slug": "psu-safe-ai-foundation-mou-ai-safety",
+      "title": "Prince of Songkla University partners with US-based SAFE AI Foundation on AI research and teaching",
+      "title_th": "ม.อ. จับมือ SAFE AI Foundation สหรัฐฯ ร่วมพัฒนางานวิจัยและการเรียนการสอนด้าน AI",
+      "topic_group": "thailand",
+      "source_name": "Daily News",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "วิทยาลัยการคอมพิวเตอร์ มหาวิทยาลัยสงขลานครินทร์ ลงนามบันทึกความเข้าใจทางวิชาการกับ SAFE AI Foundation จากสหรัฐอเมริกา เมื่อวันที่ 19 พฤศจิกายน 2569 โดยมี รศ.ดร.เถกิง วงศ์ศิริโชติ รองอธิการบดีฝ่ายวิชาการและวิเทศสัมพันธ์ และ Dr. Chai Keong Toh ซีอีโอของมูลนิธิ เป็นผู้ลงนาม พร้อมผู้บริหารวิทยาเขตภูเก็ตและคณบดีวิทยาลัยการคอมพิวเตอร์ร่วมเป็นสักขีพยาน ความร่วมมือมุ่งเน้นสามด้านคือ AI Safety, AI Governance และ AI Literacy สำหรับบุคลากร นักศึกษา และประชาชนทั่วไป ทั้งสองฝ่ายจะร่วมพัฒนาหลักสูตร การเรียนการสอน และงานวิจัย เพื่อสนับสนุนเป้าหมายของ ม.อ. ในการเป็น AI-Ready University ระดับสากล แม้ข่าวไม่ระบุงบประมาณหรือกรอบเวลาดำเนินงาน แต่สะท้อนว่ามหาวิทยาลัยไทยในภูมิภาคเริ่มให้ความสำคัญกับความปลอดภัยและธรรมาภิบาล AI ควบคู่กับการสร้างทักษะ ซึ่งจำเป็นต่อการนำ AI ไปใช้อย่างรับผิดชอบในภาครัฐและเอกชน",
+      "source_url": "https://www.dailynews.co.th/news/6375341/",
+      "tech_impact": "สถาบันอุดมศึกษาไทยขยายความร่วมมือด้าน AI Safety และ Governance กับต่างประเทศ เพิ่มฐานบุคลากรด้าน AI ที่รับผิดชอบ",
+      "tags": [
+        "Thailand",
+        "AI Safety",
+        "Education",
+        "MOU"
+      ],
+      "published_at": "2026-11-20T09:45:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Safety",
+        "AI Governance",
+        "Education"
+      ],
+      "actions_developer": [
+        "ติดตามหลักสูตร AI Safety/Governance ที่จะเปิดเพื่อพัฒนาทักษะ",
+        "นำแนวปฏิบัติ AI Governance มาใช้ในโครงการวิจัยและผลิตภัณฑ์"
+      ],
+      "actions_business": [
+        "พิจารณาความร่วมมือกับมหาวิทยาลัยเพื่อพัฒนาบุคลากร AI",
+        "ใช้กรอบ AI Literacy ฝึกอบรมพนักงานในองค์กร"
+      ],
+      "entities": {
+        "organizations": [
+          "Prince of Songkla University",
+          "SAFE AI Foundation"
+        ],
+        "people": [
+          "Thekoeng Wongsirichot",
+          "Chai Keong Toh"
+        ],
+        "products": [],
+        "places": [
+          "สงขลา",
+          "ภูเก็ต",
+          "US"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b1-04",
+      "slug": "streamhouse-real-time-data-ai-agents-confluent",
+      "title": "AI is smart but can make wrong decisions when its data lags the real world",
+      "title_th": "AI ฉลาดแต่อาจตัดสินใจพลาด เมื่อข้อมูลที่มีตามไม่ทันโลกจริง",
+      "topic_group": "tech-trends",
+      "source_name": "Post Today",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "โพสต์ทูเดย์ชี้ว่า AI Agent อาจตัดสินใจผิดแม้ใช้โมเดลที่แข็งแกร่ง เพราะข้อมูลธุรกิจในแต่ละระบบไม่ได้อัปเดตพร้อมกัน สถาปัตยกรรมอย่าง data lake, data warehouse และ lakehouse ถูกออกแบบมาเพื่อรายงานและประมวลผลแบบ batch จึงไม่เหมาะกับเอเจนต์ที่ต้องตัดสินใจแบบเรียลไทม์ ตัวอย่างคือเมื่อสายการบินยกเลิกเที่ยวบิน ข้อมูลตำแหน่งเครื่องบิน ตารางบิน และที่นั่งว่างอัปเดตไม่สอดคล้องกัน ทำให้เอเจนต์อาจจองเที่ยวบินที่ผู้โดยสารไปไม่ทัน บทความนำเสนอแนวคิด Streamhouse ที่ Confluent ซึ่งเป็นบริษัทในเครือ IBM ผลักดัน โดยรับ ประมวลผล และกำกับดูแลการเปลี่ยนแปลงข้อมูลอย่างต่อเนื่องควบคู่กับระบบเดิม Accenture ระบุว่าลดเวลาจากการเก็บข้อมูลถึงได้ insight จากหลายเดือนเหลือไม่กี่วัน ส่วน Extend ย้ายไปใช้ Streamhouse แบบ serverless บน Confluent Cloud โดยมี Apache Kafka เป็นแหล่งข้อมูลหลัก ความสำคัญคือคุณภาพและความสดของข้อมูลกลายเป็นตัวกำหนดความน่าเชื่อถือของเอเจนต์",
+      "source_url": "https://www.posttoday.com/ai-today/752263",
+      "tech_impact": "ข้อมูลแบบ streaming แบบเรียลไทม์กำลังเป็นโครงสร้างพื้นฐานจำเป็นสำหรับ AI Agent ในองค์กร",
+      "tags": [
+        "Data Streaming",
+        "AI Agent",
+        "Enterprise",
+        "Kafka"
+      ],
+      "published_at": "2026-11-20T17:40:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Data Infrastructure",
+        "AI Agents",
+        "Enterprise AI"
+      ],
+      "actions_developer": [
+        "ประเมินการใช้ event streaming เช่น Apache Kafka ป้อนบริบทให้เอเจนต์",
+        "ออกแบบการตรวจสอบความสดของข้อมูลก่อนให้เอเจนต์ตัดสินใจ"
+      ],
+      "actions_business": [
+        "สำรวจช่องว่างความล่าช้าของข้อมูลระหว่างระบบก่อนนำเอเจนต์ใช้งานจริง",
+        "ประเมินต้นทุน-ประโยชน์ของแพลตฟอร์ม data streaming"
+      ],
+      "entities": {
+        "organizations": [
+          "Confluent",
+          "IBM",
+          "Accenture",
+          "Extend"
+        ],
+        "people": [
+          "Thomas Mahaffey",
+          "Jonathan Kropp"
+        ],
+        "products": [
+          "Streamhouse",
+          "Confluent Cloud",
+          "Apache Kafka"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b1-05",
+      "slug": "gold-falls-after-ai-stock-selloff",
+      "title": "Gold keeps falling as investors dump AI stocks",
+      "title_th": "ทองคำร่วงหนักต่อเนื่อง หลังนักลงทุนเทขายหุ้นปัญญาประดิษฐ์ AI",
+      "topic_group": "global",
+      "source_name": "Bangkok Biz News",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "กรุงเทพธุรกิจอ้าง Reuters ว่าราคาทองคำตลาดโลกร่วงราว 2.8% สู่ 3,518.50 ดอลลาร์ต่อออนซ์เมื่อวันศุกร์ที่ 20 พฤศจิกายน ต่ำสุดในรอบ 14 เดือน และหลุดระดับต่ำสุดเดือนกันยายน 2025 ที่ 3,513.54 ดอลลาร์ ทองคำลดลงราว 9.5% ในสัปดาห์นี้ ขณะที่ทองคำล่วงหน้าเดือนธันวาคมของสหรัฐฯ ร่วง 4.5% สู่ 3,519.10 ดอลลาร์ David Meger จาก High Ridge Futures ระบุว่าแรงเทขายหุ้น AI บีบให้นักลงทุนบางส่วนต้องขายทองเพื่อชดเชยผลขาดทุน เครื่องมือ CME FedWatch ให้ความน่าจะเป็น 96% ที่เฟดจะขึ้นดอกเบี้ย 0.25% ในเดือนธันวาคม เงินร่วง 3.8% สู่ 41.12 ดอลลาร์ แพลทินัมและพาลาเดียมก็ลดลงเช่นกัน บทความระบุว่าตลาดหุ้นเอเชียมีสัปดาห์แย่ที่สุดนับจากปี 2020 และ IPO ของ Anthropic ไม่สามารถฟื้นความเชื่อมั่นต่อหุ้น AI ได้ สะท้อนว่าธีม AI กลายเป็นตัวขับเคลื่อนความเสี่ยงข้ามสินทรัพย์",
+      "source_url": "https://www.bangkokbiznews.com/finance/investment/1261745",
+      "tech_impact": "แรงขายหุ้น AI ลามสู่สินทรัพย์อื่น แสดงว่าธีม AI มีน้ำหนักต่อเสถียรภาพตลาดการเงินโลก",
+      "tags": [
+        "Gold",
+        "Markets",
+        "AI Stocks",
+        "Fed"
+      ],
+      "published_at": "2026-11-21T06:21:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Capital Markets",
+        "Commodities",
+        "AI Investment"
+      ],
+      "actions_developer": [
+        "ไม่มีผลโดยตรงต่องานพัฒนา แต่ควรติดตามงบ IT ที่อาจถูกปรับลด",
+        "เตรียมเอกสารวัดผล ROI ของโครงการ AI ให้ชัดเจน"
+      ],
+      "actions_business": [
+        "ทบทวนการกระจายความเสี่ยงพอร์ตที่กระจุกในธีม AI",
+        "ติดตามทิศทางดอกเบี้ยเฟดที่มีผลต่อต้นทุนระดมทุน"
+      ],
+      "entities": {
+        "organizations": [
+          "Reuters",
+          "High Ridge Futures",
+          "CME",
+          "Federal Reserve",
+          "Anthropic"
+        ],
+        "people": [
+          "David Meger"
+        ],
+        "products": [
+          "CME FedWatch"
+        ],
+        "places": [
+          "US",
+          "Asia"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b1-06",
+      "slug": "anthropic-public-company-ai-safety-mission",
+      "title": "Anthropic becomes a public company: how much will the AI Safety mission matter in the profit game?",
+      "title_th": "Anthropic กลายเป็นบริษัทมหาชน แล้วพันธกิจ AI Safety จะยังสำคัญแค่ไหนในเกมกำไร",
+      "topic_group": "ai-trends",
+      "source_name": "Bangkok Biz News",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "กรุงเทพธุรกิจวิเคราะห์ว่าหลัง Anthropic ผู้พัฒนา Claude เข้าจดทะเบียนในตลาดเมื่อ 19 พฤศจิกายน 2026 ที่ราคา 83 ดอลลาร์ต่อหุ้น พันธกิจด้าน AI Safety ที่เป็นรากฐานของบริษัทจะยังนำการตัดสินใจได้หรือไม่ภายใต้แรงกดดันจากตลาดทุน บทความระบุว่า Anthropic มีภาระผูกพันด้าน compute ชิป และดาต้าเซ็นเตอร์ราว 900,000 ล้านดอลลาร์ โดยกว่า 70,000 ล้านดอลลาร์ครบกำหนดภายใน 12 เดือน อัตรากำไรจากการดำเนินงานลดจาก 8% ในไตรมาสสองเป็นติดลบ 3% ในไตรมาสสาม ส่วนหนึ่งจากต้นทุนพลังงาน แม้รายได้เก้าเดือนเพิ่มกว่า 1,200% ข้อมูล Ramp AI ชี้ว่าการใช้จ่ายกับโมเดล Anthropic เพิ่มเพียง 3% ขณะที่ราคาต่อโทเคนลดลง บริษัทมีสถานะ Public Benefit Corporation ผู้ก่อตั้งให้คำมั่นบริจาค 80% ของหุ้น และจะจัดสรรหุ้นอย่างน้อย 5% ให้กองทุนสาธารณประโยชน์ ตัวเลขราคาวันแรกในบทความยังไม่ตรงกับแหล่งอื่น ประเด็นนี้สำคัญเพราะเป็นบททดสอบว่าบริษัท AI ที่ชูความปลอดภัยจะรักษาหลักการได้เมื่อต้องตอบผู้ถือหุ้น",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1261659",
+      "tech_impact": "การเข้าตลาดของแล็บ AI ที่เน้นความปลอดภัยเป็นบททดสอบการกำกับดูแลระหว่างพันธกิจกับแรงกดดันด้านกำไร",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "AI Safety",
+        "PBC"
+      ],
+      "published_at": "2026-11-20T14:08:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Safety",
+        "Corporate Governance",
+        "Capital Markets"
+      ],
+      "actions_developer": [
+        "ติดตามนโยบายโมเดลและราคาของ Claude ที่อาจเปลี่ยนตามแรงกดดันตลาด",
+        "ประเมินความต่อเนื่องของ API และ SLA หลังบริษัทเข้าตลาด"
+      ],
+      "actions_business": [
+        "ใช้เอกสาร prospectus ประเมินความเสี่ยงคู่ค้าผู้ให้บริการโมเดล",
+        "ติดตามโครงสร้าง PBC และกองทุนสาธารณประโยชน์ในการประเมิน ESG"
+      ],
+      "entities": {
+        "organizations": [
+          "Anthropic",
+          "Ramp"
+        ],
+        "people": [],
+        "products": [
+          "Claude"
+        ],
+        "places": [
+          "US"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b1-07",
+      "slug": "statlix-rangsit-university-ai-marketing-mou",
+      "title": "STATLIX partners with Rangsit University on an MOU to build AI and digital marketing skills",
+      "title_th": "'STATLIX' จับมือ ม.รังสิต เซ็น MOU ส่งเสริมทักษะ AI และการตลาดดิจิทัล",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz News",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "บริษัท พีไอพี กรุ๊ป โฮลดิ้งส์ จำกัด ผู้พัฒนาแพลตฟอร์มโฆษณา AI ชื่อ STATLIX ลงนามบันทึกความเข้าใจทางวิชาการกับมหาวิทยาลัยรังสิต เพื่อส่งเสริมทักษะ AI และการตลาดดิจิทัลให้นักศึกษา ผู้ลงนามคือ บุญทวี นายชิต ซีอีโอของพีไอพี กรุ๊ป และ รศ.ดร.เจษฎาณัฏฐ์ ศรีแสน รองอธิการบดีฝ่ายเทคโนโลยีและนวัตกรรม แพลตฟอร์ม STATLIX มีฟีเจอร์หลักสามด้าน ได้แก่ AI Ads Creation, AI Consultation และ AI Ads Optimization ที่ผ่านมามีโครงการ RSU x STATLIX AD Challenge ซึ่งนักศึกษา 26 คนใน 5 ทีมได้ทดลองยิงโฆษณาจริงบนแพลตฟอร์ม และจัด Demo Day เมื่อ 11 พฤศจิกายน 2569 โดย STATLIX สนับสนุนงบโฆษณาจริง 25,000 บาท และเงินรางวัลรวม 9,000 บาท แบ่งเป็นสามรางวัล รางวัลละ 3,000 บาท ความร่วมมือนี้สะท้อนการนำเครื่องมือ AI สำหรับโฆษณาเข้าสู่การเรียนการสอน เพื่อผลิตบุคลากรที่ใช้ AI ทำงานการตลาดได้จริงตั้งแต่ยังเรียน",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1261707",
+      "tech_impact": "ผู้ให้บริการ AI ไทยร่วมมือมหาวิทยาลัยฝึกทักษะใช้ AI ในงานโฆษณาจริง เป็นสัญญาณการยกระดับแรงงานการตลาดดิจิทัล",
+      "tags": [
+        "Thailand",
+        "AdTech",
+        "Education",
+        "MOU"
+      ],
+      "published_at": "2026-11-20T17:46:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Marketing Tech",
+        "Education",
+        "AdTech"
+      ],
+      "actions_developer": [
+        "ศึกษาการผสาน AI สร้างครีเอทีฟและปรับแต่งแคมเปญอัตโนมัติ",
+        "ออกแบบเครื่องมือที่วัดผลแคมเปญได้แบบเรียลไทม์สำหรับผู้ใช้มือใหม่"
+      ],
+      "actions_business": [
+        "พิจารณาโครงการร่วมกับมหาวิทยาลัยเพื่อสรรหาบุคลากรด้าน AI Marketing",
+        "ทดลองใช้แพลตฟอร์มโฆษณา AI กับงบขนาดเล็กก่อนขยายผล"
+      ],
+      "entities": {
+        "organizations": [
+          "PIP Group Holdings",
+          "Rangsit University"
+        ],
+        "people": [
+          "บุญทวี นายชิต"
+        ],
+        "products": [
+          "STATLIX"
+        ],
+        "places": [
+          "ปทุมธานี"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b1-08",
+      "slug": "anthropic-seven-founders-voting-control-ipo",
+      "title": "Anthropic's 7 founders: who controls what after the biggest IPO in history",
+      "title_th": "7 ผู้ก่อตั้ง Anthropic ใครคุมอะไร หลัง IPO ที่ใหญ่ที่สุดในประวัติศาสตร์โลก",
+      "topic_group": "global",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Techsauce อธิบายโครงสร้างอำนาจของ Anthropic หลังเริ่มซื้อขายบน Nasdaq ด้วยสัญลักษณ์ ANT เมื่อ 19 พฤศจิกายน 2026 ที่ 83 ดอลลาร์ต่อหุ้น สูงกว่าช่วงราคา 70-78 ดอลลาร์ และอ้าง Wall Street Journal ว่าปิดวันแรกที่ 97 ดอลลาร์ หรือราว 17% ผู้ก่อตั้งเจ็ดคนถือหุ้น Class F ที่ไม่มีมูลค่าทางเศรษฐกิจ แต่ผ่าน Founder LLC คุมเสียงโหวต 50.1% ในเรื่องทั่วไป โดยตัดสินด้วยเสียงข้างมาก ผู้ก่อตั้งแต่ละคนขายหุ้น 3,378,378 หุ้นใน IPO หรือราว 280 ล้านดอลลาร์ และยังถือหุ้น Class A ราว 3.1-3.2% Dario Amodei เป็นซีอีโอ Daniela Amodei เป็นประธาน ส่วน Tom Brown ดูแลด้าน compute ซึ่งการใช้จ่ายเพิ่มจาก 944 ล้านดอลลาร์เป็น 5,600 ล้านดอลลาร์ต่อไตรมาส คนอื่นได้แก่ Jared Kaplan, Sam McCandlish, Christopher Olah และ Jack Clark คำมั่นบริจาค 80% ของหุ้นไม่ผูกพันทางกฎหมาย ความสำคัญคือผู้ก่อตั้งยังคุมทิศทางบริษัทได้แม้เข้าตลาด",
+      "source_url": "https://techsauce.co/tech-and-biz/anthropic-seven-founders-who-controls-what-after-biggest-ipo",
+      "tech_impact": "โครงสร้างหุ้นแบบ founder control ทำให้ทีมผู้ก่อตั้งยังกำหนดทิศทางด้านความปลอดภัยและผลิตภัณฑ์ได้ แม้มีผู้ถือหุ้นมหาชน",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "Governance",
+        "Founders"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Corporate Governance",
+        "Capital Markets",
+        "AI Industry"
+      ],
+      "actions_developer": [
+        "ติดตามทิศทางงานวิจัย interpretability และ compute ที่ผู้ก่อตั้งดูแล",
+        "คาดการณ์ roadmap ของ Claude จากการลงทุน compute ที่เพิ่มขึ้น"
+      ],
+      "actions_business": [
+        "ศึกษาโครงสร้าง dual-class ในการประเมินธรรมาภิบาลของบริษัท AI",
+        "ประเมินความเสี่ยงภาระผูกพัน compute ระยะยาวของผู้ให้บริการโมเดล"
+      ],
+      "entities": {
+        "organizations": [
+          "Anthropic",
+          "Nasdaq",
+          "Wall Street Journal",
+          "Founder LLC"
+        ],
+        "people": [
+          "Dario Amodei",
+          "Daniela Amodei",
+          "Tom Brown",
+          "Jared Kaplan",
+          "Sam McCandlish",
+          "Christopher Olah",
+          "Jack Clark"
+        ],
+        "products": [
+          "Claude"
+        ],
+        "places": [
+          "US"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b1-09",
+      "slug": "google-gemini-mac-computer-use",
+      "title": "Google launches Computer Use: Gemini clicks, types and fills forms in the background on Mac",
+      "title_th": "Google เปิดฟีเจอร์ Computer Use คลิก พิมพ์ กรอกฟอร์ม ทำได้หมด แค่พิมพ์บอก AI จะช่วยทำงานอยู่เบื้องหลัง",
+      "topic_group": "tech-trends",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Google เพิ่มความสามารถ Computer Use ให้แอป Gemini บน Mac ทำให้ AI คลิก พิมพ์ เปิดเมนู และกรอกฟอร์มข้ามไฟล์ในเครื่อง แอปเดสก์ท็อป และหน้าเว็บได้ โดยทำงานในหน้าต่างแยกเบื้องหลังขณะที่ผู้ใช้ทำงานอื่นต่อ ผู้ใช้เห็นภาพตัวอย่างสด เลือกอนุญาตหรือบล็อกแอปเฉพาะ และหยุดได้ทุกเมื่อ Gemini ต้องขออนุมัติก่อนขั้นตอนสำคัญ และคืนการควบคุมเมื่อถึงหน้าล็อกอินหรือชำระเงิน เปิดให้ใช้เฉพาะในสหรัฐฯ ภาษาอังกฤษ สำหรับบัญชีส่วนตัวอายุ 18 ปีขึ้นไปที่สมัคร Google AI Plus, Pro หรือ Ultra และต้องใช้ Mac ชิป Apple Silicon กับ macOS Sequoia 15 ขึ้นไป ยังไม่ครอบคลุมไทย เอกสารของ Google เตือนความเสี่ยง เช่น การเข้าถึงแอปที่ล็อกอินอยู่ การอ่านรหัส 2FA บนจอ และ prompt injection ที่ซ่อนในเนื้อหา ระบบสำรองเพื่อ undo เก็บได้ 24 ชั่วโมง ความสำคัญคือการแข่งขันเอเจนต์ควบคุมคอมพิวเตอร์ขยับจากเดโมสู่ผลิตภัณฑ์จริงสำหรับผู้บริโภค",
+      "source_url": "https://techsauce.co/ai/google-gemini-mac-computer-use-ai-agent",
+      "tech_impact": "เอเจนต์ควบคุมเดสก์ท็อปเข้าสู่ผู้ใช้ทั่วไป เพิ่มทั้งผลิตภาพและพื้นผิวการโจมตีแบบ prompt injection",
+      "tags": [
+        "Gemini",
+        "Computer Use",
+        "AI Agent",
+        "Mac"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI Agents",
+        "Computer Use",
+        "Security"
+      ],
+      "actions_developer": [
+        "ทดสอบว่าแอปของตนทำงานกับเอเจนต์ควบคุมหน้าจอได้อย่างปลอดภัย",
+        "ป้องกัน prompt injection ในเนื้อหาที่เอเจนต์อาจอ่าน"
+      ],
+      "actions_business": [
+        "กำหนดนโยบายการใช้เอเจนต์ควบคุมเครื่องบนอุปกรณ์องค์กร",
+        "ประเมินงานซ้ำซากที่อาจมอบให้เอเจนต์เดสก์ท็อปทำ"
+      ],
+      "entities": {
+        "organizations": [
+          "Google",
+          "Apple",
+          "TechCrunch"
+        ],
+        "people": [],
+        "products": [
+          "Gemini",
+          "Google AI Plus",
+          "Google AI Pro",
+          "Google AI Ultra",
+          "macOS Sequoia"
+        ],
+        "places": [
+          "US"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b1-10",
+      "slug": "openai-chatgpt-live-dictation",
+      "title": "OpenAI upgrades ChatGPT with Live Dictation: real-time transcription with no time limit",
+      "title_th": "OpenAI อัปเกรด ChatGPT เปิดตัว 'Live Dictation' ถอดเสียงสดแบบเรียลไทม์ ไม่จำกัดเวลา",
+      "topic_group": "tech-trends",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "OpenAI เริ่มทยอยเปิดฟีเจอร์ Live Dictation ให้ผู้ใช้ ChatGPT ทั่วโลกตั้งแต่ 18 พฤศจิกายน 2026 ซึ่งถอดเสียงพูดเป็นข้อความทีละคำแบบเรียลไทม์ และให้แก้ไขข้อความก่อนส่ง ฟีเจอร์นี้ยกเลิกข้อจำกัดเดิมที่บันทึกได้ไม่เกิน 10 นาที และข้อความจะแสดงหลังหยุดพูดเท่านั้น เปิดให้ทุกแพ็กเกจรวมถึงแบบฟรี บน iOS, Android, เว็บ และเดสก์ท็อป Techsauce อ้าง Gizmodo เตือนว่าข้อมูลเสียงอาจถูกนำไปฝึกโมเดล หากผู้ใช้ไม่ปิดการตั้งค่า ผู้ใช้แพ็กเกจส่วนตัวสามารถไปที่ Settings แล้ว Data Controls และปิด Improve the model for everyone ส่วนแพ็กเกจ Team และ Enterprise ไม่นำข้อมูลไปฝึกโดยค่าเริ่มต้น บทความเชื่อมโยงฟีเจอร์นี้กับโมเดลเสียง GPT-Live-1 ที่เปิดตัวในเดือนกรกฎาคม 2026 ขณะที่ OpenAI ยังเปิด GPT-Live-1.1 ผ่าน API สำหรับแอปเสียง ความสำคัญคือเสียงกำลังเป็นอินเทอร์เฟซหลักของ AI แต่มาพร้อมคำถามด้านความเป็นส่วนตัว",
+      "source_url": "https://techsauce.co/ai/openai-chatgpt-live-dictation-privacy-risk",
+      "tech_impact": "อินพุตเสียงแบบเรียลไทม์ไม่จำกัดเวลาทำให้ ChatGPT ใช้แทนเครื่องมือถอดความได้ แต่ต้องจัดการความเป็นส่วนตัวของข้อมูลเสียง",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Speech",
+        "Privacy"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Speech AI",
+        "Consumer AI",
+        "Privacy"
+      ],
+      "actions_developer": [
+        "พิจารณา GPT-Live API สำหรับฟีเจอร์ถอดเสียงในแอป",
+        "ออกแบบการยินยอมและการเก็บข้อมูลเสียงตามหลัก PDPA"
+      ],
+      "actions_business": [
+        "ตรวจสอบการตั้งค่า Data Controls ของบัญชี ChatGPT ในองค์กร",
+        "ประเมินการใช้ถอดเสียงประชุมแทนบริการภายนอก"
+      ],
+      "entities": {
+        "organizations": [
+          "OpenAI",
+          "Gizmodo"
+        ],
+        "people": [],
+        "products": [
+          "ChatGPT",
+          "Live Dictation",
+          "GPT-Live-1",
+          "GPT-Live-1.1"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b1-11",
+      "slug": "axons-ux-ui-day-2026-ai-agent-commerce",
+      "title": "Recap of 2 sessions at AXONS UX UI Day 2026: design is serious business for every company",
+      "title_th": "สรุป 2 เซสชันงาน AXONS UX UI Day 2026 : งานที่การดีไซน์เป็นเรื่องจริงจังสำหรับทุกธุรกิจ",
+      "topic_group": "thailand",
+      "source_name": "Beartai",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "แบไต๋สรุปสองเซสชันจากงาน AXONS UX UI Day 2026 เซสชันแรก Designing Designers เล่าว่า AXONS จัดเวทีแบ่งปันความรู้ของทีมดีไซน์เดือนละสองครั้ง และจัดการแข่งขันออกแบบด้วย AI ที่จำกัดจำนวนโทเคน โดยผู้ชนะต้องอธิบาย prompt ที่ใช้ให้ทีมเรียนรู้ร่วมกัน เซสชันที่สองเป็นของ CK อดีตซีอีโอและปัจจุบันเป็น CPO ของ Fastwork ซึ่งมองว่านักออกแบบไทยเก่งมากแต่มักไม่มีเสียงในองค์กร และวางตำแหน่ง Fastwork เป็นองค์กรแบบ Designer-Led เขาชี้ว่าผลิตภัณฑ์ที่ดีไม่ควรต้องมีคู่มือหรือป๊อปอัป โดยยกปุ่ม Repost ของ Instagram เป็นตัวอย่าง และคาดการณ์ว่าภายในสองปี การซื้อของออนไลน์กว่า 90% จะทำผ่าน AI Agent แทนแอปช้อปปิ้ง ซึ่งเป็นการคาดการณ์ของผู้พูด ไม่ใช่ตัวเลขสถิติ พร้อมเสนอระบบแท็กผลงานฟรีแลนซ์ให้เอเจนต์ AI ตรวจสอบได้ ความสำคัญคือวงการออกแบบไทยเริ่มเตรียมรับผู้ใช้ที่เป็นเอเจนต์ AI",
+      "source_url": "https://www.beartai.com/read/1512731/",
+      "tech_impact": "ทีมออกแบบไทยเริ่มปรับกระบวนการและผลิตภัณฑ์ให้รองรับ AI และการซื้อขายผ่านเอเจนต์",
+      "tags": [
+        "Thailand",
+        "UX",
+        "AI Agent",
+        "Design"
+      ],
+      "published_at": "2026-11-20T14:16:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "UX Design",
+        "AI Agents",
+        "E-commerce"
+      ],
+      "actions_developer": [
+        "ออกแบบข้อมูลผลิตภัณฑ์ให้เอเจนต์ AI อ่านและตรวจสอบได้",
+        "ทดลองใช้ AI ในเวิร์กโฟลว์ออกแบบพร้อมแชร์ prompt ในทีม"
+      ],
+      "actions_business": [
+        "เตรียมช่องทางขายที่รองรับการสั่งซื้อผ่าน AI Agent",
+        "ให้ทีมออกแบบมีบทบาทในการตัดสินใจด้านผลิตภัณฑ์"
+      ],
+      "entities": {
+        "organizations": [
+          "AXONS",
+          "Fastwork",
+          "Instagram"
+        ],
+        "people": [
+          "CK"
+        ],
+        "products": [],
+        "places": [
+          "Thailand"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b2-01",
+      "slug": "anthropic-ipo-close-private-placement",
+      "title": "Anthropic announces closing of IPO, including full exercise of underwriters' option, and closing of concurrent private placement",
+      "title_th": "Anthropic ปิดการขาย IPO พร้อมใช้สิทธิซื้อหุ้นเพิ่มเต็มจำนวน และปิดดีล private placement รวมเงินระดมทุนราว 119,500 ล้านดอลลาร์",
+      "topic_group": "global",
+      "source_name": "Anthropic News",
+      "category": "International",
+      "urgency": "high",
+      "content": "Anthropic ประกาศปิดการเสนอขายหุ้น IPO อย่างเป็นทางการเมื่อ 20 พฤศจิกายน 2026 โดยขายหุ้น Class A รวม 1,127,000,000 หุ้นที่ราคา 83 ดอลลาร์ ซึ่งรวมการใช้สิทธิซื้อหุ้นเพิ่มของผู้จัดจำหน่ายเต็มจำนวน 147,000,000 หุ้น ในจำนวนนี้ Anthropic ขาย 1,103,351,354 หุ้น และผู้ถือหุ้นเดิมขาย 23,648,646 หุ้น เงินระดมทุนรวมราว 93,500 ล้านดอลลาร์ โดยเข้าบริษัทราว 91,600 ล้านดอลลาร์ หุ้นเริ่มซื้อขายบน Nasdaq ภายใต้สัญลักษณ์ ANT ตั้งแต่ 19 พฤศจิกายน พร้อมกันนั้นบริษัทปิดการขายหุ้น Class N แบบเฉพาะเจาะจง 313,253,007 หุ้นให้ AMD, Broadcom, Google, Micron, Microsoft, NVIDIA และ TSMC Partners มูลค่าราว 26,000 ล้านดอลลาร์ รวมเงินระดมทุนทั้งหมดราว 119,500 ล้านดอลลาร์ ตัวเลขนี้แก้ไขรายงานก่อนหน้าที่ระบุ 81,300 ล้านดอลลาร์ก่อนใช้สิทธิ greenshoe ความสำคัญคือแล็บ AI ได้ทุนมหาศาลพร้อมพันธมิตรผู้ผลิตชิปทั้งห่วงโซ่",
+      "source_url": "https://www.anthropic.com/news/ipo-close",
+      "tech_impact": "เงินทุนกว่า 119,500 ล้านดอลลาร์และพันธมิตรชิปครบห่วงโซ่ ทำให้ Anthropic มีกำลังขยาย compute ระยะยาว",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "Funding",
+        "Nasdaq"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Capital Markets",
+        "AI Industry",
+        "Semiconductors"
+      ],
+      "actions_developer": [
+        "คาดการณ์ความจุและความเสถียรของ Claude API ที่อาจเพิ่มขึ้นจาก compute ใหม่",
+        "ติดตามการผสานกับคลาวด์ของพันธมิตร เช่น Google และ Microsoft"
+      ],
+      "actions_business": [
+        "ใช้ข้อมูลการปิด IPO ประเมินความมั่นคงของผู้ให้บริการโมเดล",
+        "ติดตามการเปลี่ยนแปลงราคาและสัญญาองค์กรหลังเข้าตลาด"
+      ],
+      "entities": {
+        "organizations": [
+          "Anthropic",
+          "Nasdaq",
+          "AMD",
+          "Broadcom",
+          "Google",
+          "Micron",
+          "Microsoft",
+          "NVIDIA",
+          "TSMC"
+        ],
+        "people": [],
+        "products": [
+          "Claude"
+        ],
+        "places": [
+          "US"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b2-02",
+      "slug": "hf-harness-adapters-lora-agents",
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "title_th": "Hugging Face เปิดตัว harness adapters ปรับโมเดลให้เข้ากับเอเจนต์ฮาร์เนส เพิ่มคะแนนและลดโทเคน",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Blog",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Hugging Face เผยแนวทาง harness adapters โดยฝึก LoRA adapter หนึ่งตัวต่อหนึ่งฮาร์เนสเอเจนต์ ได้แก่ Pi, OpenCode และ Hermes Agent ด้วย reinforcement learning บนโมเดล Qwen3.8-27B ผลบน Terminal-Bench 2.1 กับฮาร์เนส Pi คะแนน pass@1 เพิ่มจาก 39% เป็น 55% และจำนวนโทเคนต่องานลดจากราว 2,900 เหลือ 1,500 บน SWE-bench Pro ฮาร์เนส Pi เพิ่มจาก 39.2% เป็น 64.7% และ OpenCode จาก 35.3% เป็น 51.0% ทีมยังรวม adapter เป็น super-adapter ด้วยการต่อ rank-96 ที่น้ำหนัก 0.5 ซึ่งดีกว่าโมเดลพื้นฐานในทั้งสามฮาร์เนสเมื่อปิดโหมดคิด โดยค่าเฉลี่ยเพิ่มจาก 39.5% เป็น 49.0% อย่างไรก็ตามการทดสอบนอกการกระจายบน AutomationBench แสดงความต่างที่อยู่ในช่วงสัญญาณรบกวน และ Hermes อาจลดลง ความสำคัญคือการปรับโมเดลเปิดให้เข้ากับเครื่องมือเอเจนต์เฉพาะทาง ช่วยเพิ่มคุณภาพและลดต้นทุนได้โดยไม่ต้องเปลี่ยนโมเดลหลัก",
+      "source_url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "tech_impact": "LoRA ที่ฝึกเฉพาะฮาร์เนสช่วยให้โมเดลเปิดขนาดกลางทำงานเอเจนต์เขียนโค้ดได้ดีขึ้นมากพร้อมลดโทเคน",
+      "tags": [
+        "LoRA",
+        "Agents",
+        "Benchmarks",
+        "Open Models"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Agentic Coding",
+        "Fine-tuning",
+        "Open Models"
+      ],
+      "actions_developer": [
+        "ทดลองฝึก LoRA ด้วย RL ให้เข้ากับฮาร์เนสเอเจนต์ที่ทีมใช้",
+        "วัดผลทั้ง pass@1 และโทเคนต่องานก่อนนำ adapter ใช้จริง"
+      ],
+      "actions_business": [
+        "พิจารณาโมเดลเปิดที่ปรับแต่งแทน API ราคาสูงสำหรับงานเอเจนต์",
+        "ประเมินต้นทุนต่องานเอเจนต์ที่ลดลงจากการปรับจูน"
+      ],
+      "entities": {
+        "organizations": [
+          "Hugging Face"
+        ],
+        "people": [],
+        "products": [
+          "Qwen3.8-27B",
+          "Terminal-Bench 2.1",
+          "SWE-bench Pro",
+          "OpenCode",
+          "Hermes Agent",
+          "LoRA"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b2-03",
+      "slug": "token-fraud-free-trial-ai-agents",
+      "title": "Token fraud is here and it's BAD",
+      "title_th": "การโกงโทเคนมาถึงแล้วและรุนแรง: ผู้ใช้ทดลองฟรีนำเอเจนต์ไปขายต่อโทเคน",
+      "topic_group": "tech-trends",
+      "source_name": "Simon Willison Blog",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Simon Willison แนะนำคลิปที่ Claire Vo ผู้ก่อตั้ง ChatPRD เล่าถึงปัญหาการโกงโทเคน หรือ token fraud ในช่วงทดลองใช้ฟรีของผลิตภัณฑ์ โดยมีผู้ใช้สมัครบัญชีทดลองเพื่อนำโทเคนไปขายต่อ หรือส่งงานเชิงพาณิชย์อื่นผ่านเอเจนต์ของบริษัท ทำให้ผู้ให้บริการต้องจ่ายค่าโมเดลโดยไม่ได้รายได้ Willison ตั้งข้อสังเกตว่า prompt ที่พบบ่อยอย่างหนึ่งคือการให้วาด SVG นกกระทุงปั่นจักรยาน ซึ่งเป็นการทดสอบที่นิยมใช้ระบุตระกูลโมเดลเบื้องหลังผลิตภัณฑ์ เป็นสัญญาณว่ามีคนสอดแนมว่าแอปใช้โมเดลใด ผลกระทบทำให้ Claire Vo ตัดสินใจทยอยยุติการทดลองใช้ฟรี ประเด็นนี้สำคัญกับสตาร์ทอัพที่ห่อโมเดลราคาแพงไว้ในผลิตภัณฑ์ เพราะโมเดลธุรกิจแบบให้ทดลองฟรีกลายเป็นช่องทางรั่วไหลของต้นทุน compute และต้องมีการป้องกันการใช้งานผิดวัตถุประสงค์มากขึ้น",
+      "source_url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "tech_impact": "ผลิตภัณฑ์ AI ที่ให้ทดลองฟรีเสี่ยงถูกใช้เป็นแหล่งโทเคนราคาถูก ต้องมีระบบตรวจจับการใช้ผิดวัตถุประสงค์",
+      "tags": [
+        "Token Fraud",
+        "Security",
+        "Startups",
+        "LLM Cost"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Product Security",
+        "Fraud",
+        "LLM Economics"
+      ],
+      "actions_developer": [
+        "ติดตั้ง rate limit และตรวจจับรูปแบบ prompt ผิดปกติในบัญชีทดลอง",
+        "จำกัดขอบเขตงานของเอเจนต์ให้ตรงกับฟีเจอร์ผลิตภัณฑ์"
+      ],
+      "actions_business": [
+        "ทบทวนโมเดล free trial ให้มีการยืนยันตัวตนหรือวงเงินจำกัด",
+        "ติดตามต้นทุนโทเคนต่อผู้ใช้ทดลองเทียบอัตราแปลงเป็นลูกค้า"
+      ],
+      "entities": {
+        "organizations": [
+          "ChatPRD"
+        ],
+        "people": [
+          "Simon Willison",
+          "Claire Vo"
+        ],
+        "products": [
+          "ChatPRD"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b2-04",
+      "slug": "openai-reasoning-extraction-defense-gpt-6-2-astra",
+      "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
+      "title_th": "OpenAI ทำให้ผู้โจมตีดึงกระบวนการคิดของโมเดลล่าสุดได้ยากขึ้นมาก",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "The Decoder รายงานโดยอ้างบทความของ OpenAI ว่าอัตราความสำเร็จของการโจมตีเพื่อดึงข้อมูลการให้เหตุผลที่ถูกปกปิดของโมเดล ลดลงอย่างมากในรุ่นใหม่ การโจมตีที่ดึง reasoning จากคำขอก่อนหน้าลดจาก 54.0% ใน GPT-6 Astra เหลือ 0.2% ใน GPT-6.2 Astra ส่วนการโจมตีต่อคำขอปัจจุบันลดจาก 22.9% เหลือ 0.9% มาตรการป้องกันประกอบด้วยการฝึกโมเดลแบบเจาะจง ตัวกรอง และการบล็อกที่ระดับ API OpenAI ระบุว่าแบนบัญชีตั้งแต่หลักพันถึงหลักหมื่นบัญชีต่อสัปดาห์จากพฤติกรรมดังกล่าว และกำลังนำการปรับปรุงนี้ไปใช้กับ GPT-6 Astra ด้วย ประเด็นนี้สำคัญเพราะ reasoning trace ของโมเดลชั้นนำมีมูลค่าสูงต่อคู่แข่งที่ต้องการ distill ความสามารถไปฝึกโมเดลของตัวเอง การปกป้องกระบวนการคิดจึงเป็นทั้งเรื่องความปลอดภัยและการแข่งขันเชิงทรัพย์สินทางปัญญาในอุตสาหกรรม",
+      "source_url": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
+      "tech_impact": "แล็บชั้นนำยกระดับการป้องกัน distillation ผ่าน reasoning trace กระทบผู้ที่พยายามดึงข้อมูลไปฝึกโมเดลอื่น",
+      "tags": [
+        "OpenAI",
+        "Security",
+        "Reasoning",
+        "Distillation"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Security",
+        "Model Distillation",
+        "LLM"
+      ],
+      "actions_developer": [
+        "หลีกเลี่ยงการออกแบบระบบที่พึ่งการเข้าถึง reasoning trace ที่ถูกซ่อน",
+        "ศึกษาเทคนิคป้องกันการรั่วของ system prompt และ reasoning ในแอปตนเอง"
+      ],
+      "actions_business": [
+        "ตรวจสอบเงื่อนไขการใช้งาน API เพื่อลดความเสี่ยงถูกแบนบัญชี",
+        "ประเมินความเสี่ยงทรัพย์สินทางปัญญาของโมเดลที่องค์กรพัฒนาเอง"
+      ],
+      "entities": {
+        "organizations": [
+          "OpenAI"
+        ],
+        "people": [
+          "Matthias Bastian"
+        ],
+        "products": [
+          "GPT-6 Astra",
+          "GPT-6.2 Astra"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b2-05",
+      "slug": "signal-blocks-screenshots-ai-agents",
+      "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
+      "title_th": "Signal บล็อกการจับภาพหน้าจอบน iOS 27 และ Android เพื่อกันเอเจนต์ AI อ่านแชตส่วนตัว",
+      "topic_group": "global",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "The Decoder รายงานว่า Signal เริ่มบล็อกการจับภาพหน้าจอบน iOS 27 และเปิดระบบป้องกันบน Android รุ่นที่รองรับ เมื่อผู้ช่วย AI พยายามอ่านหน้าจอ เพื่อปกป้องแชตส่วนตัวจากเอเจนต์ AI ที่ทำงานระดับระบบปฏิบัติการ Signal เรียกแนวโน้มนี้ว่าเป็นภัยคุกคามต่อการมีอยู่ของความเป็นส่วนตัว ตามรายงานของ Reuters และยอมรับว่าบน macOS ยังไม่สามารถบล็อกภาพหน้าจอได้อย่างน่าเชื่อถือ Signal เรียกร้องให้ Apple, Google และ Microsoft เพิ่มกลไกที่ให้แอปปิดกั้นเอเจนต์ AI ได้ง่าย ข่าวนี้เกิดขึ้นพร้อมกับที่ Google เปิด Computer Use บน Mac และมีรายงานว่าเอเจนต์ Muse ของ Meta ทำข้อมูลส่วนตัวรั่ว ประเด็นสำคัญคือเอเจนต์ที่มองเห็นหน้าจอได้ทั้งหมดกำลังขัดแย้งกับโมเดลความปลอดภัยของแอปเข้ารหัสปลายทาง และอาจผลักดันมาตรฐานใหม่ด้านสิทธิ์การเข้าถึงของ AI",
+      "source_url": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
+      "tech_impact": "แอปเข้ารหัสเริ่มต่อต้านเอเจนต์ที่อ่านหน้าจอ อาจนำไปสู่ API มาตรฐานให้แอปประกาศว่าไม่ยินยอมให้ AI เข้าถึง",
+      "tags": [
+        "Signal",
+        "Privacy",
+        "AI Agent",
+        "Screenshots"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Privacy",
+        "AI Agents",
+        "Mobile Security"
+      ],
+      "actions_developer": [
+        "เพิ่มการตั้งค่า secure flag สำหรับหน้าจอข้อมูลอ่อนไหวในแอป",
+        "ติดตาม API ใหม่ของ OS สำหรับกันเอเจนต์ AI"
+      ],
+      "actions_business": [
+        "ทบทวนนโยบายข้อมูลส่วนบุคคลเมื่อพนักงานใช้เอเจนต์อ่านหน้าจอ",
+        "ประเมินความเสี่ยงการรั่วไหลจากเอเจนต์บนอุปกรณ์องค์กร"
+      ],
+      "entities": {
+        "organizations": [
+          "Signal",
+          "Apple",
+          "Google",
+          "Microsoft",
+          "Reuters"
+        ],
+        "people": [
+          "Manuel Uth"
+        ],
+        "products": [
+          "iOS 27",
+          "Android",
+          "macOS"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b2-06",
+      "slug": "nvidia-acquire-inception-diffusion-llm",
+      "title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
+      "title_th": "Nvidia เตรียมซื้อ Inception อย่างน้อย 500 ล้านดอลลาร์ เสริมโมเดลภาษาแบบ diffusion ให้ตระกูล Nemotron",
+      "topic_group": "global",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "The Decoder อ้างรายงานของ The Information ว่า Nvidia ใกล้บรรลุข้อตกลงซื้อกิจการ Inception สตาร์ทอัพที่พัฒนาโมเดลภาษาแบบ diffusion ด้วยมูลค่าอย่างน้อย 500 ล้านดอลลาร์ พร้อมโบนัสสำหรับพนักงานกว่า 30 คน โมเดลภาษาแบบ diffusion สร้างข้อความหลายโทเคนพร้อมกันแทนการสร้างทีละโทเคนแบบ autoregressive จึงมีศักยภาพด้านความเร็วและต้นทุนการประมวลผล ดีลนี้คาดว่าจะช่วยเสริมตระกูลโมเดลโอเพนซอร์ส Nemotron ของ Nvidia และงานด้านหุ่นยนต์ ทั้งสองบริษัทยังไม่แสดงความเห็นในช่วงแรก ข่าวนี้สะท้อนกลยุทธ์ของ Nvidia ที่ขยายจากผู้ผลิตชิปสู่ผู้พัฒนาโมเดลเปิด เพื่อสร้างความต้องการฮาร์ดแวร์และระบบนิเวศซอฟต์แวร์ของตนเอง ท่ามกลางแรงกดดันจากตลาดหุ้น AI ที่ผันผวนและการแข่งขันจากชิปของคู่แข่ง หากสำเร็จ อาจเร่งการนำ diffusion LLM มาใช้ในเชิงพาณิชย์",
+      "source_url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
+      "tech_impact": "Nvidia ซื้อเทคโนโลยี diffusion LLM อาจทำให้โมเดลเปิดที่เร็วและถูกลงเข้าสู่ระบบนิเวศ Nemotron",
+      "tags": [
+        "Nvidia",
+        "Acquisition",
+        "Diffusion LLM",
+        "Nemotron"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "M&A",
+        "Diffusion Models",
+        "Open Models"
+      ],
+      "actions_developer": [
+        "ติดตามโมเดล diffusion LLM ใน Nemotron สำหรับงานที่ต้องการ latency ต่ำ",
+        "เปรียบเทียบความเร็ว/คุณภาพระหว่าง diffusion และ autoregressive LLM"
+      ],
+      "actions_business": [
+        "ประเมินโมเดลเปิดของ Nvidia เป็นทางเลือกลดต้นทุน inference",
+        "ติดตามการรวมกิจการในตลาดสตาร์ทอัพโมเดลภาษา"
+      ],
+      "entities": {
+        "organizations": [
+          "Nvidia",
+          "Inception",
+          "The Information"
+        ],
+        "people": [
+          "Maximilian Schreiner"
+        ],
+        "products": [
+          "Nemotron"
+        ],
+        "places": [
+          "US"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b2-07",
+      "slug": "microsoft-ignite-2026-seven-mai-models",
+      "title": "Microsoft announces seven new MAI models at Ignite 2026",
+      "title_th": "Microsoft เปิดตัวโมเดล MAI ใหม่ 7 รุ่นในงาน Ignite 2026 ครอบคลุมโค้ด ความปลอดภัย ภาพ และเสียง",
+      "topic_group": "tech-trends",
+      "source_name": "Microsoft AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "ตามสรุปของ The Neuron Microsoft ประกาศโมเดลตระกูล MAI ใหม่เจ็ดรุ่นในงาน Microsoft Ignite 2026 ครอบคลุมงานเขียนโค้ด ความปลอดภัยไซเบอร์ การสร้างภาพ และเสียงแบบเรียลไทม์ บริษัทอ้างว่าหลายรุ่นทำคะแนน benchmark ได้ในระดับแข่งขันกับโมเดลแนวหน้า ขณะที่มีต้นทุนต่ำกว่าคู่แข่งอย่างมีนัยสำคัญ การเปิดตัวครั้งนี้ตอกย้ำกลยุทธ์ของ Microsoft ที่สร้างโมเดลของตัวเองควบคู่กับการเป็นพันธมิตรกับ OpenAI และการลงทุนใน Anthropic เพื่อลดการพึ่งพาผู้ให้บริการภายนอกและควบคุมต้นทุนบริการ Copilot และ Azure ในระยะยาว สำหรับลูกค้าองค์กร การมีโมเดลเฉพาะด้าน เช่น ความปลอดภัยไซเบอร์และเสียงแบบเรียลไทม์ อาจหมายถึงตัวเลือกราคาที่ถูกลงภายในระบบนิเวศ Microsoft ทั้งนี้รายละเอียดชื่อรุ่นและตัวเลข benchmark ต้องตรวจสอบจากประกาศต้นฉบับ ความสำคัญคือการแข่งขันด้านราคาโมเดลระดับองค์กรเข้มข้นขึ้น",
+      "source_url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "tech_impact": "Microsoft ขยายโมเดลของตนเองหลายด้าน เพิ่มตัวเลือกราคาถูกใน Azure และลดการพึ่งพา OpenAI",
+      "tags": [
+        "Microsoft",
+        "MAI",
+        "Ignite",
+        "Models"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Foundation Models",
+        "Enterprise AI",
+        "Cybersecurity"
+      ],
+      "actions_developer": [
+        "ทดสอบโมเดล MAI สำหรับงานโค้ดและเสียงเทียบกับโมเดลที่ใช้อยู่",
+        "ติดตามความพร้อมใช้งานของ MAI ใน Azure AI Foundry"
+      ],
+      "actions_business": [
+        "เจรจาราคาโดยใช้ตัวเลือกโมเดล MAI เป็นทางเลือก",
+        "ประเมินโมเดลความปลอดภัยไซเบอร์สำหรับ SOC ขององค์กร"
+      ],
+      "entities": {
+        "organizations": [
+          "Microsoft",
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "products": [
+          "MAI",
+          "Copilot",
+          "Azure"
+        ],
+        "places": [
+          "US"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b2-08",
+      "slug": "tencent-hy4-flash-open-weights",
+      "title": "Tencent releases Hy4 Flash model weights for local deployment",
+      "title_th": "Tencent ปล่อยน้ำหนักโมเดล Hy4 Flash ให้ติดตั้งในเครื่อง รองรับบริบท 1 ล้านโทเคน",
+      "topic_group": "ai-trends",
+      "source_name": "TechNode",
+      "category": "International",
+      "urgency": "medium",
+      "content": "ตามสรุปของ The Neuron ที่อ้าง TechNode บริษัท Tencent ของจีนเปิดให้ดาวน์โหลดน้ำหนักโมเดล Hy4 Flash เพื่อนำไปติดตั้งใช้งานในเครื่องหรือเซิร์ฟเวอร์ของตัวเอง Hy4 Flash เป็นโมเดลที่รับได้ทั้งข้อความและภาพ และรองรับบริบทยาวสูงสุดราวหนึ่งล้านโทเคน ทำให้นักพัฒนาประมวลผลเอกสารที่ยาวผิดปกติได้ในครั้งเดียว การปล่อยน้ำหนักแบบเปิดนี้ต่อยอดกระแสของบริษัทจีนที่ใช้โมเดลเปิดเป็นกลยุทธ์แข่งขัน ท่ามกลางข้อจำกัดการส่งออกชิปจากสหรัฐฯ ที่ทำให้การเข้าถึง compute ภายนอกยากขึ้น สำหรับองค์กรที่ต้องการเก็บข้อมูลไว้ภายใน โมเดลบริบทยาวแบบเปิดเป็นทางเลือกแทน API ของผู้ให้บริการต่างประเทศ แต่ต้องประเมินใบอนุญาตใช้งาน ความต้องการหน่วยความจำ GPU และประเด็นการกำกับดูแลโมเดลจากจีนประกอบ ความสำคัญคือโมเดลเปิดที่รองรับบริบทระดับล้านโทเคนกำลังเข้าถึงได้ง่ายขึ้น",
+      "source_url": "https://technode.com/2026/11/19/tencent-releases-hy4-flash-model-weights-for-local-deployment/",
+      "tech_impact": "โมเดลเปิดบริบท 1 ล้านโทเคนจากจีนเพิ่มทางเลือกการประมวลผลเอกสารยาวแบบ on-premise",
+      "tags": [
+        "Tencent",
+        "Open Weights",
+        "Long Context",
+        "China"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Open Models",
+        "Long Context",
+        "Multimodal"
+      ],
+      "actions_developer": [
+        "ทดสอบ Hy4 Flash กับงานสรุป/ค้นเอกสารยาวแบบ on-premise",
+        "ประเมินความต้องการหน่วยความจำ GPU สำหรับบริบทยาว"
+      ],
+      "actions_business": [
+        "ตรวจสอบเงื่อนไขใบอนุญาตก่อนใช้เชิงพาณิชย์",
+        "ประเมินความเสี่ยงด้านการกำกับดูแลเมื่อใช้โมเดลจากจีน"
+      ],
+      "entities": {
+        "organizations": [
+          "Tencent",
+          "TechNode"
+        ],
+        "people": [],
+        "products": [
+          "Hy4 Flash"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b2-09",
+      "slug": "meta-muse-agent-private-data-mixup",
+      "title": "Meta's AI agent Muse is mixing up conversations and exposing private data, report says",
+      "title_th": "รายงานชี้เอเจนต์ AI Muse ของ Meta สลับบทสนทนาและเปิดเผยข้อมูลส่วนตัว",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "high",
+      "content": "ตามสรุปของ The Neuron ที่อ้าง TechCrunch มีรายงานว่าเอเจนต์ AI ชื่อ Muse ของ Meta สลับบทสนทนาระหว่างผู้ใช้และเปิดเผยข้อมูลส่วนตัว พนักงานที่ทดสอบระบบรายงานว่าเห็นข้อความที่ไม่คุ้นเคย เช่น ข้อความเกี่ยวกับการดูแลเด็ก การแจ้งเตือนส่วนตัว และยอดเงินในบัญชีธนาคารของคนอื่น Meta ชี้แจงว่าพนักงานทดสอบเวอร์ชันที่มีฟีเจอร์ซึ่งยังไม่เปิดให้สาธารณะใช้งาน Muse เป็นเอเจนต์ที่ช่วยจองร้านอาหาร วางแผนการเดินทาง และสรุปข่าว ซึ่งต้องเข้าถึงข้อมูลส่วนตัวจำนวนมาก เหตุการณ์นี้เกิดในช่วงเดียวกับที่ Signal บล็อกการจับภาพหน้าจอเพื่อกันเอเจนต์ AI และมีรายงานว่า Meta เตรียมอุปกรณ์ Muse ราคาราว 300 ดอลลาร์ ประเด็นสำคัญคือเอเจนต์ที่ถือบริบทผู้ใช้จำนวนมากต้องมีการแยกข้อมูลระหว่างผู้ใช้อย่างเข้มงวด หากผิดพลาดจะกระทบความเชื่อมั่นและอาจเข้าข่ายละเมิดกฎหมายคุ้มครองข้อมูล",
+      "source_url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "tech_impact": "ความผิดพลาดด้านการแยกบริบทของเอเจนต์สะท้อนความเสี่ยงข้อมูลรั่วเมื่อเอเจนต์ถือข้อมูลส่วนตัวจำนวนมาก",
+      "tags": [
+        "Meta",
+        "Muse",
+        "Privacy",
+        "Data Leak"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Privacy",
+        "AI Agents",
+        "Data Protection"
+      ],
+      "actions_developer": [
+        "ทดสอบการแยก session และ memory ระหว่างผู้ใช้อย่างเข้มงวด",
+        "เพิ่มการตรวจจับข้อมูลอ่อนไหวก่อนแสดงผลจากหน่วยความจำเอเจนต์"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงด้าน PDPA ก่อนเปิดเอเจนต์ที่เข้าถึงข้อมูลลูกค้า",
+        "กำหนดขั้นตอนแจ้งเหตุข้อมูลรั่วสำหรับบริการ AI"
+      ],
+      "entities": {
+        "organizations": [
+          "Meta",
+          "TechCrunch"
+        ],
+        "people": [],
+        "products": [
+          "Muse"
+        ],
+        "places": [
+          "US"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b2-10",
+      "slug": "european-commission-ai-assisted-cyberattack",
+      "title": "European Commission scrambles to contain AI-assisted cyberattack",
+      "title_th": "คณะกรรมาธิการยุโรปเร่งควบคุมการโจมตีไซเบอร์ที่ใช้ AI ช่วย ระบบเงินเดือนสะดุด",
+      "topic_group": "global",
+      "source_name": "The Register",
+      "category": "International",
+      "urgency": "high",
+      "content": "ตามสรุปของ The Neuron ที่อ้าง The Register การโจมตีไซเบอร์ที่ใช้ AI ช่วยทำให้ระบบของคณะกรรมาธิการยุโรปหยุดชะงักชั่วคราว รวมถึงระบบเงินเดือนพนักงานและการเบิกค่ารักษาพยาบาล ผู้สืบสวนระบุว่าพบร่องรอยของ ARTEX ซึ่งเป็นเครื่องมือทดสอบความปลอดภัยที่ใช้ AI ช่วย ถูกนำมาใช้ในการโจมตี เจ้าหน้าที่กำลังตรวจสอบว่าข้อมูลส่วนบุคคลถูกเข้าถึงหรือรั่วไหลหรือไม่ เหตุการณ์นี้เป็นตัวอย่างชัดเจนว่าเครื่องมือ penetration testing ที่ขับเคลื่อนด้วย AI ซึ่งออกแบบมาเพื่อการป้องกัน สามารถถูกนำไปใช้โจมตีหน่วยงานรัฐระดับสูงได้ และเกิดขึ้นในสัปดาห์เดียวกับที่มีการเปิดเผยช่องโหว่ร้ายแรงใน OpenJDK และ NGINX ประเด็นนี้สำคัญต่อหน่วยงานรัฐทั่วโลก รวมถึงไทย เพราะความเร็วและขนาดของการโจมตีที่ AI ช่วยกำลังเพิ่มขึ้น ทำให้การตรวจจับและตอบสนองต้องอัตโนมัติมากขึ้นตาม",
+      "source_url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
+      "tech_impact": "เครื่องมือทดสอบความปลอดภัยที่ใช้ AI ถูกนำมาโจมตีหน่วยงานรัฐ เป็นสัญญาณยกระดับภัยไซเบอร์ที่ AI ช่วย",
+      "tags": [
+        "Cybersecurity",
+        "EU",
+        "AI Attack",
+        "Government"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Cybersecurity",
+        "Government",
+        "AI Misuse"
+      ],
+      "actions_developer": [
+        "เร่งแพตช์ช่องโหว่ที่เพิ่งเปิดเผยและเปิดการตรวจจับพฤติกรรมผิดปกติ",
+        "ใช้เครื่องมือ AI ฝั่งป้องกันเพื่อตอบสนองเหตุการณ์เร็วขึ้น"
+      ],
+      "actions_business": [
+        "ทบทวนแผนรับมือเหตุการณ์ไซเบอร์ที่กระทบระบบเงินเดือนและ HR",
+        "ประเมินการลงทุนด้าน SOC อัตโนมัติ"
+      ],
+      "entities": {
+        "organizations": [
+          "European Commission",
+          "The Register"
+        ],
+        "people": [],
+        "products": [
+          "ARTEX"
+        ],
+        "places": [
+          "EU",
+          "Brussels"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b2-11",
+      "slug": "google-blue-origin-project-suncatcher",
+      "title": "Google picks Blue Origin to launch Project Suncatcher AI server satellites in 2029",
+      "title_th": "Google เลือก Blue Origin ส่งดาวเทียมเซิร์ฟเวอร์ AI โครงการ Project Suncatcher ปี 2029",
+      "topic_group": "tech-trends",
+      "source_name": "The Verge AI",
+      "category": "International",
+      "urgency": "low",
+      "content": "ตามสรุปของ The Neuron ที่อ้าง The Verge Google เลือก Blue Origin เป็นผู้ให้บริการปล่อยดาวเทียมเซิร์ฟเวอร์ AI ของโครงการ Project Suncatcher ในไตรมาสแรกของปี 2029 โครงการนี้มุ่งทดสอบการประมวลผล AI ในวงโคจรด้วยพลังงานแสงอาทิตย์ โดยดาวเทียมแต่ละดวงออกแบบให้มีกำลังประมวลผลใกล้เคียงกับตู้แร็กในดาต้าเซ็นเตอร์หนึ่งตู้ แนวคิดดาต้าเซ็นเตอร์ในอวกาศได้รับความสนใจมากขึ้น เพราะความต้องการไฟฟ้าของ AI บนโลกพุ่งสูง โดยมีรายงานว่าดาต้าเซ็นเตอร์ 403 แห่งในสหรัฐฯ ใช้ไฟฟ้าเกือบ 2% ของทั้งประเทศ การใช้พลังงานแสงอาทิตย์ในอวกาศอาจลดข้อจำกัดด้านพลังงานและการระบายความร้อน แต่ยังมีความท้าทายเรื่องต้นทุนการปล่อย การสื่อสารข้อมูล และความทนทานต่อรังสี ความสำคัญคือบริษัทเทคโนโลยีใหญ่เริ่มลงทุนจริงในทางเลือกโครงสร้างพื้นฐาน compute นอกโลกเพื่อรองรับการเติบโตของ AI ในระยะยาว",
+      "source_url": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029",
+      "tech_impact": "การทดลองดาต้าเซ็นเตอร์ในวงโคจรสะท้อนแรงกดดันด้านพลังงานของ AI และการหาโครงสร้างพื้นฐานทางเลือก",
+      "tags": [
+        "Google",
+        "Space",
+        "Data Center",
+        "Energy"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI Infrastructure",
+        "Space Tech",
+        "Energy"
+      ],
+      "actions_developer": [
+        "ติดตามสถาปัตยกรรม edge/orbital compute สำหรับงาน batch ที่ทน latency",
+        "ศึกษาการออกแบบโมเดลที่ประหยัดพลังงาน"
+      ],
+      "actions_business": [
+        "นำต้นทุนพลังงานเข้าเป็นปัจจัยหลักในแผน AI ระยะยาว",
+        "ติดตามตลาด space compute เป็นโอกาสลงทุนระยะยาว"
+      ],
+      "entities": {
+        "organizations": [
+          "Google",
+          "Blue Origin",
+          "The Verge"
+        ],
+        "people": [],
+        "products": [
+          "Project Suncatcher"
+        ],
+        "places": [
+          "US"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b2-12",
+      "slug": "moonshot-ai-cancels-nvidia-indonesia-deal",
+      "title": "China's Moonshot AI scraps $150 million deal to access Nvidia chips in Indonesia",
+      "title_th": "Moonshot AI ของจีนยกเลิกดีล 150 ล้านดอลลาร์ เช่าชิป Nvidia ผ่านดาต้าเซ็นเตอร์อินโดนีเซีย",
+      "topic_group": "global",
+      "source_name": "The Information AI",
+      "category": "International",
+      "urgency": "high",
+      "content": "ตามสรุปของ The Neuron ที่อ้าง The Information บริษัท Moonshot AI ผู้พัฒนาโมเดล Kimi ของจีน ยกเลิกข้อตกลงมูลค่า 150 ล้านดอลลาร์เพื่อเข้าถึงชิป Nvidia ผ่านดาต้าเซ็นเตอร์ในอินโดนีเซีย การยกเลิกเกิดขึ้นหลังสหรัฐฯ ออกกฎใหม่จำกัดการเข้าถึงชิปขั้นสูงจากระยะไกลของบริษัทจีน ซึ่งปิดช่องโหว่ที่บริษัทจีนเคยใช้เช่า compute ในประเทศที่สามแทนการนำเข้าชิปโดยตรง ข่าวนี้ต่อเนื่องจากที่ Nvidia หยุดส่ง H200 ไปจีน ทำให้บริษัท AI จีนเผชิญแรงกดดันสองทางทั้งการนำเข้าชิปและการเช่าคลาวด์ต่างประเทศ สำหรับเอเชียตะวันออกเฉียงใต้รวมถึงไทย มาตรการนี้อาจกระทบโมเดลธุรกิจดาต้าเซ็นเตอร์ที่หวังรายได้จากลูกค้าจีน และเพิ่มภาระการตรวจสอบลูกค้าตามกฎส่งออก ความสำคัญคือภูมิรัฐศาสตร์ชิปกำลังกำหนดว่าใครเข้าถึง compute ได้ในภูมิภาค",
+      "source_url": "https://www.theinformation.com/articles/chinas-moonshot-ai-scraps-150-million-deal-access-nvidia-chips-indonesia",
+      "tech_impact": "กฎจำกัดการเข้าถึงชิประยะไกลของสหรัฐฯ กระทบดาต้าเซ็นเตอร์ในอาเซียนที่ให้บริการลูกค้าจีน",
+      "tags": [
+        "China",
+        "Export Controls",
+        "Nvidia",
+        "Indonesia"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Export Controls",
+        "Semiconductors",
+        "Geopolitics"
+      ],
+      "actions_developer": [
+        "ตรวจสอบภูมิภาคและผู้ให้บริการ GPU cloud ให้สอดคล้องกฎส่งออก",
+        "วางแผนสำรอง compute หากผู้ให้บริการถูกจำกัด"
+      ],
+      "actions_business": [
+        "ทบทวนการตรวจสอบลูกค้า (KYC) สำหรับบริการ GPU cloud",
+        "ประเมินผลกระทบต่อการลงทุนดาต้าเซ็นเตอร์ในอาเซียน"
+      ],
+      "entities": {
+        "organizations": [
+          "Moonshot AI",
+          "Nvidia",
+          "The Information"
+        ],
+        "people": [],
+        "products": [
+          "Kimi"
+        ],
+        "places": [
+          "China",
+          "Indonesia",
+          "US"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b2-13",
+      "slug": "openai-performance-factory-codex-agents",
+      "title": "How OpenAI's Performance Factory keeps ChatGPT fast",
+      "title_th": "OpenAI เผย Performance Factory ใช้เอเจนต์ Codex ไล่หาและแก้ปัญหาความช้าของ ChatGPT อัตโนมัติ",
+      "topic_group": "tech-trends",
+      "source_name": "OpenAI Blog",
+      "category": "International",
+      "urgency": "medium",
+      "content": "ตามสรุปของ The Neuron OpenAI เปิดเผยระบบ Performance Factory ที่ใช้เอเจนต์ Codex สืบสวนสาเหตุที่ ChatGPT ทำงานช้า เสนอแนวทางแก้ไข และตรวจสอบว่าระบบกลับมาเป็นปกติหลังปล่อยการแก้ไขแล้ว ในช่วงราวสามเดือน ระบบดำเนินการสืบสวนอัตโนมัติมากกว่า 1,700 ครั้ง และพบสาเหตุราก (root cause) มากกว่า 600 กรณี เวิร์กโฟลว์ของเอเจนต์ทำงานต่อเนื่องเพื่อ profile ภาระงาน แยกจุดที่ประสิทธิภาพถดถอย และส่งการแก้ไขเข้าสู่ระบบ นี่เป็นตัวอย่างการใช้เอเจนต์เขียนโค้ดในงานปฏิบัติการจริงระดับโปรดักชันขนาดใหญ่ ไม่ใช่แค่ช่วยเขียนโค้ดใหม่ แนวทางนี้สอดคล้องกับกระแส AI SRE ที่ให้เอเจนต์ดูแลระบบ ความสำคัญคือองค์กรอาจนำแนวคิดเดียวกันมาลดภาระวิศวกรด้านประสิทธิภาพ แต่ต้องมีกลไกตรวจสอบและ rollback ที่เข้มงวด",
+      "source_url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/",
+      "tech_impact": "เอเจนต์เขียนโค้ดถูกใช้ในงาน SRE/performance ระดับโปรดักชัน เป็นต้นแบบการปฏิบัติการแบบอัตโนมัติ",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "SRE",
+        "Agents"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Agents",
+        "SRE",
+        "DevOps"
+      ],
+      "actions_developer": [
+        "ทดลองให้เอเจนต์วิเคราะห์ profiling และ regression ใน staging ก่อน",
+        "สร้างกลไกตรวจสอบหลังปล่อยและ rollback อัตโนมัติ"
+      ],
+      "actions_business": [
+        "ประเมินการลดเวลาแก้ปัญหาประสิทธิภาพด้วยเอเจนต์",
+        "กำหนดขอบเขตอนุมัติของมนุษย์สำหรับการแก้ไขที่เอเจนต์เสนอ"
+      ],
+      "entities": {
+        "organizations": [
+          "OpenAI"
+        ],
+        "people": [],
+        "products": [
+          "Codex",
+          "ChatGPT",
+          "Performance Factory"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b2-14",
+      "slug": "google-genie-4-gemini-api",
+      "title": "Genie 4 is now available in the Gemini API",
+      "title_th": "Google เปิด Genie 4 ผ่าน Gemini API สร้างโลกเสมือนโต้ตอบได้ 720p พร้อมเสียง",
+      "topic_group": "ai-trends",
+      "source_name": "Google Blog",
+      "category": "International",
+      "urgency": "medium",
+      "content": "ตามสรุปของ The Neuron Google เปิดให้นักพัฒนาใช้ Genie 4 ผ่าน Gemini API เพื่อสร้างโลกเสมือนที่โต้ตอบได้ โมเดลนี้สร้างภาพความละเอียด 720p ที่ 24 เฟรมต่อวินาที พร้อมเสียงในตัว และรองรับการควบคุมด้วยคีย์บอร์ดแบบสด ผู้ใช้สามารถเปลี่ยนสภาพแวดล้อมระหว่างเล่นได้ด้วยคำสั่งข้อความ Genie เป็นตระกูล world model ของ Google DeepMind ที่จำลองสภาพแวดล้อมแบบเรียลไทม์ การเปิดผ่าน API ทำให้นักพัฒนาเกม การศึกษา และการฝึกเอเจนต์หรือหุ่นยนต์ในสภาพแวดล้อมจำลองเข้าถึงได้ง่ายขึ้น ก่อนหน้านี้ world model ส่วนใหญ่ยังอยู่ในขั้นวิจัยหรือเดโมจำกัด การเปิดเชิงพาณิชย์จึงเป็นก้าวสำคัญ ทั้งนี้ต้นทุนต่อการใช้งานและข้อจำกัดด้านความยาวเซสชันควรตรวจสอบจากเอกสารต้นฉบับ ความสำคัญคือ world model กำลังกลายเป็นแพลตฟอร์มที่นักพัฒนาใช้สร้างผลิตภัณฑ์ได้จริง",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+      "tech_impact": "World model แบบโต้ตอบได้เปิดผ่าน API เป็นครั้งแรกในวงกว้าง เปิดทางให้เกม การศึกษา และการจำลองฝึกเอเจนต์",
+      "tags": [
+        "Google",
+        "Genie",
+        "World Model",
+        "API"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "World Models",
+        "Generative Video",
+        "Developer Platforms"
+      ],
+      "actions_developer": [
+        "ทดลองสร้างต้นแบบเกมหรือสภาพแวดล้อมจำลองด้วย Genie 4 API",
+        "ใช้โลกจำลองเป็นสนามทดสอบเอเจนต์ก่อนใช้งานจริง"
+      ],
+      "actions_business": [
+        "ประเมินโอกาสใช้ world model ในสื่อการเรียนรู้และการตลาดเชิงโต้ตอบ",
+        "ติดตามโครงสร้างราคา API ก่อนวางแผนผลิตภัณฑ์"
+      ],
+      "entities": {
+        "organizations": [
+          "Google",
+          "Google DeepMind"
+        ],
+        "people": [],
+        "products": [
+          "Genie 4",
+          "Gemini API"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b3-01",
+      "slug": "wevisforensics-ai-generated-video-detection",
+      "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+      "title_th": "WeVisForensics: เอเจนต์วิวัฒน์ตัวเองสำหรับตรวจจับวิดีโอที่สร้างด้วย AI แบบครบทุกโมดาลิตี",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Daily Papers",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "งานวิจัยจาก Tencent เสนอ WeVisForensics กรอบงานแบบเอเจนต์สำหรับตรวจจับวิดีโอที่สร้างด้วย AI โดยมีเอเจนต์ผู้สืบสวนหลักประสานคลังเอเจนต์ย่อยด้านนิติวิทยาศาสตร์ที่วิวัฒน์ตัวเองได้ ครอบคลุมทั้งร่องรอยด้านภาพและเสียง ทีมวิจัยฝึกระบบด้วยการปรับนโยบายแบบสองช่วงเวลาที่เรียกว่า DTPO และสร้างชุดข้อมูล ForenCue-30K ขึ้นใหม่ ตามบทคัดย่อ ระบบมีความแม่นยำเฉลี่ย 95.2% ครอบคลุมชุดทดสอบทั้งในโดเมน นอกโดเมน และชุดทดสอบแบบเอเจนต์ สูงกว่าตัวตรวจจับที่ดีที่สุดก่อนหน้า 9.0% จุดเด่นอีกประการคือการอธิบายผลการตัดสินด้วยหลักฐานที่ระบุตำแหน่งได้ในวิดีโอ แทนการให้เพียงคะแนนความน่าจะเป็น งานนี้สำคัญเพราะวิดีโอปลอมจากโมเดลรุ่นใหม่สมจริงขึ้นต่อเนื่อง ทั้งแพลตฟอร์มสื่อ ผู้ตรวจสอบข่าว และหน่วยงานกำกับดูแล ต้องการเครื่องมือที่ทั้งแม่นยำ ปรับตัวต่อโมเดลใหม่ได้ และอธิบายเหตุผลได้",
+      "source_url": "https://huggingface.co/papers/2611.21373",
+      "tech_impact": "ตัวตรวจจับ deepfake แบบเอเจนต์ที่อธิบายหลักฐานได้ ช่วยงานตรวจสอบข้อเท็จจริงและกำกับเนื้อหา",
+      "tags": [
+        "Deepfake",
+        "Video",
+        "Forensics",
+        "Agents"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Deepfake Detection",
+        "AI Agents",
+        "Multimodal"
+      ],
+      "actions_developer": [
+        "ศึกษาสถาปัตยกรรมเอเจนต์ย่อยเฉพาะทางสำหรับงานตรวจจับหลายโมดาลิตี",
+        "ติดตามการเปิดชุดข้อมูล ForenCue-30K สำหรับทดสอบ"
+      ],
+      "actions_business": [
+        "พิจารณาเครื่องมือตรวจจับวิดีโอ AI สำหรับงานยืนยันตัวตนและข่าว",
+        "เตรียมนโยบายรับมือ deepfake ในการสื่อสารองค์กร"
+      ],
+      "entities": {
+        "organizations": [
+          "Tencent"
+        ],
+        "people": [
+          "Ying Tai"
+        ],
+        "products": [
+          "WeVisForensics",
+          "DTPO",
+          "ForenCue-30K"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b3-02",
+      "slug": "mind2act-world-robotic-manipulation-benchmark",
+      "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+      "title_th": "Mind2Act World: เบนช์มาร์กวินิจฉัยการคิด การลงมือ และการผสานสองส่วนในหุ่นยนต์หยิบจับ",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Daily Papers",
+      "category": "Research",
+      "urgency": "low",
+      "content": "Mind2Act World เป็นเบนช์มาร์กวินิจฉัยสำหรับหุ่นยนต์หยิบจับในสภาพแวดล้อมจำลอง ประกอบด้วยงาน 30 งาน รวม 180 รูปแบบ จากความยากสามระดับและฉากสองแบบ เบนช์มาร์กแยกการประเมินออกเป็นสามมุม ได้แก่ Mind คือการตัดสินใจจากข้อมูลที่สังเกตมาก่อน Act คือการลงมือปฏิบัติอย่างแม่นยำ และ Mind2Act คือการผสานทั้งสองแบบวงปิด ผลการทดสอบพบว่าเอเจนต์ที่ดีที่สุดสำเร็จ 52.7% ในงานด้าน Mind และ 39.0% ในงานด้าน Act แต่สำเร็จเพียง 12.0% เมื่อต้องคิดและลงมือร่วมกัน ผู้วิจัยสรุปว่าความสามารถในมุมเดียวไม่ได้ถ่ายทอดไปสู่งานที่ต้องผสานกัน งานนี้สำคัญต่อวงการ embodied AI และหุ่นยนต์ เพราะชี้ว่าโมเดล vision-language-action ปัจจุบันยังห่างไกลจากการทำงานจริงที่ต้องวางแผนและควบคุมการเคลื่อนไหวพร้อมกัน และให้เครื่องมือวัดจุดอ่อนที่ชัดเจนสำหรับการพัฒนาโมเดลรุ่นต่อไป",
+      "source_url": "https://huggingface.co/papers/2611.26444",
+      "tech_impact": "ชี้ช่องว่างใหญ่ระหว่างการคิดและการลงมือของหุ่นยนต์ AI ช่วยกำหนดทิศทางวิจัย embodied AI",
+      "tags": [
+        "Robotics",
+        "Benchmark",
+        "Embodied AI",
+        "VLA"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Robotics",
+        "Embodied AI",
+        "Benchmarks"
+      ],
+      "actions_developer": [
+        "ใช้เบนช์มาร์กแยกมุม Mind/Act วินิจฉัยจุดอ่อนของนโยบายหุ่นยนต์",
+        "ทดสอบงานแบบวงปิดแทนการวัดความสามารถแยกส่วน"
+      ],
+      "actions_business": [
+        "ประเมินความพร้อมของหุ่นยนต์ AI อย่างระมัดระวังก่อนลงทุน",
+        "ติดตามความก้าวหน้า embodied AI สำหรับงานอุตสาหกรรม"
+      ],
+      "entities": {
+        "organizations": [
+          "Mind2Act-World"
+        ],
+        "people": [
+          "Yuzhi Huang"
+        ],
+        "products": [
+          "Mind2Act World"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b3-03",
+      "slug": "wemm-video-open-omni-modal-video",
+      "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+      "title_th": "WeMM-Video: ยกระดับโมเดลโอเพนซอร์สเข้าใจวิดีโอแบบครบทุกโมดาลิตี",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Daily Papers",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "Tencent เสนอ WeMM-Video ตระกูลโมเดลโอเพนซอร์สสองภาษาจีน-อังกฤษแบบ omni-modal สำหรับเข้าใจวิดีโอ มีขนาด 2B, 4B, 9B และ 35B-A3B ฝึกด้วยข้อมูลราว 1.2 ล้านล้านโทเคน และรองรับทั้งโหมดคิดและไม่คิดแบบผสม ตามบทคัดย่อ รุ่น 35B-A3B สร้างสถิติใหม่ของโมเดลโอเพนซอร์สในการประเมินวิดีโอแบบ omni-modal เหนือกว่า Qwen3.5-Omni-Flash และ Seed2.0-Mini-0428 และลดช่องว่างกับ Gemini-3.0-Flash ส่วนรุ่น 9B มีรายงานว่าทำได้ดีกว่า Qwen3-Omni-30B-A3B-Instruct ทั้งที่เล็กกว่ามาก การประเมินครอบคลุมเบนช์มาร์กมากกว่า 120 ชุด งานนี้สำคัญเพราะการเข้าใจวิดีโอพร้อมเสียงเป็นความสามารถหลักของผู้ช่วย AI และระบบวิเคราะห์สื่อ โมเดลเปิดขนาดเล็กที่แข่งขันได้ช่วยให้องค์กรนำไปใช้ในเครื่องได้ และสะท้อนการแข่งขันโมเดลเปิดที่เข้มข้นจากบริษัทจีน",
+      "source_url": "https://huggingface.co/papers/2611.26409",
+      "tech_impact": "โมเดลเปิดเข้าใจวิดีโอพร้อมเสียงขนาดเล็กแต่แข่งขันได้ ลดต้นทุนการวิเคราะห์วิดีโอแบบ on-premise",
+      "tags": [
+        "Video",
+        "Open Models",
+        "Omni-Modal",
+        "Tencent"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Video Understanding",
+        "Open Models",
+        "Multimodal"
+      ],
+      "actions_developer": [
+        "ทดสอบรุ่น 9B สำหรับงานสรุปและค้นหาวิดีโอในเครื่อง",
+        "เปรียบเทียบโหมดคิด/ไม่คิดตามความต้องการ latency"
+      ],
+      "actions_business": [
+        "ประเมินการวิเคราะห์วิดีโอด้วยโมเดลเปิดแทน API",
+        "ตรวจสอบใบอนุญาตก่อนใช้เชิงพาณิชย์"
+      ],
+      "entities": {
+        "organizations": [
+          "Tencent"
+        ],
+        "people": [
+          "Jing Lyu"
+        ],
+        "products": [
+          "WeMM-Video",
+          "Qwen3.5-Omni-Flash",
+          "Seed2.0-Mini-0428",
+          "Gemini-3.0-Flash",
+          "Qwen3-Omni-30B-A3B-Instruct"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b3-04",
+      "slug": "mc-lens-global-workspace-vlm",
+      "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+      "title_th": "สำรวจ 'จิตสำนึก' ของโมเดล: การเข้าถึงแบบเลือกและ Global Workspace ในโมเดลภาพ-ภาษา",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Daily Papers",
+      "category": "Research",
+      "urgency": "low",
+      "content": "นักวิจัยจาก University College London เสนอ MC-Lens หรือ multimodal Jacobian lens เพื่อทดสอบทฤษฎี global workspace ซึ่งเป็นทฤษฎีด้านจิตสำนึกในโมเดลภาพ-ภาษา เครื่องมือนี้แปลงสถานะกลางของทั้ง vision encoder และ language decoder ไปสู่พื้นที่คำศัพท์เอาต์พุตของตัวถอดรหัส ทำให้อ่านได้ว่าโมเดลกำลังแทนแนวคิดใดอยู่ในแต่ละชั้น ผลที่อ้างคือข้อมูลแนวคิดสามารถอ่านออกได้และถูกเข้าถึงแบบเลือกสรร แนวคิดที่ถูกเข้าถึงมีส่วนร่วมในการคำนวณขั้นถัดไป ซึ่งยืนยันด้วยการแทรกแซงแบบ counterfactual และตัวชี้วัดสองตัวในพื้นที่ J-space สะท้อนระดับความสอดคล้องข้ามโมดาลิตี บทคัดย่อไม่ได้ระบุตัวเลขเบนช์มาร์ก งานนี้สำคัญต่อสาย interpretability เพราะให้เครื่องมือใหม่ในการตรวจสอบว่าโมเดลมัลติโมดัลผสานข้อมูลภาพและภาษาอย่างไร ซึ่งเป็นพื้นฐานของการตรวจสอบความปลอดภัยและอธิบายการตัดสินใจของโมเดล",
+      "source_url": "https://huggingface.co/papers/2611.26590",
+      "tech_impact": "เครื่องมือ interpretability ใหม่สำหรับโมเดลมัลติโมดัล ช่วยตรวจสอบการผสานข้อมูลภาพและภาษา",
+      "tags": [
+        "Interpretability",
+        "VLM",
+        "Global Workspace",
+        "Research"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Interpretability",
+        "Vision-Language Models",
+        "Cognitive Science"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ lens-based probing วิเคราะห์ VLM ที่ใช้งาน",
+        "ใช้การแทรกแซง counterfactual ตรวจสอบพฤติกรรมโมเดล"
+      ],
+      "actions_business": [
+        "ติดตามความก้าวหน้า interpretability สำหรับข้อกำหนดด้านความโปร่งใส",
+        "ใช้ผลวิจัยประกอบการประเมินความเสี่ยงโมเดลมัลติโมดัล"
+      ],
+      "entities": {
+        "organizations": [
+          "University College London"
+        ],
+        "people": [
+          "Jiahao Huang",
+          "Jun Wang"
+        ],
+        "products": [
+          "MC-Lens"
+        ],
+        "places": [
+          "UK"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b3-05",
+      "slug": "coda-davinci-code2video-generation",
+      "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+      "title_th": "Coda-DaVinci: คิดใหม่เรื่องการสร้างวิดีโอด้วยโค้ดและพร็อกซี 3 มิติ",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Daily Papers",
+      "category": "Research",
+      "urgency": "low",
+      "content": "ทีม KlingAI Research ศึกษาการใช้พร็อกซี 3 มิติที่เอเจนต์เขียนเป็นโค้ด เพื่อนำทางการสร้างวิดีโอ โดยทดสอบระดับความละเอียดของพร็อกซี การจำลองฟิสิกส์ และรูปแบบการสั่ง prompt ผลพบว่ามีการแลกเปลี่ยนที่ขึ้นกับงาน พร็อกซีหยาบเหมาะกับการเคลื่อนไหวที่เป็นธรรมชาติ ส่วนพร็อกซีความละเอียดปานกลางช่วยเรื่องความสม่ำเสมอของฉาก จากข้อค้นพบนี้ทีมเสนอ Coda-DaVinci กรอบงานแบบเอเจนต์ที่เลือกเองว่าจะสร้างวิดีโอแบบใช้พร็อกซีนำทางหรือสร้างโดยตรง ตามบทคัดย่อ ระบบทำผลงานนำด้านการทำตามคำสั่งบน VTR ความสม่ำเสมอของฉากบน R2M และความสมจริงทางฟิสิกส์ดีกว่าการสร้างโดยตรง แต่ไม่ได้ระบุตัวเลข และมีความเห็นในหน้าบทความชี้ความคลาดเคลื่อนในตาราง งานนี้สำคัญเพราะการผสานโค้ดและการจำลอง 3 มิติเข้ากับโมเดลวิดีโอ อาจแก้ปัญหาฟิสิกส์ผิดเพี้ยนและการควบคุมฉากที่ยังเป็นจุดอ่อนของวิดีโอ AI",
+      "source_url": "https://huggingface.co/papers/2611.26595",
+      "tech_impact": "การใช้พร็อกซี 3 มิติจากโค้ดนำทางโมเดลวิดีโอช่วยเพิ่มการควบคุมและความสมจริงทางฟิสิกส์",
+      "tags": [
+        "Video Generation",
+        "3D",
+        "Agents",
+        "Kling"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Video Generation",
+        "AI Agents",
+        "3D"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ฉาก 3 มิติแบบหยาบเป็น conditioning ให้โมเดลวิดีโอ",
+        "ตรวจสอบผลการทดลองซ้ำเนื่องจากมีข้อสังเกตเรื่องตาราง"
+      ],
+      "actions_business": [
+        "ประเมินการผลิตวิดีโอที่ควบคุมฉากได้สำหรับโฆษณาและสื่อ",
+        "ติดตามความก้าวหน้า Kling สำหรับงานครีเอทีฟ"
+      ],
+      "entities": {
+        "organizations": [
+          "KlingAI Research"
+        ],
+        "people": [
+          "Pengfei Wan"
+        ],
+        "products": [
+          "Coda-DaVinci",
+          "Code2Video"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261121-b3-06",
+      "slug": "voda-volumetric-supervision-3d-gaussian-segmentation",
+      "title": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
+      "title_th": "หน้ากากไม่ใช่วัตถุ: การสอนแบบปริมาตรสำหรับการแบ่งส่วน 3D Gaussian",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Daily Papers",
+      "category": "Research",
+      "urgency": "low",
+      "content": "นักวิจัยจาก Yonsei University เสนอ VODA วัตถุประสงค์การฝึกแบบ plug-and-play สำหรับการแบ่งส่วนวัตถุใน 3D Gaussian Splatting ปัญหาเดิมคือการสอนด้วยหน้ากาก 2 มิติจะกำกับเฉพาะ Gaussian ที่มองเห็นบนพื้นผิว ทำให้เมื่อลบวัตถุออกยังมีชิ้นส่วนตกค้างภายใน VODA จัดกลุ่มองค์ประกอบที่มีส่วนต่อแต่ละพิกเซลตามความลึกในบริเวณใกล้เคียง แล้วกำกับ Gaussian ทั้งหมดในกลุ่มความลึกที่เลือก ทีมยังสร้างเบนช์มาร์กสังเคราะห์ Removal-3D สำหรับงานลบวัตถุ และตัวชี้วัด Removal Depth Error หรือ RDE ตามบทคัดย่อ VODA ปรับปรุงการแบ่งส่วนเชิงปริมาตรบน Removal-3D อย่างสม่ำเสมอเมื่อใช้กับวิธีฐานแบบเรนเดอร์สี่วิธี ขณะที่ยังรักษาหรือปรับปรุงผลบน LERF และ ScanNet โดยไม่ระบุตัวเลขแน่ชัด งานนี้สำคัญต่อการแก้ไขฉาก 3 มิติ ดิจิทัลทวิน และ AR/VR ที่ต้องการลบหรือแยกวัตถุได้อย่างสะอาด",
+      "source_url": "https://huggingface.co/papers/2611.21383",
+      "tech_impact": "การกำกับเชิงปริมาตรช่วยให้แก้ไขฉาก 3D Gaussian ได้สะอาดขึ้น เป็นประโยชน์ต่อดิจิทัลทวินและ AR/VR",
+      "tags": [
+        "3D",
+        "Gaussian Splatting",
+        "Segmentation",
+        "Vision"
+      ],
+      "published_at": "2026-11-20",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "3D Vision",
+        "Gaussian Splatting",
+        "Segmentation"
+      ],
+      "actions_developer": [
+        "ทดลองเพิ่ม VODA ในไปป์ไลน์ 3DGS segmentation ที่มีอยู่",
+        "ใช้ตัวชี้วัด RDE ประเมินคุณภาพการลบวัตถุ"
+      ],
+      "actions_business": [
+        "ประเมินการใช้ 3DGS สำหรับดิจิทัลทวินและสื่อสามมิติ",
+        "ติดตามเครื่องมือแก้ไขฉาก 3 มิติเชิงพาณิชย์"
+      ],
+      "entities": {
+        "organizations": [
+          "Yonsei University"
+        ],
+        "people": [
+          "Seon Joo Kim"
+        ],
+        "products": [
+          "VODA",
+          "Removal-3D",
+          "3D Gaussian Splatting"
+        ],
+        "places": [
+          "South Korea"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    }
+  ]
+}
