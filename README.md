@@ -68,11 +68,22 @@ https://ai-pc-dev-rag.ngrok-free.app/8789/mcp
 
 ### Claude.ai — เพิ่ม Custom Connector
 
+เหมือนรูปแบบ `gov-news-thailand` แต่คนละพอร์ต:
+
+| ช่อง | ค่า |
+| --- | --- |
+| **Name** | `AI-news-thailand` |
+| **URL** | `https://ai-pc-dev-rag.ngrok-free.app/8789/mcp` |
+| **Auth** | `No sign in` |
+
+| เทียบ | Name | URL path |
+| --- | --- | --- |
+| Gov | `gov-news-thailand` | `/8788/mcp` |
+| **AI News** | `AI-news-thailand` | `/8789/mcp` |
+
 1. **Customize → Connectors → Add custom connector**
-2. Name: `AI News Archive`
-3. Remote MCP server URL: ตามด้านบน
-4. Authentication: **No sign in**
-5. ในแชทเปิด Connectors แล้วสั่ง เช่น  
+2. กรอกตามตารางด้านบน
+3. ในแชทเปิด Connectors แล้วสั่ง เช่น  
    `ใช้ search_rag ค้น "NVIDIA H200" แล้วสรุปจากผล tool เท่านั้น`
 
 ![ตัวอย่างฟอร์ม Claude custom connector](docs/images/claude-connector-add.jpg)
@@ -84,7 +95,7 @@ https://ai-pc-dev-rag.ngrok-free.app/8789/mcp
 ```json
 {
   "mcpServers": {
-    "ai-news-archive": {
+    "AI-news-thailand": {
       "command": "npx",
       "args": [
         "-y",

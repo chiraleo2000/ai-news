@@ -50,19 +50,29 @@ Invoke-RestMethod -Uri "https://ai-pc-dev-rag.ngrok-free.app/8789/mcp" `
 2. **+ Add → Add custom connector** (หรือ Add → Custom → Web บน Team)
 3. กรอกตามตัวอย่างด้านล่าง → Continue
 4. Authentication: เลือก **No sign in** (เซิร์ฟเวอร์นี้ไม่ใช้ OAuth)
-5. บันทึก → ในแชทเปิด Connectors แล้วเปิดใช้ **AI News Archive**
+5. บันทึก → ในแชทเปิด Connectors แล้วเปิดใช้ **AI-news-thailand**
 
 ![ตัวอย่างฟอร์ม Add custom connector](images/claude-connector-add.jpg)
 
-| ช่อง | ค่าตัวอย่าง |
-| --- | --- |
-| **Name** | `AI News Archive` |
-| **Remote MCP server URL** | `https://ai-pc-dev-rag.ngrok-free.app/8789/mcp` |
-| **Authentication** | `No sign in` |
-| Request headers | *(ว่าง — ไม่ต้องใส่ API key)* |
+### ค่าที่กรอก (คู่กับ gov)
 
-> URL ต้องตรงกับ `data/tunnel.json` → ฟิลด์ `mcp`  
-> ถ้า tunnel เปลี่ยนโดเมน ให้แก้ connector (ลบแล้วเพิ่มใหม่) หรืออัปเดตตามค่าใน tunnel.json
+| ช่อง | gov-news-thailand | **AI-news-thailand** |
+| --- | --- | --- |
+| **Name** | `gov-news-thailand` | `AI-news-thailand` |
+| **URL** | `https://ai-pc-dev-rag.ngrok-free.app/8788/mcp` | `https://ai-pc-dev-rag.ngrok-free.app/8789/mcp` |
+| **Auth** | `No sign in` | `No sign in` |
+
+สรุปสำหรับ AI News อย่างเดียว:
+
+| ช่อง | ค่า |
+| --- | --- |
+| **Name** | `AI-news-thailand` |
+| **URL** | `https://ai-pc-dev-rag.ngrok-free.app/8789/mcp` |
+| **Auth** | `No sign in` |
+
+> อย่าใส่ URL ของ `:8788` ให้ AI News — พอร์ตนั้นเป็น **gov-news**  
+> AI News = **`:8789`** · police = `:8787` · LLM chat = `:1234`  
+> URL ต้องตรงกับ `data/tunnel.json` → ฟิลด์ `mcp`
 
 ### ตัวอย่างคำสั่งในแชท Claude
 
@@ -87,7 +97,7 @@ Remote connector บน Desktop ก็ผ่านบัญชี Claude เห�
 ```json
 {
   "mcpServers": {
-    "ai-news-archive": {
+    "AI-news-thailand": {
       "command": "npx",
       "args": [
         "-y",
@@ -134,12 +144,27 @@ Remote connector บน Desktop ก็ผ่านบัญชี Claude เห�
 
 ## Tools ที่ Claude จะเห็น
 
+ฐานเดียว: `data/ai-news-mcp.sqlite` (collections แยกค้นได้)
+
 | Tool | หน้าที่ |
 | --- | --- |
-| `search_rag` | ค้น ranked จากคลัง (title / content / tags / entities) |
+| `search_rag` | ค้น ranked + sub-embedding chunks · `scope=posts\|analysis\|downloads\|all` (ค่าเริ่มต้น posts) |
+| `search_analysis` | ค้นเฉพาะ analysis (`tech_impact` / `_tech_summary`) |
+| `search_downloads` | ค้นเฉพาะไฟล์ digest PDF/HTML (+ metadata รูป) |
 | `list_posts` | ลิสต์โพสต์ กรอง `date` / `q` / `limit` |
 | `get_post` | ดึงโพสต์เต็มด้วย `id` เช่น `20261120-b1-01` |
-| `list_downloads` | ลิสต์ PDF/รูปใน downloads |
+| `list_downloads` | ลิสต์ไฟล์ใน store (Document + data/downloads) |
+| `get_store_doc` | ดึงเอกสารใน store ตาม `post:…` / `analysis:…` / `download:…` |
+| `store_stats` | จำนวน docs/chunks/embeddings |
+
+Rebuild store:
+
+```powershell
+.\ops\Rebuild-McpStore.ps1 -Force
+# หรือเร็วแบบไม่มี vector:
+.\ops\Rebuild-McpStore.ps1 -Force -NoEmbed
+# หรือ: node mcp/index-store.mjs --force --no-embed
+```
 
 เซิร์ฟเวอร์อ่านเฉพาะไฟล์ใน `data/*_news.json` ที่ publish แล้ว — **ไม่แต่งข่าว**
 
