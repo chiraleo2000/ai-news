@@ -1,0 +1,612 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T09:46:53+07:00",
+  "schema_version": "combined-1.3",
+  "stats": {
+    "total": 10,
+    "by_topic": {
+      "ai_trends": 4,
+      "tech_trends": 2,
+      "thailand": 2,
+      "global": 2
+    },
+    "by_source_category": {
+      "thai": 2,
+      "international": 7,
+      "research": 0,
+      "youtube": 1
+    },
+    "urgency_breakdown": {
+      "high": 2,
+      "medium": 6,
+      "low": 2
+    },
+    "breakthrough_count": 1
+  },
+  "top_insights": [
+    {
+      "title": "ไม่กี่ชั่วโมงหลัง Anthropic อ้างว่า Claude ช่วยพิสูจน์สมมติฐานรีมันน์ Stanford เผยร่างบทพิสูจน์ฝีมือมนุษย์ล้วนมาประชัน",
+      "impact_summary": "หากได้รับการยืนยัน จะเป็นหมุดหมายครั้งประวัติศาสตร์ที่ AI มีบทบาทหลักในการแก้ปัญหาคณิตศาสตร์ระดับ Millennium Prize และยกระดับการใช้ formal verification อย่าง Lean",
+      "urgency": "high",
+      "article_id": "20261122-b2-01"
+    },
+    {
+      "title": "หุ้นเทคสหรัฐฯ ร่วงหนักสุดในรอบสัปดาห์นับตั้งแต่ช่วงโควิด ท่ามกลางความกังขาต่อ AI",
+      "impact_summary": "สัญญาณว่าตลาดเริ่มตั้งคำถามกับการลงทุน AI อย่างจริงจัง ซึ่งอาจกระทบการระดมทุนและงบลงทุนด้าน AI ในวงกว้าง",
+      "urgency": "high",
+      "article_id": "20261122-b2-05"
+    },
+    {
+      "title": "NT cyfence เตือนองค์กรรับมือภัยไซเบอร์ยุค AI-Quantum เร่งยกระดับระบบไอทีรับความเสี่ยงอนาคต",
+      "impact_summary": "ผู้ให้บริการความปลอดภัยรายใหญ่ของรัฐชี้ว่าโค้ดที่เขียนด้วย AI, AI Agent และภัยควอนตัมเป็นความเสี่ยงที่องค์กรไทยต้องเตรียมรับมือตั้งแต่ตอนนี้",
+      "urgency": "medium",
+      "article_id": "20261122-b1-01"
+    },
+    {
+      "title": "รัฐบาลขยับเกมกู้เชื่อมั่น ‘ข้อมูลรั่ว’ ดัน ‘สคส.’ คุมเข้ม Data Breach ยกระดับกฎหมาย PDPA",
+      "impact_summary": "การคุมเข้ม Data Breach และการเข้าสู่ Global CBPR จะทำให้องค์กรที่ใช้ข้อมูลส่วนบุคคลกับ AI ต้องยกระดับธรรมาภิบาลข้อมูลมากขึ้น",
+      "urgency": "medium",
+      "article_id": "20261122-b1-02"
+    },
+    {
+      "title": "นักวิจัย Nvidia ชี้ context window ขนาดมหึมาของ AI เป็นทางตัน",
+      "impact_summary": "งานวิจัยนี้อาจเปลี่ยนวิธีออกแบบระบบ agent และ RAG จากการพึ่ง context ยาวไปสู่การจัดการหน่วยความจำแบบสรุปและค้นคืนที่ประหยัดกว่า",
+      "urgency": "medium",
+      "article_id": "20261122-b2-02"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261122-b1-01",
+      "slug": "nt-cyfence-ai-quantum-cyber-threats-warning",
+      "title": "NT cyfence warns organizations to prepare for AI- and quantum-era cyber threats, urges IT system upgrades",
+      "title_th": "NT cyfence เตือนองค์กรรับมือภัยไซเบอร์ยุค AI-Quantum เร่งยกระดับระบบไอทีรับความเสี่ยงอนาคต",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz News",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "บริษัท โทรคมนาคมแห่งชาติ จำกัด (มหาชน) หรือ NT โดย NT cyfence จัดสัมมนาประจำปี “Cybersecurity x Cybersecurity 2026 – NEXT-READY for AI, Code & Quantum Defense” เพื่ออัปเดตภัยคุกคามไซเบอร์ในยุค AI และ Quantum Computing ให้ผู้บริหารไอที นักพัฒนา และวิศวกรเครือข่าย นางสาวกัณณิกา วรคามิน ผู้จัดการฝ่ายผลิตภัณฑ์ความปลอดภัยไซเบอร์ ระบุว่ารูปแบบภัยเปลี่ยนเร็วจนแผนรับมือของหลายองค์กรตามไม่ทัน องค์กรไม่ควรรอให้เกิดการโจมตีหรือข้อมูลรั่วไหลก่อน แต่ต้องเตรียมทั้งบุคลากร กระบวนการ และเทคโนโลยีตั้งแต่วันนี้ งานเน้น 3 หัวข้อ ได้แก่ Secure Code การใช้ AI ช่วยเขียนโค้ดอย่างปลอดภัย, Quantum Defense การเตรียมระบบเข้ารหัสรับมือคอมพิวเตอร์ควอนตัม และ AI Defense การใช้ AI Agent บริหารเครือข่ายภายใต้การกำกับดูแลที่เหมาะสม พร้อมเล่าเบื้องหลังการดูแล Cybersecurity ในการประชุม IMF–World Bank Group Annual Meetings 2026 สะท้อนว่าองค์กรไทยต้องเร่งปรับมาตรฐานความปลอดภัยเพื่อใช้ AI ได้อย่างมั่นใจ",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1261775",
+      "tech_impact": "ผู้ให้บริการความปลอดภัยรายใหญ่ของรัฐชี้ว่าโค้ดที่เขียนด้วย AI, AI Agent และภัยควอนตัมเป็นความเสี่ยงที่องค์กรไทยต้องเตรียมรับมือตั้งแต่ตอนนี้",
+      "tags": [
+        "cybersecurity",
+        "post-quantum",
+        "secure code",
+        "AI agents",
+        "NT"
+      ],
+      "published_at": "2026-11-21T15:55:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Cybersecurity",
+        "Post-quantum cryptography",
+        "AI agents",
+        "Software development"
+      ],
+      "actions_developer": [
+        "ตั้งขั้นตอนรีวิวและสแกนช่องโหว่สำหรับโค้ดที่สร้างด้วย AI ก่อนนำขึ้นระบบจริง",
+        "สำรวจจุดที่ใช้การเข้ารหัสในระบบ เพื่อวางแผนย้ายไปใช้ post-quantum cryptography"
+      ],
+      "actions_business": [
+        "กำหนดกรอบกำกับดูแลก่อนให้ AI Agent ทำงานอัตโนมัติกับเครือข่ายและระบบไอที",
+        "จัดงบพัฒนาบุคลากรและกระบวนการรับมือเหตุไซเบอร์เชิงรุก แทนการรอให้เกิดเหตุก่อน"
+      ],
+      "entities": {
+        "organizations": [
+          "National Telecom (NT)",
+          "NT cyfence",
+          "IMF",
+          "World Bank Group"
+        ],
+        "people": [
+          "Kannika Worakamin"
+        ],
+        "products": [
+          "NT cyfence"
+        ],
+        "places": [
+          "Thailand"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261122-b1-02",
+      "slug": "thai-government-pdpc-data-breach-pdpa-upgrade",
+      "title": "Government moves to restore trust after data leaks, pushes PDPC to tighten data-breach oversight and upgrade PDPA enforcement",
+      "title_th": "รัฐบาลขยับเกมกู้เชื่อมั่น ‘ข้อมูลรั่ว’ ดัน ‘สคส.’ คุมเข้ม Data Breach ยกระดับกฎหมาย PDPA",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biz News",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม (ดีอี) วางการคุ้มครองข้อมูลส่วนบุคคลเป็นวาระสำคัญ ท่ามกลางความเสี่ยงจาก Data Breach ภัยไซเบอร์ การหลอกลวงออนไลน์ และการใช้ AI ประมวลผลข้อมูลที่ขยายตัวรวดเร็ว โดยให้สำนักงานคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล (สคส.) เป็นกลไกหลัก ในงาน “DPO GO! FUTURE 2026” เมื่อ 20 พ.ย. 2569 ที่อิมแพ็ค เมืองทองธานี นางสาวบุณย์ธิดา สมชัย รัฐมนตรีช่วยว่าการกระทรวงดีอี ระบุว่ารัฐบาลต้องการยกระดับมาตรฐานคุ้มครองข้อมูลของไทยสู่สากล และผลักดันให้ไทยเข้าสู่กรอบ Global CBPR เพื่อสร้างความเชื่อมั่นในการส่งข้อมูลข้ามประเทศ โดยใช้ PDPA เป็นเครื่องมือสร้างความน่าเชื่อถือ ด้าน พ.ต.อ.สุรพงศ์ เปล่งขำ เลขาธิการ สคส. ซึ่งก่อตั้งครบ 4 ปี ระบุว่าภาคธุรกิจสนใจขอเครื่องหมายรับรองมาตรฐานคุ้มครองข้อมูล ขณะที่มีการขับเคลื่อนเครือข่าย DPO ผ่านโครงการ PDPC Eagle Eye ทั้งนี้บทพิสูจน์จริงอยู่ที่การป้องกันข้อมูลรั่ว การแจ้งเตือน และการบังคับใช้กฎหมายอย่างเป็นรูปธรรม",
+      "source_url": "https://www.bangkokbiznews.com/tech/ai/1261733",
+      "tech_impact": "การคุมเข้ม Data Breach และการเข้าสู่ Global CBPR จะทำให้องค์กรที่ใช้ข้อมูลส่วนบุคคลกับ AI ต้องยกระดับธรรมาภิบาลข้อมูลมากขึ้น",
+      "tags": [
+        "PDPA",
+        "data breach",
+        "data protection",
+        "Global CBPR",
+        "Thai government"
+      ],
+      "published_at": "2026-11-21T10:10:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Data privacy",
+        "Regulation",
+        "Cybersecurity",
+        "AI governance"
+      ],
+      "actions_developer": [
+        "ออกแบบระบบ AI และ data pipeline ตามหลัก privacy by design พร้อมเก็บ log การเข้าถึงข้อมูลส่วนบุคคล",
+        "เตรียมกลไกตรวจจับและแจ้งเตือนเหตุข้อมูลรั่วไหลให้รายงานได้ทันตามที่ PDPA กำหนด"
+      ],
+      "actions_business": [
+        "พิจารณาขอเครื่องหมายรับรองมาตรฐานคุ้มครองข้อมูลส่วนบุคคลเพื่อสร้างความเชื่อมั่นกับคู่ค้าและนักลงทุน",
+        "ติดตามความคืบหน้า Global CBPR ซึ่งจะกระทบการส่งข้อมูลข้ามประเทศ"
+      ],
+      "entities": {
+        "organizations": [
+          "Ministry of Digital Economy and Society (MDES)",
+          "Personal Data Protection Committee Office (PDPC)",
+          "Global CBPR"
+        ],
+        "people": [
+          "Boonthida Somchai",
+          "Surapong Plengkham"
+        ],
+        "products": [
+          "PDPC Eagle Eye",
+          "DPO GO! FUTURE 2026"
+        ],
+        "places": [
+          "Thailand",
+          "Impact Muang Thong Thani"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261122-b2-01",
+      "slug": "claude-riemann-hypothesis-proof-stanford-human-draft",
+      "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+      "title_th": "ไม่กี่ชั่วโมงหลัง Anthropic อ้างว่า Claude ช่วยพิสูจน์สมมติฐานรีมันน์ Stanford เผยร่างบทพิสูจน์ฝีมือมนุษย์ล้วนมาประชัน",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "high",
+      "content": "Levent Alpöge นักคณิตศาสตร์ของ Anthropic ประกาศว่าทำงานร่วมกับ Claude พิสูจน์ Riemann hypothesis ปัญหาคณิตศาสตร์ที่มีชื่อเสียงที่สุดซึ่งค้างมาตั้งแต่ปี 1859 และมีรางวัล Clay Millennium Prize มูลค่า $1 million โดยอ้างว่าวิธีนี้ครอบคลุม Generalized Riemann Hypothesis (GRH) ด้วย Alpöge กำหนดทิศทางและผสานสองแนวทางบนโมเดลจำลองก่อน จากนั้น AI ทำงานส่วนใหญ่เมื่อขยายสู่ปัญหาจริง บทพิสูจน์ยาวเกิน 250,000 หน้าหากพิมพ์ออกมา จึงเผยแพร่เป็นภาษา Lean ใน 14 แพ็กเกจ ซึ่งตรวจทุกขั้นตอนตรรกะได้ แต่ยังเสี่ยงหากแปลโจทย์เป็นโค้ดผิด ไม่กี่ชั่วโมงต่อมา Ravi Vakil ศาสตราจารย์ Stanford และประธาน American Mathematical Society เผยร่างบทพิสูจน์ GRH ฝีมือมนุษย์ล้วนของ Alessandro Masullo แต่ราวแปดชั่วโมงต่อมาก็มีผู้รายงานจุดบกพร่อง บางจุดพบด้วย AI ขณะนี้นักคณิตศาสตร์กำลังตรวจสอบทั้งสองบทพิสูจน์ หากยืนยันได้จะเปลี่ยนงานวิจัยหลายร้อยชิ้นที่อิงสมมติฐานนี้ให้เป็นทฤษฎีบทที่พิสูจน์แล้ว",
+      "source_url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+      "tech_impact": "หากได้รับการยืนยัน จะเป็นหมุดหมายครั้งประวัติศาสตร์ที่ AI มีบทบาทหลักในการแก้ปัญหาคณิตศาสตร์ระดับ Millennium Prize และยกระดับการใช้ formal verification อย่าง Lean",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Riemann hypothesis",
+        "Lean",
+        "AI for math"
+      ],
+      "published_at": "2026-11-21T11:19:49Z",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Mathematics",
+        "Formal Verification",
+        "AI Research"
+      ],
+      "actions_developer": [
+        "ศึกษาการใช้ Lean และ formal verification ร่วมกับ LLM เพื่อตรวจสอบผลลัพธ์ที่ AI สร้าง",
+        "ติดตามผลการตรวจสอบบทพิสูจน์ก่อนนำไปอ้างอิงในงานวิจัย"
+      ],
+      "actions_business": [
+        "ประเมินศักยภาพ AI ในงานวิจัยเชิงลึกที่ต้องการความถูกต้องสูง",
+        "ระวังการสื่อสารผลงาน AI ที่ยังไม่ผ่านการตรวจสอบโดยผู้เชี่ยวชาญ"
+      ],
+      "entities": {
+        "organizations": [
+          "Anthropic",
+          "Stanford University",
+          "American Mathematical Society",
+          "Clay Mathematics Institute"
+        ],
+        "people": [
+          "Levent Alpöge",
+          "Ravi Vakil",
+          "Alessandro Masullo",
+          "Brian Conrad",
+          "Dario Amodei"
+        ],
+        "products": [
+          "Claude",
+          "Lean"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261122-b2-02",
+      "slug": "nvidia-researchers-huge-context-windows-dead-end",
+      "title": "Nvidia researchers argue huge AI context windows are a dead end",
+      "title_th": "นักวิจัย Nvidia ชี้ context window ขนาดมหึมาของ AI เป็นทางตัน",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "ทีมวิจัยของ Nvidia ท้าทายแนวโน้มของอุตสาหกรรม AI ที่แข่งกันขยาย context window หรือหน่วยความจำทำงานของโมเดลภาษาให้ใหญ่ขึ้นเรื่อย ๆ บทความของ The Decoder ระบุว่า GPT-4 เปิดตัวในเดือนมีนาคม 2023 ด้วย 8,192 tokens ขณะที่ GPT 5.6 Sol รองรับราวหนึ่งล้าน tokens มากขึ้นราว 120 เท่า เพียงพอจะบรรจุนิยาย War and Peace ทั้งเล่ม อย่างไรก็ตาม นักวิจัย Nvidia มองว่าการประมวลผล context เต็มความยาวนั้นช้า แพง และเกิดข้อผิดพลาดง่าย พวกเขาเสนอทางเลือกคือการสรุปเป็นระยะ (periodic summaries) และการค้นหาด้วยคีย์เวิร์ดแบบเจาะจง ซึ่งในการทดสอบหลายรายการให้ผลใกล้เคียงกับการใช้ context เต็ม แต่มีต้นทุนเพียงเศษเสี้ยว ทีมยังเสนอโมเดลประเภทใหม่ที่ทำงานด้วยบันทึกสั้น ๆ แทน context ยาว ซึ่งอาจเปลี่ยนทิศทางสถาปัตยกรรมของวงการ ทั้งนี้รายละเอียดเบนช์มาร์กเต็มอยู่หลัง paywall",
+      "source_url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+      "tech_impact": "งานวิจัยนี้อาจเปลี่ยนวิธีออกแบบระบบ agent และ RAG จากการพึ่ง context ยาวไปสู่การจัดการหน่วยความจำแบบสรุปและค้นคืนที่ประหยัดกว่า",
+      "tags": [
+        "Nvidia",
+        "context window",
+        "LLM memory",
+        "efficiency",
+        "research"
+      ],
+      "published_at": "2026-11-21T16:23:45Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM Architecture",
+        "AI Agents",
+        "RAG"
+      ],
+      "actions_developer": [
+        "ทดลองเปรียบเทียบ summarization/keyword retrieval กับ long context ในระบบของตนเพื่อลดต้นทุน",
+        "ออกแบบ memory layer ของ agent ให้ไม่พึ่ง context window อย่างเดียว"
+      ],
+      "actions_business": [
+        "ทบทวนต้นทุน token จากการใช้ long context ในผลิตภัณฑ์",
+        "อย่าตัดสินเลือกโมเดลจากขนาด context window เพียงอย่างเดียว"
+      ],
+      "entities": {
+        "organizations": [
+          "Nvidia",
+          "OpenAI"
+        ],
+        "people": [],
+        "products": [
+          "GPT-4",
+          "GPT 5.6 Sol"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261122-b2-03",
+      "slug": "openai-gpt-6-2-astra-sol-prompting-tips",
+      "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+      "title_th": "OpenAI แชร์เทคนิค prompt ใหม่สำหรับ GPT-6.2 Astra และ Sol แก้ปัญหาคำตอบสั้นเกินและถามคำถามไม่จำเป็น",
+      "topic_group": "tech-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "OpenAI เผยแพร่ prompt template พร้อมใช้สำหรับ GPT-6.2 Astra และ Sol ซึ่งเปิดตัวเมื่อ 17 พฤศจิกายน 2026 เพื่อแก้พฤติกรรมที่พบ ได้แก่ คำตอบสั้นเกินไป ถามคำถามตามมาโดยไม่จำเป็น และเขียนเทสต์มากเกินไปเวลาเขียนโค้ด Astra ออกแบบมาสำหรับงานยากที่สุด ส่วน Sol สำหรับงานซับซ้อนในต้นทุนต่ำกว่า OpenAI ระบุว่า Astra กระชับโดยค่าเริ่มต้น คำสั่งอย่าง be concise จึงอาจต้องทบทวน template ใหม่สั่งให้โมเดลลงมือทำขั้นตอนที่ได้รับอนุญาตเอง ตั้งสมมติฐานที่ย้อนกลับได้ และหยุดถามเฉพาะเมื่อมีการเปลี่ยนขอบเขตใหญ่หรือการกระทำที่ย้อนกลับไม่ได้ ด้านโค้ดให้ใช้ logic เดิมซ้ำ หลีกเลี่ยง abstraction เกินจำเป็น ด้าน API ใน Responses API การแก้ประวัติสนทนาอาจทำให้ reasoning เดิมหายและใช้ token มากขึ้น แนะนำ reasoning ระดับ medium สำหรับระบบใหม่ และไม่รองรับ temperature กับ top_p แล้ว ราคา Astra อยู่ที่ $8 ต่อล้าน input tokens และ $40 ต่อล้าน output tokens",
+      "source_url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+      "tech_impact": "นักพัฒนาที่ย้ายมาใช้ GPT-6.2 ต้องปรับ system prompt และพารามิเตอร์ API เพื่อให้ได้คุณภาพและต้นทุนที่เหมาะสม",
+      "tags": [
+        "OpenAI",
+        "GPT-6.2",
+        "prompting",
+        "Responses API",
+        "developers"
+      ],
+      "published_at": "2026-11-21T13:32:35Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "Prompt Engineering",
+        "Developer Platforms"
+      ],
+      "actions_developer": [
+        "ทบทวน system prompt เดิม ลบคำสั่ง be concise และใช้ template ของ OpenAI",
+        "ลบพารามิเตอร์ temperature/top_p และตั้ง reasoning effort เป็น medium สำหรับ integration ใหม่"
+      ],
+      "actions_business": [
+        "ประเมินต้นทุนระหว่าง Astra กับ Sol ตามความต้องการคุณภาพ",
+        "วางแผนทดสอบ regression ก่อนย้ายระบบ production ไป GPT-6.2"
+      ],
+      "entities": {
+        "organizations": [
+          "OpenAI"
+        ],
+        "people": [
+          "Ted Sanders"
+        ],
+        "products": [
+          "GPT-6.2 Astra",
+          "GPT-6.2 Sol",
+          "Responses API"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261122-b2-04",
+      "slug": "thinking-machines-inkling-2-mini-looped-transformer",
+      "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+      "title_th": "โมเดลเปิด Inkling 2 Mini คิดแบบวนลูป แก้ปัญหาด้วยคำน้อยลงและยังรันบนแล็ปท็อปได้",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Thinking Machines เปิดตัว Inkling 2 Mini โมเดลเปิดแบบ looped transformer ที่รัน 12 จาก 24 เลเยอร์ซ้ำสามรอบต่อ token ทำให้คิดภายในได้นานขึ้นโดยไม่ต้องสร้างข้อความเพิ่ม จึงได้คำตอบด้วย token น้อยลง โมเดลเป็น mixture-of-experts ขนาด 26.4 billion parameters โดยมี 5.4 billion active ต่อ token รองรับข้อความและภาพ context window 1 ล้าน tokens และใช้ไลเซนส์ Apache 2.0 Inkling 2 Mini นำโมเดลเปิดทั้งหมดที่เล็กกว่า 100 billion parameters ในเบนช์มาร์ก agentic coding ได้ 48.2% บน DeepSWE v1.1 และ 46.5% บน Vals Index v2.2 ส่วน Artificial Analysis ให้ 20 คะแนนบน Intelligence Index เท่ากับ Qwen3.8 27B แต่ถูกกว่าราวหกเท่าและเร็วกว่าสี่เท่า โมเดลรันบน Mac ที่มีหน่วยความจำ 32 GB ขึ้นไปและ Nvidia DGX Spark ได้ น้ำหนักโมเดลเผยแพร่บน Hugging Face พร้อมเวอร์ชันวิจัยที่ปรับจำนวนลูปได้",
+      "source_url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+      "tech_impact": "แสดงให้เห็นว่าสถาปัตยกรรม looped transformer ช่วยให้โมเดลเล็กแข่งขันได้ด้านคุณภาพ ต้นทุน และการรันแบบ local",
+      "tags": [
+        "Thinking Machines",
+        "open-weight",
+        "looped transformer",
+        "MoE",
+        "local AI"
+      ],
+      "published_at": "2026-11-21T10:33:02Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Open-weight Models",
+        "Model Architecture",
+        "Edge AI"
+      ],
+      "actions_developer": [
+        "ทดลองรัน Inkling 2 Mini บนเครื่อง local สำหรับงาน agentic coding",
+        "ศึกษาเวอร์ชันวิจัยที่ปรับจำนวนลูปเพื่อแลกความเร็วกับคุณภาพ"
+      ],
+      "actions_business": [
+        "พิจารณาโมเดลเปิด Apache 2.0 เพื่อลดต้นทุน API และรักษาข้อมูลภายในองค์กร",
+        "ประเมินการใช้งานบนฮาร์ดแวร์ราคาประหยัดอย่าง Mac หรือ DGX Spark"
+      ],
+      "entities": {
+        "organizations": [
+          "Thinking Machines",
+          "Artificial Analysis",
+          "Hugging Face",
+          "Nvidia"
+        ],
+        "people": [],
+        "products": [
+          "Inkling 2 Mini",
+          "Qwen3.8 27B",
+          "DGX Spark",
+          "Tinker Playground"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261122-b2-05",
+      "slug": "us-tech-stocks-worst-week-since-pandemic-ai-doubts",
+      "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+      "title_th": "หุ้นเทคสหรัฐฯ ร่วงหนักสุดในรอบสัปดาห์นับตั้งแต่ช่วงโควิด ท่ามกลางความกังขาต่อ AI",
+      "topic_group": "global",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "high",
+      "content": "หุ้นเทคโนโลยีสหรัฐฯ เผชิญสัปดาห์ที่เลวร้ายที่สุดนับตั้งแต่วิกฤต Covid-19 ดัชนี Nasdaq 100 ร่วง 5.6% ในวันศุกร์และ 10.4% ตลอดสัปดาห์ ตาม Financial Times ดัชนีอยู่ต่ำกว่าจุดสูงสุดเดือนตุลาคมราว 20% เข้าสู่ภาวะ bear market แรงกดดันมาจากหลายปัจจัยพร้อมกัน ได้แก่ ความกังขาต่อการลงทุนโครงสร้างพื้นฐาน AI มูลค่าหลายพันล้านดอลลาร์ เรื่องอื้อฉาวของ Nvidia และดีลจีนที่น่าสงสัย กระแสการเมืองหลังพรรคเดโมแครตชนะเลือกตั้งกลางเทอม คำถามว่ามูลค่าหุ้นชิปและหน่วยความจำสมเหตุสมผลหรือไม่ และราคาน้ำมันสูงจากสงครามอิหร่านที่ทำให้เงินเฟ้อและดอกเบี้ยค้างสูง Nvidia ร่วงหนักสุด 14% หลังมีรายงานว่า SEC กำลังตรวจสอบบัญชี ดัชนีเซมิคอนดักเตอร์สหรัฐฯ ลดลง 10.7% หุ้น Sandisk, Micron และ Broadcom ติดลบ ขณะที่ Anthropic ร่วง 9.1% เพียงหนึ่งวันหลังเข้าตลาด สูญเสียกำไรเกือบทั้งหมดหลัง IPO ที่ทำสถิติ",
+      "source_url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+      "tech_impact": "สัญญาณว่าตลาดเริ่มตั้งคำถามกับการลงทุน AI อย่างจริงจัง ซึ่งอาจกระทบการระดมทุนและงบลงทุนด้าน AI ในวงกว้าง",
+      "tags": [
+        "Nasdaq",
+        "AI stocks",
+        "Nvidia",
+        "Anthropic",
+        "bear market"
+      ],
+      "published_at": "2026-11-21T10:27:44Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Financial Markets",
+        "Semiconductors",
+        "AI Investment"
+      ],
+      "actions_developer": [
+        "เตรียมแผนรองรับหากผู้ให้บริการ AI ปรับราคาหรือลดการลงทุน",
+        "ให้ความสำคัญกับประสิทธิภาพต้นทุนในการใช้งานโมเดล"
+      ],
+      "actions_business": [
+        "ทบทวนความเสี่ยงการลงทุนที่ผูกกับหุ้น AI และเซมิคอนดักเตอร์",
+        "เน้นโครงการ AI ที่วัดผลตอบแทนได้ชัดเจนในช่วงตลาดผันผวน"
+      ],
+      "entities": {
+        "organizations": [
+          "Nvidia",
+          "Anthropic",
+          "SEC",
+          "Financial Times",
+          "Sandisk",
+          "Micron",
+          "Broadcom"
+        ],
+        "people": [],
+        "products": [
+          "Nasdaq 100"
+        ],
+        "places": [
+          "United States",
+          "China",
+          "Iran"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261122-b2-06",
+      "slug": "bytedance-axion-agent-fewer-training-phases",
+      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+      "title_th": "Bytedance ชี้ขั้นตอนการเทรน AI ส่วนใหญ่ไม่จำเป็น พร้อมโชว์โมเดลเปิดที่แข่งขันได้",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Bytedance บริษัทแม่ของ TikTok ร่วมกับมหาวิทยาลัยในสหรัฐฯ หลายแห่ง เปิดตัว Axion 1.0 เอเจนต์ AI ที่ทำคะแนนเบนช์มาร์กได้ใกล้เคียงโมเดลเชิงพาณิชย์ชั้นนำของ OpenAI และ Anthropic หลังผ่านการเทรนเพียงสามขั้นตอน ทีมวิจัยระบุว่าความสำเร็จมาจากข้อมูลเทรนที่คัดสรรอย่างพิถีพิถัน ไม่ใช่การเพิ่มขั้นตอนเทรน งานวิจัยชี้ปัญหาว่าเอเจนต์ AI ที่ต้องค้นเว็บเอง รันโค้ด และทำงานหลายขั้นตอน มีสูตรการเทรนที่ซ้อนหลายเฟสมากขึ้นเรื่อย ๆ ทำให้แทบไม่สามารถระบุได้ว่าเฟสใดช่วยเพิ่มประสิทธิภาพจริง และการทำซ้ำ pipeline แบบนี้มีต้นทุนสูง ทีมจึงเสนอ pipeline ที่กระชับและเน้นคุณภาพข้อมูลแทน โดยเปิดให้ใช้ทั้งโมเดล ข้อมูล และโค้ดได้ฟรี ซึ่งช่วยให้ชุมชนวิจัยทำซ้ำและต่อยอดได้ง่ายขึ้น ทั้งนี้รายละเอียดเบนช์มาร์กเต็มอยู่หลัง paywall และยังไม่มีการตรวจสอบอิสระ",
+      "source_url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
+      "tech_impact": "หากแนวทางนี้ได้ผลจริง จะลดต้นทุนและความซับซ้อนในการเทรนเอเจนต์ AI และเปิดทางให้ทีมขนาดเล็กแข่งขันได้",
+      "tags": [
+        "Bytedance",
+        "AI agents",
+        "training data",
+        "open model",
+        "research"
+      ],
+      "published_at": "2026-11-21T09:17:24Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Agents",
+        "Model Training",
+        "Open Source AI"
+      ],
+      "actions_developer": [
+        "ศึกษา pipeline และข้อมูลที่เปิดเผยของ Axion 1.0 เพื่อนำไปใช้เทรนเอเจนต์ของตน",
+        "ให้ความสำคัญกับการคัดกรองคุณภาพข้อมูลมากกว่าการเพิ่มเฟสการเทรน"
+      ],
+      "actions_business": [
+        "พิจารณาโมเดลเปิดเป็นทางเลือกแทนโมเดลเชิงพาณิชย์สำหรับงานเอเจนต์",
+        "ลงทุนด้านการจัดการข้อมูลคุณภาพสูงเป็นสินทรัพย์หลัก"
+      ],
+      "entities": {
+        "organizations": [
+          "Bytedance",
+          "OpenAI",
+          "Anthropic",
+          "TikTok"
+        ],
+        "people": [],
+        "products": [
+          "Axion 1.0"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261122-b2-07",
+      "slug": "silicon-valley-ai-doomsday-cult-like-devotion",
+      "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+      "title_th": "ความหมกมุ่นเรื่องวันสิ้นโลกจาก AI ใน Silicon Valley กำลังผลักบางส่วนของวงการเทคสู่ความศรัทธาแบบลัทธิ",
+      "topic_group": "global",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "low",
+      "content": "The Decoder สรุปรายงานของ Sam Kriss ใน New Yorker เกี่ยวกับ Maple หรือ Monastic Academy for the Preservation of Life on Earth อารามพุทธในรัฐ Vermont ที่ Soryu Forall ก่อตั้งในปี 2011 และพยายามเป็นผู้นำทางจิตวิญญาณของอุตสาหกรรม AI Kriss เรียกว่าเป็น Scientology สำหรับ Silicon Valley มีผู้พำนักประจำราวสองโหล ผู้เข้าร่วม AI fellowship หลายร้อยคน และรายได้ต่อปีสูงถึง $1 million อดีตสมาชิกกล่าวหาว่าอารามบันทึกบทสนทนาและการหายใจของผู้พำนักเพื่อเทรน AI ที่จำลองจิตของ Forall รวมถึงการประจานและภาวะจิตเภทของผู้เข้าร่วม ซึ่ง Maple ปฏิเสธเกือบทั้งหมด บทความเชื่อมโยงกับความกังวลที่กว้างขึ้น เช่น การพูดถึงการสร้าง machine god, Anthropic ปรึกษานักเทววิทยาตอนร่าง constitution ของ Claude และผลสำรวจ AI Impacts ปี 2024 จากนักวิจัยกว่า 1,500 คนที่ประเมินโอกาสสูญพันธุ์เฉลี่ย 18% ขณะที่นักวิจารณ์อย่าง Michael I. Jordan และ François Chollet มองว่าวาทกรรม doom เบี่ยงเบนจากประเด็นจริงอย่างการกำกับดูแล",
+      "source_url": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+      "tech_impact": "สะท้อนว่าความวิตกเรื่องความเสี่ยงของ AI กำลังส่งผลต่อวัฒนธรรมและบุคลากรในวงการ ซึ่งอาจกระทบการถกเถียงเชิงนโยบายด้าน AI safety",
+      "tags": [
+        "AI doom",
+        "Silicon Valley",
+        "AI safety",
+        "culture",
+        "New Yorker"
+      ],
+      "published_at": "2026-11-21T16:04:29Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Safety",
+        "Tech Culture",
+        "AI Policy"
+      ],
+      "actions_developer": [
+        "แยกแยะงานวิจัย AI safety ที่มีหลักฐานออกจากวาทกรรมเชิงความเชื่อ",
+        "ใส่ใจสุขภาพจิตและภาวะหมดไฟของทีมที่ทำงานด้าน AI"
+      ],
+      "actions_business": [
+        "ติดตามผลกระทบของวาทกรรม AI doom ต่อการกำกับดูแลและความเชื่อมั่นสาธารณะ",
+        "สื่อสารเรื่องความเสี่ยง AI อย่างมีหลักฐานและสมดุล"
+      ],
+      "entities": {
+        "organizations": [
+          "Maple (Monastic Academy for the Preservation of Life on Earth)",
+          "The New Yorker",
+          "Anthropic",
+          "Vals AI",
+          "AI Impacts"
+        ],
+        "people": [
+          "Soryu Forall",
+          "Sam Kriss",
+          "Kyle Hubbard",
+          "Rayan Krishnan",
+          "Peter Thiel",
+          "Anthony Levandowski",
+          "Jacob Coxon",
+          "Michael I. Jordan",
+          "François Chollet",
+          "Rumman Chowdhury"
+        ],
+        "products": [
+          "Claude"
+        ],
+        "places": [
+          "Vermont",
+          "San Francisco",
+          "Silicon Valley"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261122-b3-01",
+      "slug": "wes-roth-ai-broke-saas-codex-cli-video-editor",
+      "title": "AI just BROKE SaaS...",
+      "title_th": "AI กำลังทำลายโมเดล SaaS: สร้างโปรแกรมตัดต่อวิดีโอเองด้วย Codex CLI แทนการจ่ายค่าสมาชิก",
+      "topic_group": "tech-trends",
+      "source_name": "Wes Roth",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "Wes Roth ช่อง YouTube สายข่าว AI เผยแพร่วิดีโอ \"AI just BROKE SaaS...\" เมื่อวันที่ 21 พฤศจิกายน 2026 ตั้งคำถามต่อ \"ปัญหาค่าสมาชิกรายเดือน\" (The Subscription Problem) ของซอฟต์แวร์แบบ SaaS และสาธิตการสร้างเครื่องมือตัดต่อวิดีโอใช้เองด้วย AI ตามสารบัญของวิดีโอ เนื้อหาไล่ตั้งแต่การแนะนำโปรแกรมตัดต่อวิดีโอที่เขาสร้างขึ้น การตั้งค่าเซิร์ฟเวอร์ VPS ของ Hostinger (ผู้สนับสนุนวิดีโอ) การเชื่อมต่อ OpenAI Codex CLI เพื่อให้ AI เขียนโค้ด การทดลองตัดต่อฟุตเทจจริง ประเด็นความปลอดภัยและการสำรองข้อมูล การสร้างโปรเจกต์ตั้งแต่ศูนย์ ไปจนถึงการใช้ AI ช่วยรีวิวโค้ด โดยอ้างอิงเครื่องมือ OpenAI Whisper สำหรับถอดเสียงแบบรันในเครื่อง วิดีโอนี้สะท้อนกระแสที่ผู้ใช้ทั่วไปเริ่มใช้ coding agent สร้างซอฟต์แวร์เฉพาะตัวแทนการเช่าใช้ SaaS ซึ่งอาจกดดันโมเดลธุรกิจแบบสมัครสมาชิกในระยะยาว",
+      "source_url": "https://www.youtube.com/watch?v=AxQE_ash8b8",
+      "tech_impact": "สะท้อนแนวโน้มที่ coding agent อย่าง Codex CLI ทำให้บุคคลทั่วไปสร้างเครื่องมือใช้เองได้ ซึ่งอาจลดความจำเป็นของ SaaS เฉพาะทางบางประเภท",
+      "tags": [
+        "Codex CLI",
+        "AI coding",
+        "SaaS",
+        "self-hosting",
+        "Whisper",
+        "video editing"
+      ],
+      "published_at": "2026-11-21T10:02:45Z",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI coding agents",
+        "SaaS",
+        "video editing",
+        "self-hosting"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ Codex CLI ร่วมกับ VPS เพื่อสร้างเครื่องมือภายใน พร้อมวางระบบสำรองข้อมูลและความปลอดภัยตั้งแต่ต้น",
+        "ใช้ AI code review ตรวจโค้ดที่ AI สร้างก่อนนำไปใช้งานจริง"
+      ],
+      "actions_business": [
+        "ทบทวนค่าใช้จ่าย SaaS ที่อาจทดแทนได้ด้วยเครื่องมือที่สร้างเองด้วย AI",
+        "ผู้ให้บริการ SaaS ควรเพิ่มคุณค่าที่ลอกเลียนยาก เช่น ข้อมูล เครือข่าย และการซัพพอร์ต"
+      ],
+      "entities": {
+        "organizations": [
+          "OpenAI",
+          "Hostinger"
+        ],
+        "people": [
+          "Wes Roth"
+        ],
+        "products": [
+          "Codex CLI",
+          "Whisper"
+        ],
+        "places": []
+      },
+      "youtube_channel": "https://www.youtube.com/@WesRoth",
+      "youtube_video": "https://www.youtube.com/watch?v=AxQE_ash8b8"
+    }
+  ]
+}
