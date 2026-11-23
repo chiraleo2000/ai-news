@@ -1,0 +1,621 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T09:45:09+07:00",
+  "schema_version": "combined-1.3",
+  "stats": {
+    "total": 10,
+    "by_topic": {
+      "ai_trends": 5,
+      "tech_trends": 2,
+      "thailand": 1,
+      "global": 2
+    },
+    "by_source_category": {
+      "thai": 3,
+      "international": 6,
+      "research": 0,
+      "youtube": 1
+    },
+    "urgency_breakdown": {
+      "high": 2,
+      "medium": 5,
+      "low": 3
+    },
+    "breakthrough_count": 2
+  },
+  "top_insights": [
+    {
+      "title": "การปราบปรามชิป AI ของทรัมป์ สร้างความเสียหายต่อไทย-เอเชีย",
+      "impact_summary": "มาตรการคุมส่งออกชิป AI และการเช่า compute ระยะไกลอาจชะลอแผนฮับ data center ของไทยและภูมิภาค และกดดันธุรกิจ neocloud ที่พึ่งลูกค้าจีน",
+      "urgency": "high",
+      "article_id": "20261123-b1-01"
+    },
+    {
+      "title": "นักวิจัยความปลอดภัยเผย ผู้ให้บริการ AI inference ราคาถูกขโมยคีย์และแอบอ่านข้อมูลผู้ใช้",
+      "impact_summary": "ห่วงโซ่ inference ผ่าน router และ reseller หลายทอดกลายเป็นช่องโหว่ข้อมูลรั่วไหลจริง องค์กรที่ส่ง secrets หรือข้อมูลลับผ่าน LLM API ราคาถูกมีความเสี่ยงสูง",
+      "urgency": "high",
+      "article_id": "20261123-b2-01"
+    },
+    {
+      "title": "ชุมชน Lean และ Mathlib ยืนยันอย่างเป็นทางการ บทพิสูจน์สมมติฐานรีมันน์ของ Levent Alpöge ถูกต้อง",
+      "impact_summary": "การยืนยันผ่าน formal verification ทำให้ผลงานคณิตศาสตร์ที่ AI ช่วยสร้างมีความน่าเชื่อถือ และเป็นหมุดหมายสำคัญของ AI for Science",
+      "urgency": "medium",
+      "article_id": "20261123-b2-03"
+    },
+    {
+      "title": "ฟิวเจอร์สหุ้นสหรัฐ ฟื้นตัวรับต้นสัปดาห์ หลังแรงเทขายหุ้นเทคฯ AI",
+      "impact_summary": "ความผันผวนของหุ้น AI สะท้อนความกังวลต่อผลตอบแทนการลงทุน AI ซึ่งอาจกระทบการระดมทุนและงบลงทุนด้าน AI ในระยะสั้น",
+      "urgency": "medium",
+      "article_id": "20261123-b1-03"
+    },
+    {
+      "title": "METR เตือน AI พัฒนาเร็วกว่าที่ผู้เชี่ยวชาญจะทดสอบความปลอดภัยได้ทัน",
+      "impact_summary": "ช่องว่างระหว่างความสามารถของ AI กับเครื่องมือประเมินกำลังขยาย ทำให้การกำกับดูแลและการตัดสินใจ deploy อาจล่าช้ากว่าความเสี่ยงจริง",
+      "urgency": "medium",
+      "article_id": "20261123-b2-02"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261123-b1-01",
+      "slug": "trump-ai-chip-crackdown-thailand-asia",
+      "title": "Trump's AI chip crackdown hits Thailand and Southeast Asia",
+      "title_th": "การปราบปรามชิป AI ของทรัมป์ สร้างความเสียหายต่อไทย-เอเชีย",
+      "topic_group": "thailand",
+      "source_name": "Bangkok Biznews",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "กรุงเทพธุรกิจรายงานโดยอ้างอิง Bloomberg ว่ามาตรการใหม่ของกระทรวงพาณิชย์สหรัฐฯ กำหนดให้การส่งชิปขั้นสูงไปยัง 4 ประเทศในเอเชียตะวันออกเฉียงใต้ รวมถึงอินโดนีเซีย ต้องขอใบอนุญาต และเตรียมจำกัดทั่วโลกต่อ data center ที่ให้บริษัทจีนเข้าถึงฮาร์ดแวร์ขั้นสูงจากระยะไกล ซึ่งจะมีผลในเดือนกุมภาพันธ์ มาตรการนี้ตามมาหลังเรื่องอื้อฉาวของ Nvidia ที่ Jensen Huang พ้นตำแหน่ง CEO และ Colette Kress ขึ้นแทน สหรัฐฯ สงสัยว่า OBON Corp. บริษัท AI สำคัญของไทยช่วยลักลอบส่งชิป Nvidia มูลค่ากว่า 2 พันล้านดอลลาร์ไปจีน ขณะที่ Megaspeed International ปฏิเสธข้อกล่าวหา รมว.ต่างประเทศ สีหศักดิ์ พวงเกตุแก้ว ยอมรับว่าเป้าหมายฮับ data center ของไทยอาจล่าช้าและต้องระมัดระวังมากขึ้น ด้านมาเลเซียซึ่งมีการลงทุนเกือบ 100,000 ล้านดอลลาร์ถูกมองว่าเปราะบาง SemiAnalysis ประเมินว่าบริษัทจีนใช้ AI compute ราว 300 เมกะวัตต์ผ่าน neocloud ใน 4 ประเทศ ส่วน Capital Economics คาดผลกระทบต่อมาเลเซียราว 0.2% ของ GDP ในปี 2027-2028",
+      "source_url": "https://bangkokbiznews.com/world/economics/1261884",
+      "tech_impact": "มาตรการคุมส่งออกชิป AI และการเช่า compute ระยะไกลอาจชะลอแผนฮับ data center ของไทยและภูมิภาค และกดดันธุรกิจ neocloud ที่พึ่งลูกค้าจีน",
+      "tags": [
+        "export-controls",
+        "ai-chips",
+        "nvidia",
+        "data-centers",
+        "southeast-asia",
+        "thailand"
+      ],
+      "published_at": "2026-11-23T06:28:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Chips",
+        "Export Controls",
+        "Data Centers",
+        "Cloud"
+      ],
+      "actions_developer": [
+        "ประเมินความเสี่ยงการเข้าถึง GPU บนคลาวด์ในภูมิภาคและเตรียมทางเลือกผู้ให้บริการหลายราย",
+        "ติดตามข้อกำหนด know-your-customer สำหรับการใช้ compute AI ที่อาจเข้มขึ้น"
+      ],
+      "actions_business": [
+        "ทบทวนสัญญาและสัดส่วนลูกค้าที่เกี่ยวข้องกับจีนในธุรกิจ data center",
+        "ติดตามท่าทีรัฐบาลไทยต่อการปรับกฎให้สอดคล้องกับสหรัฐฯ ก่อนมาตรการมีผลเดือนกุมภาพันธ์"
+      ],
+      "entities": {
+        "organizations": [
+          "U.S. Department of Commerce",
+          "Nvidia",
+          "OBON Corp.",
+          "Megaspeed International",
+          "Tencent",
+          "SemiAnalysis",
+          "Capital Economics",
+          "JPMorgan Chase",
+          "Citigroup",
+          "Aolani Cloud",
+          "Bloomberg"
+        ],
+        "people": [
+          "Donald Trump",
+          "Jensen Huang",
+          "Colette Kress",
+          "Sihasak Phuangketkeow",
+          "Anwar Ibrahim",
+          "Marco Rubio",
+          "Nicholas Chia"
+        ],
+        "products": [
+          "Nvidia GB300"
+        ],
+        "places": [
+          "Thailand",
+          "Malaysia",
+          "Indonesia",
+          "Singapore",
+          "Johor",
+          "China",
+          "United States"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261123-b1-02",
+      "slug": "neuralink-grok-ai-agent-bci-voice",
+      "title": "AI agents in BCI: Neuralink uses Grok for real-time thought-to-speech communication",
+      "title_th": "AI Agent ใน BCI สู่ระบบการสื่อสารผ่านความคิดแบบเรียลไทม์",
+      "topic_group": "ai-trends",
+      "source_name": "Posttoday AI Today",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "โพสต์ทูเดย์รายงานว่า Neuralink บริษัท brain-computer interface (BCI) ของ Elon Musk กำลังนำ Grok โมเดล AI จาก xAI มาทำหน้าที่ AI agent ในโครงการ VOICE เพื่อสร้างระบบสื่อสารที่แปลงความคิดของผู้ใช้เป็นข้อความและเสียงพูด ช่วยฟื้นฟูการสื่อสารให้ผู้ที่มีความบกพร่องทางการพูดและการเคลื่อนไหวรุนแรง จากเดิมที่ผู้ใช้ต้องกดอุปกรณ์เพื่อเริ่มหรือหยุดบันทึกสัญญาณสมอง AI agent จะเชื่อมต่อสัญญาณและแปลงเป็นคำสั่งอัตโนมัติเมื่อผู้ใช้ตั้งใจ ทั้งพิมพ์ข้อความบนสมาร์ตโฟน สังเคราะห์เสียงพูดแบบเรียลไทม์ และสั่งงานแอปบางตัวโดยไม่ต้องปลดล็อกหน้าจอ ระบบทำความเร็วเฉลี่ยราว 50 คำต่อนาที เทียบกับระบบ eye-tracking ที่ราว 8 คำต่อนาที แม้ยังช้ากว่าการพูดปกติ 2-3 เท่า บทความระบุว่ายังอยู่ในขั้นวิจัยทดลองช่วงต้น ขณะที่ Synchron และ Paradromics ก็กำลังผสาน AI เข้ากับ BCI เช่นกัน",
+      "source_url": "https://www.posttoday.com/ai-today/752346",
+      "tech_impact": "การใช้ LLM เป็น agent ควบคุม BCI อาจยกระดับความเร็วและความง่ายในการสื่อสารของผู้พิการรุนแรง แต่ยังอยู่ในขั้นทดลองที่ต้องการการตรวจสอบอิสระ",
+      "tags": [
+        "bci",
+        "neuralink",
+        "grok",
+        "ai-agent",
+        "accessibility"
+      ],
+      "published_at": "2026-11-23T09:24:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI Agents",
+        "BCI",
+        "Healthcare AI"
+      ],
+      "actions_developer": [
+        "ติดตามงานวิจัยด้าน neural decoding และการใช้ LLM ช่วยตีความเจตนาผู้ใช้",
+        "ศึกษาข้อกำหนดด้านความปลอดภัยและความเป็นส่วนตัวของข้อมูลสัญญาณสมอง"
+      ],
+      "actions_business": [
+        "ประเมินโอกาสด้าน assistive technology และ health-tech ที่ใช้ AI agent",
+        "เฝ้าดูกรอบกำกับดูแลอุปกรณ์การแพทย์ฝังในร่างกายก่อนลงทุน"
+      ],
+      "entities": {
+        "organizations": [
+          "Neuralink",
+          "xAI",
+          "Synchron",
+          "Paradromics",
+          "OpenAI"
+        ],
+        "people": [
+          "Elon Musk"
+        ],
+        "products": [
+          "Grok",
+          "VOICE",
+          "GPT-4o"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261123-b1-03",
+      "slug": "us-futures-rebound-after-ai-selloff",
+      "title": "US stock futures rebound at start of week after AI tech selloff",
+      "title_th": "ฟิวเจอร์สหุ้นสหรัฐ ฟื้นตัวรับต้นสัปดาห์ หลังแรงเทขายหุ้นเทคฯ AI",
+      "topic_group": "global",
+      "source_name": "Bangkok Biznews",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "กรุงเทพธุรกิจรายงานโดยอ้างอิง CNBC ว่าฟิวเจอร์สหุ้นสหรัฐฯ ปรับขึ้นในวันอาทิตย์ที่ 22 พฤศจิกายน 2026 ตามเวลาท้องถิ่น หลังสัปดาห์ก่อนตลาดถูกเทขายหนักจากความกังวลต่อธีมการลงทุน AI โดยฟิวเจอร์ส Dow Jones เพิ่มขึ้น 449 จุด หรือ 0.9% S&P 500 เพิ่มขึ้น 1.5% และ Nasdaq-100 เพิ่มขึ้น 2.5% ทั้งนี้ Nasdaq Composite และ Dow ร่วงรายสัปดาห์มากที่สุดในรอบกว่า 6 ปี S&P 500 ลดลงมากที่สุดนับตั้งแต่เมษายน 2025 ดัชนีหลักทั้งสามเข้าสู่ภาวะปรับฐาน และ Nasdaq ติดลบนับตั้งแต่ต้นปี แม้หุ้น Anthropic จะเปิดตัวในตลาดอย่างโดดเด่นเมื่อวันพฤหัสบดี Drew Petitt จาก Roundhill มองว่าการเทขายที่กระจายวงกว้างช่วงท้ายสัปดาห์อาจเป็นสัญญาณว่าแรงขายใกล้สิ้นสุด แต่นักลงทุนยังจับตาว่าหุ้นเทคฯ จะหาจุดต่ำสุดได้หรือไม่ ในสัปดาห์ที่ตลาดสหรัฐฯ ปิดวันพฤหัสบดีเนื่องในวัน Thanksgiving",
+      "source_url": "https://bangkokbiznews.com/finance/stock/1261887",
+      "tech_impact": "ความผันผวนของหุ้น AI สะท้อนความกังวลต่อผลตอบแทนการลงทุน AI ซึ่งอาจกระทบการระดมทุนและงบลงทุนด้าน AI ในระยะสั้น",
+      "tags": [
+        "stock-market",
+        "ai-stocks",
+        "nasdaq",
+        "anthropic",
+        "selloff"
+      ],
+      "published_at": "2026-11-23T07:23:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Investment",
+        "Capital Markets"
+      ],
+      "actions_developer": [
+        "ติดตามสัญญาณการปรับงบประมาณ AI ของบริษัทเทคฯ ที่อาจกระทบโครงการและการจ้างงาน",
+        "เน้นสร้างงาน AI ที่วัดผลตอบแทนได้ชัดเจน"
+      ],
+      "actions_business": [
+        "ทบทวนแผนลงทุน AI ให้มีตัวชี้วัด ROI ชัดเจนท่ามกลางความกังวลของตลาด",
+        "จับตาความเคลื่อนไหวหุ้น AI สัปดาห์ Thanksgiving ก่อนตัดสินใจลงทุน"
+      ],
+      "entities": {
+        "organizations": [
+          "CNBC",
+          "Anthropic",
+          "Roundhill",
+          "Nasdaq"
+        ],
+        "people": [
+          "Drew Petitt"
+        ],
+        "products": [],
+        "places": [
+          "United States",
+          "Australia",
+          "Hong Kong",
+          "Japan"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261123-b2-01",
+      "slug": "cheap-inference-providers-steal-keys",
+      "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
+      "title_th": "นักวิจัยความปลอดภัยเผย ผู้ให้บริการ AI inference ราคาถูกขโมยคีย์และแอบอ่านข้อมูลผู้ใช้",
+      "topic_group": "tech-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "high",
+      "content": "ทีมวิจัยของ Dragos ส่งคำขอ AI ราว 2 ล้านครั้งที่ฝัง credentials ปลอมไปยังผู้ให้บริการ AI ระหว่างเดือนกรกฎาคมถึงพฤศจิกายน 2026 และพบผู้ให้บริการอย่างน้อย 3 รายที่ถูกเจาะและขโมยข้อมูลผู้ใช้อยู่จริง โดยไม่มีรายใดรู้ตัวจนกระทั่ง Dragos แจ้ง ในเหตุการณ์ใหญ่ที่สุด ผู้โจมตีเก็บ AWS keys ได้หลายร้อยชุด แล้วนำไปทดสอบ ค้น S3 และพยายามฝังการเข้าถึงถาวรภายในไม่กี่ชั่วโมง บางรายใช้เครื่องมือโจมตี ARTEX ขณะที่ reseller บน marketplace บางรายเปิด logging และอ่านคำขอของลูกค้า นโยบาย Zero Data Retention (ZDR) มักถูกละเลย และพบว่าห้องแล็บ AI จีนแห่งหนึ่งเข้าถึง URL ทดสอบลับในคำขอมากกว่าครึ่ง OpenRouter จึงถอดผู้ให้บริการ 3 รายและเพิกถอน ZDR ของ 125 endpoints ส่วน Novita, Phala และ Together ออกรายงานเบื้องต้นแล้ว HD Moore แนะนำให้องค์กรควบคุมเส้นทางของ prompt เอง",
+      "source_url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+      "tech_impact": "ห่วงโซ่ inference ผ่าน router และ reseller หลายทอดกลายเป็นช่องโหว่ข้อมูลรั่วไหลจริง องค์กรที่ส่ง secrets หรือข้อมูลลับผ่าน LLM API ราคาถูกมีความเสี่ยงสูง",
+      "tags": [
+        "ai-security",
+        "inference-providers",
+        "openrouter",
+        "data-privacy",
+        "supply-chain"
+      ],
+      "published_at": "2026-11-22T12:07:56+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Security",
+        "LLM Infrastructure",
+        "Data Privacy"
+      ],
+      "actions_developer": [
+        "ห้ามส่ง API keys, passwords หรือ credentials ใน prompt และใช้ canary tokens ตรวจจับการรั่วไหล",
+        "กำหนด provider routing แบบระบุชัดเจนบน OpenRouter หรือ gateway แทนการเลือกตามราคาต่ำสุด"
+      ],
+      "actions_business": [
+        "ทบทวนสัญญาและนโยบาย ZDR ของผู้ให้บริการ LLM ทุกรายในห่วงโซ่",
+        "จัดทำนโยบายจัดซื้อ AI ที่จำกัดการใช้ intermediary สำหรับข้อมูลอ่อนไหว"
+      ],
+      "entities": {
+        "organizations": [
+          "Dragos",
+          "OpenRouter",
+          "MiniMax",
+          "Novita",
+          "Phala",
+          "Together",
+          "AtlasCloud",
+          "StreamLake",
+          "Oxford China Policy Lab"
+        ],
+        "people": [
+          "HD Moore"
+        ],
+        "products": [
+          "ARTEX",
+          "AWS",
+          "Feishu"
+        ],
+        "places": [
+          "Beijing",
+          "Shanghai",
+          "France"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261123-b2-02",
+      "slug": "metr-ai-outpaces-safety-testing",
+      "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+      "title_th": "METR เตือน AI พัฒนาเร็วกว่าที่ผู้เชี่ยวชาญจะทดสอบความปลอดภัยได้ทัน",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "องค์กรวิจัย METR รายงานว่าโมเดล AI ชั้นนำอย่าง Opus 5.5 และ GPT-6 Astra พัฒนาความสามารถด้านงานวิจัย AI อย่างต่อเนื่องและรวดเร็ว จนการประเมินความปลอดภัยทำได้ยากขึ้น ข้อมูลสาธารณะในปัจจุบันไม่สามารถตัดความเป็นไปได้ที่งานวิจัย AI จะเร่งตัวอย่างฉับพลันในไม่กี่ปีข้างหน้า ซึ่งอาจทำให้มนุษย์ประเมินและรับมือความเสี่ยงร้ายแรงไม่ทัน สำหรับงานเขียนโค้ดและงานคำนวณที่นิยามชัดและมี feedback ทันที โมเดลชนะมืออาชีพที่มีประสบการณ์ได้เกือบทุกครั้ง แต่ยังไม่เหนือกว่ากลุ่มผู้เชี่ยวชาญระดับสูงจำนวนมาก ความยาวของงานที่โมเดลทำสำเร็จเพิ่มเป็นสองเท่าทุกประมาณ 3.6 เดือน หากต่อเส้นแนวโน้มอย่างง่าย โมเดลจะทำงานยาว 200 ชั่วโมงสำเร็จ 50 เปอร์เซ็นต์ภายในกรกฎาคม 2027 อย่างไรก็ดี โมเดลยังอ่อนในโจทย์ปลายเปิดที่ต้องใช้วิจารณญาณ และ benchmark ทั่วไปอาจประเมินความสามารถจริงสูงเกินไป",
+      "source_url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+      "tech_impact": "ช่องว่างระหว่างความสามารถของ AI กับเครื่องมือประเมินกำลังขยาย ทำให้การกำกับดูแลและการตัดสินใจ deploy อาจล่าช้ากว่าความเสี่ยงจริง",
+      "tags": [
+        "metr",
+        "ai-safety",
+        "evaluation",
+        "ai-research",
+        "forecasting"
+      ],
+      "published_at": "2026-11-22T13:00:43+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Safety",
+        "Evaluation",
+        "LLM"
+      ],
+      "actions_developer": [
+        "อย่าพึ่งพา benchmark สาธารณะเพียงอย่างเดียว ควรสร้าง eval ภายในที่สะท้อนงานจริงและงานยาว",
+        "ติดตามตัวชี้วัด task horizon ของ METR เพื่อวางแผนระดับ autonomy ของ agent"
+      ],
+      "actions_business": [
+        "เตรียมกรอบ AI governance ที่ทบทวนได้ถี่ขึ้นตามรอบพัฒนาโมเดลราว 3-4 เดือน",
+        "ประเมินความเสี่ยงก่อนมอบงานอัตโนมัติระยะยาวให้ AI agent"
+      ],
+      "entities": {
+        "organizations": [
+          "METR",
+          "Anthropic",
+          "OpenAI"
+        ],
+        "people": [],
+        "products": [
+          "Claude Opus 5.5",
+          "GPT-6 Astra"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261123-b2-03",
+      "slug": "lean-mathlib-confirms-riemann-proof",
+      "title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
+      "title_th": "ชุมชน Lean และ Mathlib ยืนยันอย่างเป็นทางการ บทพิสูจน์สมมติฐานรีมันน์ของ Levent Alpöge ถูกต้อง",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "ชุมชน Lean และ Mathlib ออกแถลงการณ์ยืนยันว่าบทพิสูจน์สมมติฐานรีมันน์ (Riemann hypothesis) ของ Levent Alpöge นักคณิตศาสตร์จาก Stanford ถูกต้อง โดยระบุว่า \"มีความมั่นใจเต็มที่\" บทพิสูจน์ซึ่งเผยแพร่เมื่อ 20 พฤศจิกายน 2026 มีความยาว 17 ล้านบรรทัดในภาษา Lean ซึ่งเป็นภาษาสำหรับตรวจสอบบทพิสูจน์ทางคณิตศาสตร์ มีผู้รันโค้ดตรวจสอบอิสระหลายสิบรายและได้ผลตรงกัน โดย Andrew Sutherland จาก MIT รวบรวมรายการการตรวจสอบไว้ สมมติฐานรีมันน์เป็นโจทย์เกี่ยวกับการกระจายตัวของจำนวนเฉพาะที่ค้างมา 167 ปี ผลลัพธ์นี้มาเร็วกว่าที่คาดมาก โดย Metaculus เคยคาดไว้ที่พฤษภาคม 2035 และ Terence Tao คาดราวปี 2050 ก่อนหน้านี้ Anthropic อ้างว่า Claude มีส่วนสร้างบทพิสูจน์ ขณะที่ Stanford ปล่อยร่างที่เขียนโดยมนุษย์ล้วนออกมาแข่ง",
+      "source_url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+      "tech_impact": "การยืนยันผ่าน formal verification ทำให้ผลงานคณิตศาสตร์ที่ AI ช่วยสร้างมีความน่าเชื่อถือ และเป็นหมุดหมายสำคัญของ AI for Science",
+      "tags": [
+        "riemann-hypothesis",
+        "lean",
+        "formal-verification",
+        "mathematics",
+        "claude"
+      ],
+      "published_at": "2026-11-22T11:08:31+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI for Science",
+        "Formal Verification",
+        "LLM"
+      ],
+      "actions_developer": [
+        "ศึกษา Lean และ Mathlib เพื่อใช้ formal verification ตรวจสอบผลลัพธ์จาก LLM",
+        "ทดลองใช้ LLM ร่วมกับ proof assistant ในงานที่ต้องการความถูกต้องสูง"
+      ],
+      "actions_business": [
+        "พิจารณาการลงทุนใน AI for Science และงานวิจัยที่ตรวจสอบผลได้อัตโนมัติ",
+        "ติดตามผลกระทบต่อการเงินและวิทยาการเข้ารหัสที่อิงทฤษฎีจำนวน"
+      ],
+      "entities": {
+        "organizations": [
+          "Lean",
+          "Mathlib",
+          "Stanford",
+          "MIT",
+          "Metaculus",
+          "Anthropic"
+        ],
+        "people": [
+          "Levent Alpöge",
+          "Andrew Sutherland",
+          "Terence Tao"
+        ],
+        "products": [
+          "Lean",
+          "Claude",
+          "Fable 5.2"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261123-b2-04",
+      "slug": "perplexity-monitor-api",
+      "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+      "title_th": "Perplexity เปิดตัว Monitor API เปลี่ยนการค้นเว็บเป็นระบบเฝ้าติดตามต่อเนื่องสำหรับ AI agent",
+      "topic_group": "tech-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Perplexity เปิดตัว Monitor API ที่รันการค้นหาเว็บตามกำหนดเวลาและส่งการเปลี่ยนแปลงที่เกี่ยวข้องไปยัง AI agent ผ่าน webhook โดยนักพัฒนาไม่ต้องเขียนโค้ดตัดข้อมูลซ้ำหรือตรวจจับการเปลี่ยนแปลงเอง มีสองแบบ คือ Web monitor ที่ค้นผ่าน web และ news search ของ Perplexity และ Page monitor ที่ติดตามได้สูงสุด 10 หน้า เช่น หน้าราคาหรือ changelog แล้วส่ง text diff กลับมา โมเดลตัดสินใจเฉพาะของ Perplexity จะประเมินผลตามเป้าหมายภาษาธรรมชาติ ทั้งความเกี่ยวข้อง ความน่าเชื่อถือ ความใหม่ และความทันเวลา พร้อม confidence score ตั้งรอบได้ตั้งแต่ทุก 15 นาทีถึงรายสัปดาห์หรือ cron การทดสอบภายใน 60 หัวข้อพบหน้าใหม่ที่เกี่ยวข้อง 63 หน้าใน 8 ชั่วโมงแรก เทียบกับ Firecrawl 20 และ Exa 15 ราคา 1 ดอลลาร์ต่อ 1,000 runs หรือ 1,000 URLs ใช้งานได้แล้ว",
+      "source_url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+      "tech_impact": "Perplexity ใช้เครื่องมือนักพัฒนาสร้างความแตกต่าง ขณะที่ตลาด search API สำหรับ agent แข่งขันกันรุนแรงขึ้น",
+      "tags": [
+        "perplexity",
+        "api",
+        "web-search",
+        "ai-agents",
+        "webhooks"
+      ],
+      "published_at": "2026-11-22T14:20:28+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Agents",
+        "Search",
+        "Developer Tools"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ Monitor API แทน pipeline crawl และ dedup ที่ดูแลเอง",
+        "เปรียบเทียบคุณภาพและต้นทุนกับ Firecrawl, Exa และ Parallel ก่อนเลือกใช้"
+      ],
+      "actions_business": [
+        "ใช้ติดตามคู่แข่ง ราคา และนโยบายแบบอัตโนมัติด้วยต้นทุนต่ำ",
+        "ประเมินการรวม webhook เข้ากับระบบแจ้งเตือนหรือ BI ขององค์กร"
+      ],
+      "entities": {
+        "organizations": [
+          "Perplexity",
+          "Firecrawl",
+          "Exa",
+          "Parallel",
+          "Artificial Analysis",
+          "Nvidia"
+        ],
+        "people": [],
+        "products": [
+          "Perplexity Monitor API",
+          "Perplexity Search API",
+          "Perplexity Agent API"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261123-b2-05",
+      "slug": "coding-agents-simulated-workplace-benchmark",
+      "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+      "title_th": "AI coding agent ทำข้อสอบเดี่ยวได้ดี แต่ทำงานสำเร็จไม่ถึง 1 ใน 10 ในที่ทำงานจำลอง",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "การประเมินแบบใหม่นำ AI coding agent ไปทำงานในบริษัทซอฟต์แวร์จำลองที่มีเพื่อนร่วมงาน project board ประวัติแชต และงานส่งต่อที่ไม่ครบถ้วน โดย agent ต้องพัฒนาซอฟต์แวร์ต่อเนื่องและปิด ticket ได้ด้วยตัวเองท่ามกลางเวิร์กโฟลว์ที่ยุ่งเหยิง ผลปรากฏว่า Claude Opus 5.5 และ GPT-6 Astra ทำงานสำเร็จครบถ้วนได้ไม่ถึง 1 ใน 10 แม้ทั้งสองจะแก้งานที่ชัดเจนและแยกส่วนได้รวดเร็ว แต่ยังติดตามสถานะงานของตัวเองได้ไม่ดีเมื่อทำหน้าที่นักพัฒนาอิสระ ผลนี้ตัดกับข่าวความสำเร็จก่อนหน้า เช่น การที่ Anthropic อ้างว่า Claude เขียนโค้ด production ของบริษัทมากกว่า 80 เปอร์เซ็นต์ และ benchmark อย่าง SWE-bench ที่ใกล้อิ่มตัวแล้ว สะท้อนว่าคะแนน benchmark วัดทักษะเขียนโค้ดแบบแยกส่วน มากกว่างานหลายขั้นตอนในทีมจริง",
+      "source_url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+      "tech_impact": "ความน่าเชื่อถือของ AI agent ในงานยาวและบริบทซับซ้อนยังเป็นคอขวดหลัก ก่อนจะใช้เป็น digital employee ได้จริง",
+      "tags": [
+        "coding-agents",
+        "benchmark",
+        "claude",
+        "gpt-6",
+        "software-engineering"
+      ],
+      "published_at": "2026-11-22T15:15:48+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Agents",
+        "Software Engineering",
+        "Benchmarks"
+      ],
+      "actions_developer": [
+        "ออกแบบงานให้ agent เป็นชิ้นเล็กที่นิยามชัด พร้อม human review ระหว่างขั้นตอน",
+        "สร้าง eval ภายในที่จำลอง context จริงของทีม แทนการดู SWE-bench อย่างเดียว"
+      ],
+      "actions_business": [
+        "ตั้งความคาดหวังต่อการแทนที่นักพัฒนาด้วย agent อย่างระมัดระวัง",
+        "วัด ROI จากงานที่ปิดได้จริง ไม่ใช่จากคะแนน benchmark"
+      ],
+      "entities": {
+        "organizations": [
+          "Anthropic",
+          "OpenAI"
+        ],
+        "people": [],
+        "products": [
+          "Claude Opus 5.5",
+          "GPT-6 Astra",
+          "SWE-bench"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261123-b2-06",
+      "slug": "gpt-6-2-personality-transparency",
+      "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+      "title_th": "GPT-6.2 Astra และ Sol ตอบตรงประเด็นขึ้น แต่คะแนนความโปร่งใสต่ำกว่า Claude",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "low",
+      "content": "Artificial Analysis ประเมินโมเดล GPT-6.2 Astra และ Sol ของ OpenAI ด้วย AA-PersonalityBench ซึ่งใช้คำถามภาษาอังกฤษ 900 ข้อ พบว่าคำตอบสั้นและตรงขึ้นมาก ความยาวเฉลี่ยของ Astra ลดจาก 352 เหลือ 210 คำ และ Sol จาก 337 เหลือ 223 คำ ใช้ heading น้อยลงอย่างชัดเจน คะแนน Answer First เพิ่มเป็น 89 และ 87 แต่ลักษณะ Admits Uncertainty ลดลงมาก จาก 96 เหลือ 24 สำหรับ Astra เมื่อเทียบกับ Claude Fable 5.2 และ Opus 5.5 ของ Anthropic ใน Transparency Index Astra ได้ 41, Sol 57, Fable 81 และ Opus 90 ส่วน Informativeness Index นั้น Opus 5.5 นำที่ 90 บทความเน้นว่าคะแนนเหล่านี้วัดสไตล์การสื่อสาร ไม่ใช่ความถูกต้องของคำตอบ แต่สะท้อนว่าการ tune ของ OpenAI เปลี่ยนวิธีนำเสนอข้อมูลและความไม่แน่นอนไปอย่างมาก",
+      "source_url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+      "tech_impact": "สไตล์คำตอบที่มั่นใจขึ้นแต่ยอมรับความไม่แน่นอนน้อยลงอาจกระทบความไว้วางใจของผู้ใช้ และเป็นปัจจัยใหม่ในการเลือกโมเดล",
+      "tags": [
+        "gpt-6.2",
+        "artificial-analysis",
+        "personality-benchmark",
+        "claude",
+        "llm-style"
+      ],
+      "published_at": "2026-11-22T09:41:37+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "Model Evaluation"
+      ],
+      "actions_developer": [
+        "ปรับ system prompt หากต้องการให้ GPT-6.2 ระบุความไม่แน่นอนหรือแหล่งอ้างอิง",
+        "ทดสอบเปรียบเทียบสไตล์คำตอบระหว่างโมเดลก่อนอัปเกรดใน production"
+      ],
+      "actions_business": [
+        "พิจารณาความโปร่งใสของโมเดลสำหรับงานที่มีความเสี่ยง เช่น การเงินหรือสุขภาพ",
+        "สื่อสารกับผู้ใช้ปลายทางเมื่อเปลี่ยนโมเดลที่มีสไตล์ตอบต่างกัน"
+      ],
+      "entities": {
+        "organizations": [
+          "Artificial Analysis",
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [],
+        "products": [
+          "GPT-6.2 Astra",
+          "GPT-6.2 Sol",
+          "Claude Fable 5.2",
+          "Claude Opus 5.5",
+          "AA-PersonalityBench"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261123-b3-01",
+      "slug": "ai-daily-brief-when-ai-labs-rival-nations",
+      "title": "When AI Labs Rival Nations",
+      "title_th": "เมื่อแล็บ AI มีอำนาจเทียบชั้นรัฐ: ถกประเด็นอิทธิพลของ Anthropic หลัง IPO",
+      "topic_group": "global",
+      "source_name": "The AI Daily Brief (formerly The AI Breakdown)",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "รายการ The AI Daily Brief ของ Nathaniel Whittemore (ช่องที่เดิมชื่อ The AI Breakdown) ปล่อยตอนที่ 1144 ชื่อ \"When AI Labs Rival Nations\" ในรูปแบบ Long Read Sunday ความยาวราว 25 นาที เมื่อวันที่ 22 พฤศจิกายน 2026 จากคำอธิบายตอน เนื้อหาชวนถกเถียงเรื่องอิทธิพลของ Anthropic หลังการเข้าตลาดหลักทรัพย์ (IPO) ซึ่งทำให้ทั้งฝ่ายที่สนับสนุน AI Safety และฝ่าย accelerationist มีความกังวลร่วมกันอย่างไม่คาดคิด ตอนนี้ตั้งคำถามว่าบริษัทที่มีอำนาจใกล้เคียงรัฐบาลควรมีความรับผิดชอบต่อสาธารณะอย่างไร ทำไมคนในวงการเทคบางส่วนจึงยินดีส่งมอบการควบคุมให้ AI และจะเกิดอะไรขึ้นเมื่อธุรกิจมอบเป้าหมายให้ AI agents แล้วปล่อยให้ agents ตัดสินใจวิธีไปถึงเป้าหมายเอง ประเด็นนี้สำคัญเพราะสะท้อนการถกเถียงเรื่อง governance และความรับผิดชอบของบริษัท AI ชั้นนำ ในช่วงที่บริษัทเหล่านี้เข้าสู่ตลาดทุนและได้รับความสนใจจากนักลงทุนวงกว้าง (สรุปจากคำอธิบายตอนเท่านั้น)",
+      "source_url": "https://podcasts.apple.com/us/podcast/when-ai-labs-rival-nations/id1680633614?i=1000803416531",
+      "tech_impact": "สะท้อนว่าการ IPO ของ Anthropic จุดกระแสถกเถียงเรื่องอำนาจและความรับผิดชอบของบริษัท AI ระดับแนวหน้า ซึ่งอาจส่งผลต่อทิศทางนโยบายกำกับดูแลและ governance ของ AI agents",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "AI governance",
+        "AI agents",
+        "podcast"
+      ],
+      "published_at": "2026-11-22T12:41:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Governance",
+        "AI Safety",
+        "AI Agents",
+        "Capital Markets"
+      ],
+      "actions_developer": [
+        "ออกแบบระบบ AI agent ให้มีขอบเขตการตัดสินใจ การตรวจสอบ และ human-in-the-loop ที่ชัดเจน เมื่อมอบเป้าหมายแบบเปิดให้ agent",
+        "ติดตามแนวปฏิบัติด้าน AI Safety และนโยบายของผู้ให้บริการโมเดลที่อาจเปลี่ยนไปหลังเข้าตลาดทุน"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงด้าน governance และการพึ่งพาผู้ให้บริการ AI รายใหญ่รายเดียว",
+        "กำหนดนโยบายความรับผิดชอบเมื่อให้ AI agents ตัดสินใจแทนในกระบวนการธุรกิจ"
+      ],
+      "entities": {
+        "organizations": [
+          "Anthropic"
+        ],
+        "people": [
+          "Nathaniel Whittemore"
+        ],
+        "products": [
+          "The AI Daily Brief"
+        ],
+        "places": []
+      },
+      "youtube_channel": "https://www.youtube.com/@AIDailyBrief",
+      "youtube_video": ""
+    }
+  ]
+}
