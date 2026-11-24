@@ -42,3 +42,11 @@ WATCHER-PUSH.*
 # CI Pages build output
 _site/
 
+# Local MCP SQLite store (rebuild with node mcp/index-store.mjs — never push)
+data/ai-news-mcp.sqlite
+data/ai-news-mcp.sqlite-*
+**/ai-news-mcp.sqlite
+**/ai-news-mcp.sqlite-*
+github-pages/data/ai-news-mcp.sqlite
+github-pages/data/ai-news-mcp.sqlite-*
+

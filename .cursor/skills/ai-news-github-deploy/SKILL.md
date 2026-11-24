@@ -32,7 +32,7 @@ If you detect Linux sandbox (`/sessions/` path, no outbound GitHub):
 
 - Do NOT ask questions or confirmation. Finish in one run.
 - Shell/PowerShell only. Branch `master` only.
-- NEVER stage/commit: `*.ps1`, `*.bat`, `*.bundle`, `.github-pat`, `.push-trigger`, `TRIGGER-PUSH.txt`, logs, batches, reports.
+- NEVER stage/commit: `*.ps1`, `*.bat`, `*.bundle`, `.github-pat`, `.push-trigger`, `TRIGGER-PUSH.txt`, logs, batches, reports, `*.sqlite`, `ai-news-mcp.sqlite*`.
 - NEVER put a PAT into a committed file. If auth needs `.github-pat`, set remote URL only for the push, then restore to `https://github.com/chiraleo2000/ai-news.git`.
 - NEVER create `.push-trigger` or report `PUSH_TRIGGERED`. Retry push until it works, or report BLOCKED/ERROR.
 
@@ -106,7 +106,7 @@ git add -- "Document/${today}_News/"
 if (Test-Path "Document\manifest.json") { git add -- "Document/manifest.json" }
 
 # Unstage forbidden junk if accidentally matched
-git reset HEAD -- "*.ps1" "*.bat" "*.bundle" ".github-pat" ".push-trigger" "TRIGGER-PUSH.txt" 2>$null
+git reset HEAD -- "*.ps1" "*.bat" "*.bundle" ".github-pat" ".push-trigger" "TRIGGER-PUSH.txt" "*.sqlite" "*.sqlite-*" "data/ai-news-mcp.sqlite" 2>$null
 
 # 8. Commit if needed
 $staged = git diff --cached --name-only
