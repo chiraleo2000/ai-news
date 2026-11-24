@@ -1,0 +1,1847 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T09:51:09+07:00",
+  "schema_version": "combined-1.3",
+  "stats": {
+    "total": 33,
+    "by_topic": {
+      "ai_trends": 11,
+      "tech_trends": 10,
+      "thailand": 4,
+      "global": 8
+    },
+    "by_source_category": {
+      "thai": 11,
+      "international": 15,
+      "research": 3,
+      "youtube": 4
+    },
+    "urgency_breakdown": {
+      "high": 6,
+      "medium": 16,
+      "low": 11
+    },
+    "breakthrough_count": 8
+  },
+  "top_insights": [
+    {
+      "title": "Cisco และ OpenAI เปิดตัว Shirudo โปรเจกต์ Open Source ใช้ eBPF และ AI Agent ป้องกันช่องโหว่ก่อนแพตช์",
+      "impact_summary": "แนวคิด virtual patching อัตโนมัติด้วย AI Agent บน kernel ช่วยลดหน้าต่างความเสี่ยงในยุคที่ AI ค้นพบช่องโหว่ได้เร็วกว่าการแพตช์ของมนุษย์",
+      "urgency": "high",
+      "article_id": "20261124-b1-04"
+    },
+    {
+      "title": "Anthropic เปิดตัว Claude Ship ให้ AI agent รีวิว แก้ไข และอนุมัติการเปลี่ยนแปลงโค้ดได้เอง",
+      "impact_summary": "การให้ AI อนุมัติ PR เองเป็นก้าวสำคัญของ software factory อัตโนมัติ แต่เพิ่มคำถามด้าน governance และความรับผิดชอบต่อโค้ดที่ขึ้น production",
+      "urgency": "high",
+      "article_id": "20261124-b2-01"
+    },
+    {
+      "title": "OpenAI เตือน AI รุ่นถัดไปอาจเร็วกว่าการตรวจความปลอดภัย เปิดค่า perplexity ภายในและเรียกร้องคู่แข่งตั้งขีดจำกัดร่วม",
+      "impact_summary": "การเปิดเผยมาตรวัดภายในเพื่อประสานจังหวะการพัฒนาระหว่างแล็บ เป็นสัญญาณว่า frontier labs มองว่าความสามารถกำลังเร่งเร็วกว่าเครื่องมือประเมินความปลอดภัย",
+      "urgency": "high",
+      "article_id": "20261124-b2-02"
+    },
+    {
+      "title": "Jensen Huang คัมแบ็ก! บอร์ด NVIDIA แต่งตั้งกลับมาเป็น CEO หลังลาออกเพียง 11 วัน หุ้นพุ่ง 33%",
+      "impact_summary": "ความไม่แน่นอนด้านผู้บริหารของผู้ผลิตชิป AI รายใหญ่ที่สุดคลี่คลายลงในระยะสั้น ส่งผลต่อตลาดหุ้นเทคฯ ทั่วโลก แต่ประเด็นธรรมาภิบาลและการสอบสวนยังเป็นความเสี่ยงต่อซัพพลายชิป AI",
+      "urgency": "high",
+      "article_id": "20261124-b1-01"
+    },
+    {
+      "title": "AI เขย่าวงการ Cybersecurity! พบช่องโหว่ร้ายแรงเพิ่มเกือบ 7 เท่า องค์กรจะรับมืออย่างไร",
+      "impact_summary": "ปริมาณช่องโหว่ที่พุ่งขึ้นจาก AI ทำให้ vulnerability management กลายเป็นคอขวด องค์กรต้องเพิ่มงบและใช้การป้องกันชั่วคราว",
+      "urgency": "high",
+      "article_id": "20261124-b1-09"
+    },
+    {
+      "title": "สหรัฐฯ ขึ้นบัญชีดำ Megaspeed รวมบริษัทลูกในไทย ฐานเสี่ยงลักลอบส่งชิปขั้นสูง",
+      "impact_summary": "การขึ้นบัญชีบริษัทที่มีนิติบุคคลในไทยเพิ่มแรงกดดันต่อธุรกิจ data center และ GPU cloud ในไทย ซึ่งต้องเข้มงวดเรื่อง KYC และ end-use มากขึ้น",
+      "urgency": "high",
+      "article_id": "20261124-b2-07"
+    }
+  ],
+  "posts": [
+    {
+      "id": "20261124-b1-01",
+      "slug": "jensen-huang-returns-nvidia-ceo",
+      "title": "Jensen Huang returns: NVIDIA board reappoints him as CEO 11 days after resignation",
+      "title_th": "Jensen Huang คัมแบ็ก! บอร์ด NVIDIA แต่งตั้งกลับมาเป็น CEO หลังลาออกเพียง 11 วัน หุ้นพุ่ง 33%",
+      "topic_group": "global",
+      "source_name": "The Standard Tech",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "NVIDIA ประกาศแต่งตั้ง Jensen Huang ผู้ร่วมก่อตั้งบริษัท กลับเข้ารับตำแหน่ง CEO ประธานบริษัท และกรรมการบริษัทอีกครั้งโดยมีผลทันทีเมื่อวันที่ 23 พฤศจิกายน 2026 หลังเขาประกาศลาออกเมื่อวันที่ 12 พฤศจิกายน การตัดสินใจนี้เป็นการพลิกกลับครั้งสำคัญ เพราะเมื่อวันที่ 17 พฤศจิกายนคณะกรรมการเคยประกาศว่าไม่มีแผนรับเขากลับ ล่าสุดบอร์ดลงมติเป็นเอกฉันท์โดยระบุว่าเชื่อมั่นในความโปร่งใสและความสามารถของเขา และได้รับข้อมูลจากเจ้าหน้าที่ระดับสูงของรัฐบาลสหรัฐฯ ก่อนสรุปว่าการกลับมาไม่ก่อความเสี่ยงต่อความมั่นคงแห่งชาติ ก่อนหน้านี้ Huang ลาออกท่ามกลางข่าวความสัมพันธ์ส่วนตัวกับหญิงชาวจีนที่เจ้าหน้าที่สหรัฐฯ สงสัยว่าเกี่ยวข้องกับงานข่าวกรอง ซึ่งยังไม่มีข้อยุติว่ามีการกระทำผิด หลังประกาศ หุ้น NVIDIA เปิดตลาดพุ่งขึ้น 33% ที่ระดับ 167.04 ดอลลาร์ แต่การกลับมาครั้งนี้ก็ทำให้เกิดคำถามเรื่องธรรมาภิบาลและการพึ่งพาผู้นำคนเดียวของบริษัทที่เป็นศูนย์กลางอุตสาหกรรม AI โลก",
+      "source_url": "https://thestandard.co/jensen-huang-returns-nvidia-ceo/",
+      "tech_impact": "ความไม่แน่นอนด้านผู้บริหารของผู้ผลิตชิป AI รายใหญ่ที่สุดคลี่คลายลงในระยะสั้น ส่งผลต่อตลาดหุ้นเทคฯ ทั่วโลก แต่ประเด็นธรรมาภิบาลและการสอบสวนยังเป็นความเสี่ยงต่อซัพพลายชิป AI",
+      "tags": [
+        "nvidia",
+        "jensen-huang",
+        "corporate-governance",
+        "ai-chips",
+        "stock-market"
+      ],
+      "published_at": "2026-11-24T08:28:31+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Chips",
+        "Corporate Governance",
+        "Stock Market"
+      ],
+      "actions_developer": [
+        "ติดตามแผน roadmap GPU และ CUDA ที่อาจเร่งขึ้นหลังผู้บริหารกลับมา",
+        "เตรียมแผนสำรอง compute หลายผู้ให้บริการ หากมาตรการคุมส่งออกเข้มขึ้น"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงด้าน governance ของซัพพลายเออร์ชิปในการวางแผนจัดซื้อระยะยาว",
+        "จับตาการให้การต่อวุฒิสภาสหรัฐฯ ของ Huang ซึ่งอาจกระทบนโยบายส่งออกชิป"
+      ],
+      "entities": {
+        "organizations": [
+          "NVIDIA",
+          "U.S. Government"
+        ],
+        "people": [
+          "Jensen Huang"
+        ],
+        "products": [
+          "NVIDIA GPU"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b1-02",
+      "slug": "zai-glm-5-4-loop-transformer",
+      "title": "Z.ai releases GLM-5.4, switching to a Loop Transformer architecture to cut running costs",
+      "title_th": "Z.ai ปล่อย GLM-5.4 เปลี่ยนสถาปัตยกรรมเป็น Loop Transformer ลดต้นทุนการรัน",
+      "topic_group": "ai-trends",
+      "source_name": "Blognone",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Z.ai (Zhipu) ปล่อยโมเดล GLM-5.4 ซึ่งจุดเปลี่ยนสำคัญคือการใช้สถาปัตยกรรม Loop Transformer ที่ให้โมเดลวนประมวลผลชั้นเดิมซ้ำ ทำให้ได้ความฉลาดใกล้เคียงโมเดลที่ใหญ่กว่ามาก แนวคิด Loop Transformer ถูกเสนอมาตั้งแต่ปี 2018 แต่ที่ผ่านมาแพ้แนวทางขยายขนาดโมเดล Z.ai จึงไม่ได้ฝึกใหม่ตั้งแต่ต้น แต่นำ GLM-5 เดิมมาแปลงเป็น Loop Transformer ตามรายงานของสื่อต่างประเทศ โมเดลเรือธงนี้มีขนาดราว 750B พารามิเตอร์และรัน 28 ชั้นซ้ำสองรอบ อย่างไรก็ตาม Z.ai ไม่เปิดเผยผลทดสอบของ GLM-5.4 ตรง ๆ แต่ยกตัวอย่างโมเดลย่อขนาด 30B ที่แปลงด้วยวิธีเดียวกันว่าทำคะแนนดีขึ้นมากและตอบสั้นลง ช่วยประหยัดโทเค็น ปัจจุบัน GLM-5.4 เปิดให้ใช้เฉพาะผ่าน GLM Coding Plan และเว็บ Z.ai พร้อมรองรับภาพ ส่วน API และไฟล์โมเดลแบบดาวน์โหลดจะตามมาภายหลัง สะท้อนการแข่งขันด้านประสิทธิภาพต่อต้นทุนของแล็บ AI จีน",
+      "source_url": "https://www.blognone.com/node/152244",
+      "tech_impact": "Loop Transformer อาจเป็นทางเลือกใหม่แทนการขยายขนาดโมเดล ช่วยลดต้นทุน inference และโทเค็น หากผลลัพธ์ยืนยันได้จะกดดันราคาตลาดโมเดลโค้ดดิ้ง",
+      "tags": [
+        "glm",
+        "zhipu",
+        "loop-transformer",
+        "llm",
+        "china-ai",
+        "coding"
+      ],
+      "published_at": "2026-11-24T08:01:00+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "LLM",
+        "Model Architecture",
+        "AI Coding"
+      ],
+      "actions_developer": [
+        "ทดลอง GLM-5.4 ผ่าน GLM Coding Plan เทียบความคุ้มค่าโทเค็นกับโมเดลที่ใช้อยู่",
+        "รอผล benchmark อิสระและ open weights ก่อนนำไปใช้ใน production"
+      ],
+      "actions_business": [
+        "ติดตามโมเดลจีนราคาต่ำเป็นตัวเลือกลดต้นทุน AI coding",
+        "ประเมินข้อจำกัดด้าน compliance และ data residency ก่อนใช้บริการโมเดลจีน"
+      ],
+      "entities": {
+        "organizations": [
+          "Z.ai",
+          "Zhipu AI"
+        ],
+        "people": [],
+        "products": [
+          "GLM-5.4",
+          "GLM-5",
+          "GLM Coding Plan"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b1-03",
+      "slug": "crowdstrike-acquires-zscaler",
+      "title": "CrowdStrike to acquire Zscaler for $43.9B to add Zero Trust SASE to Falcon",
+      "title_th": "CrowdStrike เข้าซื้อกิจการ Zscaler มูลค่า 4.39 หมื่นล้านดอลลาร์ เสริม Zero Trust SASE ให้ Falcon",
+      "topic_group": "tech-trends",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "CrowdStrike ประกาศเข้าซื้อกิจการ Zscaler ด้วยการแลกหุ้นทั้งหมด มูลค่าราว 43,900 ล้านดอลลาร์ เพื่อนำ Network Security และ Zero Trust SASE เข้ามาเป็นส่วนหนึ่งของ Falcon Platform ควบคู่กับ Endpoint Security เดิม ผู้ถือหุ้น Zscaler จะได้หุ้น CrowdStrike 1.135 หุ้นต่อ 1 หุ้น คิดเป็นราว 260.41 ดอลลาร์ต่อหุ้น สูงกว่าราคาปิดวันที่ 20 พฤศจิกายนราว 34% หลังควบรวม ผู้ถือหุ้น CrowdStrike เดิมจะถือราว 84.1% และผู้ถือหุ้น Zscaler ราว 15.9% คาดว่าดีลจะปิดในครึ่งหลังของปีงบประมาณ 2028 หลังได้รับอนุมัติจากผู้ถือหุ้นและหน่วยงานกำกับ เหตุผลหลักคือผู้ใช้ แอปพลิเคชัน และ AI Agent เชื่อมต่อคลาวด์โดยตรงโดยไม่ผ่าน data center ทำให้ Firewall และ VPN แบบเดิมมองไม่เห็น traffic เหล่านี้ ขณะที่ Zscaler Zero Trust Exchange ทำงานแบบ inline บังคับใช้ Zero Trust กับทุกการเชื่อมต่อ ดีลนี้สะท้อนว่า AI กำลังเร่งการรวมตัวของตลาดความปลอดภัยไซเบอร์",
+      "source_url": "https://www.techtalkthai.com/crowdstrike-acquires-zscaler-43-9-billion-zero-trust-sase-falcon/",
+      "tech_impact": "การรวม endpoint และ network security ในแพลตฟอร์มเดียวตอบโจทย์ยุค AI Agent ที่เชื่อมต่อคลาวด์โดยตรง และจะเปลี่ยนภูมิทัศน์ผู้ขาย security รายใหญ่",
+      "tags": [
+        "cybersecurity",
+        "acquisition",
+        "zero-trust",
+        "sase",
+        "ai-agents"
+      ],
+      "published_at": "2026-11-24T05:39:01+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Cybersecurity",
+        "Zero Trust",
+        "M&A"
+      ],
+      "actions_developer": [
+        "ออกแบบ identity และ policy สำหรับ AI Agent ให้ผ่าน Zero Trust gateway",
+        "เตรียมการ integrate telemetry ระหว่าง Falcon กับ Zscaler หลังควบรวม"
+      ],
+      "actions_business": [
+        "ทบทวนสัญญา security vendor ที่อาจซ้ำซ้อนหลังดีลปิด",
+        "ใช้จังหวะควบรวมต่อรองราคาแพลตฟอร์มแบบรวม"
+      ],
+      "entities": {
+        "organizations": [
+          "CrowdStrike",
+          "Zscaler"
+        ],
+        "people": [],
+        "products": [
+          "Falcon Platform",
+          "Zero Trust Exchange",
+          "Falcon Next-Gen SIEM"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b1-04",
+      "slug": "cisco-openai-shirudo-ebpf",
+      "title": "Cisco and OpenAI launch Shirudo, an open-source eBPF + AI agent shield against vulnerabilities before patching",
+      "title_th": "Cisco และ OpenAI เปิดตัว Shirudo โปรเจกต์ Open Source ใช้ eBPF และ AI Agent ป้องกันช่องโหว่ก่อนแพตช์",
+      "topic_group": "tech-trends",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "Cisco และ OpenAI เปิดตัว Shirudo โปรเจกต์ Open Source ที่ใช้ AI Agent สร้าง shield ด้วย eBPF เพื่อปกป้องระบบ Linux ที่กำลังทำงานจากการโจมตีช่องโหว่ได้ทันทีโดยไม่ต้อง reboot ระหว่างที่ทีมงานทยอยติดตั้งแพตช์ ชื่อ Shirudo มาจากคำญี่ปุ่นที่แปลว่าโล่ โครงการนี้ตั้งใจปิดช่องว่างระหว่างการค้นพบช่องโหว่กับการแพตช์ให้ครบทุกเครื่อง เพราะผู้โจมตีต้องการเพียงเครื่องเดียวที่ยังไม่แพตช์ Cisco นำประสบการณ์ปกป้องโครงสร้างพื้นฐานมาใช้ ส่วน OpenAI ใส่งานวิจัย Frontier AI และข้อมูลรูปแบบการโจมตี AI Agent ของ Shirudo จะวิเคราะห์ช่องโหว่ สร้าง shield และทดสอบว่าหยุดการโจมตีได้โดยไม่กระทบบริการ shield จะถูกใช้งานจริงเมื่อผลทดสอบยืนยันว่าปลอดภัยเท่านั้น และทุก shield เซ็นด้วย cryptographic signature ให้ host ตรวจสอบได้แม้ผู้โจมตีได้สิทธิ์ผู้ดูแลแล้ว ในการทดสอบกับช่องโหว่ระดับ Critical อย่าง Java4Shell และช่องโหว่ PHP ระบบสามารถตรวจจับและบล็อกการโจมตีได้ทั้งคู่",
+      "source_url": "https://www.techtalkthai.com/cisco-openai-launch-shirudo-ebpf-ai-agent-vulnerability-shield/",
+      "tech_impact": "แนวคิด virtual patching อัตโนมัติด้วย AI Agent บน kernel ช่วยลดหน้าต่างความเสี่ยงในยุคที่ AI ค้นพบช่องโหว่ได้เร็วกว่าการแพตช์ของมนุษย์",
+      "tags": [
+        "openai",
+        "cisco",
+        "ebpf",
+        "open-source",
+        "vulnerability",
+        "ai-agents"
+      ],
+      "published_at": "2026-11-24T05:38:59+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Cybersecurity",
+        "Open Source",
+        "AI Agents",
+        "Linux"
+      ],
+      "actions_developer": [
+        "ทดลอง Shirudo ใน staging สำหรับ Linux workload ที่ reboot ยาก",
+        "ศึกษาการตรวจสอบ signature ของ eBPF program ก่อนอนุญาตให้รันใน production"
+      ],
+      "actions_business": [
+        "ใช้เป็นมาตรการชั่วคราวลดความเสี่ยงระหว่างรอบแพตช์ของระบบสำคัญ",
+        "ทบทวนกระบวนการ vulnerability management ให้รองรับปริมาณช่องโหว่ที่เพิ่มขึ้น"
+      ],
+      "entities": {
+        "organizations": [
+          "Cisco",
+          "OpenAI"
+        ],
+        "people": [],
+        "products": [
+          "Shirudo",
+          "eBPF",
+          "Linux"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b1-05",
+      "slug": "alibaba-qwen4-max",
+      "title": "Alibaba launches Qwen4-Max, a 2.4T-parameter MoE model with native vision and 1M-token context",
+      "title_th": "อาลีบาบาเปิดตัว Qwen4-Max โมเดล MoE 2.4 ล้านล้านพารามิเตอร์ รองรับภาพในตัวและบริบท 1 ล้านโทเค็น",
+      "topic_group": "ai-trends",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Alibaba เปิดตัว Qwen4-Max โมเดลที่มีความสามารถสูงสุดในตระกูล Qwen ขณะนี้ มีพารามิเตอร์รวม 2.4 ล้านล้านตัว รองรับการเข้าใจภาพในตัว (native vision) และ context window สูงสุด 1 ล้านโทเค็น โมเดลทำคะแนนติดอันดับต้น ๆ ด้านการเขียนโค้ด งาน agentic และการวิเคราะห์ภาพ โดยอยู่อันดับ 6 บน Code Arena และทำคะแนนโดดเด่นในชุดทดสอบอย่าง Agents' Last Exam, Vals Index, JobBench และ Chartography ประสิทธิภาพมาจากสถาปัตยกรรม Qwen4 แบบ Mixture-of-Experts ใหม่ที่ปรับทั้งกลไก attention, residual connections และ embeddings โดยเรียกใช้เพียง 71,000 ล้านพารามิเตอร์ต่อโทเค็น ลดลง 25% เมื่อเทียบกับ Qwen3.8-Max ที่มีขนาดรวมเท่ากัน จึงให้ความสามารถสูงขึ้นด้วยต้นทุนประมวลผลต่ำลง Qwen4-Max เปิดให้ใช้งานแล้วบน QwenCloud ผ่าน Token Plan และ API รวมถึงบนแพลตฟอร์ม QwenWork และ QwenStudio ของ Alibaba",
+      "source_url": "https://www.techtalkthai.com/alibaba-qwen4-max-pr/",
+      "tech_impact": "โมเดลจีนระดับ frontier ที่ลด active parameters ช่วยกดต้นทุน inference และเพิ่มทางเลือกให้องค์กรในเอเชียที่ใช้ Alibaba Cloud",
+      "tags": [
+        "qwen",
+        "alibaba",
+        "moe",
+        "llm",
+        "china-ai",
+        "multimodal"
+      ],
+      "published_at": "2026-11-23T11:39:23+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "Mixture-of-Experts",
+        "Multimodal AI"
+      ],
+      "actions_developer": [
+        "ทดสอบ Qwen4-Max กับงาน long-context 1M tokens และ agentic coding",
+        "เปรียบเทียบต้นทุนต่อ task กับโมเดลตะวันตกผ่าน API"
+      ],
+      "actions_business": [
+        "พิจารณา QwenCloud เป็นผู้ให้บริการโมเดลรายที่สองเพื่อลด vendor lock-in",
+        "ประเมินข้อกำหนดด้านข้อมูลและกฎหมายก่อนใช้กับข้อมูลลูกค้า"
+      ],
+      "entities": {
+        "organizations": [
+          "Alibaba",
+          "QwenCloud"
+        ],
+        "people": [],
+        "products": [
+          "Qwen4-Max",
+          "Qwen3.8-Max",
+          "QwenWork",
+          "QwenStudio"
+        ],
+        "places": [
+          "China"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b1-06",
+      "slug": "boi-japan-roadshow-chip-ai",
+      "title": "BOI touts Japan roadshow results: investment in autos, chips, AI and energy",
+      "title_th": "บีโอไอชูความสำเร็จโรดโชว์ญี่ปุ่น เปิดทางลงทุน ยานยนต์ ชิป AI พลังงาน",
+      "topic_group": "thailand",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "สำนักงานคณะกรรมการส่งเสริมการลงทุน (บีโอไอ) สรุปผลโรดโชว์ทีมไทยแลนด์ที่กรุงโตเกียว ระหว่างวันที่ 17-20 พฤศจิกายน 2569 นำโดยนายเอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง พร้อมนายวราวุธ ศิลปอาชา รัฐมนตรีว่าการกระทรวงอุตสาหกรรม และผู้นำ กกร. นายนฤตม์ เทอดสถีรศักดิ์ เลขาธิการบีโอไอ ระบุว่าผลลัพธ์หลักมี 3 ด้าน ได้แก่ ค่ายรถญี่ปุ่น 6 ราย คือ โตโยต้า ฮอนด้า อีซูซุ มิตซูบิชิ มาสด้า และนิสสัน ยืนยันแผนลงทุนกว่า 134,000 ล้านบาทใน 5 ปี การเปิดความร่วมมือใหม่ด้านเซมิคอนดักเตอร์ ชิป และโครงสร้างพื้นฐาน AI รวมถึงพลังงานสะอาดและห่วงโซ่อุปทานใหม่ และการเชื่อมโยงภาครัฐ ภาคธุรกิจ และสถาบันการเงินญี่ปุ่น เป้าหมายคือเปลี่ยนผลเจรจาให้เป็นโครงการลงทุนจริง และยกระดับไทยจาก Made in Thailand สู่ Made with Thailand ซึ่งสำคัญต่อแผนดึงการลงทุน data center และชิปของไทย",
+      "source_url": "https://techsauce.co/news/boi-japan-roadshow-auto-chip-ai-energy",
+      "tech_impact": "ความร่วมมือไทย-ญี่ปุ่นด้านชิปและโครงสร้างพื้นฐาน AI อาจช่วยกระจายแหล่งทุนของไทย ท่ามกลางแรงกดดันจากมาตรการคุมชิปของสหรัฐฯ",
+      "tags": [
+        "thailand",
+        "boi",
+        "investment",
+        "semiconductors",
+        "ai-infrastructure",
+        "japan"
+      ],
+      "published_at": "2026-11-23T20:39:40+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Investment Policy",
+        "Semiconductors",
+        "AI Infrastructure"
+      ],
+      "actions_developer": [
+        "ติดตามโครงการพัฒนาบุคลากรด้านเซมิคอนดักเตอร์และ AI ที่จะตามมา",
+        "เตรียมทักษะด้าน embedded/automotive AI ที่ตลาดยานยนต์ต้องการ"
+      ],
+      "actions_business": [
+        "ประเมินโอกาสเป็นซัพพลายเออร์ในห่วงโซ่อุปทานชิปและยานยนต์ญี่ปุ่น",
+        "ติดตามสิทธิประโยชน์ BOI สำหรับการลงทุนด้าน AI และพลังงานสะอาด"
+      ],
+      "entities": {
+        "organizations": [
+          "BOI",
+          "Toyota",
+          "Honda",
+          "Isuzu",
+          "Mitsubishi",
+          "Mazda",
+          "Nissan"
+        ],
+        "people": [
+          "เอกนิติ นิติทัณฑ์ประภาศ",
+          "วราวุธ ศิลปอาชา",
+          "นฤตม์ เทอดสถีรศักดิ์"
+        ],
+        "products": [],
+        "places": [
+          "Thailand",
+          "Tokyo",
+          "Japan"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b1-07",
+      "slug": "alexandr-wang-warns-control-ai",
+      "title": "Alexandr Wang warns the next year is humanity's last chance to control AI",
+      "title_th": "Alexandr Wang เตือน 1 ปีต่อจากนี้ คือโอกาสสุดท้ายของมนุษยชาติในการคุม AI",
+      "topic_group": "ai-trends",
+      "source_name": "Techsauce",
+      "category": "Thai",
+      "urgency": "medium",
+      "content": "Techsauce รายงานเหตุการณ์ต่อเนื่องจากวันที่ 20 พฤศจิกายน 2026 ที่ Levent Alpöge นักคณิตศาสตร์ของ Anthropic ประกาศร่วมกับ Claude พิสูจน์สมมติฐานของรีมันน์ โจทย์อายุ 167 ปีที่เป็นหนึ่งใน 7 โจทย์รางวัลแห่งสหัสวรรษ มูลค่า 1 ล้านดอลลาร์ บทพิสูจน์มีคำอธิบายเพียง 4 หน้า ขณะที่เนื้อหาจริงเขียนด้วยภาษา Lean ยาวถึง 17 ล้านบรรทัด และครอบคลุมถึงสมมติฐานรีมันน์ฉบับขยายซึ่งเกี่ยวข้องกับคณิตศาสตร์หลายแขนงรวมถึงระบบเข้ารหัส Alpöge ยอมรับว่าในช่วงท้าย Claude ไปไกลกว่าความเข้าใจของเขา และแม้ Kevin Buzzard จาก Imperial College London ก็อ่านโค้ดทั้งหมดไม่เข้าใจ ความมั่นใจจึงมาจากการตรวจสอบตรรกะทีละขั้นของ Lean จากเหตุการณ์นี้ Alexandr Wang ผู้บริหารด้าน AI ของ Meta เตือนว่าอุตสาหกรรม AI ยังไม่พร้อมกับสิ่งที่กำลังจะมา และช่วง 365 วันข้างหน้าอาจเป็นโอกาสสุดท้ายของมนุษยชาติในการวางกลไกควบคุม AI",
+      "source_url": "https://techsauce.co/ai/alexandr-wang-warns-365-days-to-control-ai",
+      "tech_impact": "ผลงานคณิตศาสตร์ที่มนุษย์ตรวจทานด้วยตนเองไม่ได้ทั้งหมดผลักดันประเด็นการควบคุมและการกำกับ AI ขั้นสูงให้เร่งด่วนขึ้นในวงการ",
+      "tags": [
+        "ai-safety",
+        "riemann-hypothesis",
+        "meta",
+        "anthropic",
+        "lean",
+        "ai-for-science"
+      ],
+      "published_at": "2026-11-23T13:41:31+07:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI Safety",
+        "AI for Science",
+        "Formal Verification"
+      ],
+      "actions_developer": [
+        "ศึกษา formal verification (Lean) เป็นเครื่องมือยืนยันผลงานที่ AI สร้าง",
+        "ออกแบบระบบ AI ให้มีกลไก oversight และ audit ที่มนุษย์ตรวจสอบได้"
+      ],
+      "actions_business": [
+        "ติดตามทิศทางกฎระเบียบความปลอดภัย AI ที่อาจเข้มขึ้นในปีหน้า",
+        "เตรียมนโยบาย AI governance ภายในองค์กรรองรับโมเดลที่เก่งขึ้นเร็ว"
+      ],
+      "entities": {
+        "organizations": [
+          "Meta",
+          "Anthropic",
+          "Imperial College London"
+        ],
+        "people": [
+          "Alexandr Wang",
+          "Levent Alpöge",
+          "Kevin Buzzard"
+        ],
+        "products": [
+          "Claude",
+          "Lean"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b1-08",
+      "slug": "jobsdb-ai-workforce-build-buy-keep",
+      "title": "Workforce planning in the AI era: 39% of skills will change by 2030, Jobsdb's Build-Buy-Keep formula",
+      "title_th": "กางแผนบริหารคนยุค AI เมื่อ 39% ของทักษะกำลังจะเปลี่ยนไปในปี 2030 เปิดสูตร Build, Buy, Keep",
+      "topic_group": "thailand",
+      "source_name": "Thumbsup",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "Thumbsup สรุปงานสัมมนา SEEK TALKS Growing Together: The Next Chapter of Workforce ของ Jobsdb by SEEK ซึ่งชี้ว่า AI ระบบอัตโนมัติ และเทคโนโลยีดิจิทัลกำลังรื้อโครงสร้างโลกการทำงาน โดยเฉพาะภาคการผลิต อุตสาหกรรม และขนส่ง และคาดว่าราว 39% ของทักษะแรงงานจะเปลี่ยนไปภายในปี 2030 คุณดวงพร พรหมอ่อน กรรมการผู้จัดการ Jobsdb by SEEK ประเทศไทย ระบุว่าความท้าทายไม่ได้อยู่ที่ความล้ำของเทคโนโลยี แต่อยู่ที่ความเร็วในการปรับตัวขององค์กร ทั้งการพัฒนาพนักงานและกลยุทธ์บริหารบุคลากร เมื่อการทำงานเปลี่ยนจาก Labor Intensive สู่ AI Driven บทบาทของคนจะเปลี่ยนไป องค์กรต้องออกแบบงานใหม่ให้ระบบอัตโนมัติรับงานซ้ำ ๆ เช่น ป้อนข้อมูลหรือทำรายงาน และให้คนทุ่มเทกับงานวิเคราะห์ ตัดสินใจ แก้ปัญหาซับซ้อน และทำงานร่วมกัน เวทียังเสนอสูตร Build, Buy, Keep สำหรับพัฒนา จัดหา และรักษาคนเก่ง โดยมีมุมมองจาก ดร.อภิชาต ทองอยู่ ประธานคณะทำงานด้านพัฒนาบุคลากร EEC HDC เกี่ยวกับทักษะที่ภาคอุตสาหกรรมต้องการ",
+      "source_url": "https://www.thumbsup.in.th/jobdb-seek-for-change",
+      "tech_impact": "ตลาดแรงงานไทยต้องเร่ง reskill รองรับ AI โดยเฉพาะภาคการผลิตและ EEC ซึ่งกระทบแผน HR และการลงทุนด้านการฝึกอบรม",
+      "tags": [
+        "thailand",
+        "workforce",
+        "upskilling",
+        "hr-tech",
+        "jobsdb"
+      ],
+      "published_at": "2026-11-23T12:33:50+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Workforce",
+        "HR Tech",
+        "Upskilling"
+      ],
+      "actions_developer": [
+        "พัฒนาทักษะผสาน AI กับระบบอุตสาหกรรมและ automation",
+        "สร้างเครื่องมือ HR tech สำหรับ skill mapping และ upskilling"
+      ],
+      "actions_business": [
+        "จัดทำแผน Build-Buy-Keep เพื่อรับมือการเปลี่ยนทักษะภายในปี 2030",
+        "ออกแบบงานใหม่ให้ AI รับงานซ้ำและย้ายคนไปงานมูลค่าสูง"
+      ],
+      "entities": {
+        "organizations": [
+          "Jobsdb by SEEK",
+          "EEC HDC"
+        ],
+        "people": [
+          "ดวงพร พรหมอ่อน",
+          "อภิชาต ทองอยู่"
+        ],
+        "products": [],
+        "places": [
+          "Thailand",
+          "EEC"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b1-09",
+      "slug": "ai-cybersecurity-critical-flaws-7x",
+      "title": "AI shakes up cybersecurity: critical vulnerabilities up nearly 7x",
+      "title_th": "AI เขย่าวงการ Cybersecurity! พบช่องโหว่ร้ายแรงเพิ่มเกือบ 7 เท่า องค์กรจะรับมืออย่างไร",
+      "topic_group": "tech-trends",
+      "source_name": "EnTechReview",
+      "category": "Thai",
+      "urgency": "high",
+      "content": "EnTechReview รายงานว่า Nikesh Arora ประธานและซีอีโอของ Palo Alto Networks เปิดเผยระหว่างประชุมรายงานผลประกอบการไตรมาสแรกของปีงบประมาณ 2027 ว่าจำนวนช่องโหว่ระดับ Critical และ Severe ที่ถูกค้นพบเพิ่มขึ้นเกือบ 7 เท่าเมื่อเทียบกับค่าเฉลี่ยรายเดือนของปีก่อน สาเหตุสำคัญคือ AI ที่ช่วยค้นหาช่องโหว่ได้เร็วขึ้น ขณะที่องค์กรจำนวนมากติดตั้งแพตช์ไม่ทัน บางแห่งถึงขั้นดึงงบประมาณฉุกเฉินมาใช้รับมือภัยคุกคามที่เกี่ยวข้องกับ AI โดยเฉพาะ และคาดว่าการลงทุนด้าน cybersecurity จะเพิ่มขึ้นต่อเนื่องใน 2 ปีข้างหน้า Arora ประเมินว่าความต้องการแพตช์จะอยู่ในระดับสูงอย่างน้อยอีก 18 เดือน การมาของ Frontier AI ยังทำให้องค์กรต้องหันมาทดสอบระบบตัวเองเพื่อค้นหาจุดอ่อนมากขึ้น บทความชี้ว่าเมื่อการแพตช์ตามปกติไม่ทัน แนวทาง Virtual Patching ซึ่งเพิ่มมาตรการป้องกันช่องโหว่โดยไม่ต้องแก้ระบบทันที กำลังถูกพูดถึงมากขึ้นเป็นทางรอดระยะสั้น",
+      "source_url": "https://entechreview.com/2026/11/ai-cybersecurity-critical-flaw/",
+      "tech_impact": "ปริมาณช่องโหว่ที่พุ่งขึ้นจาก AI ทำให้ vulnerability management กลายเป็นคอขวด องค์กรต้องเพิ่มงบและใช้การป้องกันชั่วคราว",
+      "tags": [
+        "cybersecurity",
+        "vulnerabilities",
+        "palo-alto-networks",
+        "virtual-patching",
+        "frontier-ai"
+      ],
+      "published_at": "2026-11-23T13:00:00+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Cybersecurity",
+        "Vulnerability Management"
+      ],
+      "actions_developer": [
+        "จัดลำดับความสำคัญแพตช์ด้วยข้อมูล exploitability แทนการไล่ตาม CVSS อย่างเดียว",
+        "นำ virtual patching/WAF rules มาใช้ระหว่างรอแพตช์"
+      ],
+      "actions_business": [
+        "จัดสรรงบ security สำรองสำหรับภัยที่ขับเคลื่อนด้วย AI ใน 18 เดือนข้างหน้า",
+        "ทบทวน SLA การแพตช์กับผู้ให้บริการ IT"
+      ],
+      "entities": {
+        "organizations": [
+          "Palo Alto Networks"
+        ],
+        "people": [
+          "Nikesh Arora"
+        ],
+        "products": [],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b1-10",
+      "slug": "thai-stocks-rebound-tech-nvidia",
+      "title": "Thai stocks seen rebounding on global tech buying after Huang's Nvidia return",
+      "title_th": "ลุ้นหุ้นไทยรีบาวด์ รับแรงซื้อหุ้นเทคฯ โลก ชู GPSC-HANA เด่น",
+      "topic_group": "thailand",
+      "source_name": "Prachachat AI",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "บล.อินโนเวสท์ เอกซ์ (InnovestX) คาดว่าตลาดหุ้นไทยวันนี้มีโอกาสรีบาวด์ตามตลาดหุ้นภูมิภาคและสหรัฐฯ หลังแรงซื้อกลับเข้าหุ้นกลุ่มเทคโนโลยี ปัจจัยสำคัญคือคณะกรรมการ Nvidia มีมติแต่งตั้ง Jensen Huang กลับมาเป็น CEO ทำให้หุ้น Nvidia พุ่งกว่า 33% และหนุนดัชนี Nasdaq ขึ้น 6.5% ช่วยคลายความกังวลเรื่องความไม่แน่นอนของผู้บริหารและการชะลอคำสั่งซื้อชิป AI ซึ่งมองเป็นบวกต่อหุ้นอิเล็กทรอนิกส์ไทยอย่าง DELTA, HANA, KCE และ CCET ขณะเดียวกันราคาน้ำมันดิบเบรนต์ลดลง 2.8% ปิดที่ 89.99 ดอลลาร์ต่อบาร์เรล ต่ำสุดในรอบ 3 เดือน เป็นผลดีต่อ AAV, BA, GPSC และ BGRIM อย่างไรก็ตาม การฟื้นตัวอาจไม่ต่อเนื่องเพราะขาดปัจจัยหนุนใหม่ในประเทศ นักลงทุนต้องติดตามการประชุม ครม. และดัชนี Core PCE ของสหรัฐฯ วันที่ 25 พฤศจิกายน โดยประเมินแนวรับ 1,450 และ 1,445 จุด แนวต้าน 1,475 และ 1,480 จุด",
+      "source_url": "https://www.prachachat.net/finance/news-2101018",
+      "tech_impact": "ข่าวผู้บริหาร Nvidia ส่งผลตรงต่อหุ้นห่วงโซ่อุปทานอิเล็กทรอนิกส์และชิปของไทย สะท้อนความผูกพันของตลาดไทยกับวัฏจักร AI โลก",
+      "tags": [
+        "thailand",
+        "stock-market",
+        "nvidia",
+        "electronics",
+        "set-index"
+      ],
+      "published_at": "2026-11-24T09:32:56+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Stock Market",
+        "Electronics Supply Chain"
+      ],
+      "actions_developer": [
+        "ไม่มีผลต่องานพัฒนาโดยตรง ติดตามความต้องการฮาร์ดแวร์ AI ที่ขับเคลื่อนผู้ผลิตไทย",
+        "ใช้ข้อมูลตลาดเป็นสัญญาณดีมานด์ data center และ PCB ในภูมิภาค"
+      ],
+      "actions_business": [
+        "ติดตามผลต่อผู้ผลิตชิ้นส่วนอิเล็กทรอนิกส์ไทยในห่วงโซ่ AI server",
+        "ระวังความผันผวนจากปัจจัยมหภาคสหรัฐฯ เช่น Core PCE"
+      ],
+      "entities": {
+        "organizations": [
+          "InnovestX",
+          "Nvidia",
+          "DELTA",
+          "HANA",
+          "KCE",
+          "GPSC"
+        ],
+        "people": [
+          "Jensen Huang"
+        ],
+        "products": [],
+        "places": [
+          "Thailand",
+          "United States"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b1-11",
+      "slug": "confluent-streamhouse-realtime-ai",
+      "title": "Confluent launches Streamhouse to power AI with real-time business data",
+      "title_th": "Confluent เปิดตัว Streamhouse เพื่อขับเคลื่อน AI ด้วยข้อมูลธุรกิจแบบเรียลไทม์",
+      "topic_group": "tech-trends",
+      "source_name": "TechTalkThai",
+      "category": "Thai",
+      "urgency": "low",
+      "content": "Confluent บริษัทในเครือ IBM เปิดตัวความสามารถใหม่สำหรับสร้าง Streamhouse สถาปัตยกรรมข้อมูลที่ทำให้ข้อมูลธุรกิจเป็นปัจจุบันอยู่เสมอ เพื่อให้ AI Agent แอปพลิเคชัน และระบบวิเคราะห์ใช้ข้อมูลชุดเดียวกันระหว่างตัดสินใจและดำเนินการ โดยเปิดให้บริการ Lightning Tables อย่างเป็นทางการบน AWS ซึ่งเติมเต็มเสาหลักทั้ง 5 ของ Confluent Data Streaming Platform ได้แก่ Stream, Connect, Process, Govern และ Query บนแพลตฟอร์มเดียว Confluent ถือเป็นองค์ประกอบสำคัญในกลยุทธ์ข้อมูลของ IBM ที่ผสานการสตรีมแบบเรียลไทม์เข้ากับเทคโนโลยี integration, governance และ AI ของ IBM ในสภาพแวดล้อม hybrid เหตุผลคือ Data Lake, Data Warehouse และ Lakehouse ถูกออกแบบมาเพื่อรายงานและ batch processing แต่เมื่อ AI Agent ต้องตัดสินใจจากข้อมูลที่กระจายและอัปเดตต่างเวลา ก็อาจทำงานบนข้อมูลล้าสมัยหรือขัดแย้งกัน Confluent ยกตัวอย่างการจัดการเที่ยวบินที่ถูกยกเลิกของสายการบิน ซึ่งต้องอาศัยบริบทปัจจุบันจากหลายระบบพร้อมกัน",
+      "source_url": "https://www.techtalkthai.com/confluent-introducing-streamhouse-pr/",
+      "tech_impact": "AI Agent ต้องการข้อมูลเรียลไทม์ที่สอดคล้องกัน สถาปัตยกรรม streaming-first จึงกลายเป็นโครงสร้างพื้นฐานสำคัญของ agentic AI ในองค์กร",
+      "tags": [
+        "data-streaming",
+        "confluent",
+        "ibm",
+        "ai-agents",
+        "aws"
+      ],
+      "published_at": "2026-11-23T17:42:43+07:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Data Streaming",
+        "Data Architecture",
+        "AI Agents"
+      ],
+      "actions_developer": [
+        "ออกแบบ data pipeline แบบ streaming ให้ AI Agent อ่าน state ล่าสุด",
+        "ทดลอง Lightning Tables บน AWS สำหรับ query ข้อมูลสตรีม"
+      ],
+      "actions_business": [
+        "ประเมินช่องว่างระหว่าง batch data platform กับความต้องการของ agentic AI",
+        "พิจารณาต้นทุนการย้ายไปสถาปัตยกรรม Streamhouse"
+      ],
+      "entities": {
+        "organizations": [
+          "Confluent",
+          "IBM",
+          "AWS"
+        ],
+        "people": [],
+        "products": [
+          "Streamhouse",
+          "Lightning Tables",
+          "Confluent Data Streaming Platform"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-01",
+      "slug": "anthropic-claude-ship",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "title_th": "Anthropic เปิดตัว Claude Ship ให้ AI agent รีวิว แก้ไข และอนุมัติการเปลี่ยนแปลงโค้ดได้เอง",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "high",
+      "content": "Anthropic เปิดตัว Claude Ship ชุด AI agent สำหรับทำ code review แก้ไข และอนุมัติการเปลี่ยนแปลงโค้ดประจำแบบอัตโนมัติ ประกอบด้วย Code Review ที่เปิดใช้ทั่วไปแล้ว และ agent ใหม่ 2 ตัวในสถานะเบต้า คือ PR Steward ที่แก้ปัญหา CI ล้มเหลว merge conflict และ feedback จาก Code Review พร้อมคอมเมนต์ทุกครั้งที่ push ว่าเปลี่ยนอะไรและย้อนกลับอย่างไร และ Claude Approvals ที่อนุมัติการเปลี่ยนแปลงตาม approval policy ซึ่งทีมเขียนเป็นภาษาธรรมชาติในไฟล์ของ repository โดยใช้สัญญาณจาก Code Review หรือ classifier ขององค์กรประกอบ จุดเด่นคือการมอบอำนาจอนุมัติให้ AI เอง เพื่อแก้คอขวดการรีวิวเมื่อ coding agent เขียนโค้ดได้มากขึ้น Anthropic ระบุว่าในทีม Claude Code นั้น Claude เขียนโค้ดส่วนใหญ่อยู่แล้ว และแนะนำให้เริ่มใช้แบบ observe-only, เริ่มจาก repository เดียว และตั้งวงเงินรายเดือน ทีมยังเลือกระดับรีวิว Quick, Standard หรือ Deep และกำหนดว่างานใดต้องส่งให้มนุษย์ตัดสิน Claude Ship เปิดให้ลูกค้า Claude Team และ Enterprise สำหรับ repository บน GitHub",
+      "source_url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "tech_impact": "การให้ AI อนุมัติ PR เองเป็นก้าวสำคัญของ software factory อัตโนมัติ แต่เพิ่มคำถามด้าน governance และความรับผิดชอบต่อโค้ดที่ขึ้น production",
+      "tags": [
+        "anthropic",
+        "claude",
+        "code-review",
+        "ai-agents",
+        "github",
+        "devops"
+      ],
+      "published_at": "2026-11-23T22:05:50+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI Coding",
+        "DevOps",
+        "AI Agents"
+      ],
+      "actions_developer": [
+        "เริ่มใช้ Claude Approvals แบบ observe-only และเขียน approval policy ใน repo อย่างชัดเจน",
+        "กำหนดประเภทการเปลี่ยนแปลงที่ต้อง escalate ให้มนุษย์ เช่น security หรือ infra"
+      ],
+      "actions_business": [
+        "ตั้งวงเงินรายเดือนและวัดผลลด lead time ก่อนขยายทั้งองค์กร",
+        "ทบทวนนโยบาย compliance เรื่อง separation of duties เมื่อ AI เป็นผู้อนุมัติ"
+      ],
+      "entities": {
+        "organizations": [
+          "Anthropic",
+          "GitHub"
+        ],
+        "people": [],
+        "products": [
+          "Claude Ship",
+          "Code Review",
+          "PR Steward",
+          "Claude Approvals",
+          "Claude Code"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-02",
+      "slug": "openai-perplexity-safety-thresholds",
+      "title": "OpenAI warns upcoming AI systems could outpace safety checks, urges rivals to agree on shared limits",
+      "title_th": "OpenAI เตือน AI รุ่นถัดไปอาจเร็วกว่าการตรวจความปลอดภัย เปิดค่า perplexity ภายในและเรียกร้องคู่แข่งตั้งขีดจำกัดร่วม",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "high",
+      "content": "Jakub Pachocki หัวหน้านักวิทยาศาสตร์ของ OpenAI เผยแพร่บล็อก Perplexity and Intelligence ที่เปิดค่า log-perplexity ภายในของโมเดลฐานตระกูล GPT เป็นครั้งแรก ตั้งแต่ GPT-5 ถึง GPT-6.2 Astra และโมเดลภายในที่ยังไม่เปิดตัวราว 0.73 เขาต้องการให้ perplexity เป็นมาตรวัดความก้าวหน้าร่วมของอุตสาหกรรม แม้คู่แข่งจะเห็นสถานะของ OpenAI ชัดขึ้น เพราะความจำเป็นด้านมาตรฐานความปลอดภัยร่วมสำคัญกว่า Pachocki ระบุว่าความสามารถหลายอย่างผูกกับค่าเฉพาะ เช่น ราว 0.99 GPT-3.5 สนทนาได้ลื่นไหล ราว 0.91 GPT-4 เริ่มทำ chain-of-thought ได้จริง และต่ำกว่า 0.8 เกิดความสามารถพลิกโฉมด้านไซเบอร์และคณิตศาสตร์ ตั้งแต่ราว 0.76 โมเดลเริ่มให้ผลลัพธ์คณิตศาสตร์ระดับ breakthrough รวมถึงคำตอบปัญหา Navier-Stokes ที่ยังไม่ยืนยันเต็มที่ เขาคาดว่างานวิจัย deep learning อาจเกิดการก้าวกระโดดคล้ายกันได้ตั้งแต่ปี 2027 และเตือนว่าที่ระดับ 0.68-0.7 อาจเกิดความสามารถที่คาดเดาไม่ได้และการทดสอบปัจจุบันอาจตรวจไม่ทัน",
+      "source_url": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/",
+      "tech_impact": "การเปิดเผยมาตรวัดภายในเพื่อประสานจังหวะการพัฒนาระหว่างแล็บ เป็นสัญญาณว่า frontier labs มองว่าความสามารถกำลังเร่งเร็วกว่าเครื่องมือประเมินความปลอดภัย",
+      "tags": [
+        "openai",
+        "ai-safety",
+        "perplexity",
+        "scaling",
+        "gpt-6"
+      ],
+      "published_at": "2026-11-23T18:42:38+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI Safety",
+        "Scaling Laws",
+        "Evaluation"
+      ],
+      "actions_developer": [
+        "ติดตาม perplexity เป็นตัวชี้วัดเสริมเมื่อเปรียบเทียบโมเดลฐาน",
+        "เตรียม eval ภายในสำหรับความสามารถใหม่ที่อาจปรากฏแบบไม่คาดคิด"
+      ],
+      "actions_business": [
+        "ติดตามข้อตกลงความปลอดภัยร่วมระหว่างแล็บที่อาจกระทบรอบการปล่อยโมเดล",
+        "วางแผนรับมือความสามารถด้านไซเบอร์ของโมเดลที่เพิ่มขึ้นทั้งฝั่งรุกและรับ"
+      ],
+      "entities": {
+        "organizations": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "people": [
+          "Jakub Pachocki"
+        ],
+        "products": [
+          "GPT-6.2 Astra",
+          "GPT-6 Astra",
+          "GPT-4",
+          "GPT-3.5"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-03",
+      "slug": "xai-rents-compute-to-anthropic",
+      "title": "Anthropic's appetite for compute is pushing xAI toward a rent-over-build strategy",
+      "title_th": "ความต้องการ compute ของ Anthropic ผลักให้ xAI หันมาให้เช่ามากกว่าสร้างโมเดลเอง",
+      "topic_group": "global",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "The Decoder อ้างรายงานของ New York Times ว่าความต้องการ compute มหาศาลของ Anthropic สอดรับกับแรงกดดันด้านกำไรของ xAI บริษัท AI ของ Elon Musk ซึ่งให้คู่แข่งเช่า compute มาตั้งแต่เดือนพฤษภาคม และ IPO ในเดือนมิถุนายนยิ่งเร่งความต้องการรายได้ ปัจจุบัน Anthropic เป็นลูกค้ารายใหญ่ที่สุดของ xAI ด้วยสัญญาราว 3,100 ล้านดอลลาร์ต่อเดือน ส่วน Google ใช้จ่าย 800 ล้านดอลลาร์ ทั้งสองสัญญายกเลิกได้โดยแจ้งล่วงหน้า 90 วัน รายได้จากส่วนนี้คิดเป็นมากกว่าครึ่งของรายได้ทั้งหมด คนในระบุว่าบริษัทต้องเร่งสร้าง data center ใหม่ให้เสร็จภายในตุลาคมเพื่อรองรับคำสั่งของ Anthropic และ Musk บอกว่า Anthropic ต้องการเช่าเพิ่มอีก ในเดือนสิงหาคม Musk กดดันวิศวกรเรื่องรายได้ต่อ GPU และรายงานว่าเปลี่ยนชื่อแชตภายในเป็น Sell compute because we can't compete xAI จึงตัดหรือปรับโครงการ AI ของตัวเอง เช่น ยุบทีม 60 คนของ Grok Imagine และปิด AI avatars ไปเมื่อกันยายน",
+      "source_url": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/",
+      "tech_impact": "ตลาด compute กำลังแยกเป็นผู้ให้เช่ากับผู้สร้างโมเดล Anthropic พึ่งพาคู่แข่งด้านโครงสร้างพื้นฐาน ขณะที่ xAI ลดบทบาทการแข่งขันด้านโมเดล",
+      "tags": [
+        "xai",
+        "anthropic",
+        "compute",
+        "data-centers",
+        "grok"
+      ],
+      "published_at": "2026-11-23T18:47:53+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Compute",
+        "Data Centers",
+        "AI Business"
+      ],
+      "actions_developer": [
+        "ออกแบบระบบให้ย้ายผู้ให้บริการ GPU ได้ เพราะสัญญาเช่ายกเลิกได้ใน 90 วัน",
+        "ติดตามการยุติบริการ Grok Imagine หากใช้ API ด้านสื่อของ xAI"
+      ],
+      "actions_business": [
+        "ประเมินความเสี่ยงการพึ่งพา compute จากผู้ให้บริการที่เป็นคู่แข่ง",
+        "มองโอกาสธุรกิจ neocloud และการให้เช่า GPU ในภูมิภาค"
+      ],
+      "entities": {
+        "organizations": [
+          "xAI",
+          "Anthropic",
+          "Google",
+          "OpenAI",
+          "New York Times"
+        ],
+        "people": [
+          "Elon Musk",
+          "Mike Nicolls"
+        ],
+        "products": [
+          "Grok Imagine",
+          "Sora"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-04",
+      "slug": "gpt-6-2-astra-lean-gap-theorem",
+      "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
+      "title_th": "GPT-6.2 Astra พิสูจน์ทฤษฎีบทที่ AI อื่นทำไม่ได้ด้วยกลยุทธ์ที่คิดขึ้นเอง",
+      "topic_group": "ai-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Vals AI รายงานว่า GPT-6.2 Astra ของ OpenAI สร้างบทพิสูจน์แบบ formal ที่เครื่องตรวจสอบได้ของ Smoktunowicz's gap theorem จากปี 2006 โดยไม่มีมนุษย์ช่วยระหว่างการรัน และเป็นบทพิสูจน์ทฤษฎีบทนี้ในภาษา Lean ครั้งแรกที่รู้จัก ทฤษฎีบทระบุว่าเมื่อระบบคณิตศาสตร์คูณองค์ประกอบพื้นฐาน การเติบโตจะช้ามากหรือเร็วมาก ไม่มีตรงกลาง เนื่องจากพื้นฐานสำคัญของบทพิสูจน์เดิมไม่มีใน Mathlib โมเดลจึงใช้เส้นทางอื่นโดยอาศัยตัวชี้วัด capacity ผลนี้เกิดบน Autoform-Hard ชุดย่อยของ AutoformBench จาก Meta FAIR ที่มี 56 โจทย์ซึ่งโมเดล 10 ตัวในงานของ Meta แก้ไม่ได้ เมื่อ Astra พยายามยอมแพ้หลัง 47 นาทีและ 8 ดอลลาร์ ระบบปฏิเสธเพราะต้องใช้งบถึง 20 ดอลลาร์ก่อน หลังเงียบไป 9 นาทีเพื่อหากลยุทธ์ใหม่ โมเดลส่งบทพิสูจน์ 1,800 บรรทัดในนาทีที่ 94 ด้วยต้นทุน 21.58 ดอลลาร์ และขึ้นนำ leaderboard ด้วย 49 โจทย์ นำ GPT-6.2 Sol และ Claude Fable 5.2 ที่ทำได้ 48",
+      "source_url": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
+      "tech_impact": "ความสามารถพิสูจน์ทฤษฎีบทแบบ formal ด้วยกลยุทธ์ใหม่แสดงว่าโมเดลเริ่มทำงานวิจัยคณิตศาสตร์อัตโนมัติได้ด้วยต้นทุนต่ำ",
+      "tags": [
+        "openai",
+        "gpt-6",
+        "lean",
+        "theorem-proving",
+        "benchmark"
+      ],
+      "published_at": "2026-11-23T12:17:01+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Theorem Proving",
+        "AI for Science",
+        "Benchmarks"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ LLM ร่วมกับ Lean/Mathlib สำหรับ formal verification ของอัลกอริทึม",
+        "ออกแบบ agent loop ที่มีงบขั้นต่ำและป้องกันการยอมแพ้เร็วเกินไป"
+      ],
+      "actions_business": [
+        "ติดตามการใช้ AI ในงาน R&D ที่ต้องการการพิสูจน์ความถูกต้อง",
+        "ประเมินต้นทุนต่อผลลัพธ์ของงานวิจัยอัตโนมัติ"
+      ],
+      "entities": {
+        "organizations": [
+          "OpenAI",
+          "Vals AI",
+          "Meta FAIR",
+          "Anthropic"
+        ],
+        "people": [],
+        "products": [
+          "GPT-6.2 Astra",
+          "GPT-6.2 Sol",
+          "Claude Fable 5.2",
+          "Lean",
+          "Mathlib",
+          "AutoformBench"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-05",
+      "slug": "chatgpt-gpt-6-2-sol-update",
+      "title": "OpenAI updates ChatGPT to handle complex everyday questions, web searches, and images more reliably",
+      "title_th": "OpenAI อัปเดต ChatGPT ด้วย GPT-6.2 Sol ตอบคำถามซับซ้อน ค้นเว็บ และเข้าใจภาพได้ดีขึ้น",
+      "topic_group": "tech-trends",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "OpenAI เริ่มปล่อย GPT-6.2 Sol เวอร์ชันปรับสำหรับแชตทั่วโลก ให้ผู้ใช้ Plus, Pro, Business และ Enterprise บริษัทระบุว่าโมเดลจัดการคำขอซับซ้อนและการค้นเว็บได้ดีกว่า GPT-6 และถามคำถามต่อเนื่องที่ตรงประเด็นขึ้น ในการทดสอบภายใน GPT-6.2 เข้าใจภาพได้ดีขึ้นที่ 71.7% เทียบกับ 47.4% และทำตามคำสั่งยาก ๆ ได้ 78.1% เทียบกับ 62.5% บน benchmark ภายในสำหรับงานระดับผู้เชี่ยวชาญ GPT-6.2 ได้ราว 65 ถึงกว่า 71% ทุกระดับการให้เหตุผล เทียบกับราว 52-66% ของ GPT-6 และบน BrowseComp เวอร์ชันภายในนำทุกระดับ โดยระดับสูงสุดนำราว 10 จุด ตาม system card โมเดลปฏิบัติตามนโยบายความปลอดภัยใน 91-94% ของบทสนทนายาก เพิ่มจาก 77-80% ของ GPT-6 โดยพัฒนามากที่สุดด้านความปลอดภัยของเยาวชน ตัวเลขเหล่านี้ใช้กับโหมดแชตเท่านั้น ส่วนโมเดล Work และ Codex ยังเหมือนเดิม และผู้ดูแลระบบ Enterprise เลือกได้ว่าจะเปิด GPT-6.2 ให้ผู้ใช้หรือไม่",
+      "source_url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
+      "tech_impact": "การอัปเกรดโมเดลแชตหลักส่งผลต่อผู้ใช้ ChatGPT หลายร้อยล้านคน โดยเฉพาะงานค้นเว็บและวิเคราะห์ภาพ พร้อมยกระดับความปลอดภัยสำหรับเยาวชน",
+      "tags": [
+        "openai",
+        "chatgpt",
+        "gpt-6",
+        "model-update",
+        "safety"
+      ],
+      "published_at": "2026-11-23T20:39:18+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Chatbots",
+        "Model Updates",
+        "AI Safety"
+      ],
+      "actions_developer": [
+        "ทดสอบ prompt และ workflow เดิมกับ GPT-6.2 Sol ก่อนผู้ใช้ในองค์กรได้รับ",
+        "แยกการประเมินโหมดแชตออกจากโมเดล Work/Codex ที่ไม่เปลี่ยน"
+      ],
+      "actions_business": [
+        "ผู้ดูแล Enterprise ควรวางแผน rollout GPT-6.2 ให้ผู้ใช้เป็นกลุ่ม",
+        "อัปเดตคู่มือการใช้งานด้านการค้นเว็บและการอ่านภาพ"
+      ],
+      "entities": {
+        "organizations": [
+          "OpenAI"
+        ],
+        "people": [],
+        "products": [
+          "ChatGPT",
+          "GPT-6.2 Sol",
+          "GPT-6",
+          "BrowseComp",
+          "Codex"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-06",
+      "slug": "amazon-decart-trainium",
+      "title": "Amazon snaps up Decart's AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+      "title_th": "Amazon ซื้อเทคโนโลยีเพิ่มประสิทธิภาพ AI ของ Decart มูลค่า 7.5 พันล้านดอลลาร์ เตรียมขายชิป Trainium",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Amazon ตกลงซื้อกิจการส่วนสำคัญของสตาร์ทอัพอิสราเอล Decart มูลค่า 7,500 ล้านดอลลาร์ ตามรายงานของ Bloomberg Decart เป็นที่รู้จักจากการสร้าง world model แบบโต้ตอบเรียลไทม์ ล่าสุดคือ Oasis 3 และเครื่องมือสร้างวิดีโอด้วย AI แต่จุดเด่นเบื้องหลังคือ Decart Optimization Stack (DOS) ซอฟต์แวร์ที่ช่วยให้โมเดล AI รันได้อย่างมีประสิทธิภาพบนฮาร์ดแวร์ของ Nvidia, Amazon และ Google ภายใต้ดีลนี้ Amazon จะได้เทคโนโลยี DOS ทีมผู้ก่อตั้ง และทีมนักวิจัยและวิศวกร AI ของ Decart Peter DeSantis รองประธานอาวุโสด้าน foundational AI models, custom silicon และ quantum computing ของ Amazon ระบุว่าทุกการก้าวกระโดดของ AI เริ่มจากการดึงประสิทธิภาพจากชิปให้มากที่สุด ซึ่งหมายถึงการเทรน reinforcement learning และ inference ที่ดีขึ้นในต้นทุนต่ำลง Amazon ซึ่งใช้ชิป Trainium ใน data center ของตัวเองกำลังเตรียมขายชิปให้ลูกค้าโดยตรงเพื่อแข่งกับ Nvidia และ DOS อาจช่วยให้ลูกค้าย้ายงานมารันบน Trainium ได้ง่ายขึ้น",
+      "source_url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "tech_impact": "ซอฟต์แวร์ optimization คือกุญแจทำลาย lock-in ของ CUDA ดีลนี้ทำให้ Trainium เป็นทางเลือกที่จริงจังขึ้นต่อ Nvidia",
+      "tags": [
+        "amazon",
+        "aws",
+        "trainium",
+        "acquisition",
+        "ai-chips",
+        "inference"
+      ],
+      "published_at": "2026-11-23T17:14:23+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Chips",
+        "M&A",
+        "Inference Optimization"
+      ],
+      "actions_developer": [
+        "ติดตามเครื่องมือย้าย workload จาก CUDA ไป Trainium ที่จะตามมา",
+        "ทดสอบต้นทุน inference บน AWS Trainium เทียบกับ GPU"
+      ],
+      "actions_business": [
+        "ประเมินกลยุทธ์ multi-silicon เพื่อลดต้นทุน compute",
+        "จับตาราคาชิปที่อาจแข่งขันมากขึ้นเมื่อ Amazon ขาย Trainium"
+      ],
+      "entities": {
+        "organizations": [
+          "Amazon",
+          "AWS",
+          "Decart",
+          "Nvidia",
+          "Google",
+          "Bloomberg"
+        ],
+        "people": [
+          "Peter DeSantis"
+        ],
+        "products": [
+          "Trainium",
+          "Decart Optimization Stack",
+          "Oasis 3"
+        ],
+        "places": [
+          "Israel"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-07",
+      "slug": "us-blacklists-megaspeed-thailand",
+      "title": "U.S. adds Megaspeed, including its Thailand unit, to trade blacklist over export control concerns",
+      "title_th": "สหรัฐฯ ขึ้นบัญชีดำ Megaspeed รวมบริษัทลูกในไทย ฐานเสี่ยงลักลอบส่งชิปขั้นสูง",
+      "topic_group": "thailand",
+      "source_name": "CNBC Tech",
+      "category": "International",
+      "urgency": "high",
+      "content": "สหรัฐฯ เพิ่ม Megaspeed บริษัทคลาวด์จากสิงคโปร์ และบริษัทในเอเชียตะวันออกเฉียงใต้อีก 6 ราย เข้าบัญชีดำทางการค้า โดยกระทรวงพาณิชย์สหรัฐฯ อ้างความเสี่ยงสูงที่จะเบี่ยงเบนผลิตภัณฑ์ computing ขั้นสูงไปยังผู้ใช้ที่ไม่ได้รับอนุญาต รายชื่อรวมถึง Megaspeed (Thailand) Co., Ltd., PT Megaspeed International และ MSFusion Sdn. Bhd. ในมาเลเซีย โดยระบุว่า 7Road International เป็นชื่อแฝงของหน่วยงานในสิงคโปร์และไทย ข้อจำกัดครอบคลุมทุกรายการภายใต้ Export Administration Regulations และคำขอใบอนุญาตจะถูกพิจารณาแบบ presumption of denial การขึ้นบัญชีเกิดขณะที่ Jensen Huang กลับมาเป็น CEO ของ Nvidia หลังลาออกเพราะข่าวความสัมพันธ์กับ Alice Huang อดีตผู้บริหาร Megaspeed ที่ถูกสอบสวน กระทรวงพาณิชย์เริ่มสอบสวน Megaspeed ตั้งแต่ปี 2024 และ Nvidia ขึ้นบัญชี no sell ในปี 2025 นอกจากนี้ยังมี Apex Enterprise Solutions บริษัทลูก Alibaba ในสิงคโปร์ ซึ่ง Alibaba ปฏิเสธข้อกล่าวหา ขณะที่นายกฯ สิงคโปร์ Lawrence Wong ระบุว่าไม่ต้องการให้ประเทศถูกใช้หลบเลี่ยงมาตรการ",
+      "source_url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
+      "tech_impact": "การขึ้นบัญชีบริษัทที่มีนิติบุคคลในไทยเพิ่มแรงกดดันต่อธุรกิจ data center และ GPU cloud ในไทย ซึ่งต้องเข้มงวดเรื่อง KYC และ end-use มากขึ้น",
+      "tags": [
+        "export-controls",
+        "megaspeed",
+        "entity-list",
+        "thailand",
+        "ai-chips",
+        "nvidia"
+      ],
+      "published_at": "2026-11-24T01:56:28+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Export Controls",
+        "AI Chips",
+        "Data Centers"
+      ],
+      "actions_developer": [
+        "ตรวจสอบว่าผู้ให้บริการ GPU cloud ที่ใช้ไม่อยู่ใน Entity List",
+        "เตรียมระบบ audit การใช้งาน compute ตามข้อกำหนด end-use"
+      ],
+      "actions_business": [
+        "ทบทวนคู่ค้าและห่วงโซ่อุปทานชิปในไทยและอาเซียนเทียบกับ Entity List",
+        "ติดตามท่าทีรัฐบาลไทยต่อการกำกับ data center ที่ให้บริการลูกค้าต่างชาติ"
+      ],
+      "entities": {
+        "organizations": [
+          "U.S. Department of Commerce",
+          "U.S. Department of Justice",
+          "Megaspeed International",
+          "Megaspeed (Thailand) Co., Ltd.",
+          "MSFusion",
+          "Nvidia",
+          "Alibaba",
+          "Apex Enterprise Solutions"
+        ],
+        "people": [
+          "Jensen Huang",
+          "Alice Huang",
+          "Lawrence Wong"
+        ],
+        "products": [],
+        "places": [
+          "Thailand",
+          "Singapore",
+          "Malaysia",
+          "Indonesia",
+          "United States"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-08",
+      "slug": "oregon-virginia-sue-spacex-grok",
+      "title": "SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims",
+      "title_th": "รัฐโอเรกอนและเวอร์จิเนียฟ้อง SpaceX กรณี Grok สร้าง deepfake อนาจารและอ้างความปลอดภัยเกินจริง",
+      "topic_group": "global",
+      "source_name": "CNBC Tech",
+      "category": "International",
+      "urgency": "medium",
+      "content": "รัฐเวอร์จิเนียและโอเรกอนเป็นรัฐแรกที่ยื่นฟ้อง SpaceX บริษัทของ Elon Musk ที่ปัจจุบันดูแล Grok และโซเชียลเน็ตเวิร์ก X กรณีเครื่องมือสร้างภาพ Grok งานวิจัยของ Internet Watch Foundation, Center for Countering Digital Hate และองค์กรอื่นพบว่า Grok และ X ถูกใช้สร้างและเผยแพร่ deepfake อนาจารจากภาพหรือวิดีโอจริงของเด็กและบุคคลที่ไม่ยินยอม ในคำฟ้องที่ยื่นต่อศาลรัฐ อัยการสูงสุดโอเรกอน Dan Rayfield และอัยการสูงสุดเวอร์จิเนีย Jay Jones ระบุว่า SpaceX ไม่วางมาตรการป้องกันการสร้างและแชร์ภาพอันตราย โดยเฉพาะภาพล่วงละเมิดทางเพศเด็กที่สร้างด้วย AI และยังโฆษณาว่า Grok และ X ปลอดภัยโดยทั่วไป ซึ่งรัฐมองว่าขัดกฎหมายคุ้มครองผู้บริโภคของเวอร์จิเนียและกฎหมายการค้าที่ไม่เป็นธรรมของโอเรกอน ประเด็นนี้น่ากังวลยิ่งขึ้นเพราะ X อนุญาตให้ผู้ใช้อายุ 13 ปีขึ้นไปเข้าถึงเนื้อหา คดีนี้อาจเป็นต้นแบบให้รัฐอื่นดำเนินการตาม",
+      "source_url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+      "tech_impact": "การฟ้องร้องระดับรัฐเรื่อง generative AI กับเนื้อหาอันตรายเพิ่มความเสี่ยงทางกฎหมายต่อผู้ให้บริการสร้างภาพ และเร่งมาตรฐาน safety-by-design",
+      "tags": [
+        "grok",
+        "xai",
+        "deepfakes",
+        "lawsuit",
+        "child-safety",
+        "regulation"
+      ],
+      "published_at": "2026-11-23T12:40:37+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Regulation",
+        "Content Safety",
+        "Deepfakes"
+      ],
+      "actions_developer": [
+        "ติดตั้ง classifier และ provenance/watermark สำหรับภาพที่สร้างด้วย AI",
+        "บล็อกการแก้ไขภาพบุคคลจริงโดยไม่มีความยินยอม"
+      ],
+      "actions_business": [
+        "ทบทวนคำกล่าวอ้างด้านความปลอดภัยในการตลาดผลิตภัณฑ์ AI ให้ตรงความจริง",
+        "ประเมินความเสี่ยงทางกฎหมายคุ้มครองผู้บริโภคในแต่ละตลาด"
+      ],
+      "entities": {
+        "organizations": [
+          "SpaceX",
+          "xAI",
+          "X",
+          "Internet Watch Foundation",
+          "Center for Countering Digital Hate"
+        ],
+        "people": [
+          "Elon Musk",
+          "Dan Rayfield",
+          "Jay Jones"
+        ],
+        "products": [
+          "Grok"
+        ],
+        "places": [
+          "Oregon",
+          "Virginia",
+          "United States"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-09",
+      "slug": "sierra-30b-valuation-ai-cx",
+      "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+      "title_th": "Sierra ระดมทุน 1.75 พันล้านดอลลาร์ มูลค่าพุ่งเท่าตัวเป็น 3 หมื่นล้านดอลลาร์ใน 6 เดือน",
+      "topic_group": "global",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "low",
+      "content": "Sierra บริษัท AI ด้าน customer experience สำหรับองค์กรที่ร่วมก่อตั้งโดย Bret Taylor อดีต co-CEO ของ Salesforce ประกาศระดมทุน Series F มูลค่า 1,750 ล้านดอลลาร์ ทำให้มูลค่าบริษัทเพิ่มเท่าตัวเป็น 30,000 ล้านดอลลาร์ ภายในหกเดือนหลังรอบก่อนหน้าที่ประเมินไว้ 15,000 ล้านดอลลาร์ รอบนี้นำโดย Greenoaks และ Lightspeed Venture Partners ร่วมด้วยนักลงทุนเดิมอย่าง Benchmark, Sequoia, GV และ Tiger Global งานอัตโนมัติในองค์กรเป็นไม่กี่ด้านที่ AI ถูกนำไปใช้อย่างรวดเร็ว Sierra ระบุว่าให้บริการเกือบ 50% ของบริษัท Fortune 50 ลูกค้ารวมถึง BNY, HSBC, Singtel, Wells Fargo, JPMorganChase, Pearson, Next และ Cox Automotive และโมเดลราคาตามผลลัพธ์ช่วยให้รายได้ run-rate เพิ่มเป็นเท่าตัวเป็น 400 ล้านดอลลาร์ภายในห้าเดือน บริษัทยังร่วมกับ Meta, Stripe และ Walmart สร้างนิยาม protocol สำหรับ agent และจะใช้เงินทุนพัฒนาเทคโนโลยี agent งานบริการและขยายทีมขาย",
+      "source_url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "tech_impact": "การเติบโตของ Sierra ยืนยันว่า AI agent ด้านบริการลูกค้าเป็น use case ที่สร้างรายได้จริง และ outcome-based pricing กำลังเป็นมาตรฐานใหม่",
+      "tags": [
+        "sierra",
+        "funding",
+        "customer-experience",
+        "ai-agents",
+        "enterprise-ai"
+      ],
+      "published_at": "2026-11-23T14:43:03+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Enterprise AI",
+        "Customer Experience",
+        "Venture Funding"
+      ],
+      "actions_developer": [
+        "ศึกษา protocol ระหว่าง agent ส่วนบุคคลกับระบบองค์กรที่กำลังถูกกำหนด",
+        "ออกแบบ customer-service agent ที่วัดผลลัพธ์ได้ชัดเจน"
+      ],
+      "actions_business": [
+        "พิจารณาโมเดลจ่ายตามผลลัพธ์เมื่อจัดซื้อ AI ด้านบริการลูกค้า",
+        "เทียบ ROI ของ AI CX กับ contact center เดิม"
+      ],
+      "entities": {
+        "organizations": [
+          "Sierra",
+          "Salesforce",
+          "Greenoaks",
+          "Lightspeed Venture Partners",
+          "Benchmark",
+          "Sequoia",
+          "GV",
+          "Tiger Global",
+          "HSBC",
+          "Singtel",
+          "Meta",
+          "Stripe",
+          "Walmart"
+        ],
+        "people": [
+          "Bret Taylor"
+        ],
+        "products": [],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-10",
+      "slug": "google-ai-mode-drive-wallet",
+      "title": "Google Search's AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "title_th": "AI Mode ใน Google Search เชื่อมต่อ Drive และ Wallet ให้คำตอบเฉพาะบุคคลมากขึ้น",
+      "topic_group": "tech-trends",
+      "source_name": "TechCrunch AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "Google ขยายฟีเจอร์ Personal Intelligence ใน AI Mode ของ Google Search ให้เชื่อมต่อ Google Drive, Google Wallet และแอป Gemini เพิ่มเติม จากเดิมที่เชื่อมได้กับ Gmail, Google Calendar และ Google Photos ฟีเจอร์นี้ออกแบบมาให้คำตอบที่เข้าใจบริบทและเฉพาะบุคคลมากขึ้นโดยดึงข้อมูลจากชีวิตดิจิทัลของผู้ใช้ ซึ่งเป็นความได้เปรียบที่คู่แข่งตามได้ยากเพราะผู้ใช้จำนวนมากใช้บริการเหล่านี้อยู่แล้ว การเชื่อมต่อเป็นทางเลือก และผู้ใช้เปิดหรือปิด Personal Intelligence ได้ตลอดเวลา Google ระบุว่าการเชื่อม Wallet ช่วยติดตามเป้าหมายการเงิน ลดค่าใช้จ่ายประจำวัน และใช้สิทธิประโยชน์บัตรเครดิตได้ดีขึ้น โดย AI Mode อ่านข้อมูลบัญชีได้อย่างเดียว ไม่สามารถโอนหรือจัดการเงิน ส่วนการเชื่อม Drive ช่วยดึงข้อมูลจากเอกสารและสเปรดชีตที่กระจัดกระจายเกี่ยวกับโปรเจกต์หรือการตัดสินใจสำคัญ เพื่อให้คำตอบที่เกี่ยวข้องมากขึ้น การขยายครั้งนี้ทำให้การค้นหาของ Google กลายเป็นผู้ช่วยส่วนตัวที่ใช้ข้อมูลส่วนบุคคลอย่างลึกซึ้งขึ้น",
+      "source_url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "tech_impact": "การค้นหาเชื่อมข้อมูลส่วนบุคคลข้ามบริการทำให้ Google ได้เปรียบด้าน context แต่เพิ่มประเด็นความเป็นส่วนตัวและการกำกับข้อมูล",
+      "tags": [
+        "google",
+        "ai-mode",
+        "personal-intelligence",
+        "search",
+        "privacy"
+      ],
+      "published_at": "2026-11-23T19:14:46+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Search",
+        "Personal AI",
+        "Privacy"
+      ],
+      "actions_developer": [
+        "ออกแบบแอปที่ใช้ Drive API ให้รองรับการถูกอ้างอิงโดย AI assistant",
+        "ศึกษารูปแบบ consent และ read-only access สำหรับข้อมูลการเงิน"
+      ],
+      "actions_business": [
+        "องค์กรควรกำหนดนโยบายการเชื่อมบัญชีงานกับฟีเจอร์ AI ส่วนบุคคล",
+        "ประเมินผลต่อ SEO เมื่อคำตอบอิงข้อมูลส่วนตัวมากขึ้น"
+      ],
+      "entities": {
+        "organizations": [
+          "Google"
+        ],
+        "people": [],
+        "products": [
+          "AI Mode",
+          "Personal Intelligence",
+          "Google Drive",
+          "Google Wallet",
+          "Gemini",
+          "Gmail"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-11",
+      "slug": "ai-data-centers-cop31-climate",
+      "title": "AI data centers throw another wrench into chaotic UN climate talks",
+      "title_th": "data center AI สร้างปัญหาใหม่ให้การเจรจาโลกร้อน COP31 ที่จบอย่างวุ่นวาย",
+      "topic_group": "global",
+      "source_name": "The Verge AI",
+      "category": "International",
+      "urgency": "medium",
+      "content": "The Verge รายงานว่าการประชุม COP31 ของสหประชาชาติที่เมืองอันตัลยา ประเทศตุรกี จบลงอย่างวุ่นวายและไม่น่าพอใจเมื่อวันอาทิตย์ โดยหนึ่งในประเด็นที่ซับซ้อนขึ้นคือการเติบโตของ data center AI ที่ใช้ไฟฟ้ามหาศาล การปฏิวัติพลังงานสะอาดต้องอาศัยการเปลี่ยนเศรษฐกิจโลกให้ใช้ไฟฟ้า เพื่อให้บ้านและรถยนต์ใช้พลังงานแสงอาทิตย์และลมแทนน้ำมันและก๊าซ ผลลัพธ์ที่ถูกจับตามากที่สุดคือข้อตกลงเพิ่มสัดส่วนไฟฟ้าในการใช้พลังงานโลกเป็น 35% ภายในปี 2035 จากราว 20% ในปัจจุบัน แต่เป้าหมายนี้ยากขึ้นเมื่อ data center ทำให้ความต้องการไฟฟ้าพุ่งขึ้นอย่างรวดเร็ว ทำให้กระแสการสร้าง data center AI กลายเป็นประเด็นด้านภูมิอากาศควบคู่กับการเจรจาเลิกใช้เชื้อเพลิงฟอสซิล ผู้แทนหลายประเทศต้องชั่งน้ำหนักระหว่างการดึงดูดการลงทุน AI กับการรักษาเป้าหมายลดก๊าซเรือนกระจก ภายใต้ความมุ่งมั่นของข้อตกลงปารีสปี 2015",
+      "source_url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "tech_impact": "ความต้องการพลังงานของ AI กลายเป็นประเด็นนโยบายภูมิอากาศระดับโลก ซึ่งจะกระทบการอนุมัติและต้นทุน data center รวมถึงในไทยและอาเซียน",
+      "tags": [
+        "data-centers",
+        "energy",
+        "climate",
+        "cop31",
+        "electricity"
+      ],
+      "published_at": "2026-11-23T21:09:37+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Energy",
+        "Climate Policy",
+        "Data Centers"
+      ],
+      "actions_developer": [
+        "ออกแบบระบบ AI ให้ประหยัดพลังงาน เช่น เลือกโมเดลเล็กและ caching",
+        "วัดและรายงาน carbon footprint ของ workload AI"
+      ],
+      "actions_business": [
+        "รวมต้นทุนพลังงานสะอาดในแผนลงทุน data center",
+        "ติดตามมาตรการภูมิอากาศที่อาจกำหนดเงื่อนไขกับ data center ใหม่"
+      ],
+      "entities": {
+        "organizations": [
+          "United Nations",
+          "COP31"
+        ],
+        "people": [],
+        "products": [],
+        "places": [
+          "Antalya",
+          "Turkey"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-12",
+      "slug": "thomas-nagel-anthropic-ai-consciousness",
+      "title": "A legendary philosopher isn't buying Anthropic's consciousness argument",
+      "title_th": "นักปรัชญาระดับตำนาน Thomas Nagel ไม่เชื่อข้อโต้แย้งเรื่องจิตสำนึกของ AI ของ Anthropic",
+      "topic_group": "ai-trends",
+      "source_name": "MIT Tech Review AI",
+      "category": "International",
+      "urgency": "low",
+      "content": "MIT Technology Review รายงานว่าก่อน IPO เมื่อสัปดาห์ก่อน Anthropic ระบุในเอกสารว่าความเป็นไปได้ที่ AI จะมีจิตสำนึกเป็นปัจจัยเสี่ยงสำหรับนักลงทุน เพราะบริษัทอาจออกกฎดูแลสวัสดิภาพโมเดลมากกว่าคู่แข่ง เหตุผลของ Anthropic คือ AI วันนี้อาจยังไม่มีจิตสำนึกแต่ไม่อาจแน่ใจ และโอกาสจะสูงขึ้นเมื่อ AI เก่งขึ้น แนวคิดนี้ไม่ได้สุดโต่ง โพลหนึ่งพบว่า 33% ของคนอเมริกันเชื่อว่า AI จะมีจิตสำนึกในอนาคต และ 7% เชื่อว่ามีแล้ว ขณะที่การสำรวจนักปรัชญา 1,092 คนในปี 2020 พบว่า 39% คิดว่า AI ในอนาคตบางระบบจะมีจิตสำนึก แต่ Thomas Nagel นักปรัชญาผู้เขียนบทความเรื่องค้างคาวปี 1974 และเพิ่งได้รางวัล Berggruen Prize มูลค่า 1 ล้านดอลลาร์ วิจารณ์อย่างตรงไปตรงมาในบทสัมภาษณ์กับ Wired ว่าคนฉลาดที่สุดบางกลุ่มกำลังคิดผิดอย่างร้ายแรง เขาเห็นว่าไม่ควรมองแค่การประมวลผลข้อมูลโดยละเลยความต่างทางกายภาพระหว่างสมองชีวภาพกับชิปซิลิคอน และการผลิตภาษาของโมเดลไม่เพียงพอจะสรุปว่ามีจิตสำนึก",
+      "source_url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "tech_impact": "ข้อถกเถียงเรื่องจิตสำนึกและสวัสดิภาพโมเดลกลายเป็นประเด็นธุรกิจจริงหลัง Anthropic ใส่ไว้ในเอกสาร IPO และอาจกระทบนโยบายผลิตภัณฑ์",
+      "tags": [
+        "ai-consciousness",
+        "anthropic",
+        "philosophy",
+        "model-welfare"
+      ],
+      "published_at": "2026-11-23T17:36:08+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "AI Ethics",
+        "Philosophy of Mind",
+        "Model Welfare"
+      ],
+      "actions_developer": [
+        "ติดตามนโยบาย model welfare ที่อาจเปลี่ยนพฤติกรรมของ Claude ในการใช้งาน",
+        "แยกประเด็นการรับรู้ของผู้ใช้ต่อ AI ออกจากความสามารถทางเทคนิค"
+      ],
+      "actions_business": [
+        "พิจารณาผลกระทบชื่อเสียงจากการสื่อสารเรื่อง AI consciousness",
+        "ติดตามปัจจัยเสี่ยงที่ Anthropic เปิดเผยต่อนักลงทุน"
+      ],
+      "entities": {
+        "organizations": [
+          "Anthropic",
+          "MIT Technology Review",
+          "Wired"
+        ],
+        "people": [
+          "Thomas Nagel"
+        ],
+        "products": [
+          "Claude"
+        ],
+        "places": [
+          "United States"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-13",
+      "slug": "china-military-ai-nuclear-deterrence",
+      "title": "Chinese military fears AI could let the US find and destroy its nuclear missiles",
+      "title_th": "กองทัพจีนกังวล AI อาจช่วยสหรัฐฯ ค้นหาและทำลายขีปนาวุธนิวเคลียร์ของจีน",
+      "topic_group": "global",
+      "source_name": "The Decoder",
+      "category": "International",
+      "urgency": "medium",
+      "content": "The Decoder อ้างการวิเคราะห์ของ New York Times ว่านักวิจัยทางทหารของจีนกังวลว่าความก้าวหน้าของ AI อาจทำให้สหรัฐฯ ได้เปรียบในดุลอำนาจนิวเคลียร์ โดยช่วยให้ตรวจจับและทำลายขีปนาวุธนิวเคลียร์ของจีนได้ง่ายขึ้น ซึ่งจะบั่นทอนยุทธศาสตร์การป้องปรามที่อาศัยความสามารถโจมตีตอบโต้ระลอกสอง นักวิจัยจาก Academy of Military Sciences ในปักกิ่งเขียนว่า AI อาจลดเวลาตัดสินใจของสหรัฐฯ จาก 15-30 นาทีเหลือเพียง 90 วินาที ปัจจุบันจีนมีหัวรบพร้อมใช้ราว 620 หัว ตาม Federation of American Scientists และคาดว่าจะเพิ่มเป็นราว 1,000 หัวภายในปี 2030 ขณะเดียวกันสถาบันทหารจีนศึกษาการใช้ AI ทำให้อาวุธของตนสกัดยากขึ้น เช่น เส้นทางบินที่ควบคุมด้วย AI ของขีปนาวุธ hypersonic ผู้เชี่ยวชาญเตือนว่าข้อมูล AI ที่ผิดพลาดอาจก่อการคำนวณผิดในภาวะวิกฤต ดังกรณีต้นปีที่กองทัพสหรัฐฯ เกือบขึ้นตรวจเรือจีนจากรายงานข่าวกรองปลอมที่ AI สร้าง แต่ทั้งสองประเทศแทบไม่มีความคืบหน้าในการเจรจามาตรการป้องกัน AI ในระบบนิวเคลียร์",
+      "source_url": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
+      "tech_impact": "AI ในระบบทหารและนิวเคลียร์เพิ่มความเสี่ยงการคำนวณผิดระดับโลก และเป็นแรงผลักดันการเจรจาธรรมาภิบาล AI ระหว่างมหาอำนาจ",
+      "tags": [
+        "military-ai",
+        "nuclear",
+        "china",
+        "geopolitics",
+        "ai-safety"
+      ],
+      "published_at": "2026-11-23T14:43:23+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Military AI",
+        "Geopolitics",
+        "AI Governance"
+      ],
+      "actions_developer": [
+        "ตระหนักความเสี่ยง hallucination ในระบบข่าวกรองและการตัดสินใจสำคัญ",
+        "ออกแบบ human-in-the-loop สำหรับระบบ AI ที่มีผลกระทบสูง"
+      ],
+      "actions_business": [
+        "ติดตามความตึงเครียดสหรัฐฯ-จีนที่อาจขยายมาตรการคุมเทคโนโลยี",
+        "ประเมินความเสี่ยงภูมิรัฐศาสตร์ต่อห่วงโซ่อุปทาน AI"
+      ],
+      "entities": {
+        "organizations": [
+          "Academy of Military Sciences",
+          "Federation of American Scientists",
+          "New York Times"
+        ],
+        "people": [
+          "Xi Jinping",
+          "Donald Trump",
+          "Vladimir Putin"
+        ],
+        "products": [],
+        "places": [
+          "China",
+          "United States",
+          "Beijing"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-14",
+      "slug": "meta-tlx-triton-extensions",
+      "title": "Meta TLX brings warp-group GPU control to Triton on Hopper, Blackwell and AMD",
+      "title_th": "Meta เปิดรายละเอียด TLX ส่วนขยาย Triton ควบคุม GPU ระดับ warp group บน Hopper, Blackwell และ AMD",
+      "topic_group": "tech-trends",
+      "source_name": "MarkTechPost",
+      "category": "International",
+      "urgency": "low",
+      "content": "Meta เผยแพร่รายงานละเอียดเกี่ยวกับ TLX (Triton Low-Level Extensions) ส่วนขยายคอมไพเลอร์ GPU ที่อยู่เบื้องหลัง ML kernel ใน production ของ Meta TLX เปิดให้โค้ด Python ของ Triton ควบคุม warp group, barrier, TMA และ cluster ได้โดยตรง รองรับ NVIDIA Hopper และ Blackwell รวมถึง AMD MI300 และ MI350 จุดขายคือการควบคุมระดับ CUDA โดยไม่ต้องออกจาก Triton ปัญหาคือ Triton เขียนโปรแกรม GPU ระดับ block ขณะที่ CUDA ทำงานระดับ thread แต่ GPU รุ่นใหม่ต้องการสิ่งที่อยู่ตรงกลาง Hopper เพิ่ม warp specialization และ Tensor Memory Accelerator ส่วน Blackwell เพิ่ม tensor memory, cluster execution และ paired-CTA ซึ่ง CUDA ทำได้แต่ต้องเขียนโค้ดเฉพาะสถาปัตยกรรมจำนวนมาก TLX จึงเสนอโมเดล MIMW (Multi-Instruction, Multi-Warp) ให้ warp group เป็นหน่วยพื้นฐานของการจัดการ โดย Triton กำหนดว่าจะรันอะไร และ TLX กำหนดวิธีจัดการ วิศวกรเขียน Triton ปกติและเพิ่มคำสั่ง TLX เฉพาะจุดที่ต้องควบคุม Meta ยอมรับว่า TLX ยังตามหลัง attention ที่ดีที่สุดในกรณี causal-forward ขนาดเล็ก แต่ช่องว่างแคบลงเมื่อ sequence ยาวขึ้น",
+      "source_url": "https://www.marktechpost.com/2026/11/23/meta-tlx-triton-low-level-extensions/",
+      "tech_impact": "การยกระดับ Triton ให้ควบคุมฮาร์ดแวร์ได้ละเอียดช่วยลดการพึ่งพา CUDA เฉพาะทาง และทำให้ kernel ข้ามค่าย NVIDIA/AMD ได้ง่ายขึ้น",
+      "tags": [
+        "meta",
+        "triton",
+        "gpu-kernels",
+        "compiler",
+        "nvidia",
+        "amd"
+      ],
+      "published_at": "2026-11-23T08:24:57+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "GPU Programming",
+        "Compilers",
+        "ML Infrastructure"
+      ],
+      "actions_developer": [
+        "ทดลองเขียน kernel matmul/attention ด้วย TLX บน Hopper หรือ Blackwell",
+        "ประเมินการพอร์ต kernel เดียวกันไป AMD MI300/MI350"
+      ],
+      "actions_business": [
+        "ลดต้นทุนทีม kernel engineering ด้วยเครื่องมือ high-level ที่เร็วใกล้ CUDA",
+        "ใช้เป็นเหตุผลประกอบกลยุทธ์ GPU หลายค่าย"
+      ],
+      "entities": {
+        "organizations": [
+          "Meta",
+          "NVIDIA",
+          "AMD"
+        ],
+        "people": [],
+        "products": [
+          "TLX",
+          "Triton",
+          "CUDA",
+          "Hopper",
+          "Blackwell",
+          "MI300",
+          "MI350"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b2-15",
+      "slug": "aws-apac-ai-adoption-roi",
+      "title": "AI adoption grows in Asia, but measuring the gains remains tricky",
+      "title_th": "การใช้ AI ในเอเชียแปซิฟิกรวมถึงไทยเติบโต แต่การวัด ROI ยังเป็นเรื่องยาก",
+      "topic_group": "global",
+      "source_name": "CNBC Tech",
+      "category": "International",
+      "urgency": "low",
+      "content": "CNBC รายงานผลสำรวจที่ Strand Partners ทำให้ Amazon Web Services ครอบคลุมผู้นำธุรกิจ 9,750 รายใน 10 ตลาดเอเชียแปซิฟิก ได้แก่ ออสเตรเลีย อินโดนีเซีย ญี่ปุ่น มาเลเซีย นิวซีแลนด์ ฟิลิปปินส์ สิงคโปร์ เกาหลีใต้ ไทย และเวียดนาม พบว่า 58% ของธุรกิจที่ใช้ AI บอกว่าการลงทุนคืนทุนเกินต้นทุนเริ่มต้นแล้ว แต่มีเพียง 12% ที่มั่นใจมากว่าวัด ROI ได้อย่างแม่นยำ Jaime Vallés รองประธาน AWS ภูมิภาคเอเชียแปซิฟิก ญี่ปุ่น และจีน ให้สัมภาษณ์ว่าความเปลี่ยนแปลงใหญ่ที่สุดในรอบปีคือบริษัทจำนวนมากนำโครงการ AI เข้าสู่ production จริง อย่างไรก็ตาม ธุรกิจจำนวนมากยังอยู่ช่วงเริ่มต้น โดย 64% ยังพึ่งพาเครื่องมือ AI ทั่วไปหรือโซลูชันสำเร็จรูปสำหรับงานเฉพาะ และมีเพียง 19% ที่มีกลยุทธ์ AI อย่างเป็นทางการและครอบคลุม ในกลุ่มที่มีกลยุทธ์ชัดเจน 35% ไปถึงขั้นการใช้งานขั้นสูงสุด เทียบกับเพียงส่วนน้อยของบริษัทที่ไม่มีกลยุทธ์ สะท้อนว่ากลยุทธ์องค์กรเป็นตัวแบ่งผลลัพธ์จาก AI",
+      "source_url": "https://www.cnbc.com/2026/11/24/aws-asia-gains-roi.html",
+      "tech_impact": "ธุรกิจในอาเซียนรวมถึงไทยเริ่มเห็นผลตอบแทนจาก AI แต่ขาดกรอบวัดผล ซึ่งจะกำหนดการลงทุนรอบถัดไป",
+      "tags": [
+        "aws",
+        "ai-adoption",
+        "roi",
+        "asia-pacific",
+        "thailand",
+        "enterprise-ai"
+      ],
+      "published_at": "2026-11-23T23:42:27+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Enterprise AI",
+        "AI Adoption",
+        "ROI"
+      ],
+      "actions_developer": [
+        "สร้าง metric และ telemetry วัดผลลัพธ์ของฟีเจอร์ AI ตั้งแต่ต้น",
+        "ยกระดับจากเครื่องมือสำเร็จรูปไปสู่ระบบที่ผูกกับข้อมูลองค์กร"
+      ],
+      "actions_business": [
+        "จัดทำกลยุทธ์ AI อย่างเป็นทางการเพื่อยกระดับการใช้งาน",
+        "กำหนดกรอบวัด ROI ที่สอดคล้องทั้งด้านผลิตภาพและรายได้"
+      ],
+      "entities": {
+        "organizations": [
+          "AWS",
+          "Amazon",
+          "Strand Partners"
+        ],
+        "people": [
+          "Jaime Vallés"
+        ],
+        "products": [],
+        "places": [
+          "Asia-Pacific",
+          "Thailand",
+          "Singapore",
+          "Japan",
+          "Vietnam",
+          "Indonesia"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b3-01",
+      "slug": "cmhc-hyper-connections-geometric-contraction",
+      "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+      "title_th": "cmHC: ปรับสมดุลการผสมสตรีมใน Hyper-Connections ด้วยการหดเชิงเรขาคณิต",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Daily Papers",
+      "category": "Research",
+      "urgency": "low",
+      "content": "งานวิจัยจากทีม XingChen-AGI นำโดย Haowei He ซึ่งได้รับโหวตสูงสุดใน HuggingFace Daily Papers ประจำวันที่ 23 พฤศจิกายน 2026 ศึกษา Manifold-constrained Hyper-Connections (mHC) ที่ขยาย residual connection ให้มีหลายสตรีม และทำให้การส่งต่อ residual เสถียรด้วยการจำกัดเมทริกซ์ผสมสตรีมให้อยู่ใน Birkhoff polytope หรือเซตของเมทริกซ์ doubly stochastic ทีมวิจัยพบ trade-off สำคัญ คือหากผสมน้อยเกินไปเมทริกซ์จะอยู่ใกล้จุดยอดของ polytope ทำให้ hyper-connections เสื่อมเป็นสตรีมที่แทบเป็นอิสระต่อกัน แต่หากผสมมากเกินไปเมทริกซ์จะกระจุกที่จุดศูนย์กลาง ทำให้สตรีมแยกจากกันไม่ออก ทีมพิสูจน์เชิงทฤษฎีด้วยการหาขอบเขตของการผสมสะสม ความต่างของสตรีม และความต่างของ gradient ข้ามชั้น จากนั้นเสนอ cmHC วิธี doubly stochastic แบบ exact ที่หด Birkhoff polytope เข้าหาภายในเชิงเรขาคณิต เพื่อลดปัญหาการผสมน้อยเกินไปขณะคงความหลากหลายของสตรีม เป็นอีกงานที่ต่อยอดการออกแบบ residual pathway ของโมเดลภาษาขนาดใหญ่",
+      "source_url": "https://huggingface.co/papers/2611.27193",
+      "tech_impact": "การปรับปรุง residual/hyper-connection เป็นทิศทางสถาปัตยกรรมที่แล็บใหญ่เริ่มใช้ งานนี้ให้หลักทฤษฎีในการปรับจูนความเสถียรระหว่างการเทรน",
+      "tags": [
+        "hyper-connections",
+        "residual",
+        "architecture",
+        "training-stability",
+        "arxiv"
+      ],
+      "published_at": "2026-11-23T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Model Architecture",
+        "Deep Learning Theory"
+      ],
+      "actions_developer": [
+        "ทดลองแทน residual ด้วย mHC/cmHC ในโมเดลขนาดเล็กเพื่อวัดความเสถียร",
+        "ติดตามโค้ดอ้างอิงและผลบนโมเดลขนาดใหญ่ก่อนนำไปใช้"
+      ],
+      "actions_business": [
+        "ไม่มีผลทางธุรกิจโดยตรงในระยะสั้น",
+        "ทีมวิจัยโมเดลควรติดตามเทคนิคที่ลดต้นทุนการเทรนที่ล้มเหลว"
+      ],
+      "entities": {
+        "organizations": [
+          "XingChen-AGI",
+          "Hugging Face"
+        ],
+        "people": [
+          "Haowei He"
+        ],
+        "products": [
+          "cmHC",
+          "mHC"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b3-02",
+      "slug": "non-penetrating-world-models",
+      "title": "Non-penetrating World Models",
+      "title_th": "Non-penetrating World Models: ป้องกันวัตถุทะลุกันในโมเดลโลกจำลองแบบวิดีโอ",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Daily Papers",
+      "category": "Research",
+      "urgency": "low",
+      "content": "ทีมจาก The Hong Kong Polytechnic University นำเสนอปัญหาใหม่คือการป้องกันวัตถุทะลุสิ่งกีดขวางใน interactive video world model พร้อมสร้าง NoPeBench ชุดทดสอบว่าโมเดลโลกจำลองตอบสนองต่ออุปสรรคทางกายภาพอย่างไร ผลการประเมินพบว่าไม่มีโมเดล open-source ใดป้องกันความล้มเหลวนี้ได้อย่างน่าเชื่อถือ แต่ที่น่าประหลาดใจคือโมเดลเหล่านี้เข้ารหัสข้อมูลที่ใช้ทำนายการทะลุไว้แล้ว โดย hidden state ของ diffusion transformer (DiT) สามารถทำนายได้ว่าการกระทำหนึ่งจะทำให้ทะลุสิ่งกีดขวางหรือไม่ ทีมจึงเสนอ NoPeWorld เฟรมเวิร์กน้ำหนักเบาที่ฝึก prediction head ขนาดเล็กบน hidden state ของ DiT ที่ถูก freeze เพื่ออ่านว่าการกระทำปลอดภัยหรือไม่ แล้วแทนการกระทำที่ไม่ปลอดภัยด้วยการกระทำที่ปลอดภัยซึ่งรักษาเจตนาเดิมมากที่สุด แม้วิธีจะเรียบง่าย แต่ลดอัตราการละเมิดฟิสิกส์เฉลี่ยของโมเดลโลกจำลอง 6 ตัวจาก 74% เหลือ 16% และยัง generalize แบบ zero-shot ไปยังโดเมนเปิดได้ งานนี้ได้รับความสนใจสูงใน HuggingFace Daily Papers ประจำวันที่ 23 พฤศจิกายน",
+      "source_url": "https://huggingface.co/papers/2611.27963",
+      "tech_impact": "ความถูกต้องทางฟิสิกส์เป็นจุดอ่อนหลักของ world model การแก้ด้วย probe น้ำหนักเบาช่วยให้นำไปใช้กับหุ่นยนต์และเกมได้เร็วขึ้น",
+      "tags": [
+        "world-models",
+        "video-generation",
+        "physics",
+        "benchmark",
+        "arxiv"
+      ],
+      "published_at": "2026-11-23T00:00:00+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "World Models",
+        "Video Generation",
+        "Robotics"
+      ],
+      "actions_developer": [
+        "ทดลอง linear probe บน hidden state ของโมเดลวิดีโอเพื่อตรวจข้อผิดพลาดทางฟิสิกส์",
+        "ใช้ NoPeBench ประเมิน world model ก่อนใช้กับงาน simulation"
+      ],
+      "actions_business": [
+        "ติดตามความพร้อมของ world model สำหรับหุ่นยนต์และ simulation อุตสาหกรรม",
+        "ประเมินความเสี่ยงความผิดพลาดทางฟิสิกส์ในผลิตภัณฑ์ที่ใช้วิดีโอ AI"
+      ],
+      "entities": {
+        "organizations": [
+          "The Hong Kong Polytechnic University",
+          "Hugging Face"
+        ],
+        "people": [
+          "Yuhang Dai",
+          "Xingyi Yang"
+        ],
+        "products": [
+          "NoPeBench",
+          "NoPeWorld"
+        ],
+        "places": [
+          "Hong Kong"
+        ]
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b3-03",
+      "slug": "clover-35b-a3b-diffusion-lm",
+      "title": "Clover-35B-A3B-Preview Technical Report",
+      "title_th": "Clover-35B-A3B: โมเดลภาษาแบบ diffusion MoE ทำ SWE-bench 73.6 เร็ว 680 โทเค็นต่อวินาที",
+      "topic_group": "ai-trends",
+      "source_name": "HuggingFace Daily Papers",
+      "category": "Research",
+      "urgency": "medium",
+      "content": "ทีม DiffuSpace เปิดตัว Clover-35B-A3B-Preview โมเดลภาษาแบบ diffusion ที่ใช้สถาปัตยกรรม mixture-of-experts มีพารามิเตอร์รวม 35,000 ล้านตัว แต่เรียกใช้จริงเพียง 3,000 ล้านตัว และรองรับโหมด thinking Clover ปรับ Gated Delta Networks ให้ทำงานกับ block diffusion โดยผสาน recurrent memory ของบริบทที่สร้างไปแล้วเข้ากับ bidirectional softmax attention ภายใน block ปัจจุบัน พร้อมการปรับขนาด block แบบเรียนรู้ได้ ผลรายงานระบุว่า Clover นำในตัวชี้วัด agent ทั้ง 7 รายการที่ทดสอบ รวมถึง 73.6 บน SWE-bench Verified และ 51.7 บน Terminal-Bench 2.1 บนงาน agent ภายใน โมเดลสร้างข้อความได้ 680 โทเค็นต่อวินาทีด้วย NVIDIA GB300 เพียงหนึ่งตัวที่ความแม่นยำ BF16 และ batch size หนึ่ง รายงานยังประเมินต้นทุน drafting และ verification และการ deploy ภายใต้หน่วยความจำจำกัด รวมถึงเวอร์ชัน decision-model ที่ตอบคำถามที่เกี่ยวข้องกันหลายข้อได้ในการ denoise รอบเดียว",
+      "source_url": "https://huggingface.co/papers/2611.24636",
+      "tech_impact": "diffusion LM ที่เร็วและแม่นในงาน agent coding อาจเปลี่ยนสมการต้นทุน latency ของ coding agent เมื่อเทียบกับ autoregressive model",
+      "tags": [
+        "diffusion-lm",
+        "moe",
+        "coding-agents",
+        "inference-speed",
+        "arxiv"
+      ],
+      "published_at": "2026-11-23T00:00:00+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "Diffusion Language Models",
+        "AI Coding",
+        "Inference"
+      ],
+      "actions_developer": [
+        "ทดลองใช้ diffusion LM สำหรับงาน agent ที่ต้องการ latency ต่ำ",
+        "ตรวจสอบผล SWE-bench ด้วยการทดสอบอิสระก่อนสรุป"
+      ],
+      "actions_business": [
+        "ติดตามโมเดล active parameter ต่ำที่ลดต้นทุน GPU ต่อผู้ใช้",
+        "ประเมินผลต่อ UX ของผลิตภัณฑ์ที่ต้องการความเร็วสูง"
+      ],
+      "entities": {
+        "organizations": [
+          "DiffuSpace",
+          "NVIDIA",
+          "Hugging Face"
+        ],
+        "people": [],
+        "products": [
+          "Clover-35B-A3B-Preview",
+          "SWE-bench Verified",
+          "Terminal-Bench 2.1",
+          "NVIDIA GB300"
+        ],
+        "places": []
+      },
+      "youtube_channel": "",
+      "youtube_video": ""
+    },
+    {
+      "id": "20261124-b3-04",
+      "slug": "two-minute-papers-claude-black-holes",
+      "title": "Claude AI Solved The Secret Of Black Holes",
+      "title_th": "Two Minute Papers: Claude ไขปริศนาฟิสิกส์หลุมดำได้ 2 โจทย์",
+      "topic_group": "ai-trends",
+      "source_name": "Two Minute Papers",
+      "category": "YouTube",
+      "urgency": "medium",
+      "content": "ช่อง Two Minute Papers เผยแพร่วิดีโออธิบายงานวิจัยของ Anthropic ที่ Claude Fable 5.2 แก้โจทย์เปิดด้านฟิสิกส์หลุมดำได้ 2 ข้อ วิดีโอมียอดชมกว่า 179,000 ครั้งในวันแรก ตามหน้าวิจัยของ Anthropic งานนี้อาศัย holographic duality ที่อธิบายเอกภพจำลองที่มีแรงโน้มถ่วงได้ด้วยทฤษฎีควอนตัมบนขอบเขตที่มีมิติน้อยกว่า โจทย์แรกคือ Hawking-Page phase transition ที่ Stephen Hawking และ Don Page แสดงในปี 1983 ว่าการเปลี่ยนจากก๊าซร้อนเป็นหลุมดำเกิดขึ้นอย่างฉับพลัน Claude ช่วยแสดงว่าการเปลี่ยนแบบฉับพลันนี้ฝังอยู่ในทฤษฎีควอนตัมพื้นฐาน โจทย์ที่สองเกี่ยวกับเอกภพจำลองสองมิติเชิงพื้นที่ โดย Claude สังเกตรูปแบบในผลเชิงตัวเลขที่นักฟิสิกส์มองข้าม และพิสูจน์เพดานที่แม่นยำซึ่งลดต่ำกว่านี้ไม่ได้ agent ทำงานเบื้องหลังราวหกสัปดาห์ ผลลัพธ์ผ่านการตรวจสอบแบบ formal ใน Lean และนักฟิสิกส์ตรวจผลหลักทุกข้อ แม้ผลทั้งสองไม่ได้อธิบายเอกภพจริงโดยตรง",
+      "source_url": "https://www.youtube.com/watch?v=1jPdehG3Hms",
+      "tech_impact": "AI agent ที่ทำงานวิจัยฟิสิกส์ทฤษฎีต่อเนื่องหลายสัปดาห์และผ่าน formal verification แสดงศักยภาพ AI for Science ที่ขยายจากคณิตศาสตร์สู่ฟิสิกส์",
+      "tags": [
+        "anthropic",
+        "claude",
+        "physics",
+        "ai-for-science",
+        "youtube"
+      ],
+      "published_at": "2026-11-23T07:37:52+00:00",
+      "breakthrough_potential": true,
+      "related_domains": [
+        "AI for Science",
+        "Theoretical Physics",
+        "AI Agents"
+      ],
+      "actions_developer": [
+        "ศึกษาการรัน agent ระยะยาวที่แชร์ความคืบหน้าระหว่างกันสำหรับงานวิจัย",
+        "ใช้ Lean ตรวจสอบผลลัพธ์เชิงคณิตศาสตร์ที่ AI สร้าง"
+      ],
+      "actions_business": [
+        "สถาบันวิจัยควรประเมินการใช้ AI agent เร่งงาน R&D",
+        "ติดตามความสามารถ AI for Science เป็นสัญญาณการแข่งขันของแล็บ"
+      ],
+      "entities": {
+        "organizations": [
+          "Anthropic"
+        ],
+        "people": [
+          "Stephen Hawking",
+          "Don Page"
+        ],
+        "products": [
+          "Claude Fable 5.2",
+          "Lean"
+        ],
+        "places": []
+      },
+      "youtube_channel": "https://www.youtube.com/@TwoMinutePapers",
+      "youtube_video": "https://www.youtube.com/watch?v=1jPdehG3Hms"
+    },
+    {
+      "id": "20261124-b3-05",
+      "slug": "mlst-kevin-buzzard-ai-tokens-math",
+      "title": "AI Just Pours Tokens Into the Problem (Kevin Buzzard)",
+      "title_th": "Kevin Buzzard: AI แค่เทโทเค็นใส่ปัญหา คณิตศาสตร์กำลังเปลี่ยนไปแต่อาจไม่ได้ดีขึ้น",
+      "topic_group": "ai-trends",
+      "source_name": "ML Street Talk",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "ช่อง Machine Learning Street Talk เผยแพร่คลิปที่ Kevin Buzzard นักคณิตศาสตร์จาก Imperial College London ผู้มีบทบาทสำคัญในชุมชน Lean อธิบายความต่างระหว่างวิธีทำงานของมนุษย์กับ AI ในการพิสูจน์ทางคณิตศาสตร์ เขาชี้ว่าเมื่อบทพิสูจน์ซับซ้อนเกินไป นักคณิตศาสตร์มนุษย์มักกลับไปออกแบบนิยามใหม่ให้ทุกอย่างเรียบง่ายและเข้าใจได้ ขณะที่เครื่องมือ autoformalisation ด้วย AI ใน Lean สามารถดันผ่านปัญหาไปได้ด้วยกำลังคำนวณแบบ brute force หรือเทโทเค็นจำนวนมากใส่ปัญหา ผลคือคณิตศาสตร์กำลังเปลี่ยนไป แต่ยังไม่ชัดว่าจะดีขึ้น เพียงแค่แตกต่างไป คลิปนี้ตัดมาจากสารคดี Mathematics Just Changed Forever ที่มี Kevin Hartnett, Jeremy Avigad, Leo de Moura และ Paul Lessard ร่วมด้วย และเผยแพร่ในช่วงที่วงการถกเถียงหนักเรื่องบทพิสูจน์สมมติฐานรีมันน์ด้วย Claude ที่มีโค้ด Lean ยาว 17 ล้านบรรทัด ซึ่ง Buzzard เองยอมรับว่าอ่านทั้งหมดไม่เข้าใจ ข้อมูลนี้สรุปจาก metadata ของวิดีโอ",
+      "source_url": "https://www.youtube.com/watch?v=IUcrxIM0K-Y",
+      "tech_impact": "ประเด็นความเข้าใจได้ของบทพิสูจน์ที่ AI สร้างจะกำหนดว่าวงการวิทยาศาสตร์ยอมรับผลงาน AI อย่างไร แม้จะผ่านการตรวจสอบแบบ formal",
+      "tags": [
+        "lean",
+        "mathematics",
+        "autoformalization",
+        "kevin-buzzard",
+        "youtube"
+      ],
+      "published_at": "2026-11-23T10:51:27+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Formal Verification",
+        "Mathematics",
+        "AI for Science"
+      ],
+      "actions_developer": [
+        "ออกแบบผลลัพธ์จาก AI ให้มีโครงสร้างและนิยามที่มนุษย์อ่านได้ ไม่ใช่แค่ผ่านการตรวจ",
+        "ศึกษา autoformalization ใน Lean เพื่อใช้กับการยืนยันซอฟต์แวร์"
+      ],
+      "actions_business": [
+        "คำนึงถึง explainability เมื่อใช้ AI สร้างผลงานที่ต้องตรวจสอบโดยผู้เชี่ยวชาญ",
+        "ติดตามมาตรฐานการยอมรับผลงานวิจัยที่ AI สร้าง"
+      ],
+      "entities": {
+        "organizations": [
+          "Imperial College London",
+          "Machine Learning Street Talk"
+        ],
+        "people": [
+          "Kevin Buzzard",
+          "Kevin Hartnett",
+          "Jeremy Avigad",
+          "Leo de Moura",
+          "Paul Lessard"
+        ],
+        "products": [
+          "Lean",
+          "Claude"
+        ],
+        "places": []
+      },
+      "youtube_channel": "https://www.youtube.com/@MachineLearningStreetTalk",
+      "youtube_video": "https://www.youtube.com/watch?v=IUcrxIM0K-Y"
+    },
+    {
+      "id": "20261124-b3-06",
+      "slug": "fireship-gemini-4-neon",
+      "title": "Opus just lost to the last company you'd expect...",
+      "title_th": "Fireship วิเคราะห์ Gemini 4 Neon โมเดลระดับกลางที่ทำคะแนนแซงเรือธงของตัวเอง",
+      "topic_group": "tech-trends",
+      "source_name": "Fireship",
+      "category": "YouTube",
+      "urgency": "medium",
+      "content": "ช่อง Fireship เผยแพร่วิดีโอวิเคราะห์ Gemini 4 Neon ของ Google ซึ่งมียอดชมกว่า 700,000 ครั้งภายในวันแรก โดยระบุว่าเป็นโมเดลระดับกลางที่ทำคะแนนแซงโมเดลเรือธงของ Google เองที่เพิ่งออกมาเพียงสามสัปดาห์ และตั้งชื่อคลิปว่า Opus แพ้ให้บริษัทที่ไม่น่าคาดคิด ตามประกาศของ Google ที่เผยแพร่วันที่ 18 พฤศจิกายนและอัปเดตล่าสุด 23 พฤศจิกายน Gemini 4 Neon อยู่อันดับ 3 โดยรวมบน Artificial Analysis Intelligence Index ด้วยคะแนน 61 ที่ระดับ thinking xhigh อันดับ 2 บน Vals Index และอันดับ 2 ด้าน steerability บน Agent Arena Index ทั้งยังมีอัตรา fabrication ต่ำสุดเท่าที่ Google เคยวัดในการทดสอบภายใน Google Antigravity ราคาอยู่ที่ 3 ดอลลาร์ต่อล้านโทเค็นขาเข้า 0.15 ดอลลาร์สำหรับ cached input และ 15 ดอลลาร์ต่อล้านโทเค็นขาออก พร้อม context window 1 ล้านโทเค็น เปิดใช้ใน Gemini API, Google AI Studio, Gemini for business และสมาชิก Google AI Pro และ Ultra",
+      "source_url": "https://www.youtube.com/watch?v=jP9yjEDlc4k",
+      "tech_impact": "โมเดลระดับกลางราคาต่ำที่ใกล้ frontier กดดันราคาของ Claude Opus และ GPT รุ่นบน ทำให้ต้นทุนต่อความฉลาดลดลงเร็ว",
+      "tags": [
+        "google",
+        "gemini",
+        "llm",
+        "pricing",
+        "youtube"
+      ],
+      "published_at": "2026-11-23T19:14:30+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "LLM",
+        "AI Pricing",
+        "Benchmarks"
+      ],
+      "actions_developer": [
+        "เปรียบเทียบ Gemini 4 Neon กับโมเดลที่ใช้อยู่บนงานจริง โดยใช้ cached input ลดต้นทุน",
+        "ทดสอบ steerability ใน workflow agent ที่ผู้ใช้แก้คำสั่งกลางงาน"
+      ],
+      "actions_business": [
+        "ทบทวนสัญญาและต้นทุน LLM API เมื่อมีตัวเลือกราคาต่ำกว่าแต่ใกล้เคียง",
+        "วางกลยุทธ์ multi-model routing ตามงาน"
+      ],
+      "entities": {
+        "organizations": [
+          "Google",
+          "Google DeepMind",
+          "Anthropic",
+          "Artificial Analysis",
+          "Vals AI"
+        ],
+        "people": [],
+        "products": [
+          "Gemini 4 Neon",
+          "Claude Opus",
+          "Google AI Studio",
+          "Google Antigravity"
+        ],
+        "places": []
+      },
+      "youtube_channel": "https://www.youtube.com/@Fireship",
+      "youtube_video": "https://www.youtube.com/watch?v=jP9yjEDlc4k"
+    },
+    {
+      "id": "20261124-b3-07",
+      "slug": "sam-witteveen-harness-adapters",
+      "title": "Harness Adapters - Train Your Model to Your Harness",
+      "title_th": "Harness Adapters: ฝึก LoRA ด้วย RL ให้โมเดลเข้ากับ coding harness ที่ใช้",
+      "topic_group": "tech-trends",
+      "source_name": "Sam Witteveen",
+      "category": "YouTube",
+      "urgency": "low",
+      "content": "Sam Witteveen เผยแพร่วิดีโออธิบายโครงการวิจัย harness adapters ของ Hugging Face ที่ฝึกชุด LoRA adapter ให้ Qwen3.8-27B ทำงานกับ open coding harness ได้ดีขึ้น ตามบล็อกของ Hugging Face แนวคิดคือโมเดลถูกออกแบบให้เก่งแบบทั่วไป ไม่ได้ปรับเฉพาะ harness หรือชนิดงานที่ผู้ใช้ทำ เมื่อจับคู่โมเดลกับ harness จึงเสียประสิทธิภาพไปส่วนหนึ่ง การทำ reinforcement learning บนชุดงานของตัวเองภายใน harness เป้าหมายช่วยแก้ปัญหานี้ ตัวอย่างคือ Qwen3.8-27B กับ harness Pi ทำคะแนน Terminal-Bench 2.1 ได้ 39% โดยใช้เฉลี่ย 2,900 โทเค็นต่องาน แต่เมื่อ freeze weights และเพิ่ม LoRA adapter ที่ฝึกด้วย RL คะแนน pass@1 เพิ่มเป็น 55% และใช้โทเค็นเหลือเฉลี่ย 1,500 ส่วนใหญ่เพราะโมเดลคิดน้อยลง เรียกเครื่องมือน้อยลง และทำถูกตั้งแต่ครั้งแรก งานนี้ทดสอบกับสาม harness คือ Pi, OpenCode และ Hermes Agent พร้อมเผยแพร่ adapter บน Harness Hub และสูตรที่ทำซ้ำได้",
+      "source_url": "https://www.youtube.com/watch?v=4nnFw0TPDKM",
+      "tech_impact": "การปรับโมเดลเปิดให้เข้ากับ harness เฉพาะด้วย LoRA ราคาถูกช่วยให้ open model แข่งกับโมเดลปิดในงาน coding agent ได้ใกล้ขึ้นและประหยัดโทเค็น",
+      "tags": [
+        "huggingface",
+        "lora",
+        "reinforcement-learning",
+        "coding-agents",
+        "qwen",
+        "youtube"
+      ],
+      "published_at": "2026-11-23T16:30:30+00:00",
+      "breakthrough_potential": false,
+      "related_domains": [
+        "Fine-tuning",
+        "AI Coding",
+        "Open Models"
+      ],
+      "actions_developer": [
+        "ทดลอง adapter จาก Harness Hub กับ Qwen3.8-27B ใน harness ที่ใช้",
+        "สร้างชุดงานภายในเพื่อทำ RL adapter เฉพาะทีม"
+      ],
+      "actions_business": [
+        "พิจารณา self-hosted coding agent ที่ปรับแต่งเพื่อลดต้นทุน API",
+        "ประเมินผลตอบแทนการลงทุนทำ RL fine-tuning ภายใน"
+      ],
+      "entities": {
+        "organizations": [
+          "Hugging Face",
+          "Alibaba"
+        ],
+        "people": [
+          "Sam Witteveen"
+        ],
+        "products": [
+          "Qwen3.8-27B",
+          "LoRA",
+          "Terminal-Bench 2.1",
+          "Pi",
+          "OpenCode",
+          "Hermes Agent",
+          "Harness Hub"
+        ],
+        "places": []
+      },
+      "youtube_channel": "https://www.youtube.com/@samwitteveenai",
+      "youtube_video": "https://www.youtube.com/watch?v=4nnFw0TPDKM"
+    }
+  ]
+}
