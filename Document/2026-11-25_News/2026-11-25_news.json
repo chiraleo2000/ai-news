@@ -1,0 +1,2238 @@
+{
+ "date": "2026-11-25",
+ "generated_at": "2026-11-25T09:40:00+07:00",
+ "schema_version": "combined-1.3",
+ "stats": {
+  "total": 41,
+  "by_topic": {
+   "ai_trends": 12,
+   "tech_trends": 12,
+   "thailand": 5,
+   "global": 12
+  },
+  "by_source_category": {
+   "thai": 15,
+   "international": 20,
+   "research": 3,
+   "youtube": 3
+  },
+  "urgency_breakdown": {
+   "high": 6,
+   "medium": 15,
+   "low": 20
+  },
+  "breakthrough_count": 2
+ },
+ "top_insights": [
+  {
+   "title": "Anthropic เผย Claude ไขสมมติฐานรีมันน์อายุ 167 ปี แต่บทพิสูจน์ยาวราว 250,000 หน้า",
+   "impact_summary": "ถ้าการตรวจสอบด้วย Lean ยืนยันได้ จะเป็นหลักไมล์ของ AI ด้านคณิตศาสตร์ แต่ก็เปิดคำถามใหม่เรื่อง interpretability และการยอมรับผลงานที่มนุษย์อ่านไม่ได้",
+   "urgency": "high",
+   "article_id": "20261125-b1-11"
+  },
+  {
+   "title": "OpenAI เผย GPT-6 ออกแบบโปรตีนใหม่ได้ด้วยการให้เหตุผลและโค้ด โดยไม่ต้องพึ่งโมเดลชีววิทยาเฉพาะทาง",
+   "impact_summary": "Foundation model ทั่วไปเริ่มแทนที่โมเดลเฉพาะทางในงานออกแบบโปรตีน เร่ง AI for Science แต่ก็เพิ่มความจำเป็นของมาตรการ biosecurity",
+   "urgency": "high",
+   "article_id": "20261125-b2-18"
+  },
+  {
+   "title": "CERT-In อินเดียเตือน แฮกเกอร์ใช้ AI Agent ปลอมธุรกรรมชำระเงินเจาะธนาคารและฟินเทค",
+   "impact_summary": "การโจมตีด้วย AI agent ย้ายเป้าจากช่องโหว่เทคนิคไปสู่ business logic ทำให้ระบบ fraud detection แบบเดิมตรวจไม่พบ",
+   "urgency": "high",
+   "article_id": "20261125-b1-12"
+  },
+  {
+   "title": "หุ้น Anthropic ร่วงต่ำกว่าราคา IPO ที่ 83 ดอลลาร์ สัญญาณเตือนมูลค่าสตาร์ทอัป AI",
+   "impact_summary": "ราคาหุ้น Anthropic หลัง IPO เป็นตัวชี้วัดความอยากลงทุนใน AI ของตลาดทุน หากอ่อนตัวต่อเนื่องจะกระทบการระดมทุนของสตาร์ทอัป AI ทั้งระบบ",
+   "urgency": "high",
+   "article_id": "20261125-b2-01"
+  },
+  {
+   "title": "NCSC อังกฤษเตือนการโจมตีไซเบอร์ด้วย AI พุ่งชัด เผยจุดอ่อนความปลอดภัยพื้นฐานที่สะสมมาหลายปี",
+   "impact_summary": "AI ทำให้ต้นทุนการโจมตีจุดอ่อนพื้นฐานใกล้ศูนย์ องค์กรที่ละเลย cyber hygiene จะถูกเจาะเร็วขึ้นมาก",
+   "urgency": "high",
+   "article_id": "20261125-b2-02"
+  },
+  {
+   "title": "Amazon เผย AI agent ของแฮกเกอร์ค้นพบและเจาะช่องโหว่ zero-day ได้เองแทบไม่ต้องมีคนช่วย",
+   "impact_summary": "การค้นพบ zero-day อัตโนมัติโดย agent ลดเวลาระหว่างช่องโหว่ถูกพบกับถูกโจมตีเกือบเป็นศูนย์ ฝ่ายป้องกันต้องใช้ AI ตอบโต้ด้วย",
+   "urgency": "high",
+   "article_id": "20261125-b2-12"
+  },
+  {
+   "title": "Tidal แบนเพลงที่สร้างด้วย AI ทั้งเพลงออกจากแพลตฟอร์ม มีผล 9 ธันวาคม",
+   "impact_summary": "แพลตฟอร์มคอนเทนต์เริ่มเปลี่ยนจากการติดป้ายเป็นการแบนคอนเทนต์ AI ทั้งชิ้น ทำให้เครื่องมือตรวจจับ AI และการพิสูจน์ที่มาของคอนเทนต์ (provenance) มีความสำคัญเชิงธุรกิจมากขึ้น",
+   "urgency": "medium",
+   "article_id": "20261125-b1-01"
+  }
+ ],
+ "posts": [
+  {
+   "id": "20261125-b1-01",
+   "slug": "tidal-bans-fully-ai-generated-music",
+   "title": "Tidal bans fully AI-generated music from its platform",
+   "title_th": "Tidal แบนเพลงที่สร้างด้วย AI ทั้งเพลงออกจากแพลตฟอร์ม มีผล 9 ธันวาคม",
+   "topic_group": "tech-trends",
+   "source_name": "Blognone",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "Tidal แพลตฟอร์มสตรีมเพลงในเครือ Block ประกาศนโยบายใหม่ แบนและลบเพลงที่สร้างด้วย AI ทั้งเพลง 100% ออกจากแพลตฟอร์ม โดยมีผลตั้งแต่วันที่ 9 ธันวาคม หลังพบว่าการติดป้ายกำกับเพลง AI อย่างเดียวไม่เพียงพอ ในรอบ 90 วันล่าสุด เพลง AI คิดเป็น 43% ของเพลงที่ถูกส่งเข้าระบบ บางวันพุ่งถึง 60% และคิดเป็น 6.3% ของคลังเพลงทั้งหมด 27 ล้านเพลง แต่ 96% ของเพลง AI ไม่มีคนฟังเลยในรอบสามเดือน นอกจากนี้ยังมีเพลง AI ที่ปลอมชื่อเพลงหรือชื่อศิลปินเพื่อแย่งรายได้ ซึ่ง Tidal ลบไปแล้ว 65,000 เพลง ส่วนเพลงที่ใช้ AI ช่วยเพียงบางส่วนยังอนุญาตให้อยู่ได้ ประเด็นสำคัญคือนี่เป็นแพลตฟอร์มสตรีมเพลงรายใหญ่รายแรก ๆ ที่เลือกแบนเพลง AI แบบเบ็ดเสร็จแทนการติดป้าย สะท้อนแรงกดดันจากปัญหา AI slop ที่กำลังท่วมอุตสาหกรรมเพลงและกระทบรายได้ของศิลปินจริง",
+   "source_url": "https://www.blognone.com/node/152248",
+   "tech_impact": "แพลตฟอร์มคอนเทนต์เริ่มเปลี่ยนจากการติดป้ายเป็นการแบนคอนเทนต์ AI ทั้งชิ้น ทำให้เครื่องมือตรวจจับ AI และการพิสูจน์ที่มาของคอนเทนต์ (provenance) มีความสำคัญเชิงธุรกิจมากขึ้น",
+   "tags": [
+    "tidal",
+    "ai-music",
+    "ai-slop",
+    "content-policy",
+    "streaming"
+   ],
+   "published_at": "2026-11-24T23:47:37+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Generative AI",
+    "Content Moderation",
+    "Music"
+   ],
+   "actions_developer": [
+    "ศึกษาเทคนิคตรวจจับเสียงสังเคราะห์และ audio fingerprinting สำหรับระบบคัดกรองคอนเทนต์",
+    "เพิ่ม metadata ระบุการใช้ AI (เช่น C2PA) ในเครื่องมือสร้างเพลง"
+   ],
+   "actions_business": [
+    "ค่ายเพลงและศิลปินที่ใช้ AI ช่วยแต่งควรเตรียมหลักฐานส่วนร่วมของมนุษย์",
+    "แพลตฟอร์มคอนเทนต์ไทยควรทบทวนนโยบายคอนเทนต์ AI ก่อนกระทบรายได้ครีเอเตอร์"
+   ],
+   "entities": {
+    "organizations": [
+     "Tidal",
+     "Block"
+    ],
+    "people": [],
+    "products": [
+     "Tidal"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b1-02",
+   "slug": "jensen-huang-returns-nvidia-hq-ovation",
+   "title": "Jensen Huang returns to Nvidia HQ to a standing ovation; Trump claims role in reinstatement",
+   "title_th": "Jensen Huang กลับเข้าสำนักงานใหญ่ NVIDIA พนักงานยืนปรบมือต้อนรับ หุ้นพุ่ง 31%",
+   "topic_group": "global",
+   "source_name": "Blognone",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "Blognone รายงานว่า Jensen Huang ปรากฏตัวกลับเข้าทำงานที่สำนักงานใหญ่ NVIDIA ใน Santa Clara หลังบอร์ดลงมติคืนตำแหน่งซีอีโอ โดยมีพนักงานหลายร้อยคนยืนปรบมือและส่งเสียงเชียร์ Huang กล่าวขอบคุณสำหรับโอกาสครั้งที่สองและสัญญาว่าจะเป็นซีอีโอที่ดีกว่าเดิม ก่อนหน้านี้พนักงาน NVIDIA มากกว่า 1 หมื่นคนลงชื่อในจดหมายเปิดผนึกเรียกร้องให้เขากลับมา ข่าวนี้ทำให้หุ้น NVIDIA ปรับขึ้นถึง 31% ในคืนเดียวหลังร่วงต่อเนื่องนับจากข่าวการลาออก The Wall Street Journal ระบุว่าการที่ Huang เปิดเผยข้อมูลส่วนตัวเพิ่มเติมต่อบอร์ดอย่างตรงไปตรงมาเป็นปัจจัยหนึ่งที่บอร์ดใช้ตัดสินใจ ขณะที่ประธานาธิบดี Donald Trump ให้สัมภาษณ์ CNBC ว่าตนมีส่วนผลักดัน และบอร์ดขอหลักประกันว่า Huang จะไม่มีปัญหาด้านความมั่นคงของชาติ เรื่องนี้สะท้อนว่าการบริหารบริษัทชิป AI อันดับหนึ่งของโลกผูกพันกับการเมืองสหรัฐฯ อย่างแนบแน่น",
+   "source_url": "https://www.blognone.com/node/152246",
+   "tech_impact": "การกลับมาของ Huang ช่วยฟื้นความเชื่อมั่นตลาดชิป AI ระยะสั้น แต่ทำให้คำถามด้านธรรมาภิบาลและอิทธิพลรัฐบาลสหรัฐฯ ต่อ NVIDIA ยังค้างอยู่",
+   "tags": [
+    "nvidia",
+    "jensen-huang",
+    "ceo",
+    "governance",
+    "stocks"
+   ],
+   "published_at": "2026-11-24T12:09:17+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Chips",
+    "Corporate Governance",
+    "Geopolitics"
+   ],
+   "actions_developer": [
+    "ติดตาม roadmap ผลิตภัณฑ์ NVIDIA (CUDA, Blackwell/Rubin) ว่าจะมีการเปลี่ยนแปลงหลังความไม่แน่นอนผู้บริหาร",
+    "กระจายความเสี่ยงโดยทดสอบ workload บน accelerator ทางเลือก"
+   ],
+   "actions_business": [
+    "ประเมินความเสี่ยงซัพพลาย GPU จากประเด็นธรรมาภิบาลและการเมือง",
+    "ติดตามความผันผวนหุ้นกลุ่ม AI ที่อิง NVIDIA"
+   ],
+   "entities": {
+    "organizations": [
+     "NVIDIA",
+     "The Wall Street Journal",
+     "CNBC"
+    ],
+    "people": [
+     "Jensen Huang",
+     "Donald Trump"
+    ],
+    "products": [],
+    "places": [
+     "Santa Clara",
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b1-03",
+   "slug": "bezos-warned-nvidia-board-outside-ceo",
+   "title": "Jeff Bezos had warned Nvidia board against hiring an outside CEO",
+   "title_th": "Jeff Bezos เคยเตือนบอร์ด Nvidia ห้ามจ้าง CEO คนนอก ก่อนดีลคืนตำแหน่ง Jensen Huang",
+   "topic_group": "global",
+   "source_name": "Techsauce",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "Techsauce สรุปมุมมองของ Jeff Bezos ผู้ก่อตั้ง Amazon ที่ให้สัมภาษณ์กับ Liz Hoffman บนเวที Semafor Silicon Valley & The World เมื่อ 17 พฤศจิกายน ระหว่างที่บอร์ด Nvidia กำลังสรรหาผู้มาแทน Jensen Huang ว่าหากบอร์ดไม่ดึง Huang กลับมา ก็ไม่ควรจ้างคนนอกมาคุมบริษัทเด็ดขาด เพราะบริษัทเทคโนโลยีที่มีโครงสร้างธุรกิจและนวัตกรรมซับซ้อนอย่าง Nvidia ต้องการผู้นำที่เข้าใจวัฒนธรรมและกลไกภายในอย่างลึกซึ้ง โอกาสที่ CEO คนนอกจะสำเร็จจึงแทบเป็นศูนย์ Bezos ยังชี้ว่าการส่งไม้ต่อของ Amazon ให้ Andy Jassy ในปี 2021 เป็นกระบวนการที่วางแผนล่วงหน้าหลายปี ต่างจากสถานการณ์ฉุกเฉินของ Nvidia ท้ายที่สุดบอร์ด Nvidia ลงมติเอกฉันท์คืนตำแหน่ง CEO ให้ Huang เมื่อ 23 พฤศจิกายน 2026 บทเรียนสำคัญคือการวางแผนสืบทอดตำแหน่งที่ชัดเจนเป็นความเสี่ยงเชิงกลยุทธ์ของบริษัท AI ที่พึ่งพาผู้ก่อตั้งสูง",
+   "source_url": "https://techsauce.co/ai/nvidia-jensen-huang-returns-ceo-jeff-bezos-warning",
+   "tech_impact": "ประเด็น succession planning ของบริษัท AI ที่ผูกกับผู้ก่อตั้งกลายเป็นปัจจัยความเสี่ยงที่นักลงทุนและบอร์ดต้องจับตา",
+   "tags": [
+    "nvidia",
+    "bezos",
+    "succession",
+    "leadership",
+    "governance"
+   ],
+   "published_at": "2026-11-24T04:57:09+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Corporate Governance",
+    "AI Chips"
+   ],
+   "actions_developer": [
+    "บันทึกองค์ความรู้สถาปัตยกรรมระบบให้ไม่ผูกกับบุคคลเดียว",
+    "ติดตามสัญญาณเปลี่ยนแปลงนโยบายแพลตฟอร์ม NVIDIA"
+   ],
+   "actions_business": [
+    "ทบทวนแผนสืบทอดตำแหน่งผู้บริหารในองค์กรเทคโนโลยี",
+    "ประเมินความเสี่ยง key-person ของคู่ค้าเทคโนโลยีหลัก"
+   ],
+   "entities": {
+    "organizations": [
+     "NVIDIA",
+     "Amazon",
+     "Semafor"
+    ],
+    "people": [
+     "Jeff Bezos",
+     "Jensen Huang",
+     "Liz Hoffman",
+     "Andy Jassy"
+    ],
+    "products": [],
+    "places": [
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b1-04",
+   "slug": "krungsri-nimble-ai-upskill-five-skills",
+   "title": "Krungsri Nimble: AI cut a 106-microservice upgrade from 14.5 months to 3; five skills tech workers need",
+   "title_th": "กรุงศรี นิมเบิล ใช้ AI อัปเกรดระบบ 106 microservices จาก 14.5 เดือนเหลือ 3 เดือน พร้อม 5 ทักษะที่คนเทคต้องมี",
+   "topic_group": "thailand",
+   "source_name": "Techsauce",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "คุณเศรษฐศิริ เศรษฐภากรณ์ กรรมการผู้จัดการ บริษัท กรุงศรี นิมเบิล จำกัด บริษัทในเครือกรุงศรีที่ดูแลการพัฒนาโซลูชันไอที เล่าบนเวที THE STORY THAILAND EP6 ว่างานอัปเกรดโค้ดระบบเก่าที่มี microservices 106 ตัว ซึ่งเคยใช้เวลาราว 14.5 เดือน เมื่อทีมนำ AI เข้ามาช่วยกลับเสร็จได้ภายใน 3 เดือน เร็วขึ้น 4.8 เท่า และประหยัดเงินได้มากกว่า 2 ล้านบาท เธออ้างตัวเลข World Economic Forum ที่คาดว่าภายในปี 2030 AI จะสร้างงานใหม่ราว 170 ล้านตำแหน่ง แทนที่ราว 92 ล้านตำแหน่ง และ 39% ของทักษะปัจจุบันอาจไม่ตรงความต้องการ พร้อมข้อมูล PwC ว่าคนมีทักษะ AI ได้ค่าตอบแทนสูงขึ้น 56% แต่ย้ำว่าคนเทคไม่ต้องแข่งกับ AI หากต้องรู้ว่าจะใช้สร้างคุณค่าตรงไหน ผ่าน 5 ทักษะหลัก คือ ตั้งโจทย์ธุรกิจให้ถูก ประสานงาน AI (AI orchestration) วัดผล ออกแบบระบบ และนำทีม กรณีนี้เป็นตัวอย่างการใช้ AI ปรับปรุงระบบเดิมในภาคการเงินไทยที่วัดผลได้ชัด",
+   "source_url": "https://techsauce.co/culture-transformation/krungsri-nimble-tech-upskill-ai-orchestration",
+   "tech_impact": "กรณีศึกษาจากธนาคารไทยยืนยันว่า AI-assisted code modernization ลดเวลาและต้นทุนได้จริง และเปลี่ยนโจทย์ทักษะของทีมไอทีไปสู่การออกแบบระบบและ orchestration",
+   "tags": [
+    "krungsri",
+    "upskill",
+    "ai-coding",
+    "legacy-modernization",
+    "workforce"
+   ],
+   "published_at": "2026-11-24T08:33:01+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Coding",
+    "Workforce",
+    "Banking"
+   ],
+   "actions_developer": [
+    "ฝึกทักษะ AI orchestration และการวัดผลงานที่ AI สร้าง",
+    "ทดลองใช้ coding agent กับงาน refactor/upgrade legacy microservices"
+   ],
+   "actions_business": [
+    "ตั้ง KPI วัดผลโครงการ AI modernization เป็นเวลาและเงินที่ประหยัดได้",
+    "ลงทุน upskill พนักงานไอทีด้านการตั้งโจทย์ธุรกิจและการนำทีม"
+   ],
+   "entities": {
+    "organizations": [
+     "Krungsri Nimble",
+     "Krungsri",
+     "World Economic Forum",
+     "PwC",
+     "Techsauce"
+    ],
+    "people": [
+     "เศรษฐศิริ เศรษฐภากรณ์"
+    ],
+    "products": [],
+    "places": [
+     "Thailand"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b1-05",
+   "slug": "us-warns-honey-trap-ai-industry",
+   "title": "US warns of 'honey trap' espionage risk across the AI industry after Nvidia episode",
+   "title_th": "สหรัฐฯ เตือนภัย Honey Trap ภัยจารกรรมผ่านความสัมพันธ์ที่ระบบ Cybersecurity ป้องกันไม่ได้",
+   "topic_group": "global",
+   "source_name": "Techsauce",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "Techsauce รายงานว่าหลังกรณี Jensen Huang ลาออกจากตำแหน่ง CEO ของ Nvidia ที่นั่งมา 33 ปี ซึ่งมีรายงานว่าหน่วยข่าวกรองสหรัฐฯ เชื่อว่าผู้หญิงที่มีความสัมพันธ์ใกล้ชิดกับเขาเป็นสายลับที่รัฐบาลจีนส่งมา ผู้เชี่ยวชาญด้านความมั่นคงในสหรัฐฯ ได้ออกมาเตือนภัย Honey Trap ซึ่งเป็นกลยุทธ์ใช้ความสัมพันธ์ ความใกล้ชิด และความไว้วางใจเป็นเครื่องมือเข้าถึงข้อมูลสำคัญหรือสร้างจุดอ่อนเพื่อแบล็กเมล และระบุว่าแทบทุกคนในวงการ AI ตกเป็นเป้าหมายได้ ไม่ว่าจะเป็น founder กรรมการบริษัท หรือผู้ช่วยผู้บริหาร หน่วยงานสหรัฐฯ เริ่มแจ้งเตือนนักธุรกิจ นักลงทุน และผู้ที่เข้าถึงข้อมูลสำคัญให้ระวังภัยรูปแบบนี้ ประเด็นสำคัญคือแม้บริษัทเทคจะลงทุนมหาศาลกับไฟร์วอลล์ การยืนยันตัวตนหลายชั้น และทีมเฝ้าระวัง 24 ชั่วโมง แต่จุดอ่อนที่แท้จริงอาจอยู่ที่ตัวบุคคล ทำให้ security awareness และการคัดกรองบุคคลกลายเป็นส่วนหนึ่งของการปกป้องทรัพย์สินทางปัญญาด้าน AI",
+   "source_url": "https://techsauce.co/ai/what-is-honey-trap-cybersecurity-ai",
+   "tech_impact": "ความมั่นคงของทรัพย์สินทางปัญญาด้าน AI ขยายจากระบบไอทีไปสู่ insider risk และ social engineering ระดับผู้บริหาร",
+   "tags": [
+    "honey-trap",
+    "espionage",
+    "insider-threat",
+    "nvidia",
+    "security"
+   ],
+   "published_at": "2026-11-24T03:56:55+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Cybersecurity",
+    "Geopolitics",
+    "Insider Risk"
+   ],
+   "actions_developer": [
+    "บังคับใช้หลัก least privilege กับการเข้าถึง model weights และ source code",
+    "เปิด audit log สำหรับการเข้าถึงข้อมูลสำคัญของบุคลากรระดับสูง"
+   ],
+   "actions_business": [
+    "จัดอบรม security awareness ด้าน social engineering สำหรับผู้บริหาร",
+    "ทบทวนนโยบาย insider threat และการคัดกรองบุคคลในองค์กร AI"
+   ],
+   "entities": {
+    "organizations": [
+     "NVIDIA",
+     "Techsauce"
+    ],
+    "people": [
+     "Jensen Huang"
+    ],
+    "products": [],
+    "places": [
+     "United States",
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b1-06",
+   "slug": "ruk-com-blue-managed-ai-soc",
+   "title": "Ruk-Com launches Ruk-Com Blue managed AI SOC for Thai enterprises",
+   "title_th": "Ruk-Com เปิดศูนย์ AI SOC 'Ruk-Com Blue' เฝ้าระวังภัยไซเบอร์ด้วยนักวิเคราะห์ร่วมกับ AI",
+   "topic_group": "thailand",
+   "source_name": "TechTalkThai",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "บริษัท รักคอม จำกัด (Ruk-Com) ผู้ให้บริการ Enterprise Cloud สัญชาติไทยที่เริ่มจาก Web Hosting และกำลังก้าวสู่ปีที่ 13 ประกาศเปิดศูนย์ AI SOC และบริการ Managed AI SOC ภายใต้ชื่อ Ruk-Com Blue ที่อาคารวานิชเพลซ อารีย์ เพื่อเฝ้าระวังภัยคุกคามไซเบอร์ให้ธุรกิจองค์กรทั่วไทย โดยผสานทีมนักวิเคราะห์ Cybersecurity มืออาชีพเข้ากับ AI และระบุว่าผ่านมาตรฐานสากล 7 รายการ คุณจตุรภุช ตรีเพ็ชร CEO ของ Ruk-Com ชี้ว่า AI กลายเป็นเครื่องมือสำคัญของทั้งฝั่งผู้ป้องกันที่ช่วยเร่งการตรวจจับและยับยั้งภัย และฝั่งผู้โจมตีที่ใช้ AI ค้นหาช่องโหว่ใหม่ได้รวดเร็ว จึงต้องมี SOC ที่ทำงานร่วมกับ AI ตลอดเวลา บริการนี้เสริมพอร์ต Enterprise Cloud ที่มีหลาย Region ทั่วโลก ความสำคัญคือผู้ให้บริการคลาวด์ไทยเริ่มยกระดับไปสู่บริการความปลอดภัยแบบ AI-native ในช่วงที่การโจมตีด้วย AI agent เพิ่มขึ้นทั่วโลก",
+   "source_url": "https://www.techtalkthai.com/ruk-com-ai-soc/",
+   "tech_impact": "ตลาด Managed SOC ในไทยเริ่มแข่งขันด้วย AI-augmented detection เปิดทางเลือกให้องค์กรขนาดกลางที่ไม่มีทีม SOC ของตัวเอง",
+   "tags": [
+    "ruk-com",
+    "ai-soc",
+    "cybersecurity",
+    "cloud",
+    "thailand"
+   ],
+   "published_at": "2026-11-24T08:25:07+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Cybersecurity",
+    "Cloud",
+    "SOC"
+   ],
+   "actions_developer": [
+    "เตรียม log pipeline และ SIEM integration ให้พร้อมเชื่อมกับ Managed AI SOC",
+    "ทดสอบ playbook ตอบสนองเหตุอัตโนมัติร่วมกับนักวิเคราะห์"
+   ],
+   "actions_business": [
+    "เปรียบเทียบต้นทุน Managed AI SOC กับการสร้างทีม SOC ภายใน",
+    "ตรวจสอบมาตรฐานและ SLA ของผู้ให้บริการก่อนทำสัญญา"
+   ],
+   "entities": {
+    "organizations": [
+     "Ruk-Com",
+     "TechTalkThai"
+    ],
+    "people": [
+     "จตุรภุช ตรีเพ็ชร"
+    ],
+    "products": [
+     "Ruk-Com Blue"
+    ],
+    "places": [
+     "Thailand",
+     "Bangkok"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b1-07",
+   "slug": "h3c-thailand-ai-infrastructure-education",
+   "title": "H3C Thailand hosts 'Road to the Future' on next-gen AI infrastructure for Thai education",
+   "title_th": "H3C Thailand จัดงาน Road to The Future เปิดมุมมองโครงสร้างพื้นฐาน AI เพื่อการศึกษาไทย",
+   "topic_group": "thailand",
+   "source_name": "TechTalkThai",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "H3C Thailand ผู้ให้บริการโซลูชันและโครงสร้างพื้นฐานไอทีสำหรับองค์กรและสถาบันการศึกษา จับมือมหาวิทยาลัย นักวิชาการ และผู้เชี่ยวชาญเทคโนโลยีไทย จัดงาน H3C Road to The Future: Next-Gen AI Infrastructure for Education ที่โรงแรมโรสวูด กรุงเทพฯ เพื่อเจาะลึกโครงสร้างพื้นฐาน AI สำหรับมหาวิทยาลัย ทั้งระบบประมวลผล AI ขั้นสูง ระบบเครือข่ายอัจฉริยะ ห้องเรียนดิจิทัล และระบบความปลอดภัยไซเบอร์ งานนี้มีผู้บริหารมหาวิทยาลัย คณาจารย์ ผู้เชี่ยวชาญ และตัวแทนภาคอุตสาหกรรมร่วมแลกเปลี่ยนโอกาสและความท้าทายในการนำ AI มาใช้กับการเรียนการสอน งานวิจัย และการบริหารจัดการในระดับอุดมศึกษา พร้อมนำเสนอความร่วมมือเชิงกลยุทธ์ระหว่าง H3C กับสถาบันอุดมศึกษา ประเด็นที่ควรสนใจคือการแข่งขันของผู้ขายโครงสร้างพื้นฐานจากจีนในตลาดการศึกษาไทย ซึ่งมหาวิทยาลัยกำลังต้องลงทุนระบบ GPU และเครือข่ายเพื่อรองรับงาน AI แม้บทความนี้จะเป็นข่าวประชาสัมพันธ์ แต่สะท้อนแนวโน้มการลงทุนจริงในภาคการศึกษา",
+   "source_url": "https://www.techtalkthai.com/h3c-road-to-the-future-next-gen-ai-infrastructure-for-education-pr/",
+   "tech_impact": "มหาวิทยาลัยไทยเข้าสู่รอบการลงทุนโครงสร้างพื้นฐาน AI (compute, network, security) ซึ่งผู้ขายจากจีนกำลังแข่งขันอย่างจริงจัง",
+   "tags": [
+    "h3c",
+    "education",
+    "ai-infrastructure",
+    "university",
+    "thailand"
+   ],
+   "published_at": "2026-11-24T11:05:19+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Infrastructure",
+    "Education"
+   ],
+   "actions_developer": [
+    "ออกแบบคลัสเตอร์ GPU สำหรับงานวิจัยแบบแชร์ทรัพยากรด้วย scheduler",
+    "วางระบบ network segmentation สำหรับห้องปฏิบัติการ AI"
+   ],
+   "actions_business": [
+    "ประเมิน TCO และความเสี่ยงด้านซัพพลายเออร์ก่อนลงทุนโครงสร้างพื้นฐาน AI",
+    "สร้างความร่วมมือมหาวิทยาลัย-อุตสาหกรรมเพื่อพัฒนากำลังคน AI"
+   ],
+   "entities": {
+    "organizations": [
+     "H3C",
+     "H3C Thailand",
+     "TechTalkThai"
+    ],
+    "people": [],
+    "products": [],
+    "places": [
+     "Thailand",
+     "Bangkok"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b1-08",
+   "slug": "microsoft-ignite-2026-frontier-ecosystem",
+   "title": "Microsoft Ignite 2026: Copilot as the new OS for work and a 'Frontier Ecosystem' strategy",
+   "title_th": "Microsoft Ignite 2026 เปิดกลยุทธ์ Frontier Ecosystem ยก Copilot เป็นระบบปฏิบัติการใหม่ของการทำงาน",
+   "topic_group": "tech-trends",
+   "source_name": "TechTalkThai",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "TechTalkThai สรุปเนื้อหา keynote ของ Satya Nadella ในงาน Microsoft Ignite 2026 ที่ไมโครซอฟท์ประกาศกลยุทธ์สร้าง Frontier Ecosystem บนสามเสาหลัก คือ Human Ambition, Intelligence & Learning และ Trust โดยวาง Copilot เป็นเสมือนระบบปฏิบัติการใหม่ของการทำงานที่รวมการแชต การทำงานร่วมกัน (Cowork) การเขียนโค้ด และการทำงานอัตโนมัติ (Autopilot) ไว้ในที่เดียว ไมโครซอฟท์นำฟังก์ชันทั้งหมดของ Office มารวมไว้ใน Copilot โดยมีโมเดล AI เบื้องหลังจับคู่ความสามารถตามบริบท หน้า Home เป็นศูนย์กลางตั้งแต่ถามตอบด่วนถึงสั่งงานหลายขั้นตอน ฟีเจอร์ Code ให้พนักงานทุกคนสร้างแอป แดชบอร์ด และเครื่องมือ SaaS ใช้เอง ขณะที่ Autopilot รับงานอัตโนมัติต่อเนื่อง ความสำคัญคือไมโครซอฟท์กำลังเปลี่ยน Office จากชุดแอปแยกไปสู่แพลตฟอร์ม agent ที่ผสานงานความรู้ การเขียนโปรแกรม และกระบวนการธุรกิจ ซึ่งจะกระทบวิธีที่องค์กรออกแบบงานและกำกับดูแล AI",
+   "source_url": "https://www.techtalkthai.com/microsoft-ignite-2026-satya-nadella-opening-keynote-summary-pr/",
+   "tech_impact": "การรวม Office เข้ากับ Copilot และ Autopilot ทำให้ agent กลายเป็นอินเทอร์เฟซหลักของงานสำนักงาน องค์กรต้องเตรียมนโยบายกำกับดูแลและสิทธิ์การเข้าถึงข้อมูล",
+   "tags": [
+    "microsoft",
+    "ignite-2026",
+    "copilot",
+    "agents",
+    "enterprise"
+   ],
+   "published_at": "2026-11-24T04:37:52+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Enterprise AI",
+    "AI Agents",
+    "Productivity"
+   ],
+   "actions_developer": [
+    "ศึกษา API และ extensibility ของ Copilot/Autopilot สำหรับเชื่อมระบบภายใน",
+    "กำหนด guardrail และสิทธิ์ข้อมูลก่อนเปิดให้ agent ทำงานอัตโนมัติ"
+   ],
+   "actions_business": [
+    "วางแผน change management เมื่อพนักงานสร้างแอปเองผ่าน Copilot Code",
+    "ประเมินผลกระทบต่อสัญญาไลเซนส์ Microsoft 365"
+   ],
+   "entities": {
+    "organizations": [
+     "Microsoft",
+     "TechTalkThai"
+    ],
+    "people": [
+     "Satya Nadella"
+    ],
+    "products": [
+     "Copilot",
+     "Microsoft 365",
+     "Autopilot",
+     "Office"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b1-09",
+   "slug": "computer-union-bu-ai-healthcare-competition",
+   "title": "Computer Union and Bangkok University run AI Healthcare Assistance business-plan competition",
+   "title_th": "คอมพิวเตอร์ยูเนี่ยน ร่วมมหาวิทยาลัยกรุงเทพ จัดแข่งแผนธุรกิจโซลูชัน AI Healthcare Assistance",
+   "topic_group": "thailand",
+   "source_name": "TechTalkThai",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "บริษัท คอมพิวเตอร์ยูเนี่ยน จำกัด ร่วมกับคณะบริหารธุรกิจและคณะบัญชี มหาวิทยาลัยกรุงเทพ จัดโครงการ The Mastermind Business Idea Competition 2026 ในธีม Healthcare Reimagined ให้นักศึกษาวางแผนธุรกิจและแคมเปญการตลาดสำหรับโซลูชัน AI Healthcare Assistance ที่เจาะกลุ่มโรงพยาบาลและศูนย์การแพทย์ โซลูชันนี้ช่วยบุคลากรการแพทย์วิเคราะห์ภาพทางการแพทย์อย่างฟิล์ม X-Ray, CT และ MRI ทั้งทรวงอก ช่องท้อง หัวใจและหลอดเลือด รวมถึงช่วยคัดกรอง วินิจฉัย วางแผนการรักษา และติดตามผล โดยตรวจหาหลายโรคพร้อมกันเพื่อลดเวลาวินิจฉัยและเพิ่มความแม่นยำ คอมพิวเตอร์ยูเนี่ยนยังสนับสนุนการทำวิดีโอด้วย WonderClip ของ Alibaba Cloud ให้นักศึกษาทดลองใช้ ผู้บริหารอย่าง ดร.พีรวุฒิ เลาหะพันธุ์ และ ดร.ดาวิน ดารกานนท์ ร่วมเป็นกรรมการ โครงการนี้สะท้อนความพยายามเชื่อมภาคการศึกษาไทยกับการทำตลาด AI การแพทย์ ซึ่งเป็นตลาดที่ต้องอาศัยทั้งความเข้าใจเทคโนโลยีและการสื่อสารกับโรงพยาบาลแบบ B2B",
+   "source_url": "https://www.techtalkthai.com/cu-bu-for-ai-healthcare-assistance-by-alibaba-cloud/",
+   "tech_impact": "ตลาด AI วิเคราะห์ภาพทางการแพทย์ในไทยกำลังขยายผ่านผู้จัดจำหน่ายและการสร้างบุคลากรด้านการตลาดเทคโนโลยี",
+   "tags": [
+    "healthcare-ai",
+    "medical-imaging",
+    "university",
+    "alibaba-cloud",
+    "thailand"
+   ],
+   "published_at": "2026-11-24T03:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Healthcare AI",
+    "Medical Imaging",
+    "Education"
+   ],
+   "actions_developer": [
+    "ศึกษามาตรฐาน DICOM และการ validate โมเดลวิเคราะห์ภาพทางการแพทย์",
+    "ออกแบบ workflow ให้แพทย์ยืนยันผลก่อนใช้จริง"
+   ],
+   "actions_business": [
+    "ประเมินกฎระเบียบเครื่องมือแพทย์ (อย.) ก่อนทำตลาด AI การแพทย์",
+    "ใช้โครงการร่วมมหาวิทยาลัยเป็นช่องทางสร้าง talent pipeline"
+   ],
+   "entities": {
+    "organizations": [
+     "Computer Union",
+     "Bangkok University",
+     "Alibaba Cloud",
+     "TechTalkThai"
+    ],
+    "people": [
+     "พีรวุฒิ เลาหะพันธุ์",
+     "ดาวิน ดารกานนท์"
+    ],
+    "products": [
+     "WonderClip",
+     "AI Healthcare Assistance"
+    ],
+    "places": [
+     "Thailand",
+     "Bangkok"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b1-10",
+   "slug": "fujitsu-ai-driven-legacy-modernization",
+   "title": "Fujitsu pitches proactive, AI-driven modernization to unlock legacy systems",
+   "title_th": "Fujitsu เสนอแนวทาง AI-Driven Modernization ปลดล็อกระบบ Legacy สู่ Modern IT",
+   "topic_group": "tech-trends",
+   "source_name": "TechTalkThai",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "TechTalkThai เผยแพร่บทความจาก Fujitsu ที่อธิบายแนวทาง Proactive & AI-Driven Modernization สำหรับองค์กรที่ติดอยู่กับระบบไอทีดั้งเดิม (Legacy System) ซึ่งกลายเป็นคอขวดของการพัฒนาบริการใหม่ ปัญหาหลักที่ระบุคือระบบกลายเป็นกล่องดำ เพราะลอจิกทางธุรกิจฝังอยู่ในซอร์สโค้ดเก่าอย่าง COBOL ขณะที่เอกสารไม่อัปเดตและผู้เชี่ยวชาญทยอยเกษียณ ระบบขาดความคล่องตัวเพราะการทดสอบและปรับเปลี่ยนใช้เวลานาน และการเชื่อมต่อ API หรือนำข้อมูลไปใช้กับ AI ทำได้ยาก จนเกิดหนี้ทางเทคนิค (Technical Debt) และต้นทุนบำรุงรักษาสูง Fujitsu เสนอให้เปลี่ยนจากการปรับปรุงเมื่อจำเป็น เช่น ตอนระบบหมดการสนับสนุน ไปสู่การวางแผนเชิงรุกเป็นขั้นตอน โดยใช้ AI ช่วยวิเคราะห์โค้ด สกัดลอจิกธุรกิจ สร้างเอกสาร และเร่งการแปลงระบบ พร้อมบริหารความเสี่ยงให้ธุรกิจดำเนินต่อได้ ประเด็นนี้สอดคล้องกับกระแสที่องค์กรการเงินและภาครัฐหันมาใช้ AI ลดเวลาและต้นทุนการย้ายระบบ",
+   "source_url": "https://www.techtalkthai.com/unlock-legacy-systems-and-transition-to-modern-it-with-ai-driven-modernization-from-fujitsu/",
+   "tech_impact": "AI ช่วยลดอุปสรรคหลักของการ modernize ระบบ COBOL/mainframe คือการขาดเอกสารและคน ทำให้โครงการย้ายระบบคุ้มค่าขึ้น",
+   "tags": [
+    "fujitsu",
+    "legacy",
+    "modernization",
+    "cobol",
+    "technical-debt"
+   ],
+   "published_at": "2026-11-25T02:00:01+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Legacy Modernization",
+    "Enterprise IT"
+   ],
+   "actions_developer": [
+    "ทดลองใช้ LLM สร้างเอกสารและ test case จากโค้ด COBOL",
+    "วางกลยุทธ์ strangler pattern แยกบริการทีละส่วน"
+   ],
+   "actions_business": [
+    "จัดลำดับความสำคัญระบบ legacy ตามความเสี่ยงและมูลค่าธุรกิจ",
+    "ประเมินผู้ให้บริการ modernization ที่ใช้ AI เทียบกับการ rewrite"
+   ],
+   "entities": {
+    "organizations": [
+     "Fujitsu",
+     "TechTalkThai"
+    ],
+    "people": [],
+    "products": [
+     "COBOL"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b1-11",
+   "slug": "claude-riemann-proof-250000-pages",
+   "title": "Claude's Riemann Hypothesis proof runs ~250,000 pages, leaving humans struggling to verify it",
+   "title_th": "Anthropic เผย Claude ไขสมมติฐานรีมันน์อายุ 167 ปี แต่บทพิสูจน์ยาวราว 250,000 หน้า",
+   "topic_group": "ai-trends",
+   "source_name": "EnTechReview",
+   "category": "Thai",
+   "urgency": "high",
+   "content": "EnTechReview รายงานความคืบหน้าเรื่องที่ Levent Alpöge นักวิจัยของ Anthropic เปิดเผยว่าใช้ Claude ช่วยสร้างบทพิสูจน์ Riemann Hypothesis ข้อคาดการณ์ที่ Bernhard Riemann เสนอไว้ตั้งแต่ปี 1859 เกี่ยวกับการกระจายตัวของจำนวนเฉพาะ และเป็นหนึ่งในโจทย์รางวัล 1 ล้านดอลลาร์ แต่บทพิสูจน์ที่ได้มีความยาวประมาณ 250,000 หน้า เผยแพร่เป็น Lean Code 14 ชุดไฟล์รวมราว 240 MB จนตัวนักวิจัยเองยอมรับว่าอ่านไม่รู้เรื่องและเต็มไปด้วยเนื้อหาคุณภาพต่ำ ที่ผ่านมามีการตรวจด้วยคอมพิวเตอร์แล้วอย่างน้อย 10 ล้านล้าน zero แต่ไม่ถือเป็นการพิสูจน์สมบูรณ์ การใช้ Lean ทำให้ตรวจความถูกต้องเชิงรูปนัยด้วยเครื่องได้ แต่ชุมชนคณิตศาสตร์ยังต้องหาวิธีทำความเข้าใจและยืนยันผลงานขนาดนี้ Wired และ Ars Technica ก็รายงานประเด็นเดียวกันว่ามนุษย์กำลังดิ้นรนทำความเข้าใจบทพิสูจน์ เรื่องนี้สะท้อนยุคใหม่ที่ AI สร้างผลลัพธ์ทางวิทยาศาสตร์ได้เร็วกว่าที่มนุษย์จะตรวจสอบทัน",
+   "source_url": "https://entechreview.com/2026/11/claude-solved-an-age-old-math-problem/",
+   "tech_impact": "ถ้าการตรวจสอบด้วย Lean ยืนยันได้ จะเป็นหลักไมล์ของ AI ด้านคณิตศาสตร์ แต่ก็เปิดคำถามใหม่เรื่อง interpretability และการยอมรับผลงานที่มนุษย์อ่านไม่ได้",
+   "tags": [
+    "anthropic",
+    "claude",
+    "riemann-hypothesis",
+    "lean",
+    "math"
+   ],
+   "published_at": "2026-11-24T08:29:32+00:00",
+   "breakthrough_potential": true,
+   "related_domains": [
+    "AI for Science",
+    "Mathematics",
+    "Formal Verification"
+   ],
+   "actions_developer": [
+    "ศึกษา Lean 4 และ Mathlib สำหรับงาน formal verification ที่ใช้ AI ช่วย",
+    "ทดลองให้ LLM สร้าง proof แล้วตรวจด้วย proof checker อัตโนมัติ"
+   ],
+   "actions_business": [
+    "ติดตามการประยุกต์ formal verification กับซอฟต์แวร์ความปลอดภัยสูง",
+    "ประเมินโอกาส AI for Science ในงานวิจัยขององค์กร"
+   ],
+   "entities": {
+    "organizations": [
+     "Anthropic",
+     "Wired",
+     "Ars Technica"
+    ],
+    "people": [
+     "Levent Alpöge",
+     "Bernhard Riemann"
+    ],
+    "products": [
+     "Claude",
+     "Lean"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b1-12",
+   "slug": "cert-in-ai-agents-payment-fraud-banks",
+   "title": "CERT-In: attackers use AI agents to fake payment transactions at banks and fintechs",
+   "title_th": "CERT-In อินเดียเตือน แฮกเกอร์ใช้ AI Agent ปลอมธุรกรรมชำระเงินเจาะธนาคารและฟินเทค",
+   "topic_group": "global",
+   "source_name": "EnTechReview",
+   "category": "Thai",
+   "urgency": "high",
+   "content": "EnTechReview รายงานว่า Indian Computer Emergency Response Team (CERT-In) หน่วยงานรับมือภัยไซเบอร์ของอินเดีย เปิดเผยการโจมตีที่ใช้ AI ช่วยดำเนินการต่อธนาคาร บริษัทฟินเทค และผู้ให้บริการเทคโนโลยีการเงิน จนเกิดธุรกรรมที่ไม่ได้รับอนุญาต ผู้โจมตีไม่ได้เจาะ API ชำระเงินโดยตรง แต่อาศัยช่องโหว่ในกระบวนการธุรกิจ เช่น แก้ไขข้อมูลผู้รับเงินและความสัมพันธ์ของผู้มีอำนาจอนุมัติ แล้วใช้ระบบจ่ายเงินที่ถูกต้องตามปกติโอนเงินออก ทำให้ธุรกรรมผ่านขั้นตอนอนุมัติโดยไม่กระตุ้นระบบแจ้งเตือน ผู้ได้รับผลกระทบรวมถึงผู้ให้บริการระบบจ่ายเงินของหน่วยงานรัฐ แต่ยังไม่มีการเปิดเผยมูลค่าความเสียหายหรือกลุ่มผู้โจมตี CERT-In ยังพบการใช้ AI-driven Agentic Offensive Frameworks ที่ทำงานอัตโนมัติตั้งแต่สำรวจระบบ ค้นหาช่องทาง สร้าง exploit ไปจนประสาน agent หลายตัว และปรับวิธีเองเมื่อถูกบล็อก ลดเวลาโจมตีจากหลายวันเหลือไม่กี่ชั่วโมง ข้อความสำคัญสำหรับสถาบันการเงินคือการควบคุมเชิงกระบวนการต้องถูกเฝ้าระวังพอ ๆ กับระบบเทคนิค",
+   "source_url": "https://entechreview.com/2026/11/ai-assisted-cyberattacks/",
+   "tech_impact": "การโจมตีด้วย AI agent ย้ายเป้าจากช่องโหว่เทคนิคไปสู่ business logic ทำให้ระบบ fraud detection แบบเดิมตรวจไม่พบ",
+   "tags": [
+    "cert-in",
+    "ai-agents",
+    "payment-fraud",
+    "banking",
+    "cybersecurity"
+   ],
+   "published_at": "2026-11-24T02:58:12+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Cybersecurity",
+    "FinTech",
+    "AI Agents"
+   ],
+   "actions_developer": [
+    "เพิ่ม anomaly detection บนการแก้ไขข้อมูลผู้รับเงินและ approval chain",
+    "บังคับ out-of-band verification เมื่อมีการเปลี่ยนข้อมูลบัญชีปลายทาง"
+   ],
+   "actions_business": [
+    "ทบทวน segregation of duties ในกระบวนการอนุมัติจ่ายเงิน",
+    "ซ้อมแผนรับมือเหตุการโจมตีด้วย AI agent ร่วมกับทีมการเงิน"
+   ],
+   "entities": {
+    "organizations": [
+     "CERT-In",
+     "EnTechReview"
+    ],
+    "people": [],
+    "products": [],
+    "places": [
+     "India"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b1-13",
+   "slug": "airbus-leaving-microsoft-office-google-workspace",
+   "title": "Airbus plans to phase out Microsoft Office for Google Workspace within three years",
+   "title_th": "Airbus เตรียมเลิกใช้ MS Office ภายใน 3 ปี ย้ายไป Google Workspace ยกเว้นฝ่ายกลาโหม",
+   "topic_group": "tech-trends",
+   "source_name": "EnTechReview",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "EnTechReview รายงานว่า Airbus ผู้ผลิตเครื่องบินรายใหญ่ของโลกเดินหน้าแผนทยอยเลิกใช้ Microsoft Office และย้ายพนักงานไปใช้ Google Workspace ให้เสร็จภายใน 2–3 ปี ยกเว้นพนักงานธุรกิจกลาโหมกว่า 36,000 คน หรือราว 22% ของบุคลากร ที่ยังต้องใช้ Office แบบติดตั้งภายในองค์กรเพราะข้อจำกัดด้านความปลอดภัยข้อมูล Airbus เริ่มความร่วมมือกับ Google ตั้งแต่มีนาคม 2018 เพื่อย้ายพนักงานราว 130,000 คนขณะนั้นไปใช้เครื่องมือบนคลาวด์ แต่ติดปัญหาความเข้ากันได้ระหว่าง Excel กับ Google Sheets Catherine Jestin รองประธานบริหารฝ่ายดิจิทัลระบุว่า Google ทยอยแก้ปัญหา เช่น เพิ่มจำนวนเซลล์ใน Sheets ขึ้น 3 เท่า และปรับปรุงความเข้ากันได้ของ watermark และ comments ในเอกสารสัญญา ทำให้ฝ่ายกฎหมาย ฝ่ายขาย และจัดซื้อทำงานร่วมกันได้ดีขึ้น เรื่องนี้สำคัญเพราะเป็นสัญญาณการแข่งขันชุดเครื่องมือทำงานในยุคที่ทั้ง Microsoft และ Google ผูก AI อย่าง Copilot และ Gemini เข้ากับแพลตฟอร์ม",
+   "source_url": "https://entechreview.com/2026/11/airbus-may-be-leaving-microsoft-office/",
+   "tech_impact": "การย้ายแพลตฟอร์มของลูกค้าองค์กรระดับโลกบ่งชี้ว่าการแข่งขัน productivity suite ยุค AI ยังเปิดกว้าง และอธิปไตยข้อมูลเป็นตัวแปรสำคัญ",
+   "tags": [
+    "airbus",
+    "google-workspace",
+    "microsoft-office",
+    "enterprise",
+    "cloud"
+   ],
+   "published_at": "2026-11-25T01:40:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Enterprise Software",
+    "Cloud",
+    "Productivity"
+   ],
+   "actions_developer": [
+    "วางแผนย้ายมาโคร VBA และไฟล์ Excel ซับซ้อนไปยัง Apps Script/Sheets",
+    "ทดสอบความเข้ากันได้ของเอกสารสัญญาก่อนย้ายระบบ"
+   ],
+   "actions_business": [
+    "ประเมินต้นทุนรวมและความเสี่ยง lock-in ของ productivity suite",
+    "แยกนโยบายข้อมูลลับ/กลาโหมออกจากระบบคลาวด์ทั่วไป"
+   ],
+   "entities": {
+    "organizations": [
+     "Airbus",
+     "Microsoft",
+     "Google"
+    ],
+    "people": [
+     "Catherine Jestin"
+    ],
+    "products": [
+     "Microsoft Office",
+     "Google Workspace",
+     "Google Sheets",
+     "Excel"
+    ],
+    "places": [
+     "Europe"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b1-14",
+   "slug": "prachachat-ai-bubble-benefit-or-danger",
+   "title": "Prachachat column: Is the AI investment boom a bubble — benefit or danger?",
+   "title_th": "เมื่อเอไอกลายเป็นฟองสบู่ เป็นประโยชน์หรืออันตราย: คอลัมน์ชีพจรเศรษฐกิจโลก ประชาชาติ",
+   "topic_group": "global",
+   "source_name": "Prachachat AI",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "คอลัมน์ชีพจรเศรษฐกิจโลกของไพรัตน์ พงศ์พานิชย์ ในประชาชาติธุรกิจ วิเคราะห์ว่าการลงทุนเกี่ยวกับ AI ในสหรัฐฯ กำลังจะกลายเป็นการบูมครั้งใหญ่ที่สุดในประวัติศาสตร์ สูงกว่าการลงทุนสร้างรางรถไฟ ทางหลวง หรือแม้แต่อินเทอร์เน็ต โดยมีบริษัทยักษ์อย่าง Amazon และ Alphabet เป็นแกนนำ การบูมนี้หนุนตลาดหุ้นและการบริโภค แต่ผลตอบแทนยังไม่เพิ่มตามเงินลงทุน ทำให้ภาระหนี้สูงขึ้นขณะที่รายได้ยังน้อย บวกกับปัจจัยการเมืองหลังพรรคเดโมแครตได้ที่นั่งในคองเกรสเพิ่มจากการเลือกตั้งกลางเทอม และกรณีอื้อฉาวของ Jensen Huang ซีอีโอ Nvidia ที่ทำให้หุ้นร่วงในเดือนพฤศจิกายน Rebecca Patterson นักวิจัยเศรษฐกิจมหภาคชี้ว่าห้องแล็บ AI ส่วนใหญ่ใช้แนวคิดใช้จ่ายเท่าไรก็ได้เพื่อชนะการแข่งขัน จนกลายเป็นการก่อหนี้ ผู้เชี่ยวชาญส่วนใหญ่เห็นว่ายังเร็วเกินไปที่จะบอกว่าฟองสบู่จะแตกหรือไม่ เพราะขึ้นกับว่าดีมานด์ AI จะโตทันเงินลงทุนหรือไม่ ประเด็นนี้สำคัญต่อนักลงทุนไทยที่ผูกพอร์ตกับหุ้นเทคสหรัฐฯ",
+   "source_url": "https://www.prachachat.net/world/news-2100937",
+   "tech_impact": "ความกังวลเรื่องหนี้และผลตอบแทนของการลงทุน AI capex ทำให้ตลาดอ่อนไหวต่อข่าวเชิงลบ เช่น หุ้น Anthropic ต่ำกว่าราคา IPO",
+   "tags": [
+    "ai-bubble",
+    "investment",
+    "capex",
+    "markets",
+    "debt"
+   ],
+   "published_at": "2026-11-25T01:30:32+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Economics",
+    "Investment",
+    "Markets"
+   ],
+   "actions_developer": [
+    "ออกแบบระบบ AI ให้คุมต้นทุน inference และวัด ROI ได้ชัด",
+    "เลือกสถาปัตยกรรมที่สลับผู้ให้บริการโมเดลได้หากราคาเปลี่ยน"
+   ],
+   "actions_business": [
+    "ทดสอบสมมติฐาน ROI ของโครงการ AI ก่อนขยายการลงทุน",
+    "กระจายความเสี่ยงพอร์ตลงทุนที่กระจุกในหุ้น AI"
+   ],
+   "entities": {
+    "organizations": [
+     "Prachachat",
+     "Amazon",
+     "Alphabet",
+     "NVIDIA"
+    ],
+    "people": [
+     "ไพรัตน์ พงศ์พานิชย์",
+     "Rebecca Patterson",
+     "Jensen Huang"
+    ],
+    "products": [],
+    "places": [
+     "United States",
+     "Thailand"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b1-15",
+   "slug": "chula-thailand-quantum-computing-path",
+   "title": "Chula physicists outline Thailand's path to quantum computing opportunities",
+   "title_th": "นักฟิสิกส์จุฬาฯ ชี้ทางไทยสู่โอกาสควอนตัมคอมพิวติ้ง เน้นสร้างคนและชิ้นส่วนเฉพาะทาง",
+   "topic_group": "thailand",
+   "source_name": "ThaiPR IT",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "ข่าวประชาสัมพันธ์จากจุฬาลงกรณ์มหาวิทยาลัยระบุว่า Asst. Prof. Dr. Thiparat Chotibut, Asst. Prof. Dr. Salinporn Kittiwatanakul และ Dr. Supanut Thanasilp จากภาควิชาฟิสิกส์ คณะวิทยาศาสตร์ เรียกร้องให้ประเทศไทยเร่งสร้างความเชี่ยวชาญด้านควอนตัมและสนับสนุนงานวิจัยอย่างต่อเนื่อง เพื่อเตรียมรับโอกาสด้านการประมวลผล อุตสาหกรรม และความมั่นคงของข้อมูล เนื่องจากการผลิตผู้เชี่ยวชาญต้องใช้เวลาหลายปี จุฬาฯ มี Siam Quantum Square (SQ²) ให้บริการกิจกรรมการเรียนรู้และคอร์สออนไลน์ฟรี ไทยเริ่มจัดทำ roadmap เทคโนโลยีควอนตัมแห่งชาติในปี 2017–2018 และได้ทุนวิจัยเริ่มต้นในปี 2020 นักวิจัยมองว่าไทยไม่จำเป็นต้องสร้างควอนตัมคอมพิวเตอร์ทั้งเครื่องเพื่อแข่งกับมหาอำนาจ แต่สามารถเข้าสู่ห่วงโซ่อุปทานผ่านการพัฒนาชิ้นส่วนเฉพาะหรือความเชี่ยวชาญเฉพาะทาง รวมถึงต่อยอดจาก quantum sensing และ communication ศักยภาพการใช้งานมีทั้งการจำลองโมเลกุลเพื่อพัฒนายาและวัสดุ การปรับพอร์ตลงทุน และการจัดสรรพลังงาน แม้ยังมีข้อจำกัดเรื่องต้นทุนฮาร์ดแวร์ ความเสถียรของ qubit และความผิดพลาดในการคำนวณ",
+   "source_url": "https://www.thaipr.net/en/education_en/3781880",
+   "tech_impact": "แนวทาง niche supply chain ให้ไทยมีที่ยืนในอุตสาหกรรมควอนตัมโดยไม่ต้องลงทุนระดับมหาอำนาจ และเชื่อมกับความพร้อม post-quantum security",
+   "tags": [
+    "quantum",
+    "chula",
+    "research",
+    "thailand",
+    "education"
+   ],
+   "published_at": "2026-11-25T02:34:07+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Quantum Computing",
+    "Research",
+    "Education"
+   ],
+   "actions_developer": [
+    "เรียนรู้พื้นฐาน quantum computing ผ่านคอร์สฟรีของ SQ² และ SDK อย่าง Qiskit",
+    "เริ่มประเมินระบบที่ต้องย้ายไป post-quantum cryptography"
+   ],
+   "actions_business": [
+    "ติดตามทุนวิจัยและ roadmap ควอนตัมแห่งชาติเพื่อหาโอกาสร่วมมือ",
+    "ประเมินความเสี่ยงข้อมูลระยะยาวจาก harvest-now-decrypt-later"
+   ],
+   "entities": {
+    "organizations": [
+     "Chulalongkorn University",
+     "Siam Quantum Square"
+    ],
+    "people": [
+     "Thiparat Chotibut",
+     "Salinporn Kittiwatanakul",
+     "Supanut Thanasilp"
+    ],
+    "products": [],
+    "places": [
+     "Thailand"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-01",
+   "slug": "anthropic-shares-fall-below-ipo-price",
+   "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+   "title_th": "หุ้น Anthropic ร่วงต่ำกว่าราคา IPO ที่ 83 ดอลลาร์ สัญญาณเตือนมูลค่าสตาร์ทอัป AI",
+   "topic_group": "global",
+   "source_name": "TechCrunch AI",
+   "category": "International",
+   "urgency": "high",
+   "content": "TechCrunch รายงานว่าหุ้น Anthropic ร่วงต่ำกว่าราคา IPO ที่ 83 ดอลลาร์ โดยซื้อขายต่ำสุดที่ 76 ดอลลาร์ต่อหุ้นช่วงเที่ยงวันอังคาร ลดลงเกือบ 12% จากราคาปิดวันจันทร์ ทั้งที่เพิ่งเปิดตัวบน Nasdaq ไม่ถึงสัปดาห์ด้วยราคาเปิด 111.50 ดอลลาร์ การหลุดราคา IPO มักถูกมองเป็นสัญญาณลบ เพราะผู้จัดจำหน่ายมักตั้งราคาต่ำกว่ามูลค่าที่คาดว่าจะซื้อขายจริง วงการ AI จับตาหุ้น Anthropic อย่างใกล้ชิด โดย VC และนักวิเคราะห์มองว่าเป็นมาตรวัดว่านักลงทุนตลาดทุนให้มูลค่าภาคธุรกิจ AI อย่างไร หากราคายังอ่อนตัวต่อเนื่องในหลายสัปดาห์ข้างหน้า อาจกดดันมูลค่าสตาร์ทอัปเอกชนและลดโอกาส IPO ของบริษัท AI รายอื่น ไม่ใช่แค่ Anthropic ที่ถูกเทขาย หุ้น Nvidia ก็ร่วงกว่า 7% ในวันเดียวกัน คืนกำไรบางส่วนจากที่พุ่งกว่า 30% ในวันจันทร์หลัง Jensen Huang กลับมาเป็น CEO Semafor รายงานในทิศทางเดียวกันว่าหุ้น Anthropic ดิ่งท่ามกลางการซื้อขายหุ้น AI ที่ผันผวน",
+   "source_url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+   "tech_impact": "ราคาหุ้น Anthropic หลัง IPO เป็นตัวชี้วัดความอยากลงทุนใน AI ของตลาดทุน หากอ่อนตัวต่อเนื่องจะกระทบการระดมทุนของสตาร์ทอัป AI ทั้งระบบ",
+   "tags": [
+    "anthropic",
+    "ipo",
+    "stocks",
+    "valuation",
+    "nvidia"
+   ],
+   "published_at": "2026-11-24T18:30:42+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Economics",
+    "Markets",
+    "IPO"
+   ],
+   "actions_developer": [
+    "ออกแบบระบบให้สลับผู้ให้บริการโมเดลได้เพื่อลดความเสี่ยงด้านราคาและนโยบาย",
+    "ติดตามการเปลี่ยนแปลงราคา API หลังบริษัท AI เข้าตลาดหุ้น"
+   ],
+   "actions_business": [
+    "ประเมินกลยุทธ์ระดมทุนหากตลาดหดตัวต่อการประเมินมูลค่า AI",
+    "ติดตาม Anthropic และ Nvidia เป็นดัชนีความเชื่อมั่นภาค AI"
+   ],
+   "entities": {
+    "organizations": [
+     "Anthropic",
+     "Nasdaq",
+     "NVIDIA",
+     "TechCrunch",
+     "Semafor"
+    ],
+    "people": [
+     "Jensen Huang"
+    ],
+    "products": [],
+    "places": [
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-02",
+   "slug": "uk-ncsc-ai-driven-cyberattacks-weak-security",
+   "title": "UK NCSC warns AI-driven cyberattacks are exposing years of weak security",
+   "title_th": "NCSC อังกฤษเตือนการโจมตีไซเบอร์ด้วย AI พุ่งชัด เผยจุดอ่อนความปลอดภัยพื้นฐานที่สะสมมาหลายปี",
+   "topic_group": "global",
+   "source_name": "TechCrunch AI",
+   "category": "International",
+   "urgency": "high",
+   "content": "หน่วยงาน National Cyber Security Centre (NCSC) ของสหราชอาณาจักรระบุว่าพบการโจมตีไซเบอร์ที่ขับเคลื่อนด้วย AI เพิ่มขึ้นอย่างชัดเจนในช่วงหลายเดือนที่ผ่านมา โดยแฮกเกอร์ใช้เครื่องมือแฮกอัตโนมัติ เช่น เครื่องมือ penetration testing ที่ฝ่ายป้องกันใช้ทดสอบระบบ เพื่อค้นหาและเจาะจุดอ่อนง่าย ๆ ตั้งแต่เดือนกันยายนมีหลายเหตุการณ์ที่ทำให้องค์กรถูกบุกรุกและระบบหยุดทำงาน NCSC ชี้ว่าช่องโหว่ที่ถูกใช้ไม่ใช่ของใหม่ แต่ความเร็วที่ AI ทำการเจาะเปลี่ยนไป ช่วงเวลานี้ตรงกับการเปิดตัวเครื่องมือ pentest อัตโนมัติแบบโอเพนซอร์สอย่าง Artex และ Cairn ที่ใครก็ดาวน์โหลดใช้ได้ฟรี ขณะที่ FBI ของสหรัฐฯ ก็เตือนว่าแฮกเกอร์ใช้เครื่องมือเหล่านี้โจมตีด้วยความเร็วที่ไม่เคยมีมาก่อน ข้อความสำคัญจากลอนดอนคือการโจมตีส่วนใหญ่ป้องกันได้ด้วยมาตรการพื้นฐาน เพราะสิ่งที่ถูกใช้ไม่ใช่ช่องโหว่ memory corruption ใหม่ แต่เป็นจุดอ่อนที่ไม่เคยถูกแก้ไข ซึ่งเป็นเรื่องที่องค์กรทั่วโลกรวมถึงไทยควรเร่งปิดก่อน",
+   "source_url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+   "tech_impact": "AI ทำให้ต้นทุนการโจมตีจุดอ่อนพื้นฐานใกล้ศูนย์ องค์กรที่ละเลย cyber hygiene จะถูกเจาะเร็วขึ้นมาก",
+   "tags": [
+    "ncsc",
+    "cybersecurity",
+    "ai-attacks",
+    "pentest",
+    "uk"
+   ],
+   "published_at": "2026-11-24T18:02:59+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Cybersecurity",
+    "AI Agents",
+    "Policy"
+   ],
+   "actions_developer": [
+    "รัน autonomous pentest กับระบบตัวเองก่อนผู้โจมตีจะทำ",
+    "ปิด default credentials, exposed services และ misconfiguration ที่ค้างอยู่"
+   ],
+   "actions_business": [
+    "จัดงบประมาณให้ basic security hygiene ก่อนเครื่องมือขั้นสูง",
+    "ทบทวนแผน incident response สำหรับการโจมตีความเร็วสูง"
+   ],
+   "entities": {
+    "organizations": [
+     "NCSC",
+     "FBI",
+     "TechCrunch"
+    ],
+    "people": [],
+    "products": [
+     "Artex",
+     "Cairn"
+    ],
+    "places": [
+     "United Kingdom",
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-03",
+   "slug": "shellbench-ai-agents-struggle-everyday-life",
+   "title": "ShellBench: even the best AI agents fail over a third of everyday tasks",
+   "title_th": "ShellBench พบ AI agent ชั้นนำยังล้มเหลวกว่า 1 ใน 3 ของงานในชีวิตประจำวัน",
+   "topic_group": "ai-trends",
+   "source_name": "TechCrunch AI",
+   "category": "International",
+   "urgency": "medium",
+   "content": "TechCrunch รายงานผลงานวิจัย ShellBench เบนช์มาร์กใหม่สำหรับงานที่คนมอบหมายให้ AI agent ในชีวิตประจำวัน พบว่าแม้โมเดลชั้นนำจาก OpenAI, Anthropic และ Meta ก็ยังล้มเหลวมากกว่าหนึ่งในสามของครั้ง และ 15.7% ของความพยายามทั้งหมดละเมิดข้อกำหนดด้านความปลอดภัยอย่างน้อยหนึ่งข้อ ซึ่งมักนำไปสู่ผลลัพธ์ที่ไม่ตั้งใจ ShellBench พัฒนาร่วมกับนักวิจัยจาก The OpenClaw Foundation, Parsewave, Hugging Face, Red Hat และ UC Berkeley โดยอาศัยข้อมูลการใช้งาน AI agent จริงแบบไม่ระบุตัวตนกว่า 10 ล้านครั้ง ผลวิจัยออกมาในช่วงที่ personal AI assistant กำลังได้รับความนิยม และบริษัทใหญ่แข่งกันด้วย Muse ของ Meta, Dots ของ OpenAI และ Claude Duet ของ Anthropic โดย Meta ระบุว่ามีผู้ใช้ในสหรัฐฯ และแคนาดาตั้งค่า Muse กว่า 10 ล้านคนภายในหกสัปดาห์ ราวหนึ่งในสี่ใช้งานทุกวัน ผลนี้ชี้ว่าการตลาดของ agent ยังนำหน้าความน่าเชื่อถือจริง โดยเฉพาะงานที่เกี่ยวกับเงิน การเดินทาง และข้อมูลส่วนตัว",
+   "source_url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+   "tech_impact": "เบนช์มาร์กจากข้อมูลใช้งานจริงเผยช่องว่างความน่าเชื่อถือและความปลอดภัยของ personal agent ซึ่งต้องมี human-in-the-loop ในงานสำคัญ",
+   "tags": [
+    "shellbench",
+    "ai-agents",
+    "benchmark",
+    "safety",
+    "personal-assistant"
+   ],
+   "published_at": "2026-11-24T21:33:29+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Agents",
+    "Benchmarks",
+    "AI Safety"
+   ],
+   "actions_developer": [
+    "ใช้ ShellBench หรือชุดทดสอบจากงานจริงประเมิน agent ก่อน deploy",
+    "ใส่ safety check และการยืนยันจากผู้ใช้ก่อน action ที่ย้อนกลับไม่ได้"
+   ],
+   "actions_business": [
+    "ตั้งความคาดหวังลูกค้าต่อ AI agent ให้สอดคล้องกับอัตราความสำเร็จจริง",
+    "กำหนดความรับผิดชอบเมื่อ agent ทำงานผิดพลาดในบริการที่ขาย"
+   ],
+   "entities": {
+    "organizations": [
+     "OpenAI",
+     "Anthropic",
+     "Meta",
+     "The OpenClaw Foundation",
+     "Parsewave",
+     "Hugging Face",
+     "Red Hat",
+     "UC Berkeley"
+    ],
+    "people": [],
+    "products": [
+     "ShellBench",
+     "Muse",
+     "Dots",
+     "Claude Duet"
+    ],
+    "places": [
+     "United States",
+     "Canada"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-04",
+   "slug": "meta-muse-ai-agent-instagram-dms",
+   "title": "Meta brings its Muse AI agent directly into Instagram DMs",
+   "title_th": "Meta ใส่ AI agent 'Muse' เข้าไปใน Instagram DM ให้ถามข้อมูลโพสต์และสั่งงานได้ทันที",
+   "topic_group": "tech-trends",
+   "source_name": "TechCrunch AI",
+   "category": "International",
+   "urgency": "medium",
+   "content": "Meta ประกาศให้ผู้ใช้ Instagram แชตกับ AI agent ชื่อ Muse ได้โดยตรงในเธรด DM เพื่อขอบริบทเพิ่มเติมเกี่ยวกับโพสต์ สถานที่ หรือสินค้าที่เห็น หรือสรุปบทสนทนาที่พลาดไปใน DM อื่น โดยไม่ต้องสลับไปใช้แอป Muse ผู้ใช้สามารถแชร์โพสต์ให้ Muse และสั่งให้ลงมือทำ เช่น เพิ่มร้านกาแฟลงแผนเที่ยว Mexico City หรือหาดีล Black Friday ของรองเท้า บทสนทนาใน Instagram จะแสดงเป็น side chat ในแอป Muse หลักด้วย ฟีเจอร์นี้เริ่มทยอยเปิดบน iOS และ Android ในสหรัฐฯ แคนาดา เม็กซิโก ญี่ปุ่น และสิงคโปร์ Meta ยังให้ Muse จัดระเบียบโพสต์และรีลที่บันทึกไว้เป็น Collections หรือแปลงวิดีโอสูตรอาหารเป็นรายการซื้อของได้ ขณะเดียวกัน TechCrunch รายงานว่า Walmart จับมือ Meta นำดีล Black Friday เข้าสู่ Muse ความเคลื่อนไหวนี้สะท้อนการแข่งขันฝัง AI assistant ในแพลตฟอร์มที่ผู้ใช้ค้นพบสินค้าอยู่แล้ว ทำให้ Muse เข้าถึงฐานผู้ใช้ขนาดใหญ่และเปิดช่องทาง agentic commerce",
+   "source_url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+   "tech_impact": "การฝัง agent ในแอปโซเชียลหลักทำให้ agentic commerce เข้าถึงผู้ใช้หลายร้อยล้านคน และเปลี่ยนวิธีที่แบรนด์ต้องทำตลาดผ่าน AI",
+   "tags": [
+    "meta",
+    "muse",
+    "instagram",
+    "ai-agent",
+    "commerce"
+   ],
+   "published_at": "2026-11-24T17:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Agents",
+    "Social Media",
+    "E-commerce"
+   ],
+   "actions_developer": [
+    "เตรียมข้อมูลสินค้าแบบ structured ให้ AI agent อ่านและทำธุรกรรมได้",
+    "ติดตาม API/partner program ของ Muse สำหรับร้านค้า"
+   ],
+   "actions_business": [
+    "วางกลยุทธ์ให้สินค้าถูกแนะนำโดย AI agent ไม่ใช่แค่ฟีดโฆษณา",
+    "ประเมินผลกระทบต่อช่องทาง social commerce ในตลาดเอเชีย"
+   ],
+   "entities": {
+    "organizations": [
+     "Meta",
+     "Instagram",
+     "Walmart",
+     "TechCrunch"
+    ],
+    "people": [],
+    "products": [
+     "Muse",
+     "Instagram"
+    ],
+    "places": [
+     "United States",
+     "Canada",
+     "Mexico",
+     "Japan",
+     "Singapore"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-05",
+   "slug": "maple-raises-5-3m-private-ai",
+   "title": "Maple raises $5.3M to build AI products that protect user data, even from itself",
+   "title_th": "Maple ระดมทุน 5.3 ล้านดอลลาร์ สร้างแอป AI ที่เข้ารหัสข้อมูลจนแม้แต่บริษัทเองก็เข้าถึงไม่ได้",
+   "topic_group": "tech-trends",
+   "source_name": "TechCrunch AI",
+   "category": "International",
+   "urgency": "low",
+   "content": "TechCrunch รายงานว่า Maple สตาร์ทอัปที่ร่วมก่อตั้งโดยอดีตวิศวกร Apple ผู้เคยทำเทคโนโลยีรักษาความเป็นส่วนตัว ระดมทุนได้ 5.3 ล้านดอลลาร์ เพื่อสร้างแอป AI ที่ข้อมูลผู้ใช้เป็นส่วนตัวแม้กระทั่งจากตัวบริษัทเอง Mark Suman ผู้ร่วมก่อตั้งและ CEO อธิบายว่าระบบไม่เพียงเข้ารหัส แต่พิสูจน์ได้ ผู้ใช้สามารถตรวจสอบโค้ดโอเพนซอร์สและโค้ดที่รันบนเซิร์ฟเวอร์ผ่าน trusted execution environments (TEE) จึงไม่ต้องเชื่อคำพูดของบริษัท ประเด็นนี้สำคัญเพราะ AI assistant กำลังกลายเป็น agent ที่เข้าถึงไฟล์ อีเมล ปฏิทิน และเบราว์เซอร์ของผู้ใช้ ทำให้ความไว้วางใจต่อบริษัท AI สูงขึ้นเรื่อย ๆ Maple เสนอแนวทางว่าผู้บริโภคไม่ต้องแลกความเป็นส่วนตัวกับความสะดวก ต่างจากคู่แข่งที่มีนโยบายเก็บข้อมูลกว้างและบางรายนำข้อมูลส่วนตัวไปฝึกโมเดล แอปของ Maple ให้ประสบการณ์แชตถามตอบเหมือนแอป AI ทั่วไป แต่ออกแบบธุรกิจที่บริษัทไม่สามารถเข้าถึงข้อมูลตั้งแต่แรก",
+   "source_url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+   "tech_impact": "Confidential computing และ verifiable privacy กำลังกลายเป็นจุดขายของ AI assistant ในยุคที่ agent เข้าถึงข้อมูลส่วนตัวลึกขึ้น",
+   "tags": [
+    "maple",
+    "privacy",
+    "tee",
+    "funding",
+    "ai-assistant"
+   ],
+   "published_at": "2026-11-24T21:19:52+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Privacy",
+    "Confidential Computing",
+    "AI Assistants"
+   ],
+   "actions_developer": [
+    "ศึกษา TEE เช่น AWS Nitro Enclaves หรือ confidential GPU สำหรับ inference ส่วนตัว",
+    "ใช้ remote attestation ให้ผู้ใช้ตรวจสอบโค้ดที่รันจริงได้"
+   ],
+   "actions_business": [
+    "ใช้ privacy-by-design เป็นจุดขายในตลาดที่มี PDPA",
+    "ประเมินความเสี่ยงเมื่อส่งข้อมูลลูกค้าเข้าบริการ AI ภายนอก"
+   ],
+   "entities": {
+    "organizations": [
+     "Maple",
+     "Apple",
+     "TechCrunch"
+    ],
+    "people": [
+     "Mark Suman"
+    ],
+    "products": [
+     "Maple"
+    ],
+    "places": [
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-06",
+   "slug": "pinterest-parents-limit-ai-content-teens",
+   "title": "Pinterest lets parents limit how much AI-generated content teens see",
+   "title_th": "Pinterest ให้ผู้ปกครองจำกัดปริมาณคอนเทนต์ที่สร้างด้วย AI ที่วัยรุ่นเห็นในฟีด",
+   "topic_group": "tech-trends",
+   "source_name": "TechCrunch AI",
+   "category": "International",
+   "urgency": "low",
+   "content": "Pinterest ขยายระบบควบคุมโดยผู้ปกครอง โดยฟีเจอร์ที่โดดเด่นคือให้ผู้ปกครองกำหนดได้ว่าลูกวัยรุ่นจะเห็นคอนเทนต์ที่สร้างด้วย AI มากน้อยเพียงใด ควบคู่กับตัวเลือกมาตรฐานอย่างการตั้งค่าการแจ้งเตือนหรือการเล่นวิดีโออัตโนมัติ TechCrunch ระบุว่าทำให้ Pinterest เป็นหนึ่งในแพลตฟอร์มโซเชียลรายใหญ่รายแรกที่ให้ผู้ปกครองควบคุมปริมาณคอนเทนต์ AI ในประสบการณ์ใช้งานโดยรวม ขณะที่แพลตฟอร์มอื่นมักเน้นจำกัดการเข้าถึงฟีเจอร์ AI เฉพาะ เช่น Snap ที่ให้ปิดแชตบอต AI สำหรับวัยรุ่น Meta ที่หยุดให้วัยรุ่นเข้าถึง AI characters ทั่วโลกชั่วคราว และ WhatsApp ที่ให้ผู้ปกครองปรับระดับการเข้าถึง Meta AI แต่เครื่องมือควบคุมคอนเทนต์ AI ที่ไหลเข้าฟีดและระบบแนะนำยังมีน้อยมาก กลุ่มผู้ปกครองมองว่าปัญหานี้ทำร้ายสุขภาวะของเด็กเพื่อแลกกับกำไร เช่นกลุ่ม Fairplay ที่ส่งจดหมายถึง CEO ของ YouTube และ Google เมื่อเมษายน การเคลื่อนไหวนี้อาจกดดันให้แพลตฟอร์มอื่นต้องเพิ่มการควบคุมคอนเทนต์ AI ตามมา",
+   "source_url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+   "tech_impact": "การติดป้ายและกรองคอนเทนต์ AI กำลังกลายเป็นมาตรฐานความปลอดภัยเด็กออนไลน์ ซึ่งต้องพึ่งระบบตรวจจับ AI ที่แม่นยำ",
+   "tags": [
+    "pinterest",
+    "parental-controls",
+    "ai-content",
+    "teens",
+    "child-safety"
+   ],
+   "published_at": "2026-11-24T16:02:37+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Child Safety",
+    "Content Moderation",
+    "Generative AI"
+   ],
+   "actions_developer": [
+    "ติดป้าย provenance ให้คอนเทนต์ AI ตั้งแต่ขั้นสร้างเพื่อให้ระบบกรองทำงานได้",
+    "ออกแบบ ranking ที่รองรับ user/parent preference ต่อคอนเทนต์ AI"
+   ],
+   "actions_business": [
+    "เตรียมรับกฎหมายคุ้มครองเด็กออนไลน์ที่อาจครอบคลุมคอนเทนต์ AI",
+    "ใช้ parental control เป็นจุดสร้างความไว้วางใจของแบรนด์"
+   ],
+   "entities": {
+    "organizations": [
+     "Pinterest",
+     "Snap",
+     "Meta",
+     "WhatsApp",
+     "Fairplay",
+     "YouTube",
+     "Google"
+    ],
+    "people": [
+     "Neal Mohan",
+     "Sundar Pichai"
+    ],
+    "products": [
+     "Pinterest",
+     "Meta AI"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-07",
+   "slug": "crusoe-investor-solar-batteries-ai-data-centers",
+   "title": "G2VP's Brook Porter bets on solar plus batteries to power future AI data centers",
+   "title_th": "นักลงทุน Crusoe ชี้โซลาร์และแบตเตอรี่คือทางออกพลังงานดาต้าเซ็นเตอร์ AI ที่เร็วกว่าก๊าซ",
+   "topic_group": "global",
+   "source_name": "TechCrunch AI",
+   "category": "International",
+   "urgency": "medium",
+   "content": "Brook Porter พาร์ทเนอร์ของ G2 Venture Partners (G2VP) ซึ่งเป็นนักลงทุนใน Crusoe ให้สัมภาษณ์ TechCrunch ว่าปัญหาการจ่ายไฟให้ดาต้าเซ็นเตอร์ AI กลายเป็นประเด็นใหญ่ของยุค โครงข่ายไฟฟ้าสหรัฐฯ เปลี่ยนจากแทบไม่เติบโตเป็นเพิ่มหลายกิกะวัตต์ต่อปี และดีมานด์โตเร็วกว่าที่คนคาด บริษัทจำนวนมากจึงรีบซื้อหรือเช่าโรงไฟฟ้าก๊าซธรรมชาติ แต่ Porter มองว่า hyperscaler และผู้พัฒนาดาต้าเซ็นเตอร์ควรมองภาพใหญ่ คือโซลาร์คู่กับระบบกักเก็บพลังงาน ตามการวิเคราะห์ตลาดพลังงานดาต้าเซ็นเตอร์ของ G2VP เขาระบุว่ากำลังผลิตก๊าซธรรมชาติทั่วโลกเพิ่มได้เพียงราว 60–70 กิกะวัตต์ต่อปี ขณะที่โซลาร์ติดตั้งไปแล้วเกินหนึ่งเทราวัตต์ และบทเรียนจากการลงทุน 20 ปีคือต้องใช้ประโยชน์จาก Wright's Law หรือการผลิตสิ่งเดิมซ้ำจำนวนมากจนต้นทุนลด ทั้งโซลาร์และแบตเตอรี่เป็นเทคโนโลยีโมดูลาร์ที่ผลิตได้ในขนาดมหาศาล จึงชนะทั้งความเร็ว ขนาด และเศรษฐศาสตร์ ประเด็นนี้สำคัญต่อประเทศที่กำลังดึงดูดดาต้าเซ็นเตอร์อย่างไทย",
+   "source_url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+   "tech_impact": "พลังงานเป็นคอขวดหลักของการขยาย AI compute และการเลือกแหล่งพลังงานจะกำหนดต้นทุนและความเร็วในการสร้างดาต้าเซ็นเตอร์",
+   "tags": [
+    "data-centers",
+    "solar",
+    "batteries",
+    "energy",
+    "crusoe"
+   ],
+   "published_at": "2026-11-24T16:10:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Data Centers",
+    "Energy",
+    "AI Infrastructure"
+   ],
+   "actions_developer": [
+    "ออกแบบ workload scheduling ที่ปรับตามช่วงพลังงานหมุนเวียน",
+    "วัด energy per inference เพื่อลดต้นทุนพลังงาน"
+   ],
+   "actions_business": [
+    "ประเมินสัญญา PPA พลังงานหมุนเวียนสำหรับดาต้าเซ็นเตอร์",
+    "ติดตามนโยบายพลังงานไทยที่เกี่ยวกับการลงทุนดาต้าเซ็นเตอร์"
+   ],
+   "entities": {
+    "organizations": [
+     "G2 Venture Partners",
+     "Crusoe",
+     "TechCrunch"
+    ],
+    "people": [
+     "Brook Porter"
+    ],
+    "products": [],
+    "places": [
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-08",
+   "slug": "nyt-warns-photographers-photoshop-ai-update",
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "title_th": "New York Times เตือนช่างภาพอิสระอย่าอัปเดต Photoshop เวอร์ชันใหม่ เพราะฟีเจอร์ AI อาจติด metadata ว่าเป็นภาพ AI",
+   "topic_group": "tech-trends",
+   "source_name": "The Verge AI",
+   "category": "International",
+   "urgency": "medium",
+   "content": "The Verge รายงานว่า The New York Times ส่งอีเมลขอให้ช่างภาพอิสระอย่าใช้ Adobe Photoshop เวอร์ชันใหม่ เพราะฟีเจอร์ในอัปเดตปี 2027 ใช้ AI ในแบบที่ผู้ใช้อาจไม่รู้ตัว Meaghan Looram และ Josh Haner ผู้นำฝ่ายภาพของ Times ระบุว่าการใช้ฟีเจอร์เหล่านี้อาจทำให้ metadata ระบุว่าภาพถูกสร้างด้วย AI อัปเดตเดือนพฤศจิกายนเพิ่มฟีเจอร์ AI หลายอย่าง เช่น มุมมอง AI Assisted Editor ที่รวมเครื่องมือ AI ทั้งหมดไว้ในแถบเดียว ผู้ช่วย AI สำหรับคำแนะนำการแก้ไขทีละขั้น การแปลงและแก้ภาพด้วย prompt การขยายภาพด้วย AI และเครื่องมือจัดองค์ประกอบภาพใหม่สำหรับขนาดผ้าใบต่าง ๆ ปัญหาคือไม่ชัดเจนเสมอว่าเครื่องมือใดใช้ AI แม้แต่เครื่องมือเก่าอย่างการเลือกพื้นที่อัตโนมัติก็อาจนับเป็นส่วนหนึ่งของชุด AI ทำให้ภาพข่าวที่แก้เพียงเล็กน้อยถูกติดป้ายว่าแก้ด้วย AI ซึ่งกระทบความน่าเชื่อถือของสื่อ เรื่องนี้ชี้ว่ามาตรฐาน content credentials ต้องแยกระดับการใช้ AI ให้ละเอียดขึ้น",
+   "source_url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+   "tech_impact": "ความคลุมเครือของ AI metadata ใน content credentials อาจทำลายความน่าเชื่อถือภาพข่าว และผลักดันให้ต้องมีมาตรฐานระบุระดับการใช้ AI ที่ละเอียดขึ้น",
+   "tags": [
+    "nyt",
+    "photoshop",
+    "adobe",
+    "ai-metadata",
+    "journalism"
+   ],
+   "published_at": "2026-11-24T16:09:23+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Content Provenance",
+    "Media",
+    "Generative AI"
+   ],
+   "actions_developer": [
+    "ตรวจ C2PA/content credentials ใน workflow ภาพก่อนเผยแพร่",
+    "แยกประเภทการแก้ไข (AI generative vs ปรับแต่งพื้นฐาน) ใน metadata"
+   ],
+   "actions_business": [
+    "กำหนดนโยบายเครื่องมือและเวอร์ชันซอฟต์แวร์สำหรับฟรีแลนซ์สายข่าว",
+    "สื่อสารกับผู้อ่านเรื่องมาตรฐานการใช้ AI ในภาพ"
+   ],
+   "entities": {
+    "organizations": [
+     "The New York Times",
+     "Adobe",
+     "The Verge"
+    ],
+    "people": [
+     "Meaghan Looram",
+     "Josh Haner"
+    ],
+    "products": [
+     "Photoshop",
+     "AI Assisted Editor"
+    ],
+    "places": [
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-09",
+   "slug": "david-fincher-cliff-booth-ai-backlash",
+   "title": "David Fincher faces backlash over suspected generative AI use in 'Cliff Booth' sequel",
+   "title_th": "David Fincher ถูกวิจารณ์หนักว่าใช้ AI สร้างภาพในหนังภาคต่อ Cliff Booth",
+   "topic_group": "global",
+   "source_name": "The Verge AI",
+   "category": "International",
+   "urgency": "low",
+   "content": "The Verge รายงานว่าภาพยนตร์ The Further Mis-Adventures of Cliff Booth ภาคต่อของ Once Upon a Time in Hollywood ที่กำกับโดย David Fincher และนำแสดงโดย Brad Pitt ถูกตั้งคำถามว่าใช้ generative AI หลังรอบฉายสื่อเมื่อสัปดาห์ก่อนรอบปฐมทัศน์วันที่ 25 พฤศจิกายน ผู้ชมจำนวนมากระบุว่าหนังเต็มไปด้วยภาพที่แปลกและไม่สม่ำเสมอ จนรู้สึกเหมือน AI slop มากกว่างานขัดเกลาที่คาดหวังจากผู้กำกับ Fight Club และ The Social Network Patrick Tomasso ยูทูบเบอร์และผู้กำกับ โพสต์บน X ว่าเดินออกจากโรงด้วยความผิดหวัง และเห็นการใช้ AI อย่างโจ่งแจ้งที่สุดจากสตูดิโอใหญ่ พร้อมอ้างว่าเห็นฟุตเทจ AI ในตัวอย่างหนังด้วย ผู้ชมอีกหลายคนวิจารณ์ทำนองเดียวกัน ประเด็นนี้ยังไม่มีการยืนยันจากผู้สร้างตามรายงาน แต่สะท้อนแรงต้านของผู้ชมต่อ AI ในงานสร้างสรรค์ระดับพรีเมียม และความเสี่ยงด้านชื่อเสียงของสตูดิโอที่นำ AI มาใช้โดยไม่เปิดเผย",
+   "source_url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+   "tech_impact": "แรงต้านของผู้ชมต่อ AI ในภาพยนตร์ทำให้สตูดิโอต้องชั่งความคุ้มค่ากับความเสี่ยงด้านชื่อเสียง และอาจผลักดันการเปิดเผยการใช้ AI",
+   "tags": [
+    "fincher",
+    "film",
+    "generative-ai",
+    "ai-slop",
+    "hollywood"
+   ],
+   "published_at": "2026-11-24T18:15:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Generative AI",
+    "Entertainment",
+    "Media"
+   ],
+   "actions_developer": [
+    "ทำ pipeline QA ตรวจ artifact ของภาพ AI ก่อนส่งงาน",
+    "บันทึก provenance ของ asset ที่สร้างด้วย AI ใน VFX pipeline"
+   ],
+   "actions_business": [
+    "กำหนดนโยบายเปิดเผยการใช้ AI ในงานโปรดักชันต่อผู้ชม",
+    "ประเมินความเสี่ยงแบรนด์ก่อนใช้ generative AI ในงานพรีเมียม"
+   ],
+   "entities": {
+    "organizations": [
+     "Netflix",
+     "The Verge"
+    ],
+    "people": [
+     "David Fincher",
+     "Brad Pitt",
+     "Patrick Tomasso"
+    ],
+    "products": [
+     "The Further Mis-Adventures of Cliff Booth"
+    ],
+    "places": [
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-10",
+   "slug": "anthropic-siren-honeypot-ai-agents",
+   "title": "Anthropic builds 'Siren' honeypot to test whether AI agents go rogue",
+   "title_th": "Anthropic สร้าง Siren กับดักล่อ AI agent ให้ทำผิด เพื่อวัดความเสี่ยงก่อนปล่อยโมเดลจริง",
+   "topic_group": "ai-trends",
+   "source_name": "Wired AI",
+   "category": "International",
+   "urgency": "medium",
+   "content": "Wired รายงานว่านักวิจัย Anthropic พัฒนา Siren ชุดทดสอบแบบ honeypot สำหรับ AI agent ที่จำลองสถานการณ์สมจริงเพื่อล่อให้ agent ทำพฤติกรรมไม่พึงประสงค์ ผลที่ได้ใช้ประเมินโอกาสที่โมเดลใหม่จะทำนอกคำสั่งเมื่อใช้งานจริง และวัดประสิทธิภาพของมาตรการความปลอดภัยต่าง ๆ Siren ปล่อย agent เข้าไปในหนึ่งใน 26 สภาพแวดล้อม sandbox ที่ตั้งค่าผิดโดยเจตนาให้ส่งข้อมูลออกได้ และวางไฟล์ล่อใจ เช่น รหัสผ่านและเส้นทางออกอินเทอร์เน็ต ไว้นอกขอบเขต sandbox จากนั้นให้งานที่ยั่วให้ agent เอื้อมออกนอก sandbox โดยไม่ได้รับอนุญาต ทั้งหมดอยู่ใน sandbox ชั้นที่สองที่ตัดขาดจากโลกภายนอก Darya Kaviani นักวิจัยด้านความปลอดภัยของ Anthropic ระบุว่าโมเดลจะเก่งขึ้นและค้นพบช่องโหว่ zero-day ได้มากขึ้น โดยรายงานระบุว่าโมเดล Mythos ของ Anthropic มีความสามารถสูงในการค้นหา zero-day การทดสอบแบบนี้จึงสำคัญต่อการปล่อยโมเดลที่ทรงพลังขึ้นอย่างปลอดภัย และอาจเป็นแนวทางให้ห้องแล็บอื่นใช้ประเมิน agent",
+   "source_url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+   "tech_impact": "Honeypot evaluation เป็นเครื่องมือใหม่ในการวัด agentic misalignment ก่อน deploy และอาจกลายเป็นมาตรฐานการทดสอบ agent ที่มีสิทธิ์เข้าถึงระบบ",
+   "tags": [
+    "anthropic",
+    "ai-safety",
+    "honeypot",
+    "agents",
+    "evaluation"
+   ],
+   "published_at": "2026-11-24T16:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Safety",
+    "AI Agents",
+    "Evaluation"
+   ],
+   "actions_developer": [
+    "รัน agent ใน sandbox ซ้อนชั้นพร้อม egress control เสมอ",
+    "สร้าง canary credentials เพื่อตรวจจับ agent ที่เข้าถึงข้อมูลนอกขอบเขต"
+   ],
+   "actions_business": [
+    "กำหนดเกณฑ์ red-team/honeypot test ก่อนให้ agent เข้าถึงระบบ production",
+    "ติดตามมาตรฐานประเมินความปลอดภัย agent สำหรับการจัดซื้อ"
+   ],
+   "entities": {
+    "organizations": [
+     "Anthropic",
+     "Wired"
+    ],
+    "people": [
+     "Darya Kaviani"
+    ],
+    "products": [
+     "Siren",
+     "Mythos"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-11",
+   "slug": "jensen-huang-apologizes-nvidia-all-hands",
+   "title": "Jensen Huang apologizes to Nvidia staff in first all-hands since return, calls succession planning 'flawed'",
+   "title_th": "Jensen Huang ขอโทษพนักงาน Nvidia ในประชุม all-hands ครั้งแรก ยันบอร์ดตัดสินใจเองไม่ใช่รัฐบาล",
+   "topic_group": "global",
+   "source_name": "Wired AI",
+   "category": "International",
+   "urgency": "medium",
+   "content": "Wired รายงานว่า Jensen Huang กล่าวต่อพนักงานในการประชุม all-hands ครั้งแรกหลังกลับมาเป็น CEO ของ Nvidia ว่าจรรยาบรรณบริษัทเปิดโอกาสให้มีโอกาสครั้งที่สอง การวางแผนสืบทอดตำแหน่งเป็นกระบวนการที่มีข้อบกพร่อง และเขาจะลดสไตล์การบริหารที่เข้มข้นสุดขีดลง Huang ยอมรับว่าละเมิดนโยบายบริษัทและทำความผิดพลาดส่วนตัวร้ายแรงที่กระทบความสัมพันธ์กับภรรยาและลูกสองคนจนต้องลาออก แต่ยืนยันว่าบอร์ดเป็นผู้ตัดสินใจรับเขากลับ ไม่ใช่ระดับสูงสุดของรัฐบาล ซึ่ง The Verge ก็รายงานว่าเขาบอกพนักงานว่าไม่จริงที่ Trump ทำให้เขาได้กลับมา Huang พูดราวหนึ่งชั่วโมง เล่าเรื่องการเข้ารับการบำบัด และไม่รับคำถาม ขณะที่พนักงานบางส่วนดีใจ อีกส่วนยังกังวลกับพฤติกรรมของเขาและการตัดสินใจของบอร์ด TechCrunch รายงานเพิ่มว่า Huang ยังมองว่าแผนสืบทอดตำแหน่งสร้างลำดับชั้นที่ไม่จำเป็น ประเด็นนี้สำคัญเพราะความไม่แน่นอนด้านธรรมาภิบาลของบริษัทที่ครองตลาดชิป AI ส่งผลต่อนักลงทุนและลูกค้าทั่วโลก",
+   "source_url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
+   "tech_impact": "การปฏิเสธแผนสืบทอดตำแหน่งของ Huang ทำให้ key-person risk ของ Nvidia ยังสูง ซึ่งนักลงทุนและลูกค้าองค์กรต้องนำมาคิด",
+   "tags": [
+    "nvidia",
+    "jensen-huang",
+    "all-hands",
+    "succession",
+    "governance"
+   ],
+   "published_at": "2026-11-24T17:44:53+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Chips",
+    "Corporate Governance"
+   ],
+   "actions_developer": [
+    "ลดการผูกขาด CUDA-only โดยทดสอบ framework ที่รองรับหลาย backend",
+    "ติดตามประกาศ roadmap ผลิตภัณฑ์ช่วงเปลี่ยนผ่านผู้บริหาร"
+   ],
+   "actions_business": [
+    "ประเมิน key-person risk ของซัพพลายเออร์ GPU หลัก",
+    "ติดตามท่าทีบอร์ดและนักลงทุนสถาบันต่อธรรมาภิบาล Nvidia"
+   ],
+   "entities": {
+    "organizations": [
+     "NVIDIA",
+     "Wired",
+     "The Verge",
+     "TechCrunch"
+    ],
+    "people": [
+     "Jensen Huang",
+     "Donald Trump"
+    ],
+    "products": [],
+    "places": [
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-12",
+   "slug": "amazon-hackers-ai-agents-zero-day",
+   "title": "Amazon: hackers' AI agents found and exploited a zero-day with little human input",
+   "title_th": "Amazon เผย AI agent ของแฮกเกอร์ค้นพบและเจาะช่องโหว่ zero-day ได้เองแทบไม่ต้องมีคนช่วย",
+   "topic_group": "global",
+   "source_name": "Ars Technica AI",
+   "category": "International",
+   "urgency": "high",
+   "content": "Ars Technica รายงานว่า Amazon เปิดเผยกรณีที่ AI agent ค้นพบและใช้ประโยชน์จากช่องโหว่ zero-day โดยไม่มีมนุษย์กำกับนอกจากคำสั่งง่าย ๆ ให้ได้สิทธิ์ root บนเซิร์ฟเวอร์ของมหาวิทยาลัยแห่งหนึ่งในเอเชียตะวันออก agent เหล่านี้รันบน Cairn เฟรมเวิร์ก penetration testing โอเพนซอร์ส ผู้โจมตีเขียน prompt เป็นภาษาจีนตัวย่อและตั้งเขตเวลาเป็นเวลามาตรฐานจีน ให้รายการ IP และเป้าหมายว่าให้ได้ shell access ไม่นาน agent ก็พบ zero-day ในแอปพลิเคชัน AI ด้านภาพทางการแพทย์แบบโอเพนซอร์สบนเซิร์ฟเวอร์เป้าหมาย แล้วเจาะจนควบคุมระบบได้ทั้งหมด Amazon ระบุว่าผลนี้แสดงว่าปฏิบัติการโจมตีแบบ agentic เกิดขึ้นจริงแล้ว และฝ่ายป้องกันต้องเตรียมรับความเร็วและความต่อเนื่องของเครื่องมือเหล่านี้ Cairn ทำงานด้วยกราฟข้อเท็จจริงที่ใช้ร่วมกัน มี dispatcher จัดตาราง งาน และ container ให้ worker ที่รัน agent หลายตัวพร้อมกัน และรองรับ backend อย่าง Claude Code, Codex และ Pi เรื่องนี้ยืนยันคำเตือนของ NCSC และ CERT-In ในวันเดียวกันว่าการโจมตีด้วย AI agent ไม่ใช่สมมติฐานอีกต่อไป",
+   "source_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+   "tech_impact": "การค้นพบ zero-day อัตโนมัติโดย agent ลดเวลาระหว่างช่องโหว่ถูกพบกับถูกโจมตีเกือบเป็นศูนย์ ฝ่ายป้องกันต้องใช้ AI ตอบโต้ด้วย",
+   "tags": [
+    "amazon",
+    "zero-day",
+    "ai-agents",
+    "cairn",
+    "cybersecurity"
+   ],
+   "published_at": "2026-11-24T12:30:05+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Cybersecurity",
+    "AI Agents",
+    "Zero-day"
+   ],
+   "actions_developer": [
+    "สแกนและอัปเดตแอปโอเพนซอร์สที่เปิดสู่อินเทอร์เน็ต โดยเฉพาะแอป AI/ML",
+    "ใช้ AI-assisted code audit หาช่องโหว่ในซอฟต์แวร์ตัวเองก่อน"
+   ],
+   "actions_business": [
+    "ลดพื้นผิวการโจมตีโดยปิดบริการที่ไม่จำเป็นต่ออินเทอร์เน็ต",
+    "ลงทุน detection & response แบบอัตโนมัติให้ทันความเร็วของ agent"
+   ],
+   "entities": {
+    "organizations": [
+     "Amazon",
+     "Palo Alto Networks",
+     "Ars Technica"
+    ],
+    "people": [],
+    "products": [
+     "Cairn",
+     "Claude Code",
+     "Codex",
+     "Pi"
+    ],
+    "places": [
+     "East Asia",
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-13",
+   "slug": "meta-facebook-your-algorithm-llm-ranking",
+   "title": "Meta details how Facebook 'Your Algorithm' turns plain-language preferences into ranking",
+   "title_th": "Meta เปิดเบื้องหลัง Your Algorithm ของ Facebook ใช้ LLM แปลงความชอบที่พิมพ์เป็นภาษาคนสู่ระบบจัดอันดับฟีด",
+   "topic_group": "tech-trends",
+   "source_name": "MarkTechPost",
+   "category": "International",
+   "urgency": "low",
+   "content": "MarkTechPost สรุปบทความวิศวกรรมของ Meta ที่อธิบาย Facebook Your Algorithm ฟีเจอร์ที่ประกาศเมื่อ 13 ตุลาคม 2026 ให้ผู้ใช้บอก Facebook เป็นภาษาธรรมดาว่าอยากเห็นอะไรใน Feed และ Reels หน้าตั้งค่ามี 3 ส่วน คือ Lately Summary สรุปสิ่งที่ดูล่าสุดหนึ่งประโยค รายการ Interested In ที่เติมจากกิจกรรมเดิม และรายการ Not Interested In สำหรับสิ่งที่ไม่อยากเห็น ผู้ใช้พิมพ์ ย้าย หรือลบความสนใจได้ผ่านเมนูสามจุด Meta อธิบายว่าสัญญาณ engagement แบบ implicit ขยายขนาดได้ดีแต่ปรับตัวช้าและพลาดความละเอียด การระบุความชอบแบบ explicit จึงช่วยปิดช่องว่าง ระบบแบ่งวงจรความชอบเป็น 4 ส่วน และความสนใจที่ระบุจะป้อนเข้าแหล่ง retrieval 4 แหล่ง ใช้ทั้งใน Feed และ Reels ทำงานบน ranking stack ฝั่งเซิร์ฟเวอร์ร่วมกับการล้างแคชบนอุปกรณ์ บทความนี้เป็นโอกาสหายากที่นักพัฒนาได้เห็นการนำ LLM เข้าไปอยู่ใน recommender ระดับ production ที่มีผู้ใช้หลายพันล้านคน",
+   "source_url": "https://www.marktechpost.com/2026/11/24/meta-facebook-your-algorithm-llm-recommendations/",
+   "tech_impact": "เป็นพิมพ์เขียวการผสาน LLM กับ recommender แบบ implicit signals ให้ผู้ใช้ควบคุมอัลกอริทึมได้ ซึ่งอาจกลายเป็นข้อกำหนดด้านความโปร่งใสในอนาคต",
+   "tags": [
+    "meta",
+    "recommender",
+    "llm",
+    "ranking",
+    "facebook"
+   ],
+   "published_at": "2026-11-24T23:06:17+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Recommender Systems",
+    "LLM",
+    "Social Media"
+   ],
+   "actions_developer": [
+    "ทดลองใช้ LLM แปลง natural-language preference เป็น embedding/filters สำหรับ retrieval",
+    "ออกแบบ cache invalidation เมื่อผู้ใช้เปลี่ยนความชอบแบบเรียลไทม์"
+   ],
+   "actions_business": [
+    "พิจารณาให้ผู้ใช้ควบคุมระบบแนะนำเพื่อเพิ่มความไว้วางใจ",
+    "เตรียมรับข้อกำหนดความโปร่งใสอัลกอริทึม เช่น DSA"
+   ],
+   "entities": {
+    "organizations": [
+     "Meta",
+     "Facebook",
+     "MarkTechPost"
+    ],
+    "people": [],
+    "products": [
+     "Your Algorithm",
+     "Facebook Feed",
+     "Reels"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-14",
+   "slug": "ant-group-ling-3-2-air-multimodal",
+   "title": "Ant Group releases Ling-3.2-air open-weight multimodal MoE with 5.5B active parameters",
+   "title_th": "Ant Group ปล่อย Ling-3.2-air โมเดลมัลติโมดัล open-weight 124B พารามิเตอร์ ใช้งานจริง 5.5B",
+   "topic_group": "ai-trends",
+   "source_name": "Pandaily",
+   "category": "International",
+   "urgency": "medium",
+   "content": "Pandaily รายงานว่า Ant Group ปล่อย Ling-3.2-air โมเดลมัลติโมดัลแบบ open-weight ที่รับอินพุตทั้งข้อความ ภาพ และวิดีโอ มุ่งงานเขียนโค้ด การทำ workflow และการให้เหตุผลกับเอกสารวิชาชีพ ตามรายงานของ IT Home และ model card ของ inclusionAI โมเดลมีพารามิเตอร์รวม 124 พันล้าน โดยใช้งานจริงต่อโทเค็น 5.5 พันล้าน สถาปัตยกรรมผสม linear attention และ gated latent attention ในแบบ mixture-of-experts มี routed experts 512 ตัว ใช้งาน 8 ตัวและ shared expert 1 ตัว รองรับ context 256K ในตัวอย่างการ deploy คลังบน Hugging Face สร้างเมื่อ 23 พฤศจิกายนและมีไฟล์ weights 13 ชุดรวมราว 129GB โดย model card ระบุไลเซนส์ MIT แม้ยังไม่มีไฟล์ไลเซนส์แยก Ling-3.2-air ใช้สถาปัตยกรรมมัลติโมดัลแบบเนทีฟเดียวกับ Ling-3.0-flash-VL และแยกจาก Ling-3.2-flash รุ่นใหญ่กว่าและสาย LingSante ด้านการแพทย์ ความสำคัญคือโมเดลจีนแบบเปิดยังเดินหน้าเพิ่มประสิทธิภาพด้วย active parameter ต่ำ ทำให้รันได้ถูกลงสำหรับองค์กรที่ต้องการ self-host",
+   "source_url": "https://pandaily.com/ant-group-ling-3-2-air-multimodal-open-weights",
+   "tech_impact": "MoE ที่ active parameter ต่ำพร้อม multimodal และไลเซนส์ MIT ทำให้ self-hosting โมเดลระดับใช้งานจริงถูกลง และเพิ่มแรงแข่งขันจาก open model จีน",
+   "tags": [
+    "ant-group",
+    "ling",
+    "open-weights",
+    "multimodal",
+    "moe"
+   ],
+   "published_at": "2026-11-24T07:06:23+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Open Models",
+    "Multimodal",
+    "MoE"
+   ],
+   "actions_developer": [
+    "ทดสอบ Ling-3.2-air กับงานอ่านเอกสารและ coding บน vLLM/SGLang",
+    "ตรวจสอบไลเซนส์และ model card ให้ครบก่อนใช้เชิงพาณิชย์"
+   ],
+   "actions_business": [
+    "เปรียบเทียบต้นทุน self-host open model กับ API ปิด",
+    "ประเมินความเสี่ยงด้าน compliance ในการใช้โมเดลจากผู้พัฒนาจีน"
+   ],
+   "entities": {
+    "organizations": [
+     "Ant Group",
+     "inclusionAI",
+     "Hugging Face",
+     "IT Home",
+     "Pandaily"
+    ],
+    "people": [],
+    "products": [
+     "Ling-3.2-air",
+     "Ling-3.0-flash-VL",
+     "Ling-3.2-flash",
+     "LingSante"
+    ],
+    "places": [
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-15",
+   "slug": "sand-ai-magi-2-full-video-model",
+   "title": "Sand.ai launches full MAGI-2 audio-video model with 480B parameters; open weights still promised",
+   "title_th": "Sand.ai เปิดตัว MAGI-2 ฉบับเต็ม 480B สร้างวิดีโอพร้อมเสียง 30 วินาที 1080p",
+   "topic_group": "ai-trends",
+   "source_name": "Pandaily",
+   "category": "International",
+   "urgency": "medium",
+   "content": "Pandaily รายงานว่า Sand.ai เปิดตัวโมเดลสร้างวิดีโอพร้อมเสียง MAGI-2 ฉบับเต็ม ผ่านเว็บไซต์ภาษาจีนและบทความเทคนิควันที่ 24 พฤศจิกายน บริษัทระบุว่าสร้างคลิปยาวสูงสุด 30 วินาที ที่ความละเอียด 1080p 25 เฟรมต่อวินาที พร้อมเสียงแบบเนทีฟที่ซิงก์กัน ฉบับเต็มมีพารามิเตอร์รวม 480 พันล้าน ใช้งานจริงราว 28 พันล้านระหว่าง inference เทียบกับรุ่น Preview ที่มี 114 พันล้านและใช้งานราว 6 พันล้าน จุดเด่นคือการผลิตแบบอิงอ้างอิง โดยหนึ่งการสร้างรับ reference ได้ถึง 20 รายการ ได้แก่ ภาพ 10 วิดีโอ 5 และเสียง 5 คลิป พร้อมการกำหนดเหตุการณ์บนไทม์ไลน์ ควบคุมการตัดช็อต และแก้ไขโดยคงเนื้อหาที่เลือกไว้ ทั้งนี้เป็นตัวเลขที่บริษัทรายงานเองยังไม่มีการยืนยันอิสระ และ open weights ยังเป็นเพียงคำสัญญา การแข่งขันโมเดลวิดีโอจากจีนจึงขยับไปสู่คลิปที่ยาวขึ้นและควบคุมได้ละเอียดขึ้น ซึ่งกระทบอุตสาหกรรมโฆษณาและโปรดักชันคอนเทนต์โดยตรง",
+   "source_url": "https://pandaily.com/sand-ai-full-magi-2-video-model-open-weights-planned",
+   "tech_impact": "โมเดลวิดีโอที่ควบคุมด้วย reference หลายชนิดและไทม์ไลน์ทำให้ AI video ใกล้ workflow โปรดักชันจริงมากขึ้น",
+   "tags": [
+    "sand-ai",
+    "magi-2",
+    "video-generation",
+    "audio",
+    "china"
+   ],
+   "published_at": "2026-11-25T02:18:42+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Video Generation",
+    "Generative AI",
+    "Multimodal"
+   ],
+   "actions_developer": [
+    "ทดลอง workflow reference-driven generation สำหรับงานโฆษณาสั้น",
+    "ติดตามการปล่อย open weights เพื่อประเมิน self-host"
+   ],
+   "actions_business": [
+    "ประเมินต้นทุนผลิตวิดีโอโฆษณาด้วย AI เทียบโปรดักชันเดิม",
+    "กำหนดนโยบายสิทธิ์ภาพ/เสียงอ้างอิงที่ใช้ป้อนโมเดล"
+   ],
+   "entities": {
+    "organizations": [
+     "Sand.ai",
+     "Pandaily"
+    ],
+    "people": [],
+    "products": [
+     "MAGI-2",
+     "MAGI-2 Preview"
+    ],
+    "places": [
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-16",
+   "slug": "sensetime-sensenova-u1-6-self-correction",
+   "title": "SenseTime opens SenseNova U1.6 with native image self-correction",
+   "title_th": "SenseTime เปิด SenseNova U1.6 โมเดลสร้างภาพที่ตรวจและแก้ข้อความในภาพเองได้",
+   "topic_group": "ai-trends",
+   "source_name": "Pandaily",
+   "category": "International",
+   "urgency": "low",
+   "content": "Pandaily รายงานว่า SenseTime ปล่อย SenseNova U1.6 เมื่อวันที่ 24 พฤศจิกายน เพิ่มความสามารถ native image self-correction ให้ตระกูลโมเดลมัลติโมดัลแบบรวมขนาดราว 8B ทำให้โมเดลเดียวสามารถสร้างภาพ ตรวจเทียบกับ prompt เดิม และสร้างภาพฉบับแก้ไขเมื่อพบข้อผิดพลาดของข้อความ เช่น ตัวอักษรเบลอ อักขระเพี้ยน สะกดผิด หรือเลขลำดับสลับ โดยรวมการแก้ไขที่เสนอเข้ากับ prompt และภาพเดิม แทนการให้ผู้ใช้หรือโมเดลตรวจแยกต่างหาก บริษัทรายงานว่าเวอร์ชัน API อย่าง U1.6 Lite ทำคะแนน UltraTextBench ในงานอินโฟกราฟิกหนาแน่นได้ 92.28 เมื่อเปิด self-correction เทียบ 86.04 แบบสร้างรอบเดียว เพิ่มขึ้น 6.24 คะแนนหรือราว 7% และคะแนนความสวยงามในการประเมินภายในดีขึ้นราว 10% เมื่อเทียบ U1.5 Lite ทั้งนี้เป็นผลที่บริษัทรายงานเองและอาจไม่ใช้กับทุกเวอร์ชันที่ดาวน์โหลดได้ ความสำคัญคือแนวทาง generate-verify-revise ในโมเดลเดียวช่วยแก้จุดอ่อนเรื่องข้อความในภาพ ซึ่งสำคัญต่องานอินโฟกราฟิกและสื่อการตลาด",
+   "source_url": "https://pandaily.com/sensetime-sensenova-u1-6-native-image-self-correction",
+   "tech_impact": "Self-correction loop ภายในโมเดลภาพช่วยให้งานอินโฟกราฟิกและภาพที่มีข้อความแม่นยำขึ้นโดยไม่ต้องตรวจด้วยมือ",
+   "tags": [
+    "sensetime",
+    "sensenova",
+    "image-generation",
+    "self-correction",
+    "open-weights"
+   ],
+   "published_at": "2026-11-24T07:05:50+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Image Generation",
+    "Multimodal",
+    "Open Models"
+   ],
+   "actions_developer": [
+    "ทดลอง loop generate-verify-revise กับโมเดลภาพที่ใช้อยู่",
+    "วัดผลด้วยเบนช์มาร์กข้อความในภาพก่อนใช้กับงานจริง"
+   ],
+   "actions_business": [
+    "ประเมินการใช้ AI สร้างอินโฟกราฟิกภาษาไทยที่ต้องการความแม่นยำของตัวอักษร",
+    "ลดต้นทุนรอบแก้ไขงานกราฟิกด้วยโมเดลที่แก้ตัวเองได้"
+   ],
+   "entities": {
+    "organizations": [
+     "SenseTime",
+     "Pandaily"
+    ],
+    "people": [],
+    "products": [
+     "SenseNova U1.6",
+     "SenseNova U1.6 Lite",
+     "UltraTextBench"
+    ],
+    "places": [
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-17",
+   "slug": "uae-mira-ai-assistant-children-learning",
+   "title": "UAE launches 'Mira' government AI assistant to track children's learning in public schools",
+   "title_th": "UAE เปิดตัว Mira ผู้ช่วย AI ภาครัฐ ให้ผู้ปกครองติดตามการเรียนของลูกในโรงเรียนรัฐ 530 แห่ง",
+   "topic_group": "global",
+   "source_name": "Semafor Tech",
+   "category": "International",
+   "urgency": "low",
+   "content": "Semafor รายงานว่าตั้งแต่เดือนมีนาคม ผู้ปกครองนักเรียนโรงเรียนรัฐใน UAE จะสามารถถามผู้ช่วย AI ภาครัฐตัวใหม่ชื่อ Mira ได้ว่าทำไมลูกเรียนตามไม่ทันในบางวิชาและควรแก้อย่างไร ตามที่ Sarah Al Amiri รัฐมนตรีศึกษาธิการให้สัมภาษณ์ Mira ยังให้ผู้ปกครองตรวจเกรด การมาเรียน และนัดพบครูได้ เป็นส่วนหนึ่งของโครงการรัฐบาลที่ใช้ agentic AI ปรับปรุงบริการ ระบบจะดึงข้อมูลที่โรงเรียนเก็บอยู่แล้ว เช่น การสังเกตในห้องเรียน ผลงานโครงงาน และผลประเมินมาตรฐานที่ผู้ปกครองแทบไม่เคยเห็น เพื่อแจ้งปัญหาแต่เนิ่น ๆ เช่นบอกว่าเด็กที่อ่อนคณิตศาสตร์ควรเน้นหัวข้อใด กระทรวงจะใช้ระบบในโรงเรียนรัฐกว่า 530 แห่ง นักเรียนราว 280,000 คน จากนักเรียนทั้งประเทศ 1.1 ล้านคน ส่วนโรงเรียนเอกชนไม่บังคับใช้ Mira มาหลังจาก UAE บังคับหลักสูตร AI ตั้งแต่ฤดูใบไม้ร่วงปี 2025 ในโรงเรียนรัฐและเอกชนบางแห่งตั้งแต่อนุบาลถึงเกรด 12 กรณีนี้เป็นตัวอย่างการใช้ AI agent ในบริการการศึกษาภาครัฐที่ไทยควรศึกษา พร้อมประเด็นความเป็นส่วนตัวของข้อมูลเด็ก",
+   "source_url": "https://www.semafor.com/article/11/24/2026/uae-launches-ai-assistant-to-track-childrens-learning",
+   "tech_impact": "รัฐบาลเริ่มใช้ agentic AI เชื่อมข้อมูลการศึกษาให้ผู้ปกครองเข้าถึงได้โดยตรง ซึ่งต้องมาพร้อมธรรมาภิบาลข้อมูลเด็ก",
+   "tags": [
+    "uae",
+    "govtech",
+    "education",
+    "ai-assistant",
+    "agents"
+   ],
+   "published_at": "2026-11-24T12:41:34+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "GovTech",
+    "Education",
+    "AI Agents"
+   ],
+   "actions_developer": [
+    "ออกแบบ RAG บนข้อมูลการเรียนพร้อม access control ระดับผู้ปกครอง-นักเรียน",
+    "ทำ audit log การเข้าถึงข้อมูลเด็กทุกครั้ง"
+   ],
+   "actions_business": [
+    "ศึกษาโมเดลบริการรัฐด้วย AI agent สำหรับภาคการศึกษาไทย",
+    "ประเมินข้อกำหนด PDPA กรณีข้อมูลผู้เยาว์"
+   ],
+   "entities": {
+    "organizations": [
+     "UAE Ministry of Education",
+     "Semafor"
+    ],
+    "people": [
+     "Sarah Al Amiri"
+    ],
+    "products": [
+     "Mira"
+    ],
+    "places": [
+     "United Arab Emirates"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-18",
+   "slug": "openai-gpt-6-protein-design",
+   "title": "OpenAI: GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "title_th": "OpenAI เผย GPT-6 ออกแบบโปรตีนใหม่ได้ด้วยการให้เหตุผลและโค้ด โดยไม่ต้องพึ่งโมเดลชีววิทยาเฉพาะทาง",
+   "topic_group": "ai-trends",
+   "source_name": "OpenAI Blog",
+   "category": "International",
+   "urgency": "high",
+   "content": "OpenAI เผยแพร่งานวิจัยพรีปรินต์ชื่อ GPT-6 as a Universal Foundation Model for Protein Biology ระบุว่าโมเดลตระกูล GPT-6 สามารถออกแบบรูปร่างโปรตีนใหม่และลำดับกรดอะมิโนได้ด้วยการให้เหตุผลและเครื่องมือเขียนโค้ดทั่วไปเท่านั้น โดยไม่เรียกใช้โมเดลชีววิทยาเฉพาะทางในการสร้างแบบ โมเดลวิจัยภายในทำได้เทียบเท่าหรือดีกว่าโมเดลเฉพาะทางในงานออกแบบโปรตีนหลายงาน และนักวิจัยสามารถกำหนดผ่าน prompt ได้ว่าโปรตีนควรจับที่ตำแหน่งใดและมีรูปร่างอย่างไร ในการทดลองแล็บร่วมกับ Onava โปรตีนที่อิงจากแบบของ GPT-6.2 แสดงหลักฐานการจับเป้าหมายได้ทั้ง 5 เป้า และแอนติบอดีที่ออกแบบใหม่ยังคงความสามารถในการจับ ทั้งนี้โมเดลเฉพาะทางยังช่วยสร้างลำดับและคัดเลือกผู้สมัครเพื่อทดสอบ OpenAI ระบุว่าเหตุผลและโค้ดที่โมเดลเขียนแสดงว่ามันดึงความรู้คณิตศาสตร์ ฟิสิกส์ เคมี และชีววิทยามาใช้ร่วมกัน ความสำคัญคือโมเดลทั่วไปเริ่มทำงานวิทยาศาสตร์เฉพาะทางได้ในระดับเดียวกับเครื่องมือที่สร้างมาเฉพาะ ซึ่งอาจเปลี่ยนวิธีค้นคว้ายาและชีววิทยาสังเคราะห์",
+   "source_url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+   "tech_impact": "Foundation model ทั่วไปเริ่มแทนที่โมเดลเฉพาะทางในงานออกแบบโปรตีน เร่ง AI for Science แต่ก็เพิ่มความจำเป็นของมาตรการ biosecurity",
+   "tags": [
+    "openai",
+    "gpt-6",
+    "protein-design",
+    "biology",
+    "ai-for-science"
+   ],
+   "published_at": "2026-11-24T13:00:00+00:00",
+   "breakthrough_potential": true,
+   "related_domains": [
+    "AI for Science",
+    "Protein Design",
+    "Biotech"
+   ],
+   "actions_developer": [
+    "ติดตามพรีปรินต์และ benchmark การออกแบบโปรตีนของ GPT-6",
+    "ศึกษา pipeline ผสาน LLM กับเครื่องมือ structure prediction สำหรับงานวิจัย"
+   ],
+   "actions_business": [
+    "ประเมินโอกาสใช้ frontier model ในงานวิจัยยาและไบโอเทค",
+    "ติดตามกฎระเบียบ biosecurity ที่อาจจำกัดการเข้าถึงความสามารถนี้"
+   ],
+   "entities": {
+    "organizations": [
+     "OpenAI",
+     "Onava"
+    ],
+    "people": [],
+    "products": [
+     "GPT-6",
+     "GPT-6.2"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-19",
+   "slug": "simon-willison-three-llm-inflection-points",
+   "title": "Simon Willison: three LLM inflection points in twelve months",
+   "title_th": "Simon Willison วิเคราะห์ 3 จุดเปลี่ยนสำคัญของ LLM และ coding agent ในรอบ 12 เดือน",
+   "topic_group": "ai-trends",
+   "source_name": "Simon Willison Blog",
+   "category": "International",
+   "urgency": "low",
+   "content": "Simon Willison เขียนบล็อกต่อยอดจาก keynote ในงาน AI Engineer Code Summit โดยเสนอว่าความสามารถของ LLM และ coding agent มีจุดเปลี่ยนสำคัญสามครั้งในรอบ 12 เดือนที่ผ่านมา เขาเริ่มจากวันที่ 24 พฤศจิกายน 2026 ซึ่งครบรอบหนึ่งปีการเปิดตัว Claude Opus 4.5 ที่เขามองว่าเป็นโมเดลที่มีผลต่อเนื่องอย่างมาก Anthropic เคยระบุว่า Opus 4.5 รับมือความคลุมเครือและชั่งน้ำหนัก tradeoff ได้เองและแก้บั๊กหลายระบบได้ ซึ่ง Willison ยืนยันว่าเป็นจริง ขณะนั้น Claude Code มีอายุ 9 เดือน หลังเปิดตัวพร้อม Claude 3.7 Sonnet เมื่อ 24 กุมภาพันธ์ 2025 Opus 4.5 เป็นโมเดลแรกที่เมื่อใช้กับ Claude Code แล้วผลลัพธ์ตั้งต้นมักถูกต้อง จนเขาเปลี่ยนมาใช้เป็นเครื่องมือหลักประจำวัน เพราะก่อนหน้านี้ต้องแก้บ่อยจนไม่รู้สึกว่าช่วยเร่งงาน บทความนี้ใช้มุมมองนักพัฒนาที่ติดตามใกล้ชิดเพื่อสรุปว่าความน่าเชื่อถือของ agent ข้ามเกณฑ์ที่ใช้งานจริงได้เมื่อใด ซึ่งช่วยให้ทีมวางแผนการนำ coding agent มาใช้ได้อย่างมีหลักฐาน",
+   "source_url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+   "tech_impact": "การสรุปจุดเปลี่ยนจากผู้ใช้จริงช่วยอธิบายว่าทำไม coding agent กลายเป็นเครื่องมือหลักของนักพัฒนาในปี 2026",
+   "tags": [
+    "simon-willison",
+    "coding-agents",
+    "claude",
+    "llm",
+    "inflection-points"
+   ],
+   "published_at": "2026-11-24T23:02:07+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Coding",
+    "LLM",
+    "Developer Tools"
+   ],
+   "actions_developer": [
+    "ทบทวน workflow ว่างานใดข้ามเกณฑ์ที่ agent ทำได้ถูกตั้งแต่ครั้งแรกแล้ว",
+    "เก็บ log ความถูกต้องของ agent ในทีมเพื่อตัดสินใจเปลี่ยนโมเดล"
+   ],
+   "actions_business": [
+    "วัด productivity ของทีมพัฒนาก่อนและหลังใช้ coding agent",
+    "วางงบ AI tooling ตามจังหวะการเปลี่ยนรุ่นโมเดล"
+   ],
+   "entities": {
+    "organizations": [
+     "Anthropic"
+    ],
+    "people": [
+     "Simon Willison"
+    ],
+    "products": [
+     "Claude Opus 4.5",
+     "Claude Code",
+     "Claude 3.7 Sonnet"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b2-20",
+   "slug": "the-sequence-978-learning-rsi-agents",
+   "title": "The Sequence #978: Learning RSI — AI agents that improve their own improvement process",
+   "title_th": "The Sequence ฉบับ 978 เจาะลึก Recursive Self-Improvement ของ AI agent ที่ปรับปรุงกระบวนการปรับปรุงตัวเอง",
+   "topic_group": "ai-trends",
+   "source_name": "The Sequence AI",
+   "category": "International",
+   "urgency": "low",
+   "content": "จดหมายข่าว The Sequence ฉบับที่ 978 อธิบายแนวคิด recursive self-improvement (RSI) ของ AI agent โดยเปรียบกับโปรแกรมเมอร์ที่แก้ทุกบั๊กด้วยการเพิ่มเงื่อนไข ซึ่งทำให้ปัญหาเมื่อวานหายไปแต่กลยุทธ์ดีบักไม่เปลี่ยน สิ่งที่มีค่ากว่าคือการเปลี่ยนกระบวนการที่สร้างการแก้ไข RSI จึงน่าสนใจเมื่อระบบ AI ใช้ประสบการณ์ไม่เพียงสะสมคำสั่ง เครื่องมือ และโค้ดที่ดีขึ้น แต่แก้ไขกลไกที่สร้างการอัปเกรดเหล่านั้นด้วย บทความไล่เรียงงานอย่าง Promptbreeder, Darwin Gödel Machine, HyperAgents และ MetaSkill-Evolve ที่ทำให้คำถามนี้ทดลองได้จริง อธิบายความต่างระหว่างโปรแกรมที่แก้ปัญหากับโปรแกรมที่ปรับปรุงโปรแกรมแรก และเหตุที่ MetaSkill-Evolve แยกการเรียนรู้งานกับ meta-learning ไว้คนละรอบเวลา พร้อมวิธีวัดว่ากระบวนการที่วิวัฒน์ขึ้นช่วยเพิ่มความสามารถในการปรับปรุงจริงหรือไม่ และเหตุที่การทบต้นยังยาก บทความปิดด้วยเป้าหมายวิศวกรรมที่ถ่อมตัวกว่า คือจดจำข้อเสนอที่ล้มเหลว แยกเครื่องมือเสียกับข้อผิดพลาดการให้เหตุผล และรู้ว่าเมื่อใดการทดลองเพิ่มคุ้มค่า",
+   "source_url": "https://thesequence.substack.com/p/the-sequence-knowledge-issue-978",
+   "tech_impact": "RSI เชิงปฏิบัติกำลังเปลี่ยนจากแนวคิดเชิงทฤษฎีเป็นเทคนิควิศวกรรม agent ที่วัดผลได้ ซึ่งเกี่ยวโยงกับประเด็นความปลอดภัยของระบบที่แก้ไขตัวเอง",
+   "tags": [
+    "rsi",
+    "self-improvement",
+    "agents",
+    "meta-learning",
+    "research"
+   ],
+   "published_at": "2026-11-24T12:04:21+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Agents",
+    "Meta-learning",
+    "AI Research"
+   ],
+   "actions_developer": [
+    "เก็บ memory ของข้อเสนอที่ล้มเหลวใน agent loop เพื่อลดการทดลองซ้ำ",
+    "แยก error จากเครื่องมือออกจาก reasoning error ใน telemetry ของ agent"
+   ],
+   "actions_business": [
+    "ติดตามความก้าวหน้า self-improving agents ที่อาจลดต้นทุนการพัฒนา",
+    "กำหนด guardrail สำหรับระบบที่แก้ไขกระบวนการของตัวเอง"
+   ],
+   "entities": {
+    "organizations": [
+     "The Sequence"
+    ],
+    "people": [],
+    "products": [
+     "Promptbreeder",
+     "Darwin Gödel Machine",
+     "HyperAgents",
+     "MetaSkill-Evolve"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b3-01",
+   "slug": "nemotron-labs-visualcreation-pixel-as-code",
+   "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+   "title_th": "NVIDIA เสนอ Nemotron-Labs-VisualCreation เฟรมเวิร์ก agent สร้างภาพแบบ Pixel as Code",
+   "topic_group": "ai-trends",
+   "source_name": "HuggingFace Daily Papers",
+   "category": "Research",
+   "urgency": "medium",
+   "content": "ทีม NVIDIA Nemotron รวมถึง Bryan Catanzaro เผยแพร่งานวิจัย Nemotron-Labs-VisualCreation เฟรมเวิร์กแบบ agent สำหรับงานสร้างภาพที่ต้องการทั้งความสวยงามและการควบคุมข้อความ เลย์เอาต์ และโครงสร้างอย่างแม่นยำ ผ่านแนวคิด Pixel as Code โดยภาพแรสเตอร์แทนด้วย visual token แบบไม่ต่อเนื่องที่เรียนรู้มา ขณะที่งานเชิงโครงสร้างอย่างกราฟิกเวกเตอร์ หน้าเว็บ และเอกสารแทนด้วยโปรแกรม มีอินเทอร์เฟซสร้างและเรนเดอร์ร่วมเพื่อรับ feedback ทางภาพ และ harness ของ Nemotron ประสานการวางแผน เลือกภาพ และซ่อมงานที่แก้ไขได้ ทีมพัฒนา Nemotron-Labs-Image-Tokenizer, ตัวสร้างภาพ Nemotron-Labs-Image-30B-A3B และตระกูลโมเดล Nemotron-Labs-VisionCode บนภาพราว 178K ภาพ tokenizer เพิ่ม PSNR จาก 26.08 เป็น 29.57 dB เทียบ Emu3.5 IBQ เข้ารหัสเร็วขึ้น 7.13 เท่าและถอดรหัสเร็วขึ้น 10.93 เท่าบน A100 ระบบยกคะแนน GenEval2 Soft-TIFA GM จาก 31.71 เป็น 52.56 และผลรวมแข่งขันได้กับ GPT Image 2 และ Nano Banana Pro ในเบนช์มาร์กส่วนใหญ่ งานนี้ชี้ทิศทางการรวมการสร้างภาพกับการสร้างโค้ดเพื่อให้ผลงานแก้ไขต่อได้",
+   "source_url": "https://huggingface.co/papers/2611.31358",
+   "tech_impact": "การรวม raster generation กับ structured code ทำให้ AI สร้างงานออกแบบที่แก้ไขต่อได้จริง เช่น เว็บ สไลด์ และกราฟิกเวกเตอร์",
+   "tags": [
+    "nvidia",
+    "nemotron",
+    "image-generation",
+    "pixel-as-code",
+    "arxiv"
+   ],
+   "published_at": "2026-11-22T19:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Image Generation",
+    "AI Agents",
+    "Code Generation"
+   ],
+   "actions_developer": [
+    "ทดลองแนวคิดให้ agent สร้าง SVG/HTML แล้วเรนเดอร์เพื่อตรวจและซ่อม",
+    "ติดตามการปล่อย tokenizer และโมเดล VisionCode"
+   ],
+   "actions_business": [
+    "ประเมินการใช้ AI สร้างสื่อการตลาดที่ทีมกราฟิกแก้ไขต่อได้",
+    "ติดตามคู่แข่งของเครื่องมือออกแบบจากผู้ผลิต GPU"
+   ],
+   "entities": {
+    "organizations": [
+     "NVIDIA"
+    ],
+    "people": [
+     "Bryan Catanzaro",
+     "Guo Chen",
+     "Fuxiao Liu"
+    ],
+    "products": [
+     "Nemotron-Labs-VisualCreation",
+     "Nemotron-Labs-Image-30B-A3B",
+     "Nemotron-Labs-VisionCode",
+     "Emu3.5",
+     "GPT Image 2",
+     "Nano Banana Pro",
+     "A100",
+     "Kimi K3.1 Pro"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b3-02",
+   "slug": "dexduet-bimanual-dexterity-human-demos",
+   "title": "DexDuet: Learning Contact-Preserving Bimanual Dexterity from Human Demonstrations",
+   "title_th": "DexDuet สอนมือหุ่นยนต์สองข้างให้หยิบจับแบบคงจุดสัมผัสเหมือนมนุษย์จากการสาธิตครั้งเดียว",
+   "topic_group": "ai-trends",
+   "source_name": "HuggingFace Daily Papers",
+   "category": "Research",
+   "urgency": "low",
+   "content": "นักวิจัยจาก Mohamed bin Zayed University of Artificial Intelligence และทีมร่วม เสนอ DexDuet เฟรมเวิร์กที่เรียนรู้ทักษะการใช้มือหุ่นยนต์สองข้างอย่างคล่องแคล่วจากการสาธิตของมนุษย์เพียงครั้งเดียว โดยเน้นรักษาจุดสัมผัสระหว่างมือกับวัตถุ เพราะวิธีเดิมมักเน้นแค่ติดตามเส้นทางของวัตถุ ทำให้หุ่นยนต์จับผิดส่วนหรือนิ้วลื่นจนการหยิบจับไม่เสถียร DexDuet ใช้ reward ด้านปฏิสัมพันธ์สองแบบเพื่อคงรูปแบบมือ-วัตถุและจุดสัมผัสของมนุษย์ แยกนโยบายสองมือเป็นนโยบายต่อมือที่แชร์น้ำหนักและอิงสถานะของกันและกัน และเสนอ assisted reference-state initialization (A-RSI) ซึ่งเป็น curriculum แบบปรับตัวที่ช่วยผ่านช่วงการหยิบจับที่ยาก ผลทดสอบบน 4 เบนช์มาร์ก 3 simulator และหุ่นยนต์ 5 แบบ DexDuet เพิ่ม ADD-AUC ของการติดตามวัตถุ 11 ถึง 41 คะแนนเหนือ baseline และใน 122 การทดลองคู่ที่ความแม่นยำใกล้กัน DexDuet คงจุดสัมผัสของมนุษย์ได้ดีกว่าถึง 117 ครั้ง พร้อมเปิดโค้ดบน GitHub งานนี้สำคัญต่อหุ่นยนต์มือคล่องที่ต้องทำงานละเอียดในโรงงานและบ้าน",
+   "source_url": "https://huggingface.co/papers/2611.30495",
+   "tech_impact": "การเรียนรู้จากการสาธิตครั้งเดียวพร้อมคงจุดสัมผัสลดต้นทุนเก็บข้อมูลสำหรับหุ่นยนต์มือคล่อง ซึ่งเป็นคอขวดของ physical AI",
+   "tags": [
+    "robotics",
+    "dexterous-manipulation",
+    "rl",
+    "imitation-learning",
+    "arxiv"
+   ],
+   "published_at": "2026-11-22T19:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Robotics",
+    "Reinforcement Learning",
+    "Physical AI"
+   ],
+   "actions_developer": [
+    "ทดลองโค้ด DexDuet บน simulator ที่ใช้อยู่",
+    "ศึกษาการออกแบบ contact reward สำหรับงาน manipulation"
+   ],
+   "actions_business": [
+    "ติดตามความพร้อมของหุ่นยนต์มือคล่องสำหรับงานประกอบละเอียด",
+    "ประเมินการเก็บข้อมูลสาธิตจากพนักงานเพื่อสอนหุ่นยนต์"
+   ],
+   "entities": {
+    "organizations": [
+     "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "people": [
+     "Haoran Zhang",
+     "Xingxing Zuo"
+    ],
+    "products": [
+     "DexDuet",
+     "A-RSI"
+    ],
+    "places": [
+     "United Arab Emirates"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b3-03",
+   "slug": "toolsmith-automatic-tool-generation-search-agents",
+   "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
+   "title_th": "ToolSmith เฟรมเวิร์กให้ multimodal search agent สร้างเครื่องมือใหม่เองอัตโนมัติ",
+   "topic_group": "ai-trends",
+   "source_name": "HuggingFace Daily Papers",
+   "category": "Research",
+   "urgency": "low",
+   "content": "ทีม UCLA NLP รวมถึง Kai-Wei Chang เสนอ ToolSmith เฟรมเวิร์กสร้างเครื่องมืออัตโนมัติสำหรับ multimodal search agent ที่ใช้การให้เหตุผล การมองเห็น และการค้นเว็บสดหลายรอบเพื่อตอบคำถามที่เกินความรู้ในพารามิเตอร์ ปัจจุบัน agent เหล่านี้พึ่งคลังเครื่องมือค้นหาและเครื่องมือภาพขนาดเล็กที่คนเขียนเอง ซึ่งสร้างและดูแลยาก และหยุดนิ่งเมื่อเจอคำถามแบบใหม่ รูปแบบหลักฐานใหม่ หรือความล้มเหลวที่ไม่เคยพบ ToolSmith ได้แรงบันดาลใจจากการที่มนุษย์สร้างเครื่องมือใหม่จากชิ้นส่วนที่คุ้นเคยแล้วนำกลับมาใช้ซ้ำ จึงให้ agent ขยายและนำโมดูลกลับมาใช้บนคลังเครื่องมือพื้นฐานที่เล็กลง ผลประเมินบน 3 เบนช์มาร์กในโดเมนและ 10 เบนช์มาร์กนอกโดเมนด้วยโปรโตคอล VLM-as-a-Judge พบว่า ToolSmith ดีขึ้นกว่าคลังเครื่องมือพื้นฐานอย่างสม่ำเสมอกับ agent หลายขนาด และ backbone ที่ใหญ่กว่าได้ประโยชน์มากกว่า แสดงว่าแนวทางนี้ขยายขนาดได้ ทีมเปิดโค้ดและข้อมูลให้ใช้งาน งานนี้สำคัญต่อการสร้าง agent ที่ปรับตัวเองได้โดยไม่ต้องให้วิศวกรเขียนเครื่องมือทุกครั้ง",
+   "source_url": "https://huggingface.co/papers/2611.31198",
+   "tech_impact": "Agent ที่สร้างเครื่องมือเองช่วยลดภาระวิศวกรรมการดูแล tool library และทำให้ระบบค้นหารองรับคำถามใหม่ได้เร็วขึ้น",
+   "tags": [
+    "agents",
+    "tool-generation",
+    "multimodal-search",
+    "ucla",
+    "arxiv"
+   ],
+   "published_at": "2026-11-22T19:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Agents",
+    "Multimodal",
+    "Tool Use"
+   ],
+   "actions_developer": [
+    "ทดลองให้ agent สร้างและเก็บ tool ที่ใช้ซ้ำได้ใน registry พร้อมทดสอบอัตโนมัติ",
+    "ใช้ VLM-as-a-Judge ประเมิน agent ค้นหาแบบมัลติโมดัล"
+   ],
+   "actions_business": [
+    "ลดต้นทุนการดูแล integration ของ agent ด้วย tool generation",
+    "กำหนดการตรวจสอบความปลอดภัยของเครื่องมือที่ agent สร้างเอง"
+   ],
+   "entities": {
+    "organizations": [
+     "UCLA"
+    ],
+    "people": [
+     "Kai-Wei Chang",
+     "Rui Sun"
+    ],
+    "products": [
+     "ToolSmith"
+    ],
+    "places": [
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261125-b3-04",
+   "slug": "borntodev-live-gemini-4-neon-vs-claude",
+   "title": "[LIVE] Gemini 4 Neon: is this the Claude killer?",
+   "title_th": "BorntoDev ไลฟ์ทดสอบ Gemini 4 Neon เทียบ Claude Fable 5.2 และ Opus 5.5 ว่าเป็น Claude Killer จริงหรือ",
+   "topic_group": "tech-trends",
+   "source_name": "BorntoDev",
+   "category": "YouTube",
+   "urgency": "low",
+   "content": "ช่อง BorntoDev จัดไลฟ์สดเวลา 21:00 น. ทาง YouTube และ Facebook เพื่อทดสอบว่า Gemini 4 Neon ของ Google เก่งจริงอย่างที่เคลมไว้หรือไม่ ตามคำอธิบายวิดีโอ เนื้อหาครอบคลุมงาน agent ที่ทำงานต่อเนื่องยาว โหมด Orchestrator ที่ให้ Neon สั่งการโมเดล Hydrogen ให้ลงมือทำ และการเปรียบเทียบกับรุ่นท็อปของฝั่ง Anthropic อย่าง Claude Fable 5.2 รวมถึงการแข่งสด ๆ กับ Claude Opus 5.5 ด้วย prompt เดียวกัน นอกจากนี้ยังทดสอบงานหลายขั้นตอนที่ไลฟ์ครั้งก่อน Hydrogen ติดอยู่ที่ขั้นตอน npm install จนงานไม่จบ และปิดท้ายด้วยการให้โมเดลของสองค่ายทำงานร่วมกันเป็นทีม ไลฟ์นี้มียอดชมราว 4 พันครั้งตามข้อมูลฟีดของช่อง และมีการโปรโมตคอร์ส AI สำหรับงาน UX/UI ของ BorntoDev ประกอบ ความน่าสนใจคือเป็นการเปรียบเทียบโมเดลระดับ frontier ในงาน coding agent จริงโดยชุมชนนักพัฒนาไทย ซึ่งช่วยให้ทีมพัฒนาไทยเห็นจุดแข็งจุดอ่อนก่อนเลือกใช้ (สรุปจากข้อมูลเมตาของวิดีโอ ไม่ได้ดูวิดีโอ)",
+   "source_url": "https://www.youtube.com/watch?v=z6NjZ9Tmum4",
+   "tech_impact": "การทดสอบเทียบ Gemini 4 Neon กับ Claude ในงาน agent จริงสะท้อนการแข่งขันโมเดล frontier ที่นักพัฒนาไทยติดตามใกล้ชิด",
+   "tags": [
+    "borntodev",
+    "gemini",
+    "claude",
+    "coding-agent",
+    "youtube"
+   ],
+   "published_at": "2026-11-24T11:01:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Coding",
+    "LLM Comparison",
+    "AI Agents"
+   ],
+   "actions_developer": [
+    "ทดสอบโมเดลด้วยงานหลายขั้นตอนของทีมเอง ไม่พึ่งแค่ benchmark",
+    "ลองรูปแบบ orchestrator-worker ระหว่างโมเดลใหญ่กับเล็ก"
+   ],
+   "actions_business": [
+    "เปรียบเทียบต้นทุนต่องานสำเร็จระหว่างผู้ให้บริการโมเดล",
+    "วางกลยุทธ์ multi-vendor เพื่อลดการพึ่งพาค่ายเดียว"
+   ],
+   "entities": {
+    "organizations": [
+     "BorntoDev",
+     "Google",
+     "Anthropic"
+    ],
+    "people": [],
+    "products": [
+     "Gemini 4 Neon",
+     "Hydrogen",
+     "Claude Fable 5.2",
+     "Claude Opus 5.5"
+    ],
+    "places": [
+     "Thailand"
+    ]
+   },
+   "youtube_channel": "https://www.youtube.com/@borntodev",
+   "youtube_video": "https://www.youtube.com/watch?v=z6NjZ9Tmum4"
+  },
+  {
+   "id": "20261125-b3-05",
+   "slug": "borntodev-claude-fable-3d-website-one-prompt",
+   "title": "Claude Fable 5.2 builds an agency-grade 3D website from a single prompt",
+   "title_th": "BorntoDev ให้ Claude Fable 5.2 สร้างเว็บ 3D แบบ interactive จาก prompt เดียว แล้วตรวจโค้ดแบบ dev",
+   "topic_group": "tech-trends",
+   "source_name": "BorntoDev",
+   "category": "YouTube",
+   "urgency": "low",
+   "content": "ช่อง BorntoDev เผยแพร่วิดีโอทดลองให้ Claude Fable 5.2 สร้างเว็บไซต์ 3D แบบ interactive จาก prompt เดียว ทั้งโค้ด ภาพ และวิดีโอ จนนำขึ้นออนไลน์ได้ แล้วตรวจโค้ดในมุมมองนักพัฒนา ตามคำอธิบายและ timestamp ของวิดีโอ เนื้อหาครอบคลุมการเชื่อมต่อ Higgsfield MCP เข้ากับ Claude เว็บต้นแบบ diffusion-factory ขั้นตอนที่ Claude ทำก่อนเริ่มเขียนโค้ด การเปิดเว็บ FlowBoard ที่ได้และเทียบกับต้นแบบ การตรวจว่ามี error หรือไม่ การสั่งแก้จุดเดียวเพื่อบีบไฟล์ให้เบาลง และอธิบายบทบาทของ Claude, MCP และ supercomputer ในกระบวนการ วิดีโอนี้ได้รับการสนับสนุนจาก Higgsfield และมีการโปรโมตแพ็กเกจ Black Friday ประกอบ ยอดชมราว 1.6 พันครั้งตามข้อมูลฟีด ความน่าสนใจคือแสดงรูปแบบการทำงานที่โมเดลภาษาเรียกใช้เครื่องมือสร้างสื่อผ่าน MCP เพื่อผลิตงานเว็บครบวงจร ซึ่งเป็นแนวโน้มของ agentic workflow แต่ควรพิจารณาว่าเป็นคอนเทนต์ที่มีผู้สนับสนุน (สรุปจากข้อมูลเมตาของวิดีโอ ไม่ได้ดูวิดีโอ)",
+   "source_url": "https://www.youtube.com/watch?v=1izVOhQLTjU",
+   "tech_impact": "MCP ทำให้ LLM เรียกใช้เครื่องมือสร้างภาพและวิดีโอภายนอกได้ จนผลิตเว็บพร้อมสื่อครบจาก prompt เดียว",
+   "tags": [
+    "borntodev",
+    "claude",
+    "mcp",
+    "web-3d",
+    "youtube"
+   ],
+   "published_at": "2026-11-24T09:02:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Coding",
+    "MCP",
+    "Web Development"
+   ],
+   "actions_developer": [
+    "ทดลองเชื่อม MCP server ของเครื่องมือสร้างสื่อเข้ากับ coding agent",
+    "ตั้งขั้นตอน code review และ performance check กับเว็บที่ AI สร้าง"
+   ],
+   "actions_business": [
+    "ประเมินการใช้ AI ผลิตเว็บแคมเปญเพื่อลดเวลาและต้นทุนเอเจนซี่",
+    "พิจารณาความเป็นกลางของคอนเทนต์รีวิวที่มีผู้สนับสนุน"
+   ],
+   "entities": {
+    "organizations": [
+     "BorntoDev",
+     "Anthropic",
+     "Higgsfield"
+    ],
+    "people": [],
+    "products": [
+     "Claude Fable 5.2",
+     "Higgsfield MCP",
+     "MCP"
+    ],
+    "places": [
+     "Thailand"
+    ]
+   },
+   "youtube_channel": "https://www.youtube.com/@borntodev",
+   "youtube_video": "https://www.youtube.com/watch?v=1izVOhQLTjU"
+  },
+  {
+   "id": "20261125-b3-06",
+   "slug": "sam-witteveen-train-your-own-ai-zgx-fury",
+   "title": "Train Your Own AI - No Cloud Needed",
+   "title_th": "Sam Witteveen ทดสอบ HP ZGX Fury ฝึกและ fine-tune โมเดลในเครื่อง ทั้ง LoRA, RL และ multi-LoRA serving",
+   "topic_group": "tech-trends",
+   "source_name": "Sam Witteveen",
+   "category": "YouTube",
+   "urgency": "low",
+   "content": "Sam Witteveen เผยแพร่วิดีโอทดสอบเครื่อง HP ZGX Fury สำหรับงานฝึกและ fine-tune โมเดลแบบไม่ต้องใช้คลาวด์ ต่อจากวิดีโอแนะนำเครื่องและวิดีโอด้าน inference ก่อนหน้า ตามคำอธิบายและ timestamp ของวิดีโอ เนื้อหาครอบคลุมเหตุผลของการฝึกโมเดลในเครื่อง ตัวอย่างงาน customer support การคำนวณหน่วยความจำที่ต้องใช้ในการ fine-tune เทคนิค LoRA และ QLoRA การ fine-tune โมเดลขนาด 120B การเตรียมข้อมูลฝึก การเปรียบเทียบ LoRA กับแนวทางอื่น รวมถึงการฝึกด้วย reinforcement learning และการให้บริการหลาย LoRA adapter พร้อมกัน (multi-LoRA serving) วิดีโอนี้ได้รับการสนับสนุนจาก HP และ NVIDIA ยอดชมราว 7 พันครั้งตามข้อมูลฟีด ความน่าสนใจคือแสดงว่าเวิร์กสเตชัน AI ระดับเดสก์ท็อปเริ่ม fine-tune โมเดลขนาดใหญ่ได้เอง ซึ่งเป็นทางเลือกสำหรับองค์กรที่ต้องเก็บข้อมูลไว้ภายในด้วยเหตุผลด้านความเป็นส่วนตัวหรือกฎระเบียบ แต่ควรพิจารณาว่าเป็นคอนเทนต์ที่มีผู้สนับสนุน (สรุปจากข้อมูลเมตาของวิดีโอ ไม่ได้ดูวิดีโอ)",
+   "source_url": "https://www.youtube.com/watch?v=4MVd6DYZGO0",
+   "tech_impact": "เวิร์กสเตชัน AI ในเครื่องทำให้ fine-tuning โมเดลใหญ่ด้วย LoRA/RL ทำได้โดยไม่ต้องส่งข้อมูลขึ้นคลาวด์",
+   "tags": [
+    "fine-tuning",
+    "lora",
+    "local-ai",
+    "hp",
+    "youtube"
+   ],
+   "published_at": "2026-11-24T14:10:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Fine-tuning",
+    "On-device AI",
+    "AI Hardware"
+   ],
+   "actions_developer": [
+    "คำนวณ memory budget ก่อน fine-tune ด้วย QLoRA บนฮาร์ดแวร์ในเครื่อง",
+    "ทดลอง multi-LoRA serving เพื่อให้บริการหลายงานด้วย base model เดียว"
+   ],
+   "actions_business": [
+    "เปรียบเทียบ TCO เวิร์กสเตชัน AI ในองค์กรกับ GPU บนคลาวด์",
+    "ใช้ on-prem fine-tuning กับข้อมูลที่อยู่ภายใต้ PDPA"
+   ],
+   "entities": {
+    "organizations": [
+     "HP",
+     "NVIDIA"
+    ],
+    "people": [
+     "Sam Witteveen"
+    ],
+    "products": [
+     "HP ZGX Fury",
+     "LoRA",
+     "QLoRA"
+    ],
+    "places": []
+   },
+   "youtube_channel": "https://www.youtube.com/@samwitteveenai",
+   "youtube_video": "https://www.youtube.com/watch?v=4MVd6DYZGO0"
+  }
+ ]
+}
