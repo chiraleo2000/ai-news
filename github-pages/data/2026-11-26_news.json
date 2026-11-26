@@ -1,0 +1,1832 @@
+{
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T09:45:00+07:00",
+ "schema_version": "combined-1.3",
+ "stats": {
+  "total": 34,
+  "by_topic": {
+   "ai_trends": 6,
+   "tech_trends": 10,
+   "thailand": 4,
+   "global": 14
+  },
+  "by_source_category": {
+   "thai": 11,
+   "international": 19,
+   "research": 3,
+   "youtube": 1
+  },
+  "urgency_breakdown": {
+   "high": 6,
+   "medium": 19,
+   "low": 9
+  },
+  "breakthrough_count": 1
+ },
+ "top_insights": [
+  {
+   "title": "Claude อัปเกรด MCP รับคู่มือ Skills จากแอปภายนอก ทำงานเบื้องหลัง และถามก่อนทำรายการสำคัญ",
+   "impact_summary": "MCP กลายเป็นมาตรฐานกลางของ agent ในอุตสาหกรรม การเพิ่ม Skills, tasks และ elicitation ทำให้ agent ทำงานยาวและแตะระบบจริงได้อย่างควบคุมได้มากขึ้น",
+   "urgency": "high",
+   "article_id": "20261126-b1-08"
+  },
+  {
+   "title": "แฮกเกอร์ใช้เฟรมเวิร์ก AI ARTEX เจาะระบบวิเคราะห์ OSINT ของ CIA กระทบหน่วยข่าวกรองสหรัฐฯ 3 แห่ง",
+   "impact_summary": "การใช้ AI pentest framework ในการโจมตีหน่วยข่าวกรองจริง แสดงว่า offensive AI ลดต้นทุนการเจาะระบบลงมาก ฝ่ายป้องกันต้องเร่งใช้ AI ตรวจจับเช่นกัน",
+   "urgency": "high",
+   "article_id": "20261126-b1-10"
+  },
+  {
+   "title": "S&P พิจารณาลดอันดับเครดิต Nvidia จาก AA เป็น AA- เหตุธรรมาภิบาลและความเสี่ยงพึ่งพา Jensen Huang",
+   "impact_summary": "การลดอันดับเครดิต Nvidia จะส่งผลต่อเนื่องถึงต้นทุนเงินทุนของ neocloud และโครงการดาต้าเซ็นเตอร์ที่อาศัยการค้ำประกันจาก Nvidia",
+   "urgency": "high",
+   "article_id": "20261126-b2-01"
+  },
+  {
+   "title": "อัยการสูงสุด 42 รัฐคัดค้าน Character.AI เตรียมประมูลขายแชตส่วนตัวผู้ใช้ในคดีล้มละลาย",
+   "impact_summary": "เป็นบททดสอบสำคัญว่าข้อมูลบทสนทนา AI จะถูกปฏิบัติเป็นทรัพย์สินในคดีล้มละลายได้หรือไม่ และอาจสร้างบรรทัดฐานด้าน privacy ของแชตบอต",
+   "urgency": "high",
+   "article_id": "20261126-b2-05"
+  },
+  {
+   "title": "ผู้ขายชิป Nvidia เร่งหาผู้ซื้อใหม่ หลังสหรัฐฯ คุมเข้มการเช่าใช้ชิป AI จากระยะไกลของบริษัทจีน",
+   "impact_summary": "การปิดช่องเช่า compute จากระยะไกลทำให้ GPU ไหลกลับสู่ตลาดรอง อาจกดราคา GPU ระยะสั้น และเปลี่ยนโมเดลธุรกิจดาต้าเซ็นเตอร์ในเอเชีย",
+   "urgency": "high",
+   "article_id": "20261126-b2-11"
+  },
+  {
+   "title": "กฎส่งออกชิปใหม่ของสหรัฐฯ ขู่ชะลอการสร้าง AI ในเอเชีย ไทย สิงคโปร์ มาเลเซีย ต้องขอใบอนุญาต",
+   "impact_summary": "ไทยถูกระบุชื่อในกลุ่มประเทศที่ต้องขอใบอนุญาตซื้อชิป AI จากสหรัฐฯ ส่งผลโดยตรงต่อโครงการดาต้าเซ็นเตอร์และการลงทุน AI ในไทย",
+   "urgency": "high",
+   "article_id": "20261126-b2-13"
+  }
+ ],
+ "posts": [
+  {
+   "id": "20261126-b1-01",
+   "slug": "fcc-approves-spacex-starmind-orbital-data-centers",
+   "title": "FCC approves SpaceX Starmind: up to 1 million satellites as orbital data centers",
+   "title_th": "FCC อนุมัติโครงการ Starmind ของ SpaceX ยิงดาวเทียม 1 ล้านดวงเป็นศูนย์ข้อมูลในอวกาศ",
+   "topic_group": "global",
+   "source_name": "Blognone",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "Blognone รายงานว่า FCC หน่วยงานกำกับดูแลการสื่อสารของสหรัฐฯ อนุมัติแผน Starmind ของ SpaceX ให้ยิงฝูงดาวเทียมได้สูงสุด 1 ล้านดวงเพื่อทำหน้าที่เป็นศูนย์ข้อมูลในอวกาศ ดาวเทียมแต่ละดวงมีหน่วยประมวลผลและสื่อสารกันผ่านคลื่นย่าน 18.8–19.3 GHz สำหรับ downlink และ 28.6–29.1 GHz สำหรับ uplink จุดประสงค์คือใช้พลังงานแสงอาทิตย์ได้ตลอดเวลาโดยไม่มีสิ่งบดบัง แถลงการณ์ของ FCC ยังอ้างถึง Kardashev scale ระดับ 2 คือการใช้พลังงานจากดาวฤกษ์โดยตรง แผนแบ่งเป็นเฟส โดยเฟสแรก 7 ปีถึงปี 2035 SpaceX ต้องยิงดาวเทียมดวงแรกให้ได้ หลังปี 2035 ยิงได้ 1 แสนดวง และครบ 1 ล้านดวงหลังปี 2040 ก่อนหน้านี้ Google เพิ่งทดลองยิงดาวเทียม Suncatcher ที่มีชิป TPU ขึ้นวงโคจร อย่างไรก็ดี จำนวนดาวเทียมมหาศาลสร้างความกังวลเรื่องขยะอวกาศ และหลายหน่วยงานแสดงความคัดค้าน",
+   "source_url": "https://www.blognone.com/node/152256",
+   "tech_impact": "การอนุมัติ Starmind เปิดทางให้โครงสร้างพื้นฐาน AI ย้ายไปอยู่ในวงโคจรเพื่อหลีกเลี่ยงข้อจำกัดด้านพลังงานและที่ดินบนโลก แต่ยังมีความเสี่ยงด้านขยะอวกาศและกรอบเวลายาวถึงปี 2040",
+   "tags": [
+    "spacex",
+    "data-center",
+    "satellite",
+    "fcc",
+    "orbital-compute"
+   ],
+   "published_at": "2026-11-26T01:48:18+00:00",
+   "breakthrough_potential": true,
+   "related_domains": [
+    "Data Centers",
+    "Space",
+    "AI Infrastructure"
+   ],
+   "actions_developer": [
+    "ติดตามสถาปัตยกรรม compute ในอวกาศที่อาจมี latency และรูปแบบ API ต่างจากคลาวด์ปกติ",
+    "ศึกษาแนวทาง workload แบบทนต่อการเชื่อมต่อไม่ต่อเนื่อง (delay-tolerant)"
+   ],
+   "actions_business": [
+    "ประเมินผลต่อตลาดดาต้าเซ็นเตอร์และพลังงานในระยะยาว",
+    "จับตาการแข่งขัน orbital compute ระหว่าง SpaceX และ Google"
+   ],
+   "entities": {
+    "organizations": [
+     "SpaceX",
+     "FCC",
+     "Google"
+    ],
+    "people": [
+     "Nikolai Kardashev"
+    ],
+    "products": [
+     "Starmind",
+     "Suncatcher",
+     "TPU"
+    ],
+    "places": [
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b1-02",
+   "slug": "hpe-q4-fy2026-ai-servers-growth",
+   "title": "HPE Q4 FY2026 revenue jumps 50% on AI servers, raises FY2027 outlook",
+   "title_th": "HPE รายได้ไตรมาส 4 โต 50% จากเซิร์ฟเวอร์ AI ปรับเพิ่มคาดการณ์ปีการเงิน 2027",
+   "topic_group": "tech-trends",
+   "source_name": "Blognone",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "HPE รายงานผลประกอบการไตรมาสที่ 4 ของปีการเงิน 2026 ซึ่งสิ้นสุดเดือนตุลาคม มีรายได้รวม 14,547 ล้านดอลลาร์ เพิ่มขึ้นถึง 50% เมื่อเทียบกับไตรมาสเดียวกันของปีก่อน ขณะที่กำไรสุทธิตามมาตรฐาน GAAP เพิ่มเป็น 1,788 ล้านดอลลาร์ แรงหนุนหลักมาจากความต้องการเซิร์ฟเวอร์และโครงสร้างพื้นฐานสำหรับ AI Antonio Neri ซีอีโอของ HPE ระบุว่าตลอดปีที่ผ่านมาบริษัทได้ขยายความเป็นผู้นำทั้งในตลาดอุปกรณ์เครือข่ายและตลาด AI Infrastructure ทำให้ HPE เปลี่ยนไปจากอดีต มีความสามารถทำกำไรสูงขึ้นและแข่งขันได้ดีกว่าเดิม ทั้งหมดนี้รองรับการเติบโตในยุค AI บริษัทจึงปรับเพิ่มตัวเลขคาดการณ์ของปีการเงิน 2027 เพื่อสะท้อนความแข็งแกร่งของรายได้และกำไร ผลประกอบการนี้ออกมาในช่วงที่ตลาดหุ้นเทคโนโลยีผันผวนจากความกังวลเรื่องฟองสบู่ AI จึงเป็นสัญญาณว่าความต้องการฮาร์ดแวร์ฝั่งองค์กรยังแข็งแรง",
+   "source_url": "https://www.blognone.com/node/152252",
+   "tech_impact": "ตัวเลขของ HPE ยืนยันว่าความต้องการเซิร์ฟเวอร์ AI ฝั่งองค์กรยังโตแรง แม้ตลาดหุ้นกังวลเรื่องการลงทุน AI เกินตัว",
+   "tags": [
+    "hpe",
+    "earnings",
+    "ai-servers",
+    "infrastructure"
+   ],
+   "published_at": "2026-11-25T12:09:18+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Infrastructure",
+    "Enterprise IT",
+    "Earnings"
+   ],
+   "actions_developer": [
+    "วางแผน capacity สำหรับ on-prem AI เนื่องจากผู้ขายฮาร์ดแวร์เร่งผลิต",
+    "ประเมินโซลูชันเครือข่ายสำหรับคลัสเตอร์ GPU ขององค์กร"
+   ],
+   "actions_business": [
+    "ใช้ผลประกอบการผู้ขายเซิร์ฟเวอร์เป็นตัวชี้วัด capex AI ขององค์กร",
+    "เจรจาราคาฮาร์ดแวร์ล่วงหน้าเมื่อดีมานด์ยังสูง"
+   ],
+   "entities": {
+    "organizations": [
+     "HPE"
+    ],
+    "people": [
+     "Antonio Neri"
+    ],
+    "products": [],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b1-03",
+   "slug": "ea-fc27-john-motson-ai-voice",
+   "title": "EA Sports FC 27 brings back late commentator John Motson's voice with AI",
+   "title_th": "FC 27 นำเสียงนักพากย์ตำนาน John Motson กลับมาอีกครั้งด้วย AI",
+   "topic_group": "tech-trends",
+   "source_name": "Blognone",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "EA Sports FC 27 เพิ่มฟีเจอร์ใหม่ที่นำเสียงของ John Motson นักพากย์ฟุตบอลชื่อดังชาวอังกฤษที่เสียชีวิตไปในปี 2023 กลับมาอีกครั้งด้วย AI Motson พากย์ฟุตบอลทางสถานี BBC ตั้งแต่ปี 1971 ถึง 2018 รวมกว่า 2,500 นัด และเคยพากย์เกม EA FIFA ระหว่างปี 1996 ถึง 2006 การนำเสียงมาใช้ได้รับความยินยอมจากครอบครัว โดย Fred Motson ลูกชายระบุว่าเสียงของพ่อสร้างแรงบันดาลใจให้ผู้คนมากมาย และการนำกลับมาถือเป็นการรำลึกถึงพ่อ EA ใช้ทั้งเสียงต้นฉบับที่บันทึกไว้ช่วงพากย์เกม FIFA นาน 10 ปี ร่วมกับเสียงที่สร้างจากโมเดล AI ผู้เล่นเลือกเปิดใช้เสียง Motson เป็นตัวเลือกเพิ่มเติมได้หลังอัปเดตแพตช์ v1.3.0 กรณีนี้เป็นอีกตัวอย่างของการใช้ voice cloning เชิงพาณิชย์ที่มีการขออนุญาตจากทายาทอย่างชัดเจน ซึ่งกำลังกลายเป็นมาตรฐานใหม่ของอุตสาหกรรมเกมและสื่อบันเทิง",
+   "source_url": "https://www.blognone.com/node/152257",
+   "tech_impact": "แสดงแนวทาง voice cloning ที่ได้รับความยินยอมจากทายาท ซึ่งอาจเป็นต้นแบบด้านจริยธรรมและสัญญาสำหรับการใช้เสียงบุคคลที่เสียชีวิตในสื่อบันเทิง",
+   "tags": [
+    "voice-cloning",
+    "gaming",
+    "ea",
+    "synthetic-voice"
+   ],
+   "published_at": "2026-11-26T02:07:11+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Voice AI",
+    "Gaming",
+    "AI Ethics"
+   ],
+   "actions_developer": [
+    "ผสมเสียงต้นฉบับกับเสียงสังเคราะห์เพื่อลดความผิดเพี้ยนของ TTS",
+    "ออกแบบระบบเลือกเปิดปิดเสียง AI ให้ผู้ใช้ควบคุมได้"
+   ],
+   "actions_business": [
+    "จัดทำสัญญาสิทธิ์เสียงและ consent จากเจ้าของหรือทายาทก่อนใช้ voice cloning",
+    "ใช้คอนเทนต์ nostalgia เป็นจุดขายแต่ต้องสื่อสารโปร่งใส"
+   ],
+   "entities": {
+    "organizations": [
+     "EA Sports",
+     "BBC"
+    ],
+    "people": [
+     "John Motson",
+     "Fred Motson"
+    ],
+    "products": [
+     "EA Sports FC 27"
+    ],
+    "places": [
+     "United Kingdom"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b1-04",
+   "slug": "nutanix-ceo-succession-ramaswami-ai",
+   "title": "Nutanix begins search for new CEO to succeed Rajiv Ramaswami, eyes AI chapter",
+   "title_th": "Nutanix เริ่มสรรหาซีอีโอคนใหม่แทน Rajiv Ramaswami มุ่งสู่บทใหม่ด้าน AI",
+   "topic_group": "tech-trends",
+   "source_name": "Blognone",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "Nutanix ประกาศแผนสรรหาซีอีโอคนใหม่ต่อจาก Rajiv Ramaswami ซีอีโอคนปัจจุบัน โดยคณะกรรมการบริษัทจะร่วมมือกับ Ramaswami ในการคัดเลือกผู้นำคนถัดไป และเขาจะลงจากตำแหน่งเมื่อกระบวนการเสร็จสิ้น ก่อนรับตำแหน่งที่ปรึกษาอาวุโสต่ออีกระยะเพื่อให้การส่งต่องานราบรื่น ทั้งนี้ Ramaswami ไม่ได้ให้เหตุผลของการออกจากตำแหน่ง เขาย้ายจาก VMware มาเป็นซีอีโอของ Nutanix ตั้งแต่ปี 2020 ต่อจาก Dheeraj Pandey ผู้ก่อตั้ง Ramaswami อธิบายว่า Nutanix กำลังเข้าสู่บทที่ 3 ของบริษัท บทแรกคือยุคที่ Pandey สร้างความแข็งแกร่งในธุรกิจ hyperconverged infrastructure บทที่สองคือการเปลี่ยน Nutanix ให้เป็นแพลตฟอร์มภายใต้การนำของเขา ส่วนบทถัดไปจะมุ่งรองรับศักยภาพของ AI การเปลี่ยนผู้นำครั้งนี้เกิดขึ้นในช่วงที่ตลาด virtualization กำลังเปลี่ยนแปลงหลัง Broadcom ซื้อ VMware และองค์กรมองหาแพลตฟอร์มทางเลือกสำหรับรัน workload AI",
+   "source_url": "https://www.blognone.com/node/152254",
+   "tech_impact": "การเปลี่ยนซีอีโอสะท้อนว่า Nutanix ต้องปรับยุทธศาสตร์สู่แพลตฟอร์มสำหรับ AI workload ท่ามกลางตลาด virtualization ที่เปลี่ยนไป",
+   "tags": [
+    "nutanix",
+    "ceo",
+    "hyperconverged",
+    "enterprise"
+   ],
+   "published_at": "2026-11-26T00:49:47+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Enterprise IT",
+    "Virtualization",
+    "Leadership"
+   ],
+   "actions_developer": [
+    "ติดตาม roadmap ของ Nutanix ด้าน AI/GPT-in-a-box หลังเปลี่ยนผู้นำ",
+    "ประเมินความเสี่ยงการย้ายแพลตฟอร์ม virtualization"
+   ],
+   "actions_business": [
+    "ทบทวนสัญญาระยะยาวกับผู้ขาย HCI ช่วงเปลี่ยนผ่านผู้บริหาร",
+    "เปรียบเทียบทางเลือกแพลตฟอร์มสำหรับ private AI"
+   ],
+   "entities": {
+    "organizations": [
+     "Nutanix",
+     "VMware"
+    ],
+    "people": [
+     "Rajiv Ramaswami",
+     "Dheeraj Pandey"
+    ],
+    "products": [],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b1-05",
+   "slug": "boi-lumentum-photonics-thailand-ai-supply-chain",
+   "title": "BOI showcases Lumentum's Thai photonics base: 20.5 billion baht invested, linking Thailand to the AI supply chain",
+   "title_th": "บีโอไอชู Lumentum ยกระดับฐานผลิตโฟโตนิกส์ไทย เชื่อมซัพพลายเชน AI ลงทุนกว่า 20,500 ล้านบาท",
+   "topic_group": "thailand",
+   "source_name": "Techsauce",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "สำนักงานคณะกรรมการส่งเสริมการลงทุน (บีโอไอ) นำสื่อมวลชนเยี่ยมชมโรงงาน Lumentum ผู้นำเทคโนโลยีโฟโตนิกส์จากสหรัฐฯ ที่เขตอุตสาหกรรมนวนคร จังหวัดปทุมธานี เมื่อ 25 พฤศจิกายน 2569 นายนฤตม์ เทอดสถีรศักดิ์ เลขาธิการบีโอไอ เผยว่าบริษัทได้รับการส่งเสริมการลงทุนแล้ว 7 โครงการ มูลค่ารวมกว่า 20,500 ล้านบาท จ้างงานคนไทยกว่า 12,000 คน และมีแผนตั้งศูนย์ออกแบบและพัฒนาอุปกรณ์โฟโตนิกส์ในไทย Lumentum เป็นพันธมิตรสำคัญของ Nvidia จดทะเบียนใน Nasdaq มีสำนักงานใหญ่ที่ซานโฮเซ ฐานผลิตไทยพัฒนาจากอุปกรณ์สื่อสารใยแก้วนำแสงไปสู่ชิปเลเซอร์กำลังสูง ซึ่งเป็นหัวใจของโครงสร้างพื้นฐานดิจิทัลที่รองรับ AI, Cloud Computing และ Data Center ทั่วโลก การลงทุนนี้สอดรับยุทธศาสตร์เซมิคอนดักเตอร์และอิเล็กทรอนิกส์ขั้นสูงของไทยที่มุ่งสู่เป้าหมาย ชิปเมดอินไทยแลนด์ และทำให้ไทยเป็นส่วนหนึ่งของห่วงโซ่อุปทาน optical interconnect สำหรับคลัสเตอร์ AI",
+   "source_url": "https://techsauce.co/news/boi-lumentum-photonics-thailand-ai-supply-chain",
+   "tech_impact": "ไทยกำลังเป็นฐานผลิต optical component และชิปเลเซอร์ที่ป้อนดาต้าเซ็นเตอร์ AI ระดับโลก ซึ่งเป็นช่องทางขยับขึ้นห่วงโซ่มูลค่าเซมิคอนดักเตอร์",
+   "tags": [
+    "thailand",
+    "boi",
+    "photonics",
+    "semiconductor",
+    "supply-chain"
+   ],
+   "published_at": "2026-11-25T20:23:33+07:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Semiconductors",
+    "Photonics",
+    "Investment",
+    "AI Infrastructure"
+   ],
+   "actions_developer": [
+    "พัฒนาทักษะวิศวกรรมโฟโตนิกส์และ optical networking เพื่อรองรับงานใหม่",
+    "ศึกษา co-packaged optics ที่ใช้ในคลัสเตอร์ GPU รุ่นใหม่"
+   ],
+   "actions_business": [
+    "ซัพพลายเออร์ไทยควรเตรียมมาตรฐานเพื่อเข้าห่วงโซ่อุปทานของ Lumentum",
+    "ติดตามสิทธิประโยชน์บีโอไอสำหรับกิจการเซมิคอนดักเตอร์และศูนย์ R&D"
+   ],
+   "entities": {
+    "organizations": [
+     "BOI",
+     "Lumentum",
+     "NVIDIA",
+     "Nasdaq"
+    ],
+    "people": [
+     "นฤตม์ เทอดสถีรศักดิ์"
+    ],
+    "products": [],
+    "places": [
+     "Thailand",
+     "ปทุมธานี",
+     "San Jose"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b1-06",
+   "slug": "stanford-10m-ai-curriculum-redesign",
+   "title": "Stanford commits $10 million to redesign undergraduate majors for the AI era",
+   "title_th": "Stanford ทุ่ม 10 ล้านดอลลาร์ ปรับหลักสูตรปริญญาตรีทุกสาขาให้เท่าทันยุค AI",
+   "topic_group": "global",
+   "source_name": "Techsauce",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "Techsauce รายงานว่า Stanford University ประกาศลงทุน 10 ล้านดอลลาร์ หรือราว 339 ล้านบาท ให้ภาควิชาต่าง ๆ ทบทวนหลักสูตรปริญญาตรีทั้งสาขา ตั้งแต่วิชาพื้นฐานจนถึงโครงงานจบการศึกษา โดยต้องกำหนดให้ชัดว่างานส่วนใดนักศึกษาใช้ AI ช่วยได้ และส่วนใดต้องแสดงความสามารถด้วยตนเอง เหตุผลแรกมาจากตลาดแรงงาน รายงานของ LinkedIn ระบุว่าประกาศรับสมัครงานที่ต้องการทักษะ AI เพิ่มขึ้นราว 65% จากปีก่อน และขยายไปถึงงานการตลาด การออกแบบ การบริหารโครงการ และงานเขียน แต่การปล่อยให้ใช้ AI มากขึ้นไม่ใช่คำตอบเสมอไป งานวิจัยปี 2025 ใน PNAS พบว่านักเรียนที่ใช้ AI ทั่วไปช่วยทำแบบฝึกหัดคณิตศาสตร์ได้คะแนนดีขึ้นตอนฝึก แต่ทำได้แย่ลงเมื่อสอบโดยไม่มีตัวช่วย ขณะที่ AI ติวเตอร์ที่ออกแบบให้นักเรียนคิดเองลดผลเสียได้เกือบทั้งหมด และงานทดลองในวิชาฟิสิกส์ของ Harvard พบว่า AI ติวเตอร์เฉพาะทางช่วยให้เรียนรู้ได้มากกว่าการเรียนในห้อง",
+   "source_url": "https://techsauce.co/news/stanford-ai-curriculum-redesign-college-majors",
+   "tech_impact": "มหาวิทยาลัยชั้นนำเริ่มนิยามใหม่ว่าบัณฑิตยุค AI ต้องรู้อะไร ซึ่งจะส่งผลต่อมาตรฐานทักษะแรงงานและการออกแบบเครื่องมือ AI เพื่อการศึกษา",
+   "tags": [
+    "education",
+    "stanford",
+    "ai-skills",
+    "curriculum",
+    "workforce"
+   ],
+   "published_at": "2026-11-25T16:33:41+07:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Education",
+    "Workforce",
+    "EdTech"
+   ],
+   "actions_developer": [
+    "ออกแบบ AI tutor ที่กระตุ้นให้ผู้เรียนคิดเองแทนการให้คำตอบตรง",
+    "เพิ่มกลไกบันทึกการใช้ AI เพื่อให้ผู้สอนประเมินได้"
+   ],
+   "actions_business": [
+    "ปรับเกณฑ์รับสมัครงานให้วัดทักษะการทำงานร่วมกับ AI",
+    "สถาบันการศึกษาไทยควรกำหนดนโยบาย AI ระดับหลักสูตร ไม่ใช่รายวิชา"
+   ],
+   "entities": {
+    "organizations": [
+     "Stanford University",
+     "LinkedIn",
+     "PNAS",
+     "Harvard University"
+    ],
+    "people": [],
+    "products": [],
+    "places": [
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b1-07",
+   "slug": "ainu-kbtg-kx-ai-ekyc-identity",
+   "title": "AINU: Thai-built AI identity verification from KBTG and KX protecting over 30 million accounts",
+   "title_th": "รู้จัก AINU เทคโนโลยี AI ยืนยันตัวตนฝีมือคนไทยจาก KBTG และ KX ปกป้องกว่า 30 ล้านบัญชี",
+   "topic_group": "thailand",
+   "source_name": "Techsauce",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "Techsauce เจาะลึก AINU แบรนด์เทคโนโลยี AI ด้านการยืนยันตัวตนภายใต้กลุ่มธนาคารกสิกรไทย ซึ่งวิจัยและพัฒนาโดย KBTG ก่อนต่อยอดสู่บริการเชิงพาณิชย์ผ่าน KASIKORN X (KX) และอยู่เบื้องหลังความปลอดภัยของบัญชีกว่า 30 ล้านบัญชี ข้อมูลจากธนาคารแห่งประเทศไทยระบุว่าในเดือนสิงหาคม 2569 ไทยมีบัญชี Mobile Banking กว่า 151 ล้านบัญชี และมีธุรกรรมผ่านมือถือ 3,875 ล้านรายการในเดือนเดียว หรือเฉลี่ยวันละกว่า 125 ล้านรายการ ระบบต้องตอบให้ได้ในเวลาไม่ถึงพริบตาว่าคนหน้ากล้องเป็นมนุษย์จริง ไม่ใช่ภาพถ่าย หน้ากาก หรือ deepfake ผ่านเทคนิค face recognition และ liveness detection AINU เริ่มพัฒนาตั้งแต่ปี 2019 เป็น AI Deep Tech ที่พัฒนาโดยคนไทย 100% และผ่านมาตรฐานความปลอดภัยระดับโลก จุดเด่นคือการยกระดับ Digital Trust ให้การทำธุรกรรมออนไลน์ปลอดภัยเหมือนเจอหน้ากัน ท่ามกลางภัยมิจฉาชีพและบัญชีม้าที่เพิ่มขึ้นในไทย",
+   "source_url": "https://techsauce.co/ai/ainu-ai-ekyc-identity-verification-kbtg-kx",
+   "tech_impact": "AINU เป็นตัวอย่าง AI Deep Tech ไทยที่ใช้งานจริงในระดับประเทศ และเป็นด่านหน้าป้องกัน deepfake ในระบบการเงินดิจิทัล",
+   "tags": [
+    "thailand",
+    "ekyc",
+    "kbtg",
+    "deepfake",
+    "fintech"
+   ],
+   "published_at": "2026-11-25T16:00:15+07:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Identity Verification",
+    "FinTech",
+    "Cybersecurity",
+    "Computer Vision"
+   ],
+   "actions_developer": [
+    "ศึกษา liveness detection และการป้องกัน presentation attack/deepfake",
+    "ออกแบบ eKYC ให้รองรับปริมาณธุรกรรมระดับล้านครั้งต่อวัน"
+   ],
+   "actions_business": [
+    "สถาบันการเงินและฟินเทคสามารถใช้ eKYC สัญชาติไทยเพื่อลดการพึ่งพาผู้ขายต่างชาติ",
+    "ใช้การยืนยันตัวตนด้วย AI ลดความเสี่ยงบัญชีม้าและการฉ้อโกง"
+   ],
+   "entities": {
+    "organizations": [
+     "KBTG",
+     "KASIKORN X",
+     "ธนาคารกสิกรไทย",
+     "ธนาคารแห่งประเทศไทย"
+    ],
+    "people": [],
+    "products": [
+     "AINU"
+    ],
+    "places": [
+     "Thailand"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b1-08",
+   "slug": "claude-mcp-update-skills-tasks-elicitation",
+   "title": "Anthropic upgrades MCP: Skills over MCP, background tasks and confirmation prompts for Claude",
+   "title_th": "Claude อัปเกรด MCP รับคู่มือ Skills จากแอปภายนอก ทำงานเบื้องหลัง และถามก่อนทำรายการสำคัญ",
+   "topic_group": "tech-trends",
+   "source_name": "Techsauce",
+   "category": "Thai",
+   "urgency": "high",
+   "content": "Anthropic อัปเดตความสามารถของ Model Context Protocol (MCP) มาตรฐานเปิดที่เปิดตัวเมื่อ 2 ปีก่อนเพื่อให้ AI อ่านข้อมูลและสั่งการแอปภายนอก เช่น อีเมล ปฏิทิน ระบบร้านค้า หรือซอฟต์แวร์องค์กร ปัจจุบัน MCP มียอดดาวน์โหลด SDK มากกว่า 700 ล้านครั้งต่อเดือน มี Connector กว่า 10,000 ตัว และอยู่ภายใต้การดูแลของ Agentic AI Foundation การอัปเดตนี้มุ่งแก้ปัญหา AI ทำงานผิดขั้นตอนหรือทำพังโดยไม่ตั้งใจ โดยฟีเจอร์ Skills over MCP ให้ผู้พัฒนาแอปแนบ playbook หรือคู่มือการทำงานมากับเครื่องมือ ซึ่ง Claude จะดึงมาอ่านเฉพาะเมื่อจำเป็น ต่างจากเดิมที่ได้แค่รายการเครื่องมือโดยไม่รู้ลำดับขั้นที่ดีที่สุด นอกจากนี้ Claude ยังสั่งงานใหญ่ให้ทำงานเบื้องหลังได้ผ่าน tasks และรองรับ elicitation คือหยุดถามผู้ใช้ก่อนจ่ายเงินหรือลบข้อมูลสำคัญ ทำให้ agent ที่เชื่อมกับระบบจริงปลอดภัยและเชื่อถือได้มากขึ้น",
+   "source_url": "https://techsauce.co/ai/claude-mcp-update-skills-tasks-elicitation",
+   "tech_impact": "MCP กลายเป็นมาตรฐานกลางของ agent ในอุตสาหกรรม การเพิ่ม Skills, tasks และ elicitation ทำให้ agent ทำงานยาวและแตะระบบจริงได้อย่างควบคุมได้มากขึ้น",
+   "tags": [
+    "mcp",
+    "claude",
+    "agents",
+    "anthropic",
+    "skills"
+   ],
+   "published_at": "2026-11-25T11:43:24+07:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Agents",
+    "Developer Tools",
+    "Interoperability"
+   ],
+   "actions_developer": [
+    "แนบ Skills/playbook กับ MCP server เพื่อกำหนดลำดับขั้นการใช้เครื่องมือ",
+    "ใช้ elicitation ขอการยืนยันก่อนการกระทำที่ย้อนกลับไม่ได้"
+   ],
+   "actions_business": [
+    "องค์กรที่มี SaaS ควรทำ MCP connector พร้อมคู่มือเพื่อให้ agent ใช้งานถูกต้อง",
+    "กำหนดนโยบาย human-in-the-loop สำหรับธุรกรรมการเงินผ่าน agent"
+   ],
+   "entities": {
+    "organizations": [
+     "Anthropic",
+     "Agentic AI Foundation"
+    ],
+    "people": [],
+    "products": [
+     "Claude",
+     "Model Context Protocol",
+     "Skills over MCP"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b1-09",
+   "slug": "ingram-micro-thailand-2027-ai-ecosystem",
+   "title": "Ingram Micro Thailand sets 2027 vision as AI Solution Aggregator as enterprises move from AI pilots to scale",
+   "title_th": "อินแกรม ไมโคร ประเทศไทย ประกาศวิสัยทัศน์ปี 2570 ชูบทบาท Solution Aggregator สร้างระบบนิเวศ AI",
+   "topic_group": "thailand",
+   "source_name": "TechTalkThai",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "อินแกรม ไมโคร (ประเทศไทย) คาดว่าปี 2570 จะเป็นปีที่ AI เปลี่ยนผ่านจากช่วงทดลองใช้ (AI Experimentation) ไปสู่การใช้งานจริงระดับองค์กร (Enterprise Scale & Adoption) นายศุภกิจ ติยะวัชรพงศ์ กรรมการผู้จัดการ ระบุว่าองค์กรจะไม่แข่งกันว่าใครมี AI แต่จะแข่งกันว่าใครใช้ AI เพิ่มประสิทธิภาพ ลดต้นทุน สร้างรายได้ และรักษาความปลอดภัยได้ดีกว่า บริษัทจึงชูบทบาท Solution Aggregator หรือผู้รวบรวมโซลูชัน เพื่อสร้างระบบนิเวศ AI ที่แข็งแกร่ง โดยอ้างข้อมูลธนาคารแห่งประเทศไทยว่า GDP ไทยปี 2569 อยู่ที่ 2.4% และคาดว่า 2.1% ในปี 2570 แต่การใช้จ่ายไอทีโตเร็วกว่า GDP ถึง 4 เท่า Gartner ระบุว่าไทยมีการใช้จ่ายไอทีปี 2569 ราว 1.1 ล้านล้านบาท เติบโต 8.36% โดยดาต้าเซ็นเตอร์โตสูงสุด 27.9% ส่วน IDC คาดว่าปี 2573 ไทยจะใช้จ่ายไอทีถึง 28.69 พันล้านดอลลาร์ บริษัทยังจัดเวทีให้ผู้บริหารและผู้เชี่ยวชาญแลกเปลี่ยนแนวทางใช้ AI จริง",
+   "source_url": "https://www.techtalkthai.com/ingram-micro-value-of-the-heritage-to-modern-life-expierence-pr/",
+   "tech_impact": "ตัวเลขการใช้จ่ายไอทีและดาต้าเซ็นเตอร์ของไทยที่โตเร็วกว่า GDP บ่งชี้ว่าตลาดองค์กรไทยกำลังเข้าสู่เฟสนำ AI ไปใช้จริง",
+   "tags": [
+    "thailand",
+    "enterprise-ai",
+    "it-spending",
+    "distributor"
+   ],
+   "published_at": "2026-11-25T10:57:57+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Enterprise AI",
+    "IT Spending",
+    "Data Centers"
+   ],
+   "actions_developer": [
+    "เตรียมสถาปัตยกรรม AI ที่ผสานหลายผู้ขายผ่าน distributor/aggregator",
+    "เน้นงาน MLOps และ security เพื่อขยายจาก PoC สู่ production"
+   ],
+   "actions_business": [
+    "วางงบไอทีปี 2570 โดยผูก KPI กับผลลัพธ์ทางธุรกิจของ AI",
+    "ใช้ distributor เป็นช่องทางเข้าถึงโซลูชัน AI แบบรวมศูนย์"
+   ],
+   "entities": {
+    "organizations": [
+     "Ingram Micro",
+     "ธนาคารแห่งประเทศไทย",
+     "Gartner",
+     "IDC"
+    ],
+    "people": [
+     "ศุภกิจ ติยะวัชรพงศ์"
+    ],
+    "products": [],
+    "places": [
+     "Thailand"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b1-10",
+   "slug": "cia-osint-breach-artex-ai-pentest",
+   "title": "Hackers used AI pentest framework ARTEX to breach CIA's OSINT analysis system, affecting three US intelligence agencies",
+   "title_th": "แฮกเกอร์ใช้เฟรมเวิร์ก AI ARTEX เจาะระบบวิเคราะห์ OSINT ของ CIA กระทบหน่วยข่าวกรองสหรัฐฯ 3 แห่ง",
+   "topic_group": "global",
+   "source_name": "EnTechReview",
+   "category": "Thai",
+   "urgency": "high",
+   "content": "EnTechReview รายงานอ้าง The New York Times ว่าแฮกเกอร์ที่ยังไม่ทราบกลุ่มเจาะระบบวิเคราะห์ข่าวกรองแบบ Open Source Intelligence (OSINT) ของสำนักข่าวกรองกลางสหรัฐฯ หรือ CIA ได้สำเร็จ และส่งผลกระทบไปถึงอีก 2 หน่วยงาน ได้แก่ Office of the Director of National Intelligence (ODNI) และ National Geospatial-Intelligence Agency (NGA) จุดที่น่าจับตาคือการโจมตีเกี่ยวข้องกับ ARTEX ซึ่งเป็นเฟรมเวิร์กทดสอบเจาะระบบที่ขับเคลื่อนด้วย AI แหล่งข่าวยืนยันว่าเหตุการณ์ไม่กระทบข้อมูลลับหรือเครือข่ายชั้นความลับ ระบบ OSINT รวบรวมและวิเคราะห์ข้อมูลจากแหล่งสาธารณะ เช่น เว็บไซต์ สื่อสังคม และฐานข้อมูลเปิด แม้ข้อมูลไม่ใช่ความลับทั้งหมด แต่มีความสำคัญต่อภารกิจข่าวกรอง เหตุการณ์นี้เกิดในช่วงที่สหรัฐฯ ถูกโจมตีทางไซเบอร์ต่อเนื่อง รวมถึงกระทรวงการคลัง และตอกย้ำคำเตือนว่าเครื่องมือ AI ที่ออกแบบมาเพื่อทดสอบความปลอดภัยกำลังถูกนำไปใช้โจมตีจริง",
+   "source_url": "https://entechreview.com/2026/11/cia-hacked/",
+   "tech_impact": "การใช้ AI pentest framework ในการโจมตีหน่วยข่าวกรองจริง แสดงว่า offensive AI ลดต้นทุนการเจาะระบบลงมาก ฝ่ายป้องกันต้องเร่งใช้ AI ตรวจจับเช่นกัน",
+   "tags": [
+    "cybersecurity",
+    "cia",
+    "ai-hacking",
+    "osint",
+    "intelligence"
+   ],
+   "published_at": "2026-11-26T01:03:56+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Cybersecurity",
+    "Offensive AI",
+    "National Security"
+   ],
+   "actions_developer": [
+    "ทบทวน attack surface ของระบบที่ดึงข้อมูลสาธารณะและ API ภายนอก",
+    "เพิ่มการตรวจจับพฤติกรรมสแกนอัตโนมัติความเร็วสูงที่เป็นลักษณะของ AI agent"
+   ],
+   "actions_business": [
+    "อัปเดต threat model ให้ครอบคลุมผู้โจมตีที่ใช้ AI agent",
+    "ลงทุน AI-driven SOC เพื่อรับมือการโจมตีที่เร็วขึ้น"
+   ],
+   "entities": {
+    "organizations": [
+     "CIA",
+     "ODNI",
+     "NGA",
+     "The New York Times"
+    ],
+    "people": [],
+    "products": [
+     "ARTEX"
+    ],
+    "places": [
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b1-11",
+   "slug": "scb-cio-jensen-huang-ai-stocks-analysis",
+   "title": "SCB CIO decodes the Jensen Huang scandal: how big a risk to AI stocks and how to position portfolios",
+   "title_th": "ถอดรหัสปมฉาว เจนเซน หวง เสี่ยงจุดชนวนวิกฤตหุ้น AI แค่ไหน SCB CIO แนะจัดพอร์ตเอาตัวรอด",
+   "topic_group": "thailand",
+   "source_name": "The Standard Tech",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "THE STANDARD WEALTH สัมภาษณ์ชาตรี โรจนอาภา หัวหน้าทีมที่ปรึกษาการลงทุน SCB CIO ธนาคารไทยพาณิชย์ ในรายการ Morning Wealth ถึงความผันผวนของหุ้นเทคโนโลยีที่ดัชนี Nasdaq เหวี่ยงขึ้นลงวันละ 5–7% จนนักลงทุนตั้งคำถามว่าเป็นสัญญาณฟองสบู่ AI แตกหรือเพียงมรสุมความเชื่อมั่นระยะสั้น เขาชี้ว่าแรงกดดันไม่ได้มาจากปัจจัยเดียว แต่เป็นการประสานกันของ 5 คลื่นข่าวลบ ได้แก่ ความไม่แน่นอนด้านนโยบายหลังการเลือกตั้งของ Donald Trump ที่กระทบแนวทางกำกับการสร้าง Data Center ทิศทางนโยบายการเงินของ Fed การดึงสภาพคล่องออกจากตลาด และวิกฤตความเชื่อมั่นต่อผู้นำ Nvidia จากกรณี Jensen Huang นักลงทุนจึงต้องแยกให้ออกระหว่างอารมณ์ตลาดกับข้อเท็จจริงด้านผลกำไรของธุรกิจ ซึ่งปัจจัยพื้นฐานของอุตสาหกรรม AI ยังเติบโต พร้อมเสนอแนวทางจัดพอร์ตให้กระจายความเสี่ยงและไม่ตื่นตระหนกตามข่าว",
+   "source_url": "https://thestandard.co/jensen-huang-nvidia-ai-stocks-analysis/",
+   "tech_impact": "มุมมองนักวิเคราะห์ไทยช่วยให้นักลงทุนไทยแยก sentiment ออกจากปัจจัยพื้นฐาน ในช่วงที่หุ้น AI ผันผวนจากความเสี่ยงด้านธรรมาภิบาลของ Nvidia",
+   "tags": [
+    "nvidia",
+    "ai-stocks",
+    "investment",
+    "thailand",
+    "jensen-huang"
+   ],
+   "published_at": "2026-11-26T02:02:45+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Markets",
+    "Investment",
+    "Corporate Governance"
+   ],
+   "actions_developer": [
+    "ติดตามผลกระทบต่อราคาและซัพพลาย GPU หากตลาดทุนตึงตัว",
+    "ประเมินความเสี่ยงผู้ขายรายเดียว (vendor concentration) ในโครงสร้าง AI"
+   ],
+   "actions_business": [
+    "กระจายพอร์ตลงทุนหุ้น AI แทนการกระจุกในหุ้นตัวเดียว",
+    "ใช้ความผันผวนพิจารณาเข้าสะสมตามปัจจัยพื้นฐานอย่างมีวินัย"
+   ],
+   "entities": {
+    "organizations": [
+     "SCB CIO",
+     "ธนาคารไทยพาณิชย์",
+     "NVIDIA",
+     "Nasdaq",
+     "Fed",
+     "THE STANDARD WEALTH"
+    ],
+    "people": [
+     "ชาตรี โรจนอาภา",
+     "Jensen Huang",
+     "Donald Trump"
+    ],
+    "products": [],
+    "places": [
+     "Thailand",
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-01",
+   "slug": "sp-considers-nvidia-credit-downgrade",
+   "title": "S&P considers Nvidia credit downgrade over governance and 'key man' risks",
+   "title_th": "S&P พิจารณาลดอันดับเครดิต Nvidia จาก AA เป็น AA- เหตุธรรมาภิบาลและความเสี่ยงพึ่งพา Jensen Huang",
+   "topic_group": "global",
+   "source_name": "TechCrunch AI",
+   "category": "International",
+   "urgency": "high",
+   "content": "S&P Global Ratings หนึ่งในสามบริษัทจัดอันดับเครดิตรายใหญ่ ประกาศพิจารณาลดอันดับความน่าเชื่อถือของ Nvidia แม้ผลประกอบการยังแข็งแกร่ง โดยระบุว่าการปลดและแต่งตั้ง Jensen Huang กลับเป็นซีอีโอสะท้อนการกำกับดูแลผู้บริหารที่อ่อนแอ ขาดแผนสืบทอดตำแหน่ง และมีความเสี่ยง key man คือพึ่งพา Huang มากเกินไป S&P คาดว่าจะทบทวนเสร็จภายใน 90 วัน และอาจปรับอันดับจาก AA เป็น AA- ซึ่งเป็นอันดับสูงสุดอันดับที่ 4 ของสเกล แม้ Nvidia จะยังอยู่ในระดับน่าลงทุน แต่การลดอันดับอาจเพิ่มต้นทุนการกู้ยืม และเนื่องจาก Nvidia ค้ำประกันให้ neocloud และบริษัทโครงสร้างพื้นฐานที่เครดิตไม่แข็งแรง การลดอันดับอาจทำให้หนี้ของบริษัทเหล่านั้นแพงขึ้นหรือต้องวางหลักประกันเพิ่ม ทั้งนี้ในเดือนสิงหาคม Nvidia ประกาศจัดหาเงินทุน 500,000 ล้านดอลลาร์สำหรับโครงสร้างพื้นฐาน AI ร่วมกับสถาบันการเงิน 6 แห่ง รวมถึง Goldman Sachs, Apollo และ Blackstone",
+   "source_url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+   "tech_impact": "การลดอันดับเครดิต Nvidia จะส่งผลต่อเนื่องถึงต้นทุนเงินทุนของ neocloud และโครงการดาต้าเซ็นเตอร์ที่อาศัยการค้ำประกันจาก Nvidia",
+   "tags": [
+    "nvidia",
+    "credit-rating",
+    "governance",
+    "neocloud",
+    "s-and-p"
+   ],
+   "published_at": "2026-11-25T22:44:32+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Finance",
+    "Corporate Governance",
+    "AI Infrastructure"
+   ],
+   "actions_developer": [
+    "เตรียมแผนสำรองด้าน compute หาก neocloud ปรับราคาเพราะต้นทุนเงินทุนสูงขึ้น",
+    "กระจาย workload ไปหลายผู้ให้บริการ GPU"
+   ],
+   "actions_business": [
+    "ประเมินความเสี่ยงคู่สัญญา neocloud ที่พึ่งพาการค้ำประกันของ Nvidia",
+    "ติดตามผลทบทวนของ S&P ภายใน 90 วัน"
+   ],
+   "entities": {
+    "organizations": [
+     "S&P Global Ratings",
+     "NVIDIA",
+     "Goldman Sachs",
+     "Apollo",
+     "Blackstone"
+    ],
+    "people": [
+     "Jensen Huang"
+    ],
+    "products": [],
+    "places": [
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-02",
+   "slug": "openai-merges-chatgpt-chat-and-work-limits",
+   "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+   "title_th": "OpenAI รวม Chat และ Work ใน ChatGPT ยอมรับผู้ใช้หนักอาจชนเพดานการใช้งานเร็วขึ้น",
+   "topic_group": "tech-trends",
+   "source_name": "TechCrunch AI",
+   "category": "International",
+   "urgency": "medium",
+   "content": "OpenAI เริ่มทยอยเปิดประสบการณ์แบบรวม Chat และ Work ใน ChatGPT ให้ผู้ใช้กลุ่มเล็ก โดย Thibault Sottiaux หัวหน้าฝ่ายผลิตภัณฑ์โพสต์บน X ว่าเริ่มจากสมาชิก Pro จำนวนหนึ่ง หลังจากที่บริษัทแจ้งผ่านอีเมลก่อนหน้านี้ โฆษกของ OpenAI บอก TechCrunch ว่าผู้ใช้ส่วนใหญ่ไม่น่าจะเจอการรีเซ็ตโควตาบ่อยขึ้น แต่ผู้ใช้กลุ่มที่ใช้งานหนักที่สุดส่วนน้อยอาจชนเพดานเร็วขึ้น ประเด็นนี้ตรงกับความกังวลของสมาชิกบนโซเชียลมีเดียและฟอรัมชุมชน ที่กลัวว่าการรวมโควตา Chat และ Work เข้าด้วยกันจะทำให้เข้าถึงโมเดล reasoning ขั้นสูงได้น้อยลง ทั้งที่ยังจ่ายค่าสมาชิกเท่าเดิม ภายใต้ระบบใหม่ Chat และ Work จะใช้โควตาการใช้งานร่วมกัน การเปลี่ยนแปลงนี้สะท้อนว่า OpenAI กำลังรวมผลิตภัณฑ์ผู้บริโภคและผลิตภัณฑ์ทำงานแบบ agent ให้เป็นหนึ่งเดียว พร้อมบริหารต้นทุน compute ที่สูงจากงาน reasoning และ agent ที่ใช้ทรัพยากรมาก",
+   "source_url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+   "tech_impact": "การรวมโควตาสะท้อนแรงกดดันด้านต้นทุน compute ของงาน agent/reasoning และอาจเปลี่ยนวิธีคิดราคาแบบสมาชิกของผู้ช่วย AI",
+   "tags": [
+    "openai",
+    "chatgpt",
+    "usage-limits",
+    "pricing",
+    "agents"
+   ],
+   "published_at": "2026-11-25T20:03:27+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Assistants",
+    "Pricing",
+    "AI Agents"
+   ],
+   "actions_developer": [
+    "ออกแบบ workflow ให้ทนต่อ rate limit โดยใช้ API แยกสำหรับงานหนัก",
+    "ติดตามการเปลี่ยนโควตาเพื่อปรับการใช้โมเดล reasoning"
+   ],
+   "actions_business": [
+    "ทบทวนจำนวน seat และแพ็กเกจ ChatGPT ขององค์กรหลังรวมโควตา",
+    "เปรียบเทียบความคุ้มค่ากับผู้ให้บริการรายอื่นสำหรับผู้ใช้หนัก"
+   ],
+   "entities": {
+    "organizations": [
+     "OpenAI",
+     "TechCrunch"
+    ],
+    "people": [
+     "Thibault Sottiaux"
+    ],
+    "products": [
+     "ChatGPT",
+     "ChatGPT Pro"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-03",
+   "slug": "dario-amodei-rejects-ai-governance-claims",
+   "title": "Anthropic's Dario Amodei calls accusations of surrendering human control to AI 'absurd'",
+   "title_th": "Dario Amodei ซีอีโอ Anthropic โต้ข้อกล่าวหาว่าต้องการยกอำนาจควบคุมให้ AI ว่าไร้สาระ",
+   "topic_group": "ai-trends",
+   "source_name": "TechCrunch AI",
+   "category": "International",
+   "urgency": "medium",
+   "content": "Dario Amodei ซีอีโอของ Anthropic โพสต์ข้อความยาวบน X ตอบโต้ข้อกล่าวหาว่า Anthropic เชื่อว่ามนุษย์ควรยอมสละเจตจำนงเสรีให้ระบบ AI โดยเรียกข้อกล่าวหานี้ว่าไร้สาระ เขาเขียนว่าเราไม่ควรสังเวยความชอบธรรมหรือการกำหนดชะตาตนเองเพื่อแลกกับประสิทธิภาพหรือความมั่นคง และย้ำว่าข้อโต้แย้งที่ใช้ต่อต้านระบอบเผด็จการใช้ได้แบบคำต่อคำกับการปกครองโดย AI พร้อมระบุว่าการส่งมอบการปกครองให้ AI เป็นความคิดที่แย่ ใครที่อ่านงานเขียนหรือบทสัมภาษณ์ของเขาอย่างละเอียดจะไม่สรุปเป็นอย่างอื่น คำแถลงนี้เกิดขึ้นหลังคู่แข่งหลายรายพากันเตือนว่า agency ของมนุษย์อาจตกอยู่ในความเสี่ยงหาก AI ถูกพัฒนาอย่างไม่รับผิดชอบ ต้นเดือนนี้ Sam Altman ซีอีโอ OpenAI กล่าวว่าต้องการให้มนุษย์ยังคงมี agency เหนืออนาคต ขณะที่ Alexandr Wang หัวหน้าฝ่าย AI ของ Meta เขียนบทความบน X ว่าไม่ควรยอมรับการส่งมอบอำนาจให้ AI ข้อถกเถียงนี้กลายเป็นสมรภูมิด้านภาพลักษณ์ระหว่างแล็บ AI ชั้นนำ",
+   "source_url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+   "tech_impact": "ข้อถกเถียงเรื่อง human agency กลายเป็นประเด็นแข่งขันด้านจุดยืนนโยบายของแล็บ AI ชั้นนำ ซึ่งจะส่งผลต่อการกำกับดูแลและความเชื่อมั่นของผู้ใช้",
+   "tags": [
+    "anthropic",
+    "ai-governance",
+    "human-agency",
+    "ai-safety"
+   ],
+   "published_at": "2026-11-25T19:44:24+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Safety",
+    "AI Governance",
+    "AI Policy"
+   ],
+   "actions_developer": [
+    "ออกแบบระบบ agent ให้มีจุดตัดสินใจของมนุษย์ (human oversight) ชัดเจน",
+    "บันทึกการตัดสินใจของ AI ให้ตรวจสอบย้อนหลังได้"
+   ],
+   "actions_business": [
+    "กำหนดนโยบาย AI governance ภายในที่ระบุขอบเขตการตัดสินใจอัตโนมัติ",
+    "ติดตามจุดยืนของผู้ให้บริการโมเดลเพื่อประเมินความเสี่ยงด้านชื่อเสียง"
+   ],
+   "entities": {
+    "organizations": [
+     "Anthropic",
+     "OpenAI",
+     "Meta"
+    ],
+    "people": [
+     "Dario Amodei",
+     "Sam Altman",
+     "Alexandr Wang"
+    ],
+    "products": [],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-04",
+   "slug": "new-york-bans-ai-chatbot-toys",
+   "title": "New York bans AI chatbot toys for five years, second state after California",
+   "title_th": "นิวยอร์กแบนของเล่น AI แชตบอตสำหรับเด็ก 5 ปี เป็นรัฐที่สองต่อจากแคลิฟอร์เนีย",
+   "topic_group": "global",
+   "source_name": "TechCrunch AI",
+   "category": "International",
+   "urgency": "medium",
+   "content": "Kathy Hochul ผู้ว่าการรัฐนิวยอร์ก ลงนามในกฎหมายห้ามผลิต จัดจำหน่าย และขายของเล่นที่ฝังหรือเชื่อมต่อ AI แชตบอตในรัฐนิวยอร์กเป็นเวลา 5 ปี กฎหมายมุ่งเป้าไปที่ตุ๊กตาพูดได้ ตุ๊กตาสัตว์ และหุ่นยนต์ที่ต่ออินเทอร์เน็ตเพื่อสนทนากับเด็ก ทำให้นิวยอร์กเป็นรัฐที่สองต่อจากแคลิฟอร์เนียที่ออกมาตรการลักษณะนี้ ในทางเทคนิคกฎหมายจะมีผล 90 วันหลังลงนาม พ่อแม่บางคนจึงอาจยังซื้อได้ทันช่วงเทศกาล แต่ผู้ว่าการรัฐขอให้หลีกเลี่ยงเพราะความเสี่ยง ผลศึกษาใหม่ของ Common Sense Media พบว่าราวหนึ่งในสี่ของพ่อแม่ชาวอเมริกันที่มีลูกอายุต่ำกว่า 8 ปี มีหรือกำลังพิจารณาซื้อของเล่น AI ให้ลูกในเทศกาลนี้ ข้อกังวลหลักคือความปลอดภัยของบทสนทนา การเก็บข้อมูลเด็ก และผลต่อพัฒนาการ กฎหมายนี้สะท้อนกระแสกำกับดูแล AI สำหรับผู้บริโภคที่เป็นเด็กซึ่งกำลังขยายตัวในระดับรัฐของสหรัฐฯ",
+   "source_url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+   "tech_impact": "ตลาดของเล่น AI เผชิญการกำกับดูแลเข้มข้นในรัฐใหญ่ของสหรัฐฯ ผู้ผลิตอุปกรณ์ AI สำหรับเด็กต้องเตรียมรับมาตรฐานความปลอดภัยและข้อมูลที่สูงขึ้น",
+   "tags": [
+    "ai-toys",
+    "regulation",
+    "child-safety",
+    "new-york"
+   ],
+   "published_at": "2026-11-25T18:11:46+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Regulation",
+    "Child Safety",
+    "Consumer AI"
+   ],
+   "actions_developer": [
+    "ออกแบบผลิตภัณฑ์ AI สำหรับเด็กด้วยหลัก safety-by-design และการเก็บข้อมูลขั้นต่ำ",
+    "เพิ่มตัวกรองเนื้อหาและการควบคุมของผู้ปกครอง"
+   ],
+   "actions_business": [
+    "ผู้ผลิตของเล่นควรทบทวนแผนจำหน่ายในตลาดสหรัฐฯ ตามกฎหมายรายรัฐ",
+    "เตรียมเอกสารด้านความปลอดภัยเด็กเพื่อรองรับการกำกับดูแลที่อาจขยายไปรัฐอื่น"
+   ],
+   "entities": {
+    "organizations": [
+     "Common Sense Media",
+     "TechCrunch"
+    ],
+    "people": [
+     "Kathy Hochul"
+    ],
+    "products": [],
+    "places": [
+     "New York",
+     "California",
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-05",
+   "slug": "state-ags-challenge-character-ai-chat-auction",
+   "title": "Character.AI's plan to auction off users' private chats challenged by 42 state AGs",
+   "title_th": "อัยการสูงสุด 42 รัฐคัดค้าน Character.AI เตรียมประมูลขายแชตส่วนตัวผู้ใช้ในคดีล้มละลาย",
+   "topic_group": "global",
+   "source_name": "TechCrunch AI",
+   "category": "International",
+   "urgency": "high",
+   "content": "กลุ่มอัยการสูงสุดจาก 42 รัฐของสหรัฐฯ เข้าแทรกแซงกระบวนการล้มละลายของ Character.AI เพื่อหยุดแผนประมูลขายข้อมูลผู้ใช้ที่อ่อนไหว ซึ่งรวมถึงบทสนทนาส่วนตัวของผู้ใช้หลายล้านคน แถลงการณ์ของอัยการระบุว่าชุดข้อมูลของ Character.AI มีประวัติแชตจากบัญชีในสหรัฐฯ มากกว่า 21 ล้านบัญชี ในจำนวนนี้กว่า 2.1 ล้านบัญชีเป็นของผู้เยาว์ และยังรวมข้อมูลส่วนบุคคลอื่น เช่น IP address บริษัทยื่นล้มละลายตาม Chapter 11 ในเดือนตุลาคม และก่อนหน้านี้เคยแจ้งผู้บริโภคว่าจะไม่ขายข้อมูลส่วนบุคคล ขณะที่ Character.AI โพสต์บล็อกยืนยันกับผู้ใช้ว่าข้อมูลจะได้รับการคุ้มครอง กรณีนี้เปิดคำถามสำคัญว่าบทสนทนากับแชตบอตจะเป็นอย่างไรเมื่อบริษัท AI ล้มละลาย และข้อมูลแชตถือเป็นทรัพย์สินที่ขายได้หรือไม่ ซึ่งอาจนำไปสู่บรรทัดฐานด้านกฎหมายคุ้มครองข้อมูลของผู้ใช้ AI",
+   "source_url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+   "tech_impact": "เป็นบททดสอบสำคัญว่าข้อมูลบทสนทนา AI จะถูกปฏิบัติเป็นทรัพย์สินในคดีล้มละลายได้หรือไม่ และอาจสร้างบรรทัดฐานด้าน privacy ของแชตบอต",
+   "tags": [
+    "character-ai",
+    "privacy",
+    "bankruptcy",
+    "attorneys-general",
+    "chat-data"
+   ],
+   "published_at": "2026-11-25T17:35:58+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Privacy",
+    "AI Regulation",
+    "Consumer AI"
+   ],
+   "actions_developer": [
+    "ออกแบบนโยบายเก็บข้อมูลแชตแบบลบอัตโนมัติและเข้ารหัส",
+    "แยกข้อมูลผู้เยาว์และจำกัดการนำไปใช้ฝึกโมเดล"
+   ],
+   "actions_business": [
+    "ตรวจสอบสัญญากับผู้ให้บริการ AI ว่าครอบคลุมกรณีล้มละลายหรือเปลี่ยนเจ้าของ",
+    "สื่อสารนโยบายข้อมูลอย่างชัดเจนเพื่อรักษาความเชื่อมั่นผู้ใช้"
+   ],
+   "entities": {
+    "organizations": [
+     "Character.AI",
+     "TechCrunch"
+    ],
+    "people": [],
+    "products": [
+     "Character.AI"
+    ],
+    "places": [
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-06",
+   "slug": "amazon-meta-talks-muse-agent-shopping",
+   "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+   "title_th": "Amazon และ Meta เจรจาเปิดทางให้ AI agent Muse ซื้อสินค้าบน Amazon ได้",
+   "topic_group": "tech-trends",
+   "source_name": "TechCrunch AI",
+   "category": "International",
+   "urgency": "medium",
+   "content": "TechCrunch อ้างรายงานของ Fortune ว่า Amazon และ Meta ได้เจรจากันหลายรอบเกี่ยวกับดีลที่จะให้ Muse ซึ่งเป็น AI agent ยอดนิยมของ Meta เชื่อมต่อกับร้านค้า Amazon ได้โดยตรง นับเป็นการกลับลำครั้งใหญ่จากเมื่อสองเดือนก่อน ที่ผู้ใช้ Muse พบว่าไม่สามารถสั่งซื้อสินค้าบน Amazon ได้และได้รับข้อความแสดงข้อผิดพลาดเมื่อชำระเงิน ประเด็นที่ยังเจรจาอยู่มีสองเรื่อง คือการแสดงผลการค้นหาและการจัดการโฆษณาภายใต้ข้อตกลง ข้อกังวลใหญ่ของ Amazon คือ shopping agent ของบุคคลที่สามอาจกระทบธุรกิจโฆษณาของตน เมื่อเดือนตุลาคม Andy Jassy ซีอีโอ Amazon ระบุว่ามีลูกค้าไม่มากที่ซื้อสินค้าผ่าน agent ภายนอก นอกจากนี้ Amazon อาจรอให้ Muse พัฒนาจนเสถียรก่อน เพราะหาก agent สั่งสินค้าผิด ความรับผิดชอบและประสบการณ์ลูกค้าจะเป็นปัญหา ดีลนี้อาจเป็นต้นแบบความสัมพันธ์ระหว่างแพลตฟอร์มอีคอมเมิร์ซกับ AI agent",
+   "source_url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+   "tech_impact": "หากตกลงได้ จะเป็นต้นแบบการเปิดแพลตฟอร์มอีคอมเมิร์ซให้ AI agent ภายนอก และกำหนดวิธีแบ่งรายได้โฆษณาในยุค agentic commerce",
+   "tags": [
+    "amazon",
+    "meta",
+    "muse",
+    "shopping-agent",
+    "e-commerce"
+   ],
+   "published_at": "2026-11-25T14:10:18+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Agentic Commerce",
+    "E-commerce",
+    "AI Agents"
+   ],
+   "actions_developer": [
+    "เตรียม API/สคีมาสินค้าให้ agent อ่านและสั่งซื้อได้อย่างถูกต้อง",
+    "ออกแบบขั้นยืนยันคำสั่งซื้อเพื่อลดความผิดพลาดของ agent"
+   ],
+   "actions_business": [
+    "ร้านค้าออนไลน์ควรวางกลยุทธ์ agentic commerce และการแสดงผลต่อ agent",
+    "ประเมินผลกระทบต่อรายได้โฆษณาเมื่อผู้ซื้อเปลี่ยนไปใช้ agent"
+   ],
+   "entities": {
+    "organizations": [
+     "Amazon",
+     "Meta",
+     "Fortune"
+    ],
+    "people": [
+     "Andy Jassy"
+    ],
+    "products": [
+     "Muse"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-07",
+   "slug": "google-my-channel-ai-video-feed-patent",
+   "title": "Google's patent for custom AI video feeds paints a bleak picture of entertainment's future",
+   "title_th": "สิทธิบัตร My Channel ของ Google ฟีดวิดีโอและโฆษณา AI เฉพาะบุคคล สะท้อนอนาคตบันเทิงที่น่ากังวล",
+   "topic_group": "tech-trends",
+   "source_name": "The Verge AI",
+   "category": "International",
+   "urgency": "low",
+   "content": "The Verge รายงานว่าเมื่อปีที่แล้ว Google ยื่นจดสิทธิบัตรระบบชื่อ My Channel ที่ออกแบบมาเพื่อสร้างฟีดวิดีโอและโฆษณาที่สร้างด้วย AI แบบเฉพาะบุคคล โดยอิงข้อมูลที่บริษัทรู้เกี่ยวกับผู้ใช้แต่ละคน แนวคิดคือฟีดวิดีโอไม่รู้จบที่ผู้ชมอาจกลายเป็นตัวละครหลักของทุกเรื่อง แม้สิทธิบัตรดังกล่าวจะถูกปฏิเสธไปแล้ว แต่ Google อาจอุทธรณ์หรือยื่นใหม่ ผู้เขียนมองว่าสิทธิบัตรนี้สะท้อนทิศทางที่น่ากังวลของอุตสาหกรรมบันเทิง เมื่อแพลตฟอร์มสามารถผลิตคอนเทนต์ที่ปรับให้ตรงกับความชอบของแต่ละคนได้ในต้นทุนต่ำ ทั้งยังผสานโฆษณาเข้าไปในเนื้อหาโดยตรง ซึ่งอาจลดบทบาทของผู้สร้างสรรค์มนุษย์และทำให้ผู้ชมติดอยู่ในฟองสบู่ของคอนเทนต์ที่สร้างจากข้อมูลส่วนตัว ประเด็นนี้เชื่อมโยงกับความกังวลเรื่อง AI slop ความเป็นส่วนตัว และอนาคตของ YouTube ที่ Google เป็นเจ้าของ ในช่วงที่เครื่องมือสร้างวิดีโอด้วย AI พัฒนาเร็วขึ้นมาก",
+   "source_url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+   "tech_impact": "ชี้ให้เห็นศักยภาพที่แพลตฟอร์มจะผลิตคอนเทนต์วิดีโอ AI เฉพาะบุคคลพร้อมโฆษณาฝังตัว ซึ่งเปลี่ยนเศรษฐกิจของครีเอเตอร์และเพิ่มประเด็นความเป็นส่วนตัว",
+   "tags": [
+    "google",
+    "patent",
+    "ai-video",
+    "personalization",
+    "advertising"
+   ],
+   "published_at": "2026-11-25T16:51:26-05:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Generative Video",
+    "Advertising",
+    "Media"
+   ],
+   "actions_developer": [
+    "ติดตามเทคนิค personalized generative video และการใส่ watermark/ป้ายกำกับคอนเทนต์ AI",
+    "ออกแบบระบบแนะนำที่โปร่งใสต่อการใช้ข้อมูลผู้ใช้"
+   ],
+   "actions_business": [
+    "ครีเอเตอร์และสื่อควรเตรียมกลยุทธ์แข่งกับคอนเทนต์ AI ที่ผลิตอัตโนมัติ",
+    "แบรนด์ควรประเมินความเสี่ยงด้านภาพลักษณ์ของโฆษณาที่สร้างด้วย AI"
+   ],
+   "entities": {
+    "organizations": [
+     "Google",
+     "YouTube"
+    ],
+    "people": [
+     "Charles Pulliam-Moore"
+    ],
+    "products": [
+     "My Channel"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-08",
+   "slug": "nothing-ear-note-ai-earbuds",
+   "title": "Nothing offers a full look at its Ear Note AI earbuds and note-taking charging case",
+   "title_th": "Nothing เผยโฉม Ear Note หูฟัง AI ที่เคสชาร์จบันทึก ถอดเสียง และสรุปบทสนทนาได้",
+   "topic_group": "tech-trends",
+   "source_name": "The Verge AI",
+   "category": "International",
+   "urgency": "low",
+   "content": "Nothing เปิดเผยรายละเอียดของหูฟัง Ear Note ก่อนวางจำหน่ายวันที่ 8 ธันวาคม ตัวหูฟังมีหน้าตาคล้ายรุ่นก่อน แต่เคสชาร์จทำหน้าที่เป็นเครื่องจดบันทึกที่เชื่อมต่อ AI ได้ ตัวหูฟังสามารถบันทึกการโทร ขณะที่เคสชาร์จซึ่งติดตั้งไมโครโฟนสามารถบันทึกเสียง ถอดความ และสรุปบทสนทนาได้ คล้ายแนวทางของ Ear 3 ที่มีไมโครโฟนบนเคส ผลิตภัณฑ์นี้เข้าสู่ตลาดอุปกรณ์สวมใส่ AI ที่กำลังแข่งขันกันสูง ทั้ง AI pin, AI recorder และสมาร์ทกลาสที่เน้นการจดบันทึกบทสนทนาและการประชุมอัตโนมัติ การรวมฟังก์ชัน AI note-taker เข้ากับอุปกรณ์ที่ผู้ใช้พกอยู่แล้วอย่างหูฟัง ช่วยลดอุปสรรคการใช้งานเมื่อเทียบกับการซื้ออุปกรณ์แยก แต่ก็เพิ่มคำถามด้านความเป็นส่วนตัวและการขอความยินยอมจากคู่สนทนาก่อนบันทึกเสียง ซึ่งกฎหมายในแต่ละประเทศกำหนดแตกต่างกัน",
+   "source_url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+   "tech_impact": "AI note-taking กำลังถูกผนวกเข้าอุปกรณ์ทั่วไปอย่างหูฟัง ทำให้การบันทึกและสรุปบทสนทนากลายเป็นฟีเจอร์พื้นฐาน พร้อมประเด็น consent ที่ต้องจัดการ",
+   "tags": [
+    "nothing",
+    "earbuds",
+    "ai-wearables",
+    "transcription"
+   ],
+   "published_at": "2026-11-25T11:00:59-05:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Wearables",
+    "Consumer Electronics",
+    "Speech AI"
+   ],
+   "actions_developer": [
+    "ออกแบบ pipeline ถอดเสียงและสรุปที่ทำงานบนอุปกรณ์เพื่อลดความเสี่ยงข้อมูล",
+    "เพิ่มการแจ้งเตือนคู่สนทนาเมื่อมีการบันทึก"
+   ],
+   "actions_business": [
+    "องค์กรควรกำหนดนโยบายการใช้อุปกรณ์บันทึกเสียง AI ในที่ประชุม",
+    "ผู้ค้าปลีกติดตามเทรนด์ AI wearables สำหรับฤดูขายปลายปี"
+   ],
+   "entities": {
+    "organizations": [
+     "Nothing"
+    ],
+    "people": [
+     "Emma Roth"
+    ],
+    "products": [
+     "Ear Note",
+     "Ear 3"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-09",
+   "slug": "ai-straining-us-open-records-systems",
+   "title": "AI is straining America's open records systems",
+   "title_th": "AI ทำระบบขอข้อมูลสาธารณะของสหรัฐฯ รับภาระหนัก สตาร์ทอัปขุดข้อมูลรัฐ ประชาชนใช้แชตบอตยื่นคำขอ",
+   "topic_group": "global",
+   "source_name": "MIT Tech Review AI",
+   "category": "International",
+   "urgency": "medium",
+   "content": "MIT Technology Review รายงานว่า AI กำลังสร้างแรงกดดันต่อระบบคำขอข้อมูลสาธารณะ (public records) ของสหรัฐฯ ตัวอย่างจากเมือง Panton รัฐเวอร์มอนต์ ประชากร 660 คน Kyle Rowe เจ้าหน้าที่ประจำเมืองที่ทำงานแทบทุกตำแหน่ง เคยได้รับคำขอจากบริษัท SmartProcure ให้ส่งบันทึกการจัดซื้อทั้งหมดปีละครั้ง แต่ปีที่แล้วเพิ่มเป็นรายไตรมาส และมีบริษัทอื่นขอข้อมูลเจาะจง เช่น บันทึกการซื้อพลุสัญญาณฉุกเฉิน ถี่ขึ้นเป็นรายเดือน Rowe ระบุว่ารู้สึกเหมือนทำงานวิจัยให้บริษัทเอกชนโดยใช้เวลาของผู้เสียภาษี แม้ data broker จะขุดข้อมูลสาธารณะมาหลายสิบปี แต่ AI ทำให้นักลงทุนสนใจมากขึ้น สตาร์ทอัปที่ได้ทุนจาก VC ระดมทุนรวมกว่า 100 ล้านดอลลาร์เพื่อรวบรวมข้อมูลจากหน่วยงานรัฐหลายพันแห่งไปทำผลิตภัณฑ์ AI ขณะเดียวกันประชาชนก็ใช้แชตบอตช่วยร่างและยื่นคำขอจำนวนมากขึ้น ทำให้หน่วยงานท้องถิ่นขนาดเล็กรับมือไม่ไหว",
+   "source_url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+   "tech_impact": "AI เพิ่มทั้งความต้องการข้อมูลภาครัฐเพื่อทำผลิตภัณฑ์และปริมาณคำขอจากประชาชน หน่วยงานรัฐต้องปรับระบบเปิดเผยข้อมูลให้เป็น open data อัตโนมัติมากขึ้น",
+   "tags": [
+    "open-records",
+    "public-sector",
+    "data-brokers",
+    "govtech"
+   ],
+   "published_at": "2026-11-25T10:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Open Data",
+    "Public Sector",
+    "Data Brokers"
+   ],
+   "actions_developer": [
+    "พัฒนาพอร์ทัล open data แบบ API เพื่อลดคำขอรายกรณี",
+    "ใช้ AI ช่วยคัดกรองและตอบคำขอข้อมูลซ้ำ"
+   ],
+   "actions_business": [
+    "บริษัทที่ใช้ข้อมูลภาครัฐควรพิจารณาจริยธรรมและภาระต่อหน่วยงานท้องถิ่น",
+    "หน่วยงานรัฐไทยสามารถเรียนรู้แนวทางเปิดข้อมูลเชิงรุกก่อนเจอภาระคล้ายกัน"
+   ],
+   "entities": {
+    "organizations": [
+     "SmartProcure",
+     "MIT Technology Review"
+    ],
+    "people": [
+     "Kyle Rowe"
+    ],
+    "products": [],
+    "places": [
+     "Panton",
+     "Vermont",
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-10",
+   "slug": "bytedance-seed-laminar-async-rl-framework",
+   "title": "ByteDance Seed and HKU open-source Laminar, an async RL post-training framework for LLM agents",
+   "title_th": "ByteDance Seed และ HKU เปิดซอร์ส Laminar เฟรมเวิร์ก RL post-training แบบ asynchronous สำหรับ LLM และ agent",
+   "topic_group": "ai-trends",
+   "source_name": "MarkTechPost",
+   "category": "International",
+   "urgency": "medium",
+   "content": "นักวิจัยจาก The University of Hong Kong และ ByteDance Seed เปิดซอร์ส Laminar เฟรมเวิร์ก reinforcement learning (RL) post-training สำหรับ LLM และ agent ที่ทำงานยาว แนวคิดหลักคือไม่บังคับให้ทุก trajectory และทุก GPU ต้องรอตัวที่ช้าที่สุด ซึ่งเป็นจุดที่เสียเวลา GPU มากที่สุดเมื่อฝึก coding agent ที่มี rollout ยาวและไม่สม่ำเสมอ Laminar แยก rollout, buffering, training และ weight transfer ออกเป็นลูปอิสระ สร้างบน verl และ Uni-Agent และเผยแพร่ภายใต้ Apache-2.0 สถาปัตยกรรมแบ่ง 3 ชั้น คือ verl จัดการ compute ฝั่ง training และ inference, Uni-Agent จัดการการรัน agent การเรียกเครื่องมือ และ sandbox ส่วน Laminar ดูแล orchestration ระดับคลัสเตอร์ โดยยึดหลัก full decoupling, fine-grained asynchrony และ fault tolerance ในงานวิจัยใช้ relay ที่เป็น CPU process หนึ่งตัวต่อเครื่อง rollout กระจาย weight ผ่าน RDMA แบบ pipeline โดยโมเดล 72B ส่งถึง relay อีก 127 ตัวภายในไม่ถึง 1.6 วินาที และรองรับ rollout แบบ version-consistent ลดการ re-prefill ซ้ำ",
+   "source_url": "https://www.marktechpost.com/2026/11/24/bytedance-seed-laminar-async-rl-post-training-framework/",
+   "tech_impact": "Laminar ช่วยลดเวลา GPU ที่สูญเปล่าในการฝึก agent ด้วย RL ซึ่งเป็นคอขวดหลักของการพัฒนา coding/long-horizon agent และเปิดให้ทีมอื่นใช้แบบโอเพนซอร์ส",
+   "tags": [
+    "reinforcement-learning",
+    "bytedance",
+    "open-source",
+    "post-training",
+    "agents"
+   ],
+   "published_at": "2026-11-25T05:42:05+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Reinforcement Learning",
+    "LLM Training",
+    "AI Agents",
+    "Open Source"
+   ],
+   "actions_developer": [
+    "ทดลองใช้ Laminar ร่วมกับ verl สำหรับงาน RL post-training ที่ rollout ยาว",
+    "ศึกษาการกระจาย weight ผ่าน RDMA เพื่อลด latency ระหว่าง training กับ rollout"
+   ],
+   "actions_business": [
+    "ประเมินการลดต้นทุน GPU สำหรับทีมที่ฝึกโมเดล agent ภายใน",
+    "ใช้โอเพนซอร์สลดการพึ่งพาโครงสร้างฝึกโมเดลแบบปิด"
+   ],
+   "entities": {
+    "organizations": [
+     "ByteDance Seed",
+     "The University of Hong Kong"
+    ],
+    "people": [
+     "Asif Razzaq"
+    ],
+    "products": [
+     "Laminar",
+     "verl",
+     "Uni-Agent"
+    ],
+    "places": [
+     "Hong Kong",
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-11",
+   "slug": "nvidia-gpu-sellers-china-remote-access-curbs",
+   "title": "Nvidia chip sellers seek new buyers as U.S. curbs Chinese remote access to AI chips",
+   "title_th": "ผู้ขายชิป Nvidia เร่งหาผู้ซื้อใหม่ หลังสหรัฐฯ คุมเข้มการเช่าใช้ชิป AI จากระยะไกลของบริษัทจีน",
+   "topic_group": "global",
+   "source_name": "CNBC Tech",
+   "category": "International",
+   "urgency": "high",
+   "content": "CNBC รายงานอ้างแหล่งข่าว 3 รายว่าผู้ขายชิป Nvidia กำลังเร่งหาผู้ซื้อรายใหม่ หลังรัฐบาล Trump ออกมาตรการเมื่อ 16 พฤศจิกายน จำกัดไม่ให้บริษัทจีนเช่าใช้ชิป AI ขั้นสูงของ Nvidia จากระยะไกล ตั้งแต่ประกาศมาตรการ มี GPU ของ Nvidia ถูกนำออกขายในตลาดในปริมาณสูงผิดปกติ Jack Duhamel ประธาน GPU Mart ตลาดซื้อขายโครงสร้างพื้นฐาน AI และอีกสองแหล่งข่าวระบุว่าการเทขายนี้เป็นผลโดยตรงจากกฎใหม่ โดยบริษัทหนึ่งที่ต้องการขายชิปบอก GPU Mart ว่าการขายเกี่ยวข้องกับกฎนี้ แหล่งข่าวมองว่าผู้ขายต้องการปล่อยชิปที่เดิมตั้งใจให้ลูกค้าจีนเช่าใช้ ซึ่งตอนนี้ทำไม่ได้แล้ว มาตรการนี้ปิดช่องโหว่สำคัญที่บริษัทจีนเคยใช้เข้าถึง compute ขั้นสูงผ่านดาต้าเซ็นเตอร์ในต่างประเทศ และอาจทำให้ราคา GPU มือสองในตลาดรองปรับลดลงในระยะสั้น",
+   "source_url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html",
+   "tech_impact": "การปิดช่องเช่า compute จากระยะไกลทำให้ GPU ไหลกลับสู่ตลาดรอง อาจกดราคา GPU ระยะสั้น และเปลี่ยนโมเดลธุรกิจดาต้าเซ็นเตอร์ในเอเชีย",
+   "tags": [
+    "nvidia",
+    "export-controls",
+    "china",
+    "gpu",
+    "remote-access"
+   ],
+   "published_at": "2026-11-25T17:28:24+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Export Controls",
+    "AI Chips",
+    "Geopolitics"
+   ],
+   "actions_developer": [
+    "จับตาโอกาสเช่าหรือซื้อ GPU ราคาลดลงในตลาดรอง",
+    "ตรวจสอบเงื่อนไข compliance ด้าน KYC ของผู้ให้บริการ GPU cloud"
+   ],
+   "actions_business": [
+    "ผู้ให้บริการดาต้าเซ็นเตอร์ต้องทบทวนฐานลูกค้าจีนเพื่อปฏิบัติตามกฎสหรัฐฯ",
+    "ประเมินความเสี่ยงการลงทุน GPU ที่ผูกกับลูกค้ากลุ่มเดียว"
+   ],
+   "entities": {
+    "organizations": [
+     "NVIDIA",
+     "GPU Mart",
+     "CNBC"
+    ],
+    "people": [
+     "Jack Duhamel"
+    ],
+    "products": [
+     "Nvidia GPU"
+    ],
+    "places": [
+     "United States",
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-12",
+   "slug": "ai-debt-worries-big-tech-spending-squeeze",
+   "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
+   "title_th": "ความกังวลหนี้ AI เพิ่มขึ้น การฟื้นตัวของ Nvidia บดบังแรงบีบด้านเงินทุนของ Big Tech",
+   "topic_group": "global",
+   "source_name": "CNBC Tech",
+   "category": "International",
+   "urgency": "medium",
+   "content": "CNBC รายงานว่า Big Tech อาจหาเงินทุนจากตลาดตราสารหนี้ซึ่งสำคัญต่อการสร้างโครงสร้างพื้นฐาน AI ได้ยากขึ้น เมื่อผู้ให้กู้เริ่มเลือกลงทุนหุ้นกู้บริษัทอย่างเข้มงวดขึ้น การกลับมาเป็นซีอีโอ Nvidia ของ Jensen Huang เมื่อวันจันทร์ช่วยดันตลาดหุ้นที่กำลังฟื้นให้พุ่งขึ้น นำโดยหุ้นเทคโนโลยีหลังการเทขายหนักสัปดาห์ก่อนที่ IPO ของ Anthropic ไม่สามารถยกทั้งกลุ่มได้ แต่นักลงทุนเริ่มตั้งคำถามหนักขึ้นถึงค่าใช้จ่ายการสร้าง AI และต้องการหลักฐานว่าการใช้จ่ายมหาศาลสร้างมูลค่าให้ผู้ถือหุ้นจริง Dan Taylor รองประธานเจ้าหน้าที่การลงทุนของ Man Group มองว่าเมื่อนักลงทุนเลือกมากขึ้นว่าเงินทุนจะไปที่ใดและจะคืนทุนเมื่อใด ตลาดจะแตกตัวมากกว่าสูตรง่าย ๆ อย่างซื้อหุ้นผู้ผลิตชิปขายหุ้นซอฟต์แวร์ ภาวะนี้สะท้อนว่าวงจรการลงทุน AI กำลังเข้าสู่ช่วงที่ต้นทุนเงินทุนและผลตอบแทนถูกตรวจสอบอย่างเข้มข้น",
+   "source_url": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html",
+   "tech_impact": "ต้นทุนเงินกู้ที่สูงขึ้นอาจชะลอการสร้างดาต้าเซ็นเตอร์ AI และทำให้ตลาดแยกผู้ชนะผู้แพ้ชัดขึ้นตามผลตอบแทนจริง",
+   "tags": [
+    "ai-debt",
+    "capex",
+    "bonds",
+    "nvidia",
+    "big-tech"
+   ],
+   "published_at": "2026-11-25T06:29:46+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Finance",
+    "Capital Markets",
+    "AI Infrastructure"
+   ],
+   "actions_developer": [
+    "วัด ROI ของฟีเจอร์ AI อย่างเป็นตัวเลขเพื่อรองรับคำถามจากผู้บริหาร",
+    "เพิ่มประสิทธิภาพ inference เพื่อลดต้นทุน compute"
+   ],
+   "actions_business": [
+    "เตรียมแผนการเงินหากต้นทุนเงินกู้สำหรับโครงการ AI สูงขึ้น",
+    "สื่อสาร value ของการลงทุน AI ต่อผู้ถือหุ้นด้วยตัวชี้วัดที่ชัดเจน"
+   ],
+   "entities": {
+    "organizations": [
+     "NVIDIA",
+     "Anthropic",
+     "Man Group",
+     "CNBC"
+    ],
+    "people": [
+     "Jensen Huang",
+     "Dan Taylor"
+    ],
+    "products": [],
+    "places": [
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-13",
+   "slug": "us-export-rules-threaten-asian-ai-buildout",
+   "title": "New US export rules threaten Asian AI buildout, require licenses in Thailand, Singapore, Malaysia",
+   "title_th": "กฎส่งออกชิปใหม่ของสหรัฐฯ ขู่ชะลอการสร้าง AI ในเอเชีย ไทย สิงคโปร์ มาเลเซีย ต้องขอใบอนุญาต",
+   "topic_group": "global",
+   "source_name": "Semafor Tech",
+   "category": "International",
+   "urgency": "high",
+   "content": "Semafor อ้างรายงาน Bloomberg ว่าผู้ให้กู้ระงับเงินทุนหลายพันล้านดอลลาร์ที่เชื่อมโยงกับ hyperscaler จีนอย่าง ByteDance, Alibaba และ Tencent หลังมาตรการควบคุมการส่งออกชิป AI ใหม่ของสหรัฐฯ ขู่ชะลอการสร้างดาต้าเซ็นเตอร์ในเอเชีย เมื่อสัปดาห์ก่อนวอชิงตันประกาศว่าบริษัทในสิงคโปร์ มาเลเซีย อินโดนีเซีย ไทย และบราซิล ต้องขอใบอนุญาตจากรัฐบาลก่อนซื้อชิปสหรัฐฯ ขณะที่ดาต้าเซ็นเตอร์ที่ให้บริษัทจีนเช่า compute อยู่แล้วมีเวลา 90 วันในการขอใบอนุญาตแยก กรณีชู้สาวของซีอีโอ Nvidia กับผู้บริหารที่อยู่ในสิงคโปร์ยิ่งเพิ่มความกังวลว่าชิปขั้นสูงถูกส่งต่อไปยังบริษัทในจีนแผ่นดินใหญ่ นักวิเคราะห์ Barclays ระบุว่ากฎนี้เป็นการเปลี่ยนสำคัญจากการควบคุมว่าชิปไปอยู่ที่ใด เป็นการควบคุมว่าใครเข้าถึง compute ที่ชิปเหล่านั้นให้บริการ ซึ่งส่งผลต่อเนื่องต่อเศรษฐกิจเอเชีย",
+   "source_url": "https://www.semafor.com/article/11/25/2026/new-us-export-rules-threaten-asian-ai-buildout",
+   "tech_impact": "ไทยถูกระบุชื่อในกลุ่มประเทศที่ต้องขอใบอนุญาตซื้อชิป AI จากสหรัฐฯ ส่งผลโดยตรงต่อโครงการดาต้าเซ็นเตอร์และการลงทุน AI ในไทย",
+   "tags": [
+    "export-controls",
+    "asia",
+    "data-centers",
+    "thailand",
+    "chips"
+   ],
+   "published_at": "2026-11-25T22:23:15+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Export Controls",
+    "Data Centers",
+    "Geopolitics"
+   ],
+   "actions_developer": [
+    "ตรวจสอบแหล่งที่มาของ GPU และสัญญาเช่า compute ให้สอดคล้องกฎใบอนุญาต",
+    "วางแผนใช้ทรัพยากร compute ทางเลือกหากการจัดหาชิปล่าช้า"
+   ],
+   "actions_business": [
+    "ผู้ประกอบการดาต้าเซ็นเตอร์ในไทยต้องเตรียมยื่นใบอนุญาตและคัดกรองลูกค้าจีนภายใน 90 วัน",
+    "ประเมินผลกระทบต่อแผนลงทุนดาต้าเซ็นเตอร์และ FDI ในไทย"
+   ],
+   "entities": {
+    "organizations": [
+     "ByteDance",
+     "Alibaba",
+     "Tencent",
+     "Bloomberg",
+     "Barclays",
+     "NVIDIA"
+    ],
+    "people": [
+     "Jensen Huang"
+    ],
+    "products": [],
+    "places": [
+     "Singapore",
+     "Malaysia",
+     "Indonesia",
+     "Thailand",
+     "Brazil",
+     "China",
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-14",
+   "slug": "asml-ceo-case-for-selling-to-china",
+   "title": "ASML CEO Christophe Fouquet makes the case for selling older chipmaking tools to China",
+   "title_th": "ซีอีโอ ASML ชี้ไม่ควรตัดขาดจีนสิ้นเชิง ขายเครื่องจักรรุ่นเก่าเพื่อรักษาช่องว่างเทคโนโลยี",
+   "topic_group": "global",
+   "source_name": "Semafor Tech",
+   "category": "International",
+   "urgency": "medium",
+   "content": "Christophe Fouquet ซีอีโอของ ASML ผู้ผลิตเครื่อง lithography รายเดียวที่จำเป็นต่อการผลิตชิป AI ขั้นสูงที่สุดของโลก กล่าวในรายการ Future Proof ของ Semafor ว่ามาตรการควบคุมการส่งออกไม่ควรตั้งเป้าตัดขาดจีนอย่างสมบูรณ์ เพราะกลยุทธ์นั้นจะย้อนกลับมาทำร้าย เขาระบุว่าต้องใช้ export control เพื่อปกป้องเทคโนโลยีขั้นสูงสุด แต่ต้องไม่ทำให้ประเทศใดหงุดหงิดจนหันไปทุ่มพัฒนาเองเป็นสองเท่าหรือสามเท่า Fouquet ให้เหตุผลว่าการขายอุปกรณ์รุ่นเก่าที่ล้าหลังกว่าเทคโนโลยีล่าสุดกว่าทศวรรษให้จีน ช่วยรักษาช่องว่างระหว่างรุ่นเชิงยุทธศาสตร์ที่ทำให้จีนยังพึ่งพาเทคโนโลยีตะวันตก ความเห็นนี้มีขึ้นขณะที่การถกเถียงเรื่องการเข้าถึงเทคโนโลยีของจีนในวอชิงตันร้อนแรงขึ้น หลังการเปิดเผยว่า Jensen Huang มีความสัมพันธ์กับผู้ต้องสงสัยเป็นสายลับจีน ทำให้สมาชิกสภาแตกเป็นสองฝ่ายเรื่องความเข้มงวดของมาตรการ ASML ซึ่งมีมูลค่าราว 520,000 ล้านดอลลาร์และผูกขาดตลาดอุปกรณ์ผลิตชิปโดยพฤตินัยจึงอยู่กลางสมรภูมินี้",
+   "source_url": "https://www.semafor.com/article/11/25/2026/asml-makes-the-case-for-selling-chips-to-china",
+   "tech_impact": "จุดยืนของ ASML สะท้อนแรงตึงระหว่างผลประโยชน์ทางธุรกิจกับนโยบายความมั่นคง ซึ่งจะกำหนดทิศทางห่วงโซ่อุปทานเซมิคอนดักเตอร์โลก",
+   "tags": [
+    "asml",
+    "export-controls",
+    "china",
+    "semiconductors",
+    "lithography"
+   ],
+   "published_at": "2026-11-25T17:48:26+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Semiconductors",
+    "Export Controls",
+    "Geopolitics"
+   ],
+   "actions_developer": [
+    "ติดตามผลต่อความเร็วการพัฒนาชิปภายในประเทศของจีน",
+    "ประเมินผลกระทบต่อราคาชิปรุ่น mature node ที่ใช้ในอุปกรณ์ edge AI"
+   ],
+   "actions_business": [
+    "วางแผนซัพพลายเชนเซมิคอนดักเตอร์รองรับมาตรการส่งออกที่อาจเปลี่ยนเร็ว",
+    "ติดตามการถกเถียงในสภาคองเกรสหลังกรณี Jensen Huang"
+   ],
+   "entities": {
+    "organizations": [
+     "ASML",
+     "Semafor",
+     "NVIDIA"
+    ],
+    "people": [
+     "Christophe Fouquet",
+     "Jensen Huang"
+    ],
+    "products": [],
+    "places": [
+     "China",
+     "United States",
+     "Netherlands"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-15",
+   "slug": "jensen-huang-capitol-hill-questioning",
+   "title": "Jensen Huang to face closed-door questioning by three House committees next week",
+   "title_th": "Jensen Huang เตรียมถูกสามคณะกรรมาธิการสภาสหรัฐฯ ซักถามแบบปิด ชนกับงานประชุม Nvidia ที่วอชิงตัน",
+   "topic_group": "global",
+   "source_name": "Semafor Tech",
+   "category": "International",
+   "urgency": "medium",
+   "content": "Semafor รายงานว่าสัปดาห์หน้าวอชิงตันจะเห็นภาพ Nvidia สองด้านพร้อมกัน เมื่อ Jensen Huang ต้องเข้าให้ข้อมูลแบบปิดต่อคณะกรรมาธิการสภาผู้แทนราษฎร 3 คณะในวันอังคาร ซึ่งตรงกับวันที่เขามีกำหนดขึ้นกล่าว keynote ในงานแสดงเทคโนโลยีประจำปีของ Nvidia สำหรับนักพัฒนา พันธมิตร และเจ้าหน้าที่รัฐ ที่จัดห่างออกไปไม่ถึง 2 ไมล์ Nvidia รายงานว่าได้รวบรวมทีมทนายความและนักล็อบบี้ชั้นนำของวอชิงตันไว้ก่อนการซักถาม ช่วงที่ Huang ลาออก ชื่อของเขาถูกถอดจากกำหนดการ และยังไม่ชัดว่าจะกลับขึ้นเวทีหรือไม่หลังได้รับแต่งตั้งกลับและยืนยันกับพนักงานว่าธุรกิจยังดำเนินตามปกติ การขึ้นกล่าวต่อหน้าแฟน ๆ อาจเป็นการถ่วงดุลภาพลักษณ์กับการถูกวิจารณ์ที่รัฐสภา และสะท้อนช่องว่างระหว่างมุมมองต่อเรื่องอื้อฉาวในวอชิงตันกับซิลิคอนแวลลีย์ สมาชิกสภายังมีคำถามที่ชอบธรรมหลายข้อต่อ Huang โดยเฉพาะด้านความมั่นคงและการไหลของชิปไปจีน",
+   "source_url": "https://www.semafor.com/article/11/25/2026/jensen-huang-to-face-questioning-on-capitol-hill",
+   "tech_impact": "การซักถามของสภาอาจนำไปสู่มาตรการกำกับดูแลหรือการควบคุมการส่งออกที่เข้มขึ้น ซึ่งกระทบทั้ง Nvidia และห่วงโซ่อุปทาน AI",
+   "tags": [
+    "nvidia",
+    "jensen-huang",
+    "congress",
+    "policy"
+   ],
+   "published_at": "2026-11-25T17:35:40+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Policy",
+    "Corporate Governance",
+    "Geopolitics"
+   ],
+   "actions_developer": [
+    "ติดตามประกาศผลิตภัณฑ์ในงาน Nvidia GTC DC ที่อาจเปลี่ยน roadmap ฮาร์ดแวร์",
+    "เตรียมรับข้อจำกัดใหม่ด้านการเข้าถึง GPU"
+   ],
+   "actions_business": [
+    "ติดตามผลการให้ข้อมูลต่อสภาเพื่อประเมินความเสี่ยงเชิงนโยบาย",
+    "วางแผนสื่อสารกับนักลงทุนหากมีมาตรการใหม่ต่ออุตสาหกรรมชิป"
+   ],
+   "entities": {
+    "organizations": [
+     "NVIDIA",
+     "US House of Representatives",
+     "Semafor"
+    ],
+    "people": [
+     "Jensen Huang"
+    ],
+    "products": [],
+    "places": [
+     "Washington DC",
+     "United States"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-16",
+   "slug": "ai-romance-apps-reshaping-youth-africa",
+   "title": "How foreign AI romance apps are reshaping youth intimacy in Africa",
+   "title_th": "แอป AI คู่รักจากต่างชาติกำลังเปลี่ยนความสัมพันธ์ของคนรุ่นใหม่ในแอฟริกา ท่ามกลางการไร้มาตรการคุ้มครอง",
+   "topic_group": "global",
+   "source_name": "Rest of World Tech",
+   "category": "International",
+   "urgency": "medium",
+   "content": "Rest of World รายงานว่าแอป AI companion จากต่างชาติ เช่น Character.AI ของสหรัฐฯ กำลังเปลี่ยนรูปแบบความใกล้ชิดของคนหนุ่มสาวในแอฟริกา โดยไม่มีมาตรการคุ้มครองระดับท้องถิ่น แชตบอตที่ออกแบบให้ใช้งานติดกำลังท้าทายค่านิยมของชุมชนและทำให้เด็กหลายคนติดความรักสังเคราะห์ ตัวอย่างหนึ่งคือชายชาวซิมบับเวอายุ 28 ปีที่แชตกับ AI girlfriend หลายตัวจนดึกดื่น จนตาแดงและแสบ ตัวละครเริ่มต้นด้วยบุคลิกเข้มแข็งและเป็นตัวของตัวเองตามที่เขาต้องการในคู่ครอง ก่อนจะกลายเป็นยอมตามในภายหลัง เขาไม่เคยมีความสัมพันธ์แบบคนรักมาก่อนและขอไม่เปิดเผยชื่อเพราะอายที่ต้องพึ่งพาแชตบอต รายงานชี้ว่าหลายประเทศในแอฟริกายังไม่มีกฎหมายคุ้มครองข้อมูลหรือการจำกัดอายุผู้ใช้ที่บังคับใช้ได้จริง ขณะที่บริษัทผู้พัฒนาแอปออกแบบโดยอิงบริบทตะวันตก ทำให้ผู้ใช้วัยรุ่นในตลาดเกิดใหม่เสี่ยงต่อผลกระทบทางจิตใจและสังคม",
+   "source_url": "https://restofworld.org/2026/ai-companion-apps-africa-character-ai/",
+   "tech_impact": "ชี้ช่องว่างการกำกับดูแล AI companion ในตลาดเกิดใหม่ และความเสี่ยงที่ผลิตภัณฑ์จากตะวันตกส่งผลต่อผู้ใช้วัยรุ่นที่ไม่มีกลไกคุ้มครอง",
+   "tags": [
+    "ai-companion",
+    "africa",
+    "youth",
+    "character-ai",
+    "wellbeing"
+   ],
+   "published_at": "2026-11-25T11:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Companions",
+    "Digital Wellbeing",
+    "AI Regulation"
+   ],
+   "actions_developer": [
+    "ออกแบบระบบยืนยันอายุและจำกัดเวลาใช้งานสำหรับแอป companion",
+    "ปรับ persona และ guardrail ให้เหมาะกับบริบทวัฒนธรรมท้องถิ่น"
+   ],
+   "actions_business": [
+    "บริษัทที่ขยายตลาดเกิดใหม่ควรประเมินผลกระทบทางสังคมก่อนเปิดตัว",
+    "หน่วยงานกำกับดูแลควรพิจารณามาตรฐานขั้นต่ำสำหรับแอป AI companion"
+   ],
+   "entities": {
+    "organizations": [
+     "Character.AI",
+     "Rest of World"
+    ],
+    "people": [],
+    "products": [
+     "Character.AI"
+    ],
+    "places": [
+     "Africa",
+     "Zimbabwe"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-17",
+   "slug": "ai2-where-scientists-draw-line-ai-agents",
+   "title": "Ai2: Where scientists draw the line on AI agents",
+   "title_th": "Ai2 สำรวจว่านักวิทยาศาสตร์ขีดเส้นการใช้ AI agent ในงานวิจัยไว้ตรงไหน",
+   "topic_group": "ai-trends",
+   "source_name": "HuggingFace Blog",
+   "category": "International",
+   "urgency": "medium",
+   "content": "Allen Institute for AI (Ai2) เผยแพร่บทความบน Hugging Face พร้อมรายงานทางเทคนิค ว่าด้วยขอบเขตที่นักวิทยาศาสตร์ยอมให้ AI agent ทำงานวิจัยแทน โดยย้ำว่าการมอบหมายงานให้ AI ไม่ได้ลบล้างความรับผิดชอบของนักวิทยาศาสตร์ต่อวิธีทำงาน ตัวอย่างเช่น นักวิจัยที่ใช้ AI ทบทวนวรรณกรรมต้องตรวจว่าระบบมองข้ามหลักฐานขัดแย้ง หรืออ้างข้อสรุปที่เอกสารอ้างอิงไม่ได้สนับสนุนหรือไม่ ผู้ที่ให้ agent วิเคราะห์ข้อมูลต้องรู้ว่าใช้วิธีใด เข้าถึงไฟล์ใด และทำซ้ำผลได้หรือไม่ ผู้ที่ให้ระบบทำโปรโตคอลในแล็บอัตโนมัติต้องมั่นใจว่าเคารพข้อจำกัดด้านความปลอดภัย เช่น อุณหภูมิหรือความเป็นพิษ และงานที่ใช้ข้อมูลอาสาสมัครต้องคุ้มครองความเป็นส่วนตัว Ai2 เสนอ 3 แนวทาง คือช่วยให้นักวิจัยตรวจสอบงาน คงการตัดสินใจเชิงวิทยาศาสตร์ไว้ในวงจร และพัฒนา agent ร่วมกับนักวิทยาศาสตร์ พร้อมเรียกร้องให้สถาบันมีแนวทางชัดเจนในการตรวจสอบและเปิดเผยการใช้ AI",
+   "source_url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+   "tech_impact": "กรอบคิดของ Ai2 ช่วยกำหนดมาตรฐานความรับผิดชอบและความโปร่งใสของ AI for Science ซึ่งจะสำคัญขึ้นเมื่อ agent ทำงานวิจัยได้ยาวขึ้น",
+   "tags": [
+    "ai2",
+    "ai-for-science",
+    "agents",
+    "research-ethics"
+   ],
+   "published_at": "2026-11-25T18:52:55+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI for Science",
+    "AI Agents",
+    "Research Ethics"
+   ],
+   "actions_developer": [
+    "ออกแบบ research agent ให้บันทึก provenance ของไฟล์ วิธีการ และแหล่งอ้างอิง",
+    "เพิ่มขั้นตรวจสอบ citation และข้อจำกัดความปลอดภัยในแล็บอัตโนมัติ"
+   ],
+   "actions_business": [
+    "สถาบันวิจัยควรออกนโยบายการเปิดเผยการใช้ AI ในผลงาน",
+    "ประเมินความเสี่ยงด้านจริยธรรมก่อนนำ agent มาใช้กับข้อมูลอาสาสมัคร"
+   ],
+   "entities": {
+    "organizations": [
+     "Allen Institute for AI",
+     "Hugging Face"
+    ],
+    "people": [
+     "Kyle Wiggers"
+    ],
+    "products": [],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-18",
+   "slug": "ibm-research-indic-voice-agent-cuga",
+   "title": "IBM Research builds an Indic voice farm assistant with open-source CUGA agent harness",
+   "title_th": "IBM Research สร้าง voice agent ภาษาอินเดียช่วยเกษตรกร ด้วย CUGA agent harness โอเพนซอร์ส",
+   "topic_group": "tech-trends",
+   "source_name": "HuggingFace Blog",
+   "category": "International",
+   "urgency": "low",
+   "content": "IBM Research เผยแพร่บนบล็อก Hugging Face ถึงการสร้าง voice agent ขนาดเล็กสำหรับผู้ใช้ภาษาอินเดีย ทั้งฮินดี ทมิฬ เตลูกู คุชราต และมราฐี เพื่อปิดช่องว่างที่ความรู้ส่วนใหญ่ถูกเขียนเป็นภาษาอังกฤษ ขณะที่ผู้ใช้จำนวนมากถนัดพูดมากกว่าพิมพ์ กรณีใช้งานคือ Farm Assistant ที่เกษตรกรถามเป็นเสียงในภาษาของตน เช่น วิธีแยกเมล็ดพันธุ์ดีกับไม่ดี และหากถามนอกเรื่อง เช่น คริกเก็ตหรือการเขียนโค้ด agent จะพากลับมาที่เรื่องการเกษตรแทนการแต่งคำตอบ ระบบใช้ CUGA (ConfigUrable Generalist Agent) agent harness โอเพนซอร์สของ IBM ที่จัดการ model wiring, tool management, state และ guardrail ฝังเป็น SDK ในเว็บแอป แนวคิดหลักคือ CUGA เป็นสมองแบบ text-in text-out ห่อด้วยชั้นเสียงสองชั้น คือ speech-to-text ค้นความรู้ ตอบอย่างมี grounding แล้วแปลงกลับเป็นเสียงด้วย text-to-speech ทำให้ทดสอบด้วยข้อความก่อนแล้วค่อยเพิ่มเสียง และสลับโมเดลเสียงได้ง่าย",
+   "source_url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+   "tech_impact": "เป็นแบบอย่าง voice agent ภาษาท้องถิ่นที่ grounding กับฐานความรู้ ซึ่งประยุกต์ใช้กับภาษาไทยและงานเกษตรหรือบริการภาครัฐได้",
+   "tags": [
+    "voice-agent",
+    "ibm",
+    "multilingual",
+    "open-source",
+    "agriculture"
+   ],
+   "published_at": "2026-11-25T10:22:09+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Voice AI",
+    "AI Agents",
+    "Multilingual AI",
+    "AgriTech"
+   ],
+   "actions_developer": [
+    "แยกชั้น STT/TTS ออกจากตัว agent เพื่อทดสอบด้วยข้อความก่อน",
+    "ใช้ guardrail จำกัดขอบเขตหัวข้อเพื่อลดการแต่งคำตอบ"
+   ],
+   "actions_business": [
+    "พิจารณา voice agent ภาษาไทยสำหรับเกษตรกรหรือบริการลูกค้าที่ไม่ถนัดพิมพ์",
+    "ใช้ agent harness โอเพนซอร์สลดต้นทุนพัฒนา"
+   ],
+   "entities": {
+    "organizations": [
+     "IBM Research",
+     "Hugging Face"
+    ],
+    "people": [],
+    "products": [
+     "CUGA"
+    ],
+    "places": [
+     "India"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b2-19",
+   "slug": "ben-feder-ai-filmmakers-video-games",
+   "title": "Ex-Take-Two CEO Ben Feder says AI could let a filmmaker make the next breakout game",
+   "title_th": "อดีตซีอีโอ Take-Two ชี้ AI จะเปิดทางให้คนทำหนังสร้างเกมฮิตถัดไปได้ง่ายเพียงชี้และคลิก",
+   "topic_group": "tech-trends",
+   "source_name": "Fortune Tech",
+   "category": "International",
+   "urgency": "low",
+   "content": "Fortune สัมภาษณ์ Ben Feder อดีตซีอีโอ Take-Two Interactive ในช่วงที่ Grand Theft Auto IV วางจำหน่ายปี 2008 ซึ่งปัจจุบันเป็น managing partner ของ Tirta Ventures เขามองว่า AI จะเปลี่ยนวิธีสร้างเกมใหญ่ และผู้สร้างเกมแจ้งเกิดคนต่อไปอาจเป็นคนที่เดิมจะไปทำภาพยนตร์ เพราะ AI ทำให้ผู้สร้างสรรค์ที่ไม่มีพื้นฐานเทคนิคเข้าสู่วงการเกมได้ง่ายเพียงชี้และคลิก Tirta ลงทุนในโปรเจกต์เกมแบบ AI-native โดย Feder บอกว่าบริษัทลงเงินตามสิ่งที่พูด เขาไม่คิดว่าการเปลี่ยนแปลงนี้จะทำร้ายแฟรนไชส์ GTA ที่เคยดูแล และเชื่อว่า GTA จะยิ่งแข็งแกร่งขึ้น แต่ไม่ได้หมายความว่าจะสร้างด้วยวิธีเดิม Feder ระบุว่าเกมอยู่ระหว่างธุรกิจซอฟต์แวร์กับบันเทิงมานาน และ AI จะทำให้ฝั่งซอฟต์แวร์หดตัวลงเมื่อการเขียนโค้ดถูกและง่ายขึ้น ความได้เปรียบจึงจะย้ายไปอยู่ที่ความคิดสร้างสรรค์และการเล่าเรื่อง ทั้งนี้ GTA VI ยังถูกสร้างด้วยแรงงานคนเป็นหลัก",
+   "source_url": "https://fortune.com/2026/11/25/gta-vi-take-two-ceo-ben-feder-ai-videogames-filmmaker/",
+   "tech_impact": "มุมมองของผู้บริหารเกมรุ่นใหญ่ชี้ว่า AI จะลดต้นทุนด้านโค้ดและย้ายคุณค่าไปสู่ความคิดสร้างสรรค์ ซึ่งอาจเปลี่ยนโครงสร้างอุตสาหกรรมเกม",
+   "tags": [
+    "gaming",
+    "generative-ai",
+    "gta",
+    "creative-industry"
+   ],
+   "published_at": "2026-11-25T20:13:26+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Gaming",
+    "Generative AI",
+    "Creative Industries"
+   ],
+   "actions_developer": [
+    "ทดลองเครื่องมือ AI สร้าง asset และโค้ดเกมเพื่อเร่งการทำ prototype",
+    "ศึกษา pipeline เกม AI-native สำหรับทีมขนาดเล็ก"
+   ],
+   "actions_business": [
+    "สตูดิโอเกมควรประเมินการลงทุนในเครื่องมือ AI เพื่อลดต้นทุนการผลิต",
+    "นักลงทุนจับตาสตาร์ทอัปเกม AI-native"
+   ],
+   "entities": {
+    "organizations": [
+     "Take-Two Interactive",
+     "Tirta Ventures",
+     "Fortune"
+    ],
+    "people": [
+     "Ben Feder"
+    ],
+    "products": [
+     "Grand Theft Auto IV",
+     "GTA VI"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b3-01",
+   "slug": "rlvb-lazy-agents-verifiable-beliefs",
+   "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs",
+   "title_th": "งานวิจัย RLVB สอน AI agent ไม่ให้ด่วนตอบก่อนหลักฐานพอ ด้วยรางวัลจากความเชื่อที่ตรวจสอบได้",
+   "topic_group": "ai-trends",
+   "source_name": "ArXiv AI (cs.AI)",
+   "category": "Research",
+   "urgency": "medium",
+   "content": "งานวิจัยบน arXiv โดย Richmond Sin Jing Xuan, Soujanya Poria และคณะ ศึกษาพฤติกรรมที่เรียกว่า laziness ของ AI agent ในงานยาว ซึ่งมักสรุปคำตอบก่อนมีหลักฐานเพียงพอ แม้ความเชื่อที่ agent เขียนออกมายังระบุคำตอบที่เป็นไปได้หลายทาง ปัญหาคือรางวัลจากผลลัพธ์สุดท้ายให้คะแนนเพียงคำตอบท้ายสุด จึงสอนไม่ได้ว่าควรตัดสินใจเมื่อใด เพราะการเดาถูกโดยบังเอิญได้รางวัลเท่ากับคำตอบที่มีหลักฐาน ผู้วิจัยใช้ประโยชน์จาก simulator ที่คำนวณ posterior ของคำตอบได้ทุกขั้นระหว่างฝึก และเสนอ Reinforcement Learning with Verifiable Beliefs (RLVB) ที่ให้รางวัลเมื่อ agent สำรวจต่อขณะที่ posterior ยังเปิดหลายคำตอบ และให้รางวัลเมื่อสรุปเมื่อหลักฐานพอแล้ว โดยไม่ต้องใช้ judge, critic หรือ reward model และไม่อ่านบรรทัดความเชื่อที่ agent เขียน ทีมยังสร้าง benchmark Pro Worlds ซึ่งเป็นปริศนาภาพที่ agent มองโลกกว้างผ่านหน้าต่างเล็ก ทดสอบกับ vision-language model 3 ตัวบน 3 benchmark พบว่า RLVB ปรับปรุงโมเดลฐานได้ทั้ง 9 การตั้งค่า",
+   "source_url": "https://arxiv.org/abs/2611.32884",
+   "tech_impact": "RLVB เสนอวิธีแก้การด่วนสรุปของ agent โดยไม่ต้องใช้ reward model ซึ่งช่วยเพิ่มความน่าเชื่อถือของ agent ที่ต้องรวบรวมข้อมูลก่อนตัดสินใจ",
+   "tags": [
+    "reinforcement-learning",
+    "agents",
+    "arxiv",
+    "benchmark",
+    "vlm"
+   ],
+   "published_at": "2026-11-25T00:00:00-05:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Reinforcement Learning",
+    "AI Agents",
+    "Vision-Language Models"
+   ],
+   "actions_developer": [
+    "ออกแบบ reward ระหว่างทางที่อิงความพอเพียงของหลักฐาน แทนการให้รางวัลเฉพาะผลลัพธ์สุดท้าย",
+    "ใช้ benchmark แบบ partial observation ทดสอบพฤติกรรมด่วนสรุป"
+   ],
+   "actions_business": [
+    "ประเมิน agent ด้วยตัวชี้วัดว่าตัดสินใจบนหลักฐานพอหรือไม่ ไม่ใช่แค่ความถูกต้อง",
+    "ใช้งานวิจัยนี้กำหนดเกณฑ์คุณภาพของ research/analysis agent"
+   ],
+   "entities": {
+    "organizations": [
+     "arXiv"
+    ],
+    "people": [
+     "Richmond Sin Jing Xuan",
+     "Peilin Feng",
+     "Wenbin Wang",
+     "Soujanya Poria"
+    ],
+    "products": [
+     "RLVB",
+     "Pro Worlds"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b3-02",
+   "slug": "embodied-ai-fails-mirror-test",
+   "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+   "title_th": "หุ่นยนต์ AI สอบตกบททดสอบกระจก แค่กระจกบานเดียวทำอัตราสำเร็จของ robot policy ลดลงสูงสุด 62.5 จุด",
+   "topic_group": "ai-trends",
+   "source_name": "ArXiv AI (cs.AI)",
+   "category": "Research",
+   "urgency": "medium",
+   "content": "งานวิจัยบน arXiv โดย Xuanchen Liu และคณะ ได้แรงบันดาลใจจากการทดสอบกระจกเพื่อดูการรู้จักตนเองของสัตว์ ตั้งคำถามว่ากระจกธรรมดาจะเผยข้อจำกัดของ robot manipulation policy ได้หรือไม่ ทีมสร้าง benchmark RoboDojo-Mirror บนพื้นฐาน RoboDojo ที่คงเป้าหมายงาน เกณฑ์ความสำเร็จ และ checkpoint เดิม แล้วเปรียบเทียบฉากไม่มีกระจกกับฉากที่มีกระจกบานเดียว สองบาน และโต๊ะผิวกระจก ทดสอบ policy 5 แบบทั้ง Vision-Language-Action model, World Action Model และ agentic policy พบว่าทุกเงื่อนไขที่มีกระจกทำให้อัตราสำเร็จรวมลดลง เฉลี่ยลดลง 10.8 ถึง 56.7 จุดเปอร์เซ็นต์ และสูงสุดถึง 62.5 จุดบนโต๊ะกระจก เมื่อเทียบกับแผ่นกั้นทึบรูปทรงเดียวกัน พบว่า 50–88% ของความล้มเหลวเฉพาะกระจกเกิดขึ้นโดยหุ่นยนต์ไม่ได้ชนแผ่นกั้น แสดงว่าการชนไม่ใช่สาเหตุหลัก การวิเคราะห์ trajectory พบพฤติกรรมเล็งเป้าหมายลวงจากภาพสะท้อนซ้ำ ๆ",
+   "source_url": "https://arxiv.org/abs/2611.33010",
+   "tech_impact": "ชี้จุดอ่อนพื้นฐานด้านการรับรู้เชิงพื้นที่ของ VLA และ world model ซึ่งเป็นความเสี่ยงเมื่อนำหุ่นยนต์ไปใช้ในบ้าน ร้านค้า หรือโรงงานที่มีพื้นผิวสะท้อน",
+   "tags": [
+    "robotics",
+    "embodied-ai",
+    "benchmark",
+    "vla",
+    "arxiv"
+   ],
+   "published_at": "2026-11-25T00:00:00-05:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Robotics",
+    "Embodied AI",
+    "Benchmarks"
+   ],
+   "actions_developer": [
+    "เพิ่มฉากพื้นผิวสะท้อนแสงใน training และ evaluation ของ robot policy",
+    "ใช้ RoboDojo-Mirror เป็น stress test ก่อน deploy"
+   ],
+   "actions_business": [
+    "ผู้ใช้หุ่นยนต์ควรประเมินสภาพแวดล้อมที่มีกระจกหรือพื้นผิวมันวาวก่อนติดตั้ง",
+    "ผู้ผลิตหุ่นยนต์ควรรวม robustness test ในเกณฑ์รับรองคุณภาพ"
+   ],
+   "entities": {
+    "organizations": [
+     "arXiv"
+    ],
+    "people": [
+     "Xuanchen Liu",
+     "Hejun Zhang",
+     "Boxuan Dong",
+     "Ying Wu",
+     "Heshuai Li"
+    ],
+    "products": [
+     "RoboDojo-Mirror",
+     "RoboDojo"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b3-03",
+   "slug": "qwen-image-hd-autoregressive-diffusion-4k",
+   "title": "Qwen-Image-HD: Autoregressive Diffusion for High Definition Image Generation",
+   "title_th": "Qwen-Image-HD สร้างภาพความละเอียด 4K แบบ autoregressive diffusion ทีละบล็อก ใช้ compute ฝึกน้อยกว่า",
+   "topic_group": "ai-trends",
+   "source_name": "HuggingFace Daily Papers",
+   "category": "Research",
+   "urgency": "low",
+   "content": "งานวิจัย Qwen-Image-HD โดย Zihao Liu และคณะ ซึ่งติดอันดับบน Hugging Face Daily Papers เสนอวิธีปรับ Qwen-Image 2.0 ให้สร้างภาพความละเอียดสูงผ่านการฝึกเฉพาะส่วนและการสร้างแบบ blockwise autoregressive ปัญหาเดิมคือการ fine-tune บนภาพความละเอียดสูงทั้งภาพต้องใช้ลำดับข้อมูลยาวและ compute สูง และเมื่อทรัพยากรจำกัด บางส่วนของภาพยังเกิดลายเส้นซ้ำที่ไม่เป็นธรรมชาติ Qwen-Image-HD ทำนายภาพทีละ tile ระดับ 1K โดยอิงข้อมูลบล็อกความละเอียดสูงด้านบนและด้านซ้าย รวมถึงภาพย่อขนาดเล็กของส่วนที่สร้างไปแล้ว ทำให้ได้ทั้งโครงสร้างละเอียดใกล้เคียงและภาพรวมของฉาก ทีมแมปทั้งประวัติและเป้าหมายไปยังระบบพิกัด canvas ร่วมเพื่อบอกความสัมพันธ์เชิงพื้นที่และสเกล บน Qwen-Image-Bench ที่ 4K ได้ผลรวมดีกว่าการสร้าง 4K โดยตรงด้วย FLUX-3-Image-Klein และเมื่อเทียบกับการ fine-tune 4K ทั้งภาพบน backbone เดียวกัน ได้คุณภาพดีกว่า ใช้ compute ฝึกน้อยกว่า inference เร็วกว่า และมีลายซ้ำน้อยกว่า",
+   "source_url": "https://arxiv.org/abs/2611.32736",
+   "tech_impact": "แนวทาง tile-based autoregressive ช่วยให้สร้างภาพ 4K คุณภาพสูงด้วยต้นทุนต่ำลง เปิดทางให้งานสื่อ โฆษณา และสิ่งพิมพ์ใช้ภาพ AI ความละเอียดสูงได้แพร่หลายขึ้น",
+   "tags": [
+    "image-generation",
+    "qwen",
+    "diffusion",
+    "4k",
+    "research"
+   ],
+   "published_at": "2026-11-25T00:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "Image Generation",
+    "Diffusion Models",
+    "Computer Vision"
+   ],
+   "actions_developer": [
+    "ทดลองเทคนิค tiling พร้อม context thumbnail สำหรับงานสร้างภาพความละเอียดสูง",
+    "เปรียบเทียบคุณภาพและต้นทุนกับการ upscale แบบเดิม"
+   ],
+   "actions_business": [
+    "ประเมินการใช้ภาพ AI 4K ในงานพิมพ์และโฆษณาที่ต้องการความละเอียดสูง",
+    "ติดตามการเปิดตัวโมเดลตระกูล Qwen-Image จาก Alibaba"
+   ],
+   "entities": {
+    "organizations": [
+     "Alibaba",
+     "Qwen",
+     "Hugging Face"
+    ],
+    "people": [
+     "Zihao Liu",
+     "Zekai Zhang",
+     "Shengming Yin",
+     "Zikai Zhou",
+     "Donghao Zhou"
+    ],
+    "products": [
+     "Qwen-Image-HD",
+     "Qwen-Image 2.0",
+     "FLUX-3-Image-Klein"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261126-b3-04",
+   "slug": "ai-breakdown-talk-about-ai-thanksgiving",
+   "title": "How to Talk About AI at Thanksgiving",
+   "title_th": "The AI Breakdown แนะวิธีคุยเรื่อง AI บนโต๊ะอาหารวันขอบคุณพระเจ้า ตอบ 15 คำถามยอดฮิต",
+   "topic_group": "global",
+   "source_name": "The AI Breakdown",
+   "category": "YouTube",
+   "urgency": "low",
+   "content": "ช่อง The AI Breakdown หรือ The AI Daily Brief โดย NLW เผยแพร่ตอนพิเศษช่วงเทศกาลขอบคุณพระเจ้า ที่รวบรวม 15 คำถามเกี่ยวกับ AI ที่มีแนวโน้มจะถูกยกขึ้นมาคุยบนโต๊ะอาหารกับครอบครัว พร้อมคำตอบแบบตรงไปตรงมา ครอบคลุมตั้งแต่ผลกระทบต่องานและอาชีพ การเลี้ยงลูกในยุค AI ความกังวลเรื่องฟองสบู่ AI ไปจนถึงความกลัวเรื่อง AI doom NLW อธิบายวิธีรับมือแต่ละคำถาม และเสนอแนวคิดให้ชวนคนที่ไม่เชื่อหรือกังวลเกี่ยวกับ AI เข้ามาร่วมบทสนทนา แทนการพยายามเอาชนะหรือเปลี่ยนความคิดพวกเขา นอกจากนี้ยังพูดถึงประเด็นว่าใครควรเป็นผู้ควบคุม AI และวิธีถกเถียงเรื่องการแข่งขันด้าน AI กับจีนอย่างซื่อตรง ตอนนี้สะท้อนบรรยากาศช่วงที่ AI เป็นประเด็นสังคมกว้างขวาง ทั้งจากความผันผวนของหุ้น AI กรณี Nvidia และข้อถกเถียงเรื่อง human agency ที่กำลังร้อนแรง ข้อมูลจาก metadata ของวิดีโอเท่านั้น",
+   "source_url": "https://www.youtube.com/watch?v=9DrvWVeBZEM",
+   "tech_impact": "สรุปคำถามที่สาธารณชนกังวลเกี่ยวกับ AI ซึ่งเป็นสัญญาณความเข้าใจและความรู้สึกของสังคมต่อเทคโนโลยี",
+   "tags": [
+    "youtube",
+    "ai-literacy",
+    "public-opinion",
+    "podcast"
+   ],
+   "published_at": "2026-11-25T14:45:27+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "AI Literacy",
+    "Public Opinion",
+    "AI Policy"
+   ],
+   "actions_developer": [
+    "ใช้คำถามยอดนิยมเป็นแนวทางสื่อสารผลกระทบของผลิตภัณฑ์ AI",
+    "เตรียมคำอธิบายเรื่องความปลอดภัยและงานให้ผู้ใช้ทั่วไปเข้าใจง่าย"
+   ],
+   "actions_business": [
+    "ผู้นำองค์กรใช้กรอบคำถามเหล่านี้สื่อสารนโยบาย AI กับพนักงาน",
+    "ติดตาม sentiment สาธารณะต่อ AI เพื่อวางกลยุทธ์สื่อสาร"
+   ],
+   "entities": {
+    "organizations": [
+     "The AI Daily Brief"
+    ],
+    "people": [
+     "NLW"
+    ],
+    "products": [],
+    "places": [
+     "United States",
+     "China"
+    ]
+   },
+   "youtube_channel": "https://www.youtube.com/@theaibreakdown",
+   "youtube_video": "https://www.youtube.com/watch?v=9DrvWVeBZEM"
+  }
+ ]
+}
