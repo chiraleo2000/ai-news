@@ -1,0 +1,2213 @@
+{
+ "date": "2026-11-28",
+ "generated_at": "2026-11-28T09:40:00+07:00",
+ "schema_version": "combined-1.3",
+ "stats": {
+  "total": 41,
+  "by_topic": {
+   "ai_trends": 14,
+   "tech_trends": 11,
+   "thailand": 7,
+   "global": 9
+  },
+  "by_source_category": {
+   "thai": 15,
+   "international": 17,
+   "research": 5,
+   "youtube": 4
+  },
+  "urgency_breakdown": {
+   "high": 3,
+   "medium": 13,
+   "low": 25
+  },
+  "breakthrough_count": 2
+ },
+ "top_insights": [
+  {
+   "title": "สหรัฐฯ เสนอภาษี 20% สินค้าสิงคโปร์ สองวันหลังแบนบริษัทคลาวด์ Megaspeed ปมทางผ่านชิป AI ไปจีน",
+   "impact_summary": "การผูกภาษีศุลกากรกับการควบคุมชิป AI กดดันศูนย์กลางดาต้าเซ็นเตอร์ในอาเซียน รวมถึงไทยที่อยู่ในรายชื่อเฝ้าระวังเช่นกัน",
+   "urgency": "high",
+   "article_id": "20261128-b1-04"
+  },
+  {
+   "title": "SAP ยอมรับเหตุถูกแฮก รายงานชี้แฮกเกอร์ขโมย Access Token พนักงานเข้า GitHub แก้ซอร์สโค้ด อาจใช้ Agentic AI",
+   "impact_summary": "ซัพพลายเชนซอฟต์แวร์องค์กรขนาดใหญ่ถูกเจาะผ่าน token นักพัฒนา และมีสัญญาณการใช้ agentic AI ในการโจมตี",
+   "urgency": "high",
+   "article_id": "20261128-b1-08"
+  },
+  {
+   "title": "คลาวด์กองทัพอากาศสหรัฐฯ Cloud One ถูกเจาะระบบ ข้อมูลทางทหารและความมั่นคงเสี่ยงรั่วไหล",
+   "impact_summary": "การเจาะแพลตฟอร์มคลาวด์ระดับกลาโหมที่ใช้ผู้ให้บริการหลายรายตอกย้ำความเสี่ยงของการรวมศูนย์ข้อมูลอ่อนไหวไว้บนคลาวด์",
+   "urgency": "high",
+   "article_id": "20261128-b1-15"
+  },
+  {
+   "title": "แล็บ Tencent ตีพิมพ์ Nature แพลตฟอร์ม ORIDTP ใช้ AI ออกแบบเปปไทด์รักษาแบบสองเป้าหมาย GLP-1/GCGR",
+   "impact_summary": "AI ออกแบบยาแบบหลายเป้าหมายด้วยรอบทดลองแล็บเพียงไม่กี่สิบตัวอย่าง ชี้ศักยภาพลดต้นทุนการค้นหายากลุ่มเมแทบอลิซึม",
+   "urgency": "medium",
+   "article_id": "20261128-b2-13"
+  },
+  {
+   "title": "Satya Nadella ยอมรับไมโครซอฟท์มองพลาด ไม่คาดว่า Claude Code จะทำให้ IDE หมดความจำเป็นเร็วขนาดนี้",
+   "impact_summary": "ผู้นำตลาดเครื่องมือนักพัฒนายอมรับว่า coding agent เปลี่ยนเวิร์กโฟลว์จาก IDE ไปสู่การเขียนสเปก และคอขวดย้ายไปอยู่ที่ verification",
+   "urgency": "medium",
+   "article_id": "20261128-b1-01"
+  },
+  {
+   "title": "สิงคโปร์วางรากฐานการเงินยุค AI จากสกัดมิจฉาชีพ สู่ AI Agent ที่ทำธุรกรรมได้ภายใต้การควบคุม",
+   "impact_summary": "หน่วยงานกำกับการเงินชั้นนำของอาเซียนเริ่มวางกรอบให้ AI agent ทำธุรกรรมจริง เป็นแม่แบบที่ไทยอาจนำไปใช้",
+   "urgency": "medium",
+   "article_id": "20261128-b1-02"
+  }
+ ],
+ "posts": [
+  {
+   "id": "20261128-b1-01",
+   "slug": "nadella-microsoft-missed-claude-code-ide",
+   "title": "Satya Nadella admits Microsoft missed that Claude Code-style agents would make the IDE fade away",
+   "title_th": "Satya Nadella ยอมรับไมโครซอฟท์มองพลาด ไม่คาดว่า Claude Code จะทำให้ IDE หมดความจำเป็นเร็วขนาดนี้",
+   "topic_group": "tech-trends",
+   "source_name": "Blognone",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "Satya Nadella ซีอีโอไมโครซอฟท์ให้สัมภาษณ์รายการ The Pragmatic Engineer ของ Gergely Orosz ยอมรับว่าบริษัทมองข้ามการผุดขึ้นของเครื่องมือ AI เขียนโค้ดอย่าง Cursor และ Claude Code ที่ทำให้ IDE ซึ่งไมโครซอฟท์ครองตลาดมานาน ค่อยๆ หมดความจำเป็นภายในเวลาราวครึ่งปี แม้บริษัทจะปรับตัวด้วย VS Code แบบโอเพนซอร์สและ GitHub Copilot แต่ไม่เคยคาดว่า AI ที่เขียนโค้ดเองได้ทั้งหมดจะเข้ามาแทนที่เร็วขนาดนี้ Nadella มองว่า IDE จะไม่หายไปแต่จะเกิดใหม่ในรูปแบบการป้อนสเปกและจัดการไฟล์ markdown พร้อมชี้ว่าการสร้างโค้ดถูกลงมาก แต่การตรวจสอบยืนยันโค้ด (verification) ยังเป็นโจทย์ยากที่ไม่มีทางออกชัดเจน เพราะการใช้โมเดลตรวจโมเดลก็ยังต้องถามว่าตัวสุดท้ายเชื่อถือได้หรือไม่ ขณะที่ไมโครซอฟท์หันไปสู่แนวทาง multi-model รองรับโมเดลของ Anthropic และค่ายอื่น รวมถึง hybrid intelligence ที่ผสานโมเดล on-device กับคลาวด์",
+   "source_url": "https://www.blognone.com/node/152267",
+   "tech_impact": "ผู้นำตลาดเครื่องมือนักพัฒนายอมรับว่า coding agent เปลี่ยนเวิร์กโฟลว์จาก IDE ไปสู่การเขียนสเปก และคอขวดย้ายไปอยู่ที่ verification",
+   "tags": [
+    "microsoft",
+    "coding-agents",
+    "ide",
+    "claude-code",
+    "software-engineering"
+   ],
+   "published_at": "2026-11-27T03:47:58+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "developer-tools",
+    "coding-agents",
+    "software-engineering"
+   ],
+   "actions_developer": [
+    "ฝึกเขียนสเปกและไฟล์ markdown ที่ agent ใช้ทำงานได้ชัดเจน",
+    "ลงทุนกับ test และ formal verification เพราะการตรวจโค้ดคือคอขวดใหม่"
+   ],
+   "actions_business": [
+    "ทบทวนงบเครื่องมือพัฒนาจาก IDE license ไปสู่ agent subscription",
+    "วางกระบวนการ code review ที่รองรับโค้ดจาก AI ปริมาณมาก"
+   ],
+   "entities": {
+    "organizations": [
+     "Microsoft",
+     "Anthropic",
+     "OpenAI",
+     "GitHub",
+     "Cursor"
+    ],
+    "people": [
+     "Satya Nadella",
+     "Gergely Orosz"
+    ],
+    "products": [
+     "Claude Code",
+     "VS Code",
+     "GitHub Copilot"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b1-02",
+   "slug": "singapore-mas-ai-agents-tokenisation-sff-2026",
+   "title": "Singapore lays AI-era finance foundations: from fighting scams to agents that transact under control",
+   "title_th": "สิงคโปร์วางรากฐานการเงินยุค AI จากสกัดมิจฉาชีพ สู่ AI Agent ที่ทำธุรกรรมได้ภายใต้การควบคุม",
+   "topic_group": "global",
+   "source_name": "Techsauce",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "บนเวที Singapore FinTech Festival 2026 Gan Kim Yong รองนายกรัฐมนตรีสิงคโปร์และประธาน Monetary Authority of Singapore (MAS) ประกาศ 3 ภารกิจ AI สำหรับภาคการเงิน ได้แก่ การป้องกันอาชญากรรมทางการเงิน การเพิ่มการเข้าถึงสินเชื่อ และการทำธุรกรรมอย่างปลอดภัยผ่าน AI Agent ที่ดำเนินการตามเป้าหมายแทนผู้ใช้ โดยชี้ว่าระบบการเงินต้องตอบให้ได้ว่า AI ได้รับอนุญาตให้ทำอะไรและใครรับผิดชอบหากผิดพลาด ใน fireside chat กับ Caesar Sengupta ซีอีโอ Studio C6 เขาเล่าว่าใช้ AI สรุปข้อมูลเตรียมเจรจาการค้า แต่ย้ำว่าผู้ใช้ต้องใช้วิจารณญาณเอง ไม่เชื่อคำตอบทันที และมองว่าธุรกิจจะเริ่มจากใช้ AI เพิ่มประสิทธิภาพก่อนไปสู่ธุรกิจที่สร้างบน AI ขณะที่ Chia Der Jiun กรรมการผู้จัดการ MAS ขยายภาพว่าการใช้ AI Agent และ tokenisation จะเติบโตได้เมื่อมีมาตรฐานและโครงสร้างพื้นฐานที่สถาบันการเงินเชื่อถือ",
+   "source_url": "https://techsauce.co/tech-and-biz/singapore-fintech-festival-2026-ai-agents-tokenisation",
+   "tech_impact": "หน่วยงานกำกับการเงินชั้นนำของอาเซียนเริ่มวางกรอบให้ AI agent ทำธุรกรรมจริง เป็นแม่แบบที่ไทยอาจนำไปใช้",
+   "tags": [
+    "singapore",
+    "mas",
+    "ai-agents",
+    "fintech",
+    "tokenisation"
+   ],
+   "published_at": "2026-11-27T10:32:23+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "fintech",
+    "ai-agents",
+    "regulation"
+   ],
+   "actions_developer": [
+    "ออกแบบ agent payment flow ให้มีการมอบสิทธิ์และ audit trail ที่ตรวจสอบได้",
+    "ติดตามมาตรฐาน agentic transaction และ tokenisation ที่ MAS ผลักดัน"
+   ],
+   "actions_business": [
+    "ประเมินโอกาสใช้ AI agent ในงานป้องกันฉ้อโกงและพิจารณาสินเชื่อ",
+    "เตรียมโครงสร้างความรับผิดชอบเมื่อ agent ทำธุรกรรมผิดพลาด"
+   ],
+   "entities": {
+    "organizations": [
+     "Monetary Authority of Singapore",
+     "Studio C6"
+    ],
+    "people": [
+     "Gan Kim Yong",
+     "Chia Der Jiun",
+     "Caesar Sengupta"
+    ],
+    "products": [],
+    "places": [
+     "Singapore"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b1-03",
+   "slug": "sea-openai-codex-hackathon-thailand",
+   "title": "Sea and OpenAI run Codex Hackathon in Thailand: 1,160 applicants, 40 teams build AI prototypes in a day",
+   "title_th": "Sea จับมือ OpenAI จัด Codex Hackathon รอบไทย ผู้สมัครกว่า 1,160 คน 40 ทีมสร้างต้นแบบ AI ในวันเดียว",
+   "topic_group": "thailand",
+   "source_name": "Techsauce",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "Sea ร่วมกับ OpenAI จัด Sea x OpenAI Regional Codex Hackathon Series รอบประเทศไทย เมื่อ 21 พฤศจิกายน 2569 ที่สำนักงานช้อปปี้ อาคารสิงห์ คอมเพล็กซ์ กรุงเทพฯ มีผู้สมัครกว่า 1,160 คน คัดเหลือ 145 คน รวม 40 ทีม ทั้งนักศึกษา สตาร์ทอัพ และนักพัฒนาซอฟต์แวร์ ทุกทีมใช้ Codex ผู้ช่วยเขียนโค้ดด้วย AI ของ OpenAI ที่รับคำสั่งภาษาธรรมชาติแล้วช่วยเขียน แก้ และทดสอบโค้ด เปลี่ยนไอเดียเป็นต้นแบบที่ใช้งานได้ภายในหนึ่งวัน โดยมีผู้เชี่ยวชาญคอยให้คำแนะนำ ผลงานที่ได้รางวัลมีตั้งแต่ระบบผู้กำกับไลฟ์อัจฉริยะที่ผสานการตรวจจับสินค้าและถอดเสียงพูดแบบเรียลไทม์เพื่อช่วยผู้ขายไลฟ์คนเดียว ไปจนถึงผู้ช่วยวางแผนการลงทุน ซีรีส์นี้มีเป้าหมายบ่มเพาะวัฒนธรรมนักพัฒนาแบบ AI-native ในแต่ละตลาดของภูมิภาค",
+   "source_url": "https://techsauce.co/news/sea-openai-codex-hackathon-thailand",
+   "tech_impact": "สะท้อนความต้องการทักษะ AI-native development ในไทยที่สูง และการที่แพลตฟอร์มอีคอมเมิร์ซใช้ AI agent แก้โจทย์ผู้ขายรายย่อย",
+   "tags": [
+    "openai",
+    "codex",
+    "hackathon",
+    "sea",
+    "thailand"
+   ],
+   "published_at": "2026-11-27T07:16:48+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "developer-tools",
+    "e-commerce",
+    "talent"
+   ],
+   "actions_developer": [
+    "ทดลองใช้ Codex หรือ coding agent สร้าง prototype จากโจทย์จริงแบบ time-boxed",
+    "ศึกษาการผสาน computer vision กับ speech-to-text สำหรับงานไลฟ์คอมเมิร์ซ"
+   ],
+   "actions_business": [
+    "ใช้รูปแบบ hackathon ภายในองค์กรเร่งการทดลอง AI use case",
+    "มองหาทีมผู้ชนะเป็นพาร์ทเนอร์หรือแหล่งสรรหาบุคลากร AI"
+   ],
+   "entities": {
+    "organizations": [
+     "Sea",
+     "OpenAI",
+     "Shopee"
+    ],
+    "people": [],
+    "products": [
+     "Codex"
+    ],
+    "places": [
+     "Bangkok",
+     "Thailand"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b1-04",
+   "slug": "ustr-20-percent-tariff-singapore-megaspeed",
+   "title": "USTR proposes 20% tariff on Singapore goods two days after banning cloud firm Megaspeed over AI-chip transshipment",
+   "title_th": "สหรัฐฯ เสนอภาษี 20% สินค้าสิงคโปร์ สองวันหลังแบนบริษัทคลาวด์ Megaspeed ปมทางผ่านชิป AI ไปจีน",
+   "topic_group": "global",
+   "source_name": "Techsauce",
+   "category": "Thai",
+   "urgency": "high",
+   "content": "สำนักงานผู้แทนการค้าสหรัฐฯ (USTR) เสนอเก็บภาษีสินค้าทุกชนิดจากสิงคโปร์สูงสุด 20% ยกเว้นบางรายการ โดยอ้างว่านโยบายรัฐสิงคโปร์ทำให้เกิดกำลังการผลิตส่วนเกินเชิงโครงสร้าง (Structural Excess Capacity) ซึ่งเป็นข้อหาเดียวกับที่สหรัฐฯ ใช้กับ 14 เศรษฐกิจ ทั้งที่สิงคโปร์ไม่เก็บภาษีนำเข้าสินค้าอเมริกันและขาดดุลการค้ากับสหรัฐฯ มากว่า 20 ปี ตัวเลขนี้ยังเป็นเพียงข้อเสนอที่ต้องผ่านการรับฟังความเห็นสาธารณะและการไต่สวนก่อนประกาศอัตราจริง กระทรวงพลังงาน การค้า และอุตสาหกรรมของสิงคโปร์ (METI) แถลงไม่เห็นด้วยและผิดหวังอย่างมาก ประเด็นที่ถูกจับตาคือข้อเสนอมาถึงเพียงสองวันหลังสหรัฐฯ แบน Megaspeed บริษัทคลาวด์ในสิงคโปร์ จากข้อกังวลว่าสิงคโปร์ถูกใช้เป็นทางผ่านส่งชิป AI ของ Nvidia ไปจีน สะท้อนการผูกนโยบายการค้ากับการคุมชิป AI",
+   "source_url": "https://techsauce.co/news/ustr-proposes-20-percent-tariff-singapore-excess-capacity",
+   "tech_impact": "การผูกภาษีศุลกากรกับการควบคุมชิป AI กดดันศูนย์กลางดาต้าเซ็นเตอร์ในอาเซียน รวมถึงไทยที่อยู่ในรายชื่อเฝ้าระวังเช่นกัน",
+   "tags": [
+    "tariffs",
+    "singapore",
+    "ai-chips",
+    "export-controls",
+    "nvidia"
+   ],
+   "published_at": "2026-11-27T05:41:09+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "geopolitics",
+    "trade-policy",
+    "semiconductors"
+   ],
+   "actions_developer": [
+    "ตรวจสอบ supply chain ฮาร์ดแวร์ GPU ว่าผ่านคู่ค้าที่อยู่ใน entity list หรือไม่",
+    "เตรียมเอกสาร end-use สำหรับการจัดซื้อ GPU ในภูมิภาค"
+   ],
+   "actions_business": [
+    "ประเมินผลกระทบภาษีต่อห่วงโซ่อุปทานที่ผ่านสิงคโปร์",
+    "ติดตามกระบวนการรับฟังความเห็นของ USTR ก่อนอัตราจริงมีผล"
+   ],
+   "entities": {
+    "organizations": [
+     "USTR",
+     "Megaspeed",
+     "Nvidia",
+     "Singapore METI"
+    ],
+    "people": [],
+    "products": [],
+    "places": [
+     "Singapore",
+     "US",
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b1-05",
+   "slug": "kaspersky-phishing-apac-thailand-23-percent",
+   "title": "Kaspersky: phishing is APAC's most-reported threat, hitting a quarter of businesses; Thailand at 23%",
+   "title_th": "แคสเปอร์สกี้เผยฟิชชิงเป็นภัยที่ถูกรายงานมากที่สุดใน APAC กระทบธุรกิจ 1 ใน 4 ไทยอยู่ที่ 23%",
+   "topic_group": "thailand",
+   "source_name": "TechTalkThai",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "ผลวิจัยใหม่ของแคสเปอร์สกี้ระบุว่าธุรกิจในเอเชียแปซิฟิกเกือบ 1 ใน 4 หรือ 24% เคยเผชิญฟิชชิงระหว่างมีนาคม 2025 ถึงมีนาคม 2026 ทำให้ฟิชชิงเป็นภัยไซเบอร์ที่ถูกรายงานบ่อยที่สุดในภูมิภาค และถูกประเมินว่าอันตรายเป็นอันดับสองรองจากการโจมตีที่ใช้ช่องโหว่ซอฟต์แวร์และระบบ อินเดียและอินโดนีเซียมีอัตราสูงสุดเท่ากันที่ 28% ตามด้วยมาเลเซีย 26% ส่วนไทยอยู่ที่ 23% ใกล้ค่าเฉลี่ยภูมิภาค ในกลุ่มที่เคยถูกโจมตี 33% ระบุว่าผู้โจมตีมุ่งเป้าข้อมูลธุรกิจสำคัญ เช่น ข้อมูลการเงินและเอกสารกฎหมาย และ 32% ระบุว่าเป้าหมายคือข้อมูลส่วนบุคคลของลูกค้า รายงานอ้างการคาดการณ์ IMF ว่าผลผลิตเศรษฐกิจ APAC จะสูงถึง 44.46 ล้านล้านดอลลาร์ในปี 2026 ซึ่งหมายถึงข้อมูลธุรกิจมหาศาลที่ดึงดูดอาชญากรไซเบอร์ โดยเฉพาะเมื่อ AI ช่วยให้สร้างอีเมลหลอกลวงได้สมจริงขึ้น",
+   "source_url": "https://www.techtalkthai.com/kaspersky-phishing-report-2026-pr/",
+   "tech_impact": "ตัวเลขยืนยันว่าฟิชชิงยังเป็นประตูหลักของการโจมตีองค์กรไทย ท่ามกลาง AI ที่ทำให้ข้อความหลอกลวงแนบเนียนขึ้น",
+   "tags": [
+    "kaspersky",
+    "phishing",
+    "cybersecurity",
+    "apac",
+    "thailand"
+   ],
+   "published_at": "2026-11-27T13:11:18+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "cybersecurity",
+    "phishing",
+    "data-protection"
+   ],
+   "actions_developer": [
+    "เปิดใช้ DMARC/SPF/DKIM และระบบกรองอีเมลที่ตรวจจับเนื้อหา AI-generated",
+    "ใช้ phishing-resistant MFA เช่น passkey กับระบบสำคัญ"
+   ],
+   "actions_business": [
+    "จัดฝึกอบรมและ phishing simulation ให้พนักงานสม่ำเสมอ",
+    "จัดลำดับความสำคัญการปกป้องข้อมูลการเงินและ PII ลูกค้าตาม PDPA"
+   ],
+   "entities": {
+    "organizations": [
+     "Kaspersky",
+     "IMF"
+    ],
+    "people": [],
+    "products": [],
+    "places": [
+     "Thailand",
+     "India",
+     "Indonesia",
+     "Malaysia",
+     "Asia Pacific"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b1-06",
+   "slug": "api-agents-new-risk-ibm-hybrid-integration",
+   "title": "APIs and agents: a new risk through an old door, and how IBM Hybrid Integration manages it",
+   "title_th": "API & Agents ความเสี่ยงใหม่ในประตูบานเดิม เมื่อ AI Agent กลายเป็นผู้ใช้ API ความเร็วสูง",
+   "topic_group": "tech-trends",
+   "source_name": "TechTalkThai",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "บทความของ TechTalkThai ชี้ว่า API ซึ่งเป็นประตูเชื่อมระบบซอฟต์แวร์มาหลายทศวรรษ ตั้งแต่ SOAP ในยุค 90 สู่ REST, GraphQL, gRPC และ microservices กำลังเผชิญความเสี่ยงใหม่จาก AI Agent ที่เพิ่มจำนวนอย่างรวดเร็ว เมื่อองค์กรมอบสิทธิ์เข้าถึงข้อมูลและเครื่องมือให้ AI ทำงานอัตโนมัติ อำนาจเหล่านั้นยังคงวิ่งผ่าน API หรือ MCP ที่ครอบ API เดิมอยู่ Agent จึงกลายเป็นผู้ใช้ API ที่เรียกใช้งานเร็วกว่ามนุษย์มากและผิดพลาดได้ หากไม่ควบคุมสิทธิ์การเข้าถึง ความเสียหายอาจขยายวงอย่างรวดเร็ว นอกเหนือจากแฮ็กเกอร์ที่จ้องเจาะ API อยู่แล้ว บทความนำเสนอ IBM Hybrid Integration ในส่วน API Management เป็นแนวทางรวมศูนย์การกำกับ ควบคุมนโยบาย และมองเห็นการเรียกใช้ API ทั้งจากแอปและ agent เพื่อลดความเสี่ยงในยุค agentic AI",
+   "source_url": "https://www.techtalkthai.com/agents-are-new-risk-for-api-protect-with-ibm-hybrid-integration-by-cu/",
+   "tech_impact": "การ์ดป้องกัน API ต้องขยายให้ครอบคลุมทราฟฟิกจาก AI agent และ MCP ซึ่งเป็นผู้ใช้กลุ่มใหม่ที่ปริมาณสูง",
+   "tags": [
+    "api-security",
+    "ai-agents",
+    "ibm",
+    "mcp",
+    "api-management"
+   ],
+   "published_at": "2026-11-27T05:30:10+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "api-security",
+    "ai-agents",
+    "enterprise-integration"
+   ],
+   "actions_developer": [
+    "กำหนด scope token และ rate limit แยกสำหรับ agent ที่เรียก API",
+    "บันทึก log การเรียก MCP/API ของ agent เพื่อตรวจย้อนหลัง"
+   ],
+   "actions_business": [
+    "ทำบัญชี API ทั้งหมดที่ agent เข้าถึงได้และจัดลำดับความเสี่ยง",
+    "พิจารณาแพลตฟอร์ม API management ที่รองรับนโยบายสำหรับ agent"
+   ],
+   "entities": {
+    "organizations": [
+     "IBM"
+    ],
+    "people": [],
+    "products": [
+     "IBM Hybrid Integration",
+     "MCP"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b1-07",
+   "slug": "robert-walters-salary-survey-2027-thailand-ai-skills",
+   "title": "Robert Walters Salary Survey 2027: Thai employers find leadership skills twice as scarce as AI skills",
+   "title_th": "AI มาแรงแต่คนยังสำคัญ Robert Walters ชี้นายจ้างไทยขาดภาวะผู้นำมากกว่าทักษะ AI ถึง 2 เท่า",
+   "topic_group": "thailand",
+   "source_name": "Prachachat AI",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "บริษัทจัดหางาน Robert Walters ประเทศไทย เปิดรายงาน Salary Survey 2027 จากนายจ้างและคนทำงานกว่า 2,000 ราย พบตลาดแรงงานไทยขาดแคลนบุคลากรทักษะสูง โดย 53% ของนายจ้างระบุว่าภาวะผู้นำและการบริหารคนเป็นทักษะที่หายากที่สุด มากกว่าทักษะ AI ถึงสองเท่า สะท้อนว่าแม้กระแส AI แรง องค์กรยังต้องการทักษะความเป็นมนุษย์ ฝั่งคนทำงาน 73% มีแผนเปลี่ยนงานภายใน 1 ปี และ 75% คาดหวังเงินเดือนเพิ่มอย่างน้อย 16% รายงานอ้างข้อมูล BOI ว่า 9 เดือนแรกของปี 2569 มีคำขอรับส่งเสริมการลงทุน 1.55 ล้านล้านบาท เพิ่มขึ้น 62% และคาดว่าจะเกิดงานใหม่กว่า 116,000 ตำแหน่ง ขณะที่อัตราว่างงานไทยต่ำเพียงราว 0.7% และสังคมกำลังสูงวัย ทำให้ 67% ของนายจ้างยอมรับว่าการหาผู้สมัครที่เหมาะสมเป็นความท้าทายหลัก และเกิดปัญหา skill mismatch",
+   "source_url": "https://www.prachachat.net/sd/sdplus-hr/news-2103526",
+   "tech_impact": "องค์กรไทยต้องลงทุนทั้งทักษะ AI และทักษะผู้นำควบคู่กัน ขณะที่การแย่งชิงบุคลากรดันค่าจ้างกลุ่มทักษะสูง",
+   "tags": [
+    "talent",
+    "salary-survey",
+    "thailand",
+    "ai-skills",
+    "labor-market"
+   ],
+   "published_at": "2026-11-27T10:27:02+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "talent",
+    "hr",
+    "labor-market"
+   ],
+   "actions_developer": [
+    "เสริมทักษะ soft skill การสื่อสารและการนำทีมควบคู่ทักษะ AI",
+    "สร้างพอร์ตโฟลิโอ AI ที่แสดงผลลัพธ์เชิงธุรกิจเพื่อต่อรองค่าตอบแทน"
+   ],
+   "actions_business": [
+    "ออกแบบโปรแกรมพัฒนาผู้นำภายในเพื่อลดการพึ่งการจ้างภายนอก",
+    "ทบทวนโครงสร้างค่าตอบแทนกลุ่มทักษะหายากเพื่อลด turnover"
+   ],
+   "entities": {
+    "organizations": [
+     "Robert Walters",
+     "BOI"
+    ],
+    "people": [],
+    "products": [
+     "Salary Survey 2027"
+    ],
+    "places": [
+     "Thailand"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b1-08",
+   "slug": "sap-security-incident-github-token-breach",
+   "title": "SAP confirms security incident; reports say stolen employee tokens were used to access GitHub source code",
+   "title_th": "SAP ยอมรับเหตุถูกแฮก รายงานชี้แฮกเกอร์ขโมย Access Token พนักงานเข้า GitHub แก้ซอร์สโค้ด อาจใช้ Agentic AI",
+   "topic_group": "global",
+   "source_name": "EnTechReview",
+   "category": "Thai",
+   "urgency": "high",
+   "content": "SAP ยืนยันว่าพบเหตุการณ์ด้านความปลอดภัยไซเบอร์หลังตรวจพบกิจกรรมต้องสงสัยในระบบของบริษัท Der Spiegel ของเยอรมนีรายงานเป็นสื่อแรกเมื่อ 26 พฤศจิกายน 2026 โดยอ้างแหล่งข่าวภายในว่าผู้โจมตีขโมย Access Token ของพนักงานซึ่งเป็นเสมือนกุญแจดิจิทัล แล้วใช้เข้าถึง GitHub ที่ SAP ใช้พัฒนาและเผยแพร่ซอฟต์แวร์ ก่อนคัดลอกและแก้ไขซอร์สโค้ด รายงานยังระบุว่าผู้โจมตีอาจใช้เครื่องมือ Agentic AI ที่วางแผนและทำงานหลายขั้นตอนได้เองช่วยในการโจมตี อย่างไรก็ตาม SAP ยังไม่ยืนยันรายละเอียดเรื่อง token หรือการแก้ไขโค้ด แถลงเพียงว่าได้ดำเนินมาตรการปกป้องลูกค้าแล้ว และจนถึงขณะนี้ยังไม่พบหลักฐานว่าข้อมูลธุรกิจของลูกค้าถูกเข้าถึงโดยไม่ได้รับอนุญาต โดยยังไม่เปิดเผยว่าตรวจพบเมื่อใด เหตุนี้เกิดในช่วงเดียวกับรายงานว่า SAP เตรียมลดพนักงานครั้งใหญ่",
+   "source_url": "https://entechreview.com/2026/11/sap-security-incident-github-breach/",
+   "tech_impact": "ซัพพลายเชนซอฟต์แวร์องค์กรขนาดใหญ่ถูกเจาะผ่าน token นักพัฒนา และมีสัญญาณการใช้ agentic AI ในการโจมตี",
+   "tags": [
+    "sap",
+    "data-breach",
+    "github",
+    "agentic-ai",
+    "cybersecurity"
+   ],
+   "published_at": "2026-11-28T02:31:39+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "cybersecurity",
+    "software-supply-chain",
+    "enterprise-software"
+   ],
+   "actions_developer": [
+    "หมุนเวียนและจำกัดอายุ personal access token บน GitHub พร้อมบังคับ SSO",
+    "เปิด secret scanning และตรวจ commit ที่ผิดปกติใน repository"
+   ],
+   "actions_business": [
+    "ติดตามประกาศความปลอดภัยของ SAP และประเมินผลกระทบต่อระบบ ERP ที่ใช้",
+    "ทบทวนสัญญาผู้ขายซอฟต์แวร์เรื่องการแจ้งเหตุละเมิดข้อมูล"
+   ],
+   "entities": {
+    "organizations": [
+     "SAP",
+     "GitHub",
+     "Der Spiegel"
+    ],
+    "people": [],
+    "products": [
+     "GitHub"
+    ],
+    "places": [
+     "Germany"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b1-09",
+   "slug": "openai-gpt-6-2-usage-metering-error-limits",
+   "title": "OpenAI admits GPT-6.2 usage metering error; after fix ChatGPT users hit limits up to 40% sooner",
+   "title_th": "OpenAI ยอมรับคิดการใช้งาน GPT-6.2 ผิด หลังแก้ไขผู้ใช้ ChatGPT ชนลิมิตเร็วขึ้นสูงสุด 40%",
+   "topic_group": "tech-trends",
+   "source_name": "EnTechReview",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "OpenAI ยอมรับว่าเกิดข้อผิดพลาดในการคำนวณปริมาณการใช้งานโมเดล GPT-6.2 Astra และ Sol ตั้งแต่เปิดตัวเมื่อ 17 พฤศจิกายน โดยระบบคิดการใช้งานต่ำกว่าความจริง ทำให้ผู้ใช้แบบเสียเงินใช้ได้มากกว่าที่ควร เมื่อแก้ไขแล้ว งานปริมาณเท่าเดิมจะกินโควตามากขึ้น ผู้ใช้ GPT-6.2 Astra จะใช้โควตาหมดเร็วขึ้นราว 40% และ GPT-6.2 Sol เร็วขึ้นราว 25% Thibault Sottiaux ผู้บริหาร OpenAI ยืนยันผ่าน X เมื่อ 26 พฤศจิกายน บริษัทระบุว่าจะไม่เรียกเก็บเงินย้อนหลัง และชดเชยด้วยสิทธิ์รีเซ็ตโควตาสะสม (Banked Reset) 1 ครั้งให้สมาชิกแพ็กเกจ Go, Plus, Pro และ Business การเปลี่ยนแปลงมีผลเฉพาะสองโมเดลนี้ และ OpenAI ยืนยันว่าผู้ใช้ยังทำงานได้มากกว่าสมัย GPT-6 Astra และ GPT-6.1 Sol แต่ผู้ใช้บางส่วนบน Reddit ไม่พอใจ ต่อเนื่องจากข่าวก่อนหน้าที่ผู้ใช้หนักอาจชนลิมิตเร็วขึ้นหลังรวม Chat กับ Work",
+   "source_url": "https://entechreview.com/2026/11/openai-billing-mistake-gpt-6-2-usage-limits/",
+   "tech_impact": "ความผันผวนของโควตาและ metering ทำให้การวางแผนต้นทุนการใช้ LLM แบบ subscription คาดเดายากขึ้น",
+   "tags": [
+    "openai",
+    "chatgpt",
+    "gpt-6.2",
+    "pricing",
+    "usage-limits"
+   ],
+   "published_at": "2026-11-27T05:22:05+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "llm-pricing",
+    "consumer-ai",
+    "saas"
+   ],
+   "actions_developer": [
+    "ติดตามการใช้โควตาจริงของทีมหลังการปรับ metering",
+    "ออกแบบงานให้สลับโมเดลตามโควตาเพื่อลดการหยุดชะงัก"
+   ],
+   "actions_business": [
+    "ทบทวนงบ subscription ChatGPT Business ตามอัตราการใช้ใหม่",
+    "ประเมินทางเลือก multi-vendor เพื่อลดความเสี่ยงจากนโยบายผู้ให้บริการรายเดียว"
+   ],
+   "entities": {
+    "organizations": [
+     "OpenAI",
+     "Reddit"
+    ],
+    "people": [
+     "Thibault Sottiaux"
+    ],
+    "products": [
+     "GPT-6.2 Astra",
+     "GPT-6.2 Sol",
+     "ChatGPT"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b1-10",
+   "slug": "nodejs-27-alpha-http-agent-tls-fix",
+   "title": "Node.js 27 alpha fixes HTTP keep-alive response-mixing flaw and tightens TLS 1.2 renegotiation",
+   "title_th": "Node.js 27 Alpha มาแล้ว อุดช่องโหว่ HTTP Client รับคำตอบผิดคำขอ และปรับการควบคุม TLS 1.2 Renegotiation",
+   "topic_group": "tech-trends",
+   "source_name": "EnTechReview",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "Node.js เปิดตัวเวอร์ชันทดลอง 27.0.0-alpha เมื่อ 26 พฤศจิกายน 2026 ไฮไลต์คือการแก้ช่องโหว่ CVE-2026-105481 ระดับความรุนแรงปานกลางใน http.Agent ซึ่งจัดการและนำการเชื่อมต่อ HTTP แบบ Keep-Alive กลับมาใช้ซ้ำ ในเวอร์ชันที่ได้รับผลกระทบ หากมีข้อมูลที่ยังไม่ได้อ่านค้างบนการเชื่อมต่อเดิม ระบบอาจเข้าใจผิดว่าเป็นคำตอบของคำขอใหม่ ทำให้ HTTP Client ได้รับข้อมูลไม่ตรงกับคำขอและนำไปประมวลผลโดยไม่รู้ตัว การแก้ไขคือตรวจข้อมูลตกค้างก่อนนำ socket กลับมาใช้ หากพบจะยกเลิกการเชื่อมต่อนั้นแทน นอกจากนี้ยังปรับแนวทางใช้ TLS 1.2 Renegotiation ให้ยืดหยุ่นและควบคุมได้มากขึ้น เพิ่มความสามารถด้าน HTTP/2 ปรับปรุงโมดูล SQLite และเพิ่มเครื่องมือวินิจฉัยปัญหาการทำงานของระบบ เวอร์ชันนี้ยังเป็น alpha สำหรับทดสอบ ไม่เหมาะกับ production",
+   "source_url": "https://entechreview.com/2026/11/node-js-27-alpha-released/",
+   "tech_impact": "ช่องโหว่ response mixing ใน keep-alive กระทบบริการ backend ที่เรียก API ภายนอกจำนวนมาก ควรติดตาม backport ไปเวอร์ชัน LTS",
+   "tags": [
+    "nodejs",
+    "javascript",
+    "security",
+    "http",
+    "tls"
+   ],
+   "published_at": "2026-11-27T05:14:55+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "web-development",
+    "runtime-security",
+    "open-source"
+   ],
+   "actions_developer": [
+    "ตรวจว่าเวอร์ชัน Node.js LTS ที่ใช้ได้รับ backport แก้ CVE-2026-105481 แล้วหรือยัง",
+    "ทดสอบแอปกับ Node.js 27 alpha ใน CI ล่วงหน้าเพื่อหา breaking change"
+   ],
+   "actions_business": [
+    "กำหนดรอบอัปเดต runtime ให้สอดคล้องกับ security release",
+    "ประเมินความเสี่ยงบริการที่พึ่ง HTTP keep-alive ไปยังบุคคลที่สาม"
+   ],
+   "entities": {
+    "organizations": [
+     "Node.js",
+     "OpenJS Foundation"
+    ],
+    "people": [],
+    "products": [
+     "Node.js 27",
+     "http.Agent",
+     "SQLite"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b1-11",
+   "slug": "plaud-ai-companion-thailand-launch",
+   "title": "Plaud officially launches its wearable AI companion in Thailand after Thai usage topped 25 million minutes",
+   "title_th": "Plaud เปิดตัว AI Companion แบบสวมใส่ในไทยอย่างเป็นทางการ คนไทยใช้งานกว่า 25 ล้านนาทีในปี 2569",
+   "topic_group": "thailand",
+   "source_name": "ThaiPR IT",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "Plaud ผู้พัฒนา AI Companion แบบสวมใส่ที่ช่วยเปลี่ยนบทสนทนาเป็นงาน ประกาศเปิดตัวอย่างเป็นทางการในไทยที่งาน DigiTech ASEAN Thailand & AI Connect 2026 เมื่อ 26 พฤศจิกายน 2569 พร้อมนำ Plaud Note Pro และ Plaud NotePin S มาให้ทดลองใช้ บริษัทเผยว่าจำนวนผู้ใช้ในไทยเติบโตเกือบ 3 เท่าในรอบปี และคนไทยใช้งานรวมกว่า 25 ล้านนาทีในปี 2569 ไทยยังเป็นตลาดใหญ่ที่สุดของ Plaud ในเอเชียตะวันออกเฉียงใต้เมื่อปี 2568 ขณะที่ลูกค้าใหม่ทั่วโลกกว่า 5% มาจากภูมิภาคนี้ Plaud อ้างผลสำรวจ PwC Thailand Hopes and Fears Survey 2025 ที่พบว่า 72% ของคนทำงานไทยเคยใช้ AI ในงาน เทียบค่าเฉลี่ยโลก 54% และ 90% ของผู้ใช้ประจำบอกว่า AI ช่วยเพิ่มประสิทธิภาพ ผลิตภัณฑ์เน้นบันทึกการประชุมและบทสนทนากับลูกค้า เพื่อเก็บรายละเอียดและเหตุผลการตัดสินใจที่มักหายไปเมื่อเวลาผ่านไป",
+   "source_url": "https://www.thaipr.net/it/3783333",
+   "tech_impact": "ตลาดอุปกรณ์ AI บันทึกการประชุมในไทยเติบโตเร็ว แต่ตามมาด้วยคำถามด้านความเป็นส่วนตัวและ PDPA ของการบันทึกเสียง",
+   "tags": [
+    "plaud",
+    "wearable-ai",
+    "ai-notetaker",
+    "thailand",
+    "productivity"
+   ],
+   "published_at": "2026-11-27T10:14:26+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "wearables",
+    "productivity",
+    "consumer-ai"
+   ],
+   "actions_developer": [
+    "ศึกษา API/การส่งออก transcript เพื่อเชื่อมกับระบบงานองค์กร",
+    "ประเมินความแม่นยำการถอดเสียงภาษาไทยปนอังกฤษก่อนนำไปใช้"
+   ],
+   "actions_business": [
+    "กำหนดนโยบายการขอความยินยอมก่อนบันทึกเสียงตาม PDPA",
+    "พิจารณาอุปกรณ์ AI notetaker สำหรับทีมขายและทีมบริหาร"
+   ],
+   "entities": {
+    "organizations": [
+     "Plaud",
+     "PwC"
+    ],
+    "people": [],
+    "products": [
+     "Plaud Note Pro",
+     "Plaud NotePin S"
+    ],
+    "places": [
+     "Thailand",
+     "Southeast Asia"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b1-12",
+   "slug": "smt-stars-co-lab-semiconductor-mou-universities",
+   "title": "SMT signs MOUs with Chula, KKU and SUT for second year of STARS Co-Lab semiconductor talent programme",
+   "title_th": "SMT ลงนาม MOU จุฬาฯ ม.ขอนแก่น และ มทส. ต่อยอด STARS Co-Lab ปีที่ 2 พัฒนาวิศวกรเซมิคอนดักเตอร์",
+   "topic_group": "thailand",
+   "source_name": "ThaiPR IT",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "บริษัท สตาร์ส ไมโครอิเล็กทรอนิกส์ (ประเทศไทย) จำกัด (มหาชน) หรือ SMT ลงนามบันทึกข้อตกลงความร่วมมือด้านวิชาการและเทคโนโลยีต่อเนื่องเป็นปีที่ 2 ภายใต้โครงการ STARS Co-Lab: Engineering Tomorrow โดยปีนี้ขยายความร่วมมือกับ 3 มหาวิทยาลัย ได้แก่ จุฬาลงกรณ์มหาวิทยาลัย มหาวิทยาลัยขอนแก่น และมหาวิทยาลัยเทคโนโลยีสุรนารี นำโจทย์จริงจากภาคการผลิตมาพัฒนาหลักสูตรและงานวิจัยร่วม พร้อมเปิดสหกิจศึกษาให้นักศึกษา ครอบคลุมเทคโนโลยีเซมิคอนดักเตอร์ การประกอบและแพ็กเกจจิ้งขั้นสูง (Advanced Packaging) และนวัตกรรมเพื่อความยั่งยืน นายพร้อมพงศ์ ไชยกุล ประธานเจ้าหน้าที่บริหาร SMT กล่าวว่าการลงทุนเครื่องจักรต้องเดินคู่กับการพัฒนาบุคลากรที่นำความรู้ไปใช้กับโจทย์การผลิตได้ โดยจุฬาฯ เด่นด้านหลักสูตรเซมิคอนดักเตอร์และความร่วมมือต่างประเทศ ส่วน ม.ขอนแก่นมีหลักสูตรครอบคลุมตั้งแต่ออกแบบวงจรรวมถึงประกอบและทดสอบชิป",
+   "source_url": "https://www.thaipr.net/education/3783202",
+   "tech_impact": "การสร้างกำลังคน advanced packaging เป็นจุดแข็งที่ไทยใช้ดึงการลงทุนห่วงโซ่ชิปที่ป้อนอุตสาหกรรม AI",
+   "tags": [
+    "semiconductors",
+    "advanced-packaging",
+    "talent",
+    "thailand",
+    "university"
+   ],
+   "published_at": "2026-11-27T09:29:32+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "semiconductors",
+    "education",
+    "manufacturing"
+   ],
+   "actions_developer": [
+    "นักศึกษาวิศวกรรมควรศึกษาด้าน advanced packaging และ test ซึ่งเป็นความต้องการจริง",
+    "ใช้โจทย์อุตสาหกรรมจริงเป็นหัวข้อวิจัยและโปรเจกต์จบ"
+   ],
+   "actions_business": [
+    "ผู้ผลิตอิเล็กทรอนิกส์ควรสร้างความร่วมมือหลักสูตรกับมหาวิทยาลัยเพื่อป้อนบุคลากร",
+    "ติดตามสิทธิประโยชน์ BOI ด้านการพัฒนาบุคลากรเซมิคอนดักเตอร์"
+   ],
+   "entities": {
+    "organizations": [
+     "Stars Microelectronics (Thailand)",
+     "Chulalongkorn University",
+     "Khon Kaen University",
+     "Suranaree University of Technology"
+    ],
+    "people": [
+     "Prompong Chaikul"
+    ],
+    "products": [
+     "STARS Co-Lab"
+    ],
+    "places": [
+     "Thailand"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b1-13",
+   "slug": "commart-aiforce-ai-pc-local-ai-bitec",
+   "title": "COMMART AIFORCE opens at BITEC, pitching AI PCs and subscription-free local AI to Thai consumers",
+   "title_th": "COMMART AIFORCE เปิดฉากที่ไบเทค ชูยุค AI PC และ Local AI ใช้งานได้จริงไม่ต้องจ่ายรายเดือน",
+   "topic_group": "thailand",
+   "source_name": "ThaiPR IT",
+   "category": "Thai",
+   "urgency": "low",
+   "content": "บริษัท เออาร์ไอพี จำกัด (มหาชน) เปิดมหกรรมสินค้าไอทีส่งท้ายปี COMMART AIFORCE ระหว่าง 26-29 พฤศจิกายนที่ไบเทค บางนา โดยวางธีมรับการเปลี่ยนผ่านสู่ยุค AI PC ที่ผู้ผลิตคอมพิวเตอร์พัฒนาอุปกรณ์ให้ประมวลผล AI ในเครื่องได้ และชูเทรนด์ Local AI ที่ใช้งานได้จริง ปลอดภัย รวดเร็ว ลดการพึ่งคลาวด์และไม่ต้องจ่ายรายเดือน นายพรชัย จันทรศุภแสง ผู้อำนวยการฝ่ายธุรกิจสื่อไอซีทีและการจัดงานของ ARIP กล่าวว่าต้องการให้เห็นว่า AI ไม่ใช่เรื่องซับซ้อนหรือจำกัดเฉพาะคนสายไอที ภายในงานจึงจัด AIFORCE Zone ให้ผู้เข้าชมทดลองใช้ AI จริง ตั้งแต่การสร้างภาพและวิดีโอ เขียนโค้ด ไปจนถึงสรุปข้อมูลและเอกสาร ก่อนตัดสินใจเลือกซื้ออุปกรณ์ที่เหมาะกับการใช้งาน พร้อมโปรโมชั่นลุ้นโชคเมื่อซื้อครบทุก 3,000 บาท สะท้อนว่าผู้ค้าไอทีไทยใช้ AI PC เป็นจุดขายหลักกระตุ้นตลาดปลายปี",
+   "source_url": "https://www.thaipr.net/exhibition/3782858",
+   "tech_impact": "AI PC และ local AI กลายเป็นจุดขายหลักในตลาดผู้บริโภคไทย เปิดทางให้แอปที่รันโมเดลบนเครื่อง",
+   "tags": [
+    "ai-pc",
+    "local-ai",
+    "consumer-tech",
+    "thailand",
+    "exhibition"
+   ],
+   "published_at": "2026-11-27T04:06:02+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "consumer-hardware",
+    "on-device-ai",
+    "retail"
+   ],
+   "actions_developer": [
+    "พัฒนาแอปที่ใช้ NPU/GPU บนเครื่องผ่าน runtime อย่าง ONNX หรือ llama.cpp",
+    "ทดสอบโมเดลขนาดเล็กภาษาไทยบน AI PC สเปกทั่วไป"
+   ],
+   "actions_business": [
+    "ร้านค้าไอทีควรสร้างเดโม use case AI จริงเพื่อช่วยลูกค้าตัดสินใจ",
+    "องค์กรพิจารณา AI PC สำหรับงานที่ต้องเก็บข้อมูลไว้ในเครื่อง"
+   ],
+   "entities": {
+    "organizations": [
+     "ARIP"
+    ],
+    "people": [
+     "Pornchai Chantarasupasang"
+    ],
+    "products": [
+     "COMMART AIFORCE",
+     "AI PC"
+    ],
+    "places": [
+     "Bangkok",
+     "Thailand"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b1-14",
+   "slug": "google-ai-threat-tracker-q4-thailand-llmjacking",
+   "title": "Google AI Threat Tracker Q4 2026 urges Thai organisations to upgrade defences against AI-powered attacks",
+   "title_th": "รายงาน Google AI Threat Tracker Q4/2569 เตือนองค์กรไทยรับมือภัยไซเบอร์ยุค AI ทั้ง LLMjacking และกลโกงภาษาไทย",
+   "topic_group": "thailand",
+   "source_name": "ThaiPR IT",
+   "category": "Thai",
+   "urgency": "medium",
+   "content": "รายงาน AI Threat Tracker ประจำไตรมาส 4 ปี 2569 ของ Google ระบุว่าองค์กรไทยต้องยกระดับการป้องกันมากกว่าการตั้งทีมใหม่หรือเพิ่มมาตรการ เพื่อรับมือการโจมตีที่ใช้เครื่องมือ AI ซึ่งเร็ว กว้าง และซับซ้อนขึ้น โดย AI ช่วยให้แม้ผู้โจมตีทักษะต่ำก็ก่อเหตุได้ง่ายและเพิ่มปริมาณการโจมตีอย่างมีนัยสำคัญ แนวโน้มสำคัญได้แก่ LLMjacking หรือการใช้บัญชีที่ขโมยมาเข้าถึงเครื่องมือ AI ขององค์กรแล้วนำสิทธิ์ไปขายต่อในตลาดมืด ทำให้เจ้าของบัญชีต้องแบกค่าใช้จ่ายที่บางกรณีสูงถึง 100,000 ดอลลาร์ หรือราว 3.3 ล้านบาทต่อวัน นอกจากนี้ยังพบการฉ้อโกงบนแพลตฟอร์มอีคอมเมิร์ซและการขโมยข้อมูลส่วนบุคคลเพื่อสวมรอยตัวตนเพิ่มขึ้น เพราะ AI ช่วยสร้างกลโกงออนไลน์ที่ใช้ภาษาไทยได้ลื่นไหลในเวลาอันสั้น รวมถึงการโจมตีที่มุ่งเป้าระบบสำคัญขององค์กร",
+   "source_url": "https://www.thaipr.net/it/3783222",
+   "tech_impact": "LLMjacking ทำให้บัญชี AI ขององค์กรเป็นสินทรัพย์ที่ต้องป้องกันเทียบเท่าบัญชีคลาวด์ ไม่ใช่แค่เรื่องข้อมูลรั่ว",
+   "tags": [
+    "google",
+    "cybersecurity",
+    "llmjacking",
+    "fraud",
+    "thailand"
+   ],
+   "published_at": "2026-11-27T09:33:31+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "cybersecurity",
+    "fraud",
+    "ai-governance"
+   ],
+   "actions_developer": [
+    "ตั้ง budget alert และ anomaly detection บน API key ของ LLM ทุกตัว",
+    "เก็บ API key ใน secret manager และหมุนเวียนสม่ำเสมอ"
+   ],
+   "actions_business": [
+    "รวมบัญชีเครื่องมือ AI ไว้ใต้ SSO และการควบคุมสิทธิ์ส่วนกลาง",
+    "เพิ่มการตรวจจับกลโกงภาษาไทยที่สร้างด้วย AI ในช่องทางบริการลูกค้า"
+   ],
+   "entities": {
+    "organizations": [
+     "Google"
+    ],
+    "people": [],
+    "products": [
+     "AI Threat Tracker"
+    ],
+    "places": [
+     "Thailand"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b1-15",
+   "slug": "us-air-force-cloud-one-breach",
+   "title": "Hackers breach US Air Force Cloud One platform, raising fears for sensitive military data",
+   "title_th": "คลาวด์กองทัพอากาศสหรัฐฯ Cloud One ถูกเจาะระบบ ข้อมูลทางทหารและความมั่นคงเสี่ยงรั่วไหล",
+   "topic_group": "global",
+   "source_name": "EnTechReview",
+   "category": "Thai",
+   "urgency": "high",
+   "content": "Reuters รายงานเมื่อ 27 พฤศจิกายน 2026 โดยอ้างแหล่งข่าว 3 รายว่าแฮกเกอร์เจาะเข้าสู่ Cloud One แพลตฟอร์มคลาวด์หลักที่กองทัพอากาศสหรัฐฯ ใช้จัดเก็บและบริหารข้อมูลสำคัญ การบุกรุกถูกตรวจพบเมื่อราวหนึ่งเดือนก่อนระหว่างการปรับปรุงระบบ และทำให้บริการบางส่วนหยุดชะงัก ขณะนี้ยังระบุตัวผู้โจมตี ขอบเขตความเสียหาย หรือข้อมูลที่ถูกขโมยไม่ได้ Cloud One เริ่มโครงการในปี 2017 เป็นแพลตฟอร์มกลางที่ผสานบริการจากผู้ให้บริการรายใหญ่ 4 ราย ได้แก่ Microsoft, Amazon, Oracle และ Alphabet (Google) รองรับระบบตั้งแต่ข้อมูลกำลังพล เงินเดือน โลจิสติกส์ การบำรุงรักษา ไปจนถึงระบบภารกิจทางทหาร เช่น Cloud-Based Command and Control ที่รวบรวมข้อมูลเรดาร์ป้องกันภัยทางอากาศทั่วอเมริกาเหนือ และ Theater Integrated Combat Munitions System (TICMS) ที่ติดตามระเบิดและขีปนาวุธในสถานที่กว่า 200 แห่ง",
+   "source_url": "https://entechreview.com/2026/11/hackers-breach-us-air-force-cloud-platform/",
+   "tech_impact": "การเจาะแพลตฟอร์มคลาวด์ระดับกลาโหมที่ใช้ผู้ให้บริการหลายรายตอกย้ำความเสี่ยงของการรวมศูนย์ข้อมูลอ่อนไหวไว้บนคลาวด์",
+   "tags": [
+    "cybersecurity",
+    "us-air-force",
+    "cloud",
+    "defense",
+    "breach"
+   ],
+   "published_at": "2026-11-27T15:59:08+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "cybersecurity",
+    "defense",
+    "cloud"
+   ],
+   "actions_developer": [
+    "ตรวจสอบการตั้งค่า IAM ข้าม multi-cloud และเปิด logging ครบทุกบัญชี",
+    "ทำ threat hunting ช่วงการ migrate ระบบซึ่งมักเป็นจังหวะที่การป้องกันอ่อนแอ"
+   ],
+   "actions_business": [
+    "หน่วยงานรัฐและองค์กรสำคัญควรทบทวนสถาปัตยกรรม zero trust บนคลาวด์",
+    "กำหนดแผนตอบสนองเหตุร่วมกับผู้ให้บริการคลาวด์หลายราย"
+   ],
+   "entities": {
+    "organizations": [
+     "US Air Force",
+     "Reuters",
+     "Microsoft",
+     "Amazon",
+     "Oracle",
+     "Alphabet"
+    ],
+    "people": [],
+    "products": [
+     "Cloud One",
+     "TICMS"
+    ],
+    "places": [
+     "US",
+     "North America"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-01",
+   "slug": "photonic-chips-qant-ai-energy",
+   "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+   "title_th": "ชิปสายพันธุ์ใหม่รันโมเดล AI ด้วยคลื่นแสง Q.ANT ชู photonic processor ลดพลังงานดาต้าเซ็นเตอร์",
+   "topic_group": "ai-trends",
+   "source_name": "Wired AI",
+   "category": "International",
+   "urgency": "low",
+   "content": "Wired รายงานว่าขณะที่ต้นทุนพลังงานในการรัน AI พุ่งสูงขึ้น และการสร้างดาต้าเซ็นเตอร์ในพื้นที่พลังงานหมุนเวียนราคาถูกอย่างสแกนดิเนเวียติดปัญหาโลจิสติกส์ ชิ้นส่วนขาดแคลน และกระแสต่อต้านจากชุมชน สตาร์ทอัพฮาร์ดแวร์กลุ่มหนึ่ง รวมถึง Q.ANT จากเยอรมนี เลือกแก้โจทย์จากอีกทาง ด้วยการพัฒนา photonic processor ที่ประมวลผลด้วยคลื่นแสงแทนการเคลื่อนที่ของอิเล็กตรอนแบบ GPU เนื่องจากแสงไม่สร้างความร้อนขณะเดินทางและประมวลผลข้อมูลพร้อมกันได้มากกว่า ชิปลักษณะนี้จึงถูกคาดว่าจะใช้พลังงานน้อยและแทบไม่ต้องระบายความร้อน ซึ่งเป็นต้นทุนใหญ่ของดาต้าเซ็นเตอร์ เป้าหมายไม่ใช่การแทนที่ GPU แต่ทำงานคู่กัน โดย GPU ถนัดคณิตศาสตร์เชิงเส้นจำนวนมหาศาล ขณะที่ photonic processor เหมาะกับการคำนวณที่ไม่เป็นเชิงเส้นที่ซับซ้อน แนวทางนี้จึงอาจเป็นอีกทางเลือกลดการใช้ไฟของ AI ในระยะยาว",
+   "source_url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+   "tech_impact": "photonic computing อาจกลายเป็นตัวเร่งร่วม (co-processor) ที่ลดพลังงานและความร้อนของ AI แต่ยังต้องพิสูจน์ในระดับการผลิตจริง",
+   "tags": [
+    "photonics",
+    "ai-hardware",
+    "energy",
+    "data-centers",
+    "q.ant"
+   ],
+   "published_at": "2026-11-27T07:00:00+00:00",
+   "breakthrough_potential": true,
+   "related_domains": [
+    "ai-hardware",
+    "photonics",
+    "energy"
+   ],
+   "actions_developer": [
+    "ติดตาม SDK และ benchmark ของ photonic accelerator ว่ารองรับ framework ใดบ้าง",
+    "ระบุส่วนงาน nonlinear ในโมเดลที่อาจ offload ไปยังตัวเร่งเฉพาะทาง"
+   ],
+   "actions_business": [
+    "รวม photonic hardware ไว้ในแผนติดตามเทคโนโลยีลดต้นทุนพลังงานดาต้าเซ็นเตอร์",
+    "ประเมินต้นทุนความร้อนและไฟฟ้าเป็นตัวชี้วัดหลักในการเลือกฮาร์ดแวร์ AI"
+   ],
+   "entities": {
+    "organizations": [
+     "Q.ANT",
+     "Wired"
+    ],
+    "people": [],
+    "products": [
+     "photonic processor"
+    ],
+    "places": [
+     "Germany",
+     "Scandinavia"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-02",
+   "slug": "tencent-dfly2-speculative-decoding-sparse-kv",
+   "title": "Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target's Sparse KV Cache",
+   "title_th": "Tencent โอเพนซอร์ส DFly2 drafter สำหรับ speculative decoding ที่ไม่มี KV cache ของตัวเอง เพิ่ม throughput สูงสุด 81%",
+   "topic_group": "ai-trends",
+   "source_name": "MarkTechPost",
+   "category": "International",
+   "urgency": "medium",
+   "content": "ทีม Hunyuan AI Infra ของ Tencent โอเพนซอร์ส DFly2 ตัว drafter สำหรับ speculative decoding แบบ block-parallel ที่ออกแบบมาสำหรับ LLM แบบ natively sparse เช่น DeepSeek-V4.1-Flash, GLM-5.3-Flash และ Hy4 flash ของ Tencent เอง จุดเด่นคือ drafter ไม่เก็บ KV cache ของตัวเองแต่ใช้ sparsity ของโมเดลเป้าหมายร่วมกัน ซึ่งสำคัญกับงาน long-context และ agentic serving ที่หน่วยความจำของ draft แย่งกับจำนวนผู้ใช้พร้อมกัน ตัวโมเดลมีขนาด 0.85B พารามิเตอร์ 5 ชั้น มาพร้อม Hy4 flash ทดสอบบน NVIDIA H20 ด้วย vLLM แบบ TP8 ต่อ instance ผลคือ draft acceptance สูงกว่า DFlash และ DSpark ที่ใช้สูตรเดียวกันบนทั้งสามโมเดลเป้าหมาย ได้ throughput เพิ่มสูงสุด 81% บน DeepSeek-V4.1-Flash ในงาน SWE ความยาว 64K ที่ความเร็วต่อผู้ใช้เท่ากัน ส่วนกรณีที่ได้น้อยที่สุดคือ Hy4 flash งานทั่วไปเพิ่มเพียง 3.9% เหนือ DSpark ที่ temperature 0",
+   "source_url": "https://www.marktechpost.com/2026/11/26/tencent-dfly2-speculative-decoding-sparse-models/",
+   "tech_impact": "เทคนิคแชร์ sparse KV cache ระหว่าง drafter กับโมเดลหลักลดต้นทุน serving งาน long-context และ agent ได้อย่างมีนัยสำคัญ",
+   "tags": [
+    "speculative-decoding",
+    "tencent",
+    "inference",
+    "open-source",
+    "llm-serving"
+   ],
+   "published_at": "2026-11-27T03:31:30+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "inference-optimization",
+    "llm-serving",
+    "open-source"
+   ],
+   "actions_developer": [
+    "ทดลอง DFly2 กับ vLLM สำหรับโมเดล sparse ที่ใช้อยู่และวัด acceptance rate",
+    "เปรียบเทียบ throughput ที่ per-user speed เท่ากันแทนการวัด latency อย่างเดียว"
+   ],
+   "actions_business": [
+    "ประเมินการลดจำนวน GPU ที่ต้องใช้สำหรับงาน coding agent context ยาว",
+    "ติดตามโมเดลจีนแบบ sparse ที่มีระบบนิเวศ inference โอเพนซอร์สครบ"
+   ],
+   "entities": {
+    "organizations": [
+     "Tencent",
+     "DeepSeek",
+     "Zhipu AI",
+     "NVIDIA"
+    ],
+    "people": [],
+    "products": [
+     "DFly2",
+     "Hy4 flash",
+     "DeepSeek-V4.1-Flash",
+     "GLM-5.3-Flash",
+     "vLLM",
+     "H20"
+    ],
+    "places": [
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-03",
+   "slug": "nexos-ai-gateway-200-models-governance",
+   "title": "nexos.ai puts 200+ models behind one AI gateway with budget limits and governance built in",
+   "title_th": "nexos.ai แพลตฟอร์ม AI Gateway รวมกว่า 200 โมเดล พร้อมคุมงบ นโยบาย และ audit trail สำหรับองค์กรยุโรป",
+   "topic_group": "tech-trends",
+   "source_name": "MarkTechPost",
+   "category": "International",
+   "urgency": "low",
+   "content": "MarkTechPost นำเสนอ nexos.ai แพลตฟอร์มสำหรับการนำ AI ไปใช้ในองค์กรแบบครบวงจร หัวใจคือ AI gateway ที่ส่งทุกคำขอ LLM ผ่านชั้นกลางเดียว ซึ่งบังคับใช้งบประมาณ นโยบาย และบันทึก audit trail ได้ รองรับกว่า 200 โมเดล องค์กรกำหนดได้ว่าใครใช้โมเดลใด ตั้งเพดานงบและการใช้งาน และจัดการสิทธิ์จากจุดเดียว แพลตฟอร์มได้รับรอง SOC 2 Type 2, ISO 27001 และ ISO 42001 สอดคล้อง GDPR มี Smart Router และ LLM caching ช่วยลดค่าใช้จ่าย ติดตามต้นทุนได้ถึงระดับทีม โปรเจกต์ และผู้ใช้ ตัวแพลตฟอร์มและโมเดลส่วนใหญ่โฮสต์ในยุโรปแบบไม่เก็บข้อมูลและไม่นำข้อมูลไปฝึก บทความชี้ปัญหาที่ทีมต่างๆ เลือกเครื่องมือและ API key ของตัวเองจนค่าใช้จ่ายโตเร็วกว่าการมองเห็นของผู้บริหาร ขณะที่ EU AI Act เพิ่มแรงกดดันด้านธรรมาภิบาลและความรับผิดชอบ",
+   "source_url": "https://www.marktechpost.com/2026/11/26/nexos-ai-ai-gateway-200-models-governance/",
+   "tech_impact": "AI gateway กำลังเป็นชั้นมาตรฐานของ enterprise AI เพื่อคุมต้นทุนและ compliance ข้ามผู้ให้บริการหลายราย",
+   "tags": [
+    "ai-gateway",
+    "governance",
+    "llmops",
+    "eu-ai-act",
+    "cost-control"
+   ],
+   "published_at": "2026-11-27T03:43:35+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "llmops",
+    "ai-governance",
+    "enterprise-ai"
+   ],
+   "actions_developer": [
+    "รวมการเรียก LLM ผ่าน gateway เดียวเพื่อทำ routing, caching และ logging",
+    "ใส่ metadata ทีม/โปรเจกต์ในทุกคำขอเพื่อทำ cost attribution"
+   ],
+   "actions_business": [
+    "สำรวจ shadow AI และ API key ที่กระจัดกระจายในองค์กร",
+    "เลือกโซลูชันที่มี ISO 42001 รองรับข้อกำหนด AI governance"
+   ],
+   "entities": {
+    "organizations": [
+     "nexos.ai",
+     "European Union"
+    ],
+    "people": [],
+    "products": [
+     "nexos.ai AI Gateway",
+     "Smart Router"
+    ],
+    "places": [
+     "Europe"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-04",
+   "slug": "sap-10000-job-cuts-ai-restructuring",
+   "title": "German software firm SAP is reportedly cutting at least 10,000 jobs in AI push",
+   "title_th": "SAP เตรียมลดพนักงานอย่างน้อย 10,000 ตำแหน่ง ปรับโครงสร้างธุรกิจซอฟต์แวร์สู่ยุค AI",
+   "topic_group": "global",
+   "source_name": "CNBC Tech",
+   "category": "International",
+   "urgency": "medium",
+   "content": "CNBC อ้างรายงานของ Bloomberg ที่อ้างแหล่งข่าวว่า SAP บริษัทซอฟต์แวร์องค์กรสัญชาติเยอรมนี กำลังเตรียมแผนลดพนักงานอย่างน้อย 10,000 ตำแหน่ง เพื่อปรับโครงสร้างธุรกิจซอฟต์แวร์รับยุคปัญญาประดิษฐ์ SAP ให้แถลงการณ์ว่าสภาพแวดล้อมทางธุรกิจกำลังเปลี่ยนเร็วจาก AI บริษัทจึงทบทวนอย่างต่อเนื่องว่าองค์กรและกำลังคนต้องปรับอย่างไรเพื่อให้ประสบความสำเร็จ บทบาทและหน้าที่จะเปลี่ยนไปตามธรรมชาติ แต่ยังไม่มีการตัดสินใจมาตรการเพิ่มเติม และไม่แสดงความเห็นต่อข่าวลือ โดยไม่ให้รายละเอียดใดเกี่ยวกับการลดพนักงาน รายงานนี้ออกมาในช่วงเดียวกับที่ SAP แจ้งว่าพบการโจมตีทางไซเบอร์ แต่ยืนยันว่ายังไม่พบหลักฐานการเข้าถึงข้อมูลธุรกิจของลูกค้าโดยไม่ได้รับอนุญาต ข่าวนี้สะท้อนแนวโน้มบริษัทซอฟต์แวร์รายใหญ่ที่ปรับลดคนเพื่อโยกทรัพยากรไปลงทุนด้าน AI",
+   "source_url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html",
+   "tech_impact": "การปรับลดคนระดับหมื่นตำแหน่งของผู้นำ ERP โลกสะท้อนว่า AI กำลังเปลี่ยนโครงสร้างแรงงานในอุตสาหกรรมซอฟต์แวร์องค์กร",
+   "tags": [
+    "sap",
+    "layoffs",
+    "enterprise-software",
+    "ai-transformation",
+    "workforce"
+   ],
+   "published_at": "2026-11-27T14:52:40+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "enterprise-software",
+    "workforce",
+    "ai-transformation"
+   ],
+   "actions_developer": [
+    "เพิ่มทักษะ AI agent บนแพลตฟอร์ม ERP เช่น SAP Joule และ BTP",
+    "ติดตาม roadmap ผลิตภัณฑ์ SAP ที่อาจเปลี่ยนหลังปรับโครงสร้าง"
+   ],
+   "actions_business": [
+    "ประเมินผลกระทบต่อการซัพพอร์ตและพาร์ทเนอร์ SAP ในไทย",
+    "ใช้กรณีนี้ทบทวนแผนกำลังคนขององค์กรเองเมื่อ AI รับงานซ้ำซาก"
+   ],
+   "entities": {
+    "organizations": [
+     "SAP",
+     "Bloomberg",
+     "CNBC"
+    ],
+    "people": [],
+    "products": [],
+    "places": [
+     "Germany"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-05",
+   "slug": "ai-shopping-agents-amazon-retailer-blocks",
+   "title": "AI shopping agents are having a moment, but Amazon and a growing number of sites threaten to stunt their growth",
+   "title_th": "AI shopping agent กำลังมาแรง แต่ Amazon และเว็บไซต์ค้าปลีกจำนวนมากขึ้นเริ่มบล็อก ทำให้การเติบโตสะดุด",
+   "topic_group": "tech-trends",
+   "source_name": "CNBC Tech",
+   "category": "International",
+   "urgency": "medium",
+   "content": "CNBC รายงานว่า AI shopping agent ที่ซื้อของแทนผู้ใช้กำลังได้รับความนิยม แต่การใช้งานจริงยังวุ่นวาย ตัวอย่างคือ Maia Bittner ประธานเจ้าหน้าที่ฝ่ายผลิตภัณฑ์ของสตาร์ทอัพฟินเทค Imprint ที่สั่งให้ Muse agent ของ Meta ซื้อใบปัดน้ำฝนจาก AutoZone แต่ 17 ชั่วโมงต่อมาได้รับแจ้งว่าคำสั่งซื้อถูกยกเลิกจากข้อผิดพลาดที่ไม่ระบุ และ Muse แนะนำให้เธอสั่งเองบน Amazon ซึ่งเป็นทางที่น่าเชื่อถือที่สุด ช่วงปีที่ผ่านมา OpenAI, Meta, Google และ Instinct ต่างเปิดตัว personal agent ขณะที่บริษัท AI ผู้ค้าปลีก และสถาบันการเงินออกมาตรฐานหลากหลายเพื่อให้ agent ทำธุรกรรมบนเว็บได้ง่ายขึ้น แต่ Amazon และเว็บไซต์จำนวนมากขึ้นเลือกบล็อก agent ทำให้ผู้บริโภคอาจไม่เห็นตัวเลือกค้าปลีกทั้งหมด Noah Shinn ซีอีโอ Instinct ยอมรับว่าบริษัท AI เคลื่อนที่เร็ว แต่ธุรกิจบางแห่งทำไม่ได้ จึงต้องหาทางร่วมมือกัน",
+   "source_url": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html",
+   "tech_impact": "agentic commerce ติดอยู่ระหว่างมาตรฐานที่ยังไม่ลงตัวกับการปิดกั้นของแพลตฟอร์มใหญ่ ผู้ค้าต้องเลือกว่าจะเปิดรับหรือบล็อก agent",
+   "tags": [
+    "agentic-commerce",
+    "ai-agents",
+    "amazon",
+    "meta-muse",
+    "retail"
+   ],
+   "published_at": "2026-11-27T16:43:14+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "e-commerce",
+    "ai-agents",
+    "payments"
+   ],
+   "actions_developer": [
+    "เตรียม endpoint หรือ protocol สำหรับ agent checkout แทนการให้ agent คลิกผ่าน UI",
+    "ทำระบบยืนยันคำสั่งซื้อและแจ้งข้อผิดพลาดที่ agent อ่านเข้าใจได้"
+   ],
+   "actions_business": [
+    "ตัดสินใจนโยบายต่อ AI agent บนร้านออนไลน์ ระหว่างบล็อกหรือเปิดช่องทางทางการ",
+    "ติดตามมาตรฐาน agent payment ของผู้ให้บริการการเงิน"
+   ],
+   "entities": {
+    "organizations": [
+     "Amazon",
+     "Meta",
+     "OpenAI",
+     "Google",
+     "Instinct",
+     "Imprint",
+     "AutoZone"
+    ],
+    "people": [
+     "Maia Bittner",
+     "Noah Shinn"
+    ],
+    "products": [
+     "Muse"
+    ],
+    "places": [
+     "US"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-06",
+   "slug": "china-chip-stocks-record-gain-state-support",
+   "title": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+   "title_th": "หุ้นชิปจีนพุ่งแรงสุดเป็นประวัติการณ์ในวันเดียว ดัชนี CSI Semiconductor +17.6% หลังปักกิ่งส่งสัญญาณอุ้มตลาด",
+   "topic_group": "global",
+   "source_name": "CNBC Tech",
+   "category": "International",
+   "urgency": "medium",
+   "content": "หุ้นจีนดีดตัวแรงเมื่อวันศุกร์หลังสื่อรัฐเผยแพร่สรุปการประชุมคณะรัฐมนตรี (State Council) กลางวันซึ่งเกิดขึ้นไม่บ่อย โดยผู้กำหนดนโยบายให้คำมั่นขยายบทบาทกองทุนที่รัฐหนุนหลังในการพยุงตลาด ดัชนี STAR พุ่ง 14% นำโดยผู้ผลิตชิปอย่าง CXMT, Cambricon และ SMIC ส่วนดัชนี CSI Semiconductor ที่รวมหุ้นชิป 40 ตัวขึ้น 17.6% เป็นการขึ้นวันเดียวสูงสุดเป็นประวัติการณ์ ทำลายสถิติเดิมเกือบ 17% เมื่อปลายปี 2024 ตามข้อมูล Wind Information ขณะที่ Hang Seng เพิ่ม 2% และ CSI 300 เพิ่ม 4% มากที่สุดนับแต่ตุลาคม 2024 นักวิเคราะห์มองว่าจังหวะเวลาที่ผิดปกติและถ้อยคำเรื่องการรักษาเสถียรภาพที่หนักแน่นขึ้นช่วยฟื้นความเชื่อมั่น การปรับขึ้นเกิดขึ้นท่ามกลางการแข่งขัน AI ที่รัฐบาลทุ่มสนับสนุนอุตสาหกรรมชิปในประเทศ หลังสหรัฐฯ เพิ่งออกกฎจำกัดการเข้าถึงชิป AI ขั้นสูงของบริษัทจีน รวมถึงผ่านดาต้าเซ็นเตอร์ต่างประเทศ",
+   "source_url": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html",
+   "tech_impact": "การอุ้มตลาดของรัฐจีนและแรงกดดันจากมาตรการสหรัฐฯ เร่งการลงทุนในห่วงโซ่ชิป AI ภายในจีน",
+   "tags": [
+    "china",
+    "semiconductors",
+    "stock-market",
+    "smic",
+    "cambricon"
+   ],
+   "published_at": "2026-11-27T10:13:44+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "semiconductors",
+    "capital-markets",
+    "geopolitics"
+   ],
+   "actions_developer": [
+    "ติดตามความพร้อมของชิปจีนอย่าง Cambricon สำหรับ framework AI หลัก",
+    "ประเมินความเข้ากันได้ของซอฟต์แวร์กับฮาร์ดแวร์ AI ที่ไม่ใช่ NVIDIA"
+   ],
+   "actions_business": [
+    "นักลงทุนควรแยกแรงขับเชิงนโยบายออกจากพื้นฐานของหุ้นชิปจีน",
+    "ติดตามผลกระทบต่อซัพพลายเออร์อาเซียนที่ป้อนห่วงโซ่ชิปจีน"
+   ],
+   "entities": {
+    "organizations": [
+     "State Council of China",
+     "CXMT",
+     "Cambricon",
+     "SMIC",
+     "Wind Information"
+    ],
+    "people": [],
+    "products": [],
+    "places": [
+     "China",
+     "Hong Kong",
+     "US"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-07",
+   "slug": "nvidia-jensen-huang-succession-test-board",
+   "title": "Jensen Huang was gone for 11 days. That was Nvidia's succession test, and the board failed it",
+   "title_th": "บทวิเคราะห์ Fortune: 11 วันที่ Jensen Huang หายไปคือบททดสอบการสืบทอดตำแหน่งของ Nvidia และบอร์ดสอบตก",
+   "topic_group": "global",
+   "source_name": "Fortune Tech",
+   "category": "International",
+   "urgency": "medium",
+   "content": "บทความความเห็นใน Fortune โดย Andrea Petrone มองว่าการกลับมาของ Jensen Huang ที่ทำให้หุ้น Nvidia พุ่งราว 30% ไม่ใช่เรื่องราวการคัมแบ็ก แต่เป็นหลักฐานว่า 11 วันนั้นคือบททดสอบแรกว่า Nvidia ทำงานได้หรือไม่หากไม่มีผู้ก่อตั้ง และบอร์ดสอบตก ไทม์ไลน์คือวันที่ 12 พฤศจิกายน บอร์ดรับการลาออกของ Huang หลังรายงานเรื่องชีวิตส่วนตัวและปฏิบัติการข่าวกรองต่างชาติที่มุ่งเป้าเขา CFO Colette Kress ขึ้นเป็น CEO รักษาการ ห้าวันต่อมาประธานบอร์ด Harvey Jones บอกนักวิเคราะห์ว่าไม่ตั้งใจแต่งตั้ง Huang กลับ จากนั้น Financial Times รายงานว่าบอร์ดทาบทาม Rene Haas ซีอีโอ Arm แต่วันที่ 23 พฤศจิกายน Haas ต่อสัญญากับ Arm ถึงปี 2033 และวันเดียวกันบอร์ดลงมติเอกฉันท์นำ Huang กลับ โดยอ้างความเห็นจากรัฐบาลสหรัฐฯ ระดับสูง ขณะที่การสอบสวนอิสระของบอร์ดยังไม่ปิด ผู้เขียนเตือนบอร์ดทุกบริษัทที่มี CEO ดูเหมือนแทนที่ไม่ได้",
+   "source_url": "https://fortune.com/2026/11/27/nvidia-jensen-huang-succession-test-board-failed-andrea-petrone/",
+   "tech_impact": "ความเสี่ยง key-man และธรรมาภิบาลของบริษัทที่เป็นแกนกลางห่วงโซ่ AI โลกกลายเป็นปัจจัยที่นักลงทุนและหน่วยงานจัดอันดับต้องประเมิน",
+   "tags": [
+    "nvidia",
+    "corporate-governance",
+    "succession",
+    "jensen-huang",
+    "board"
+   ],
+   "published_at": "2026-11-27T12:30:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "corporate-governance",
+    "semiconductors",
+    "capital-markets"
+   ],
+   "actions_developer": [
+    "ไม่พึ่งผู้ขายฮาร์ดแวร์รายเดียวในสถาปัตยกรรม AI ระยะยาว",
+    "ติดตามความต่อเนื่องของ roadmap ซอฟต์แวร์ CUDA หลังความผันผวนผู้บริหาร"
+   ],
+   "actions_business": [
+    "ประเมินความเสี่ยง governance ของซัพพลายเออร์ AI หลักในการจัดซื้อ",
+    "ทบทวนแผนสืบทอดตำแหน่งของผู้บริหารระดับสูงในองค์กรตนเอง"
+   ],
+   "entities": {
+    "organizations": [
+     "Nvidia",
+     "Arm",
+     "Financial Times",
+     "Fortune"
+    ],
+    "people": [
+     "Jensen Huang",
+     "Colette Kress",
+     "Harvey Jones",
+     "Rene Haas",
+     "Andrea Petrone",
+     "Donald Trump"
+    ],
+    "products": [],
+    "places": [
+     "US"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-08",
+   "slug": "norway-vg-ai-newsroom-human-in-the-loop",
+   "title": "Norway's AI newsroom experiment: even with AI on 200+ stories a day, a human still checks every one",
+   "title_th": "ห้องข่าว AI ของนอร์เวย์: VG ใช้ AI กับข่าววันละกว่า 200 ชิ้น แต่ยังมีมนุษย์ตรวจทุกชิ้น และโมเดลตรวจปัดตก 1 ใน 6",
+   "topic_group": "global",
+   "source_name": "Fortune Tech",
+   "category": "International",
+   "urgency": "low",
+   "content": "ผู้อำนวยการศูนย์วิจัยเทคโนโลยีสื่อในนอร์เวย์เขียนใน Fortune ถึงการทดลองใช้ AI ในห้องข่าว โดย VG หนังสือพิมพ์ใหญ่ที่สุดของนอร์เวย์ใช้โมเดล AI เสนอพาดหัว คำค้นหา และรายละเอียดอื่นให้ข่าวใหม่ราว 200 ชิ้นต่อวัน ก่อนนักข่าวจะเห็น โมเดลตัวที่สองจะตรวจงานของตัวแรก ซึ่งในเดือนตุลาคมปัดตกราว 1 ใน 6 ของผลลัพธ์ จากนั้นนักข่าวและบรรณาธิการจึงตรวจอีกชั้น หลักคือให้ผู้ตรวจที่ถูกที่สุดตรวจก่อน และคนที่รับผิดชอบข่าวตรวจเป็นลำดับสุดท้าย ผู้เขียนสอบถามหน่วย AI Foundations ของ Schibsted Media เจ้าของ VG และ Bergens Tidende รวมถึงบรรณาธิการ Bergens Tidende และ Fjell-Ljom หนังสือพิมพ์ท้องถิ่นเล็กในเมือง Røros ว่าการมีมนุษย์ในลูปมีต้นทุนเท่าไรและเปลี่ยนไปอย่างไรเมื่อเครื่องมือดีขึ้น ข้อสรุปคือต้นทุนการตรวจขึ้นอยู่กับว่าใครตรวจและอยู่ใกล้งานต้นฉบับแค่ไหน",
+   "source_url": "https://fortune.com/2026/11/27/checking-ai-work-human-in-the-loop-newsrooms/",
+   "tech_impact": "แม่แบบการตรวจหลายชั้น (model-checks-model แล้วตามด้วยมนุษย์) เป็นแนวปฏิบัติที่องค์กรสื่อและธุรกิจอื่นนำไปใช้ได้",
+   "tags": [
+    "newsrooms",
+    "human-in-the-loop",
+    "media",
+    "schibsted",
+    "ai-verification"
+   ],
+   "published_at": "2026-11-27T13:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "media",
+    "ai-governance",
+    "human-in-the-loop"
+   ],
+   "actions_developer": [
+    "ออกแบบ pipeline ให้โมเดลตรวจโมเดลก่อนส่งให้มนุษย์ เพื่อลดภาระคนตรวจ",
+    "วัดอัตราการปัดตกของ checker model เป็นตัวชี้วัดคุณภาพ"
+   ],
+   "actions_business": [
+    "กำหนดลำดับความรับผิดชอบสุดท้ายให้ชัดเมื่อใช้ AI ในงานที่เผยแพร่สาธารณะ",
+    "คำนวณต้นทุนเวลาของ human review ก่อนขยาย AI ไปทุกงาน"
+   ],
+   "entities": {
+    "organizations": [
+     "VG",
+     "Schibsted Media",
+     "Bergens Tidende",
+     "Fjell-Ljom"
+    ],
+    "people": [],
+    "products": [],
+    "places": [
+     "Norway",
+     "Røros"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-09",
+   "slug": "africa-ai-rollout-cost-affordability",
+   "title": "Cost is key in Africa's AI rollout",
+   "title_th": "ต้นทุนคือกุญแจของการใช้ AI ในแอฟริกา โมเดลราคาถูกอย่าง DeepSeek เปิดทางสตาร์ทอัพท้องถิ่น",
+   "topic_group": "global",
+   "source_name": "Semafor Tech",
+   "category": "International",
+   "urgency": "low",
+   "content": "Semafor สรุปประเด็นจากงาน Next 3 Billion ที่โจฮันเนสเบิร์กว่าในแอฟริกา ความสามารถในการจ่ายจะเป็นตัวกำหนดว่า AI จะถูกใช้อย่างไร Ralph Mupita ซีอีโอ MTN ยักษ์ใหญ่โทรคมนาคม กล่าวว่าแอฟริกาจะมีโซลูชันเฉพาะตัว เหมือนที่โทรศัพท์มือถือเติบโตต่างจากที่อื่น ประเทศและบริษัทในทวีปไม่มีเงินทุนแข่งซื้อชิปล้ำสมัย แต่ก็ไม่จำเป็น เพราะหลายประเทศใช้ดาต้าเซ็นเตอร์ที่กินไฟน้อยกว่าโรงงานขนาดยักษ์ซึ่งเผชิญกระแสต่อต้านในสหรัฐฯ และยุโรปได้ ขณะที่ DeepSeek ของจีนแสดงให้เห็นว่าการทำให้ AI ถูกลงและใช้พลังงานน้อยลง ช่วยให้สตาร์ทอัพแอฟริกาออกแบบผลิตภัณฑ์สำหรับผู้ใช้ท้องถิ่นด้วยต้นทุนเพียงเศษเสี้ยวของโมเดลแนวหน้าจากแล็บสหรัฐฯ งานวิจัยชี้ว่าราว 60% ของประชากรอาศัยในพื้นที่ที่มีอินเทอร์เน็ตมือถือแต่ไม่ใช้งาน โดยราคาเครื่องโทรศัพท์เป็นอุปสรรคใหญ่ โมเดลธุรกิจที่ฉลาดจึงต้องเน้นความคุ้มค่า",
+   "source_url": "https://www.semafor.com/article/11/27/2026/cost-is-key-in-africas-ai-rollout",
+   "tech_impact": "ตลาดเกิดใหม่จะเลือก AI ตามต้นทุนมากกว่าความล้ำสมัย ทำให้โมเดล open-weight ราคาถูกได้เปรียบ",
+   "tags": [
+    "africa",
+    "affordability",
+    "deepseek",
+    "mtn",
+    "emerging-markets"
+   ],
+   "published_at": "2026-11-27T14:30:06+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "emerging-markets",
+    "telecom",
+    "ai-adoption"
+   ],
+   "actions_developer": [
+    "ออกแบบแอป AI ให้ทำงานบนสมาร์ทโฟนราคาประหยัดและเครือข่ายช้า",
+    "เลือกโมเดลขนาดเล็กหรือ open-weight เพื่อลดต้นทุนต่อผู้ใช้"
+   ],
+   "actions_business": [
+    "ใช้บทเรียนแอฟริกาวางกลยุทธ์ AI สำหรับลูกค้าต่างจังหวัดหรือรายได้น้อยในไทย",
+    "พิจารณาความร่วมมือกับผู้ให้บริการโทรคมนาคมในการกระจาย AI"
+   ],
+   "entities": {
+    "organizations": [
+     "MTN",
+     "DeepSeek",
+     "Semafor"
+    ],
+    "people": [
+     "Ralph Mupita"
+    ],
+    "products": [],
+    "places": [
+     "Africa",
+     "Johannesburg",
+     "South Africa"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-10",
+   "slug": "sequence-981-nvidia-isaac-robot-skills",
+   "title": "The Sequence Robotics #981: How NVIDIA Isaac Turns Practice Into Robot Skills",
+   "title_th": "The Sequence #981 เจาะ NVIDIA Isaac วงจรพัฒนาที่เปลี่ยนการฝึกในโลกจำลองเป็นทักษะหุ่นยนต์",
+   "topic_group": "ai-trends",
+   "source_name": "The Sequence AI",
+   "category": "International",
+   "urgency": "low",
+   "content": "The Sequence ฉบับ Robotics #981 อธิบายว่า NVIDIA Isaac ควรถูกมองเป็นวงจรการพัฒนาเพื่อสอนทักษะทางกายภาพให้หุ่นยนต์ มากกว่าเป็นเครื่องมือชิ้นเดียว เริ่มจากสร้างงานเสมือนใน Isaac Sim แปลงประสบการณ์เป็น policy ด้วย Isaac Lab ตั้งต้นจากโมเดลที่ฝึกไว้แล้วอย่าง GR00T สุ่มและทดสอบข้ามโลกจำลองที่หลากหลาย เชื่อมการกระทำที่เรียนรู้กับเครื่องจักรจริงผ่าน Isaac ROS และ Isaac OS และรักษาให้ control loop ตอบสนองทันท่วงที จากนั้นการทดลองจริงจะป้อนความล้มเหลวกลับผ่านการทดลองที่ประสานด้วย OSMO เข้าสู่รอบถัดไป บทความยกตัวอย่างคำสั่งง่ายๆ ให้วางแก้วสีส้มบนชั้น ซึ่งหุ่นยนต์ต้องหาแก้ว ตัดสินใจจุดจับ เคลื่อนที่โดยไม่ชน และคงแรงจับเมื่อน้ำหนักเปลี่ยน แต่เพียงหมุนหูแก้วก็ทำให้ท่าที่ซ้อมไว้พัง ข้อสรุปคือคุณค่าของ Isaac อยู่ที่การทำให้วงจรฝึก-ประเมิน-ติดตั้งสร้างและทำซ้ำได้ง่าย",
+   "source_url": "https://thesequence.substack.com/p/the-sequence-robotics-issue-981-how",
+   "tech_impact": "การมองหุ่นยนต์เป็นวงจร sim-to-real ที่ทำซ้ำได้ช่วยให้ทีม physical AI วางสถาปัตยกรรมการพัฒนาได้ชัดขึ้น",
+   "tags": [
+    "robotics",
+    "nvidia-isaac",
+    "simulation",
+    "gr00t",
+    "physical-ai"
+   ],
+   "published_at": "2026-11-27T12:01:54+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "robotics",
+    "simulation",
+    "physical-ai"
+   ],
+   "actions_developer": [
+    "ตั้ง pipeline Isaac Sim + Isaac Lab พร้อม domain randomization ก่อนทดสอบจริง",
+    "ป้อนผลล้มเหลวจากหุ่นยนต์จริงกลับเข้า simulation อย่างเป็นระบบ"
+   ],
+   "actions_business": [
+    "ประเมินต้นทุนการลดการทดลองจริงด้วย simulation ในโครงการ automation",
+    "ติดตามโมเดลพื้นฐานหุ่นยนต์อย่าง GR00T สำหรับงานคลังสินค้าและโรงงาน"
+   ],
+   "entities": {
+    "organizations": [
+     "NVIDIA"
+    ],
+    "people": [],
+    "products": [
+     "NVIDIA Isaac",
+     "Isaac Sim",
+     "Isaac Lab",
+     "GR00T",
+     "Isaac ROS",
+     "OSMO"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-11",
+   "slug": "moonshot-kimi-for-science-research-program",
+   "title": "Moonshot AI Opens Applications for the Kimi for Science Research Program",
+   "title_th": "Moonshot AI เปิดรับสมัคร Kimi for Science มอบเครดิต API สูงสุด 150,000 หยวน หรือราว 7 พันล้านโทเคนให้นักวิจัย",
+   "topic_group": "ai-trends",
+   "source_name": "Pandaily",
+   "category": "International",
+   "urgency": "low",
+   "content": "Moonshot AI เปิดรับสมัครโครงการ Kimi for Science เมื่อ 27 พฤศจิกายน 2026 เป็นโครงการสนับสนุนงานวิจัย ไม่ใช่การเปิดตัวโมเดลใหม่ รอบแรกเปิดให้นักวิจัยและทีมด้านวิทยาศาสตร์ธรรมชาติ วิศวกรรม และสาขาสหวิทยาการ ผู้ได้รับคัดเลือกอาจได้เครดิตเรียกใช้โมเดลผ่าน Kimi API สูงสุด 150,000 หยวน หรือราว 7 พันล้านโทเคน โดยจำนวนจริงขึ้นกับความต้องการและการพิจารณา และเป็นเครดิตใช้งานโมเดล ไม่ใช่เงินสด นอกจากนี้ยังมีการสนับสนุนทางเทคนิคจากทีม Kimi สิทธิ์เข้าถึงโมเดลใหม่ก่อนใคร ทรัพยากรงานวิจัยและชุมชน และโอกาสร่วมมือระยะยาว ผู้สมัครต้องอธิบายภูมิหลังงานวิจัย โจทย์ แหล่งข้อมูล เวิร์กโฟลว์ปัจจุบัน วิธีใช้ Kimi และวิธีประเมินผล ส่วนการประมาณโทเคนและ milestone เป็นตัวเลือก รอบแรกปิดรับ 8 ธันวาคม 2026 และจะมีรอบถัดไป ยื่นได้หลายครั้งแต่พิจารณาเฉพาะครั้งล่าสุด",
+   "source_url": "https://pandaily.com/moonshot-kimi-for-science-research-program",
+   "tech_impact": "แล็บ AI จีนใช้เครดิต API ดึงนักวิจัยวิทยาศาสตร์เข้าสู่ระบบนิเวศของตน แข่งกับโครงการ AI for Science ของฝั่งสหรัฐฯ",
+   "tags": [
+    "moonshot-ai",
+    "kimi",
+    "ai-for-science",
+    "api-credits",
+    "research"
+   ],
+   "published_at": "2026-11-27T07:17:59+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "ai-for-science",
+    "research",
+    "llm-api"
+   ],
+   "actions_developer": [
+    "นักวิจัยไทยที่ทำงานร่วมกับจีนอาจพิจารณาสมัครก่อน 8 ธันวาคม 2026",
+    "เตรียมแผนประเมินผลการใช้ LLM ในงานวิจัยให้วัดผลได้"
+   ],
+   "actions_business": [
+    "มหาวิทยาลัยติดตามโครงการเครดิต AI จากหลายค่ายเพื่อลดต้นทุนวิจัย",
+    "ตรวจนโยบายข้อมูลก่อนส่งข้อมูลวิจัยไปยังผู้ให้บริการต่างประเทศ"
+   ],
+   "entities": {
+    "organizations": [
+     "Moonshot AI"
+    ],
+    "people": [],
+    "products": [
+     "Kimi",
+     "Kimi API",
+     "Kimi for Science"
+    ],
+    "places": [
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-12",
+   "slug": "idea-moonbit-1-0-language-ai-agents",
+   "title": "IDEA Unveils MoonBit 1.0, a General-Purpose Language Aimed at AI Agents",
+   "title_th": "IDEA เปิดตัว MoonBit 1.0 ภาษาโปรแกรมอเนกประสงค์ที่ออกแบบเพื่อ AI Agent มี sandbox และ formal verification ในตัว",
+   "topic_group": "tech-trends",
+   "source_name": "Pandaily",
+   "category": "International",
+   "urgency": "low",
+   "content": "ในงาน 2026 IDEA Conference ที่เซินเจิ้นเมื่อ 24 พฤศจิกายน Zhang Hongbo จากศูนย์วิจัยซอฟต์แวร์พื้นฐานของสถาบัน International Digital Economy Academy (IDEA) เปิดตัว MoonBit 1.0 ภาษาโปรแกรมอเนกประสงค์ที่มุ่งรองรับ AI agent ตัวภาษา compile ไปยัง JavaScript, WebAssembly และ native backend ใช้ sandbox ระดับภาษาบนพื้นฐาน WebAssembly และมี formal verification ในตัว โดยคำสั่ง moon prove จะแปลงเงื่อนไขของแพ็กเกจส่งให้ชุดเครื่องมือ prover ในการบรรยาย Zhang อ้างว่างาน compile กว่า 600 แพ็กเกจเสร็จในเวลาราวหนึ่งในสิบของ Rust และเร็วกว่า Go รวมถึงเครื่องมือเอกสารขนาดราว 880,000 บรรทัดที่ compile แบบ incremental ได้ในราว 1-2 วินาที แต่ตัวเลขเหล่านี้เป็น benchmark ที่ทีมรายงานเอง ไม่ใช่การทดสอบอิสระ Pandaily ระบุว่า MoonBit ยังอยู่ช่วงเริ่มต้น และระบบนิเวศของ Rust ยังเติบโตกว่ามาก",
+   "source_url": "https://pandaily.com/idea-moonbit-1-0-programming-language-ai-agents",
+   "tech_impact": "ภาษาที่ออกแบบให้ AI agent เขียนและตรวจสอบโค้ดได้ปลอดภัยสะท้อนเทรนด์ที่ verification และ sandbox กลายเป็นฟีเจอร์ระดับภาษา",
+   "tags": [
+    "moonbit",
+    "programming-languages",
+    "ai-agents",
+    "webassembly",
+    "formal-verification"
+   ],
+   "published_at": "2026-11-27T02:41:12+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "programming-languages",
+    "ai-agents",
+    "developer-tools"
+   ],
+   "actions_developer": [
+    "ทดลอง MoonBit กับงาน WebAssembly ที่ต้องการ sandbox ปลอดภัย",
+    "ศึกษาแนวคิด moon prove สำหรับให้ agent สร้างโค้ดพร้อมหลักฐานความถูกต้อง"
+   ],
+   "actions_business": [
+    "ติดตามความพร้อมของระบบนิเวศก่อนพิจารณาใช้ใน production",
+    "ประเมินภาษาที่ลดความเสี่ยงโค้ดจาก AI เป็นส่วนหนึ่งของกลยุทธ์ AI coding"
+   ],
+   "entities": {
+    "organizations": [
+     "International Digital Economy Academy"
+    ],
+    "people": [
+     "Zhang Hongbo"
+    ],
+    "products": [
+     "MoonBit 1.0",
+     "WebAssembly",
+     "Rust",
+     "Go"
+    ],
+    "places": [
+     "Shenzhen",
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-13",
+   "slug": "tencent-oridtp-nature-dual-target-peptides",
+   "title": "Tencent Lab Leads Nature Paper on AI-Designed Dual-Target Therapeutic Peptides",
+   "title_th": "แล็บ Tencent ตีพิมพ์ Nature แพลตฟอร์ม ORIDTP ใช้ AI ออกแบบเปปไทด์รักษาแบบสองเป้าหมาย GLP-1/GCGR",
+   "topic_group": "ai-trends",
+   "source_name": "Pandaily",
+   "category": "International",
+   "urgency": "medium",
+   "content": "AI for Life Sciences Lab ของ Tencent เป็นสังกัดแรกของบทความใน Nature ที่ตีพิมพ์เมื่อ 25 พฤศจิกายน 2026 ชื่อ De novo design of high-potency dual-target therapeutic peptides with ORIDTP ซึ่ง Tencent ระบุว่าเป็นบทความแรกในวารสารหลักของ Nature ที่บริษัทเป็นสังกัดแรก ผู้ประพันธ์บรรณกิจคือ Jianhua Yao จากแล็บเซินเจิ้น ORIDTP เป็นแพลตฟอร์ม AI ที่ถ่ายโอนความรู้จากเป้าหมายเดียวและใช้ reinforcement แบบสองเป้าหมายเพื่อออกแบบเปปไทด์ประสิทธิภาพสูง ประกอบด้วยโมดูล PepDif, PepDRL และ PepDAF ทำงานร่วมกับการทดลองในห้องแล็บ โดยทดสอบราว 15 เปปไทด์ต่อรอบ ในการทดลองด้านเมแทบอลิซึม ทีมออกแบบเปปไทด์ที่กระตุ้นทั้งตัวรับ GLP-1 และ glucagon receptor (GCGR) เปปไทด์หลัก GA-Dual.R5.S3 ช่วยปรับค่าความทนต่อกลูโคสและอินซูลินในหนูอ้วนจากอาหารหลังให้ยาวันเว้นวัน 21 วัน ที่ขนาด 1.5 นาโนโมลต่อกิโลกรัม ซึ่งเป็นหนึ่งในสิบของขนาดยาเปรียบเทียบอย่าง semaglutide",
+   "source_url": "https://pandaily.com/tencent-oridtp-nature-dual-target-therapeutic-peptides",
+   "tech_impact": "AI ออกแบบยาแบบหลายเป้าหมายด้วยรอบทดลองแล็บเพียงไม่กี่สิบตัวอย่าง ชี้ศักยภาพลดต้นทุนการค้นหายากลุ่มเมแทบอลิซึม",
+   "tags": [
+    "ai-drug-discovery",
+    "tencent",
+    "nature",
+    "peptides",
+    "glp-1"
+   ],
+   "published_at": "2026-11-27T02:40:33+00:00",
+   "breakthrough_potential": true,
+   "related_domains": [
+    "drug-discovery",
+    "biotech",
+    "ai-for-science"
+   ],
+   "actions_developer": [
+    "ศึกษาสถาปัตยกรรม diffusion + RL สำหรับออกแบบโมเลกุลหลายเป้าหมาย",
+    "ผสาน active learning กับผลแล็บรอบเล็กในโครงการ AI for science"
+   ],
+   "actions_business": [
+    "บริษัทยาและสตาร์ทอัพไบโอเทคติดตามแพลตฟอร์ม AI ออกแบบเปปไทด์",
+    "ประเมินความร่วมมือวิจัยกับแล็บ AI ของบริษัทเทคโนโลยี"
+   ],
+   "entities": {
+    "organizations": [
+     "Tencent",
+     "Nature"
+    ],
+    "people": [
+     "Jianhua Yao"
+    ],
+    "products": [
+     "ORIDTP",
+     "PepDif",
+     "PepDRL",
+     "PepDAF",
+     "GA-Dual.R5.S3",
+     "semaglutide"
+    ],
+    "places": [
+     "Shenzhen",
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-14",
+   "slug": "robbyant-lingbot-map-2-lingbot-navi",
+   "title": "Robbyant Releases LingBot-Map 2.0 and Open-Sources LingBot-Navi",
+   "title_th": "Robbyant ของ Ant Group เปิดตัว LingBot-Map 2.0 สร้างแผนที่ 3D แบบเรียลไทม์จากกล้องตัวเดียว และโอเพนซอร์ส LingBot-Navi",
+   "topic_group": "ai-trends",
+   "source_name": "Pandaily",
+   "category": "International",
+   "urgency": "low",
+   "content": "Robbyant บริษัท embodied AI ของ Ant Group เปิดตัว LingBot-Map 2.0 และโอเพนซอร์ส LingBot-Navi เมื่อ 27 พฤศจิกายน 2026 LingBot-Map 2.0 เป็นโมเดลสร้างภาพสามมิติแบบสตรีมที่ฟื้นฟูพื้นที่แบบเรียลไทม์จากวิดีโอ RGB กล้องตัวเดียว ใช้เทคนิค Geometric Context Reconsolidation (GCR) ที่ให้โมเดลเขียนหน่วยความจำเชิงพื้นที่ใหม่ภายใน cache ของตัวเอง แทนการพึ่ง loop closure หรือ pose graph ภายนอกเพียงอย่างเดียว รายงานทางเทคนิคระบุว่า GCR ลดค่าความคลาดเคลื่อนเส้นทางเฉลี่ย (ATE) เหลือ 4.72 เมตรบน VBR เทียบกับ 31.12 เมตรของเวอร์ชัน 1.0 และ 3.92 เมตรบน Oxford Spires กับ 9.42 เมตรบน KITTI โดย VBR มีเส้นทางยาวถึง 5.20 กิโลเมตรและเกือบ 19,000 เฟรม ความเร็วออนไลน์อยู่ที่ 27.51 views ต่อวินาทีบน GPU เดียว ซึ่งบทความที่บริษัทให้ข้อมูลระบุว่าเป็น RTX 5090 ตัวเลขทั้งหมดเป็นของบริษัท ไม่ใช่การทดสอบอิสระ ส่วน LingBot-Navi ใช้หน่วยความจำ 3D นี้สำหรับการนำทาง",
+   "source_url": "https://pandaily.com/robbyant-lingbot-map-2-lingbot-navi",
+   "tech_impact": "โมเดลแผนที่ 3D จากกล้องราคาถูกที่รันบน GPU เดียวลดต้นทุนเซนเซอร์ของหุ่นยนต์บริการและโลจิสติกส์",
+   "tags": [
+    "ant-group",
+    "robotics",
+    "3d-reconstruction",
+    "navigation",
+    "open-source"
+   ],
+   "published_at": "2026-11-27T07:15:57+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "robotics",
+    "computer-vision",
+    "embodied-ai"
+   ],
+   "actions_developer": [
+    "ทดลอง LingBot-Navi แบบโอเพนซอร์สกับหุ่นยนต์ที่มีกล้อง RGB ตัวเดียว",
+    "เทียบ ATE กับ SLAM แบบดั้งเดิมบนชุดข้อมูลของตนเอง"
+   ],
+   "actions_business": [
+    "ประเมินการลดต้นทุน LiDAR ในหุ่นยนต์ส่งของหรือทำความสะอาด",
+    "ติดตามระบบนิเวศ embodied AI ของ Ant Group ที่เปิดโอเพนซอร์สต่อเนื่อง"
+   ],
+   "entities": {
+    "organizations": [
+     "Robbyant",
+     "Ant Group"
+    ],
+    "people": [],
+    "products": [
+     "LingBot-Map 2.0",
+     "LingBot-Navi",
+     "RTX 5090"
+    ],
+    "places": [
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-15",
+   "slug": "shengshu-motubrain-2-world-action-model",
+   "title": "ShengShu Technology Releases Motubrain 2.0 World-Action Model and Harness",
+   "title_th": "ShengShu ผู้สร้าง Vidu เปิดตัว Motubrain 2.0 โมเดล world-action ขนาด 20B ฝึกด้วยข้อมูล 2.5 ล้านชั่วโมง",
+   "topic_group": "ai-trends",
+   "source_name": "Pandaily",
+   "category": "International",
+   "urgency": "low",
+   "content": "ShengShu Technology บริษัทเจ้าของโมเดลวิดีโอ Vidu เปิดตัว Motubrain 2.0 โมเดล world-action ขนาด 20 พันล้านพารามิเตอร์ พร้อมระบบ agent ชื่อ Motubrain-Harness หน้าเว็บทางการเรียกว่าเป็นโมเดลอเนกประสงค์แบบ agentic สำหรับโลกกายภาพ และระบุว่าเอกสารบน GitHub และ Hugging Face จะตามมาในสัปดาห์หน้า โดยยังไม่ปล่อย weights ตัวโมเดลเริ่มต้นเป็นระบบสี่สตรีมสำหรับข้อความ วิดีโอ การกระทำ และเรขาคณิต 3D ขณะที่ Harness เชื่อมการวางแผนระดับสูง การลงมือทำ และ feedback จากการโต้ตอบ LeiPhone รายงานว่าการฝึกใช้ข้อมูลหลายแหล่งราว 2.5 ล้านชั่วโมง ประกอบด้วยวิดีโออินเทอร์เน็ตราว 2 ล้านชั่วโมงและข้อมูล embodied ราว 500,000 ชั่วโมง ใช้การแทนการกระทำ 55 มิติชื่อ Canonical55 ที่สร้างบน Vidu หน้าเว็บทางการยืนยันขนาด 20B ข้อมูล 2.5 ล้านชั่วโมง และการทดลองงานกับหุ่นยนต์จริงกว่า 10,000 ครั้ง",
+   "source_url": "https://pandaily.com/shengshu-motubrain-2-world-action-model-harness",
+   "tech_impact": "บริษัทโมเดลวิดีโอจีนขยายสู่ world-action model สำหรับหุ่นยนต์ ใช้วิดีโออินเทอร์เน็ตมหาศาลเป็นความได้เปรียบด้านข้อมูล",
+   "tags": [
+    "world-models",
+    "embodied-ai",
+    "shengshu",
+    "vidu",
+    "robotics"
+   ],
+   "published_at": "2026-11-27T02:39:46+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "world-models",
+    "robotics",
+    "embodied-ai"
+   ],
+   "actions_developer": [
+    "รอ weights บน Hugging Face เพื่อทดสอบกับงาน manipulation",
+    "ศึกษา action representation แบบรวม (Canonical55) สำหรับหุ่นยนต์หลายรุ่น"
+   ],
+   "actions_business": [
+    "ติดตามการแข่งขัน world model ระหว่างจีนและสหรัฐฯ ที่จะกำหนดต้นทุนหุ่นยนต์",
+    "ประเมินผู้ให้บริการโมเดลหุ่นยนต์ก่อนลงทุนระบบ automation ระยะยาว"
+   ],
+   "entities": {
+    "organizations": [
+     "ShengShu Technology",
+     "LeiPhone"
+    ],
+    "people": [],
+    "products": [
+     "Motubrain 2.0",
+     "Motubrain-Harness",
+     "Vidu",
+     "Canonical55"
+    ],
+    "places": [
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-16",
+   "slug": "deepseek-per-turn-quota-display-test",
+   "title": "DeepSeek Tests a Per-Turn Consumption Quota Display on Web and App",
+   "title_th": "DeepSeek ทดสอบแสดงปริมาณโทเคนและค่าใช้จ่ายประมาณการต่อรอบสนทนาบนเว็บและแอป",
+   "topic_group": "tech-trends",
+   "source_name": "Pandaily",
+   "category": "International",
+   "urgency": "low",
+   "content": "DeepSeek กำลังทดสอบแบบ grayscale ฟีเจอร์แสดงปริมาณการใช้งานต่อรอบสนทนาบนเว็บไซต์และแอปมือถือ ตามรายงานผู้ใช้ที่ IT Home รวบรวมเมื่อ 27 พฤศจิกายน 2026 โดยบางคนเริ่มเห็นตั้งแต่ 26 พฤศจิกายน เมื่อจบหนึ่งรอบ หน้ารายละเอียดจะแสดงจำนวนโทเคนที่ใช้ ยอดเงินประมาณการที่คำนวณจากราคา API และสัดส่วน context window ที่ถูกใช้ไปแล้ว ทั้งนี้แชตส่วนบุคคลยังใช้ฟรี ตัวเลขที่แสดงเป็นเพียงการประมาณ ไม่ใช่ยอดที่เรียกเก็บจริง และ DeepSeek ยังไม่ประกาศเปลี่ยนนโยบายคิดเงินผู้บริโภค ภาพหน้าจอระบุว่าการประมาณใช้ราคา API ช่วง off-peak แบ่งเป็นสามส่วน คือ input ที่ hit cache 0.02 หยวนต่อล้านโทเคน input ที่ miss cache 1 หยวนต่อล้านโทเคน และ output 4 หยวนต่อล้านโทเคน ทำให้ input ที่ hit cache ถูกกว่า miss ถึง 50 เท่า เพราะระบบ cache บริบทเดิมไว้ รอบถัดไปจึงคำนวณเต็มราคาเฉพาะโทเคนใหม่",
+   "source_url": "https://pandaily.com/deepseek-per-turn-consumption-quota-display-grayscale",
+   "tech_impact": "การแสดงต้นทุนโทเคนให้ผู้บริโภคเห็นอาจเป็นสัญญาณเตรียมระบบโควตาหรือคิดเงิน และสร้างความเข้าใจเรื่อง prompt caching",
+   "tags": [
+    "deepseek",
+    "token-usage",
+    "pricing",
+    "consumer-ai",
+    "transparency"
+   ],
+   "published_at": "2026-11-27T02:39:17+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "llm-pricing",
+    "consumer-ai",
+    "prompt-caching"
+   ],
+   "actions_developer": [
+    "ออกแบบ prompt ให้ใช้ประโยชน์จาก cache hit เพื่อลดต้นทุน API ได้มาก",
+    "แสดงการใช้โทเคนให้ผู้ใช้เห็นในแอปของตนเพื่อความโปร่งใส"
+   ],
+   "actions_business": [
+    "เปรียบเทียบราคา API โมเดลจีนที่ต่ำมากกับผู้ให้บริการอื่นอย่างรอบคอบ",
+    "ติดตามความเป็นไปได้ที่บริการฟรีจะเริ่มมีโควตา"
+   ],
+   "entities": {
+    "organizations": [
+     "DeepSeek",
+     "IT Home"
+    ],
+    "people": [],
+    "products": [
+     "DeepSeek"
+    ],
+    "places": [
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b2-17",
+   "slug": "xiaomi-hyperos-1-20-had-world-model",
+   "title": "Xiaomi Announces HyperOS 1.20 HAD Update With a Causal Chain and On-Vehicle World Model",
+   "title_th": "Xiaomi ประกาศอัปเดตระบบช่วยขับ HAD บน HyperOS 1.20 เพิ่ม causal chain และ world model ในรถ",
+   "topic_group": "tech-trends",
+   "source_name": "Pandaily",
+   "category": "International",
+   "urgency": "low",
+   "content": "ในงาน Guangzhou Auto Show เมื่อ 27 พฤศจิกายน 2026 Li Xiaoshuang รองประธาน Xiaomi Auto ประกาศระบบช่วยขับ Xiaomi HAD เวอร์ชันล่าสุดบน Xiaomi HyperOS 1.20 ซึ่ง IT Home และ Sina Tech รายงานว่าบริษัทระบุว่ามีการนำ causal chain และ world model ที่ทำงานบนตัวรถเข้ามา อย่างไรก็ตาม ข้อมูลสาธารณะแทบไม่มีรายละเอียดทางเทคนิคที่ตรวจสอบได้ของทั้งสองคำ และ Pandaily เลือกไม่ทวนวลีการตลาดว่าระบบคิดแบบมนุษย์ ตามรายงาน รถรุ่น Xiaomi Pengcheng เริ่มได้รับอัปเดตเต็มรูปแบบตั้งแต่วันนี้ ส่วน SU7 Pro และ SU7 Max รุ่นแรก SU7 Ultra รวมถึง SU7 และ YU7 รุ่นใหม่ทั้งไลน์จะตามมาภายหลังตามประกาศทางการ นี่เป็นการประกาศเวอร์ชันซอฟต์แวร์และแผนทยอยปล่อย ไม่ใช่การเปิดตัวรถใหม่ ในงานเดียวกันยังเผยว่ายอดส่งมอบ Xiaomi Pengcheng เกิน 60,000 คันแล้ว ณ 26 พฤศจิกายน 2026",
+   "source_url": "https://pandaily.com/xiaomi-had-hyperos-1-20-causal-chain-world-model",
+   "tech_impact": "ค่ายรถจีนแข่งกันนำแนวคิด world model เข้าสู่ระบบช่วยขับ แต่ความโปร่งใสทางเทคนิคยังต่ำ",
+   "tags": [
+    "xiaomi",
+    "autonomous-driving",
+    "world-models",
+    "ev",
+    "hyperos"
+   ],
+   "published_at": "2026-11-27T02:41:41+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "autonomous-driving",
+    "automotive",
+    "world-models"
+   ],
+   "actions_developer": [
+    "ติดตามรายละเอียดเชิงเทคนิคของ on-vehicle world model เมื่อเปิดเผย",
+    "ศึกษาแนวทาง causal reasoning สำหรับระบบ ADAS"
+   ],
+   "actions_business": [
+    "ผู้นำเข้า EV จีนในไทยควรติดตามการรองรับ OTA ของรุ่นที่ขายในภูมิภาค",
+    "ประเมินข้อกำหนดความปลอดภัยของระบบช่วยขับก่อนทำการตลาด"
+   ],
+   "entities": {
+    "organizations": [
+     "Xiaomi",
+     "Xiaomi Auto",
+     "IT Home",
+     "Sina Tech"
+    ],
+    "people": [
+     "Li Xiaoshuang"
+    ],
+    "products": [
+     "Xiaomi HyperOS 1.20",
+     "Xiaomi HAD",
+     "Xiaomi Pengcheng",
+     "SU7",
+     "YU7"
+    ],
+    "places": [
+     "Guangzhou",
+     "China"
+    ]
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b3-01",
+   "slug": "stable-gated-deltanet-2-recurrent-state",
+   "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+   "title_th": "Stable Gated DeltaNet-2 แก้ปัญหา state ระเบิดของ linear attention ใน long-context เพิ่มคะแนน RULER 128K 6.80 จุด",
+   "topic_group": "ai-trends",
+   "source_name": "HuggingFace Daily Papers",
+   "category": "Research",
+   "urgency": "low",
+   "content": "งานวิจัยอันดับหนึ่งบน Hugging Face Daily Papers ประจำ 27 พฤศจิกายน ศึกษา Gated DeltaNet-2 (GDN-2) สถาปัตยกรรม linear attention ที่ให้ความซับซ้อนเชิงเส้นและ recurrent state ขนาดคงที่สำหรับลำดับยาว GDN-2 เพิ่มการควบคุมการลบและการเขียนแยกรายช่องสัญญาณ ช่วยให้อัปเดต state ได้ยืดหยุ่นและค้นคืนข้อมูลในบริบทได้ดีขึ้น แต่มักฝึกล้มเหลวเมื่อฝึก long-context ทีมวิจัยพบว่าต้นเหตุคือความไม่สมมาตรระหว่างทิศการอ่านและการแก้ไขระหว่างการลบ ทำให้ตัวดำเนินการลบไม่เป็น normal และสะสมอัตราขยายข้าม token จน state โตแบบเอ็กซ์โพเนนเชียลแม้ไม่มีการเขียนใหม่ จึงเสนอการลบแบบสมมาตรเพื่อให้การส่งต่อ state ไม่ขยายตัว พร้อม residual writing ที่ควบคุมด้วย decay พิสูจน์ขอบเขตบนการเติบโตของ state ที่ O(T) โดยยังคำนวณขนานแบบ chunkwise ได้ การทดลองกับโมเดลราว 1.6B พารามิเตอร์ให้การฝึกเสถียร คะแนนเฉลี่ย RULER ที่ 128K เพิ่ม 6.80 จุดในโหมด recurrent และความแม่นยำเฉลี่ย 9 งานเพิ่ม 0.62 จุดในโหมด hybrid",
+   "source_url": "https://arxiv.org/abs/2611.34051",
+   "tech_impact": "ช่วยให้สถาปัตยกรรม linear/hybrid attention ฝึกกับบริบทยาวได้เสถียร ลดต้นทุน inference ของโมเดล long-context",
+   "tags": [
+    "linear-attention",
+    "long-context",
+    "architecture",
+    "arxiv",
+    "training-stability"
+   ],
+   "published_at": "2026-11-25T00:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "model-architecture",
+    "long-context",
+    "training"
+   ],
+   "actions_developer": [
+    "ทดลองใช้ symmetric erasure ในโมเดล linear attention ที่ฝึก long-context แล้วไม่เสถียร",
+    "ประเมินโมเดล hybrid ด้วย RULER ที่ความยาวหลายระดับ"
+   ],
+   "actions_business": [
+    "ติดตามสถาปัตยกรรมทางเลือกของ transformer ที่ลดต้นทุนบริบทยาว",
+    "พิจารณาโมเดล hybrid สำหรับงานเอกสารยาวที่ต้องคุมค่า GPU"
+   ],
+   "entities": {
+    "organizations": [],
+    "people": [
+     "Xichong Zhang",
+     "Xixuan Hao"
+    ],
+    "products": [
+     "Gated DeltaNet-2",
+     "RULER"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b3-02",
+   "slug": "os-omni-computer-use-agent-benchmark",
+   "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+   "title_th": "OS-Omni benchmark ทดสอบ computer-use agent ข้าม 6 แพลตฟอร์ม Claude Opus 5.5 ทำได้ 68.5% ยังตามมนุษย์ 8.8 จุด",
+   "topic_group": "ai-trends",
+   "source_name": "HuggingFace Daily Papers",
+   "category": "Research",
+   "urgency": "medium",
+   "content": "งานวิจัย OS-Omni เสนอ benchmark และสภาพแวดล้อมทดสอบแบบ live สำหรับประเมิน computer-using agent ข้ามแพลตฟอร์ม Windows, Ubuntu, macOS, iOS, Android และเว็บ เพื่อตอบคำถามว่า agent ทั่วไปตัวเดียวทำงานระยะยาวที่ข้ามระบบปฏิบัติการและสถานะแอปที่คงอยู่ได้หรือไม่ เนื่องจาก benchmark เดิมมักแยกทดสอบเว็บ มือถือ หรือเดสก์ท็อป OS-Omni ปล่อยเป็นระลอกละ 300 งาน โดย v1 มี 48 งานต่อแพลตฟอร์ม และ 12 เวิร์กโฟลว์ข้ามแพลตฟอร์มที่จับคู่เดสก์ท็อปกับโทรศัพท์ Android มีการตั้งค่าเริ่มต้นที่ทำซ้ำได้ adapter เฉพาะแพลตฟอร์ม การบันทึก trajectory และตัวประเมินสถานะสุดท้าย รวมถึงแอปจำลองสำหรับบัญชี ตะกร้า งบประมาณ ปฏิทิน และข้อความ การศึกษากับมนุษย์พบว่างานต้องใช้เฉลี่ย 67.54 ขั้นตอน สูงกว่า OSWorld ที่ 15.0 ขั้นตอนมาก บน v1 agent ที่ดีที่สุดคือ Claude Opus 5.5 ได้อัตราสำเร็จเฉลี่ย 68.5% ตามหลังมนุษย์ที่ 77.3% อยู่ 8.8 จุด",
+   "source_url": "https://arxiv.org/abs/2611.34232",
+   "tech_impact": "computer-use agent เข้าใกล้ระดับมนุษย์ในงานหลายขั้นตอนข้ามอุปกรณ์ เปิดทางสู่ระบบอัตโนมัติงานสำนักงานจริง",
+   "tags": [
+    "computer-use",
+    "ai-agents",
+    "benchmark",
+    "arxiv",
+    "claude"
+   ],
+   "published_at": "2026-11-25T00:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "ai-agents",
+    "benchmarks",
+    "automation"
+   ],
+   "actions_developer": [
+    "ใช้ OS-Omni ประเมิน agent ภายในองค์กรก่อนปล่อยงานจริง",
+    "ออกแบบ agent ให้จัดการสถานะแอปที่คงอยู่และงานข้ามอุปกรณ์"
+   ],
+   "actions_business": [
+    "ระบุเวิร์กโฟลว์หลายแอปที่ agent อาจทำแทนได้ใน 1-2 ปี",
+    "วางมาตรการกำกับเมื่อ agent ทำงานบนบัญชีและข้อมูลจริง"
+   ],
+   "entities": {
+    "organizations": [
+     "Anthropic"
+    ],
+    "people": [
+     "Hui Shen",
+     "Yunta Hsieh"
+    ],
+    "products": [
+     "OS-Omni",
+     "Claude Opus 5.5",
+     "OSWorld"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b3-03",
+   "slug": "coding-agents-beat-video-models-visual-reasoning",
+   "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+   "title_th": "งานวิจัยชี้ coding agent เขียนโปรแกรมแก้โจทย์ visual reasoning ได้ดีกว่าโมเดลสร้างวิดีโอ ทิ้งห่างกว่า 0.22",
+   "topic_group": "ai-trends",
+   "source_name": "HuggingFace Daily Papers",
+   "category": "Research",
+   "urgency": "low",
+   "content": "งานวิจัย Solve Vision with Code ตั้งคำถามกับกระแสที่ใช้โมเดลสร้างวิดีโอเป็นผู้ให้เหตุผลเชิงภาพ คือให้เฟรมแรกกับคำสั่งแล้วดูว่าโมเดลสร้างวิดีโอที่ทำงานนั้นสำเร็จหรือไม่ ทีมวิจัยให้โจทย์เดียวกัน อินพุต สเปกผลลัพธ์ และตัวประเมินเดียวกันกับทางเลือกเชิงสัญลักษณ์ โดยให้ coding agent เขียนโปรแกรมเรนเดอร์วิดีโอคำตอบแทนการ denoise พิกเซล แล้วให้ตัวประเมินแบบกฎที่ไม่ดัดแปลงให้คะแนน บน VBVR-Pro-Bench ที่มี 500 ตัวอย่างใน 5 หมวดการรับรู้ agent ได้เฟรมแรกและคำสั่งเหมือนโมเดลวิดีโอ ไม่เห็นคำตอบหรือ metadata และทำได้ครั้งเดียว ผลคือ agent ปิดสามตัว ได้แก่ Codex กับ gpt-6-astra ได้ 0.923, Claude Code กับ Fable 5.1 ได้ 0.894 และ Gemini CLI กับ Gemini 3.1 Pro ได้ 0.893 ทุกตัวสูงกว่าโมเดลวิดีโอที่ดีที่สุดเกิน 0.22 และมีการทดสอบโมเดล open-weight อีก 23 ตัว",
+   "source_url": "https://arxiv.org/abs/2611.34813",
+   "tech_impact": "การแก้โจทย์ภาพผ่านโค้ดเชิงสัญลักษณ์แม่นยำกว่าการสร้างพิกเซลโดยตรง ชี้แนวทาง agent ที่ใช้เครื่องมือสำหรับงานภาพ",
+   "tags": [
+    "visual-reasoning",
+    "coding-agents",
+    "video-generation",
+    "benchmark",
+    "arxiv"
+   ],
+   "published_at": "2026-11-25T00:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "computer-vision",
+    "coding-agents",
+    "benchmarks"
+   ],
+   "actions_developer": [
+    "ให้ agent เขียนโค้ดเรนเดอร์หรือวิเคราะห์ภาพแทนการพึ่งโมเดล generative อย่างเดียว",
+    "ใช้ตัวประเมินแบบกฎที่ตรวจสอบได้ในงาน visual reasoning"
+   ],
+   "actions_business": [
+    "เลือกแนวทาง code-based สำหรับงานภาพที่ต้องการความถูกต้องสูง",
+    "ระวังการอ้างความสามารถให้เหตุผลของโมเดลวิดีโอในการตลาด"
+   ],
+   "entities": {
+    "organizations": [
+     "OpenAI",
+     "Anthropic",
+     "Google"
+    ],
+    "people": [
+     "Dezhi Luo",
+     "Fengyuan Yu"
+    ],
+    "products": [
+     "VBVR-Pro-Bench",
+     "Codex",
+     "Claude Code",
+     "Gemini CLI",
+     "Gemini 3.1 Pro"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b3-04",
+   "slug": "proxygenbench-proxy-guided-video-generation",
+   "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+   "title_th": "ProxyGenBench ทดสอบการสร้างวิดีโอที่ควบคุมด้วย 3D blockout พบรายละเอียด proxy มากขึ้นอาจทำให้เติมเนื้อหาแย่ลง",
+   "topic_group": "ai-trends",
+   "source_name": "HuggingFace Daily Papers",
+   "category": "Research",
+   "urgency": "low",
+   "content": "งานวิจัย ProxyGenBench ชี้ว่าแม้โมเดลสร้างวิดีโอปัจจุบันจะให้ภาพสมจริง แต่การควบคุมว่าฉากจะดำเนินไปอย่างไรยังยาก วิธีหนึ่งคือใช้ structural proxy เช่น 3D blockout แบบเคลื่อนไหว เพื่อกำหนดเลย์เอาต์ฉาก การเคลื่อนไหว กล้อง และลำดับเหตุการณ์ แต่ proxy หยาบเหล่านี้ไม่มีรายละเอียดและอาจมี artifact ที่ไม่ควรถูกลอกตาม การสร้างวิดีโอที่ดีจึงต้องรักษาโครงสร้างที่ตั้งใจ (Preserve) เติมเนื้อหาที่ขาดและแก้ artifact (Complete) และผูกเงื่อนไขข้อความ ภาพ และเสียงเข้ากับวัตถุและเหตุการณ์ที่ถูกต้อง (Bind) benchmark นี้มี 312 กรณีทดสอบจาก 60 ฉากใน 3 งาน พร้อมปรับระดับความละเอียดของ proxy รายละเอียดข้อความ และอินพุตหลายรูปแบบ ทีมประเมินโมเดลสร้างวิดีโอ 5 ตัวด้วย checklist เฉพาะกรณีที่ตรวจสอบแล้ว พบว่า proxy ช่วยควบคุมเชิงพื้นที่และเวลาได้ แต่ proxy ที่ละเอียดขึ้นกลับมาพร้อมการเติมเนื้อหาที่แย่ลง และการยึดโครงสร้างสูงไม่ได้รับประกันการผูกเงื่อนไขที่ถูกต้อง",
+   "source_url": "https://arxiv.org/abs/2611.34457",
+   "tech_impact": "ช่วยสตูดิโอและทีม previs เข้าใจข้อจำกัดของการคุมวิดีโอ AI ด้วย 3D blockout ก่อนนำไปใช้ในโปรดักชัน",
+   "tags": [
+    "video-generation",
+    "benchmark",
+    "3d-proxy",
+    "controllability",
+    "arxiv"
+   ],
+   "published_at": "2026-11-25T00:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "video-generation",
+    "benchmarks",
+    "creative-tools"
+   ],
+   "actions_developer": [
+    "ใช้ checklist แบบ Preserve/Complete/Bind ประเมินโมเดลวิดีโอที่เลือกใช้",
+    "ทดลองระดับความละเอียดของ proxy ที่สมดุลระหว่างการควบคุมและคุณภาพ"
+   ],
+   "actions_business": [
+    "สตูดิโอโฆษณาและภาพยนตร์ประเมินเวิร์กโฟลว์ previs-to-video ด้วยเกณฑ์ชัดเจน",
+    "ตั้งความคาดหวังลูกค้าเรื่องความแม่นยำของวิดีโอ AI ที่ควบคุมด้วยโครงร่าง 3D"
+   ],
+   "entities": {
+    "organizations": [],
+    "people": [
+     "Zhenchen Tang",
+     "Haolin Lu"
+    ],
+    "products": [
+     "ProxyGenBench"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b3-05",
+   "slug": "stateweaver-multi-agent-long-video-generation",
+   "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+   "title_th": "StateWeaver ระบบ multi-agent คุมความต่อเนื่องของสถานะเรื่องราวข้ามช็อต สำหรับการสร้างวิดีโอยาว",
+   "topic_group": "ai-trends",
+   "source_name": "HuggingFace Daily Papers",
+   "category": "Research",
+   "urgency": "low",
+   "content": "งานวิจัย StateWeaver แก้ปัญหาที่โมเดลพื้นฐานด้านวิดีโอสร้างคลิปสั้นคุณภาพสูงได้ แต่ยังรักษาความสม่ำเสมอของวิดีโอยาวและแสดงการเปลี่ยนสถานะตามเหตุการณ์ได้ไม่ดี เวิร์กโฟลว์แบบ agent เดิมเจอปัญหาบริบทสะสมจากการวางแผนและซ่อมแซมต่อเนื่อง และการอัปเดตภาพอ้างอิงที่จำกัด StateWeaver จึงผสาน Active States กับ Hierarchical Collaboration โดย Active States แปลงความคลาดเคลื่อนของสถานะที่พบระหว่างการรีวิวเป็นข้อกำหนดของ visual asset ที่ชัดเจน เพื่อชี้นำการสร้าง ตรวจสอบ และสร้างภาพอ้างอิงใหม่ โดยรักษาตัวตนและเนื้อหาที่ถูกต้องอยู่แล้วไว้ และซ่อมเฉพาะคุณลักษณะเป้าหมาย ผลที่ยืนยันแล้วจะผูกกับสถานะ asset เวลาในเรื่อง และเวอร์ชันภาพอ้างอิงเพื่อให้ช็อตถัดไปตรวจสอบและนำไปใช้ ขณะที่ Hierarchical Collaboration แยกบริบทการทำงานตามงาน คลิป และรอบการซ่อม ใช้หน่วยความจำแบบลำดับชั้น ผลทดสอบหลาย benchmark ดีกว่าวิธีเดิม",
+   "source_url": "https://arxiv.org/abs/2611.34290",
+   "tech_impact": "แนวทาง multi-agent พร้อมการจัดการสถานะช่วยให้วิดีโอ AI ความยาวระดับเล่าเรื่องได้ใกล้ความเป็นจริงขึ้น",
+   "tags": [
+    "video-generation",
+    "multi-agent",
+    "long-video",
+    "consistency",
+    "arxiv"
+   ],
+   "published_at": "2026-11-25T00:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "video-generation",
+    "multi-agent-systems",
+    "creative-tools"
+   ],
+   "actions_developer": [
+    "ใช้แนวคิด state tracking ของ asset เมื่อสร้างวิดีโอหลายช็อตด้วย AI",
+    "แยกบริบท agent ตามงานย่อยเพื่อลด context bloat"
+   ],
+   "actions_business": [
+    "ประเมินการผลิตคอนเทนต์วิดีโอยาวด้วย AI สำหรับการตลาดหรือการศึกษา",
+    "กำหนดขั้นตอนรีวิวความต่อเนื่องของตัวละครและแบรนด์"
+   ],
+   "entities": {
+    "organizations": [],
+    "people": [
+     "Modi Jin",
+     "Xuying Zhang"
+    ],
+    "products": [
+     "StateWeaver"
+    ],
+    "places": []
+   },
+   "youtube_channel": "",
+   "youtube_video": ""
+  },
+  {
+   "id": "20261128-b3-06",
+   "slug": "two-minute-papers-gemini-4-neon-safety-report",
+   "title": "DeepMind's New AI Just Changed The AI Race",
+   "title_th": "Two Minute Papers วิเคราะห์ Gemini 4 Neon ของ DeepMind ผ่านรายงานความปลอดภัยฉบับทางการ",
+   "topic_group": "ai-trends",
+   "source_name": "Two Minute Papers",
+   "category": "YouTube",
+   "urgency": "low",
+   "content": "ช่อง Two Minute Papers เผยแพร่วิดีโอ DeepMind's New AI Just Changed The AI Race เมื่อ 27 พฤศจิกายน 2026 ข้อมูลจากคำอธิบายวิดีโอระบุว่าเนื้อหาอ้างอิงรายงานความปลอดภัย (safety report) ของ Gemini 4 Neon ที่ Google DeepMind เผยแพร่บน storage ของ deepmind-media และรวบรวมตัวอย่างการใช้งานจากผู้ใช้บน X จำนวนมาก บ่งชี้ว่าวิดีโอพาชมความสามารถและผลการประเมินความปลอดภัยของโมเดลแนวหน้ารุ่นใหม่ของ Google วิดีโอนี้ได้รับการสนับสนุนโดย Lambda GPU Cloud บันทึกนี้อิงเฉพาะ metadata ของวิดีโอบน YouTube ไม่ได้ดาวน์โหลดหรือถอดเนื้อหาวิดีโอ ผู้สนใจรายละเอียดเชิงตัวเลขควรอ่านรายงานความปลอดภัยฉบับทางการโดยตรง",
+   "source_url": "https://www.youtube.com/watch?v=u6UYsl-KEoc",
+   "tech_impact": "รายงานความปลอดภัยของ Gemini 4 Neon เป็นข้อมูลสำคัญสำหรับองค์กรที่เปรียบเทียบโมเดลแนวหน้าก่อนเลือกใช้",
+   "tags": [
+    "youtube",
+    "google-deepmind",
+    "gemini",
+    "ai-safety",
+    "frontier-models"
+   ],
+   "published_at": "2026-11-27T08:42:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "frontier-models",
+    "ai-safety",
+    "model-evaluation"
+   ],
+   "actions_developer": [
+    "อ่าน safety report ของ Gemini 4 Neon ประกอบการทดสอบโมเดลในงานจริง",
+    "เปรียบเทียบผล eval ภายในกับข้อมูลที่ผู้ผลิตเผยแพร่"
+   ],
+   "actions_business": [
+    "ใช้รายงานความปลอดภัยของผู้ผลิตเป็นส่วนหนึ่งของการประเมินผู้ขาย AI",
+    "ติดตามการแข่งขันโมเดลแนวหน้าที่อาจกระทบราคาและสัญญา"
+   ],
+   "entities": {
+    "organizations": [
+     "Google DeepMind",
+     "Lambda"
+    ],
+    "people": [],
+    "products": [
+     "Gemini 4 Neon"
+    ],
+    "places": []
+   },
+   "youtube_channel": "https://www.youtube.com/@TwoMinutePapers",
+   "youtube_video": "https://www.youtube.com/watch?v=u6UYsl-KEoc"
+  },
+  {
+   "id": "20261128-b3-07",
+   "slug": "sam-witteveen-inkling-2-mini-looped-transformer",
+   "title": "Inkling 2 Mini - The Qwen 27B Killer?",
+   "title_th": "Sam Witteveen รีวิว Inkling 2 Mini โมเดล looped transformer แบบ MoE 26B จาก Thinking Machines เทียบ Qwen 27B",
+   "topic_group": "ai-trends",
+   "source_name": "Sam Witteveen",
+   "category": "YouTube",
+   "urgency": "low",
+   "content": "Sam Witteveen เผยแพร่วิดีโอรีวิว Inkling 2 Mini เมื่อ 27 พฤศจิกายน 2026 ตามคำอธิบายวิดีโอ โมเดลนี้มาจาก Thinking Machines เป็น looped transformer แบบโลคัล ขนาด 26B แบบ Mixture-of-Experts ที่ใช้พารามิเตอร์ active 3.4B รองรับ context 1 ล้านโทเคน และเปิดให้ใช้ภายใต้สัญญาอนุญาต Apache 2.0 พร้อมบล็อกทางการและหน้า Hugging Face ไทม์สแตมป์ของวิดีโอครอบคลุมเหตุผลที่โมเดล looped แบบเปิดมีความสำคัญ ประวัติของ Thinking Machines ตระกูลโมเดล Inkling การเทียบ benchmark กับ Qwen3.8-27B หลักการของ loop transformer ที่วนประมวลผลชั้นกลางซ้ำหลายรอบ เหตุผลที่วาง loop ไว้ตรงกลาง การเชื่อมต่อระหว่างแต่ละรอบ โหมดวิจัยที่ปรับได้ตั้งแต่ 1 ถึง 5 passes และข้อสังเกตว่าการวนซ้ำไม่ได้เพิ่มความรู้ให้โมเดล บันทึกนี้อิงจาก metadata ของวิดีโอเท่านั้น",
+   "source_url": "https://www.youtube.com/watch?v=W8MYFyGxSas",
+   "tech_impact": "looped transformer แบบเปิดเสนอทางเลือกเพิ่มความสามารถการคิดโดยไม่เพิ่มพารามิเตอร์ เหมาะกับการรันโลคัล",
+   "tags": [
+    "youtube",
+    "thinking-machines",
+    "looped-transformer",
+    "open-weights",
+    "moe"
+   ],
+   "published_at": "2026-11-27T14:00:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "open-weight-models",
+    "model-architecture",
+    "local-ai"
+   ],
+   "actions_developer": [
+    "ทดลองรัน Inkling 2 Mini จาก Hugging Face และปรับจำนวน pass เทียบคุณภาพกับความเร็ว",
+    "เทียบกับ Qwen3.8-27B ในงานภาษาไทยของตนเอง"
+   ],
+   "actions_business": [
+    "พิจารณาโมเดล open-weight Apache 2.0 สำหรับงานที่ต้องเก็บข้อมูลภายใน",
+    "ประเมินต้นทุนฮาร์ดแวร์ของโมเดล active 3.4B สำหรับใช้งานโลคัล"
+   ],
+   "entities": {
+    "organizations": [
+     "Thinking Machines",
+     "Hugging Face",
+     "Alibaba"
+    ],
+    "people": [
+     "Sam Witteveen"
+    ],
+    "products": [
+     "Inkling 2 Mini",
+     "Qwen3.8-27B"
+    ],
+    "places": []
+   },
+   "youtube_channel": "https://www.youtube.com/@samwitteveenai",
+   "youtube_video": "https://www.youtube.com/watch?v=W8MYFyGxSas"
+  },
+  {
+   "id": "20261128-b3-08",
+   "slug": "networkchuck-nod-n8n-open-source-agent",
+   "title": "you need to try Nod RIGHT NOW!! (n8n's open-source AI agent)",
+   "title_th": "NetworkChuck แนะนำ Nod AI agent โอเพนซอร์สแบบ self-hosted จาก n8n Labs เน้นสถาปัตยกรรมความปลอดภัยรหัสผ่านและบัตร",
+   "topic_group": "tech-trends",
+   "source_name": "NetworkChuck",
+   "category": "YouTube",
+   "urgency": "low",
+   "content": "NetworkChuck เผยแพร่วิดีโอแนะนำ Nod เมื่อ 28 พฤศจิกายน 2026 ตามคำอธิบายวิดีโอ Nod เป็น AI agent ส่วนตัวแบบโอเพนซอร์สและ self-hosted ที่ n8n Labs เพิ่งเปิดตัว ต่างจาก personal agent แบบโฮสต์อย่าง OpenAI Dots, Grok Bot และ Claude Duet ตรงที่รันบนฮาร์ดแวร์ที่ผู้ใช้ควบคุมเอง และใช้กับโมเดลใดก็ได้ ทั้งคลาวด์ โลคัล หรือ Hostinger AI Router จุดเด่นที่ผู้สร้างวิดีโอยกย่องคือสถาปัตยกรรมความปลอดภัยเริ่มต้น ซึ่งรับมือส่วนที่น่ากลัวที่สุดของ personal agent คือการให้รหัสผ่านและบัตรเครดิต โดย Nod จะปิดตา agent ทุกครั้งที่มีการป้อนรหัสผ่าน รหัส 2FA หรือรหัสความปลอดภัยบัตร และมีตัวตรวจสอบความปลอดภัยแบบแยกห้องมืดคอยตรวจ ภายในใช้ Pi ใน Docker ร่วมกับ Agent Browser ของ Vercel Labs วิดีโอสาธิตการติดตั้งบน VPS ภายในสองนาที และได้รับการสนับสนุนจาก Hostinger บันทึกนี้อิงเฉพาะ metadata",
+   "source_url": "https://www.youtube.com/watch?v=_rUMZwo_bY0",
+   "tech_impact": "agent ส่วนตัวแบบ self-hosted ที่แยกข้อมูลลับออกจากโมเดลเป็นแนวทางลดความเสี่ยงหลักของ agentic browsing",
+   "tags": [
+    "youtube",
+    "n8n",
+    "ai-agents",
+    "self-hosted",
+    "security"
+   ],
+   "published_at": "2026-11-28T00:26:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "ai-agents",
+    "self-hosting",
+    "security"
+   ],
+   "actions_developer": [
+    "ศึกษาการแยก credential ออกจากบริบทของ agent ตามแนวทางของ Nod",
+    "ทดลอง deploy ใน container แยกพร้อมจำกัดสิทธิ์เครือข่าย"
+   ],
+   "actions_business": [
+    "พิจารณา agent แบบ self-hosted สำหรับงานที่ต้องเข้าถึงบัญชีบริษัท",
+    "กำหนดนโยบายห้าม agent ถือรหัสผ่านหรือข้อมูลบัตรโดยตรง"
+   ],
+   "entities": {
+    "organizations": [
+     "n8n Labs",
+     "Hostinger",
+     "Vercel Labs",
+     "OpenAI",
+     "Anthropic",
+     "xAI"
+    ],
+    "people": [
+     "NetworkChuck"
+    ],
+    "products": [
+     "Nod",
+     "Agent Browser",
+     "Docker",
+     "Hostinger AI Router"
+    ],
+    "places": []
+   },
+   "youtube_channel": "https://www.youtube.com/@NetworkChuck",
+   "youtube_video": "https://www.youtube.com/watch?v=_rUMZwo_bY0"
+  },
+  {
+   "id": "20261128-b3-09",
+   "slug": "fireship-tech-trends-2027",
+   "title": "The wild world of tech in 2027...",
+   "title_th": "Fireship สรุป 10 เทรนด์ที่นักพัฒนาต้องจับตาปี 2027 ตั้งแต่งาน junior dev หายไปถึงโอเพนซอร์สล้นด้วย AI slop",
+   "topic_group": "tech-trends",
+   "source_name": "Fireship",
+   "category": "YouTube",
+   "urgency": "low",
+   "content": "Fireship เผยแพร่วิดีโอ The wild world of tech in 2027 เมื่อ 27 พฤศจิกายน 2026 ตามคำอธิบายวิดีโอ เนื้อหารวบรวม 10 เทรนด์ที่นักพัฒนาทุกคนควรจับตาในปี 2027 เพื่อไม่ให้ตกขบวน โดยยกประเด็นหลักสามข้อเป็นตัวอย่าง คือ ตำแหน่งงานนักพัฒนาระดับ junior กำลังหายไปเมื่อ AI รับงานพื้นฐาน โปรเจกต์โอเพนซอร์สกำลังจมอยู่กับ slop หรือโค้ดและ pull request คุณภาพต่ำที่สร้างด้วย AI และการรันคำสั่ง npm install กลายเป็นการเสี่ยงดวงจากการโจมตี supply chain ของแพ็กเกจ วิดีโอใช้โทนเสียดสีตามสไตล์ช่อง และได้รับการสนับสนุนจาก Hostinger ในช่วง Black Friday บันทึกนี้อิงเฉพาะ metadata ของวิดีโอบน YouTube ไม่ได้ดาวน์โหลดหรือถอดเนื้อหา จึงไม่ได้ระบุเทรนด์ครบทั้ง 10 ข้อ แต่ประเด็นที่ยกมาสอดคล้องกับความกังวลในวงการนักพัฒนาช่วงปลายปี",
+   "source_url": "https://www.youtube.com/watch?v=sPGzM3ktJVE",
+   "tech_impact": "สัญญาณเตือนเรื่องตลาดงานนักพัฒนาระดับต้น คุณภาพโอเพนซอร์ส และความปลอดภัย supply chain ในยุค AI coding",
+   "tags": [
+    "youtube",
+    "developer-trends",
+    "open-source",
+    "supply-chain",
+    "careers"
+   ],
+   "published_at": "2026-11-27T16:08:00+00:00",
+   "breakthrough_potential": false,
+   "related_domains": [
+    "developer-careers",
+    "open-source",
+    "software-supply-chain"
+   ],
+   "actions_developer": [
+    "ล็อกเวอร์ชันแพ็กเกจและใช้เครื่องมือสแกน supply chain ก่อน npm install",
+    "สร้างทักษะที่ AI ทดแทนยาก เช่น system design และการตรวจสอบโค้ด"
+   ],
+   "actions_business": [
+    "ทบทวนเส้นทางพัฒนาบุคลากรระดับ junior ไม่ให้ขาดช่วง",
+    "วางนโยบายรับ contribution ที่สร้างด้วย AI ในโปรเจกต์โอเพนซอร์สขององค์กร"
+   ],
+   "entities": {
+    "organizations": [
+     "Hostinger",
+     "npm"
+    ],
+    "people": [],
+    "products": [
+     "npm"
+    ],
+    "places": []
+   },
+   "youtube_channel": "https://www.youtube.com/@Fireship",
+   "youtube_video": "https://www.youtube.com/watch?v=sPGzM3ktJVE"
+  }
+ ]
+}
